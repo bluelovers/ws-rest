@@ -1,0 +1,20 @@
+{
+  "name": "router-uri-convert",
+  "version": "1.0.0",
+  "description": "convert uri-template replace :varname with {+varname} to make it RFC 6570 compatible",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "npx nyc npm run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
+    "postpublish": "git commit -m \"publish new version\" . & echo postpublish",
+    "sort-package-json": "npx sort-package-json ./package.json",
+    "test": "npx mocha --debug --require ts-node/register"
+  },
+  "devDependencies": {
+    "uri-template-lite": "^19.4.0"
+  }
+}
