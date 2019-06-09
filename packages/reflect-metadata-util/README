@@ -1,0 +1,81 @@
+
+```
+yarn add reflect-metadata-util
+```
+
+```ts
+import { getClassMetadata, getThisTypeMetadata, setThisTypeMetadata, setClassMetadata, IPropertyKey } from '..';
+
+
+@Reflect.metadata('kkkk', 1111)
+class C1
+{
+	constructor()
+	{
+		console.log(`constructor`);
+		console.log(1, getClassMetadata('kkkk', this));
+		console.log(2, getThisTypeMetadata('kkkk', this));
+
+		console.log(3, getClassMetadata('kkkk', this, 'constructor'));
+		console.log(4, getThisTypeMetadata('kkkk', this, 'constructor'));
+
+		console.log(`---------------`);
+	}
+
+	@LOG
+	@Reflect.metadata('kkkk', 2222)
+	m1()
+	{
+		console.log(1, getClassMetadata('kkkk', this));
+		console.log(2, getThisTypeMetadata('kkkk', this));
+
+		console.log(3, getClassMetadata('kkkk', this, 'm1'));
+		console.log(4, getThisTypeMetadata('kkkk', this, 'm1'));
+	}
+}
+
+function LOG(target: any, propertyName: IPropertyKey, descriptor: TypedPropertyDescriptor<any>)
+{
+	const old = descriptor.value;
+	descriptor.value = function (...argv: any)
+	{
+		console.log(propertyName);
+		let ret = old.apply(this, argv)
+		console.log(`---------------`);
+		return ret;
+	}
+}
+
+console.log(`C1`);
+
+console.log(1, getClassMetadata('kkkk', C1));
+console.log(2, getThisTypeMetadata('kkkk', C1));
+
+console.log(3, getClassMetadata('kkkk', C1, 'm1'));
+console.log(4, getThisTypeMetadata('kkkk', C1, 'm1'));
+
+console.log(`---------------`);
+
+(new C1).m1();
+```
+
+```
+C1
+1 1111
+2 undefined
+3 undefined
+4 undefined
+---------------
+constructor
+1 undefined
+2 1111
+3 undefined
+4 undefined
+---------------
+m1
+1 undefined
+2 1111
+3 2222
+4 undefined
+---------------
+```

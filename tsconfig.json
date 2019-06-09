@@ -1,0 +1,9 @@
+{
+  "extends": "@bluelovers/tsconfig",
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "emitDeclarationOnly": false,
+    "noImplicitAny": true,
+    "esModuleInterop": true
+  }
+}

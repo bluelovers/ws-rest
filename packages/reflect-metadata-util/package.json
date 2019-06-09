@@ -1,0 +1,30 @@
+{
+  "name": "reflect-metadata-util",
+  "version": "1.0.0",
+  "description": "reflect-metadata util",
+  "license": "ISC",
+  "author": "",
+  "keywords": [
+    "decorator",
+    "metadata",
+    "javascript",
+    "reflect",
+    "util"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "coverage": "npx nyc npm run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
+    "postpublish": "git commit -m \"publish new version\" .",
+    "sort-package-json": "npx sort-package-json ./package.json",
+    "test": "ts-node ./test/demo"
+  },
+  "dependencies": {
+    "reflect-metadata": "*"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "*"
+  }
+}
