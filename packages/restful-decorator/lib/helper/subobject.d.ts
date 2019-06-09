@@ -5,5 +5,5 @@ import { ITSOverwrite } from 'ts-type';
 export declare type IMethod<T = {}, P = {}> = {
     $parent?: IMethod<P>;
 } & ITSOverwrite<Omit<P, '$parent'>, Omit<T, '$parent'>>;
-export declare function subobject<T = {}, P = {}>(attr: T, parent?: IMethod<P> | null): IMethod<T, P>;
+export declare function subobject<T = {}, P = {}>(attr: T, parent: IMethod<P>): IMethod<T, P>;
 export default subobject;
