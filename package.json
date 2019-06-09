@@ -12,10 +12,10 @@
     "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
     "postpublish": "git commit -m \"publish new version\" . & echo postpublish",
     "sort-package-json": "npx sort-package-json ./package.json",
-    "test": "npx mocha --debug --require ts-node/register"
+    "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}"
   },
   "devDependencies": {
     "uri-template-lite": "^19.4.0"
   },
-  "gitHead": "da34a65a76a4bf1a44dea506ef1a038b1ee00fb9"
+  "gitHead": "082cd2c58aabccaa86cd3f7a15f425478497dcf4"
 }
