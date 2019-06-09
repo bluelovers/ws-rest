@@ -12,19 +12,19 @@
     "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
     "postpublish": "git commit -m \"publish new version\" .",
     "sort-package-json": "npx sort-package-json ./package.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha --debug --require ts-node/register"
   },
   "dependencies": {
     "axios": "^0.19.0",
     "bluebird": "^3.5.5",
-    "lazy-url": "^1.0.2",
+    "lazy-url": "^1.0.3",
     "lodash": "^4.17.11",
     "lodash-decorators": "^6.0.1",
     "reflect-metadata": "^0.1.13",
     "reflect-metadata-util": "^1.0.1",
     "router-uri-convert": "^1.0.1",
     "ts-enum-util": "^4.0.1",
-    "ts-type": "^1.2.3",
+    "ts-type": "^1.2.4",
     "typed-http-headers": "^1.0.0",
     "url-parse": "^1.4.7"
   },
@@ -33,5 +33,6 @@
     "@types/lodash": "^4.14.134",
     "@types/url-parse": "^1.4.3",
     "pathparser": "^1.0.0"
-  }
+  },
+  "gitHead": "da34a65a76a4bf1a44dea506ef1a038b1ee00fb9"
 }

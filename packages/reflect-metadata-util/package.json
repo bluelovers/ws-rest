@@ -2,15 +2,15 @@
   "name": "reflect-metadata-util",
   "version": "1.0.1",
   "description": "reflect-metadata util",
-  "license": "ISC",
-  "author": "",
   "keywords": [
     "decorator",
-    "metadata",
     "javascript",
+    "metadata",
     "reflect",
     "util"
   ],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "coverage": "npx nyc npm run test",
@@ -26,5 +26,6 @@
   },
   "peerDependencies": {
     "reflect-metadata": "*"
-  }
+  },
+  "gitHead": "da34a65a76a4bf1a44dea506ef1a038b1ee00fb9"
 }
