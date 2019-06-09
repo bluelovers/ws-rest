@@ -1,6 +1,8 @@
 import 'reflect-metadata';
 
-export { RequestConfig } from './decorators/config';
+export { CookieJarSupport } from './decorators/config/cookies';
+
+export { RequestConfig, RequestConfigs, TransformRequest } from './decorators/config';
 
 export {
 	BodyData,
@@ -14,6 +16,8 @@ export {
 } from './decorators/body';
 
 export { methodBuilder } from './wrap/abstract';
+
+export { TransformFormUrlencoded, FormUrlencoded } from './decorators/form';
 
 export {
 	GET,

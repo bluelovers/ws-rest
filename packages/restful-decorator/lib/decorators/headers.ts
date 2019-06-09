@@ -1,9 +1,11 @@
-import { AxiosRequestConfig, AxiosResponse } from 'axios';
+import { AxiosRequestConfig, AxiosResponse, AxiosTransformer } from 'axios';
 import RequestConfig from './config';
 import { IHttpheaders, IAxiosResponseClientRequest } from '../types/axios';
 import { getConfig, setConfig } from './config/util';
 import merge from '../util/merge';
 import { IPropertyKey } from 'reflect-metadata-util';
+import LazyURLSearchParams from 'http-form-urlencoded';
+import { TransformRequest } from './config/index';
 
 export const enum EnumAuthorizationType
 {

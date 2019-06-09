@@ -4,7 +4,7 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint lib/**/*.ts",
@@ -16,13 +16,18 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
+    "axios-cookiejar-support": "^0.4.2",
     "bluebird": "^3.5.5",
+    "http-form-urlencoded": "^1.0.0",
+    "lazy-cookies": "^1.0.0",
     "lazy-url": "^1.0.3",
     "lodash": "^4.17.11",
     "lodash-decorators": "^6.0.1",
+    "moment": "^2.24.0",
     "reflect-metadata": "^0.1.13",
     "reflect-metadata-util": "^1.0.3",
     "router-uri-convert": "^1.0.3",
+    "tough-cookie": "^3.0.1",
     "ts-enum-util": "^4.0.1",
     "ts-type": "^1.2.4",
     "typed-http-headers": "^1.0.0",
@@ -31,6 +36,8 @@
   "devDependencies": {
     "@types/bluebird": "^3.5.27",
     "@types/lodash": "^4.14.134",
+    "@types/moment": "^2.13.0",
+    "@types/tough-cookie": "^2.3.5",
     "@types/url-parse": "^1.4.3",
     "pathparser": "^1.0.0"
   },

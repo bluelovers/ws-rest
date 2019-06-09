@@ -1,6 +1,6 @@
 import 'reflect-metadata';
 import createMethodBuilder from './decorators/build';
-import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
+import { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
 import { _chkSettingUpdate, _getSetting, fixRequestConfig } from '../util/config';
 import subobject from '../helper/subobject';
 import { IUrlLike } from '../util/url';
@@ -12,6 +12,10 @@ import { EnumRestClientMetadata } from '../decorators/http';
 import routerToRfc6570 from 'router-uri-convert';
 // @ts-ignore
 import { URI as routerURI } from 'uri-template-lite';
+import { includesKey } from '../util/util';
+import { axios, IAxiosDefaultsHeaders } from '../types/axios';
+import { IPropertyKey } from 'reflect-metadata-util';
+import CookieJarSupport from '../decorators/config/cookies';
 
 export interface IAbstractHttpClientCache
 {
@@ -69,6 +73,7 @@ export const methodBuilder = createMethodBuilder<any, IAbstractHttpClientCache>(
 	};
 });
 
+@CookieJarSupport(true)
 export class AbstractHttpClient
 {
 	public $parent: this = null;
@@ -78,6 +83,7 @@ export class AbstractHttpClient
 	public $pathData: Record<string, string>;
 	public $returnValue: AxiosResponse<unknown>;
 	public $responseUrl: string;
+	public $sharedPreferences = new Map<IPropertyKey, unknown>();
 
 	constructor(defaults?: AxiosRequestConfig)
 	{
@@ -91,9 +97,16 @@ export class AbstractHttpClient
 	{
 		const opts = mergeClone<AxiosRequestConfig>({}, _getSetting(this, {}), defaults);
 
-		const headers = opts.headers;
+		const headers = opts.headers as IAxiosDefaultsHeaders;
 
-		if (!headers.common)
+		if (headers && !includesKey(headers, [
+			'common',
+			'delete',
+			'get',
+			'patch',
+			'post',
+			'put',
+		]))
 		{
 			opts.headers = {
 				...headers,

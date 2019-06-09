@@ -1,7 +1,11 @@
-
 import { AxiosRequestConfig, AxiosResponse, AxiosInstance } from 'axios';
 import { IPropertyKey } from 'reflect-metadata-util';
-import { ITSOverwrite } from 'ts-type';
+import { ITSOverwrite, ITSUnpackedPromiseLike } from 'ts-type';
+import axios from 'axios';
+import axiosCookieJarSupport from 'axios-cookiejar-support';
+import tough from 'tough-cookie';
+import { CookieJar } from 'tough-cookie';
+import { IBluebird } from '../index';
 
 export interface IAxiosResponseClientRequest extends Record<IPropertyKey, any>
 {
@@ -47,14 +51,29 @@ declare module 'axios'
 
 	interface AxiosRequestConfig
 	{
-		//headers?: any | IHttpheaders;
+		headers?: AxiosRequestConfig["headers"] | IHttpheaders;
 	}
 
 	interface AxiosResponse<T = any>
 	{
-		headers: any | IHttpheaders;
-		request?: any | IAxiosResponseClientRequest;
+		headers: AxiosResponse["headers"] | IHttpheaders;
+		request?: AxiosResponse["request"] | IAxiosResponseClientRequest;
 	}
 }
 
+axiosCookieJarSupport(axios);
 
+export { AxiosRequestConfig, AxiosResponse, AxiosInstance }
+
+export type IUnpackAxiosResponse<T> =
+	T extends PromiseLike<AxiosResponse<infer U>> ? U :
+		T extends AxiosResponse<infer U> ? U :
+			never
+	;
+
+export type IBluebirdAxiosResponse<T = any> = IBluebird<AxiosResponse<T>>;
+
+export type IUnpackedPromiseLikeReturnType<T extends (...args: any) => any> = ITSUnpackedPromiseLike<ReturnType<T>>;
+
+export { axios }
+export default axios;

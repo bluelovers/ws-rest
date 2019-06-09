@@ -1,0 +1,11 @@
+"use strict";
+/**
+ * Created by user on 2019/6/9.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+function includesKey(target, keys) {
+    return Object.keys(target)
+        .some(k => keys.includes(k));
+}
+exports.includesKey = includesKey;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXRpbC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInV0aWwudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBOztHQUVHOztBQUVILFNBQWdCLFdBQVcsQ0FBb0MsTUFBUyxFQUFFLElBQU87SUFFaEYsT0FBTyxNQUFNLENBQUMsSUFBSSxDQUFDLE1BQU0sQ0FBQztTQUN4QixJQUFJLENBQUMsQ0FBQyxDQUFDLEVBQUUsQ0FBQyxJQUFJLENBQUMsUUFBUSxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUE7QUFDOUIsQ0FBQztBQUpELGtDQUlDIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBDcmVhdGVkIGJ5IHVzZXIgb24gMjAxOS82LzkuXG4gKi9cblxuZXhwb3J0IGZ1bmN0aW9uIGluY2x1ZGVzS2V5PFQsIEsgZXh0ZW5kcyAoa2V5b2YgVCB8IHN0cmluZylbXT4odGFyZ2V0OiBULCBrZXlzOiBLKTogYm9vbGVhblxue1xuXHRyZXR1cm4gT2JqZWN0LmtleXModGFyZ2V0KVxuXHRcdC5zb21lKGsgPT4ga2V5cy5pbmNsdWRlcyhrKSlcbn1cbiJdfQ==

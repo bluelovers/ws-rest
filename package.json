@@ -6,12 +6,17 @@
     "packages/*"
   ],
   "scripts": {
+    "lerna": "npx lerna publish",
     "ncu": "npx npm-check-updates -u",
     "sort-package-json": "npx \"sort-package-json\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@bluelovers/tsconfig": "^1.0.3"
+    "@bluelovers/tsconfig": "^1.0.3",
+    "@types/fs-extra": "^7.0.0"
   },
-  "resolutions": {}
+  "resolutions": {},
+  "dependencies": {
+    "fs-extra": "^8.0.1"
+  }
 }

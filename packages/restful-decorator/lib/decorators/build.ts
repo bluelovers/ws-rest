@@ -59,7 +59,7 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 				;
 			}
 
-			return method.apply(thisArgv, argv);
+			return Bluebird.resolve(method.apply(thisArgv, argv));
 		};
 	};
 }

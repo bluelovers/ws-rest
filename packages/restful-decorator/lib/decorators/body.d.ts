@@ -9,14 +9,14 @@ export interface IParameter<K = string, V = any> {
     defaultValue?: V;
     value?: V | unknown;
 }
-export declare function BodyParams<T = any>(value: T): (target: any, propertyName?: IPropertyKey) => void;
-export declare function BodyData<T = any>(value: T): (target: any, propertyName?: IPropertyKey) => void;
+export declare function BodyParams<T = any>(value: T): (target: any, propertyName?: string | symbol) => void;
+export declare function BodyData<T = any>(value: T): (target: any, propertyName?: string | symbol) => void;
 export declare type IEnumRestClientMetadataParam = EnumRestClientMetadata.PARAM_PATH | EnumRestClientMetadata.PARAM_QUERY | EnumRestClientMetadata.PARAM_DATA | EnumRestClientMetadata.PARAM_BODY | EnumRestClientMetadata.PARAM_HEADER;
-export declare function ParamBody<V = any>(defaultValue?: V): (target: object, propertyKey: IPropertyKey, parameterIndex: number) => void;
-export declare const ParamPath: <K extends string = string, V = any>(key: K, defaultValue?: V) => IParameterDecorator<IPropertyKey, object>;
-export declare const ParamQuery: <K extends string = string, V = any>(key: K, defaultValue?: V) => IParameterDecorator<IPropertyKey, object>;
-export declare const ParamData: <K extends string = string, V = any>(key: K, defaultValue?: V) => IParameterDecorator<IPropertyKey, object>;
-export declare const ParamHeader: <K extends string = string, V = any>(key: K, defaultValue?: V) => IParameterDecorator<IPropertyKey, object>;
+export declare function ParamBody<V = any>(defaultValue?: V): (target: object, propertyKey: string | symbol, parameterIndex: number) => void;
+export declare const ParamPath: <K extends string = string, V = any>(key: K, defaultValue?: V) => IParameterDecorator<string | symbol, object>;
+export declare const ParamQuery: <K extends string = string, V = any>(key: K, defaultValue?: V) => IParameterDecorator<string | symbol, object>;
+export declare const ParamData: <K extends string = string, V = any>(key: K, defaultValue?: V) => IParameterDecorator<string | symbol, object>;
+export declare const ParamHeader: <K extends string = string, V = any>(key: K, defaultValue?: V) => IParameterDecorator<string | symbol, object>;
 export interface IParamMetadata {
     [EnumRestClientMetadata.PARAM_PATH]: IParameter[];
     [EnumRestClientMetadata.PARAM_QUERY]: IParameter[];
@@ -34,7 +34,7 @@ export declare function HandleParamMetadata<T extends any>(fn: ((info: {
 }) => {
     paramMetadata: IParamMetadata;
     argv: any[];
-})): (target: any, propertyKey: IPropertyKey, descriptor: TypedPropertyDescriptor<Function>) => void;
+})): (target: any, propertyKey: string | symbol, descriptor: TypedPropertyDescriptor<Function>) => void;
 export declare function _habdleParamInfo<T>(info: {
     argv: any[];
     paramMetadata: IParamMetadata;
