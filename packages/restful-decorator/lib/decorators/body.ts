@@ -7,6 +7,8 @@ import { EnumRestClientMetadata } from './http';
 import { getMemberMetadata, IParameterDecorator, IPropertyKey, setMemberMetadata } from 'reflect-metadata-util';
 import cloneDeep from 'lodash/cloneDeep';
 
+export const SymParamMap = Symbol('ParamMap');
+
 export interface IParameter<K = string, V = any>
 {
 	key: K;
@@ -31,6 +33,15 @@ export type IEnumRestClientMetadataParam =
 	| EnumRestClientMetadata.PARAM_DATA
 	| EnumRestClientMetadata.PARAM_BODY
 	| EnumRestClientMetadata.PARAM_HEADER
+	;
+
+export type IEnumRestClientMetadataParamMap =
+	EnumRestClientMetadata.PARAM_MAP_PATH
+	| EnumRestClientMetadata.PARAM_MAP_QUERY
+	| EnumRestClientMetadata.PARAM_MAP_DATA
+	| EnumRestClientMetadata.PARAM_MAP_BODY
+	| EnumRestClientMetadata.PARAM_MAP_HEADER
+	| EnumRestClientMetadata.PARAM_MAP_AUTO
 	;
 
 function _paramBuilder(paramName: Exclude<IEnumRestClientMetadataParam, EnumRestClientMetadata.PARAM_BODY>)
@@ -78,7 +89,7 @@ export const ParamHeader = _paramBuilder(EnumRestClientMetadata.PARAM_HEADER);
 
 //export const ParamBody = _paramBuilder(EnumRestClientMetadata.PARAM_BODY)('Body');
 
-export interface IParamMetadata
+export interface IParamMetadata extends IParamMetadata2
 {
 	[EnumRestClientMetadata.PARAM_PATH]: IParameter[],
 	[EnumRestClientMetadata.PARAM_QUERY]: IParameter[],
@@ -87,14 +98,28 @@ export interface IParamMetadata
 	[EnumRestClientMetadata.PARAM_BODY]: IParameter,
 }
 
+export interface IParamMetadata2
+{
+	[EnumRestClientMetadata.PARAM_MAP_PATH]: IParameter[],
+	[EnumRestClientMetadata.PARAM_MAP_QUERY]: IParameter[],
+	[EnumRestClientMetadata.PARAM_MAP_DATA]: IParameter[],
+	[EnumRestClientMetadata.PARAM_MAP_HEADER]: IParameter[],
+	[EnumRestClientMetadata.PARAM_MAP_BODY]: IParameter[],
+	[EnumRestClientMetadata.PARAM_MAP_AUTO]: IParameter[],
+}
+
 export function getParamMetadata(target: object, propertyKey: IPropertyKey): IParamMetadata
 {
+	let maps = getMemberMetadata(SymParamMap, target, propertyKey) as IParamMetadata2;
+
 	return {
 		[EnumRestClientMetadata.PARAM_PATH]: getMemberMetadata(EnumRestClientMetadata.PARAM_PATH, target, propertyKey),
 		[EnumRestClientMetadata.PARAM_QUERY]: getMemberMetadata(EnumRestClientMetadata.PARAM_QUERY, target, propertyKey),
 		[EnumRestClientMetadata.PARAM_DATA]: getMemberMetadata(EnumRestClientMetadata.PARAM_DATA, target, propertyKey),
 		[EnumRestClientMetadata.PARAM_HEADER]: getMemberMetadata(EnumRestClientMetadata.PARAM_HEADER, target, propertyKey),
 		[EnumRestClientMetadata.PARAM_BODY]: getMemberMetadata(EnumRestClientMetadata.PARAM_BODY, target, propertyKey),
+
+		...maps,
 	};
 }
 
@@ -239,3 +264,38 @@ export function _ParamInfoToArgv<T extends any[]>(data: IParamMetadata, argv: T)
 		}, argv.slice())
 		;
 }
+
+function _paramBuilderMap(paramName: IEnumRestClientMetadataParamMap)
+{
+	return function <K extends string = string, V = any>(defaultValue?: V): IParameterDecorator
+	{
+		return function (target: object, propertyKey: IPropertyKey, parameterIndex: number)
+		{
+			const paramObj: IParameter<K, V> = {
+				key: null,
+				parameterIndex,
+				defaultValue,
+			};
+
+			const data = getMemberMetadata(SymParamMap, target, propertyKey) || {};
+
+			data[paramName] = data[paramName] || [];
+
+			data[paramName].push(paramObj);
+
+			setMemberMetadata(SymParamMap, data, target, propertyKey);
+		};
+	};
+}
+
+export const ParamMapPath = _paramBuilderMap(EnumRestClientMetadata.PARAM_MAP_PATH);
+
+export const ParamMapQuery = _paramBuilderMap(EnumRestClientMetadata.PARAM_MAP_QUERY);
+
+export const ParamMapData = _paramBuilderMap(EnumRestClientMetadata.PARAM_MAP_DATA);
+
+export const ParamMapHeader = _paramBuilderMap(EnumRestClientMetadata.PARAM_MAP_HEADER);
+
+export const ParamMapAuto = _paramBuilderMap(EnumRestClientMetadata.PARAM_MAP_AUTO);
+
+export const ParamMapBody = _paramBuilderMap(EnumRestClientMetadata.PARAM_MAP_BODY);

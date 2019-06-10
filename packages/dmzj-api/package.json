@@ -1,5 +1,5 @@
 {
-  "name": "lazy-cookies",
+  "name": "dmzj-api",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
@@ -12,23 +12,18 @@
   },
   "license": "ISC",
   "author": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",
     "ncu": "npx yarn-tool ncu -u",
-    "prepublishOnly": "npm run ncu && npm run sort-package-json",
+    "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
     "postpublish": "git commit -m \"publish new version\" .",
     "sort-package-json": "npx sort-package-json ./package.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@types/moment": "*",
-    "@types/tough-cookie": "*",
-    "crlf-normalize": "^1.0.3",
-    "moment": "*",
-    "tough-cookie": "*",
-    "ts-type": "^1.2.6"
-  },
-  "devDependencies": {}
+    "lazy-cookies": "^1",
+    "restful-decorator": "^1.0.3"
+  }
 }

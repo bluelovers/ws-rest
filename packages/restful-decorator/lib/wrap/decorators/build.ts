@@ -11,7 +11,7 @@ import subobject, { IMethod } from '../../helper/subobject';
 import { AbstractHttpClient } from '../abstract';
 import { AxiosRequestConfig } from 'axios';
 import { IParamMetadata } from '../../decorators/body';
-import Bluebird = require('bluebird');
+import Bluebird from 'bluebird';
 
 export interface IMethodBuilderCache
 {
@@ -23,14 +23,67 @@ export interface IMethodBuilderCache
 	requested?: boolean,
 }
 
+export interface IMethodBuilderOptions<T extends object, R>
+{
+	handler?: IHandleDescriptor3<T, R & IMethodBuilderCache>
+	/**
+	 * @default true
+	 */
+	autoRequest?: boolean;
+
+	/**
+	 * 當 autoRequest 啟用時 會自動將回傳內容改為 response.data
+	 * @default true
+	 */
+	returnData?: boolean;
+}
+
 /**
  * preset type for methodBuilder
  */
 export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn?: IHandleDescriptor2<T, R & IMethodBuilderCache>)
 {
-	return function (handler?: IHandleDescriptor3<T, R & IMethodBuilderCache>, autoRequest: boolean = true)
+	return function (handler?: IHandleDescriptor3<T, R & IMethodBuilderCache> | IMethodBuilderOptions<T, R>,
+		builderOptions: IMethodBuilderOptions<T, R> | boolean = true,
+	)
 	{
-		const old = handler;
+		if (handler && typeof handler === 'object' && (builderOptions == null || builderOptions === true))
+		{
+			([builderOptions, handler] = [handler, null]);
+		}
+
+		if (typeof builderOptions === 'boolean')
+		{
+			builderOptions = {
+				autoRequest: builderOptions,
+			} as IMethodBuilderOptions<T, R>
+		}
+
+		builderOptions = builderOptions || {} as IMethodBuilderOptions<T, R>;
+
+		if (builderOptions.autoRequest == null)
+		{
+			builderOptions.autoRequest = true;
+		}
+
+		if (builderOptions.returnData == null && builderOptions.autoRequest)
+		{
+			builderOptions.returnData = true;
+		}
+
+		if (builderOptions.handler)
+		{
+			handler = builderOptions.handler
+		}
+
+		if (handler && typeof handler != 'function')
+		{
+			throw new TypeError(`typeof handler != 'function'`)
+		}
+
+		let { autoRequest } = builderOptions;
+
+		const old = handler as IHandleDescriptor3<T, R & IMethodBuilderCache>;
 
 		handler = ((data: IHandleDescriptorReturn2<T, R & IMethodBuilderCache>) =>
 		{
@@ -68,25 +121,48 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 				};
 			}
 
+			(builderOptions as IMethodBuilderOptions<T, R>).autoRequest = data.autoRequest;
+
 			if (data.autoRequest && !data.requested)
 			{
 				data.requested = true;
 
+				//console.dir(data.thisArgv);
+
 				return {
 					...data,
-					returnValue: Bluebird.resolve(data.thisArgv.$http(data.requestConfig)).tap((ret) => {
-						data.thisArgv.$returnValue = ret;
-
-						if (ret && ret.request && ret.request.res && ret.request.res.responseUrl)
+					builderOptions: builderOptions as IMethodBuilderOptions<T, R>,
+					returnValue: Bluebird
+						.resolve(data.thisArgv.$http(data.requestConfig))
+						.then(function (ret)
 						{
-							data.thisArgv.$responseUrl = ret.request.res.responseUrl;
-						}
+							// @ts-ignore
+							data.thisArgv.$returnValue = ret;
 
-					}),
+							// @ts-ignore
+							if (ret && ret.request && ret.request.res && ret.request.res.responseUrl)
+							{
+								// @ts-ignore
+								data.thisArgv.$responseUrl = ret.request.res.responseUrl;
+							}
+
+							if ((builderOptions as IMethodBuilderOptions<T, R>).returnData)
+							{
+								// @ts-ignore
+								data.thisArgv.$returnValueSource = data.thisArgv.$returnValue;
+								return data.thisArgv.$returnValue = ret.data;
+							}
+
+							return ret;
+						})
+					,
 				};
 			}
 
-			return data;
+			return {
+				...data,
+				builderOptions: builderOptions as IMethodBuilderOptions<T, R>,
+			};
 		});
 
 		return _methodBuilder<T>(handler);

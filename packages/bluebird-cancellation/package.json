@@ -1,5 +1,5 @@
 {
-  "name": "lazy-cookies",
+  "name": "bluebird-cancellation",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
@@ -23,12 +23,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@types/moment": "*",
-    "@types/tough-cookie": "*",
-    "crlf-normalize": "^1.0.3",
-    "moment": "*",
-    "tough-cookie": "*",
-    "ts-type": "^1.2.6"
+    "@types/bluebird": "*"
   },
-  "devDependencies": {}
+  "peerDependencies": {
+    "bluebird": "^3.5.5"
+  }
 }

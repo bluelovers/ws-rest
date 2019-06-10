@@ -2,14 +2,16 @@
  * Created by user on 2019/6/8.
  */
 
-import { AxiosRequestConfig, AxiosTransformer } from 'axios';
-import { IPropertyKey } from 'reflect-metadata-util';
-import { getConfig, setConfig } from './util';
+import { AxiosRequestConfig } from '../../types/axios';
+import { AxiosTransformer } from 'axios';
+import { getMetadataLazy, IPropertyKey } from 'reflect-metadata-util';
+import { getConfig, setConfig, SymConfig } from './util';
 import merge from '../../util/merge';
 import { ITSValueOrArray } from 'ts-type';
 import LazyURLSearchParams from 'http-form-urlencoded';
+import consoleDebug from '../../util/debug';
 
-export function RequestConfigs<K extends keyof AxiosRequestConfig>(value: Partial<K | AxiosRequestConfig>)
+export function RequestConfigs<K extends AxiosRequestConfig>(value: Partial<K | AxiosRequestConfig>)
 {
 	return function (target: any, propertyName?: IPropertyKey)
 	{
@@ -18,6 +20,8 @@ export function RequestConfigs<K extends keyof AxiosRequestConfig>(value: Partia
 		config = merge(config || {}, value);
 
 		setConfig(config, target, propertyName);
+
+		//consoleDebug.info(`RequestConfigs`, value);
 	};
 }
 
@@ -40,7 +44,13 @@ export function RequestConfig<K extends keyof AxiosRequestConfig>(key: K, value:
 	};
 }
 
-
+/**
+ * 越晚執行的放越上面
+ *
+ * @param {ITSValueOrArray<AxiosTransformer>} fn
+ * @returns {(target: any, propertyName?: IPropertyKey) => void}
+ * @constructor
+ */
 export function TransformRequest(fn: ITSValueOrArray<AxiosTransformer>)
 {
 	return function (target: any, propertyName?: IPropertyKey)
@@ -57,11 +67,17 @@ export function TransformRequest(fn: ITSValueOrArray<AxiosTransformer>)
 			fn = [fn];
 		}
 
-		merge(config, {
+		config.transformRequest = config.transformRequest || [];
 
-			transformRequest: fn,
+		config.transformRequest.push(...fn);
 
-		} as AxiosRequestConfig);
+		//console.dir(config.transformRequest);
+
+//		merge(config, {
+//
+//			transformRequest: fn,
+//
+//		} as AxiosRequestConfig);
 
 		setConfig(config, target, propertyName);
 	}

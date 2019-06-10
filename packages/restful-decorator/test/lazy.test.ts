@@ -68,7 +68,7 @@ describe(relative(__filename), () =>
 
 			@BaseUrl('http://v2.api.dmzj.com')
 			@Headers({
-				'content-type': '777',
+				'Content-Type': '777',
 			})
 			class A extends AbstractHttpClient
 			{
@@ -92,7 +92,7 @@ describe(relative(__filename), () =>
 
 			@BaseUrl('http://v2.api.dmzj.com')
 			@Headers({
-				'content-type': '777',
+				'Content-Type': '777',
 			})
 			class A extends AbstractHttpClient
 			{
@@ -104,7 +104,7 @@ describe(relative(__filename), () =>
 
 			currentTest[SymbolLogOutput] = actual.$http.defaults.headers;
 
-			expect(actual.$http.defaults.headers.common['content-type']).to.be.deep.equal(expected);
+			expect(actual.$http.defaults.headers.common['Content-Type']).to.be.deep.equal(expected);
 
 		});
 	});

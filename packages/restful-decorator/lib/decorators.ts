@@ -1,18 +1,31 @@
 import 'reflect-metadata';
+export { CatchError } from './decorators/catch';
 
-export { CookieJarSupport } from './decorators/config/cookies';
+export { CacheRequest } from './decorators/config/cache';
+
+export { CookieJarSupport, SetCookies } from './decorators/config/cookies';
 
 export { RequestConfig, RequestConfigs, TransformRequest } from './decorators/config';
 
 export {
 	BodyData,
 	BodyParams,
+
 	HandleParamMetadata,
+
 	ParamBody,
 	ParamData,
 	ParamHeader,
 	ParamPath,
 	ParamQuery,
+
+	ParamMapAuto,
+	ParamMapBody,
+	ParamMapData,
+	ParamMapHeader,
+	ParamMapPath,
+	ParamMapQuery,
+
 } from './decorators/body';
 
 export { methodBuilder } from './wrap/abstract';

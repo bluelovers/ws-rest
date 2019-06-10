@@ -23,12 +23,12 @@ import {
 import { IUrlLike } from '../lib/util/url';
 import subobject from '../lib/helper/subobject';
 import { AbstractHttpClient, methodBuilder } from '../lib/wrap/abstract';
-import Bluebird = require('bluebird');
+import Bluebird from 'bluebird';
 
 @BaseUrl('http://v2.api.dmzj.com')
 @Headers({
 
-	'content-type': '777',
+	'Content-Type': '777',
 
 })
 export class A extends AbstractHttpClient

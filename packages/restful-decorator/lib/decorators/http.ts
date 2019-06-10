@@ -17,6 +17,14 @@ export const enum EnumRestClientMetadata
 	PARAM_BODY = 'Body',
 	PARAM_HEADER = 'Header',
 
+	PARAM_MAP_PATH = 'Map_Path',
+	PARAM_MAP_QUERY = 'Map_Query',
+	PARAM_MAP_DATA = 'Map_Data',
+	PARAM_MAP_BODY = 'Map_Body',
+	PARAM_MAP_HEADER = 'Map_Header',
+
+	PARAM_MAP_AUTO = 'Map_Auto',
+
 	METHOD_GET = 'GET',
 	METHOD_POST = 'POST',
 	METHOD_PUT = 'PUT',
@@ -36,5 +44,12 @@ export const enum EnumRestClientMetadata
 
 export function BaseUrl(url: IUrlLike)
 {
-	return Reflect.metadata(EnumRestClientMetadata.BASE_URL, urlNormalize(url));
+	url = urlNormalize(url);
+
+	if (!url.endsWith('/'))
+	{
+		url += '/';
+	}
+
+	return Reflect.metadata(EnumRestClientMetadata.BASE_URL, url);
 }

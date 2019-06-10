@@ -36,6 +36,13 @@ export function Headers(value: IHttpheaders)
 
 export function Authorization(value: string, type?: string | EnumAuthorizationType)
 {
+	return Headers({
+		Authorization: _makeAuthorizationValue(value, type)
+	});
+}
+
+export function _makeAuthorizationValue(value: string, type?: string | EnumAuthorizationType)
+{
 	if (type != null && type != '')
 	{
 		value = type + ' ' + value;
@@ -45,7 +52,5 @@ export function Authorization(value: string, type?: string | EnumAuthorizationTy
 		value = EnumAuthorizationType.Basic + ' ' + value;
 	}
 
-	return Headers({
-		Authorization: value,
-	});
+	return value;
 }

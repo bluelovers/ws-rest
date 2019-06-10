@@ -1,11 +1,16 @@
-import { AxiosRequestConfig, AxiosResponse, AxiosInstance } from 'axios';
+import { AxiosRequestConfig, AxiosResponse, AxiosInstance, AxiosAdapter, AxiosPromise } from 'axios';
 import { IPropertyKey } from 'reflect-metadata-util';
 import { ITSOverwrite, ITSUnpackedPromiseLike } from 'ts-type';
-import axios from 'axios';
+import _axios from 'axios';
 import axiosCookieJarSupport from 'axios-cookiejar-support';
 import tough from 'tough-cookie';
 import { CookieJar } from 'tough-cookie';
 import { IBluebird } from '../index';
+import { IAxiosCacheAdapterOptions, setupCache } from 'axios-cache-adapter';
+import Bluebird from 'bluebird';
+
+// @ts-ignore
+import * as CombineURLs from 'axios/lib/helpers/combineURLs';
 
 export interface IAxiosResponseClientRequest extends Record<IPropertyKey, any>
 {
@@ -26,7 +31,7 @@ export interface IHttpheaders extends Record<string, IHttpheadersValues>
 {
 	Accepts?: 'application/json' | string | string[],
 	Referer?: string,
-	'content-type'?: string,
+	'Content-Type'?: string,
 	'Authorization'?: string,
 	'x-auth-token'?: string,
 }
@@ -61,7 +66,24 @@ declare module 'axios'
 	}
 }
 
-axiosCookieJarSupport(axios);
+declare module 'axios'
+{
+	interface AxiosRequestConfig
+	{
+		/**
+		 * configure how the cached requests will be handled, where they will be stored, etc.
+		 */
+		cache?: IAxiosCacheAdapterOptions;
+
+		/**
+		 * force cache invalidation
+		 */
+		clearCacheEntry?: boolean;
+	}
+}
+
+export const axios = axiosCookieJarSupport(_axios) as typeof _axios;
+export default axios;
 
 export { AxiosRequestConfig, AxiosResponse, AxiosInstance }
 
@@ -75,5 +97,29 @@ export type IBluebirdAxiosResponse<T = any> = IBluebird<AxiosResponse<T>>;
 
 export type IUnpackedPromiseLikeReturnType<T extends (...args: any) => any> = ITSUnpackedPromiseLike<ReturnType<T>>;
 
-export { axios }
-export default axios;
+
+
+export interface IAxiosAdapterWarpper
+{
+	(config: AxiosRequestConfig, returnValue: AxiosResponse<any>): AxiosPromise<any>;
+}
+
+export function wrapAdapter(fn: IAxiosAdapterWarpper, config: AxiosRequestConfig)
+{
+	const old = config.adapter;
+
+	if (old)
+	{
+		return function (this: ThisType<AxiosInstance>, config: AxiosRequestConfig)
+		{
+			return Bluebird.resolve(old.call(this, config))
+				.bind(this)
+				.then((returnValue) => {
+					return fn.call(this, config, returnValue)
+				})
+			;
+		}
+	}
+
+	return Bluebird.method(fn)
+}

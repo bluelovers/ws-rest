@@ -45,7 +45,7 @@ export class LazyCookie extends toughCookie.Cookie
 	 */
 }
 
-export interface ILazyCookieProperties extends Omit<IToughCookieProperties, 'expires' | 'creation' | 'lastAccessed' >
+export interface ILazyCookieProperties extends Omit<IToughCookieProperties, 'expires' | 'creation' | 'lastAccessed'>
 {
 	expires?: Date | moment.Moment | number;
 	creation?: Date | moment.Moment;
@@ -75,6 +75,10 @@ export interface IToughCookieProperties
 
 export type ICookiesValue = string | toughCookie.Cookie | ILazyCookiePropertiesInput | LazyCookie
 
+export type ICookiesValueRecord<T extends string> = Record<string | T, ICookiesValue>
+
+export type ICookiesValueInput<T extends string> = ICookiesValueRecord<T> | ICookiesValue[]
+
 export class LazyCookieJar extends toughCookie.CookieJar
 {
 	enableLooseMode?: boolean;
@@ -88,7 +92,7 @@ export class LazyCookieJar extends toughCookie.CookieJar
 		this.setData(data, url);
 	}
 
-	setData(data: Record<string, ICookiesValue> | ICookiesValue[], url?: string | URL)
+	setData<T extends string>(data: ICookiesValueInput<T>, url?: string | URL)
 	{
 		url = (url || '').toString();
 
@@ -116,7 +120,11 @@ export class LazyCookieJar extends toughCookie.CookieJar
 		return this;
 	}
 
-	setCookieSync(cookieOrString: ICookiesValue, currentUrl?: string | URL, options: toughCookie.CookieJar.SetCookieOptions = {}, ...argv: any[])
+	setCookieSync(cookieOrString: ICookiesValue,
+		currentUrl?: string | URL,
+		options: toughCookie.CookieJar.SetCookieOptions = {},
+		...argv: any[]
+	)
 	{
 		if (typeof cookieOrString == 'string')
 		{

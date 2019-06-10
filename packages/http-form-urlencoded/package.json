@@ -2,25 +2,25 @@
   "name": "http-form-urlencoded",
   "version": "1.0.1",
   "description": "",
+  "keywords": [
+    "URLSearchParams",
+    "form",
+    "form-urlencoded",
+    "params",
+    "query",
+    "querystring",
+    "search",
+    "url",
+    "urlencoded",
+    "urlsearchparams",
+    "w3c",
+    "whatwg",
+    "x-www-form-urlencoded"
+  ],
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
   },
-  "keywords": [
-    "url",
-    "urlsearchparams",
-    "whatwg",
-    "w3c",
-    "URLSearchParams",
-    "form-urlencoded",
-    "x-www-form-urlencoded",
-    "urlencoded",
-    "querystring",
-    "query",
-    "search",
-    "params",
-    "form"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bluelovers/ws-rest.git"
@@ -38,6 +38,7 @@
     "test": "ts-node ./test/demo"
   },
   "dependencies": {
-    "ts-type": "^1.2.4"
-  }
+    "ts-type": "^1.2.6"
+  },
+  "gitHead": "3620bb0e7852be85dca540cbf787c9701dce19b6"
 }

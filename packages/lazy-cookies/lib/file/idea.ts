@@ -29,8 +29,18 @@ export function parse(line: string)
 	}
 }
 
-export function parseFile(input: string)
+export function parseFile(input: string | Buffer)
 {
+	if (typeof input !== 'string')
+	{
+		if (!input || !input.length)
+		{
+			throw new TypeError(`input is invalid : ${input}`)
+		}
+
+		input = input.toString();
+	}
+
 	return crlf(input)
 		.split(LF)
 		.reduce((arr, line) => {

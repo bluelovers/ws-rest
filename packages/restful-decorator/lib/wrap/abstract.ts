@@ -6,7 +6,15 @@ import subobject from '../helper/subobject';
 import { IUrlLike } from '../util/url';
 import { Once } from 'lodash-decorators';
 import { mergeClone } from '../util/merge';
-import { _habdleParamInfo, _ParamInfoToArgv, getParamMetadata, IParameter, IParamMetadata } from '../decorators/body';
+import {
+	_habdleParamInfo,
+	_ParamInfoToArgv,
+	getParamMetadata,
+	IEnumRestClientMetadataParam,
+	IEnumRestClientMetadataParamMap,
+	IParameter,
+	IParamMetadata,
+} from '../decorators/body';
 import { IHandleDescriptorReturn2 } from '../decorators/build';
 import { EnumRestClientMetadata } from '../decorators/http';
 import routerToRfc6570 from 'router-uri-convert';
@@ -16,6 +24,9 @@ import { includesKey } from '../util/util';
 import { axios, IAxiosDefaultsHeaders } from '../types/axios';
 import { IPropertyKey } from 'reflect-metadata-util';
 import CookieJarSupport from '../decorators/config/cookies';
+import { LazyCookieJar } from 'lazy-cookies';
+import { fixAxiosCombineURLs } from '../fix/axios';
+import parseRouterVars from 'router-uri-convert/parser';
 
 export interface IAbstractHttpClientCache
 {
@@ -23,6 +34,8 @@ export interface IAbstractHttpClientCache
 	bool: boolean,
 	requestConfigNew: AxiosRequestConfig,
 	paramMetadata: IParamMetadata,
+	router: string,
+	pathData: Record<string, string>,
 }
 
 export const methodBuilder = createMethodBuilder<any, IAbstractHttpClientCache>(function (data)
@@ -56,6 +69,7 @@ export const methodBuilder = createMethodBuilder<any, IAbstractHttpClientCache>(
 	const _ret = paramMetadataRequestConfig({
 		requestConfig: requestConfigNew,
 		paramMetadata,
+		thisArgv: thisArgv as any,
 	});
 
 	thisArgv.$pathData = _ret.pathData;
@@ -70,6 +84,8 @@ export const methodBuilder = createMethodBuilder<any, IAbstractHttpClientCache>(
 		thisArgv,
 		paramMetadata,
 		argv,
+		router: thisArgv.$url,
+		pathData: _ret.pathData,
 	};
 });
 
@@ -85,15 +101,20 @@ export class AbstractHttpClient
 	public $responseUrl: string;
 	public $sharedPreferences = new Map<IPropertyKey, unknown>();
 
-	constructor(defaults?: AxiosRequestConfig)
+	constructor(defaults?: AxiosRequestConfig, ...argv: any)
 	{
-		this.$http = axios.create(this._init(defaults));
+		this.$http = axios.create(defaults = this._init(defaults, ...argv));
 
-		this.$http.defaults.headers.common.Authorization;
+		// @FIXME fix miss jar field
+		this.$http.defaults.jar = defaults.jar;
+
+		//console.dir(this.$http.defaults.jar);
+
+		//this.$http.defaults.headers.common.Authorization;
 	}
 
 	@Once
-	protected _init(defaults?: AxiosRequestConfig)
+	protected _init(defaults?: AxiosRequestConfig, ...argv: any)
 	{
 		const opts = mergeClone<AxiosRequestConfig>({}, _getSetting(this, {}), defaults);
 
@@ -117,76 +138,145 @@ export class AbstractHttpClient
 		return opts;
 	}
 
+	get $jar(): LazyCookieJar
+	{
+		//return getCookieJar(this, propertyName);
+		return this.$http.defaults.jar as any
+	}
+
+	get $baseURL(): string
+	{
+		return this.$http.defaults.baseURL
+	}
+
 }
 
 export function paramMetadataRequestConfig(_argv: {
 	paramMetadata: IParamMetadata,
 	requestConfig: AxiosRequestConfig,
+	thisArgv: object,
 })
 {
-	let { paramMetadata, requestConfig } = _argv;
+	let { paramMetadata, requestConfig, thisArgv } = _argv;
 
 	const pathData: Record<string, string> = {};
+	const autoData: Record<string, unknown> = {};
 
 	Object.keys(paramMetadata)
-		.forEach(function (key: keyof IParamMetadata)
+		.forEach(function (key: IEnumRestClientMetadataParam | IEnumRestClientMetadataParamMap)
 		{
-
 			let arr: IParameter[];
 
 			switch (key)
 			{
-				case 'Body':
+				case EnumRestClientMetadata.PARAM_BODY:
 
 					requestConfig.data = paramMetadata[key].value;
 
 					break;
-				case 'Data':
+				case EnumRestClientMetadata.PARAM_DATA:
 
 					arr = paramMetadata[key];
 
 					requestConfig.data = requestConfig.data || {};
 
-					arr.forEach((row) => {
+					arr.forEach((row) =>
+					{
 						requestConfig.data[row.key] = row.value;
 					});
 
 					break;
-				case 'Header':
+				case EnumRestClientMetadata.PARAM_HEADER:
 
 					arr = paramMetadata[key];
 
 					requestConfig.headers = requestConfig.headers || {};
 
-					arr.forEach((row) => {
+					arr.forEach((row) =>
+					{
 						requestConfig.headers[row.key] = row.value;
 					});
 
 					break;
-				case 'Path':
+				case EnumRestClientMetadata.PARAM_PATH:
 
 					arr = paramMetadata[key];
 
-					arr.forEach((row) => {
+					arr.forEach((row) =>
+					{
 						pathData[row.key] = row.value as any;
 					});
 
 					break;
-				case 'Query':
+				case EnumRestClientMetadata.PARAM_QUERY:
 
 					arr = paramMetadata[key];
 
 					requestConfig.params = requestConfig.params || {};
 
-					arr.forEach((row) => {
+					arr.forEach((row) =>
+					{
 						requestConfig.params[row.key] = row.value;
+					});
+
+					break;
+
+				case EnumRestClientMetadata.PARAM_MAP_AUTO:
+
+					arr = paramMetadata[key];
+
+					arr.forEach((row) =>
+					{
+						Object.assign(autoData, row.value);
+					});
+
+					break;
+				case EnumRestClientMetadata.PARAM_MAP_PATH:
+
+					arr = paramMetadata[key];
+
+					arr.forEach((row) =>
+					{
+						Object.assign(pathData, row.value);
+					});
+
+					break;
+
+				case EnumRestClientMetadata.PARAM_MAP_BODY:
+				case EnumRestClientMetadata.PARAM_MAP_DATA:
+				case EnumRestClientMetadata.PARAM_MAP_HEADER:
+				case EnumRestClientMetadata.PARAM_MAP_QUERY:
+
+					arr = paramMetadata[key];
+
+					let targetField: keyof Pick<AxiosRequestConfig, 'params' | 'headers' | 'data'>;
+
+					switch (key)
+					{
+						case EnumRestClientMetadata.PARAM_MAP_BODY:
+						case EnumRestClientMetadata.PARAM_MAP_DATA:
+							targetField = 'data';
+							break;
+						case EnumRestClientMetadata.PARAM_MAP_HEADER:
+							targetField = 'headers';
+							break;
+						case EnumRestClientMetadata.PARAM_MAP_QUERY:
+							targetField = 'params';
+							break;
+					}
+
+					requestConfig[targetField] = requestConfig[targetField] || {};
+
+					arr.forEach((row) =>
+					{
+						Object.assign(requestConfig[targetField], row.value)
 					});
 
 					break;
 			}
 
 		})
-		;
+	;
 
 	requestConfig = fixRequestConfig(requestConfig);
 
@@ -194,10 +284,54 @@ export function paramMetadataRequestConfig(_argv: {
 
 	if (url != null)
 	{
-		requestConfig.url = routerURI.expand(routerToRfc6570(url), pathData);
+		//console.dir(url);
+		//console.dir(pathData);
+		//console.dir(routerToRfc6570(url));
+
+		let tpl = routerToRfc6570(url);
+
+		let ks1 = parseRouterVars(tpl);
+		let ks2 = Object.keys(autoData);
+
+		let ret = ks2.reduce((a, k) => {
+
+			if (ks1.includes(k))
+			{
+				a.expand[k] = autoData[k];
+			}
+			else
+			{
+				a.data[k] = autoData[k];
+			}
+
+			return a;
+		}, {
+			expand: {} as Record<string, unknown>,
+			data: {} as Record<string, unknown>,
+		});
+
+		Object.assign(pathData, ret.expand);
+
+		requestConfig.url = routerURI.expand(tpl, pathData);
+
+		if (Object.keys(ret.data).length)
+		{
+			requestConfig.data = requestConfig.data || {};
+
+			Object.assign(requestConfig.data, ret.data);
+		}
+	}
+	else if (Object.keys(autoData).length)
+	{
+		requestConfig.data = requestConfig.data || {};
+		Object.assign(requestConfig.data, autoData);
 	}
 
+	requestConfig.url = fixAxiosCombineURLs(requestConfig.url, requestConfig, (thisArgv as AbstractHttpClient).$http);
+
 	//console.dir(requestConfig.url);
+
+	requestConfig = fixRequestConfig(requestConfig);
 
 	return {
 		/**

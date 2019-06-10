@@ -4,7 +4,8 @@
 import subobject from '../helper/subobject';
 import { ITSRequireAtLeastOne, ITSMemberMethods, ITSKeyofMemberMethods } from 'ts-type';
 import { IPropertyKey } from 'reflect-metadata-util';
-import Bluebird = require('bluebird');
+import Bluebird from 'bluebird';
+import { getCatchError } from './catch';
 
 export type IMemberMethods<T> = ITSMemberMethods<T>;
 
@@ -42,10 +43,14 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 				thisArgv = this;
 			}
 
+			let p: Bluebird<any>;
+
 			if (returnValue != null)
 			{
-				return Bluebird.resolve(returnValue)
-					.then(async (returnValue) => {
+				p = Bluebird
+					.bind(thisArgv)
+					.thenReturn(returnValue)
+					.then(async function (returnValue){
 
 						const ret = await method.apply(thisArgv, argv);
 
@@ -58,8 +63,22 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 					})
 				;
 			}
+			else
+			{
+				p = Bluebird
+					.bind(thisArgv)
+					.thenReturn(method.apply(thisArgv, argv))
+				;
+			}
 
-			return Bluebird.resolve(method.apply(thisArgv, argv));
+			const fnCatch = getCatchError(target, propertyName);
+
+			if (fnCatch)
+			{
+				return p.catch(fnCatch)
+			}
+
+			return p;
 		};
 	};
 }
