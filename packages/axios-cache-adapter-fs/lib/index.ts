@@ -5,8 +5,22 @@
 import { setupCache, ISetupCache } from 'axios-cache-adapter';
 import { ITSPickExtra, ITSRequireAtLeastOne, ITSResolvable, ITSValueOrArray } from 'ts-type';
 import Bluebird from 'bluebird';
+import { IResponseHeaders } from 'typed-http-headers';
 
-export interface ICacheStoreJson<T = any> extends Record<any, T>
+export interface ICacheStoreJsonRow
+{
+	status: number,
+	statusText: string | "OK",
+	headers: IResponseHeaders | Record<string, unknown> | {
+		'set-cookie'?: string[],
+	},
+	data: string,
+}
+
+export interface ICacheStoreJson<T = ICacheStoreJsonRow> extends Record<any, {
+	expires: number,
+	data: T,
+}>
 {
 
 }
@@ -26,7 +40,7 @@ export interface IBaseCacheStore
 	store?: ICacheStoreJson
 }
 
-export function importCache<S extends ISetupCache["store"]>(store: S | IBaseCacheStore, json: ICacheStoreJson)
+export function importCache<S extends ISetupCache["store"]>(store: S | IBaseCacheStore, json: ICacheStoreJson<any>)
 {
 	return Bluebird
 		.resolve(Object.entries(json))
@@ -38,7 +52,7 @@ export function importCache<S extends ISetupCache["store"]>(store: S | IBaseCach
 		;
 }
 
-export function exportCache<S extends ISetupCache["store"], C extends ICacheStoreJson, R = C>(store: S | IBaseCacheStore, cb?: (json: C) => R): Promise<R>
+export function exportCache<S extends ISetupCache["store"], C extends ICacheStoreJson<unknown | ICacheStoreJsonRow>, R = C>(store: S | IBaseCacheStore, cb?: (json: C) => R): Promise<R>
 {
 	const json: C = {} as C;
 

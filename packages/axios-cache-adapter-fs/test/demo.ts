@@ -10,7 +10,7 @@ import path from 'path';
 	const saveCacheFileBySelf = true;
 
 	let cache = setupCache({
-		maxAge: 15 * 60 * 1000,
+		maxAge: 24 * 60 * 60 * 1000,
 	});
 
 	const cacheFile = path.join(__dirname, 'temp', 'axios.cache.json');

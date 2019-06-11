@@ -43,7 +43,7 @@ export function Authorization(value: string, type?: string | EnumAuthorizationTy
 
 export function _makeAuthorizationValue(value: string, type?: string | EnumAuthorizationType)
 {
-	if (type != null && type != '')
+	if (type != null && type !== '')
 	{
 		value = type + ' ' + value;
 	}

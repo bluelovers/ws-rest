@@ -3,6 +3,10 @@
     "bluelovers"
   ],
   "rules": {
-    "no-console": "error"
+    "no-console": "error",
+    "no-unused-vars": "off",
+    "valid-jsdoc": "off",
+    "require-jsdoc": "off",
+    "@typescript-eslint/no-unused-vars": "off"
   }
 }

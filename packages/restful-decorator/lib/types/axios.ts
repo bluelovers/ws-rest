@@ -11,6 +11,7 @@ import Bluebird from 'bluebird';
 
 // @ts-ignore
 import * as CombineURLs from 'axios/lib/helpers/combineURLs';
+import { IResponseHeaders, ILazyHeaders } from 'typed-http-headers';
 
 export interface IAxiosResponseClientRequest extends Record<IPropertyKey, any>
 {
@@ -27,13 +28,14 @@ export interface IAxiosResponseClientRequest extends Record<IPropertyKey, any>
 
 export type IHttpheadersValues = string | number | boolean | string[];
 
-export interface IHttpheaders extends Record<string, IHttpheadersValues>
+export interface IHttpheaders extends Record<string | keyof IResponseHeaders, IHttpheadersValues>
 {
 	Accepts?: 'application/json' | string | string[],
 	Referer?: string,
 	'Content-Type'?: string,
 	'Authorization'?: string,
 	'x-auth-token'?: string,
+	'Set-Cookie'?: string[],
 }
 
 export interface IAxiosDefaultsHeaders extends Partial<Record<'common' | 'delete' | 'get' | 'post' | 'put' | 'patch', IHttpheaders>>
