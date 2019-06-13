@@ -34,9 +34,10 @@ import clone from 'lodash/clone';
 import isBase64 from 'is-base64';
 import LazyURLSearchParams from 'http-form-urlencoded';
 import { AxiosError } from 'axios';
-import { mergeAxiosErrorWithResponseData } from 'restful-decorator/lib/wrap/errpr';
+import { mergeAxiosErrorWithResponseData } from 'restful-decorator/lib/wrap/error';
 import Bluebird from 'bluebird';
 import { toBase64 } from './util';
+import { CatchResponseDataError } from './decorators';
 
 const SymApiOptions = Symbol('options');
 
@@ -73,6 +74,8 @@ export const GITEE_SCOPES = Object.freeze('user_info projects pull_requests issu
 })
 /**
  * @see https://gitee.com/api/v5/oauth_doc
+ * @link https://gitee.com/api/v5/swagger
+ *
  * @todo 好一點的方法命名
  */
 export class GiteeV5Client extends AbstractHttpClient
@@ -234,12 +237,7 @@ export class GiteeV5Client extends AbstractHttpClient
 		return data;
 	})
 	@methodBuilder()
-	@CatchError(function (e: AxiosError<{
-		message: string
-	}>)
-	{
-		return Bluebird.reject(mergeAxiosErrorWithResponseData(e))
-	})
+	@CatchResponseDataError()
 	repoContentsCreate(@ParamMapAuto() setting: {
 		owner: string,
 		repo: string,
@@ -554,6 +552,7 @@ export class GiteeV5Client extends AbstractHttpClient
 
 	@POST('repos/{owner}/{repo}/branches')
 	@methodBuilder()
+	@CatchResponseDataError()
 	/**
 	 * 建立一個分支 (允許將 refs 設定為他人的 repo 下的 commit)
 	 */
