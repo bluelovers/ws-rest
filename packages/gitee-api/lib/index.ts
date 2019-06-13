@@ -12,12 +12,14 @@ import {
 	ParamPath,
 	ParamQuery,
 	POST,
+	HandleParamMetadata,
 	RequestConfigs, TransformRequest, PUT,
 } from 'restful-decorator/lib/decorators';
 import { ITSPickExtra, ITSRequireAtLeastOne, ITSResolvable, ITSValueOrArray } from 'ts-type';
 import { IBluebird } from 'restful-decorator/lib/index';
 import LazyURL from 'lazy-url';
 import {
+	IBranchInfo, IBranchInfoSimple,
 	IComment, ICompareCommits, IIssuesState,
 	IRepoContentsFile,
 	IRepoContentsFileBlobs,
@@ -71,6 +73,7 @@ export const GITEE_SCOPES = Object.freeze('user_info projects pull_requests issu
 })
 /**
  * @see https://gitee.com/api/v5/oauth_doc
+ * @todo 好一點的方法命名
  */
 export class GiteeV5Client extends AbstractHttpClient
 {
@@ -506,6 +509,97 @@ export class GiteeV5Client extends AbstractHttpClient
 	}): IBluebird<ICompareCommits>
 	{
 		return
+	}
+
+	@GET('repos/{owner}/{repo}/branches/{branch}')
+	@HandleParamMetadata((info) => {
+
+		let [ setting ] = info.argv;
+
+		if (!setting.branch)
+		{
+			throw new TypeError(`branch should not to empty ${JSON.stringify(setting.branch)}`)
+		}
+
+		return info;
+	})
+	@methodBuilder({
+		autoRequest: false,
+	})
+	repoBranchInfo(@ParamMapAuto({
+		branch: 'master',
+	}) setting: {
+
+		owner: string,
+		repo: string,
+
+		branch?: string,
+
+	}): IBluebird<IBranchInfo>
+	{
+		return this.repoBranchList(setting) as any as IBluebird<IBranchInfo>;
+	}
+
+	@GET('repos/{owner}/{repo}/branches{/branch}')
+	@methodBuilder()
+	repoBranchList(@ParamMapAuto() setting: {
+
+		owner: string,
+		repo: string,
+
+	}): IBluebird<IBranchInfoSimple[]>
+	{
+		return
+	}
+
+	@POST('repos/{owner}/{repo}/branches')
+	@methodBuilder()
+	/**
+	 * 建立一個分支 (允許將 refs 設定為他人的 repo 下的 commit)
+	 */
+	repoBranchCreate(@ParamMapAuto() setting: {
+
+		owner: string,
+		repo: string,
+
+		refs: string,
+
+		branch_name: string,
+
+	}): IBluebird<IBranchInfo>
+	{
+		return
+	}
+
+	@POST('repos/{owner}/{repo}/branches')
+	@methodBuilder({
+		autoRequest: false,
+	})
+	/**
+	 * 建立一個來自他人 repo 分支的分支
+	 */
+	repoBranchCreateByOtherRepo(@ParamMapAuto() setting: {
+
+		owner: string,
+		repo: string,
+
+		branch_name: string,
+
+	}, fromTarget: {
+		owner: string,
+		repo: string,
+		branch?: string,
+	})
+	{
+		return this
+			.repoBranchInfo(fromTarget)
+			.then(ret => {
+				return this.repoBranchCreate({
+					...setting,
+					refs: ret.commit.sha,
+				})
+			})
+		;
 	}
 
 }

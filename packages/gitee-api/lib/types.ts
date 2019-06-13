@@ -299,4 +299,43 @@ export interface ICompareCommits
 	};
 	commits: any[];
 	files: any[];
-};
+}
+
+export interface IBranchInfoSimple
+{
+	name: string;
+	commit: {
+		sha: string;
+		url: string;
+	};
+	protected: boolean;
+	protection_url: string;
+}
+
+interface IAuthUser
+{
+	avatar_url: string;
+	url: string;
+	id: number;
+	login: string;
+}
+
+export interface IBranchInfo extends IBranchInfoSimple
+{
+	commit: IBranchInfoSimple["commit"] & {
+		commit: {
+			author: ICommitUser;
+			url: string;
+			message: string;
+			tree: ICommitTreeSimpleData;
+			committer: ICommitUser;
+		};
+		author: IAuthUser;
+		parents: ICommitTreeSimpleData[];
+		committer: IAuthUser;
+	};
+	_links: {
+		html: string;
+		self: string;
+	};
+}
