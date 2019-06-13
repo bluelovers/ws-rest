@@ -6,6 +6,7 @@ import RequestConfig from './config';
 import { EnumRestClientMetadata } from './http';
 import { getMemberMetadata, IParameterDecorator, IPropertyKey, setMemberMetadata } from 'reflect-metadata-util';
 import cloneDeep from 'lodash/cloneDeep';
+import lodash_defaults from 'lodash/defaults';
 
 export const SymParamMap = Symbol('ParamMap');
 
@@ -241,7 +242,7 @@ export function _habdleParamInfo<T>(info: {
 export function _ParamInfoToArgv<T extends any[]>(data: IParamMetadata, argv: T)
 {
 	return Object.keys(data)
-		.reduce(function (argv, key: keyof IParamMetadata)
+		.reduce(function (argv, key: keyof IParamMetadata | keyof IParamMetadata2)
 		{
 
 			let arr: IParameter[];
@@ -255,10 +256,28 @@ export function _ParamInfoToArgv<T extends any[]>(data: IParamMetadata, argv: T)
 				arr = data[key] as IParameter[];
 			}
 
-			arr.forEach((row) =>
+			switch (key as keyof IParamMetadata2)
 			{
-				argv[row.parameterIndex] = row.value == null ? row.defaultValue : row.value;
-			});
+				case EnumRestClientMetadata.PARAM_MAP_AUTO:
+				case EnumRestClientMetadata.PARAM_MAP_PATH:
+				case EnumRestClientMetadata.PARAM_MAP_BODY:
+				case EnumRestClientMetadata.PARAM_MAP_DATA:
+				case EnumRestClientMetadata.PARAM_MAP_HEADER:
+				case EnumRestClientMetadata.PARAM_MAP_QUERY:
+
+					arr.forEach((row) =>
+					{
+						argv[row.parameterIndex] = lodash_defaults(row.value, row.defaultValue);
+					});
+
+					break;
+				default:
+					arr.forEach((row) =>
+					{
+						argv[row.parameterIndex] = row.value == null ? row.defaultValue : row.value;
+					});
+					break;
+			}
 
 			return argv;
 		}, argv.slice())

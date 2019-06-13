@@ -27,6 +27,7 @@ import CookieJarSupport from '../decorators/config/cookies';
 import { LazyCookieJar } from 'lazy-cookies';
 import { fixAxiosCombineURLs } from '../fix/axios';
 import parseRouterVars from 'router-uri-convert/parser';
+import lodash_defaults from 'lodash/defaults';
 
 export interface IAbstractHttpClientCache
 {
