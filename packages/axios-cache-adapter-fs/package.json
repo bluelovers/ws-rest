@@ -1,6 +1,6 @@
 {
   "name": "axios-cache-adapter-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "axios-cache-adapter export/import json for save/load file",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -41,8 +41,8 @@
     "fs-extra": "^8.0.1"
   },
   "dependencies": {
-    "typed-http-headers": "^1.0.0",
     "bluebird": "^3.5.5",
-    "ts-type": "^1.2.7"
+    "ts-type": "^1.2.7",
+    "typed-http-headers": "^1.0.0"
   }
 }
