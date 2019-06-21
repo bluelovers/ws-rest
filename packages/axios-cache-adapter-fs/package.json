@@ -2,21 +2,21 @@
   "name": "axios-cache-adapter-util",
   "version": "1.0.1",
   "description": "axios-cache-adapter export/import json for save/load file",
+  "keywords": [
+    "axios",
+    "axios-cache-adapter",
+    "cache",
+    "export",
+    "fs",
+    "import",
+    "json",
+    "request",
+    "xhr"
+  ],
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
   },
-  "keywords": [
-    "axios",
-    "cache",
-    "axios-cache-adapter",
-    "xhr",
-    "export",
-    "import",
-    "fs",
-    "json",
-    "request"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bluelovers/ws-rest.git"
@@ -33,16 +33,17 @@
     "sort-package-json": "npx sort-package-json ./package.json",
     "test": "ts-node ./test/demo"
   },
-  "peerDependencies": {
-    "axios": "^0.19.0",
-    "axios-cache-adapter": "^2.3.2"
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "ts-type": "^1.2.9",
+    "typed-http-headers": "^1.0.2"
   },
   "devDependencies": {
     "fs-extra": "^8.0.1"
   },
-  "dependencies": {
-    "bluebird": "^3.5.5",
-    "ts-type": "^1.2.7",
-    "typed-http-headers": "^1.0.0"
-  }
+  "peerDependencies": {
+    "axios": "^0.19.0",
+    "axios-cache-adapter": "^2.3.3"
+  },
+  "gitHead": "e2fc6028e242efa221a9b6163ade7c06c1ef4fdd"
 }
