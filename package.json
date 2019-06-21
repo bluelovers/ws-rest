@@ -2,6 +2,21 @@
   "name": "router-uri-convert",
   "version": "1.0.6",
   "description": "convert uri-template replace :varname with {+varname} to make it RFC 6570 compatible",
+  "keywords": [
+    "endpoint",
+    "express",
+    "litejs",
+    "rfc 6570",
+    "rfc6570",
+    "router",
+    "template",
+    "uri",
+    "uri template",
+    "uri-template",
+    "url",
+    "url template",
+    "url-template"
+  ],
   "license": "ISC",
   "author": "",
   "main": "index.js",
@@ -14,30 +29,12 @@
     "sort-package-json": "npx sort-package-json ./package.json",
     "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}"
   },
-  "keywords": [
-    "uri",
-    "url",
-    "template",
-    "uri-template",
-    "rfc6570",
-    "uri-template",
-    "uri template",
-    "uri",
-    "url",
-    "router",
-    "express",
-    "rfc 6570",
-    "url template",
-    "url-template",
-    "endpoint",
-    "litejs"
-  ],
+  "dependencies": {
+    "execall2": "^1.1.1"
+  },
   "devDependencies": {
     "uri-template-lite": "^19.4.0",
     "url-template": "^2.0.8"
   },
-  "gitHead": "3620bb0e7852be85dca540cbf787c9701dce19b6",
-  "dependencies": {
-    "execall2": "^1.1.1"
-  }
+  "gitHead": "3620bb0e7852be85dca540cbf787c9701dce19b6"
 }
