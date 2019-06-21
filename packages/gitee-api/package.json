@@ -12,7 +12,7 @@
   },
   "license": "ISC",
   "author": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",

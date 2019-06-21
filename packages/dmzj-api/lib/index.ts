@@ -104,7 +104,7 @@ export class DmzjClient extends AbstractHttpClient
 		return
 	}
 
-	async loginByCookies(cookies_data: IDmzjClientCookies | ICookiesValue[])
+	loginByCookies(cookies_data: IDmzjClientCookies | ICookiesValue[])
 	{
 		const jar = getCookieJar(this);
 		jar.setData(cookies_data || {});
