@@ -4,6 +4,22 @@
 
 export type IGrantType = 'authorization_code' | 'password' | 'client_credentials' | 'refresh_token';
 
+export interface IError001
+{
+	error: string | 'invalid_grant' | 'invalid_client',
+	error_description: string
+}
+
+export interface IOauthTokenData
+{
+	access_token: string;
+	token_type: string | 'bearer';
+	expires_in: number;
+	refresh_token: string;
+	scope: string;
+	created_at: number;
+}
+
 export interface IRepoContentsFile
 {
 	type: string;
@@ -338,4 +354,19 @@ export interface IBranchInfo extends IBranchInfoSimple
 		html: string;
 		self: string;
 	};
+}
+
+export interface IUserInfo extends ICommitUserInfo
+{
+	"blog": string;
+	"weibo": string;
+	"bio": string;
+	"public_repos": number;
+	"public_gists": number;
+	"followers": number;
+	"following": number;
+	"stared": number;
+	"watched": number;
+	"created_at": string;
+	"updated_at": string;
 }

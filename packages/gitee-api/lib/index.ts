@@ -13,19 +13,19 @@ import {
 	ParamQuery,
 	POST,
 	HandleParamMetadata,
-	RequestConfigs, TransformRequest, PUT,
+	RequestConfigs, TransformRequest, PUT, BodyData,
 } from 'restful-decorator/lib/decorators';
 import { ITSPickExtra, ITSRequireAtLeastOne, ITSResolvable, ITSValueOrArray } from 'ts-type';
 import { IBluebird } from 'restful-decorator/lib/index';
 import LazyURL from 'lazy-url';
 import {
 	IBranchInfo, IBranchInfoSimple,
-	IComment, ICompareCommits, IIssuesState,
+	IComment, ICompareCommits, IError001, IIssuesState, IOauthTokenData,
 	IRepoContentsFile,
 	IRepoContentsFileBlobs,
 	IRepoContentsFileCreated,
 	IRepoInfo,
-	IRepoLanguage,
+	IRepoLanguage, IUserInfo,
 } from './types';
 import { _makeAuthorizationValue, EnumAuthorizationType } from 'restful-decorator/lib/decorators/headers';
 import { mergeClone } from 'restful-decorator/lib/util/merge';
@@ -56,9 +56,11 @@ export interface IGiteeOptionsCore
 	owner?: string,
 	repo?: string,
 
+	redirect_uri?: string,
+
 }
 
-export const GITEE_SCOPES = Object.freeze('user_info projects pull_requests issues notes keys hook groups gists'.split(' '));
+export const GITEE_SCOPES = Object.freeze('user_info projects pull_requests issues notes keys hook groups gists enterprises'.split(' '));
 
 @BaseUrl('https://gitee.com/api/v5/')
 @Headers({
@@ -82,6 +84,11 @@ export class GiteeV5Client extends AbstractHttpClient
 {
 	protected [SymApiOptions]: IGiteeOptionsCore;
 
+	static allScope()
+	{
+		return GITEE_SCOPES.slice()
+	}
+
 	constructor(options: IGiteeOptions)
 	{
 		super(options.defaults, options);
@@ -90,7 +97,7 @@ export class GiteeV5Client extends AbstractHttpClient
 	protected _init(defaults?: AxiosRequestConfig, options?: IGiteeOptions)
 	{
 		//let { scope = 'user_info issues notes', clientId, clientSecret, state = 'all' } = options || {};
-		let { scope, clientId, clientSecret, state } = options || {};
+		let { scope, clientId, clientSecret, state, redirect_uri } = options || {};
 
 		defaults = super._init(defaults);
 
@@ -99,6 +106,7 @@ export class GiteeV5Client extends AbstractHttpClient
 			clientId,
 			clientSecret,
 			state,
+			redirect_uri,
 		});
 
 		return defaults;
@@ -111,14 +119,102 @@ export class GiteeV5Client extends AbstractHttpClient
 		return this;
 	}
 
+	@POST('/oauth/token')
+	@FormUrlencoded
+	@BodyData({
+		grant_type: 'authorization_code'
+	})
+	requestAccessToken(code: string, redirect_uri?: string | URL, redirect_uri2?: string | URL): IBluebird<IOauthTokenData>
+	{
+		let url = new LazyURL('/oauth/token', this.$baseURL);
+
+		let { state, scope, clientSecret, clientId } = this[SymApiOptions];
+
+		let data = new URLSearchParams();
+
+		data.set('client_id', clientId);
+		data.set('client_secret', clientSecret);
+		data.set('code', code);
+		data.set('grant_type', 'authorization_code');
+		data.set('redirect_uri', this.redirectUrl(redirect_uri, redirect_uri2).toRealString());
+
+		return Bluebird.resolve(this.$http({
+			url: url.toRealString(),
+			method: 'POST',
+			data,
+		}))
+			.then<IOauthTokenData>(r => r.data)
+			.catch(e => {
+
+				if (e.response.data.error)
+				{
+					return Bluebird.reject(e.response.data as IError001)
+				}
+
+				return Bluebird.reject(e);
+			})
+	}
+
+	@POST('/oauth/token')
+	@FormUrlencoded
+	@BodyData({
+		grant_type: 'refresh_token'
+	})
+	@methodBuilder({
+		returnData: true,
+	})
+	refreshAccessToken(@ParamData('refresh_token') refresh_token: string): IBluebird<IOauthTokenData>
+	{
+		return null
+	}
+
+	@POST('/oauth/token')
+	@FormUrlencoded
+	@BodyData({
+		grant_type: 'password'
+	})
+	@methodBuilder(function (info)
+	{
+		// @ts-ignore
+		let { state, scope, clientSecret, clientId } = info.thisArgv[SymApiOptions];
+
+		info.requestConfig.data.client_id = clientId;
+		info.requestConfig.data.client_secret = clientSecret;
+
+		if (!info.requestConfig.data.scope && scope)
+		{
+			info.requestConfig.data.scope = scope
+		}
+
+		return info;
+	}, {
+		returnData: true,
+	})
+	oauthTokenByPassword(@ParamMapAuto() loginData: {
+		username: string,
+		password: string,
+
+		scope?: string,
+	}): IBluebird<IOauthTokenData>
+	{
+		return null
+	}
+
 	redirectUrl(redirect_uri?: string | URL, redirect_uri2?: string | URL)
 	{
 		let url = new LazyURL('/oauth/authorize', this.$baseURL);
 
 		if (redirect_uri == null)
 		{
-			// @ts-ignore
-			redirect_uri = window.location.href
+			if (!_hasWindow() && (typeof this[SymApiOptions].redirect_uri === 'string'))
+			{
+				redirect_uri = this[SymApiOptions].redirect_uri
+			}
+			else
+			{
+				// @ts-ignore
+				redirect_uri = window.location.href
+			}
 		}
 		else if (typeof redirect_uri != 'string')
 		{
@@ -601,6 +697,30 @@ export class GiteeV5Client extends AbstractHttpClient
 		;
 	}
 
+	@GET('user')
+	@methodBuilder()
+	userInfo(): IBluebird<IUserInfo>
+	{
+		return null;
+	}
+
+}
+
+function _hasWindow()
+{
+	try
+	{
+		if (window.location)
+		{
+			return true;
+		}
+	}
+	catch (e)
+	{
+
+	}
+
+	return false;
 }
 
 export default GiteeV5Client
