@@ -5,7 +5,7 @@ export { CacheRequest } from './decorators/config/cache';
 
 export { CookieJarSupport, SetCookies } from './decorators/config/cookies';
 
-export { RequestConfig, RequestConfigs, TransformRequest } from './decorators/config';
+export { RequestConfig, RequestConfigs, TransformRequest, TransformResponse } from './decorators/config';
 
 export {
 	BodyData,

@@ -83,4 +83,39 @@ export function TransformRequest(fn: ITSValueOrArray<AxiosTransformer>)
 	}
 }
 
+/**
+ * 越晚執行的放越上面
+ */
+export function TransformResponse(fn: ITSValueOrArray<AxiosTransformer>)
+{
+	return function (target: any, propertyName?: IPropertyKey)
+	{
+		const config = getConfig(target, propertyName);
+
+		if (config.transformResponse && !Array.isArray(config.transformResponse))
+		{
+			config.transformResponse = [config.transformResponse];
+		}
+
+		if (!Array.isArray(fn))
+		{
+			fn = [fn];
+		}
+
+		config.transformResponse = config.transformResponse || [];
+
+		config.transformResponse.push(...fn);
+
+		//console.dir(config.transformRequest);
+
+//		merge(config, {
+//
+//			transformRequest: fn,
+//
+//		} as AxiosRequestConfig);
+
+		setConfig(config, target, propertyName);
+	}
+}
+
 export default RequestConfig;
