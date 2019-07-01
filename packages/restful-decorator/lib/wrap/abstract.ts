@@ -60,6 +60,11 @@ export const methodBuilder = createMethodBuilder<any, IAbstractHttpClientCache>(
 
 	argv = _ParamInfoToArgv(paramMetadata, argv);
 
+	paramMetadata = _habdleParamInfo({
+		paramMetadata,
+		argv,
+	});
+
 	const { bool, requestConfigNew } = _chkSettingUpdate<AxiosRequestConfig>({}, requestConfig);
 
 	if (thisArgv.$parent == null || thisArgv.$parent === thisArgv)
