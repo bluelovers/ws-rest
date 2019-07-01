@@ -275,7 +275,9 @@ export function paramMetadataRequestConfig(_argv: {
 
 					arr.forEach((row) =>
 					{
-						Object.assign(requestConfig[targetField], row.value)
+						lodash_defaults(requestConfig[targetField], row.value, row.defaultValue);
+
+						//Object.assign(requestConfig[targetField], row.value)
 					});
 
 					break;

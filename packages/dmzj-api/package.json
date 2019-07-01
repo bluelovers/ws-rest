@@ -23,8 +23,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "array-hyper-unique": "^1.0.7",
+    "axios-cache-adapter-util": "^1.0.3",
     "lazy-cookies": "^1.0.4",
-    "restful-decorator": "^1.0.8"
+    "restful-decorator": "^1.0.8",
+    "ts-type": "^1.2.9"
   },
   "gitHead": "29240a593727570adf8876994ef66efef51f4ba6"
 }

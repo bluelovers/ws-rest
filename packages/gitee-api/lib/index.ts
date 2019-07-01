@@ -70,7 +70,7 @@ export const GITEE_SCOPES = Object.freeze('user_info projects pull_requests issu
 	responseType: 'json',
 })
 @CacheRequest({
-	cache: null && {
+	cache: {
 		maxAge: 15 * 60 * 1000,
 	},
 })
