@@ -1,6 +1,6 @@
 {
   "name": "http-form-urlencoded",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "keywords": [
     "URLSearchParams",
@@ -33,7 +33,6 @@
     "lint": "npx eslint **/*.ts",
     "ncu": "npx yarn-tool ncu -u",
     "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
-
     "sort-package-json": "npx sort-package-json ./package.json",
     "test": "ts-node ./test/demo"
   },

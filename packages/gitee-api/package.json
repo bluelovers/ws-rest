@@ -1,6 +1,6 @@
 {
   "name": "gitee-api",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -18,15 +18,14 @@
     "lint": "npx eslint **/*.ts",
     "ncu": "npx yarn-tool ncu -u",
     "prepublishOnly": "npm run ncu && npm run sort-package-json",
-
     "sort-package-json": "npx sort-package-json ./package.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "is-base64": "^0.1.0",
-    "lazy-cookies": "^1.0.7",
+    "lazy-cookies": "^1.0.8",
     "lazy-url": "^1.0.5",
-    "restful-decorator": "^1.0.11"
+    "restful-decorator": "^1.0.12"
   },
   "devDependencies": {
     "@types/dotenv": "^6.1.1",
