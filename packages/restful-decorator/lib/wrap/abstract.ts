@@ -18,8 +18,7 @@ import {
 import { IHandleDescriptorReturn2 } from '../decorators/build';
 import { EnumRestClientMetadata } from '../decorators/http';
 import routerToRfc6570 from 'router-uri-convert';
-// @ts-ignore
-import { URI as routerURI } from 'uri-template-lite';
+import { expand } from 'router-uri-convert/parser';
 import { includesKey } from '../util/util';
 import { axios, IAxiosDefaultsHeaders } from '../types/axios';
 import { IPropertyKey } from 'reflect-metadata-util';
@@ -320,7 +319,7 @@ export function paramMetadataRequestConfig(_argv: {
 
 		Object.assign(pathData, ret.expand);
 
-		requestConfig.url = routerURI.expand(tpl, pathData);
+		requestConfig.url = expand(tpl, pathData).url;
 
 		if (Object.keys(ret.data).length)
 		{

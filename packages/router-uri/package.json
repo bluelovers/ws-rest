@@ -30,10 +30,10 @@
     "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}"
   },
   "dependencies": {
-    "execall2": "^1.1.1"
+    "execall2": "^1.1.1",
+    "uri-template-lite": "^19.4.0"
   },
   "devDependencies": {
-    "uri-template-lite": "^19.4.0",
     "url-template": "^2.0.8"
   },
   "gitHead": "4bf83cfb7dbc60b69fce4a5db6dbcfde79375c84"
