@@ -28,7 +28,7 @@ import {
 	EnumNumberBoolean,
 	EnumWebSubscribeTypeID,
 	IDmzjArticleCategory,
-	IDmzjClientCookies,
+	IDmzjClientCookies, IDmzjClientNovelRecentUpdateAll,
 	IDmzjJson,
 	IDmzjLoginConfirm,
 	IDmzjNovelChapters, IDmzjNovelDataInfo,
@@ -287,7 +287,7 @@ export class DmzjClient extends AbstractHttpClient
 	/**
 	 * 一次性取得全部小說列表(如果遇到網路錯誤 或者 其他意外狀況則會停止)
 	 */
-	novelRecentUpdateAll(from: number = 0, to: number = Infinity)
+	novelRecentUpdateAll(from: number = 0, to: number = Infinity): IBluebird<IDmzjClientNovelRecentUpdateAll>
 	{
 		let i = from;
 
@@ -319,6 +319,8 @@ export class DmzjClient extends AbstractHttpClient
 					}
 					else if (!cur.length)
 					{
+						consoleDebug.debug(i, `沒有內容 此頁次可能已超過範圍`);
+
 						if (i > 0)
 						{
 							i -= 1;
@@ -332,11 +334,16 @@ export class DmzjClient extends AbstractHttpClient
 
 						if (!cur_ids.some(id => id && !last.includes(id)))
 						{
+							consoleDebug.debug(i, `沒有新內容 本次查詢資料可能與上次相同`, {
+								cur_ids,
+								last_ids: last,
+							});
+
 							break;
 						}
 					}
 
-					consoleDebug.debug(i, cur.length);
+					consoleDebug.debug(i, cur.length, cur_ids);
 
 					list.push(...cur);
 
@@ -351,11 +358,10 @@ export class DmzjClient extends AbstractHttpClient
 
 				let last_update_time = list.reduce((a, b) =>
 				{
-
 					return Math.max(a, b.last_update_time | 0)
 				}, 0);
 
-				return {
+				return <IDmzjClientNovelRecentUpdateAll>{
 					from,
 					to,
 					end: i,

@@ -125,6 +125,15 @@ export interface IDmzjNovelRecentUpdateRow
 	"last_update_time": number;
 }
 
+export interface IDmzjClientNovelRecentUpdateAll
+{
+	from: number;
+	to: number;
+	end: number;
+	last_update_time: number;
+	list: IDmzjNovelRecentUpdateRow[];
+}
+
 export interface IDmzjLoginConfirm
 {
 	result: number | 0 | 1;
@@ -160,22 +169,11 @@ export interface IDmzjArticleCategory
 	"tag_name": string;
 }
 
-export interface IDmzjNovelInfo
+export interface IDmzjNovelInfo extends IDmzjNovelRecentUpdateRow
 {
-	"id": number;
-	"name": string;
 	"zone": string | "日本";
-	"status": EnumDmzjAcgnStatus;
-	"last_update_volume_name": string;
-	"last_update_chapter_name": string;
-	"last_update_volume_id": number;
-	"last_update_chapter_id": number;
-	"last_update_time": number;
-	"cover": string;
 	"hot_hits": number;
 	"introduction": string;
-	"types": string[];
-	"authors": string;
 	"subscribe_num": number;
 	"volume": {
 		"id": number;
