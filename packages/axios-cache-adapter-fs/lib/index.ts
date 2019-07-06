@@ -121,7 +121,7 @@ export function exportCache<S extends ISetupCache["store"], C extends ICacheStor
 				}
 
 			})
-		.then(r => exportCb(json))
+		.then(r => exportCb(json) as R)
 		;
 }
 
