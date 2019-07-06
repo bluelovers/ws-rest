@@ -7,7 +7,9 @@ import { setupCache, IAxiosCacheAdapterOptions, ISetupCache } from 'axios-cache-
 import Bluebird from 'bluebird';
 import RequestConfig, { RequestConfigs } from './index';
 import { AxiosRequestConfig } from '../../types/axios';
+import defaultsDeep from 'lodash/defaultsDeep';
 import { getMemberMetadata, IPropertyKey, setMemberMetadata, getMetadataLazy } from 'reflect-metadata-util';
+import setupCacheConfig from '../../wrap/cache';
 
 export const SymAxiosCacheAdapter = Symbol('AxiosCacheAdapter');
 
@@ -17,14 +19,11 @@ export function CacheRequest(config: Pick<AxiosRequestConfig, 'cache' | 'clearCa
 	{
 		if (config.cache)
 		{
-			const cache = setupCache(config.cache);
+			let ret = setupCacheConfig(config);
 
-			config = <AxiosRequestConfig>{
-				...config,
-				adapter: Bluebird.method(cache.adapter),
-			};
+			const { cache } = ret;
 
-			delete config.cache;
+			config = ret.config;
 
 			setAxiosCacheAdapter(cache, target, propertyName)
 		}

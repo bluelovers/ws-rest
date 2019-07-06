@@ -279,9 +279,6 @@ export class DmzjClient extends AbstractHttpClient
 	 * 最近更新
 	 */
 	@GET('novel/recentUpdate/{page}.json')
-	@CatchError((e) => {
-		return Promise.reject(mergeAxiosErrorWithResponseData(e))
-	})
 	@methodBuilder()
 	novelRecentUpdate(@ParamPath('page', 0) page?: number): IBluebird<IDmzjNovelRecentUpdateRow[]>
 	{
@@ -292,7 +289,13 @@ export class DmzjClient extends AbstractHttpClient
 	/**
 	 * 一次性取得全部小說列表(如果遇到網路錯誤 或者 其他意外狀況則會停止)
 	 */
-	novelRecentUpdateAll(from: number = 0, to: number = Infinity, throwError?: boolean): IBluebird<IDmzjClientNovelRecentUpdateAll>
+	novelRecentUpdateAll(from: number = 0, to: number = Infinity, {
+		throwError,
+		delay,
+	}: {
+		throwError?: boolean
+		delay?: number,
+	} = {}): IBluebird<IDmzjClientNovelRecentUpdateAll>
 	{
 		let i = from;
 
@@ -301,10 +304,15 @@ export class DmzjClient extends AbstractHttpClient
 			.then(async () =>
 			{
 				let list: IDmzjNovelRecentUpdateRow[] = [];
-				let last: (string | number)[] = [];
+				let last: (IDmzjNovelRecentUpdateRow["id"])[] = [];
 
 				while (i < to)
 				{
+					if (i > from && delay > 0)
+					{
+						await Bluebird.delay(delay | 0)
+					}
+
 					let cur: IDmzjNovelRecentUpdateRow[] = await this.novelRecentUpdate(i)
 						.catch(e => {
 
@@ -313,13 +321,13 @@ export class DmzjClient extends AbstractHttpClient
 								return Promise.reject(e)
 							}
 
-							consoleDebug.error('[ERROR]', i, e.message);
+							consoleDebug.error(i, e.message);
 
 							return null;
 						})
 					;
 
-					let cur_ids: (string | number)[];
+					let cur_ids: (IDmzjNovelRecentUpdateRow["id"])[];
 
 					if (cur == null || !Array.isArray(cur))
 					{
@@ -345,7 +353,7 @@ export class DmzjClient extends AbstractHttpClient
 					}
 					else
 					{
-						cur_ids = cur.map(v => v.id);
+						cur_ids = cur.map((v: IDmzjNovelRecentUpdateRow) => v.id);
 
 						if (!cur_ids.some(id => id && !last.includes(id)))
 						{

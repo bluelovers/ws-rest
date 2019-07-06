@@ -3,11 +3,14 @@
  */
 import { AxiosError } from 'axios';
 
-export function mergeAxiosErrorWithResponseData<E extends AxiosError>(e: E)
+export function mergeAxiosErrorWithResponseData<E extends AxiosError>(e: E, cb?: (data: unknown) => boolean)
 {
 	if (e.response && e.response.data)
 	{
-		e.message += ' ' + JSON.stringify(e.response.data);
+		if (!cb || cb(e.response.data))
+		{
+			e.message += ' ' + JSON.stringify(e.response.data);
+		}
 	}
 
 	return e
