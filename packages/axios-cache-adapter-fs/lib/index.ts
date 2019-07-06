@@ -17,12 +17,21 @@ export interface ICacheStoreJsonRow
 	data: string,
 }
 
-export interface ICacheStoreJson<T = ICacheStoreJsonRow> extends Record<any, {
+export interface ICacheStoreJsonItem<T = ICacheStoreJsonRow>
+{
 	expires: number,
 	data: T,
-}>
+}
+
+export interface ICacheStoreJson<T = ICacheStoreJsonRow> extends Record<any, ICacheStoreJsonItem<T>>
 {
 
+}
+
+export interface IOptions
+{
+	importFilter?<T = ICacheStoreJsonRow>(k: string, v: ICacheStoreJsonItem<T>): boolean | number | ICacheStoreJsonItem<T>;
+	exportFilter?<T = ICacheStoreJsonRow>(k: string, v: ICacheStoreJsonItem<T>): boolean | number | ICacheStoreJsonItem<T>;
 }
 
 export interface IBaseCacheStore
@@ -40,25 +49,48 @@ export interface IBaseCacheStore
 	store?: ICacheStoreJson
 }
 
-export function importCache<S extends ISetupCache["store"]>(store: S | IBaseCacheStore, json: ICacheStoreJson<any>)
+export function importCache<S extends ISetupCache["store"]>(store: S | IBaseCacheStore, json: ICacheStoreJson<any>, options?: IOptions)
 {
+	const { importFilter = defaultFilter as IOptions["importFilter"]} = options || {};
+
 	return Bluebird
-		.resolve(Object.entries(json))
+		.resolve(Object.entries(json) as [string, ICacheStoreJsonItem<any>][])
 		.each(([k, v]) =>
 		{
-			(store as IBaseCacheStore).setItem(k, v);
+			let r = importFilter && importFilter(k, v);
+
+			if (r || r == null)
+			{
+				if (r && typeof r === 'object')
+				{
+					v = r;
+				}
+
+				(store as IBaseCacheStore).setItem(k, v);
+			}
 		})
 		.thenReturn(store)
 		;
 }
 
-export function exportCache<S extends ISetupCache["store"], C extends ICacheStoreJson<unknown | ICacheStoreJsonRow>, R = C>(store: S | IBaseCacheStore, cb?: (json: C) => R): Promise<R>
+export function exportCache<S extends ISetupCache["store"], C extends ICacheStoreJson<unknown | ICacheStoreJsonRow>, R = C>(store: S | IBaseCacheStore, options?: ((json: C) => R) | IOptions & {
+	exportCb?(json: C): R;
+}): Promise<R>
 {
+	if (typeof options === 'function')
+	{
+		options = {
+			exportCb: options,
+		}
+	}
+
 	const json: C = {} as C;
 
-	if (!cb)
+	let { exportFilter = defaultFilter as IOptions["exportFilter"], exportCb } = options || {};
+
+	if (!exportCb)
 	{
-		cb = () => json as any;
+		exportCb = () => json as any;
 	}
 
 	return (store as IBaseCacheStore)
@@ -76,9 +108,20 @@ export function exportCache<S extends ISetupCache["store"], C extends ICacheStor
 					}
 				}
 
-				(json as ICacheStoreJson)[key] = value;
+				let r = exportFilter && exportFilter(key, value);
+
+				if (r || r == null)
+				{
+					if (r && typeof r === 'object')
+					{
+						value = r;
+					}
+
+					(json as ICacheStoreJson)[key] = value;
+				}
+
 			})
-		.then(r => cb(json))
+		.then(r => exportCb(json))
 		;
 }
 
@@ -95,6 +138,13 @@ export function processExitHook(fn: (...args: any[]) => void)
 		// @ts-ignore
 		process.off('exit', fn)
 	}
+}
+
+export function defaultFilter<T extends ICacheStoreJsonRow = ICacheStoreJsonRow>(k: string, v: ICacheStoreJsonItem<T>): boolean
+{
+	const { status } = v.data;
+
+	return status != 500;
 }
 
 export default {
