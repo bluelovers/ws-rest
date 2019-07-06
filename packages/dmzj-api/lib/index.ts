@@ -79,7 +79,7 @@ import { mergeAxiosErrorWithResponseData } from '../../restful-decorator/lib/wra
 })
 @CacheRequest({
 	cache: {
-		maxAge: 15 * 60 * 1000,
+		maxAge: 6 * 60 * 60 * 1000,
 	},
 })
 export class DmzjClient extends AbstractHttpClient
