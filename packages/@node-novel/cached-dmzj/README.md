@@ -1,10 +1,10 @@
 # README.md
 
-    <description>
+    cached dmzj api data
 
 ## install
 
 ```
-yarn add <name>
+yarn add @node-novel/cached-dmzj
 ```
 
