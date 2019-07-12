@@ -29,12 +29,14 @@
     "lint": "npx eslint **/*.ts",
     "ncu": "npx yarn-tool ncu -u",
     "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
+    "postpublish": "echo postpublish",
     "sort-package-json": "npx sort-package-json ./package.json",
     "test": "ts-node ./test/demo"
   },
   "dependencies": {
     "bluebird": "^3.5.5",
     "ts-type": "^1.2.9",
+    "restful-decorator": "^1.0.13",
     "typed-http-headers": "^1.0.2"
   },
   "devDependencies": {
