@@ -61,6 +61,7 @@ import { getDmzjClient, __root } from '../util';
 			});
 
 			data.end = Math.max(data.end | 0, novelList.end | 0);
+			data.last_update_time = Math.max(data.last_update_time | 0, novelList.last_update_time | 0);
 
 			let length = data.list.length;
 
