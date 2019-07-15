@@ -24,6 +24,8 @@ export interface IAxiosResponseClientRequest extends Record<IPropertyKey, any>
 	path?: string,
 	method?: string,
 	finished?: boolean,
+
+	fromCache?: boolean,
 }
 
 export type IHttpheadersValues = string | number | boolean | string[];

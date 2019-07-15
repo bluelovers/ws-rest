@@ -139,6 +139,8 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 							// @ts-ignore
 							data.thisArgv.$returnValue = ret;
 
+							data.thisArgv.$response = ret;
+
 							// @ts-ignore
 							if (ret && ret.request && ret.request.res && ret.request.res.responseUrl)
 							{

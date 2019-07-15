@@ -10,10 +10,9 @@ export const consoleDebug = new Console(console, {
 	label: true,
 	inspectOptions: {
 		depth: 5,
-	}
+	},
+	time: true,
 });
-
-
 
 export default consoleDebug
 

@@ -102,9 +102,10 @@ export class AbstractHttpClient
 	public $requestConfig: AxiosRequestConfig = {};
 	public $url: IUrlLike;
 	public $pathData: Record<string, string>;
-	public $returnValue: AxiosResponse<unknown>;
+	public $returnValue: AxiosResponse<unknown> | AxiosResponse<unknown>["data"];
 	public $responseUrl: string;
 	public $sharedPreferences = new Map<IPropertyKey, unknown>();
+	public $response: AxiosResponse<unknown>;
 
 	constructor(defaults?: AxiosRequestConfig, ...argv: any)
 	{
