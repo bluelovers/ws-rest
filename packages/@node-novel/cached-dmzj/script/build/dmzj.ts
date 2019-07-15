@@ -28,7 +28,9 @@ import { getDmzjClient, __root } from '../util';
 		//n = 5;
 	}
 
-	api.novelRecentUpdateAll(0, n)
+	api.novelRecentUpdateAll(0, n, {
+		delay: 3000,
+		})
 		.then(data => {
 
 			if (data == null)
