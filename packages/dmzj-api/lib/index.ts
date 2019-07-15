@@ -280,8 +280,15 @@ export class DmzjClient extends AbstractHttpClient
 	 */
 	@GET('novel/recentUpdate/{page}.json')
 	@methodBuilder()
-	novelRecentUpdate(@ParamPath('page', 0) page?: number): IBluebird<IDmzjNovelRecentUpdateRow[]>
+	novelRecentUpdate(@ParamPath('page', 0) page?: number, delay?: number): IBluebird<IDmzjNovelRecentUpdateRow[]>
 	{
+		if (delay && !this.$response.request.fromCache)
+		{
+			// @ts-ignore
+			return Bluebird.delay(delay | 0)
+				.thenReturn(this.$returnValue)
+		}
+
 		//let data = arguments[0];
 		return null;
 	}
@@ -299,6 +306,8 @@ export class DmzjClient extends AbstractHttpClient
 	{
 		let i = from;
 
+		delay |= 0;
+
 		return Bluebird
 			.resolve()
 			.then(async () =>
@@ -308,12 +317,7 @@ export class DmzjClient extends AbstractHttpClient
 
 				while (i < to)
 				{
-					if (i > from && delay > 0)
-					{
-						await Bluebird.delay(delay | 0)
-					}
-
-					let cur: IDmzjNovelRecentUpdateRow[] = await this.novelRecentUpdate(i)
+					let cur: IDmzjNovelRecentUpdateRow[] = await this.novelRecentUpdate(i, delay)
 						.catch(e => {
 
 							if (throwError)
