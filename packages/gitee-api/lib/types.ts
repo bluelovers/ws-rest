@@ -3,11 +3,24 @@
  */
 
 export type IGrantType = 'authorization_code' | 'password' | 'client_credentials' | 'refresh_token';
+import { ITSPickExtra, ITSValueOrArray, ITSOverwrite } from 'ts-type';
+
+export type IRepoLanguage = string | 'JavaScript' | 'TypeScript';
+export type IUserType = string | 'User';
+export type IIssuesState = 'open' | 'closed' | 'rejected';
+export type IBranchName<T extends string = string> = string | 'master' | 'dev' | T;
+export type ILicenseName = string | 'MIT';
+export type IDirection = 'asc' | 'desc';
 
 export interface IError001
 {
 	error: string | 'invalid_grant' | 'invalid_client',
 	error_description: string
+}
+
+export interface IError002<T extends string = string>
+{
+	message: T
 }
 
 export interface IOauthTokenData
@@ -88,8 +101,6 @@ export interface IComment
 	user: string
 }
 
-export type IUserType = string | 'User';
-
 export interface IOwner
 {
 	id: number;
@@ -111,8 +122,6 @@ export interface IOwner
 	site_admin: boolean;
 }
 
-export type IRepoLanguage = string | 'JavaScript';
-
 export interface IRepoNamespace
 {
 	id: number;
@@ -122,7 +131,7 @@ export interface IRepoNamespace
 	html_url: string;
 }
 
-export interface IRepoInfo
+export interface IRepoInfo1
 {
 	id: number;
 	full_name: string;
@@ -163,21 +172,26 @@ export interface IRepoInfo
 	forks_count: number;
 	stargazers_count: number;
 	watchers_count: number;
-	default_branch: string | 'master';
+	default_branch: IBranchName;
 	open_issues_count: number;
 	has_issues: boolean;
 	has_wiki: boolean;
 	pull_requests_enabled: boolean;
 	has_page: boolean;
-	license: any;
+	license: ILicenseName;
 	outsourced: boolean;
 	project_creator: string;
 	members: string[];
 	pushed_at: string;
 	created_at: string;
 	updated_at: string;
-	parent?: IRepoParent;
+	parent: IRepoInfo1;
 	paas: any;
+}
+
+export interface IRepoInfo2 extends IRepoInfo1
+{
+	parent: IRepoInfo2;
 	stared: boolean;
 	watched: boolean;
 	permission: {
@@ -185,68 +199,8 @@ export interface IRepoInfo
 		push: boolean;
 		admin: boolean;
 	};
-	relation: string | 'master';
+	relation: IBranchName;
 }
-
-export interface IRepoParent
-{
-	id: number;
-	full_name: string;
-	human_name: string;
-	url: string;
-	namespace: {};
-	path: string;
-	name: string;
-	owner: {};
-	description: string;
-	private: boolean;
-	public: boolean;
-	internal: boolean;
-	fork: boolean;
-	html_url: string;
-	ssh_url: string;
-	forks_url: string;
-	keys_url: string;
-	collaborators_url: string;
-	hooks_url: string;
-	branches_url: string;
-	tags_url: string;
-	blobs_url: string;
-	stargazers_url: string;
-	contributors_url: string;
-	commits_url: string;
-	comments_url: string;
-	issue_comment_url: string;
-	issues_url: string;
-	pulls_url: string;
-	milestones_url: string;
-	notifications_url: string;
-	labels_url: string;
-	releases_url: string;
-	recommend: boolean;
-	homepage: any;
-	language: string;
-	forks_count: number;
-	stargazers_count: number;
-	watchers_count: number;
-	default_branch: string;
-	open_issues_count: number;
-	has_issues: boolean;
-	has_wiki: boolean;
-	pull_requests_enabled: boolean;
-	has_page: boolean;
-	license: any;
-	outsourced: boolean;
-	project_creator: string;
-	members: string[];
-	pushed_at: string;
-	created_at: string;
-	updated_at: string;
-	parent: any;
-	paas: any;
-}
-
-export type IIssuesState = 'open' | 'closed' | 'rejected';
 
 export interface ICommitUserInfo
 {
@@ -369,4 +323,72 @@ export interface IUserInfo extends ICommitUserInfo
 	"watched": number;
 	"created_at": string;
 	"updated_at": string;
+}
+
+export type IRepoList = IRepoInfo2[];
+
+export interface IOptionsPages
+{
+	page?: number;
+	per_page?: number;
+}
+
+export interface IOptionsDirection
+{
+	direction?: IDirection;
+}
+
+/**
+ * 获取某个用户的公开仓库
+ */
+export interface IRepoListOptions extends IOptionsPages, IOptionsDirection
+{
+	username: string;
+
+	/**
+	 * 筛选用户仓库: 其创建(owner)、个人(personal)、其为成员(member)、公开(public)、私有(private)，不能与 visibility 或 affiliation 参数一并使用，否则会报 422 错误
+	 */
+	type?: 'owner' | 'personal' | 'member' | 'public';
+
+	/**
+	 * 排序方式: 创建时间(created)，更新时间(updated)，最后推送时间(pushed)，仓库所属与名称(full_name)。默认: full_name
+	 */
+	sort?: 'created' | 'updated' | 'pushed' | 'full_name';
+
+}
+
+/**
+ * 列出授权用户的所有仓库
+ */
+export interface IRepoListOptions2 extends Omit<IRepoListOptions, 'type' | 'username'>
+{
+	/**
+	 * 公开(public)、私有(private)或者所有(all)，默认: 所有(all)
+	 */
+	visibility?: 'public' | 'private' | 'all',
+
+	/**
+	 * owner(授权用户拥有的仓库)、collaborator(授权用户为仓库成员)、organization_member(授权用户为仓库所在组织并有访问仓库权限)、enterprise_member(授权用户所在企业并有访问仓库权限)、admin(所有有权限的，包括所管理的组织中所有仓库、所管理的企业的所有仓库)。 可以用逗号分隔符组合。如: owner, organization_member 或 owner, collaborator, organization_member
+	 */
+	affiliation?: ITSValueOrArray<'owner' | 'collaborator' | 'organization_member' | 'enterprise_member' | 'admin'>,
+
+	/**
+	 * 筛选用户仓库: 其创建(owner)、个人(personal)、其为成员(member)、公开(public)、私有(private)，不能与 visibility 或 affiliation 参数一并使用，否则会报 422 错误
+	 */
+	type?: IRepoListOptions["type"] | 'private',
+}
+
+/**
+ * 获取一个组织的仓库
+ */
+export interface IRepoListOptions3 extends IOptionsPages
+{
+	/**
+	 * 组织的路径(path/login)
+	 */
+	org: string,
+	/**
+	 * 筛选仓库的类型，可以是 all, public, private。默认: all
+	 */
+	type?: 'all' | 'public' | 'private'
 }

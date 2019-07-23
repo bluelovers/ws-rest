@@ -1,43 +1,53 @@
 import { AbstractHttpClient } from 'restful-decorator/lib';
-import { AxiosRequestConfig, IBluebirdAxiosResponse } from 'restful-decorator/lib/types/axios';
+import { AxiosRequestConfig } from 'restful-decorator/lib/types/axios';
 import {
+	BaseUrl,
+	BodyData,
+	CacheRequest,
 	CatchError,
 	FormUrlencoded,
-	BaseUrl, BodyParams,
-	CacheRequest,
 	GET,
-	Headers,
-	methodBuilder, ParamData,
-	ParamMapAuto, ParamMapData,
-	ParamPath,
-	ParamQuery,
-	POST,
 	HandleParamMetadata,
-	RequestConfigs, TransformRequest, PUT, BodyData,
+	Headers,
+	methodBuilder,
+	ParamData,
+	ParamMapAuto,
+	ParamMapQuery,
+	POST,
+	PUT,
+	RequestConfigs,
+	TransformRequest,
 } from 'restful-decorator/lib/decorators';
-import { ITSPickExtra, ITSRequireAtLeastOne, ITSResolvable, ITSValueOrArray } from 'ts-type';
+import { ITSPickExtra, ITSValueOrArray } from 'ts-type';
 import { IBluebird } from 'restful-decorator/lib/index';
 import LazyURL from 'lazy-url';
+import { defaultsDeep } from 'lodash';
 import {
-	IBranchInfo, IBranchInfoSimple,
-	IComment, ICompareCommits, IError001, IIssuesState, IOauthTokenData,
+	IBranchInfo,
+	IBranchInfoSimple,
+	IComment,
+	ICompareCommits,
+	IError001, IError002,
+	IIssuesState,
+	IOauthTokenData, IOptionsPages,
 	IRepoContentsFile,
 	IRepoContentsFileBlobs,
 	IRepoContentsFileCreated,
-	IRepoInfo,
-	IRepoLanguage, IUserInfo,
+	IRepoInfo2,
+	IRepoLanguage,
+	IUserInfo,
+	IRepoList,
+	IRepoListOptions, IRepoListOptions2, IRepoListOptions3,
 } from './types';
 import { _makeAuthorizationValue, EnumAuthorizationType } from 'restful-decorator/lib/decorators/headers';
-import { mergeClone } from 'restful-decorator/lib/util/merge';
-import clone from 'lodash/clone';
 // @ts-ignore
-import isBase64 from 'is-base64';
-import LazyURLSearchParams from 'http-form-urlencoded';
 import { AxiosError } from 'axios';
 import { mergeAxiosErrorWithResponseData } from 'restful-decorator/lib/wrap/error';
 import Bluebird from 'bluebird';
-import { toBase64 } from './util';
+import { toBase64, isForkFrom, valueToArray } from './util';
 import { CatchResponseDataError } from './decorators';
+// @ts-ignore
+import deepEql from 'deep-eql';
 
 const SymApiOptions = Symbol('options');
 
@@ -122,9 +132,12 @@ export class GiteeV5Client extends AbstractHttpClient
 	@POST('/oauth/token')
 	@FormUrlencoded
 	@BodyData({
-		grant_type: 'authorization_code'
+		grant_type: 'authorization_code',
 	})
-	requestAccessToken(code: string, redirect_uri?: string | URL, redirect_uri2?: string | URL): IBluebird<IOauthTokenData>
+	requestAccessToken(code: string,
+		redirect_uri?: string | URL,
+		redirect_uri2?: string | URL,
+	): IBluebird<IOauthTokenData>
 	{
 		let url = new LazyURL('/oauth/token', this.$baseURL);
 
@@ -139,12 +152,13 @@ export class GiteeV5Client extends AbstractHttpClient
 		data.set('redirect_uri', this.redirectUrl(redirect_uri, redirect_uri2).toRealString());
 
 		return Bluebird.resolve(this.$http({
-			url: url.toRealString(),
-			method: 'POST',
-			data,
-		}))
+				url: url.toRealString(),
+				method: 'POST',
+				data,
+			}))
 			.then<IOauthTokenData>(r => r.data)
-			.catch(e => {
+			.catch(e =>
+			{
 
 				if (e.response.data.error)
 				{
@@ -158,7 +172,7 @@ export class GiteeV5Client extends AbstractHttpClient
 	@POST('/oauth/token')
 	@FormUrlencoded
 	@BodyData({
-		grant_type: 'refresh_token'
+		grant_type: 'refresh_token',
 	})
 	@methodBuilder({
 		returnData: true,
@@ -171,7 +185,7 @@ export class GiteeV5Client extends AbstractHttpClient
 	@POST('/oauth/token')
 	@FormUrlencoded
 	@BodyData({
-		grant_type: 'password'
+		grant_type: 'password',
 	})
 	@methodBuilder(function (info)
 	{
@@ -468,7 +482,7 @@ export class GiteeV5Client extends AbstractHttpClient
 	repoInfo(@ParamMapAuto() setting: {
 		owner: string,
 		repo: string,
-	}): IBluebird<IRepoInfo>
+	}): IBluebird<IRepoInfo2>
 	{
 		return
 	}
@@ -476,9 +490,28 @@ export class GiteeV5Client extends AbstractHttpClient
 	@GET('repos/{owner}/{repo}/forks')
 	@methodBuilder()
 	/**
-	 * Fork一个仓库
+	 * 查看仓库的Forks
 	 */
-	forkRepo(@ParamMapAuto() setting: {
+	repoForks(@ParamMapAuto() setting: {
+		owner: string,
+		repo: string,
+
+		/**
+		 * 排序方式: fork的时间(newest, oldest)，star的人数(stargazers)
+		 */
+		sort?: 'oldest' | 'newest' | 'stargazers',
+
+	} & IOptionsPages): IBluebird<IRepoInfo2>
+	{
+		return
+	}
+
+	@POST('repos/{owner}/{repo}/forks')
+	@methodBuilder()
+	/**
+	 * Fork一个仓库 (原始 api)
+	 */
+	_forkRepo(@ParamMapAuto() setting: {
 		owner: string,
 		repo: string,
 
@@ -486,9 +519,92 @@ export class GiteeV5Client extends AbstractHttpClient
 		 * 组织空间地址，不填写默认Fork到用户个人空间地址
 		 */
 		organization?: string,
-	}): IBluebird<IRepoInfo>
+	}): IBluebird<IRepoInfo2>
 	{
 		return
+	}
+
+	/**
+	 * Fork一个仓库 當發生錯誤時 試圖搜尋已存在的 fork
+	 * 如果需要使用原始 api 請用 `_forkRepo`
+	 */
+	forkRepo(options: {
+		owner: string,
+		repo: string,
+
+		/**
+		 * 组织空间地址，不填写默认Fork到用户个人空间地址
+		 */
+		organization?: string,
+	}): IBluebird<IRepoInfo2>
+	{
+		return this._forkRepo(options)
+			.catch(async (e: AxiosError) => {
+
+				try
+				{
+					let code = e.response.status;
+					let data = e.response.data as IError002<'已经存在同名的仓库, Fork 失败' | '已经Fork，不允许重复Fork'>;
+
+					if (code == 403 || data.message === '已经存在同名的仓库, Fork 失败')
+					{
+						let owner: string;
+
+						if (options.organization)
+						{
+							owner = options.organization
+						}
+						else
+						{
+							let useInfo = await this.userInfo();
+							owner = useInfo.login;
+						}
+
+						let repoInfo = await this.repoInfo({
+							owner,
+							repo: options.repo,
+						});
+
+						if (isForkFrom(repoInfo, options))
+						{
+							return repoInfo;
+						}
+					}
+					else if (code == 400 || data.message === '已经Fork，不允许重复Fork')
+					{
+						let repoInfo: IRepoInfo2;
+
+						if (options.organization)
+						{
+							repoInfo = await this.orgHasFork({
+								org: options.organization,
+							}, {
+								repo: options.repo,
+								owner: options.owner,
+							});
+						}
+						else
+						{
+							repoInfo = await this.myHasFork({}, {
+								repo: options.repo,
+								owner: options.owner,
+							});
+						}
+
+						if (repoInfo)
+						{
+							return repoInfo;
+						}
+					}
+				}
+				catch (e2)
+				{
+
+				}
+
+				return Bluebird.reject(e)
+			})
+		;
 	}
 
 	@GET('repos/{owner}/{repo}/collaborators/{username}')
@@ -606,9 +722,10 @@ export class GiteeV5Client extends AbstractHttpClient
 	}
 
 	@GET('repos/{owner}/{repo}/branches/{branch}')
-	@HandleParamMetadata((info) => {
+	@HandleParamMetadata((info) =>
+	{
 
-		let [ setting ] = info.argv;
+		let [setting] = info.argv;
 
 		if (!setting.branch)
 		{
@@ -688,13 +805,14 @@ export class GiteeV5Client extends AbstractHttpClient
 	{
 		return this
 			.repoBranchInfo(fromTarget)
-			.then(ret => {
+			.then(ret =>
+			{
 				return this.repoBranchCreate({
 					...setting,
 					refs: ret.commit.sha,
 				})
 			})
-		;
+			;
 	}
 
 	@GET('user')
@@ -704,12 +822,195 @@ export class GiteeV5Client extends AbstractHttpClient
 		return null;
 	}
 
+	@GET('users/{username}/repos')
+	@methodBuilder()
+	/**
+	 * 获取某个用户的公开仓库
+	 */
+	usersUsernameRepos(@ParamMapAuto() options: IRepoListOptions): IBluebird<IRepoList>
+	{
+		return null;
+	}
+
+	@GET('users/{username}/repos')
+	@methodBuilder()
+	/**
+	 * 获取一个组织的仓库
+	 */
+	orgsRepos(@ParamMapAuto() options: IRepoListOptions3): IBluebird<IRepoList>
+	{
+		return null;
+	}
+
+	@GET('user/repos')
+	@methodBuilder()
+	@HandleParamMetadata((info) =>
+	{
+
+		let [setting] = info.argv;
+
+		if (setting && setting.affiliation)
+		{
+			if (Array.isArray(setting.affiliation))
+			{
+				setting.affiliation = setting.affiliation(',');
+			}
+		}
+
+		return info;
+	})
+	/**
+	 * 列出授权用户的所有仓库
+	 */
+	myRepoList(@ParamMapQuery() options?: IRepoListOptions2): IBluebird<IRepoList>
+	{
+		return null;
+	}
+
+	userForks(options: IRepoListOptions)
+	{
+		if (options.type == null)
+		{
+			options.type = 'owner';
+		}
+
+		return this.usersUsernameRepos(options)
+			.then(ls => {
+				if (ls)
+				{
+					return valueToArray<IRepoInfo2>(ls).filter(repo => repo.fork)
+				}
+				return ls;
+			})
+	}
+
+	orgsForks(options: IRepoListOptions3)
+	{
+		return this.orgsRepos(options)
+			.then(ls => {
+				if (ls)
+				{
+					return valueToArray<IRepoInfo2>(ls).filter(repo => repo.fork)
+				}
+				return ls;
+			})
+	}
+
+	myForks(options: IRepoListOptions2)
+	{
+		if (options.type == null)
+		{
+			options.type = 'owner';
+		}
+
+		return this.myRepoList(options)
+			.then(ls => {
+				if (ls)
+				{
+					return valueToArray<IRepoInfo2>(ls).filter(repo => repo.fork)
+				}
+				return ls;
+			})
+		;
+	}
+
+	protected _hasFork<O1 extends IRepoListOptions | IRepoListOptions2 | IRepoListOptions3, O2 extends {
+		owner: string,
+		repo: string,
+	}>(fn: (userOptions: O1, targetRepoOptions: O2) => IBluebird<IRepoList>, userOptions: O1, targetRepoOptions: O2, cache?: {
+		last2?: IRepoInfo2[],
+		last?: IRepoInfo2[],
+	}): IBluebird<IRepoInfo2>
+	{
+		if (userOptions.type == null)
+		{
+			userOptions.type = 'owner';
+		}
+
+		// @ts-ignore
+		if (userOptions.sort == null)
+		{
+			// @ts-ignore
+			userOptions.sort = 'updated';
+		}
+
+		cache = defaultsDeep(cache || {}, {});
+
+		return fn(userOptions, targetRepoOptions)
+			.then(ls => {
+
+				if (ls && ls.length && !deepEql(ls, cache.last))
+				{
+					for (let row of ls)
+					{
+						if (isForkFrom(row, targetRepoOptions))
+						{
+							return row;
+						}
+					}
+
+					const { page = 1 } = userOptions;
+
+					//cache.last2 = ls;
+					cache.last = ls;
+
+					return this._hasFork(fn, {
+						...userOptions,
+						page: page + 1,
+					}, targetRepoOptions, cache)
+				}
+
+				return null
+			})
+		;
+	}
+
+	userHasFork(userOptions: IRepoListOptions, targetRepoOptions: {
+		owner: string,
+		repo: string,
+	})
+	{
+		return this._hasFork(this.userForks.bind(this), {
+			...userOptions
+		}, {
+			...targetRepoOptions
+		})
+	}
+
+	orgHasFork(orgOptions: IRepoListOptions3, targetRepoOptions: {
+		owner: string,
+		repo: string,
+	})
+	{
+		let type = orgOptions.type || 'all';
+
+		return this._hasFork(this.orgsForks.bind(this), {
+			...orgOptions,
+			type,
+		}, {
+			...targetRepoOptions
+		})
+	}
+
+	myHasFork(userOptions: IRepoListOptions2, targetRepoOptions: {
+		owner: string,
+		repo: string,
+	}): IBluebird<IRepoInfo2>
+	{
+		return this._hasFork(this.myForks.bind(this), {
+			...userOptions
+		}, {
+			...targetRepoOptions
+		})
+	}
+
 }
 
 function _hasWindow()
 {
 	try
 	{
+		// @ts-ignore
 		if (window.location)
 		{
 			return true;

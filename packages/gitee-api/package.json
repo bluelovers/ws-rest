@@ -22,9 +22,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "deep-eql": "^4.0.0",
     "is-base64": "^0.1.0",
     "lazy-cookies": "^1.0.8",
     "lazy-url": "^1.0.5",
+    "lodash": "^4.17.15",
     "restful-decorator": "^1.0.13"
   },
   "devDependencies": {
