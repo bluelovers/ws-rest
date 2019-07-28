@@ -2,12 +2,14 @@
  * Created by user on 2019/7/28.
  */
 
+import { DmzjClient } from 'dmzj-api';
 import { __root, console, consoleDebug, getDmzjClient, trim } from '../util';
 import path from "path";
 import fs from 'fs-extra';
 import Bluebird from 'bluebird';
 import { IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import moment from 'moment';
+import { SymSelf } from 'restful-decorator/lib/helper/symbol';
 
 export default (async () =>
 {
@@ -30,22 +32,36 @@ export default (async () =>
 
 	await Bluebird
 		.resolve(novelList.list)
-		.mapSeries(async (v) => {
+		.mapSeries(async (v, index) =>
+		{
 
 			if (_do && !taskList[v.id])
 			{
-				let info = await api.novelInfoWithChapters(v.id).catch(e => {
+				let fromCache: boolean;
+
+				let info = await api.novelInfoWithChapters(v.id)
+					.catch(e =>
+				{
 
 					_do = false;
 
 					consoleDebug.error(v.id, v.name, (e as Error).message);
 
 					return null as IDmzjNovelInfoWithChapters
-				});
+				})
+					.tap(function (this: DmzjClient, data)
+					{
+						if (data[SymSelf].$response.request.fromCache || this.$response.request.fromCache)
+						{
+							fromCache = true;
+						}
+					})
+				;
 
 				if (info && info.id == v.id)
 				{
-					consoleDebug.success(v.id, trim(v.name), moment.unix(v.last_update_time).format(), trim(v.last_update_volume_name), trim(v.last_update_chapter_name));
+					consoleDebug.success(v.id, trim(v.name), moment.unix(v.last_update_time)
+						.format(), trim(v.last_update_volume_name), trim(v.last_update_chapter_name));
 
 					let _file = path.join(__root, 'data', 'novel/info', `${v.id}.json`);
 
@@ -56,6 +72,19 @@ export default (async () =>
 					updatedList[v.id] = info;
 
 					taskList[v.id] = Math.max(v.last_update_time, info.last_update_time);
+
+					if (!fromCache)
+					{
+						if (!(index % 5))
+						{
+							saveCache();
+						}
+
+						let delay = Math.min(5000 + Math.min(index, 10) * 1000 * Math.random(), 15 * 1000);
+
+						consoleDebug.debug(`delay:`, delay);
+						await Bluebird.delay(delay);
+					}
 				}
 				else
 				{
@@ -65,19 +94,23 @@ export default (async () =>
 
 		})
 		.catch(e => null)
-		.tap(v => {
+		.tap(v =>
+		{
 			consoleDebug.info(`結束抓取小說資料`);
 		})
 	;
 
 	await Bluebird
 		.resolve(Object.entries(updatedList))
-		.each(([novel_id, v]) => {
+		.each(([novel_id, v]) =>
+		{
 
-			console.info(novel_id.toString().padStart(4, '0'), trim(v.name), moment.unix(v.last_update_time).format(), trim(v.last_update_volume_name), trim(v.last_update_chapter_name))
+			console.info(novel_id.toString().padStart(4, '0'), trim(v.name), moment.unix(v.last_update_time)
+				.format(), trim(v.last_update_volume_name), trim(v.last_update_chapter_name))
 
 		})
-		.tap(ls => {
+		.tap(ls =>
+		{
 			console.info(`本次總共更新`, ls.length)
 		})
 	;
