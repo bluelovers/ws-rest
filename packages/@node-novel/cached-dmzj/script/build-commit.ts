@@ -35,3 +35,20 @@ if (ls2.length)
 		stdio: 'inherit',
 	});
 }
+
+crossSpawnSync('git', [
+	'add',
+	'task001.json',
+], {
+	cwd: join(__dirname, '../test/temp'),
+	stdio: 'inherit',
+});
+
+crossSpawnSync('git', [
+	'commit',
+	'-m',
+	`update cache`,
+], {
+	cwd: join(__dirname, '../test/temp'),
+	stdio: 'inherit',
+});
