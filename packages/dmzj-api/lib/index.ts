@@ -14,13 +14,12 @@ import {
 	POST,
 	RequestConfigs,
 	TransformResponse,
-	CatchError,
 } from 'restful-decorator/lib/decorators';
 import { ICookiesValue } from 'lazy-cookies';
 import { getCookieJar } from 'restful-decorator/lib/decorators/config/cookies';
 import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';
-import { buildVersion } from './util';
+import { buildVersion, fixDmzjNovelInfo } from './util';
 import {
 	EnumDmzjAcgnBigCatID,
 	EnumDmzjAcgnOrderID,
@@ -29,16 +28,18 @@ import {
 	EnumNumberBoolean,
 	EnumWebSubscribeTypeID,
 	IDmzjArticleCategory,
-	IDmzjClientCookies, IDmzjClientNovelRecentUpdateAll,
+	IDmzjClientCookies,
+	IDmzjClientNovelRecentUpdateAll,
 	IDmzjJson,
 	IDmzjLoginConfirm,
-	IDmzjNovelChapters, IDmzjNovelDataInfo,
+	IDmzjNovelChapters,
+	IDmzjNovelInfoWithChapters,
 	IDmzjNovelInfo,
-	IDmzjNovelRecentUpdateRow,
+	IDmzjNovelInfoMini,
+	IDmzjNovelInfoRecentUpdateRow,
 } from './types';
 import { array_unique } from 'array-hyper-unique';
 import consoleDebug from 'restful-decorator/lib/util/debug';
-import { mergeAxiosErrorWithResponseData } from '../../restful-decorator/lib/wrap/error';
 
 /**
  * https://gist.github.com/bluelovers/5e9bfeecdbff431c62d5b50e7bdc3e48
@@ -280,7 +281,7 @@ export class DmzjClient extends AbstractHttpClient
 	 */
 	@GET('novel/recentUpdate/{page}.json')
 	@methodBuilder()
-	novelRecentUpdate(@ParamPath('page', 0) page?: number, delay?: number): IBluebird<IDmzjNovelRecentUpdateRow[]>
+	novelRecentUpdate(@ParamPath('page', 0) page?: number, delay?: number): IBluebird<IDmzjNovelInfoRecentUpdateRow[]>
 	{
 		if (delay && !this.$response.request.fromCache)
 		{
@@ -312,12 +313,12 @@ export class DmzjClient extends AbstractHttpClient
 			.resolve()
 			.then(async () =>
 			{
-				let list: IDmzjNovelRecentUpdateRow[] = [];
-				let last: (IDmzjNovelRecentUpdateRow["id"])[] = [];
+				let list: IDmzjNovelInfoRecentUpdateRow[] = [];
+				let last: (IDmzjNovelInfoRecentUpdateRow["id"])[] = [];
 
 				while (i < to)
 				{
-					let cur: IDmzjNovelRecentUpdateRow[] = await this.novelRecentUpdate(i, delay)
+					let cur: IDmzjNovelInfoRecentUpdateRow[] = await this.novelRecentUpdate(i, delay)
 						.catch(e => {
 
 							if (throwError)
@@ -331,7 +332,7 @@ export class DmzjClient extends AbstractHttpClient
 						})
 					;
 
-					let cur_ids: (IDmzjNovelRecentUpdateRow["id"])[];
+					let cur_ids: (IDmzjNovelInfoRecentUpdateRow["id"])[];
 
 					if (cur == null || !Array.isArray(cur))
 					{
@@ -357,7 +358,7 @@ export class DmzjClient extends AbstractHttpClient
 					}
 					else
 					{
-						cur_ids = cur.map((v: IDmzjNovelRecentUpdateRow) => v.id);
+						cur_ids = cur.map((v: IDmzjNovelInfoRecentUpdateRow) => v.id);
 
 						if (!cur_ids.some(id => id && !last.includes(id)))
 						{
@@ -404,10 +405,18 @@ export class DmzjClient extends AbstractHttpClient
 	 */
 	@GET('novel/{novel_id}.json')
 	@methodBuilder()
-	novelInfo(@ParamPath('novel_id') novel_id: number | string): IBluebird<IDmzjNovelInfo>
+	_novelInfo(@ParamPath('novel_id') novel_id: number | string): IBluebird<IDmzjNovelInfo>
 	{
 		//let data = arguments[0];
 		return null;
+	}
+
+	/**
+	 * 小说详情(非原始資料 而是 經過修正處理)
+	 */
+	novelInfo(novel_id: number | string): IBluebird<IDmzjNovelInfo>
+	{
+		return this._novelInfo(novel_id).then(fixDmzjNovelInfo);
 	}
 
 	/**
@@ -424,7 +433,7 @@ export class DmzjClient extends AbstractHttpClient
 	/**
 	 * 取得小說資料的同時一起取得章節列表
 	 */
-	novelData(novel_id: number | string)
+	_novelInfoWithChapters(novel_id: number | string): Bluebird<IDmzjNovelInfoWithChapters>
 	{
 		return Bluebird.props({
 			info: this.novelInfo(novel_id),
@@ -434,12 +443,20 @@ export class DmzjClient extends AbstractHttpClient
 
 				const { info, chapters } = result;
 
-				return <IDmzjNovelDataInfo>{
+				return <IDmzjNovelInfoWithChapters>{
 					...info,
 					chapters,
 				}
 			})
 		;
+	}
+
+	/**
+	 * 取得小說資料的同時一起取得章節列表(非原始資料 而是 經過修正處理)
+	 */
+	novelInfoWithChapters(novel_id: number | string)
+	{
+		return this._novelInfoWithChapters(novel_id).then(fixDmzjNovelInfo);
 	}
 
 	/**
@@ -503,12 +520,7 @@ export class DmzjClient extends AbstractHttpClient
 		@ParamPath('status_id') status_id: EnumDmzjAcgnStatusID,
 		@ParamPath('order_id') order_id: EnumDmzjAcgnOrderID,
 		@ParamPath('page', 0) page?: number,
-	): IBluebird<{
-		"cover": string;
-		"name": string;
-		"authors": string;
-		"id": number;
-	}[]>
+	): IBluebird<IDmzjNovelInfoMini[]>
 	{
 		//let data = arguments[0];
 		return null;
@@ -524,15 +536,7 @@ export class DmzjClient extends AbstractHttpClient
 	searchShow(big_cat_id: EnumDmzjAcgnBigCatID.NOVEL,
 		keywords: string,
 		page?: number,
-	): IBluebird<{
-		"cover": string;
-		"name": string;
-		"authors": string;
-		/**
-		 * 小说
-		 */
-		"id": number;
-	}[]>
+	): IBluebird<IDmzjNovelInfoMini[]>
 	/**
 	 * 搜索
 	 *
@@ -566,15 +570,7 @@ export class DmzjClient extends AbstractHttpClient
 	searchShow(big_cat_id: EnumDmzjAcgnBigCatID,
 		keywords: string,
 		page?: number,
-	): IBluebird<{
-		"cover": string;
-		"name": string;
-		"authors": string;
-		/**
-		 * 小说
-		 */
-		"id": number;
-	}[] | {
+	): IBluebird<IDmzjNovelInfoMini[] | {
 		/**
 		 * 漫画
 		 */
@@ -592,15 +588,7 @@ export class DmzjClient extends AbstractHttpClient
 	searchShow(@ParamPath('big_cat_id') big_cat_id: EnumDmzjAcgnBigCatID,
 		@ParamPath('keywords') keywords: string,
 		@ParamPath('page', 0) page?: number,
-	): IBluebird<{
-		"cover": string;
-		"name": string;
-		"authors": string;
-		/**
-		 * 小说
-		 */
-		"id": number;
-	}[] | {
+	): IBluebird<IDmzjNovelInfoMini[] | {
 		/**
 		 * 漫画
 		 */

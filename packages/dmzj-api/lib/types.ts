@@ -110,28 +110,13 @@ export const DMZJ_NOVEL_TAGS = [
 
 export type IDmzjNovelTags = Pick<typeof DMZJ_NOVEL_TAGS, number>[number];
 
-export interface IDmzjNovelRecentUpdateRow
-{
-	"id": number;
-	"status": EnumDmzjAcgnStatus;
-	"name": string;
-	"authors": string;
-	"cover": string;
-	"types": (string | IDmzjNovelTags)[];
-	"last_update_chapter_id": number;
-	"last_update_volume_id": number;
-	"last_update_volume_name": string;
-	"last_update_chapter_name": string;
-	"last_update_time": number;
-}
-
 export interface IDmzjClientNovelRecentUpdateAll
 {
 	from: number;
 	to: number;
 	end: number;
 	last_update_time: number;
-	list: IDmzjNovelRecentUpdateRow[];
+	list: IDmzjNovelInfoRecentUpdateRow[];
 }
 
 export interface IDmzjLoginConfirm
@@ -169,11 +154,37 @@ export interface IDmzjArticleCategory
 	"tag_name": string;
 }
 
-export interface IDmzjNovelInfo extends IDmzjNovelRecentUpdateRow
+export interface IDmzjNovelInfoMini
+{
+	"cover": string;
+	"name": string;
+	"authors": string;
+	"id": number;
+}
+
+/**
+ * 最近更新
+ */
+export interface IDmzjNovelInfoRecentUpdateRow extends IDmzjNovelInfoMini
+{
+	"status": EnumDmzjAcgnStatus;
+	"types": (string | IDmzjNovelTags)[];
+	"last_update_chapter_id": number;
+	"last_update_volume_id": number;
+	"last_update_volume_name": string;
+	"last_update_chapter_name": string;
+	"last_update_time": number;
+}
+
+/**
+ * 小说详情
+ */
+export interface IDmzjNovelInfo extends IDmzjNovelInfoRecentUpdateRow
 {
 	"zone": string | "日本";
 	"hot_hits": number;
 	"introduction": string;
+	"first_letter"?: string;
 	"subscribe_num": number;
 	"volume": {
 		"id": number;
@@ -185,6 +196,9 @@ export interface IDmzjNovelInfo extends IDmzjNovelRecentUpdateRow
 	}[];
 }
 
+/**
+ * 小说卷列表
+ */
 export interface IDmzjNovelChapters
 {
 	"volume_id": number;
@@ -198,7 +212,10 @@ export interface IDmzjNovelChapters
 	}[];
 }
 
-export interface IDmzjNovelDataInfo extends IDmzjNovelInfo
+/**
+ * 取得小說資料的同時一起取得章節列表
+ */
+export interface IDmzjNovelInfoWithChapters extends IDmzjNovelInfo
 {
 	chapters: IDmzjNovelChapters[],
 }
