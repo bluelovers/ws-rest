@@ -20,7 +20,11 @@ export async function getDmzjClient()
 {
 	if (api == null)
 	{
-		api = new DmzjClient();
+		api = new DmzjClient({
+			cache: {
+				maxAge: 24 * 60 * 60 * 1000,
+			},
+		});
 		saveCache = await setupCacheFile(api);
 	}
 

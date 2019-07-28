@@ -281,7 +281,7 @@ export class DmzjClient extends AbstractHttpClient
 	 */
 	@GET('novel/recentUpdate/{page}.json')
 	@methodBuilder()
-	novelRecentUpdate(@ParamPath('page', 0) page?: number, delay?: number): IBluebird<IDmzjNovelInfoRecentUpdateRow[]>
+	_novelRecentUpdate(@ParamPath('page', 0) page?: number, delay?: number): IBluebird<IDmzjNovelInfoRecentUpdateRow[]>
 	{
 		if (delay && !this.$response.request.fromCache)
 		{
@@ -295,9 +295,21 @@ export class DmzjClient extends AbstractHttpClient
 	}
 
 	/**
+	 * 最近更新(非原始資料 而是 經過修正處理)
+	 */
+	novelRecentUpdate(page?: number, delay?: number)
+	{
+		return this._novelRecentUpdate(page, delay)
+			.then(data => {
+				return data.map(fixDmzjNovelInfo);
+			})
+		;
+	}
+
+	/**
 	 * 一次性取得全部小說列表(如果遇到網路錯誤 或者 其他意外狀況則會停止)
 	 */
-	novelRecentUpdateAll(from: number = 0, to: number = Infinity, {
+	_novelRecentUpdateAll(from: number = 0, to: number = Infinity, {
 		throwError,
 		delay,
 	}: {
@@ -398,6 +410,24 @@ export class DmzjClient extends AbstractHttpClient
 				}
 			})
 			;
+	}
+
+	/**
+	 * 一次性取得全部小說列表(如果遇到網路錯誤 或者 其他意外狀況則會停止)
+	 * (非原始資料 而是 經過修正處理)
+	 */
+	novelRecentUpdateAll(from: number = 0, to: number = Infinity, options: {
+		throwError?: boolean
+		delay?: number,
+	} = {}): IBluebird<IDmzjClientNovelRecentUpdateAll>
+	{
+		return this._novelRecentUpdateAll(from, to, options)
+			.then(data => {
+
+				data.list = data.list.map(fixDmzjNovelInfo);
+
+				return data
+			})
 	}
 
 	/**

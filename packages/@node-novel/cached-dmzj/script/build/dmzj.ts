@@ -4,11 +4,11 @@
 import { DmzjClient } from 'dmzj-api';
 import fs from 'fs-extra';
 import path from 'path';
-import { IDmzjNovelRecentUpdateRow } from 'dmzj-api/lib/types';
+import { IDmzjNovelInfoRecentUpdateRow } from 'dmzj-api/lib/types';
 import { exportCache, importCache, processExitHook } from 'axios-cache-adapter-util';
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';
 import { IBaseCacheStore } from 'axios-cache-adapter-util';
-import Bluebird from 'bluebird-cancellation';
+import Bluebird from 'bluebird';
 import { getDmzjClient, __root, console, consoleDebug } from '../util';
 
 export default (async () => {
@@ -27,7 +27,7 @@ export default (async () => {
 	;
 
 	let n = Infinity;
-	let old_len = novelList.list!.length | 0;
+	let old_len = novelList && novelList.list && novelList.list!.length | 0 || 0;
 
 	if (novelList && novelList.list && novelList.list!.length > 20 * 10)
 	{
@@ -45,7 +45,7 @@ export default (async () => {
 			}
 			else if (novelList != null && (novelList.last_update_time != data.last_update_time || novelList.list.length != data.list.length))
 			{
-				let ls = (data.list || []).reduce((a, v: IDmzjNovelRecentUpdateRow) => {
+				let ls = (data.list || []).reduce((a, v: IDmzjNovelInfoRecentUpdateRow) => {
 					a[v.id] = v;
 
 					if (!taskList[v.id] || taskList[v.id] && taskList[v.id] != v.last_update_time)
@@ -54,7 +54,7 @@ export default (async () => {
 					}
 
 					return a;
-				}, {} as Record<IDmzjNovelRecentUpdateRow["id"], IDmzjNovelRecentUpdateRow>);
+				}, {} as Record<IDmzjNovelInfoRecentUpdateRow["id"], IDmzjNovelInfoRecentUpdateRow>);
 
 				novelList.list
 					.forEach(v => {
@@ -75,9 +75,11 @@ export default (async () => {
 		})
 		.tap((data) => {
 
-			data.list.sort((a: IDmzjNovelRecentUpdateRow, b: IDmzjNovelRecentUpdateRow) => {
+			data.list.sort((a: IDmzjNovelInfoRecentUpdateRow, b: IDmzjNovelInfoRecentUpdateRow) => {
 				return b.id - a.id
 			});
+
+			novelList = novelList || {} as any;
 
 			data.end = Math.max(data.end | 0, novelList.end | 0);
 			data.last_update_time = Math.max(data.last_update_time | 0, novelList.last_update_time | 0);

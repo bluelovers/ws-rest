@@ -17,7 +17,7 @@ export function buildVersion()
 /**
  * 修正 dmzj 小說標籤
  */
-export function fuxDmzjNovelTags(tags: string | string[])
+export function fixDmzjNovelTags(tags: string | string[])
 {
 	if (typeof tags === 'string')
 	{
@@ -42,7 +42,7 @@ export function fixDmzjNovelInfo<T extends IDmzjNovelInfo | IDmzjNovelInfoWithCh
 	data.status = trimUnsafe(data.status);
 	data.last_update_volume_name = trimUnsafe(data.last_update_volume_name);
 	data.last_update_chapter_name = trimUnsafe(data.last_update_chapter_name);
-	data.types = fuxDmzjNovelTags(data.types);
+	data.types = fixDmzjNovelTags(data.types);
 
 	if (isDmzjNovelInfoFull(data))
 	{

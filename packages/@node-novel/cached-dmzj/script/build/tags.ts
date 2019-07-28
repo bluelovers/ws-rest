@@ -5,11 +5,12 @@
 import { getDmzjClient, __root, console, consoleDebug, trim } from '../util';
 import path from "path";
 import fs from 'fs-extra';
-import Bluebird from 'bluebird-cancellation';
-import { IDmzjNovelInfo, IDmzjNovelRecentUpdateRow } from 'dmzj-api/lib/types';
+import Bluebird from 'bluebird';
+import { IDmzjNovelInfo, IDmzjNovelInfoRecentUpdateRow } from 'dmzj-api/lib/types';
 import moment from 'moment';
 import FastGlob from '@bluelovers/fast-glob/bluebird';
 import { array_unique_overwrite } from 'array-hyper-unique';
+import { fixDmzjNovelTags, trimUnsafe } from 'dmzj-api/lib/util';
 
 export default (async () =>
 {
@@ -30,13 +31,13 @@ export default (async () =>
 
 			let v: IDmzjNovelInfo = await fs.readJSON(file);
 
-			tags.push(...v.types.map(v => trim(v)));
+			tags.push(...fixDmzjNovelTags(v.types));
 
-			authors.push(trim(v.authors));
+			authors.push(trimUnsafe(v.authors));
 
-			zone.push(trim(v.zone));
+			zone.push(trimUnsafe(v.zone));
 
-			titles.push(trim(v.name));
+			titles.push(trimUnsafe(v.name));
 
 		})
 	;

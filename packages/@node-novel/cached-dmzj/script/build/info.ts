@@ -5,8 +5,8 @@
 import { __root, console, consoleDebug, getDmzjClient, trim } from '../util';
 import path from "path";
 import fs from 'fs-extra';
-import Bluebird from 'bluebird-cancellation';
-import { IDmzjNovelInfo } from 'dmzj-api/lib/types';
+import Bluebird from 'bluebird';
+import { IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import moment from 'moment';
 
 export default (async () =>
@@ -21,10 +21,10 @@ export default (async () =>
 	;
 
 	const taskList: Record<number, number> = await (fs.readJSON(file2)
-		.catch(e => {}))
+		.catch(e => {})) || {}
 	;
 
-	const updatedList: Record<number, IDmzjNovelInfo> = {};
+	const updatedList: Record<number, IDmzjNovelInfoWithChapters> = {};
 
 	let _do = true;
 
@@ -34,13 +34,13 @@ export default (async () =>
 
 			if (_do && !taskList[v.id])
 			{
-				let info = await api.novelInfo(v.id).catch(e => {
+				let info = await api.novelInfoWithChapters(v.id).catch(e => {
 
 					_do = false;
 
 					consoleDebug.error(v.id, v.name, (e as Error).message);
 
-					return null as IDmzjNovelInfo
+					return null as IDmzjNovelInfoWithChapters
 				});
 
 				if (info && info.id == v.id)
