@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/cached-dmzj",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cached dmzj api data",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -41,6 +41,5 @@
     "fs-extra": "^8.1.0",
     "moment": "^2.24.0",
     "restful-decorator": "^1.0.14"
-  },
-  "dependencies": {}
+  }
 }
