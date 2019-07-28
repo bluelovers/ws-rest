@@ -9,15 +9,22 @@ import { exportCache, importCache, processExitHook } from 'axios-cache-adapter-u
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';
 import { IBaseCacheStore } from 'axios-cache-adapter-util';
 import { getDmzjClient, __root } from '../util';
+import Bluebird from 'bluebird-cancellation';
+import { getDmzjClient, __root, console, consoleDebug } from '../util';
 
-(async () => {
+export default (async () => {
 
 	const { api, saveCache } = await getDmzjClient();
 
 	const file = path.join(__root, 'data', 'novel/recentUpdate.json');
+	const file2 = path.join(__root, 'test/temp', 'task001.json');
 
 	let novelList = await (fs.readJSON(file)
 		.catch(e => null) as ReturnType<typeof api.novelRecentUpdateAll>)
+	;
+
+	const taskList: Record<number, number> = await (fs.readJSON(file2)
+		.catch(e => {})) || {}
 	;
 
 	let n = Infinity;
@@ -28,7 +35,7 @@ import { getDmzjClient, __root } from '../util';
 		//n = 5;
 	}
 
-	api.novelRecentUpdateAll(0, n, {
+	await api.novelRecentUpdateAll(0, n, {
 		delay: 3000,
 		})
 		.then(data => {
@@ -42,11 +49,22 @@ import { getDmzjClient, __root } from '../util';
 				let ls = (data.list || []).reduce((a, v: IDmzjNovelRecentUpdateRow) => {
 					a[v.id] = v;
 
+					if (!taskList[v.id] || taskList[v.id] && taskList[v.id] != v.last_update_time)
+					{
+						taskList[v.id] = 0;
+					}
+
 					return a;
 				}, {} as Record<IDmzjNovelRecentUpdateRow["id"], IDmzjNovelRecentUpdateRow>);
 
 				novelList.list
 					.forEach(v => {
+
+						if (!taskList[v.id] || taskList[v.id] && taskList[v.id] != v.last_update_time)
+						{
+							taskList[v.id] = 0;
+						}
+
 						if (!(v.id in ls))
 						{
 							data.list.push(v)
@@ -72,9 +90,14 @@ import { getDmzjClient, __root } from '../util';
 				add: length - old_len,
 			});
 
-			return fs.outputJSON(file, data, {
-				spaces: 2,
-			})
+			return Bluebird.all([
+				fs.outputJSON(file, data, {
+					spaces: 2,
+				}),
+				fs.outputJSON(file2, taskList, {
+					spaces: 2,
+				}),
+			])
 		})
 	;
 

@@ -1,37 +1,17 @@
 /**
- * Created by user on 2019/7/7.
+ * Created by user on 2019/7/28.
  */
+import Bluebird from 'bluebird-cancellation';
 
-import { gitDiffStagedDir, gitDiffStagedFile, gitDiffStaged } from '@git-lazy/diff-staged';
-import matchGlob from '@git-lazy/util/util/match';
-import { join } from 'path';
-import { crossSpawnSync, SpawnSyncOptions, SpawnSyncReturns } from '@git-lazy/util/spawn/git';
-import { crossSpawnOutput } from '@git-lazy/util/spawn/util';
+(async () => {
 
-let ls1 = gitDiffStagedFile(join(__dirname, '../data'));
+	await lazyImport('./build/dmzj');
+	await lazyImport('./build/info');
+	await lazyImport('./build/tags');
 
-let ls2 = matchGlob(ls1, [
-	'**/*',
-]);
+})();
 
-if (ls2.length)
+function lazyImport(name: string)
 {
-	console.dir(ls2);
-
-	crossSpawnSync('git', [
-		'add',
-		'.',
-	], {
-		cwd: join(__dirname, '../data'),
-		stdio: 'inherit',
-	});
-
-	crossSpawnSync('git', [
-		'commit',
-		'-m',
-		`update cache`,
-	], {
-		cwd: join(__dirname, '../data'),
-		stdio: 'inherit',
-	});
+	return import(name).then(v => v.default)
 }
