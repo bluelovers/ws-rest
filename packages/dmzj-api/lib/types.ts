@@ -1,4 +1,6 @@
 import { ICookiesValueRecord } from 'lazy-cookies';
+import { SymSelf } from 'restful-decorator/lib/helper/symbol';
+import DmzjClient from './index';
 
 export const enum EnumDmzjCode
 {
@@ -218,4 +220,9 @@ export interface IDmzjNovelChapters
 export interface IDmzjNovelInfoWithChapters extends IDmzjNovelInfo
 {
 	chapters: IDmzjNovelChapters[],
+
+	/**
+	 * 隱藏資料 用來處理特殊需求
+	 */
+	[SymSelf]: DmzjClient,
 }

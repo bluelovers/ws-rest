@@ -40,6 +40,8 @@ import {
 } from './types';
 import { array_unique } from 'array-hyper-unique';
 import consoleDebug from 'restful-decorator/lib/util/debug';
+import { SymSelf } from 'restful-decorator/lib/helper/symbol';
+import subobject from 'restful-decorator/lib/helper/subobject';
 
 /**
  * https://gist.github.com/bluelovers/5e9bfeecdbff431c62d5b50e7bdc3e48
@@ -465,19 +467,30 @@ export class DmzjClient extends AbstractHttpClient
 	 */
 	_novelInfoWithChapters(novel_id: number | string): Bluebird<IDmzjNovelInfoWithChapters>
 	{
+		let selfTop = subobject({}, this) as DmzjClient;
+		let self = selfTop;
 		return Bluebird.props({
 			info: this.novelInfo(novel_id),
-			chapters: this.novelChapter(novel_id),
+			chapters: this.novelChapter(novel_id)
+				.tap(function ()
+			{
+				// @ts-ignore
+				self = this;
+			}),
 		})
 			.then(result => {
 
 				const { info, chapters } = result;
 
+				selfTop.$response = self.$response;
+
 				return <IDmzjNovelInfoWithChapters>{
 					...info,
 					chapters,
+					[SymSelf]: self,
 				}
 			})
+			.bind(self)
 		;
 	}
 
