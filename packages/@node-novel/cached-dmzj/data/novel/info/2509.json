@@ -17,7 +17,7 @@
   "authors": "本多孝好",
   "first_letter": "M",
   "subscribe_num": 2759,
-  "redis_update_time": 1564309393,
+  "redis_update_time": 1564343853,
   "volume": [
     {
       "id": 9521,
@@ -25,7 +25,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1529755390,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9521,
+      "id": 9521,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 87469,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 87470,
+          "chapter_name": "第一章 脸FACE",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 87471,
+          "chapter_name": "第二章 愿望WISH",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 87472,
+          "chapter_name": "第三章 萤火虫FIREFLY",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 87473,
+          "chapter_name": "第四章 最后时光MOMENT",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

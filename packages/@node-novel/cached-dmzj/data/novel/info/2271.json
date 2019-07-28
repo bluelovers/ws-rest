@@ -12,12 +12,13 @@
   "hot_hits": 100002,
   "introduction": "　　用普通的句子来表达我和你的关系，实在太可惜了，\n　　我果然还是，想吃掉你的胰脏！\n\n　　一直认为与人保持距离是理所当然的「我」，\n　　偶然在医院间捡到了一本书，\n　　封面用麦克笔写着《共病文库》四个字。\n\n　　原来这是同班同学山内樱良的祕密日记本，\n　　里面记速著活泼开朗的她因为胰脏病，余命所剩不多，\n　　以及临死前希望能完成的所有愿望————\n\n　　因为这样的契机，于是【没有名字的我】\n　　成了【没有未来的她】的秘密共有者。\n\n　　看似不情愿的「我」，能完成「她」所有的愿望吗？\n\n　　读过之后，必定会因为这个书名而感动！",
   "types": [
-    "校园/爱情"
+    "校园",
+    "爱情"
   ],
   "authors": "住野夜",
   "first_letter": "W",
-  "subscribe_num": 15694,
-  "redis_update_time": 1564311304,
+  "subscribe_num": 15696,
+  "redis_update_time": 1564341339,
   "volume": [
     {
       "id": 8443,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1484996853,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9818,
@@ -33,7 +34,90 @@
       "volume_name": "短篇",
       "volume_order": 20,
       "addtime": 1544005466,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8443,
+      "id": 8443,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 71196,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 71197,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71198,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 71199,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71200,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 71201,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 71202,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 71203,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 71204,
+          "chapter_name": "第七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 71205,
+          "chapter_name": "第八章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 71206,
+          "chapter_name": "终章",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9818,
+      "id": 9818,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 91733,
+          "chapter_name": "剧场版特典：父亲与追忆的某人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 91734,
+          "chapter_name": "前日谈：没有交往的每一天",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

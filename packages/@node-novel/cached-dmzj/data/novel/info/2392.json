@@ -17,7 +17,7 @@
   "authors": "井上坚二",
   "first_letter": "L",
   "subscribe_num": 5093,
-  "redis_update_time": 1564310379,
+  "redis_update_time": 1564343934,
   "volume": [
     {
       "id": 9033,
@@ -25,7 +25,77 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1509281609,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9033,
+      "id": 9033,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 80420,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80421,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80422,
+          "chapter_name": "第1章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80423,
+          "chapter_name": "第2章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80424,
+          "chapter_name": "第3章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80425,
+          "chapter_name": "第4章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 80426,
+          "chapter_name": "第5章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 80427,
+          "chapter_name": "第6章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 80428,
+          "chapter_name": "第7章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 80429,
+          "chapter_name": "第8章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 80430,
+          "chapter_name": "尾声",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 80431,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

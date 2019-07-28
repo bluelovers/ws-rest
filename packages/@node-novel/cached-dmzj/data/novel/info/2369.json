@@ -12,12 +12,13 @@
   "hot_hits": 6269,
   "introduction": "「你想要不得好死吗？」梦想和憧憬的偶像日向一起生活，香椎凉太参加了高人气实境节目「共享屋」，他的幻想却在刚入住就彻底破灭。日向的本性很偏激，其他的成员也相当有个性。他唯一能依靠的琴，则在某日突然失踪……！？置无法隐藏内心动摇的凉太于不顾，「没有剧本的青春」仍持续进行。不自然的「设定」和「毕业」──为什么他们会被聚集在此？无法看见答案的青春剧场就此拉开序幕。",
   "types": [
-    "校园/侦探"
+    "校园",
+    "侦探"
   ],
   "authors": "喜多见かなた",
   "first_letter": "R",
   "subscribe_num": 2300,
-  "redis_update_time": 1564307930,
+  "redis_update_time": 1564335721,
   "volume": [
     {
       "id": 8903,
@@ -25,7 +26,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1502705840,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8903,
+      "id": 8903,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 78684,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78685,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78686,
+          "chapter_name": "第一幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78687,
+          "chapter_name": "第二幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78688,
+          "chapter_name": "第三幕",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78689,
+          "chapter_name": "第四幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 78690,
+          "chapter_name": "第五幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 78691,
+          "chapter_name": "终幕",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 78692,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 78693,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

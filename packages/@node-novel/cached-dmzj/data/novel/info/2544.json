@@ -16,8 +16,8 @@
   ],
   "authors": "五十岚雄策",
   "first_letter": "Y",
-  "subscribe_num": 3093,
-  "redis_update_time": 1564301323,
+  "subscribe_num": 3103,
+  "redis_update_time": 1564344688,
   "volume": [
     {
       "id": 9669,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1536502600,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9669,
+      "id": 9669,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 89535,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89536,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89537,
+          "chapter_name": "第一话「人鱼之梦」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89538,
+          "chapter_name": "间章①「轮回夏日」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89539,
+          "chapter_name": "第二话「七月雪」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89540,
+          "chapter_name": "间章②「编织成夏」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89541,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89542,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

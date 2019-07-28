@@ -17,7 +17,7 @@
   "authors": "トネ・コーケン",
   "first_letter": "B",
   "subscribe_num": 742,
-  "redis_update_time": 1564309776,
+  "redis_update_time": 1564334266,
   "volume": [
     {
       "id": 10033,
@@ -25,7 +25,82 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1554045793,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10033,
+      "id": 10033,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 95036,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95037,
+          "chapter_name": "一",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95038,
+          "chapter_name": "二",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95039,
+          "chapter_name": "三",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95040,
+          "chapter_name": "四",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95041,
+          "chapter_name": "五",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95042,
+          "chapter_name": "六",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95043,
+          "chapter_name": "七",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95044,
+          "chapter_name": "八",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95045,
+          "chapter_name": "九",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 95046,
+          "chapter_name": "十",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 95047,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 95048,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 38109,
   "introduction": "将人类的希望抹杀掉吧！\n「——你很强。怎么称呼你？」\n「想必你就是那位对这个世界来说重要的人类。可是就要消灭了。」\n与人类之敌――〈Unknown〉纷争不断的世界。\n防卫都市神奈川位列第一位・天河舞姬。\n为了暗杀作为人类希望的她而被派遣到学园的紫乃宫晶。\n「你已经忘记我的〈世界〉了吗？」\n始于观察的一切即将开始！",
   "types": [
-    "魔法/校园"
+    "魔法",
+    "校园"
   ],
   "authors": "橘公司",
   "first_letter": "W",
   "subscribe_num": 6733,
-  "redis_update_time": 1564310824,
+  "redis_update_time": 1564341927,
   "volume": [
     {
       "id": 8162,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1474185080,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8650,
@@ -33,7 +34,115 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1493564763,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8162,
+      "id": 8162,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 67057,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 67058,
+          "chapter_name": "序章1 观察者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67059,
+          "chapter_name": "序章2 ヒメ与ほたる",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67060,
+          "chapter_name": "第一章 剣の都市の姫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67061,
+          "chapter_name": "第二章 身辺调查<ストーキング>",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 67062,
+          "chapter_name": "第三章 死神と番犬",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 67063,
+          "chapter_name": "第四章 暗殺者と標的のデート",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 67064,
+          "chapter_name": "第五章 海を这う絶望",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 67065,
+          "chapter_name": "终章 来访者<ビジター>",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8650,
+      "id": 8650,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 74722,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 74723,
+          "chapter_name": "序章 小萤",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 74724,
+          "chapter_name": "第一章 绝境",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 74725,
+          "chapter_name": "第二章 深渊也注视着你",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 74726,
+          "chapter_name": "第三章 少女与少女的约会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 74727,
+          "chapter_name": "第四章 无可避免的战斗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 74728,
+          "chapter_name": "第五章 小姬",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 74729,
+          "chapter_name": "终章 约定",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 74730,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

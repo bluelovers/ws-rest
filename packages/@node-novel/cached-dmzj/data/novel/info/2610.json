@@ -16,8 +16,8 @@
   ],
   "authors": "竹村优希",
   "first_letter": "F",
-  "subscribe_num": 2853,
-  "redis_update_time": 1564311599,
+  "subscribe_num": 2854,
+  "redis_update_time": 1564337423,
   "volume": [
     {
       "id": 9893,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1547202204,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9893,
+      "id": 9893,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 92897,
+          "chapter_name": "转载信息",
+          "chapter_order": 1
+        },
+        {
+          "chapter_id": 92896,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 92898,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 92899,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 92900,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 92901,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

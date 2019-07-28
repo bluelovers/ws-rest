@@ -12,12 +12,14 @@
   "hot_hits": 208059,
   "introduction": "通过扭蛋增加同伴，做成最强美少女军团漫画 ，我叫大仓平八，喜欢玩一款叫做美少女军团的吸钱游戏。有一天氪金抽卡居然被吸到异世界还被小怪物追着满地跑，游戏数据也被全删除了。万念俱灰的我通过扭蛋召唤出了一个十分厉害(?)的妹子，从此开始了我的异世界幻想喜剧?!",
   "types": [
-    "异界/穿越/搞笑"
+    "异界",
+    "穿越",
+    "搞笑"
   ],
   "authors": "ちんくるり",
   "first_letter": "T",
-  "subscribe_num": 20964,
-  "redis_update_time": 1564312265,
+  "subscribe_num": 20979,
+  "redis_update_time": 1564345053,
   "volume": [
     {
       "id": 9622,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1533986529,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9702,
@@ -33,7 +35,80 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1538042922,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9622,
+      "id": 9622,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 88872,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 88873,
+          "chapter_name": "第一章 通往异世界的邀请函",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 88874,
+          "chapter_name": "第二章 王都修汀格",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 88875,
+          "chapter_name": "第三章 身为冒险者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 88876,
+          "chapter_name": "小剧场 少女们的休假",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 88877,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 88878,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 9702,
+      "id": 9702,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 89986,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89987,
+          "chapter_name": "第1章 挑战迷宫",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 91277,
+          "chapter_name": "第2章 疯狂的神官",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 93612,
+          "chapter_name": "第3章 大讨伐",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

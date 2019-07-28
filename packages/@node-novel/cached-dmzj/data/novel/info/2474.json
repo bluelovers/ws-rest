@@ -12,12 +12,13 @@
   "hot_hits": 8323,
   "introduction": "『为了和人类交流，我们必须接受交换学生的到来！』\n    随着打败威胁世界安危的惧栗之王，女王与神天岛的真实面貌已然摊开在世人的面前。女王向「神祕」们如此宣布。\n    天底下最胆小、最倒霉的准高中生神佑信，自从被选为神天岛的交换生，衰事更是接连不断！开学第一天，迎接他的是有着狐狸耳朵的班导师、口吐鲜血的僵尸、没有脖子或是有着蛇眼的妖怪！不仅如此，连应该是战友的其他两位交换学生，看起来也非一般的等闲之辈！\n    每天活在「神祕」的威胁之下，胆小的他已经来到了忍耐的边缘！更不用说还有「神祕」们为了证明自身价值而展开的「异名争夺战」……。\n    『……现在想想，把人类拿来当旗杆用好像太草率了呢。』\n    『妳也太晚想到了吧！！！！！』",
   "types": [
-    "奇幻/校园"
+    "奇幻",
+    "校园"
   ],
   "authors": "NEOTYPE",
   "first_letter": "M",
   "subscribe_num": 2103,
-  "redis_update_time": 1564303244,
+  "redis_update_time": 1564339813,
   "volume": [
     {
       "id": 9364,
@@ -25,7 +26,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1523785388,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9364,
+      "id": 9364,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 85015,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85016,
+          "chapter_name": "序曲 飘在天空上的究竟是什么呢？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85017,
+          "chapter_name": "第1章 欢迎来到种天岛",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85018,
+          "chapter_name": "第2章 当主角是件苦差事",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85019,
+          "chapter_name": "第3章 这场战斗必死无疑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85020,
+          "chapter_name": "第4章 愚问愚答",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85021,
+          "chapter_name": "尾声 某天下午的天空",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85022,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

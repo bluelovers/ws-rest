@@ -12,12 +12,14 @@
   "hot_hits": 51780,
   "introduction": "学园都市有项大人气次世代竞技，那即是用巨大机器人在现实的城市里进行格斗战。其正式名称为《电脑战机virtual-on》。因为无论是能力者还是无能力者都能平等地比试技术，所以在学园都市学生间爆炸性流行。\n以白色涂装的定制机巴巴托斯为专用机茵蒂克丝和乘坐系统初始机体铁木真的上条当麻开战那天。\n“我是凛铃，富良科凛铃。不是莉莉娜......呜喵......”\n一名睡眠不足的少女降临学园都市，然后上条遭遇到了一般的电脑战机不可能会发生的事件。",
   "types": [
-    "科幻/校园/魔法"
+    "科幻",
+    "校园",
+    "魔法"
   ],
   "authors": "镰池和马",
   "first_letter": "M",
-  "subscribe_num": 4617,
-  "redis_update_time": 1564312364,
+  "subscribe_num": 4618,
+  "redis_update_time": 1564341036,
   "volume": [
     {
       "id": 8072,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1471958992,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9264,
@@ -33,7 +35,100 @@
       "volume_name": "短篇",
       "volume_order": 20,
       "addtime": 1520391386,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8072,
+      "id": 8072,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 65512,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 65513,
+          "chapter_name": "设定资料",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65514,
+          "chapter_name": "序章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 65515,
+          "chapter_name": "第一章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 65516,
+          "chapter_name": "行间一",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 65517,
+          "chapter_name": "第二章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 65518,
+          "chapter_name": "行间二",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 65519,
+          "chapter_name": "第三章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 65520,
+          "chapter_name": "行间三",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 65521,
+          "chapter_name": "第四章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 65522,
+          "chapter_name": "终章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 65523,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 65524,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 9264,
+      "id": 9264,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 83317,
+          "chapter_name": "御坂美琴的危险茶会",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83318,
+          "chapter_name": "插画",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

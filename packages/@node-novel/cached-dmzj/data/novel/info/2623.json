@@ -12,12 +12,13 @@
   "hot_hits": 65491,
   "introduction": "暂无简介",
   "types": [
-    "校园/后宫"
+    "校园",
+    "后宫"
   ],
   "authors": "七条刚",
   "first_letter": "S",
-  "subscribe_num": 11403,
-  "redis_update_time": 1564309999,
+  "subscribe_num": 11408,
+  "redis_update_time": 1564341513,
   "volume": [
     {
       "id": 9969,
@@ -25,7 +26,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1551256690,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9969,
+      "id": 9969,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 94210,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94211,
+          "chapter_name": "第一章 那帮傻白甜也太好撩了",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94212,
+          "chapter_name": "第二章 和平缔造者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94213,
+          "chapter_name": "第三章 咖啡厅的秘密兵器。",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94214,
+          "chapter_name": "第四章 好整而危险的游乐园",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94215,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94216,
+          "chapter_name": "傻白甜记录 ？时间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94217,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 94218,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

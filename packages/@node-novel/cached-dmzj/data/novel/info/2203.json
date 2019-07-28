@@ -12,12 +12,15 @@
   "hot_hits": 173353,
   "introduction": "「我们就悠哉地上吧，不然可能会不小心摧毁异世界昵。」\n七名高中生卷入了飞机事故，他们醒来之後，发现自己身处於另一个世界之中。那是一个存在着魔法丶兽人，时代近似於中世纪的异世界。\n一行人遭遇如此突发状况——完全没有陷入混乱（！？）\n他们为所欲为，例如在没有电力的世界中造了核子发电厂；稍微出外打拼一下，就掌握了整个大城市的经济；甚至是为了拯救饱受恶政欺压的恩人，与作恶多端的贵族来上一场战争！？\n没错，他们不是普通的高中生，而是各自立於政治丶经济丶科学丶医学等领域顶点的超人高中生！\n这群梦幻队伍拥有地球最高度的智慧与技术，他们将肆无忌惮地动用超高科技，编织出一段异世界革命传说！",
   "types": [
-    "校园/魔法/异界/穿越"
+    "校园",
+    "魔法",
+    "异界",
+    "穿越"
   ],
   "authors": "海空陆",
   "first_letter": "C",
-  "subscribe_num": 15241,
-  "redis_update_time": 1564311706,
+  "subscribe_num": 15252,
+  "redis_update_time": 1564352199,
   "volume": [
     {
       "id": 8174,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1474625701,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8589,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1491233806,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9571,
@@ -41,7 +44,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1531914719,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9607,
@@ -49,7 +52,226 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1533301039,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8174,
+      "id": 8174,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 67205,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 67206,
+          "chapter_name": "前传",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67207,
+          "chapter_name": "序章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67208,
+          "chapter_name": "第一章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67209,
+          "chapter_name": "第二章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 67210,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 67211,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 67212,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 73552,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8589,
+      "id": 8589,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 73553,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 73554,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 73555,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 73556,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 73557,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 73558,
+          "chapter_name": "插曲",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 73559,
+          "chapter_name": "第四章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 73560,
+          "chapter_name": "第五章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 73561,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 73562,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9571,
+      "id": 9571,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 88180,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 88181,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 88182,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 88183,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 88184,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 88185,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 88186,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 88187,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 88188,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 88189,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9607,
+      "id": 9607,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 88653,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 88654,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 88655,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 88656,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 88657,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 88658,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 88659,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 88660,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

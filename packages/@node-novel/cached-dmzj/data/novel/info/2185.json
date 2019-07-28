@@ -12,12 +12,13 @@
   "hot_hits": 31834,
   "introduction": "远离库拉利斯王国首都有个名叫卡利的都市。在那里，有个叫做尤伊・伊斯塔兹的军役人。\n他被评判为怠惰，交代的任务总是说没进展毫无干劲的样子。然而，他有着别的使命。一面装出没用的样子，一面为了纠正贵族的腐败行为，每天进行内部调查。\n在那样的他面前出现的是王女艾丽泽。她因强烈的正义感而想亲手解决事态，但却被不希望这样的一派绑架了。虽然被艾丽泽说是「饭桶」，不过尤伊为了救出王女而在考虑着某个计画！？",
   "types": [
-    "冒险/战争"
+    "冒险",
+    "战争"
   ],
   "authors": "津田彷徨",
   "first_letter": "W",
   "subscribe_num": 2602,
-  "redis_update_time": 1564292669,
+  "redis_update_time": 1564338030,
   "volume": [
     {
       "id": 8096,
@@ -25,7 +26,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1472814487,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8096,
+      "id": 8096,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 65989,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 65990,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65991,
+          "chapter_name": "第一章 卡林篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 65992,
+          "chapter_name": "第二章 艾铎布尔篇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 65993,
+          "chapter_name": "外传",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

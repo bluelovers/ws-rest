@@ -17,7 +17,7 @@
   "authors": "本多孝好",
   "first_letter": "F",
   "subscribe_num": 2069,
-  "redis_update_time": 1564304711,
+  "redis_update_time": 1564339494,
   "volume": [
     {
       "id": 9077,
@@ -25,7 +25,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1510835208,
-      "sum_chapters": 6
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9077,
+      "id": 9077,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 80955,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80956,
+          "chapter_name": "FineDays",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80957,
+          "chapter_name": "昨日重现",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80958,
+          "chapter_name": "可以入眠的温暖场所",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80959,
+          "chapter_name": "灯罩",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

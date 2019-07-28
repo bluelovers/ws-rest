@@ -12,12 +12,13 @@
   "hot_hits": 43792,
   "introduction": "特洛肯精灵学院是一所培育可以与精灵对话并役使其能力的巫女的学校。\n少年•利乌兹不知为何被发现了操纵水之精灵术的才能。\n于是他将在这所只有女生的学校，作为唯一的男性学生上学！\n与被诸如唤醒精灵等等麻烦所烦恼的学生们:\n虽然是优等生但缺乏自信的土之精灵术士•蒂塔、\n自负的天才风之精灵术士•雪拉、\n利乌兹天真烂漫的妹妹，火之精灵术士•露比等人一起，\n利乌兹如果不集齐四个属性的力量就无法发挥效力。\n挑战奥义•方阵轮舞——！？",
   "types": [
-    "校园/魔法"
+    "校园",
+    "魔法"
   ],
   "authors": "浜仓修",
   "first_letter": "W",
   "subscribe_num": 2669,
-  "redis_update_time": 1564310121,
+  "redis_update_time": 1564334249,
   "volume": [
     {
       "id": 8393,
@@ -25,7 +26,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1483454967,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8393,
+      "id": 8393,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 70499,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 70500,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 70501,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 70502,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 70503,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 70504,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 70505,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 70506,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 70507,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

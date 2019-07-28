@@ -12,12 +12,13 @@
   "hot_hits": 41938,
   "introduction": "　「我問你，你是我的Master嗎？」「啊災。」\n　　一人獨居的高中生——安則潤矢眼前，女武神布倫希爾德宛如某亞瑟王般現身。希爾德為了完成使命開始與潤矢同居，但是對於御宅文化充滿興趣的她卻陷入超人氣社群手遊『Idol　Live華麗舞台』——通稱『ILive』的深淵！？「抽不到SR好像要闇墮了……」漸漸開始壓迫潤矢生活費的希爾德展開成為課金戰士的偉大旅程！\n　　除此之外，在牛丼餐廳努力一人值班的葛姐、在秋葉原使喚阿宅的詩寇蒂等女武神們接連出現，潤矢開始面臨渾沌的生活……！毫不間斷的課金系喜劇！",
   "types": [
-    "搞笑/爱情"
+    "搞笑",
+    "爱情"
   ],
   "authors": "日の原裕光",
   "first_letter": "C",
   "subscribe_num": 4069,
-  "redis_update_time": 1564309617,
+  "redis_update_time": 1564356032,
   "volume": [
     {
       "id": 8099,
@@ -25,7 +26,87 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1472896480,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8099,
+      "id": 8099,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 66011,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 66025,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 66024,
+          "chapter_name": "stage1 希尔德/Grand Order",
+          "chapter_order": 25
+        },
+        {
+          "chapter_id": 66016,
+          "chapter_name": "重课金少女 希尔德的自白",
+          "chapter_order": 26
+        },
+        {
+          "chapter_id": 66013,
+          "chapter_name": "stage2 秋叶原拼图",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 66017,
+          "chapter_name": "重课金少女 希尔德的自白",
+          "chapter_order": 35
+        },
+        {
+          "chapter_id": 66014,
+          "chapter_name": "stage3 ILive战记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 66018,
+          "chapter_name": "重课金少女 希尔德的自白",
+          "chapter_order": 45
+        },
+        {
+          "chapter_id": 66015,
+          "chapter_name": "stage4 课金Project",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 66019,
+          "chapter_name": "重课金少女 希尔德的自白",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 66027,
+          "chapter_name": "stage5 女武神弹珠",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 66026,
+          "chapter_name": "终章",
+          "chapter_order": 105
+        },
+        {
+          "chapter_id": 66021,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 67214,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

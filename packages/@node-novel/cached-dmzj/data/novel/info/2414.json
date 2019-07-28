@@ -3,7 +3,7 @@
   "name": "三千世界的英雄王",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": " 第三卷 女帝与剑帝",
+  "last_update_volume_name": "第三卷 女帝与剑帝",
   "last_update_chapter_name": "插画",
   "last_update_volume_id": 9873,
   "last_update_chapter_id": 92616,
@@ -12,12 +12,14 @@
   "hot_hits": 226718,
   "introduction": "　　在学园都市「三千世界」里，人们为集结全世界的异能者，并决定其中最强的格斗竞赛「暗黑狂宴」而狂热。被誉为「举世无双的天才」的剑士．刀夜，为了在这个已经疯狂的异能者世界中求生存，转学到炼狱学园就读，决心要参加暗黑狂宴。然而，学园长要求的，却是让这位天才难以接受的参加条件：「很好，你就用『最弱的邪恶角色』去参加吧！这样子场面比较热闹。」「太过分了！？」和他组队的，是取了一个中二名字的大小姐──羽步流祇栖和自称机器人的幼女──一二三。变成反叛之徒的少年，将与伙伴从最底层开始，共同前往「三千世界」的顶峰──踏上英雄王的路。不管最强还是最弱都一笑置之──\n　　超大型学园格斗恋爱喜剧，开宴！",
   "types": [
-    "校园/爱情/搞笑"
+    "校园",
+    "爱情",
+    "搞笑"
   ],
   "authors": "壱日千次",
   "first_letter": "S",
-  "subscribe_num": 15972,
-  "redis_update_time": 1564310245,
+  "subscribe_num": 15979,
+  "redis_update_time": 1564346395,
   "volume": [
     {
       "id": 9125,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 中二称霸的学园都市",
       "volume_order": 10,
       "addtime": 1513158869,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9372,
@@ -33,15 +35,206 @@
       "volume_name": "第二卷 炼狱学园的魔人们",
       "volume_order": 20,
       "addtime": 1524316331,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9873,
       "lnovel_id": 2414,
-      "volume_name": " 第三卷 女帝与剑帝",
+      "volume_name": "第三卷 女帝与剑帝",
       "volume_order": 30,
       "addtime": 1546561267,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9125,
+      "id": 9125,
+      "volume_name": "第一卷 中二称霸的学园都市",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 81445,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81446,
+          "chapter_name": "第一章 觉醒之时",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81447,
+          "chapter_name": "第二章 四年后的异能世界",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81448,
+          "chapter_name": "第三章 堕落为恶",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81449,
+          "chapter_name": "第四章 冰与焰之英雄",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81450,
+          "chapter_name": "第五章 惧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81451,
+          "chapter_name": "第六章 狂宴开幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81452,
+          "chapter_name": "第七章 曙光女神",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 81453,
+          "chapter_name": "第八章 三千世界的英雄王（雷兹纳）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 81454,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 81455,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 81467,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 9372,
+      "id": 9372,
+      "volume_name": "第二卷 炼狱学园的魔人们",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 85190,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85191,
+          "chapter_name": "第一章 新的枷锁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85192,
+          "chapter_name": "第二章 魑魅魍魉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85193,
+          "chapter_name": "第三章 VS无畏级战舰",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85194,
+          "chapter_name": "第四章 作梦的少女",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85195,
+          "chapter_name": "第五章 战斗准备",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85196,
+          "chapter_name": "第六章 暗中决战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85197,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85198,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 85199,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9873,
+      "id": 9873,
+      "volume_name": "第三卷 女帝与剑帝",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 92606,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 92607,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 92608,
+          "chapter_name": "第一章 改变的世界",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 92609,
+          "chapter_name": "第二章 较劲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 92610,
+          "chapter_name": "第三章 过去的伤痕，未来的希望",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 92611,
+          "chapter_name": "第四章 令人作呕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 92612,
+          "chapter_name": "第五章 暴虐",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 92613,
+          "chapter_name": "终章 女帝与剑帝",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 92614,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 92615,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 92616,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

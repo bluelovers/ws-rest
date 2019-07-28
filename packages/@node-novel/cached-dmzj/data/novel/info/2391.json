@@ -12,12 +12,13 @@
   "hot_hits": 10528,
   "introduction": "暂无简介",
   "types": [
-    "校园/侦探"
+    "校园",
+    "侦探"
   ],
   "authors": "佐藤友哉",
   "first_letter": "D",
-  "subscribe_num": 2582,
-  "redis_update_time": 1564308919,
+  "subscribe_num": 2583,
+  "redis_update_time": 1564338056,
   "volume": [
     {
       "id": 9022,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 上卷 征服世界未遂惯犯",
       "volume_order": 10,
       "addtime": 1508944279,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9023,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 中卷 希望之峰学院VS.绝望高中",
       "volume_order": 20,
       "addtime": 1508944519,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9296,
@@ -41,7 +42,128 @@
       "volume_name": "第三卷 下卷 赌上十神之名",
       "volume_order": 30,
       "addtime": 1521799577,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9022,
+      "id": 9022,
+      "volume_name": "第一卷 上卷 征服世界未遂惯犯",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 80316,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80317,
+          "chapter_name": "CHAPTER 01 白夜大人就是上帝",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80318,
+          "chapter_name": "CHAPTER 02 EVE burst error",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80319,
+          "chapter_name": "CHAPTER 03 三方混战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80320,
+          "chapter_name": "CHAPTER 04 我与我于校园（上）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80321,
+          "chapter_name": "CHAPTER 05 我与我于校园（下）",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9023,
+      "id": 9023,
+      "volume_name": "第二卷 中卷 希望之峰学院VS.绝望高中",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 80322,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80323,
+          "chapter_name": "CHAPTER 06 了结",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80324,
+          "chapter_name": "CHAPTER 07 “十神家族最大最恶劣事件”（非日常篇）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80325,
+          "chapter_name": "CHAPTER 08 “十神家族最大最恶劣事件”（非现实篇）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80326,
+          "chapter_name": "CHAPTER 09 SKYFALL",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80327,
+          "chapter_name": "CHAPTER 10 希望·友情·信任·其余令人作呕的一切",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9296,
+      "id": 9296,
+      "volume_name": "第三卷 下卷 赌上十神之名",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 83760,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83761,
+          "chapter_name": "CHPTER 11 三个十神白夜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83762,
+          "chapter_name": "CHAPTER 12 关于转喻性质置换的接近性",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83763,
+          "chapter_name": "CHAPTER 13 K的升天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83764,
+          "chapter_name": "CHAPTER 14 我不想当灰姑娘",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85972,
+          "chapter_name": "CHAPTER 15 信任与选择与希望与绝望与怜悯与同情与牺牲 或解决篇",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85973,
+          "chapter_name": "CODA 白夜大人就是上帝",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

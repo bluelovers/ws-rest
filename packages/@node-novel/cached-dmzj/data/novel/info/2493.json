@@ -12,12 +12,13 @@
   "hot_hits": 82251,
   "introduction": "五条亘在某天由于想疏解烦躁的情绪而下载了一款手游『恶魔支配者』（Demon Ruler）。然而那是召唤恶魔并使役它的应用程序。\n于是与当中出现的爱照顾人的皮克西一同奔赴异界之地，为了发泄日常的压力而打倒恶魔！\n反复提升等级后，回过神来早已成为周围人都无法触及的存在。",
   "types": [
-    "冒险/魔法"
+    "冒险",
+    "魔法"
   ],
   "authors": "一江佐かさね",
   "first_letter": "E",
-  "subscribe_num": 5118,
-  "redis_update_time": 1564311096,
+  "subscribe_num": 5119,
+  "redis_update_time": 1564345969,
   "volume": [
     {
       "id": 9446,
@@ -25,7 +26,7 @@
       "volume_name": "web版第1章",
       "volume_order": 10,
       "addtime": 1527144445,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9465,
@@ -33,7 +34,140 @@
       "volume_name": "web版第2章",
       "volume_order": 20,
       "addtime": 1527735789,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9446,
+      "id": 9446,
+      "volume_name": "web版第1章",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 86288,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86289,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86290,
+          "chapter_name": "第1话 幸好还有薪水",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86291,
+          "chapter_name": "第2话 扭曲的情绪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86292,
+          "chapter_name": "第3话 色眯眯，哈啊哈啊",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86293,
+          "chapter_name": "第4话 手的动作骤然停下",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86294,
+          "chapter_name": "第5话 的确是有异界的氛围",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 86295,
+          "chapter_name": "第6话 回过神来已然笑出声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 86296,
+          "chapter_name": "第7话 契约继续",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 86297,
+          "chapter_name": "第8话 一定是战斗狂",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 86366,
+          "chapter_name": "第9话 犹如迫不及待的小孩一般",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 86384,
+          "chapter_name": "第10话 为何而活",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 86406,
+          "chapter_name": "第11话 满满地回收DP",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 86410,
+          "chapter_name": "第12话 后悔得意忘形",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 86490,
+          "chapter_name": "第13话 娇小的存在十分伟大",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 86527,
+          "chapter_name": "第14话 自夸似的说嗯哼",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 86528,
+          "chapter_name": "闲话 此时的人物状态",
+          "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 9465,
+      "id": 9465,
+      "volume_name": "web版第2章",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 86575,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86577,
+          "chapter_name": "第15话 大喊噢耶",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86640,
+          "chapter_name": "第16话 稳重文静的女孩子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86675,
+          "chapter_name": "第17话 小孩子也能听懂的详细说明",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86905,
+          "chapter_name": "第18话 很想托着腮帮子看戏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86979,
+          "chapter_name": "第19话 十天份的便利店便当",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

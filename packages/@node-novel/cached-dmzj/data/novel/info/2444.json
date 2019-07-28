@@ -12,12 +12,13 @@
   "hot_hits": 304554,
   "introduction": "从游戏厅出来遇到随机杀人事件的主人公,帮助女子高中生逃脱，抢走了杀人魔的刀。\n因为主人公拿着沾满鲜血的刀，被出现的警察当成凶手被击毙,30岁时去世…… 。\n但是,被异世界的女神同情，而转身到异世界，条件是把也转身到那个异世界的杀人魔杀掉。\n于是，主人公带着【不易不劳】——无论在精神还是肉体上永远不累的这种技能,转生到异世界。",
   "types": [
-    "异界/穿越"
+    "异界",
+    "穿越"
   ],
   "authors": "天宫晓",
   "first_letter": "N",
   "subscribe_num": 5706,
-  "redis_update_time": 1564306702,
+  "redis_update_time": 1564335732,
   "volume": [
     {
       "id": 9265,
@@ -25,7 +26,7 @@
       "volume_name": "web版00-30话",
       "volume_order": 10,
       "addtime": 1520400996,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9266,
@@ -33,7 +34,7 @@
       "volume_name": "web版31-60话",
       "volume_order": 20,
       "addtime": 1520402614,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9287,
@@ -41,7 +42,383 @@
       "volume_name": "web版61-90话",
       "volume_order": 30,
       "addtime": 1521540269,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9265,
+      "id": 9265,
+      "volume_name": "web版00-30话",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 83319,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83320,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83321,
+          "chapter_name": "第1话 不易不劳",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83322,
+          "chapter_name": "第2话 初次触顶",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83323,
+          "chapter_name": "第3话 习得魔法",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83324,
+          "chapter_name": "第4话 小型火灾",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83325,
+          "chapter_name": "第5话 满级、满级、满级",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83326,
+          "chapter_name": "第6话 初次见面",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83327,
+          "chapter_name": "第7话 飞翔的婴儿",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 83328,
+          "chapter_name": "第8话 然泽瑞克堡垒",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 83329,
+          "chapter_name": "第9话 炎狱的巫女",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 83330,
+          "chapter_name": "第10话 0.5岁的婴儿开无双",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 83331,
+          "chapter_name": "第11话 成长睡眠",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 83332,
+          "chapter_name": "第12话 金礼物、银礼物",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 83333,
+          "chapter_name": "第13话 副作用",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 83334,
+          "chapter_name": "第14话 直达书房",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 83335,
+          "chapter_name": "第15话 开始验证",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 83336,
+          "chapter_name": "第16话 验证结果",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 83337,
+          "chapter_name": "第17话 下雨的日子",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 83338,
+          "chapter_name": "第18话 传言",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 83339,
+          "chapter_name": "第19话 解读",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 83340,
+          "chapter_name": "第20话 妖精乡",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 83341,
+          "chapter_name": "第21话 始祖妖精",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 83342,
+          "chapter_name": "第22话 搜索沃伊斯",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 83343,
+          "chapter_name": "第23话 救出",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 83344,
+          "chapter_name": "第24话 女佣发牢骚",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 83345,
+          "chapter_name": "第25话 爸爸开无双",
+          "chapter_order": 270
+        },
+        {
+          "chapter_id": 83346,
+          "chapter_name": "第26话 地方都市",
+          "chapter_order": 280
+        },
+        {
+          "chapter_id": 83347,
+          "chapter_name": "第27话 询问",
+          "chapter_order": 290
+        },
+        {
+          "chapter_id": 83348,
+          "chapter_name": "第28话 祭司",
+          "chapter_order": 300
+        },
+        {
+          "chapter_id": 83349,
+          "chapter_name": "第29话 坦白",
+          "chapter_order": 310
+        },
+        {
+          "chapter_id": 83350,
+          "chapter_name": "第30话 通往魔法战士的道路",
+          "chapter_order": 320
+        }
+      ]
+    },
+    {
+      "volume_id": 9266,
+      "id": 9266,
+      "volume_name": "web版31-60话",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 83351,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83352,
+          "chapter_name": "第31话 夜袭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83353,
+          "chapter_name": "第32话 任意诱拐",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83354,
+          "chapter_name": "第33话 罪行调查",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83355,
+          "chapter_name": "第34话 滑舌改善",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83356,
+          "chapter_name": "第35话 新兵御使大蛇的一天（早上到白天）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83357,
+          "chapter_name": "第36话 新兵御使大蛇的一天（白天到黄昏）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83358,
+          "chapter_name": "第37话 新兵御使大蛇的一天（夜晚）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83359,
+          "chapter_name": "第38话 新兵御使大蛇的一天（深夜）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 83360,
+          "chapter_name": "第39话 新兵御使大蛇的一天（深更）",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 83361,
+          "chapter_name": "第40话 荒野中盛开的花",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 83362,
+          "chapter_name": "第41话 狩猎",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 83363,
+          "chapter_name": "第42话 火龙",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 83364,
+          "chapter_name": "第43话 火龙的巢",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 83365,
+          "chapter_name": "第44话 火龙突破战",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 83366,
+          "chapter_name": "第45话 对话",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 83367,
+          "chapter_name": "第46话 药师",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 83368,
+          "chapter_name": "第47话 遗迹的深处",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 83369,
+          "chapter_name": "第48话 邀请",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 83370,
+          "chapter_name": "第49话 邀请（承前）",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 83371,
+          "chapter_name": "第50话 逆起",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 83372,
+          "chapter_name": "第51话 互相欺骗",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 83373,
+          "chapter_name": "第52话 将军",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 83374,
+          "chapter_name": "第53话 再见女神大人",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 83375,
+          "chapter_name": "第54话 杀人狂的身份",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 83376,
+          "chapter_name": "第55话 向女神提问Part 1（通常部分）",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 83377,
+          "chapter_name": "第56话 向女神提问Part 2（技能部分）",
+          "chapter_order": 270
+        },
+        {
+          "chapter_id": 83378,
+          "chapter_name": "第57话 向女神提问Part 3（魔法部分）",
+          "chapter_order": 280
+        },
+        {
+          "chapter_id": 83379,
+          "chapter_name": "第58话 向女神提问Part 4（神话部分）",
+          "chapter_order": 290
+        },
+        {
+          "chapter_id": 83380,
+          "chapter_name": "第59话 解放",
+          "chapter_order": 300
+        },
+        {
+          "chapter_id": 83381,
+          "chapter_name": "第60话 假日",
+          "chapter_order": 310
+        }
+      ]
+    },
+    {
+      "volume_id": 9287,
+      "id": 9287,
+      "volume_name": "web版61-90话",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 83623,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83624,
+          "chapter_name": "第61话 启动！全自动结界剥离机：试做型",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83625,
+          "chapter_name": "第62话 登记冒险者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83626,
+          "chapter_name": "第63话 头彩（Jackpot）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83627,
+          "chapter_name": "第64话 枪与匕首",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83628,
+          "chapter_name": "第65话 Happy Birthday!",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83631,
+          "chapter_name": "第66话 彻贝尔家族战力增强会议（1）",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

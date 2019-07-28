@@ -12,12 +12,13 @@
   "hot_hits": 26691,
   "introduction": "我的「青春」似乎比别人稍微漫长，因为从某天开始，除了我之外，周围的时间全都停止了。\n下午1点35分，每天固定造访的伤停补时，限时1小时。\n在这段时间里，我爱上了和我看著相同景色的她──筱宫时音，琥珀色眼瞳带著不可思议魅力的少女。\n但她身上似乎有个「唯独我」没有发现的重大秘密……\n神奇的伤停补时连结了少男与少女，微甜苦涩，令人心痛的青春恋爱物语。",
   "types": [
-    "爱情/校园"
+    "爱情",
+    "校园"
   ],
   "authors": "仁科裕贵",
   "first_letter": "C",
   "subscribe_num": 4068,
-  "redis_update_time": 1564310290,
+  "redis_update_time": 1564339896,
   "volume": [
     {
       "id": 9353,
@@ -25,7 +26,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1523437194,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9353,
+      "id": 9353,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 84871,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 84872,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 84873,
+          "chapter_name": "第一话 静止的街道上",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 84874,
+          "chapter_name": "第二话 小心时间小偷",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 84875,
+          "chapter_name": "第三话 我和她的奇异点",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 84876,
+          "chapter_name": "第四话 听见时间的跳动",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 84877,
+          "chapter_name": "伤停补时(Loss time)",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 84878,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 84879,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

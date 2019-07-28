@@ -12,12 +12,14 @@
   "hot_hits": 284563,
   "introduction": "2周目游戏，要玩什么呢？ 我转生到了自己曾作为\"勇者\"拯救的异世界里。前回的转生目的是「打倒魔王」。但这回什么目的也没有。带着2周目勇者强到犯规的能力，我决定，随心所欲地生活下去。\n让世界最强贤者当自己的女仆，捡来奴隶少女进行「勇者式」能力提升训练。让盗贼少女改过自新，增加伙伴。豪华宅邸和最强装备想要什么就有什么。但我真正追求的，不是财富不是荣誉也不是美女。只有一点——活出自己！\n这次的人生中，我什么都不要再忍耐了！\n呀哈！ 不自重前勇者强大又轻松的NewGame！过激开幕！",
   "types": [
-    "异界/穿越/搞笑"
+    "异界",
+    "穿越",
+    "搞笑"
   ],
   "authors": "新木伸",
   "first_letter": "B",
-  "subscribe_num": 27366,
-  "redis_update_time": 1564312578,
+  "subscribe_num": 27382,
+  "redis_update_time": 1564345397,
   "volume": [
     {
       "id": 9211,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1518257385,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9749,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1540567252,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10209,
@@ -41,7 +43,153 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1562248109,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9211,
+      "id": 9211,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 90586,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 84856,
+          "chapter_name": "第一章 在异世界展开生活",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 84857,
+          "chapter_name": "第二章 调教奴隶女孩",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 84858,
+          "chapter_name": "第三章 带盗贼孩回家",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 84859,
+          "chapter_name": "第四章 和伙伴一起",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 84860,
+          "chapter_name": "第五章 出门旅行去",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 84861,
+          "chapter_name": "第六章 初始之地",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 84862,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 84863,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9749,
+      "id": 9749,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 90585,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 90587,
+          "chapter_name": "第一章 旅途路上",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 90588,
+          "chapter_name": "第二章 我家的女孩们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 90589,
+          "chapter_name": "第三章 我的女人们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 90590,
+          "chapter_name": "第四章 哥不林杀手……？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 90591,
+          "chapter_name": "第五章 在古老的王都",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 90592,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 90593,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10209,
+      "id": 10209,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 97650,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 97651,
+          "chapter_name": "第一章 旅途路上的日常风景",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 97652,
+          "chapter_name": "第二章 伙伴增加的旅途路上",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 97653,
+          "chapter_name": "第三章 恣意妄为的旅途路上",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 97654,
+          "chapter_name": "第四章 第三个地区 大武道大会（奖品是船只）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 97655,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 97656,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

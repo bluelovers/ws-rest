@@ -12,12 +12,14 @@
   "hot_hits": 0,
   "introduction": "川口士新作《魔弹之王与冻涟的雪姬》，露利叶家的曾祖母四代都是战姬，负责管辖著在莱德梅里兹南部、墨吉涅王国北部的奥尔米兹公国。",
   "types": [
-    "魔法/后宫/战争"
+    "魔法",
+    "后宫",
+    "战争"
   ],
   "authors": "川口士",
   "first_letter": "M",
-  "subscribe_num": 10781,
-  "redis_update_time": 1564310663,
+  "subscribe_num": 10794,
+  "redis_update_time": 1564342481,
   "volume": [
     {
       "id": 10058,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555419634,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10059,
@@ -33,7 +35,130 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1555419932,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10058,
+      "id": 10058,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 95415,
+          "chapter_name": "转载信息",
+          "chapter_order": 1
+        },
+        {
+          "chapter_id": 95414,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95416,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95417,
+          "chapter_name": "1 出阵",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95418,
+          "chapter_name": "2 冻涟的雪姬",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95419,
+          "chapter_name": "3 水妖",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95420,
+          "chapter_name": "4 黑弓",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95421,
+          "chapter_name": "5 再次，于国境",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95422,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95423,
+          "chapter_name": "断章－三年前－",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95424,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10059,
+      "id": 10059,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 95425,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95426,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95427,
+          "chapter_name": "1 再会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95428,
+          "chapter_name": "2 银闪的风姬",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95429,
+          "chapter_name": "3 蠢动的阴谋",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95430,
+          "chapter_name": "4 树妖之森",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95431,
+          "chapter_name": "5 汤沃鲁特的战斗",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95432,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95433,
+          "chapter_name": "断章 夏日的某天",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95434,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

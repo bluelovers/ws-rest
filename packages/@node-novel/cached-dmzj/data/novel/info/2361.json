@@ -12,12 +12,14 @@
   "hot_hits": 136117,
   "introduction": "亲爹般的无机物和沉默寡言的猫耳少女，踏上了最少三年，最高无期的旅途。",
   "types": [
-    "异界/穿越/冒险"
+    "异界",
+    "穿越",
+    "冒险"
   ],
   "authors": "棚架ユウ",
   "first_letter": "Z",
-  "subscribe_num": 26171,
-  "redis_update_time": 1564311295,
+  "subscribe_num": 26176,
+  "redis_update_time": 1564348755,
   "volume": [
     {
       "id": 8873,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1501661665,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10042,
@@ -33,7 +35,125 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1554730874,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8873,
+      "id": 8873,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 78099,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78100,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78101,
+          "chapter_name": "第一章 大草原上孤独的剑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78102,
+          "chapter_name": "第二章 剑与少女的相遇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78103,
+          "chapter_name": "第三章 冒险者协会与约定",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 79699,
+          "chapter_name": "第四章 第一次的地下城",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 79700,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 79701,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 79932,
+          "chapter_name": "和芙兰相遇第二天的晚饭~多提亚风汉堡~",
+          "chapter_order": 88
+        },
+        {
+          "chapter_id": 79702,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10042,
+      "id": 10042,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 95173,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95174,
+          "chapter_name": "第一章 任何地方都会涌出笨蛋",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95175,
+          "chapter_name": "第二章 阶级Ａ的实力",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95176,
+          "chapter_name": "第三章 漆黑魔狼，其名为小漆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95177,
+          "chapter_name": "第四章 人不可貌相",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95178,
+          "chapter_name": "第五章 浮游岛的激斗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95179,
+          "chapter_name": "第六章 死灵之王",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95180,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95181,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95182,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

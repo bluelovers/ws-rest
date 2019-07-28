@@ -12,12 +12,13 @@
   "hot_hits": 58162,
   "introduction": "心仪的女孩死了——带着这样的恶梦进入学校教室的综士，感到了某种异样。唯一的朋友一骑从这个世界上【存在被抹去】的事实，只有自己意识到了。察觉到综士异变的，是建立【时钟部】追寻时空扭曲真相的前辈·草剃千岁，和举止异于常人的同级生·铃鹿雏美。新时代青春TIME LEAP（时间跳跃）·推理剧，开幕！",
   "types": [
-    "校园/侦探"
+    "校园",
+    "侦探"
   ],
   "authors": "绫崎隼",
   "first_letter": "N",
   "subscribe_num": 4606,
-  "redis_update_time": 1564303073,
+  "redis_update_time": 1564338507,
   "volume": [
     {
       "id": 7875,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 谎言之塔",
       "volume_order": 10,
       "addtime": 1465301727,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 7894,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 塔之雨",
       "volume_order": 20,
       "addtime": 1465737645,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8140,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷 雨之雏",
       "volume_order": 30,
       "addtime": 1473604556,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8354,
@@ -49,7 +50,191 @@
       "volume_name": "第四卷 雏之谎言",
       "volume_order": 40,
       "addtime": 1481549963,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7875,
+      "id": 7875,
+      "volume_name": "第一卷 谎言之塔",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 62274,
+          "chapter_name": "第一话 说谎是为了保护自己",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 62275,
+          "chapter_name": "第二话 无法承受的宽恕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 62276,
+          "chapter_name": "第三话 伤悲未来的轮廓？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62277,
+          "chapter_name": "第四话 将所有的痛苦终结",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 62278,
+          "chapter_name": "第五话 近邻世界的身影",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62279,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7894,
+      "id": 7894,
+      "volume_name": "第二卷 塔之雨",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 62603,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 62604,
+          "chapter_name": "第六话 何时能把这个声音传达",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 62756,
+          "chapter_name": "第七话 渐晓生命的意义",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62814,
+          "chapter_name": "第八话 无法对你祈求的宽恕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 62815,
+          "chapter_name": "第九话 致已不在的友人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62818,
+          "chapter_name": "第十话 这片雨意下忏悔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 62819,
+          "chapter_name": "最终章 篝火晚会开始了。",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 62820,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8140,
+      "id": 8140,
+      "volume_name": "第三卷 雨之雏",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 66764,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 66765,
+          "chapter_name": "幕间 孑然一身的Dacapo",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67939,
+          "chapter_name": "第十一话 这个世界有你",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68119,
+          "chapter_name": "第十二话 雨中连泪水也模糊",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68581,
+          "chapter_name": "第十三话 即便欺骗整个世界",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68824,
+          "chapter_name": "第十四话 用只能被我听到的声音",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 68825,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8354,
+      "id": 8354,
+      "volume_name": "第四卷 雏之谎言",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 69849,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69851,
+          "chapter_name": "第十五话 希望朽折花凋零",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 70242,
+          "chapter_name": "第十六话 就是唯一的那个人也",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 70699,
+          "chapter_name": "第十七话 因为你为我发现",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71838,
+          "chapter_name": "第十八话 至少要笑着死去",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 72531,
+          "chapter_name": "最终话 直至再也不会开始的终场",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 73277,
+          "chapter_name": "前情（prologue）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 73617,
+          "chapter_name": "后事（epilogue）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 73628,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

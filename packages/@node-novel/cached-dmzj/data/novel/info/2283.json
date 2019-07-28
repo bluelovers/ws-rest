@@ -12,12 +12,13 @@
   "hot_hits": 13105,
   "introduction": "　　十九世纪，由维克托‧法兰肯斯坦博士开发的生物创造技术普及世界各地。\n　　这种将「灵素」写入死者体内而产生的新生命称为「尸者」，被人类普遍用在劳动和军事用途上。\n　　伦敦大学的医学生约翰‧华生因为表现出色，获凡赫辛教授推荐加入直属维多利亚女王的秘密情报机关，成为一名间谍。他接受上司M的指令前往阿富汗内陆调查传闻由阿列克塞‧卡拉马助夫建立的「尸者的帝国」。\n　　他和负责记录的助手星期五一起动身前往阿富汗。和阿列克塞长谈一夜的华生知道了最早的尸者──沙万仍旧活著，同时也见到人类梦寐以求的新型尸者的存在。\n　　而且已经消失的「维克多笔记」中也记载著解开尸者之谜的关键。为了找到那份笔记，华生踏上了他从未想像过的遥远旅程，看见了从未想像过的另一个世界……",
   "types": [
-    "侦探/冒险"
+    "侦探",
+    "冒险"
   ],
   "authors": "伊藤计划",
   "first_letter": "S",
-  "subscribe_num": 3161,
-  "redis_update_time": 1564308595,
+  "subscribe_num": 3162,
+  "redis_update_time": 1564346727,
   "volume": [
     {
       "id": 8492,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1486554428,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8492,
+      "id": 8492,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 71839,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 71840,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71841,
+          "chapter_name": "第一部",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 71842,
+          "chapter_name": "第二部",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71843,
+          "chapter_name": "第三部",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 71844,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 71845,
+          "chapter_name": "代替后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,15 @@
   "hot_hits": 47984,
   "introduction": "在这个科学已死的异世界里，透过魔法发展出了名为「魔学」的科技──至于被命名为『福音』、宛如咒语般的技术，则是成为了社会发展的根基。\n因为经历了某事件而排斥魔学的普通高中生•相庭元，碰巧遇见了文部魔学省的精英魔学使•御崎美羽，并且得知这个世界正出现了会让人无法正常使用「魔学」的特殊现象『福音矛盾』。相传信奉着于400年前消失的科学──「科法」的『科法使』，就是引起『福音矛盾』的始作俑者。而且对方似乎原本是这个世上唯一能够正确使用魔学的人物……？\n剑姬与枪姬交织而成的刀光剑影，就此上演一出新世代魔法科学大战的动作恋爱喜剧！",
   "types": [
-    "校园/魔法/爱情/异界"
+    "校园",
+    "魔法",
+    "爱情",
+    "异界"
   ],
   "authors": "きなこもちづき",
   "first_letter": "M",
-  "subscribe_num": 8665,
-  "redis_update_time": 1564310901,
+  "subscribe_num": 8670,
+  "redis_update_time": 1564357091,
   "volume": [
     {
       "id": 8234,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1477394507,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8902,
@@ -33,7 +36,125 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1502705021,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8234,
+      "id": 8234,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 68050,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68051,
+          "chapter_name": "序曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68052,
+          "chapter_name": "第1章 在魔学的观点里可说是必然的相遇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68081,
+          "chapter_name": "第2章 魔学与科法",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68618,
+          "chapter_name": "第3章 姑息疗法",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68901,
+          "chapter_name": "第4章 意外的来访者",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68902,
+          "chapter_name": "第5章 魔学将会变成科法",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 68903,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 68904,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8902,
+      "id": 8902,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 78673,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78674,
+          "chapter_name": "序曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78675,
+          "chapter_name": "第1章 锅之晚宴",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78676,
+          "chapter_name": "第2章 全新秩序的脚步声",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78677,
+          "chapter_name": "第3章 文部魔学省瓦解",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78678,
+          "chapter_name": "第4章 各式各样的邂逅",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 78679,
+          "chapter_name": "第5章 魔学的逆袭",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 78680,
+          "chapter_name": "第6章 全新的秩序",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 78681,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 78682,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 78683,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

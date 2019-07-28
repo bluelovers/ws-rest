@@ -12,12 +12,13 @@
   "hot_hits": 29527,
   "introduction": "　　废柴女神莉丝塔要负责拯救超难模式的世界。\n　　虽然成功召唤出能力值高到犯规的勇者圣哉，\n　　没想到他却谨慎到超乎想像……\n　　「我要三副盔甲。\n　　一副拿来穿，一副备用，还有一副是备用不见时的备用。」\n　　不仅囤积异常的库存，还自主训练到满等为止，\n　　谨慎到连打史莱姆都全力以赴！\n　　如此谨慎的勇者和被他耍得团团转的女神，即将展开冒险旅程！",
   "types": [
-    "冒险/穿越"
+    "冒险",
+    "穿越"
   ],
   "authors": "土日月",
   "first_letter": "Z",
-  "subscribe_num": 18770,
-  "redis_update_time": 1564311658,
+  "subscribe_num": 18793,
+  "redis_update_time": 1564343060,
   "volume": [
     {
       "id": 10010,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1552825128,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10163,
@@ -33,7 +34,315 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1559995763,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10010,
+      "id": 10010,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 94680,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94681,
+          "chapter_name": "序章 女神的苦恼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94682,
+          "chapter_name": "第一章 但是我拒绝",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94683,
+          "chapter_name": "第二章 一切准备就绪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94684,
+          "chapter_name": "第三章 前往艾多纳镇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94685,
+          "chapter_name": "第四章 第一只怪物",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94686,
+          "chapter_name": "第五章 最差劲的勇者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94687,
+          "chapter_name": "第六章 藏了一手",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 94688,
+          "chapter_name": "第七章 病得彻底",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 94689,
+          "chapter_name": "第八章 奥义炸裂",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 94690,
+          "chapter_name": "第九章 在旅行前",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 94691,
+          "chapter_name": "第十章 剑神",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 94692,
+          "chapter_name": "第十一章 严苛的修练",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 94693,
+          "chapter_name": "第十二章 准备完毕",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 94694,
+          "chapter_name": "第十三章 惊异的不死者",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 94695,
+          "chapter_name": "第十四章 决裂",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 94696,
+          "chapter_name": "第十五章 一对一万",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 94697,
+          "chapter_name": "第十六章 刃长莫及",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 94698,
+          "chapter_name": "第十七章 大女神",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 94699,
+          "chapter_name": "第十八章 谋略",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 94700,
+          "chapter_name": "第十九章 更可怕的东西",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 94701,
+          "chapter_name": "第二十章 拿行李的",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 94702,
+          "chapter_name": "第二十一章 军神",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 94703,
+          "chapter_name": "第二十二章 芳心大乱",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 94704,
+          "chapter_name": "第二十三章 伊札雷村",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 94705,
+          "chapter_name": "第二十四章 龙的洞窟",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 94706,
+          "chapter_name": "第二十五章 圣剑的仪式",
+          "chapter_order": 270
+        },
+        {
+          "chapter_id": 94707,
+          "chapter_name": "第二十六章 咒怨数杀",
+          "chapter_order": 280
+        },
+        {
+          "chapter_id": 94708,
+          "chapter_name": "第二十七章 重要的事物",
+          "chapter_order": 290
+        },
+        {
+          "chapter_id": 94709,
+          "chapter_name": "第二十八章 Gonna be ok（总会有办法）",
+          "chapter_order": 300
+        },
+        {
+          "chapter_id": 94710,
+          "chapter_name": "后记",
+          "chapter_order": 310
+        },
+        {
+          "chapter_id": 94711,
+          "chapter_name": "插画",
+          "chapter_order": 320
+        }
+      ]
+    },
+    {
+      "volume_id": 10163,
+      "id": 10163,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 96800,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 96801,
+          "chapter_name": "第二十九章 倒立烟火",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 96802,
+          "chapter_name": "第三十章 奥尔加要塞",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 96803,
+          "chapter_name": "第三十一章 呼巴掌",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 96804,
+          "chapter_name": "第三十二章 住在森林的女神",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 96805,
+          "chapter_name": "第三十三章 暗影重重",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 96806,
+          "chapter_name": "第三十四章 淫女荡妇",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 96807,
+          "chapter_name": "第三十五章 讨伐巨蝇",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 96808,
+          "chapter_name": "第三十六章 狙击",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 96809,
+          "chapter_name": "第三十七章 能杀勇者之物",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 96810,
+          "chapter_name": "第三十八章 天狱门",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 96811,
+          "chapter_name": "第三十九章 破坏女神",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 96812,
+          "chapter_name": "第四十章 没说出的台词",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 96813,
+          "chapter_name": "第四十一章 最后的四天王",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 96814,
+          "chapter_name": "第四十二章 帝都奥尔菲",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 96815,
+          "chapter_name": "第四十三章 不死的原因",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 96816,
+          "chapter_name": "第四十四章 可能性的罗列",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 96817,
+          "chapter_name": "第四十五章 谨慎的功过",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 96818,
+          "chapter_name": "第四十六章 闲谈时间",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 96819,
+          "chapter_name": "第四十七章 勇者消失",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 96820,
+          "chapter_name": "第四十八章 谨慎的理由",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 96821,
+          "chapter_name": "第四十九章 我也是",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 96822,
+          "chapter_name": "第五十章 快乐结局",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 96823,
+          "chapter_name": "终章 罪与罚与另一件事",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 96824,
+          "chapter_name": "后记",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 96825,
+          "chapter_name": "插画",
+          "chapter_order": 260
+        }
+      ]
     }
   ]
 }

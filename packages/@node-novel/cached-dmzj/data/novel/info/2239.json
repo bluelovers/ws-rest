@@ -3,21 +3,22 @@
   "name": "刺客守则(暗杀者的慈悲)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷 夜界航路",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 9763,
-  "last_update_chapter_id": 95010,
-  "last_update_time": 1553958419,
+  "last_update_volume_name": "第七卷 暗杀教师与业火剑舞祭",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10250,
+  "last_update_chapter_id": 98318,
+  "last_update_time": 1564316107,
   "cover": "https://xs.dmzj.com/img/webpic/4/asz1128l.jpg",
   "hot_hits": 1234395,
   "introduction": "赌上教师的尊严——将少女的存在价值证明于世\n　　这是只有贵族才拥有的与怪物战斗的力量·玛娜存在的世界。\n　　库法是为了将在公爵家出生却没有才能的少女梅丽达的能力发掘出而作为家庭教师被派遣的人。\n　　既然她没有才能的话，那就让她肩负名为暗杀——这个黑暗侧的任务……",
   "types": [
-    "魔法/后宫"
+    "魔法",
+    "后宫"
   ],
   "authors": "天城ケイ",
   "first_letter": "A",
-  "subscribe_num": 55853,
-  "redis_update_time": 1564312008,
+  "subscribe_num": 56126,
+  "redis_update_time": 1564355711,
   "volume": [
     {
       "id": 8323,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 暗杀教师与无能才女",
       "volume_order": 10,
       "addtime": 1480330527,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8482,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 暗杀教师与女王选拔战",
       "volume_order": 20,
       "addtime": 1486201890,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9059,
@@ -41,7 +42,7 @@
       "volume_name": "短篇",
       "volume_order": 30,
       "addtime": 1509708059,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9168,
@@ -49,7 +50,7 @@
       "volume_name": "第三卷 暗杀教师与命运法庭",
       "volume_order": 40,
       "addtime": 1516020794,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9496,
@@ -57,7 +58,7 @@
       "volume_name": "第四卷 暗杀教师与樱乱铁路",
       "volume_order": 50,
       "addtime": 1528543741,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9744,
@@ -65,7 +66,7 @@
       "volume_name": "第五卷 暗杀教师与深渊飨宴",
       "volume_order": 60,
       "addtime": 1540113435,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9763,
@@ -73,7 +74,496 @@
       "volume_name": "第六卷 夜界航路",
       "volume_order": 70,
       "addtime": 1540960688,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    },
+    {
+      "id": 10250,
+      "lnovel_id": 2239,
+      "volume_name": "第七卷 暗杀教师与业火剑舞祭",
+      "volume_order": 80,
+      "addtime": 1564315336,
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8323,
+      "id": 8323,
+      "volume_name": "第一卷 暗杀教师与无能才女",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 70583,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 70584,
+          "chapter_name": "HOMEROOM EARLIER",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 70585,
+          "chapter_name": "LESSON:Ⅰ ～金乌的觉醒～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 70586,
+          "chapter_name": "LESSON:Ⅱ ～家庭教师如是说～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 70587,
+          "chapter_name": "LESSON:Ⅲ ～被从旁守护这件事～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 70588,
+          "chapter_name": "LESSON:Ⅳ ～失眠者们～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 70589,
+          "chapter_name": "LESSON:Ⅴ ～在临界点的彼端～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 70590,
+          "chapter_name": "HOMEROOM LATER",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 70591,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 69355,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8482,
+      "id": 8482,
+      "volume_name": "第二卷 暗杀教师与女王选拔战",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 82051,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 82052,
+          "chapter_name": "HOMEROOM EARLIER",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 82053,
+          "chapter_name": "LESSON:Ⅰ ～黄金公主与白银公主～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 82054,
+          "chapter_name": "LESSON:Ⅱ ～聚集在锁城的少女与少女～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 82055,
+          "chapter_name": "LESSON:Ⅲ ～祭典的尾声，抑或开端～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 82056,
+          "chapter_name": "LESSON:Ⅳ ～美妙的歌声与碎裂的器皿～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 82057,
+          "chapter_name": "LESSON:Ⅴ ～是毒，是药，抑或她的陷阱？～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 82058,
+          "chapter_name": "LESSON:Ⅵ ～倘若此处是天空，你便是明月～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 82059,
+          "chapter_name": "LESSON:Ⅶ ～嘲笑的漆黑与隐藏的黑暗～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 82060,
+          "chapter_name": "HOMEROOM LATER",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 82061,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 71737,
+          "chapter_name": "插画",
+          "chapter_order": 111
+        },
+        {
+          "chapter_id": 82062,
+          "chapter_name": "G店特典",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 9059,
+      "id": 9059,
+      "volume_name": "短篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 80553,
+          "chapter_name": "DM17年日历短篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80751,
+          "chapter_name": "富士见感谢祭短篇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81891,
+          "chapter_name": "2017年富士见感谢祭短篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81892,
+          "chapter_name": "暗杀教师与人偶馆的特别讲义",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 9168,
+      "id": 9168,
+      "volume_name": "第三卷 暗杀教师与命运法庭",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 82050,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 82063,
+          "chapter_name": "HOMEROOM EARLIER",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 82064,
+          "chapter_name": "LESSON:Ⅰ ～潘朵拉的日常～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 82065,
+          "chapter_name": "LESSON:Ⅱ ～突然前来的两位客人～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 82066,
+          "chapter_name": "LESSON:Ⅲ ～戴上白色羽翼的小恶魔～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 82067,
+          "chapter_name": "LESSON:Ⅳ ～沾满天使点心的姊妹～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 82068,
+          "chapter_name": "LESSON:Ⅴ ～死神的使者～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 82069,
+          "chapter_name": "LESSON:Ⅵ ～黑暗野兽与月之野兽～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 82070,
+          "chapter_name": "LESSON:Ⅶ ～吹牛人偶的审判～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 82071,
+          "chapter_name": "LESSON:Ⅷ ～舞动吧小提琴～",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 82072,
+          "chapter_name": "HOMEROOM LATER",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 82073,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 82151,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 9496,
+      "id": 9496,
+      "volume_name": "第四卷 暗杀教师与樱乱铁路",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 86968,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86969,
+          "chapter_name": "HOMEROOM EARLIER",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86970,
+          "chapter_name": "LESSON:Ⅰ ～叹息的桥梁～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86971,
+          "chapter_name": "LESSON:Ⅱ ～必然的旅行者～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86972,
+          "chapter_name": "LESSON:Ⅲ ～从星星之间的车窗～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86973,
+          "chapter_name": "LESSON:Ⅳ ～伪王爵的战斗～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86974,
+          "chapter_name": "LESSON:Ⅴ ～热气窃笑着～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 86975,
+          "chapter_name": "LESSON:Ⅵ ～名为大罪的列车～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 86976,
+          "chapter_name": "LESSON:Ⅶ ～尊严之翼～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 86977,
+          "chapter_name": "HOMEROOM LATER",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 86978,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9744,
+      "id": 9744,
+      "volume_name": "第五卷 暗杀教师与深渊飨宴",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 90509,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 90510,
+          "chapter_name": "HOMEROOM EARLIER",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 90511,
+          "chapter_name": "LESSON:I～圣弗立戴斯威德的明朗预兆～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 90512,
+          "chapter_name": "LESSON:II～大地尽头的雷鸣～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 90513,
+          "chapter_name": "LESSON:III～无论上下都没有路标～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 90514,
+          "chapter_name": "LESSON:IV～天使与恶魔的惊奇冒险～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 90515,
+          "chapter_name": "LESSON:V～某具骸骨的遗言～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 90516,
+          "chapter_name": "LESSON:VI～悠久的婚礼～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 90517,
+          "chapter_name": "HOMEROOM LATER",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 90518,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 90519,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9763,
+      "id": 9763,
+      "volume_name": "第六卷 夜界航路",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 90812,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 90813,
+          "chapter_name": "HOMEROOM RARLIER",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 90814,
+          "chapter_name": "LESSON I ~Days in the Night~",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 90894,
+          "chapter_name": "LESSON:Ⅱ ~幽灵船长的一语相助~",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 91506,
+          "chapter_name": "LESSON:Ⅲ ~孤独的舞会~",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 91804,
+          "chapter_name": "LESSON:Ⅳ 蔷薇之国的王女",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 92185,
+          "chapter_name": "LESSON:Ⅴ 奋起与战略",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 92186,
+          "chapter_name": "LESSON:Ⅵ ～坠入永眠～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95009,
+          "chapter_name": "HOMEROOM LATER",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95010,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10250,
+      "id": 10250,
+      "volume_name": "第七卷 暗杀教师与业火剑舞祭",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 98308,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98309,
+          "chapter_name": "HOMEROOM EARLIER",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98310,
+          "chapter_name": "LESSON:I ～甜蜜的家～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98311,
+          "chapter_name": "LESSON:II ～通往剑之大地的道路～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98312,
+          "chapter_name": "LESSON:III ～抒情诗诱骗～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98313,
+          "chapter_name": "LESSON:IV ～在圆圈外侧嗤笑之影～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98314,
+          "chapter_name": "LESSON:V ～钢铁宫的华尔滋～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98315,
+          "chapter_name": "LESSON:VI ～火之契约～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98316,
+          "chapter_name": "HOMEROOM LATER",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98317,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 98318,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

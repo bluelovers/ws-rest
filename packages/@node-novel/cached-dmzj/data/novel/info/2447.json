@@ -3,7 +3,7 @@
   "name": "机器人笔记：濑乃宫美纱希的未发表手记",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": " 第一卷",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第七章",
   "last_update_volume_id": 9271,
   "last_update_chapter_id": 83444,
@@ -17,15 +17,75 @@
   "authors": "海法纪光",
   "first_letter": "J",
   "subscribe_num": 1238,
-  "redis_update_time": 1564311792,
+  "redis_update_time": 1564333988,
   "volume": [
     {
       "id": 9271,
       "lnovel_id": 2447,
-      "volume_name": " 第一卷",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1520687021,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9271,
+      "id": 9271,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 83435,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83436,
+          "chapter_name": "承前",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83437,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83438,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83439,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83440,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83441,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83442,
+          "chapter_name": "幕间",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83443,
+          "chapter_name": "第六章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 83444,
+          "chapter_name": "第七章",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

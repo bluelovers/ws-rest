@@ -12,12 +12,13 @@
   "hot_hits": 411349,
   "introduction": "「自动手记人偶」的诞生，是遥远过去的事情。\n活版印刷的权威奥兰德博士，为了失明的小说家妻子·茉莉，而发明了即使看不见也能记录文字的机械。小巧可爱的人偶一般的机械。博士将妻子的思念和心愿注入其中，称其为「自动手记人偶」。\n之后，「自动手记人偶」成为众多人们的支柱，得到了普及。现在，这个名字成为了代替无法书写的人们和想要传达思念的人们，汲取他们的心情，以言语的形式传达，从事这样的职业的女性们的代称。\n这是，生于时代转换期的一位少女，薇尔莉特·伊芙加登以自动手记人偶的身份，连接人与人心灵的故事——京都动画大赏首部大赏受赏作\n「若是客人您有所期望的话，我可以去往任何地方。我是，自动手记人偶服务，薇尔莉特·伊芙加登。」",
   "types": [
-    "爱情/奇幻"
+    "爱情",
+    "奇幻"
   ],
   "authors": "晓佳奈",
   "first_letter": "Z",
-  "subscribe_num": 43700,
-  "redis_update_time": 1564312145,
+  "subscribe_num": 43715,
+  "redis_update_time": 1564347983,
   "volume": [
     {
       "id": 9158,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1515244612,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9159,
@@ -33,7 +34,120 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1515244870,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9158,
+      "id": 9158,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 81810,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81811,
+          "chapter_name": "「小说家与自动书记人偶」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81812,
+          "chapter_name": "「少女与自动书记人偶」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81813,
+          "chapter_name": "「青年与自动书记人偶」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81814,
+          "chapter_name": "「学者与自动书记人偶」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81815,
+          "chapter_name": "「囚徒与自动书记人偶」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81816,
+          "chapter_name": "「少佐与自动杀人人偶」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81867,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 9159,
+      "id": 9159,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 81817,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81818,
+          "chapter_name": "「半神和自动书记人偶」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81819,
+          "chapter_name": "「少佐和他的一切」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81820,
+          "chapter_name": "「少女兵和她的全部」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81821,
+          "chapter_name": "「新郎和自动书记人偶」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81822,
+          "chapter_name": "「飞行信纸和自动书记人偶 前篇」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81823,
+          "chapter_name": "「飞行信纸和自动书记人偶 后篇」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81824,
+          "chapter_name": "「薇尔莉特&#8231;伊芙加登」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 81825,
+          "chapter_name": "「自动书记人偶」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 81826,
+          "chapter_name": "「后记」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 81868,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

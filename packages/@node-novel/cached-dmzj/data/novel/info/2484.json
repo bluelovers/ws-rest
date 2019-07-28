@@ -12,12 +12,13 @@
   "hot_hits": 42660,
   "introduction": "　　桃山太郎的儿时玩伴莎琉是双色瞳的金发混血美少女，\n　　但是她其实有个致命的缺点──\n　　「如果要被别人看到我的眼睛，我还不如去死……」\n　　没错！她有严重的社交恐惧！！\n　　为了帮助莎琉，太郎想出了划时代的方法：「让她开直播，变身美少女实况主建立自信」！\n　　闲聊、角色扮演、游戏实况、模拟约会……全部都要直播，让她习惯被注目！",
   "types": [
-    "校园/爱情"
+    "校园",
+    "爱情"
   ],
   "authors": "凪木エコ",
   "first_letter": "X",
-  "subscribe_num": 6056,
-  "redis_update_time": 1564310644,
+  "subscribe_num": 6058,
+  "redis_update_time": 1564342503,
   "volume": [
     {
       "id": 9419,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1525958232,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10002,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1552570411,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10003,
@@ -41,7 +42,173 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1552570577,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9419,
+      "id": 9419,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 85872,
+          "chapter_name": "转载信息",
+          "chapter_order": 4
+        },
+        {
+          "chapter_id": 85864,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85865,
+          "chapter_name": "1章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85866,
+          "chapter_name": "2章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85867,
+          "chapter_name": "3章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85868,
+          "chapter_name": "4章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85869,
+          "chapter_name": "5章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85870,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85871,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85873,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10002,
+      "id": 10002,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 94611,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94612,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94613,
+          "chapter_name": "1章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94614,
+          "chapter_name": "2章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94615,
+          "chapter_name": "3章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94616,
+          "chapter_name": "4章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94617,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94618,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 94649,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10003,
+      "id": 10003,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 94619,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94620,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94621,
+          "chapter_name": "1章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94622,
+          "chapter_name": "2章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94623,
+          "chapter_name": "3章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94624,
+          "chapter_name": "4章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94625,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94626,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 94650,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

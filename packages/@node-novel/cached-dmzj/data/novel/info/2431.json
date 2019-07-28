@@ -12,12 +12,13 @@
   "hot_hits": 52621,
   "introduction": "　　「用不著担心，已经储存好了」\n　　那是一间谣传『入住后就再也不会丧命』的旅社，今天仍有许多抱著一线希望，为了达到目的不惜赌上性命的人聚集到这里来。家族遭到夺取的贵族・萝蕾塔；被拋弃的魔族・莫琳，她们掌握到的『不死旅社』秘密究竟是——\n　　「这里是储存点。」\n　　经营这间旅社的人是一位封顶的冒险者亚雷克，他自称是从异世界来到这里，拥有『设置储存点的能力』。\n　　这里似乎是以协助初级冒险者为目的经营的旅社，她们在这个地方开始修行，但修行内容却完全无法预测……\n　　就算死了，只要重新读取就能一口气跳升好几级！附加价值是由最强退休冒险者进行新人培育，关于旅社的日常生活故事。",
   "types": [
-    "异界/穿越"
+    "异界",
+    "穿越"
   ],
   "authors": "稻荷龙",
   "first_letter": "K",
   "subscribe_num": 5758,
-  "redis_update_time": 1564308548,
+  "redis_update_time": 1564339573,
   "volume": [
     {
       "id": 9209,
@@ -25,7 +26,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1518092078,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9209,
+      "id": 9209,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 82716,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 82717,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 82718,
+          "chapter_name": "第一章 萝蕾塔的『花园』压制",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 82719,
+          "chapter_name": "第二章 莫琳的『宅邸』入侵",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 82720,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 82721,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,15 @@
   "hot_hits": 942273,
   "introduction": "随处可见的社会人士——大野晶（おおの　あきら）在自己运营的游戏内，以被称之为「魔王」角色的登陆状态下，转移到了异世界。 　他在这里遇到了一位右脚不便的小孩子，并一同启程旅行。然而「魔王」持有压倒性的力量，其他人不可能放任不管。 　他们被想要讨伐魔王的国家和圣女所盯上，这场引发的骚动最终都把整座王国卷入其中。 　这是一部外观上是魔王，可其内在是一般人的误会系幻想世界。",
   "types": [
-    "后宫/异界/穿越/冒险"
+    "后宫",
+    "异界",
+    "穿越",
+    "冒险"
   ],
   "authors": "神埼黑音",
   "first_letter": "C",
-  "subscribe_num": 33599,
-  "redis_update_time": 1564311519,
+  "subscribe_num": 33656,
+  "redis_update_time": 1564345336,
   "volume": [
     {
       "id": 9305,
@@ -25,7 +28,7 @@
       "volume_name": "web版第一章 魔王降临",
       "volume_order": 10,
       "addtime": 1521978757,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9306,
@@ -33,7 +36,7 @@
       "volume_name": "web版第二章 黄金圣女",
       "volume_order": 20,
       "addtime": 1521978912,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9307,
@@ -41,7 +44,7 @@
       "volume_name": "web版第三章 神都的动乱",
       "volume_order": 30,
       "addtime": 1521979263,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9308,
@@ -49,7 +52,7 @@
       "volume_name": "web版第四章 魔王的踊跃",
       "volume_order": 40,
       "addtime": 1521979593,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9309,
@@ -57,7 +60,404 @@
       "volume_name": "web版第五章 恋之迷宮",
       "volume_order": 50,
       "addtime": 1521980794,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9305,
+      "id": 9305,
+      "volume_name": "web版第一章 魔王降临",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 83888,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83889,
+          "chapter_name": "001 起始零時",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83890,
+          "chapter_name": "002 大森林",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83891,
+          "chapter_name": "003 魔王与悪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83892,
+          "chapter_name": "004 愿望祠堂",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83893,
+          "chapter_name": "005 魔王之戒",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9306,
+      "id": 9306,
+      "volume_name": "web版第二章 黄金圣女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 83894,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83895,
+          "chapter_name": "006 圣光国",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83896,
+          "chapter_name": "007 悄然接近之影",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83897,
+          "chapter_name": "008 圣女",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83898,
+          "chapter_name": "009 异世界的城镇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83899,
+          "chapter_name": "010 大小姐的恶",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83900,
+          "chapter_name": "011 金色之露娜",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83901,
+          "chapter_name": "012 三人的夜晚",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83902,
+          "chapter_name": "013 琪菈古依",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 83903,
+          "chapter_name": "014 恶魔信奉者",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 83904,
+          "chapter_name": "015 龙人",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 83905,
+          "chapter_name": "016 启程",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 83906,
+          "chapter_name": "017 前往神都",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 9307,
+      "id": 9307,
+      "volume_name": "web版第三章 神都的动乱",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 83907,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83908,
+          "chapter_name": "018 魔王军开始行动",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83909,
+          "chapter_name": "019 桐野 悠",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83910,
+          "chapter_name": "020 神之手",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83911,
+          "chapter_name": "021 冒险者们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83912,
+          "chapter_name": "022 无情的侵略",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83913,
+          "chapter_name": "023 毫无慈悲的侵略",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83914,
+          "chapter_name": "024 神圣之国",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83915,
+          "chapter_name": "025 晚餐会",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 83916,
+          "chapter_name": "026 暴乱的征兆",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 83917,
+          "chapter_name": "027 魔王的冰山一角",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 83918,
+          "chapter_name": "028 恶魔VS魔王",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 83919,
+          "chapter_name": "029 童话游戏",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 83920,
+          "chapter_name": "030 前往圣城",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 83921,
+          "chapter_name": "031 正义汉子",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 83922,
+          "chapter_name": "032 孤注一掷",
+          "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 9308,
+      "id": 9308,
+      "volume_name": "web版第四章 魔王的踊跃",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 83923,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83924,
+          "chapter_name": "033 与圣女的交谈",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83925,
+          "chapter_name": "034 会谈的内侧",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83926,
+          "chapter_name": "035 魔人达",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83927,
+          "chapter_name": "036 最初的一步",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83928,
+          "chapter_name": "037 野战病院",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83929,
+          "chapter_name": "038 温泉旅馆",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83930,
+          "chapter_name": "039 起舞的欺诈师与大金币",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83931,
+          "chapter_name": "040 POKER FACE",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 83932,
+          "chapter_name": "041 田原 勇",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 83933,
+          "chapter_name": "042 逐渐改变的村庄",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 83934,
+          "chapter_name": "043 各自的夜晚",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 83935,
+          "chapter_name": "044 玛妲穆来访",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 83936,
+          "chapter_name": "045 玛妲穆，前往温泉旅馆",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 83937,
+          "chapter_name": "046 玛妲穆，吼叫道",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 83938,
+          "chapter_name": "047 魔王的鬼谋",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 83939,
+          "chapter_name": "048 适合率20%",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 83940,
+          "chapter_name": "049 雪风，袭来",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 83941,
+          "chapter_name": "050 担负沉重职责的人们",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 83942,
+          "chapter_name": "051 白天使与魔王大人",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 83943,
+          "chapter_name": "052 温泉中的死斗",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 83944,
+          "chapter_name": "053 前往北方",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 83946,
+          "chapter_name": "53.5 记录 于某间聊天室",
+          "chapter_order": 230
+        }
+      ]
+    },
+    {
+      "volume_id": 9309,
+      "id": 9309,
+      "volume_name": "web版第五章 恋之迷宮",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 83945,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83947,
+          "chapter_name": "054 大帝国与异世界",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83948,
+          "chapter_name": "055 路奇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83949,
+          "chapter_name": "056 前夜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83954,
+          "chapter_name": "057 监狱迷宫 一阶层",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83955,
+          "chapter_name": "058 鬼之轰动与拉比村",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83956,
+          "chapter_name": "059 田原的视察",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83957,
+          "chapter_name": "060 亲信们",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83958,
+          "chapter_name": "061 监狱迷宫五阶层 七阶层",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 83959,
+          "chapter_name": "062 白光",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 83960,
+          "chapter_name": "063 魔王的行进",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 83961,
+          "chapter_name": "064 无情的行进",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 83962,
+          "chapter_name": "065 监狱迷宫 十二阶层～十五阶层",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

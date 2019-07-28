@@ -17,7 +17,7 @@
   "authors": "森博嗣",
   "first_letter": "T",
   "subscribe_num": 1710,
-  "redis_update_time": 1564287469,
+  "redis_update_time": 1564332783,
   "volume": [
     {
       "id": 9181,
@@ -25,7 +25,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1516785789,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9181,
+      "id": 9181,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 82306,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 82307,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 82308,
+          "chapter_name": "第1章 绝望的机关 Hopeless engine",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 82309,
+          "chapter_name": "第2章 希望的机关 Wishful engine",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 82310,
+          "chapter_name": "第3章 愿望的机关 Desirable engine",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 82311,
+          "chapter_name": "第4章 展望的机关 Observational engine",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 82312,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "周藤莲",
   "first_letter": "D",
-  "subscribe_num": 18513,
-  "redis_update_time": 1564310796,
+  "subscribe_num": 18517,
+  "redis_update_time": 1564348036,
   "volume": [
     {
       "id": 8615,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1492533900,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9562,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1531498226,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10110,
@@ -41,7 +41,168 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1557840534,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8615,
+      "id": 8615,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 74021,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 74022,
+          "chapter_name": "序 赌博师三戒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 74023,
+          "chapter_name": "第一章 南国之海不会降雪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 74024,
+          "chapter_name": "第二章 无论生前身后，人都逃不出寂寞二字",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 74025,
+          "chapter_name": "第三章 常伴与身的灰尘与祈祷",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 74026,
+          "chapter_name": "第四章 神不会摇骰子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 74027,
+          "chapter_name": "终 犹豫时应当做出的某个选择",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 74028,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 74176,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9562,
+      "id": 9562,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 88063,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 88064,
+          "chapter_name": "序 循件与时间",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 88065,
+          "chapter_name": "一 无主地",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 88066,
+          "chapter_name": "二 赌博师不求胜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 88067,
+          "chapter_name": "三 傲慢与偏见",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 88068,
+          "chapter_name": "四 致命宣言",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 88069,
+          "chapter_name": "终 信件与时间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 88070,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 88084,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10110,
+      "id": 10110,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 96045,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 96046,
+          "chapter_name": "序 趁处境安泰小憩片刻",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 96047,
+          "chapter_name": "一 如此幸福的所在",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 96048,
+          "chapter_name": "二 巴斯之王",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 96049,
+          "chapter_name": "三 美好过头的不美好愿景",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 96050,
+          "chapter_name": "四 每个人都嘶喊为了爱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 96051,
+          "chapter_name": "终 处境安泰却辗转难眠",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 96052,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 96053,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

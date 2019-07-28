@@ -12,12 +12,13 @@
   "hot_hits": 121733,
   "introduction": "　　战女神曾经拯救过这个世界，其尊容既美丽又梦幻，看起来楚楚可怜却强大无比，宛如绽放于战场上的一朵鲜花——随著岁月流逝，在魔王已经遭到封印的现代，有一群继承了昔日女神之力的少女们，世人尊称她们为『舞姬』。\n　　受大国包夹、随时可能遭到占领的弱小国家，其新任国王•阿尔诺 于守城战结束回归之际，义姊•瑟希莉亚忽然告知，他要分别与两个邻国的舞姬——夏蓉与蕾丝菲娜进行为期一个月的相亲。阿尔诺亚除了对相亲不感兴趣之外，更对政治联姻这种事嗤之以鼻，但身为一国之君，最终也只能迎接新娘候选人进入城内。于约定之日当天，他前往城门迎接第一位舞姬时，却在阴错阳差之下导致两位新娘候选人同时进城……！？",
   "types": [
-    "魔法/后宫"
+    "魔法",
+    "后宫"
   ],
   "authors": "岸根红华",
   "first_letter": "Z",
-  "subscribe_num": 10758,
-  "redis_update_time": 1564312220,
+  "subscribe_num": 10760,
+  "redis_update_time": 1564333211,
   "volume": [
     {
       "id": 8457,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 战华公主不容受辱",
       "volume_order": 10,
       "addtime": 1485431490,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8725,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 冰华公主不再歌唱",
       "volume_order": 20,
       "addtime": 1496829671,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8906,
@@ -41,7 +42,173 @@
       "volume_name": "第三卷 双华公主不再纠结",
       "volume_order": 30,
       "addtime": 1502871703,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8457,
+      "id": 8457,
+      "volume_name": "第一卷 战华公主不容受辱",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 71353,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 71354,
+          "chapter_name": "序曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71355,
+          "chapter_name": "第一章 两位新娘",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 71356,
+          "chapter_name": "第二章 来访者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71357,
+          "chapter_name": "第三章 梦想与失望",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 71358,
+          "chapter_name": "第四章 新娘候选人的舞姬们",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 71359,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 71360,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 71361,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8725,
+      "id": 8725,
+      "volume_name": "第二卷 冰华公主不再歌唱",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 76094,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 76095,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 76096,
+          "chapter_name": "第一章 各自的想法",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 76097,
+          "chapter_name": "第二章 爱香缇的年轻国王",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 76098,
+          "chapter_name": "第三章 两人旅行",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 76099,
+          "chapter_name": "第四章 魔王VS舞姬",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 76100,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 76101,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 76102,
+          "chapter_name": "『舞姬的烦恼』特典小册子",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 76103,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8906,
+      "id": 8906,
+      "volume_name": "第三卷 双华公主不再纠结",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 78712,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78713,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78714,
+          "chapter_name": "第一章 来访者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78715,
+          "chapter_name": "第二章 混沌的离别",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78716,
+          "chapter_name": "第三章 平原上的决战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78717,
+          "chapter_name": "第四章 终结！然后……",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 78718,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 78719,
+          "chapter_name": "『舞姬的秘密』特典小册子",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 78720,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

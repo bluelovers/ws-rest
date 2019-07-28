@@ -16,8 +16,8 @@
   ],
   "authors": "岬鹭宫",
   "first_letter": "S",
-  "subscribe_num": 18191,
-  "redis_update_time": 1564309783,
+  "subscribe_num": 18198,
+  "redis_update_time": 1564341915,
   "volume": [
     {
       "id": 9852,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1545729080,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9956,
@@ -33,7 +33,120 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1550309152,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9852,
+      "id": 9852,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 92242,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 92256,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 92257,
+          "chapter_name": "第一章 或是，我们的现代性自我",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 92347,
+          "chapter_name": "第二章 倾听泡沫之歌",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 92354,
+          "chapter_name": "第三章 唇间银河",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 92450,
+          "chapter_name": "第四章 芒中弃镜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 92772,
+          "chapter_name": "第五章 放学后带我走吧",
+          "chapter_order": 66
+        },
+        {
+          "chapter_id": 92768,
+          "chapter_name": "终章 二分之一的吻",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 92769,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 92771,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9956,
+      "id": 9956,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 93989,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 93990,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 93991,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 93992,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 93993,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94245,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94246,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94247,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 94248,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

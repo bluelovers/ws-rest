@@ -12,12 +12,13 @@
   "hot_hits": 20188,
   "introduction": "　　「──我答应你，成为女王。\n　　我想建立一个富裕到多余、可以尽情浪费的国家。」\n　　「那么成功之后我会做出成山的烤蛋白霜饼给你当奖励，\n　　附上玫瑰色的香槟。」\n　　历经革命和革命后的混乱，法洛利亚王国终于恢复和平。\n　　王都巴黎榭一隅，剧作家奥古斯特偶然发现一家小小的甜点烘焙坊。\n　　在充满迷人甜点的烘焙坊中，不爱理人的银发老板总显得格格不入，\n　　奥古斯特不禁怀疑起他的真实身分……原来在动乱中以「将军的银色猎犬」之名轰动一\n　　时的英雄，如今竟成为大为活跃的女王御用甜点师？\n　　描写日后被尊称为「甜点之圣」的青年传奇的一生，\n　　甜腻的奇幻历史故事上下集隆重登场！",
   "types": [
-    "奇幻/历史"
+    "奇幻",
+    "历史"
   ],
   "authors": "野村美月",
   "first_letter": "N",
-  "subscribe_num": 4850,
-  "redis_update_time": 1564309773,
+  "subscribe_num": 4851,
+  "redis_update_time": 1564338452,
   "volume": [
     {
       "id": 9988,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 上",
       "volume_order": 10,
       "addtime": 1551883898,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10024,
@@ -33,7 +34,110 @@
       "volume_name": "第二卷 下",
       "volume_order": 20,
       "addtime": 1553694971,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9988,
+      "id": 9988,
+      "volume_name": "第一卷 上",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 94461,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94462,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94463,
+          "chapter_name": "第一话 银发甜点师",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94464,
+          "chapter_name": "第二话 甜点师成为巫师的经过──双马尾少女口中莫名其妙的小故事",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94465,
+          "chapter_name": "第三话 关于剧作家和修女的神圣之爱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94466,
+          "chapter_name": "第四话 士兵阿尔尚和罗格莎娜公主原来是夫妻？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94467,
+          "chapter_name": "终章 时至今日",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94468,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 94885,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10024,
+      "id": 10024,
+      "volume_name": "第二卷 下",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 94878,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94879,
+          "chapter_name": "第五话 甜点师与伯爵千金不容于世的恋情及其真相",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94880,
+          "chapter_name": "第六话 讨厌浪费的将军阁下与甜点师之间的轶事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94881,
+          "chapter_name": "第七话 其实长舌剧作家只是想听寡言甜点师亲切地叫自己的名字",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94882,
+          "chapter_name": "第八话 克莱依斯勒会议上大为活跃的甜点师",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94883,
+          "chapter_name": "罗格莎娜女王与阿尔尚之间的信赖关系终生不曾改变。",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94884,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94886,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

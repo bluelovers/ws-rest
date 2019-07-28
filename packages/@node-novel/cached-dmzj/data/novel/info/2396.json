@@ -12,12 +12,13 @@
   "hot_hits": 13732,
   "introduction": "　　东京、神奈川、千叶──这里是毁坏〈世界〉的最前线。\n　　约三十年前，神秘异形生物UNKNOWN忽然侵袭地球。人类发动总战力对抗，好不容易取得胜利，然而如今仍为了零星的进攻所苦。\n　　东京、神奈川、千叶等各防卫都市里，拥有特殊能力〈世界〉的少年少女们持续与UNKNOWN奋战。包括高傲的东京首席朱雀壹弥与次席宇多良卡娜莉亚、少一根筋但是力量过人的神奈川首席天河舞姬与次席凛堂萤，以及总是我行我素的千叶首席千种明日叶与她的哥哥霞。在战争俨然成了家常便饭的世界里，朱雀他们不时相互冲突，又不时合作，然而这个世界里隐藏了巨大的秘密……\n　　TV动画放映中的「Qualidea Code 心灵代码」轻小说化作品，第一集登场！",
   "types": [
-    "校园/冒险"
+    "校园",
+    "冒险"
   ],
   "authors": "渡航",
   "first_letter": "Q",
-  "subscribe_num": 6450,
-  "redis_update_time": 1564311454,
+  "subscribe_num": 6452,
+  "redis_update_time": 1564347664,
   "volume": [
     {
       "id": 9060,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1509708753,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9770,
@@ -33,7 +34,95 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1541487277,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9060,
+      "id": 9060,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 80554,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80555,
+          "chapter_name": "＃00 序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80556,
+          "chapter_name": "＃01 残存世界的荣耀",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80557,
+          "chapter_name": "＃02 靛蓝的讽刺画",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80558,
+          "chapter_name": "＃03 寂静的独唱曲",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80559,
+          "chapter_name": "＃04 矿坑里的金丝雀",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 80560,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 9770,
+      "id": 9770,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 91052,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 91053,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 91054,
+          "chapter_name": "＃05 小公主的徽章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 91055,
+          "chapter_name": "＃06 救世的回忆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 91056,
+          "chapter_name": "＃07 拯救的偏执症",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 91057,
+          "chapter_name": "＃08 反转的感质",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 91058,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

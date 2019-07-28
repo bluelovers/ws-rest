@@ -12,12 +12,13 @@
   "hot_hits": 65681,
   "introduction": "翼龙（Wyvern）、蛇鸡（Basilisk）、人鱼（Mermaid）、猫妖（Cait Sith）……这些生物乃是『幻兽』，即『拥有独立生态系统，不能列于常规食物链中，拥有超自然力量的生物』。『幻兽调查员』乃得到国家认定，对『幻兽』的生态系统进行调查并向国家汇报，以及对兽害进行处理的自主型专家。\n年纪轻轻便当上调查员的菲莉，与神秘幻兽克俢那以及『试管小人』的蝙蝠特洛一起，为了解决人与幻兽之间发生的各种问题，同时也为了完成世界唯一的幻兽书，今天也在继续旅行。\n这是个时而愉快，时而残酷，时而令人宽慰的，人与幻兽谱写的的故事。",
   "types": [
-    "冒险/异界"
+    "冒险",
+    "异界"
   ],
   "authors": "绫里惠史",
   "first_letter": "H",
   "subscribe_num": 5177,
-  "redis_update_time": 1564310683,
+  "redis_update_time": 1564335309,
   "volume": [
     {
       "id": 7951,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1467481011,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8878,
@@ -33,7 +34,240 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1502107534,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7951,
+      "id": 7951,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 63347,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63348,
+          "chapter_name": "黑暗之王的故事 1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63349,
+          "chapter_name": "第1话 翼龙与女孩",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63350,
+          "chapter_name": "黑暗之王的故事 2",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63351,
+          "chapter_name": "第2话 蛇鸡的蛋",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63352,
+          "chapter_name": "黑暗之王的故事 3",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63353,
+          "chapter_name": "第3话 人鱼",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63354,
+          "chapter_name": "黑暗之王的故事 4",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 63355,
+          "chapter_name": "第4话 妖精猫的猫审判",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 63356,
+          "chapter_name": "黑暗之王的故事 5",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 63357,
+          "chapter_name": "第5话 水中栖息的马",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 63358,
+          "chapter_name": "黑暗之王的故事 6",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 63359,
+          "chapter_name": "第6话 儿童房中的妖精（Bogies）",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 63360,
+          "chapter_name": "黑暗之王的故事 7",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 63361,
+          "chapter_name": "第7话 人狼（Lycanthrope）",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 63362,
+          "chapter_name": "黑暗之王的故事 8",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 63363,
+          "chapter_name": "第0话 旧龙的疯狂",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 63364,
+          "chapter_name": "黑暗之王的故事 9",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 63365,
+          "chapter_name": "夏夜之梦",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 63366,
+          "chapter_name": "后记",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 63367,
+          "chapter_name": "番外 对『黑暗之王』的等待 1",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 63368,
+          "chapter_name": "番外 对『黑暗之王』的等待 2",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 63369,
+          "chapter_name": "插图",
+          "chapter_order": 230
+        }
+      ]
+    },
+    {
+      "volume_id": 8878,
+      "id": 8878,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 78166,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78167,
+          "chapter_name": "【丑陋的怪物与美丽的女王的故事 1】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78178,
+          "chapter_name": "【第1话 恶龙与毒姬】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78179,
+          "chapter_name": "【丑陋的怪物与美丽的女王的故事 2】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78180,
+          "chapter_name": "【第2话 独眼巨人的酒宴】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78183,
+          "chapter_name": "【丑陋的怪物与美丽的女王的故事 3】",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 78184,
+          "chapter_name": "【第3话 海豹少女】",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 78185,
+          "chapter_name": "【丑陋的怪物与美丽的女王的故事 4】",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 78186,
+          "chapter_name": "【第4话 被妖精囚禁之人】",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 78187,
+          "chapter_name": "【丑陋的怪物与美丽的女王的故事 5】",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 78188,
+          "chapter_name": "【第5话 狮鹫与纳克拉维】",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 78189,
+          "chapter_name": "【丑陋的怪物与美丽的女王的故事 6】",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 78190,
+          "chapter_name": "【第6话 粮库的妖精】",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 78191,
+          "chapter_name": "【丑陋的怪物与美丽的女王的故事 7】",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 78192,
+          "chapter_name": "【第7话 九头蛇】",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 78193,
+          "chapter_name": "【勇者与世界之敌的故事】",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 78194,
+          "chapter_name": "【觉得自己是丑陋怪物的勇者，与美丽的火之女王的故事】",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 78195,
+          "chapter_name": "【黑暗之王与白色少女的故事】",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 78196,
+          "chapter_name": "后记",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 78197,
+          "chapter_name": "插画",
+          "chapter_order": 200
+        }
+      ]
     }
   ]
 }

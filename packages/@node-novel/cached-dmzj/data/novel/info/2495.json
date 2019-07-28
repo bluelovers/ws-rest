@@ -17,7 +17,7 @@
   "authors": "入间人间",
   "first_letter": "L",
   "subscribe_num": 6669,
-  "redis_update_time": 1564311785,
+  "redis_update_time": 1564343844,
   "volume": [
     {
       "id": 9452,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1527417625,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9658,
@@ -33,7 +33,125 @@
       "volume_name": "第二卷 另一名魔女",
       "volume_order": 20,
       "addtime": 1535801486,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9452,
+      "id": 9452,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 86424,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86425,
+          "chapter_name": "死人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86426,
+          "chapter_name": "死人死人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86427,
+          "chapter_name": "死人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86428,
+          "chapter_name": "七里",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86429,
+          "chapter_name": "死人死人死人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86682,
+          "chapter_name": "和田冢",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 86683,
+          "chapter_name": "死人死人死人死人",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 86684,
+          "chapter_name": "死人死人死人死人死人",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 86685,
+          "chapter_name": "死人死人死人死人死人死人",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 86686,
+          "chapter_name": "藤泽",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9658,
+      "id": 9658,
+      "volume_name": "第二卷 另一名魔女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 89339,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89340,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89341,
+          "chapter_name": "藤沢①",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89342,
+          "chapter_name": "藤沢②",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89343,
+          "chapter_name": "魔女①",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89344,
+          "chapter_name": "魔女②",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89345,
+          "chapter_name": "她许下的愿望",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89346,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 89347,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,15 @@
   "hot_hits": 229962,
   "introduction": "某日的授课中，中学生的武田武雄消失在了突然出现的光中。 \n光停止时，武雄所在的地方不是日本——不，是连地球都不是的世界。 \n在一无所知的世界，武雄被强迫过着成为奴隶的困苦生活。 \n可是，与不可替代的人们邂逅，他的人生改变了。 \n不久武雄从奴隶成为了奴隶商人。此外还有一个，他得到了穿越异世界间的力量。 \n凭借这个异能，武雄将作为奴隶商人拯救奴隶们。",
   "types": [
-    "魔法/冒险/异界/穿越"
+    "魔法",
+    "冒险",
+    "异界",
+    "穿越"
   ],
   "authors": "ルンパルンパ",
   "first_letter": "C",
-  "subscribe_num": 15198,
-  "redis_update_time": 1564310745,
+  "subscribe_num": 15201,
+  "redis_update_time": 1564356407,
   "volume": [
     {
       "id": 8340,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1481107979,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8900,
@@ -33,7 +36,125 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1502629812,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8340,
+      "id": 8340,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 69590,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69591,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69592,
+          "chapter_name": "第一章 精灵的少女莉莉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69593,
+          "chapter_name": "第二章 成为奴隶商人之前的故事 1",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69594,
+          "chapter_name": "第三章 成为奴隶商人之前的故事 2",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69646,
+          "chapter_name": "第四章 牢狱都市阿尔卡特",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 69770,
+          "chapter_name": "第五章 另一位转移者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 69771,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 69772,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 69852,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8900,
+      "id": 8900,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 78655,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78656,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78657,
+          "chapter_name": "第一章 未来的探索者们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78658,
+          "chapter_name": "第二章 蚁之袋",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78659,
+          "chapter_name": "第三章 高崎纱香",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78660,
+          "chapter_name": "第四章 成为奴隶商人之前的故事 3",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 78661,
+          "chapter_name": "第五章 去向",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 78662,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 78663,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 78665,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,7 @@
   "authors": "一石月下",
   "first_letter": "J",
   "subscribe_num": 1557,
-  "redis_update_time": 1564299833,
+  "redis_update_time": 1564314854,
   "volume": [
     {
       "id": 9488,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1528340770,
-      "sum_chapters": 3
+      "sum_chapters": 9
     },
     {
       "id": 9489,
@@ -33,7 +33,100 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1528341003,
-      "sum_chapters": 3
+      "sum_chapters": 9
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9488,
+      "id": 9488,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 86873,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86874,
+          "chapter_name": "序章 落花之梦",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86875,
+          "chapter_name": "第一章 打草惊蛇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86876,
+          "chapter_name": "第二章 落春之雪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86877,
+          "chapter_name": "第三章 舞娘之梦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86878,
+          "chapter_name": "终章 再续前梦",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86879,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 9489,
+      "id": 9489,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 86880,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86881,
+          "chapter_name": "序章 梅雨的忧愁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86882,
+          "chapter_name": "第一章 你的希冀与我的遗憾",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86883,
+          "chapter_name": "第二章 初夏的幻影",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86884,
+          "chapter_name": "第三章 万花筒迷宫",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86885,
+          "chapter_name": "终章 祭典的那夜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86886,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 86887,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

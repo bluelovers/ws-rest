@@ -12,12 +12,13 @@
   "hot_hits": 32303,
   "introduction": "那是，某个星期日。\n\n——\n\n好不容易是个晴朗的休息日，但因为父母说今天有重要的事情，所以我那里也去不了，只好和爸爸一起静静地看着电视，打发着时间。",
   "types": [
-    "校园/百合"
+    "校园",
+    "百合"
   ],
   "authors": "本知そら",
   "first_letter": "A",
-  "subscribe_num": 2883,
-  "redis_update_time": 1564312209,
+  "subscribe_num": 2886,
+  "redis_update_time": 1564340115,
   "volume": [
     {
       "id": 7972,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1468418215,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7972,
+      "id": 7972,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 63757,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63758,
+          "chapter_name": "序曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63759,
+          "chapter_name": "前篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63760,
+          "chapter_name": "后篇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63761,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63762,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63756,
+          "chapter_name": "插图",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

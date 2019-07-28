@@ -12,12 +12,13 @@
   "hot_hits": 67463,
   "introduction": "物语系列第四季内容，前接《续·终物语》，包含《愚物语》、《业物语》、《抚物语》、《结物语》四卷内容。",
   "types": [
-    "爱情/奇幻"
+    "爱情",
+    "奇幻"
   ],
   "authors": "西尾维新",
   "first_letter": "W",
-  "subscribe_num": 12108,
-  "redis_update_time": 1564312643,
+  "subscribe_num": 12113,
+  "redis_update_time": 1564343788,
   "volume": [
     {
       "id": 8919,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 愚物语",
       "volume_order": 10,
       "addtime": 1503393798,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8920,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 业物语",
       "volume_order": 20,
       "addtime": 1503394030,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8921,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷 抚物语",
       "volume_order": 30,
       "addtime": 1503394295,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8922,
@@ -49,7 +50,131 @@
       "volume_name": "第四卷 结物语",
       "volume_order": 40,
       "addtime": 1503394500,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8919,
+      "id": 8919,
+      "volume_name": "第一卷 愚物语",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 78865,
+          "chapter_name": "第零话 育Fiasco",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78866,
+          "chapter_name": "第零话 骏河Bonehead",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78867,
+          "chapter_name": "第零话 月火Undo",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 8920,
+      "id": 8920,
+      "volume_name": "第二卷 业物语",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 78868,
+          "chapter_name": "残酷童话 美丽公主",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78869,
+          "chapter_name": "第零话 雅赛萝拉请多吃点",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78870,
+          "chapter_name": "第零话 火怜逢我",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78871,
+          "chapter_name": "第零话 翼睡眠",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78872,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 8921,
+      "id": 8921,
+      "volume_name": "第三卷 抚物语",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 78873,
+          "chapter_name": "第零话 抚子DRAW 001-008",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78874,
+          "chapter_name": "第零话 抚子DRAW 009-016",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78875,
+          "chapter_name": "第零话 抚子DRAW 017-024",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78876,
+          "chapter_name": "第零话 抚子DRAW 025-031",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78877,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 8922,
+      "id": 8922,
+      "volume_name": "第四卷 结物语",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 78878,
+          "chapter_name": "第一话 全歌·人鱼",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78879,
+          "chapter_name": "第二话 临·石人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78880,
+          "chapter_name": "第三话 美留·狼人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78881,
+          "chapter_name": "第四话 葛·人类",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78882,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

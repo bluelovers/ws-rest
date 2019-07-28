@@ -12,12 +12,14 @@
   "hot_hits": 630693,
   "introduction": "你知道这个世界是如何终结的吗？\n成为英雄并且打倒72魔王。<地牢进攻>，作为毫无疑问的最困难的策略类游戏而闻名。\n我曾经作为“英雄”通关了这款游戏，然而在回答了一个可疑的问答后，我发现我自己竟然身处于这个游戏之中，并且成为了其中最弱的一个魔王，【但他林】。\n而我所能利用的，只有我雄辩的口才以及曾经作为英雄通关的记忆。\n为了作为但他林在这个世界里存活下去，我誓要在这个世界掀起腥风血雨。",
   "types": [
-    "异界/穿越/冒险"
+    "异界",
+    "穿越",
+    "冒险"
   ],
   "authors": "유헌화",
   "first_letter": "D",
-  "subscribe_num": 22129,
-  "redis_update_time": 1564312012,
+  "subscribe_num": 22130,
+  "redis_update_time": 1564346409,
   "volume": [
     {
       "id": 8751,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1497717217,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8853,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1500863501,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8854,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1500864633,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9167,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1516016545,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9664,
@@ -57,7 +59,304 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1536074705,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8751,
+      "id": 8751,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 76541,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 76548,
+          "chapter_name": "人物+能力介紹",
+          "chapter_order": 11
+        },
+        {
+          "chapter_id": 76542,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 76543,
+          "chapter_name": "第一章 2年前",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 76549,
+          "chapter_name": "第二章 恶魔登场",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 76554,
+          "chapter_name": "第三章 不可名状的疾病",
+          "chapter_order": 44
+        },
+        {
+          "chapter_id": 76550,
+          "chapter_name": "第四章 浪漫的欺骗战术",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 76551,
+          "chapter_name": "第五章 最奢侈的幽默剧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 76552,
+          "chapter_name": "幕间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 76553,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 76555,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8853,
+      "id": 8853,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 77771,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77776,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77773,
+          "chapter_name": "第一章 熟络的好友们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77774,
+          "chapter_name": "第二章 猎猴的伦理观",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77775,
+          "chapter_name": "第三章 非道的礼赞歌",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77777,
+          "chapter_name": "第四章 巴洛克式真心话大冒险",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77778,
+          "chapter_name": "幕间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77779,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77780,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8854,
+      "id": 8854,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 77781,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77782,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77783,
+          "chapter_name": "第一章 无言的倾诉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77784,
+          "chapter_name": "第二章 寒冬",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77785,
+          "chapter_name": "第三章 燃烧的山脈",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77786,
+          "chapter_name": "第四章 战场的浓雾",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77787,
+          "chapter_name": "第五章 无声的言语",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77788,
+          "chapter_name": "第六章 所谓魔王",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77789,
+          "chapter_name": "幕间",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 77790,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 77791,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9167,
+      "id": 9167,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 82039,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 82040,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 82041,
+          "chapter_name": "Chapter 1 – The Season that is not Mine〈并非吾等的季节〉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 82042,
+          "chapter_name": "Chapter 2 – Thou Come to Me〈卿缓步而至〉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 82043,
+          "chapter_name": "Chapter 3 – The Day Cherry Blossoms Fall〈樱花吹雪之日〉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 82044,
+          "chapter_name": "Chapter 4 – The Courier who knows theAddress of Hell〈知晓地狱的引路人〉",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 82045,
+          "chapter_name": "Chapter 5 – Cadenza〈华彩乐章〉",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 82046,
+          "chapter_name": "幕间",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 82047,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 82049,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9664,
+      "id": 9664,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 89423,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89424,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89425,
+          "chapter_name": "第一章 黑暗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89426,
+          "chapter_name": "第二章 出狱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89437,
+          "chapter_name": "第三章 地狱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89428,
+          "chapter_name": "第四章 希望",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89429,
+          "chapter_name": "间章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89430,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 89509,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 89510,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

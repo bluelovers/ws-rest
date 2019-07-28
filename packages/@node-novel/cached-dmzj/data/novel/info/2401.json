@@ -12,12 +12,13 @@
   "hot_hits": 153514,
   "introduction": "世界随机出现名为〈默示录之兽〉的怪物，导致人类陷入灭绝危机。人类在对抗怪物的这两百年来，多亏继承力量的『英雄』才得以存活。在英雄定律下，现任英雄·修伊确定将在一个月后丧命。明明已经来日不多，无气力的他挑选出来的徒弟，竟是柔弱的美少女精灵奴隶·菲欧。修伊完全不在意旁人的眼光，甚至从没认真锻炼过徒弟……？「那个，请问您为何要躺在我的大腿上？」「难得买来一名奴隶，总是会想做这种事嘛。」……背负全世界的英雄继承人，未来究竟会如何发展！？最轻率的英雄谭就此开演！",
   "types": [
-    "异界/冒险"
+    "异界",
+    "冒险"
   ],
   "authors": "秋月煌介",
   "first_letter": "C",
-  "subscribe_num": 14977,
-  "redis_update_time": 1564312641,
+  "subscribe_num": 14978,
+  "redis_update_time": 1564344089,
   "volume": [
     {
       "id": 9075,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 将奴隶精灵打造成英雄！",
       "volume_order": 10,
       "addtime": 1510646530,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9701,
@@ -33,7 +34,120 @@
       "volume_name": "第二卷 英雄精灵培育两名弟子！",
       "volume_order": 20,
       "addtime": 1538005266,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9075,
+      "id": 9075,
+      "volume_name": "第一卷 将奴隶精灵打造成英雄！",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 80926,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80927,
+          "chapter_name": "第一章 英雄与奴隶",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80928,
+          "chapter_name": "第二章 前线都市",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80929,
+          "chapter_name": "第三章 英灵祭",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80930,
+          "chapter_name": "第四章 保卫战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80931,
+          "chapter_name": "Next Prologue",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 80932,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 80933,
+          "chapter_name": "特典一",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 80934,
+          "chapter_name": "特典二",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9701,
+      "id": 9701,
+      "volume_name": "第二卷 英雄精灵培育两名弟子！",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 89976,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89977,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89978,
+          "chapter_name": "第一章 英雄师徒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89979,
+          "chapter_name": "第二章 短暂的休息",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89980,
+          "chapter_name": "第三章 不安宁的森林",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89981,
+          "chapter_name": "第四章 城郭都市",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89982,
+          "chapter_name": "Next Prologue",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89983,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 89984,
+          "chapter_name": "特典『所谓的英雄』",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 89985,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

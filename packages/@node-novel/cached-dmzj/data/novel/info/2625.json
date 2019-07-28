@@ -12,12 +12,13 @@
   "hot_hits": 28926,
   "introduction": "春天。名门金伯利魔法学校，今年也有新入学的学生。身缠黑色斗篷，腰间佩戴着白杖与杖剑，心中秘藏着荣耀与使命。迎接这样将要成为魔法使的“蛋”们的，是樱花飞舞的满开街道与魔法生物们的游行。\n然而，希望雀跃的时间是短暂的，金伯利孕育的大量威胁也将向他们袭来。时而吞没学生的地下迷宫、怪物一般的高年级学生们、围绕亚人种人权产生对立的派阀——\n在这样的魔境中与同伴一起生存的过程中，奥利弗与一名少女结下了缘分。腰间挂着日本刀的武士少女——奈奈绪。\n围绕两人魔剑的故事，开始了。",
   "types": [
-    "冒险/魔法"
+    "冒险",
+    "魔法"
   ],
   "authors": "宇野朴人",
   "first_letter": "J",
-  "subscribe_num": 12018,
-  "redis_update_time": 1564311406,
+  "subscribe_num": 12058,
+  "redis_update_time": 1564342463,
   "volume": [
     {
       "id": 9974,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1551443202,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9991,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1552049380,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10246,
@@ -41,7 +42,133 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1564139412,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9974,
+      "id": 9974,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 94265,
+          "chapter_name": "转载信息",
+          "chapter_order": 1
+        },
+        {
+          "chapter_id": 94258,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94259,
+          "chapter_name": "第一章 入学式",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94260,
+          "chapter_name": "第二章 魔法剑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94261,
+          "chapter_name": "第三章 圆形斗技场",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94262,
+          "chapter_name": "第四章 蛇眼",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94263,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94266,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98260,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 9991,
+      "id": 9991,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 94497,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94498,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 96321,
+          "chapter_name": "第二章 迷宫探索",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 96322,
+          "chapter_name": "第三章 三对三",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 96323,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 96324,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 10246,
+      "id": 10246,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 98261,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98262,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98263,
+          "chapter_name": "第一章 生还率",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98264,
+          "chapter_name": "第二章 繁盛之森",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98265,
+          "chapter_name": "第三章 淫魔的末裔",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

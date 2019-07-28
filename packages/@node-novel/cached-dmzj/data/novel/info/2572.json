@@ -12,12 +12,13 @@
   "hot_hits": 75206,
   "introduction": "转生到异世界的少年亚尔姆斯。当他在森林里彷徨时，神兽葛里芬出现在面前，强硬地将他带往住处。而且葛里芬还单方面做出「你必须在三年内独立自主」这样的宣告。无可奈何之下，亚尔姆斯只能活用前世的知识开始栽培农作物。有时还得跟邻国的国王或大臣进行交涉，同时也开始跟住处里的孩子们一起建立村落。然而另一方面，这时却出现想要夺取亚尔姆斯他们已经发展起来的村子，于是开始发动侵略的国家……！被后世称呼为「神帝」的男子的英雄谭，就此开幕！",
   "types": [
-    "异界/穿越"
+    "异界",
+    "穿越"
   ],
   "authors": "樱木樱",
   "first_letter": "Y",
-  "subscribe_num": 7578,
-  "redis_update_time": 1564311797,
+  "subscribe_num": 7581,
+  "redis_update_time": 1564339005,
   "volume": [
     {
       "id": 9756,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1540738349,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9915,
@@ -33,7 +34,100 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1548226102,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9756,
+      "id": 9756,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 90683,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 90684,
+          "chapter_name": "第一章 葛里芬与禁忌之森",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 90685,
+          "chapter_name": "第二章 尤莉亚与黛特菈与孩子们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 90686,
+          "chapter_name": "第三章 魔术与咒术，以及命运的转变",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 90687,
+          "chapter_name": "第四章 历史的开端",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 90688,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 90689,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 9915,
+      "id": 9915,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 93213,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 93214,
+          "chapter_name": "第一章 宴会与幽会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 93215,
+          "chapter_name": "第二章 领土问题",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 93216,
+          "chapter_name": "第三章 骑兵与秘密行动",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 93217,
+          "chapter_name": "第四章 七日战争",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 93218,
+          "chapter_name": "第五章 继位仪式与结婚典礼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 93219,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 93220,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

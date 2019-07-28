@@ -12,12 +12,13 @@
   "hot_hits": 169301,
   "introduction": "突然被召唤到剑与魔法世界的外山真一，受到召唤主「苍蓝魔王」下跪恳求。魔王似乎只是为了可爱的女儿才会来到人界追求美食，没打算危害人类。尽管如此，杀掉也会复活的勇者们却每天来袭，让他很困扰。反正难得来到异世界，于是真一主动表示要负责击退勇者，但他的策略却都是连魔族也会吓一跳的阴招──！魔王参谋的勇者攻略记，登场！",
   "types": [
-    "异界/穿越"
+    "异界",
+    "穿越"
   ],
   "authors": "笹木さくま",
   "first_letter": "D",
-  "subscribe_num": 16630,
-  "redis_update_time": 1564310384,
+  "subscribe_num": 16663,
+  "redis_update_time": 1564342134,
   "volume": [
     {
       "id": 9895,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 噢！死不了的勇者实在有够烦。",
       "volume_order": 10,
       "addtime": 1547283750,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10223,
@@ -33,7 +34,130 @@
       "volume_name": "第二卷 没有反应，似乎只是个圣女",
       "volume_order": 20,
       "addtime": 1562844290,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9895,
+      "id": 9895,
+      "volume_name": "第一卷 噢！死不了的勇者实在有够烦。",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 92913,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 92914,
+          "chapter_name": "第一章 无益的斗争",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 92915,
+          "chapter_name": "第二章 人类最重要的就是心（笑）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 92916,
+          "chapter_name": "第三章 王牌姗姗来迟",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 92917,
+          "chapter_name": "第四章 世间就看钱和嘴",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 92918,
+          "chapter_name": "第五章 下流是败者的戏言",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 92919,
+          "chapter_name": "第六章 在乌．斯异本里是家常便饭",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 92920,
+          "chapter_name": "第七章 某人的坏结局就是别人的好结局",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 92921,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 92922,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 92923,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10223,
+      "id": 10223,
+      "volume_name": "第二卷 没有反应，似乎只是个圣女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 97803,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 97804,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 97805,
+          "chapter_name": "第一章 魔族的日常",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 97806,
+          "chapter_name": "第二章 白色圣女",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 97807,
+          "chapter_name": "第三章 魔界歌姬与下流行销手段",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 97808,
+          "chapter_name": "第四章 圣者的烙印",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 97809,
+          "chapter_name": "第五章 死不成一百万次的圣女",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 97810,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 97811,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 97818,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

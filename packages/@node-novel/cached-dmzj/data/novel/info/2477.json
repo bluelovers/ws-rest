@@ -12,12 +12,14 @@
   "hot_hits": 180331,
   "introduction": "　　一招技能走异界，寄生尼特出头天！？\n　　尼特族荣司突然被召唤到梦想中犹如电玩的异世界！而且女神还给了他各种厉害的技能──奇怪？怎么只有名称不太好听的《寄生》！？\n　　然而，那其实是能「将他人的经验值和酬劳翻涨好几倍并纳为己有」的犯规力量，让他瞬间获得非劳动收入和全城最强的名声！就在荣司对意外走运的异世界尼特族生活开始感到有些无聊时，他忽然灵光一闪──要是和寄生对象一起冒险，或许会更有效率，而且还能受人感谢也说不定！？\n　　助人的同时也让自己成长，极乐的助人冒险故事就此揭幕！！",
   "types": [
-    "冒险/异界/穿越"
+    "冒险",
+    "异界",
+    "穿越"
   ],
   "authors": "伊垣久大",
   "first_letter": "L",
-  "subscribe_num": 10760,
-  "redis_update_time": 1564312511,
+  "subscribe_num": 10758,
+  "redis_update_time": 1564345357,
   "volume": [
     {
       "id": 9384,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1524887956,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9722,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1538906390,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10051,
@@ -41,7 +43,173 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1555161818,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9384,
+      "id": 9384,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 85375,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85376,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85377,
+          "chapter_name": "第一章 从寄生虫到寄生虫",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85378,
+          "chapter_name": "第二章 利用寄生升等，但好像成长过头了",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85379,
+          "chapter_name": "第三章 在迷宫中发现的物品",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85380,
+          "chapter_name": "第四章 等级一再提升",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85381,
+          "chapter_name": "第五章 一点都不有趣的社会科参观活动",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85382,
+          "chapter_name": "第六章 寄生对吸血",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85383,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 85384,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9722,
+      "id": 9722,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 90198,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 90199,
+          "chapter_name": "第一章 诅咒、对咒与咒术师少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 90200,
+          "chapter_name": "第二章 让别人寄生在我身上以提升等级，但好像培养过头了。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 90201,
+          "chapter_name": "第三章 慵懒系女神降临",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 90202,
+          "chapter_name": "第四章 斗士之城",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 90203,
+          "chapter_name": "第五章 比赛开始",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 90204,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 90205,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10051,
+      "id": 10051,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 95283,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95284,
+          "chapter_name": "第一章 魔法学校体验入学",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95285,
+          "chapter_name": "第二章 学校的地底沉睡着○○",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95286,
+          "chapter_name": "第三章 两场袭击",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95287,
+          "chapter_name": "第四章 不净的白色森林",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95288,
+          "chapter_name": "第五章 Vampire in the city",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95289,
+          "chapter_name": "第六章 红色彼岸",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95290,
+          "chapter_name": "第七章 吸血与结束",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95291,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95292,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

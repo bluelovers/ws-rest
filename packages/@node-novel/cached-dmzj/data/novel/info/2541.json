@@ -12,12 +12,13 @@
   "hot_hits": 321328,
   "introduction": "少女芙拉姆，因为神的指示，被选为讨伐魔王旅程的一员。\n全员都拥有一流能力的勇者一行。但是，不知为何只有芙拉姆不具战斗能力，所有状态值皆为0。\n于是在某一天，被队伍中的一人骗说「已经不需要妳了」后卖给了奴隶商人\n在身为奴隶的恶劣环境中，芙拉姆为了生存而被迫坚强。\n但是她在那与“受诅之剑”相遇、知道了最弱能力“反转”的真正价值。\n得到战斗能力的她，老实说已经觉得魔王什麽的怎样都好了，决定和遇到的奴隶少女一起当冒险者安稳的生活下去。",
   "types": [
-    "魔法/冒险"
+    "魔法",
+    "冒险"
   ],
   "authors": "kiki",
   "first_letter": "N",
-  "subscribe_num": 15432,
-  "redis_update_time": 1564310909,
+  "subscribe_num": 15447,
+  "redis_update_time": 1564344649,
   "volume": [
     {
       "id": 9645,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1535095251,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9955,
@@ -33,7 +34,225 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1550301457,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9645,
+      "id": 9645,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 89189,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89190,
+          "chapter_name": "1章 拒绝神明慈悲的反转少女 001 仅仅是渴望平凡的少女的末路",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89191,
+          "chapter_name": "002 那对她而言是祝福",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89192,
+          "chapter_name": "幕间1 欠缺的小齿轮",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89193,
+          "chapter_name": "003 不全都是些坏人，总是会有办法行得通吧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89194,
+          "chapter_name": "004 这种程度委托的话轻松~",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89195,
+          "chapter_name": "005 你这家伙的手掌还不够让我起舞",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89196,
+          "chapter_name": "006 原初结束，新的命运开始",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 89197,
+          "chapter_name": "2章 不希望独占的日子结束的面具工薪族 幕间2 崩坏的福音",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 89198,
+          "chapter_name": "007 我们是从地狱的底部向“普通”进发",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 89199,
+          "chapter_name": "008 在神圣的死水中绽放清澈光芒的矛盾少女β",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 89200,
+          "chapter_name": "009 终于又见面了",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 89201,
+          "chapter_name": "010 走吧，向着绝望的故乡",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 89202,
+          "chapter_name": "011 经过的时间没有白白浪费",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 89203,
+          "chapter_name": "012 值得相信的东西在哪里",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 89204,
+          "chapter_name": "013 融解心灵",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 89205,
+          "chapter_name": "014 附有可疑人物的超便宜报酬",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 89206,
+          "chapter_name": "015 My Sweet Home",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 89207,
+          "chapter_name": "番外篇 三人的日常",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 89208,
+          "chapter_name": "后记",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 89209,
+          "chapter_name": "插画",
+          "chapter_order": 210
+        }
+      ]
+    },
+    {
+      "volume_id": 9955,
+      "id": 9955,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 93960,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 93961,
+          "chapter_name": "第三章 将增殖恶意吐出的螺旋赤子（Spiral Children） 幕间3 白与黒的断章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 93962,
+          "chapter_name": "001卑鄙小人笑了",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 93963,
+          "chapter_name": "002 层层包裹的蛛丝",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 93964,
+          "chapter_name": "003 奴隶少女无处可逃",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 93965,
+          "chapter_name": "004 因果循环而来的报应",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 93966,
+          "chapter_name": "005 蠢蠢欲动的螺旋",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 93967,
+          "chapter_name": "006 王都吹起的赤色之风",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 93968,
+          "chapter_name": "007 这里一点真实都没有",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 93969,
+          "chapter_name": "008 无力感总是伴随着我",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 93970,
+          "chapter_name": "009",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 93971,
+          "chapter_name": "010 MORE",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 93972,
+          "chapter_name": "011 粉碎黑夜",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 93973,
+          "chapter_name": "012 反击",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 93974,
+          "chapter_name": "013 点滴回忆",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 93975,
+          "chapter_name": "014 DAWN",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 93976,
+          "chapter_name": "015 不合时宜的真相",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 93977,
+          "chapter_name": "番外篇 艾塔娜小姐还是一如既往",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 93978,
+          "chapter_name": "插画",
+          "chapter_order": 190
+        }
+      ]
     }
   ]
 }

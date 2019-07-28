@@ -12,12 +12,13 @@
   "hot_hits": 57842,
   "introduction": "与母亲住在一起的坂本健一的家中，来了一个名为和泉里奈的远房亲戚的女孩子，要与他们住在一起。里奈乖巧的性格、温柔的关切，以及在女校中培育出的毫无戒备的性格，给烦恼于他人之间的距离的健一带来了青春期第一次异性的意识与认知。健一试图向朋友隐瞒与同龄女子同居的事实，却被青梅竹马森由梨子发现，健一与由梨子之间的距离也发生微妙的变化——。将多愁善感、飘摇不定的十七岁刻画得淋漓尽致的，平淡而又甜蜜的青春恋爱故事。",
   "types": [
-    "爱情/校园"
+    "爱情",
+    "校园"
   ],
   "authors": "久远侑",
   "first_letter": "S",
   "subscribe_num": 9171,
-  "redis_update_time": 1564308665,
+  "redis_update_time": 1564343927,
   "volume": [
     {
       "id": 8183,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1475159646,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8656,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1493825839,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8658,
@@ -41,7 +42,138 @@
       "volume_name": "短篇",
       "volume_order": 30,
       "addtime": 1493999038,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8183,
+      "id": 8183,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 67341,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 67342,
+          "chapter_name": "第一章 搬家之日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67343,
+          "chapter_name": "第二章 新的日子",
+          "chapter_order": 25
+        },
+        {
+          "chapter_id": 67344,
+          "chapter_name": "第三章 她们的相遇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67345,
+          "chapter_name": "第四章 在她的房间里",
+          "chapter_order": 35
+        },
+        {
+          "chapter_id": 67346,
+          "chapter_name": "第五章 雨与汗水的味道",
+          "chapter_order": 38
+        },
+        {
+          "chapter_id": 67347,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67348,
+          "chapter_name": "插画",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 8656,
+      "id": 8656,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 74834,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 74836,
+          "chapter_name": "第一章 梅雨过后",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 74837,
+          "chapter_name": "第二章 夏末",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 74860,
+          "chapter_name": "第三章 季节与心情的变化",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 74845,
+          "chapter_name": "第四章 他们无法忘却的东西",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 74846,
+          "chapter_name": "尾章 告别十七岁",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 74844,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 74847,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 8658,
+      "id": 8658,
+      "volume_name": "短篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 74886,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 74887,
+          "chapter_name": "[Animate限定短篇]十七岁的他们的距离感",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 74888,
+          "chapter_name": "[Melonbook限定短篇] 十七岁的他们的日常",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 74889,
+          "chapter_name": "[由梨子篇] 两人共享的时光与回忆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 74890,
+          "chapter_name": "[里奈篇] 梅雨季结束前，里奈和健一的一天",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

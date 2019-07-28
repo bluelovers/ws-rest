@@ -12,12 +12,13 @@
   "hot_hits": 122734,
   "introduction": "　　从过往的战乱时期就死守于此的英雄豪杰的后裔们所居住的边境都市──利口镇。\n　　那道英雄的血脉依然在镇上代代相传至今。\n　　举凡操著与身同高的大剑，举世无双却有恋姊情节的自警团团长；\n　　任谁也无法触及其臀部，迷人的招牌女店员；\n　　做出硬如钢铁的绝品面包的面包师傅；\n　　能轻松扛起大块岩石的大力士建筑工人（以偷工减料著称）……\n　　而生活在这个每天都犹如祭典般热闹的城镇当中，\n　　感觉另有隐情的贫穷万事屋莫尔特身边，\n　　竟逃来了一位被祖国通缉的公主！\n　　追捕她的帝国也随之派出压倒性的大军，将利口镇团团包围！\n　　尽管利口镇陷入绝境，在镇上流著英雄之血的笨蛋们脑中，\n　　依然不存在任何拋弃这个惹人怜爱的少女的选项──！",
   "types": [
-    "冒险/爱情"
+    "冒险",
+    "爱情"
   ],
   "authors": "アサウラ",
   "first_letter": "Y",
-  "subscribe_num": 14925,
-  "redis_update_time": 1564307209,
+  "subscribe_num": 14926,
+  "redis_update_time": 1564342017,
   "volume": [
     {
       "id": 8387,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 公主与被封锁的英雄之都",
       "volume_order": 10,
       "addtime": 1483106769,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8701,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 女神与好汉们的祭典",
       "volume_order": 20,
       "addtime": 1495862131,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8953,
@@ -41,7 +42,193 @@
       "volume_name": "第三卷 酒槽区三号街的万事屋",
       "volume_order": 30,
       "addtime": 1504773759,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8387,
+      "id": 8387,
+      "volume_name": "第一卷 公主与被封锁的英雄之都",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 70363,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 70364,
+          "chapter_name": "序章「利口镇的日常」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 70365,
+          "chapter_name": "第一章「万事屋的工作」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 70366,
+          "chapter_name": "幕间「暴风雨之夜，逃亡之时」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 70367,
+          "chapter_name": "第二章「英雄降临」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 70368,
+          "chapter_name": "第三章「开始行动的人们」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 70369,
+          "chapter_name": "第四章「此处即我乡，此身即我命」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 70370,
+          "chapter_name": "终章「利口镇的夜晚」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 70371,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 70372,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8701,
+      "id": 8701,
+      "volume_name": "第二卷 女神与好汉们的祭典",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 75545,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75546,
+          "chapter_name": "楔子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75547,
+          "chapter_name": "第一章「无限透明纯粹的唯一心愿」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75548,
+          "chapter_name": "第二章「职业：女体抚摩师」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75549,
+          "chapter_name": "第三章「追踪与追击」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75550,
+          "chapter_name": "第四章「祭典前夕与占卜师」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75551,
+          "chapter_name": "第五章「男祭开幕」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75552,
+          "chapter_name": "第六章「祭典过后的遗留物」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 75553,
+          "chapter_name": "第七章「女神的家，莫尔特的归宿」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 75554,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 75555,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 8953,
+      "id": 8953,
+      "volume_name": "第三卷 酒槽区三号街的万事屋",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 79328,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 79329,
+          "chapter_name": "楔子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 79330,
+          "chapter_name": "第一章「三件委托」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 79339,
+          "chapter_name": "第二章「雨夜的女人」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 79332,
+          "chapter_name": "第三章（前）「Grasp 莫尔特与利口义警团」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 79333,
+          "chapter_name": "第三章（中）「Grasp 牢狱中的少年们」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 79340,
+          "chapter_name": "第三章（后）「Grasp 星空下的雨滴」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 79335,
+          "chapter_name": "第四章「勇气与冒险的纪念日」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 79336,
+          "chapter_name": "第五章「名为利口的城镇」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 79341,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 79342,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

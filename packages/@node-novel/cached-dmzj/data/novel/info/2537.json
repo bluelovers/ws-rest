@@ -12,12 +12,13 @@
   "hot_hits": 182883,
   "introduction": "　　以最顶级的神银级冒险者为目标，转眼过了十年。仍是区区铜级冒险者的雷特，独自闯进《水月迷宫》，并在那里碰到了「巨龙」，结果在压倒性的力量面前，雷特束手无策地遭对手吞噬。\n　　──就这样，雷特「苏醒了」。\n　　然而不知为何，他却变成了最弱魔物「骨人」的模样……！？\n　　雷特为了避免遭人类铲除，决定将希望寄托在魔物的「存在进化」上－－也就是打倒其他魔物累积经验，以进化成高阶魔物为目标。因为如果能藉由存在进化变成「食尸鬼」，或许就能伪装成人类。\n　　而在这个过程中，雷特巧遇了人类的菜鸟冒险者莉娜。为拯救莉娜而击败魔物的雷特，也在同时体会到自己藉由存在进化所得到的力量……！？\n　　与强大魔物战斗，目睹各种神秘事物，并且让自己变得更加强大。\n　　在死后仍持续朝遥远的神银级迈进，不死者雷特的「冒险」就此揭开序幕！",
   "types": [
-    "魔法/冒险"
+    "魔法",
+    "冒险"
   ],
   "authors": "丘野优",
   "first_letter": "F",
-  "subscribe_num": 30124,
-  "redis_update_time": 1564312021,
+  "subscribe_num": 30152,
+  "redis_update_time": 1564344947,
   "volume": [
     {
       "id": 9638,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1534905966,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9964,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1550846076,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10082,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1556715166,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10231,
@@ -49,7 +50,206 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1563102031,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9638,
+      "id": 9638,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 89119,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89120,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89123,
+          "chapter_name": "第一章 掌握现况与存在进化",
+          "chapter_order": 21
+        },
+        {
+          "chapter_id": 89121,
+          "chapter_name": "第二章 冒险者莉娜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89122,
+          "chapter_name": "第三章 不死者，侵入城镇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89124,
+          "chapter_name": "第四章 《水月迷宫》与包袱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89125,
+          "chapter_name": "第五章 非人的证明",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89126,
+          "chapter_name": "外传 雷特生气的日～冒险者罗琳的第六年～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89127,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 9964,
+      "id": 9964,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 94076,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94077,
+          "chapter_name": "第一章 《新月迷宫》",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94078,
+          "chapter_name": "第二章 魔术契约",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94079,
+          "chapter_name": "第三章 新的武器与力量",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94080,
+          "chapter_name": "第四章 龙血花",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94081,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 10082,
+      "id": 10082,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 95631,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95632,
+          "chapter_name": "第一章 奇妙的男子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95633,
+          "chapter_name": "第二章 奇妙的委托",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95634,
+          "chapter_name": "第三章 新的存在进化",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95635,
+          "chapter_name": "第四章 魔术",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95636,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95637,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95638,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10231,
+      "id": 10231,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 98017,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98018,
+          "chapter_name": "第一章 前往新月迷宫",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98019,
+          "chapter_name": "闲话 冒险者莉娜·卢贝齐",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98020,
+          "chapter_name": "第二章 为徒弟寻找武具材料",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98021,
+          "chapter_name": "第三章 史提诺商会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98022,
+          "chapter_name": "闲话 圣女缪莉亚丝·莱萨",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98023,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98024,
+          "chapter_name": "外传 治愈的圣女",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98025,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98037,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

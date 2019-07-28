@@ -12,12 +12,14 @@
   "hot_hits": 195837,
   "introduction": "　　在幻想世界「阿斯克利亚」中，每个诞生在这个世界的人都会被赋予该扮演的职业。\n　　王族、勇者、贤者、战士、武斗家、僧侣、魔法师──\n　　还有，只为了繁荣世界而存在最弱职业「村民」。\n　　没有战斗力的村民在这个怪物横行的世界只有依赖其他职业保护的份。\n　　然而，在平均等级只有十级的村民中，\n　　出现了一个到达等级上限999的异端。\n　　穷尽升等极致，已经找不到赚钱以外生存价值的村民「镜浩二」，\n　　此时遇见本该被人类讨伐的魔族少女「艾莉丝」。\n　　这场邂逅让镜找到自己新价值，\n　　并决心踏上对抗世界的险恶道路──",
   "types": [
-    "异界/穿越/冒险"
+    "异界",
+    "穿越",
+    "冒险"
   ],
   "authors": "星月子猫",
   "first_letter": "L",
-  "subscribe_num": 29359,
-  "redis_update_time": 1564312574,
+  "subscribe_num": 29371,
+  "redis_update_time": 1564345341,
   "volume": [
     {
       "id": 9482,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1528193495,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9700,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1537958797,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10060,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1555510022,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10232,
@@ -49,7 +51,266 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1563102348,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9482,
+      "id": 9482,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 86776,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86777,
+          "chapter_name": "Chapter.0 序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86778,
+          "chapter_name": "Chapter.1 对于说「我们是勇者一行人！」的家伙，我也是笑笑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86779,
+          "chapter_name": "Chapter.2 那样的东西有什么价值？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86780,
+          "chapter_name": "Chapter.3 成为自己希望的样子就好",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86781,
+          "chapter_name": "Chapter.4 答案掌握在自己手上",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86782,
+          "chapter_name": "Chapter.5 终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 86783,
+          "chapter_name": "前情提要",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 86784,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 86785,
+          "chapter_name": "特别短篇〈LV999的赏月〉",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 87465,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9700,
+      "id": 9700,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 89965,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89966,
+          "chapter_name": "Chapter.0 序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89967,
+          "chapter_name": "Chapter.1 所以，我决定当个守财奴",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89968,
+          "chapter_name": "Chapter.2 真正重要的，不是钱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89969,
+          "chapter_name": "Chapter.3 一旦察觉，为时已晚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89970,
+          "chapter_name": "Chapter.4 一直逃避，就无法开始",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89971,
+          "chapter_name": "Chapter.5 挺身面对，这才是开始",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89972,
+          "chapter_name": "Chapter.6 终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 89973,
+          "chapter_name": "前情提要",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 89974,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 89975,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10060,
+      "id": 10060,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 95435,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95436,
+          "chapter_name": "Chapter.0 序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95437,
+          "chapter_name": "Chapter.1 本来以为很简单",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95438,
+          "chapter_name": "Chapter.2 看不见终点的路途",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95439,
+          "chapter_name": "Chapter.3 拯救世界没那么容易",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95440,
+          "chapter_name": "Chapter.4 就算是这样，也只能向前迈进",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95441,
+          "chapter_name": "Chapter.5 因为全都不想放弃",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95442,
+          "chapter_name": "Chapter.6 终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95443,
+          "chapter_name": "Chapter.7 那天的回忆［番外篇］",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95444,
+          "chapter_name": "前情提要",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 95445,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 95446,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10232,
+      "id": 10232,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 98027,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98028,
+          "chapter_name": "Chapter.0 序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98029,
+          "chapter_name": "Chapter.1 记得吗？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98030,
+          "chapter_name": "Chapter.2 疑神疑鬼的夜晚",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98031,
+          "chapter_name": "Chapter.3 孤单一人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98032,
+          "chapter_name": "Chapter.4 为何不逃走",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98033,
+          "chapter_name": "Chapter.5 自我意志",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98034,
+          "chapter_name": "Chapter.6 终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98035,
+          "chapter_name": "前情提要",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98036,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 98038,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

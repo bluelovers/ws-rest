@@ -12,12 +12,13 @@
   "hot_hits": 30756,
   "introduction": "里昂·卡特，是在这拥有纹章力量的少年少女所就读的罗文纹章学园的学生。\n就算因为许久未觉醒的纹章之力而被嘲笑拥有的是＜装饰纹章＞，还是和伙伴们过著愉悦的生活。\n在某日打扫圣堂的指令中，里昂于该处听到不可思议的声响，就此与神秘的＜Ｙ之少女＞切尔希相遇，却也在瞬间被以切尔希为目标的敌人逼进了绝路。\n在最后的关头，右手上那被嘲笑无能的＜Ｙ的纹章＞觉醒──而那却是嘲弄著众多人类，禁忌的邪恶之证。\n这是所有事件的开端，对抗疯狂与混沌的一段「命运」故事。\n「我们一定会成功抵达的，在＜Ｙ＞之后的那个未来……！」",
   "types": [
-    "校园/魔法"
+    "校园",
+    "魔法"
   ],
   "authors": "越智文比古",
   "first_letter": "Y",
   "subscribe_num": 1526,
-  "redis_update_time": 1564302651,
+  "redis_update_time": 1564327342,
   "volume": [
     {
       "id": 7840,
@@ -25,7 +26,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1464168093,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7840,
+      "id": 7840,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 61477,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61478,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61479,
+          "chapter_name": "第一章 Y的女儿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 61480,
+          "chapter_name": "第二章 孤独的旅人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 61481,
+          "chapter_name": "第三章 打破宁静的黑暗獠牙",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61482,
+          "chapter_name": "第四章 在流浪的尽头",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61483,
+          "chapter_name": "终章 继承遗志之人",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 61484,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

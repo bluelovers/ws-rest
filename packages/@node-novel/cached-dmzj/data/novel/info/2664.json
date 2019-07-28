@@ -16,8 +16,8 @@
   ],
   "authors": "古宫九时",
   "first_letter": "C",
-  "subscribe_num": 1740,
-  "redis_update_time": 1564309779,
+  "subscribe_num": 1742,
+  "redis_update_time": 1564340140,
   "volume": [
     {
       "id": 10103,
@@ -25,7 +25,72 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557467218,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10103,
+      "id": 10103,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 95951,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95952,
+          "chapter_name": "序曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95953,
+          "chapter_name": "第一幕 第一场",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95954,
+          "chapter_name": "第一幕 第二场",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95955,
+          "chapter_name": "第二幕 第一场",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95956,
+          "chapter_name": "第二幕 第二场",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95957,
+          "chapter_name": "第三幕 第一场",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95958,
+          "chapter_name": "第三幕第二场",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95959,
+          "chapter_name": "最终幕",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95960,
+          "chapter_name": "谢幕",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 95961,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

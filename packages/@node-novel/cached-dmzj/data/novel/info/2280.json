@@ -16,8 +16,8 @@
   ],
   "authors": "皆川博子",
   "first_letter": "H",
-  "subscribe_num": 687,
-  "redis_update_time": 1564240958,
+  "subscribe_num": 688,
+  "redis_update_time": 1564328273,
   "volume": [
     {
       "id": 8477,
@@ -25,7 +25,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1486041582,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8477,
+      "id": 8477,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 71669,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 71670,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71671,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 71672,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71673,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 71674,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 71675,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

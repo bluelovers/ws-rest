@@ -16,8 +16,8 @@
   ],
   "authors": "麻耶雄嵩",
   "first_letter": "P",
-  "subscribe_num": 1471,
-  "redis_update_time": 1564310658,
+  "subscribe_num": 1472,
+  "redis_update_time": 1564338423,
   "volume": [
     {
       "id": 10046,
@@ -25,7 +25,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1554902942,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10046,
+      "id": 10046,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 95222,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95223,
+          "chapter_name": "伊贺乡杀人事件",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95224,
+          "chapter_name": "似梦非梦杀人事件",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95225,
+          "chapter_name": "夏日合宿杀人事件",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95226,
+          "chapter_name": "插画",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

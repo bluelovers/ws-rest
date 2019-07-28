@@ -16,8 +16,8 @@
   ],
   "authors": "镜银钵",
   "first_letter": "W",
-  "subscribe_num": 5991,
-  "redis_update_time": 1564310766,
+  "subscribe_num": 5993,
+  "redis_update_time": 1564340135,
   "volume": [
     {
       "id": 10101,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557466277,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10102,
@@ -33,7 +33,125 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1557466565,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10101,
+      "id": 10101,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 95931,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95932,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95933,
+          "chapter_name": "第一章 命带KY星的男人·KY之王 小日向·刀彦",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95934,
+          "chapter_name": "第二章 补上最后一刀的女人·迟钝鬼畜直白妹 入江·雪莉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95935,
+          "chapter_name": "第三章 现实主义的女王·梦想毁灭者 来泉·圣良",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95936,
+          "chapter_name": "第四章 不知为妙的科学·暗黑科学家 里绪式·诗织",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95937,
+          "chapter_name": "第五章 边缘女孩拯救计划",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95938,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95939,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95940,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10102,
+      "id": 10102,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 95941,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95942,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95943,
+          "chapter_name": "第一章 反叛的使徒·路西法德·D·布拉德·犹大 山田作子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95944,
+          "chapter_name": "第二章 理论武装的大道理学妹 高桥×××",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95945,
+          "chapter_name": "第三章 边缘人负责企划校庆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95946,
+          "chapter_name": "第四章 与边缘人度过七夕校庆",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95947,
+          "chapter_name": "第五章 边缘女孩出嫁计划",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95948,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95949,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95950,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

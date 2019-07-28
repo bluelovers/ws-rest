@@ -17,7 +17,7 @@
   "authors": "松山刚",
   "first_letter": "M",
   "subscribe_num": 2329,
-  "redis_update_time": 1564306354,
+  "redis_update_time": 1564335752,
   "volume": [
     {
       "id": 10061,
@@ -25,7 +25,72 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555511920,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10061,
+      "id": 10061,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 95447,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95448,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95449,
+          "chapter_name": "第一章 诏令",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95450,
+          "chapter_name": "第二章 出发",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95451,
+          "chapter_name": "第三章 耻辱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95452,
+          "chapter_name": "幕间",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95453,
+          "chapter_name": "第四章 别离",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95454,
+          "chapter_name": "第五章 真相",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95455,
+          "chapter_name": "终章 启程",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95456,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 95457,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

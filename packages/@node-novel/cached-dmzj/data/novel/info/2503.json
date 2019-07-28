@@ -12,12 +12,13 @@
   "hot_hits": 584,
   "introduction": "与父亲相依为命的平凡女高中生森川心羽，唯一的过人之处就是「擅长午睡」。梦境中的她，总是置身于相同的奇妙场景。\n2020年，东京奥运开幕前三天，性格寡言淡漠，整天埋首于改装汽车的父亲，却突然被警察逮捕到东京。为了解决不断出现的悬疑谜团，心羽与青梅竹马的大学生守男前往东京，在这过程中，她发现自己平时的白日梦境，居然是解决危机的关键!?\n用最擅长的「午睡」为武器，心羽踏上了不可思议之旅，在跨越梦境与现实的旅程上，即将发现「未知的自己」……",
   "types": [
-    "侦探/奇幻"
+    "侦探",
+    "奇幻"
   ],
   "authors": "神山健治",
   "first_letter": "W",
   "subscribe_num": 985,
-  "redis_update_time": 1564302657,
+  "redis_update_time": 1564335662,
   "volume": [
     {
       "id": 9485,
@@ -25,7 +26,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1528271897,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9485,
+      "id": 9485,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 86809,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86810,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86811,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86812,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86813,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

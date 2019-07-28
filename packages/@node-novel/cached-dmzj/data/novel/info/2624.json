@@ -12,12 +12,13 @@
   "hot_hits": 1724,
   "introduction": "（国轻）一本校园类的推理轻小说，讲述了我和我的社团伙伴们在大学最后一年的时间里所遇见的一桩桩离奇事件。推理不一定能解决问题，而人心也无法轻易揣测，作者借文中的主人公我之手，向大家讲述了一个个荒诞离奇，却又发人深省的故事。",
   "types": [
-    "侦探/校园"
+    "侦探",
+    "校园"
   ],
   "authors": "超级死肥宅",
   "first_letter": "Z",
   "subscribe_num": 898,
-  "redis_update_time": 1564301860,
+  "redis_update_time": 1564332083,
   "volume": [
     {
       "id": 9970,
@@ -25,7 +26,57 @@
       "volume_name": "第一卷 书之篇",
       "volume_order": 10,
       "addtime": 1551257150,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9970,
+      "id": 9970,
+      "volume_name": "第一卷 书之篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 94219,
+          "chapter_name": "第一章 吾之社团与离奇自杀案",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94220,
+          "chapter_name": "第二章 神秘店铺与神秘老板",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94221,
+          "chapter_name": "第三章 迷之少女！！！登场",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94222,
+          "chapter_name": "第四章 调查开始，美丽女仆竟是大妈",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94223,
+          "chapter_name": "第五章 调查完毕，两人侦探各自归家",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94224,
+          "chapter_name": "第六章 真相揭露，杀人凶手竟然是它",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94225,
+          "chapter_name": "第七章 少女很忧伤",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94226,
+          "chapter_name": "第八章 未被揭开的真相",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

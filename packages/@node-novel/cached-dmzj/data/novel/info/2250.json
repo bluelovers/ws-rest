@@ -17,7 +17,7 @@
   "authors": "石川ノボロヲ",
   "first_letter": "Z",
   "subscribe_num": 4036,
-  "redis_update_time": 1564312288,
+  "redis_update_time": 1564349092,
   "volume": [
     {
       "id": 8359,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1481803191,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8636,
@@ -33,7 +33,160 @@
       "volume_name": "第二卷 曾曾木小夜子的复生世界",
       "volume_order": 20,
       "addtime": 1493039079,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8359,
+      "id": 8359,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 69877,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69878,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69879,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69936,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69937,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69938,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 69939,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 69940,
+          "chapter_name": "缺失之章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 69941,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 69942,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 69943,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 69944,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 8636,
+      "id": 8636,
+      "volume_name": "第二卷 曾曾木小夜子的复生世界",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 74287,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 74288,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 74289,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 74292,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 74293,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 74295,
+          "chapter_name": "第四章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 74299,
+          "chapter_name": "复活之章",
+          "chapter_order": 75
+        },
+        {
+          "chapter_id": 74296,
+          "chapter_name": "第五章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 74297,
+          "chapter_name": "第六章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 74298,
+          "chapter_name": "第七章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 74300,
+          "chapter_name": "第八章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 74301,
+          "chapter_name": "终章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 74302,
+          "chapter_name": "终幕",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 74304,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 74305,
+          "chapter_name": "插画",
+          "chapter_order": 160
+        }
+      ]
     }
   ]
 }

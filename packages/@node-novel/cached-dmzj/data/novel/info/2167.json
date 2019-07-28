@@ -12,12 +12,14 @@
   "hot_hits": 44750,
   "introduction": "　「请各位在门另一边的竞技场互相残杀。」\n　　少女一醒来，眼前是前所未见的空间。有人给了她手枪和刀子，强制她与其他人互相残杀。这是一场被筹画好的残忍死亡游戏。被一同集结而来的三十人中，仅有一人能活下去──\n　　某日，高中生萩原悠人得知本应已自杀身亡的同学月岛伊央，参加了名为「竞技场」的死亡游戏。虽然悠人和同班同学们一起从外部支援伊央，试图成功破解游戏……被一起集结至此的三十个人之间的共通点，将成为令人恐惧的真实摊在悠人一行人面前！令人目不转睛的学园逃生悬疑小说！",
   "types": [
-    "校园/恐怖/侦探"
+    "校园",
+    "恐怖",
+    "侦探"
   ],
   "authors": "土桥真二郎",
   "first_letter": "T",
-  "subscribe_num": 3701,
-  "redis_update_time": 1564304731,
+  "subscribe_num": 3703,
+  "redis_update_time": 1564355397,
   "volume": [
     {
       "id": 8007,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1469980601,
-      "sum_chapters": 7
+      "sum_chapters": 8
     },
     {
       "id": 8047,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1471423045,
-      "sum_chapters": 7
+      "sum_chapters": 8
     },
     {
       "id": 9150,
@@ -41,7 +43,163 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1514809163,
-      "sum_chapters": 7
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8007,
+      "id": 8007,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 64383,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 64384,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 64385,
+          "chapter_name": "1 地牢",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 64386,
+          "chapter_name": "2 放学后的教室",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 64387,
+          "chapter_name": "3 全校集会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 64388,
+          "chapter_name": "4 死亡游戏",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 64389,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 64390,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 64932,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8047,
+      "id": 8047,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 64935,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 64938,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 64939,
+          "chapter_name": "1 回归",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 64943,
+          "chapter_name": "2 第二个舞台",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 64944,
+          "chapter_name": "3 学校的反击",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 64945,
+          "chapter_name": "4 终盘战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 64946,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 64947,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 64949,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9150,
+      "id": 9150,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 81738,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81739,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81740,
+          "chapter_name": "1 操场中央部",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81741,
+          "chapter_name": "2 事发过后",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81742,
+          "chapter_name": "3 箱中之蛇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81743,
+          "chapter_name": "4 结局",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81744,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81745,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

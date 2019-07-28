@@ -16,8 +16,8 @@
   ],
   "authors": "竹原汉字",
   "first_letter": "C",
-  "subscribe_num": 6985,
-  "redis_update_time": 1564312078,
+  "subscribe_num": 6986,
+  "redis_update_time": 1564340691,
   "volume": [
     {
       "id": 9727,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1539077878,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9727,
+      "id": 9727,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 90280,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 90281,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 90282,
+          "chapter_name": "第一话 白水泊喜欢书本",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 90283,
+          "chapter_name": "第二话 白水泉经常跌跤",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 90284,
+          "chapter_name": "第三话 病夜宫美暗将烦恼治好",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 90285,
+          "chapter_name": "终幕 亦或是序章之二",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 90286,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 90287,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

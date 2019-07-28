@@ -16,8 +16,8 @@
   ],
   "authors": "桐山なると",
   "first_letter": "B",
-  "subscribe_num": 16125,
-  "redis_update_time": 1564310719,
+  "subscribe_num": 16129,
+  "redis_update_time": 1564348129,
   "volume": [
     {
       "id": 8614,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1492532402,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9382,
@@ -33,7 +33,130 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1524821136,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8614,
+      "id": 8614,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 74011,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 74012,
+          "chapter_name": "第一章 有生以来头一次",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 74013,
+          "chapter_name": "第二章 没有印象的故乡",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 74014,
+          "chapter_name": "第三章 日常的画布",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 74015,
+          "chapter_name": "第四章 异类",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 74016,
+          "chapter_name": "第五章 记忆幻觉",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 74017,
+          "chapter_name": "第六章 莲杖家的刻板日常",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 74018,
+          "chapter_name": "第七章 为了和你成为家人",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 74019,
+          "chapter_name": "第八章 讯息",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 74020,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9382,
+      "id": 9382,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 85340,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85341,
+          "chapter_name": "第一章 不要相信萌萌",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85342,
+          "chapter_name": "第二章 漆黑的疑心",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85343,
+          "chapter_name": "第三章 想成为世界第一可爱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85344,
+          "chapter_name": "第四章 MOMO和MOMO",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85345,
+          "chapter_name": "第五章 素萌萌日记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85346,
+          "chapter_name": "第六章 谎言与真言",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85347,
+          "chapter_name": "第七章 不要叫我哥哥好不好",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85348,
+          "chapter_name": "终章 我们的未来",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 85349,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 85350,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

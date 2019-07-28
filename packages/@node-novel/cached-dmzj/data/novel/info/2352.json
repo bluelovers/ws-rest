@@ -12,12 +12,14 @@
   "hot_hits": 19978,
   "introduction": "　　有一天，异世界的布林王国魔术师们，召唤名叫剑崎神威的少年担任勇者。当时不起眼的大叔田中太郎（假名）只是因为刚好在旁边，结果就卷入其中，一起被召唤至异世界。在世界的失误之下，他的实力获得无与伦比的强化，只是基于状态显示不完全的关系，田中以为自己的实力弱到不行。为了保障自己的安全，他踏上了修行的旅程──\n　　在网路上超高人气的最强大叔异世界冒险物语堂堂问世！",
   "types": [
-    "冒险/异界/穿越"
+    "冒险",
+    "异界",
+    "穿越"
   ],
   "authors": "ぐり",
   "first_letter": "T",
   "subscribe_num": 3984,
-  "redis_update_time": 1564311024,
+  "redis_update_time": 1564336543,
   "volume": [
     {
       "id": 8831,
@@ -25,7 +27,72 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1499951384,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8831,
+      "id": 8831,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 77468,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77469,
+          "chapter_name": "第一章 显现",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77470,
+          "chapter_name": "第二章 飞翔",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77481,
+          "chapter_name": "幕间一",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77472,
+          "chapter_name": "第三章 相遇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77473,
+          "chapter_name": "第四章 屠龙",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77474,
+          "chapter_name": "幕间二",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77482,
+          "chapter_name": "第五章 伙伴",
+          "chapter_order": 77
+        },
+        {
+          "chapter_id": 77476,
+          "chapter_name": "第六章 蹂躏",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77477,
+          "chapter_name": "幕间三",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 77478,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

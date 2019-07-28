@@ -16,8 +16,8 @@
   ],
   "authors": "唐边叶介",
   "first_letter": "E",
-  "subscribe_num": 2114,
-  "redis_update_time": 1564311953,
+  "subscribe_num": 2115,
+  "redis_update_time": 1564336612,
   "volume": [
     {
       "id": 9855,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1545824047,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9855,
+      "id": 9855,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 92282,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 92283,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 92284,
+          "chapter_name": "Prologue",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 92285,
+          "chapter_name": "第一章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 92286,
+          "chapter_name": "第二章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 92287,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

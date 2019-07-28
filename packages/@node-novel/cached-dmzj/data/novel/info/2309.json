@@ -12,12 +12,13 @@
   "hot_hits": 5067,
   "introduction": "　找工作失败的寺泽优一在某天突然和即将结束营运的图书馆一齐被召唤至异世界，并在威权女王丽涅的命令下强迫工作。\n　　「优一，若想在这个世界活下去，就好好证明图书馆和你的价值吧！」\n　　对书本及图书馆没兴趣，更没有工作意愿的优一，却在和女骑士蓓尔一同面对各种种族问题的过程中变得众所瞩目！？您的烦恼就由书来解决吧！！由书与图书馆交织而成的书香奇幻记，於此开馆！",
   "types": [
-    "异界/穿越"
+    "异界",
+    "穿越"
   ],
   "authors": "三萩せんや",
   "first_letter": "H",
   "subscribe_num": 3258,
-  "redis_update_time": 1564298352,
+  "redis_update_time": 1564333417,
   "volume": [
     {
       "id": 8611,
@@ -25,7 +26,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1492359171,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8611,
+      "id": 8611,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 73982,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 73983,
+          "chapter_name": "Open…青年随着老图书馆 一同被召唤至异世界",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 73984,
+          "chapter_name": "Book1. 公主骑士大人 似乎喜欢看武器防具大全",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 73985,
+          "chapter_name": "Book2. 树人的忧郁 就靠这本书解决吧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 73986,
+          "chapter_name": "Book3. 让矮人看书的下场 就是如此",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 73987,
+          "chapter_name": "Book4.一副想成为伙伴的女精灵小姐 正看向这里喔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 73988,
+          "chapter_name": "Book5.「不会烧书唷。」鬼火这么说",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 73989,
+          "chapter_name": "Close…好想找到了所谓「生存价值」的玩意呢",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 73990,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 73991,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

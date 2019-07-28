@@ -12,12 +12,14 @@
   "hot_hits": 11111,
   "introduction": "《高贵魔女》是《强袭魔女》系列衍生作品，原作是角川Sneaker文库的轻小说。《强袭魔女》是第501航空联队的故事，《无畏魔女》是第502航空联队的故事，《高贵魔女》则是第506航空联队的故事。506部队是《强袭魔女》中登场的部队之一，在动画第一季里由501部队解放了高卢，于是在高卢设立第的6个航空联队便是506部队。506部队以高卢东北部中心为据点，主要任务是高卢的防卫和有朝一日的反攻作战。",
   "types": [
-    "战争/科幻/百合"
+    "战争",
+    "科幻",
+    "百合"
   ],
   "authors": "南房秀久",
   "first_letter": "G",
-  "subscribe_num": 2189,
-  "redis_update_time": 1564309975,
+  "subscribe_num": 2190,
+  "redis_update_time": 1564328145,
   "volume": [
     {
       "id": 8702,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 第506统合战斗飞行团 飞翔！",
       "volume_order": 10,
       "addtime": 1495862950,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9110,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 第506统合战斗飞行团 混战！",
       "volume_order": 20,
       "addtime": 1512388764,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9111,
@@ -41,7 +43,168 @@
       "volume_name": "第三卷 第506统合战斗飞行团 结成！",
       "volume_order": 30,
       "addtime": 1512388943,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8702,
+      "id": 8702,
+      "volume_name": "第一卷 第506统合战斗飞行团 飞翔！",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 75556,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75557,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75558,
+          "chapter_name": "第一章 我是华族的大小姐？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75564,
+          "chapter_name": "插曲一",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75565,
+          "chapter_name": "第二章 往昔的公主",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75566,
+          "chapter_name": "第三章 夜间飞行",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75567,
+          "chapter_name": "第四章 欢乐模拟战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75569,
+          "chapter_name": "终章 事后收场",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 9110,
+      "id": 9110,
+      "volume_name": "第二卷 第506统合战斗飞行团 混战！",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 81293,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81294,
+          "chapter_name": "序章 零时刻",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81295,
+          "chapter_name": "第一章 谍报部来的女人（注1）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81296,
+          "chapter_name": "第二章 龙生龙凤生凤",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81297,
+          "chapter_name": "第三章 喝彩",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81298,
+          "chapter_name": "间章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81299,
+          "chapter_name": "第四章 激战天空（Hard·bolted·sky）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81300,
+          "chapter_name": "尾声 疑惑",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 81318,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9111,
+      "id": 9111,
+      "volume_name": "第三卷 第506统合战斗飞行团 结成！",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 81301,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81302,
+          "chapter_name": "序章 德·布兰克",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81303,
+          "chapter_name": "插曲一 高卢的雄鸡",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81304,
+          "chapter_name": "第一章 Liberion In Paris（注1）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81305,
+          "chapter_name": "插曲二 团结",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81306,
+          "chapter_name": "第二章 马赛·联系",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81307,
+          "chapter_name": "插曲三 高卢，我之喜悦",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81308,
+          "chapter_name": "第三章 多佛尔",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 81309,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 81319,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

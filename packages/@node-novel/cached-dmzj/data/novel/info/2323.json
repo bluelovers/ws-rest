@@ -12,12 +12,13 @@
   "hot_hits": 6661,
   "introduction": "被撕裂的人们，陷入火海里的故乡。那一天，少年失去了一切――在多处传出龙酿成灾情的以利西亚大陆。在那里，有一群与龙搏斗的人们，他们的名字叫做「猎龙人」。充满活力、但却又略带傻气的新手猎龙人苏菲亚，因为过去的创伤，让她曾经发誓不再结伴搭档。然而有一天，她却与同样是新手猎龙人的青年―――耶尔组成了搭档……出自「成为小说家吧！」的瞩目钜作，由实力坚强但其他各方面都不怎么样的两个人所编织出的战斗奇幻小说。赌上龙与人生存的故事正要加速展开！！",
   "types": [
-    "冒险/奇幻"
+    "冒险",
+    "奇幻"
   ],
   "authors": "井藤きく",
   "first_letter": "D",
-  "subscribe_num": 3968,
-  "redis_update_time": 1564306534,
+  "subscribe_num": 3971,
+  "redis_update_time": 1564343420,
   "volume": [
     {
       "id": 8689,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1495467710,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8690,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1495468197,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8754,
@@ -41,7 +42,198 @@
       "volume_name": "web版试看",
       "volume_order": 30,
       "addtime": 1497803860,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8689,
+      "id": 8689,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 75297,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75298,
+          "chapter_name": "序章 开始结束",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75299,
+          "chapter_name": "第1章 少年与少女邂逅",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75300,
+          "chapter_name": "第2章 少年与少女一贫如洗",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75301,
+          "chapter_name": "第3章 少年与少女好学不倦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75302,
+          "chapter_name": "第4章 少年与少女勇往直前",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75303,
+          "chapter_name": "第5章 少年与少女下定决心",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75304,
+          "chapter_name": "终章 少年思慕少女，少女也恋慕少年",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 75305,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8690,
+      "id": 8690,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 75306,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75307,
+          "chapter_name": "序章 在猎龙之前",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75308,
+          "chapter_name": "第1章 少年与少女启程出发",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75378,
+          "chapter_name": "第2章 少年与少女无话不谈",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75379,
+          "chapter_name": "第3章 少年与少女勤加修练",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75380,
+          "chapter_name": "第4章 少年与少女一跃而起",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75381,
+          "chapter_name": "第5章 少年与少女翻山越岭",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75382,
+          "chapter_name": "第6章 少年与少女互诉衷曲",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 75385,
+          "chapter_name": "终章 少年与少女，登上另一个阶段",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 75384,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8754,
+      "id": 8754,
+      "volume_name": "web版试看",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 76600,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 76613,
+          "chapter_name": "设定资料",
+          "chapter_order": 11
+        },
+        {
+          "chapter_id": 76601,
+          "chapter_name": "1章 少年与少女相遇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 76602,
+          "chapter_name": "2章 少年与少女贫乏",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 76603,
+          "chapter_name": "3章 少年与少女学习",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 76604,
+          "chapter_name": "4章 少年与少女邁进",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 76605,
+          "chapter_name": "5章 少年与少女决定",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 76606,
+          "chapter_name": "6章 少年与少女谈话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 76607,
+          "chapter_name": "7章 少年与少女竞争",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 76608,
+          "chapter_name": "8章 少女与少女知晓",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 76609,
+          "chapter_name": "9章 往南",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 76610,
+          "chapter_name": "10章 从南",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 76611,
+          "chapter_name": "11章 面对上方",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 76612,
+          "chapter_name": "12章 往潮流之中",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

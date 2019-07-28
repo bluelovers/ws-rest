@@ -16,8 +16,8 @@
   ],
   "authors": "苇船ナツ",
   "first_letter": "J",
-  "subscribe_num": 3866,
-  "redis_update_time": 1564280369,
+  "subscribe_num": 3867,
+  "redis_update_time": 1564343936,
   "volume": [
     {
       "id": 8880,
@@ -25,7 +25,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1502109716,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8880,
+      "id": 8880,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 78209,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78210,
+          "chapter_name": "一",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78211,
+          "chapter_name": "二",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78212,
+          "chapter_name": "三",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78213,
+          "chapter_name": "四",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78214,
+          "chapter_name": "五",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 78215,
+          "chapter_name": "六",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

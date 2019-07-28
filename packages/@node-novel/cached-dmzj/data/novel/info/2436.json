@@ -3,7 +3,7 @@
   "name": "死党角色很难当吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": " 第五卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
   "last_update_volume_id": 10172,
   "last_update_chapter_id": 97015,
@@ -12,12 +12,14 @@
   "hot_hits": 1446097,
   "introduction": "　　我的朋友火乃森龙牙，是「货真价实的主角」。\n　　首先，这家伙几乎从不提及自己的过去。\n　　其次，他常常跷课，回来的时候嘴角流血，制服变得破破烂烂（应该是去跟世界之敌战斗了吧）。\n　　此外，龙牙常常和美少女在一起。\n　　这种时候就轮到我出马了。\n　　「喂龙牙！你这家伙为什么会认识雪宫同学（美少女）！？」\n　　毕竟为龙牙热闹得莫名其妙的日常生活敲边鼓，就是「专业死党」\n　　──本人小林一郎的生存之道！\n　　王道故事中不可或缺的万能基友在此☆\n　　由Best Friend小林提供最强助攻的新感觉恋爱喜剧，爆诞！",
   "types": [
-    "校园/爱情/搞笑"
+    "校园",
+    "爱情",
+    "搞笑"
   ],
   "authors": "伊达康",
   "first_letter": "S",
-  "subscribe_num": 34808,
-  "redis_update_time": 1564312536,
+  "subscribe_num": 34816,
+  "redis_update_time": 1564346396,
   "volume": [
     {
       "id": 9236,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1519204819,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9243,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1519560317,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9244,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1519560332,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9651,
@@ -49,15 +51,287 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1535546362,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10172,
       "lnovel_id": 2436,
-      "volume_name": " 第五卷",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1560258169,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9236,
+      "id": 9236,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 83004,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83005,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83006,
+          "chapter_name": "第一章 死党角色的正确做法",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83007,
+          "chapter_name": "第二章 新女主角登场",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83008,
+          "chapter_name": "第三章 世上充满旗标",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83009,
+          "chapter_name": "第四章 真·小林一郎无双",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83010,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83011,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83012,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9243,
+      "id": 9243,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 83585,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83586,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83587,
+          "chapter_name": "第一章 开始当最终头目",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83588,
+          "chapter_name": "第二章 有乌龟的地方也有公主",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83589,
+          "chapter_name": "第三章 幕后黑手计划",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83590,
+          "chapter_name": "第四章 激战，龙牙VS一郎",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83591,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83592,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83593,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9244,
+      "id": 9244,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 83087,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83088,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 84207,
+          "chapter_name": "第一章 支线剧情突然降临",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 84550,
+          "chapter_name": "第二章 饕餮和白鹭少女",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85066,
+          "chapter_name": "第三章 停不下来的邂逅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85090,
+          "chapter_name": "第四章 波澜动荡至极的对抗战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85091,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85092,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85093,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9651,
+      "id": 9651,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 89280,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89281,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89282,
+          "chapter_name": "第一章 艾尔蜜拉的育儿奋斗记",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89283,
+          "chapter_name": "第二章 今天开始做姐姐的说",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89284,
+          "chapter_name": "第三章 和火乃森杏花的告别",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89285,
+          "chapter_name": "第四章 我们仍未知道那天所看见的使徒的原形",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89286,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89287,
+          "chapter_name": "特典 小短篇",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 89288,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 89289,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10172,
+      "id": 10172,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 97007,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 97008,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 97009,
+          "chapter_name": "序章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 97010,
+          "chapter_name": "第一章 雪宫同学的长篇铺垫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 97011,
+          "chapter_name": "第二章 新的主人公，新的魔神",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 97012,
+          "chapter_name": "第三章 共演约会",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 97013,
+          "chapter_name": "第四章 我亲爱的寄宿女孩",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 97014,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 97015,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

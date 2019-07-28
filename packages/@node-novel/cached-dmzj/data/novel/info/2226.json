@@ -12,12 +12,14 @@
   "hot_hits": 38025,
   "introduction": "　　「——我是熊本城。是据点设于肥后国的加藤家眷属……繁荣九州地区最大的『城姬』。」\n　　身为普通高中生的我——天城秋宗的房里，突然出现了一名美少女这么自称着。而疑似时空跳跃过来的她，莫名其妙就在我家住了下来——\n　　接下来，我被不容分说地卷进了一个个出现的城姬们引发的骚动中。因为熊本城虽然个性强硬，毕竟是个女孩子啊，我没办法放着她不管。\n　　这就是描述我跟她，银杏——将与我缔结下「城主」与「城姬」这层关系的熊本城共同生活的故事。",
   "types": [
-    "校园/奇幻/穿越"
+    "校园",
+    "奇幻",
+    "穿越"
   ],
   "authors": "五十岚雄策",
   "first_letter": "C",
-  "subscribe_num": 2994,
-  "redis_update_time": 1564233620,
+  "subscribe_num": 3001,
+  "redis_update_time": 1564356620,
   "volume": [
     {
       "id": 8274,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 我当上城主的理由",
       "volume_order": 10,
       "addtime": 1478691717,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8365,
@@ -33,7 +35,105 @@
       "volume_name": "第二卷 我和银杏的心灵之旅",
       "volume_order": 20,
       "addtime": 1481984590,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8274,
+      "id": 8274,
+      "volume_name": "第一卷 我当上城主的理由",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 68582,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68583,
+          "chapter_name": "第一话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68584,
+          "chapter_name": "第二话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68585,
+          "chapter_name": "第三话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68586,
+          "chapter_name": "第四话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68587,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68588,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 68589,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8365,
+      "id": 8365,
+      "volume_name": "第二卷 我和银杏的心灵之旅",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 69968,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69969,
+          "chapter_name": "第一话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69970,
+          "chapter_name": "第二话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69971,
+          "chapter_name": "第三话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69972,
+          "chapter_name": "第四话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69973,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 69974,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 69975,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

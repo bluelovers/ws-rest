@@ -12,12 +12,15 @@
   "hot_hits": 27407,
   "introduction": "平凡的上班族有村将人，某天突然穿越到了剑与魔法的世界。他才穿越不久，马上就遭到盗贼袭击，危急时刻，一位名叫莫妮卡的少女剑士出手救了他。之後，将人在与莫妮卡同行的妖精露卡的建议下，决定成立佣兵公司。他一边以社长身分经营着公司，一边开始寻找回到原来世界的线索，与此同时，躲在暗处企图搞鬼的黑影也悄悄逼近——超人气网页游戏冒险幻想RPG的官方小说登场！",
   "types": [
-    "冒险/魔法/异界/穿越"
+    "冒险",
+    "魔法",
+    "异界",
+    "穿越"
   ],
   "authors": "神代创",
   "first_letter": "Q",
   "subscribe_num": 1917,
-  "redis_update_time": 1564312107,
+  "redis_update_time": 1564336495,
   "volume": [
     {
       "id": 8159,
@@ -25,7 +28,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1474113329,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8159,
+      "id": 8159,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 66997,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 66998,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 66999,
+          "chapter_name": "第一章 某个异世界的上班族",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67000,
+          "chapter_name": "第二章 镇上的帮手",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67001,
+          "chapter_name": "第三章 佣兵公司的新求职者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 67002,
+          "chapter_name": "第四章 新的骚动",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 67003,
+          "chapter_name": "第五章 夺回生意作战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 67004,
+          "chapter_name": "第六章 传说中的企业战士",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 67005,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 67006,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

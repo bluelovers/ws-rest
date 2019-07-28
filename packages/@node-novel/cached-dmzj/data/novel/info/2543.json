@@ -12,12 +12,13 @@
   "hot_hits": 17618,
   "introduction": "战巫女那由他与忍者小历。在「飞鸟帝国」里成为好朋友的两名少女，也在这款游戏遇见了不可思议的法师矢凪。\n　　这名年老的僧侣表示要委托「侦探」「解谜」某个任务。而且提供的报酬高达一百万日币。\n　　两名少女虽然对这超乎常识的价格感到惊讶，但接受这奇妙委托的「侦探」也同样是一名相当奇怪的青年。把能力值点数全部灌在「运气」上──也就是战斗上最弱，但是稀有宝物掉宝率最强的诡异玩家……",
   "types": [
-    "科幻/冒险"
+    "科幻",
+    "冒险"
   ],
   "authors": "渡濑草一郎",
   "first_letter": "D",
-  "subscribe_num": 5495,
-  "redis_update_time": 1564311201,
+  "subscribe_num": 5500,
+  "redis_update_time": 1564343473,
   "volume": [
     {
       "id": 9657,
@@ -25,7 +26,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1535714861,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9657,
+      "id": 9657,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 89331,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89332,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89333,
+          "chapter_name": "一章 三叶草的侦探",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89334,
+          "chapter_name": "二章 狐狸的探病",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89335,
+          "chapter_name": "三章 幽灵乐队",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89336,
+          "chapter_name": "终章 那由他的眼泪",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89337,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89338,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "坊木椎哉",
   "first_letter": "Y",
-  "subscribe_num": 3535,
-  "redis_update_time": 1564312174,
+  "subscribe_num": 3536,
+  "redis_update_time": 1564342660,
   "volume": [
     {
       "id": 9856,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1545824347,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9856,
+      "id": 9856,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 92288,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 92289,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 92290,
+          "chapter_name": "第一章 夕色焰火",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 92291,
+          "chapter_name": "第二章 灰色秋雨",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 92292,
+          "chapter_name": "第三章 绿色残阳",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 92293,
+          "chapter_name": "第四章 青色黎明",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

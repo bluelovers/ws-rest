@@ -12,12 +12,13 @@
   "hot_hits": 32428,
   "introduction": "13岁的少女瑞依在大楼的最底层醒过来。\n她丧失了记忆，甚至不知道自己为何身在此处。\n这时全身包著绷带的杀人魔札克出现在她的面前──\n「我有个请求，拜托你，请你杀了我。」\n「帮助我一起从这里出去吧。到时我就会杀了你。」\n两人的奇妙羁绊在这份「疯狂的约定」下逐渐加深。\n这里究竟是什么地方？两人为什么被关在这里？等待他们的又是怎么样的命运？\n冒死逃出密闭大楼的行动就此开始……！",
   "types": [
-    "侦探/冒险"
+    "侦探",
+    "冒险"
   ],
   "authors": "木尔チレン",
   "first_letter": "S",
-  "subscribe_num": 8652,
-  "redis_update_time": 1564309554,
+  "subscribe_num": 8655,
+  "redis_update_time": 1564344146,
   "volume": [
     {
       "id": 8959,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1504950759,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8960,
@@ -33,7 +34,69 @@
       "volume_name": "第一卷 UNTIL DEATH DO THEM PART",
       "volume_order": 20,
       "addtime": 1504950767,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8959,
+      "id": 8959,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": []
+    },
+    {
+      "volume_id": 8960,
+      "id": 8960,
+      "volume_name": "第一卷 UNTIL DEATH DO THEM PART",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 79462,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 79463,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 79464,
+          "chapter_name": "FLOOR B7",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 79465,
+          "chapter_name": "FLOOR B6",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 79466,
+          "chapter_name": "FLOOR B5",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 79467,
+          "chapter_name": "FLOOR B4",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 79468,
+          "chapter_name": "FLOOR B3",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 79469,
+          "chapter_name": "ZACK'S MEMORY",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 79470,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,7 @@
   "authors": "唐边叶介",
   "first_letter": "D",
   "subscribe_num": 1276,
-  "redis_update_time": 1564299540,
+  "redis_update_time": 1564329432,
   "volume": [
     {
       "id": 9673,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1536656205,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9673,
+      "id": 9673,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 89593,
+          "chapter_name": "序章 开场白",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89594,
+          "chapter_name": "第一章 大逃亡",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89595,
+          "chapter_name": "第二章 畸形之舞",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89596,
+          "chapter_name": "第三章 空中飞人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89597,
+          "chapter_name": "第四章 小丑秀",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89598,
+          "chapter_name": "闭幕",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

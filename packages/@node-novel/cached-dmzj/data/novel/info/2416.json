@@ -12,12 +12,13 @@
   "hot_hits": 56428,
   "introduction": "高三的冬天，所剩无几的高中生活。大家都认为就这么毫无波澜地迎来毕业之日。\n直到某一天，他突然回来了。\n在中学时搬去遥远城镇的同学。与不合时节的转学生的再次相见，伴随着某种不确定的感情，转变开始的信号发出了微弱的声响",
   "types": [
-    "校园/爱情"
+    "校园",
+    "爱情"
   ],
   "authors": "鸭志田一",
   "first_letter": "J",
-  "subscribe_num": 10782,
-  "redis_update_time": 1564312193,
+  "subscribe_num": 10785,
+  "redis_update_time": 1564342246,
   "volume": [
     {
       "id": 9128,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1513323440,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9390,
@@ -33,7 +34,120 @@
       "volume_name": "第一卷其他翻译版",
       "volume_order": 20,
       "addtime": 1525251414,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9128,
+      "id": 9128,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 81480,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81481,
+          "chapter_name": "Chapter 1 On your marks!",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81482,
+          "chapter_name": "Chapter 2 Question",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81483,
+          "chapter_name": "Chapter 3 Full swing",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81484,
+          "chapter_name": "Chapter 4 Rolling stones",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81485,
+          "chapter_name": "Chapter 5 Snow day",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81486,
+          "chapter_name": "Chapter 6 Answer",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81487,
+          "chapter_name": "Chapter 7 Roundabout",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 81488,
+          "chapter_name": "Chapter 8 Get set,go!",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9390,
+      "id": 9390,
+      "volume_name": "第一卷其他翻译版",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 85476,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85477,
+          "chapter_name": "Chapter1 On your marks!",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85478,
+          "chapter_name": "Chapter2 Question",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85479,
+          "chapter_name": "Chapter3 Full swing",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85480,
+          "chapter_name": "Chapter4 Rolling stones",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85481,
+          "chapter_name": "Chapter5 Snow day",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85482,
+          "chapter_name": "Chapter6 Answer",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85483,
+          "chapter_name": "Chapter7 Roundabout",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85484,
+          "chapter_name": "Chapter8 Get set,go!",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 85485,
+          "chapter_name": "翻译后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

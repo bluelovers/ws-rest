@@ -17,7 +17,7 @@
   "authors": "大泽めぐみ",
   "first_letter": "L",
   "subscribe_num": 2522,
-  "redis_update_time": 1564307285,
+  "redis_update_time": 1564340696,
   "volume": [
     {
       "id": 10100,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557465926,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10100,
+      "id": 10100,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 95923,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95924,
+          "chapter_name": "序章 有名无实之春",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95925,
+          "chapter_name": "第一话 春未至，鸟无声",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95926,
+          "chapter_name": "第二话 昨日今日雪纷纷",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95927,
+          "chapter_name": "第三话 Harder Better Faster Stronger",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95928,
+          "chapter_name": "第四话 若未闻春至，则不晓春",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95929,
+          "chapter_name": "终章 花绽之春",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95930,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

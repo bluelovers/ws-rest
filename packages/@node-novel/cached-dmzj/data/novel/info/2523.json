@@ -16,8 +16,8 @@
   ],
   "authors": "赤松中学",
   "first_letter": "C",
-  "subscribe_num": 1386,
-  "redis_update_time": 1564309440,
+  "subscribe_num": 1387,
+  "redis_update_time": 1564335267,
   "volume": [
     {
       "id": 9591,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1532702800,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9653,
@@ -33,7 +33,95 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1535626934,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9591,
+      "id": 9591,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 88449,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 88450,
+          "chapter_name": "STEP1 千爱这个名字",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 88451,
+          "chapter_name": "STEP2 突如其来的特技",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 88452,
+          "chapter_name": "STEP3 社员招募会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 88453,
+          "chapter_name": "STEP4 CHEERS！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 88454,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 88455,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 9653,
+      "id": 9653,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 89301,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89302,
+          "chapter_name": "STEP 5 TOGGETHER",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89303,
+          "chapter_name": "STEP 6 要变身了唷～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89304,
+          "chapter_name": "STEP 7 绮罗罗的面具",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89305,
+          "chapter_name": "STEP 8 支撑升降姿",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89306,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89307,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

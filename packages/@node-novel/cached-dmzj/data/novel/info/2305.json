@@ -12,12 +12,13 @@
   "hot_hits": 10970,
   "introduction": "　　女子高中生星上阳奈，在外星人•小马马的引领下变身成『魔星少女』魔星太阳。和企图侵略地球的外星人战斗了长达一年后，终于消灭了敌人。然而，在最终决战后，这场本来不应该为人所知的战斗，居然被当作是娱乐节目在小马马的母星上公开播出！愤怒的阳奈纵使听闻又有邪恶组织来袭，仍果断拒绝继续担任魔星少女。这时，小马马提议寻找接班人并加以栽培，虽然这次是一起制作节目的立场，但……魔星少女第二年的任务〈四季之后〉即将拉开序幕！！",
   "types": [
-    "校园/魔法"
+    "校园",
+    "魔法"
   ],
   "authors": "水泽梦",
   "first_letter": "4",
   "subscribe_num": 1943,
-  "redis_update_time": 1564296152,
+  "redis_update_time": 1564329586,
   "volume": [
     {
       "id": 8593,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1491321636,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 9484,
@@ -33,7 +34,160 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1528270573,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8593,
+      "id": 8593,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 73604,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 73605,
+          "chapter_name": "Final-Episode：一年之战的尾声。",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 73606,
+          "chapter_name": "Epilogue：青森县的天空十分蔚蓝。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 73607,
+          "chapter_name": "1st：四季之后。/A-part",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 73608,
+          "chapter_name": "1st：四季之后。/B-part",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 73609,
+          "chapter_name": "2nd：增加的共犯。/A-part",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 73610,
+          "chapter_name": "2nd：增加的共犯。/B-part",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 73611,
+          "chapter_name": "3rd：新主角诞生！/A-part",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 73612,
+          "chapter_name": "3rd：新主角诞生！/B-part",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 73613,
+          "chapter_name": "4th：魔星少女大决战。/A-part",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 73614,
+          "chapter_name": "4th：魔星少女大决战。/B-part",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 73615,
+          "chapter_name": "Ending：1/4季之后。",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 73616,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 73620,
+          "chapter_name": "插画",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 9484,
+      "id": 9484,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 86797,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86798,
+          "chapter_name": "Avan-Title：次世代魔星少女。",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86801,
+          "chapter_name": "5th：抢救收视率大作战。／A-Part",
+          "chapter_order": 22
+        },
+        {
+          "chapter_id": 86802,
+          "chapter_name": "5th：抢救收视率大作战。／B-part",
+          "chapter_order": 23
+        },
+        {
+          "chapter_id": 86799,
+          "chapter_name": "6th：青森—东京。／A-part",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86800,
+          "chapter_name": "6th：青森—东京。／B-part",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86803,
+          "chapter_name": "7th：轻小说少女的野心。／A-part",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86804,
+          "chapter_name": "7th：轻小说少女的野心。／B-part",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86805,
+          "chapter_name": "8th：月有阴晴圆缺。／A-part",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 86806,
+          "chapter_name": "8th：月有阴晴圆缺。／B-part",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 86807,
+          "chapter_name": "Ending：2／3季之后。",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 86808,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 87466,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

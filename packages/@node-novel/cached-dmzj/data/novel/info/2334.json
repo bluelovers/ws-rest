@@ -12,12 +12,13 @@
   "hot_hits": 3618,
   "introduction": "　　雷贝尔塔德魔王国被帝国攻陷后，国家灭亡。在千钧一发之际逃过死劫的皇女桃乐丝，一边和护卫魔法师卡尔亚躲避追兵，一边进行逃亡。但是，理应极力隐藏真实身分的桃乐丝，却是个无法对眼前遭受帝国荼毒的各地人民视若无睹，总会立即伸出援手的正义之士。最后居然还说出「我要成为『绝对魔王』，广施仁政！」这种话！？ 继承魔王之血的神圣少女，其改革世界的旅程就此展开！",
   "types": [
-    "魔法/冒险"
+    "魔法",
+    "冒险"
   ],
   "authors": "十文字青",
   "first_letter": "S",
-  "subscribe_num": 3498,
-  "redis_update_time": 1564311154,
+  "subscribe_num": 3499,
+  "redis_update_time": 1564336160,
   "volume": [
     {
       "id": 8729,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 不会乖乖听话的绝对魔王少女",
       "volume_order": 10,
       "addtime": 1496936572,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8859,
@@ -33,7 +34,100 @@
       "volume_name": "第二卷 魔神、少年与令人怜悯的魔法师",
       "volume_order": 20,
       "addtime": 1500869585,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8729,
+      "id": 8729,
+      "volume_name": "第一卷 不会乖乖听话的绝对魔王少女",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 76149,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 76150,
+          "chapter_name": "序章 驶向明日的Train、Train",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 76151,
+          "chapter_name": "1章 因为谁都无法否定那份血缘",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 76152,
+          "chapter_name": "2章 妖精与恶作剧者的不明症候群",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 76153,
+          "chapter_name": "3章 附带条件信用度的错误测量法",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 76154,
+          "chapter_name": "4章 你总能让我察觉自己存在于此的理由",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 76155,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77792,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8859,
+      "id": 8859,
+      "volume_name": "第二卷 魔神、少年与令人怜悯的魔法师",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 77823,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77824,
+          "chapter_name": "序章 偶像崇拜者们的徘徊狂想曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77825,
+          "chapter_name": "1章 可悲可笑到令人作呕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77826,
+          "chapter_name": "2章 在抒情诗中常见的某个场景，谁在低头沉吟？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77827,
+          "chapter_name": "3章 我们不相信「说出实话就能解决一切」这种自我安慰的谎言",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77828,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77829,
+          "chapter_name": "插图",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

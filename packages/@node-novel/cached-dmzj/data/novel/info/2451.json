@@ -17,7 +17,7 @@
   "authors": "伊坂幸太郎",
   "first_letter": "A",
   "subscribe_num": 3839,
-  "redis_update_time": 1564308649,
+  "redis_update_time": 1564342612,
   "volume": [
     {
       "id": 9286,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1521452731,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9286,
+      "id": 9286,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 83611,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83612,
+          "chapter_name": "AX",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83613,
+          "chapter_name": "BEE",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83614,
+          "chapter_name": "Crayon",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83615,
+          "chapter_name": "Exit",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 84351,
+          "chapter_name": "Fine",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "伊藤计划",
   "first_letter": "N",
-  "subscribe_num": 3876,
-  "redis_update_time": 1564308444,
+  "subscribe_num": 3878,
+  "redis_update_time": 1564338238,
   "volume": [
     {
       "id": 8479,
@@ -25,7 +25,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1486116592,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8479,
+      "id": 8479,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 71702,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 71703,
+          "chapter_name": "第一部",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71704,
+          "chapter_name": "第二部",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 71705,
+          "chapter_name": "第三部",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71706,
+          "chapter_name": "第四部",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 71707,
+          "chapter_name": "第五部",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 71708,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 71709,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 71710,
+          "chapter_name": "解说",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

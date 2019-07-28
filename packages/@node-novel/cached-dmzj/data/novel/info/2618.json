@@ -17,7 +17,7 @@
   "authors": "望月麻衣",
   "first_letter": "J",
   "subscribe_num": 2145,
-  "redis_update_time": 1564309992,
+  "redis_update_time": 1564339383,
   "volume": [
     {
       "id": 9921,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1548403863,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9922,
@@ -33,7 +33,100 @@
       "volume_name": "第二卷 真赝事件簿",
       "volume_order": 20,
       "addtime": 1548404254,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9921,
+      "id": 9921,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 93320,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 93328,
+          "chapter_name": "序章『福尔摩斯与白隐禅师』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 93329,
+          "chapter_name": "第一章『愿于樱花下……』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 93323,
+          "chapter_name": "第二章『葵之时节』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 93324,
+          "chapter_name": "第三章『百万遍之愿』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 93325,
+          "chapter_name": "第四章『鞍马山庄遗物事件簿』",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 93326,
+          "chapter_name": "第五章『祭典之后』",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 93327,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 9922,
+      "id": 9922,
+      "volume_name": "第二卷 真赝事件簿",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 93330,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 93331,
+          "chapter_name": "序章『夏日尾声』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 93332,
+          "chapter_name": "第一章『鉴定师的哲学』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 93333,
+          "chapter_name": "第二章『宛如名画〈宫女〉』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 93334,
+          "chapter_name": "第三章『遗失之龙─梶原秋人的报告─』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 93335,
+          "chapter_name": "第四章『夜长之秋』",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 93336,
+          "chapter_name": "终章『迷惘与顿悟』",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

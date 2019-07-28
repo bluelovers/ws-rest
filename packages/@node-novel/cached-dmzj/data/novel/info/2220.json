@@ -12,12 +12,16 @@
   "hot_hits": 317306,
   "introduction": "　　高中二年级的夏天，佐伯玲二因为事故而丧命。再次醒过来时，出现在他面前的是异世界的大魔术师·杰拜尔。「汝身上密藏着魔力。基于如此的才能，希望你继承吾之门派所创造出来的『魔兽术』。」答应这个请托的玲二——雷伊，便带着新的肉体、强力无比的魔法道具以及成为搭档的魔兽·赛特，在异世界·艾尔杰因开始了第二人生。这是少年在异世界刻划下全新「传说」的故事。",
   "types": [
-    "冒险/魔法/异界/穿越/后宫"
+    "冒险",
+    "魔法",
+    "异界",
+    "穿越",
+    "后宫"
   ],
   "authors": "神无月红",
   "first_letter": "L",
-  "subscribe_num": 10529,
-  "redis_update_time": 1564310187,
+  "subscribe_num": 10530,
+  "redis_update_time": 1564357028,
   "volume": [
     {
       "id": 8242,
@@ -25,7 +29,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1477912954,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8342,
@@ -33,7 +37,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1481116852,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8572,
@@ -41,7 +45,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1490370672,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8683,
@@ -49,7 +53,196 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1495209399,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8242,
+      "id": 8242,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 68165,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68166,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68167,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68168,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68169,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68170,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68171,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 68172,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8342,
+      "id": 8342,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 69609,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69610,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69611,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69612,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69613,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69614,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 69615,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 69616,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8572,
+      "id": 8572,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 73149,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 73150,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 73151,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 73152,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 73153,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 73154,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 73166,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 8683,
+      "id": 8683,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 75192,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75194,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75195,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75196,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75197,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75198,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75199,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75200,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

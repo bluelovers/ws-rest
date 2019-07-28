@@ -12,12 +12,13 @@
   "hot_hits": 0,
   "introduction": "　　久远以前的神话时代中，曾经出现一位魔法师。\n　　他被称为「老师」，传授语言与文化，还教导了魔法。\n　　人们于是称他作──创始魔法师。\n　　虽然也不是那么了不起的存在啦──\n　　「所以我就叫你别喷火啊！」\n　　「对不起、对不起，但对我来说这只是在呼吸嘛。」\n　　转生成为龙的「我」，和精灵族少女尼娜一起，\n　　为了解开这个世界魔法的原理，决定建立一间魔法学校。\n　　在那里，「我」和第一个人类学生爱伊，\n　　有了命运般的邂逅──\n　　这是一头度过漫长生命的龙族魔法师，\n　　创造出魔法、国家以及历史的奇幻年代记。",
   "types": [
-    "异界/穿越"
+    "异界",
+    "穿越"
   ],
   "authors": "石之宫カント",
   "first_letter": "C",
-  "subscribe_num": 6909,
-  "redis_update_time": 1564311244,
+  "subscribe_num": 6917,
+  "redis_update_time": 1564334863,
   "volume": [
     {
       "id": 10146,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 名字的时代",
       "volume_order": 10,
       "addtime": 1559311650,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10147,
@@ -33,7 +34,140 @@
       "volume_name": "第二卷 语言的时代",
       "volume_order": 20,
       "addtime": 1559311974,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10146,
+      "id": 10146,
+      "volume_name": "第一卷 名字的时代",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 96538,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 96539,
+          "chapter_name": "龙历6050年",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 96540,
+          "chapter_name": "龙历0年",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 96541,
+          "chapter_name": "龙历10年",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 96542,
+          "chapter_name": "龙历11年",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 96543,
+          "chapter_name": "龙历12年",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 96544,
+          "chapter_name": "龙历17年",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 96545,
+          "chapter_name": "龙历24年",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 96546,
+          "chapter_name": "龙历57年",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 96547,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 96560,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10147,
+      "id": 10147,
+      "volume_name": "第二卷 语言的时代",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 96548,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 96549,
+          "chapter_name": "龙历509年",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 96550,
+          "chapter_name": "龙历510年",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 96551,
+          "chapter_name": "龙历511年",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 96552,
+          "chapter_name": "龙历515年",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 96553,
+          "chapter_name": "龙历520年",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 96554,
+          "chapter_name": "龙历522年",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 96555,
+          "chapter_name": "龙历523年",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 96556,
+          "chapter_name": "龙历527年",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 96557,
+          "chapter_name": "龙历559年",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 96558,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 96561,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

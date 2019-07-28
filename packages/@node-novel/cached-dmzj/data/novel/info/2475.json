@@ -17,7 +17,7 @@
   "authors": "樋口直哉",
   "first_letter": "T",
   "subscribe_num": 4714,
-  "redis_update_time": 1564303407,
+  "redis_update_time": 1564344067,
   "volume": [
     {
       "id": 9370,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1524280542,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9370,
+      "id": 9370,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 85145,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85153,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85147,
+          "chapter_name": "第一话 法式家常浓汤",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85148,
+          "chapter_name": "第二话 啤酒汤",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85149,
+          "chapter_name": "第三话 罗特列克的汤",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85150,
+          "chapter_name": "第四话 假海龟汤",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85151,
+          "chapter_name": "第五话 天下第一美味汤品",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85152,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 3657,
   "introduction": "(国轻)华夏国最高等的学府，京华大学。虽说是对外招生的最高等学府，但实际上确实每年一半以上名额全部无条件供给国内各个世家的贵族大学。",
   "types": [
-    "校园/治愈"
+    "校园",
+    "治愈"
   ],
   "authors": "言出五味",
   "first_letter": "H",
   "subscribe_num": 1327,
-  "redis_update_time": 1564310956,
+  "redis_update_time": 1564333622,
   "volume": [
     {
       "id": 9937,
@@ -25,7 +26,22 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1549253567,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9937,
+      "id": 9937,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 93643,
+          "chapter_name": "第一章 华夏最高等的学府（贵族），京华大学。",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

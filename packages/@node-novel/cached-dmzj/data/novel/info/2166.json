@@ -12,12 +12,14 @@
   "hot_hits": 64444,
   "introduction": "传说能实现任何愿望的神灯恶魔，\n　　出现在帝国霸王的独生女──珂古兰公主面前。\n　　然而，珂古兰没有任何愿望，泠淡地驱赶恶魔。\n　　不相信贪婪的人类没有颜望的恶魔，不断纠缠珂古兰，\n　　因而得知了「没有愿望」背后哀伤的真相，\n　　以及看似乐园的后宫真正的面貌……\n　　拥有一切却无法实现真正愿望的孤独公主，\n　　能够实现愿望却不被允许拥有愿望的恶魔，\n　　在残酷童话中追求真爱的故事──",
   "types": [
-    "冒险/爱情/奇幻"
+    "冒险",
+    "爱情",
+    "奇幻"
   ],
   "authors": "入江君人",
   "first_letter": "G",
-  "subscribe_num": 5302,
-  "redis_update_time": 1564312306,
+  "subscribe_num": 5304,
+  "redis_update_time": 1564351330,
   "volume": [
     {
       "id": 7998,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1469122114,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8042,
@@ -33,7 +35,115 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1471256159,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7998,
+      "id": 7998,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 64176,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 64177,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 64178,
+          "chapter_name": "第一话 回忆中的小偷",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 64179,
+          "chapter_name": "幕间1 大王",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 64180,
+          "chapter_name": "第二话 弃兵公主",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 64184,
+          "chapter_name": "幕间2 夜宴",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 64183,
+          "chapter_name": "第三话 戏曲《狐狸与老虎的婚姻》",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 64182,
+          "chapter_name": "幕间3 杀死小鸟",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 64181,
+          "chapter_name": "最终话 珂古兰公主与许愿恶魔",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 64185,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8042,
+      "id": 8042,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 64841,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 64842,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 64843,
+          "chapter_name": "第一话 不明的卵",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 64844,
+          "chapter_name": "第二话 火焰般的日子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 64845,
+          "chapter_name": "第三话 国王的庭园",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 64846,
+          "chapter_name": "第四话 太阳与月亮的重逢",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 64847,
+          "chapter_name": "最终话 孩子们",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 64848,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

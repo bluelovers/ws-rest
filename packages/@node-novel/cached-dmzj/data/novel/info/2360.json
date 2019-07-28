@@ -12,12 +12,13 @@
   "hot_hits": 5989,
   "introduction": "鬼才·甲田学人呈现的新学院灵异奇幻剧，开幕！\n\n「魔咒要是让别人看到，五个人之中便有人会死」\n名叫柳瞳佳的少女，转校来到银铃学院高中。她以前曾遭遇灵异事故而受到退学处分，但她转校第一天便被卷入文静少女四人组的魔咒游戏。五个人在无人的校舍厕所里，提心吊胆地开始执行魔咒。先按人数来数数，然后一起面朝镜子拍照。但是，五名少女的合照中，少女们之间的微小缝隙中却出现了第六个人黑色直发的脑袋。随后，参与魔咒的一名少女，忽然人间蒸发……。\n少女的失踪，加上照片中的神秘人影……瞳佳决定向收钱来解决灵异案件的同学——守屋真央来寻求帮助，继而了解到许许多多不为人知的谜题——。",
   "types": [
-    "侦探/校园"
+    "侦探",
+    "校园"
   ],
   "authors": "甲田学人",
   "first_letter": "L",
-  "subscribe_num": 4414,
-  "redis_update_time": 1564310134,
+  "subscribe_num": 4415,
+  "redis_update_time": 1564347050,
   "volume": [
     {
       "id": 8871,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1501490797,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10014,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1552826818,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10126,
@@ -41,7 +42,188 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1558618880,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8871,
+      "id": 8871,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 78016,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78017,
+          "chapter_name": "序章 盒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78018,
+          "chapter_name": "一章 转校生在树丛中",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78019,
+          "chapter_name": "二章 连锁邮件在黑暗中",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78020,
+          "chapter_name": "三章 占卜师在帷幕中",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78021,
+          "chapter_name": "四章 手机在树林中",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 78022,
+          "chapter_name": "五章 开端在结束中",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 78023,
+          "chapter_name": "六章 结束在开端中",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 78024,
+          "chapter_name": "终章 灵感少女在盒中",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 78025,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 78026,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10014,
+      "id": 10014,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 94740,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94741,
+          "chapter_name": "序章 变化",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94742,
+          "chapter_name": "一章 灵感少女的每一天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94743,
+          "chapter_name": "二章 附灵少女的每一天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94744,
+          "chapter_name": "三章 社团少女的每一天",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94745,
+          "chapter_name": "四章 死心少女的每一天",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94746,
+          "chapter_name": "五章 监狱的每一天",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94747,
+          "chapter_name": "六章 重回往日的每一天",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 94748,
+          "chapter_name": "终章 每一天",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 94749,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 94750,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10126,
+      "id": 10126,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 96269,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 96270,
+          "chapter_name": "序章 闹鬼仓库",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 96271,
+          "chapter_name": "一章 睹盒之人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 96272,
+          "chapter_name": "二章 盒在之室",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 96273,
+          "chapter_name": "三章 盒唤之物",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 96274,
+          "chapter_name": "四章 盒视之物",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 96275,
+          "chapter_name": "五章 盒与某物",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 96276,
+          "chapter_name": "间章 人偶房间",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 96277,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

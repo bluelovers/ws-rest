@@ -12,12 +12,13 @@
   "hot_hits": 13994,
   "introduction": "　　在一个大地飘浮于天空，遭上帝舍弃的世界，少年格兰怀抱着前往星之岛「尹斯塔鲁西亚」的梦想。某天格兰在森林练剑时突然听见天上传来巨响，而那竟然是「艾尔斯提帝国」的舰队正在炮撃他居住的村落！！急着赶回村落的格兰，在这时遇见一名蓝发蓝眼的神祕少女露莉亚，而且紧接着出现在两人面前的帝国兵竟用剑指着格兰，威胁他交出少女！！\n　　热门正统奇幻电玩「碧蓝幻想」，正式登场！",
   "types": [
-    "冒险/异界"
+    "冒险",
+    "异界"
   ],
   "authors": "はせがわみやび",
   "first_letter": "B",
   "subscribe_num": 2678,
-  "redis_update_time": 1564305453,
+  "redis_update_time": 1564332184,
   "volume": [
     {
       "id": 8143,
@@ -25,7 +26,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1473743784,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8143,
+      "id": 8143,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 66808,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 66809,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 66810,
+          "chapter_name": "第一章 封闭之岛「塞克汀瑟」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 66811,
+          "chapter_name": "第二章 波特普利慈群岛",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 66812,
+          "chapter_name": "第三章 格拉塞法号",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 66813,
+          "chapter_name": "第四章 蓝风的彼方",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 66814,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 66815,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

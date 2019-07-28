@@ -12,12 +12,14 @@
   "hot_hits": 381635,
   "introduction": "神界的厨房“瓦尔哈拉厨房”在晚饭时分每天都很忙碌！我叫赛伊，身为会说话的野猪受到主神奥丁大人的亲自指名，到厨房来做帮手了——作为‘被料理的对象’！\n不对不对，的确我有着‘一天能复活一次’这样不可思议的能力，但因为这个就要‘每天死掉被做成料理’是不是有点过分了啊！……嘛，拜这所赐我能呆在美丽的女武神·布伦希尔德大人身边，倒也不全是坏事……\n诶，为什么身为神界NO.2的洛奇大人会在这儿？诶，神界遇到危机了让我一起去解决！？不，我只是区区一头野猪啊啊啊——",
   "types": [
-    "搞笑/冒险/异界"
+    "搞笑",
+    "冒险",
+    "异界"
   ],
   "authors": "三镜一敏",
   "first_letter": "W",
-  "subscribe_num": 17552,
-  "redis_update_time": 1564310798,
+  "subscribe_num": 17555,
+  "redis_update_time": 1564357093,
   "volume": [
     {
       "id": 7914,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 山猪与龙的串烧料理",
       "volume_order": 10,
       "addtime": 1466251821,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7959,
@@ -33,7 +35,7 @@
       "volume_name": "短篇",
       "volume_order": 20,
       "addtime": 1468069740,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8374,
@@ -41,7 +43,7 @@
       "volume_name": "第二卷 狼与狂战士的蔬菜杂烩",
       "volume_order": 30,
       "addtime": 1482405490,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8912,
@@ -49,7 +51,7 @@
       "volume_name": "第三卷 金冠鸡与小鹿的烧烤",
       "volume_order": 40,
       "addtime": 1503330283,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9126,
@@ -57,7 +59,7 @@
       "volume_name": "第四卷 山猪与仿山猪的纸包料理",
       "volume_order": 50,
       "addtime": 1513240734,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9451,
@@ -65,7 +67,337 @@
       "volume_name": "第五卷 龙与弒神的主菜",
       "volume_order": 60,
       "addtime": 1527413443,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7914,
+      "id": 7914,
+      "volume_name": "第一卷 山猪与龙的串烧料理",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 90841,
+          "chapter_name": "序章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 90842,
+          "chapter_name": "第一章 ～煤炭色的山猪～",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 90843,
+          "chapter_name": "第二章 ～少女色的午宴～",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 90844,
+          "chapter_name": "第三章 ～末日色的跫音～",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 90845,
+          "chapter_name": "第四章 ～泛黄色的根源～",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 90846,
+          "chapter_name": "第五章 ～疑惑色的古尔维格～",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 90847,
+          "chapter_name": "第六章 ～英雄色的无名小卒～",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 90848,
+          "chapter_name": "终章",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 90849,
+          "chapter_name": "后记",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 62922,
+          "chapter_name": "插图",
+          "chapter_order": 200
+        }
+      ]
+    },
+    {
+      "volume_id": 7959,
+      "id": 7959,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 63483,
+          "chapter_name": "野猪与开始的前菜",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 8374,
+      "id": 8374,
+      "volume_name": "第二卷 狼与狂战士的蔬菜杂烩",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 90850,
+          "chapter_name": "～序章～",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 90851,
+          "chapter_name": "第一章 ～男人色的午宴～",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 90852,
+          "chapter_name": "第二章 ～鲜血色的柯尔穆梅～",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 90853,
+          "chapter_name": "第三章 ～随兴色的外海王～",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 90854,
+          "chapter_name": "第四章 ～信任色的羁绊～",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 90855,
+          "chapter_name": "第五章 ～秘密色的地下活动～",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 90856,
+          "chapter_name": "第六章 ～罪恶色的狂战士～",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 90857,
+          "chapter_name": "～终章～",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 90858,
+          "chapter_name": "后记",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 70138,
+          "chapter_name": "插图",
+          "chapter_order": 210
+        }
+      ]
+    },
+    {
+      "volume_id": 8912,
+      "id": 8912,
+      "volume_name": "第三卷 金冠鸡与小鹿的烧烤",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 90859,
+          "chapter_name": "～序章～",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 90860,
+          "chapter_name": "第一章 ～嫩叶色的求职～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 90861,
+          "chapter_name": "第二章 ～惊奇色的午宴～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 90862,
+          "chapter_name": "第三章 ～败北色的晚餐～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 90863,
+          "chapter_name": "第四章 ～美食色的公鸡～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 90864,
+          "chapter_name": "第五章 ～裁员色的食材～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 90865,
+          "chapter_name": "第六章 ～深情色的主菜～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 90866,
+          "chapter_name": "～终章～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 90867,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 90868,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9126,
+      "id": 9126,
+      "volume_name": "第四卷 山猪与仿山猪的纸包料理",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 90869,
+          "chapter_name": "转载信息",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 90870,
+          "chapter_name": "间章一 ～山猪与最初的前菜～",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 90871,
+          "chapter_name": "～序章～",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 90872,
+          "chapter_name": "第一章 ～无形色的心脏～",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 90873,
+          "chapter_name": "第二章 ～传说色的齐格菲～",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 90874,
+          "chapter_name": "第三章 ～不祥色的墓碑～",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 90875,
+          "chapter_name": "第四章 ～决心色的布伦希尔德～",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 90876,
+          "chapter_name": "间章二 ～山猪与诱惑的罩午餐～",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 90877,
+          "chapter_name": "第五章 ～祸福色的处境～",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 90878,
+          "chapter_name": "第六章 ～诅咒色的弒主之力～",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 90879,
+          "chapter_name": "～终章～",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 90880,
+          "chapter_name": "后记",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 81468,
+          "chapter_name": "插画",
+          "chapter_order": 320
+        }
+      ]
+    },
+    {
+      "volume_id": 9451,
+      "id": 9451,
+      "volume_name": "第五卷 龙与弒神的主菜",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 90881,
+          "chapter_name": "转载信息",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 90882,
+          "chapter_name": "序章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 90883,
+          "chapter_name": "第一章 ～日常色的采集行～",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 90884,
+          "chapter_name": "第二章 ～黄金色的古尔维格～",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 90885,
+          "chapter_name": "第三章 ～赝品色的演唱会～",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 90886,
+          "chapter_name": "第四章 ～彩虹色的追踪者～",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 90887,
+          "chapter_name": "第五章 ～孤独色的赛弗利姆尼尔～",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 90888,
+          "chapter_name": "第六章 ～计策色的凶刃～",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 90889,
+          "chapter_name": "第七章 ～叛逆色的弒神～",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 90890,
+          "chapter_name": "～终章～",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 90891,
+          "chapter_name": "后记",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 86423,
+          "chapter_name": "插画",
+          "chapter_order": 310
+        }
+      ]
     }
   ]
 }

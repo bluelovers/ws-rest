@@ -17,7 +17,7 @@
   "authors": "灿々SUN",
   "first_letter": "Y",
   "subscribe_num": 3521,
-  "redis_update_time": 1564311192,
+  "redis_update_time": 1564341797,
   "volume": [
     {
       "id": 10074,
@@ -25,7 +25,32 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1556199087,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10074,
+      "id": 10074,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 95556,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95557,
+          "chapter_name": "【上篇】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 96521,
+          "chapter_name": "【下篇】",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

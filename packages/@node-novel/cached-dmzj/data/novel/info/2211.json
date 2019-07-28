@@ -12,12 +12,16 @@
   "hot_hits": 1447304,
   "introduction": "某天，在没见过的世界醒来。今年三十岁的独身男三叶大志，他被谜之声所引导，作为冒险者生活。不久因与名叫玛露的冒险者少女相遇，大志被异世界的巨大的波涛所吞没——",
   "types": [
-    "异界/穿越/魔法/冒险/后宫"
+    "异界",
+    "穿越",
+    "魔法",
+    "冒险",
+    "后宫"
   ],
   "authors": "リュート",
   "first_letter": "2",
-  "subscribe_num": 46176,
-  "redis_update_time": 1564310689,
+  "subscribe_num": 46181,
+  "redis_update_time": 1564355856,
   "volume": [
     {
       "id": 8209,
@@ -25,7 +29,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1476283348,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8715,
@@ -33,7 +37,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1496243755,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8716,
@@ -41,7 +45,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1496243897,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9002,
@@ -49,7 +53,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1507798042,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9467,
@@ -57,7 +61,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1527769504,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9696,
@@ -65,7 +69,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1537702662,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9872,
@@ -73,7 +77,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1546511198,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10049,
@@ -81,7 +85,498 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1555083801,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8209,
+      "id": 8209,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 67632,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 67643,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67644,
+          "chapter_name": "第一话~不知不觉来到异世界~",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67645,
+          "chapter_name": "第二话~才第一天就被津津有味地吃掉了~",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67646,
+          "chapter_name": "第三话~去了骑士团，结果被认定为勇者~",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 67647,
+          "chapter_name": "第四话~决定乖乖地前往王都~",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 67648,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 67650,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8715,
+      "id": 8715,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 75797,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75798,
+          "chapter_name": "第一话 ～莫名其妙接收到神谕～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75799,
+          "chapter_name": "第二话 ～决定展开生产活动～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75800,
+          "chapter_name": "第三话 ～正式成为勇者了～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75801,
+          "chapter_name": "第四话 ～大泛滥开始了～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75802,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75812,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 8716,
+      "id": 8716,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 75803,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75804,
+          "chapter_name": "第一话 ～被投以怀疑的目光～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75805,
+          "chapter_name": "第二话 ～拜访兽人村～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75806,
+          "chapter_name": "第三话 ～开始进行各项准备～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75807,
+          "chapter_name": "第四话 ～在人迹未至的秘境遭遇未知事件～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75808,
+          "chapter_name": "第五话 ～在妻子的故乡处境不妙～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75809,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75810,
+          "chapter_name": "闲话 ～怪人～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 75811,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 75813,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9002,
+      "id": 9002,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 80009,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80010,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80011,
+          "chapter_name": "第一话 ～被迫做牛做马～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80012,
+          "chapter_name": "第二话 ～女勇者散发腐烂果实的气味～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80013,
+          "chapter_name": "第三话 ～开始逐步进行事前准备～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80014,
+          "chapter_name": "第四话 ～老婆不知为何一口气增加了～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 80015,
+          "chapter_name": "第五话 ～SAN值差点陷入危机～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 80016,
+          "chapter_name": "第六话 ～赠送秘银短剑给大家～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 80017,
+          "chapter_name": "第七话 ～开始开发领地～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 80018,
+          "chapter_name": "尾声 ～与老婆们的幸福生活～",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 80019,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 80020,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 9467,
+      "id": 9467,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 86594,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86595,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86596,
+          "chapter_name": "第一话～造访鬼人族的村落～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86597,
+          "chapter_name": "第二话～决定讨老婆的欢心～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86598,
+          "chapter_name": "第三话～决定向半人马们下战帖～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86599,
+          "chapter_name": "第四话～大肆大闹了一番～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86600,
+          "chapter_name": "第五话～决定致力于发展领地～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 86601,
+          "chapter_name": "第六话～完全被对方先下手为强～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 86602,
+          "chapter_name": "尾声～其名为──～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 86603,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 86604,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9696,
+      "id": 9696,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 89888,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89889,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89890,
+          "chapter_name": "第一话～被意外重逢吓了一跳～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89891,
+          "chapter_name": "第二话～和平地结束协商～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89892,
+          "chapter_name": "第三话～获得守人（moribito）们赠送的礼物～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89893,
+          "chapter_name": "第四话～邂逅天神了～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89894,
+          "chapter_name": "第五话～终于迎接命运的时刻～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89895,
+          "chapter_name": "第六话～对抗神的试炼～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 89896,
+          "chapter_name": "第七话～被最恶劣的存在附身～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 89897,
+          "chapter_name": "尾声～深信不疑～",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 89898,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 89899,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 9872,
+      "id": 9872,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 92591,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 92592,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 92593,
+          "chapter_name": "第一话 ～开始在精灵村落里生活～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 92594,
+          "chapter_name": "第二话 ～说出野丫头的踪迹～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 92595,
+          "chapter_name": "第三话 ～一同前去筹措物资～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 92596,
+          "chapter_name": "第四话 ～在梦中重逢～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 92597,
+          "chapter_name": "第五话 ～替没用神取名～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 92598,
+          "chapter_name": "第六话 ～事情变得越来越奇怪了～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 92599,
+          "chapter_name": "第七话 ～开始探索古代遗迹～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 92600,
+          "chapter_name": "尾声 ～朦胧的光明～",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 92601,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 92602,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10049,
+      "id": 10049,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 95256,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95257,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95258,
+          "chapter_name": "第一话～前往蛇人族村落～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95259,
+          "chapter_name": "第二话～那家伙终于现身了～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95260,
+          "chapter_name": "第三话～重启遗迹巡访之旅～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95261,
+          "chapter_name": "第四话～终于取回力量～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95262,
+          "chapter_name": "第五话～造访顽固老头的庵室～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95263,
+          "chapter_name": "第六话～天神都是一些怪人～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95264,
+          "chapter_name": "第七话～终于回到这里了～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95265,
+          "chapter_name": "尾声～城市漫步～",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 95266,
+          "chapter_name": "闲话～大志搜索队～",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 95267,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 95268,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

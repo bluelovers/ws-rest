@@ -12,12 +12,15 @@
   "hot_hits": 133920,
   "introduction": "　　由于操控魔法的龙人出现，使得大陆上的人类濒临灭亡。\n　　有一天，守护某村落的剑圣女·梅儿希奥妮结识了来自日本的『忍者』备人。\n　　备人施展超乎常理的剑技与形同魔法的奇妙祕术——忍法，\n　　轻易击溃了一群强大的猪人与妖人。\n　　梅儿看上他的本事，便将他延揽至村中，可是……\n　　「我说啊，亏妳胸前挂着重物还能战斗呢。」\n　　「好、好过分！色狼！我不帮你拿行李了！」\n　　（假装）沉默寡言（内心却爱耍嘴皮子）的忍者\n　　与清纯秀丽（却少了根筋）的银发巨乳女骑士，\n　　虽然两人个性格格不入，但相处起来似乎还不坏……？\n\n　　在此为您献上忍者与龙一决雌雄的人类爱情抗争剧！",
   "types": [
-    "魔法/冒险/异界/穿越"
+    "魔法",
+    "冒险",
+    "异界",
+    "穿越"
   ],
   "authors": "伊达康",
   "first_letter": "R",
-  "subscribe_num": 8928,
-  "redis_update_time": 1564310601,
+  "subscribe_num": 8929,
+  "redis_update_time": 1564355562,
   "volume": [
     {
       "id": 8100,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1472918982,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8238,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1477834463,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9195,
@@ -41,7 +44,153 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1517221875,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8100,
+      "id": 8100,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 66031,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 66033,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 66034,
+          "chapter_name": "第一章 来自日本的忍者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 66035,
+          "chapter_name": "第二章 少女谁也不嫁",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 66036,
+          "chapter_name": "第三章 受挫的心，断裂的大剑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 66037,
+          "chapter_name": "第四章 冰龙的走调戏曲",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 66038,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 66070,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8238,
+      "id": 8238,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 68108,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 68109,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68110,
+          "chapter_name": "第一章 以托盘代剑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68111,
+          "chapter_name": "第二章 女忍者出击",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68112,
+          "chapter_name": "第三章 两位忍者，两名龙人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68113,
+          "chapter_name": "第四章 夜空下的朋友",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68114,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68115,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 9195,
+      "id": 9195,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 82533,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 82534,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 82535,
+          "chapter_name": "第一章 知晓未来的龙人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 82536,
+          "chapter_name": "第二章 绿之亲族、橙之同族",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 82537,
+          "chapter_name": "第三章 琵莉丝的小小冒险",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 82538,
+          "chapter_name": "第四章 通达过去的龙人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 82539,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 82540,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

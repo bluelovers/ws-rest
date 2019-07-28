@@ -17,7 +17,7 @@
   "authors": "桥本昌和",
   "first_letter": "T",
   "subscribe_num": 2117,
-  "redis_update_time": 1564283830,
+  "redis_update_time": 1564337474,
   "volume": [
     {
       "id": 9639,
@@ -25,7 +25,32 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1534920604,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9639,
+      "id": 9639,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 89130,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89131,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89132,
+          "chapter_name": "第一话 既是沉默 又是尾随",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,7 @@
   "authors": "七月隆文",
   "first_letter": "M",
   "subscribe_num": 2584,
-  "redis_update_time": 1564311656,
+  "redis_update_time": 1564342765,
   "volume": [
     {
       "id": 9614,
@@ -25,7 +25,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1533725562,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9614,
+      "id": 9614,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 88747,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 88748,
+          "chapter_name": "楔子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 88749,
+          "chapter_name": "第一章 你",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 88750,
+          "chapter_name": "第二章 盒子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 88751,
+          "chapter_name": "第三章 明天，我要和昨天的你约会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 88752,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 88753,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 150749,
   "introduction": "　　「由我来当这个世界的最终头目。」\n　　被称为「异能之王」而受世人畏惧的最终头目•空飞，\n　　因毁灭世界的计画失败而丧命。\n　　但当他再度睁开眼，却发现自己处在神秘的四坪大空间内。\n　　集结黑化的勇者以及异形等六位最终头目「瑕疵品」，\n　　以复活到原来的世界为条件，自称「最终头目更生官」的美少女──\n　　向日葵对他们下达了共同拯救异世界的指示。\n　　然而，强大又邪恶的问题儿童军团实在太刚愎自用＆我行我素，\n　　原本应该得救的世界反而一眨眼就陷入灭亡危机！？\n　　前所未闻！恶贯满盈的拯救异世界战斗动作剧！",
   "types": [
-    "异界/魔法"
+    "异界",
+    "魔法"
   ],
   "authors": "柳实冬贵",
   "first_letter": "M",
-  "subscribe_num": 10569,
-  "redis_update_time": 1564312537,
+  "subscribe_num": 10571,
+  "redis_update_time": 1564346402,
   "volume": [
     {
       "id": 9133,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1513508151,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9421,
@@ -33,7 +34,130 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1525958781,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9133,
+      "id": 9133,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 81549,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81550,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81551,
+          "chapter_name": "第一关 因为你们是最终头目啊",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81552,
+          "chapter_name": "第二关 最终头目太强，适用新的破关条件",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81553,
+          "chapter_name": "第三关 最终头目如何拯救世界",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81554,
+          "chapter_name": "Game over 最终头目王位争夺战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81555,
+          "chapter_name": "终章 最终头目会继续拯救世界",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81556,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 81557,
+          "chapter_name": "特典小册子",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 81573,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9421,
+      "id": 9421,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 85887,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85888,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85889,
+          "chapter_name": "第一关 向日葵家游手好闲的食客们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85890,
+          "chapter_name": "第二关 培育英雄吧！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85891,
+          "chapter_name": "第三关 雅俐奥修",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85892,
+          "chapter_name": "第四关 请指导我",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85893,
+          "chapter_name": "第五关 英雄的条件",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85894,
+          "chapter_name": "Game Over 模拟演习",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85895,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 85896,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 85900,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

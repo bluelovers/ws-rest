@@ -12,12 +12,15 @@
   "hot_hits": 216080,
   "introduction": "　　男子名为雷西·斯洛特道兹。过去是个渺小上班族的他，在死后转生到了异世界，获得了恶魔的职阶。但他每天懒散度日，不知不觉就成为了执掌堕落（acedia）的魔王。大魔王对这样的他下达了如此敕令：「去消灭起兵造反的暴食魔王西卜·格拉高斯吧！」但怠惰之王雷西仍然待在床上一动也不动。其臣下，贪婪戴奇及色欲米蒂雅代替这样的魔王前往讨伐暴食之王，但──！？欲望漩涡翻腾的堕落转生幻想故事！",
   "types": [
-    "异界/穿越/后宫/冒险"
+    "异界",
+    "穿越",
+    "后宫",
+    "冒险"
   ],
   "authors": "槻影",
   "first_letter": "D",
-  "subscribe_num": 13447,
-  "redis_update_time": 1564312324,
+  "subscribe_num": 13446,
+  "redis_update_time": 1564343938,
   "volume": [
     {
       "id": 8403,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1483880627,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8750,
@@ -33,7 +36,115 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1497715312,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8403,
+      "id": 8403,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 70596,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 70597,
+          "chapter_name": "{Chapter.1} 怠惰（acedia）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 70598,
+          "chapter_name": "{Chapter.2} 贪婪（avaritia）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 70599,
+          "chapter_name": "{Chapter.3} 色欲（luxuria）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 70600,
+          "chapter_name": "{Chapter.4} 愤怒（ira）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 70601,
+          "chapter_name": "{Chapter.5} 暴食（gula）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 70602,
+          "chapter_name": "{Epilogue.} 胜利的代价",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 70603,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 70604,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8750,
+      "id": 8750,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 76532,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 76533,
+          "chapter_name": "Prologue 一切顺其自然",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 76534,
+          "chapter_name": "Chapter.1 ─愤怒─",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 76535,
+          "chapter_name": "Chapter.2 ─嫉妒─",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 76536,
+          "chapter_name": "Chapter.3 ─傲慢─",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 76537,
+          "chapter_name": "Chapter.4 ─忧郁─",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 76538,
+          "chapter_name": "番外篇 希萝的复仇",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 76539,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 76540,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

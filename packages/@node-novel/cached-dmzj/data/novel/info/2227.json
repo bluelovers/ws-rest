@@ -12,12 +12,14 @@
   "hot_hits": 19215,
   "introduction": "卡其拉大陆。\n    这个星球最大且最繁华的大陆。\n    在这里，有着川流不息的江河，有着黄沙弥漫的大漠；也有着枝繁叶茂的雨林，有着一马平川的草原。\n    碎片与菲晶，卡其拉大陆最神奇的物质。碎片蕴含着着神奇的魔法力量，而菲晶有着物理上近乎万能的延展性。\n    魔法与科学交错发展，逐渐形成了现在繁荣的菲女神文明——\n\n    女神历412年。\n    卡其拉大陆最大的商会九尾商会派出一支商队来到圣王国的重镇暮城。\n    跟随着商队的少年工匠特特鲁，在旅途中救下了一名异族的少女。在把少女送回异族的聚居地却被卷入了一系列事件中。\n    \n    由碎片“魔法”与菲晶“科学”交织的原创奇幻世界，在这里即将启程！",
   "types": [
-    "冒险/奇幻/异界"
+    "冒险",
+    "奇幻",
+    "异界"
   ],
   "authors": "海潮探长",
   "first_letter": "S",
   "subscribe_num": 3610,
-  "redis_update_time": 1564301268,
+  "redis_update_time": 1564345203,
   "volume": [
     {
       "id": 8275,
@@ -25,7 +27,7 @@
       "volume_name": "第一幕 上",
       "volume_order": 10,
       "addtime": 1478753966,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8803,
@@ -33,7 +35,145 @@
       "volume_name": "第一幕 下",
       "volume_order": 20,
       "addtime": 1499077405,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8275,
+      "id": 8275,
+      "volume_name": "第一幕 上",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 68594,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68595,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68596,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68597,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68598,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68599,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68600,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 68602,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8803,
+      "id": 8803,
+      "volume_name": "第一幕 下",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 77047,
+          "chapter_name": "第七章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77048,
+          "chapter_name": "第八章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77049,
+          "chapter_name": "第九章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77050,
+          "chapter_name": "第十章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77051,
+          "chapter_name": "第十一章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77052,
+          "chapter_name": "第十二章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77053,
+          "chapter_name": "第十三章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77054,
+          "chapter_name": "第十四章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77055,
+          "chapter_name": "第十五章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 77056,
+          "chapter_name": "第十六章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 77057,
+          "chapter_name": "第十七章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 77058,
+          "chapter_name": "第十八章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 77059,
+          "chapter_name": "第十九章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 77060,
+          "chapter_name": "第二十章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 77061,
+          "chapter_name": "第二十一章",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 77062,
+          "chapter_name": "第二十二章",
+          "chapter_order": 160
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,7 @@
   "authors": "唐边叶介",
   "first_letter": "B",
   "subscribe_num": 1645,
-  "redis_update_time": 1564308401,
+  "redis_update_time": 1564347636,
   "volume": [
     {
       "id": 9093,
@@ -25,7 +25,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1511782591,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9093,
+      "id": 9093,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 81089,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81090,
+          "chapter_name": "第一章 俣野修一",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81091,
+          "chapter_name": "第二章 中村花绘",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81092,
+          "chapter_name": "第三章「安娜.玛丽症候群」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81093,
+          "chapter_name": "结尾",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

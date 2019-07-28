@@ -12,12 +12,13 @@
   "hot_hits": 25080,
   "introduction": "　　尸体般的雪白肌肤、魔女般的乌黑长发，\n　　住在废墟中的谜样美少女（与柴犬高一生）将解开校园之谜……\n\n　　柴山佑希，高中一年级，\n　　在班上找不到自己的归属，学校生活平淡无味。\n　　某天，学校对面的废墟大楼中，出现一位妖艳性感的美少女茉莉。\n　　她的头发乌黑，肤色雪白，身上总是飘散草莓的香气。\n\n　　「你这家伙，有没有兴趣调查原始人？」\n\n　　期待桃色恋情的柴山，\n　　就此开始被神秘美少女当成「柴犬」般呼来唤去的日子。\n　　为了完成茉莉的指令，柴山也跟同学们产生连结；\n　　并且发现逐一解开的校园谜团，原来都曾是某人的喜怒哀乐……",
   "types": [
-    "校园/侦探"
+    "校园",
+    "侦探"
   ],
   "authors": "相泽沙呼",
   "first_letter": "M",
-  "subscribe_num": 5470,
-  "redis_update_time": 1564303159,
+  "subscribe_num": 5471,
+  "redis_update_time": 1564340488,
   "volume": [
     {
       "id": 9021,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1508936583,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 9426,
@@ -33,7 +34,85 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1526313210,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9021,
+      "id": 9021,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 80310,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80311,
+          "chapter_name": "◆原始人快跑◆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80312,
+          "chapter_name": "◆亡灵望远镜◆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80313,
+          "chapter_name": "◆变装恶作剧◆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80314,
+          "chapter_name": "◆忧郁症再见◆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80315,
+          "chapter_name": "解说",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9426,
+      "id": 9426,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 85987,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85988,
+          "chapter_name": "&#10022;落花自卑感&#10022;",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85989,
+          "chapter_name": "&#10022;灵异侦探&#10022;",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85990,
+          "chapter_name": "&#10022;坠落隐形人&#10022;",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85991,
+          "chapter_name": "&#10022;再会吧孤独&#10022;",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85992,
+          "chapter_name": "解说",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

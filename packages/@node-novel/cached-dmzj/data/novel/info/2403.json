@@ -12,12 +12,14 @@
   "hot_hits": 37496,
   "introduction": "描述阿良良木历大学四年的故事。前接《物语系列 Off Season》内容。",
   "types": [
-    "校园/爱情/奇幻"
+    "校园",
+    "爱情",
+    "奇幻"
   ],
   "authors": "西尾维新",
   "first_letter": "W",
-  "subscribe_num": 9830,
-  "redis_update_time": 1564311303,
+  "subscribe_num": 9835,
+  "redis_update_time": 1564337741,
   "volume": [
     {
       "id": 9083,
@@ -25,7 +27,52 @@
       "volume_name": "第一卷 忍物语",
       "volume_order": 10,
       "addtime": 1511188466,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9083,
+      "id": 9083,
+      "volume_name": "第一卷 忍物语",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 81003,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81004,
+          "chapter_name": "001－010",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81005,
+          "chapter_name": "011－020",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81006,
+          "chapter_name": "021－030",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81007,
+          "chapter_name": "031－040",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81008,
+          "chapter_name": "041－050",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81009,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

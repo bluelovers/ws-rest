@@ -12,12 +12,13 @@
   "hot_hits": 165885,
   "introduction": "一处位于关东地区的乡下城镇，为了满足一己之欲(游戏用电脑)，村上政树跨县进入私立岩下学园就读后没多久便面临一道转机。「我有事想拜托你，可以吗？」原来竟是长岛薰子毫无预警跑来拜托政树当她的「假情人」。原因是薰子的家为当地名门世家，为了不想被安排相亲才提出如此请求。没想到，就在薰子的父亲见到政树后，竟查出一件出乎意料的事实！就是村上家居然曾经是长岛家的主人，眨眼间让两人之间从「情人」晋升成「未婚夫妻」!?再加上，其实这两人都各自怀有一个重大的秘密——正是所谓「隐性宅男」、「隐性腐女」的秘密！",
   "types": [
-    "校园/爱情"
+    "校园",
+    "爱情"
   ],
   "authors": "渡边恒彦",
   "first_letter": "J",
   "subscribe_num": 11210,
-  "redis_update_time": 1564310216,
+  "redis_update_time": 1564342942,
   "volume": [
     {
       "id": 9127,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 上",
       "volume_order": 10,
       "addtime": 1513322768,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9203,
@@ -33,7 +34,140 @@
       "volume_name": "第一卷 下",
       "volume_order": 20,
       "addtime": 1517814366,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9127,
+      "id": 9127,
+      "volume_name": "第一卷 上",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 81469,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81470,
+          "chapter_name": "序章 订婚仪式",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81471,
+          "chapter_name": "第一章 跨县就读",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81472,
+          "chapter_name": "第二章 伪装男友",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81473,
+          "chapter_name": "第三章 发现宗家",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81474,
+          "chapter_name": "第四章 从伪装情侣到尝试交往",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81475,
+          "chapter_name": "第五章 伪装交往，正式起跑",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81476,
+          "chapter_name": "第六章 交往宣言",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 81477,
+          "chapter_name": "第七章 偶然的遭遇，恐怖的遭遇",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 81478,
+          "chapter_name": "终章 长岛薰子的独白",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 81479,
+          "chapter_name": "附赠小册子 欢送比赛",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 81489,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 9203,
+      "id": 9203,
+      "volume_name": "第一卷 下",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 82663,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 82664,
+          "chapter_name": "序章 黄金周前日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 82665,
+          "chapter_name": "第一章 黄金周前夜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 82666,
+          "chapter_name": "幕间1 调查结果",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 82667,
+          "chapter_name": "第二章 同人志贩售会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 82668,
+          "chapter_name": "幕间2 佐竹则武的视力",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 82669,
+          "chapter_name": "第三章 在现实与网路间擦身而过",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 82670,
+          "chapter_name": "第四章 约会初体验",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 82671,
+          "chapter_name": "第五章 约会当天，各自的夜晚",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 82672,
+          "chapter_name": "终章 长岛薰子的独白",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 82676,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

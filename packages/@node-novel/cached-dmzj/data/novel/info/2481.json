@@ -12,12 +12,16 @@
   "hot_hits": 157863,
   "introduction": "在前世不幸地死去，醒来后转生为最弱小的精灵的哥布朗。但是，吃了强者就会变强的【吸食能力】使之异常的进化着、不知不觉间在妖精世界变得君临天下！弱肉强食的异世界、得力部下与关系网的不断扩展、痛快的以下克上幻想生存故事",
   "types": [
-    "异界/穿越/后宫/冒险/魔法"
+    "异界",
+    "穿越",
+    "后宫",
+    "冒险",
+    "魔法"
   ],
   "authors": "金斩儿狐",
   "first_letter": "R",
-  "subscribe_num": 11663,
-  "redis_update_time": 1564312606,
+  "subscribe_num": 11667,
+  "redis_update_time": 1564342074,
   "volume": [
     {
       "id": 9412,
@@ -25,7 +29,7 @@
       "volume_name": "文库版第一卷",
       "volume_order": 5,
       "addtime": 1525857881,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9410,
@@ -33,7 +37,7 @@
       "volume_name": "web版Day1-100试看",
       "volume_order": 10,
       "addtime": 1525745750,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9413,
@@ -41,7 +45,183 @@
       "volume_name": "web版Day101-200试看",
       "volume_order": 20,
       "addtime": 1525860115,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9412,
+      "id": 9412,
+      "volume_name": "文库版第一卷",
+      "volume_order": 5,
+      "chapters": [
+        {
+          "chapter_id": 85785,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85786,
+          "chapter_name": "第一日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85787,
+          "chapter_name": "第二日",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85788,
+          "chapter_name": "第三日",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85789,
+          "chapter_name": "第四日",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85790,
+          "chapter_name": "第五日",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9410,
+      "id": 9410,
+      "volume_name": "web版Day1-100试看",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 85754,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85756,
+          "chapter_name": "Day 1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85757,
+          "chapter_name": "番外 前世",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85758,
+          "chapter_name": "Day2-10",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85759,
+          "chapter_name": "Day11-20",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85760,
+          "chapter_name": "Day21-30",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85761,
+          "chapter_name": "Day31-40",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85762,
+          "chapter_name": "Day41-50",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85763,
+          "chapter_name": "Day51-60",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 85764,
+          "chapter_name": "Day61-70",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 85765,
+          "chapter_name": "Day71-80",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 85766,
+          "chapter_name": "Day81-90",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 85767,
+          "chapter_name": "Day91-100",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 9413,
+      "id": 9413,
+      "volume_name": "web版Day101-200试看",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 85791,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85792,
+          "chapter_name": "Day101-110",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85793,
+          "chapter_name": "Day111-120",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85794,
+          "chapter_name": "Day121-130",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85795,
+          "chapter_name": "Day131-140",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85796,
+          "chapter_name": "Day141-150",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85797,
+          "chapter_name": "Day151-160",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85798,
+          "chapter_name": "Day161-170",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85799,
+          "chapter_name": "Day171-180",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 85800,
+          "chapter_name": "Day181-190",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 85801,
+          "chapter_name": "Day191-200",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

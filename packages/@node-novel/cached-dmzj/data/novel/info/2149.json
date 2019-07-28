@@ -12,12 +12,13 @@
   "hot_hits": 75728,
   "introduction": "仙人太公望，是个不断请带薪假，成天在家里打电动的尼特族。某天，昆仑为了导正历史，将太公望派遣至「殷」，并命他消灭妖狐妲己。为了帮助太公望，天才抖S美少女仙人杨戬、宝贝少女˙哪吒、体育系少女˙四不像陆陆续续被派往他的身边。尼特族仙人太公望与美少女仙人们，就此开启了与妲己之间的战争。",
   "types": [
-    "冒险/搞笑"
+    "冒险",
+    "搞笑"
   ],
   "authors": "森田季节",
   "first_letter": "F",
-  "subscribe_num": 4207,
-  "redis_update_time": 1564307211,
+  "subscribe_num": 4206,
+  "redis_update_time": 1564338115,
   "volume": [
     {
       "id": 7886,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1465451431,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8901,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1502704607,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9240,
@@ -41,7 +42,158 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1519464020,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7886,
+      "id": 7886,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 62527,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 62528,
+          "chapter_name": "第1回 太公望，带薪假破灭，回归职场",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 62529,
+          "chapter_name": "第2回 在殷进行第一次封神",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62530,
+          "chapter_name": "第3回 太公望，和杨戬合力与妲己一战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 62531,
+          "chapter_name": "第4回 太公望，于西岐之地钓鱼",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62532,
+          "chapter_name": "第5回 太公望，以西岐军师之名，率军出征",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 62533,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 62534,
+          "chapter_name": "bookwalker特典 四不像，成为跑腿",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 62535,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8901,
+      "id": 8901,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 78666,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78667,
+          "chapter_name": "第6回 胡喜媚，与金鳌结成同盟",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78668,
+          "chapter_name": "第7回 太公望，运筹帷幄以备金鳌来袭",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78669,
+          "chapter_name": "第8回 哪吒，与魔家四将大战。又及太上老君，获得坐骑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78670,
+          "chapter_name": "第9回 赵公明，架设游戏之阵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78671,
+          "chapter_name": "第10回 纣王，展开第二人生",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 78672,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 9240,
+      "id": 9240,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 83043,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83044,
+          "chapter_name": "第11回 太乙真人，根除疾病",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83045,
+          "chapter_name": "第12回 妲己，完成新专辑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83046,
+          "chapter_name": "第13回 昆仑的仙人们，与闻仲进行竞争",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83047,
+          "chapter_name": "第14回 闻仲，为昆仑提供协助 附太上老君，讲述天的存在",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83048,
+          "chapter_name": "第15回 太公望众人，再度攻进朝歌",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83049,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83050,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83051,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

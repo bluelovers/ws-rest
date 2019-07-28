@@ -12,12 +12,13 @@
   "hot_hits": 15253,
   "introduction": "玩家超过八百万。\n博得世界各地粉丝热爱的台湾手机音游《Deemo》\n美丽而又伤感的故事终于得以小说化！\n迷失在奇妙空间的少女，与浑身漆黑的男人“Deemo”\n相逢的二人弹奏钢琴就会成长的树木，和树木之上少女的“归处”\n少女最后向Deemo许下的愿望是——",
   "types": [
-    "魔法/爱情"
+    "魔法",
+    "爱情"
   ],
   "authors": "木尔チレン",
   "first_letter": "D",
   "subscribe_num": 2297,
-  "redis_update_time": 1564264391,
+  "redis_update_time": 1564343532,
   "volume": [
     {
       "id": 8180,
@@ -25,7 +26,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1475060851,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8180,
+      "id": 8180,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 67296,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 67297,
+          "chapter_name": "prologue「Dream」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67298,
+          "chapter_name": "第2乐章「过去」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67299,
+          "chapter_name": "第2乐章「Last Dream」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67300,
+          "chapter_name": "第2乐章「Etemal Dream」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 67301,
+          "chapter_name": "最终乐章「未来」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 67302,
+          "chapter_name": "epilogue「Deemo」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 67303,
+          "chapter_name": "虎之穴加笔短篇 Alice in wonder Love",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 67304,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 67305,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

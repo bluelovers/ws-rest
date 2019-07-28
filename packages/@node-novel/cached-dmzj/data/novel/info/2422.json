@@ -12,12 +12,13 @@
   "hot_hits": 7902,
   "introduction": "暂无简介",
   "types": [
-    "校园/励志"
+    "校园",
+    "励志"
   ],
   "authors": "武田绫乃",
   "first_letter": "C",
-  "subscribe_num": 2695,
-  "redis_update_time": 1564309804,
+  "subscribe_num": 2696,
+  "redis_update_time": 1564344494,
   "volume": [
     {
       "id": 9153,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 前篇",
       "volume_order": 10,
       "addtime": 1514957455,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9225,
@@ -33,7 +34,85 @@
       "volume_name": "第二卷 后篇",
       "volume_order": 20,
       "addtime": 1518863459,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9153,
+      "id": 9153,
+      "volume_name": "第一卷 前篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 81765,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81766,
+          "chapter_name": "第一章 暴走的行奏赛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81767,
+          "chapter_name": "第二章 追忆的回望",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81768,
+          "chapter_name": "第三章 紧张的滑步",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81769,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 9225,
+      "id": 9225,
+      "volume_name": "第二卷 后篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 82854,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 82855,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 82856,
+          "chapter_name": "第一章 妄想的踏步",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 82857,
+          "chapter_name": "第二章 瞬间的稍息",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 82858,
+          "chapter_name": "第三章 无意识的挺胸",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 82859,
+          "chapter_name": "第四章 青春的抬鸣",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 82860,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 165946,
   "introduction": "少年‧臯羽空太的剑术高超，校方看中了他的能力，让他进入聚集众多一流魔术师的学校就读。空太在校内遇见世界首屈一指的天才魔术师，「七星骑士」之一的费莉西雅。两人的邂逅将让世界的命运产生剧烈变化。当七位魔术师开始跟随最强的剑士‧空太之际──崭新传说即将拉开序幕！",
   "types": [
-    "魔法/校园/后宫"
+    "魔法",
+    "校园",
+    "后宫"
   ],
   "authors": "柑橘ゆすら",
   "first_letter": "J",
-  "subscribe_num": 9542,
-  "redis_update_time": 1564312752,
+  "subscribe_num": 9545,
+  "redis_update_time": 1564351842,
   "volume": [
     {
       "id": 8052,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1471589926,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9910,
@@ -33,7 +35,145 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1548070065,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8052,
+      "id": 8052,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 65316,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 65317,
+          "chapter_name": "前话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65318,
+          "chapter_name": "第一话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 65319,
+          "chapter_name": "第二话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 65320,
+          "chapter_name": "第三话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 65321,
+          "chapter_name": "第四话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 65322,
+          "chapter_name": "第五话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 65323,
+          "chapter_name": "第六话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 65324,
+          "chapter_name": "第七话",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 65325,
+          "chapter_name": "第八话",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 65326,
+          "chapter_name": "尾声",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 65327,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 65360,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 9910,
+      "id": 9910,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 93165,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 93166,
+          "chapter_name": "前话 夏天的回忆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 93167,
+          "chapter_name": "第一话 冬华教练的诞生",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 93168,
+          "chapter_name": "第二话 雪城的诅咒",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 93169,
+          "chapter_name": "第三话 冬华攻略计画",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 93170,
+          "chapter_name": "第四话 准备学园祭",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 93171,
+          "chapter_name": "第五话 樱花祭当天",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 93172,
+          "chapter_name": "第六话 鬼灾来袭",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 93173,
+          "chapter_name": "尾声 各自的想法",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 93174,
+          "chapter_name": "下一回前话 新的刺客～傀雷少女～",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 93175,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

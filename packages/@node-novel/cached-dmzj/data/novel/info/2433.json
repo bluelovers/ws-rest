@@ -12,12 +12,13 @@
   "hot_hits": 170460,
   "introduction": "　　住在迷宫都市的少年剑士·亚德，因为本身受到【厄运】的祝福，无法以冒险维生。有一天，他误入陷阱被送去某个地方，在那里捡到了3个少女。她们是古代文明创造出来的〈神兽〉，第一眼看到亚德就认定他为爸爸！加上青梅竹马莉乌娜，亚德和她们成了一家人。\n　　不过，白天要照顾孩子加打工，亚德能够去迷宫中探险的时间仅限于睡前两小时！？即使如此，为了女儿还是得去挑战迷宫──什么？你们要跟着一起去？制作装备就交给你们？你们还可以预知迷宫里会发生什么事？借着女儿们的作弊能力，底层剑士变成史上进展最快的冒险者，赚钱轻而易举！\n　　家庭成员本身就像个小型公会，大家在迷宫都市一起过着轻松悠闲的生活，故事就此展开！",
   "types": [
-    "冒险/奇幻"
+    "冒险",
+    "奇幻"
   ],
   "authors": "番棚葵",
   "first_letter": "D",
-  "subscribe_num": 13810,
-  "redis_update_time": 1564311124,
+  "subscribe_num": 13816,
+  "redis_update_time": 1564345352,
   "volume": [
     {
       "id": 9226,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 全家携手攻略迷宫",
       "volume_order": 10,
       "addtime": 1518864553,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9644,
@@ -33,7 +34,125 @@
       "volume_name": "第二卷 全家携手去冒险者学院",
       "volume_order": 20,
       "addtime": 1535092900,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9226,
+      "id": 9226,
+      "volume_name": "第一卷 全家携手攻略迷宫",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 82861,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 82862,
+          "chapter_name": "第一章 〈神兽〉女儿们",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 82863,
+          "chapter_name": "第二章 神兽技能与郊游",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 82864,
+          "chapter_name": "第三章 梦幻『神兽装备』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 82865,
+          "chapter_name": "第四章 家人之间的距离",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 82866,
+          "chapter_name": "第五章 地龙现身，然后──",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 82867,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 82868,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 82869,
+          "chapter_name": "特典小册子『暖心家庭料理❤』",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 82975,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9644,
+      "id": 9644,
+      "volume_name": "第二卷 全家携手去冒险者学院",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 89179,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89180,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89181,
+          "chapter_name": "第一章 第一次当『老师』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89182,
+          "chapter_name": "第二章 护花使者是勇者的必备条件？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89183,
+          "chapter_name": "第三章 狼人的忧郁",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89184,
+          "chapter_name": "第四章 小小的一步",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89185,
+          "chapter_name": "第五章 〈神兽〉们的选择",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89186,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 89187,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 89188,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

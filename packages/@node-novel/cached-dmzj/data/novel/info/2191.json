@@ -12,12 +12,15 @@
   "hot_hits": 231892,
   "introduction": "作为勇者被召唤到未知世界，勇者居然那么多！？还没来得及开展冒险就和友人一起被送进了牢房。啊啊，曾经还发生过这种事情来着......勇者？那种东西怎样都无所谓，现在的我只是一个想游览世界的通缉犯而已，这个世界的事情怎样都无所谓，我只按照自己的想法生活...... 【国轻】有意见或更好的构思可以加作者q群哦。群号：193192523",
   "types": [
-    "魔法/冒险/穿越/异界"
+    "魔法",
+    "冒险",
+    "穿越",
+    "异界"
   ],
   "authors": "蛮骨",
   "first_letter": "Y",
   "subscribe_num": 4502,
-  "redis_update_time": 1564310231,
+  "redis_update_time": 1564356413,
   "volume": [
     {
       "id": 8122,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1473170956,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8135,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1473509161,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8489,
@@ -41,7 +44,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1486467064,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8943,
@@ -49,7 +52,331 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1504341658,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8122,
+      "id": 8122,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 66406,
+          "chapter_name": "插画草图",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 66393,
+          "chapter_name": "作者投稿",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 66394,
+          "chapter_name": "第01话",
+          "chapter_order": 15
+        },
+        {
+          "chapter_id": 66395,
+          "chapter_name": "第02话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 66396,
+          "chapter_name": "第03话",
+          "chapter_order": 25
+        },
+        {
+          "chapter_id": 66397,
+          "chapter_name": "第04话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 66398,
+          "chapter_name": "第05话",
+          "chapter_order": 35
+        },
+        {
+          "chapter_id": 66399,
+          "chapter_name": "第06话",
+          "chapter_order": 38
+        },
+        {
+          "chapter_id": 66400,
+          "chapter_name": "第07话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 66401,
+          "chapter_name": "第08话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 66402,
+          "chapter_name": "第09话",
+          "chapter_order": 55
+        },
+        {
+          "chapter_id": 66403,
+          "chapter_name": "第10话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 66404,
+          "chapter_name": "第11话",
+          "chapter_order": 65
+        },
+        {
+          "chapter_id": 66405,
+          "chapter_name": "第12话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 66536,
+          "chapter_name": "第13话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 66792,
+          "chapter_name": "第14话",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 66793,
+          "chapter_name": "第15话",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 8135,
+      "id": 8135,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 66661,
+          "chapter_name": "作者投稿",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 66794,
+          "chapter_name": "第01话",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 66795,
+          "chapter_name": "第02话",
+          "chapter_order": 145
+        },
+        {
+          "chapter_id": 66796,
+          "chapter_name": "第03话",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 66797,
+          "chapter_name": "第04话",
+          "chapter_order": 155
+        },
+        {
+          "chapter_id": 66798,
+          "chapter_name": "第05话",
+          "chapter_order": 158
+        },
+        {
+          "chapter_id": 66799,
+          "chapter_name": "第06话",
+          "chapter_order": 163
+        },
+        {
+          "chapter_id": 66800,
+          "chapter_name": "第07话",
+          "chapter_order": 165
+        },
+        {
+          "chapter_id": 66801,
+          "chapter_name": "第08话",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 66802,
+          "chapter_name": "第09话",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 66803,
+          "chapter_name": "第10话",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 66804,
+          "chapter_name": "第11话",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 67249,
+          "chapter_name": "第12话",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 67250,
+          "chapter_name": "第13话",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 67251,
+          "chapter_name": "第14话",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 67252,
+          "chapter_name": "第15话",
+          "chapter_order": 240
+        }
+      ]
+    },
+    {
+      "volume_id": 8489,
+      "id": 8489,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 71812,
+          "chapter_name": "作者投稿",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 71813,
+          "chapter_name": "第01话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71814,
+          "chapter_name": "第02话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 71815,
+          "chapter_name": "第03话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71816,
+          "chapter_name": "第04话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 71817,
+          "chapter_name": "第05话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 71818,
+          "chapter_name": "第06话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 71819,
+          "chapter_name": "第07话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 71820,
+          "chapter_name": "第08话",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 71821,
+          "chapter_name": "第09话",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 71822,
+          "chapter_name": "第10话",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 71823,
+          "chapter_name": "第11话",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 71824,
+          "chapter_name": "第12话",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 71825,
+          "chapter_name": "第13话",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 71826,
+          "chapter_name": "第14话",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 72117,
+          "chapter_name": "第15话",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 72118,
+          "chapter_name": "作者后话",
+          "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 8943,
+      "id": 8943,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 79144,
+          "chapter_name": "作者投稿",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 79145,
+          "chapter_name": "第01话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 79146,
+          "chapter_name": "第02话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 79147,
+          "chapter_name": "第03话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 79148,
+          "chapter_name": "第04话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 79149,
+          "chapter_name": "第05话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 79150,
+          "chapter_name": "第06话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 79151,
+          "chapter_name": "第07话",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

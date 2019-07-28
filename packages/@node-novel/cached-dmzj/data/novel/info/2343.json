@@ -16,8 +16,8 @@
   ],
   "authors": "黒田百年/三嶋黑音",
   "first_letter": "B",
-  "subscribe_num": 2658,
-  "redis_update_time": 1564295810,
+  "subscribe_num": 2664,
+  "redis_update_time": 1564345817,
   "volume": [
     {
       "id": 8760,
@@ -25,7 +25,37 @@
       "volume_name": "外传「幼女的前奏曲」",
       "volume_order": 10,
       "addtime": 1498049662,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8760,
+      "id": 8760,
+      "volume_name": "外传「幼女的前奏曲」",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 76680,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 76681,
+          "chapter_name": "——序章——",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 76682,
+          "chapter_name": "——第1章《半步》——",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 76683,
+          "chapter_name": "——第2章《初阵》——",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

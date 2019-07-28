@@ -12,12 +12,13 @@
   "hot_hits": 9578,
   "introduction": "『致爱上你的唯一的我』与『致我所爱的全部的你』同时刊行，两本书是平行世界，无前后阅读关系。\n\n人们会经常地变动于仅有些许差别的平行世界，这点在这个世界已被证明——\n因为两亲离婚而和父亲住在一起的日高历，在父亲任职的虚质科学研究所里与名为佐籐栞相遇了。\n互相抱有淡淡恋心的两人，在某天因为父母的再婚问题而大大改变。\n认为已经无法和对方结婚的历和栞，决定跳跃到不会成为兄妹的世界……\n她不在的世界毫无意义。",
   "types": [
-    "爱情/科幻"
+    "爱情",
+    "科幻"
   ],
   "authors": "乙野四方字",
   "first_letter": "Z",
-  "subscribe_num": 8868,
-  "redis_update_time": 1564311954,
+  "subscribe_num": 8884,
+  "redis_update_time": 1564348577,
   "volume": [
     {
       "id": 8833,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 致爱上你的唯一的我",
       "volume_order": 10,
       "addtime": 1500029856,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8834,
@@ -33,7 +34,140 @@
       "volume_name": "第二卷 致我所爱的全部的你",
       "volume_order": 20,
       "addtime": 1500030047,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8833,
+      "id": 8833,
+      "volume_name": "第一卷 致爱上你的唯一的我",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 77519,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77520,
+          "chapter_name": "序章，又或是终章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77521,
+          "chapter_name": "第一章 幼年期",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77522,
+          "chapter_name": "幕间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77523,
+          "chapter_name": "第二章 少年期、一",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77524,
+          "chapter_name": "幕间",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77525,
+          "chapter_name": "第三章 少年期、二",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77526,
+          "chapter_name": "幕间",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77527,
+          "chapter_name": "第四章 青年期、壮年期",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 77528,
+          "chapter_name": "幕间",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 77529,
+          "chapter_name": "终章，又或是序章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 77530,
+          "chapter_name": "幕间",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 8834,
+      "id": 8834,
+      "volume_name": "第二卷 致我所爱的全部的你",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 77531,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77532,
+          "chapter_name": "序章，又或是终章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77533,
+          "chapter_name": "第一章 幼年期",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77534,
+          "chapter_name": "幕间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77535,
+          "chapter_name": "第二章 少年期",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77536,
+          "chapter_name": "幕间",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98116,
+          "chapter_name": "第三章 青年期",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98117,
+          "chapter_name": "中场休息",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98118,
+          "chapter_name": "第四章 壮年期",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98119,
+          "chapter_name": "中场休息",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 98120,
+          "chapter_name": "终章，或者是序章",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

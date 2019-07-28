@@ -16,8 +16,8 @@
   ],
   "authors": "言出五味",
   "first_letter": "W",
-  "subscribe_num": 2269,
-  "redis_update_time": 1564311000,
+  "subscribe_num": 2270,
+  "redis_update_time": 1564336663,
   "volume": [
     {
       "id": 9625,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 新人赏大赛开幕",
       "volume_order": 10,
       "addtime": 1534128301,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9630,
@@ -33,7 +33,7 @@
       "volume_name": "番外",
       "volume_order": 20,
       "addtime": 1534464535,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9707,
@@ -41,7 +41,7 @@
       "volume_name": "第二卷 露营取材是否是一件好事？",
       "volume_order": 30,
       "addtime": 1538351478,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9902,
@@ -49,7 +49,126 @@
       "volume_name": "第三卷",
       "volume_order": 40,
       "addtime": 1547554340,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9625,
+      "id": 9625,
+      "volume_name": "第一卷 新人赏大赛开幕",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 88911,
+          "chapter_name": "第一章 四个轻小说家",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 88912,
+          "chapter_name": "第二章 新人赏的准备工作（1）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 88913,
+          "chapter_name": "第三章 生日",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 88914,
+          "chapter_name": "第四章 戒指",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 88915,
+          "chapter_name": "第五章 试炼",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 88916,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9630,
+      "id": 9630,
+      "volume_name": "番外",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 88988,
+          "chapter_name": "七夕特别篇",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 9707,
+      "id": 9707,
+      "volume_name": "第二卷 露营取材是否是一件好事？",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 90047,
+          "chapter_name": "第一章 精神世界",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 90048,
+          "chapter_name": "第二章 背叛者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 90049,
+          "chapter_name": "第三章 平凡而又不平凡的夜晚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 90095,
+          "chapter_name": "插画",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 9902,
+      "id": 9902,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 93032,
+          "chapter_name": "第一章 日记中的往事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 93033,
+          "chapter_name": "第二章 初衷，初心",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 93034,
+          "chapter_name": "第三章 命中注定",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 93035,
+          "chapter_name": "第四章 未曾结束结果",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 93036,
+          "chapter_name": "完结感言",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 93037,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

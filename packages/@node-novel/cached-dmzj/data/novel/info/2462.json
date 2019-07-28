@@ -12,12 +12,14 @@
   "hot_hits": 402112,
   "introduction": "《「为美好的世界献上祝福」晓なつめ 翘首以盼的新系列！故事讲述了在一家侵略了现代世界的公司上班的主人公，被派遣到异世界继续进行侵略的故事。\n  主人公·战斗员六号做了奢侈度过余生的美梦。然而……上司A「下次派你到行星」→六号「不是吧？」——不幸角色们所编织的新世界侵略战斗喜剧！",
   "types": [
-    "异界/穿越/搞笑"
+    "异界",
+    "穿越",
+    "搞笑"
   ],
   "authors": "晓なつめ",
   "first_letter": "P",
-  "subscribe_num": 25060,
-  "redis_update_time": 1564312151,
+  "subscribe_num": 25073,
+  "redis_update_time": 1564345704,
   "volume": [
     {
       "id": 9339,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1522750831,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9540,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1530704205,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9957,
@@ -41,7 +43,163 @@
       "volume_name": "短篇",
       "volume_order": 30,
       "addtime": 1550309548,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9339,
+      "id": 9339,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 86681,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 84711,
+          "chapter_name": "出场人物介绍",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 84783,
+          "chapter_name": "封底翻译",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85024,
+          "chapter_name": "序章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85911,
+          "chapter_name": "第一章 派遣工作员",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86041,
+          "chapter_name": "第二章 蹂躏竞争对手吧",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 86042,
+          "chapter_name": "第三章 正确的攻塔方法",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 86676,
+          "chapter_name": "第四章 打倒邪恶干部的方法",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 86677,
+          "chapter_name": "第五章 为了成为英雄",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 86678,
+          "chapter_name": "最终章 派遣战斗员！",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 86679,
+          "chapter_name": "尾声",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 86680,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 84710,
+          "chapter_name": "插画",
+          "chapter_order": 200
+        }
+      ]
+    },
+    {
+      "volume_id": 9540,
+      "id": 9540,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 87733,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 88499,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 88500,
+          "chapter_name": "第一章 欺诈师系结婚活动女子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 88501,
+          "chapter_name": "第二章 腹黑系贪污骑士",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 88502,
+          "chapter_name": "第三章 肉食系女子奇美拉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 88503,
+          "chapter_name": "最终章 强大的伙伴和聪慧的伙伴",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 88504,
+          "chapter_name": "尾声一",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 88505,
+          "chapter_name": "尾声二 死灵祭",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 88506,
+          "chapter_name": "特别联动短篇 《为美好的星球献上祝福！》",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 88507,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 88508,
+          "chapter_name": "骑士矜持的价值是……",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 87735,
+          "chapter_name": "插画",
+          "chapter_order": 200
+        }
+      ]
+    },
+    {
+      "volume_id": 9957,
+      "id": 9957,
+      "volume_name": "短篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 93994,
+          "chapter_name": "派遣战斗员虎穴特典",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

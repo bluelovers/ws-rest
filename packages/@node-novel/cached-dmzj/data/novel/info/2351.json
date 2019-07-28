@@ -17,7 +17,7 @@
   "authors": "橘もも",
   "first_letter": "W",
   "subscribe_num": 2063,
-  "redis_update_time": 1564299094,
+  "redis_update_time": 1564342238,
   "volume": [
     {
       "id": 8819,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1499517241,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 9092,
@@ -33,7 +33,90 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1511691581,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8819,
+      "id": 8819,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 77252,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77253,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77254,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77255,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77256,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77257,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9092,
+      "id": 9092,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 81081,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81082,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81083,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81084,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81085,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81086,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81087,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

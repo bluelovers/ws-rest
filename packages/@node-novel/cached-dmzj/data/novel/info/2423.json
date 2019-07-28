@@ -17,7 +17,7 @@
   "authors": "羽根川牧人",
   "first_letter": "X",
   "subscribe_num": 1833,
-  "redis_update_time": 1564265330,
+  "redis_update_time": 1564326059,
   "volume": [
     {
       "id": 9154,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1515147802,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 9155,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1515147978,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 9156,
@@ -41,7 +41,123 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1515147995,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9154,
+      "id": 9154,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 81788,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81791,
+          "chapter_name": "一、徒花香之章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81792,
+          "chapter_name": "二、风铃香之章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81793,
+          "chapter_name": "三、鬼胎香之章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81794,
+          "chapter_name": "四、白亚香之章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81795,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9155,
+      "id": 9155,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 81789,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81796,
+          "chapter_name": "一、桧皮香之章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81797,
+          "chapter_name": "二、里叶香之章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81798,
+          "chapter_name": "三、疑眼香之章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81799,
+          "chapter_name": "四、只园香之章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81800,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9156,
+      "id": 9156,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 81790,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81801,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81802,
+          "chapter_name": "一 余命香之章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81803,
+          "chapter_name": "二 月下香之章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81804,
+          "chapter_name": "三 涅盘香之章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81805,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

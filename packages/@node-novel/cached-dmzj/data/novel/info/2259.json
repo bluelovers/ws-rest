@@ -12,12 +12,13 @@
   "hot_hits": 202335,
   "introduction": "暂无简介",
   "types": [
-    "爱情/异界"
+    "爱情",
+    "异界"
   ],
   "authors": "笕千里",
   "first_letter": "G",
   "subscribe_num": 7976,
-  "redis_update_time": 1564310549,
+  "redis_update_time": 1564351012,
   "volume": [
     {
       "id": 8386,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1483105804,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9463,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1527687936,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9475,
@@ -41,7 +42,198 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1528022773,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8386,
+      "id": 8386,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 70352,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 70353,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 70354,
+          "chapter_name": "第一章 突然就被解除了婚约",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 70355,
+          "chapter_name": "第二章 一夜天明",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 70356,
+          "chapter_name": "第三章 初次造访骑士团",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 70357,
+          "chapter_name": "第四章 今天开始就是走婚妻",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 70358,
+          "chapter_name": "第五章 好女人",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 70359,
+          "chapter_name": "第六章 只属于我的英雄",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 70360,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 70361,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 70362,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9463,
+      "id": 9463,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 86559,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86572,
+          "chapter_name": "第一话 凯萝儿立志成为骑士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86561,
+          "chapter_name": "第二话 友人袭来",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86562,
+          "chapter_name": "第三话 这不是约会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86563,
+          "chapter_name": "第四话 凯萝儿老师",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86564,
+          "chapter_name": "第五话 蠢王子与男爵千金",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86565,
+          "chapter_name": "闲谈 新来的侍女",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 86566,
+          "chapter_name": "第六话 身为一个好女人",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 86567,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 86568,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 86569,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9475,
+      "id": 9475,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 86699,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86700,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86701,
+          "chapter_name": "第一话 凯萝儿的诡计",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86702,
+          "chapter_name": "第二话 名为安德鲁的男人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86703,
+          "chapter_name": "第三话 约会邀请",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86704,
+          "chapter_name": "第四话 第一次约会",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 86705,
+          "chapter_name": "第五话 没有威尔海姆大人的日常生活",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 86706,
+          "chapter_name": "第六话 亲爱的威尔海姆大人",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 86707,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 86708,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 86709,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

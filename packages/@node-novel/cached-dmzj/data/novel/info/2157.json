@@ -16,8 +16,8 @@
   ],
   "authors": "杉井光",
   "first_letter": "Y",
-  "subscribe_num": 6492,
-  "redis_update_time": 1564301132,
+  "subscribe_num": 6493,
+  "redis_update_time": 1564333111,
   "volume": [
     {
       "id": 8189,
@@ -25,7 +25,7 @@
       "volume_name": "台版第一卷",
       "volume_order": 5,
       "addtime": 1475419096,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 7967,
@@ -33,7 +33,7 @@
       "volume_name": "网译版第一卷",
       "volume_order": 10,
       "addtime": 1468155414,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8630,
@@ -41,7 +41,148 @@
       "volume_name": "网译版第二卷",
       "volume_order": 30,
       "addtime": 1492876013,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8189,
+      "id": 8189,
+      "volume_name": "台版第一卷",
+      "volume_order": 5,
+      "chapters": [
+        {
+          "chapter_id": 67493,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 67494,
+          "chapter_name": "第1话",
+          "chapter_order": 15
+        },
+        {
+          "chapter_id": 67495,
+          "chapter_name": "第2话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67496,
+          "chapter_name": "第3话",
+          "chapter_order": 25
+        },
+        {
+          "chapter_id": 67497,
+          "chapter_name": "第4话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67498,
+          "chapter_name": "第5话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67499,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 7967,
+      "id": 7967,
+      "volume_name": "网译版第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 63648,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63649,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63650,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63651,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63652,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63653,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63654,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63655,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8630,
+      "id": 8630,
+      "volume_name": "网译版第二卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 74221,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 74222,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 74223,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 74224,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 74225,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 74226,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 74227,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 74230,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

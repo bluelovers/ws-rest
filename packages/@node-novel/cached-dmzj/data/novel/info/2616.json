@@ -16,8 +16,8 @@
   ],
   "authors": "朝雾カフカ",
   "first_letter": "W",
-  "subscribe_num": 4115,
-  "redis_update_time": 1564310647,
+  "subscribe_num": 4121,
+  "redis_update_time": 1564335814,
   "volume": [
     {
       "id": 9913,
@@ -25,7 +25,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1548125926,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9913,
+      "id": 9913,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 93193,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 93194,
+          "chapter_name": "Prologue",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 93195,
+          "chapter_name": "Phase.01",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 93196,
+          "chapter_name": "Phase.02",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 93197,
+          "chapter_name": "Phase.03",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 93198,
+          "chapter_name": "Phase.xx",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 93199,
+          "chapter_name": "Phase.04",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 93200,
+          "chapter_name": "Phase.05",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 93201,
+          "chapter_name": "Epilogue",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

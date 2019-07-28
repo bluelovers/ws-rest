@@ -16,8 +16,8 @@
   ],
   "authors": "日下部匡俊",
   "first_letter": "S",
-  "subscribe_num": 895,
-  "redis_update_time": 1564305954,
+  "subscribe_num": 896,
+  "redis_update_time": 1564339748,
   "volume": [
     {
       "id": 10020,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1553610896,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10020,
+      "id": 10020,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 94827,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94828,
+          "chapter_name": "PROLOGUE 黑暗降临",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94829,
+          "chapter_name": "第1章 死亡羽翼飞落的世界",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94830,
+          "chapter_name": "第2章 自相残杀的所有者们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94831,
+          "chapter_name": "第3章 生死交错的夜晚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94832,
+          "chapter_name": "EPILOGUE 龙崎再临",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

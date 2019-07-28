@@ -12,12 +12,13 @@
   "hot_hits": 20974,
   "introduction": "与仁科鸟子（にしな とりこ）的邂逅是在“里侧”看到了“那个东西”、命悬一线的时候——从这一天开始，跨过了境界的女大学生纸越空鱼（かみこし そらを）的人生整个改变了。里世界是与我们的现实相邻，传闻中真实存在的怪谈“弯弯曲曲”、“八尺大人”之类的的危险存在也会在当中出没的满是谜团的世界。为了研究和赚钱，以及为了搜索重要的人，鸟子和空鱼抬脚踏进了非日常的世界——这就是新锐娱乐科幻作家给你们带来的，两个女孩子的怪异探险生存剧！",
   "types": [
-    "科幻/冒险"
+    "科幻",
+    "冒险"
   ],
   "authors": "宫泽伊织",
   "first_letter": "L",
-  "subscribe_num": 6682,
-  "redis_update_time": 1564311509,
+  "subscribe_num": 6688,
+  "redis_update_time": 1564344563,
   "volume": [
     {
       "id": 9747,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 两人的怪异探险档案",
       "volume_order": 10,
       "addtime": 1540357790,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10214,
@@ -33,7 +34,90 @@
       "volume_name": "第二卷 边际海岸的度假之夜",
       "volume_order": 20,
       "addtime": 1562326634,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9747,
+      "id": 9747,
+      "volume_name": "第一卷 两人的怪异探险档案",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 90552,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 90553,
+          "chapter_name": "档案1 弯弯曲曲Hunting",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 90554,
+          "chapter_name": "档案2 八尺大人Survival",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 90555,
+          "chapter_name": "档案3 Station February",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 90556,
+          "chapter_name": "档案4 时间、空间、大叔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 90557,
+          "chapter_name": "参考文献",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 90558,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 10214,
+      "id": 10214,
+      "volume_name": "第二卷 边际海岸的度假之夜",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 97674,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 97675,
+          "chapter_name": "文档5 如月车站美军救出行动",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 97676,
+          "chapter_name": "文档6 边际海岸的度假之夜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 97677,
+          "chapter_name": "文档7 被猫咪忍者袭击",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 97678,
+          "chapter_name": "文档8 箱中小鸟",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 97685,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

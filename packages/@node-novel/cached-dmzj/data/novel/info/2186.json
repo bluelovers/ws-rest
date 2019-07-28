@@ -12,12 +12,14 @@
   "hot_hits": 24566,
   "introduction": "魔王级吸血鬼琉德蜜娜突然参选学生会长，居然是为了要将全校学生推入「T (table-talk)RPG」的坑？\n　　吸血鬼猎人刀仪野祇园为了要解决掉琉德蜜娜，而造访圣罗耀拉学院。然而在他潜入学生会室挥刀打算灭杀琉德蜜娜时，却飞到了异空间。\n　　原来，那里是热爱TRPG的琉德蜜娜，以其特殊能力所创造的「由TRPG规则支配的冒险世界」。开始吧，来体验这段奇迹般的冒险之旅！TRPG「跑团」小说骰子已被掷下！",
   "types": [
-    "校园/冒险/奇幻"
+    "校园",
+    "冒险",
+    "奇幻"
   ],
   "authors": "おかゆまさき",
   "first_letter": "W",
   "subscribe_num": 1822,
-  "redis_update_time": 1564297151,
+  "redis_update_time": 1564347935,
   "volume": [
     {
       "id": 8097,
@@ -25,7 +27,62 @@
       "volume_name": "第一卷 上 纯血的暗精灵",
       "volume_order": 10,
       "addtime": 1472834863,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 8097,
+      "id": 8097,
+      "volume_name": "第一卷 上 纯血的暗精灵",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 65994,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 65995,
+          "chapter_name": "序章【开始前两周】猎杀吸血鬼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65996,
+          "chapter_name": "第1章【第1天】第一场TRPG；第一次满骰/剧本1〈佩剑新娘〉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 66003,
+          "chapter_name": "第2章【第2天】因为我是（半）吸血鬼/剧本2〈乘风驾雨的召雷者〉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 66004,
+          "chapter_name": "第3章【第4天】听天由命/剧本3〈《重魔素》死守指令！〉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 66005,
+          "chapter_name": "第4章【第6天】让我来教教你，求人施舍时该用什么口气/剧本4〈破坏主的爱桌〉",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 66006,
+          "chapter_name": "基翁之章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 66007,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 66008,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

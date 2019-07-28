@@ -17,7 +17,7 @@
   "authors": "本多孝好",
   "first_letter": "A",
   "subscribe_num": 2473,
-  "redis_update_time": 1564243163,
+  "redis_update_time": 1564319947,
   "volume": [
     {
       "id": 9061,
@@ -25,7 +25,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1510048080,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9061,
+      "id": 9061,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 80768,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80769,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80770,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80771,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80772,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80773,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 80774,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 80775,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 80776,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 80777,
+          "chapter_name": "录入后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

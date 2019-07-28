@@ -12,12 +12,14 @@
   "hot_hits": 9433,
   "introduction": "　　成功率百分之百的恋爱是存在的──\n　　因失恋而一蹶不振的大学生‧秋山明，\n　　接受由AI主导的恋爱模拟游戏。\n　　交往的对象是安装真实存在之女性资料的机器人。\n　　由于程式出错，命中注定对象的相关资料全数「消失」。\n　　为了寻找该名女性的下落，以这场模拟约会为契机，\n　　逐渐解开眼前错综复杂的红线。\n　　「──我是为了将已经断掉的红线重新接上，才会来到这里。」\n　　一场宛如仲夏夜之梦的恋爱悬疑剧场就此展开。",
   "types": [
-    "校园/爱情/侦探"
+    "校园",
+    "爱情",
+    "侦探"
   ],
   "authors": "土桥真二郎",
   "first_letter": "A",
   "subscribe_num": 2341,
-  "redis_update_time": 1564306862,
+  "redis_update_time": 1564343929,
   "volume": [
     {
       "id": 9606,
@@ -25,7 +27,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1533209277,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9606,
+      "id": 9606,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 88641,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 88642,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 88643,
+          "chapter_name": "1 恋爱模拟游戏",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 88644,
+          "chapter_name": "2 消失的我",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 88645,
+          "chapter_name": "3 双子星系统",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 88646,
+          "chapter_name": "4 握住红线迈向未来",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 88647,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

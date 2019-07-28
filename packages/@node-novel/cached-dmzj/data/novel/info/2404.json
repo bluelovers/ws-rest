@@ -12,12 +12,13 @@
   "hot_hits": 176572,
   "introduction": "暂无简介",
   "types": [
-    "冒险/奇幻"
+    "冒险",
+    "奇幻"
   ],
   "authors": "细音启",
   "first_letter": "W",
-  "subscribe_num": 33824,
-  "redis_update_time": 1564312098,
+  "subscribe_num": 33833,
+  "redis_update_time": 1564347523,
   "volume": [
     {
       "id": 9089,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 命运之剑",
       "volume_order": 10,
       "addtime": 1511522747,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10017,
@@ -33,7 +34,130 @@
       "volume_name": "第二卷 堕天之翼",
       "volume_order": 20,
       "addtime": 1552914888,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9089,
+      "id": 9089,
+      "volume_name": "第一卷 命运之剑",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 81059,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81060,
+          "chapter_name": "Prologue「0」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81061,
+          "chapter_name": "World.1 然后世界被替换了",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81240,
+          "chapter_name": "World.2 谁都不记得我",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81241,
+          "chapter_name": "World.3 凛奈",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 92985,
+          "chapter_name": "World.4 拯救已难以拯救的人类之物",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 92986,
+          "chapter_name": "World.5 天魔与少年",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 92987,
+          "chapter_name": "World.6 接着保存世界—CodeHolder—",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 93004,
+          "chapter_name": "Epilogue 为世界所遗忘的少年的故事",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 93005,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10017,
+      "id": 10017,
+      "volume_name": "第二卷 堕天之翼",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 94775,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94776,
+          "chapter_name": "world 1 黎明",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94777,
+          "chapter_name": "world.2 一路向东",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94778,
+          "chapter_name": "world 3 伊欧人类反旗军",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94781,
+          "chapter_name": "intermission 无心天使",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94826,
+          "chapter_name": "world 4 精灵之森",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95249,
+          "chapter_name": "world.5 天界的炼狱",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95659,
+          "chapter_name": "world 6 黑色明星",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95660,
+          "chapter_name": "Epologue 最后的二位",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 95661,
+          "chapter_name": "Continued 最后的英雄",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 95662,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

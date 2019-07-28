@@ -16,8 +16,8 @@
   ],
   "authors": "鸟羽彻",
   "first_letter": "T",
-  "subscribe_num": 13404,
-  "redis_update_time": 1564310326,
+  "subscribe_num": 13407,
+  "redis_update_time": 1564344078,
   "volume": [
     {
       "id": 9804,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 对了，卖国吧",
       "volume_order": 10,
       "addtime": 1543400238,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9830,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1544339273,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9925,
@@ -41,7 +41,168 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1548691648,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 9804,
+      "id": 9804,
+      "volume_name": "第一卷 对了，卖国吧",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 91512,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 91513,
+          "chapter_name": "第一章 其名为维恩·萨雷玛·艾尔巴雷斯特",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 91514,
+          "chapter_name": "第二章 王子于战场上苦恼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 91515,
+          "chapter_name": "第三章 过犹",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 91516,
+          "chapter_name": "第四章 心脏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 91517,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 91518,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 91519,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 9830,
+      "id": 9830,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 91851,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 91852,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 91951,
+          "chapter_name": "第二章 皇女来访",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 92031,
+          "chapter_name": "第三章 命运的邂逅、命中注定的重逢",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 92194,
+          "chapter_name": "第四章 轮转的阴谋",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 92195,
+          "chapter_name": "第五章 碰撞的思绪",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 92229,
+          "chapter_name": "第六章 两人的谋略",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 92230,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 92231,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 92232,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9925,
+      "id": 9925,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 93368,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 93369,
+          "chapter_name": "第一章 参加国际会议吧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 93370,
+          "chapter_name": "第二章 秘密会谈",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 93371,
+          "chapter_name": "第三章 齐聚一堂的选圣候／各怀鬼胎",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 93393,
+          "chapter_name": "第四章 背叛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 93543,
+          "chapter_name": "第五章 昨日之敌乃今日之",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 93544,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 93545,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 93546,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }
