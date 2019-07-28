@@ -18,6 +18,7 @@ export default (async () =>
 	let tags: string[] = [];
 	let authors: string[] = [];
 	let zone: string[] = [];
+	let titles: string[] = [];
 
 	await FastGlob.async([
 		'*.json',
@@ -35,12 +36,15 @@ export default (async () =>
 
 			zone.push(trim(v.zone));
 
+			titles.push(trim(v.name));
+
 		})
 	;
 
 	array_unique_overwrite(tags).sort();
 	array_unique_overwrite(authors).sort();
 	array_unique_overwrite(zone).sort();
+	array_unique_overwrite(titles).sort();
 
 	await Bluebird.all([
 		fs.outputJSON(path.join(__root, 'data', 'novel', `tags.json`), tags, {
@@ -51,7 +55,10 @@ export default (async () =>
 		}),
 		fs.outputJSON(path.join(__root, 'data', 'novel', `authors.json`), authors, {
 			spaces: 2,
+		}),fs.outputJSON(path.join(__root, 'data', 'novel', `titles.json`), titles, {
+			spaces: 2,
 		}),
+
 	]);
 
 })();

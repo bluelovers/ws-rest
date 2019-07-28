@@ -5,10 +5,11 @@
 import { DmzjClient } from 'dmzj-api';
 import fs from 'fs-extra';
 import path from 'path';
-import { IDmzjNovelRecentUpdateRow } from 'dmzj-api/lib/types';
-import { exportCache, importCache, processExitHook } from 'axios-cache-adapter-util';
+import { exportCache, IBaseCacheStore, importCache, processExitHook } from 'axios-cache-adapter-util';
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';
-import { IBaseCacheStore } from 'axios-cache-adapter-util';
+import { console, consoleDebug } from 'restful-decorator/lib/util/debug';
+
+export { consoleDebug, console }
 
 export const __root = path.join(__dirname, '..');
 
@@ -84,4 +85,13 @@ async function setupCacheFile(api: DmzjClient, saveCacheFileBySelf?: boolean)
 	}
 
 	return saveCache
+}
+
+export function trim(input: string)
+{
+	return input
+		.replace(/^\s+|\s+$/gu, '')
+		.replace(/\r|\n|[\u00A0]/gu, ' ')
+		.replace(/\s+/gu, ' ')
+		.trim()
 }

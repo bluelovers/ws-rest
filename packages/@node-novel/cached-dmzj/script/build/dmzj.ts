@@ -8,7 +8,6 @@ import { IDmzjNovelRecentUpdateRow } from 'dmzj-api/lib/types';
 import { exportCache, importCache, processExitHook } from 'axios-cache-adapter-util';
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';
 import { IBaseCacheStore } from 'axios-cache-adapter-util';
-import { getDmzjClient, __root } from '../util';
 import Bluebird from 'bluebird-cancellation';
 import { getDmzjClient, __root, console, consoleDebug } from '../util';
 

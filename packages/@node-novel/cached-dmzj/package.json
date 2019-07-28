@@ -17,8 +17,8 @@
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
     "ncu": "npx yarn-tool ncu -u",
-    "build:cache": "ts-node ./script/build/dmzj",
-    "build:commit": "ts-node ./script/build",
+    "build:cache": "ts-node ./script/build",
+    "build:commit": "ts-node ./script/build-commit",
     "build": "yarn run build:cache && yarn run build:commit",
     "npm:publish": "npm publish",
     "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run build",
@@ -32,11 +32,15 @@
     "access": "public"
   },
   "devDependencies": {
+    "@bluelovers/fast-glob": "^3.0.4",
     "@git-lazy/diff-staged": "^1.0.3",
     "@git-lazy/util": "^1.0.5",
+    "array-hyper-unique": "^1.1.0",
     "axios-cache-adapter-util": "^1.0.11",
     "dmzj-api": "^1.0.13",
     "fs-extra": "^8.1.0",
+    "moment": "^2.24.0",
     "restful-decorator": "^1.0.14"
-  }
+  },
+  "dependencies": {}
 }

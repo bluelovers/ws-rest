@@ -73,3 +73,6 @@ tsconfig.esm.json.tpl
 
 .browserslistrc
 .nvmrc
+!/test/temp/
+!/test/temp/task001.json
+/test/temp/axios.cache.json
