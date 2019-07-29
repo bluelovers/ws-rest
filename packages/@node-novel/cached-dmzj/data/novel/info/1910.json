@@ -12,12 +12,13 @@
   "hot_hits": 141733,
   "introduction": "打到了魔王后的勇者的新敌人居然是金钱？！\n打到魔王之后，【金钱就是一切】的时代来临了。在地方都市法鲁托拉，流浪的勇者和商人尤妮丝还有女骑士蕾切尔相遇了。为了帮助被骗走了金钱的少女，他向欺诈师们布下了圈套！",
   "types": [
-    "冒险/异界"
+    "冒险",
+    "异界"
   ],
   "authors": "村崎幸也",
   "first_letter": "F",
-  "subscribe_num": 4242,
-  "redis_update_time": 1564310415,
+  "subscribe_num": 4245,
+  "redis_update_time": 1564363149,
   "volume": [
     {
       "id": 6978,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1434627515,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7154,
@@ -33,7 +34,110 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1440153694,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6978,
+      "id": 6978,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50867,
+          "chapter_name": "序章 王国历二一六年",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50868,
+          "chapter_name": "第一章 蓝龙眼欺诈",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50869,
+          "chapter_name": "第二章 离宫候补地欺诈",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50870,
+          "chapter_name": "第三章 豹子爵的塔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50871,
+          "chapter_name": "幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50872,
+          "chapter_name": "第四章 龙骑士的来访",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50873,
+          "chapter_name": "幕间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50874,
+          "chapter_name": "第五章 吃人者",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50875,
+          "chapter_name": "终章 勇者的冒险",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 50876,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7154,
+      "id": 7154,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 52445,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52536,
+          "chapter_name": "第一章 魔兽之蛋欺诈",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52748,
+          "chapter_name": "第二章 破碎的安宁",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52749,
+          "chapter_name": "第三章 性命的要求",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52750,
+          "chapter_name": "第四章 魔王",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52751,
+          "chapter_name": "终章 未完的冒险",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52752,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

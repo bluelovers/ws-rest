@@ -12,12 +12,13 @@
   "hot_hits": 65173,
   "introduction": "　　『你有一段放不下的恋情，对吧？』\n\n　　国三毕业的春天，我接到一通电话，电话里的女子这么对我说。\n　　当时我粗暴地挂断电话，但三个月后的高一夏天，我又接到了同一位女子打来的电话。\n\n　　『十岁时，你喜欢上初鹿野同学，但认为自己没有资格喜欢她。\n　　然而，你同事由另一个想法：\n　　「要不是脸上有这么丑陋的胎记，说不定我也有希望。」\n　　那么，我就去掉你的胎记来试试看吧。\n　　如果这样便能获得初鹿野同学的心，这场打赌就是你获胜。』\n\n\n　　从我接起电话的\n　　那一瞬间，\n　　不可思议的夏天\n　　就这么开始了——",
   "types": [
-    "爱情/校园"
+    "爱情",
+    "校园"
   ],
   "authors": "三秋缒",
   "first_letter": "N",
-  "subscribe_num": 6384,
-  "redis_update_time": 1564312598,
+  "subscribe_num": 6387,
+  "redis_update_time": 1564358776,
   "volume": [
     {
       "id": 7682,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 那年夏天，你打来的电话",
       "volume_order": 10,
       "addtime": 1460027766,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7683,
@@ -33,7 +34,110 @@
       "volume_name": "第二卷 那年夏天，我拨去的电话",
       "volume_order": 20,
       "addtime": 1460028128,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7682,
+      "id": 7682,
+      "volume_name": "第一卷 那年夏天，你打来的电话",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 59222,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59223,
+          "chapter_name": "第1章 打勾勾",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59227,
+          "chapter_name": "第2章 泡影般的夏天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59228,
+          "chapter_name": "第3章 吾子滨的人鱼传说",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59229,
+          "chapter_name": "第4章 看星星的人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59230,
+          "chapter_name": "第5章 第九号扫把星",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59231,
+          "chapter_name": "第6章 那年夏天，我拨去的电话",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7683,
+      "id": 7683,
+      "volume_name": "第二卷 那年夏天，我拨去的电话",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 59232,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59233,
+          "chapter_name": "第7章 夏季大三角，又或大四角",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59234,
+          "chapter_name": "第8章 最后一支舞，留给我",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59238,
+          "chapter_name": "第9章 不属于我的名字",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59236,
+          "chapter_name": "第10章 不要错过我",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59237,
+          "chapter_name": "第11章 这只是个小小的幸运魔咒",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59239,
+          "chapter_name": "第12章 人鱼之歌",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59240,
+          "chapter_name": "第13章 那年夏天，你打来的电话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59241,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 59242,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,15 @@
   "hot_hits": 128975,
   "introduction": "有个地方，昔日拯救过世界的英雄们，多如繁星地聚集在那里。毁灭的危机将于七日后再次降临地球，神使·总一为了避免世界毁灭，寻访此处来借助英雄们的力量。然而他在那里看到的，却是昔日的英雄们堕落之后的身影！对世界怀恨在心的勇者，变成馒头的魔法少女，沦为萝莉控的变身英雄，沉溺酒精的神龙……这些废柴（？）毫无拯救世界的意愿。总一最终能否让他们来拯救世界呢——！？昔日英雄们的救世喜剧，开幕！！",
   "types": [
-    "魔法/冒险/搞笑/校园"
+    "魔法",
+    "冒险",
+    "搞笑",
+    "校园"
   ],
   "authors": "更伊俊介",
   "first_letter": "Y",
-  "subscribe_num": 4419,
-  "redis_update_time": 1564312270,
+  "subscribe_num": 4420,
+  "redis_update_time": 1564342254,
   "volume": [
     {
       "id": 7635,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷 于是我要毁灭世界",
       "volume_order": 10,
       "addtime": 1458564764,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7664,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷 我还是要毁灭世界",
       "volume_order": 20,
       "addtime": 1459416319,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7969,
@@ -41,7 +44,183 @@
       "volume_name": "第三卷 终于要毁灭世界了",
       "volume_order": 30,
       "addtime": 1468329517,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7635,
+      "id": 7635,
+      "volume_name": "第一卷 于是我要毁灭世界",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 58260,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58261,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58262,
+          "chapter_name": "一章 「请你拯救这个世界吧」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58263,
+          "chapter_name": "二章 「可别小瞧废柴」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58264,
+          "chapter_name": "三章 「想不想到外面的世界去」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58265,
+          "chapter_name": "四章 「呐，要不要成为我的人？」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58266,
+          "chapter_name": "五章 「于是，我要毁灭世界」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 58267,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 58268,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 58962,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7664,
+      "id": 7664,
+      "volume_name": "第二卷 我还是要毁灭世界",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 58963,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58964,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59265,
+          "chapter_name": "一章 「真是个没用的魔王啊」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59266,
+          "chapter_name": "二章 「要我离开屋子，我宁可死」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59267,
+          "chapter_name": "三章 「我就知道你总有一天会干出这种事来的」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59268,
+          "chapter_name": "四章 「且看吾辈完成这部作品」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59269,
+          "chapter_name": "五章 「我果然要毁灭世界」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59270,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59271,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 58965,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7969,
+      "id": 7969,
+      "volume_name": "第三卷 终于要毁灭世界了",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 63686,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63687,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63688,
+          "chapter_name": "一章 「有个人我非杀不可」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63689,
+          "chapter_name": "二章 「做我的女儿吧」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63690,
+          "chapter_name": "三章 「Daughter!」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63691,
+          "chapter_name": "四章 「主人，您辛苦了」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63692,
+          "chapter_name": "五章 「终于要毁灭世界了」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63693,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 63694,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 63685,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

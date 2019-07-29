@@ -12,12 +12,16 @@
   "hot_hits": 109616,
   "introduction": "地下城【异界之门】。进在那最深处战斗。死亡游戏化的ＶＲＭＭＯ【THE NEW GATE】最后的敌人。进在激烈的战斗中取得胜利，解放了被囚禁的玩家们。然而，瞬间的安心后被设置在地下城最深处的门扉突然打开了，进就此失去了意识。醒觉时，进的眼前展现的是真实的【THE NEW GATE】世。",
   "types": [
-    "科幻/魔法/冒险/异界/穿越"
+    "科幻",
+    "魔法",
+    "冒险",
+    "异界",
+    "穿越"
   ],
   "authors": "无风波しのぎ",
   "first_letter": "T",
   "subscribe_num": 12318,
-  "redis_update_time": 1564309316,
+  "redis_update_time": 1564359609,
   "volume": [
     {
       "id": 7298,
@@ -25,7 +29,22 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1445524276,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7298,
+      "id": 7298,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 53849,
+          "chapter_name": "序章—第一章",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

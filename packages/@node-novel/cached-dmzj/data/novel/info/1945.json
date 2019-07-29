@@ -12,12 +12,13 @@
   "hot_hits": 10772,
   "introduction": "天才少年侦探·羽澄悠清醒过来时，发现自己竟身处于汪洋中的一座孤岛上！\n这时出现在眼前，名为天狱院黑海的少女说了「请成为我的军师吧！！」\n是的，生活在这座多鸟羽岛的高中生们无不使用着奇迹之力『路克司索里斯』，为获得这座岛屿的制霸权而互战征伐。\n尽管悠勉为其难答应成为军师，但等着他的残酷现实是——\n我方的三人都手无寸铁？而且为什么还要穿女装啊──！？　\n第14届ENTAME大赏特别赏得奖作品！\n奔驰在群雄割据的孤岛，轰动武林的谋反战记即将开战！！",
   "types": [
-    "侦探/校园"
+    "侦探",
+    "校园"
   ],
   "authors": "是钟龙二",
   "first_letter": "L",
   "subscribe_num": 176,
-  "redis_update_time": 1564191607,
+  "redis_update_time": 1564337407,
   "volume": [
     {
       "id": 7096,
@@ -25,7 +26,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1438441638,
-      "sum_chapters": 5
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7096,
+      "id": 7096,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51863,
+          "chapter_name": "序章—North side—第一次天狱院大战",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51864,
+          "chapter_name": "序章—East side—高中生侦探·羽澄悠最后的事件",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51865,
+          "chapter_name": "第一话 最初的战争，与aeon的庇佑同在",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51866,
+          "chapter_name": "第二话 亲密的朋友，与一口吃德国香肠同在",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51867,
+          "chapter_name": "中场休息之1",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51868,
+          "chapter_name": "第三话 流氓修女的世界，与薄冰上的相对同在",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51869,
+          "chapter_name": "中场休息之2",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51870,
+          "chapter_name": "第四话 谋反战记的终结，与第二次天狱院大战同在",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 51871,
+          "chapter_name": "终章 羽澄悠的人生，与天狱院黑海的武力政权同在",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 51872,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

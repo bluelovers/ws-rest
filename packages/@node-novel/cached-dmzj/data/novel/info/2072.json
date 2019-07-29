@@ -12,12 +12,14 @@
   "hot_hits": 118663,
   "introduction": "本作设定中，「创神」是由人创造，给人固化神的形态，使自身化为「神」的新世代的魔术，免疫一切物理攻击，并获得碾压现代武器的力量。能够使用创神之力的现代魔术师被称为「创神使」（マギウス），创神使的活动限制为17岁，没有人18岁了还能召唤出创神。由强大的创神使组成的三个组织管理军、解放者、公会统称「三大势力」，故事发生的两年前管理军与解放者发动「战争」，以管理军的胜利告终，战争中诞生了最强的四位创神使「四王」。在世界各地的「特区」，不断有创神使在各个「学园都市」觉醒，而三大势力则会抢先拉拢新觉醒的创神使。这个故事讲述的，是从「战争」中生还的18岁创神使破城苍士郎开始校园生活，结识第一个朋友——少女朱桐绯彩。战争已经终结，然而在苍士郎拯救了被管理军袭击的少女——七星悠香之后，以有着丧神之名的他为中心开始的觉醒与加速的召唤魔术大戏，拉开序幕！",
   "types": [
-    "冒险/魔法/校园"
+    "冒险",
+    "魔法",
+    "校园"
   ],
   "authors": "三田诚",
   "first_letter": "C",
-  "subscribe_num": 11633,
-  "redis_update_time": 1564310155,
+  "subscribe_num": 11635,
+  "redis_update_time": 1564358668,
   "volume": [
     {
       "id": 7565,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1455970716,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7925,
@@ -33,7 +35,120 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1466600886,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7565,
+      "id": 7565,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 59550,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 57335,
+          "chapter_name": "名词及人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57336,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59551,
+          "chapter_name": "第一章 黒莲华嚷",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59552,
+          "chapter_name": "第二章 狮子王",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59553,
+          "chapter_name": "第三章 七星悠香",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59554,
+          "chapter_name": "第四章 亚兰·维克",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59721,
+          "chapter_name": "第五章 破城苍士郎",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59722,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59723,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 59555,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7925,
+      "id": 7925,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 94428,
+          "chapter_name": "「序章」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94429,
+          "chapter_name": "「第一章」摘自发布十七秒后被删除的网路新闻",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94430,
+          "chapter_name": "「第二章」刘理查",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94431,
+          "chapter_name": "「第三章」黑莲华娘",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94432,
+          "chapter_name": "「第四章」往昔的「剑帝」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94433,
+          "chapter_name": "「终章」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94434,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 62990,
+          "chapter_name": "插图",
+          "chapter_order": 88
+        }
+      ]
     }
   ]
 }

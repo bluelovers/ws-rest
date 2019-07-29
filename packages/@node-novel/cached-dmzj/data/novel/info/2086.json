@@ -12,12 +12,14 @@
   "hot_hits": 331502,
   "introduction": "异世界的魔法帝国因为大量使用消耗土地本源（玛那）的魔法发展，导致本土土地损坏严重（大规模沙漠化），为了解决这个问题，就启用了“救世计划”（从另一个世界那一块土地出来吸收玛那，如果有异世界人就将其控制），然后很不巧的把二战期间的苏维埃召唤了过来，更不幸的是，由于苏维埃原来的那个世界没有魔力存在，使得苏维埃人没有“魔法因子”（说白了就是对控制类魔法免疫，包括死灵法术），然后魔法帝国轻敌攻击苏维埃，拆了冬宫跟夏宫，然后，战争就开始了。",
   "types": [
-    "异界/穿越/战争"
+    "异界",
+    "穿越",
+    "战争"
   ],
   "authors": "reden",
   "first_letter": "H",
   "subscribe_num": 5016,
-  "redis_update_time": 1564307092,
+  "redis_update_time": 1564359094,
   "volume": [
     {
       "id": 7615,
@@ -25,7 +27,7 @@
       "volume_name": "web版1-30试看",
       "volume_order": 10,
       "addtime": 1458043887,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7647,
@@ -33,7 +35,7 @@
       "volume_name": "web版31-60试看",
       "volume_order": 20,
       "addtime": 1458806566,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8335,
@@ -41,7 +43,413 @@
       "volume_name": "web版61-90试看",
       "volume_order": 30,
       "addtime": 1480844982,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7615,
+      "id": 7615,
+      "volume_name": "web版1-30试看",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 58070,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58076,
+          "chapter_name": "解说简介",
+          "chapter_order": 15
+        },
+        {
+          "chapter_id": 58071,
+          "chapter_name": "第一话 发端",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58072,
+          "chapter_name": "第二话 召唤",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58073,
+          "chapter_name": "第三话 转移",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58074,
+          "chapter_name": "第四话 混乱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58075,
+          "chapter_name": "第五话 异界",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58077,
+          "chapter_name": "第六话 侵略",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 58078,
+          "chapter_name": "第七话 应战",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 58079,
+          "chapter_name": "第八话 夜战",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 58080,
+          "chapter_name": "第九话 击退",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 58081,
+          "chapter_name": "第十话 调查",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 58082,
+          "chapter_name": "第11话 举国",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 58083,
+          "chapter_name": "第12话 水都",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 58084,
+          "chapter_name": "第13话 出立",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 58085,
+          "chapter_name": "第14话 动员",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 58086,
+          "chapter_name": "第15话 接触",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 58087,
+          "chapter_name": "第16话 思惑",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 58088,
+          "chapter_name": "第17话 会谈",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 58089,
+          "chapter_name": "第18话 开战",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 58090,
+          "chapter_name": "第19话 误断",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 58091,
+          "chapter_name": "外传之一 俘虏",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 58092,
+          "chapter_name": "外传之二 动摇",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 58093,
+          "chapter_name": "第20话 亡者",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 58094,
+          "chapter_name": "第21话 策动",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 58095,
+          "chapter_name": "第22话 来援",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 58096,
+          "chapter_name": "第23话 禁忌",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 58097,
+          "chapter_name": "第24话 攻势",
+          "chapter_order": 270
+        },
+        {
+          "chapter_id": 58098,
+          "chapter_name": "外传之三 离反",
+          "chapter_order": 280
+        },
+        {
+          "chapter_id": 58099,
+          "chapter_name": "外传之四 异乡",
+          "chapter_order": 290
+        },
+        {
+          "chapter_id": 58100,
+          "chapter_name": "外传之五 谍报",
+          "chapter_order": 300
+        },
+        {
+          "chapter_id": 58101,
+          "chapter_name": "外传之六 行末",
+          "chapter_order": 310
+        },
+        {
+          "chapter_id": 58102,
+          "chapter_name": "第25话 审问",
+          "chapter_order": 320
+        },
+        {
+          "chapter_id": 58103,
+          "chapter_name": "第25话 EX 周边地图",
+          "chapter_order": 330
+        },
+        {
+          "chapter_id": 58104,
+          "chapter_name": "第26话 威胁",
+          "chapter_order": 340
+        },
+        {
+          "chapter_id": 58105,
+          "chapter_name": "第27话 攻城",
+          "chapter_order": 350
+        },
+        {
+          "chapter_id": 58106,
+          "chapter_name": "第28话 落日",
+          "chapter_order": 360
+        },
+        {
+          "chapter_id": 58107,
+          "chapter_name": "第29话 南方",
+          "chapter_order": 370
+        },
+        {
+          "chapter_id": 58108,
+          "chapter_name": "第30话 战龙",
+          "chapter_order": 380
+        }
+      ]
+    },
+    {
+      "volume_id": 7647,
+      "id": 7647,
+      "volume_name": "web版31-60试看",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 59960,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 58673,
+          "chapter_name": "第31话 进攻",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58993,
+          "chapter_name": "第32话 死线",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59724,
+          "chapter_name": "第33话 海魔",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59961,
+          "chapter_name": "第34话 再会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59962,
+          "chapter_name": "第35话 文明",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59963,
+          "chapter_name": "第36话 旧友",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59964,
+          "chapter_name": "第37话 督励",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59965,
+          "chapter_name": "第38话 恫喝",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 60601,
+          "chapter_name": "第39话 亡国",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 60602,
+          "chapter_name": "第40话 刺客",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 60603,
+          "chapter_name": "第41话 展望",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 60604,
+          "chapter_name": "第42话 交渉",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 60605,
+          "chapter_name": "第43话 骚乱",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 61212,
+          "chapter_name": "第44话 抗战",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 61213,
+          "chapter_name": "闲话⑦ 一服(一盏茶)",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 61214,
+          "chapter_name": "第45话 急报",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 62080,
+          "chapter_name": "第46话 介入",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 62081,
+          "chapter_name": "第47话 错综",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 62082,
+          "chapter_name": "第48话 叛徒",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 62083,
+          "chapter_name": "第49话 降下",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 62084,
+          "chapter_name": "闲话⑧ 奇缘",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 63286,
+          "chapter_name": "第50话 突入",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 63287,
+          "chapter_name": "第51话 魔兽",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 63288,
+          "chapter_name": "第52话 近卫",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 63289,
+          "chapter_name": "第53话 歼灭",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 65333,
+          "chapter_name": "第54话 黄昏",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 65334,
+          "chapter_name": "第55话 魔导",
+          "chapter_order": 270
+        },
+        {
+          "chapter_id": 65335,
+          "chapter_name": "第56话 宫城",
+          "chapter_order": 280
+        },
+        {
+          "chapter_id": 65336,
+          "chapter_name": "第57话 终局",
+          "chapter_order": 290
+        },
+        {
+          "chapter_id": 69538,
+          "chapter_name": "第58话 国王",
+          "chapter_order": 300
+        },
+        {
+          "chapter_id": 69539,
+          "chapter_name": "第59话 始末(善后)",
+          "chapter_order": 310
+        },
+        {
+          "chapter_id": 69540,
+          "chapter_name": "第60话 复兴",
+          "chapter_order": 320
+        }
+      ]
+    },
+    {
+      "volume_id": 8335,
+      "id": 8335,
+      "volume_name": "web版61-90试看",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 69541,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69542,
+          "chapter_name": "第61话 属领",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69543,
+          "chapter_name": "第62话 晩餐",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69544,
+          "chapter_name": "第63话 猎犬",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 19042,
   "introduction": "主要讲述了骑士法兰克在索伦岛领主之女阿米娜的帮助下，寻找杀害领主的凶手“暗杀骑士”的过程。",
   "types": [
-    "冒险/异界"
+    "冒险",
+    "异界"
   ],
   "authors": "米泽穗信",
   "first_letter": "Z",
   "subscribe_num": 1391,
-  "redis_update_time": 1564311283,
+  "redis_update_time": 1564349265,
   "volume": [
     {
       "id": 7577,
@@ -25,7 +26,72 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1456302383,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7577,
+      "id": 7577,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 57473,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57474,
+          "chapter_name": "目录",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 57475,
+          "chapter_name": "序章 老兵之死",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57476,
+          "chapter_name": "第一章 来自东方",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 57477,
+          "chapter_name": "第二章 骑士与佣兵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 57478,
+          "chapter_name": "第三章 追悼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 57479,
+          "chapter_name": "第四章 暴风雨前的钟声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 57491,
+          "chapter_name": "第五章 仪式",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 57492,
+          "chapter_name": "终章 彼方",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 57493,
+          "chapter_name": "参考文献",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 57494,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 28197,
   "introduction": "她只要凝视着对方的眼瞳，便能获取其记忆。有一位青梅竹马，她将两具遍涂赤红的恐怖人偶、视作双亲，过着怪异的每一天。有一位病弱的妹妹，她仅凭微笑就能操纵人心。而我们的主人公，邂逅了这些似有缺憾的少女们，其后，被卷入了一连串的奇异事件。那就如同在用指尖细数着遥远往昔的…...",
   "types": [
-    "校园/恐怖"
+    "校园",
+    "恐怖"
   ],
   "authors": "cutlass",
   "first_letter": "N",
   "subscribe_num": 1574,
-  "redis_update_time": 1564237025,
+  "redis_update_time": 1564324536,
   "volume": [
     {
       "id": 6995,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 千夜之章 前编",
       "volume_order": 10,
       "addtime": 1435144422,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8005,
@@ -33,7 +34,160 @@
       "volume_name": "第二卷 千夜之章 后编",
       "volume_order": 20,
       "addtime": 1469708251,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6995,
+      "id": 6995,
+      "volume_name": "第一卷 千夜之章 前编",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51040,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51041,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51042,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51043,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51044,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51045,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51046,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51047,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 51048,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 51049,
+          "chapter_name": "第十章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 51050,
+          "chapter_name": "第十一章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 51051,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 8005,
+      "id": 8005,
+      "volume_name": "第二卷 千夜之章 后编",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 64292,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 64293,
+          "chapter_name": "引子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 64294,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 64295,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 64296,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 64298,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 64299,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 64306,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 64301,
+          "chapter_name": "第七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 64318,
+          "chapter_name": "第八章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 64319,
+          "chapter_name": "第九章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 64320,
+          "chapter_name": "第十章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 64321,
+          "chapter_name": "第十一章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 64322,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 64323,
+          "chapter_name": "插图",
+          "chapter_order": 150
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,15 @@
   "hot_hits": 51128,
   "introduction": "转生到异世界的枪械迷少年行成带著银发少女塔莎一起在各地旅行。某天在偶然之下救了被献给土地神当祭品的女孩，结果竟然因此而成为该地的新神明!? 以枪械对抗奇幻世界怪物的爽快战斗正式登场!!",
   "types": [
-    "冒险/爱情/异界/穿越"
+    "冒险",
+    "爱情",
+    "异界",
+    "穿越"
   ],
   "authors": "榊一郎",
   "first_letter": "C",
   "subscribe_num": 2108,
-  "redis_update_time": 1564296323,
+  "redis_update_time": 1564343622,
   "volume": [
     {
       "id": 7684,
@@ -25,7 +28,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1460035199,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7684,
+      "id": 7684,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 59252,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59253,
+          "chapter_name": "序章 从结束开始",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59254,
+          "chapter_name": "第一章 成神之兽",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59255,
+          "chapter_name": "第二章 神之外形",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59256,
+          "chapter_name": "第三章 异兽",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59257,
+          "chapter_name": "第四章 神之军队",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59258,
+          "chapter_name": "终章 镇守该地者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59259,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

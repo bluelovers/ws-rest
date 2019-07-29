@@ -12,12 +12,14 @@
   "hot_hits": 31388,
   "introduction": "　　「终于见到你了。从今以后你就是我的骑士了。」\n　　这是个魔女与骑士同心协力对抗【黑星的灾厄（迪亚波罗）】的世界。辛是一位骑士，他以能够引出消灭迪亚波罗能力的【魔女骑士】之身份，进入魔女学院就读。众多少女为了魔女骑士的力量，因而纷纷想要成为辛的搭档。期间，辛与小时候认识的少女赛娜再度相逢。虽然赛娜是遭受诅咒的【黑魔女】，周围的人都避之唯恐不及，但为了遵守约定成为辛的搭档，她展开一连串的特训，从而赶紧掌握自己的各项能力。\n　　为了赛娜，为了达到迪亚波罗，辛的魔女骑士传说就此拉开序幕！",
   "types": [
-    "魔法/冒险/搞笑"
+    "魔法",
+    "冒险",
+    "搞笑"
   ],
   "authors": "空野一树",
   "first_letter": "S",
   "subscribe_num": 636,
-  "redis_update_time": 1564308161,
+  "redis_update_time": 1564335474,
   "volume": [
     {
       "id": 7002,
@@ -25,7 +27,52 @@
       "volume_name": "第一卷 黑炎的魔女姬",
       "volume_order": 10,
       "addtime": 1435502060,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7002,
+      "id": 7002,
+      "volume_name": "第一卷 黑炎的魔女姬",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51142,
+          "chapter_name": "序章 起始的约定",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51143,
+          "chapter_name": "第一章 传承的骑士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51144,
+          "chapter_name": "第二章 修练的每一天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51145,
+          "chapter_name": "第三章 迫在眉睫的决断时刻",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51146,
+          "chapter_name": "第四章 大蛇现身",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51147,
+          "chapter_name": "终章 黑魔女赛娜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51148,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

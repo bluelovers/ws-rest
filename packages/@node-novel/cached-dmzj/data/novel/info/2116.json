@@ -12,12 +12,13 @@
   "hot_hits": 54333,
   "introduction": "背叛！欺骗！陷阱！策略！白热化的间谍大作战\n散发着妖异光芒的结城中校\n为你带来最精彩的阅读体验\n在结城中校的力排众议下，日本陆军成立了间谍培训学校「D机关」。在这里，所有成员都被灌输了彻底否定军人信条的三大戒律：「不准死」、「不准杀人」、「不准被抓」。\n这样的组织自然成 为他人的眼中钉，时时腹背受敌；然而「魔王」－结城中校以他犹如魔术师般的高超手腕交出间谍大战的丰厚战果，\n就连隐身在陆军内部的敌人也被他逐一消灭……\n从东京、横滨到伦敦、上海，紧张刺激的间谍殊死战，就此展开！",
   "types": [
-    "其它/侦探"
+    "其它",
+    "侦探"
   ],
   "authors": "柳广司",
   "first_letter": "D",
-  "subscribe_num": 5233,
-  "redis_update_time": 1564306377,
+  "subscribe_num": 5234,
+  "redis_update_time": 1564348657,
   "volume": [
     {
       "id": 7742,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 JOKER GAME",
       "volume_order": 10,
       "addtime": 1461327830,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7743,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 DOUBLE JOKER",
       "volume_order": 20,
       "addtime": 1461328097,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7778,
@@ -41,7 +42,118 @@
       "volume_name": "第三卷 PARADISE LOST",
       "volume_order": 30,
       "addtime": 1462261589,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7742,
+      "id": 7742,
+      "volume_name": "第一卷 JOKER GAME",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 59997,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 60003,
+          "chapter_name": "第一章 Joker Game",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 60004,
+          "chapter_name": "第二章 幽灵",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 60005,
+          "chapter_name": "第三章 鲁宾逊",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 60006,
+          "chapter_name": "第四章 魔都",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 60007,
+          "chapter_name": "第五章 XX",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7743,
+      "id": 7743,
+      "volume_name": "第二卷 DOUBLE JOKER",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 60008,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 60009,
+          "chapter_name": "第一章 DOUBLE JOKER",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 60010,
+          "chapter_name": "第二章 蝇王",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 60400,
+          "chapter_name": "第三章 印度支那大作战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 60401,
+          "chapter_name": "第四章 棺柩",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 60402,
+          "chapter_name": "第五章 黑鸟",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7778,
+      "id": 7778,
+      "volume_name": "第三卷 PARADISE LOST",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 60403,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 60404,
+          "chapter_name": "第一章 误算",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 62226,
+          "chapter_name": "第二章：失乐园",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62227,
+          "chapter_name": "第三章：追踪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 62228,
+          "chapter_name": "第四章：代号“刻耳柏洛斯”",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 58473,
   "introduction": "游泳社的可爱女生太多了，我输给诱惑了，于是，我加入了游泳社！",
   "types": [
-    "校园/搞笑"
+    "校园",
+    "搞笑"
   ],
   "authors": "三叶",
   "first_letter": "Y",
   "subscribe_num": 2331,
-  "redis_update_time": 1564301405,
+  "redis_update_time": 1564337285,
   "volume": [
     {
       "id": 7466,
@@ -25,7 +26,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1452774304,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7466,
+      "id": 7466,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 60905,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 56134,
+          "chapter_name": "第一章 望远镜看出去的世界",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 56680,
+          "chapter_name": "第二话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58898,
+          "chapter_name": "第三话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 60208,
+          "chapter_name": "第四章 凳子上的恋心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 60906,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61115,
+          "chapter_name": "第六章 体育系社团的基因",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61116,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 60904,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,16 @@
   "hot_hits": 243555,
   "introduction": "濑田麟一郎是住在某个非常乡下的地方——平家镇的普通高中生。某天夜晚，他发现了倒在水田中的公主——波莉莉法，以奉侍奉她的女骑士一一克​​劳塞菈。两人居然说自己是从异世界「魔法地平」逃亡至此并从而展开一段令人手忙脚乱的故事！——你一定以为是这样吧？「其实……在这个镇上还满常有这种事的。」「什么！」但故事舞台却是位于异世界人的存在并不稀奇的普通乡村小镇，一场女骑士系乡村日常喜剧就此平安踏出了悠哉的第一步。「你刚才穿新娘装的模样很美喔。」「你你你……你在说什么傻话！唔，杀了我吧！」",
   "types": [
-    "魔法/冒险/校园/穿越/搞笑"
+    "魔法",
+    "冒险",
+    "校园",
+    "穿越",
+    "搞笑"
   ],
   "authors": "伊藤ヒロ",
   "first_letter": "N",
-  "subscribe_num": 26165,
-  "redis_update_time": 1564311821,
+  "subscribe_num": 26163,
+  "redis_update_time": 1564354076,
   "volume": [
     {
       "id": 7715,
@@ -25,7 +29,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1460721494,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7824,
@@ -33,7 +37,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1463415993,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7870,
@@ -41,7 +45,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1465113590,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9671,
@@ -49,7 +53,266 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1536540997,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7715,
+      "id": 7715,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 59698,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59699,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59700,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59701,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59702,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59703,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59704,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59705,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59706,
+          "chapter_name": "第七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 59707,
+          "chapter_name": "第八章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 59708,
+          "chapter_name": "终章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 59709,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 59710,
+          "chapter_name": "插图",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 7824,
+      "id": 7824,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 61216,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61217,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61218,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 61219,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 61225,
+          "chapter_name": "第三章",
+          "chapter_order": 45
+        },
+        {
+          "chapter_id": 91649,
+          "chapter_name": "第四章",
+          "chapter_order": 46
+        },
+        {
+          "chapter_id": 91650,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61221,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61222,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 61223,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 61224,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7870,
+      "id": 7870,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 62172,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 62173,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 62174,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62175,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 62176,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62177,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 62178,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 62179,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 62180,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 62181,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9671,
+      "id": 9671,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 89551,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89552,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89599,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89644,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89916,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 90559,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 91610,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94020,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 94833,
+          "chapter_name": "终章",
+          "chapter_order": 88
+        },
+        {
+          "chapter_id": 94815,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 94816,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

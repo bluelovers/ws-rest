@@ -12,12 +12,16 @@
   "hot_hits": 27347,
   "introduction": "一名平凡的中二病宅男高中生野野宫一平，在回家路上遇见了他梦寐以求的召唤魔法。以勇气为信念，他毅然穿越到异世界。然后他遇见了他理想的软妹女主角———————虽然是个老太婆。",
   "types": [
-    "校园/魔法/搞笑/异界/穿越"
+    "校园",
+    "魔法",
+    "搞笑",
+    "异界",
+    "穿越"
   ],
   "authors": "吉川兵保",
   "first_letter": "Y",
   "subscribe_num": 965,
-  "redis_update_time": 1564307969,
+  "redis_update_time": 1564346380,
   "volume": [
     {
       "id": 7423,
@@ -25,7 +29,27 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1451219734,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7423,
+      "id": 7423,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 55805,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55806,
+          "chapter_name": "第一章 boy meet girl",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 9526,
   "introduction": "以解开谜团为生存目的的少年・鸠之巢论。高二的第一学期的第一天，在新的班级里坐在论的后面的是全身都以白色为基调的奇妙的女学生——瑞平すすめ。把自己的肌肤隐藏至极限，以合成声音做自我介绍的不可思议的少女。以一次意外为契机论接触到那名少女的肌肤的瞬间，世界突然天翻地覆。论被卷入了『天使』所支配着的暗之空间。他与すすめ一同为了解开那空间的谜团，向『天使』所创造出的谜团的“状況”的“解明”发出挑战——『水平思考推理游戏』，“状況开始”!",
   "types": [
-    "校园/侦探"
+    "校园",
+    "侦探"
   ],
   "authors": "乙野四方字",
   "first_letter": "L",
   "subscribe_num": 401,
-  "redis_update_time": 1564298203,
+  "redis_update_time": 1564344473,
   "volume": [
     {
       "id": 7266,
@@ -25,7 +26,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1443792463,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7266,
+      "id": 7266,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 53499,
+          "chapter_name": "第0问",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53500,
+          "chapter_name": "第一问",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53501,
+          "chapter_name": "第二问",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53502,
+          "chapter_name": "第三问",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53503,
+          "chapter_name": "第四问",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53504,
+          "chapter_name": "第五问",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53505,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 53506,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

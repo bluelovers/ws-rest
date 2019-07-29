@@ -12,12 +12,13 @@
   "hot_hits": 158523,
   "introduction": "时间是20世纪末。极东岛国『皇国日本』被从古代罗马复活的英雄恺撒攻占，由隣国『东方罗马帝国』事实上支配着！使恺撒成为最强征服者的力量名为『LEGION』。那是列强诸国全都将其作为主力兵器使用的神秘军団——有翼巨人兵军队。皇国日本的皇女・藤宫志绪理暗藏着成为日本覇主的野心，并终于采取行动。皇女作为心腹之将而挑选的是，乍一看平凡无奇的高校生・橘征継。但他其实也是从古代世界复活的，与大英雄恺撒同样伟大的复活者『legatus legionis』（军团长）！！",
   "types": [
-    "爱情/冒险"
+    "爱情",
+    "冒险"
   ],
   "authors": "丈月城",
   "first_letter": "S",
-  "subscribe_num": 6786,
-  "redis_update_time": 1564310716,
+  "subscribe_num": 6788,
+  "redis_update_time": 1564362940,
   "volume": [
     {
       "id": 7025,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 军团袭来",
       "volume_order": 10,
       "addtime": 1436353410,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7731,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 王子与狮子王",
       "volume_order": 20,
       "addtime": 1460801618,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8031,
@@ -41,7 +42,203 @@
       "volume_name": "第三卷 皇国的志士们",
       "volume_order": 30,
       "addtime": 1471091831,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7025,
+      "id": 7025,
+      "volume_name": "第一卷 军团袭来",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 59847,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59848,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59849,
+          "chapter_name": "第一章 军团来袭（1）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59850,
+          "chapter_name": "第二章 军团来袭（2）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59851,
+          "chapter_name": "第三章 骑士与武勋（1）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59852,
+          "chapter_name": "第四章 骑士与武勋（2）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59853,
+          "chapter_name": "第五章 军团长（1）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59854,
+          "chapter_name": "第六章 军团长（2）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59855,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 59856,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 59857,
+          "chapter_name": "用语辞典",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 59858,
+          "chapter_name": "插图",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 7731,
+      "id": 7731,
+      "volume_name": "第二卷 王子与狮子王",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 59859,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59860,
+          "chapter_name": "第一章 黑骑士的阴影下",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59861,
+          "chapter_name": "第二章 风云际会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59862,
+          "chapter_name": "第三章 狮王之魂",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59863,
+          "chapter_name": "第四章 不列颠骑士",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59864,
+          "chapter_name": "第五章 猎犬斗雄狮（1）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59865,
+          "chapter_name": "第六章 猎犬斗雄狮（2）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59866,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59867,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 59868,
+          "chapter_name": "用语辞典",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 59869,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 8031,
+      "id": 8031,
+      "volume_name": "第三卷 皇国的志士们",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 64694,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 64695,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 64696,
+          "chapter_name": "第一章 名古屋城沦陷",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 64697,
+          "chapter_name": "第二章 东征西讨",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 64698,
+          "chapter_name": "第三章 群雄鼓动",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 64699,
+          "chapter_name": "第四章 箱根包围网",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 64700,
+          "chapter_name": "第五章 神圣公主的血脉",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 64701,
+          "chapter_name": "第六章 双头之狗",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 64702,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 64703,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 66532,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

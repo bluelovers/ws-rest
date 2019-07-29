@@ -12,12 +12,14 @@
   "hot_hits": 19857,
   "introduction": "    前世为贤者的少年，与少女们探索地下城！\n    在世界各地出现地下城的世界——高中生少年响，有着可以施展无声魔法的特殊能力。某一天，响被身为地下城探索者的同班同学春菜所要求，希望能教授她战斗的方法——",
   "types": [
-    "魔法/冒险/校园"
+    "魔法",
+    "冒险",
+    "校园"
   ],
   "authors": "瀬尾つかさ",
   "first_letter": "H",
-  "subscribe_num": 885,
-  "redis_update_time": 1564305476,
+  "subscribe_num": 887,
+  "redis_update_time": 1564344542,
   "volume": [
     {
       "id": 7323,
@@ -25,7 +27,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1446893556,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7323,
+      "id": 7323,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 54187,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 54188,
+          "chapter_name": "第一章 魔物大暴走",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 54189,
+          "chapter_name": "第二话 横滨大坟墓",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 54190,
+          "chapter_name": "第三话 春菜的选择",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 54191,
+          "chapter_name": "第四章 异界神的复活",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 54192,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 54193,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,7 @@
   "authors": "知念实希人",
   "first_letter": "T",
   "subscribe_num": 2847,
-  "redis_update_time": 1564309609,
+  "redis_update_time": 1564353314,
   "volume": [
     {
       "id": 7711,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1460634831,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10055,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 魅影病房",
       "volume_order": 20,
       "addtime": 1555338503,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10064,
@@ -41,7 +41,133 @@
       "volume_name": "第三卷 密室偏执狂",
       "volume_order": 30,
       "addtime": 1555678154,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7711,
+      "id": 7711,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 59643,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 59642,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59644,
+          "chapter_name": "Karte.01 气泡",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59649,
+          "chapter_name": "Karte.02 鬼火的原料",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59645,
+          "chapter_name": "Karte.03 看不见的胎儿",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59647,
+          "chapter_name": "Karte.04 量身订作的毒药",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59648,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 10055,
+      "id": 10055,
+      "volume_name": "第二卷 魅影病房",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 95353,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95354,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95355,
+          "chapter_name": "Karte.01 甜蜜的毒药",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95356,
+          "chapter_name": "Karte.02 吸血鬼症候群",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95357,
+          "chapter_name": "Karte.03 天使降临之夜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95358,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95359,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 10064,
+      "id": 10064,
+      "volume_name": "第三卷 密室偏执狂",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 95473,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95474,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95475,
+          "chapter_name": "Karte.01 进入闪光",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95476,
+          "chapter_name": "Karte.02 抗拒的肌肤",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95477,
+          "chapter_name": "Karte.03 溺死在密室的男子",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95478,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

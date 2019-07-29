@@ -17,7 +17,7 @@
   "authors": "今村恭子",
   "first_letter": "Y",
   "subscribe_num": 206,
-  "redis_update_time": 1564305531,
+  "redis_update_time": 1564332559,
   "volume": [
     {
       "id": 7252,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1443614317,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7324,
@@ -33,7 +33,150 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1446972633,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7252,
+      "id": 7252,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 53388,
+          "chapter_name": "缘起",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53389,
+          "chapter_name": "登场人物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53390,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53391,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53392,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53393,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53394,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 53395,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 53396,
+          "chapter_name": "第七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 53397,
+          "chapter_name": "第八章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 53398,
+          "chapter_name": "第九章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 53399,
+          "chapter_name": "第十章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 53400,
+          "chapter_name": "第十一章",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 7324,
+      "id": 7324,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 54194,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 54195,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 54196,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 54197,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 54198,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 54199,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 54200,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 54201,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 54202,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 54203,
+          "chapter_name": "第十章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 54204,
+          "chapter_name": "第十一章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 54205,
+          "chapter_name": "第十二章",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

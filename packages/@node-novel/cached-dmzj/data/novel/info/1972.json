@@ -12,12 +12,17 @@
   "hot_hits": 41642,
   "introduction": "　　高中生·龟乐神乐在陌生的山丘上醒来，眼前的少女突然说道：「我才没有召唤这种人，我要的是大怪兽啊！」\n　　完全否定了他的存在。\n　　这个高中生身高250公分，体重220公斤，体格超乎常人。\n　　少女向他自我介绍\n　　「我叫做阿妮亚，是拥有闪电公主称号的吸血鬼！」\n　　自从少女咬了他的脖子之后，神乐的命运就有了很大的转变。\n　　在莫名其妙的异世界里成了闪电公主的奴隶，他逐渐习惯了劈柴跟击退盗贼等生活。\n　　但每当吸收了阿妮亚的闪电之后，他巨大的身体就会觉醒新的「力量」！",
   "types": [
-    "魔法/冒险/搞笑/异界/穿越/爱情"
+    "魔法",
+    "冒险",
+    "搞笑",
+    "异界",
+    "穿越",
+    "爱情"
   ],
   "authors": "小川淳次郎",
   "first_letter": "S",
   "subscribe_num": 1297,
-  "redis_update_time": 1564307029,
+  "redis_update_time": 1564326470,
   "volume": [
     {
       "id": 7177,
@@ -25,7 +30,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1440949586,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7578,
@@ -33,7 +38,120 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1456384865,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7177,
+      "id": 7177,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 52682,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52683,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52684,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52685,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52686,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52687,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52688,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52689,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7578,
+      "id": 7578,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 57495,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57496,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 57497,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57498,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 57499,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 57500,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 57501,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 57502,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 57503,
+          "chapter_name": "第七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 57504,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 57505,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

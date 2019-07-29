@@ -12,12 +12,14 @@
   "hot_hits": 68817,
   "introduction": "隐约感到某人的呼唤，我动身前往酒馆。\n\n此时已是深夜11点，望着幽灵一般悬浮在街道两旁的煤油灯，我不禁产生想躲过他们监视的冲动，快步走到酒馆门口。推开门走下一层，店内弥漫的烟雾飘到了胸口处。太宰已坐在了吧台椅上，正在用纤长的手指把玩着酒杯。这个点，一般他都会在这家店里，点一杯酒，然后沉默的观察着它。一口不动。",
   "types": [
-    "冒险/奇幻/搞笑"
+    "冒险",
+    "奇幻",
+    "搞笑"
   ],
   "authors": "朝雾カフカ",
   "first_letter": "W",
-  "subscribe_num": 9322,
-  "redis_update_time": 1564311541,
+  "subscribe_num": 9326,
+  "redis_update_time": 1564361445,
   "volume": [
     {
       "id": 7428,
@@ -25,7 +27,32 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1451308884,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7428,
+      "id": 7428,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 55821,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55822,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 55823,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

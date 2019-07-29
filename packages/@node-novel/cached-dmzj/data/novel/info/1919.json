@@ -12,12 +12,14 @@
   "hot_hits": 50543,
   "introduction": "　　「为了延续天狗的血统，跟我结合吧。」\n　　追踪连续杀人事件凶嫌的我——水主赖斗，反而遭逮捕……\n　　在这场危机中，我被「天狗」少女——轮月——以「延续天狗的血统」为理由拯救了。不，或许该说是我改被轮月束缚住才对。话说回来，要我帮你是可以，但这样能解决事件吗？我是名为咒师的和风魔法师，而且不解决事件的话就死定了……这种发展真的没问题吧？\n　　正义的和风魔法师与不纯少女的青春妖怪奇谭！",
   "types": [
-    "魔法/冒险/神鬼"
+    "魔法",
+    "冒险",
+    "神鬼"
   ],
   "authors": "森田季节",
   "first_letter": "M",
   "subscribe_num": 4123,
-  "redis_update_time": 1564296477,
+  "redis_update_time": 1564365587,
   "volume": [
     {
       "id": 7010,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1435677135,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8083,
@@ -33,7 +35,145 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1472483453,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7010,
+      "id": 7010,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51187,
+          "chapter_name": "第一话 在饿鬼的巢穴",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51188,
+          "chapter_name": "回想一 咒师之始",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51189,
+          "chapter_name": "第二话 天狗的契约",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51190,
+          "chapter_name": "回想二 咒师之里",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51191,
+          "chapter_name": "第三话 人类的和平",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51192,
+          "chapter_name": "回想三 咒师之表",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51193,
+          "chapter_name": "第四话 吸血鬼同盟",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51194,
+          "chapter_name": "回想四 咒师之终：在那以前",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 51195,
+          "chapter_name": "第五话 来自罗刹国的手",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 51196,
+          "chapter_name": "第六话 修罗的所为",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 51197,
+          "chapter_name": "尾声",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 51198,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 8083,
+      "id": 8083,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 65833,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 65834,
+          "chapter_name": "第一话 修罗的洗礼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65835,
+          "chapter_name": "第二话 游行的厄神",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65836,
+          "chapter_name": "回想一 咒师的宿命",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65837,
+          "chapter_name": "第三话 追踪汉神",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65838,
+          "chapter_name": "第四话 天狗盘算的爱情",
+          "chapter_order": 25
+        },
+        {
+          "chapter_id": 65839,
+          "chapter_name": "回想二 人类的范围",
+          "chapter_order": 26
+        },
+        {
+          "chapter_id": 65840,
+          "chapter_name": "第五话 异形的血脉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 65841,
+          "chapter_name": "尾声",
+          "chapter_order": 35
+        },
+        {
+          "chapter_id": 65842,
+          "chapter_name": "尾声 人类的外侧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 65843,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 65844,
+          "chapter_name": "插画",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

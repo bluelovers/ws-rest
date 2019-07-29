@@ -12,12 +12,13 @@
   "hot_hits": 317647,
   "introduction": "自称活了一千年的神,神鸣泽世界，是拥有一头长银发赤眼的美少女。\n虽然看起来像不问世事，而且很年幼，但是非常爱饮酒。\n每天都在自己家里看书。\n而作为她的祭品的高中生桐岛勇树在与她第一次见面的时候十分不安且紧张地对她说，“和我结婚吧。”\n纯粹无暇的2个人的爱情喜剧就这样开始了。",
   "types": [
-    "爱情/校园"
+    "爱情",
+    "校园"
   ],
   "authors": "铃木大辅",
   "first_letter": "R",
-  "subscribe_num": 30003,
-  "redis_update_time": 1564311016,
+  "subscribe_num": 30010,
+  "redis_update_time": 1564362867,
   "volume": [
     {
       "id": 7082,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1438352248,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7208,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1441979307,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8706,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1495984715,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8718,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1496331160,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8811,
@@ -57,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1499414134,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9137,
@@ -65,7 +66,352 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1513954348,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7082,
+      "id": 7082,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 75612,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75613,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75614,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75615,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75616,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75617,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75618,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75619,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 75620,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 75621,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7208,
+      "id": 7208,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 75672,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 75622,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75663,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75664,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75665,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75666,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75667,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75668,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75669,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 75670,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 75671,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8706,
+      "id": 8706,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 75673,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75674,
+          "chapter_name": "第九章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75675,
+          "chapter_name": "第十章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75676,
+          "chapter_name": "第十一章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75677,
+          "chapter_name": "第十二章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75678,
+          "chapter_name": "第十三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75679,
+          "chapter_name": "第十四章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75680,
+          "chapter_name": "第一章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 75681,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 75682,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 92389,
+          "chapter_name": "BOOK☆WALKER特典『School Days』",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 8718,
+      "id": 8718,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 75825,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75826,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75827,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75828,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75829,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75830,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75874,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75875,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 75876,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 75879,
+          "chapter_name": "第十章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 75878,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 75880,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 93955,
+          "chapter_name": "Melonbooks特典",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 8811,
+      "id": 8811,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 77122,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77123,
+          "chapter_name": "第十一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77124,
+          "chapter_name": "第十二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77125,
+          "chapter_name": "第十三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77126,
+          "chapter_name": "第十四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77127,
+          "chapter_name": "第十五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77128,
+          "chapter_name": "神明诞生之前的事情Ⅰ",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77129,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77130,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9137,
+      "id": 9137,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 81589,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81590,
+          "chapter_name": "神明诞生之前的事情Ⅱ",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81591,
+          "chapter_name": "神明诞生之后的事情",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81592,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81603,
+          "chapter_name": "插画",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

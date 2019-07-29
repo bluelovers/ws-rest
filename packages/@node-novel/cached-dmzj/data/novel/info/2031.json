@@ -12,12 +12,14 @@
   "hot_hits": 212920,
   "introduction": "在VRMMO游戏「ＣｔＧ」里，春日井游和第一次见面的米珐随意地【结婚】了。但是没想到女儿春羽居然诞生，要开始养育孩子了！？\n“我来了哦，爸爸！”“我、我叫钉宫。”没想到现实世界里，真人的美羽和米珐里面的人——钉宫美遥也出现了！\n现实与游戏两端，难道自己被卷入了事关人类未来（？）的宏大少女育成！？",
   "types": [
-    "科幻/冒险/搞笑"
+    "科幻",
+    "冒险",
+    "搞笑"
   ],
   "authors": "玩具堂",
   "first_letter": "C",
-  "subscribe_num": 9118,
-  "redis_update_time": 1564310501,
+  "subscribe_num": 9117,
+  "redis_update_time": 1564360284,
   "volume": [
     {
       "id": 7418,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1451121139,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7463,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1452673873,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7807,
@@ -41,7 +43,148 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1462970769,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7418,
+      "id": 7418,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 55768,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55769,
+          "chapter_name": "第一章（Input）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 55770,
+          "chapter_name": "第二章（Output）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 56043,
+          "chapter_name": "第三章 (Interaction)",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 56075,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 56076,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59211,
+          "chapter_name": "插图",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7463,
+      "id": 7463,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 60388,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 56103,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 56871,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58799,
+          "chapter_name": "第二章 Santa Sangre（圣血）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 60387,
+          "chapter_name": "第三章 Scanner Friendly （朋友扫描仪）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 60503,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 60707,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 60389,
+          "chapter_name": "插图",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7807,
+      "id": 7807,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 60895,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 60897,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61882,
+          "chapter_name": "第一章 Form of the dead （亡者的形式）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63372,
+          "chapter_name": "第二章 Illness of the dead（亡者的疾病）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67649,
+          "chapter_name": "第三章 Game of the Dead（亡者的游戏）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 67864,
+          "chapter_name": "尾声 神对他降下惩罚，赐予他两位少女的手",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 67865,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 67866,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

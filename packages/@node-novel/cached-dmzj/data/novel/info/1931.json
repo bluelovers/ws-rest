@@ -12,12 +12,14 @@
   "hot_hits": 38252,
   "introduction": "在一个边境的村庄里住着一对人类姐弟，在森林的深处住着一对妖精兄妹。他们四个彼此是关系要好的朋友，一直过着平静生活……然而直到有一天，妖精突然开始对人类世界发动侵略。四个人就此感情破解，分道扬镳。不久之后，人类少年伊米纳与妖精少女艾莉丝共赴战场。少年所携之剑，其色鲜红，如往昔所流之物，亦如将来要流之物……由沉痛的鲜血点缀的黑暗奇幻记，现在揭幕！",
   "types": [
-    "魔法/冒险/奇幻"
+    "魔法",
+    "冒险",
+    "奇幻"
   ],
   "authors": "藤原佑",
   "first_letter": "X",
   "subscribe_num": 727,
-  "redis_update_time": 1564275863,
+  "redis_update_time": 1564327401,
   "volume": [
     {
       "id": 7041,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1436924903,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 7181,
@@ -33,7 +35,100 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1441112653,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7041,
+      "id": 7041,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51452,
+          "chapter_name": "前文 「关于他」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51453,
+          "chapter_name": "第一章 在草地上欢笑的安宁日子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51454,
+          "chapter_name": "第二章 气绝于冷彻之火",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51455,
+          "chapter_name": "第三章 战线尚远，却又近在咫尺",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51456,
+          "chapter_name": "第四章 搅乱箱庭",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51457,
+          "chapter_name": "第五章 艾莉丝之血",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51458,
+          "chapter_name": "幕间 黎明于夕暮十分到来",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51459,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7181,
+      "id": 7181,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 52753,
+          "chapter_name": "第六章 翻越灰绿抵达翠渊",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52754,
+          "chapter_name": "第七章 血痕与祝祭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52755,
+          "chapter_name": "第八章 污泥啊，创造闭塞吧",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52756,
+          "chapter_name": "第九章 黑暗的森林",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52757,
+          "chapter_name": "第十章 啜食心爱的你的血",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52758,
+          "chapter_name": "间章 于森林深处狂笑的凶残",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52759,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

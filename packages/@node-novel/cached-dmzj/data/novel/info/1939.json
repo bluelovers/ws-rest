@@ -12,12 +12,13 @@
   "hot_hits": 12634,
   "introduction": "「这株樱花你看得到么？……可那是幽灵喔」鬼才全力献上的幻想怪奇谭──。\n「你的『愿望』是──什么？然后，你的『绝望』又是────」　一天晚上，夜樱盛放。暗恋的表姐伫立在盛开的樱花树下……她的倩影是那么的妖娆美丽，令人不知不觉地被她深深吸引。而那天晚上，她在樱花树下吊死了。现在——她融入了那棵樱花树中。……好想见到她——深信表姐还存在于樱花树中的男人，终于遇到了能够实现自己愿望的，身披夜色风衣的黑暗使者。使者乃是活着的都市传说，他自黑暗出现，能够实现他人的愿望。使者乃不灭的魔人，诞生于夜，栖居在这座城市里。而且，他也是令恐惧钻入心灵缝隙的心魔——鬼才·甲田学人全力献上的怪奇短篇集。",
   "types": [
-    "神鬼/恐怖"
+    "神鬼",
+    "恐怖"
   ],
   "authors": "甲田学人",
   "first_letter": "Y",
   "subscribe_num": 453,
-  "redis_update_time": 1564307868,
+  "redis_update_time": 1564346912,
   "volume": [
     {
       "id": 7071,
@@ -25,7 +26,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1437910200,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7071,
+      "id": 7071,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51665,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52166,
+          "chapter_name": "魄线奇谭 -HakusenKitan-",
+          "chapter_order": 15
+        },
+        {
+          "chapter_id": 51666,
+          "chapter_name": "缮异奇谭 -TsukuroikiKitan-",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51667,
+          "chapter_name": "现实魔女奇谭 -YumemajoKitan-",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52167,
+          "chapter_name": "接鬼奇谭 -TsugikiKitan-",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

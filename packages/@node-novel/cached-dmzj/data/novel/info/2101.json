@@ -12,12 +12,15 @@
   "hot_hits": 127413,
   "introduction": "　  因意外而陨命的青年，受神所托，\n　　转生到生前往往的奇幻世界。\n　　神让他看见的世界，是有龙也有魔法，\n　　且魔术师的地位很高的异世界。\n　　他转生为魔术师家族的长男·尤里斯，\n　　可是等着他的，是做梦也想不到的『吊车尾』人生——\n　　「请你不要使用魔力。」尤里斯心里惦记着神托付的任务\n　　在魔力至上的世界裡，不使用魔力要如何生存下去？\n　　他怀着无法使用魔力的缺点，同时逐渐成长，\n　　此时，他遇到一个龙的蛋。\n　　和黑龙幼子订下契约的尤里斯，\n　　以乘着龙奔走于世界的骑龙士身分，\n　　开始步上人生的旅途",
   "types": [
-    "魔法/冒险/异界/穿越"
+    "魔法",
+    "冒险",
+    "异界",
+    "穿越"
   ],
   "authors": "高梨ひかる",
   "first_letter": "W",
   "subscribe_num": 2990,
-  "redis_update_time": 1564312299,
+  "redis_update_time": 1564341317,
   "volume": [
     {
       "id": 7671,
@@ -25,7 +28,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1459586770,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7671,
+      "id": 7671,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 59040,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59041,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59042,
+          "chapter_name": "第1章 从十二岁开始",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59043,
+          "chapter_name": "第2章 骑士养成学校",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59044,
+          "chapter_name": "第3章 黑骑龙诺薇尔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59045,
+          "chapter_name": "第4章 骑龙士与见习魔术师",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59046,
+          "chapter_name": "第5章 家族",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59047,
+          "chapter_name": "附录 某日的卡伊拉德家",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,7 @@
   "authors": "宫部美幸",
   "first_letter": "S",
   "subscribe_num": 619,
-  "redis_update_time": 1564308264,
+  "redis_update_time": 1564319712,
   "volume": [
     {
       "id": 7238,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 上",
       "volume_order": 10,
       "addtime": 1442998657,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7239,
@@ -33,7 +33,105 @@
       "volume_name": "第二卷 下",
       "volume_order": 20,
       "addtime": 1442998657,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7238,
+      "id": 7238,
+      "volume_name": "第一卷 上",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 53200,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53201,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53202,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53203,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53204,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53205,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53206,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 53207,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 53208,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7239,
+      "id": 7239,
+      "volume_name": "第二卷 下",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 53209,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53210,
+          "chapter_name": "第九章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53211,
+          "chapter_name": "第十章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53212,
+          "chapter_name": "第十一章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53213,
+          "chapter_name": "第十二章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53214,
+          "chapter_name": "第十三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53215,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

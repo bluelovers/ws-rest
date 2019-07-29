@@ -12,12 +12,14 @@
   "hot_hits": 927830,
   "introduction": "我·榑井幸人在临死之际许了愿。如果有来生，我想成为一个熟知他人的人——当我再次醒来时，已然身处于战争中的异世界。临死前的愿望遭到曲解，我被赋予了某种外挂技能。王子·狄奥路德将我捡回，成为军师的我，不但抓住被称为「至高无上少女」的绝世美女苏菲亚的心，还和与狄奥路德处于敌对立场的姐姐·美女将军辉夜一对一单挑，並在与邻国的战争中获得胜利——",
   "types": [
-    "魔法/冒险/爱情"
+    "魔法",
+    "冒险",
+    "爱情"
   ],
   "authors": "タンバ",
   "first_letter": "J",
-  "subscribe_num": 24844,
-  "redis_update_time": 1564310826,
+  "subscribe_num": 24854,
+  "redis_update_time": 1564365448,
   "volume": [
     {
       "id": 7011,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1435677176,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7621,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1458211214,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8205,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1476178823,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8450,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1485354219,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9084,
@@ -57,7 +59,204 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1511256825,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7011,
+      "id": 7011,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51199,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51200,
+          "chapter_name": "第1章 序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51201,
+          "chapter_name": "第2章 姐弟",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51202,
+          "chapter_name": "第3章 定局",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51203,
+          "chapter_name": "第4章 终",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62767,
+          "chapter_name": "插图",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7621,
+      "id": 7621,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 58164,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58165,
+          "chapter_name": "第五章 前进",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58166,
+          "chapter_name": "第六章 机动",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58167,
+          "chapter_name": "第七章 救援",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58168,
+          "chapter_name": "番外篇 温泉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62768,
+          "chapter_name": "插图",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 8205,
+      "id": 8205,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 67625,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 67626,
+          "chapter_name": "第8章 歇息",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67627,
+          "chapter_name": "第9章 夹击",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67628,
+          "chapter_name": "第10章 前哨战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67629,
+          "chapter_name": "番外篇 米卡娜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 67630,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 8450,
+      "id": 8450,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 71323,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 71317,
+          "chapter_name": "第11章 绊脚石",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71318,
+          "chapter_name": "第12章 会战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 71319,
+          "chapter_name": "第13章 交涉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71320,
+          "chapter_name": "番外篇 庆功宴",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 71321,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9084,
+      "id": 9084,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 81015,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81016,
+          "chapter_name": "第14章 疏忽",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81017,
+          "chapter_name": "第15章 使者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81018,
+          "chapter_name": "第16章 雾中",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81019,
+          "chapter_name": "番外篇1 妮可拉的预测",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81020,
+          "chapter_name": "番外篇2 出外靠朋友",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81029,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "野村美月",
   "first_letter": "L",
-  "subscribe_num": 1441,
-  "redis_update_time": 1564298026,
+  "subscribe_num": 1442,
+  "redis_update_time": 1564322595,
   "volume": [
     {
       "id": 7031,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1436629157,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7031,
+      "id": 7031,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51369,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51370,
+          "chapter_name": "一章 独自一人的暑假",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51371,
+          "chapter_name": "二章 八月的晴空之下，心中只有你",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51372,
+          "chapter_name": "三章 渐渐扩散开来的，青空的颜色",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51373,
+          "chapter_name": "四章 陌生的男孩",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51374,
+          "chapter_name": "五章 十五岁的离别",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51375,
+          "chapter_name": "终章 约定",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51376,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

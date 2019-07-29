@@ -17,7 +17,7 @@
   "authors": "东川笃哉",
   "first_letter": "H",
   "subscribe_num": 433,
-  "redis_update_time": 1564294473,
+  "redis_update_time": 1564337492,
   "volume": [
     {
       "id": 7750,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1461416980,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7750,
+      "id": 7750,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 60043,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 60044,
+          "chapter_name": "藤枝公馆的完美密室",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 60045,
+          "chapter_name": "时速四十公里的密室",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 60046,
+          "chapter_name": "七个啤酒箱之谜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 60047,
+          "chapter_name": "雀之森的异常夜晚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 60048,
+          "chapter_name": "宝石小偷与母亲的悲伤",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

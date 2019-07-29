@@ -12,12 +12,14 @@
   "hot_hits": 32878,
   "introduction": "法加尔德的国土是一片一望无际的平原。\n虽然领地内有着被称为树龙森林的魔境，但国家还是十分的和平。\n而且魔境的威胁就如同天灾一般不会时常发生，如果巧妙利用的话还能作为抵御他国的壁障活用。\n因此，这个国家弥漫着温和的气氛。",
   "types": [
-    "魔法/冒险/异界"
+    "魔法",
+    "冒险",
+    "异界"
   ],
   "authors": "矢野俊策",
   "first_letter": "T",
-  "subscribe_num": 1490,
-  "redis_update_time": 1564274349,
+  "subscribe_num": 1491,
+  "redis_update_time": 1564358729,
   "volume": [
     {
       "id": 7609,
@@ -25,7 +27,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1457695846,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7609,
+      "id": 7609,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 58009,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58010,
+          "chapter_name": "场景一 法加尔德的公主",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58011,
+          "chapter_name": "场景二 名为玛尔塔的少女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58012,
+          "chapter_name": "场景三 雨中的决斗",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58013,
+          "chapter_name": "场景四 永远的沉睡",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58014,
+          "chapter_name": "场景五 出现的是......？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58015,
+          "chapter_name": "场景六 阿洛伊斯的请求",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

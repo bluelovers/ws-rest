@@ -16,8 +16,8 @@
   ],
   "authors": "芦屋六月",
   "first_letter": "Z",
-  "subscribe_num": 2850,
-  "redis_update_time": 1564306685,
+  "subscribe_num": 2853,
+  "redis_update_time": 1564346945,
   "volume": [
     {
       "id": 7580,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1456558422,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7580,
+      "id": 7580,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 57552,
+          "chapter_name": "人物简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57553,
+          "chapter_name": "ROLL 1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 57554,
+          "chapter_name": "ROLL 2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57555,
+          "chapter_name": "ROLL 3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 57556,
+          "chapter_name": "ROLL 4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 57557,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

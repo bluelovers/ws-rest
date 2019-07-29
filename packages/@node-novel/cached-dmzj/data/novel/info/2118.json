@@ -16,8 +16,8 @@
   ],
   "authors": "东野圭吾",
   "first_letter": "Y",
-  "subscribe_num": 2091,
-  "redis_update_time": 1564305832,
+  "subscribe_num": 2092,
+  "redis_update_time": 1564331563,
   "volume": [
     {
       "id": 7748,
@@ -25,7 +25,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1461416005,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7748,
+      "id": 7748,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 60030,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 60031,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 60032,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 60033,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 60034,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 60035,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 60036,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

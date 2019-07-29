@@ -12,12 +12,15 @@
   "hot_hits": 146629,
   "introduction": "小学五年级的暑假，相川理人拯救了世界。\n借助圣剑的力量封印了魔神，被世人歌颂为英雄。\n回到原本的世界之后，时间飞快过了六年，过著平凡高中生活的理人，却再次被强行召唤至异世界。\n为了防止魔神重返人世，理人凭著最强大的防具与力量，展开第二轮的冒险，然而经过六年后，原本的世界与伙伴远远超出理人的想像──「伊休安，你也一样，你是什么时候变成女人了？」\n异世界英雄奇幻轮回故事堂堂登场！",
   "types": [
-    "冒险/奇幻/异界/穿越"
+    "冒险",
+    "奇幻",
+    "异界",
+    "穿越"
   ],
   "authors": "竹冈叶月",
   "first_letter": "P",
-  "subscribe_num": 4061,
-  "redis_update_time": 1564282078,
+  "subscribe_num": 4062,
+  "redis_update_time": 1564341104,
   "volume": [
     {
       "id": 6977,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷 英雄的潘朵拉",
       "volume_order": 10,
       "addtime": 1434627484,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 7024,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷 热砂的镇魂曲",
       "volume_order": 20,
       "addtime": 1436353144,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 7246,
@@ -41,7 +44,7 @@
       "volume_name": "第三卷 重逢的十字路口",
       "volume_order": 30,
       "addtime": 1443612965,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8271,
@@ -49,7 +52,7 @@
       "volume_name": "第四卷 圣石之谜",
       "volume_order": 40,
       "addtime": 1478598402,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8272,
@@ -57,7 +60,264 @@
       "volume_name": "第五卷 双界的幸福",
       "volume_order": 50,
       "addtime": 1478598660,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6977,
+      "id": 6977,
+      "volume_name": "第一卷 英雄的潘朵拉",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50859,
+          "chapter_name": "【０】LAST BATTLE",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50860,
+          "chapter_name": "【１】NEW GAME",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50861,
+          "chapter_name": "【２】NEW ROAD",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50862,
+          "chapter_name": "【３】HOLY SWORD",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50863,
+          "chapter_name": "【４】ISHUAN TROLL",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50864,
+          "chapter_name": "【５】LOOP&FAILURE",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50865,
+          "chapter_name": "【０】NEW LIFE",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50866,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7024,
+      "id": 7024,
+      "volume_name": "第二卷 热砂的镇魂曲",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51308,
+          "chapter_name": "【０】WORLDS",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51309,
+          "chapter_name": "【１】NEXT STAGE",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51310,
+          "chapter_name": "【２】DESERT OCEAN",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51311,
+          "chapter_name": "【３】UNDER GROUND",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51312,
+          "chapter_name": "【４】VESNAYA",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51313,
+          "chapter_name": "【５】WHYDUNIT",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51314,
+          "chapter_name": "【０】GO TIMANI",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51315,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7246,
+      "id": 7246,
+      "volume_name": "第三卷 重逢的十字路口",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 53335,
+          "chapter_name": "1.SIDE KYOKO 【１】往异界",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53336,
+          "chapter_name": "【２】江湖艺人的剧团",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53337,
+          "chapter_name": "【３】事与愿违的恋情",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53338,
+          "chapter_name": "【４】离宫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53339,
+          "chapter_name": "2.SIDE RIHITO 【１】征服沙海",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53340,
+          "chapter_name": "【２】探索商都",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53341,
+          "chapter_name": "【３】赤蜂剧团的秘密",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 53342,
+          "chapter_name": "【４】夺回",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 53343,
+          "chapter_name": "【５】赫密塔特动乱",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 53344,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8271,
+      "id": 8271,
+      "volume_name": "第四卷 圣石之谜",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 68538,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68539,
+          "chapter_name": "【0】MY FAMILY",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68540,
+          "chapter_name": "【1】BLOODY KINGDOM",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68541,
+          "chapter_name": "【2】ROUND TABLE",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68542,
+          "chapter_name": "【3】WITE TEMPLE",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68543,
+          "chapter_name": "【4】NIGHTMARE BEFORE",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68544,
+          "chapter_name": "【0】HOME ALONE",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 68545,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 68557,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8272,
+      "id": 8272,
+      "volume_name": "第五卷 双界的幸福",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 68547,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68548,
+          "chapter_name": "【0】HOME GROUND",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68549,
+          "chapter_name": "【1】SQUARE ONE",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68558,
+          "chapter_name": "【2】RESTART NOW",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68551,
+          "chapter_name": "【3】FINAL BATTLE",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68552,
+          "chapter_name": "【0】WONDERFUL LIFE",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68553,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 68559,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

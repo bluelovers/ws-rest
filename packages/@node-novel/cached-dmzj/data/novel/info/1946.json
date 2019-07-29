@@ -17,7 +17,7 @@
   "authors": "野崎まど",
   "first_letter": "C",
   "subscribe_num": 635,
-  "redis_update_time": 1564293298,
+  "redis_update_time": 1564355537,
   "volume": [
     {
       "id": 7097,
@@ -25,7 +25,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1438442220,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7097,
+      "id": 7097,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51873,
+          "chapter_name": "I.读者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51874,
+          "chapter_name": "Ⅱ.志向",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51875,
+          "chapter_name": "Ⅲ.讲习1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51876,
+          "chapter_name": "Ⅳ.讲习2",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51877,
+          "chapter_name": "V.讲习3",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51878,
+          "chapter_name": "Ⅵ.讲习4",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51879,
+          "chapter_name": "Ⅶ.诞生",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51880,
+          "chapter_name": "Ⅷ.全世界最有趣的小说",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 51881,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

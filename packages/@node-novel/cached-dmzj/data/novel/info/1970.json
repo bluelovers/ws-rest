@@ -12,12 +12,13 @@
   "hot_hits": 20821,
   "introduction": "　『逆神机』，配备「魔女」系统，并且需要人类驾驶，是唯一能够对抗人类之敌『神兵』的兵器。就读『逆神机』驾驶员培育学校的落第生秀太·筑波，在即将决定自己退学与否的比试当天，与主张自己为史上最强魔女的少女菲莉丝。在这因缘际会之下，原本他被埋没的才华得以开花结果。\n　　最弱少年与最强魔女带来的新正统机械人动作小说开幕！",
   "types": [
-    "科幻/冒险"
+    "科幻",
+    "冒险"
   ],
   "authors": "志木谦介",
   "first_letter": "D",
   "subscribe_num": 485,
-  "redis_update_time": 1564244798,
+  "redis_update_time": 1564312965,
   "volume": [
     {
       "id": 7175,
@@ -25,7 +26,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1440949102,
-      "sum_chapters": 3
+      "sum_chapters": 9
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7175,
+      "id": 7175,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 52667,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52668,
+          "chapter_name": "一章 最下生与世界最强的魔女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52835,
+          "chapter_name": "二章 出击",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52670,
+          "chapter_name": "三章 真相与宣告",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52671,
+          "chapter_name": "四章 最下生（HERO）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52672,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

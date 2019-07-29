@@ -12,12 +12,13 @@
   "hot_hits": 24045,
   "introduction": "这部是濑户口廉也以唐边叶介的笔名所写的小说，讲述了男主偷走女友的尸体后度过的一段同居生活。",
   "types": [
-    "爱情/其它"
+    "爱情",
+    "其它"
   ],
   "authors": "唐边叶介",
   "first_letter": "S",
   "subscribe_num": 1750,
-  "redis_update_time": 1564306026,
+  "redis_update_time": 1564338406,
   "volume": [
     {
       "id": 7658,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷[图]",
       "volume_order": 10,
       "addtime": 1459263165,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7658,
+      "id": 7658,
+      "volume_name": "第一卷[图]",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 58899,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58900,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58901,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58902,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58903,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58904,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58905,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

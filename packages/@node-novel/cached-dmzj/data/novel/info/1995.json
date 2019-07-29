@@ -12,12 +12,13 @@
   "hot_hits": 6816,
   "introduction": "大雄偶然间经由随意门抵达北极，捡到巨大的机器人零件，哆啦A梦用神奇法宝把零件运入颠倒世界组合完成。正当大雄和机器人玩得不亦乐乎时，一名神秘女孩——丽璐璐出现了，而机器人的真正身份竟是侵略地球的兵器。为夺回机器人山大克罗斯而来的神秘少年丽璐璐，她的真实身份到底是谁？铁人兵团为了奴役人类而进攻地球。哆啦A梦和大雄将其引入镜面世界，同心合力为保卫地球而战。",
   "types": [
-    "科幻/搞笑"
+    "科幻",
+    "搞笑"
   ],
   "authors": "濑名秀明",
   "first_letter": "D",
   "subscribe_num": 183,
-  "redis_update_time": 1564227393,
+  "redis_update_time": 1564356354,
   "volume": [
     {
       "id": 7289,
@@ -25,7 +26,72 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1444911440,
-      "sum_chapters": 5
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7289,
+      "id": 7289,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 53747,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53748,
+          "chapter_name": "第1章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53749,
+          "chapter_name": "第2章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53750,
+          "chapter_name": "第3章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53751,
+          "chapter_name": "第4章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53752,
+          "chapter_name": "第5章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53753,
+          "chapter_name": "第6章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 53754,
+          "chapter_name": "第7章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 53755,
+          "chapter_name": "第8章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 53756,
+          "chapter_name": "第9章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 53757,
+          "chapter_name": "尾声",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

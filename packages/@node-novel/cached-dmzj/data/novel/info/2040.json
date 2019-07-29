@@ -12,12 +12,15 @@
   "hot_hits": 144687,
   "introduction": "这是复仇的物语。\n追溯至吸血鬼的起源，天使米迦尔是如何从天空堕入丑陋的大地的物语。\n“啊，神啊。神啊。把你这家伙的血给我——”",
   "types": [
-    "冒险/魔法/格斗/爱情"
+    "冒险",
+    "魔法",
+    "格斗",
+    "爱情"
   ],
   "authors": "镜贵也",
   "first_letter": "Z",
-  "subscribe_num": 11217,
-  "redis_update_time": 1564312474,
+  "subscribe_num": 11222,
+  "redis_update_time": 1564359221,
   "volume": [
     {
       "id": 7433,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1451634846,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7859,
@@ -33,7 +36,95 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1464711735,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7433,
+      "id": 7433,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 55887,
+          "chapter_name": "序章 《信仰之心》",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55888,
+          "chapter_name": "第一章 优和米迦",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 56132,
+          "chapter_name": "第二章 杀人鬼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57951,
+          "chapter_name": "第三章 失去神明的十字军",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 57952,
+          "chapter_name": "幕间 《继续米迦尔的故事》",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 57953,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61878,
+          "chapter_name": "插图",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7859,
+      "id": 7859,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 61879,
+          "chapter_name": "插图*",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 61876,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61877,
+          "chapter_name": "第一章 未来地图",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63659,
+          "chapter_name": "第二章 善人与恶人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63660,
+          "chapter_name": "第三章 你所谓正义的意义",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63661,
+          "chapter_name": "第四章 费里德的战斗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63662,
+          "chapter_name": "尾声 米迦尔的故事",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

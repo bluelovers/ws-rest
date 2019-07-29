@@ -12,12 +12,13 @@
   "hot_hits": 32484,
   "introduction": "以神、天使、恶魔、精灵、妖怪、英灵、怪物等一切超常存在为持有灵的召唤术师。独立学院国家，以理事长为唯一主权者，不率属于任何一国……是集结了一千所学院为了培养召唤术师的国际育成机构。某天，曾经憧憬英雄的少年·鹭泽秋人在对抗日本神话最强英灵兼世界最凶恶恐怖组织·潘蒂莫妮姆，最终召唤了日本武尊（小碓尊）。以尊敬兄长的死为契机而放弃成为英雄的他对此感到寒心。然而，召唤了最凶的堕天使·路西法，有着如梦般银发的美少女赛莉娅·赛尔贝鲁出现在他的面前……？放弃英雄梦想的少年赠予的最强英雄谭，开演！",
   "types": [
-    "校园/冒险"
+    "校园",
+    "冒险"
   ],
   "authors": "镜银钵",
   "first_letter": "D",
-  "subscribe_num": 2473,
-  "redis_update_time": 1564312281,
+  "subscribe_num": 2474,
+  "redis_update_time": 1564360338,
   "volume": [
     {
       "id": 7383,
@@ -25,7 +26,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1449914860,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7383,
+      "id": 7383,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 55496,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55502,
+          "chapter_name": "第一章 Boy meets Lucifer",
+          "chapter_order": 15
+        },
+        {
+          "chapter_id": 55503,
+          "chapter_name": "第二章 我的青梅竹马是Rider Girl",
+          "chapter_order": 16
+        },
+        {
+          "chapter_id": 55499,
+          "chapter_name": "第三章 两位美少女与脑内新娘",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 55500,
+          "chapter_name": "第四章 Stray WitchScramble（流浪巫女的紧急迎击）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 55504,
+          "chapter_name": "第五章 Heroic Slayer（名为英雄的杀戮者）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 55505,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 55506,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

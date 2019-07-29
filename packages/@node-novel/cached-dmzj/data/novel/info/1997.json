@@ -12,12 +12,13 @@
   "hot_hits": 20598,
   "introduction": "“剑与魔法的大冒险”早已成为久远的过去。曾经，伟大的始祖文明为大地带来了繁荣。而后毁灭了。曾经，有过充满了剑与冒险与神秘的时代。而后衰退了。如今，“新大陆”无比的和平。\n梦想着未曾有人踏足的大地，年轻人们外出冒险——这种陈年往事早已落后于这个时代了。现在的年轻人的梦想是——顺利找到工作。\n主人公——钛坦为了找到可以一生高枕无忧的宫廷工作，现在四处求职中。然而却屡屡碰壁意气消沉。\n名为健宇莫的中年男性出现在悲惨的钛坦面前的，劝诱他踏上冒险的歧途。然而，现在早已不流行当冒险者了，因为填不饱肚子。健宇莫不停地说着“你有当冒险者的才能的”对钛坦纠缠不休，钛坦只好四处逃窜……",
   "types": [
-    "魔法/冒险"
+    "魔法",
+    "冒险"
   ],
   "authors": "田中罗密欧",
   "first_letter": "G",
   "subscribe_num": 1522,
-  "redis_update_time": 1564304488,
+  "redis_update_time": 1564354280,
   "volume": [
     {
       "id": 7297,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1445415090,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7297,
+      "id": 7297,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 53837,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53838,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53839,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53840,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53841,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53842,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53843,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

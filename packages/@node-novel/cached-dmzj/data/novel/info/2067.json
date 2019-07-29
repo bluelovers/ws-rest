@@ -12,12 +12,13 @@
   "hot_hits": 29096,
   "introduction": "皇历1501年10月，以美貌与武勇闻名的公主艾莉莎·法内尔领导的法尔塞斯公国，因受到对法尔塞斯公国领土虎视眈眈的教皇军最高司令官切扎尔率领的大军的突然侵略，被迫进行一场绝望的防战准备。\n   无论怎地奋力抗战，始终寡不敌众。法尔塞斯被迫投降。但就在艾莉莎下定决心投降之时，追随她的下属、她的青梅竹马里诺·巴尔达托，“从这时候开始就是我的工作了。”他静静地嘟囔道。\n   以口才和策略，将这场败仗原原本本地送回去！英俊的策士与无双的剑姬在名为战争的棋盘上夺取胜利，正统的幻想战记开幕！",
   "types": [
-    "冒险/异界"
+    "冒险",
+    "异界"
   ],
   "authors": "至道流星",
   "first_letter": "F",
   "subscribe_num": 1314,
-  "redis_update_time": 1564312203,
+  "redis_update_time": 1564353027,
   "volume": [
     {
       "id": 7549,
@@ -25,7 +26,37 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1455365929,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7549,
+      "id": 7549,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 57187,
+          "chapter_name": "第一章 神的名字",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57188,
+          "chapter_name": "第二章 败军的将领",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 57189,
+          "chapter_name": "第三章 虚伪的顺从",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57190,
+          "chapter_name": "第四章 交错的心愿",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

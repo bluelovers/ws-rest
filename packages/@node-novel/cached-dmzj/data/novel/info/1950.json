@@ -12,12 +12,14 @@
   "hot_hits": 50517,
   "introduction": "圣亚玛洁丝学园是存在于现实与幻想交界点的高中，被星座选中的魔女们皆就读于此。在新生中，有一位名为雪羽的少女，被君临十二星座的「射手座」选中。\n「也就是说你『明天才开始认真』是吧？」\n「真美好的一句话，我都要被你感动了。」\n……虽然她被誉为天才少女，但守护她的使魔却是一个毫无干劲的散漫少年——君生。\n十二星座魔女间相互竞争的战斗迫在眉睫，此时却有不知名的魔掌袭向雪羽。君生能够彻底守护主人吗！？\n魔女们将星辰光辉转换为魔力，激烈的学园魔术战斗即将展开！",
   "types": [
-    "校园/魔法/搞笑"
+    "校园",
+    "魔法",
+    "搞笑"
   ],
   "authors": "朱门优",
   "first_letter": "S",
-  "subscribe_num": 2520,
-  "redis_update_time": 1564311131,
+  "subscribe_num": 2523,
+  "redis_update_time": 1564361032,
   "volume": [
     {
       "id": 7109,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1438864775,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9417,
@@ -33,7 +35,110 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1525957129,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7109,
+      "id": 7109,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 85834,
+          "chapter_name": "转载信息",
+          "chapter_order": 4
+        },
+        {
+          "chapter_id": 85827,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85828,
+          "chapter_name": "第一章 雪羽与君生",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85829,
+          "chapter_name": "第二章 为了过去而活的男子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85830,
+          "chapter_name": "第三章 那个Dxxe",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85831,
+          "chapter_name": "第四章 禁止的理由",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85832,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85833,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85835,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 9417,
+      "id": 9417,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 85836,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85837,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85838,
+          "chapter_name": "第一滴 感染——仿造的赝品箭矢",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85839,
+          "chapter_name": "第二滴 潜伏——古老水源的沉淀",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85840,
+          "chapter_name": "第三滴 发病——牢狱中发抖的猫",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85841,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85842,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85843,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

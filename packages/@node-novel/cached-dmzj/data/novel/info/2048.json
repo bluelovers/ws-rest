@@ -12,12 +12,15 @@
   "hot_hits": 174377,
   "introduction": "战无不胜的少年裘达，他的目标是向国王复仇。身为异端种族的幸存者，裘达为了接近处死母亲的国王，而在王都当上了骑士生。\n  在被如同樱龙吐息般的凉风所包围的艾伦骑士学校。裘达隐藏起实力，扮演着懒散的学生。眉清目秀的王子劳迪转到了他的班上。面对突然登场的仇敌，裘达等待着暗杀的机会。但在一次偶然中，裘达发现，劳迪其实是个“女孩子”……\n  看到裘达即使知道了真相也没有改变对她的态度，劳迪渐渐被他所吸引了。而裘达也一样……究竟是该爱还是该杀？绝对无法结合的两人的命运开始转动了。",
   "types": [
-    "校园/冒险/魔法/异界"
+    "校园",
+    "冒险",
+    "魔法",
+    "异界"
   ],
   "authors": "柊游马",
   "first_letter": "S",
-  "subscribe_num": 3416,
-  "redis_update_time": 1564310362,
+  "subscribe_num": 3417,
+  "redis_update_time": 1564357215,
   "volume": [
     {
       "id": 7449,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1452168625,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7450,
@@ -33,7 +36,100 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1452169369,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7449,
+      "id": 7449,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 56003,
+          "chapter_name": "序章 暗之魔兽与黄金之刃",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 56004,
+          "chapter_name": "第一章 裘达·雪徳",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 56005,
+          "chapter_name": "第二章 劳迪·巴伦兰特",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 56006,
+          "chapter_name": "第三章 人类与亚人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 56007,
+          "chapter_name": "第四章 骑士与公主",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 56008,
+          "chapter_name": "第五章 复仇者",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 56009,
+          "chapter_name": "终章 史上最强的胆小鬼",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 56010,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7450,
+      "id": 7450,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 56011,
+          "chapter_name": "序章 告白",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 56012,
+          "chapter_name": "第一章 有客自北方来",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 56133,
+          "chapter_name": "第二章 诱惑的公主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 56207,
+          "chapter_name": "第三章 幸福的代价",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 56768,
+          "chapter_name": "第四章 性命攸关的选择",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 56993,
+          "chapter_name": "终章 公主与骑士",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 56994,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

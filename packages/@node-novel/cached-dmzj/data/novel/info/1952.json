@@ -12,12 +12,17 @@
   "hot_hits": 1027601,
   "introduction": "大学生佐藤四季清醒时，发现自己已经身处异世界迷宫都市。\n在这个世界拥有治愈魔法的他，因为总是用性骚扰当成疗伤的代价，终于被原本工作的治疗院开除。\n走投无路的四季为了活下去，决定成为冒险者，潜入迷宫。\n之后，他遇到受伤的奴隶少女悠艾儿……",
   "types": [
-    "魔法/冒险/搞笑/异界/后宫/穿越"
+    "魔法",
+    "冒险",
+    "搞笑",
+    "异界",
+    "后宫",
+    "穿越"
   ],
   "authors": "幼驯じみ",
   "first_letter": "L",
-  "subscribe_num": 28641,
-  "redis_update_time": 1564312522,
+  "subscribe_num": 28648,
+  "redis_update_time": 1564362536,
   "volume": [
     {
       "id": 7112,
@@ -25,7 +30,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1439208702,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7950,
@@ -33,7 +38,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1467478199,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8847,
@@ -41,7 +46,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1500646446,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9557,
@@ -49,7 +54,361 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1531229241,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7112,
+      "id": 7112,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 52041,
+          "chapter_name": "第1话 成为无业游民",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52042,
+          "chapter_name": "第2话 买奴隶",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52043,
+          "chapter_name": "第3话 决定武器",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52044,
+          "chapter_name": "第4话 抚摸安慰",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52045,
+          "chapter_name": "第5话 和露露卡过夜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52046,
+          "chapter_name": "第6话 贺宴",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52047,
+          "chapter_name": "第7话 前往魔王的房间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52048,
+          "chapter_name": "第8话 赚钱",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52049,
+          "chapter_name": "第9话 爱丽丝的治疗院",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 52050,
+          "chapter_name": "番外篇 第一次的跑腿",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 63345,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 7950,
+      "id": 7950,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 63329,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63330,
+          "chapter_name": "第1话 治疗院的生活",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63331,
+          "chapter_name": "第2话 泡澡",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63332,
+          "chapter_name": "第3话 结束",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63333,
+          "chapter_name": "第4话 进行治疗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63334,
+          "chapter_name": "第5话 半夜的治疗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63335,
+          "chapter_name": "第6话 骑士",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63336,
+          "chapter_name": "第7话 耳环",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 63337,
+          "chapter_name": "第8话 往森林迈进",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 63338,
+          "chapter_name": "第9话 掉进河川",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 63339,
+          "chapter_name": "第10话 疲惫不堪",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 63340,
+          "chapter_name": "第11话 罗刹鬼",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 63341,
+          "chapter_name": "第12话 战斗",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 63342,
+          "chapter_name": "第13话 毒雾",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 63343,
+          "chapter_name": "第14话 治疗的酬劳",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 63344,
+          "chapter_name": "番外篇 迷官都市的生活",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 63346,
+          "chapter_name": "插图",
+          "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 8847,
+      "id": 8847,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 77690,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77691,
+          "chapter_name": "第1话 误会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77695,
+          "chapter_name": "第2话 祭典开始",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77696,
+          "chapter_name": "第3话 搭讪大作战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77697,
+          "chapter_name": "第4话 妹妹亚丽亚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77707,
+          "chapter_name": "第5话 爱丽丝的烦恼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77708,
+          "chapter_name": "第6话 健康教育",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77700,
+          "chapter_name": "第7话 露露卡与祭典",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77701,
+          "chapter_name": "第8话 魔法与治愈魔法",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 77710,
+          "chapter_name": "第9话 攻击魔法",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 77711,
+          "chapter_name": "第10话 早晨",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 77712,
+          "chapter_name": "第11话 爱丽丝与亚丽亚",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 77713,
+          "chapter_name": "第12话 祭典当日",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 77714,
+          "chapter_name": "第13话 选美大会",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 77715,
+          "chapter_name": "第14话 袭击",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 77716,
+          "chapter_name": "番外篇 红发冒险者",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 77717,
+          "chapter_name": "插画",
+          "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 9557,
+      "id": 9557,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 87992,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 87993,
+          "chapter_name": "第1话 窘境",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 87994,
+          "chapter_name": "第2话 来袭",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 87995,
+          "chapter_name": "第3话 情报",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 87996,
+          "chapter_name": "第4话 圣经",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 87997,
+          "chapter_name": "第5话 好想逃跑",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 87998,
+          "chapter_name": "第6话 梦",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 87999,
+          "chapter_name": "第7话 孤儿院",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 88000,
+          "chapter_name": "第8话 戒指",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 88001,
+          "chapter_name": "第9话 追踪",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 88002,
+          "chapter_name": "第10话 奋斗",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 88003,
+          "chapter_name": "第11话 救出",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 88004,
+          "chapter_name": "第12话 爱丽丝的心境",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 88005,
+          "chapter_name": "第13话 对策会议",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 88006,
+          "chapter_name": "第14话 防卫战",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 88007,
+          "chapter_name": "第15话 莎丘芭丝的本领",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 88008,
+          "chapter_name": "第16话 魔杖",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 88009,
+          "chapter_name": "番外篇 法兰的进步",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 88010,
+          "chapter_name": "插画",
+          "chapter_order": 190
+        }
+      ]
     }
   ]
 }

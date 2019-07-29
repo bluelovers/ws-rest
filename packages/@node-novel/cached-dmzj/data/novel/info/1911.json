@@ -12,12 +12,13 @@
   "hot_hits": 112653,
   "introduction": "如夜空中闪耀星斗的私立七星学园，在校生的成绩极为优异，所有社团表现称霸全国。\n然而实际上却是采用严格的阶级制度，以及连学生外貌都等级化的体制来管理学生，别名「弱肉强食学园」。\n在那里由绝对强者──领导【都会狮】派系的【傲慢】神乐坂惠理香所统治。\nF级的教室里有一位抱持打倒惠理香，站上「顶点」以「暴君」之姿统治学园的危险野心家──「堕落天才」藤白神流……。\n智力与智力的相互对决，以下反上的故事就此展开！",
   "types": [
-    "校园/爱情"
+    "校园",
+    "爱情"
   ],
   "authors": "御影瑛路",
   "first_letter": "F",
   "subscribe_num": 2878,
-  "redis_update_time": 1564312220,
+  "redis_update_time": 1564367185,
   "volume": [
     {
       "id": 6979,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 堕落天才的凯旋",
       "volume_order": 10,
       "addtime": 1434627552,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7004,
@@ -33,7 +34,95 @@
       "volume_name": "第二卷 天才的华丽暴虐",
       "volume_order": 20,
       "addtime": 1435676409,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6979,
+      "id": 6979,
+      "volume_name": "第一卷 堕落天才的凯旋",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50877,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50878,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50879,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50880,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50881,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50882,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50883,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7004,
+      "id": 7004,
+      "volume_name": "第二卷 天才的华丽暴虐",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51153,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51154,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51155,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51156,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51157,
+          "chapter_name": "终章1",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51158,
+          "chapter_name": "终章2",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51159,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

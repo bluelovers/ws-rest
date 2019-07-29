@@ -12,12 +12,14 @@
   "hot_hits": 20948,
   "introduction": "　　七十年前，人类突然发现一股新力量──魔法。\n　　于此同时，被命名为「特殊灾害指定生物」的怪物也开始现身──\n　　原本失去魔法之力的相马彻，由于被认可召唤领域复活之故，被人强制带到防卫型教育都市「时岛」。在那里，彻和分开五年的妹妹凛重逢，也遇见了之后负责照顾自己的樱田诺雅。\n　　但彻跟前来恭贺自己魔力得以复活的诺雅发生冲突，导致两人必须决斗……\n　　同时间，巨大的灾害正悄悄逼近该岛──！？\n　　魔法之力究竟会带来繁荣亦或是灾难？\n　　少男少女心思交织的现代黑色奇幻故事登场！",
   "types": [
-    "魔法/科幻/校园"
+    "魔法",
+    "科幻",
+    "校园"
   ],
   "authors": "入江君人",
   "first_letter": "M",
   "subscribe_num": 509,
-  "redis_update_time": 1564309406,
+  "redis_update_time": 1564338294,
   "volume": [
     {
       "id": 7145,
@@ -25,7 +27,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1439914212,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7145,
+      "id": 7145,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 52366,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52367,
+          "chapter_name": "第一章 第三次dropout",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52368,
+          "chapter_name": "第二章 水往低处流，然后回归天际",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52369,
+          "chapter_name": "第三章 兔子牌机车",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52370,
+          "chapter_name": "最终章 魔法之子",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52371,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52372,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

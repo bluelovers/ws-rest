@@ -12,12 +12,14 @@
   "hot_hits": 50549,
   "introduction": "“手工造物可是夜伽家族产业的一种”他的名字是瑞亚*奥弗鲁*库洛斯。被称为暗黑卿的贵族.拥有难以匹敌的美貌与怪物般的力量。经过科学末日而崩坏的世界.变成完全不同的新世界.君临万物的王者.与传达王者命令的贵族.以及被束缚在贵族领地的平民.瑞亚.就是这样一位统领着黑宵街的贵族.带着名为琉妃的美丽女仆.共同行走在街上的他.与在街上遇到的嚣张的敌人打了起来。所有的黑暗与女人全都要臣服在瑞亚的脚下.他就是这个世界与宿命对战的黑十字。黑暗与退却的黑色幻想.在此开幕……",
   "types": [
-    "冒险/格斗/搞笑"
+    "冒险",
+    "格斗",
+    "搞笑"
   ],
   "authors": "十月ユウ",
   "first_letter": "D",
-  "subscribe_num": 4854,
-  "redis_update_time": 1564310345,
+  "subscribe_num": 4855,
+  "redis_update_time": 1564353956,
   "volume": [
     {
       "id": 7363,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 漆黑的断罪者",
       "volume_order": 10,
       "addtime": 1448711928,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7367,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 战阵之公主",
       "volume_order": 20,
       "addtime": 1448966038,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8809,
@@ -41,7 +43,178 @@
       "volume_name": "第三卷 纯白的死神",
       "volume_order": 30,
       "addtime": 1499253537,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7363,
+      "id": 7363,
+      "volume_name": "第一卷 漆黑的断罪者",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 55160,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55161,
+          "chapter_name": "第一章 黑暗来临",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 55162,
+          "chapter_name": "第二章 鲜血侯爵夫人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 55163,
+          "chapter_name": "第三章 死伯爵的归来",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 55164,
+          "chapter_name": "第四章 月下的悲剧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 55165,
+          "chapter_name": "第五章 月对死",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 55166,
+          "chapter_name": "第六章 决斗开始",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 55167,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 55168,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7367,
+      "id": 7367,
+      "volume_name": "第二卷 战阵之公主",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 55224,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55225,
+          "chapter_name": "第一章 公主的日常",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 55226,
+          "chapter_name": "第二章 镜与梦幻",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 55234,
+          "chapter_name": "第三章 甜蜜炽热之夜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 55235,
+          "chapter_name": "第四章 暗对镜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 55236,
+          "chapter_name": "第五章 幻想之城",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 55237,
+          "chapter_name": "第六章 超绝札技",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 55238,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 55239,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8809,
+      "id": 8809,
+      "volume_name": "第三卷 纯白的死神",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 77103,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77104,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77113,
+          "chapter_name": "第一章 公主再临",
+          "chapter_order": 24
+        },
+        {
+          "chapter_id": 77114,
+          "chapter_name": "第二章 休憩之地",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77107,
+          "chapter_name": "第三章 海与毒针",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77108,
+          "chapter_name": "第四章 蔓延之毒",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77109,
+          "chapter_name": "第五章 假面舞会",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77110,
+          "chapter_name": "第六章 超绝决斗",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77111,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 77112,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 77115,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

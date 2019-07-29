@@ -12,12 +12,13 @@
   "hot_hits": 36592,
   "introduction": "有个黑影从天而降。某一天的黄昏时分，我——北上景目睹了「不可能存在的状况」，走向了那黑影的堕落之处。抵达该处后我见到的，竟然是一名宛若洋娃娃般的金发美少女（而且一丝不挂！）。而且背上还长着『黑色翅膀』！？这女生到底是什么来头……总、总而言之我决定暂时收留她……但是当她恢复意识之后，却用那深红的眼眸瞪我，摆起跩得半天高的架子，甚至还张嘴咬我的手。这家伙到底是怎么搞的！而且最后她居然还说「吾为传说的『龙』。」「龙与人无法并存。」「你是我的『仆从』。」于是，原为龙身的少女与我的非日常主仆生活开始了——！！",
   "types": [
-    "校园/搞笑"
+    "校园",
+    "搞笑"
   ],
   "authors": "浅仓イネ",
   "first_letter": "G",
   "subscribe_num": 4384,
-  "redis_update_time": 1564310916,
+  "redis_update_time": 1564358608,
   "volume": [
     {
       "id": 7571,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1456037373,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8839,
@@ -33,7 +34,145 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1500290757,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7571,
+      "id": 7571,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 57385,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57386,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 57387,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57388,
+          "chapter_name": "中场",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 57389,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 57390,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 57391,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 57392,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 57393,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 57394,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 77608,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 8839,
+      "id": 8839,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 77594,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77595,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77596,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77606,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77607,
+          "chapter_name": "中场",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77599,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77600,
+          "chapter_name": "中场",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77601,
+          "chapter_name": "第四章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77602,
+          "chapter_name": "第五章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 77603,
+          "chapter_name": "中场",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 77604,
+          "chapter_name": "尾声",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 77605,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 77609,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 25344,
   "introduction": "尽管对事前完全没有任何告知便出现的活动任务「腐朽的黑色龙鳞」感到讶异，对『巴哈姆特之怒』有着深度钻研的少年·久远园仍决定进行这项任务。接着，当他注意到的时候，自己已身在密斯塔尔西亚的世界！？而且眼前还出现了遭受巨大魔像袭击的人们！「请你救救我们，骑士大人！！」受到村中少女救援的圆，即便深感困惑，仍从卡册中抽出了一张卡片，但——。在全世界成为热烈讨论话题的『巴哈姆特之怒』，众所期待的轻小说版登场！",
   "types": [
-    "魔法/冒险"
+    "魔法",
+    "冒险"
   ],
   "authors": "ゆうきりん",
   "first_letter": "B",
   "subscribe_num": 1158,
-  "redis_update_time": 1564312560,
+  "redis_update_time": 1564351362,
   "volume": [
     {
       "id": 7293,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1445258611,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7293,
+      "id": 7293,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 53813,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53814,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53815,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53816,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53817,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53818,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53819,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

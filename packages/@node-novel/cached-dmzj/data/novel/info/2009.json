@@ -12,12 +12,16 @@
   "hot_hits": 24106,
   "introduction": "艾尔席里雅王国遭到军事大国锷鲁马吉亚帝国侵略。王国中最出色的「六魔将」之首兼魔术能手——里克特，为了反击，潜入帝国之中，巧遇肩负帝国军师职务的天才少女爱露榭。得知战争背后阴谋的两位英雄，为了替两人的祖国开拓出新的命运，决定联手迎击阴谋。崭新的王道奇幻战记，辉煌揭开序幕！！",
   "types": [
-    "魔法/冒险/爱情/奇幻/异界"
+    "魔法",
+    "冒险",
+    "爱情",
+    "奇幻",
+    "异界"
   ],
   "authors": "桜崎あきと",
   "first_letter": "G",
-  "subscribe_num": 1094,
-  "redis_update_time": 1564277012,
+  "subscribe_num": 1095,
+  "redis_update_time": 1564355759,
   "volume": [
     {
       "id": 7328,
@@ -25,7 +29,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1447058678,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7328,
+      "id": 7328,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 54226,
+          "chapter_name": "人物简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 54227,
+          "chapter_name": "序章 两位骑士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 54228,
+          "chapter_name": "第一章 魔将们初赴战场",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 54229,
+          "chapter_name": "第二章 露克珊柏要塞的少女军师",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 54230,
+          "chapter_name": "第三章 一个事件的结束，同时也是一个事件的开端",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 54231,
+          "chapter_name": "第四章 操控禁咒的魔术师",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 54232,
+          "chapter_name": "第五章 光之巫女",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 54233,
+          "chapter_name": "终章 光刃魔王与月影少女军师",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 54234,
+          "chapter_name": "尾声 雷克谛欧勒帝国的阴谋",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 54235,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

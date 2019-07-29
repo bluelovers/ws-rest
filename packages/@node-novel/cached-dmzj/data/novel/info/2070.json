@@ -12,12 +12,14 @@
   "hot_hits": 313992,
   "introduction": "由所授予的魔兽的纹章来决定优劣的世界。\n在让魔兽服从来进行战斗的『魔兽炼磨师』的育成学园『贝基奥姆』上学的雷茵是学园中唯一的史莱姆炼磨师。完全不在意周围的嘲笑，相信着搭档的佩姆佩姆，比任何人都要积攒着更多的努力。拘泥于那样的雷茵的学年3位的美少女龙炼磨师的艾露尼娅。兼备着纹章和美貌的完美的她之所以会拘泥于底层的雷茵，貌似过去的因缘是原因的样子……！？\n「那份不甘心我是不会忘记的！哪怕是亿分之一也好如果你这家伙赢了我的话无论是恋人也好还是别的什么也好我都会干脆利落的去做的！！」——无论是最弱还是最强都没有关系！对胜利的执念所决定的命运将会带来逆转剧！！",
   "types": [
-    "魔法/冒险/校园"
+    "魔法",
+    "冒险",
+    "校园"
   ],
   "authors": "见波タクミ",
   "first_letter": "M",
-  "subscribe_num": 14717,
-  "redis_update_time": 1564312707,
+  "subscribe_num": 14718,
+  "redis_update_time": 1564358557,
   "volume": [
     {
       "id": 7559,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1455785989,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8627,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1492870430,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9424,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1526202964,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9514,
@@ -49,7 +51,231 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1529490126,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7559,
+      "id": 7559,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 60327,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 60328,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 60329,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 60330,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 60331,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 60332,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 60333,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 60334,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59243,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 60303,
+          "chapter_name": "特典 男生止步区",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8627,
+      "id": 8627,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 74177,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 74178,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 74179,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 74180,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 74181,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 74182,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 74183,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 74184,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 74937,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9424,
+      "id": 9424,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 85963,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85964,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85965,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85966,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85967,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85968,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85969,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85970,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85971,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9514,
+      "id": 9514,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 87327,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 87328,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 87329,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 87330,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 87331,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 87332,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 87333,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 87334,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 87335,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 87336,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,7 @@
   "authors": "安井健太郎",
   "first_letter": "F",
   "subscribe_num": 102,
-  "redis_update_time": 1564305881,
+  "redis_update_time": 1564362607,
   "volume": [
     {
       "id": 7057,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷 死亡天使",
       "volume_order": 10,
       "addtime": 1437573241,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7057,
+      "id": 7057,
+      "volume_name": "第一卷 死亡天使",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51568,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51569,
+          "chapter_name": "1章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51570,
+          "chapter_name": "2章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51571,
+          "chapter_name": "3章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51572,
+          "chapter_name": "4章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51573,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

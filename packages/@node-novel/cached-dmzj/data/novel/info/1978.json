@@ -12,12 +12,14 @@
   "hot_hits": 192670,
   "introduction": "过去曾有来自魔界的侵略者，消灭了全世界的军队，神代焰则是以仅仅一人之力，讨伐了那个《魔王》的英雄。\n然而由于他的力量太过强大，因而受到权力者们的疏远，被冠上『反叛者』的冤罪，遭到社会所放逐。在那之后过了数年，焰因故进入魔术师学校，负责照顾被揶揄为『包袱小队』的少女们。\n焰引导少女们，短时间便成长为学园最强的小队，少女们则是逐渐受他的强悍与温柔所吸引，但是当魔王再度袭击世界时，少女们终将明白──\n对『真正的最强』而言，所谓的同伴并不是战友，而只是必须守护的弱者！由有朝一日会受全人类赞扬为救世主的少年所编织，敌方双方都无人可追随其后的常胜无敌幻想故事，就此开幕！",
   "types": [
-    "魔法/校园/冒险"
+    "魔法",
+    "校园",
+    "冒险"
   ],
   "authors": "海空陆",
   "first_letter": "Z",
-  "subscribe_num": 8738,
-  "redis_update_time": 1564312433,
+  "subscribe_num": 8739,
+  "redis_update_time": 1564359736,
   "volume": [
     {
       "id": 7204,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 常胜无双的反叛者",
       "volume_order": 10,
       "addtime": 1441886821,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7677,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 妖精女王与百万之敌",
       "volume_order": 20,
       "addtime": 1459772318,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8090,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 东方大征伐",
       "volume_order": 30,
       "addtime": 1472653191,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8855,
@@ -49,7 +51,216 @@
       "volume_name": "第四卷 终极个体",
       "volume_order": 40,
       "addtime": 1500866147,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7204,
+      "id": 7204,
+      "volume_name": "第一卷 常胜无双的反叛者",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 52946,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52947,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52948,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52949,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52950,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52951,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52952,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52953,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59112,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7677,
+      "id": 7677,
+      "volume_name": "第二卷 妖精女王与百万之敌",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 59113,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59114,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59115,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59116,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59117,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59118,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59119,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59120,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8090,
+      "id": 8090,
+      "volume_name": "第三卷 东方大征伐",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 65925,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 65926,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65927,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 65928,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 65929,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 65930,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 65931,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 65932,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8855,
+      "id": 8855,
+      "volume_name": "第四卷 终极个体",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 77793,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77794,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77795,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77796,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77797,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77798,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77799,
+          "chapter_name": "最终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77800,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77801,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 77802,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

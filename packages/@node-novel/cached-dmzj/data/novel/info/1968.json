@@ -17,7 +17,7 @@
   "authors": "长野真弓",
   "first_letter": "X",
   "subscribe_num": 60,
-  "redis_update_time": 1564112398,
+  "redis_update_time": 1564327257,
   "volume": [
     {
       "id": 7169,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1440689304,
-      "sum_chapters": 11
+      "sum_chapters": 8
     },
     {
       "id": 7194,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1441807847,
-      "sum_chapters": 11
+      "sum_chapters": 8
     },
     {
       "id": 7197,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1441884607,
-      "sum_chapters": 11
+      "sum_chapters": 8
     },
     {
       "id": 7198,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1441885354,
-      "sum_chapters": 11
+      "sum_chapters": 8
     },
     {
       "id": 7207,
@@ -57,7 +57,319 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1441979168,
-      "sum_chapters": 11
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7169,
+      "id": 7169,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 52596,
+          "chapter_name": "缘起",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52597,
+          "chapter_name": "Chapter 1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52598,
+          "chapter_name": "Chapter 2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52599,
+          "chapter_name": "Chapter 3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52600,
+          "chapter_name": "Chapter 4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52601,
+          "chapter_name": "Chapter 5",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52602,
+          "chapter_name": "Chapter 6",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52603,
+          "chapter_name": "Chapter 7",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52604,
+          "chapter_name": "Chapter 8",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7194,
+      "id": 7194,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 52852,
+          "chapter_name": "缘起",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52853,
+          "chapter_name": "Chapter 1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52854,
+          "chapter_name": "Chapter 2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52855,
+          "chapter_name": "Chapter 3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52856,
+          "chapter_name": "Chapter 4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52857,
+          "chapter_name": "Chapter 5",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52858,
+          "chapter_name": "Chapter 6",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52859,
+          "chapter_name": "Chapter 7",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52860,
+          "chapter_name": "Chapter 8",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 52861,
+          "chapter_name": "Chapter 9",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 52862,
+          "chapter_name": "Chapter 10",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 52863,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 7197,
+      "id": 7197,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 52875,
+          "chapter_name": "缘起",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52884,
+          "chapter_name": "Chapter 1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52886,
+          "chapter_name": "Chapter 2",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52887,
+          "chapter_name": "Chapter 3",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52888,
+          "chapter_name": "Chapter 4",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52889,
+          "chapter_name": "Chapter 5",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52890,
+          "chapter_name": "Chapter 6",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52891,
+          "chapter_name": "Chapter 7",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 52892,
+          "chapter_name": "Chapter 8",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 52893,
+          "chapter_name": "Chapter 9",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 52894,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 7198,
+      "id": 7198,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 52895,
+          "chapter_name": "缘起",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52896,
+          "chapter_name": "Chapter 1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52897,
+          "chapter_name": "Chapter 2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52898,
+          "chapter_name": "Chapter 3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52899,
+          "chapter_name": "Chapter 4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52900,
+          "chapter_name": "Chapter 5",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52901,
+          "chapter_name": "Chapter 6",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52902,
+          "chapter_name": "Chapter 7",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52903,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7207,
+      "id": 7207,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 52976,
+          "chapter_name": "缘起",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52977,
+          "chapter_name": "Chapter 1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52978,
+          "chapter_name": "Chapter 2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52979,
+          "chapter_name": "Chapter 3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52980,
+          "chapter_name": "Chapter 4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52981,
+          "chapter_name": "Chapter 5",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52982,
+          "chapter_name": "Chapter 6",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52983,
+          "chapter_name": "Chapter 7",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52984,
+          "chapter_name": "Chapter 8",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 52985,
+          "chapter_name": "Chapter 9",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 52986,
+          "chapter_name": "Chapter 10",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 52987,
+          "chapter_name": "Chapter 11",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 52988,
+          "chapter_name": "Chapter 12",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

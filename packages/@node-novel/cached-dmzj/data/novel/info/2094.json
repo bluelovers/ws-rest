@@ -12,12 +12,14 @@
   "hot_hits": 142730,
   "introduction": "新人探索者索亚拉碰上了瓶颈，不仅无法将从师父那边继承下来的赋予道具（Magic Item）运用自如，地下城攻略也于三楼止步。就在某一天，他与率直得不可思议的全身甲胄小姐相遇，并造访了她任职的古董商店。位于那家店里的，是无所事事地享受著咖啡的店长•藤原，据说没有他「鉴定」不了的东西，於是索亚拉下定决心，对他提出鉴定某项赋予道具的请求——\n藉由「鉴定」揭开与赋予道具相关的地下城探索者冒险故事，就此开幕！",
   "types": [
-    "爱情/冒险/魔法"
+    "爱情",
+    "冒险",
+    "魔法"
   ],
   "authors": "大场鸠太郎",
   "first_letter": "M",
-  "subscribe_num": 5155,
-  "redis_update_time": 1564307429,
+  "subscribe_num": 5156,
+  "redis_update_time": 1564356745,
   "volume": [
     {
       "id": 7649,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1458908350,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7906,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1465979042,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8350,
@@ -41,7 +43,228 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1481377144,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7649,
+      "id": 7649,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 58746,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58747,
+          "chapter_name": "带有微热的单手剑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58748,
+          "chapter_name": "施加圣印的臂铠",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58749,
+          "chapter_name": "有酒臭味的携带用水壶",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58750,
+          "chapter_name": "小巧的发夹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58751,
+          "chapter_name": "散发异味的披肩",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58752,
+          "chapter_name": "诡异的项链",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 58753,
+          "chapter_name": "毛茸茸的钥匙圈",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 58754,
+          "chapter_name": "破烂不堪的棋盘",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 58755,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 62773,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 7906,
+      "id": 7906,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 62775,
+          "chapter_name": "转载信息",
+          "chapter_order": 8
+        },
+        {
+          "chapter_id": 62776,
+          "chapter_name": "透气性不怎么良好的头盔",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 62777,
+          "chapter_name": "毫无装饰的钢铁制戒指",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62778,
+          "chapter_name": "呈现棍棒形状的刻印",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62779,
+          "chapter_name": "装着有光泽的黑色液体的壶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62780,
+          "chapter_name": "削铁如泥的长剑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 62781,
+          "chapter_name": "雕上飞蛾花纹的短刀",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62782,
+          "chapter_name": "附有青蛙装饰的长针",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 62783,
+          "chapter_name": "带有家徽近乎损毁的铠甲",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 62784,
+          "chapter_name": "带着神秘气氛的锡杖",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 62785,
+          "chapter_name": "平淡无奇的老旧皮革包",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 62786,
+          "chapter_name": "缺页繁多的古书",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 62787,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 62774,
+          "chapter_name": "插图",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 8350,
+      "id": 8350,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 69688,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69689,
+          "chapter_name": "也许是药瓶的诸多容器",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69690,
+          "chapter_name": "戴著蔷薇发饰的少女戒指",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69691,
+          "chapter_name": "稍微有些熏黑的玛瑙戒指",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69692,
+          "chapter_name": "沾上鲜奶油的短剑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69693,
+          "chapter_name": "附有发条装置的奇妙小箱子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 69701,
+          "chapter_name": "呈现奇妙曲折形状的短剑",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 69702,
+          "chapter_name": "黑亮的水晶球",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 69703,
+          "chapter_name": "全身刻有经文的甲冑",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 69704,
+          "chapter_name": "老旧且尽是红锈的双手剑",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 69705,
+          "chapter_name": "尸者的八音盒",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 69699,
+          "chapter_name": "年代久远的游戏牌",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 69700,
+          "chapter_name": "后记",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 69706,
+          "chapter_name": "插画",
+          "chapter_order": 210
+        }
+      ]
     }
   ]
 }

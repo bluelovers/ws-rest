@@ -12,12 +12,15 @@
   "hot_hits": 61801,
   "introduction": "　　平凡的高中生天城飒也在某天突然被丢进异界，那是一个众神君临，存在着魔法、幻兽与怪异的神话世界！\n　　为了寻找回到原本世界的「星门」，飒也跟同是「外来者」的战国时代流浪武士、带着守护天使的纽约市警、暗藏秘密的十字军骑士一起挑战探索充满「瘴气」的废都。\n　　飒也一心想要同家，然而遇上了自称是他命中注定的恋人——女神拉蔻儿之后，他陷入了无法预料的状况中——！\n　　正宗神话奇幻冒险剧揭开序幕！",
   "types": [
-    "冒险/魔法/异界/穿越"
+    "冒险",
+    "魔法",
+    "异界",
+    "穿越"
   ],
   "authors": "稻叶义明",
   "first_letter": "W",
-  "subscribe_num": 1730,
-  "redis_update_time": 1564306919,
+  "subscribe_num": 1731,
+  "redis_update_time": 1564363017,
   "volume": [
     {
       "id": 6994,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷 黄昏女神与废墟之都",
       "volume_order": 10,
       "addtime": 1435070737,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7320,
@@ -33,7 +36,75 @@
       "volume_name": "第二卷 命定的「王」与回归之门",
       "volume_order": 20,
       "addtime": 1446648974,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6994,
+      "id": 6994,
+      "volume_name": "第一卷 黄昏女神与废墟之都",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 51032,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51033,
+          "chapter_name": "第一章 拉蔻儿",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51034,
+          "chapter_name": "第二章 光辉之路〈卡格斯拉〉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51035,
+          "chapter_name": "第三章 黄昏之翼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51036,
+          "chapter_name": "第四章 「王〈卢卡尔〉」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51037,
+          "chapter_name": "转章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51038,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7320,
+      "id": 7320,
+      "volume_name": "第二卷 命定的「王」与回归之门",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 54168,
+          "chapter_name": "第五章 飒也",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 54169,
+          "chapter_name": "终章 回归",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 54170,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

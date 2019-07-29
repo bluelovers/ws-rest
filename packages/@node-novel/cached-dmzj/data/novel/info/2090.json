@@ -12,12 +12,13 @@
   "hot_hits": 12646,
   "introduction": "【号外】「坠落少女」大战活人偶。\n　　——昨天深夜，「活人偶」于上野再度出现攻击帝都百姓，屠杀此物之谜样少女亦随即现身。据目击者证言，该少女令此物自高处坠落从而击退。\n　　时值大正年间，位处帝都东京。\n　　如今让帝都百姓笼罩在噩梦之中的是上有发条的异类怪物「活人偶」，以及使用谜样魔法，手段残忍地将其悉数屠杀殆尽的异端女孩「坠落少女」——\n　　追访她的少年记者乱步在追踪地点见到的，会是不许任何人接近的少女隐藏在背后的真相，或者是……\n　　欢迎进入与沾满血腥的美少女一同坠落、无人幸免的暗黑夜话中。",
   "types": [
-    "冒险/侦探"
+    "冒险",
+    "侦探"
   ],
   "authors": "岬鹭宫",
   "first_letter": "D",
   "subscribe_num": 825,
-  "redis_update_time": 1564288009,
+  "redis_update_time": 1564351285,
   "volume": [
     {
       "id": 7630,
@@ -25,7 +26,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1458390546,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7630,
+      "id": 7630,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 58210,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58211,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58212,
+          "chapter_name": "第一幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58213,
+          "chapter_name": "第二幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58214,
+          "chapter_name": "第三幕",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58215,
+          "chapter_name": "第四幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58216,
+          "chapter_name": "终幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 58217,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

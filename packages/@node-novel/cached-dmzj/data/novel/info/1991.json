@@ -12,12 +12,15 @@
   "hot_hits": 22162,
   "introduction": "皮诺·梅尔佛特是绝无仅有的天才魔法师……原本应该是这样的。但是没想到名门世家梅尔佛特家族拥有的魔力竟然是藉由和恶魔订定契约才获得的！要求支付魔力的恶魔少女·法奈米娜。虽然皮诺为了夺回名声下定决心偿还魔力，然而作为抵押，不只被夺走了魔法的能力，更进一歩被索求的代价竟然是将这个世界——菲尔耶斯特拉制作成游戏，并求实现化身为游戏角色的恶魔的要求！彻底化身为村民A以及贵族的恶魔的要求会是什么？支援型虚拟现实的奇幻故事就此展开！",
   "types": [
-    "魔法/冒险/爱情/奇幻"
+    "魔法",
+    "冒险",
+    "爱情",
+    "奇幻"
   ],
   "authors": "初心音コマ",
   "first_letter": "S",
   "subscribe_num": 695,
-  "redis_update_time": 1564306365,
+  "redis_update_time": 1564359744,
   "volume": [
     {
       "id": 7271,
@@ -25,7 +28,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1443976691,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7271,
+      "id": 7271,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 53530,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53531,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53532,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53533,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53534,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53535,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53536,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

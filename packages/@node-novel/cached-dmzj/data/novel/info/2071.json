@@ -12,12 +12,15 @@
   "hot_hits": 46955,
   "introduction": "被称为“未完的魔导机书”的少女音音子。\n真夜对拥有猫耳猫尾的她一见钟情了。\n相遇的瞬间就提出结婚的请求。\n寻找『爱』的音音子接受了真夜的示『爱』。\n就这样两人成为了恋人！但是向相亲相爱的恋人送去的，\n是寻求着“未完的魔导机书”的魔法使冷香，\n以及拥有着兔耳兔尾的魔导机书ロコ的出现，\n因为和他们的相遇，使得音音子对『爱』的认识发生了改变。\n两人结合并不是故事的结束，两人的结合是开始，是新的恋爱故事、\n「请告诉我。爱，到底是什么……？」",
   "types": [
-    "魔法/冒险/爱情/校园"
+    "魔法",
+    "冒险",
+    "爱情",
+    "校园"
   ],
   "authors": "水月纱鸟",
   "first_letter": "Y",
-  "subscribe_num": 10442,
-  "redis_update_time": 1564312377,
+  "subscribe_num": 10443,
+  "redis_update_time": 1564355791,
   "volume": [
     {
       "id": 7564,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1455970284,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8657,
@@ -33,7 +36,100 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1493911315,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7564,
+      "id": 7564,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 57333,
+          "chapter_name": "序章 终焉",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57334,
+          "chapter_name": "第一章 白色邂逅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68939,
+          "chapter_name": "第二章 他与她的第一次",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68940,
+          "chapter_name": "第三章 黑色变化",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69148,
+          "chapter_name": "第四章 兔之冰",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69149,
+          "chapter_name": "第五章 那是一种——",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 69150,
+          "chapter_name": "尾声 起始",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 69151,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8657,
+      "id": 8657,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 74868,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 74869,
+          "chapter_name": "序章：逗号",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 74870,
+          "chapter_name": "第一章 暴风雨前的宁静",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 74871,
+          "chapter_name": "第二章 狐小姐所爱之物",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 74876,
+          "chapter_name": "第三章 重要的人（妹妹）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 74873,
+          "chapter_name": "第四章 她们的爱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 74874,
+          "chapter_name": "终章：分号",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

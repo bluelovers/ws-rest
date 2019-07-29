@@ -12,12 +12,13 @@
   "hot_hits": 12927,
   "introduction": "世界被突然出现的谜之巨大生物——Huge所侵略。\n近代武器对其毫无作用，而能与恐怖生物Huge对抗的仅有，名为CHARM的魔法决战兵器。\n而能使用CHARM的只有10代的高适应性女性，所以世界的命运也只能交给名为「Lily」的她们。",
   "types": [
-    "科幻/校园"
+    "科幻",
+    "校园"
   ],
   "authors": "笠间裕之",
   "first_letter": "A",
   "subscribe_num": 492,
-  "redis_update_time": 1564308650,
+  "redis_update_time": 1564351667,
   "volume": [
     {
       "id": 7474,
@@ -25,7 +26,27 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1453382319,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7474,
+      "id": 7474,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 56209,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 56210,
+          "chapter_name": "第一章 命运的黑天使",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,7 @@
   "authors": "るーすぼーい",
   "first_letter": "B",
   "subscribe_num": 4030,
-  "redis_update_time": 1564291605,
+  "redis_update_time": 1564360561,
   "volume": [
     {
       "id": 7440,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1451910861,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8431,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1484656727,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8432,
@@ -41,7 +41,208 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1484657292,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 7440,
+      "id": 7440,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 70450,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 70451,
+          "chapter_name": "大哥的日记",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 70452,
+          "chapter_name": "第一章 三人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 70453,
+          "chapter_name": "第二章 两人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 70454,
+          "chapter_name": "第三章 一人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 70455,
+          "chapter_name": "第四章 变身",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 70456,
+          "chapter_name": "谢辞",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 70457,
+          "chapter_name": "特典 白蝶记制作秘话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 70458,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8431,
+      "id": 8431,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 70973,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 70974,
+          "chapter_name": "哥哥的决心",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71001,
+          "chapter_name": "一章 两位逃亡者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 71002,
+          "chapter_name": "幕间 阳咲 1",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 71003,
+          "chapter_name": "二章 旅伴",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 71004,
+          "chapter_name": "幕间 阳咲 2",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 71005,
+          "chapter_name": "三章 追击之人、被追之人",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 71006,
+          "chapter_name": "幕间 阳咲 3",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 71007,
+          "chapter_name": "四章 朋友",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 71008,
+          "chapter_name": "幕间 阳咲 4",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 71009,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 71010,
+          "chapter_name": "制作秘话",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 71011,
+          "chapter_name": "K--BOOKS 特典专栏",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 71012,
+          "chapter_name": "插画",
+          "chapter_order": 180
+        }
+      ]
+    },
+    {
+      "volume_id": 8432,
+      "id": 8432,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 71013,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 71014,
+          "chapter_name": "黑蝶之章 I",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71015,
+          "chapter_name": "白芋虫之章 一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 71016,
+          "chapter_name": "白芋虫之章 二",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71017,
+          "chapter_name": "幕间 阳咲 5",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 71018,
+          "chapter_name": "白芋虫之章 三",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 71019,
+          "chapter_name": "白芋虫之章 四",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 71020,
+          "chapter_name": "黑蝶之章 II",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 71021,
+          "chapter_name": "尾声 白蝶记之章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 71022,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 71023,
+          "chapter_name": "制作秘话",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 71024,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }
