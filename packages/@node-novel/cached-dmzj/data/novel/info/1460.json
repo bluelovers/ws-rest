@@ -12,12 +12,14 @@
   "hot_hits": 31503,
   "introduction": "可以读懂水的感情的高中生佳奈子，可能因为人体基本都是水组成的，注意到这点的时候，佳奈子已经能读懂人的感情了。性格胆小的她，把这种不可思议的力量作为秘密小心的隐藏了起来。而在暑假的时候，佳柰子一个人去了外祖母的老家——加拿大的新斯科舍。在海边聆听潮水的声音的时候，与拥有着同样这种不可思议的力量的青年修利米邂逅了。对于佳柰子来说，想在可以读懂人的感情的修利米面前藏住心事是不可能的。就是与这样一个人，一起度过了这么一个夏季......这是一个像清澈的水一般毫无杂质，温馨的故事。",
   "types": [
-    "爱情/治愈/异能"
+    "爱情",
+    "治愈",
+    "异能"
   ],
   "authors": "片冈とも",
   "first_letter": "S",
-  "subscribe_num": 801,
-  "redis_update_time": 1564308217,
+  "subscribe_num": 803,
+  "redis_update_time": 1564922504,
   "volume": [
     {
       "id": 5346,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1372043530,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6125,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1403263447,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6345,
@@ -41,7 +43,148 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1411215282,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5346,
+      "id": 5346,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36087,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36090,
+          "chapter_name": "十年后 夏",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36091,
+          "chapter_name": "第一章 新斯科舍",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36092,
+          "chapter_name": "第二章 修利米",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36095,
+          "chapter_name": "第三章 Handler",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36096,
+          "chapter_name": "第四章 船",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36097,
+          "chapter_name": "第五章 佐奈袭来",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 36099,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6125,
+      "id": 6125,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 42730,
+          "chapter_name": "第一章 驱逐舰Marginal",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42731,
+          "chapter_name": "第二章 面包留学",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42732,
+          "chapter_name": "第三章 Mildred·bevan",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42733,
+          "chapter_name": "第四章 迎击者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42734,
+          "chapter_name": "第五章 从船上来的使者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42735,
+          "chapter_name": "第六章 佳柰子被提名推荐了",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42736,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6345,
+      "id": 6345,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 44825,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44826,
+          "chapter_name": "第一章 DIA 国土防疫调查官",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44827,
+          "chapter_name": "第二章 Miss鲁安奴水产渔业高校",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44828,
+          "chapter_name": "第三章 Marginal",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44829,
+          "chapter_name": "第四章 在海上",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44830,
+          "chapter_name": "最终章 胆小鬼冠军",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44831,
+          "chapter_name": "尾声 3年后",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44832,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

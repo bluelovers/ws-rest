@@ -12,12 +12,13 @@
   "hot_hits": 68955,
   "introduction": "　　这世上，有些东西虽然看不见，却能确实感受到它的存在。\n　　一间专门寻找失物的奇妙事务所，一位专门寻找失物的奇妙侦探——日暮旅人，他能借由「观看」寻找到人们遗失的事物，无论那多么渺小，甚至不具形体……\n　　来吧！「寻觅」出生命中最温馨感人的片段，刻划那一篇篇只属于自己、渺小却最特别的故事。",
   "types": [
-    "侦探/治愈"
+    "侦探",
+    "治愈"
   ],
   "authors": "山口幸三郎",
   "first_letter": "Z",
-  "subscribe_num": 1335,
-  "redis_update_time": 1564247910,
+  "subscribe_num": 1340,
+  "redis_update_time": 1564924272,
   "volume": [
     {
       "id": 5340,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 寻觅之物",
       "volume_order": 10,
       "addtime": 1371613815,
-      "sum_chapters": 3
+      "sum_chapters": 22
     },
     {
       "id": 5506,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 遗失之物",
       "volume_order": 20,
       "addtime": 1378715337,
-      "sum_chapters": 3
+      "sum_chapters": 22
     },
     {
       "id": 5710,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷 忘却之物",
       "volume_order": 30,
       "addtime": 1387354639,
-      "sum_chapters": 3
+      "sum_chapters": 22
     },
     {
       "id": 6016,
@@ -49,7 +50,161 @@
       "volume_name": "第四卷 赠予之物",
       "volume_order": 40,
       "addtime": 1399772604,
-      "sum_chapters": 3
+      "sum_chapters": 22
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5340,
+      "id": 5340,
+      "volume_name": "第一卷 寻觅之物",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36025,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36026,
+          "chapter_name": "椅子的声音",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36027,
+          "chapter_name": "你在找什么？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36028,
+          "chapter_name": "景色的奥秘",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36029,
+          "chapter_name": "地底的诗歌",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36030,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5506,
+      "id": 5506,
+      "volume_name": "第二卷 遗失之物",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 37395,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37396,
+          "chapter_name": "老店的味道",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37397,
+          "chapter_name": "尸体的去向",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37398,
+          "chapter_name": "母亲的面容",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37399,
+          "chapter_name": "罪恶的气味",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37400,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5710,
+      "id": 5710,
+      "volume_name": "第三卷 忘却之物",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 39089,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39090,
+          "chapter_name": "身旁的寂静",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39091,
+          "chapter_name": "森林的曲调",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39092,
+          "chapter_name": "炸弹客的忧郁",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39093,
+          "chapter_name": "雪的道路",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39094,
+          "chapter_name": "梦中的温暖",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39095,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6016,
+      "id": 6016,
+      "volume_name": "第四卷 赠予之物",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 41813,
+          "chapter_name": "罚的痛楚",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41814,
+          "chapter_name": "白日之下",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41815,
+          "chapter_name": "太阳般的人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41816,
+          "chapter_name": "爱的旅程",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41817,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

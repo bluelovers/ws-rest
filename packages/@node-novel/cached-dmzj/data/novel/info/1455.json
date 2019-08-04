@@ -12,12 +12,13 @@
   "hot_hits": 27478,
   "introduction": "大学刚入学的那年春天，处于恋爱中的我毫无疑问是幸福的。直到我意识到我所憧憬的她只是我妄想的产物而已。大二那年秋天，在正处于人生低谷并迟迟无法振作的我面前，出现了一位女性。她叫做【乔娜】。也是我妄想的产物。令人吃惊的是她扬言要把我从妄想中解放出来。被自己的妄想对象所引导的，壮大的脱离妄想计划拉开了帷幕。大学校园变成了伦敦市区，lovehotel幻化成魔王的城堡，一切故事都将在这个充满妄想的东京多摩市展开。这是一个些许有些吵闹却又苦闷的，伤感与羞耻交织在一起混合而成的新感觉恋爱故事。",
   "types": [
-    "爱情/奇幻"
+    "爱情",
+    "奇幻"
   ],
   "authors": "西村悠",
   "first_letter": "W",
-  "subscribe_num": 1590,
-  "redis_update_time": 1564298828,
+  "subscribe_num": 1599,
+  "redis_update_time": 1564899626,
   "volume": [
     {
       "id": 5331,
@@ -25,7 +26,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1371439814,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5331,
+      "id": 5331,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 35956,
+          "chapter_name": "第一章 乔娜小姐",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35957,
+          "chapter_name": "第二章 乔娜·圣·洛朗",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35958,
+          "chapter_name": "第三章 Jonardry",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35959,
+          "chapter_name": "第四章 海鸥乔娜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35960,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "小松艾梅儿",
   "first_letter": "F",
-  "subscribe_num": 338,
-  "redis_update_time": 1564129878,
+  "subscribe_num": 340,
+  "redis_update_time": 1564924741,
   "volume": [
     {
       "id": 5353,
@@ -25,7 +25,7 @@
       "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1372400593,
-      "sum_chapters": 11
+      "sum_chapters": 2
     },
     {
       "id": 5362,
@@ -33,7 +33,85 @@
       "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1372752716,
-      "sum_chapters": 11
+      "sum_chapters": 2
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5353,
+      "id": 5353,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36150,
+          "chapter_name": "楔子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36151,
+          "chapter_name": "第一章 驱鬼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36152,
+          "chapter_name": "第二章 高矮搭档重新结合",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36153,
+          "chapter_name": "第三章 传说中的男子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36154,
+          "chapter_name": "第四章 沉默的麻雀",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36155,
+          "chapter_name": "第五章 笔尖下的生命",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5362,
+      "id": 5362,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 36202,
+          "chapter_name": "第六章 墨色足迹",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36203,
+          "chapter_name": "第七章 暂时居处",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36204,
+          "chapter_name": "第八章 无数眼瞳诉说的故事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36205,
+          "chapter_name": "第九章 归途",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36206,
+          "chapter_name": "第十章 春日疾风",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36207,
+          "chapter_name": "解说 在有限的生命中，人类与妖怪交织成的温情剧",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }
