@@ -12,12 +12,13 @@
   "hot_hits": 69166,
   "introduction": "被卷入事故中受到重伤的明久。睁开眼睛时已经是数千年后的未来世界！？因长时间的冬眠而成为“宝贵的人类的原种”的明久，刚醒来就被『侵略体』袭击。混乱之中，和少女一同乘上人类的防御兵器<女神>，就在这时，限乘一人的<女神>发挥出了预想之外的威力，竟然将本来最多只能击退的侵略体完全破坏掉了！？一边被进化得更加可爱的少女们围迫，一边与『侵略体』展开殊死战斗，明久的命运究竟何去何从？",
   "types": [
-    "科幻/冒险"
+    "科幻",
+    "冒险"
   ],
   "authors": "榊一郎",
   "first_letter": "Y",
   "subscribe_num": 661,
-  "redis_update_time": 1564283377,
+  "redis_update_time": 1564856811,
   "volume": [
     {
       "id": 5645,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1384768149,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 6817,
@@ -33,7 +34,75 @@
       "volume_name": "第二卷 方舟都市的巫女",
       "volume_order": 20,
       "addtime": 1429093441,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5645,
+      "id": 5645,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38534,
+          "chapter_name": "资料&设定",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38535,
+          "chapter_name": "序章 过去的梦",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38536,
+          "chapter_name": "第一章 战斗少女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38537,
+          "chapter_name": "第二章 原始人类",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38538,
+          "chapter_name": "第三章 未来社会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38539,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6817,
+      "id": 6817,
+      "volume_name": "第二卷 方舟都市的巫女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 49317,
+          "chapter_name": "第一章 遥远的人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50045,
+          "chapter_name": "第二章 残渣",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51336,
+          "chapter_name": "第三章 长有角的人们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51337,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

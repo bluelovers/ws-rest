@@ -16,8 +16,8 @@
   ],
   "authors": "冈崎琢磨",
   "first_letter": "G",
-  "subscribe_num": 2791,
-  "redis_update_time": 1564308694,
+  "subscribe_num": 2810,
+  "redis_update_time": 1564918266,
   "volume": [
     {
       "id": 5439,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 下次见面时请让我品尝你煮的咖啡",
       "volume_order": 10,
       "addtime": 1375850001,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6172,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 梦见咖啡欧蕾的女孩",
       "volume_order": 20,
       "addtime": 1405173756,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6639,
@@ -41,7 +41,173 @@
       "volume_name": "第三卷 令人心慌的咖啡香",
       "volume_order": 30,
       "addtime": 1421670605,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5439,
+      "id": 5439,
+      "volume_name": "第一卷 下次见面时请让我品尝你煮的咖啡",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36771,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36772,
+          "chapter_name": "一 事件始于第二次光顾",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36773,
+          "chapter_name": "二 Bittersweet Black",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36774,
+          "chapter_name": "三 隐藏在乳白色中的心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36775,
+          "chapter_name": "四 棋盘上的狩猎",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36776,
+          "chapter_name": "五 past，present，f******?",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36777,
+          "chapter_name": "六 Animals in the closed room",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 36778,
+          "chapter_name": "七 下次见面时，请让我品尝你煮的咖啡",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 36779,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 36780,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 6172,
+      "id": 6172,
+      "volume_name": "第二卷 梦见咖啡欧蕾的女孩",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 43277,
+          "chapter_name": "序章 她的梦",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43278,
+          "chapter_name": "一 敬启者 未来",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43279,
+          "chapter_name": "二 狐狸的假度假",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43280,
+          "chapter_name": "三 毁坏乳白色的心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43281,
+          "chapter_name": "四 咖啡侦探铃罗事件簿",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43282,
+          "chapter_name": "五 (She Wanted To BE) WANTED",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43283,
+          "chapter_name": "六 the Sky Occluded in the Sun",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43284,
+          "chapter_name": "七 在星空下延续生命",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 43285,
+          "chapter_name": "终章 梦见咖啡欧蕾的女孩",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6639,
+      "id": 6639,
+      "volume_name": "第三卷 令人心慌的咖啡香",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 47699,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47700,
+          "chapter_name": "第一章 参加比赛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47813,
+          "chapter_name": "第二章 前夕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47814,
+          "chapter_name": "第三章 第一天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47815,
+          "chapter_name": "第四章 第二天",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47816,
+          "chapter_name": "第五章 第二天·真相",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47817,
+          "chapter_name": "第六章 后话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 47818,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 47819,
+          "chapter_name": "谢辞",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

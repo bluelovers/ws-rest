@@ -12,12 +12,13 @@
   "hot_hits": 44200,
   "introduction": "笕京太郎和图书社社员，放学后总是聚在学校的大图书馆里，从事许多和社团宗旨无关的活动，这是一部描述他们起点的故事——。上学期开学典礼结束后，回到教室的白崎鸫非常烦恼。她突然对自己的好友樱庭玉藻表白「我一定要有所改变才行。」……。在这部广受瞩目的新游戏发售的同时，也请享用「欢迎来到美少女游戏世界」的作者田尾典丈执笔的全新力作！一同细细品味五位女主角在牧羊人引导下所演奏出的前奏曲！！",
   "types": [
-    "爱情/校园"
+    "爱情",
+    "校园"
   ],
   "authors": "田尾典丈",
   "first_letter": "D",
-  "subscribe_num": 1326,
-  "redis_update_time": 1564312304,
+  "subscribe_num": 1329,
+  "redis_update_time": 1564902408,
   "volume": [
     {
       "id": 5375,
@@ -25,7 +26,7 @@
       "volume_name": "overture",
       "volume_order": 10,
       "addtime": 1373355029,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6463,
@@ -33,7 +34,7 @@
       "volume_name": "第一卷",
       "volume_order": 20,
       "addtime": 1416053183,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6764,
@@ -41,7 +42,233 @@
       "volume_name": "第二卷",
       "volume_order": 30,
       "addtime": 1426507674,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5375,
+      "id": 5375,
+      "volume_name": "overture",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36299,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36300,
+          "chapter_name": "白崎鸫 前日谭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36301,
+          "chapter_name": "幕间一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36302,
+          "chapter_name": "樱庭玉澡 前日谭",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36303,
+          "chapter_name": "幕间二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36304,
+          "chapter_name": "御园千莉 前日谭",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36305,
+          "chapter_name": "幕间三",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 36306,
+          "chapter_name": "玲木佳奈 前日谭",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 36307,
+          "chapter_name": "幕间四",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 36308,
+          "chapter_name": "小太刀凪 前日谭",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 36309,
+          "chapter_name": "最终幕",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 36310,
+          "chapter_name": "后纪",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 6463,
+      "id": 6463,
+      "volume_name": "第一卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 45960,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45961,
+          "chapter_name": "4/16(五)开怀际遇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45962,
+          "chapter_name": "4/19(一)橙色脚步声",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45963,
+          "chapter_name": "4/20(二) Comical Oasis",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45964,
+          "chapter_name": "4/21(三)心动的去向",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45965,
+          "chapter_name": "4/22(四) Friendly Fire",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45966,
+          "chapter_name": "4/23(五) 晚安Daydream",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45967,
+          "chapter_name": "4/24(六) Piece and Piece",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 45968,
+          "chapter_name": "4/25(日) Sunnyday Alarm",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 45969,
+          "chapter_name": "4/26(一) 柔软的破绽",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 45970,
+          "chapter_name": "4/27(二) Check in Now",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 45971,
+          "chapter_name": "4/28(三) White Pop！",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 45972,
+          "chapter_name": "终章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 45973,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 6764,
+      "id": 6764,
+      "volume_name": "第二卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 48857,
+          "chapter_name": "Ready for……",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48858,
+          "chapter_name": "寻找晨星",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48859,
+          "chapter_name": "COL CANTO当我们同在一起",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48860,
+          "chapter_name": "洒落光芒的窗帘",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48861,
+          "chapter_name": "顺风的distance",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48862,
+          "chapter_name": "Ring on your way!",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48863,
+          "chapter_name": "SUGAR★POP",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48864,
+          "chapter_name": "Don&#039;t stop Sympathy!",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 48865,
+          "chapter_name": "5th step",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 48866,
+          "chapter_name": "Track trap",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 48867,
+          "chapter_name": "Straight Sheep",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 48868,
+          "chapter_name": "Starlit Words",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 48869,
+          "chapter_name": "终章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 48870,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

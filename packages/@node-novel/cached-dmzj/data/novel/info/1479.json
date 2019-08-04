@@ -12,12 +12,13 @@
   "hot_hits": 67513,
   "introduction": "“回应我吧！救世机(Xestmarg)！将我的思念转变为力量，带给我们胜利吧！！”\n突如其来的谜之生命体·XENO支配了世界。人类终于进化为失去情感的生物的xenoid而留存着。吊车尾少年阿尔兹为了生存在成为xenoid的资格选拔试验途中，与人工冬眠许久的旧人类那雪，以及救世兵器“救世机(Xestmarg)”相遇，自此卷入了改变自己与世界的战斗中。",
   "types": [
-    "冒险/科幻"
+    "冒险",
+    "科幻"
   ],
   "authors": "天野冬景",
   "first_letter": "B",
   "subscribe_num": 783,
-  "redis_update_time": 1564237197,
+  "redis_update_time": 1564887394,
   "volume": [
     {
       "id": 5425,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1375670661,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 5426,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1375670666,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 5528,
@@ -41,7 +42,138 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1379318676,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5425,
+      "id": 5425,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36671,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36672,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36877,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37902,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38780,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39559,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39560,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5426,
+      "id": 5426,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 36673,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36674,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36675,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36676,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36677,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36678,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36679,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5528,
+      "id": 5528,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 37582,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37583,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37584,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37585,
+          "chapter_name": "间章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37954,
+          "chapter_name": "第二章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39593,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39594,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

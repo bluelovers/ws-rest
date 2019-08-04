@@ -3,11 +3,11 @@
   "name": "龙腾世纪：被篡之王座",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "外传 难于上城区",
-  "last_update_chapter_name": "附录 队友对话节选",
-  "last_update_volume_id": 10213,
-  "last_update_chapter_id": 98103,
-  "last_update_time": 1563278638,
+  "last_update_volume_name": "第三卷 决裂",
+  "last_update_chapter_name": "第二章",
+  "last_update_volume_id": 10253,
+  "last_update_chapter_id": 98341,
+  "last_update_time": 1564401968,
   "cover": "https://xs.dmzj.com/img/webpic/26/lt0128l.jpg",
   "hot_hits": 5667,
   "introduction": "龙腾世纪官方小说",
@@ -16,8 +16,8 @@
   ],
   "authors": "大卫•盖德",
   "first_letter": "L",
-  "subscribe_num": 1737,
-  "redis_update_time": 1564338343,
+  "subscribe_num": 1765,
+  "redis_update_time": 1564922350,
   "volume": [
     {
       "id": 9926,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1548692044,
-      "sum_chapters": 8
+      "sum_chapters": 12
     },
     {
       "id": 9951,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 召礼",
       "volume_order": 20,
       "addtime": 1550058727,
-      "sum_chapters": 8
+      "sum_chapters": 12
     },
     {
       "id": 10213,
@@ -41,7 +41,15 @@
       "volume_name": "外传 难于上城区",
       "volume_order": 30,
       "addtime": 1562251268,
-      "sum_chapters": 8
+      "sum_chapters": 12
+    },
+    {
+      "id": 10253,
+      "lnovel_id": 2619,
+      "volume_name": "第三卷 决裂",
+      "volume_order": 40,
+      "addtime": 1564401863,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -336,6 +344,29 @@
           "chapter_id": 98103,
           "chapter_name": "附录 队友对话节选",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10253,
+      "id": 10253,
+      "volume_name": "第三卷 决裂",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 98339,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98340,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98341,
+          "chapter_name": "第二章",
+          "chapter_order": 30
         }
       ]
     }

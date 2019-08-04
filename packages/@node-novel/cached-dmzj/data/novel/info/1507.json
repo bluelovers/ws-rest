@@ -12,12 +12,14 @@
   "hot_hits": 48859,
   "introduction": "☆轻小说☆文库☆注：本书为《龙娘七七七埋藏的宝藏》外传性质作品，人物与本篇相通，目前FAMI通文库以文库本形式作为独立的《一级天灾》系列连载出版。\n\n自诩的名侦探·一级天灾与奇葩恶魔缔结契约，回收散播在七重岛各处，孕育死亡的『刻印之咒』！方法是同恶魔进行推理对决。舞台是未来事件具现化的空间『惨剧未来』，换言之，无论披露多么如何精彩的名推理也无法得到喝彩。对天灾来说，是极非情愿的对决。「来吧，小姑娘！同吾辈堂堂正正地一决胜负吧」「我拒绝」――然而紧接着，天灾发现自己的佣人·达尔克脸上被刻上了『诅咒』！！",
   "types": [
-    "侦探/校园/冒险"
+    "侦探",
+    "校园",
+    "冒险"
   ],
   "authors": "凤乃一真",
   "first_letter": "Y",
-  "subscribe_num": 1299,
-  "redis_update_time": 1564307330,
+  "subscribe_num": 1307,
+  "redis_update_time": 1564887855,
   "volume": [
     {
       "id": 5513,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1378716427,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5654,
@@ -33,7 +35,115 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1385378061,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5513,
+      "id": 5513,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 37454,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37455,
+          "chapter_name": "名推理1 一级天灾极非情愿的名推理",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37456,
+          "chapter_name": "名推理1.5 后来怎么样了？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37457,
+          "chapter_name": "名推理2 推诿的死亡讯息",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37458,
+          "chapter_name": "名推理2.5 跟踪·跟踪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37459,
+          "chapter_name": "名推理3 来自恶魔的挑战书『推理无效的杀人机器』",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37460,
+          "chapter_name": "名推理3.5 那一天的『伏见研』中的一幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 37461,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5654,
+      "id": 5654,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 50462,
+          "chapter_name": "序章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50463,
+          "chapter_name": "名推理4 没有名侦探的迷推理",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50464,
+          "chapter_name": "名推理4.5 ～某少女问，名侦探和恶魔对决的规则～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50465,
+          "chapter_name": "名推理5 Version 2.0",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50466,
+          "chapter_name": "名推理5.5 如果天灾她们的功能真的实行了？",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50467,
+          "chapter_name": "名推理6 名侦探无法行动",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 50468,
+          "chapter_name": "名推理6.5 达尔克与黑发少女",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 50469,
+          "chapter_name": "名推理7 名侦探是一介平民",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 50470,
+          "chapter_name": "终章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 50471,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

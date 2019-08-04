@@ -17,7 +17,7 @@
   "authors": "有川浩",
   "first_letter": "S",
   "subscribe_num": 376,
-  "redis_update_time": 1564313266,
+  "redis_update_time": 1564847439,
   "volume": [
     {
       "id": 5503,
@@ -25,7 +25,27 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1378354890,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5503,
+      "id": 5503,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 37381,
+          "chapter_name": "Side A",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37382,
+          "chapter_name": "Side B",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

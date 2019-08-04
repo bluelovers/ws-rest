@@ -17,7 +17,7 @@
   "authors": "山田有",
   "first_letter": "B",
   "subscribe_num": 360,
-  "redis_update_time": 1564272070,
+  "redis_update_time": 1564625198,
   "volume": [
     {
       "id": 5730,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1388137744,
-      "sum_chapters": 3
+      "sum_chapters": 6
     },
     {
       "id": 7334,
@@ -33,7 +33,90 @@
       "volume_name": "第二卷 冰雪少女愤慨不已",
       "volume_order": 20,
       "addtime": 1447485844,
-      "sum_chapters": 3
+      "sum_chapters": 6
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5730,
+      "id": 5730,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39235,
+          "chapter_name": "雪儿",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39236,
+          "chapter_name": "爬行的冰",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39237,
+          "chapter_name": "旧校舍",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39238,
+          "chapter_name": "燃烧的冰",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39239,
+          "chapter_name": "可香谷由里的心意",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39240,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7334,
+      "id": 7334,
+      "volume_name": "第二卷 冰雪少女愤慨不已",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 54653,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 54654,
+          "chapter_name": "预兆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 54655,
+          "chapter_name": "妹妹出现",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 54656,
+          "chapter_name": "雪儿，愤慨不已",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 54657,
+          "chapter_name": "冬之大战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 54658,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 54659,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -3,11 +3,11 @@
   "name": "练好练满！用寄生外挂改造尼特人生！？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10051,
-  "last_update_chapter_id": 95292,
-  "last_update_time": 1555246339,
+  "last_update_volume_id": 10263,
+  "last_update_chapter_id": 98515,
+  "last_update_time": 1564828360,
   "cover": "https://xs.dmzj.com/img/webpic/23/js0428l.jpg",
   "hot_hits": 180331,
   "introduction": "　　一招技能走异界，寄生尼特出头天！？\n　　尼特族荣司突然被召唤到梦想中犹如电玩的异世界！而且女神还给了他各种厉害的技能──奇怪？怎么只有名称不太好听的《寄生》！？\n　　然而，那其实是能「将他人的经验值和酬劳翻涨好几倍并纳为己有」的犯规力量，让他瞬间获得非劳动收入和全城最强的名声！就在荣司对意外走运的异世界尼特族生活开始感到有些无聊时，他忽然灵光一闪──要是和寄生对象一起冒险，或许会更有效率，而且还能受人感谢也说不定！？\n　　助人的同时也让自己成长，极乐的助人冒险故事就此揭幕！！",
@@ -18,8 +18,8 @@
   ],
   "authors": "伊垣久大",
   "first_letter": "L",
-  "subscribe_num": 10758,
-  "redis_update_time": 1564345357,
+  "subscribe_num": 11621,
+  "redis_update_time": 1564923607,
   "volume": [
     {
       "id": 9384,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1524887956,
-      "sum_chapters": 8
+      "sum_chapters": 27
     },
     {
       "id": 9722,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1538906390,
-      "sum_chapters": 8
+      "sum_chapters": 27
     },
     {
       "id": 10051,
@@ -43,7 +43,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1555161818,
-      "sum_chapters": 8
+      "sum_chapters": 27
+    },
+    {
+      "id": 10263,
+      "lnovel_id": 2477,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1564827923,
+      "sum_chapters": 27
     }
   ],
   "chapters": [
@@ -208,6 +216,54 @@
           "chapter_id": 95292,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10263,
+      "id": 10263,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 98508,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98509,
+          "chapter_name": "第一章 尼曼、巨人、怪物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98510,
+          "chapter_name": "第二章 重要之事总在做好心理准备前发生的定律",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98511,
+          "chapter_name": "第三章 怎么办？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98512,
+          "chapter_name": "第四章 真面目（阿达玛）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98513,
+          "chapter_name": "终章 利用寄生升等，但好像有东西忘了培育",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98514,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98515,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

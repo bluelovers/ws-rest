@@ -12,12 +12,15 @@
   "hot_hits": 105589,
   "introduction": "十年一次，拥有统治世界力量的十三个王家中的公主，冠绝姬王的战斗－－冠姬圣战。\n追求着平稳日常的高中生盾町良护，跟马卡路因家的公主奥莉卡定下了骑士的契约。\n（出来吧！我的召唤骑士...等等，为什么我自己武装起来了？）\n不知道为什么就被名为公主这种东西的奥莉卡召唤成为了骑士，扯上了战斗。而且她为了变得更强还......。（我的第一次呢，要吃？）\n十三人公主之间相争的召唤战斗FANTASY!!!",
   "types": [
-    "魔法/爱情/格斗/搞笑"
+    "魔法",
+    "爱情",
+    "格斗",
+    "搞笑"
   ],
   "authors": "宫泽周",
   "first_letter": "G",
-  "subscribe_num": 2306,
-  "redis_update_time": 1564311692,
+  "subscribe_num": 2310,
+  "redis_update_time": 1564916953,
   "volume": [
     {
       "id": 5432,
@@ -25,7 +28,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1375784531,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5432,
+      "id": 5432,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36707,
+          "chapter_name": "序章 不能理解的谒见惊喜",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36708,
+          "chapter_name": "第一章 误认事实的召唤意外",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36709,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36710,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36711,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36712,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

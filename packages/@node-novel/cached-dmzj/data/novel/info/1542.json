@@ -16,8 +16,8 @@
   ],
   "authors": "泽村凛",
   "first_letter": "H",
-  "subscribe_num": 44,
-  "redis_update_time": 1564297007,
+  "subscribe_num": 45,
+  "redis_update_time": 1564881053,
   "volume": [
     {
       "id": 5674,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1385975444,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5674,
+      "id": 5674,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38757,
+          "chapter_name": "主要登场人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38758,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38759,
+          "chapter_name": "第一章 雷鸟归来",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38760,
+          "chapter_name": "第二章 无翼飞翔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38761,
+          "chapter_name": "第三章 吹抚芒野之风",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38762,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

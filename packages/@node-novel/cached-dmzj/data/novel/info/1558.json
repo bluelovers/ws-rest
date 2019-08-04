@@ -16,8 +16,8 @@
   ],
   "authors": "市川丈夫",
   "first_letter": "Y",
-  "subscribe_num": 1415,
-  "redis_update_time": 1564282361,
+  "subscribe_num": 1419,
+  "redis_update_time": 1564847657,
   "volume": [
     {
       "id": 5725,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 金之太阳、银之月",
       "volume_order": 10,
       "addtime": 1387969704,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 5729,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 拍卖会的少女",
       "volume_order": 20,
       "addtime": 1388049548,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 8353,
@@ -41,7 +41,183 @@
       "volume_name": "第三卷 克洛斯贝尔最漫长的一天",
       "volume_order": 30,
       "addtime": 1481548448,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5725,
+      "id": 5725,
+      "volume_name": "第一卷 金之太阳、银之月",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39205,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39206,
+          "chapter_name": "第一章 特别支援科",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39207,
+          "chapter_name": "第二章 再会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39208,
+          "chapter_name": "第三章 神狼之山",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39209,
+          "chapter_name": "第四章 高耸的壁障",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39210,
+          "chapter_name": "第五章 暗无星光的街道",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39211,
+          "chapter_name": "第六章 金之太阳，银之月",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39212,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 39213,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 5729,
+      "id": 5729,
+      "volume_name": "第二卷 拍卖会的少女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 62713,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 62714,
+          "chapter_name": "楔子 & 序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 62715,
+          "chapter_name": "第一章 迷失的正义",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62716,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 62717,
+          "chapter_name": "第三章 潜入调查",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62718,
+          "chapter_name": "第四章 黑之拍卖会(Schwarz Auction)",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 62719,
+          "chapter_name": "第五章 琪雅",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 62720,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 62721,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8353,
+      "id": 8353,
+      "volume_name": "第三卷 克洛斯贝尔最漫长的一天",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 69773,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69774,
+          "chapter_name": "楔子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69775,
+          "chapter_name": "序章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69826,
+          "chapter_name": "第一章 悄然而至的睿智",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69827,
+          "chapter_name": "第二章 交错的往昔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69828,
+          "chapter_name": "第三章 突变",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 69843,
+          "chapter_name": "第四章 主谋与执行者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 69844,
+          "chapter_name": "第五章 克洛斯贝尔最漫长的一天",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 69845,
+          "chapter_name": "第七章 太阳神殿",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 69846,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 69847,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 69848,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

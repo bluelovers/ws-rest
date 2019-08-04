@@ -16,8 +16,8 @@
   ],
   "authors": "西尾维新",
   "first_letter": "A",
-  "subscribe_num": 2182,
-  "redis_update_time": 1564310383,
+  "subscribe_num": 2194,
+  "redis_update_time": 1564923542,
   "volume": [
     {
       "id": 5458,
@@ -25,7 +25,42 @@
       "volume_name": "杂志连载",
       "volume_order": 10,
       "addtime": 1376896201,
-      "sum_chapters": 9
+      "sum_chapters": 25
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5458,
+      "id": 5458,
+      "volume_name": "杂志连载",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36944,
+          "chapter_name": "Miss/ion1 4321张涂鸦",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36940,
+          "chapter_name": "Miss/ion2 伙伴决裂同好会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36941,
+          "chapter_name": "Miss/ion3 幸福得要死",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36942,
+          "chapter_name": "Miss/ion4 和数字侦探比谁更聪明",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36943,
+          "chapter_name": "Miss/ion5 不败的赌徒和失败的承包人",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

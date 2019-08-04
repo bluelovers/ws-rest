@@ -12,12 +12,15 @@
   "hot_hits": 202537,
   "introduction": "放学后，守部京耶突然被神秘少女．巴洛克叫到屋顶进行莫名其妙爱的告白。在她半强迫式的带领下，守部京耶接触了一款空间异常写实的奇妙游戏‧『塔纳托斯遗产』。游戏中充满著恶魔、天使、妖精、幻兽等不真实的存在。透过游戏与跟巴洛克的来往，一些连京耶自己都不复记忆的过去逐渐瘫在阳光底下。一场为了夺回爱与因果的热斗即将展开。",
   "types": [
-    "校园/冒险/神鬼/魔法"
+    "校园",
+    "冒险",
+    "神鬼",
+    "魔法"
   ],
   "authors": "叶村哲",
   "first_letter": "B",
-  "subscribe_num": 3710,
-  "redis_update_time": 1564308155,
+  "subscribe_num": 3746,
+  "redis_update_time": 1564883659,
   "volume": [
     {
       "id": 5624,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷 overture:幻想连结",
       "volume_order": 10,
       "addtime": 1383822523,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6015,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷 Fallen Angel:歪曲天使",
       "volume_order": 20,
       "addtime": 1399684963,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6167,
@@ -41,7 +44,7 @@
       "volume_name": "第三卷 Memory of Baroque:幻象都市",
       "volume_order": 30,
       "addtime": 1404961484,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6578,
@@ -49,7 +52,301 @@
       "volume_name": "第四卷 Love Is Over:幻象炼狱",
       "volume_order": 40,
       "addtime": 1419256534,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5624,
+      "id": 5624,
+      "volume_name": "第一卷 overture:幻想连结",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38322,
+          "chapter_name": "第一话 黄昏的少女",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38323,
+          "chapter_name": "第二话 恐怕每个人都早已预料到会有这样的发展",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38324,
+          "chapter_name": "第三话 守部京耶家的内情(最新版)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38325,
+          "chapter_name": "第四话 琉璃色的重逢",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38326,
+          "chapter_name": "第五话 黄金剑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38327,
+          "chapter_name": "第六话 混沌的孤独女王",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38328,
+          "chapter_name": "第七话 失落的男子",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 38329,
+          "chapter_name": "第八话 全世界最尴尬的早晨",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 38330,
+          "chapter_name": "第九话 恋之残骸",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 38331,
+          "chapter_name": "第十话 在海边",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 38332,
+          "chapter_name": "第十一话 被否定的救赎",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 38333,
+          "chapter_name": "第十二话 再一次爱上你",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 38334,
+          "chapter_name": "『完全不会看到暗黑神出现的寻常后记』",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 6015,
+      "id": 6015,
+      "volume_name": "第二卷 Fallen Angel:歪曲天使",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 41801,
+          "chapter_name": "第零话 传闻",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41802,
+          "chapter_name": "第一话 两名剑士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41803,
+          "chapter_name": "第二话 假面舞会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41804,
+          "chapter_name": "第三话 姊妹",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41805,
+          "chapter_name": "第四话 《生命之树》组织",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41806,
+          "chapter_name": "第五话 开膛手杰克",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41807,
+          "chapter_name": "第六话 少女失踪之夜",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41808,
+          "chapter_name": "第七话 黎明的邀请函",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 41809,
+          "chapter_name": "第八话 堕天使们",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 41810,
+          "chapter_name": "第九话 死神与杀人鬼",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 41811,
+          "chapter_name": "第十话 新世界",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 41812,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 6167,
+      "id": 6167,
+      "volume_name": "第三卷 Memory of Baroque:幻象都市",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 43211,
+          "chapter_name": "第一话 幻象都市",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43212,
+          "chapter_name": "第二话 模仿侦探的搜寻铁金任务",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43213,
+          "chapter_name": "第三话 双曲线上的两人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43216,
+          "chapter_name": "第四话 在渺小世界的尽头",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43217,
+          "chapter_name": "第五话 剑的记忆，抑或爬行的炼狱",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43260,
+          "chapter_name": "第六话 死者之馆与邪神洛基",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 43261,
+          "chapter_name": "第七话 尽管原始却是最有效的方法",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 43262,
+          "chapter_name": "第八话 永远的恋人",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 43263,
+          "chapter_name": "第九话 背叛的土耳其软糖",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 43264,
+          "chapter_name": "第十话 吞噬世界的毒蛇",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 43265,
+          "chapter_name": "第十一话 沉入虚无",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 43266,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 6578,
+      "id": 6578,
+      "volume_name": "第四卷 Love Is Over:幻象炼狱",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 46985,
+          "chapter_name": "第一话 坏掉的琉璃色",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46986,
+          "chapter_name": "第二话 枪与刀",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46987,
+          "chapter_name": "第三话 毁灭的脚步声",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46988,
+          "chapter_name": "第四话 不知名的战车少女",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46989,
+          "chapter_name": "第五话 钥匙",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46990,
+          "chapter_name": "第六话 折断的剑",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46991,
+          "chapter_name": "第七话 天使的家",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46992,
+          "chapter_name": "第八话 无尽的雨",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 46993,
+          "chapter_name": "第九话 荒野中亦有花朵绽放",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 46994,
+          "chapter_name": "第十话 日雁高中学园祭",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 46995,
+          "chapter_name": "第十一话 幻象都市的崩坏",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 46996,
+          "chapter_name": "第十二话 微不足道的爱的证明",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 46998,
+          "chapter_name": "第十三话 后来",
+          "chapter_order": 125
+        },
+        {
+          "chapter_id": 46997,
+          "chapter_name": "第十四话 「 」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 46999,
+          "chapter_name": "后记·你是不是以为红色就代表搞笑角色？我一直都是这么以为的。",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

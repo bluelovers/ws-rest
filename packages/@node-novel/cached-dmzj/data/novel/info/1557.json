@@ -12,12 +12,13 @@
   "hot_hits": 28563,
   "introduction": "面对异形天敌的攻势，一再吃下败仗的人类银河同盟，决心进行背水一战的反击。在该场作战中，少年兵莱德与人形机动兵器「突击者」一同被卷入意外的曲速事故。一人一机漂流抵达的地点，竟是覆盖著碧绿海洋的边境行星──地球。\n在这个理应已经毁灭的世界，与居民的邂逅，会给只懂得战斗的少年带来何种变化──超人气动画众所期盼的官方小说版登场！",
   "types": [
-    "科幻/冒险"
+    "科幻",
+    "冒险"
   ],
   "authors": "谷村大四郎",
   "first_letter": "C",
-  "subscribe_num": 785,
-  "redis_update_time": 1564312510,
+  "subscribe_num": 791,
+  "redis_update_time": 1564862465,
   "volume": [
     {
       "id": 5721,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1387801518,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6308,
@@ -33,7 +34,85 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1409485469,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5721,
+      "id": 5721,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39162,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39163,
+          "chapter_name": "01 Prologue 序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39164,
+          "chapter_name": "02 Castaway 漂流者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39165,
+          "chapter_name": "03 The Planet Origin 起源之星",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39166,
+          "chapter_name": "04 The Villainous Empress 无赖的女皇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39167,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6308,
+      "id": 6308,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 44520,
+          "chapter_name": "04 The Flute of Recollection 追忆之笛",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44521,
+          "chapter_name": "05 Calm Day 无风日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44522,
+          "chapter_name": "06 Festival 狂欢节",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44523,
+          "chapter_name": "04 A Soldier&#039;s Fate 士兵的使命",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44524,
+          "chapter_name": "08 Separation 离别",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44525,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

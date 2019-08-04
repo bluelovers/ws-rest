@@ -17,7 +17,7 @@
   "authors": "美奈川护",
   "first_letter": "L",
   "subscribe_num": 209,
-  "redis_update_time": 1564297354,
+  "redis_update_time": 1564847448,
   "volume": [
     {
       "id": 5446,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 龙之坂商店街交响乐团的英雄",
       "volume_order": 10,
       "addtime": 1376290620,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 5512,
@@ -33,7 +33,90 @@
       "volume_name": "第二卷 龙之坂商店街交响乐团的革命",
       "volume_order": 20,
       "addtime": 1378716162,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5446,
+      "id": 5446,
+      "volume_name": "第一卷 龙之坂商店街交响乐团的英雄",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36847,
+          "chapter_name": "序曲 无休止的八分休符",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36848,
+          "chapter_name": "第一乐章 帝王的喇叭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36849,
+          "chapter_name": "第二乐章 adagio non tanto",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36850,
+          "chapter_name": "第三乐章 Chorale",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36851,
+          "chapter_name": "第四乐章 赎罪的咏叹调",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36852,
+          "chapter_name": "终曲 那音乐里，存在永远吗?",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5512,
+      "id": 5512,
+      "volume_name": "第二卷 龙之坂商店街交响乐团的革命",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 37452,
+          "chapter_name": "序曲 钟声",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40300,
+          "chapter_name": "第一乐章 布伦希尔特的初恋",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40301,
+          "chapter_name": "第二乐章 Raised on rock",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40302,
+          "chapter_name": "第三乐章 840回的烦恼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40303,
+          "chapter_name": "第四乐章 MESSIAH",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40304,
+          "chapter_name": "终曲 献给最伟大的小提琴手",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40305,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,15 @@
   "hot_hits": 260058,
   "introduction": "「现在『圣剑与魔龙的世界』正式开幕。」\n12月24日晚上10点。和平的平安夜，自称『魔龙公主』的美少女雅莉对全世界下了战帖。她的发言之后被称为『魔龙宣言』，彻底改变了以平稳为处世原则的主人公卡加里的生活。卡加里居住的『美影开发都市』遭到『六皇魔龙』大举来袭。\n为了打倒魔龙，可爱的『圣剑』少女们也聚集于此。为了保卫被搞得一团乱的城市和生活，卡加里与『圣剑』美少女携手合作，要与『魔龙』战斗——！最精彩刺激，令人血脉贲张的战斗，即将拉开序幕！",
   "types": [
-    "魔法/冒险/格斗/异界"
+    "魔法",
+    "冒险",
+    "格斗",
+    "异界"
   ],
   "authors": "サイトウケンジ",
   "first_letter": "S",
-  "subscribe_num": 4045,
-  "redis_update_time": 1564311194,
+  "subscribe_num": 4058,
+  "redis_update_time": 1564880070,
   "volume": [
     {
       "id": 5735,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1388388089,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5848,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1393641907,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6150,
@@ -41,7 +44,213 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1404393426,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5735,
+      "id": 5735,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39342,
+          "chapter_name": "序『魔龙宣言』",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39343,
+          "chapter_name": "第一话『魔龙邂逅』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39344,
+          "chapter_name": "幕间 魔龙公主其一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39345,
+          "chapter_name": "第二话『圣剑解放』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39346,
+          "chapter_name": "幕间 魔龙公主其二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39347,
+          "chapter_name": "第三话『魔龙安息』",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39348,
+          "chapter_name": "第四话『魔龙觉醒』",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39349,
+          "chapter_name": "幕间 魔龙公主其三",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 39350,
+          "chapter_name": "插话『尾声』",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 39351,
+          "chapter_name": "幕间 魔龙参谋",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 39352,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 39353,
+          "chapter_name": "圣剑和魔龙的设定资料",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 5848,
+      "id": 5848,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 40361,
+          "chapter_name": "序『魔龙世界』",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40362,
+          "chapter_name": "第五话『苍龙宣言』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40363,
+          "chapter_name": "幕间 魔龙参谋 其一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40364,
+          "chapter_name": "第六话『苍龙争乱』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40365,
+          "chapter_name": "幕间 魔龙参谋 其二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40366,
+          "chapter_name": "第七话『苍龙来访』",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40367,
+          "chapter_name": "幕间 魔龙参谋 其三",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 40368,
+          "chapter_name": "第八话『苍龙大战·前篇』",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 40369,
+          "chapter_name": "幕间 魔龙参谋 其四",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 40370,
+          "chapter_name": "第八话『苍龙大战·后篇』",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 40371,
+          "chapter_name": "幕间 魔龙参谋 其五",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 40372,
+          "chapter_name": "插话『尾声』",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 40449,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 6150,
+      "id": 6150,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 43054,
+          "chapter_name": "序『圣剑独白』",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43055,
+          "chapter_name": "第九话『圣剑邂逅』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43056,
+          "chapter_name": "幕间 —咎人王的魔剑 其一—",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43057,
+          "chapter_name": "第十话『魔剑激斗』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43058,
+          "chapter_name": "幕间 —咎人王之魔剑其二—",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43059,
+          "chapter_name": "第十一话 『圣剑告白』",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43060,
+          "chapter_name": "幕间 —咎人王之魔剑 其三—",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43061,
+          "chapter_name": "第十二话 『圣剑世界』",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 43062,
+          "chapter_name": "幕间 —魔龙天使—",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 43063,
+          "chapter_name": "插曲 『尾声』",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 43064,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

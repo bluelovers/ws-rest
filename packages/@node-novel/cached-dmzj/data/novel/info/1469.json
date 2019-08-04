@@ -16,8 +16,8 @@
   ],
   "authors": "明坂缀里",
   "first_letter": "N",
-  "subscribe_num": 1334,
-  "redis_update_time": 1564312216,
+  "subscribe_num": 1341,
+  "redis_update_time": 1564912031,
   "volume": [
     {
       "id": 5392,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1374207678,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5438,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1375785437,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5501,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1378205632,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5594,
@@ -49,7 +49,161 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1382528323,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5392,
+      "id": 5392,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36445,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36446,
+          "chapter_name": "我没啥多余的毛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36447,
+          "chapter_name": "我不是爷们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36448,
+          "chapter_name": "店长讨厌我",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36449,
+          "chapter_name": "再也无法回头了",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36450,
+          "chapter_name": "我不是妹纸",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36451,
+          "chapter_name": "Epilogue",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 36452,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5438,
+      "id": 5438,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 36765,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36766,
+          "chapter_name": "并河早梨不会气馁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36911,
+          "chapter_name": "即便如此早梨也不会放弃",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37135,
+          "chapter_name": "此变化球任谁都接不住",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37136,
+          "chapter_name": "Episode",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37137,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5501,
+      "id": 5501,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 37367,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37368,
+          "chapter_name": "我们缺乏母性",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37627,
+          "chapter_name": "不能输给捣蛋的孩子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37788,
+          "chapter_name": "优雅的作风不能舍弃",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37789,
+          "chapter_name": "Epilogue",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 5594,
+      "id": 5594,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 38112,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38113,
+          "chapter_name": "女高中生店长不会给任何人巧克力",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38306,
+          "chapter_name": "女高中生不适合当店长",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38636,
+          "chapter_name": "女高中生店长的便利店真不轻松",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38637,
+          "chapter_name": "Episode",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

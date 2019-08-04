@@ -12,12 +12,14 @@
   "hot_hits": 64150,
   "introduction": "幻想戏曲――那是连与魔物战斗的英雄、不存在这个世间的幻兽、现代科学无法制造的兵器都能召唤出来的魔法之书。\n高中生·石马龙斗在图书室找到了一本除了写有「孤高之英雄谭」外，书名和内页都无法解读的不思议的书。那天回家途中，龙斗遭遇了操控猛兽的迷之少女的袭击。龙斗听从了将他于危机中解救出来的少女·艾米莉的话，宣读了「孤高之英雄谭」――出现在眼前的是书中登场的美少女骑士·艾莉丝！？\n「请告诉我，主人。……我，该成为谁的剑？」\n未被叙述的英雄叙事诗再度编织。英雄的战斗动作剧就此展开幕！",
   "types": [
-    "魔法/冒险/格斗"
+    "魔法",
+    "冒险",
+    "格斗"
   ],
   "authors": "弥生志郎",
   "first_letter": "C",
-  "subscribe_num": 1469,
-  "redis_update_time": 1564308995,
+  "subscribe_num": 1471,
+  "redis_update_time": 1564923164,
   "volume": [
     {
       "id": 5393,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1374464296,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6919,
@@ -33,7 +35,90 @@
       "volume_name": "第二卷 月光剑客与恋爱的少女",
       "volume_order": 20,
       "addtime": 1433084581,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5393,
+      "id": 5393,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36453,
+          "chapter_name": "序章 少女骑士英雄传说",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36454,
+          "chapter_name": "第一章 遇见幻想",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36455,
+          "chapter_name": "第二章 有骑士在的日常",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36456,
+          "chapter_name": "第三章 拿起剑的理由",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36457,
+          "chapter_name": "终章 少女骑士当代传奇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36458,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6919,
+      "id": 6919,
+      "volume_name": "第二卷 月光剑客与恋爱的少女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 50330,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50331,
+          "chapter_name": "第一章 恋爱故事（？）突然发生",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50332,
+          "chapter_name": "第二章 那个少女染上月华",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50333,
+          "chapter_name": "第三章 他的决心，她的思念",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50334,
+          "chapter_name": "第四章 在黄昏之空",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50335,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50336,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

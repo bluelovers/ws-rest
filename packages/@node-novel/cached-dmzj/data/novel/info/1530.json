@@ -12,12 +12,14 @@
   "hot_hits": 65240,
   "introduction": "空座町出现一名来历不明的假面女子。唐·观音寺发现了她，并把她当作生灵，欲将她超渡成佛，却因而卷入种种异样的纷争之中——「第十一番队」、「破面群」、反叛的「第八代剑八」、「已死的十刃」接连现身……黑崎一护失去力量时的故事，前篇堂堂登场！",
   "types": [
-    "神鬼/冒险/奇幻"
+    "神鬼",
+    "冒险",
+    "奇幻"
   ],
   "authors": "成田良悟",
   "first_letter": "S",
-  "subscribe_num": 984,
-  "redis_update_time": 1564313102,
+  "subscribe_num": 988,
+  "redis_update_time": 1564871980,
   "volume": [
     {
       "id": 5618,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1383563760,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5959,
@@ -33,7 +35,155 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1398099455,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5618,
+      "id": 5618,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38283,
+          "chapter_name": "主要人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38284,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38285,
+          "chapter_name": "一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38286,
+          "chapter_name": "二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38287,
+          "chapter_name": "三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38288,
+          "chapter_name": "四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38289,
+          "chapter_name": "五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 38290,
+          "chapter_name": "六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 38291,
+          "chapter_name": "七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 38292,
+          "chapter_name": "八章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 38293,
+          "chapter_name": "九章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 38294,
+          "chapter_name": "十章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 38295,
+          "chapter_name": "接续章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 38296,
+          "chapter_name": "插图",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 5959,
+      "id": 5959,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 41306,
+          "chapter_name": "接续章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41307,
+          "chapter_name": "十一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41308,
+          "chapter_name": "十二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41309,
+          "chapter_name": "十三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41310,
+          "chapter_name": "十四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41311,
+          "chapter_name": "十五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41312,
+          "chapter_name": "十六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41313,
+          "chapter_name": "十七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 41314,
+          "chapter_name": "十八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 41315,
+          "chapter_name": "十九章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 41316,
+          "chapter_name": "二十章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 41317,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

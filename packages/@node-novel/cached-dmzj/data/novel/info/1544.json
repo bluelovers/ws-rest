@@ -12,12 +12,14 @@
   "hot_hits": 92016,
   "introduction": "将遭遇活埋的青年挖出来的，是一位美丽的少女。对因没有心而被人唤作『无名之妖（Guran）』的他，少女艾莉莎微笑着伸出手，说道：「也许，我一直寻找的就是你」。她也是一种被唤作『穴藏之恶魔（AristCraisi）』的怪物。但她仅为杀死憎恨同族的『穴藏之恶魔』而活——怪物们的战斗所编织出来，虚幻而哀伤的黑色狂想曲，开幕！",
   "types": [
-    "冒险/魔法/格斗"
+    "冒险",
+    "魔法",
+    "格斗"
   ],
   "authors": "绫里惠史",
   "first_letter": "A",
-  "subscribe_num": 2725,
-  "redis_update_time": 1564310176,
+  "subscribe_num": 2734,
+  "redis_update_time": 1564882465,
   "volume": [
     {
       "id": 5678,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 For Elise",
       "volume_order": 10,
       "addtime": 1386069410,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6118,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 Dear Queen",
       "volume_order": 20,
       "addtime": 1403016404,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6427,
@@ -41,7 +43,378 @@
       "volume_name": "第三卷 With You",
       "volume_order": 30,
       "addtime": 1414507867,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5678,
+      "id": 5678,
+      "volume_name": "第一卷 For Elise",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38791,
+          "chapter_name": "前章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38792,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38793,
+          "chapter_name": "间章一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38794,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38795,
+          "chapter_name": "间章二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38796,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38797,
+          "chapter_name": "间章三",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 38798,
+          "chapter_name": "第四章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 38799,
+          "chapter_name": "间章四",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 38800,
+          "chapter_name": "第五章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 38801,
+          "chapter_name": "间章五",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 38802,
+          "chapter_name": "第六章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 38803,
+          "chapter_name": "间章六",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 38804,
+          "chapter_name": "第七章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 38805,
+          "chapter_name": "间章七",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 38806,
+          "chapter_name": "第八章",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 38807,
+          "chapter_name": "间章八",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 38808,
+          "chapter_name": "第九章",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 38809,
+          "chapter_name": "终章",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 38811,
+          "chapter_name": "幕外 夜空",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 38812,
+          "chapter_name": "后记",
+          "chapter_order": 210
+        }
+      ]
+    },
+    {
+      "volume_id": 6118,
+      "id": 6118,
+      "volume_name": "第二卷 Dear Queen",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 42666,
+          "chapter_name": "前章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42970,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42971,
+          "chapter_name": "很久很久以前的故事 1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42972,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42973,
+          "chapter_name": "被铭刻的记忆 1",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42978,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42979,
+          "chapter_name": "很久很久以前的故事 2",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42980,
+          "chapter_name": "第四章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 42981,
+          "chapter_name": "被铭刻的记忆 2",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 42982,
+          "chapter_name": "第五章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 42983,
+          "chapter_name": "很久很久以前的故事 3",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 42984,
+          "chapter_name": "第六章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 42985,
+          "chapter_name": "被铭刻的记忆 3",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 42996,
+          "chapter_name": "第七章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 42997,
+          "chapter_name": "听众的话 1",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 42998,
+          "chapter_name": "第八章",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 42999,
+          "chapter_name": "听众的话 2",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 43000,
+          "chapter_name": "第九章",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 43001,
+          "chapter_name": "很久很久以前的故事 4",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 43002,
+          "chapter_name": "第十章",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 43005,
+          "chapter_name": "第十一章",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 43006,
+          "chapter_name": "现在的故事",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 43007,
+          "chapter_name": "幕外 1 酒馆",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 43008,
+          "chapter_name": "幕外 2 弥留之际的梦 ——没人知道存在与否的故事",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 43009,
+          "chapter_name": "后记",
+          "chapter_order": 270
+        }
+      ]
+    },
+    {
+      "volume_id": 6427,
+      "id": 6427,
+      "volume_name": "第三卷 With You",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 45662,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45663,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45687,
+          "chapter_name": "她的故事 一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45688,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45689,
+          "chapter_name": "少女的故事 一",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45690,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45691,
+          "chapter_name": "她的故事 二",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45712,
+          "chapter_name": "第四章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 45713,
+          "chapter_name": "少女的故事 二",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 45720,
+          "chapter_name": "第五章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 45721,
+          "chapter_name": "她的故事 三",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 45722,
+          "chapter_name": "第六章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 45723,
+          "chapter_name": "少女的故事 三",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 45724,
+          "chapter_name": "第七章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 45725,
+          "chapter_name": "她的故事 四",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 45729,
+          "chapter_name": "第八章",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 45730,
+          "chapter_name": "少女的故事 四",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 45731,
+          "chapter_name": "第九章",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 45732,
+          "chapter_name": "她的故事 五",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 45733,
+          "chapter_name": "第十章",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 45734,
+          "chapter_name": "终章 她的故事",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 45737,
+          "chapter_name": "终章 少女们",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 45738,
+          "chapter_name": "后记",
+          "chapter_order": 270
+        }
+      ]
     }
   ]
 }

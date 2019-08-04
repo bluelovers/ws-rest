@@ -12,12 +12,14 @@
   "hot_hits": 20435,
   "introduction": "暑假即将来临，就读高中一年级的雾岛海人，正与同学们计划拍电影。\n「真想做点什么。」「虽然具体说不上来，就是想做点什么。」\n就在这样的某一天，红发少女贵月一歌转学到本校三年级。\n不知道为什么，一歌学姊的身影一直在海人的心中徘徊不去。\n当同伴对学姊提出一起拍电影的想法时，「好呀。」学姊二话不说就答应了。\n回家的路上，海人又再度遇见学姊。\n没有地方可安身的学姊，在阴错阳差之下，决定暂时寄住在海人的家里，但是……\n超人气电视动画众所期待的小说版！那个夏天的回忆，将成为我们的永远──",
   "types": [
-    "爱情/校园/科幻"
+    "爱情",
+    "校园",
+    "科幻"
   ],
   "authors": "丰川一夏",
   "first_letter": "Z",
-  "subscribe_num": 662,
-  "redis_update_time": 1564310553,
+  "subscribe_num": 670,
+  "redis_update_time": 1564881822,
   "volume": [
     {
       "id": 5688,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1386672607,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5689,
@@ -33,7 +35,185 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1386672607,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5688,
+      "id": 5688,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38900,
+          "chapter_name": "序章 海人&一歌",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38901,
+          "chapter_name": "第一章「于是摄影机开始运转」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38902,
+          "chapter_name": "第二章「满溢的情感抑止不住」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38903,
+          "chapter_name": "第三章「误会，擦身而过，知悉真心」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38904,
+          "chapter_name": "幕间 柑菜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38905,
+          "chapter_name": "第四章「每个人的心意，产生交集——」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38906,
+          "chapter_name": "幕间 真奈美",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 38907,
+          "chapter_name": "第五章「于是夏天开始——」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 38908,
+          "chapter_name": "幕间 柑菜",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 38909,
+          "chapter_name": "幕间 哲朗",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 38910,
+          "chapter_name": "第六章「常夏，冲绳，情敌」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 38911,
+          "chapter_name": "幕间 美樱",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 38912,
+          "chapter_name": "终章 一歌",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 38913,
+          "chapter_name": "后记，或者是解说",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 5689,
+      "id": 5689,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 38915,
+          "chapter_name": "序章 海人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38916,
+          "chapter_name": "第七章「两人的手相系时」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38917,
+          "chapter_name": "幕间（哲朗篇）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38918,
+          "chapter_name": "幕间（佳织篇）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38919,
+          "chapter_name": "第八章「祭典之后」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38920,
+          "chapter_name": "第九章「此心不渝」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38921,
+          "chapter_name": "幕间 （柑菜篇）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 38922,
+          "chapter_name": "第十章「我们在这里」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 38923,
+          "chapter_name": "幕间（哲朗篇）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 38924,
+          "chapter_name": "幕间（柑菜篇）",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 38925,
+          "chapter_name": "幕间（美樱篇）",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 38926,
+          "chapter_name": "第十一章「我们狂奔」",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 38927,
+          "chapter_name": "幕间（柠檬篇）",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 38928,
+          "chapter_name": "第十二章「勿忘那个夏天」",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 38929,
+          "chapter_name": "幕间（笑歌篇）",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 38930,
+          "chapter_name": "第十三章「那个夏天在等着我」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 38931,
+          "chapter_name": "终章",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 38932,
+          "chapter_name": "后记",
+          "chapter_order": 180
+        }
+      ]
     }
   ]
 }

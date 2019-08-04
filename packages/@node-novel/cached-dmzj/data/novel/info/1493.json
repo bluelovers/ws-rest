@@ -12,12 +12,13 @@
   "hot_hits": 19262,
   "introduction": "　　有着火焰般红色头发少年的冒险就要展开了！\n　　在游戏界中十分有名的伊苏国系列，也被称誉为经典中的经典。\n　　而在故事中的红发少年——亚特鲁，就是此一系列的主角。\n　　这部小说是介绍主人公亚特鲁在尚未展开任何冒险之前的第一次冒险旅程，在旅程中，也解开了古老文明——伊苏古国背后的谜题！\n　　亚特鲁为了取回艾斯铁里亚的和平，和无数的魔物奋战！而在冒险的过程中，亚特鲁也从一个憧憬冒险的少年成长为一个被人们寄托希望的勇者！\n　　读者们可以一起感受亚特鲁逐步的成长，跟着主角一同展开这呈现在眼前的冒险初体验！",
   "types": [
-    "冒险/魔法"
+    "冒险",
+    "魔法"
   ],
   "authors": "大场惑",
   "first_letter": "Y",
   "subscribe_num": 215,
-  "redis_update_time": 1564203158,
+  "redis_update_time": 1564919583,
   "volume": [
     {
       "id": 5460,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 贯通天界的魔塔",
       "volume_order": 10,
       "addtime": 1376897035,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 5610,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 暂缺",
       "volume_order": 20,
       "addtime": 1383042811,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 5611,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷 献给朋友的镇魂歌",
       "volume_order": 30,
       "addtime": 1383042815,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 6397,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷 暂缺",
       "volume_order": 40,
       "addtime": 1412906592,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 6398,
@@ -57,7 +58,7 @@
       "volume_name": "第五卷 漂泊的幻化都市 上",
       "volume_order": 50,
       "addtime": 1412906598,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 6408,
@@ -65,7 +66,7 @@
       "volume_name": "第五卷 漂泊的幻化都市 中",
       "volume_order": 60,
       "addtime": 1413643605,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 6433,
@@ -73,7 +74,7 @@
       "volume_name": "第五卷 漂泊的幻化都市 下",
       "volume_order": 70,
       "addtime": 1414841311,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 6448,
@@ -81,7 +82,231 @@
       "volume_name": "外传 血与砂的圣战",
       "volume_order": 80,
       "addtime": 1415283071,
-      "sum_chapters": 5
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5460,
+      "id": 5460,
+      "volume_name": "第一卷 贯通天界的魔塔",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36955,
+          "chapter_name": "第一章 红发的冒险者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36956,
+          "chapter_name": "第二章 神殿的女神像",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36957,
+          "chapter_name": "第三章 地底的冒险",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36958,
+          "chapter_name": "第四章 神官们的后裔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36959,
+          "chapter_name": "第五章 魔塔的冒险",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 5610,
+      "id": 5610,
+      "volume_name": "第二卷 暂缺",
+      "volume_order": 20,
+      "chapters": []
+    },
+    {
+      "volume_id": 5611,
+      "id": 5611,
+      "volume_name": "第三卷 献给朋友的镇魂歌",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 38239,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38240,
+          "chapter_name": "第一章 诱人的南风",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38241,
+          "chapter_name": "第二章 令人怀念的人们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38242,
+          "chapter_name": "第三章 传说中的名玉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38243,
+          "chapter_name": "第四章 复仇者的血统",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 6397,
+      "id": 6397,
+      "volume_name": "第四卷 暂缺",
+      "volume_order": 40,
+      "chapters": []
+    },
+    {
+      "volume_id": 6398,
+      "id": 6398,
+      "volume_name": "第五卷 漂泊的幻化都市 上",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 45344,
+          "chapter_name": "主要登场人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45345,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45346,
+          "chapter_name": "第一章 灼热的大陆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45347,
+          "chapter_name": "第二章 美女与结晶",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45348,
+          "chapter_name": "第三章 横渡灼热砂漠",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45349,
+          "chapter_name": "第四章 荒废的大地",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6408,
+      "id": 6408,
+      "volume_name": "第五卷 漂泊的幻化都市 中",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 45451,
+          "chapter_name": "前情提要",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45452,
+          "chapter_name": "第五章 王家之墓",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45453,
+          "chapter_name": "第六章 王族之血",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45454,
+          "chapter_name": "第七章 通往理想乡的道路",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 6433,
+      "id": 6433,
+      "volume_name": "第五卷 漂泊的幻化都市 下",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 45755,
+          "chapter_name": "前情提要",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45756,
+          "chapter_name": "第八章 善人与恶人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45757,
+          "chapter_name": "第九章 祭典之夜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45758,
+          "chapter_name": "第十章 大秘贤者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45759,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 6448,
+      "id": 6448,
+      "volume_name": "外传 血与砂的圣战",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 45846,
+          "chapter_name": "主要登场人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45847,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45848,
+          "chapter_name": "第一章 幼童窃盗团",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45853,
+          "chapter_name": "第二章 神圣森林的村庄",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45850,
+          "chapter_name": "第三章 恶魔教的地下圣堂",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45855,
+          "chapter_name": "第四章 岸边的奇迹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45852,
+          "chapter_name": "第五章 苏醒的巨神",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

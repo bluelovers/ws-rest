@@ -12,12 +12,15 @@
   "hot_hits": 416791,
   "introduction": "在同时存在着许多位王、许多个国家、许多种信仰相互混杂、继而冲突，没有秩序和统领者的时代——世界上出现了被称之为魔神的存在。\n众多的王们相继向其发起挑战，但所有的枪剑或魔法都无法伤及魔神的身体分毫。就在人们即将陷入绝望的那个时候，有位贤者出现并如此说道。「我有能斩杀魔神的剑，但需要身怀卓越剑技的人。有没有愿意追随我的人」\n剑总共有十二把。有十二位王分别将各自身边最优秀的一位骑士送了出来。被选中的这十二位骑士就和那位贤者一起向魔神发起挑战，并最终成功将其讨伐。之后那十二个国家合并成一个新的国家，奉贤者为王，那十二位骑士则被称为圆桌骑士。作为所有骑士的楷模——然后，时至今日——",
   "types": [
-    "神鬼/冒险/格斗/异界"
+    "神鬼",
+    "冒险",
+    "格斗",
+    "异界"
   ],
   "authors": "手岛史词",
   "first_letter": "J",
-  "subscribe_num": 12868,
-  "redis_update_time": 1564307940,
+  "subscribe_num": 12878,
+  "redis_update_time": 1564885687,
   "volume": [
     {
       "id": 5648,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1384946166,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5670,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1385974760,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5810,
@@ -41,7 +44,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1392194955,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 7968,
@@ -49,7 +52,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1468230491,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 7992,
@@ -57,7 +60,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1469017984,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 9793,
@@ -65,7 +68,7 @@
       "volume_name": "第六卷",
       "volume_order": 55,
       "addtime": 1542445187,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 9774,
@@ -73,7 +76,365 @@
       "volume_name": "第七卷",
       "volume_order": 60,
       "addtime": 1541729350,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5648,
+      "id": 5648,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38561,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38562,
+          "chapter_name": "第一章 群星坠落、小丑在狞笑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38563,
+          "chapter_name": "第二章 灾厄之枪驱赶着山羊",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38564,
+          "chapter_name": "第三章 流星雨将狮子之剑贯穿",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38565,
+          "chapter_name": "第四章 银之乙女将门打开",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38566,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38579,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 66410,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5670,
+      "id": 5670,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 38720,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39019,
+          "chapter_name": "第一章 狮子所在的校舍、星光黯淡",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39280,
+          "chapter_name": "第二章 闲谈生变数",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39578,
+          "chapter_name": "第三章 少女困于宝玉之中",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39717,
+          "chapter_name": "第四章 山羊觉醒、双鱼分离沉入大海",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40007,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 66411,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5810,
+      "id": 5810,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 50498,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50505,
+          "chapter_name": "第一章 金牛（Stier）带来灾祸",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50506,
+          "chapter_name": "第二章 少女之星不再复返",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50507,
+          "chapter_name": "第三章 山羊（Steinbock）驰骋原野一跃千里",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50508,
+          "chapter_name": "第四章 纯白之楔劈裂群星",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50509,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50510,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 66412,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7968,
+      "id": 7968,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 63672,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63673,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63674,
+          "chapter_name": "第一章 困惑少女（银乙女）降下星辰",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63675,
+          "chapter_name": "第二章 乐园的短暂时光宣告结束",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63676,
+          "chapter_name": "第三章 扰乱谋略的火焰",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63677,
+          "chapter_name": "狮子（Löwe）与牡羊（Widder）夜半起舞",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63678,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63679,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 63680,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7992,
+      "id": 7992,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 64104,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 64105,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 64106,
+          "chapter_name": "第一章 狮子退场，戏曲开幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 64107,
+          "chapter_name": "第二章 谋略的阴影自友情的身后掩袭而至",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 64108,
+          "chapter_name": "第三章 无星的射手贯穿天际",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 64109,
+          "chapter_name": "第四章 双鱼合体、玩蛇人沉没",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 64110,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 64111,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 66413,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9793,
+      "id": 9793,
+      "volume_name": "第六卷",
+      "volume_order": 55,
+      "chapters": [
+        {
+          "chapter_id": 91344,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 91347,
+          "chapter_name": "插画",
+          "chapter_order": 11
+        },
+        {
+          "chapter_id": 91345,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 91346,
+          "chapter_name": "第一章 黑魔女探求贪欲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 91404,
+          "chapter_name": "插画",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 91405,
+          "chapter_name": "第二章 圣女斩断千重噩梦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 91444,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 91898,
+          "chapter_name": "第三章 银乙女梦见虚幻之梦",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 91899,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 91900,
+          "chapter_name": "第四章 圆桌编织而成的剑之刻印",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 91901,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9774,
+      "id": 9774,
+      "volume_name": "第七卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 91092,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 91093,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 91094,
+          "chapter_name": "第一章 灾厄的抓痕嵌入大地、人们依然生活着",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 91095,
+          "chapter_name": "第二章 开始绽放的希望之芽被践踏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 91096,
+          "chapter_name": "第三章 何为英雄",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 91097,
+          "chapter_name": "第四章 向银之少女献上",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 91098,
+          "chapter_name": "结尾",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 91099,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

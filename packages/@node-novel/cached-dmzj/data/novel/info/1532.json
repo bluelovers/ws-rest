@@ -12,12 +12,14 @@
   "hot_hits": 30632,
   "introduction": "　　神话时代，天上五龙争夺地上霸权，历经漫长争斗，耗尽力气落入海中，五龙的尸首形成了一片大陆，人称「五龙大陆」。在这片大陆上，民间流传着仙人传说，精通方术的道士于各地执业；有人借由驯养蛊来达成心愿，夜间化身为噬人怪物……但是，来自西方的文化也渐渐传入，带来了电影、宗教、科学，以及列强的侵略。\n　　在道观长大的柚纪，生长于偏远的五龙州。她的世界很单纯，每天忙于道士工作，打理道观里里外外、帮当地人主持丧礼，或者跟着师父和师弟左慈四处除蛊；偶尔进城找好友歌伎碧耀聊天，或是为各种小事和左慈斗嘴。\n　　但是，某天与金发牧师伊鲁克的相遇，却将她卷入意想不到的风暴，让她平凡的日子起了翻天覆地的变化。\n　　大叔道士、辫子姑娘、毒舌师弟、金发牧师、千里眼歌伎，以及身上戴着咒文枷锁的龙人之子……\n　　当变化袭来时，自己的力量与决心是否足以守护重要的人？超乎想像的神奇大陆，跨越日常与非日常的温暖奇幻登场！",
   "types": [
-    "神鬼/冒险/奇幻"
+    "神鬼",
+    "冒险",
+    "奇幻"
   ],
   "authors": "壁井有可子",
   "first_letter": "W",
   "subscribe_num": 340,
-  "redis_update_time": 1564312847,
+  "redis_update_time": 1564860654,
   "volume": [
     {
       "id": 5625,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 卧于雾庙之龙",
       "volume_order": 10,
       "addtime": 1383822759,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5909,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 奔过云谷之龙",
       "volume_order": 20,
       "addtime": 1396108989,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6815,
@@ -41,7 +43,128 @@
       "volume_name": "第三卷 映于天镜之龙",
       "volume_order": 30,
       "addtime": 1429093265,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5625,
+      "id": 5625,
+      "volume_name": "第一卷 卧于雾庙之龙",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38336,
+          "chapter_name": "序 灭鬼之火",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38337,
+          "chapter_name": "章之壹 太阳少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38338,
+          "chapter_name": "章之贰 拥有翼痕的食客",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38339,
+          "chapter_name": "章之参 黄金之龙的殒落",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38340,
+          "chapter_name": "章之肆 被「不幸」吞噬的男子",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38341,
+          "chapter_name": "终 小四马路之夜",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5909,
+      "id": 5909,
+      "volume_name": "第二卷 奔过云谷之龙",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 40834,
+          "chapter_name": "序章 月亮的碎片",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40835,
+          "chapter_name": "章之壹 歌妓与坏脾气的牝牛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40836,
+          "chapter_name": "章之贰 歌妓与泼辣的老大娘",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40837,
+          "chapter_name": "章之参 歌妓与不幸的牧师",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40838,
+          "chapter_name": "章之肆 歌妓与狂暴的巨龙",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40839,
+          "chapter_name": "终章 傲慢与骄傲",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40840,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6815,
+      "id": 6815,
+      "volume_name": "第三卷 映于天镜之龙",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 49301,
+          "chapter_name": "序章 灵蜂盛兰的莲花",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49302,
+          "chapter_name": "章之壹 踌躇与启程的交叉口",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49303,
+          "chapter_name": "章之贰 追忆与悔恨的死胡同",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49304,
+          "chapter_name": "章之参 正牌与冒牌的对照镜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49305,
+          "chapter_name": "章之肆 雷龙与风虎的捉迷藏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49306,
+          "chapter_name": "终章 通往未来的万花筒",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

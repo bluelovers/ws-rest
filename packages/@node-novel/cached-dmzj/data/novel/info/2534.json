@@ -3,11 +3,11 @@
   "name": "不是真正同伴的我被逐出了勇者队伍，因此决定在边境过上慢生活",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10230,
-  "last_update_chapter_id": 98026,
-  "last_update_time": 1563102278,
+  "last_update_volume_id": 10262,
+  "last_update_chapter_id": 98507,
+  "last_update_time": 1564827894,
   "cover": "https://xs.dmzj.com/img/webpic/13/bj0812l.jpg",
   "hot_hits": 853053,
   "introduction": "自魔王的侵略使人类陷入危机时，从人类中诞生了勇者为起端。在这个世界里，所有人都有着自己的职责，主人公有着守护勇者的「引导者」之加护的力量，但因某个理由而被赶出了勇者队伍。",
@@ -19,8 +19,8 @@
   ],
   "authors": "ざっぽん",
   "first_letter": "B",
-  "subscribe_num": 36609,
-  "redis_update_time": 1564344410,
+  "subscribe_num": 38674,
+  "redis_update_time": 1564923978,
   "volume": [
     {
       "id": 9624,
@@ -28,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1534062332,
-      "sum_chapters": 8
+      "sum_chapters": 18
     },
     {
       "id": 9686,
@@ -36,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1537181241,
-      "sum_chapters": 8
+      "sum_chapters": 18
     },
     {
       "id": 10230,
@@ -44,7 +44,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1563101807,
-      "sum_chapters": 8
+      "sum_chapters": 18
+    },
+    {
+      "id": 10262,
+      "lnovel_id": 2534,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1564755782,
+      "sum_chapters": 18
     }
   ],
   "chapters": [
@@ -239,6 +247,69 @@
           "chapter_id": 98026,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10262,
+      "id": 10262,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 98495,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98496,
+          "chapter_name": "Prologue 贤者的启程",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98497,
+          "chapter_name": "第一章 被践踏的慢生活",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98498,
+          "chapter_name": "第二章 勇者露媞的任性",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98499,
+          "chapter_name": "第三章 分道扬镳",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98500,
+          "chapter_name": "第四章 勇者VS贤者",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98501,
+          "chapter_name": "第五章 引导者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98502,
+          "chapter_name": "第六章 美满的结局与之后的事",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98503,
+          "chapter_name": "Epilogue 勇者的慢生活",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98504,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 98507,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

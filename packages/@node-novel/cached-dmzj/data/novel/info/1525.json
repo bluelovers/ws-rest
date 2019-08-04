@@ -12,12 +12,13 @@
   "hot_hits": 139940,
   "introduction": "突如其来的死亡游戏。\n“──游戏开始条件为参加者中须有一位背叛者，结束游戏则须注意以下条件，以迎接终焉。那么，愉快的终焉游戏正式开始──”\n一个人的捉迷藏、第二个自己、玛丽的来信、猴掌……\n十年前，相传曾发生与“终焉之栞”相关的连续命案。四名少男少女触碰禁忌，卷入游戏，被迫执行不明信件上的“命令”，完成灵异怪谈，否则只有一死。",
   "types": [
-    "侦探/科幻"
+    "侦探",
+    "科幻"
   ],
   "authors": "スズム",
   "first_letter": "Z",
-  "subscribe_num": 2657,
-  "redis_update_time": 1564310349,
+  "subscribe_num": 2659,
+  "redis_update_time": 1564880133,
   "volume": [
     {
       "id": 5580,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1381733470,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6257,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1407761250,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6534,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1418274075,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6803,
@@ -49,7 +50,196 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1428399220,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5580,
+      "id": 5580,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38014,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38015,
+          "chapter_name": "CHAPTER1 孤单捉迷藏",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38016,
+          "chapter_name": "CHAPTER2 冒牌货出没警报",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38017,
+          "chapter_name": "CHAPTER3 Re:未接来电",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38018,
+          "chapter_name": "CHAPTER4 完美犯罪情书",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38019,
+          "chapter_name": "CHAPTER5 真假大风吹游戏",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38020,
+          "chapter_name": "CHAPTER6 Re:平行爱情线",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 38021,
+          "chapter_name": "CHAPTER7 平凡日常生活",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 38022,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6257,
+      "id": 6257,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 44085,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44086,
+          "chapter_name": "CHAPTER 1 秘密anD追逐",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44087,
+          "chapter_name": "CHAPTER 2 踩影鬼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44088,
+          "chapter_name": "CHAPTER 3 败德Byeb来电",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44089,
+          "chapter_name": "CHAPTER 4 猴掌预知梦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44090,
+          "chapter_name": "CHAPTER 5 报复英雄",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44091,
+          "chapter_name": "CHAPTER 6 终焉再临",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44092,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6534,
+      "id": 6534,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 46685,
+          "chapter_name": "CHAPTER1 起始页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46686,
+          "chapter_name": "CHAPTER2 通知的铃声",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46687,
+          "chapter_name": "CHAPTER3 四个故事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46688,
+          "chapter_name": "CHAPTER4 莫名的憧憬",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46689,
+          "chapter_name": "CHAPTER5 终末-Re：write",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46690,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6803,
+      "id": 6803,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 49218,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49219,
+          "chapter_name": "CHAPTER1 我们这一天",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49220,
+          "chapter_name": "CHAPTER1 我们这一天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49221,
+          "chapter_name": "CHAPTER3 来自后台的讯息",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49222,
+          "chapter_name": "CHAPTER4 遗落-Re:code-",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49223,
+          "chapter_name": "CHAPTER5 1713号病房",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49224,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 49225,
+          "chapter_name": "特别附录短篇『夕阳映照下的你……』",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

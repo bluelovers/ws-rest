@@ -16,8 +16,8 @@
   ],
   "authors": "柳内たくみ",
   "first_letter": "J",
-  "subscribe_num": 1496,
-  "redis_update_time": 1564308348,
+  "subscribe_num": 1506,
+  "redis_update_time": 1564888099,
   "volume": [
     {
       "id": 5565,
@@ -25,7 +25,7 @@
       "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1380968475,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 7583,
@@ -33,7 +33,120 @@
       "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1456662083,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5565,
+      "id": 5565,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 37879,
+          "chapter_name": "白魔战场",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37880,
+          "chapter_name": "雪妖精为何会拿起枪",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37881,
+          "chapter_name": "接着来谈谈麻烦的邻居",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37882,
+          "chapter_name": "第三十四步兵旅二营六连与面包店老板",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37883,
+          "chapter_name": "死斗开始，「开枪」这回事",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37884,
+          "chapter_name": "大胆的夜袭",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37885,
+          "chapter_name": "黎明的枪声——得与失",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 37886,
+          "chapter_name": "白色死神——袭摩&#8231;海赫后备兵长",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 37887,
+          "chapter_name": "策士维西宁",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 37888,
+          "chapter_name": "维纳亚 最凶恶的女狙击手",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 37889,
+          "chapter_name": "屈辱的圣诞夜，雪妖精的泪水",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 7583,
+      "id": 7583,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 57573,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57574,
+          "chapter_name": "觉醒的妖精（1）白色死神的战术",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 57575,
+          "chapter_name": "觉醒的妖精（2）短暂的休假",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57576,
+          "chapter_name": "觉醒的妖精（3）错误的诱惑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 57577,
+          "chapter_name": "赌命的斥候",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 57578,
+          "chapter_name": "冰风决战——雪妖精与白色死神",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 57579,
+          "chapter_name": "命运的一发子弹",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 57580,
+          "chapter_name": "停战与和谈——也就是败北之意",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

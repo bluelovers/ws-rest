@@ -12,12 +12,13 @@
   "hot_hits": 36125,
   "introduction": "某天新井泽透接到了那个时不时便会消失一阵子的自称是探险家的父亲邮来的大型包裹。在这个从南极冷藏邮递过来的包裹中有一个颜色变幻不定的物品和一张写着「将其放在热水中三分钟便会恢复」的便条。虽然感觉这很奇怪却禁不住将那东西放进了浴池用热水浸泡……然后居然出现了一个妹抖？！父亲的信中写着「这是一个在南极古代遗迹中发现的妹抖，要麻烦你们照顾一下，这之后就拜托了」虽然这是个以侍奉主人为宗旨的妹抖，却因为她对当代的日本常识完全不了解而引来了不少的麻烦。最后，终于了解到，原来她的本体是人类诞生之前支配着这个地球的生物们制造的不定形的万能生物「Shoggoth」的幸存者……",
   "types": [
-    "科幻/搞笑"
+    "科幻",
+    "搞笑"
   ],
   "authors": "静川龙宗",
   "first_letter": "W",
-  "subscribe_num": 1021,
-  "redis_update_time": 1564309265,
+  "subscribe_num": 1024,
+  "redis_update_time": 1564884498,
   "volume": [
     {
       "id": 5704,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1387193914,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5705,
@@ -33,7 +34,55 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1387193914,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5704,
+      "id": 5704,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39071,
+          "chapter_name": "第一话 不定形女仆袭来 咿呀！咿呀！咿呀！",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39072,
+          "chapter_name": "第二话 外来者和另外的故事",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39073,
+          "chapter_name": "第三话 不顾一切的双马尾",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39074,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 5705,
+      "id": 5705,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 39076,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40199,
+          "chapter_name": "第四话 晴间之影",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "桥本纺",
   "first_letter": "X",
-  "subscribe_num": 133,
-  "redis_update_time": 1564091524,
+  "subscribe_num": 134,
+  "redis_update_time": 1564807501,
   "volume": [
     {
       "id": 5360,
@@ -25,7 +25,32 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1372665699,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5360,
+      "id": 5360,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36198,
+          "chapter_name": "第一话 夜散步",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36199,
+          "chapter_name": "第二话 石阶梯",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36200,
+          "chapter_name": "第三话 夏烟花",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

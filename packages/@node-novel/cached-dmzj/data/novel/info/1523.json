@@ -12,12 +12,13 @@
   "hot_hits": 46898,
   "introduction": "十八世纪，神秘的巨大生物<虫>瞬间席卷全世界。\n巨大的怪异生物造成的巨大灾害，以及灾害过后转变而成的化石燃料，令世界发生了翻天覆地的改变——。\n故事发生在原本被称作「明治」的时代的不久之前。在前往异国的航道上，少年·秋津慧太郎遭遇一伙操纵虫的男人的袭击，漂流到了某海岸。然后，他的左眼得到了神奇的力量。漂泊到荒野上的慧太郎，遇到了爱着虫，并以研究和处理虫为生业的美少女亨利·法布尔。\n又一个绽放在近代，点缀着蒸汽、虫、与恋爱的幻想故事开幕！",
   "types": [
-    "冒险/爱情"
+    "冒险",
+    "爱情"
   ],
   "authors": "物草纯平",
   "first_letter": "C",
-  "subscribe_num": 944,
-  "redis_update_time": 1564300380,
+  "subscribe_num": 945,
+  "redis_update_time": 1564848780,
   "volume": [
     {
       "id": 5575,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1381404349,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 6264,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1408019069,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 6388,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1412657416,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 6389,
@@ -49,7 +50,191 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1412657467,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5575,
+      "id": 5575,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 37972,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37973,
+          "chapter_name": "第一章 被爱虫女孩拉着手",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37974,
+          "chapter_name": "第二章 千里觅得丽花园",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37975,
+          "chapter_name": "第三章 然而怯立与荒野之前",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37976,
+          "chapter_name": "第四章 即便如此我亦前行",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37977,
+          "chapter_name": "终",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37978,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6264,
+      "id": 6264,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 44151,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44546,
+          "chapter_name": "第一章 波澜于平静的背后抹消足音",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44550,
+          "chapter_name": "第二章 獠牙相向之时猝不及防",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44596,
+          "chapter_name": "第三章 是故天下人皆都但求拯救",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44597,
+          "chapter_name": "第四章 纵然伸手我亦够你不到",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44598,
+          "chapter_name": "终",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44625,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6388,
+      "id": 6388,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 45264,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45265,
+          "chapter_name": "第一章 是故演员齐聚舞台",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45266,
+          "chapter_name": "间章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45267,
+          "chapter_name": "第二章 终结之期近在眼前",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45268,
+          "chapter_name": "间章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45269,
+          "chapter_name": "第三章 向无法抗拒的分歧纵声疾呼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45270,
+          "chapter_name": "间章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45271,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6389,
+      "id": 6389,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 45272,
+          "chapter_name": "间章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45273,
+          "chapter_name": "第四章 终焉的号角终于鸣响",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45274,
+          "chapter_name": "间章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45275,
+          "chapter_name": "第五章 无人不化投火之虫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45276,
+          "chapter_name": "间章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45277,
+          "chapter_name": "第六章 然而，无人不高喊人类",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45278,
+          "chapter_name": "终",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45279,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

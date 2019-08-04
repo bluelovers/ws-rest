@@ -12,12 +12,14 @@
   "hot_hits": 30963,
   "introduction": "　　在没有「父母」的家庭里，高仓三兄妹极力维持「家族」的形状，直到措手不及的「死亡」，和有代价的「奇迹」找上他们——\n　　患有绝症的妹妹阳球过世了，大哥冠叶和二哥晶马悲痛不已，没想到她突然死而复生，更摇身一变成为口气粗鲁、颐指气使的陌生女子。\n　　头戴着企鹅帽的陌生阳球胁迫兄弟找出「企鹅罐」，否则妹妹会再度死亡。\n　　为了妹妹，高仓兄弟赴汤蹈火在所不辞，但一路命运多舛。\n　　他们渐渐发现，想要企鹅罐的，不只有他们。\n　　藏在屋子底下的跟踪狂少女、形迹可疑的歌剧团首席演员、痛失所爱的青年、用高尔夫球当子弹的千金小姐、以及，守护不存在的图书馆的神秘管理员……\n　　他们的人生因为企鹅罐而交错在一起。但是——\n　　企鹅罐到底是什么？\n　　只是想让妹妹活下去而已！\n　　没时间了，现在要夺回我们的幸福，用尽手段。",
   "types": [
-    "爱情/搞笑/奇幻"
+    "爱情",
+    "搞笑",
+    "奇幻"
   ],
   "authors": "几原邦彦",
   "first_letter": "H",
-  "subscribe_num": 951,
-  "redis_update_time": 1564291450,
+  "subscribe_num": 961,
+  "redis_update_time": 1564916959,
   "volume": [
     {
       "id": 5486,
@@ -25,7 +27,7 @@
       "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1377598745,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 5499,
@@ -33,7 +35,7 @@
       "volume_name": "中卷",
       "volume_order": 20,
       "addtime": 1378108321,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 5549,
@@ -41,7 +43,178 @@
       "volume_name": "下卷",
       "volume_order": 30,
       "addtime": 1380012711,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5486,
+      "id": 5486,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 37124,
+          "chapter_name": "主要人物简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37125,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37126,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37127,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37128,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37129,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37130,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 37131,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 37132,
+          "chapter_name": "第七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 37133,
+          "chapter_name": "第八章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 37134,
+          "chapter_name": "第九章",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 5499,
+      "id": 5499,
+      "volume_name": "中卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 37300,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37301,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37302,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37303,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37304,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37305,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37306,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 37307,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 37308,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 37309,
+          "chapter_name": "第九章",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 5549,
+      "id": 5549,
+      "volume_name": "下卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 37731,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37732,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37733,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37734,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37735,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37736,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37737,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 37738,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

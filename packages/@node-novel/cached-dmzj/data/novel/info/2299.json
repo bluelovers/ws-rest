@@ -3,11 +3,11 @@
   "name": "异世界魔物培育家～带着外挂悠哉养成中～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "特典 混用危险！",
-  "last_update_volume_id": 8554,
-  "last_update_chapter_id": 72874,
-  "last_update_time": 1489326799,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10261,
+  "last_update_chapter_id": 98488,
+  "last_update_time": 1564755521,
   "cover": "https://xs.dmzj.com/img/webpic/6/pyj0312l.jpg",
   "hot_hits": 156811,
   "introduction": "　　少年·风早宗太某一天遭到美之女神阿芙萝黛蒂送至异世界《亚德莱德》中，而且给予他的职业还是超级不受欢迎的「魔物使」！当宗太正因为不知该怎麽办而束手无策之际，发生了一件预料之外的BUG！\n　　「呜哇啊啊啊啊──！？等一下！骗人的吧！？为什麽！？」\n　　没想到！宗太居然能役使原本无法成为自己伙伴的女神阿芙萝黛蒂。\n　　因为获得女神而取得大量经验值的宗太，会就这么快乐地迈向自在的生活吗──！？",
@@ -17,8 +17,8 @@
   ],
   "authors": "柑橘ゆすら",
   "first_letter": "Y",
-  "subscribe_num": 10053,
-  "redis_update_time": 1564342612,
+  "subscribe_num": 12500,
+  "redis_update_time": 1564924055,
   "volume": [
     {
       "id": 8554,
@@ -26,7 +26,23 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1489326407,
-      "sum_chapters": 8
+      "sum_chapters": 21
+    },
+    {
+      "id": 10260,
+      "lnovel_id": 2299,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1564754516,
+      "sum_chapters": 21
+    },
+    {
+      "id": 10261,
+      "lnovel_id": 2299,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1564755015,
+      "sum_chapters": 21
     }
   ],
   "chapters": [
@@ -110,6 +126,157 @@
           "chapter_id": 72874,
           "chapter_name": "特典 混用危险！",
           "chapter_order": 150
+        },
+        {
+          "chapter_id": 98474,
+          "chapter_name": "插画",
+          "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 10260,
+      "id": 10260,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 98461,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98462,
+          "chapter_name": "第1话 矿山探索",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98464,
+          "chapter_name": "第2话 再探矿山",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98465,
+          "chapter_name": "第3话 惊人进展",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98466,
+          "chapter_name": "第4话 来探索墓地吧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98467,
+          "chapter_name": "第5话 VS幽灵",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98468,
+          "chapter_name": "第6话 精神操作",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98469,
+          "chapter_name": "第7话 勇者的后裔",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98470,
+          "chapter_name": "第8话 魔王的宅邸",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98471,
+          "chapter_name": "终章 绕了1圈……",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 98472,
+          "chapter_name": "附加短篇 宗太害怕的事物",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 98473,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 98487,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10261,
+      "id": 10261,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 98475,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98476,
+          "chapter_name": "第1话 抓住内裤小偷！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98477,
+          "chapter_name": "第2话 飞龙山脉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98478,
+          "chapter_name": "第3话 山腰的小屋",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98479,
+          "chapter_name": "第4话 管家",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98480,
+          "chapter_name": "第5话 赌场初体验",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98481,
+          "chapter_name": "第6话 技能借取",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98482,
+          "chapter_name": "第7话 龙公主的基地",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98483,
+          "chapter_name": "第8话 VS 龙公主",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98484,
+          "chapter_name": "终章 获得龙宠",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 98485,
+          "chapter_name": "附加短篇 洛斯特最糟糕的1天",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 98486,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 98488,
+          "chapter_name": "插画",
+          "chapter_order": 130
         }
       ]
     }

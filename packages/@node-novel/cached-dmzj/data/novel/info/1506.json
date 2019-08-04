@@ -12,12 +12,14 @@
   "hot_hits": 46518,
   "introduction": "天生衰小的高中生竹林大介，和小学时转学的青梅竹马‧真如花再会的前一天掉下了断崖！原本他以为自己死定了，没想到醒来时竟然看到真如花的身影。其实真如花是研究长生不死的魔女一族后裔，据真如花表示，她偶然发现大介的灵魂在外游荡，才急忙将他的魂魄移入小科的身体里。因此大介在恢复原来的身体之前，必需以人造的身体和真如花住在一起。然而由于大介的灵魂并不安定，导致大介和真如花的竞争对手‧灰岛缘发生了互换身体的一连串问题……？为您献上森田季节的变身爱情喜剧！",
   "types": [
-    "爱情/搞笑/奇幻"
+    "爱情",
+    "搞笑",
+    "奇幻"
   ],
   "authors": "森田季节",
   "first_letter": "S",
-  "subscribe_num": 805,
-  "redis_update_time": 1564251812,
+  "subscribe_num": 809,
+  "redis_update_time": 1564887582,
   "volume": [
     {
       "id": 5508,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1378715844,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 5593,
@@ -33,7 +35,95 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1382528146,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5508,
+      "id": 5508,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 37432,
+          "chapter_name": "第一话 不幸的少年",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37433,
+          "chapter_name": "第二话 喷火转学生",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37434,
+          "chapter_name": "第三话 青梅竹马与青梅竹马",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37435,
+          "chapter_name": "第四话 小熊动了",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37436,
+          "chapter_name": "第五话 狗与漆黑魔女",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37437,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37438,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5593,
+      "id": 5593,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 38105,
+          "chapter_name": "第一话 麒麟与小熊",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38106,
+          "chapter_name": "第二话 短裙与诅咒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38107,
+          "chapter_name": "第三话 搜索学生会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38108,
+          "chapter_name": "第四话 生物社入社体验",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38109,
+          "chapter_name": "第五话 驯鹿&amp;蝴蝶&amp;魔法阵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38110,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38111,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 6955,
   "introduction": "　　动画『异域天使』外传，属于万能女仆爱诺雅的故事。既美丽又聪慧，格斗、料理、打扫，样样都难不倒她，但她其实还是个十几岁的少女。爱诺雅在寻找玛格丽特大小姐的途中与各种不同的人相遇，拯救盖萨索尼卡人们的同时，自己的心灵也逐渐丰富起来。与原作动画不同风味的另一个世界，这是万能女仆爱诺雅温馨中带有感动的青春旅程。",
   "types": [
-    "冒险/战争/格斗"
+    "冒险",
+    "战争",
+    "格斗"
   ],
   "authors": "藤原征矢",
   "first_letter": "L",
   "subscribe_num": 131,
-  "redis_update_time": 1564304840,
+  "redis_update_time": 1564882615,
   "volume": [
     {
       "id": 5687,
@@ -25,7 +27,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1386671892,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5687,
+      "id": 5687,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38894,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38895,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38896,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38897,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38898,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

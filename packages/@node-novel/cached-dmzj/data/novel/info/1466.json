@@ -16,8 +16,8 @@
   ],
   "authors": "三田诚",
   "first_letter": "S",
-  "subscribe_num": 5788,
-  "redis_update_time": 1564310499,
+  "subscribe_num": 5794,
+  "redis_update_time": 1564921744,
   "volume": [
     {
       "id": 5366,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 吸血姬的护卫",
       "volume_order": 10,
       "addtime": 1373018162,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6475,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 暴风之王到来",
       "volume_order": 20,
       "addtime": 1416222996,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6801,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 毁灭的公主",
       "volume_order": 30,
       "addtime": 1428238352,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 7253,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷 死神的新娘",
       "volume_order": 40,
       "addtime": 1443691482,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 8261,
@@ -57,7 +57,244 @@
       "volume_name": "第五卷 海神的遗产",
       "volume_order": 50,
       "addtime": 1478426481,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5366,
+      "id": 5366,
+      "volume_name": "第一卷 吸血姬的护卫",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36236,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36237,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36238,
+          "chapter_name": "第一章 自称仙人与千圆保镖",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36239,
+          "chapter_name": "第二章 损坏的最终兵器",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36240,
+          "chapter_name": "第三章 七键敕书",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36241,
+          "chapter_name": "第四章 王之证",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44929,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44930,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6475,
+      "id": 6475,
+      "volume_name": "第二卷 暴风之王到来",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 46087,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46088,
+          "chapter_name": "第一章 空之鬼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46089,
+          "chapter_name": "第二章 少女们的理由",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46090,
+          "chapter_name": "第三章 暴风之王到来",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46091,
+          "chapter_name": "第四章 白凤六家",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46092,
+          "chapter_name": "第五章 闪光与旋风",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46093,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46094,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6801,
+      "id": 6801,
+      "volume_name": "第三卷 毁灭的公主",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 49186,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49187,
+          "chapter_name": "第一章 黄昏时的委托人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49188,
+          "chapter_name": "第二章 毁灭的公主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49189,
+          "chapter_name": "第三章 中华街的魔法师",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49190,
+          "chapter_name": "第四章 始祖鬼宝",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49191,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49192,
+          "chapter_name": "下集预告",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7253,
+      "id": 7253,
+      "volume_name": "第四卷 死神的新娘",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 53402,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53403,
+          "chapter_name": "第一章 灰冈仁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53404,
+          "chapter_name": "第二章 真人的交易",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53405,
+          "chapter_name": "第三章 天理",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53409,
+          "chapter_name": "第四章 死神的新娘",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 53410,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 53411,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8261,
+      "id": 8261,
+      "volume_name": "第五卷 海神的遗产",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 68382,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68383,
+          "chapter_name": "第一章 海洋、宝藏与暑假",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68384,
+          "chapter_name": "第二章 女孩聚会与不速之客",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68385,
+          "chapter_name": "第三章 海底的异变",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68386,
+          "chapter_name": "第四章 盘古",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68387,
+          "chapter_name": "第五章 海神的遗产",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68388,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 68389,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 68390,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 161093,
   "introduction": "莫名其妙的，我被丢进了乙女游戏的世界里。貌似还当上了攻略对象。换句话说，也许会被美少女们倒追！？好棒！\n但还没高兴多久，就发觉事情好像没那么喜闻乐见。一旦被攻略，我可能就会长驱直入死亡线……。在死亡的恐惧中，美少女们接踵而来攻略我了。\n美少女和性命。应该选择哪一边——？那当然是——！\n打着乙女游戏之名，略为怪异的美少女云集的死亡游戏·恋爱喜剧登场！",
   "types": [
-    "爱情/搞笑"
+    "爱情",
+    "搞笑"
   ],
   "authors": "秋目人",
   "first_letter": "N",
-  "subscribe_num": 2888,
-  "redis_update_time": 1564312293,
+  "subscribe_num": 2904,
+  "redis_update_time": 1564922428,
   "volume": [
     {
       "id": 5457,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1376649898,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5843,
@@ -33,7 +34,115 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1393388861,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5457,
+      "id": 5457,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36912,
+          "chapter_name": "人物简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36913,
+          "chapter_name": "FLAG.00 回想、往昔的兄妹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36914,
+          "chapter_name": "FLAG.01 活了十六年，总算明白这是哪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36915,
+          "chapter_name": "FLAG.02 去玩乙女游戏吧！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36916,
+          "chapter_name": "FLAG.03 攻略提示不可或缺？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36917,
+          "chapter_name": "FLAG.04 六月风平浪静，于是七月",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36918,
+          "chapter_name": "FLAG.05 真正的自己",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 36919,
+          "chapter_name": "FLAG.终 普通结局？",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 37045,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 5843,
+      "id": 5843,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 40291,
+          "chapter_name": "flag 其之0 续、某日的兄妹",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45825,
+          "chapter_name": "FLAG之一 消磨殆尽的危机感",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45826,
+          "chapter_name": "FLAG之二 我的路线与骑士测验",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45827,
+          "chapter_name": "FLAG之三 突然到来的最终骑士测验与《大翼》杂志",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45828,
+          "chapter_name": "FLAG之四 重新拟定「我的路线」对策",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45829,
+          "chapter_name": "FLAG之五 第二次骑士测验",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45830,
+          "chapter_name": "FLAG之六 第三次骑士测验",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45831,
+          "chapter_name": "FLAG之 终",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 45832,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

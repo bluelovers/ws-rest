@@ -16,8 +16,8 @@
   ],
   "authors": "七尾与史",
   "first_letter": "N",
-  "subscribe_num": 395,
-  "redis_update_time": 1564284806,
+  "subscribe_num": 400,
+  "redis_update_time": 1564877787,
   "volume": [
     {
       "id": 5514,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1378805959,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5514,
+      "id": 5514,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 37462,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37463,
+          "chapter_name": "二",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37464,
+          "chapter_name": "三",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37465,
+          "chapter_name": "四",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37466,
+          "chapter_name": "五",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37467,
+          "chapter_name": "六",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

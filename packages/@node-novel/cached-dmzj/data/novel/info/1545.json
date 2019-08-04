@@ -16,8 +16,8 @@
   ],
   "authors": "村山早纪",
   "first_letter": "H",
-  "subscribe_num": 195,
-  "redis_update_time": 1564254827,
+  "subscribe_num": 196,
+  "redis_update_time": 1564848180,
   "volume": [
     {
       "id": 5679,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1386154495,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 6028,
@@ -33,7 +33,90 @@
       "volume_name": "第二卷 奇迹的邀请函",
       "volume_order": 20,
       "addtime": 1400116368,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5679,
+      "id": 5679,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 38813,
+          "chapter_name": "黄昏堂便利商店",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38814,
+          "chapter_name": "手牵着手",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38815,
+          "chapter_name": "樱之声",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38816,
+          "chapter_name": "杏子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38817,
+          "chapter_name": "电视机的故事",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38818,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38819,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6028,
+      "id": 6028,
+      "volume_name": "第二卷 奇迹的邀请函",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 41913,
+          "chapter_name": "传说",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41914,
+          "chapter_name": "雪兔上路了",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41915,
+          "chapter_name": "人鱼公主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41916,
+          "chapter_name": "魔法灵摆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41917,
+          "chapter_name": "完结篇～小猫娘呀小猫娘",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41918,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

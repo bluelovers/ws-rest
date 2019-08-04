@@ -12,12 +12,14 @@
   "hot_hits": 118838,
   "introduction": "为了人类可以继续生存下去，必须打倒天使！\n这里是西历2140年，在史上最强大残暴的敌人「天使<永恒之塔>」的威猛攻击下，人类数量急速减少，即将面临灭绝的危机。\n身为高中生的名剃绫月在东京国际展览中心突然遭遇到了一场奇怪的事故将他从2015年的和平世界里穿越到了2140年。在艰难残酷的环境之下心灵虽然动摇，但是仍然赌上了自己的生命和人类的未来，站立于此，挥舞起手中的光辉之剑。\n为了人类可以继续生存下去，必须打倒天使！前所未有的新次元战斗正式拉开帷幕！",
   "types": [
-    "科幻/冒险/格斗"
+    "科幻",
+    "冒险",
+    "格斗"
   ],
   "authors": "兔月山羊",
   "first_letter": "L",
-  "subscribe_num": 1317,
-  "redis_update_time": 1564312346,
+  "subscribe_num": 1318,
+  "redis_update_time": 1564915821,
   "volume": [
     {
       "id": 5407,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 救世者的后继",
       "volume_order": 10,
       "addtime": 1375081655,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5417,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 恋杀的宣誓之剑",
       "volume_order": 20,
       "addtime": 1375269305,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5555,
@@ -41,7 +43,153 @@
       "volume_name": "第三卷 睿智的花嫁",
       "volume_order": 30,
       "addtime": 1380444099,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5407,
+      "id": 5407,
+      "volume_name": "第一卷 救世者的后继",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36551,
+          "chapter_name": "登场人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36552,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36553,
+          "chapter_name": "seotor 1：玻色新星 2015",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36554,
+          "chapter_name": "sector 2：白之森",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36555,
+          "chapter_name": "seotor 3：城塞都市「东京」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36556,
+          "chapter_name": "seotor 4：天使的杀戮",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36557,
+          "chapter_name": "seotor 5：最后之剑",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 36558,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5417,
+      "id": 5417,
+      "volume_name": "第二卷 恋杀的宣誓之剑",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 36624,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36920,
+          "chapter_name": "Seotor1 新人骑士候补生",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36921,
+          "chapter_name": "Seotor2 艾克雷西亚教会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36922,
+          "chapter_name": "Seotor3 黑之森",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36923,
+          "chapter_name": "Seotor4 憧憬神明",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36924,
+          "chapter_name": "Seotor5 剑的誓约",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36925,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 36926,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5555,
+      "id": 5555,
+      "volume_name": "第三卷 睿智的花嫁",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 37769,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38451,
+          "chapter_name": "Seotor1：城塞都市「京都」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38682,
+          "chapter_name": "Seotor2：睿智的花嫁",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39282,
+          "chapter_name": "Seotor3：圣诞祭",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40004,
+          "chapter_name": "Seotor4：伪物之名",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40005,
+          "chapter_name": "Seotor5：起源的终结",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40006,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 40095,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

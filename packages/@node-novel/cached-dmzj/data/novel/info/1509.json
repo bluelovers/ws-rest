@@ -16,8 +16,8 @@
   ],
   "authors": "真濑もと",
   "first_letter": "B",
-  "subscribe_num": 142,
-  "redis_update_time": 1564111847,
+  "subscribe_num": 145,
+  "redis_update_time": 1564857432,
   "volume": [
     {
       "id": 5515,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 邱比特之泪",
       "volume_order": 10,
       "addtime": 1378871072,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 5795,
@@ -33,7 +33,125 @@
       "volume_name": "第二卷 安斯沃思城杀人案",
       "volume_order": 20,
       "addtime": 1392031305,
-      "sum_chapters": 11
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5515,
+      "id": 5515,
+      "volume_name": "第一卷 邱比特之泪",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 37480,
+          "chapter_name": "登场人物表",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37481,
+          "chapter_name": "第一幕 女伶与小提琴",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37482,
+          "chapter_name": "第二幕 染血的短剑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37483,
+          "chapter_name": "第三幕 邱比特之泪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37484,
+          "chapter_name": "第四幕 密室中的唤人铃",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37485,
+          "chapter_name": "第五幕 深夜里，杀手诉说",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37486,
+          "chapter_name": "第六幕 被夺走的宝石与阴谋的去向",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 37487,
+          "chapter_name": "第七幕 谜、真实——以及某个结果",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 37488,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 37489,
+          "chapter_name": "解说 加藤元浩",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 5795,
+      "id": 5795,
+      "volume_name": "第二卷 安斯沃思城杀人案",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 39821,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39822,
+          "chapter_name": "第一幕 前往古城的邀请",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39823,
+          "chapter_name": "第二幕 无脸的贵妇人肖像",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39824,
+          "chapter_name": "第三幕 帝都伦敦的伙伴们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39825,
+          "chapter_name": "第四幕 给夏洛克·福尔摩斯的信",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39826,
+          "chapter_name": "第五幕 旅行袋之谜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39827,
+          "chapter_name": "第六幕 黑蔷薇、红宝石",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39828,
+          "chapter_name": "第七幕 教会墓地的秘密",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 39829,
+          "chapter_name": "第八幕 安斯沃思城杀人案",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 39830,
+          "chapter_name": "解说 入江亚季",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

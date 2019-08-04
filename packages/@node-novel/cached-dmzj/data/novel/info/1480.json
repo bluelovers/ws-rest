@@ -12,12 +12,15 @@
   "hot_hits": 76464,
   "introduction": "[因为颜色和我家的地毯一样，所以不小心踩错了]\n那天，我仙堂志津二被同班同学，同时附带超级大小姐属性的鹰宫姬乃给踩在脚下了。我往上看过去那纯白的东西是……啧，那种东西怎么都好，少女说要让我协助她退治魔物的同时，还得当她的执事。看来我好像拥有着大量的[魔力]啊。而且，姬乃的表姐妹·作为学生会长的朱音也对我说出了同样的话……这该怎么办呐！？这是我在成为执事之前的开场故事。如果在意这个故事的话稍微瞟几眼我也会很高兴的。由执事和身为魔法使的大小姐所献上的，王道学园恋爱喜剧，就此开幕！！",
   "types": [
-    "魔法/爱情/校园/搞笑"
+    "魔法",
+    "爱情",
+    "校园",
+    "搞笑"
   ],
   "authors": "三门铁狼",
   "first_letter": "Z",
-  "subscribe_num": 809,
-  "redis_update_time": 1564295835,
+  "subscribe_num": 811,
+  "redis_update_time": 1564914792,
   "volume": [
     {
       "id": 5427,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1375670921,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 5428,
@@ -33,7 +36,115 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1375670925,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5427,
+      "id": 5427,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 36681,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36682,
+          "chapter_name": "1.执事与魔法与大小姐",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36683,
+          "chapter_name": "2.执事与魔物与大小姐",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36684,
+          "chapter_name": "3.I·CALL·YOUR·NAME",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36685,
+          "chapter_name": "4.大小姐的职责",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36686,
+          "chapter_name": "5.悲伤之后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36687,
+          "chapter_name": "6.执事与大小姐与魔法契约",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 36688,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 36689,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 5428,
+      "id": 5428,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 36690,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37676,
+          "chapter_name": "1.执事与没睡醒的学生会长",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37677,
+          "chapter_name": "2.执事与穿着泳装的学生会长",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37678,
+          "chapter_name": "3.CATCH YOU,CATCH ME",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37982,
+          "chapter_name": "4.大小姐的初体验",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39281,
+          "chapter_name": "5.背叛之后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39987,
+          "chapter_name": "6.执事与学生会长与魔法契约",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39988,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 39989,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

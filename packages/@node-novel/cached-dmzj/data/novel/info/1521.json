@@ -12,12 +12,14 @@
   "hot_hits": 31571,
   "introduction": "超次元游戏海王星高校篇，官方授权的一本轻小说，不过世界观跟游戏及动画完全不同，在这个世界里，四女神不是女神，而是就读于Histoire纪念学园的学生……",
   "types": [
-    "校园/科幻/百合"
+    "校园",
+    "科幻",
+    "百合"
   ],
   "authors": "おかず",
   "first_letter": "C",
-  "subscribe_num": 1456,
-  "redis_update_time": 1564312042,
+  "subscribe_num": 1463,
+  "redis_update_time": 1564887017,
   "volume": [
     {
       "id": 5570,
@@ -25,7 +27,7 @@
       "volume_name": "第一关Stage 1",
       "volume_order": 10,
       "addtime": 1381307230,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5571,
@@ -33,7 +35,7 @@
       "volume_name": "第二关Stage 2",
       "volume_order": 20,
       "addtime": 1381307682,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5583,
@@ -41,7 +43,7 @@
       "volume_name": "第三关Stage 3",
       "volume_order": 30,
       "addtime": 1381747663,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5646,
@@ -49,7 +51,131 @@
       "volume_name": "第四关Stage 4",
       "volume_order": 40,
       "addtime": 1384859658,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5570,
+      "id": 5570,
+      "volume_name": "第一关Stage 1",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 37941,
+          "chapter_name": "译者FAQ",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37942,
+          "chapter_name": "人物介绍",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37943,
+          "chapter_name": "序章 Prologue",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37944,
+          "chapter_name": "I",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37945,
+          "chapter_name": "II",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37946,
+          "chapter_name": "III",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37947,
+          "chapter_name": "IV",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5571,
+      "id": 5571,
+      "volume_name": "第二关Stage 2",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 37948,
+          "chapter_name": "I",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37949,
+          "chapter_name": "II",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37950,
+          "chapter_name": "III",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37951,
+          "chapter_name": "IV",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 5583,
+      "id": 5583,
+      "volume_name": "第三关Stage 3",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 38030,
+          "chapter_name": "I",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38095,
+          "chapter_name": "II",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38228,
+          "chapter_name": "III",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 5646,
+      "id": 5646,
+      "volume_name": "第四关Stage 4",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 38541,
+          "chapter_name": "I",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38542,
+          "chapter_name": "II",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38787,
+          "chapter_name": "III",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38788,
+          "chapter_name": "IV",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }
