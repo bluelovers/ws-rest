@@ -16,8 +16,8 @@
   ],
   "authors": "松浦寿辉",
   "first_letter": "C",
-  "subscribe_num": 133,
-  "redis_update_time": 1564287055,
+  "subscribe_num": 134,
+  "redis_update_time": 1564458938,
   "volume": [
     {
       "id": 6069,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1401627539,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6069,
+      "id": 6069,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42323,
+          "chapter_name": "角色介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42324,
+          "chapter_name": "序章 出发前",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42325,
+          "chapter_name": "第一部 与「帝国」抗战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42326,
+          "chapter_name": "第二部 横越车站",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42327,
+          "chapter_name": "终章 一个月后",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42328,
+          "chapter_name": "后记 寄读者们",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

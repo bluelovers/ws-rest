@@ -12,12 +12,16 @@
   "hot_hits": 921335,
   "introduction": "「太扯了吧！居然来了个隐藏技能！」<br>\n在现实世界因车祸死亡的主角吾妻诚二，死后决定转生到一个剑与魔法的异世界。习得了名叫「盗贼神技」的外挂技能，诚二降临到新天地。运用那个能盗取他人的实用技能──盗贼神技的力量，诚二一步步强化自身实力。之后与兽耳少女的崭新邂逅也为他带来了转机……!?<br>\n不光是魔物，还有街上的闹事者──时而连同伴的技能也夺取，诚二藉此为了保护重要的事物而一路过关斩将。透过「窃取技能」的行为来达成百分之百的自我，诚二的成长物语就此展开。",
   "types": [
-    "魔法/冒险/后宫/异界/穿越"
+    "魔法",
+    "冒险",
+    "后宫",
+    "异界",
+    "穿越"
   ],
   "authors": "飞鸟けい",
   "first_letter": "D",
-  "subscribe_num": 12613,
-  "redis_update_time": 1564312764,
+  "subscribe_num": 12616,
+  "redis_update_time": 1564482762,
   "volume": [
     {
       "id": 6250,
@@ -25,7 +29,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1407414787,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6881,
@@ -33,7 +37,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1431956433,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7144,
@@ -41,7 +45,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1439913924,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7380,
@@ -49,7 +53,126 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1449822354,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6250,
+      "id": 6250,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 43988,
+          "chapter_name": "第一章「剑与魔法的世界伊莉丝」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43989,
+          "chapter_name": "第二章「无限的可能性」",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 6881,
+      "id": 6881,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 49902,
+          "chapter_name": "第一章『年幼的少女与壮年绅士』",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49903,
+          "chapter_name": "第二章『滚落的一颗糖果』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49904,
+          "chapter_name": "第三章『第三个选项』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49905,
+          "chapter_name": "第四章『斩断牵连』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49906,
+          "chapter_name": "番外篇『兽人之村别斯提亚』～远方的记忆～",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 7144,
+      "id": 7144,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 52362,
+          "chapter_name": "第一章「王都赫伦」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52363,
+          "chapter_name": "第二章「莉姆的旅程」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52364,
+          "chapter_name": "第三章「绿龙的咆哮」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52365,
+          "chapter_name": "第四章「想守护的事物」",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 7380,
+      "id": 7380,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 63466,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63467,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63468,
+          "chapter_name": "第一章「你们祈求，就给你们」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63469,
+          "chapter_name": "第二章「斯别恩帝国」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63470,
+          "chapter_name": "番外篇「女生话题」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 70276,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 39285,
   "introduction": "　　费加洛魔皇国获得了上天赐予的无敌兵器「辂机」，並企图依靠它的力量征服世界。祖国因为该强大武力而毁灭的亡国王子，西琉·瑟古亚。尽管他为了抵御魔皇国的侵略而站上最前线，不过一切的功绩却不受到承认，过着怀才不遇的日子。西琉的心中燃烧着名为复仇火焰，而看穿他野心的人，则是被人称为「圣女」的义妹艾特菈。「来吧，义兄大人，让我们一起走向这个短暂的为来吧。」\n　　——期待着为这场复仇带来幸福与灾厄的这对兄妹，当他们一起咏唱「神代之诗」的时候，通往绝望的背叛之门也随之开启。告知新时代的揭幕的复仇传奇正式降临！",
   "types": [
-    "魔法/冒险"
+    "魔法",
+    "冒险"
   ],
   "authors": "新见圣",
   "first_letter": "B",
-  "subscribe_num": 842,
-  "redis_update_time": 1564312594,
+  "subscribe_num": 844,
+  "redis_update_time": 1564384267,
   "volume": [
     {
       "id": 6743,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1425557013,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6743,
+      "id": 6743,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 48681,
+          "chapter_name": "人物简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48682,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48683,
+          "chapter_name": "第一章 成为作战同盟的漫漫长路",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48684,
+          "chapter_name": "第二章 飞舞吧白银，全力以赴",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48685,
+          "chapter_name": "第三章 意图遭到揭穿，阴谋受到制裁",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48686,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48687,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

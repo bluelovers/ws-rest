@@ -12,12 +12,15 @@
   "hot_hits": 154441,
   "introduction": "当人类的科学与神的幻想交错时，天使的歌咏便随之响起！\n　　次世代（Biotesta）新生物——乃是再现龙或妖精等虚构物种的生命工学结晶。其最先端研究领域「SIREN」的学生米索拉遇见了一名彷徨街头，实为天使型生化物的少女飞儿。她正在找寻创造者母亲，而创造者的名字「安娜斯塔西亚」对米索拉来说，却是再熟悉不过——",
   "types": [
-    "科幻/魔法/冒险/校园"
+    "科幻",
+    "魔法",
+    "冒险",
+    "校园"
   ],
   "authors": "细音启",
   "first_letter": "S",
-  "subscribe_num": 7539,
-  "redis_update_time": 1564309950,
+  "subscribe_num": 7546,
+  "redis_update_time": 1564439918,
   "volume": [
     {
       "id": 6512,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1417331463,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6513,
@@ -33,7 +36,7 @@
       "volume_name": "短篇",
       "volume_order": 20,
       "addtime": 1417331463,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7129,
@@ -41,7 +44,7 @@
       "volume_name": "第二卷",
       "volume_order": 30,
       "addtime": 1439295535,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7279,
@@ -49,7 +52,7 @@
       "volume_name": "第三卷",
       "volume_order": 40,
       "addtime": 1444240314,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7569,
@@ -57,7 +60,7 @@
       "volume_name": "第四卷",
       "volume_order": 50,
       "addtime": 1456036109,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7953,
@@ -65,7 +68,307 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1467716829,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6512,
+      "id": 6512,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46482,
+          "chapter_name": "Prologue「生命进化的尽头」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46483,
+          "chapter_name": "Phase1「SIREN(警报)」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46484,
+          "chapter_name": "Phase2「邂逅少女」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46485,
+          "chapter_name": "Phase3「福音机关Iscariot」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46486,
+          "chapter_name": "Phase4「天命」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46487,
+          "chapter_name": "Phase5「神性幻想种菲欧拉米莉丝」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46488,
+          "chapter_name": "Epilogue「请让我与你甜蜜地相遇…」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46489,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6513,
+      "id": 6513,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 46490,
+          "chapter_name": "S.I.R.E.N.短篇",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 7129,
+      "id": 7129,
+      "volume_name": "第二卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 52188,
+          "chapter_name": "Prologue「报告:暴君」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52189,
+          "chapter_name": "Phase.l「天使相伴的日常 」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52190,
+          "chapter_name": "Phase.2「禁忌之兽」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52191,
+          "chapter_name": "Phase.3「不速之客」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52192,
+          "chapter_name": "Phase.4「天使与理装执行者」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52193,
+          "chapter_name": "Phase.5「不完全意附体『暴君』」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52194,
+          "chapter_name": "Intermission「超越者们」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52195,
+          "chapter_name": "Epilogue「其心——」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52196,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7279,
+      "id": 7279,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 53588,
+          "chapter_name": "Phase.0「龙人诞生 —纪录—」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53589,
+          "chapter_name": "Phase.l 「Ω指定种 —预兆—」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53590,
+          "chapter_name": "Intermission.1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53591,
+          "chapter_name": "Phase.2 「红色标记 —威胁—」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53592,
+          "chapter_name": "Intermission.2",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53593,
+          "chapter_name": "Phase.3「最强生物 —邂逅—」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53594,
+          "chapter_name": "Intermission.3",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 53595,
+          "chapter_name": "Phase.4「被创造物 —交错—」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 53596,
+          "chapter_name": "Intermission.4",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 53597,
+          "chapter_name": "Phase.5 「奇里榭 —人类—」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 53598,
+          "chapter_name": "Epilogue「龙之少女到达的地方」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 53599,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 7569,
+      "id": 7569,
+      "volume_name": "第四卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 57369,
+          "chapter_name": "Prologue「红与蓝」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57370,
+          "chapter_name": "Phase.l 「蓝之第三相」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 57371,
+          "chapter_name": "Intermission.l",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57372,
+          "chapter_name": "Phase.2「红之大特异点」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 57373,
+          "chapter_name": "Phase.3「观察者」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 57374,
+          "chapter_name": "Phase.4「兄妹」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 57375,
+          "chapter_name": "Intermission.2",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 57376,
+          "chapter_name": "Phase.5「烧尽一切的红莲，其尽头——」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 57377,
+          "chapter_name": "Epilogue「预定的命运」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 57378,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7953,
+      "id": 7953,
+      "volume_name": "第五卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 63404,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63405,
+          "chapter_name": "Prologue「凝冻的两人」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63406,
+          "chapter_name": "Phase.1「现象的中心——中央统合树——」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63407,
+          "chapter_name": "Phase.2「彼此冲突的意志」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63408,
+          "chapter_name": "Phase.3「世界颤抖之日」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63409,
+          "chapter_name": "Phase.4「结着蓝色之果的大树」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63410,
+          "chapter_name": "Phase.5「伤痕、真天使、然后——」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63411,
+          "chapter_name": "Epilogue「在这世界的某个角落」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 63412,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 63413,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

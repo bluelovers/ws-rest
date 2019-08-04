@@ -12,12 +12,13 @@
   "hot_hits": 4645,
   "introduction": "　　我想去冒险——\n　　碧可是一个最喜欢冒险和不可思议事情的九岁女孩。\n　　碧可和其他的女孩子有些不同，她最喜欢去游乐园的鬼屋玩！但是，大家都说女生喜欢鬼屋很奇怪……不过，碧可才不管呢。\n　　有一天，当碧可到鬼屋玩的时候，竟然遇到了真正的幽灵！幽灵少女拜托碧可和她交换一天的身体，这是在做梦吗？碧可该不该答应呢？\n　　现在，就跟着碧可一起去经历奇幻的冒险故事吧！",
   "types": [
-    "神鬼/冒险"
+    "神鬼",
+    "冒险"
   ],
   "authors": "赤村次郎",
   "first_letter": "B",
   "subscribe_num": 50,
-  "redis_update_time": 1564217898,
+  "redis_update_time": 1564494742,
   "volume": [
     {
       "id": 6228,
@@ -25,7 +26,27 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1406723395,
-      "sum_chapters": 5
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6228,
+      "id": 6228,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 43807,
+          "chapter_name": "梦中梦",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43808,
+          "chapter_name": "不诚实的天使",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

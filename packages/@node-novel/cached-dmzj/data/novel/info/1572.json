@@ -12,12 +12,13 @@
   "hot_hits": 15016,
   "introduction": "才华横溢、剑术高超，前途不可限量的男人为何在落魄潦倒中死去。从下级武士直至登上笔头国家老地位的勘一追寻竹马之友彦四郎的踪迹。二十二年前，在改变二人命运的事件中，武艺强悍的他如何会被砍中后背——男人的信念便隐藏在真相中。",
   "types": [
-    "冒险/格斗"
+    "冒险",
+    "格斗"
   ],
   "authors": "百田尚树",
   "first_letter": "Y",
   "subscribe_num": 111,
-  "redis_update_time": 1564266506,
+  "redis_update_time": 1564431175,
   "volume": [
     {
       "id": 5785,
@@ -25,7 +26,72 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1390718225,
-      "sum_chapters": 3
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5785,
+      "id": 5785,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39719,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39720,
+          "chapter_name": "一",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39721,
+          "chapter_name": "二",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39722,
+          "chapter_name": "三",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39723,
+          "chapter_name": "四",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39724,
+          "chapter_name": "五",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39725,
+          "chapter_name": "六",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39726,
+          "chapter_name": "七",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 39727,
+          "chapter_name": "八",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 39728,
+          "chapter_name": "九",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 39729,
+          "chapter_name": "十",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

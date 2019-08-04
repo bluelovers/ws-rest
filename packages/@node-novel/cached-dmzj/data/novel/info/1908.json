@@ -16,8 +16,8 @@
   ],
   "authors": "三浦紫苑",
   "first_letter": "Z",
-  "subscribe_num": 311,
-  "redis_update_time": 1564296289,
+  "subscribe_num": 312,
+  "redis_update_time": 1564362105,
   "volume": [
     {
       "id": 6974,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1434457725,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6974,
+      "id": 6974,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50816,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50817,
+          "chapter_name": "闪亮的石头",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50818,
+          "chapter_name": "星良一的优雅日常",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50819,
+          "chapter_name": "回忆的银幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50820,
+          "chapter_name": "冈太太在观察",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50821,
+          "chapter_name": "由良公走衰运",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50822,
+          "chapter_name": "一走了之的男人",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50823,
+          "chapter_name": "惜别的月",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

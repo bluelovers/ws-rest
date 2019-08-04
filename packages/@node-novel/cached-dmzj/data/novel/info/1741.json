@@ -16,8 +16,8 @@
   ],
   "authors": "伊坂幸太郎",
   "first_letter": "S",
-  "subscribe_num": 872,
-  "redis_update_time": 1564280905,
+  "subscribe_num": 873,
+  "redis_update_time": 1564429594,
   "volume": [
     {
       "id": 6390,
@@ -25,7 +25,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1412657801,
-      "sum_chapters": 3
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6390,
+      "id": 6390,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 45282,
+          "chapter_name": "prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45283,
+          "chapter_name": "第一天",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45284,
+          "chapter_name": "第二天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45285,
+          "chapter_name": "第三天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45286,
+          "chapter_name": "第四天",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45287,
+          "chapter_name": "第五天",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45288,
+          "chapter_name": "第六天",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45289,
+          "chapter_name": "第七天",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 45335,
+          "chapter_name": "Epilogue",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

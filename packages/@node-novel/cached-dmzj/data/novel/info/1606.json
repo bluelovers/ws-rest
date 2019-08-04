@@ -12,12 +12,14 @@
   "hot_hits": 240891,
   "introduction": "眼里浮现的蓝色纹样＝我老婆人选之一的凭证！？<br>\n美丽的她眼里有着「适任者」的纹样——相坐凪纱有项使命，就是在高中毕业前找到老婆并生下孩子！<br>\n相坐家具备「武士」的特异能力，并肩负封印鬼神的任务。如果没在几年内产下孩子来继承力量，当鬼神复活之际，世界也会跟着毁灭。<br>\n拼命把妹找老婆的凪纱屡创败绩，直到某一天，终于有位满足所有理想条件的少女·魅花转学到他的班上…………",
   "types": [
-    "科幻/校园/神鬼"
+    "科幻",
+    "校园",
+    "神鬼"
   ],
   "authors": "田尾典丈",
   "first_letter": "L",
-  "subscribe_num": 4809,
-  "redis_update_time": 1564311490,
+  "subscribe_num": 4810,
+  "redis_update_time": 1564535740,
   "volume": [
     {
       "id": 5918,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 最强的血统",
       "volume_order": 10,
       "addtime": 1396513090,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6274,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 月影的秘密",
       "volume_order": 20,
       "addtime": 1408362056,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6449,
@@ -41,7 +43,153 @@
       "volume_name": "第三卷 鬼神的因果",
       "volume_order": 30,
       "addtime": 1415283372,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5918,
+      "id": 5918,
+      "volume_name": "第一卷 最强的血统",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 40939,
+          "chapter_name": "主要人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40940,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40941,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40942,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40943,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40944,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40945,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 40946,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6274,
+      "id": 6274,
+      "volume_name": "第二卷 月影的秘密",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 44229,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44230,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44231,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44232,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44233,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44234,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44235,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44238,
+          "chapter_name": "难得的遭遇",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 44239,
+          "chapter_name": "按摩",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6449,
+      "id": 6449,
+      "volume_name": "第三卷 鬼神的因果",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 45856,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45857,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45858,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45859,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45860,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45861,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45862,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

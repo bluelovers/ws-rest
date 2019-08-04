@@ -12,12 +12,13 @@
   "hot_hits": 35711,
   "introduction": "　　身穿华丽哥德式服装的美少女──时槻风乃，\n　　总是在深夜聆听著少女们的烦恼，\n　　每当她说起童话故事时……\n　　……就会有人死去。\n　　被姊姊与母亲当成奴隶般对待的夕子，唯一的梦想不仅被母亲禁止，还被姊姊硬生生地夺去了。总是一味忍耐的夕子，头一次感受到内心对家人萌生了恨意……穿上破碎玻璃鞋的灰姑娘，踩踏著血脚印在城堡走廊奔跑……〈灰姑娘〉\n　　美月和哥哥从小遭到母亲虐待，兄妹俩总是饿著肚子。某次母亲拿糖果搪塞他们，美月将糖果一颗颗地丢到地上，此后美月总是会在夜晚丢糖果，想要找出原因的哥哥洸平，沿著糖果路标前进，来到了有著许多糖果的奶奶家，然而，奶奶却是……〈糖果屋〉\n　　自从父亲再婚后，翔花一直无法与继母好好相处。厌恶著母亲的继母，试图丢弃母亲留下的戒指，让翔花誓言不惜死也要保护好母亲的遗物。然而某一天，戒指再度消失了，翔花发了狂地寻找……〈生金蛋的鹅〉",
   "types": [
-    "冒险/侦探"
+    "冒险",
+    "侦探"
   ],
   "authors": "甲田学人",
   "first_letter": "S",
   "subscribe_num": 1685,
-  "redis_update_time": 1564305848,
+  "redis_update_time": 1564375116,
   "volume": [
     {
       "id": 6814,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1428917466,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6961,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1434106809,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7075,
@@ -41,7 +42,78 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1438336154,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6814,
+      "id": 6814,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 49296,
+          "chapter_name": "第一章 灰姑娘",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49297,
+          "chapter_name": "第二章 糖果屋",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49298,
+          "chapter_name": "第三章 生金蛋的鹅",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 6961,
+      "id": 6961,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 50693,
+          "chapter_name": "第一章 白雪公主",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50694,
+          "chapter_name": "第二章 长发姑娘",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 7075,
+      "id": 7075,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 51699,
+          "chapter_name": "睡美人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51700,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51701,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51702,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

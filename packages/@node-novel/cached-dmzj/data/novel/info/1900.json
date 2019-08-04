@@ -12,12 +12,13 @@
   "hot_hits": 35253,
   "introduction": "「再见日常！你好非日常！」次代最强异能者，阿赖耶识冥清向往爱与喜剧的非日常，从充满异能战斗的日常中逃了出来。但是，他幸福的日子随着青梅竹马兼式神的少女的登场而迎来终焉——！",
   "types": [
-    "魔法/校园"
+    "魔法",
+    "校园"
   ],
   "authors": "塀流通留",
   "first_letter": "T",
-  "subscribe_num": 687,
-  "redis_update_time": 1564304809,
+  "subscribe_num": 689,
+  "redis_update_time": 1564370541,
   "volume": [
     {
       "id": 6951,
@@ -25,7 +26,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1433818397,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6951,
+      "id": 6951,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50583,
+          "chapter_name": "序章 联谊的正式名称不是连合战斗（Combat）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50584,
+          "chapter_name": "第一章 去而复返的日常（异能战斗）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50585,
+          "chapter_name": "第二章 潜行而至的过去的影子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50586,
+          "chapter_name": "第三章 阿赖耶识冥清的非日常（恋爱喜剧）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50587,
+          "chapter_name": "第四章 阿赖耶识冥清的日常（异能战斗）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50588,
+          "chapter_name": "终章 夺回的非日常（现在）",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

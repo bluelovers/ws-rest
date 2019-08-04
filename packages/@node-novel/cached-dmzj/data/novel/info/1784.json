@@ -12,12 +12,14 @@
   "hot_hits": 117563,
   "introduction": "　壬生赖光想要当一个非常普通的高中生，但是由于家里的一点因素，使他在班上老是受到疏远。尽管哀叹自己的境遇，他仍是为了梦想——成为公务员过平稳生活而努力。就在某一天，因为一点因素，发生了一点小问题——赖光如往常般解决了黑道的抗争。正当赖光烦恼为何总是遇到这种事时，一位神秘少女出现在他的面前，她的名字是露琪菲，是率领幻兽狮鹫的——异世界的魔王……的样子。她战争兵败，逃到这个世界，看到赖光巧妙地赢得抗争，于是提出要迎他为军师的邀请——？",
   "types": [
-    "爱情/校园/搞笑"
+    "爱情",
+    "校园",
+    "搞笑"
   ],
   "authors": "长野圣树",
   "first_letter": "W",
-  "subscribe_num": 2464,
-  "redis_update_time": 1564310562,
+  "subscribe_num": 2466,
+  "redis_update_time": 1564431220,
   "volume": [
     {
       "id": 6519,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1417526442,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7085,
@@ -33,7 +35,105 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1438353124,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6519,
+      "id": 6519,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46530,
+          "chapter_name": "序章 遭遇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46531,
+          "chapter_name": "第一章 军师",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46539,
+          "chapter_name": "第二章 会合",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46533,
+          "chapter_name": "第三章 一步",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46534,
+          "chapter_name": "第四章 集训",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46535,
+          "chapter_name": "第五章 魔王",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46536,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46537,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 46538,
+          "chapter_name": "特典小册子 我当上魔王军的军师了",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7085,
+      "id": 7085,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51748,
+          "chapter_name": "序章 遭遇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51749,
+          "chapter_name": "第一章 一难（×三）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51750,
+          "chapter_name": "第二章 魔王？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51751,
+          "chapter_name": "第三章 工作",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51752,
+          "chapter_name": "第四章 自觉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51753,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51754,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

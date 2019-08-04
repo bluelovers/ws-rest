@@ -12,12 +12,13 @@
   "hot_hits": 38265,
   "introduction": "「恭喜你！今后我将用一辈子的时间，好好地榨出你所有的利用价值。」\n追傩狗朗被退魔名门「神堂家」逐出家门后，回到过去曾经居住的家中，没想到在那里等待自己的居然是青梅竹马九十九砌，以及高达一百亿圆的庞大债务。由于狗朗已经被逐出家门，无法再以退魔士的身分接受任何委托，于是他听从砌的建议，转行成立「专门接受死者委托的万事包办事务所」，然而找上门的案子，却尽是一些死者们生前难以解决的牵挂，而且每个委托都相当古怪棘手。更糟糕的是，神堂家的后进退魔士——神堂葛，竟然还在后头穷追不舍！？\n退魔士少年与暴君少女共同谱出的还债喜剧故事，在此揭开序幕！",
   "types": [
-    "魔法/搞笑"
+    "魔法",
+    "搞笑"
   ],
   "authors": "SOW",
   "first_letter": "W",
   "subscribe_num": 680,
-  "redis_update_time": 1564283506,
+  "redis_update_time": 1564346297,
   "volume": [
     {
       "id": 6846,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 100亿的契约书",
       "volume_order": 10,
       "addtime": 1430478531,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 7257,
@@ -33,7 +34,90 @@
       "volume_name": "第二卷 缚魂少女",
       "volume_order": 20,
       "addtime": 1443691860,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6846,
+      "id": 6846,
+      "volume_name": "第一卷 100亿的契约书",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 49538,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49539,
+          "chapter_name": "命令1 「万事包办事务所被迫开张」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49540,
+          "chapter_name": "命令2 「谈恋爱也是需要谋略的」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49541,
+          "chapter_name": "命令3 「让人想恨也恨不了的那家伙」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49542,
+          "chapter_name": "命令4 「不论在哪个世界都一样诸事不顺」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49543,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49544,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7257,
+      "id": 7257,
+      "volume_name": "第二卷 缚魂少女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 53438,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53439,
+          "chapter_name": "命令5「呼唤你的名字」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53440,
+          "chapter_name": "命令6「仲夏夜的噩梦」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53441,
+          "chapter_name": "命令7「第七年的委托人」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53442,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53443,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

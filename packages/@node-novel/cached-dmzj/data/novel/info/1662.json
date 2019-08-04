@@ -12,12 +12,15 @@
   "hot_hits": 87442,
   "introduction": "二十一世纪，骑士正存在于现代世界。在中世纪欧洲诞生的骑士团大多数被卷入近代化和国家之间的纠纷由此消失，至此现在仅剩下了唯一的骑士组织。\n那便是——现世骑士团。\n从骑士团溜走的花房叶太郎，徘徊于市镇之际偶遇只身一人的少女·鬼堂院真绪。见孤身生活的真绪，叶太郎决心在身边守护着她。但那样的叶太拥有谁也不曾知晓的另一重身份，那便是《假面的骑士·KnightLance》。\nKnightLance因为某些事而隐藏身份，与真绪平稳的度过每一天。但是，这个日常却突然被狠狠的打破。而在这个事件的背后，有着对叶太郎来说难以接受的事实——。\n叶太郎能否，保护真绪呢！？",
   "types": [
-    "冒险/爱情/搞笑/校园"
+    "冒险",
+    "爱情",
+    "搞笑",
+    "校园"
   ],
   "authors": "子安秀明",
   "first_letter": "Q",
-  "subscribe_num": 1052,
-  "redis_update_time": 1564302999,
+  "subscribe_num": 1053,
+  "redis_update_time": 1564508789,
   "volume": [
     {
       "id": 6120,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷 骑士少年的假面剧",
       "volume_order": 10,
       "addtime": 1403093677,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6121,
@@ -33,7 +36,115 @@
       "volume_name": "第二卷 骑士少年的假面剧",
       "volume_order": 20,
       "addtime": 1403093874,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6120,
+      "id": 6120,
+      "volume_name": "第一卷 骑士少年的假面剧",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42676,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42677,
+          "chapter_name": "第一幕 骑士少年和小小的淑女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42678,
+          "chapter_name": "第二幕 招来暴风雨的访问者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42679,
+          "chapter_name": "第三幕 惩罚时间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42680,
+          "chapter_name": "第四幕 新的早晨",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42681,
+          "chapter_name": "第五章 名为家族的屏障",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42685,
+          "chapter_name": "第六幕 各自的决意",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42683,
+          "chapter_name": "第七幕 所谓骑士道",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 42684,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6121,
+      "id": 6121,
+      "volume_name": "第二卷 骑士少年的假面剧",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 42686,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42969,
+          "chapter_name": "第一幕 英雄受难",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43011,
+          "chapter_name": "第二幕 扭曲的复仇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43209,
+          "chapter_name": "第三幕 聚集于学园的淑女们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43228,
+          "chapter_name": "第四幕 夕阳下的邂逅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43267,
+          "chapter_name": "第五幕 辗转前行的思绪",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43455,
+          "chapter_name": "第六幕 暴走",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43456,
+          "chapter_name": "第七幕 若为救你",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 43815,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

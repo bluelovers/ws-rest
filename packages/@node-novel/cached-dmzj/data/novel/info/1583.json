@@ -12,12 +12,13 @@
   "hot_hits": 15683,
   "introduction": "在东北流传的、隐藏于会把人引向幸福的传说中的事实「毛羽毛现」（芜木统文），官方电影剧本作家团队所写的三篇有名的都市传说「床下的男人」、「passing」（泷本正至）、「清洗尸体的打工」（林直孝），四名小学生纯粹从兴趣出发而开始的仪式的惨剧中，隐藏着令人惊愕的真相……「虚仪式」（山下卓）。日本第一软件呈献的异色恐怖冒险游戏、精选小说登场！",
   "types": [
-    "恐怖/冒险"
+    "恐怖",
+    "冒险"
   ],
   "authors": "多作者合作",
   "first_letter": "L",
   "subscribe_num": 526,
-  "redis_update_time": 1564286795,
+  "redis_update_time": 1564490782,
   "volume": [
     {
       "id": 5818,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1392374401,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5818,
+      "id": 5818,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 40088,
+          "chapter_name": "毛羽毛现·上",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40089,
+          "chapter_name": "毛羽毛现·下",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40090,
+          "chapter_name": "床下的男人 泷本正至",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40091,
+          "chapter_name": "洗尸体的打工 林直孝",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40092,
+          "chapter_name": "PASSING 泷本正至",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40093,
+          "chapter_name": "虚仪式",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40094,
+          "chapter_name": "解说",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

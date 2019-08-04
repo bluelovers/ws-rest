@@ -12,12 +12,14 @@
   "hot_hits": 159319,
   "introduction": "　　史上最强的退魔师——日高见久远是个家里蹲。由于最重要的恶魔一直没有出现而被周围轻视家业，久远的力量只有发挥在自宅警备上。虽然作为哥哥的春太为了让妹妹去学校而努力奋斗，结果却只是让久远的家里蹲技能更加精湛。某一日，盼望已久（？）的恶魔军终于来袭。不过连最强的恶魔王撒旦都不是久远的对手，恶魔军很干脆地投了降。而基于中途发生的某件事，还让撒旦没办法回到地狱，于是退魔师兄妹与恶魔王的奇妙同居生活就此展开！？由最强却是个家里蹲的妹妹与温柔（？）的撒旦所赠与的温馨爆笑恋爱喜剧！！",
   "types": [
-    "爱情/搞笑/魔法"
+    "爱情",
+    "搞笑",
+    "魔法"
   ],
   "authors": "壱日千次",
   "first_letter": "J",
-  "subscribe_num": 4429,
-  "redis_update_time": 1564312686,
+  "subscribe_num": 4439,
+  "redis_update_time": 1564534522,
   "volume": [
     {
       "id": 6153,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1404563706,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6668,
@@ -33,7 +35,160 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1422794742,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6153,
+      "id": 6153,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 43083,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43084,
+          "chapter_name": "一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43085,
+          "chapter_name": "二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43086,
+          "chapter_name": "三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43087,
+          "chapter_name": "四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43088,
+          "chapter_name": "五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43089,
+          "chapter_name": "六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43090,
+          "chapter_name": "七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 43091,
+          "chapter_name": "八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 43092,
+          "chapter_name": "九章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 43093,
+          "chapter_name": "十章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 43094,
+          "chapter_name": "十一章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 43095,
+          "chapter_name": "终章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 43096,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 6668,
+      "id": 6668,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 47931,
+          "chapter_name": "一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47932,
+          "chapter_name": "二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47933,
+          "chapter_name": "三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47934,
+          "chapter_name": "四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47935,
+          "chapter_name": "幕间剧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47936,
+          "chapter_name": "五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47937,
+          "chapter_name": "六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 47938,
+          "chapter_name": "七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 47939,
+          "chapter_name": "八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 47940,
+          "chapter_name": "九章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 47941,
+          "chapter_name": "终章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 47942,
+          "chapter_name": "尾声",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 47943,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

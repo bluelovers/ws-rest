@@ -12,12 +12,13 @@
   "hot_hits": 8344,
   "introduction": "　　八咫乌一族的「宗家」皇太子要选妃，东南西北四大势力各派出了一位候选人。\n　　因为姐姐出了天花，神经大条的东家二公主阿榭碧代姐上阵，乘着三脚乌鸦拖曳的飞车前往宫殿。\n　　在樱花宫，阿榭碧和高挑帅气的南家公主滨木绵、娇艳动人的西家公主真赭薄、雪白高贵的北家公主白珠齐聚一堂，局面一触即发！连公主身边的嬷嬷及侍女们，在回廊上擦身而过都能引爆火花！\n　　突然出现的英俊男子、神秘的侍女失踪事件、来路不明的信件、黑夜入宫的刺客……谜团接二连三。究竟是谁在阻挠选妃？背后又有什么惊人内幕？",
   "types": [
-    "神鬼/侦探"
+    "神鬼",
+    "侦探"
   ],
   "authors": "阿部智里",
   "first_letter": "W",
   "subscribe_num": 84,
-  "redis_update_time": 1564287511,
+  "redis_update_time": 1564471351,
   "volume": [
     {
       "id": 6140,
@@ -25,7 +26,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1403919240,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6140,
+      "id": 6140,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42911,
+          "chapter_name": "主要人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42912,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42913,
+          "chapter_name": "第一章 春",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42914,
+          "chapter_name": "第二章 夏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42915,
+          "chapter_name": "第三章 秋",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42916,
+          "chapter_name": "第四章 冬",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42917,
+          "chapter_name": "第五章 春天再度降临",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42918,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

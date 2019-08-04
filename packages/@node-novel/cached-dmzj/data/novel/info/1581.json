@@ -16,8 +16,8 @@
   ],
   "authors": "鸟居羊",
   "first_letter": "Z",
-  "subscribe_num": 1250,
-  "redis_update_time": 1564304834,
+  "subscribe_num": 1255,
+  "redis_update_time": 1564499285,
   "volume": [
     {
       "id": 5807,
@@ -25,7 +25,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1392177525,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5807,
+      "id": 5807,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39953,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39954,
+          "chapter_name": "第一话 真实·广播",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39955,
+          "chapter_name": "第二话 谎言·图书馆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39956,
+          "chapter_name": "第三话 矛盾与阴影",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39957,
+          "chapter_name": "终幕",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39958,
+          "chapter_name": "终幕2？？？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39959,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

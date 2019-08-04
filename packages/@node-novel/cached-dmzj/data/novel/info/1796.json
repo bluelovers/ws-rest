@@ -12,12 +12,15 @@
   "hot_hits": 183857,
   "introduction": "　　山田隆司参加登山社的合宿时在雪山中遇难了，等他清醒后，却发现自己身处在陌生的森林里。困惑的他为了掌握状况环顾四周，发现天空中竟然与网络游戏「幻想冒险Online」一样高挂着两颗太阳，而且还和游戏一样能够施展魔法，难道自己来到了游戏世界？在这个世界当中，隆司遇到了一位与狗头人和半兽人共同居住在森林里的少女，四人一起展开了生活，直到有一天追兵出现，瓦解了他们平稳的日子。少女一行人究竟是何方神圣？平凡的高中生隆司，将在异世界中踏上冒险的旅程。",
   "types": [
-    "魔法/冒险/穿越/异界"
+    "魔法",
+    "冒险",
+    "穿越",
+    "异界"
   ],
   "authors": "相野仁",
   "first_letter": "Z",
-  "subscribe_num": 6219,
-  "redis_update_time": 1564312575,
+  "subscribe_num": 6221,
+  "redis_update_time": 1564402160,
   "volume": [
     {
       "id": 6559,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1418905902,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6947,
@@ -33,7 +36,90 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1433673706,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6559,
+      "id": 6559,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46896,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46897,
+          "chapter_name": "第一章 新天地",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46898,
+          "chapter_name": "第二章 追兵",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46899,
+          "chapter_name": "第三章 霍尔迪亚贵族",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46900,
+          "chapter_name": "第四章 魅惑者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46901,
+          "chapter_name": "第五章 马利乌斯与雅涅特",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46902,
+          "chapter_name": "附录 魔物支配者少女",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6947,
+      "id": 6947,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 50529,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50530,
+          "chapter_name": "第六章 路伊耶镇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50531,
+          "chapter_name": "第七章 冒险者的生活",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50532,
+          "chapter_name": "第八章 遭遇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50533,
+          "chapter_name": "第九章 亚丝蒂莉雅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50534,
+          "chapter_name": "第十章 深夜的威胁",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

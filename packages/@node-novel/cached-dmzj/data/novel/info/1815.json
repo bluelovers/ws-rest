@@ -12,12 +12,14 @@
   "hot_hits": 72968,
   "introduction": "我是人类最强的战士，却背叛了人类——\nMMORPG【Fateful·Moments】计划——那是人类向虚拟实境空间移居计划的一环。但是在计划启动的一个月后，却发生了原因不明的问题，玩家无法自主下线。之后，玩家中的一个，我·铃木几太苏醒了——作为五年前的自己的复制品。似乎，身为最强战士君临世界的原初的“我”背叛了人类。为了人类，我与青梅竹马的塞尔玛还有同伴们决意与“我”抗争……！？\n“你是几太哦。至少对我来说，你是。”\n虚拟与现实交错，赌上人类的命运，最强X最强、自己X自己的战斗，开幕！",
   "types": [
-    "科幻/冒险/爱情"
+    "科幻",
+    "冒险",
+    "爱情"
   ],
   "authors": "高桥びすい",
   "first_letter": "F",
   "subscribe_num": 2970,
-  "redis_update_time": 1564294204,
+  "redis_update_time": 1564400808,
   "volume": [
     {
       "id": 6652,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1422100201,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 6909,
@@ -33,7 +35,105 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1432824953,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6652,
+      "id": 6652,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 47834,
+          "chapter_name": "第一章 False I（虚假的我）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47835,
+          "chapter_name": "第二章 The Desert of the Ideal（理想的沙漠）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47836,
+          "chapter_name": "第三章 Riesig and Yotta（蕾吉希与尧）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47837,
+          "chapter_name": "第四章 The False World（虚假的世界）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47838,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47839,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6909,
+      "id": 6909,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 50216,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50217,
+          "chapter_name": "第一章 Another Selma（又一个塞尔玛）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50218,
+          "chapter_name": "intermission 1 （间章 1）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50219,
+          "chapter_name": "第二章 For Sims（为了模组）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50220,
+          "chapter_name": "intermission 2 （间章 2）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50221,
+          "chapter_name": "第三章 The Rebellion angainst Humanity（对人类的反叛）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50222,
+          "chapter_name": "intermission 3 (间章 3)",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50656,
+          "chapter_name": "第四章 Their All in All（他们的一切）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50657,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 50658,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

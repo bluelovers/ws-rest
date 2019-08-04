@@ -17,7 +17,7 @@
   "authors": "首藤刚志",
   "first_letter": "K",
   "subscribe_num": 660,
-  "redis_update_time": 1564307136,
+  "redis_update_time": 1564384545,
   "volume": [
     {
       "id": 6696,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 启程",
       "volume_order": 10,
       "addtime": 1423998304,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6993,
@@ -33,7 +33,100 @@
       "volume_name": "第二卷 伙伴",
       "volume_order": 20,
       "addtime": 1435070516,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6696,
+      "id": 6696,
+      "volume_name": "第一卷 启程",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 48188,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48189,
+          "chapter_name": "<致各位监护人父母>",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48190,
+          "chapter_name": "第一章 一身睡衣去旅行",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48191,
+          "chapter_name": "第二章 与皮卡丘的麻痹邂逅……",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48192,
+          "chapter_name": "第三章 出发之日与烈雀",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48193,
+          "chapter_name": "第四章 喵喵出击",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48194,
+          "chapter_name": "第五章 穿过森林……",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48195,
+          "chapter_name": "第六章 巴大蝴起飞！",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 48196,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6993,
+      "id": 6993,
+      "volume_name": "第二卷 伙伴",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51024,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51025,
+          "chapter_name": "第一章 尼比市的大岩蛇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51026,
+          "chapter_name": "第二章 得到灰色徽章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51027,
+          "chapter_name": "第三章 华蓝市四姐妹",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51028,
+          "chapter_name": "第四章 枯叶道馆的对决",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51029,
+          "chapter_name": "附录（代替后记）",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

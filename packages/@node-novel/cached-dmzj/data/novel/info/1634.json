@@ -12,12 +12,13 @@
   "hot_hits": 153222,
   "introduction": "“你掉的是这位黑发的女孩么？”<br>\n那是在性格被动的神座木社被迫卷入好胜的青梅竹马的日常之后的事<br>\n随后的一日，黑惠掉进了被称作“实现愿望的泉水”的一眼泉，回答泉之女神问题后的社，拿出了和黑惠一模一样的金发女子金惠和银发女子银花。<br>\n金惠与银花毫不隐藏对社的好感，而这又让黑惠的不快与日俱增，走投无路的社在为三个女孩分烦恼的同时，也在寻找让她们回去的方法。<br>\n与三个看起来相同却完全不一样的女孩儿一起度过的，三位一体打打闹闹的恋爱喜剧开幕！",
   "types": [
-    "校园/爱情"
+    "校园",
+    "爱情"
   ],
   "authors": "田尾典丈",
   "first_letter": "W",
-  "subscribe_num": 3841,
-  "redis_update_time": 1564312031,
+  "subscribe_num": 3845,
+  "redis_update_time": 1564533353,
   "volume": [
     {
       "id": 6031,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1400244235,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6091,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1402190452,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6340,
@@ -41,7 +42,163 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1411041075,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6031,
+      "id": 6031,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41923,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41924,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41925,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41926,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41927,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41976,
+          "chapter_name": "Epilogue",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41977,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6091,
+      "id": 6091,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 42472,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42473,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42474,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42533,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42867,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43012,
+          "chapter_name": "Epilogue",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43013,
+          "chapter_name": "Next",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43019,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6340,
+      "id": 6340,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 44803,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44804,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45034,
+          "chapter_name": "间章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45035,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45036,
+          "chapter_name": "间章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45037,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45038,
+          "chapter_name": "间章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45309,
+          "chapter_name": "第四章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 45310,
+          "chapter_name": "间章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 45311,
+          "chapter_name": "Epilogue",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 45312,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

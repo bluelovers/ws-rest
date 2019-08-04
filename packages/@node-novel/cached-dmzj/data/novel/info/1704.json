@@ -12,12 +12,13 @@
   "hot_hits": 13140,
   "introduction": "流星革命——托马斯•爱迪生在百年前发明出了能从流星碎片中产生出无限能量的“流星引擎”，这一发明给人类带来了贫富差距，使世界发生了剧变，拥有流星的人成了世界的支配者。\n勤劳的少年辛居住在文明都市中心，在某天邂逅了来自流星的神奇少女丝碧卡。如孩子般天真无邪的丝碧卡能自由地操纵流星能源。\n互相倾慕的少年与少女不久后被卷入到一场几经风霜的命运之战中。弱小的少年与流星之女编织出的，星屑与蒸汽的冒险故事就此拉开帷幕！！",
   "types": [
-    "冒险/爱情"
+    "冒险",
+    "爱情"
   ],
   "authors": "兔月龙之介",
   "first_letter": "L",
-  "subscribe_num": 247,
-  "redis_update_time": 1564289306,
+  "subscribe_num": 248,
+  "redis_update_time": 1564483597,
   "volume": [
     {
       "id": 6261,
@@ -25,7 +26,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1407847697,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6261,
+      "id": 6261,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 44130,
+          "chapter_name": "第一章 来自流星的丝碧卡",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44131,
+          "chapter_name": "第二章 袭击与觉醒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44132,
+          "chapter_name": "第三章 百年恩怨",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44133,
+          "chapter_name": "第四章 少年少女的未来",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44134,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44135,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

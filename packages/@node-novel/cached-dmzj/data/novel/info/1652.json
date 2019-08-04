@@ -12,12 +12,14 @@
   "hot_hits": 45285,
   "introduction": "《英知学园》是一所天天会发生原因不明的超自然现象的学校。然而对于溺爱自己体弱多病的妹妹，同时也是唯一亲人的平凡少年工鸣翔来说，本来这和他的生活一点关系也没有。但是，妹妹的病况恶化了。原因就在于她身体内所蕴藏的超能力之源失控。所谓的超能力……指的就是那些超自然现象！？为了拯救妹妹，翔必须要找出超能力者（女生限定），并且以情非得已的方式将她们的能量吸出来才行……。「那么，具体来说是要怎么做呢？」「虽然很难启齿，不过就是××然后让她们××啦……」校园异能美少女限定恋爱喜剧，现在开幕了！",
   "types": [
-    "校园/搞笑/后宫"
+    "校园",
+    "搞笑",
+    "后宫"
   ],
   "authors": "根岸和哉",
   "first_letter": "Y",
   "subscribe_num": 660,
-  "redis_update_time": 1564289229,
+  "redis_update_time": 1564502413,
   "volume": [
     {
       "id": 6076,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 亲吻、对决、心怀鬼胎",
       "volume_order": 10,
       "addtime": 1401689867,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6952,
@@ -33,7 +35,115 @@
       "volume_name": "第二卷 小姐、约会、大失控",
       "volume_order": 20,
       "addtime": 1433860790,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6076,
+      "id": 6076,
+      "volume_name": "第一卷 亲吻、对决、心怀鬼胎",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42374,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42375,
+          "chapter_name": "第一章 少年笨哥哥的受难",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42376,
+          "chapter_name": "第二章 UNDER HEART的勇者们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42377,
+          "chapter_name": "第三章 第二图书室的妖精",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42378,
+          "chapter_name": "第四章 追求理想",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42379,
+          "chapter_name": "第五章 卫道人士的真面目",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42380,
+          "chapter_name": "第六章 变态绅士的可能性",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42381,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 42382,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6952,
+      "id": 6952,
+      "volume_name": "第二卷 小姐、约会、大失控",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 50597,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50598,
+          "chapter_name": "第一章 每个人的起心动念",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50600,
+          "chapter_name": "第二章 金色狂飙",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50601,
+          "chapter_name": "第三章 被摧毁的少女们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50602,
+          "chapter_name": "第四章 不屈不挠的心与决断之夜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50603,
+          "chapter_name": "第五章 破坏连锁",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50604,
+          "chapter_name": "第六章 这就是纯洁无垢的真心",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50605,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 50606,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

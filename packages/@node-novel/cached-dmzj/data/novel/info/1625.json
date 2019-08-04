@@ -16,8 +16,8 @@
   ],
   "authors": "筑地俊彦",
   "first_letter": "Y",
-  "subscribe_num": 5505,
-  "redis_update_time": 1564304426,
+  "subscribe_num": 5508,
+  "redis_update_time": 1564533570,
   "volume": [
     {
       "id": 6004,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1399080296,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6610,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1420452989,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6616,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1420629765,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 7846,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1464452411,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 7908,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1465982548,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 8257,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1478351397,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 8439,
@@ -73,7 +73,350 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1484911154,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6004,
+      "id": 6004,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 61568,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61569,
+          "chapter_name": "第一章 月之一",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61570,
+          "chapter_name": "第二章 月之二",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 61571,
+          "chapter_name": "第三章 火",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 61572,
+          "chapter_name": "第四章 水",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61573,
+          "chapter_name": "第五章 木",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61574,
+          "chapter_name": "第六章 金之一",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 61575,
+          "chapter_name": "第七章 金之二",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 61576,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 61594,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 6610,
+      "id": 6610,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 61577,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61578,
+          "chapter_name": "第一章 预备（Stand by）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61579,
+          "chapter_name": "第二章 极微速前进（Dead slow ahead）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 61580,
+          "chapter_name": "第三章 微速前进（Slow ahead）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 61581,
+          "chapter_name": "第四章 半速前进（half ahead）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61582,
+          "chapter_name": "第五章 全速前进（Full ahead）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61583,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 61593,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6616,
+      "id": 6616,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 61584,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61585,
+          "chapter_name": "第一章 流冰海域",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61586,
+          "chapter_name": "第二章 林加闲话家常",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 61587,
+          "chapter_name": "第三章 寻找潜水艇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 61588,
+          "chapter_name": "第四章 第十四驱逐队的激战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61589,
+          "chapter_name": "第五章 林加最漫长的一天",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61590,
+          "chapter_name": "第六章 火焰驱逐舰",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 61591,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 61592,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7846,
+      "id": 7846,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 61615,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61616,
+          "chapter_name": "第一章 中央舵（Midship）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61617,
+          "chapter_name": "第二章 右转舵（Starboard）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 61618,
+          "chapter_name": "第三章 右满舵（Hard starboard）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 61619,
+          "chapter_name": "第四章 左转舵（Port）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61620,
+          "chapter_name": "第五章 左满舵（Hardport）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61621,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7908,
+      "id": 7908,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 62803,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 62804,
+          "chapter_name": "第一章 船首（Bow",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 62805,
+          "chapter_name": "第二章 右舷（Starboard）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62806,
+          "chapter_name": "第三章 甲板（Deck）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 62807,
+          "chapter_name": "第四章 左舷（Port）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62808,
+          "chapter_name": "第五章 船尾（Stern）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 62809,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 8257,
+      "id": 8257,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 68333,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68334,
+          "chapter_name": "第一章 船首斜桅（Bowsprit）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68335,
+          "chapter_name": "第二章 前桅（Foremast）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68336,
+          "chapter_name": "第三章 主桅（Mainmast）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68337,
+          "chapter_name": "第四章 后桅（Mizzenmast）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68338,
+          "chapter_name": "第五章 船尾桅（Jiggermast）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68339,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 69596,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8439,
+      "id": 8439,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 71125,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 71126,
+          "chapter_name": "第一章 上桅帆（Topsail）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71127,
+          "chapter_name": "第二章 主上桅帆（Topgallant sail）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 71128,
+          "chapter_name": "第三章 最上桅帆（Royal sail）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71129,
+          "chapter_name": "第四章 第三桅上帆（Skysail）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 71130,
+          "chapter_name": "第五章 顶桅轻帆（Moonsail）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 71131,
+          "chapter_name": "终章（Epilogue）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 71132,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

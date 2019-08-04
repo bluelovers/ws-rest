@@ -17,7 +17,7 @@
   "authors": "游生草平",
   "first_letter": "J",
   "subscribe_num": 26,
-  "redis_update_time": 1564260657,
+  "redis_update_time": 1564414434,
   "volume": [
     {
       "id": 6456,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1415789189,
-      "sum_chapters": 3
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6456,
+      "id": 6456,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 45909,
+          "chapter_name": "序章 东北来的信",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45910,
+          "chapter_name": "玄武之章 盐釜之战 海之花·海参之恋",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45911,
+          "chapter_name": "白虎之章 气仙沼之战 北国之鲷·婆婆的寿司",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45912,
+          "chapter_name": "朱雀之章 宫古之战 墨鱼寿司·千羽鹤的回忆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45913,
+          "chapter_name": "青龙之章 八尺之战 鱼翅专家·裕一的眼泪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45914,
+          "chapter_name": "尾声 第二封东北来的信",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45915,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45916,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

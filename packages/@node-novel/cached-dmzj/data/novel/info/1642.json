@@ -12,12 +12,14 @@
   "hot_hits": 30885,
   "introduction": "在14岁抛弃人生的高志，决定过上灰色的高中生活。然而，他被同班的全力少女·向原玲卷入了谜之社团「畅所欲言部」的活动中去。高志与她的青春争论，开幕！？",
   "types": [
-    "校园/搞笑/爱情"
+    "校园",
+    "搞笑",
+    "爱情"
   ],
   "authors": "喜多见かなた",
   "first_letter": "W",
-  "subscribe_num": 772,
-  "redis_update_time": 1564306335,
+  "subscribe_num": 774,
+  "redis_update_time": 1564528619,
   "volume": [
     {
       "id": 6051,
@@ -25,7 +27,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1400939295,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6051,
+      "id": 6051,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42121,
+          "chapter_name": "新生代表发言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42122,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42123,
+          "chapter_name": "1章…我全力，故我在",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42124,
+          "chapter_name": "2章…若，东有欲语者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42125,
+          "chapter_name": "3章…爱的反面不是恨，而是漠不关心",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42126,
+          "chapter_name": "4章…1%的努力加上99%的信念",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42127,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42128,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

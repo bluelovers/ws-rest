@@ -16,8 +16,8 @@
   ],
   "authors": "入间人间",
   "first_letter": "A",
-  "subscribe_num": 2878,
-  "redis_update_time": 1564308065,
+  "subscribe_num": 2879,
+  "redis_update_time": 1564534488,
   "volume": [
     {
       "id": 6064,
@@ -25,7 +25,82 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1401541709,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6064,
+      "id": 6064,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42266,
+          "chapter_name": "四月",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42267,
+          "chapter_name": "五月",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42268,
+          "chapter_name": "六月",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42269,
+          "chapter_name": "七月",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42270,
+          "chapter_name": "八月",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42271,
+          "chapter_name": "九月",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42272,
+          "chapter_name": "十月",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42273,
+          "chapter_name": "十一月",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 42274,
+          "chapter_name": "十二月",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 42275,
+          "chapter_name": "一月",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 42276,
+          "chapter_name": "二月",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 42277,
+          "chapter_name": "三月",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 42278,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

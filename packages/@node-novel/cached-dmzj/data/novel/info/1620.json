@@ -16,8 +16,8 @@
   ],
   "authors": "绫里恵史/舞阪洸/榊一郎/田尾典丈/西野吾郎/竹冈叶月",
   "first_letter": "J",
-  "subscribe_num": 2706,
-  "redis_update_time": 1564304942,
+  "subscribe_num": 2714,
+  "redis_update_time": 1564536142,
   "volume": [
     {
       "id": 5979,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 赤",
       "volume_order": 10,
       "addtime": 1398772369,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 5994,
@@ -33,7 +33,90 @@
       "volume_name": "第二卷 黑",
       "volume_order": 20,
       "addtime": 1399013218,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5979,
+      "id": 5979,
+      "volume_name": "第一卷 赤",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41512,
+          "chapter_name": "猫手之子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41513,
+          "chapter_name": "两人在试胆之夜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41514,
+          "chapter_name": "Vertical ～头上的恶魔～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41515,
+          "chapter_name": "小人游戏匠",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41516,
+          "chapter_name": "幽灵隧道",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41517,
+          "chapter_name": "爱的才能",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5994,
+      "id": 5994,
+      "volume_name": "第二卷 黑",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 41619,
+          "chapter_name": "鹤见报恩（不可看）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41620,
+          "chapter_name": "如此夜里",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41621,
+          "chapter_name": "她在这儿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41622,
+          "chapter_name": "平家同学不是幽灵么？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41623,
+          "chapter_name": "由于她被缠上了",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41624,
+          "chapter_name": "不眠的屋子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41625,
+          "chapter_name": "闭锁之蚁",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

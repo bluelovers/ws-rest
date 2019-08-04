@@ -12,12 +12,14 @@
   "hot_hits": 188686,
   "introduction": "第“魔剑军师”——这是拥有稀世罕见的智谋与勇武，把名字铭刻在后世的历史中的天才军师朱利奥·罗西的别名。但是，他的真实形象，是与史书相背的出包男。而在他背后聚集起来的被以【虹之兵团】之名流传下去古今无双的英雄们——修女兰，金狮子特里斯坦、弓圣之女罗丝薇瑟——也是与他不相上下的家伙。这是从亡国之地特伦托向大国举起反旗，由历史上“最不像话”的奇迹编织成的物语，魔剑军师和他的同伴们的“不能成为传说的传说”。饱含奇谋的冲击性的幻想战记，炸裂！！！",
   "types": [
-    "魔法/冒险/后宫"
+    "魔法",
+    "冒险",
+    "后宫"
   ],
   "authors": "壱日千次",
   "first_letter": "M",
-  "subscribe_num": 6490,
-  "redis_update_time": 1564310326,
+  "subscribe_num": 6491,
+  "redis_update_time": 1564368863,
   "volume": [
     {
       "id": 6924,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1433086118,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7073,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1438334611,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7263,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1443791777,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7650,
@@ -49,7 +51,231 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1458908689,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6924,
+      "id": 6924,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50361,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50362,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50363,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50364,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50365,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50366,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50367,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50368,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50369,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 50370,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7073,
+      "id": 7073,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51692,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52526,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52527,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52528,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53239,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53243,
+          "chapter_name": "第五章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 53244,
+          "chapter_name": "第六章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 53245,
+          "chapter_name": "第七章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 53370,
+          "chapter_name": "第八章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 53371,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 7263,
+      "id": 7263,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 53488,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53723,
+          "chapter_name": "第一章 复国与新敌人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53740,
+          "chapter_name": "第二章 不屈王子（Invictus Regis）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53742,
+          "chapter_name": "第三章 王都罗慕路斯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53765,
+          "chapter_name": "第四章 蹂躏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53868,
+          "chapter_name": "第五章 出阵",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53869,
+          "chapter_name": "第六章 奥菲多斯平原",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 53870,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7650,
+      "id": 7650,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 58756,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58757,
+          "chapter_name": "第一章 和平与圣剑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59048,
+          "chapter_name": "第二章 于冬日返乡",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59049,
+          "chapter_name": "第三章 加冕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59050,
+          "chapter_name": "第四章 包围网",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59051,
+          "chapter_name": "第五章 虚假的圣女，灾厄的魔剑",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59095,
+          "chapter_name": "终章 虹之军团",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59096,
+          "chapter_name": "终幕",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59097,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 59098,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

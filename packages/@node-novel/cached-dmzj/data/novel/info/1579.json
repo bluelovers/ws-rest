@@ -12,12 +12,15 @@
   "hot_hits": 1525658,
   "introduction": "勇者互助公会——这是由完成了职责的退役勇者们所运营的，穿越时空，支援各世界『勇者』的组织。\n为了加强现役勇者与退役勇者的交流，设置·维护交流型留言板也是公会活动之一。\n在这么一个由勇者发起的，为了勇者而存在的勇者留言板中，充斥着众多会动摇『勇者』概念的禁忌的真心话——\n过度不合常理的设定、对无法信任的同伴的抱怨、没法找人商量的失败的经历……\n释放这些只有勇者们才能理解，深藏在心中的秘密，去勇者互助公会·交流型留言板发帖吧！",
   "types": [
-    "冒险/奇幻/搞笑/异界"
+    "冒险",
+    "奇幻",
+    "搞笑",
+    "异界"
   ],
   "authors": "おけむら",
   "first_letter": "Y",
-  "subscribe_num": 12937,
-  "redis_update_time": 1564312818,
+  "subscribe_num": 12983,
+  "redis_update_time": 1564534908,
   "volume": [
     {
       "id": 5804,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1392176999,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 5805,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1392176999,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 5904,
@@ -41,7 +44,423 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1395891261,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5804,
+      "id": 5804,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39909,
+          "chapter_name": "什么是勇者互助公会",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39910,
+          "chapter_name": "退役勇者版「出了点大问题」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39911,
+          "chapter_name": "现役勇者版「队伍太糟糕了，我想回去」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39912,
+          "chapter_name": "现役勇者版「他们对我发火说，你居然是勇者！？」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39913,
+          "chapter_name": "现役勇者版「我不是勇者」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39914,
+          "chapter_name": "退役勇者版「说个令我气馁的冒险故事」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39915,
+          "chapter_name": "退役勇者版「危急关头！」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39916,
+          "chapter_name": "退役勇者版「召唤阵出现了！」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 39917,
+          "chapter_name": "现役勇者版「后宫什么的都去见鬼吧！」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 39918,
+          "chapter_name": "现役勇者版「这种挂谁要啊」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 39919,
+          "chapter_name": "现役勇者版「什么勇者嘛（笑）」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 39920,
+          "chapter_name": "现役勇者版「猫耳是否为正义」",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 39921,
+          "chapter_name": "退役勇者版「隐秘跟踪NOW版的勇者NOW」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 39922,
+          "chapter_name": "现役勇者版「我的旅途终于要结束了吗」",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 39923,
+          "chapter_name": "退役勇者版「最近这些年头的年轻勇者们」",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 39924,
+          "chapter_name": "现役勇者版「当前正在牢房中」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 39925,
+          "chapter_name": "退役勇者版「[锁]出了点…大问题」",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 39926,
+          "chapter_name": "现役勇者版「超真心觉得这太没想法了」",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 39927,
+          "chapter_name": "综合勇者版「被认定为勇者的奇妙☆的人，集中一下」",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 39928,
+          "chapter_name": "现役勇者版「真想给搭档脖子上栓根绳子」",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 39929,
+          "chapter_name": "退役勇者版「现在回想起来，那魔王，太不合常理了」",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 39930,
+          "chapter_name": "退役勇者版「变得不老不死了」",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 39931,
+          "chapter_name": "现役勇者版「别小看草根毅力」",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 39932,
+          "chapter_name": "现役勇者版「被召唤了！」",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 39933,
+          "chapter_name": "退役勇者版「我居然被发了黑牌」",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 39934,
+          "chapter_name": "现役勇者版「好了，问题就出在这里」",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 39935,
+          "chapter_name": "综合勇者版「■重要通知■关于勇者互助公会辅助员制度的设立」",
+          "chapter_order": 270
+        },
+        {
+          "chapter_id": 39936,
+          "chapter_name": "综合勇者版「■重要通知■勇者联谊会召开决定」",
+          "chapter_order": 280
+        },
+        {
+          "chapter_id": 39937,
+          "chapter_name": "综合勇者版「勇者联谊会实况贴」",
+          "chapter_order": 290
+        }
+      ]
+    },
+    {
+      "volume_id": 5805,
+      "id": 5805,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 39939,
+          "chapter_name": "退役勇者版「漫长的旅程终于结束了」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39940,
+          "chapter_name": "退役勇者版「久违回家后居然发现」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39941,
+          "chapter_name": "现役勇者版「难道，该不会」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39942,
+          "chapter_name": "现役勇者版「夫妇吵架不用理」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40168,
+          "chapter_name": "现役勇者版「传说之剑……被拔出来了」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40169,
+          "chapter_name": "退役勇者版「被打倒的魔王粘上了」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40170,
+          "chapter_name": "现役勇者版「世界对我不好」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 40171,
+          "chapter_name": "现役勇者版「难道，这就是，恋爱？」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 40263,
+          "chapter_name": "现役勇者版「有点搞不清情况」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 40264,
+          "chapter_name": "现役勇者版「孤身一人了」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 40265,
+          "chapter_name": "现役勇者版「就算用再善意的眼光看也是变态」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 40266,
+          "chapter_name": "退役勇者版「魔王哭着逃跑了」",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 40438,
+          "chapter_name": "现役勇者版「这趟旅程怎么看都很奇怪」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 40439,
+          "chapter_name": "现役勇者版「现实令人难以直视」",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 40458,
+          "chapter_name": "现役勇者版「这世界想害死我」",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 40459,
+          "chapter_name": "现役勇者版「找到垫背的了」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 40558,
+          "chapter_name": "退役勇者版「世界终于获得了和平」",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 40559,
+          "chapter_name": "现役勇者版「魔王就在我的面前」",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 40565,
+          "chapter_name": "退役勇者版「款待勇者NOW」",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 40567,
+          "chapter_name": "现役勇者版「同行者的视线让人很不自在」",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 40601,
+          "chapter_name": "现役勇者版「我想回去……」",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 40602,
+          "chapter_name": "现役勇者版「这算啥超展开啊」",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 40603,
+          "chapter_name": "退役勇者版「勇者至今未出现」",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 40786,
+          "chapter_name": "综合勇者版「遇到烦恼时找商量☆专贴」",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 40787,
+          "chapter_name": "综合勇者版「[锁]请帮帮我」",
+          "chapter_order": 270
+        }
+      ]
+    },
+    {
+      "volume_id": 5904,
+      "id": 5904,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 40788,
+          "chapter_name": "现役勇者版「感觉看不到攻略路线啊」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41365,
+          "chapter_name": "现役勇者版「已经不行啦！」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41366,
+          "chapter_name": "现役勇者版「在硬梆梆帝国小伙伴们在哪儿啊！？」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41367,
+          "chapter_name": "退役勇者版「我想理清下状况」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42198,
+          "chapter_name": "退役勇者版「惯例和格式美和模板」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42315,
+          "chapter_name": "现役勇者版「给我等下，这不对吧」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42671,
+          "chapter_name": "综合勇者版「被召唤了很头疼☆」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43176,
+          "chapter_name": "现役勇者版「由勇者互助公会下达了勇者认定的通知」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 43177,
+          "chapter_name": "现役勇者版「敬启 勇者前辈们好」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 43178,
+          "chapter_name": "现役勇者版「跳进了橱柜里」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 43179,
+          "chapter_name": "退役勇者版「为啥只有我是勇者啊？」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 43180,
+          "chapter_name": "现役勇者版「不小心成了勇者」",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 43328,
+          "chapter_name": "现役勇者版「我想背地下解除诅咒」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 43329,
+          "chapter_name": "退役勇者版「我是准备一会脚底抹油就跑啊」",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 43657,
+          "chapter_name": "现役勇者版「魔法什么的看我大用特用」",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 43658,
+          "chapter_name": "现役勇者版「搞丢了传说之剑」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 43659,
+          "chapter_name": "现役勇者版「抢了勇者的位置」",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 43660,
+          "chapter_name": "现役勇者版「向魔王挑战之后」",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 43661,
+          "chapter_name": "综合勇者版「[锁]坟头居民会话场」",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 43716,
+          "chapter_name": "现役勇者版「不是我的功劳」",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 43769,
+          "chapter_name": "现役勇者版「退魔桑de料理时间」",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 43771,
+          "chapter_name": "现役勇者版「他和我说他爱我，然后启程去那死地」",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 43849,
+          "chapter_name": "综合勇者版「勇者并非正义」",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 43850,
+          "chapter_name": "综合勇者版「大反省会☆会场在此」",
+          "chapter_order": 240
+        }
+      ]
     }
   ]
 }

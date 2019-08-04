@@ -12,12 +12,13 @@
   "hot_hits": 29065,
   "introduction": "由于突然出现的「猿神」，益荒市成了被猿支配的城市。面对令人类武器完全不起作用的神力，人类唯有选择屈服。<br>\n很快，留给人们的手段就只剩下依靠神了。既然人的武器无效，那就只能用神的武器打倒它们。得到益荒境内最大的神宫——益荒神社内供奉着的『马思鲁神』的神谕，人们选出了一个救世主。<br>\n但是，前去接受神之武器的他，得到的却不是武器，而是肌肉！在等待着毁灭的城市中，今夜有拯救的肌肉降临了！<br>\n咆哮吧肉体，轰鸣吧豪腕！鬼才·佐藤ケイ所献上的高重量级巨型动作喜剧登场！！",
   "types": [
-    "神鬼/搞笑"
+    "神鬼",
+    "搞笑"
   ],
   "authors": "佐藤ケイ",
   "first_letter": "J",
   "subscribe_num": 155,
-  "redis_update_time": 1564270975,
+  "redis_update_time": 1564463612,
   "volume": [
     {
       "id": 6168,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1405001584,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6262,
@@ -33,7 +34,140 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1408018949,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6168,
+      "id": 6168,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 43229,
+          "chapter_name": "序章 益荒市猿灾事件便概",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43230,
+          "chapter_name": "第一章 求神",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43231,
+          "chapter_name": "第二章 活神",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43232,
+          "chapter_name": "第三章 马思鲁神",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43233,
+          "chapter_name": "第四章 神明附体",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43234,
+          "chapter_name": "第五章 迎神",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43235,
+          "chapter_name": "第六章 白羽箭",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43236,
+          "chapter_name": "第七章 活人献祭",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 43237,
+          "chapter_name": "第八章 神之力",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 43238,
+          "chapter_name": "第九章 背负着的重量",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 43239,
+          "chapter_name": "终章 击败巨猿的奖赏",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 43240,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 6262,
+      "id": 6262,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 44147,
+          "chapter_name": "序章 发生在益荒市的UFO风波便概",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44148,
+          "chapter_name": "第一章 追踪者之影",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44149,
+          "chapter_name": "第二章 第一类接触(FIRSTCONTACT)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44442,
+          "chapter_name": "第三章 潜入搜查",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44931,
+          "chapter_name": "第四章 诱入",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44932,
+          "chapter_name": "第五章 外星人的胸怀之内",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45280,
+          "chapter_name": "第六章 绑架",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45281,
+          "chapter_name": "第七章 机器对肌肉",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 45302,
+          "chapter_name": "第八章 从宇宙中归来",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 45303,
+          "chapter_name": "终章 UFO处理记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 45304,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

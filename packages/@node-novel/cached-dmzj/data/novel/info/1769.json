@@ -12,12 +12,14 @@
   "hot_hits": 64702,
   "introduction": "高二生一树吃了一颗能够实现各种愿望的「天界苹果」，并且在吃了苹果之后遭到恶魔的追杀。\n于是，一树和从天界降临的天使．薄荷携手合作，一起寻找「另外半颗苹果」的下落。\n恶魔的袭击和隐藏于天界苹果的秘密，一树一边克服接踵而来的困难，一边为得到另外半颗苹果四处奔走。\n在这混乱的情况中，他的青梅竹马‧雪姬突然变得相当积极……!?",
   "types": [
-    "爱情/魔法/冒险"
+    "爱情",
+    "魔法",
+    "冒险"
   ],
   "authors": "花间灯",
   "first_letter": "M",
-  "subscribe_num": 3841,
-  "redis_update_time": 1564306149,
+  "subscribe_num": 3843,
+  "redis_update_time": 1564441111,
   "volume": [
     {
       "id": 6487,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1416655848,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7933,
@@ -33,7 +35,115 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1466954916,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6487,
+      "id": 6487,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 63130,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63131,
+          "chapter_name": "第一章 猫咪和天使和苹果的邂逅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63132,
+          "chapter_name": "第二章 约定",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63133,
+          "chapter_name": "第三章 苹果印的所在",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63134,
+          "chapter_name": "第四章 半梦半醒的假期",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63135,
+          "chapter_name": "第五章 白雪公主的愿望",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63136,
+          "chapter_name": "第六章 天使和苹果",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63137,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 63138,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7933,
+      "id": 7933,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 63139,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63140,
+          "chapter_name": "第一章 针织外套少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63141,
+          "chapter_name": "第二章 雨天的怪物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63142,
+          "chapter_name": "第三章 下午三点的辛德瑞拉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63143,
+          "chapter_name": "第四章 人鱼的叹息",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63144,
+          "chapter_name": "第五章 鱼缸世界的美人鱼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63145,
+          "chapter_name": "第六章 然后苹果恋爱了",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63147,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 63146,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,15 @@
   "hot_hits": 47204,
   "introduction": "拥有看破命运能力“既之道”的初中男生：直会桦苗，他被自称“星平线之梵”的少女“选中”时，故事就开始了——\n世界有两个『未来』。是上升至『寻觅新的可能性』——还是沉沦至『无人知晓的灭亡降临』——。\n直觉敏锐的行动派少年直会桦苗，经历过一次密谈后进入了旧校舍，然后突然被送到了一个谜之星球。而自称“星平线之梵”的少女在彼处等他，并直截了当地要求他：“求求你救救这个世界！！”\n桦苗被象征新的可能性的『半睁之眼』选中了，而为此，要阻止导向世界毁灭的『破音鹰犬』……\n同时，暗恋他的少女：一条摩芙察觉到了异样，在烦恼之后做出了选择。\n「如果『那个』开始活动了……我也就必须上阵了」\n赌上世界『未来』命运的战斗，即将打响——！",
   "types": [
-    "冒险/魔法/异界/穿越"
+    "冒险",
+    "魔法",
+    "异界",
+    "穿越"
   ],
   "authors": "高桥弥七郎",
   "first_letter": "S",
   "subscribe_num": 2416,
-  "redis_update_time": 1564293057,
+  "redis_update_time": 1564441434,
   "volume": [
     {
       "id": 6344,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1411126976,
-      "sum_chapters": 3
+      "sum_chapters": 30
     },
     {
       "id": 7965,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1468154496,
-      "sum_chapters": 3
+      "sum_chapters": 30
     },
     {
       "id": 7966,
@@ -41,7 +44,188 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1468154583,
-      "sum_chapters": 3
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6344,
+      "id": 6344,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50535,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50536,
+          "chapter_name": "1 不定时炸弹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50537,
+          "chapter_name": "山边手梓的心事 1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50538,
+          "chapter_name": "2 一半的觉醒",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50539,
+          "chapter_name": "山边手梓的心事 2",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50540,
+          "chapter_name": "3 十字与漩涡",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50541,
+          "chapter_name": "山边手梓的心事 3",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50545,
+          "chapter_name": "4 八百公尺前的毁灭",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50546,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 50547,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 64952,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 7965,
+      "id": 7965,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 63630,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63631,
+          "chapter_name": "1 五芒星少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63632,
+          "chapter_name": "2 父亲驾到",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63633,
+          "chapter_name": "3 魔术师的家",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63634,
+          "chapter_name": "4 豹的梦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63635,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63636,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 64517,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7966,
+      "id": 7966,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 63637,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63638,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63639,
+          "chapter_name": "1 腾空之物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63640,
+          "chapter_name": "幕间逸话1 暗杀血族〔罗比陀〕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63641,
+          "chapter_name": "2 沧海之滨",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63642,
+          "chapter_name": "幕间逸话2 首领 柘植縒",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63643,
+          "chapter_name": "3 舞于夜中",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63644,
+          "chapter_name": "幕间逸话3 三人",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 63645,
+          "chapter_name": "4 暗黑乐园",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 63646,
+          "chapter_name": "尾声",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 63647,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 64953,
+          "chapter_name": "插图",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

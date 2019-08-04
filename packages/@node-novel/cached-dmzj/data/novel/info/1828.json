@@ -12,12 +12,14 @@
   "hot_hits": 27691,
   "introduction": "东京圣塔（TokyoZiggurat）——那是一座突然出现在东京新宿区，能够达成破关者任何愿望，超出人类智慧，犹如RPG一般的世界。虽然有着许许多多的塔霸士向圣塔挑战，然而内部的生存率仅仅只有10%，至今尚未有任何人称霸此处。而今一名少年踏入了圣塔的大门。千叠敷一护，为了拯救罹患致死的怪病·石化病而剩下两年生命的妹妹一衣，决定向圣塔挑战，但他的能力值却属于挑战者之中的最弱阶级。不仅如此，据说无论取得了多么强大的装备，想要突破圣塔也得花上10年的时间。然而，为了距离死亡的时限已被决定的妹妹，他取得了某项最强的技能，不过……？将丧失的未来、以及因果的真理给扭曲吧——以最顶端作为目标，赤裸裸的剑刃武打作品！",
   "types": [
-    "冒险/魔法/爱情"
+    "冒险",
+    "魔法",
+    "爱情"
   ],
   "authors": "雨野智晴",
   "first_letter": "D",
-  "subscribe_num": 453,
-  "redis_update_time": 1564306182,
+  "subscribe_num": 454,
+  "redis_update_time": 1564321087,
   "volume": [
     {
       "id": 6697,
@@ -25,7 +27,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1423998419,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6697,
+      "id": 6697,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 48197,
+          "chapter_name": "序幕 我想守护的东西",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48198,
+          "chapter_name": "一章 最弱VS剑圣",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48199,
+          "chapter_name": "间幕 一衣的日记第一天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48200,
+          "chapter_name": "二章 白色骑士团与六只手的怪物",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48201,
+          "chapter_name": "三章 向飞燕城挑战！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48202,
+          "chapter_name": "四章 穷途末路",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48203,
+          "chapter_name": "终幕 崭新的世界",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48204,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

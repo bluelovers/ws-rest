@@ -12,12 +12,14 @@
   "hot_hits": 29063,
   "introduction": "那是十七岁生日早晨的事。<br>\n\n    不是会因为蛋糕而高兴的岁数，也不是会从双亲那里得到礼物的岁数。<br>\n\n    即使这样也是一年一度的特别的日子。天气良好，早晨的空气也令人舒畅，没有一点发生不好的事的迹象，这样一个春日。以有点轻浮的心情打算开始早上的准备时，透过玄关的磨砂玻璃看见了来客的姿态，在门铃被按响之前拉开门一看——\n<br>\n    那里站着的是死神。",
   "types": [
-    "搞笑/校园/异能"
+    "搞笑",
+    "校园",
+    "异能"
   ],
   "authors": "上野游",
   "first_letter": "M",
   "subscribe_num": 393,
-  "redis_update_time": 1564310413,
+  "redis_update_time": 1564413958,
   "volume": [
     {
       "id": 6450,
@@ -25,7 +27,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1415359739,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6450,
+      "id": 6450,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 45864,
+          "chapter_name": "第一章 其名为施瓦尔茨·里希特",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45865,
+          "chapter_name": "第二章 别叫我魔王大人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45866,
+          "chapter_name": "第三章 猫与约会与四天王",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45867,
+          "chapter_name": "第四章 魔族",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45868,
+          "chapter_name": "尾声 阳光明媚的春日午后",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

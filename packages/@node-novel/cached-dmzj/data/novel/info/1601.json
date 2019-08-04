@@ -12,12 +12,14 @@
   "hot_hits": 18498,
   "introduction": "梅塔‧法尔斯原本是在700年前的第一纪时，繁荣世上的一个区域名称。当时的梅塔法尔斯是有名的先进国家，现今大地已不在，人们只能生活在塔上的狭窄土地上。",
   "types": [
-    "魔法/冒险/异界"
+    "魔法",
+    "冒险",
+    "异界"
   ],
   "authors": "富松元气/凪良",
   "first_letter": "M",
   "subscribe_num": 314,
-  "redis_update_time": 1564247397,
+  "redis_update_time": 1564509120,
   "volume": [
     {
       "id": 5878,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 暂无",
       "volume_order": 10,
       "addtime": 1394974184,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 5879,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1394974184,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 5880,
@@ -41,7 +43,122 @@
       "volume_name": "第三卷 终结世界的少女诗歌 上",
       "volume_order": 30,
       "addtime": 1394974184,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5878,
+      "id": 5878,
+      "volume_name": "第一卷 暂无",
+      "volume_order": 10,
+      "chapters": []
+    },
+    {
+      "volume_id": 5879,
+      "id": 5879,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 40606,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40607,
+          "chapter_name": "某些骑士们的牢骚",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40608,
+          "chapter_name": "御子大人珍道中",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40609,
+          "chapter_name": "三三一三年 梅塔法力卡前日&#8226;昼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40610,
+          "chapter_name": "芙蕾莉亚和瞬",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40611,
+          "chapter_name": "沦为跑腿小厮的元殿下",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40612,
+          "chapter_name": "蛇刳和斯比卡",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 40613,
+          "chapter_name": "METAFALICA前夜 1",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 40614,
+          "chapter_name": "三三一三年 梅塔法力卡前夜",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 40615,
+          "chapter_name": "梅塔法力卡前夜 2",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 40616,
+          "chapter_name": "某些骑士们的牢骚 2",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 40617,
+          "chapter_name": "克罗亚和雷格里斯的扫墓",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 40618,
+          "chapter_name": "三三一三年 梅塔法力卡",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 40619,
+          "chapter_name": "梅塔法力卡",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 40620,
+          "chapter_name": "尾声",
+          "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 5880,
+      "id": 5880,
+      "volume_name": "第三卷 终结世界的少女诗歌 上",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 40622,
+          "chapter_name": "起始",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40623,
+          "chapter_name": "五年的岁月",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42570,
+          "chapter_name": "V滑板竞技大会",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

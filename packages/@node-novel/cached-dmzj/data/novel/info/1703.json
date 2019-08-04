@@ -12,12 +12,13 @@
   "hot_hits": 45459,
   "introduction": "　　教室里午休时间将至，一片天下太平，却忽然受到巨大怪兽攻击。我被怪兽一脚踩死。\n　　紧接着——\n　　眼前出现一串神秘的倒数数字，以及选择是否接关的画面。\n　　选择「Yes」。结果我回到了午休时间前，「我死之前不久」的教室。\n　　也就是说，我死而复生了。\n　　只有我和敷岛两个人注意到。\n　　注意到这个世界是一场「游戏」。\n　　注意到巨大怪兽将会再度来袭。在那串神秘的倒数数字减少到零为止……\n　　我们始终弱势挨打，一再死掉重来。",
   "types": [
-    "校园/冒险"
+    "校园",
+    "冒险"
   ],
   "authors": "入间人间",
   "first_letter": "W",
-  "subscribe_num": 1905,
-  "redis_update_time": 1564292797,
+  "subscribe_num": 1903,
+  "redis_update_time": 1564458095,
   "volume": [
     {
       "id": 6256,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 Stage1 怪兽物语",
       "volume_order": 10,
       "addtime": 1407669666,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 7006,
@@ -33,7 +34,65 @@
       "volume_name": "第二卷 Stage2 艾利沙的神奇大冒险",
       "volume_order": 20,
       "addtime": 1435676514,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6256,
+      "id": 6256,
+      "volume_name": "第一卷 Stage1 怪兽物语",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 44079,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44080,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44081,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44082,
+          "chapter_name": "结尾",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44083,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 7006,
+      "id": 7006,
+      "volume_name": "第二卷 Stage2 艾利沙的神奇大冒险",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51162,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51163,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51164,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

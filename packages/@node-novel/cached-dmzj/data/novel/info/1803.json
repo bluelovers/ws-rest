@@ -12,12 +12,13 @@
   "hot_hits": 66256,
   "introduction": "　　高中生活里最后的学园祭将近，本欲登台演奏的轻音乐同好会，在一位女性成员的扰乱下面临了解散的命运。\n　　不愿就此放弃的北原春希，经由某个契机开始积极寻找候补成员。\n　　他邀请的分别是有名的选美皇后小木曾雪菜，以及性情孤癖的异类冬马和纱。\n　　面对绝世与孤高的美少女，春希是否能重建轻音乐同好会、顺利参加演唱会呢……！？\n　　本作为人气游戏「WHITEALBUM2」作者丸户史明监修的改编小说。\n　　撼动人心的悲恋和白雪物语，如今于焉展开——",
   "types": [
-    "爱情/校园"
+    "爱情",
+    "校园"
   ],
   "authors": "月岛雅也",
   "first_letter": "B",
-  "subscribe_num": 4665,
-  "redis_update_time": 1564312169,
+  "subscribe_num": 4668,
+  "redis_update_time": 1564401507,
   "volume": [
     {
       "id": 6599,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1420020553,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6600,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1420020554,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8380,
@@ -41,7 +42,138 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1482756684,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6599,
+      "id": 6599,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 47303,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47304,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47305,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47306,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 6600,
+      "id": 6600,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 47307,
+          "chapter_name": "第四章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47308,
+          "chapter_name": "第五章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47309,
+          "chapter_name": "第六章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47310,
+          "chapter_name": "第七章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47311,
+          "chapter_name": "第八章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47312,
+          "chapter_name": "新作短篇(作者：丸户史明)",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47313,
+          "chapter_name": "解说",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 47314,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8380,
+      "id": 8380,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 70233,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 70234,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 70235,
+          "chapter_name": "11月第四周",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 70236,
+          "chapter_name": "12月第一周",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 70237,
+          "chapter_name": "12月第二周",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 70238,
+          "chapter_name": "12月第三周",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 70239,
+          "chapter_name": "12月第四周",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 70240,
+          "chapter_name": "卷末特别企划",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 70241,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

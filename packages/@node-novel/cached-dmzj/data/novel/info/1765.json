@@ -12,12 +12,14 @@
   "hot_hits": 59978,
   "introduction": "「如果电车内有色狼想要逃跑该怎么办？」「当然是开枪射杀！」樱井葵不假思索回答，我则是抱头烦恼。平凡的高中生高山直人，梦想是就职于超巨大优良企业·国铁，过着稳定的未来。\n结果研修期间分发到的单位，却是以厌恶男人的樱井为首，充满危险分子的「铁道公安队」！甚至还有企图让国铁分割民营化的激进组织「RJ」暗中活跃……怎么办啊？我的人生蓝图！\n以国铁未分割民营化的平行世界日本为舞台，梦幻铁路乐园娱乐作品，准点准时发车！？",
   "types": [
-    "搞笑/励志/后宫"
+    "搞笑",
+    "励志",
+    "后宫"
   ],
   "authors": "丰田巧",
   "first_letter": "R",
-  "subscribe_num": 3576,
-  "redis_update_time": 1564307584,
+  "subscribe_num": 3579,
+  "redis_update_time": 1564441208,
   "volume": [
     {
       "id": 6471,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1416136390,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6545,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1418558094,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6667,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1422794545,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7091,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1438440116,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7820,
@@ -57,7 +59,234 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1463229554,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6471,
+      "id": 6471,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46047,
+          "chapter_name": "M001 缓慢生活，发车行进",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46048,
+          "chapter_name": "M002 学校，小心闭塞",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46049,
+          "chapter_name": "M003 研修，进入站内",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46050,
+          "chapter_name": "M004 分发，确定",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46051,
+          "chapter_name": "M005 国铁京滨东北线，解除限制",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46052,
+          "chapter_name": "M006 国铁中央线，发车警戒",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46053,
+          "chapter_name": "M007 东京站，紧急停车",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46054,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6545,
+      "id": 6545,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 46768,
+          "chapter_name": "D001 王子来日，发车行进",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46769,
+          "chapter_name": "D002 警四北行，准时准点",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46770,
+          "chapter_name": "D003 餐车，站内警戒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46771,
+          "chapter_name": "D004 北海道上陆，月台良好！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46772,
+          "chapter_name": "D005 流星北斗星，超过速度",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46773,
+          "chapter_name": "D006 黑幕现身，停车位置良好！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46774,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6667,
+      "id": 6667,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 47919,
+          "chapter_name": "E0000 小海同学的假日",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47920,
+          "chapter_name": "E001 再度受训，发车行进",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47921,
+          "chapter_name": "E002 榛名研修所，停车信号",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47922,
+          "chapter_name": "E003 在轻井泽重逢，发车警戒",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47923,
+          "chapter_name": "E004 豪雨碓冰峠，紧急停车",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47924,
+          "chapter_name": "E005 接着山雨欲来……安全确认结束",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47925,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7091,
+      "id": 7091,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 51817,
+          "chapter_name": "A0001 新桥站0号线，发车行进",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51818,
+          "chapter_name": "A0002 通往就职的二十四小时，非常警戒！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51819,
+          "chapter_name": "A0003 看不见的组织战，闭塞注意",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51820,
+          "chapter_name": "A0004 川崎海埔新生地，货运线停车无误！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51821,
+          "chapter_name": "A0005 出乎意料的决意，准备发车",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51822,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51823,
+          "chapter_name": "第四集发售纪念 特别篇故事 A0000 札沼的假日",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7820,
+      "id": 7820,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 61157,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61158,
+          "chapter_name": "B0001 突然的重逢，出发行进",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61159,
+          "chapter_name": "B0002 卧铺急行高千穗，准时准点",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 61160,
+          "chapter_name": "B0003 高千岁线，站内行进",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 61161,
+          "chapter_name": "B0004 高森隧道，站内警戒",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61162,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61163,
+          "chapter_name": "B0000 贝尔尼纳的假日",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 61164,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 293580,
   "introduction": "以职业热血战斗漫画家出道的我——君岛泉，为了磨练技术成为了职业漫画家生驹Agito（NETA假面骑士Agito）老师的助手。可是，她所画的漫画人物全是跟我压根没有半毛钱关系的工口（划掉）女子高中生！？一个喜欢巨乳整天欧派挂嘴边的萌妹纸漫画老师！一个发出“那些只不过是图片而已怎么会萌呢”感想的煞风景助手！冲击性的男女似乎颠倒的爆笑场景，马上上演！",
   "types": [
-    "校园/搞笑/爱情"
+    "校园",
+    "搞笑",
+    "爱情"
   ],
   "authors": "村上凛",
   "first_letter": "W",
-  "subscribe_num": 10334,
-  "redis_update_time": 1564310550,
+  "subscribe_num": 10341,
+  "redis_update_time": 1564388397,
   "volume": [
     {
       "id": 6723,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1424486759,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6741,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1425465467,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6818,
@@ -41,7 +43,7 @@
       "volume_name": "短篇",
       "volume_order": 30,
       "addtime": 1429093622,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6938,
@@ -49,7 +51,7 @@
       "volume_name": "第三卷",
       "volume_order": 40,
       "addtime": 1433341071,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7233,
@@ -57,7 +59,7 @@
       "volume_name": "第四卷",
       "volume_order": 50,
       "addtime": 1442997849,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7547,
@@ -65,7 +67,7 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1455186806,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7563,
@@ -73,7 +75,340 @@
       "volume_name": "增刊号",
       "volume_order": 70,
       "addtime": 1455969858,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6723,
+      "id": 6723,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 48453,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48454,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48455,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48456,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48457,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48458,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48459,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48460,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 48461,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 48462,
+          "chapter_name": "第九章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 48463,
+          "chapter_name": "第十章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 48464,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 6741,
+      "id": 6741,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 48656,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48657,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48658,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48659,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48660,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48661,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48662,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6818,
+      "id": 6818,
+      "volume_name": "短篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 49318,
+          "chapter_name": "杂志短篇1",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49319,
+          "chapter_name": "杂志短篇2",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85802,
+          "chapter_name": "想变成BL漫画家，就让我成为素材！？",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 6938,
+      "id": 6938,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 50461,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50472,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50474,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50691,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50692,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50797,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50798,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50799,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7233,
+      "id": 7233,
+      "volume_name": "第四卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 53174,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53330,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53514,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53708,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53758,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53759,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53760,
+          "chapter_name": "Gamers特典",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7547,
+      "id": 7547,
+      "volume_name": "第五卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 57176,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57177,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 57178,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57179,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 57180,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 57182,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 57183,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 57184,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 57185,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7563,
+      "id": 7563,
+      "volume_name": "增刊号",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 57929,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 57332,
+          "chapter_name": "1、凸凹漫画家组合，启动！",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57927,
+          "chapter_name": "2、学园祭和偶像亲密接触！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 57928,
+          "chapter_name": "3、在秋叶原的中心大呼萝莉的绅士",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57930,
+          "chapter_name": "4、人、人家穿成这样，都是无奈之举……知道吗！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58047,
+          "chapter_name": "5、《想变成宅女，就让我当现充！》联合短篇——来吧，让我们跨越cosplay的屏壁吧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58169,
+          "chapter_name": "6、于是，在那数年后……",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58170,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 58171,
+          "chapter_name": "Gamers特典",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

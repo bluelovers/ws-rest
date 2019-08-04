@@ -12,12 +12,14 @@
   "hot_hits": 43705,
   "introduction": "高中生樱木春彦，今天也被青梅竹马的桃子叫起床。“你像个大妈一样呢”“谁是大妈啊！？”新的学期——春彦和桃子、茧居妹妹咲耶上学的途中，达成了花莳镇流传的《樱之传说》，在这恩惠下变成了受欢迎的flag体质！紧接着，桃子觉醒了名为《未来预知》的中二能力，将春彦的galgame故事纷纷终结！《庶民样本》七月隆文赠与的flag乱立恋爱喜剧！对冲击的展开与结尾刮目相看吧！",
   "types": [
-    "校园/爱情/搞笑"
+    "校园",
+    "爱情",
+    "搞笑"
   ],
   "authors": "七月隆文",
   "first_letter": "Y",
-  "subscribe_num": 1334,
-  "redis_update_time": 1564312285,
+  "subscribe_num": 1335,
+  "redis_update_time": 1564467916,
   "volume": [
     {
       "id": 6247,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 路线A小河桃子",
       "volume_order": 10,
       "addtime": 1407242288,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6591,
@@ -33,7 +35,105 @@
       "volume_name": "第二卷 路线B真智爱丽丝",
       "volume_order": 20,
       "addtime": 1419779525,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6247,
+      "id": 6247,
+      "volume_name": "第一卷 路线A小河桃子",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 43965,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43966,
+          "chapter_name": "第一章 邻居桃子之死",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43967,
+          "chapter_name": "第二章 时钟",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43968,
+          "chapter_name": "第三章 恩惠",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43969,
+          "chapter_name": "第四章 死路",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43970,
+          "chapter_name": "最终章 连理之枝",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43971,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43972,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6591,
+      "id": 6591,
+      "volume_name": "第二卷 路线B真智爱丽丝",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 47248,
+          "chapter_name": "与樱的接触是……",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47249,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47250,
+          "chapter_name": "第一章 花蕾",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47251,
+          "chapter_name": "第二章 温暖",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48161,
+          "chapter_name": "第三章 冬天一样的女孩子",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48162,
+          "chapter_name": "终章 春天来了",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48163,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48164,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

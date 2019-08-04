@@ -17,7 +17,7 @@
   "authors": "嬉野秋彦",
   "first_letter": "G",
   "subscribe_num": 202,
-  "redis_update_time": 1564307126,
+  "redis_update_time": 1564509950,
   "volume": [
     {
       "id": 5875,
@@ -25,7 +25,7 @@
       "volume_name": "上卷 在无止尽夏季的尾声里",
       "volume_order": 10,
       "addtime": 1394549794,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6114,
@@ -33,7 +33,105 @@
       "volume_name": "下卷 第666年的两人",
       "volume_order": 20,
       "addtime": 1402991473,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5875,
+      "id": 5875,
+      "volume_name": "上卷 在无止尽夏季的尾声里",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 40574,
+          "chapter_name": "序章 狂暴的雨",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40575,
+          "chapter_name": "第一章 最后的夏季",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40576,
+          "chapter_name": "第二章 苍炎——燃此焰者之名",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40577,
+          "chapter_name": "第三章 在新大陆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40578,
+          "chapter_name": "第四章 荒野中呼唤者的声音",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40579,
+          "chapter_name": "第五章 血之乐章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40580,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 40581,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6114,
+      "id": 6114,
+      "volume_name": "下卷 第666年的两人",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 42651,
+          "chapter_name": "接前文 如同消失的信",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42652,
+          "chapter_name": "第六章 血的呼唤",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42653,
+          "chapter_name": "第七章 狂气",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42654,
+          "chapter_name": "第八章 第三位女人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42655,
+          "chapter_name": "第九章 悄悄靠近的黑影，令人憎恶的家伙们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42656,
+          "chapter_name": "第十章 接着他的觉醒",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42657,
+          "chapter_name": "终章 月牙与日轮",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42658,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

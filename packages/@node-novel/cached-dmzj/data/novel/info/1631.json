@@ -12,12 +12,13 @@
   "hot_hits": 74924,
   "introduction": "　　太小看我可是百害无一利喔……呜呜，不要靠近我！\n　　「密斯特露提魔术学园」是一所突然从天上掉下来的学园。而因为跟极度恋兄的超级虐待狂妹妹·朝木野茉琉失去联系，哥哥朝木野晃路来到这里寻找留学中的妹妹。\n　　但是，在学园等待着他的是：强大的魔术器、操纵着幻兽的学生们，以及时不时落下的学园追加物——充满机关陷阱的建筑群。\n　　不知该从何下手的晃路找上魔术侦探少女花菱，但她却严重怕生！？\n　　这场寻妹之旅的结果是——",
   "types": [
-    "魔法/校园"
+    "魔法",
+    "校园"
   ],
   "authors": "中谷荣太",
   "first_letter": "Z",
-  "subscribe_num": 1116,
-  "redis_update_time": 1564311056,
+  "subscribe_num": 1118,
+  "redis_update_time": 1564535519,
   "volume": [
     {
       "id": 6021,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1399884103,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6523,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1417867503,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6766,
@@ -41,7 +42,153 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1426507981,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6021,
+      "id": 6021,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41854,
+          "chapter_name": "序章 prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41855,
+          "chapter_name": "Section1 侦探与学生会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41856,
+          "chapter_name": "section2 谨遵会长大人的吩咐",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41857,
+          "chapter_name": "section3 愤慨的是妹妹难笑的企图",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41858,
+          "chapter_name": "section4 御堂樱子不容退让的心愿",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41859,
+          "chapter_name": "section5 垂怜恶魔之诗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41860,
+          "chapter_name": "终章 epilogue",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41861,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6523,
+      "id": 6523,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 46568,
+          "chapter_name": "序章 prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46569,
+          "chapter_name": "section1 侦探与妹妹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46570,
+          "chapter_name": "section2 两件委托",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46571,
+          "chapter_name": "Section3 万物之书 上",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46577,
+          "chapter_name": "section4 最后的交易",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46573,
+          "chapter_name": "section5 万物之书 下",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46574,
+          "chapter_name": "section6 呼唤你的名",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46575,
+          "chapter_name": "终章 epilogue",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 46576,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6766,
+      "id": 6766,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 48880,
+          "chapter_name": "序章prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48881,
+          "chapter_name": "sectionl 欢迎来到密斯特露提学园",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48882,
+          "chapter_name": "section2 水域的决战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48883,
+          "chapter_name": "section3 千年树宫殿",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48884,
+          "chapter_name": "section4 祭典之后",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48885,
+          "chapter_name": "终章 epilogue",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48886,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

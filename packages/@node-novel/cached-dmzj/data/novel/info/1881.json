@@ -17,7 +17,7 @@
   "authors": "吉田惠里香",
   "first_letter": "N",
   "subscribe_num": 1040,
-  "redis_update_time": 1564281414,
+  "redis_update_time": 1564318598,
   "volume": [
     {
       "id": 6886,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1431957589,
-      "sum_chapters": 3
+      "sum_chapters": 11
     },
     {
       "id": 7070,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 怎样都好，我想吃马卡龙",
       "volume_order": 20,
       "addtime": 1437909968,
-      "sum_chapters": 3
+      "sum_chapters": 11
     },
     {
       "id": 7735,
@@ -41,7 +41,133 @@
       "volume_name": "第三卷 大致上都很鲁莽冲撞",
       "volume_order": 30,
       "addtime": 1460907467,
-      "sum_chapters": 3
+      "sum_chapters": 11
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6886,
+      "id": 6886,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 49976,
+          "chapter_name": "序章 牢笼之中的牢笼",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49977,
+          "chapter_name": "第一章 实现后的梦想，不过是垃圾",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49978,
+          "chapter_name": "第二章 黄金蛋的求职活动（Job Hunting Game）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49979,
+          "chapter_name": "第三章 面试会场，解除钥匙",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49980,
+          "chapter_name": "第四章 举行第零次面试宣言",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49981,
+          "chapter_name": "第五章 疑神疑鬼的花一匁",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49982,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7070,
+      "id": 7070,
+      "volume_name": "第二卷 怎样都好，我想吃马卡龙",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51658,
+          "chapter_name": "开场 要再度开始游戏吗？",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51659,
+          "chapter_name": "第一章 触礁暗礁的真相",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51660,
+          "chapter_name": "第二章 执拗的爱",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51661,
+          "chapter_name": "最终章 绚烂盛开的花朵",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51662,
+          "chapter_name": "尾声 我是脑浆炸裂Girl",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51663,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7735,
+      "id": 7735,
+      "volume_name": "第三卷 大致上都很鲁莽冲撞",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 59909,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59910,
+          "chapter_name": "序章 通往快乐的入口",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59911,
+          "chapter_name": "第一章 制服等级制度",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59912,
+          "chapter_name": "第二章 天然色俄罗斯轮盘",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59913,
+          "chapter_name": "第三章 猪鹿蝶，齐聚一堂……",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59914,
+          "chapter_name": "第四章 那是悲伤的旗标",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59915,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

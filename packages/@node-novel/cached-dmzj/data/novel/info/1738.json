@@ -17,7 +17,7 @@
   "authors": "黑野伸一",
   "first_letter": "X",
   "subscribe_num": 84,
-  "redis_update_time": 1564288020,
+  "redis_update_time": 1564418694,
   "volume": [
     {
       "id": 6378,
@@ -25,7 +25,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1412335480,
-      "sum_chapters": 3
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6378,
+      "id": 6378,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 45178,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45179,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45180,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45181,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45182,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

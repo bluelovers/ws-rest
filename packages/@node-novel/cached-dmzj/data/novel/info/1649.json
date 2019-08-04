@@ -12,12 +12,13 @@
   "hot_hits": 99866,
   "introduction": "在风丘高中的旧体育馆里，广播部部长被某人刺杀了。放学后大雨瓢泼，现场处于密室状态？警察即将认定，提前下课后来到体育馆的唯一一人、女子乒乓球部部长就是犯人……。发现尸体时刚好在现场的乒乓球部部员柚乃为了洗脱部长的嫌疑，拜托学校内的第一天才里染天马找出真相。不知为何，他竟是住在学校里的废柴动画宅——。“艾勒里・奎因流的逻辑推演+学园推理”，21岁的新锐作家出道作。获第22届鲇川哲也赏。",
   "types": [
-    "校园/侦探"
+    "校园",
+    "侦探"
   ],
   "authors": "青崎有吾",
   "first_letter": "L",
-  "subscribe_num": 3440,
-  "redis_update_time": 1564312508,
+  "subscribe_num": 3446,
+  "redis_update_time": 1564532766,
   "volume": [
     {
       "id": 6068,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1401627384,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6333,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 水族馆杀人事件",
       "volume_order": 20,
       "addtime": 1410586090,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6692,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷 风丘祭五十元硬币之谜",
       "volume_order": 30,
       "addtime": 1423812866,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7910,
@@ -49,7 +50,181 @@
       "volume_name": "第四卷 图书馆杀人事件",
       "volume_order": 40,
       "addtime": 1466151593,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6068,
+      "id": 6068,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42316,
+          "chapter_name": "序章 引子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42317,
+          "chapter_name": "第一章 以事件开始",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42318,
+          "chapter_name": "第二章 侦探登场",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42319,
+          "chapter_name": "第三章 确定嫌犯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42320,
+          "chapter_name": "第四章 的结尾给出所有的线索",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42321,
+          "chapter_name": "第五章 作为解决篇",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42322,
+          "chapter_name": "终章 幕后",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6333,
+      "id": 6333,
+      "volume_name": "第二卷 水族馆杀人事件",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 44723,
+          "chapter_name": "热闹的序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44724,
+          "chapter_name": "第一章 夏日与丸美与我与尸体",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44725,
+          "chapter_name": "第二章 兄长的搜查与妹妹的比赛",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44726,
+          "chapter_name": "第三章 侦探的到来与不在场证明的解明",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44727,
+          "chapter_name": "第四章 星期天的约会与水边的实验",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44728,
+          "chapter_name": "第五章 过多的嫌疑人与过少的线索",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45350,
+          "chapter_name": "第六章 黄色的拖把与青色的水桶",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45351,
+          "chapter_name": "寂静的闭幕",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6692,
+      "id": 6692,
+      "volume_name": "第三卷 风丘祭五十元硬币之谜",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 48145,
+          "chapter_name": "另一种盖饭",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48420,
+          "chapter_name": "风丘祭五十元硬币之谜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51363,
+          "chapter_name": "天使们的残暑问候",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 72166,
+          "chapter_name": "请注意那个花瓶",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 7910,
+      "id": 7910,
+      "volume_name": "第四卷 图书馆杀人事件",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 62821,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 62822,
+          "chapter_name": "人物介绍",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 62823,
+          "chapter_name": "前日 期末考试终于到来",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62824,
+          "chapter_name": "第一日 地学，古文，事件，搜查",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 62825,
+          "chapter_name": "第二日 化学，现社，数A，秘密，怪人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62826,
+          "chapter_name": "第三日 现文，英R，数I，追求，过去",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 62827,
+          "chapter_name": "第四日 英W，日本史，保体，家庭，供述",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 62828,
+          "chapter_name": "解答与解说",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 62829,
+          "chapter_name": "后日 结果发表",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

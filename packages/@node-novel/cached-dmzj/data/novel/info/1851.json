@@ -12,12 +12,14 @@
   "hot_hits": 24742,
   "introduction": "第19回角川SNEAKER小说大赏《特别赏》\n某封书信让悠人战栗不已！“我知道您过去的丑态，若不想被公诸于众的话请您伪装成决斗者。”……。决斗者是什么鬼！？\n一头冒水的悠人遵从寄件人不明的书信上的命令，与同样被强逼伪装的美雪（名侦探），爱香（不良），里奈（现充）等人成立了伪装部！看来犯人就在这个部门的成员中，然而这时转校生（痴女）也入部了！？虚伪的伪装＆爱情喜剧开幕！",
   "types": [
-    "校园/搞笑/爱情"
+    "校园",
+    "搞笑",
+    "爱情"
   ],
   "authors": "天地优雅",
   "first_letter": "M",
   "subscribe_num": 532,
-  "redis_update_time": 1564294699,
+  "redis_update_time": 1564384721,
   "volume": [
     {
       "id": 6791,
@@ -25,7 +27,87 @@
       "volume_name": "第一卷 犯人是谁！？",
       "volume_order": 10,
       "addtime": 1427621940,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6791,
+      "id": 6791,
+      "volume_name": "第一卷 犯人是谁！？",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 49082,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49083,
+          "chapter_name": "第一章 其名是伪装部",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49084,
+          "chapter_name": "第二章 伪装大苦战！？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49085,
+          "chapter_name": "第三章 废部危机！？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49086,
+          "chapter_name": "第四章 在打工中Cosplay！？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49087,
+          "chapter_name": "第五章 突然到来的转学生",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49088,
+          "chapter_name": "第六章 欢迎派对！？",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 49089,
+          "chapter_name": "第七章 与真纪约会！？",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 49090,
+          "chapter_name": "第八章 发现犯人！？",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 49091,
+          "chapter_name": "第九章 与犯人对峙！？",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 49092,
+          "chapter_name": "第十章 真犯人是……！？",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 49093,
+          "chapter_name": "第十一章 对犯人复仇！？",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 49094,
+          "chapter_name": "尾声",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 49095,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

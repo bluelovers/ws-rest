@@ -12,12 +12,14 @@
   "hot_hits": 68721,
   "introduction": "最强的军师、诞生!!一骑当千的美少女们以最强（TOP）为目标！超弩级学园战斗故事开幕！\n拥有被称为【星导力】的异能的少男少女们从世界各国聚集到这里——学园都市沃泰克斯。在这里，有五所学校进行着被称为【星骑士战争】的模拟战争。\n其中之一，身负某个秘密的少年昴，进入了星宫骑士学园，朝着成为最强军师的目标努力着。但是，才刚入学的他，就接连不断的与持有固有【星导武装】的高等级骑士&美少女——剑之加恋，盾之奏，刀之沙夜，细剑之维斯特里斯发生冲突，而且还和加恋开始了同居生活。被最强的少女们环绕着，昴波澜万丈的学园生活开始了——！？",
   "types": [
-    "校园/魔法/格斗"
+    "校园",
+    "魔法",
+    "格斗"
   ],
   "authors": "山田有",
   "first_letter": "W",
-  "subscribe_num": 774,
-  "redis_update_time": 1564289123,
+  "subscribe_num": 776,
+  "redis_update_time": 1564512936,
   "volume": [
     {
       "id": 6192,
@@ -25,7 +27,72 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1405567146,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6192,
+      "id": 6192,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 43445,
+          "chapter_name": "设定",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43446,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43447,
+          "chapter_name": "第一章 学园都市沃泰克斯",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43448,
+          "chapter_name": "第二章 星骑士战争开始",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43449,
+          "chapter_name": "第三章 盟约骑士学院的摩擦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43450,
+          "chapter_name": "第四章 新生·円卓骑士总会",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43451,
+          "chapter_name": "第五章 骑士学园的日常",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43452,
+          "chapter_name": "第六章 Maelstrom",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 43453,
+          "chapter_name": "第七章 天使显现",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 43454,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 43457,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

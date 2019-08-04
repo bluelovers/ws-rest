@@ -16,8 +16,8 @@
   ],
   "authors": "七尾与史",
   "first_letter": "S",
-  "subscribe_num": 207,
-  "redis_update_time": 1564246640,
+  "subscribe_num": 208,
+  "redis_update_time": 1564472672,
   "volume": [
     {
       "id": 6271,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 目白车站的死亡之握",
       "volume_order": 10,
       "addtime": 1408113335,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6370,
@@ -33,7 +33,150 @@
       "volume_name": "第二卷 龙墓村的神秘之钥",
       "volume_order": 20,
       "addtime": 1412087206,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6271,
+      "id": 6271,
+      "volume_name": "第一卷 目白车站的死亡之握",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 44185,
+          "chapter_name": "目白站",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44186,
+          "chapter_name": "大塚站",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44187,
+          "chapter_name": "日暮里站",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44188,
+          "chapter_name": "田端站",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44189,
+          "chapter_name": "惠比寿站",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44190,
+          "chapter_name": "上野站",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44191,
+          "chapter_name": "代代木车站",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44192,
+          "chapter_name": "有乐町站",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 44193,
+          "chapter_name": "驹込站",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 44194,
+          "chapter_name": "新宿站",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 44195,
+          "chapter_name": "东京站",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 6370,
+      "id": 6370,
+      "volume_name": "第二卷 龙墓村的神秘之钥",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 45093,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45094,
+          "chapter_name": "目白站",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45095,
+          "chapter_name": "新宿站",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45096,
+          "chapter_name": "秋叶原站",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45097,
+          "chapter_name": "东京站",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45098,
+          "chapter_name": "巢鸭站",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45099,
+          "chapter_name": "莺谷站",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45100,
+          "chapter_name": "目黑站",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 45101,
+          "chapter_name": "高田马场站",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 45102,
+          "chapter_name": "日暮里站",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 45103,
+          "chapter_name": "五反田站",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 45104,
+          "chapter_name": "品川站",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 45105,
+          "chapter_name": "巢鸭站",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 45106,
+          "chapter_name": "原宿站",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

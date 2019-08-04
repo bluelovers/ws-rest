@@ -12,12 +12,13 @@
   "hot_hits": 25385,
   "introduction": "这是认真的？果真是废话吧？新感觉“分析”系故事！\n分析社——那是由社长赤村崎葵子对一切现象进行（擅自）分析，通过别人无法想象的惊讶（含偏见）逻辑得出（基本上无关紧要的）结论的社团。\n没错，只要有她插上一脚，结论往往会深陷迷雾。那位美少女在各种错综复杂的分析之后所得出的惊愕而脱力的结论，你能理解得了么！？\n闪耀，瞎扯，还有一点点福利捏造而成的新感觉日常“分析”系故事，开幕！",
   "types": [
-    "校园/搞笑"
+    "校园",
+    "搞笑"
   ],
   "authors": "十阶堂一系",
   "first_letter": "C",
-  "subscribe_num": 625,
-  "redis_update_time": 1564309210,
+  "subscribe_num": 626,
+  "redis_update_time": 1564383918,
   "volume": [
     {
       "id": 6799,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1427976125,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6845,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1430478085,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6927,
@@ -41,7 +42,118 @@
       "volume_name": "番外 自称分析官威廉的谜推理",
       "volume_order": 30,
       "addtime": 1433158576,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6799,
+      "id": 6799,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 49155,
+          "chapter_name": "分析1 分析情书",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49156,
+          "chapter_name": "分析2 分析捐赠",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49157,
+          "chapter_name": "分析3 分析侦探",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49158,
+          "chapter_name": "分析4 分析威廉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49159,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49160,
+          "chapter_name": "十美乃的里分析专栏",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6845,
+      "id": 6845,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 49532,
+          "chapter_name": "分析1 友情·努力·公平较量",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49533,
+          "chapter_name": "分析2 迷路的迷路的",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49534,
+          "chapter_name": "分析3 橘子就不行么",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49535,
+          "chapter_name": "分析4 夏日的机制",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49536,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49537,
+          "chapter_name": "三雫的里分析专栏",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6927,
+      "id": 6927,
+      "volume_name": "番外 自称分析官威廉的谜推理",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 50384,
+          "chapter_name": "分析1 天降好事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50385,
+          "chapter_name": "分析2 柔情之塔",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50386,
+          "chapter_name": "分析3 违反礼节",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50387,
+          "chapter_name": "分析4 无名之花",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50388,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

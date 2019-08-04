@@ -12,12 +12,14 @@
   "hot_hits": 190708,
   "introduction": "作为“食尸鬼”集会所的咖啡店“安定区”今天也充满了纠纷与事件。店长.芳村察觉到的可疑人影——那既是狩猎，也是被狩猎的角色。决不可有交集的两个种族间，究竟会坠落到怎样的黑暗中。剪取「圣书」「便当」「写真」「上京」「枝折」等这些本篇没有描写到的日常。",
   "types": [
-    "冒险/恐怖/格斗"
+    "冒险",
+    "恐怖",
+    "格斗"
   ],
   "authors": "十和田シン",
   "first_letter": "D",
-  "subscribe_num": 12215,
-  "redis_update_time": 1564312757,
+  "subscribe_num": 12221,
+  "redis_update_time": 1564438377,
   "volume": [
     {
       "id": 6432,
@@ -25,7 +27,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1414759153,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6432,
+      "id": 6432,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 45749,
+          "chapter_name": "第一章 圣经",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45750,
+          "chapter_name": "第二章 便当",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45751,
+          "chapter_name": "第三章 写真",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45752,
+          "chapter_name": "第四章 上京",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45753,
+          "chapter_name": "第五章 枝折",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45754,
+          "chapter_name": "第六章 吉田",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

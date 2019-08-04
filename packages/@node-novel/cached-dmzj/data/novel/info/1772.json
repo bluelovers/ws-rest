@@ -12,12 +12,14 @@
   "hot_hits": 105106,
   "introduction": "被大瀑布隔开四千多座岛屿的「多岛海」。<br>\n在这被海德拉巴联合共同体、圣沃尔特帝国、秋津联邦三个大国争夺霸权的海上，<br>七名少年少女操纵大型飞空艇进行着友善飞行。<br>\n在那「埃利亚多尔飞空艇」上聚集的是——<br>\n河南士官学校三年生、坂上清顕<br>\n河南士官学校三年生、美绪·塞拉<br>\n箕士官学校四年生、紫神乐<br>\n艾尔亨特士官学校四年生、巴尔塔扎·格林<br>\n艾尔亨特士官学校三年生、莱纳·贝克<br>\n艾尔亨特士官学校三年生、伊莉安·克莱施密特<br>\n艾尔亨特士官学校二年生、塞西尔·豪尔<br>\n他们无一不是拥有着突出才能的士官候补生，但受到了「天空一族」的猛攻，不得不紧急迫降到无名小岛上。为了逃出小岛而齐心协力的七人将——",
   "types": [
-    "爱情/冒险/战争"
+    "爱情",
+    "冒险",
+    "战争"
   ],
   "authors": "犬村小六",
   "first_letter": "Y",
-  "subscribe_num": 3689,
-  "redis_update_time": 1564309867,
+  "subscribe_num": 3692,
+  "redis_update_time": 1564431371,
   "volume": [
     {
       "id": 6491,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1416822764,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6492,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1416822764,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6493,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1416822764,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6494,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1416822765,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6495,
@@ -57,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1416822765,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6496,
@@ -65,7 +67,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1416822765,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7019,
@@ -73,7 +75,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1436102163,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7020,
@@ -81,7 +83,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1436102221,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7835,
@@ -89,7 +91,516 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1463928656,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6491,
+      "id": 6491,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46257,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46258,
+          "chapter_name": "序 一",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46259,
+          "chapter_name": "二",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46260,
+          "chapter_name": "三",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46261,
+          "chapter_name": "四",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46262,
+          "chapter_name": "第一部 Air Hunt士官学校 一",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46263,
+          "chapter_name": "二",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46264,
+          "chapter_name": "三",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 46265,
+          "chapter_name": "四",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 46266,
+          "chapter_name": "五",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 46267,
+          "chapter_name": "六",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 46268,
+          "chapter_name": "七",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 46269,
+          "chapter_name": "八",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 6492,
+      "id": 6492,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 46271,
+          "chapter_name": "九",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46272,
+          "chapter_name": "十",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46273,
+          "chapter_name": "十一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46274,
+          "chapter_name": "十二",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46275,
+          "chapter_name": "十三",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46276,
+          "chapter_name": "十四",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46277,
+          "chapter_name": "十五",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46278,
+          "chapter_name": "十六",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 46279,
+          "chapter_name": "十七",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6493,
+      "id": 6493,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 46281,
+          "chapter_name": "十八",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46282,
+          "chapter_name": "十九",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46283,
+          "chapter_name": "二十",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46284,
+          "chapter_name": "二十一",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46285,
+          "chapter_name": "二十二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46286,
+          "chapter_name": "二十三",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6494,
+      "id": 6494,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 46288,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46289,
+          "chapter_name": "第二部 第二次多岛海战争 一",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46290,
+          "chapter_name": "二",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46291,
+          "chapter_name": "三",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46292,
+          "chapter_name": "四",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46293,
+          "chapter_name": "五",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46294,
+          "chapter_name": "六",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46295,
+          "chapter_name": "七",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6495,
+      "id": 6495,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 46297,
+          "chapter_name": "八",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46298,
+          "chapter_name": "九",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46299,
+          "chapter_name": "十",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46300,
+          "chapter_name": "十一",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46301,
+          "chapter_name": "十二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46302,
+          "chapter_name": "十三",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46303,
+          "chapter_name": "十四",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6496,
+      "id": 6496,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 46305,
+          "chapter_name": "十五",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46306,
+          "chapter_name": "十六",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46307,
+          "chapter_name": "十七",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46308,
+          "chapter_name": "十八",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46309,
+          "chapter_name": "十九",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46310,
+          "chapter_name": "二十",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46311,
+          "chapter_name": "二十一",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46312,
+          "chapter_name": "二十二",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 46313,
+          "chapter_name": "二十三",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 46314,
+          "chapter_name": "二十四",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 46315,
+          "chapter_name": "二十五",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 7019,
+      "id": 7019,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 51271,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51272,
+          "chapter_name": "第三部 普雷阿迪斯的奇迹 一",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51273,
+          "chapter_name": "二",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51274,
+          "chapter_name": "三",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51275,
+          "chapter_name": "四",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51276,
+          "chapter_name": "五",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51277,
+          "chapter_name": "六",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51278,
+          "chapter_name": "七",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 51279,
+          "chapter_name": "八",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 51280,
+          "chapter_name": "九",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7020,
+      "id": 7020,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 51281,
+          "chapter_name": "十",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51283,
+          "chapter_name": "十一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51475,
+          "chapter_name": "十二",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51542,
+          "chapter_name": "十三",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51681,
+          "chapter_name": "十四",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52057,
+          "chapter_name": "十五",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52496,
+          "chapter_name": "十六",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52497,
+          "chapter_name": "十七",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 52498,
+          "chapter_name": "十八",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7835,
+      "id": 7835,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 61421,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61422,
+          "chapter_name": "十九",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61423,
+          "chapter_name": "二十",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 61424,
+          "chapter_name": "二十一",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 61425,
+          "chapter_name": "二十二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61426,
+          "chapter_name": "二十三",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61427,
+          "chapter_name": "二十四",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 61428,
+          "chapter_name": "二十五",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 61429,
+          "chapter_name": "二十六",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 61430,
+          "chapter_name": "二十七",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 61431,
+          "chapter_name": "二十八",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 61432,
+          "chapter_name": "二十九",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 61433,
+          "chapter_name": "三十",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 61434,
+          "chapter_name": "插图",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

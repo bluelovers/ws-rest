@@ -16,8 +16,8 @@
   ],
   "authors": "兔月龙之介",
   "first_letter": "N",
-  "subscribe_num": 1043,
-  "redis_update_time": 1564298837,
+  "subscribe_num": 1053,
+  "redis_update_time": 1564528403,
   "volume": [
     {
       "id": 5833,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1392966361,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6619,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1420816351,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 8327,
@@ -41,7 +41,173 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1480494379,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5833,
+      "id": 5833,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 40227,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40228,
+          "chapter_name": "[1]妮娜，十二岁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40229,
+          "chapter_name": "[2]初上战阵",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40230,
+          "chapter_name": "[3]群兔的日常生活和安佛列格镇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40231,
+          "chapter_name": "[4]战死者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40232,
+          "chapter_name": "[5]午前",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40233,
+          "chapter_name": "[6]午后",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 40234,
+          "chapter_name": "[7]终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 40235,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6619,
+      "id": 6619,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 47504,
+          "chapter_name": "[DAY3]序章 群兔",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47505,
+          "chapter_name": "［DAY1］妮娜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47506,
+          "chapter_name": "［DAY2］妮娜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47507,
+          "chapter_name": "［DAY4］妮娜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47508,
+          "chapter_name": "[DAY4]群兔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47509,
+          "chapter_name": "[DAY5]群兔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47510,
+          "chapter_name": "［DAY6］妮娜",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 47511,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 47512,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8327,
+      "id": 8327,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 69399,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69400,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69401,
+          "chapter_name": "［1］温泉城市奈萨特和爱丽丝",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69408,
+          "chapter_name": "「2」遭遇二代野战车",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69403,
+          "chapter_name": "［3］孤独世界",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69409,
+          "chapter_name": "［4］平凡的爱丽丝",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 69410,
+          "chapter_name": "［5］性命的数量，正义的顺序",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 69406,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 69407,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 69411,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

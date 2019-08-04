@@ -12,12 +12,13 @@
   "hot_hits": 8750,
   "introduction": "这个星球有个小秘密，那就是存在和我们生活的这个星球稍微有点不同——称为《镜》的「另一边」的世界。我们这些能力者叫做《假面》，与怪物战斗，并在打倒怪物后获得点数作为报酬，藉此实现现实世界中的心愿。在我对这种和游戏一样的战斗逐渐厌烦的时候，注意到一位最近独自挑战大型怪物，名为「兜帽战士」的《假面》。某一天，我得知了她的真实身分正是和我同班的少女，总是态度冷漠的七曲七海……！？<br>\n雨木シュウスケ最新作品，校园X青春X战斗的故事！",
   "types": [
-    "冒险/校园"
+    "冒险",
+    "校园"
   ],
   "authors": "雨木秀介",
   "first_letter": "Q",
   "subscribe_num": 92,
-  "redis_update_time": 1564306196,
+  "redis_update_time": 1564421008,
   "volume": [
     {
       "id": 6486,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1416655737,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6486,
+      "id": 6486,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46205,
+          "chapter_name": "01 窗边的少女",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46206,
+          "chapter_name": "02 《镜》中风景",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46207,
+          "chapter_name": "03 奇妙秘密",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46208,
+          "chapter_name": "04 胆小鬼游戏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46209,
+          "chapter_name": "05 无聊的真实游戏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46210,
+          "chapter_name": "06 我们的餐桌（可能性游戏）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46211,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

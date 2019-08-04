@@ -12,12 +12,13 @@
   "hot_hits": 73813,
   "introduction": "在被称作「大正凶变」的扭曲世界中，各种怪象频发、惨事横行，于是，守护这个灾难丛生的新帝都·樱京的[神凭特殊樱小队]成立了 ！！",
   "types": [
-    "神鬼/冒险"
+    "神鬼",
+    "冒险"
   ],
   "authors": "一斗まる",
   "first_letter": "Q",
-  "subscribe_num": 1789,
-  "redis_update_time": 1564300097,
+  "subscribe_num": 1790,
+  "redis_update_time": 1564400628,
   "volume": [
     {
       "id": 6620,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1420816726,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 6623,
@@ -33,7 +34,80 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1420978768,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6620,
+      "id": 6620,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 47513,
+          "chapter_name": "序章 千本樱梦幻",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47514,
+          "chapter_name": "第一章 帝都樱京大正浪漫",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47515,
+          "chapter_name": "第二章 影隐神隐",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47516,
+          "chapter_name": "第三章 幻想鹿鸣馆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47517,
+          "chapter_name": "第四章 怪奇御影样教团",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47518,
+          "chapter_name": "第五章 雪樱兄妹",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6623,
+      "id": 6623,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 47535,
+          "chapter_name": "序章 风泳樱蝶扇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47536,
+          "chapter_name": "第一章 神秘离奇马戏团",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47537,
+          "chapter_name": "第二章 枯叶旋风",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47538,
+          "chapter_name": "第三章 机关铃机关炼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47539,
+          "chapter_name": "第四章 樱京日常茶饭",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "桐野夏生",
   "first_letter": "H",
-  "subscribe_num": 483,
-  "redis_update_time": 1564311643,
+  "subscribe_num": 484,
+  "redis_update_time": 1564364730,
   "volume": [
     {
       "id": 6966,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1434281002,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6966,
+      "id": 6966,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50731,
+          "chapter_name": "第一章 Soup Kitchen",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50732,
+          "chapter_name": "第二章 涩谷宫殿",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50733,
+          "chapter_name": "第三章 战区",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50734,
+          "chapter_name": "第四章 铜、铁与锡",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50735,
+          "chapter_name": "第五章 世界满是苦难",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50736,
+          "chapter_name": "第六章 好心的大人",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,7 @@
   "authors": "榊一郎",
   "first_letter": "J",
   "subscribe_num": 349,
-  "redis_update_time": 1564245290,
+  "redis_update_time": 1564332901,
   "volume": [
     {
       "id": 6774,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1426660573,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 6958,
@@ -33,7 +33,95 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1433947588,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6774,
+      "id": 6774,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 48948,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48949,
+          "chapter_name": "第一章 恩仇的残像",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48950,
+          "chapter_name": "第二章 漂泊之人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48951,
+          "chapter_name": "第三章 失控的巨兵",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48952,
+          "chapter_name": "第四章 公主的忧郁",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48953,
+          "chapter_name": "用语、设定资料集",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48954,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6958,
+      "id": 6958,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 50646,
+          "chapter_name": "第一章 败军之将",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50647,
+          "chapter_name": "第二章 报恩的狂念",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50648,
+          "chapter_name": "第三章 疯狂的魔神",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50649,
+          "chapter_name": "第四章 鬼神与魔神",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50650,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50651,
+          "chapter_name": "用语、设定资料集",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50652,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

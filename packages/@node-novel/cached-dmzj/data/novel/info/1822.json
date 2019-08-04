@@ -12,12 +12,13 @@
   "hot_hits": 33572,
   "introduction": "时值神世纪298年，死亡病毒到处蔓延的世界，四国地区被神树所保护着。 而被神树所选中的3名少女，肩负击退为了破坏神树从外部而来的异形存在的Vertex的职责，作为「勇者」而战斗。",
   "types": [
-    "冒险/魔法"
+    "冒险",
+    "魔法"
   ],
   "authors": "タカヒロ",
   "first_letter": "J",
-  "subscribe_num": 1987,
-  "redis_update_time": 1564312304,
+  "subscribe_num": 1988,
+  "redis_update_time": 1564380750,
   "volume": [
     {
       "id": 6679,
@@ -25,7 +26,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1423134587,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6679,
+      "id": 6679,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 48040,
+          "chapter_name": "第一话 鹫尾须美",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48041,
+          "chapter_name": "第二回 三之轮银",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48042,
+          "chapter_name": "第三回 乃木园子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48043,
+          "chapter_name": "第四回 战斗",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48044,
+          "chapter_name": "第五回 再见",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48045,
+          "chapter_name": "第六回 精灵",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48046,
+          "chapter_name": "第七话 许诺",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48047,
+          "chapter_name": "第八话 战斗",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 48048,
+          "chapter_name": "番外篇",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 48049,
+          "chapter_name": "后日谈 之后的园子",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

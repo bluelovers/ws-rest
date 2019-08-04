@@ -17,7 +17,7 @@
   "authors": "似鸟航一",
   "first_letter": "Q",
   "subscribe_num": 3380,
-  "redis_update_time": 1564308756,
+  "redis_update_time": 1564343935,
   "volume": [
     {
       "id": 6931,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1433261785,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9026,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1509011764,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9027,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1509011849,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9028,
@@ -49,7 +49,141 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1509011896,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6931,
+      "id": 6931,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50415,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50416,
+          "chapter_name": "豆大福",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50417,
+          "chapter_name": "铜锣烧",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50418,
+          "chapter_name": "干果子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50419,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 9026,
+      "id": 9026,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 80334,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80335,
+          "chapter_name": "雷门米香",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80336,
+          "chapter_name": "馒头",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80337,
+          "chapter_name": "樱饼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80338,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 9027,
+      "id": 9027,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 80339,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80340,
+          "chapter_name": "馅蜜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80341,
+          "chapter_name": "御手洗团子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80342,
+          "chapter_name": "金平糖",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80343,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 9028,
+      "id": 9028,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 80344,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80345,
+          "chapter_name": "水羊羹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80346,
+          "chapter_name": "金锷",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80347,
+          "chapter_name": "水馒头",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80348,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,15 @@
   "hot_hits": 4618683,
   "introduction": "「只要全都听你的就好了嘛！色鬼！」\n〈魔法骑士〉，他们是一群能将灵魂转化为魔剑，使用魔剑战斗的现代魔法师。黑铁一辉就读于培育魔法骑士的学校，但他却极度缺乏魔法才华，成绩低劣，被戏称为〈落第骑士〉。某日，异国王女史黛菈单方面对一辉提出决斗，并且要求「败者终生服从胜者」——一辉却不小心击败身为〈A级骑士〉的史黛菈！\n一辉的魔法才能相当差劲，但他的剑术却极为高超！\n史黛菈心里虽有千万个不情愿，她的目光却越来越离不开一辉。\n而另一方面，曾经的〈落第骑士〉重新以〈无冕剑王〉的身分，在这场争夺骑士顶点的战争中崭露头角！",
   "types": [
-    "魔法/冒险/校园/后宫"
+    "魔法",
+    "冒险",
+    "校园",
+    "后宫"
   ],
   "authors": "海空陆",
   "first_letter": "L",
-  "subscribe_num": 106533,
-  "redis_update_time": 1564313257,
+  "subscribe_num": 106744,
+  "redis_update_time": 1564534944,
   "volume": [
     {
       "id": 6024,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1399955878,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6032,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1400257615,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6625,
@@ -41,7 +44,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1421059172,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6636,
@@ -49,7 +52,7 @@
       "volume_name": "短篇",
       "volume_order": 40,
       "addtime": 1421409775,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6816,
@@ -57,7 +60,7 @@
       "volume_name": "第四卷",
       "volume_order": 50,
       "addtime": 1429093378,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6866,
@@ -65,7 +68,7 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1431363266,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7275,
@@ -73,7 +76,7 @@
       "volume_name": "第六卷",
       "volume_order": 70,
       "addtime": 1444130376,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7697,
@@ -81,7 +84,7 @@
       "volume_name": "第零卷",
       "volume_order": 80,
       "addtime": 1460311576,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7705,
@@ -89,7 +92,7 @@
       "volume_name": "第七卷",
       "volume_order": 90,
       "addtime": 1460556531,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7717,
@@ -97,7 +100,7 @@
       "volume_name": "第八卷",
       "volume_order": 100,
       "addtime": 1460727052,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7719,
@@ -105,7 +108,7 @@
       "volume_name": "第九卷",
       "volume_order": 110,
       "addtime": 1460742068,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7921,
@@ -113,7 +116,7 @@
       "volume_name": "第十卷",
       "volume_order": 120,
       "addtime": 1466523682,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 8461,
@@ -121,7 +124,7 @@
       "volume_name": "第十一卷",
       "volume_order": 130,
       "addtime": 1485440954,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 9151,
@@ -129,7 +132,7 @@
       "volume_name": "第十二卷",
       "volume_order": 140,
       "addtime": 1514890882,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 9636,
@@ -137,7 +140,7 @@
       "volume_name": "第十三卷",
       "volume_order": 150,
       "addtime": 1534587428,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 10194,
@@ -145,7 +148,717 @@
       "volume_name": "第十四卷",
       "volume_order": 160,
       "addtime": 1561634048,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6024,
+      "id": 6024,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41883,
+          "chapter_name": "序章 早晨的相遇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41884,
+          "chapter_name": "第一章 天才骑士与落第骑士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41885,
+          "chapter_name": "第二章 来自旧巢的访客",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41886,
+          "chapter_name": "第三章 解放军（Rebellion）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41889,
+          "chapter_name": "第四章 初战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41890,
+          "chapter_name": "终章 月下誓言",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41891,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6032,
+      "id": 6032,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 41931,
+          "chapter_name": "序章 遥远往事的回忆",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42107,
+          "chapter_name": "第一章 收徒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42977,
+          "chapter_name": "第二章 逢魔之时",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46522,
+          "chapter_name": "第三章 绫辻绚濑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46523,
+          "chapter_name": "第四章 决战！〈落第骑士（Worst one）〉VS〈剑士杀手（Sword Eater）〉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46524,
+          "chapter_name": "终章 寒冰微笑",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46525,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6625,
+      "id": 6625,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 47576,
+          "chapter_name": "序章 珠雫的挑战",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47577,
+          "chapter_name": "第一章〈深海魔女（Lorelei）〉VS〈雷切〉",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47578,
+          "chapter_name": "第二章 奥多摩的怪物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47579,
+          "chapter_name": "第三章 身陷逆境的〈落第骑士（Worst one）〉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47580,
+          "chapter_name": "第四章 一刀两断",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47581,
+          "chapter_name": "终章 无冕剑王（Another one）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47582,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6636,
+      "id": 6636,
+      "volume_name": "短篇",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 47683,
+          "chapter_name": "加加美的秘密跟踪采访/史黛菈篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48187,
+          "chapter_name": "加加美的秘密跟踪采访/黑铁珠雫篇",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 6816,
+      "id": 6816,
+      "volume_name": "第四卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 49310,
+          "chapter_name": "序章 雪国的街道",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49311,
+          "chapter_name": "第一章 强化集训",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49312,
+          "chapter_name": "第二章 阴谋蠢动",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49313,
+          "chapter_name": "第三章 晓，进军",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49314,
+          "chapter_name": "第四章 过早的决战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49315,
+          "chapter_name": "终章 幕后黑手（fixer）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49316,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6866,
+      "id": 6866,
+      "volume_name": "第五卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 49747,
+          "chapter_name": "序章 祭典的乐声",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49748,
+          "chapter_name": "第一章 全国的劲敌们",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49749,
+          "chapter_name": "第二章 浪速之星",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49750,
+          "chapter_name": "第三章 七星剑武祭·开幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49751,
+          "chapter_name": "第四章 决战·〈无冕剑王〉VS〈七星剑王〉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49752,
+          "chapter_name": "终章 好戏登场",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49753,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7275,
+      "id": 7275,
+      "volume_name": "第六卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 53554,
+          "chapter_name": "间章 反射术士",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53555,
+          "chapter_name": "第五章 快刀斩乱麻",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53556,
+          "chapter_name": "第六章 初战终了",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53557,
+          "chapter_name": "第七章 七星剑武祭第二轮战·开战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53558,
+          "chapter_name": "间章 转暗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53724,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7697,
+      "id": 7697,
+      "volume_name": "第零卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 59521,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59522,
+          "chapter_name": "Introduction",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59523,
+          "chapter_name": "第一话 公主殿下的异国文化（HENTAI）体验",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59524,
+          "chapter_name": "第二话 珠雫与第一杯酒",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59525,
+          "chapter_name": "第三话 一决胜负！？〈红莲皇女〉VS〈深海魔女〉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59526,
+          "chapter_name": "第四话 少女的骑士道",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59527,
+          "chapter_name": "第五话 史黛拉难眠的一夜",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59528,
+          "chapter_name": "第零话 落第骑士英雄谭·Episode0",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59529,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 59542,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7705,
+      "id": 7705,
+      "volume_name": "第七卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 59739,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59740,
+          "chapter_name": "间章 毫无余韵的胜利",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59741,
+          "chapter_name": "第八章 喧闹不休的医务室",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59742,
+          "chapter_name": "第九章 战士们略微喧嚣的中场休息",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59743,
+          "chapter_name": "第十章 七星剑舞祭第三轮战・开战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59744,
+          "chapter_name": "间章 鲜血的结局",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59745,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59746,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7717,
+      "id": 7717,
+      "volume_name": "第八卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 59729,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59730,
+          "chapter_name": "间章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59731,
+          "chapter_name": "第十一章 鲜血的真相",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59732,
+          "chapter_name": "第十二章 双龙相剋",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59733,
+          "chapter_name": "第十三章 阴云密布的淮决赛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59734,
+          "chapter_name": "间章 姗姗来迟",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59735,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59736,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7719,
+      "id": 7719,
+      "volume_name": "第九卷",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 65691,
+          "chapter_name": "转载信息",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 65692,
+          "chapter_name": "第十四章 战魂高昂",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 65693,
+          "chapter_name": "终章（前） 约定之刻",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 65694,
+          "chapter_name": "终章（后） 并立之人",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 65695,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 59752,
+          "chapter_name": "插图",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 7921,
+      "id": 7921,
+      "volume_name": "第十卷",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 62968,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 62969,
+          "chapter_name": "序章 地狱蜘蛛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 62970,
+          "chapter_name": "第一章 祭典结束",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 62971,
+          "chapter_name": "第二章 《深海魔女》和《白衣骑士》",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 62972,
+          "chapter_name": "第三章 法米利昂王国",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 62973,
+          "chapter_name": "第四章 惨剧开幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 62975,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 62974,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8461,
+      "id": 8461,
+      "volume_name": "第十一卷",
+      "volume_order": 130,
+      "chapters": [
+        {
+          "chapter_id": 72205,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 72201,
+          "chapter_name": "第五章《落第骑士》vs《红莲的荒狮子》！？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 72202,
+          "chapter_name": "第六章 杀戮之夜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 72203,
+          "chapter_name": "第七章 库雷迪路兰特访问",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 72204,
+          "chapter_name": "第八章 名为法米利昂的国家",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 72206,
+          "chapter_name": "第九章 卡鲁迪亚巷战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 72207,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 72208,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 9151,
+      "id": 9151,
+      "volume_name": "第十二卷",
+      "volume_order": 140,
+      "chapters": [
+        {
+          "chapter_id": 81749,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81750,
+          "chapter_name": "间章 第一皇女的决心",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81751,
+          "chapter_name": "第十章 皇族的职责",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81752,
+          "chapter_name": "第十一章 洁白之巅",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81753,
+          "chapter_name": "第十二章 严寒的考验",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81754,
+          "chapter_name": "第十三章 来自〈神龙寺〉的刺客",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81755,
+          "chapter_name": "第十四章 法米利昂之剑",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81756,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 81757,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9636,
+      "id": 9636,
+      "volume_name": "第十三卷",
+      "volume_order": 150,
+      "chapters": [
+        {
+          "chapter_id": 89070,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 89071,
+          "chapter_name": "间章 凶信",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 89072,
+          "chapter_name": "第十五章 月下乱斗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 89073,
+          "chapter_name": "第十六章 王都开战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 89074,
+          "chapter_name": "第十七章 不转杀手",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 89075,
+          "chapter_name": "第十八章 狂飙突进",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 89076,
+          "chapter_name": "间章 迟来的魔女",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 89077,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 89078,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10194,
+      "id": 10194,
+      "volume_name": "第十四卷",
+      "volume_order": 160,
+      "chapters": [
+        {
+          "chapter_id": 97421,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 97422,
+          "chapter_name": "间章 泪雨",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 97423,
+          "chapter_name": "第十九章 魔人对决",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 97424,
+          "chapter_name": "第二十章 难舍的情谊",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 97425,
+          "chapter_name": "第二十一章 天理难容的心愿",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 97426,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 97439,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

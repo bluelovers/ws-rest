@@ -16,8 +16,8 @@
   ],
   "authors": "本谷有希子",
   "first_letter": "A",
-  "subscribe_num": 359,
-  "redis_update_time": 1564292528,
+  "subscribe_num": 360,
+  "redis_update_time": 1564480205,
   "volume": [
     {
       "id": 6266,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1408019507,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6266,
+      "id": 6266,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 44159,
+          "chapter_name": "1－5",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44160,
+          "chapter_name": "6－10",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44161,
+          "chapter_name": "11－15",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44162,
+          "chapter_name": "16－20",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44163,
+          "chapter_name": "21－25",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44164,
+          "chapter_name": "26－30",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

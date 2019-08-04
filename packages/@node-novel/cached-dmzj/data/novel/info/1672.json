@@ -12,12 +12,14 @@
   "hot_hits": 16066,
   "introduction": "每天平凡无奇的日子不一定能够永远持续下去……一向形影不离的好友某天竟摔进时空隧道的另一端，跑到一千年后去了，为了追寻好友的下落，超爱吃马卡龙的天真少女参加科学人体实验获得了不死之身，开始了千年之旅。其间地球经历了种种可怕的问题——瘟疫、暖化、陨石撞击、外星人来袭、核武、辐射……马卡龙女孩最后能否得到属于她的幸福呢？\n这是日本网路小说界当红新人作家与NicoNico动画人气绘者，为您合作呈献的短篇集。\n内容包含超爱吃马卡龙的天真少女生存一千年的故事、能与水泥对话的女孩的故事、奇妙外星人啪啦啵啰噗噜的恋爱故事、以及来自蝉王国的蝉子的故事……一则则幸福、心酸、可爱，有点不可思议的故事。",
   "types": [
-    "冒险/科幻/奇幻"
+    "冒险",
+    "科幻",
+    "奇幻"
   ],
   "authors": "からて",
   "first_letter": "M",
   "subscribe_num": 661,
-  "redis_update_time": 1564274264,
+  "redis_update_time": 1564527857,
   "volume": [
     {
       "id": 6149,
@@ -25,7 +27,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1404393205,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6149,
+      "id": 6149,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 43046,
+          "chapter_name": "第1话 马卡龙女孩的地球千年之旅",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43047,
+          "chapter_name": "第2话 能与水泥对话的女孩",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43048,
+          "chapter_name": "第3话 啪啦啵罗噗噜呸罗啵罗啪啦澎",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43049,
+          "chapter_name": "第4话 说谎的蝉，蔚蓝的天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43050,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

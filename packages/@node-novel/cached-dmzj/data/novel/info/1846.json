@@ -12,12 +12,16 @@
   "hot_hits": 2114811,
   "introduction": "热爱美食与阅读的「独行侠」高中生丘村日色，和班上的四个现充同学一起闯入了异世界。\n受到希望他们以「勇者」身分拯救「人类国」的公主请托，现充们各个摩拳擦掌，此时，日色却发现自己获得的称号是――「遭受波及者」？\n既回不去原本的世界，又对兴致勃勃的勇者们一点兴趣也没有。\n可是，难得有机会来到异世界，日色也想好好体验这里的生活。\n为了体验更多未曾见识过的美食与书籍，日色从一连串文字中发现只属于自己的能力「文字魔法」，并且运用这份能力，踏上一个人的冒险旅程！\n即使来到异世界仍不改「独行侠」作风的日色还不知道，在不久的将来，自己将被称为英雄……",
   "types": [
-    "冒险/魔法/异界/穿越/后宫"
+    "冒险",
+    "魔法",
+    "异界",
+    "穿越",
+    "后宫"
   ],
   "authors": "十本スイ",
   "first_letter": "J",
-  "subscribe_num": 31539,
-  "redis_update_time": 1564312229,
+  "subscribe_num": 31551,
+  "redis_update_time": 1564386087,
   "volume": [
     {
       "id": 6769,
@@ -25,15 +29,15 @@
       "volume_name": "WEB版",
       "volume_order": 10,
       "addtime": 1426567539,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6830,
       "lnovel_id": 1846,
-      "volume_name": "第一卷 ",
+      "volume_name": "第一卷",
       "volume_order": 20,
       "addtime": 1429874213,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 6831,
@@ -41,7 +45,7 @@
       "volume_name": "第二卷 薇茵卡·吉欧篇",
       "volume_order": 30,
       "addtime": 1429874219,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7957,
@@ -49,7 +53,7 @@
       "volume_name": "第三卷",
       "volume_order": 40,
       "addtime": 1467979147,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8199,
@@ -57,7 +61,7 @@
       "volume_name": "第四卷",
       "volume_order": 50,
       "addtime": 1475838327,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8571,
@@ -65,7 +69,7 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1490368995,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8734,
@@ -73,7 +77,7 @@
       "volume_name": "第六卷",
       "volume_order": 70,
       "addtime": 1496995028,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9031,
@@ -81,7 +85,7 @@
       "volume_name": "第七卷",
       "volume_order": 80,
       "addtime": 1509269827,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9601,
@@ -89,7 +93,7 @@
       "volume_name": "第八卷",
       "volume_order": 90,
       "addtime": 1533203487,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10016,
@@ -97,7 +101,7 @@
       "volume_name": "第九卷",
       "volume_order": 100,
       "addtime": 1552827971,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10023,
@@ -105,7 +109,627 @@
       "volume_name": "第十卷",
       "volume_order": 110,
       "addtime": 1553612307,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6769,
+      "id": 6769,
+      "volume_name": "WEB版",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 48901,
+          "chapter_name": "WEB版1-14",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48902,
+          "chapter_name": "WEB版 15-30",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48903,
+          "chapter_name": "WEB版 31-45",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48904,
+          "chapter_name": "WEB版 46-60",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48905,
+          "chapter_name": "WEB版 61-75",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48906,
+          "chapter_name": "WEB版 76-85",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48970,
+          "chapter_name": "WEB版 86-100",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48971,
+          "chapter_name": "WEB版 101-107",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 49215,
+          "chapter_name": "WEB版 108-120",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 49216,
+          "chapter_name": "WEB版 121-140",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 49217,
+          "chapter_name": "WEB版 141-154",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 6830,
+      "id": 6830,
+      "volume_name": "第一卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 49759,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49760,
+          "chapter_name": "第一章 被卷入异世界",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49761,
+          "chapter_name": "第二章 启程",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49762,
+          "chapter_name": "第二章 相遇总是太突然",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49763,
+          "chapter_name": "第四章 兽槛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49764,
+          "chapter_name": "第五章 抓狂的日色",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49765,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 49766,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6831,
+      "id": 6831,
+      "volume_name": "第二卷 薇茵卡·吉欧篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 67555,
+          "chapter_name": "第二卷 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 67556,
+          "chapter_name": "第二卷 第一章 谜样少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67557,
+          "chapter_name": "第二卷 第二章 怪物之声",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67558,
+          "chapter_name": "第二卷 第三章 兽觉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67559,
+          "chapter_name": "第二卷 第四章 逃离布斯卡多尔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 67560,
+          "chapter_name": "第二卷 尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 67561,
+          "chapter_name": "第二卷 后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7957,
+      "id": 7957,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 63460,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63461,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67880,
+          "chapter_name": "第一章 奇特的画家",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67881,
+          "chapter_name": "第二章 诱饵与魔法画笔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67882,
+          "chapter_name": "第三章 独特怪兽",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 67883,
+          "chapter_name": "第四章 金色的初生之啼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 67884,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 67885,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 67887,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8199,
+      "id": 8199,
+      "volume_name": "第四卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 67562,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 67563,
+          "chapter_name": "序章",
+          "chapter_order": 15
+        },
+        {
+          "chapter_id": 67564,
+          "chapter_name": "第一章 菲雅丽丝花园",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 67565,
+          "chapter_name": "第二章 变装术觉醒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 67566,
+          "chapter_name": "第三章 试练与邂逅",
+          "chapter_order": 31
+        },
+        {
+          "chapter_id": 67567,
+          "chapter_name": "第四章 大树之实",
+          "chapter_order": 32
+        },
+        {
+          "chapter_id": 67568,
+          "chapter_name": "第五章 抉择──胜负之分",
+          "chapter_order": 33
+        },
+        {
+          "chapter_id": 67569,
+          "chapter_name": "第六章 别离，然后踏上旅程",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 67570,
+          "chapter_name": "尾声Ⅰ",
+          "chapter_order": 45
+        },
+        {
+          "chapter_id": 67571,
+          "chapter_name": "尾声Ⅱ",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 67572,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 67624,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 8571,
+      "id": 8571,
+      "volume_name": "第五卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 73126,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 73127,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 73128,
+          "chapter_name": "第一章 第三大陆——魔界",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 73129,
+          "chapter_name": "第二章 与红萝莉的契约及新的旅伴",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 73130,
+          "chapter_name": "第三章 拉欧普沙漠与阿斯拉族",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 73131,
+          "chapter_name": "第四章 父与子，意志的传承",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 73132,
+          "chapter_name": "第五章 阿斯拉火锅大团圆",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 73133,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 73134,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 73147,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8734,
+      "id": 8734,
+      "volume_name": "第六卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 76208,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 76209,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 76210,
+          "chapter_name": "第一章 艾菲斯族的部落",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 76211,
+          "chapter_name": "第二章 夏摩威的兽觉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 76212,
+          "chapter_name": "第三章 探索与农田小偷",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 76213,
+          "chapter_name": "第四章 疯狂兽人，来袭",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 76214,
+          "chapter_name": "第五章 由怪兽养育之子",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 76215,
+          "chapter_name": "第六章 报仇与新伙伴",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 76216,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 76217,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 76230,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9031,
+      "id": 9031,
+      "volume_name": "第七卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 80383,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80384,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80385,
+          "chapter_name": "第一章 各自的邂逅",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80386,
+          "chapter_name": "第二章 人魔同盟缔结会谈",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80387,
+          "chapter_name": "第三章 背叛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80388,
+          "chapter_name": "第四章 日色，参战！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 80389,
+          "chapter_name": "第五章 英雄的徵兆",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 80390,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 80391,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 80392,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9601,
+      "id": 9601,
+      "volume_name": "第八卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 88583,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 88584,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 88585,
+          "chapter_name": "第一章 穆迪希之桥，崩塌",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 88586,
+          "chapter_name": "第二章 王者们的选择",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 88587,
+          "chapter_name": "第三章 令人怀念的脸孔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 88588,
+          "chapter_name": "第四章 惊愕的第一回合",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 88589,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 88590,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 88591,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10016,
+      "id": 10016,
+      "volume_name": "第九卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 94751,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94768,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94769,
+          "chapter_name": "第一章 究极单挑对决",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94770,
+          "chapter_name": "第二章 一进一退的两阵营",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94771,
+          "chapter_name": "第三章 胜者将拳头高举天际",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94772,
+          "chapter_name": "第四章 马塔尔•宙斯",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94773,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94774,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 94779,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10023,
+      "id": 10023,
+      "volume_name": "第十卷",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 94868,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 94869,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 94870,
+          "chapter_name": "第一章 精灵之森",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 94871,
+          "chapter_name": "第二章 精灵契约与传说中的铁匠",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 94872,
+          "chapter_name": "第三章 造访帕西翁",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 94873,
+          "chapter_name": "第四章 马塔尔•宙斯的暗中活跃",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 94874,
+          "chapter_name": "尾声Ⅰ",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 94875,
+          "chapter_name": "尾声Ⅱ",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 94876,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 94877,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

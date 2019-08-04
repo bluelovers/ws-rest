@@ -12,12 +12,14 @@
   "hot_hits": 35085,
   "introduction": "我被别人给踩着——踩着我的是一名穿着酒红色水手服的少女。我只是「摸了摄影社的相机」，结果就被少女践踏在脚下了。这到底是什么情况？少女「华怜」还说：「我早就已经死了。」（让人不明所以的情况再添一笔。）看样子我好像是被鬼魂（一类的东西）缠身了……大概是吧。「答应我。你必须用这个镜头拍下一百个『意念』……雨野晶，你没有说不的权利！」-在如此唐突的状况下，厌恶照相机到宁可去死的我，与附身在镜头里的少女华怜，就此展开了奇妙的共同生活。",
   "types": [
-    "神鬼/校园/爱情"
+    "神鬼",
+    "校园",
+    "爱情"
   ],
   "authors": "三上康明",
   "first_letter": "S",
-  "subscribe_num": 465,
-  "redis_update_time": 1564308143,
+  "subscribe_num": 466,
+  "redis_update_time": 1564509902,
   "volume": [
     {
       "id": 5770,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 镜头、我与死者之声",
       "volume_order": 10,
       "addtime": 1390202855,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6209,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 把奇迹之歌献给你",
       "volume_order": 20,
       "addtime": 1406115325,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6708,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 七之强者",
       "volume_order": 30,
       "addtime": 1424338935,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6709,
@@ -49,7 +51,171 @@
       "volume_name": "第四卷 再见了，华怜",
       "volume_order": 40,
       "addtime": 1424338978,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5770,
+      "id": 5770,
+      "volume_name": "第一卷 镜头、我与死者之声",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39647,
+          "chapter_name": "主要人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39648,
+          "chapter_name": "序章 迫近的危机与猫的故事",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39649,
+          "chapter_name": "第1章 你说，你死于10年前",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39650,
+          "chapter_name": "第2章 适合谈论往事的夜晚",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39651,
+          "chapter_name": "第3章 跳吧！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39652,
+          "chapter_name": "第4章 明月、相机与杀人魔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39653,
+          "chapter_name": "末章 镜头诞生的那一天",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39654,
+          "chapter_name": "名为后记的篇章——在放学后的教室中",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6209,
+      "id": 6209,
+      "volume_name": "第二卷 把奇迹之歌献给你",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 43652,
+          "chapter_name": "序章 正午的拜访者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43653,
+          "chapter_name": "第1章 不幸的遭遇总是来得如此唐突",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43654,
+          "chapter_name": "第2章 五秒的真相",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43655,
+          "chapter_name": "第3章 奇迹之歌",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43656,
+          "chapter_name": "末章 祝福的街角",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 6708,
+      "id": 6708,
+      "volume_name": "第三卷 七之强者",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 48314,
+          "chapter_name": "序章 再会的街角",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48315,
+          "chapter_name": "第1章 勃发",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48316,
+          "chapter_name": "第2章 学长与学妹",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48317,
+          "chapter_name": "第3章 交错的事件",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48318,
+          "chapter_name": "第4章 「红与黑」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48319,
+          "chapter_name": "末章 七之强者",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6709,
+      "id": 6709,
+      "volume_name": "第四卷 再见了，华怜",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 48320,
+          "chapter_name": "序章 凌晨三点，小憩片刻",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48321,
+          "chapter_name": "第1章 太沉重的负荷，太渺小的背影",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48322,
+          "chapter_name": "第2章 那个人说：「你必须做出选择。」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48323,
+          "chapter_name": "第3章 约定",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48324,
+          "chapter_name": "第4章 我们的希望",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48327,
+          "chapter_name": "末章 恋情的去向",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48326,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

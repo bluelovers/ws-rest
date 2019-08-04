@@ -12,12 +12,15 @@
   "hot_hits": 152104,
   "introduction": "从前，神之化身【圣骸】在「大崩坏」时代拯救了全世界。以成为裴力克里兹王国公认的操铠士为目标，少年‧马基特来到了王都，却发生了预料外的事情，以致未能通过考试。心灰意冷的马基特在启程回家时，顺道走访了一趟教导院的地底，见到了有如腐朽化石般的【圣骸】，后来更与沉睡在其中的谜样少女‧克克露相遇了。就在这时候，他们遭到了灾祸之源【涡兽】的袭击。于是，少女轻声说了──「和我孕育孩子吧？」此话一出，让一度中止的「神话」再次觉醒，赋予了闪烁著白银光芒的神之化身＜克洛克露瓦赫．尤里真＞新的生命。当少年与少女操纵著神之化身的同时，从长眠中苏醒的「神话」也咆啸出声──由一段悠久历史所编织而成的传奇摇篮！",
   "types": [
-    "神鬼/爱情/格斗/冒险"
+    "神鬼",
+    "爱情",
+    "格斗",
+    "冒险"
   ],
   "authors": "内田俊",
   "first_letter": "X",
-  "subscribe_num": 6232,
-  "redis_update_time": 1564312103,
+  "subscribe_num": 6233,
+  "redis_update_time": 1564535816,
   "volume": [
     {
       "id": 5769,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1390202728,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6945,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1433506442,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 8034,
@@ -41,7 +44,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1471096749,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 8302,
@@ -49,7 +52,181 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1479638426,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5769,
+      "id": 5769,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39641,
+          "chapter_name": "第一章 神的蜕壳",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39642,
+          "chapter_name": "第二章 铁壁般的监督者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39643,
+          "chapter_name": "第三章 街角的异邦人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39644,
+          "chapter_name": "第四章 漆黑的圣骸",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39645,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39646,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6945,
+      "id": 6945,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 50511,
+          "chapter_name": "第一章 南方守护龙",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50512,
+          "chapter_name": "第二章 校园日常",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50513,
+          "chapter_name": "第三章 空虚的约会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50514,
+          "chapter_name": "第四章 白墙城塞",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50515,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50516,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 8034,
+      "id": 8034,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 64729,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 64730,
+          "chapter_name": "第一章 英雄的条件",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 64731,
+          "chapter_name": "第二章 贤人的宴席",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 64732,
+          "chapter_name": "第三章 魔眼的后裔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 64733,
+          "chapter_name": "第四章 战火的前兆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 64734,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 64735,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 64736,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8302,
+      "id": 8302,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 69069,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69070,
+          "chapter_name": "第一章 终结的开端",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69071,
+          "chapter_name": "第二章 遗忘的罪孽",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69072,
+          "chapter_name": "第三章 断绝的世界",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69073,
+          "chapter_name": "第四章 圆环的圣骸",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69074,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 69075,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 69076,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

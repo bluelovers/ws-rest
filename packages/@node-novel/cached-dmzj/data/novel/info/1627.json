@@ -12,12 +12,13 @@
   "hot_hits": 107353,
   "introduction": "　「……因为我总算找到了。我的————枕头。」\n　　我名叫内藤优一，在读书馆邂逅了神秘的美少女，木枕异羽。她在睡着的期间会变成拥有预知能力的超能力者——代号《全知全能的公主》，她好像还在那间赫赫有名的大企业「羽岛集团」旗下打工。>\n　　「我在睡着的期间会成为超能力者！你就是我的伙伴，所以在我睡着时，你必须一直待在我的身边才行\n　　于是让她能够安心睡着的我，莫名其妙就成为她的伙伴……",
   "types": [
-    "校园/魔法"
+    "校园",
+    "魔法"
   ],
   "authors": "境京亮",
   "first_letter": "B",
-  "subscribe_num": 1912,
-  "redis_update_time": 1564311345,
+  "subscribe_num": 1915,
+  "redis_update_time": 1564532197,
   "volume": [
     {
       "id": 6008,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1399183567,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6259,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1407847305,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7317,
@@ -41,7 +42,183 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1446556155,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6008,
+      "id": 6008,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41712,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41713,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41714,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41715,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41716,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41717,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41718,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41719,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 41720,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 41721,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 6259,
+      "id": 6259,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 44100,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44101,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44102,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44103,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44104,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44105,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44106,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44107,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 44108,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 44109,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7317,
+      "id": 7317,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 54142,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 54143,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 54144,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 54145,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 54146,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 54147,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 54148,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 54149,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 54150,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 54151,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

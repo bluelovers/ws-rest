@@ -12,12 +12,13 @@
   "hot_hits": 501172,
   "introduction": "「这个家，感觉很温暖呢。」<br>\n「……？现在是夏天，所以应该很热吧。」<br>\n位于日本的某间穷酸工务店‧饭山家，突然出现一名千里迢迢从德国飞来的少年，笠取真哉。这位天才国中生的真实身分，其实是世界级顶尖企业‧OrionLute的创办人。只要他动动手指，连操纵军事卫星都不是什么难事。真哉因为某些原因，隐藏自己的身分，成为饭山家的食客。只不过……<br>\n「家里还有年纪差不多的女生在，怎么可以说同居就同居！」<br>\n……跟他同住一个屋檐下的，是兴趣与个性完全不同的三姊妹！？过去经验在这里完全派不上用场──社长，这该如何是好？<br>\n围绕着全世界最厉害少年社长，以及可爱逗趣三姊妹的恋爱家庭喜剧。",
   "types": [
-    "搞笑/爱情"
+    "搞笑",
+    "爱情"
   ],
   "authors": "七条刚",
   "first_letter": "W",
-  "subscribe_num": 13540,
-  "redis_update_time": 1564313180,
+  "subscribe_num": 13546,
+  "redis_update_time": 1564530784,
   "volume": [
     {
       "id": 5978,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1398734472,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6241,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1407064914,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6439,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1414932319,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6755,
@@ -49,7 +50,7 @@
       "volume_name": "第3.5卷",
       "volume_order": 40,
       "addtime": 1426074193,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6779,
@@ -57,7 +58,7 @@
       "volume_name": "第四卷",
       "volume_order": 50,
       "addtime": 1427212581,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6971,
@@ -65,7 +66,7 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1434457282,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7184,
@@ -73,7 +74,7 @@
       "volume_name": "第六卷",
       "volume_order": 70,
       "addtime": 1441287906,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7385,
@@ -81,7 +82,7 @@
       "volume_name": "第七卷",
       "volume_order": 80,
       "addtime": 1450179896,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 8555,
@@ -89,7 +90,7 @@
       "volume_name": "第八卷",
       "volume_order": 90,
       "addtime": 1489327299,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 8773,
@@ -97,7 +98,514 @@
       "volume_name": "第九卷",
       "volume_order": 100,
       "addtime": 1498664020,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5978,
+      "id": 5978,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41499,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41500,
+          "chapter_name": "第一章 这一家子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41501,
+          "chapter_name": "第二章 谜之食客",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41502,
+          "chapter_name": "第三章 学校和堂吉诃德",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41503,
+          "chapter_name": "第四章 任性的电风扇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41504,
+          "chapter_name": "第五章 平常的休息日",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41505,
+          "chapter_name": "第六章 天空的碎片",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41506,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 41507,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6241,
+      "id": 6241,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 43920,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43921,
+          "chapter_name": "第一章 图书委员",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43922,
+          "chapter_name": "第二章 那个谎言",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43923,
+          "chapter_name": "第三章 开始广为流传的游戏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43924,
+          "chapter_name": "第四章 神秘游戏里的秘密",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43925,
+          "chapter_name": "第五章 测验，开始",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43926,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43927,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6439,
+      "id": 6439,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 45783,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48823,
+          "chapter_name": "第一章 常夏的乐园",
+          "chapter_order": 15
+        },
+        {
+          "chapter_id": 47252,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47253,
+          "chapter_name": "第三章 突然的骤雨",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47254,
+          "chapter_name": "第四章 枪声和那个约定和",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47263,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47264,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6755,
+      "id": 6755,
+      "volume_name": "第3.5卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 52264,
+          "chapter_name": "起床",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52265,
+          "chapter_name": "01 一起去看牙医吧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52266,
+          "chapter_name": "02 一起去大众澡堂吧",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52267,
+          "chapter_name": "03 一起去寻找幽灵吧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52268,
+          "chapter_name": "04 一起来打工吧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52269,
+          "chapter_name": "05 一起来提升可爱魅力吧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52270,
+          "chapter_name": "06 一起来举办运动会吧",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52271,
+          "chapter_name": "上学",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52272,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6779,
+      "id": 6779,
+      "volume_name": "第四卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 48990,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48991,
+          "chapter_name": "第一章 百货店的奇遇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48992,
+          "chapter_name": "第二章 第二学期的重逢",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48993,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48994,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48995,
+          "chapter_name": "第五章 去往白线的内侧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48996,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48997,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6971,
+      "id": 6971,
+      "volume_name": "第五卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 50795,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50796,
+          "chapter_name": "第一章 社长秘书，来到日本",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51030,
+          "chapter_name": "第二章 秘书在的日常",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51031,
+          "chapter_name": "第三章 突然的来访者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51123,
+          "chapter_name": "第四章 秘书不在的非日常",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51460,
+          "chapter_name": "第五章 Orion女王（Queen of Orion）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51461,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51462,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7184,
+      "id": 7184,
+      "volume_name": "第六卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 52773,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52774,
+          "chapter_name": "第一章 离家少女渡过大海",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53780,
+          "chapter_name": "第二章 证券商和饭山家",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53824,
+          "chapter_name": "第三章 来约会吧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53928,
+          "chapter_name": "第四章 未来的预约券",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 54132,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 54133,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7385,
+      "id": 7385,
+      "volume_name": "第七卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 55539,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55540,
+          "chapter_name": "第一章 去温泉旅馆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 55541,
+          "chapter_name": "第二章 工作与回忆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 56676,
+          "chapter_name": "第三章 违心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 56677,
+          "chapter_name": "第四章 那优美的景象",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 56678,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 56679,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59272,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8555,
+      "id": 8555,
+      "volume_name": "第八卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 72875,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 72876,
+          "chapter_name": "出发",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 72877,
+          "chapter_name": "第一章 打扫泳池",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 72878,
+          "chapter_name": "第二章 捕获金枪鱼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 72879,
+          "chapter_name": "第三章 扮演灰姑娘",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 72880,
+          "chapter_name": "第四章 接受入职考试吧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 72881,
+          "chapter_name": "第五章 和我签订契约，成为魔法少女吧",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 72882,
+          "chapter_name": "第六章 打倒僵尸",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 72883,
+          "chapter_name": "3s到达",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 72884,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 8773,
+      "id": 8773,
+      "volume_name": "第九卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 76819,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 76820,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 76821,
+          "chapter_name": "第一幕 歌姬降临",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 76822,
+          "chapter_name": "第二幕 从舞台边上走来的转校生",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 76823,
+          "chapter_name": "幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 76824,
+          "chapter_name": "第三幕 预定之中的攻击",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 76825,
+          "chapter_name": "幕间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 76826,
+          "chapter_name": "第四幕 布鲁图斯在想什么",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 76827,
+          "chapter_name": "终幕",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 76828,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 77932,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

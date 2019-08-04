@@ -16,8 +16,8 @@
   ],
   "authors": "乙一",
   "first_letter": "Z",
-  "subscribe_num": 616,
-  "redis_update_time": 1564303703,
+  "subscribe_num": 618,
+  "redis_update_time": 1564523144,
   "volume": [
     {
       "id": 5825,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1392630127,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5825,
+      "id": 5825,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 40148,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40149,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40150,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40151,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40152,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40153,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

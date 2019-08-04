@@ -12,12 +12,13 @@
   "hot_hits": 66162,
   "introduction": "　　我们几个称那天为「流放日」。\n　　某天，雄太突然昏倒在学校的厕所。醒来时，原本平凡无奇的生活已剧烈改变。校舍四面八方覆盖上一层坚硬岩石，原因不明，而校内仅存十名生还者。没有阳光、手机也收不到讯号，找不到任何方法逃出学校。\n　　于是，这群「同班同学」开始了一段绝望的极限生活——",
   "types": [
-    "校园/恐怖"
+    "校园",
+    "恐怖"
   ],
   "authors": "二宫敦人",
   "first_letter": "A",
-  "subscribe_num": 1779,
-  "redis_update_time": 1564296100,
+  "subscribe_num": 1780,
+  "redis_update_time": 1564530961,
   "volume": [
     {
       "id": 6138,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 上",
       "volume_order": 10,
       "addtime": 1403858286,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6145,
@@ -33,7 +34,120 @@
       "volume_name": "第二卷 下",
       "volume_order": 20,
       "addtime": 1404140736,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6138,
+      "id": 6138,
+      "volume_name": "第一卷 上",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42882,
+          "chapter_name": "登场人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42883,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42884,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42885,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42886,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42887,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42888,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42889,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 42890,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6145,
+      "id": 6145,
+      "volume_name": "第二卷 下",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 42986,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42987,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42988,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42989,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42990,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42991,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42992,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42993,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 42994,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 42995,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

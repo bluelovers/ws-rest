@@ -12,12 +12,13 @@
   "hot_hits": 79670,
   "introduction": "罗姆尼亚帝国的「傻瓜皇子」萨法卡尔接到皇帝的敕命，被派任至边境担任长官。\n为争夺下届皇帝宝座，宫廷里充满了政治斗争与各种阴谋，\n此时被驱逐下放，人人都认为他注定被埋没在历史的阴影里。\n然而某天──\n「帝都派快马传信！情势已刻不容缓！」\n传令兵带来撼动世界帝国命运的情报。\n「今后帝国势必会动荡不安，必须要阻止这状况才行。」\n相信萨法卡尔才干的盟友们也挺身而出。\n「真想看一看这条旅程的终点，以及这场战役－─」\n萨法卡尔究竟是「傻瓜皇子」抑或是「稀世英雄」？\n被野放的翔翼猛虎大大翻转帝国命运的兴亡记，即将开幕！",
   "types": [
-    "冒险/战争"
+    "冒险",
+    "战争"
   ],
   "authors": "舞阪洸",
   "first_letter": "L",
   "subscribe_num": 2229,
-  "redis_update_time": 1564275147,
+  "redis_update_time": 1564389229,
   "volume": [
     {
       "id": 6672,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 翔翼猛虎",
       "volume_order": 10,
       "addtime": 1422795798,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 7811,
@@ -33,7 +34,135 @@
       "volume_name": "第二卷 转动风车的风",
       "volume_order": 20,
       "addtime": 1463078061,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6672,
+      "id": 6672,
+      "volume_name": "第一卷 翔翼猛虎",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 47971,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47972,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47973,
+          "chapter_name": "第一章 虎口",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47974,
+          "chapter_name": "第二章 启程",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47975,
+          "chapter_name": "第三章 半路脱逃",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47976,
+          "chapter_name": "中场休息",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47977,
+          "chapter_name": "第四章 邂逅",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 47978,
+          "chapter_name": "第五章 瓦解的开端",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 47979,
+          "chapter_name": "跋文",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 47980,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 61081,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 7811,
+      "id": 7811,
+      "volume_name": "第二卷 转动风车的风",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 61070,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61071,
+          "chapter_name": "前言",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61072,
+          "chapter_name": "第一章 适才适所的安瓣",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 61073,
+          "chapter_name": "第二章 奇计与密策",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 61074,
+          "chapter_name": "第三章 进城",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61075,
+          "chapter_name": "第四章 压制",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61076,
+          "chapter_name": "中场休息",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 61077,
+          "chapter_name": "第五章 暴风",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 61078,
+          "chapter_name": "第六章 群雄",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 61079,
+          "chapter_name": "跋文",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 61080,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

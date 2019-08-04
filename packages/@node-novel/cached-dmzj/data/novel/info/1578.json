@@ -17,7 +17,7 @@
   "authors": "筱田真由美",
   "first_letter": "M",
   "subscribe_num": 180,
-  "redis_update_time": 1564294189,
+  "redis_update_time": 1564515200,
   "volume": [
     {
       "id": 5803,
@@ -25,7 +25,37 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1392176433,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5803,
+      "id": 5803,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39900,
+          "chapter_name": "女儿回忆昨日的一切，母亲的生与死，以及其他",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39901,
+          "chapter_name": "男人们追寻过往的记忆，那个女人的生与死，以及其他",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39902,
+          "chapter_name": "少女不知不觉地，在陌生男子的引领下，踏进了废弃屋",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39903,
+          "chapter_name": "当我还是孩子的时候",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

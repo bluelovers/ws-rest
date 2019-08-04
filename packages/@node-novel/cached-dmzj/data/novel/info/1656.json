@@ -16,8 +16,8 @@
   ],
   "authors": "千田诚行",
   "first_letter": "T",
-  "subscribe_num": 218,
-  "redis_update_time": 1564249223,
+  "subscribe_num": 219,
+  "redis_update_time": 1564497969,
   "volume": [
     {
       "id": 6092,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1402190836,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6092,
+      "id": 6092,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42477,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42478,
+          "chapter_name": "第一章 三叶草叶子和铁锤头",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42479,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42480,
+          "chapter_name": "第三章 大家的天空",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42481,
+          "chapter_name": "第四章 两个一起，变强",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42482,
+          "chapter_name": "第五章 新翼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42483,
+          "chapter_name": "第六章 总有一天，一定会在同一片天空下",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42484,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

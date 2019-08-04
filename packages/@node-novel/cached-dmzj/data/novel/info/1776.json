@@ -12,12 +12,14 @@
   "hot_hits": 6928,
   "introduction": "与你初会之际……\n从那个时候起我就一直注视着你。\n所以我都知道、你的温柔、你的怯弱。\n周围的人无论说什么都没有关系。\n就算他们都讨厌你也无所谓。我、喜欢你呢。\n就算会与整个宇宙为敌，我也要选择你。\n……我爱你、雷比亚斯。\n无论发生什么事情，我都会在你的身边……\n——艾莉斯语——",
   "types": [
-    "魔法/冒险/爱情"
+    "魔法",
+    "冒险",
+    "爱情"
   ],
   "authors": "草剃陀美鸟",
   "first_letter": "A",
   "subscribe_num": 228,
-  "redis_update_time": 1564312700,
+  "redis_update_time": 1564412336,
   "volume": [
     {
       "id": 6503,
@@ -25,7 +27,42 @@
       "volume_name": "第一卷 于黑翼之下",
       "volume_order": 10,
       "addtime": 1417081042,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6503,
+      "id": 6503,
+      "volume_name": "第一卷 于黑翼之下",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46374,
+          "chapter_name": "第一话 拂晓前的梦 &lt;前篇&gt;",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46375,
+          "chapter_name": "第二话 银与金",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46376,
+          "chapter_name": "第三话 沙漠盛开之花",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46377,
+          "chapter_name": "第四话 拂晓前的梦&lt;后篇&gt;",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46378,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

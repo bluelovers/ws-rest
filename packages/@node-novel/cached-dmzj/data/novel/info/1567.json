@@ -12,12 +12,13 @@
   "hot_hits": 720987,
   "introduction": "修，是修邦雷努骑士学院的学生。一事无成，被逼到行将退学的地步的他，有个谁也不能说的，关于『家人』的秘密。为了守护重要的人，史上最弱的吊车尾朝『英雄』之路迈进。",
   "types": [
-    "冒险/魔法"
+    "冒险",
+    "魔法"
   ],
   "authors": "八街步",
   "first_letter": "B",
-  "subscribe_num": 9969,
-  "redis_update_time": 1564311970,
+  "subscribe_num": 9973,
+  "redis_update_time": 1564533894,
   "volume": [
     {
       "id": 5761,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 骑士之国的最弱英雄",
       "volume_order": 10,
       "addtime": 1389607649,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 5962,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 不愿哭泣的皇帝与剑圣少女",
       "volume_order": 20,
       "addtime": 1398216206,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6119,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷 动荡的王都与骑士公主",
       "volume_order": 30,
       "addtime": 1403016491,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6290,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷 打响的战争与终末姐妹",
       "volume_order": 40,
       "addtime": 1408879153,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7388,
@@ -57,7 +58,229 @@
       "volume_name": "第五卷 启程的英雄与救赎圣女",
       "volume_order": 50,
       "addtime": 1450233151,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5761,
+      "id": 5761,
+      "volume_name": "第一卷 骑士之国的最弱英雄",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39580,
+          "chapter_name": "序章 某学生指导室中",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39581,
+          "chapter_name": "第一章 骑士与公主与退学",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39582,
+          "chapter_name": "第二章 剑圣与家人与秘密",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39583,
+          "chapter_name": "第三章 妹妹与公主与迫近的危机",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39584,
+          "chapter_name": "第四章 车与魔兽与『灭神咒具』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39585,
+          "chapter_name": "第五章 龙与胜利与黄金骑士",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39586,
+          "chapter_name": "终章 终末姐妹与一旁的我",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39587,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5962,
+      "id": 5962,
+      "volume_name": "第二卷 不愿哭泣的皇帝与剑圣少女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 41347,
+          "chapter_name": "序章 修与友情与现充",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41348,
+          "chapter_name": "第一章 骑士与公主与国家代表",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41430,
+          "chapter_name": "第二章 剑定与剑圣与偷袭",
+          "chapter_order": 22
+        },
+        {
+          "chapter_id": 41379,
+          "chapter_name": "第三章 皇帝与姐姐与宴会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41410,
+          "chapter_name": "第四章 温泉与妹妹与背德的关系",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41431,
+          "chapter_name": "第五章 信赖与背叛与<天圣骑士>",
+          "chapter_order": 45
+        },
+        {
+          "chapter_id": 41427,
+          "chapter_name": "终章 皇帝与公主与秘密",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41428,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6119,
+      "id": 6119,
+      "volume_name": "第三卷 动荡的王都与骑士公主",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 42667,
+          "chapter_name": "序章 暗杀与阴谋与冲突",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42801,
+          "chapter_name": "第一章 禁闭与左迁与友情",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42802,
+          "chapter_name": "第二章 飞黄腾达与荣耀与崩坏的序曲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42803,
+          "chapter_name": "第三章 秘密与败露与潜逃",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42854,
+          "chapter_name": "终章 友情与青梅竹马的回忆与家族的羁绊",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42855,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6290,
+      "id": 6290,
+      "volume_name": "第四卷 打响的战争与终末姐妹",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 44350,
+          "chapter_name": "序章 一切的开始与和平的结束与王之死",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44388,
+          "chapter_name": "第一章 集结之时与来临之事与并非如此之事",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44436,
+          "chapter_name": "第二章 真心话与客套话与公主的决意",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44462,
+          "chapter_name": "第三章 处决与决战与新的真相",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44464,
+          "chapter_name": "第四章 因果境界与绝望与&lt;神霸融合&gt;",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44465,
+          "chapter_name": "终章 一切的终结与新的关系与今后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44466,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7388,
+      "id": 7388,
+      "volume_name": "第五卷 启程的英雄与救赎圣女",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 55571,
+          "chapter_name": "序章 新的旅程与机会与睡过头",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55572,
+          "chapter_name": "第一章 西方诸国与内乱与交涉",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 55578,
+          "chapter_name": "第二章 新教徒与巨人与圣女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 55574,
+          "chapter_name": "第三章 圣女的真面目与新的事实与通往和平的遒路",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 55575,
+          "chapter_name": "第四章 失控的姊姊与光芒的觉醒与一切的幕后黑手",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 55579,
+          "chapter_name": "终章 蒙受神恩的姊姊与害羞的妹妹与圣诞祭",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 55577,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

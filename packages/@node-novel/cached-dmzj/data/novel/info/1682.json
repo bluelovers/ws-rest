@@ -12,12 +12,14 @@
   "hot_hits": 23196,
   "introduction": "　　二十世纪最后一次的圣诞夜，在「圣所」中长眠的主终于苏醒；恶魔，也跟着睁开双眼——第一名神父的头骨被砸碎，第二名神父的牙齿被拔掉，第三名修女的舌头被剪断，第四名神父遭倒吊……接下来，只剩两人——天才科学家平贺和精于解读暗号的罗贝多，是梵谛冈秘密机关「圣座」的奇迹调查官，受理全球的「神迹申请」并检证真伪。\n　　这次，两人奉大主教之命，前往美国的圣玫瑰修道院执行三项任务：一是调查受诅咒、害死调查官的神迹—一「童女怀孕」及「圣母子显灵」；二是找出一名自杀的神父所留下、印着「RICH」字样的异教铜板另一半；三是协助大主教找出击溃敌对派系在梵谛冈势力的证据。\n　　然而，他们一抵达修道院，就在附设的学院中，发现更多不可告人的秘密……出现圣痕的少年、恶灵附身的学员、宿舍举行的异教仪式、流泪的玛利亚像，藏在校长室的《恶魔圣经》，以及一场狙击神父和修女的连续杀人事件——一场濒临失控的奇迹调查，牵扯出撼动梵谛冈和世界的骇人真相，在阴谋和罪孽的血色嘉年华中，神之国的调查官，能否毫发无伤走出这片异色之地……",
   "types": [
-    "神鬼/侦探/恐怖"
+    "神鬼",
+    "侦探",
+    "恐怖"
   ],
   "authors": "藤木禀",
   "first_letter": "F",
-  "subscribe_num": 2294,
-  "redis_update_time": 1564303753,
+  "subscribe_num": 2297,
+  "redis_update_time": 1564511803,
   "volume": [
     {
       "id": 6182,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 暗黑学院",
       "volume_order": 10,
       "addtime": 1405427626,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6205,
@@ -33,7 +35,120 @@
       "volume_name": "第二卷 撒旦审判",
       "volume_order": 20,
       "addtime": 1406015128,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6182,
+      "id": 6182,
+      "volume_name": "第一卷 暗黑学院",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 43347,
+          "chapter_name": "序章 天使与恶魔的游戏",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43348,
+          "chapter_name": "第一章 圣座",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43349,
+          "chapter_name": "第二章 圣玫瑰学院的异事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43350,
+          "chapter_name": "第三章 杀人事件和圣母玛利亚的叹息",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43351,
+          "chapter_name": "第四章 浮现的卢恩文",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43352,
+          "chapter_name": "第五章 不可进入的房间的秘密",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43353,
+          "chapter_name": "第六章 解读灵应盘",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43354,
+          "chapter_name": "第七章 潜伏地下的亡灵",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 43355,
+          "chapter_name": "尾声 天使与恶魔的战争",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 43356,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 6205,
+      "id": 6205,
+      "volume_name": "第二卷 撒旦审判",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 43617,
+          "chapter_name": "序章 神降下启示",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43618,
+          "chapter_name": "第一章 不会腐朽的尸体",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43619,
+          "chapter_name": "第二章 大天使降临之时",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43620,
+          "chapter_name": "第三章 主安排的巧合",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43621,
+          "chapter_name": "第四章 背负诅咒烙印之人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43627,
+          "chapter_name": "第五章 深悟死亡才能成就永恒生命",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43623,
+          "chapter_name": "第六章 神与恶魔的舌",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43624,
+          "chapter_name": "第七章 鲜血的教会",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 43625,
+          "chapter_name": "尾声 神不会制裁义人",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

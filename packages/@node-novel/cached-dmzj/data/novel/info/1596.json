@@ -12,12 +12,14 @@
   "hot_hits": 94252,
   "introduction": "　　在人类奴役妖精的海兰德王国里，有个女孩名字叫作「安」，她的母亲是一流的银砂糖师。然而，安在母亲撒手人寰后，决定继承母亲的志业。\n　　银砂糖师，是制作神圣的砂糖菓子的特别行业，唯有取得王室勋章者才能拥有「银砂糖师」之头衔。\n　　安挥别了爱慕她的富家公子乔纳斯，毅然决然踏上旅程。\n　　旅程中，她路见不平，而解救一名小妖精。\n　　由于路途遥远艰险，安在妖精市场买下说话毒辣的美男战士妖精——夏尔当保镖。\n　　在前往王都的旅程上，安尝试接近不愿对人类敞开胸怀的夏尔。\n　　然而，这时乔纳斯再度出现，为安与夏尔之间增添了不少紧张感。\n　　后与神秘男子飞的邂逅，又会为这趟未知不明的旅程带来什么样的未知数呢？",
   "types": [
-    "爱情/冒险/异界"
+    "爱情",
+    "冒险",
+    "异界"
   ],
   "authors": "三川美里",
   "first_letter": "Y",
-  "subscribe_num": 1863,
-  "redis_update_time": 1564289699,
+  "subscribe_num": 1866,
+  "redis_update_time": 1564528933,
   "volume": [
     {
       "id": 5860,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 银砂糖师与黑妖精",
       "volume_order": 10,
       "addtime": 1393775237,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6199,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 银砂糖师与青公爵",
       "volume_order": 20,
       "addtime": 1405866426,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 7131,
@@ -41,7 +43,163 @@
       "volume_name": "第三卷 银砂糖师与白贵公子",
       "volume_order": 30,
       "addtime": 1439380358,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5860,
+      "id": 5860,
+      "volume_name": "第一卷 银砂糖师与黑妖精",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 40463,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40464,
+          "chapter_name": "第1章 稻草人与妖精",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40465,
+          "chapter_name": "第2章 血腥大道上的重逢",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40466,
+          "chapter_name": "第3章 荒野乌鸦的黑色袭击",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40467,
+          "chapter_name": "第4章 夜居医师宿",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40468,
+          "chapter_name": "第5章 背叛之树——砂糖林檎",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40469,
+          "chapter_name": "第6章 诞生的早晨",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 40470,
+          "chapter_name": "第7章 王室勋章落谁家",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 40471,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6199,
+      "id": 6199,
+      "volume_name": "第二卷 银砂糖师与青公爵",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 43529,
+          "chapter_name": "第1章 雪花纷飞时",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43530,
+          "chapter_name": "第2章 费拉库斯公爵的召见",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43531,
+          "chapter_name": "第3章 海滨之城",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43532,
+          "chapter_name": "第4章 虚假的告别",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43533,
+          "chapter_name": "第5章 被囚禁的身躯",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43534,
+          "chapter_name": "第6章 记忆中的妖精",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43535,
+          "chapter_name": "第7章 只要目不转睛地凝视着你",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43536,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7131,
+      "id": 7131,
+      "volume_name": "第三卷 银砂糖师与白贵公子",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 52215,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52216,
+          "chapter_name": "第1章 砂糖林檎歉收",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52217,
+          "chapter_name": "第2章 拉多库里夫工房",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52218,
+          "chapter_name": "第3章 该做什么",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52219,
+          "chapter_name": "第4章 祖王与妖精王的传说",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52220,
+          "chapter_name": "第5章 一切讲求公平",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52221,
+          "chapter_name": "第6章 某种疑惑",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52222,
+          "chapter_name": "第7章 颁给残缺的砂糖果子",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52223,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

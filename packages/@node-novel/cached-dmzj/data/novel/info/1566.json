@@ -12,12 +12,13 @@
   "hot_hits": 25298,
   "introduction": "回过神来，少女发现自己撑着天蓝色的伞，站在枯朽的家中。自己到底是谁，为什么在这里——少女的记忆十分暧昧。在无人的街道彷徨，终于遇到了一名青年·西格。他告诉少女说，她并不是人类，而是寄宿在物品上的「九十九神」。他说「你一定是寄宿在雨伞上的九十九神吧」。接着给少女取名为「伞」。这是以人类消失的城镇为舞台，被遗弃的神「九十九神」们模仿着人类生活的日常幻想曲。",
   "types": [
-    "神鬼/治愈"
+    "神鬼",
+    "治愈"
   ],
   "authors": "ツカサ",
   "first_letter": "J",
-  "subscribe_num": 1036,
-  "redis_update_time": 1564309875,
+  "subscribe_num": 1037,
+  "redis_update_time": 1564519930,
   "volume": [
     {
       "id": 5757,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1389256850,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5757,
+      "id": 5757,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39551,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39552,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39553,
+          "chapter_name": "第一话 天蓝色的伞",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39554,
+          "chapter_name": "幕间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39555,
+          "chapter_name": "第二话 暗沉的枪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39556,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39557,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

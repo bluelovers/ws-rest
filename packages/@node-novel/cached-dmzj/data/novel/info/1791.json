@@ -12,12 +12,14 @@
   "hot_hits": 72919,
   "introduction": "神奇而无敌的学园组曲，开幕！可爱的制服！可爱的女孩子！优雅又华丽的学校生活！\n一宫惠?奈抱著满心憧憬进入一所只有文化性社团存在的住校制高中──私立御神乐学园。然而，呈现在她眼前的竟是「各社团代表利用特殊能力进行战斗」这样一点都不寻常的情景──！？\n在NICONICO动画网站上活跃的人气创作家LastNote.的亲笔小说！情绪满点的社团系学园超能力战斗物语（自称）隆重登场！",
   "types": [
-    "校园/冒险/异界"
+    "校园",
+    "冒险",
+    "异界"
   ],
   "authors": "Last Note.",
   "first_letter": "Y",
-  "subscribe_num": 1396,
-  "redis_update_time": 1564297923,
+  "subscribe_num": 1397,
+  "redis_update_time": 1564391046,
   "volume": [
     {
       "id": 6551,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 放学后stride",
       "volume_order": 10,
       "addtime": 1418662880,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 6770,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 无气魄coup d'etat",
       "volume_order": 20,
       "addtime": 1426658597,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 6820,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 废弃物innocence",
       "volume_order": 30,
       "addtime": 1429271290,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 6821,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷 十六夜seeing",
       "volume_order": 40,
       "addtime": 1429271484,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 6822,
@@ -57,7 +59,204 @@
       "volume_name": "第五卷 不条理roulette",
       "volume_order": 50,
       "addtime": 1429356357,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6551,
+      "id": 6551,
+      "volume_name": "第一卷 放学后stride",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46813,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46814,
+          "chapter_name": "第一乐章 青春前奏曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46815,
+          "chapter_name": "第二乐章 一步、两步、龙卷风",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46816,
+          "chapter_name": "第三乐章 学园生活in睡袋",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46817,
+          "chapter_name": "第四乐章 放学后stride",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46818,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6770,
+      "id": 6770,
+      "volume_name": "第二卷 无气魄coup d'etat",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 48920,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48921,
+          "chapter_name": "第一乐章 女主角未满",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48922,
+          "chapter_name": "第二乐章 无气魄coupd'état",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48923,
+          "chapter_name": "第三乐章 超得意vivace",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48924,
+          "chapter_name": "第四乐章 放学后SIX",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48925,
+          "chapter_name": "第五乐章 新人赛开幕！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48926,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6820,
+      "id": 6820,
+      "volume_name": "第三卷 废弃物innocence",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 49332,
+          "chapter_name": "第一乐章 学园幻想曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49333,
+          "chapter_name": "第二乐章 废弃物innocence",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49334,
+          "chapter_name": "第三乐章 true",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49340,
+          "chapter_name": "第四乐章 tension·chord",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49336,
+          "chapter_name": "第五乐章 少女反例",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49337,
+          "chapter_name": "第六乐章 光不会被火烧至殆尽",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49338,
+          "chapter_name": "第七乐章 出乎意料的少女",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 49339,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6821,
+      "id": 6821,
+      "volume_name": "第四卷 十六夜seeing",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 49341,
+          "chapter_name": "第一乐章 blue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49342,
+          "chapter_name": "第二乐章 和绘留奈酱你侬我侬吧部（伪）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49343,
+          "chapter_name": "第三乐章 未确认宝藏",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49344,
+          "chapter_name": "第四乐章 少女音乐理论",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49345,
+          "chapter_name": "第五乐章 十六夜seeing",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49346,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6822,
+      "id": 6822,
+      "volume_name": "第五卷 不条理roulette",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 49355,
+          "chapter_name": "第一乐章 不条理roulette",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49356,
+          "chapter_name": "第二乐章 放课后乐园部",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49357,
+          "chapter_name": "第三乐章 期中赛",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49358,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

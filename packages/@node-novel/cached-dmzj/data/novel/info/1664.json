@@ -12,12 +12,15 @@
   "hot_hits": 303885,
   "introduction": "以勇者身分被召唤到异世界的椎名一成，正与魔王进行最终决战。然而，他却遭到既是伙伴、更是自己仰慕对象的圣女背叛，沦为牵制魔王的诱饵，一同被卷入攻击之中。尽管在魔王的保护下保住一命，但遭到背叛的勇者能否重新振作？\n在这人类和异种族相互对立的世界，遭到背叛的勇者将写下新的传奇。",
   "types": [
-    "魔法/冒险/异界/穿越"
+    "魔法",
+    "冒险",
+    "异界",
+    "穿越"
   ],
   "authors": "市村铁之助",
   "first_letter": "Y",
-  "subscribe_num": 6816,
-  "redis_update_time": 1564312635,
+  "subscribe_num": 6844,
+  "redis_update_time": 1564532750,
   "volume": [
     {
       "id": 6124,
@@ -25,7 +28,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1403195738,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6124,
+      "id": 6124,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42718,
+          "chapter_name": "序章 遭到背叛的勇者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42719,
+          "chapter_name": "第一章 遭到背叛的勇者苏醒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42720,
+          "chapter_name": "第二章 初代魔王",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42721,
+          "chapter_name": "第三章 即使不是勇者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42722,
+          "chapter_name": "第四章 再会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42723,
+          "chapter_name": "第五章 纠葛",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42724,
+          "chapter_name": "间章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42725,
+          "chapter_name": "第六章 勇者召唤与魔神",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 42726,
+          "chapter_name": "终章 各自的未来",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

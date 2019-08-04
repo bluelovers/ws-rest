@@ -12,12 +12,13 @@
   "hot_hits": 28842,
   "introduction": "练习·料理·打杂！？IH预选赛前，乌野高中排球社实施了黄金周强化集训！为了在激战中胜出，日向等人努力进行特训&共同生活。漫画里没有表明的『另一种集训风貌』将在小说版解禁！",
   "types": [
-    "校园/励志"
+    "校园",
+    "励志"
   ],
   "authors": "星希代子",
   "first_letter": "P",
-  "subscribe_num": 770,
-  "redis_update_time": 1564311356,
+  "subscribe_num": 771,
+  "redis_update_time": 1564452150,
   "volume": [
     {
       "id": 6105,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 乌野强化合宿",
       "volume_order": 10,
       "addtime": 1402755767,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6180,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 IH前的『誓师大会』",
       "volume_order": 20,
       "addtime": 1405427147,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6658,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷 远征东京",
       "volume_order": 30,
       "addtime": 1422437217,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6962,
@@ -49,7 +50,176 @@
       "volume_name": "第四卷 各自的暑假",
       "volume_order": 40,
       "addtime": 1434106907,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6105,
+      "id": 6105,
+      "volume_name": "第一卷 乌野强化合宿",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42589,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42590,
+          "chapter_name": "合宿的早上",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42591,
+          "chapter_name": "寻找日向！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42592,
+          "chapter_name": "菅原的决断",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42593,
+          "chapter_name": "国王上街买东西",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42594,
+          "chapter_name": "如果乌野高中排球社的女球队经理不是清水洁子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42595,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6180,
+      "id": 6180,
+      "volume_name": "第二卷 IH前的『誓师大会』",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 43331,
+          "chapter_name": "三年级生的忧郁",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43332,
+          "chapter_name": "骰子掷出",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43333,
+          "chapter_name": "眼不见为净",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43334,
+          "chapter_name": "结局圆满，一切安好",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43335,
+          "chapter_name": "你好宫城in『青城』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43336,
+          "chapter_name": "『铁壁』的决心",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43337,
+          "chapter_name": "『猫』来袭",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6658,
+      "id": 6658,
+      "volume_name": "第三卷 远征东京",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 47869,
+          "chapter_name": "前进东京！抄小路",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47870,
+          "chapter_name": "『逊咖』跟『菜鸟』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47871,
+          "chapter_name": "长年死党的心情",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47872,
+          "chapter_name": "主将会议",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47873,
+          "chapter_name": "虎与龙",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47874,
+          "chapter_name": "居酒屋『蒙古』",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6962,
+      "id": 6962,
+      "volume_name": "第四卷 各自的暑假",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 50700,
+          "chapter_name": "小谷送东西",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50701,
+          "chapter_name": "三个臭皮匠，胜过一个诸葛亮",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50702,
+          "chapter_name": "游乐场里的研磨",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50703,
+          "chapter_name": "『强敌们』的夏天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50704,
+          "chapter_name": "最后的暑假",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50705,
+          "chapter_name": "小夏的冒险",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50706,
+          "chapter_name": "乌之家 最终怪「真面目。」",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

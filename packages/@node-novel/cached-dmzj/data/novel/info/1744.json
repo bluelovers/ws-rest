@@ -12,12 +12,13 @@
   "hot_hits": 2330103,
   "introduction": "组合用被称为“视角（sense）”的能力目指“唯一（only）”的最强。\n与妹妹美羽，亲友巧一起玩一款VPMMORPG（虚拟现实大型多人在线角色扮演游戏）-「OnlySense.Online」的优，在紧张的游戏攻略中却只得到了那些著名的“垃圾”，“完全没用”的能力。要说能做什么的话，那就只有一部分生产了……在那样的每日中，优遇到了以“生产业TOP”活跃的玛姬姐相遇了。注意到了谁都不曾关注的道具生产和辅助魔法的可能性，以支援风掀起革命的初学者玩家诞生？！",
   "types": [
-    "魔法/冒险"
+    "魔法",
+    "冒险"
   ],
   "authors": "アロハ座长",
   "first_letter": "O",
-  "subscribe_num": 41245,
-  "redis_update_time": 1564313011,
+  "subscribe_num": 41256,
+  "redis_update_time": 1564441181,
   "volume": [
     {
       "id": 6407,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1413631507,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6418,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1414080416,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6690,
@@ -41,7 +42,7 @@
       "volume_name": "短篇",
       "volume_order": 30,
       "addtime": 1423668791,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6887,
@@ -49,7 +50,7 @@
       "volume_name": "第三卷",
       "volume_order": 40,
       "addtime": 1432054532,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7369,
@@ -57,7 +58,7 @@
       "volume_name": "第四卷",
       "volume_order": 50,
       "addtime": 1449064739,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7512,
@@ -65,7 +66,7 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1454152878,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7873,
@@ -73,7 +74,7 @@
       "volume_name": "第六卷",
       "volume_order": 70,
       "addtime": 1465213418,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 8577,
@@ -81,7 +82,7 @@
       "volume_name": "第七卷",
       "volume_order": 80,
       "addtime": 1490627480,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 8860,
@@ -89,7 +90,7 @@
       "volume_name": "第八卷",
       "volume_order": 90,
       "addtime": 1500914483,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 8939,
@@ -97,7 +98,7 @@
       "volume_name": "外传 白银的女神",
       "volume_order": 100,
       "addtime": 1504094061,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 8946,
@@ -105,7 +106,7 @@
       "volume_name": "第九卷",
       "volume_order": 110,
       "addtime": 1504518996,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 9253,
@@ -113,7 +114,7 @@
       "volume_name": "第十卷",
       "volume_order": 120,
       "addtime": 1519819231,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 9404,
@@ -121,7 +122,7 @@
       "volume_name": "第十一卷",
       "volume_order": 130,
       "addtime": 1525515324,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 9405,
@@ -129,7 +130,861 @@
       "volume_name": "第十二卷",
       "volume_order": 140,
       "addtime": 1525515874,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6407,
+      "id": 6407,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 58825,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58826,
+          "chapter_name": "序章 公测玩家与新手",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58827,
+          "chapter_name": "一章 正式营运与烂天赋",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58828,
+          "chapter_name": "二章 生产职与附魔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58829,
+          "chapter_name": "三章 水晶树与缪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58830,
+          "chapter_name": "四章 高仑与第三城镇",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58831,
+          "chapter_name": "五章 追踪者与装备",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 58832,
+          "chapter_name": "六章 三环戒指与情报价值",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 58833,
+          "chapter_name": "七章 黑乙女长弓与魔法宝石",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 58834,
+          "chapter_name": "八章 剑刃蜥蜴与火车头",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 58835,
+          "chapter_name": "终章 弓箭手与加油工坊",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 58836,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 45450,
+          "chapter_name": "gamers特典 归途和喜欢的关卡",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 6418,
+      "id": 6418,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 58813,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58814,
+          "chapter_name": "序章 店面与门可罗雀",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58815,
+          "chapter_name": "一章 料理与满腹度",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58816,
+          "chapter_name": "二章 夏季活动与幼兽",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58817,
+          "chapter_name": "三章 独角兽与倒卧路旁的精灵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58818,
+          "chapter_name": "四章 游泳与湖底遗迹",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58819,
+          "chapter_name": "五章 受诅咒的装备与幼狐兽",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 58820,
+          "chapter_name": "六章 敌怪讨伐与法师",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 58821,
+          "chapter_name": "七章 散步与紧急任务",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 58822,
+          "chapter_name": "八章 幻兽大食怪与辅助",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 58823,
+          "chapter_name": "终章 报酬与客源",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 58824,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 6690,
+      "id": 6690,
+      "volume_name": "短篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 48135,
+          "chapter_name": "DM杂志短篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 57560,
+          "chapter_name": "Dragon Magazine 2016日历短篇",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 6887,
+      "id": 6887,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 64402,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 64404,
+          "chapter_name": "序章 矿山与EX(Extra)技能",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 64405,
+          "chapter_name": "一章 活动报酬与活用法",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 64406,
+          "chapter_name": "二章 图书馆与语言学",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 64407,
+          "chapter_name": "三章 地下图书馆与恐怖",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 64408,
+          "chapter_name": "四章 合成与宠物风潮",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 64409,
+          "chapter_name": "五章 转卖与生产公会构想",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 64410,
+          "chapter_name": "六章 【公会证】与特攻史莱姆",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 64411,
+          "chapter_name": "终章 工作的凝胶与公会会馆",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 64412,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 52316,
+          "chapter_name": "Sense构成Data",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 52322,
+          "chapter_name": "特别附录",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 52326,
+          "chapter_name": "虎之穴特典『优的书架』",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 52327,
+          "chapter_name": "GAMERS特典『第一镇的散步』",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 64403,
+          "chapter_name": "插图",
+          "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 7369,
+      "id": 7369,
+      "volume_name": "第四卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 65403,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 65404,
+          "chapter_name": "序章 生产工会与除虫香",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65405,
+          "chapter_name": "一章 湿地与黑影人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 65406,
+          "chapter_name": "二章 工会邀约与故意失踪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 65407,
+          "chapter_name": "三章 特伦托与炼金生物",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 65408,
+          "chapter_name": "四章 新手玩家与素材店",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 65409,
+          "chapter_name": "五章 桃藤花与药石",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 65410,
+          "chapter_name": "六章 读心晶片与地狱烈火队",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 65411,
+          "chapter_name": "终章 干劲与PVP（Player versus player）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 65412,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 65413,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 7512,
+      "id": 7512,
+      "volume_name": "第五卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 66733,
+          "chapter_name": "转载信息",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 66734,
+          "chapter_name": "序章 复活药与黑虫",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 66735,
+          "chapter_name": "一章 活动与露天摊贩",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 66736,
+          "chapter_name": "二章 秘密企划与紧急任务",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 66737,
+          "chapter_name": "三章《杀刃》技能与PK（Player killer）",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 66738,
+          "chapter_name": "四章 PVP大会与大混战",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 66739,
+          "chapter_name": "五章 决赛与千里眼",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 66740,
+          "chapter_name": "六章 亡灵狼与R任务",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 66741,
+          "chapter_name": "终章 御雷神与弗莱恩",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 66742,
+          "chapter_name": "后记",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 59249,
+          "chapter_name": "插图",
+          "chapter_order": 210
+        }
+      ]
+    },
+    {
+      "volume_id": 7873,
+      "id": 7873,
+      "volume_name": "第六卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 62246,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63663,
+          "chapter_name": "序章 悬赏和金属丝",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63664,
+          "chapter_name": "第一章 荆棘和阿拉克捏",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63665,
+          "chapter_name": "第二章 小妖精和妖精任务",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63666,
+          "chapter_name": "第三章 小野猪和纤维素材",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63667,
+          "chapter_name": "第四章 年龄伪装药跟恶鬼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63668,
+          "chapter_name": "第五章 半兽植物和妖精女王",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63669,
+          "chapter_name": "第六章 愿望和死亡收割者",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 63670,
+          "chapter_name": "终章 解放和蜂蜜",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 63671,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 62252,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 8577,
+      "id": 8577,
+      "volume_name": "第七卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 73217,
+          "chapter_name": "序章 《妖精之戒》以及其掉落率",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75107,
+          "chapter_name": "第一章 登山sense与泰山",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75108,
+          "chapter_name": "第二章 沙地蜂与山岳采掘",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75109,
+          "chapter_name": "第三章 魔法熔炉与布鲁莱特金",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75110,
+          "chapter_name": "第四章 高原地区与大暴走",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75111,
+          "chapter_name": "第五章 Damascus与【属性软膏】",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 75112,
+          "chapter_name": "第六章 巨岩与鸡蛇王",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 75113,
+          "chapter_name": "终章 不可思议的休憩所与体内迷宫",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 75137,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8860,
+      "id": 8860,
+      "volume_name": "第八卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 77834,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 77836,
+          "chapter_name": "序章 体内迷宫与寄生虫",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 77837,
+          "chapter_name": "一章 【八百万神】与试饮会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 77838,
+          "chapter_name": "二章 耐性天赋与升级",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 77839,
+          "chapter_name": "三章 远征与火山地区",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 77840,
+          "chapter_name": "四章 鬼人的别墅与抽奖券",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 77841,
+          "chapter_name": "五章 黄色药水与竞技场",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 77842,
+          "chapter_name": "六章 诅咒与温泉",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 77843,
+          "chapter_name": "终章 宴会与饰品",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 77844,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 77835,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 8939,
+      "id": 8939,
+      "volume_name": "外传 白银的女神",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 79059,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 79060,
+          "chapter_name": "第一话 缪和飞速练级",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 79067,
+          "chapter_name": "第二话 露卡多和石魔像老师",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 79062,
+          "chapter_name": "第三话 托乌托比和迷宫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 79063,
+          "chapter_name": "第四话 蔻哈克和礼蕾",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 79068,
+          "chapter_name": "第五话 迷宫和时间竞赛",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 79069,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 79070,
+          "chapter_name": "特典短篇【找不同】",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 79071,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8946,
+      "id": 8946,
+      "volume_name": "第九卷",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 79196,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 79197,
+          "chapter_name": "序章 更新与成兽型态",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 79198,
+          "chapter_name": "第一章 冬衣与寒冷伤害",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 79199,
+          "chapter_name": "第二章 冬季活动与任务",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 79200,
+          "chapter_name": "第三章 耐寒素材与拟态龟",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 79201,
+          "chapter_name": "第四章 情报贩售与马厩",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 79202,
+          "chapter_name": "第五章 下水道与老鼠退治",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 79203,
+          "chapter_name": "第六章 飞龙山脉与独角兽",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 79204,
+          "chapter_name": "终章 任务币与任务完成度",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 79205,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 79206,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9253,
+      "id": 9253,
+      "volume_name": "第十卷",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 83195,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83196,
+          "chapter_name": "序章 交换道具与小问题",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83197,
+          "chapter_name": "一章 中级配方与展示会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83198,
+          "chapter_name": "二章 警备任务与社交界",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83199,
+          "chapter_name": "三章 恶魔信徒与入侵宅邸",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83200,
+          "chapter_name": "四章 恶魔像与摧毁基地",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83201,
+          "chapter_name": "五章 魔法药与尾牙",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83202,
+          "chapter_name": "六章 道之迷宫与失控战斗",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83203,
+          "chapter_name": "终章 返乡省亲与耶诞派对",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 83204,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 83205,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9404,
+      "id": 9404,
+      "volume_name": "第十一卷",
+      "volume_order": 130,
+      "chapters": [
+        {
+          "chapter_id": 85653,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85654,
+          "chapter_name": "序章 跨年与巫女服",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85655,
+          "chapter_name": "一章 跨年改版与扩充天赋",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85656,
+          "chapter_name": "二章 未完的任务与腹中的锻造店",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85657,
+          "chapter_name": "三章 第二项考验与驱魔的结界片",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85658,
+          "chapter_name": "四章 仲介与造船计画",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85659,
+          "chapter_name": "五章 【皇帝愚足虫】与属性无效",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85660,
+          "chapter_name": "六章 封印之间与蝎狮",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85661,
+          "chapter_name": "终章 扩充天赋与崭新天赋",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 85662,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 85663,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 9405,
+      "id": 9405,
+      "volume_name": "第十二卷",
+      "volume_order": 140,
+      "chapters": [
+        {
+          "chapter_id": 85664,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85665,
+          "chapter_name": "序章 废柴道具与古龙素材",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 85666,
+          "chapter_name": "第一章 荒野区域与遗迹",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 85667,
+          "chapter_name": "第二章 分解炉与炼金釜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 85668,
+          "chapter_name": "第三章 怪物的复活与僵尸龙",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 85669,
+          "chapter_name": "第四章 秘银合金与古代遗产",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 85670,
+          "chapter_name": "第五章 修理与陶器",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 85671,
+          "chapter_name": "第六章 暴走与自爆",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 85672,
+          "chapter_name": "终章 水龙的幼兽与机巧魔导人偶",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 85673,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 85674,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 851869,
   "introduction": "“你什么都不记得了呀——阿良良木。你不知道自己是由什么构成的。”有着灰暗眼眸的转校生·忍野扇。\n她以微笑解开的阿良良木历的“起点”究竟是……？\n在高中一年级的那一天，少年体味到了绝望——\n这就是现代的怪异！怪异！怪异！\n那是宣告青春终结的黑影。",
   "types": [
-    "神鬼/爱情/搞笑"
+    "神鬼",
+    "爱情",
+    "搞笑"
   ],
   "authors": "西尾维新",
   "first_letter": "Z",
-  "subscribe_num": 21038,
-  "redis_update_time": 1564312836,
+  "subscribe_num": 21067,
+  "redis_update_time": 1564534406,
   "volume": [
     {
       "id": 5786,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 上",
       "volume_order": 10,
       "addtime": 1390718439,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 5999,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 中",
       "volume_order": 20,
       "addtime": 1399042500,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6184,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 下",
       "volume_order": 30,
       "addtime": 1405506305,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6614,
@@ -49,7 +51,136 @@
       "volume_name": "第四卷 续",
       "volume_order": 40,
       "addtime": 1420629377,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5786,
+      "id": 5786,
+      "volume_name": "第一卷 上",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39730,
+          "chapter_name": "第一话 扇公式",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39731,
+          "chapter_name": "第二话 育谜题",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39732,
+          "chapter_name": "第三话 育迷失",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39733,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 5999,
+      "id": 5999,
+      "volume_name": "第二卷 中",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 41655,
+          "chapter_name": "第四话 忍·盔甲 A卷",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41656,
+          "chapter_name": "第四话 忍·盔甲 B卷",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41657,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 6184,
+      "id": 6184,
+      "volume_name": "第三卷 下",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 43361,
+          "chapter_name": "第五话 真宵地狱",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43362,
+          "chapter_name": "第六话 黑仪约会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43363,
+          "chapter_name": "第七话 扇黑暗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43364,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 6614,
+      "id": 6614,
+      "volume_name": "第四卷 续",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 47452,
+          "chapter_name": "最终话 历反转 001-005",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47453,
+          "chapter_name": "006-010",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47454,
+          "chapter_name": "011-015",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47455,
+          "chapter_name": "016-020",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47456,
+          "chapter_name": "021-025",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47457,
+          "chapter_name": "026-030",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47458,
+          "chapter_name": "031-033",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 47459,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

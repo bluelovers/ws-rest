@@ -12,12 +12,13 @@
   "hot_hits": 13077,
   "introduction": "　　因意外而断送钢琴家生涯的如月敬辅，智能障碍与音乐天赋并具的少女千织，一次相遇改变了他们的人生，从此千织成了如月弹琴的双手，两人巡回各地演出，慰借了许多人们的心。\n　　这次，两人受邀至一座位于山里的疗养中心表演，遇上如月的学妹岩村真理子，并决定在此多停留一日。\n　　在这里，三个孤寂的灵魂，将合奏出人生中最温暖动人的乐章。",
   "types": [
-    "爱情/其它"
+    "爱情",
+    "其它"
   ],
   "authors": "浅仓卓弥",
   "first_letter": "S",
   "subscribe_num": 907,
-  "redis_update_time": 1564300383,
+  "redis_update_time": 1564361180,
   "volume": [
     {
       "id": 6555,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1418818047,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6555,
+      "id": 6555,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46850,
+          "chapter_name": "第一章 前一日·至黄昏",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46851,
+          "chapter_name": "第二章 前一日·夜晚",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46852,
+          "chapter_name": "第三章 第一天·奇迹的开始",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46853,
+          "chapter_name": "第四章 第二天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46854,
+          "chapter_name": "第五章 第三天",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46855,
+          "chapter_name": "第六章 成就、结束、而后再生",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46856,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

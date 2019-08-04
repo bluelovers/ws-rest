@@ -12,12 +12,14 @@
   "hot_hits": 32814,
   "introduction": "除了国家之外……还有其他更值得我们守护的事——<br>\n根据「国防教育法」规定，这个时代，必须从少男、少女当中挑出适当人选，将他们培育为未来的国家防卫人材。二〇四五年的夏天，在即将迈入暑假的上学期最后一日，就读东都防卫学院国中部三年级的久坂澪司，与同年级的桐岛千寻、御门弥都以及高城熊楠一起被叫到学院长室当中。一名自称是国家公务员的男子——巽——现身在充满疑惑的四人眼前，并且要求他们到冲绳迎接一位名叫八神永远的少女……以南岛为舞台的战场上，男孩、女孩彼此相遇了！",
   "types": [
-    "校园/科幻/冒险"
+    "校园",
+    "科幻",
+    "冒险"
   ],
   "authors": "冈本タクヤ",
   "first_letter": "W",
   "subscribe_num": 622,
-  "redis_update_time": 1564307348,
+  "redis_update_time": 1564467157,
   "volume": [
     {
       "id": 6132,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1403505497,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6689,
@@ -33,7 +35,130 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1423581865,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6132,
+      "id": 6132,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42804,
+          "chapter_name": "角色档案",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42805,
+          "chapter_name": "第一章 武装中学生",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42806,
+          "chapter_name": "第二章 持枪的暑假",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42807,
+          "chapter_name": "第三章 战友未满",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42808,
+          "chapter_name": "第四章 蛇夫",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42809,
+          "chapter_name": "第五章 成为战士的夜晚",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42810,
+          "chapter_name": "第六章 野狼们",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42811,
+          "chapter_name": "第七章 愚者与愚者与",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 42812,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 42813,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 6689,
+      "id": 6689,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 48121,
+          "chapter_name": "第一章 前往西都",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48122,
+          "chapter_name": "第二章 惟织与贵一",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48123,
+          "chapter_name": "第三章 战争王子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48124,
+          "chapter_name": "第四章 在西都的生活",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48125,
+          "chapter_name": "第五章 小公主老师",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48126,
+          "chapter_name": "第六章 永远的冒险",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48127,
+          "chapter_name": "第七章 蠢蠢欲动的家伙们",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48128,
+          "chapter_name": "第八章 逐步崩坏的夏天",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 48129,
+          "chapter_name": "第九章 最后的战士",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 48130,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 48131,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

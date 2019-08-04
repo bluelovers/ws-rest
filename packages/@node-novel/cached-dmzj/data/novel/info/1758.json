@@ -12,12 +12,13 @@
   "hot_hits": 13810,
   "introduction": "C86发售的galgame五彩斑斓的世界外传小说",
   "types": [
-    "校园/魔法"
+    "校园",
+    "魔法"
   ],
   "authors": "漆原雪人",
   "first_letter": "Z",
   "subscribe_num": 295,
-  "redis_update_time": 1564243086,
+  "redis_update_time": 1564380375,
   "volume": [
     {
       "id": 6458,
@@ -25,7 +26,32 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1415888039,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6458,
+      "id": 6458,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 45931,
+          "chapter_name": "真红老师的课外授业",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45932,
+          "chapter_name": "世界在鲸鱼的腹中",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45933,
+          "chapter_name": "魔法使的弟子——喜欢小学生书包吗——",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

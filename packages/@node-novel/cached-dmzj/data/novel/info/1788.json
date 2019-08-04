@@ -12,12 +12,14 @@
   "hot_hits": 111574,
   "introduction": "５年前，格兰斯坦迪亚皇国第二公主尤丝蒂娜．格瑟克斯暗中率领《皇国七圣》采取行动，为耗时长达９年的利基亚战役划下休止符。５年后，当时挂冠求去，退隐山林的《皇国七圣》之一，克洛姆．贾瑞特，在因缘际会之下救了奉公主之命，前来请他重返皇宫的少女骑士菲芙妮斯．麦克昂一命，进而得知战祸即将再度引爆的消息。于是他便决定带著在山里结识的神秘少女．露露一同下山，为另一段全新的冒险旅程揭开序幕……",
   "types": [
-    "冒险/魔法/异界"
+    "冒险",
+    "魔法",
+    "异界"
   ],
   "authors": "内堀优一",
   "first_letter": "G",
-  "subscribe_num": 2885,
-  "redis_update_time": 1564286250,
+  "subscribe_num": 2886,
+  "redis_update_time": 1564430524,
   "volume": [
     {
       "id": 6542,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1418440473,
-      "sum_chapters": 3
+      "sum_chapters": 30
     },
     {
       "id": 7628,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1458388654,
-      "sum_chapters": 3
+      "sum_chapters": 30
     },
     {
       "id": 8575,
@@ -41,7 +43,183 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1490542021,
-      "sum_chapters": 3
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6542,
+      "id": 6542,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46748,
+          "chapter_name": "引",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46749,
+          "chapter_name": "序章 战争的终结、誓言的开始",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46750,
+          "chapter_name": "第一章 皇国骑士",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46751,
+          "chapter_name": "第二章 重返皇都席奥尼亚城",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46752,
+          "chapter_name": "第三章 狂战士盖杰尔·普利埃摩斯",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46753,
+          "chapter_name": "第四章 红海海战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46754,
+          "chapter_name": "终章 大战的燎原怒火",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46755,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7628,
+      "id": 7628,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 58224,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 58192,
+          "chapter_name": "序章 皇国的抉择",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58193,
+          "chapter_name": "第一章 克格诺斯会谈",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58194,
+          "chapter_name": "断章 拉托鲁格国中原首都",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58225,
+          "chapter_name": "第二章 蓝格骑兵队",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58226,
+          "chapter_name": "断章 繁华之影",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58227,
+          "chapter_name": "第三章 夜袭",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58228,
+          "chapter_name": "断章 判决时刻",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 58250,
+          "chapter_name": "第四章 皇都席奥尼亚城海滨地区防卫线",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 58251,
+          "chapter_name": "终章 静谧的战火",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8575,
+      "id": 8575,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 73186,
+          "chapter_name": "录入信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 73204,
+          "chapter_name": "断章 北伐",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 73188,
+          "chapter_name": "序章 巴哈马强行军",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 73189,
+          "chapter_name": "第一章 讨付",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 73190,
+          "chapter_name": "第二章 马的心情",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 73191,
+          "chapter_name": "第三章 麦克昂之血",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 73192,
+          "chapter_name": "第四章 皇都席奥尼亚防卫战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 73193,
+          "chapter_name": "断章 战果",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 73194,
+          "chapter_name": "终章 振作之后……",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 73195,
+          "chapter_name": "序章 这个国家的风貌",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 73196,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 73197,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 41754,
   "introduction": "高中辍学的秋人就职的地点是黑心企业“雀跃食品”。是比起任何事情更加喜欢加班的社畜们的巢窟。休息日时，被命令调查性骚扰事件的秋人所去的那家店里，有着手握染血的菜刀的店长和被粗面条五花大绑的美少女。\n“在这里放弃的话，加班就确定了啊。”第十九届SNEAKER大奖特别奖获奖作品。",
   "types": [
-    "校园/搞笑"
+    "校园",
+    "搞笑"
   ],
   "authors": "高桥佑一",
   "first_letter": "X",
   "subscribe_num": 301,
-  "redis_update_time": 1564046600,
+  "redis_update_time": 1564417248,
   "volume": [
     {
       "id": 6326,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1410185955,
-      "sum_chapters": 13
+      "sum_chapters": 30
     },
     {
       "id": 6438,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1414932159,
-      "sum_chapters": 13
+      "sum_chapters": 30
     },
     {
       "id": 6836,
@@ -41,7 +42,133 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1430133315,
-      "sum_chapters": 13
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6326,
+      "id": 6326,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 44682,
+          "chapter_name": "雀跃食品社训",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44683,
+          "chapter_name": "Round 1 愉快的家一般的职场",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44684,
+          "chapter_name": "Round 2 顾客就是上帝",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44685,
+          "chapter_name": "Round 3 反社畜 愤怒的按时下班",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44686,
+          "chapter_name": "Round 4 哇……那个人的时薪，好低……？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44687,
+          "chapter_name": "Round 5 然后，谁也无法不剩下了",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44688,
+          "chapter_name": "Round 6 “流星”的后继者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44689,
+          "chapter_name": "Epilogue 全球的劳动者们，回家吧！",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 44690,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6438,
+      "id": 6438,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 45781,
+          "chapter_name": "下跪的心得(斋藤股长亲传！)",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45782,
+          "chapter_name": "Round 1 新人大大十分社畜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45812,
+          "chapter_name": "Round 2 道歉下跪手到擒来",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46116,
+          "chapter_name": "Round 3 你中有我的按时下班",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46373,
+          "chapter_name": "Round 4 既饮之，勿呕之",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47027,
+          "chapter_name": "Round 5 请不要说抱歉",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47396,
+          "chapter_name": "Round 6 不夜城的决战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 47634,
+          "chapter_name": "Epilogue 天之光芒尽为明星",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 47635,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6836,
+      "id": 6836,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 49465,
+          "chapter_name": "Round 1 令人在意的那家伙是反社畜",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50343,
+          "chapter_name": "Round 2 为何社畜总能堂而皇之以“好忙”为借口",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

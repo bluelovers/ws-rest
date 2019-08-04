@@ -12,12 +12,14 @@
   "hot_hits": 570237,
   "introduction": "浑沌支配了大陆──人民畏惧著各种灾害。\n君王们手持著平息浑沌的〈圣印〉守护百姓。\n然而随著岁月流逝，君王们逐渐忘却了「守护苍生」的理念，为了争夺彼此的圣印和领地，掀起了一波又一波的战争……\n魔法师希露卡唾弃毫无风骨的各地君王，而浪迹天涯的骑士提欧则是为了解放受苛政所苦的家乡修练武艺。\n「我愿与骑士提欧的圣印缔结契约，誓言忠诚直至永恒。」\n日本奇幻大师水野良的史诗级奇幻战记，就此揭幕！",
   "types": [
-    "魔法/冒险/奇幻"
+    "魔法",
+    "冒险",
+    "奇幻"
   ],
   "authors": "水野良",
   "first_letter": "H",
   "subscribe_num": 21731,
-  "redis_update_time": 1564312345,
+  "redis_update_time": 1564388011,
   "volume": [
     {
       "id": 6825,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 虹之魔女希露卡",
       "volume_order": 10,
       "addtime": 1429622274,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7123,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 永夜城主与狼人女王",
       "volume_order": 20,
       "addtime": 1439209908,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7643,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 白垩的公子",
       "volume_order": 30,
       "addtime": 1458713123,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8111,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷 漆黑的公女",
       "volume_order": 40,
       "addtime": 1473002490,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8659,
@@ -57,7 +59,7 @@
       "volume_name": "第五卷 西诗提那的解放者 上",
       "volume_order": 50,
       "addtime": 1494088489,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8699,
@@ -65,7 +67,7 @@
       "volume_name": "第六卷 西诗提那的解放者 下",
       "volume_order": 60,
       "addtime": 1495812411,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9272,
@@ -73,7 +75,7 @@
       "volume_name": "第七卷 双雄之道",
       "volume_order": 70,
       "addtime": 1520752826,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9453,
@@ -81,7 +83,358 @@
       "volume_name": "第八卷 觉悟的战场",
       "volume_order": 80,
       "addtime": 1527500533,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6825,
+      "id": 6825,
+      "volume_name": "第一卷 虹之魔女希露卡",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 49394,
+          "chapter_name": "序幕",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 49395,
+          "chapter_name": "第一章 契约",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 49396,
+          "chapter_name": "第二章 野心",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 49397,
+          "chapter_name": "第三章 灾厄",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 49398,
+          "chapter_name": "第四章 战旗",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 49399,
+          "chapter_name": "第五章 决断",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 49400,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 7123,
+      "id": 7123,
+      "volume_name": "第二卷 永夜城主与狼人女王",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 52135,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52136,
+          "chapter_name": "第一章 流转",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52137,
+          "chapter_name": "第二章 预兆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52138,
+          "chapter_name": "第三章 搜索",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52139,
+          "chapter_name": "第四章 觉醒",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52140,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7643,
+      "id": 7643,
+      "volume_name": "第三卷 白垩的公子",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 58544,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 58542,
+          "chapter_name": "开战",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 58543,
+          "chapter_name": "第一章 业火",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 58545,
+          "chapter_name": "第二章 进击",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58546,
+          "chapter_name": "第三章 决议",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58547,
+          "chapter_name": "霸道",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58548,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 8111,
+      "id": 8111,
+      "volume_name": "第四卷 漆黑的公女",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 66203,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 66204,
+          "chapter_name": "第一章 外交",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 66205,
+          "chapter_name": "第二章 觉悟",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 66206,
+          "chapter_name": "第三章 攻防",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 66207,
+          "chapter_name": "第四章 落日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 66208,
+          "chapter_name": "后记",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 66209,
+          "chapter_name": "插画",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 8659,
+      "id": 8659,
+      "volume_name": "第五卷 西诗提那的解放者 上",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 74899,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 74900,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 74901,
+          "chapter_name": "第一章 条约",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 74902,
+          "chapter_name": "第二章 登陆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 74907,
+          "chapter_name": "第三章 逃亡",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 74908,
+          "chapter_name": "外传 艾拉姆之恋",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 74909,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 74917,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8699,
+      "id": 8699,
+      "volume_name": "第六卷 西诗提那的解放者 下",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 75507,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 75508,
+          "chapter_name": "第一章 大漩涡",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 75509,
+          "chapter_name": "第二章 解放",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 75510,
+          "chapter_name": "第三章 悲报",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 75511,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 75512,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 9272,
+      "id": 9272,
+      "volume_name": "第七卷 双雄之道",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 83447,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83448,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83449,
+          "chapter_name": "第一章 魔都",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83450,
+          "chapter_name": "第二章 对决",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 83451,
+          "chapter_name": "第三章 前哨",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 83452,
+          "chapter_name": "第四章 双雄",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 83453,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 83454,
+          "chapter_name": "外传 父与女",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 83455,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 83609,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 9453,
+      "id": 9453,
+      "volume_name": "第八卷 觉悟的战场",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 86433,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 86434,
+          "chapter_name": "第一章 条约",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 86435,
+          "chapter_name": "第二章 觉醒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 86436,
+          "chapter_name": "外传 触手魔法师的归来",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 86437,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 86438,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

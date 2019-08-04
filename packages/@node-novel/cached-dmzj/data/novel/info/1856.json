@@ -12,12 +12,13 @@
   "hot_hits": 34017,
   "introduction": "我被吸进了一股无比纯粹，无比温柔，无比孤独的“黑”中。\n高中入学的那一天，她那异于常人的成熟感便深深印在我的脑中。拥有着任谁都会非常在意的存在感，然而谁也无法触碰到的她——黑崎麻由。在文化祭的准备过程中，以和我的闲聊为契机，黑崎渐渐融入了整个班级之中，但她身上却仍然有着我们所不知道的阴影……而我，想要一直呆在她的身边——娱乐大奖优秀奖，在那美丽、危险、脆弱的两人间，由“黑”所交织出的戏剧性青春物语。",
   "types": [
-    "校园/爱情"
+    "校园",
+    "爱情"
   ],
   "authors": "久远侑",
   "first_letter": "H",
   "subscribe_num": 3508,
-  "redis_update_time": 1564299626,
+  "redis_update_time": 1564363234,
   "volume": [
     {
       "id": 6800,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1428072084,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8292,
@@ -33,7 +34,95 @@
       "volume_name": "第二卷 amorosamente",
       "volume_order": 20,
       "addtime": 1479221193,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6800,
+      "id": 6800,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 68010,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68011,
+          "chapter_name": "第一章 黑崎麻由",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68012,
+          "chapter_name": "第二章 跨越黑暗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68013,
+          "chapter_name": "第三章 深秋的喧嚣与寂静",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68014,
+          "chapter_name": "第四章 黑崎麻由的祕密",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68015,
+          "chapter_name": "第五章 缓慢地，怀抱着痛苦。",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68016,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 8292,
+      "id": 8292,
+      "volume_name": "第二卷 amorosamente",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 68866,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 68867,
+          "chapter_name": "第一章 那之后的黑崎麻由",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 68868,
+          "chapter_name": "第二章 再一次和好如初",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 68869,
+          "chapter_name": "第三章 再次造访地下",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 68870,
+          "chapter_name": "第四章 他与她过去的故事",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 68871,
+          "chapter_name": "第五章 都市传说的终结",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 68872,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

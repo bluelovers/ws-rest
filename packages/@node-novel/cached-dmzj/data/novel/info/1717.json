@@ -12,12 +12,14 @@
   "hot_hits": 27613,
   "introduction": "失去了记忆甚至失去了过去的，在300年后仍旧活着的剑崎。而始——被暴风雨翻弄的方舟，在天盖都市底下受着虐待的人们，无法逃出的囚人岛。\n在残酷的状况中，觉醒的骑士们的战斗所面对的是！？",
   "types": [
-    "科幻/冒险/格斗"
+    "科幻",
+    "冒险",
+    "格斗"
   ],
   "authors": "宫下隼一",
   "first_letter": "J",
-  "subscribe_num": 1254,
-  "redis_update_time": 1564312036,
+  "subscribe_num": 1257,
+  "redis_update_time": 1564438561,
   "volume": [
     {
       "id": 6312,
@@ -25,7 +27,77 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1409663006,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6312,
+      "id": 6312,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 44553,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44554,
+          "chapter_name": "第一章 方舟 blade觉醒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44555,
+          "chapter_name": "第二章 天盖都市 chalice觉醒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44556,
+          "chapter_name": "第三章 囚人岛 garren觉醒",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44557,
+          "chapter_name": "第四章 undead的岛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44558,
+          "chapter_name": "第五章 叛乱Ⅰ",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44559,
+          "chapter_name": "第六章 叛乱Ⅱ",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44560,
+          "chapter_name": "第七章 崩坏Ⅰ",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 44561,
+          "chapter_name": "第八章 崩坏Ⅱ",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 44562,
+          "chapter_name": "第九章 囚人岛 leangle觉醒",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 44563,
+          "chapter_name": "第十章 炎之默示录",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 44564,
+          "chapter_name": "终章",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

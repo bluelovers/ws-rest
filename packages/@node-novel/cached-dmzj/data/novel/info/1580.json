@@ -12,12 +12,14 @@
   "hot_hits": 55792,
   "introduction": "自古以来日本都在执行着一个名为“脱衣之仪”的神秘仪式。那是被称为“脱衣士”的人身着“天衣”并尽力脱下对手衣服的一种决斗仪式。有一天，从家族人口中得知自己是代代相传的脱衣士的少年古织木棉，突然被自称他后援者的美女美服院姬乃被迫参加脱衣之仪。虽然仍在困惑中，木棉还是与身为针子巫女的脱衣士搭档天缝弥心一起投身进了脱衣战斗中……",
   "types": [
-    "爱情/格斗/搞笑"
+    "爱情",
+    "格斗",
+    "搞笑"
   ],
   "authors": "大谷久",
   "first_letter": "T",
   "subscribe_num": 785,
-  "redis_update_time": 1564311850,
+  "redis_update_time": 1564534342,
   "volume": [
     {
       "id": 5806,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1392177363,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6852,
@@ -33,7 +35,110 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1430913588,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5806,
+      "id": 5806,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39943,
+          "chapter_name": "脱衣之仪",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39944,
+          "chapter_name": "第一章 名为爱神的少年站起",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39945,
+          "chapter_name": "第二章 不只是一位巫女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39946,
+          "chapter_name": "第三章 脱衣士养成计划",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39947,
+          "chapter_name": "第四章 〈脱衣之仪〉开始",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39948,
+          "chapter_name": "第五章 缠绕的羁绊",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39949,
+          "chapter_name": "第六章 最终决战！获胜、前往决赛的道路",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39950,
+          "chapter_name": "第七章 〈脱衣之仪〉预赛闭幕",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 39951,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6852,
+      "id": 6852,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 49626,
+          "chapter_name": "〈脱衣之仪〉恋爱禁止令",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49627,
+          "chapter_name": "第一章 〈脱衣之仪〉决战开场",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49628,
+          "chapter_name": "第二章 宣战！赌上弥心的决斗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49629,
+          "chapter_name": "第三章 桃花运来了！？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49630,
+          "chapter_name": "第四章 激战！宇佐子对美杏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49631,
+          "chapter_name": "第五章 最后决赛！木棉，决断之时",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49632,
+          "chapter_name": "终章 还是要继续脱衣",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 49633,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

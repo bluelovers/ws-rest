@@ -17,7 +17,7 @@
   "authors": "有川浩",
   "first_letter": "P",
   "subscribe_num": 221,
-  "redis_update_time": 1564304535,
+  "redis_update_time": 1564409630,
   "volume": [
     {
       "id": 6382,
@@ -25,7 +25,32 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1412423240,
-      "sum_chapters": 1
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6382,
+      "id": 6382,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 45210,
+          "chapter_name": "编辑部前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45211,
+          "chapter_name": "Here Comes the Sun",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45212,
+          "chapter_name": "Here Comes the Sun Parallel",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

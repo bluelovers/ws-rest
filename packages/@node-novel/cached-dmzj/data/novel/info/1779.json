@@ -12,12 +12,13 @@
   "hot_hits": 31586,
   "introduction": "　　①黑田雪路——二十出头的青年。杀手。持有手枪。受了委托，正企图暗杀女性陶艺家。<br>\n　　②岩谷香菜——大学六年级（并非误植）。废人。持有手枪。正为了工作出门。<br>\n　　③首藤佑贵——高中三年级。正在跟踪自己一直惦记着的单恋对象。<br>\n　　④时本美铃——小学六年级。相貌端正的少女。持有手枪。正打算杀掉「讨厌鬼排行榜」第六名而在街上徘徊。<br>\n　　⑤绿川圆子——陶艺家。头上时时裹着毛巾的妙龄女子。正与年龄不详的金发蓝西装徒弟前往个展会场。<br>\n　　⑥花咲太郎——萝莉控「不灵光侦探」。受人委托，正在找寻下落不明的手枪。<br>\n　　六个人的命运即将围绕着六把手枪转动。震撼的庆典揭幕了。",
   "types": [
-    "冒险/其它"
+    "冒险",
+    "其它"
   ],
   "authors": "入间人间",
   "first_letter": "6",
-  "subscribe_num": 5168,
-  "redis_update_time": 1564312923,
+  "subscribe_num": 5173,
+  "redis_update_time": 1564440115,
   "volume": [
     {
       "id": 6508,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1417188177,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6804,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1428399296,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 9733,
@@ -41,7 +42,98 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1539433929,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6508,
+      "id": 6508,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46425,
+          "chapter_name": "「1/6」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46426,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46427,
+          "chapter_name": "第一天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46428,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 6804,
+      "id": 6804,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 49226,
+          "chapter_name": "「2|6」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49227,
+          "chapter_name": "第二天",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49228,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 9733,
+      "id": 9733,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 90356,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 90357,
+          "chapter_name": "第三天 ①",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 90358,
+          "chapter_name": "第三天 ②",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 90359,
+          "chapter_name": "第三天 ③",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 90360,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 90361,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 8377,
   "introduction": "守护者系列和旅人系列续篇。\n去搜救跳海的恰克慕皇子——帕尔萨接受到了这条密令后，踏上了这条仅有一丝线索的寻人之旅。来自塔鲁修帝国的侵略迫在眉睫，罗塔王国内部还潜藏着阴谋的影子。季节缓缓的轮转，纳由古迎来了春天。帕尔萨能否找到恰克幕呢？\n大河物语最终章三部曲，终于开幕！",
   "types": [
-    "冒险/异界/奇幻"
+    "冒险",
+    "异界",
+    "奇幻"
   ],
   "authors": "上桥菜穗子",
   "first_letter": "T",
-  "subscribe_num": 140,
-  "redis_update_time": 1564028782,
+  "subscribe_num": 141,
+  "redis_update_time": 1564431231,
   "volume": [
     {
       "id": 5808,
@@ -25,7 +27,52 @@
       "volume_name": "第一卷 罗塔王国篇",
       "volume_order": 10,
       "addtime": 1392177842,
-      "sum_chapters": 13
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5808,
+      "id": 5808,
+      "volume_name": "第一卷 罗塔王国篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39960,
+          "chapter_name": "人名表",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39961,
+          "chapter_name": "恰克慕写给修格的信",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39962,
+          "chapter_name": "序章 光之河",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39963,
+          "chapter_name": "第一章 寻找恰克慕的人们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39964,
+          "chapter_name": "第二章 同伴中的敌人，敌人中的同伴",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39965,
+          "chapter_name": "第三章 在暴风雪中",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39966,
+          "chapter_name": "终章 向雪山进发",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

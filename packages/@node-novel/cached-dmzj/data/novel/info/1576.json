@@ -12,12 +12,13 @@
   "hot_hits": 12247,
   "introduction": "阿红和清次姐弟，在深川经营一间出租生意的古道具店「出云屋」。所谓的出租，是指锅、釜、被褥、衣服等各式各样的物品，以不同金额让客人租借的生意。在火灾和水灾频传的这块土地上，因为常被灾祸缠身，所以各种家财反而成了变相妨碍。对于每天必须的物品，倒不如用租借的方式取代购买。因此在江户，这并不是一门多么稀奇的行业。但是，在这间出云屋的旧道具店里，却诞生出许多经过上百年使用而化为「付丧神」的妖怪。随着这些道具被借出，也陆续传出奇怪的流言。而这些高傲、喜欢恶作剧的付丧神，今天也还是继续在出云屋当中胡闹着……！描述出云屋姐弟所遭遇到种种骚动和事件的短篇集，共收录「利休鼠」、「里叶柳」、「秘色」、「似紫」、「苏芳」等五篇故事。",
   "types": [
-    "神鬼/搞笑"
+    "神鬼",
+    "搞笑"
   ],
   "authors": "畠中惠",
   "first_letter": "F",
-  "subscribe_num": 3560,
-  "redis_update_time": 1564312477,
+  "subscribe_num": 3559,
+  "redis_update_time": 1564496067,
   "volume": [
     {
       "id": 5801,
@@ -25,7 +26,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1392031834,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5801,
+      "id": 5801,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39872,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39873,
+          "chapter_name": "利休鼠",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39874,
+          "chapter_name": "里叶柳",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39875,
+          "chapter_name": "秘色",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39876,
+          "chapter_name": "似紫",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39877,
+          "chapter_name": "苏芳",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 49890,
   "introduction": "使用火炎魔剑的骑士少女——菲莉玛。为了调查某个事件而来到北方城镇的她因误入天才魔典使·露娜设下的陷阱，被施用了被归为禁咒的隶属魔法。虽然觉得和害怕寂寞又有点惹人爱怜的露娜之间奇怪的主仆关系令人困扰，但还是在酒馆老板·那哈特的协助之下，一步步逼近这个城镇中隐藏的真相——\n由魔剑骑士公主创造的英雄谭，开幕！",
   "types": [
-    "冒险/魔法"
+    "冒险",
+    "魔法"
   ],
   "authors": "草木うしみつ",
   "first_letter": "W",
   "subscribe_num": 858,
-  "redis_update_time": 1564303378,
+  "redis_update_time": 1564505831,
   "volume": [
     {
       "id": 6062,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 神圣魔剑永不断折",
       "volume_order": 10,
       "addtime": 1401541426,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6898,
@@ -33,7 +34,100 @@
       "volume_name": "第二卷 冰结魔典永不破灭",
       "volume_order": 20,
       "addtime": 1432480771,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6062,
+      "id": 6062,
+      "volume_name": "第一卷 神圣魔剑永不断折",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42249,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42250,
+          "chapter_name": "第一章 骑士，往北",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42251,
+          "chapter_name": "第二章 开始行动的复仇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42252,
+          "chapter_name": "第三章 亚斯提斯游戏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42253,
+          "chapter_name": "第四章 星陨之日",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42254,
+          "chapter_name": "第五章 在那之后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42255,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 42256,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6898,
+      "id": 6898,
+      "volume_name": "第二卷 冰结魔典永不破灭",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 50093,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50094,
+          "chapter_name": "第一章 致命危机结婚无法躲（Attack·of·the·maid）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50095,
+          "chapter_name": "第二章 贩卖人口之夜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50096,
+          "chapter_name": "第三章 插手",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50097,
+          "chapter_name": "第四章 色",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50098,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50099,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

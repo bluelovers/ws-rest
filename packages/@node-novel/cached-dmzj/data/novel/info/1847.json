@@ -12,12 +12,13 @@
   "hot_hits": 11990,
   "introduction": "被撕裂成无数碎片，受异星生命体侵袭的地球。\n在如此残酷严苛的世界里，赤羽玖朗和阿佐悠花生活的「学校」，能够置身在短暂的和平稳定中。\n但由于出现了以「学校」为目标的「敌人」，为了保护自己的居所，玖朗等人的壮烈战斗于焉开始──\n濑尾つかさ为您献上近未来的学园动作剧！",
   "types": [
-    "校园/冒险"
+    "校园",
+    "冒险"
   ],
   "authors": "濑尾つかさ",
   "first_letter": "Y",
   "subscribe_num": 253,
-  "redis_update_time": 1564300887,
+  "redis_update_time": 1564374996,
   "volume": [
     {
       "id": 6773,
@@ -25,7 +26,72 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1426660523,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6773,
+      "id": 6773,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 48936,
+          "chapter_name": "序言1",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48937,
+          "chapter_name": "第一话 破裂的世界碎片",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48938,
+          "chapter_name": "序言2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48939,
+          "chapter_name": "第二话 联系两个世界的《门》",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48940,
+          "chapter_name": "序言3",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48941,
+          "chapter_name": "第三话 为众人而存在的《学校》",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48942,
+          "chapter_name": "第四话 猜疑",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48943,
+          "chapter_name": "第五话 谁是疯狂医生",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 48944,
+          "chapter_name": "第六话 《创造者》的遗产",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 48945,
+          "chapter_name": "尾声",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 48946,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

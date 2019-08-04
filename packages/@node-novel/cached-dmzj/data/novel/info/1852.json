@@ -12,12 +12,14 @@
   "hot_hits": 67124,
   "introduction": "「最近流行勇者与魔王大和解的结局吧，为什么我非得负责收拾不可啊……！」\n合马学园２年Ｇ班的班长——一丛英每天都很忙碌。\n他不但要安抚想毁灭世界的同班同学，还得前往同班同学毁掉的城市善后，甚至会被同班同学杀掉。这都是因为他只是个渺小的人类，而同班同学却都是魔王！\n某天，金发美少女．千岁香织转来Ｇ班。她背上长了一对黑翼——果然也是魔王。\n「我已经受够了魔王转学生啦混蛋！」\n由35名魔王跟一名普通人。没有勇者外加魔王过多校园生活喜剧，开演！",
   "types": [
-    "魔法/校园/搞笑"
+    "魔法",
+    "校园",
+    "搞笑"
   ],
   "authors": "甘宇井白一",
   "first_letter": "X",
-  "subscribe_num": 1954,
-  "redis_update_time": 1564303724,
+  "subscribe_num": 1955,
+  "redis_update_time": 1564383817,
   "volume": [
     {
       "id": 6794,
@@ -25,7 +27,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1427789610,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6794,
+      "id": 6794,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 49118,
+          "chapter_name": "主要人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49119,
+          "chapter_name": "序章 魔王驾到",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49120,
+          "chapter_name": "第1章 决战！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49121,
+          "chapter_name": "第2章 驯魔王师的工作",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49122,
+          "chapter_name": "第3章 天魔特攻队",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49123,
+          "chapter_name": "第4章 Leave Hard（依依不舍）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49124,
+          "chapter_name": "第5章 Fire Starter（引战者）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 49125,
+          "chapter_name": "第6章 Standard Complex（标准症候群）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 49126,
+          "chapter_name": "终章 比半个世界更棒的东西",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 49127,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

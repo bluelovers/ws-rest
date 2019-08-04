@@ -12,12 +12,14 @@
   "hot_hits": 110599,
   "introduction": "由于芬梅尔豪森王朝的国王对奥尔曼的母亲一见钟情，奥尔曼因而成为王朝成员之一。\n不过就在他十岁时得知母亲死讯后的某一天，因为和美丽的大姊希尔托露德间发生事端，使他对王室的衰败深感痛心，于是迳自逃离皇宫。\n之后过了八年，已经长大成为骑士的妹妹娜莉雅突然现身于流浪大陆各处的奥尔曼面前，虽然奥尔曼因此而不得不暂时重返宫中，但等着他的竟是受血缘羁绊，散发着昏黄光芒的王室“宿命”……！\n一场充满谋略的奇幻故事就此揭开序幕。",
   "types": [
-    "魔法/冒险/奇幻"
+    "魔法",
+    "冒险",
+    "奇幻"
   ],
   "authors": "筑地俊彦",
   "first_letter": "M",
-  "subscribe_num": 1580,
-  "redis_update_time": 1564301819,
+  "subscribe_num": 1583,
+  "redis_update_time": 1564438236,
   "volume": [
     {
       "id": 6309,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1409485706,
-      "sum_chapters": 3
+      "sum_chapters": 30
     },
     {
       "id": 7007,
@@ -33,7 +35,90 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1435676583,
-      "sum_chapters": 3
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6309,
+      "id": 6309,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 44526,
+          "chapter_name": "序章 椎心之痛与流出之血",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44527,
+          "chapter_name": "第一章 小鸟的末路",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44528,
+          "chapter_name": "第二章 出现眼前的两条路",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44529,
+          "chapter_name": "第三章 最初的行动",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44530,
+          "chapter_name": "第四章 一触即发",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44531,
+          "chapter_name": "终章 倒地的死者与操弄之人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44532,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7007,
+      "id": 7007,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51165,
+          "chapter_name": "第一章 使者的咆哮",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51166,
+          "chapter_name": "第二章 血脉交错与冒烟的火种",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51167,
+          "chapter_name": "第三章 相互纠缠的蛇与蜘蛛",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51168,
+          "chapter_name": "第四章 血的宣告",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51169,
+          "chapter_name": "终章 情感的胎动",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51170,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

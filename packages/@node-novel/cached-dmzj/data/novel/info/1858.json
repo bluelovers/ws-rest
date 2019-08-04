@@ -12,12 +12,14 @@
   "hot_hits": 30682,
   "introduction": "「找出背叛者」——这是代替逃家的哥哥成为一法师家之主的元所接下的第一道使命。元被告知，有人心怀恶意，利用以历之力量构筑的秘传术法，施下「转生术」之诅咒。若不尽快找出施咒之人并解除诅咒，整族的特殊能力便将就此消失无踪。尔后，分家的古窑遥佳被冠上背叛者罪名。这名少女于十岁时便被指定为一法师家主之婚约对象，并且多次帮助元脱离困境。元深信她无辜，但他有办法成功证明吗！？和风奇幻悬疑剧，于此揭开序幕！",
   "types": [
-    "冒险/侦探/奇幻"
+    "冒险",
+    "侦探",
+    "奇幻"
   ],
   "authors": "鸟村居子",
   "first_letter": "J",
   "subscribe_num": 1102,
-  "redis_update_time": 1564292486,
+  "redis_update_time": 1564377591,
   "volume": [
     {
       "id": 6807,
@@ -25,7 +27,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1428503551,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6807,
+      "id": 6807,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 49243,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49244,
+          "chapter_name": "序章 反覆的约定",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49245,
+          "chapter_name": "第一章 永不褪色的花",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49246,
+          "chapter_name": "第二章 遥想过往",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49247,
+          "chapter_name": "第三章 转世重逢之人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49248,
+          "chapter_name": "第四章 重叠拥合的心",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49249,
+          "chapter_name": "终章 迁移的旁节",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 49250,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

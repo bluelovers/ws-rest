@@ -12,12 +12,14 @@
   "hot_hits": 115725,
   "introduction": "市容特异的都市．戴荣。是由自古传承而来魔法与最新之科学技术融合于此的奇钢齿轮之都。历史悠久、坚守传统的格莱姆斯魔法学院里，众多有才之后生，通过魔力与智力的严格选拔而入学。\n连恩是学院里唯一一名未拥有魔力之普通人。然而──「我要与你决斗！」刺出魔枪剑、发出此宣言的转学生少女．莉莉亚则是继连恩之后，进入学院就读的第二名ＬＥＶＥＬ０之人！\n『我打算，建立我自己的国度。』\n受到某种契约及枷锁所束缚的连恩，当他与『少女们』相遇之时，所有的齿轮开始转动，正义也连带受到欺瞒──正统魔法世界幻想物语，就此展开！",
   "types": [
-    "魔法/校园/科幻"
+    "魔法",
+    "校园",
+    "科幻"
   ],
   "authors": "二阶堂纮嗣",
   "first_letter": "W",
-  "subscribe_num": 1492,
-  "redis_update_time": 1564309401,
+  "subscribe_num": 1493,
+  "redis_update_time": 1564531139,
   "volume": [
     {
       "id": 5867,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 Blade,Blaze and Sweet Ballade",
       "volume_order": 10,
       "addtime": 1393828394,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6112,
@@ -33,7 +35,95 @@
       "volume_name": "第二卷 Guns, Grunge and Lost Gemini",
       "volume_order": 20,
       "addtime": 1402991377,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5867,
+      "id": 5867,
+      "volume_name": "第一卷 Blade,Blaze and Sweet Ballade",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 40498,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40499,
+          "chapter_name": "第一章 L",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40500,
+          "chapter_name": "第二章 非日常的日常生活",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40501,
+          "chapter_name": "第三章 温柔之剑，亦是枪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40502,
+          "chapter_name": "第四章 伤成熟时，罪已随风而逝",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40503,
+          "chapter_name": "落幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40504,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6112,
+      "id": 6112,
+      "volume_name": "第二卷 Guns, Grunge and Lost Gemini",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 42648,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42649,
+          "chapter_name": "第一章 诗人的奇行",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44017,
+          "chapter_name": "第二章 被囚的公主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44146,
+          "chapter_name": "第三章 笔直的扭曲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44272,
+          "chapter_name": "第四章 异形游趣",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44273,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44274,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

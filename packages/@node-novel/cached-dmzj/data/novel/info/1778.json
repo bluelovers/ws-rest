@@ -12,12 +12,14 @@
   "hot_hits": 33666,
   "introduction": "人类的心理状态和性格方面倾向可以被计算数值化的世界。\n　　所有感情，欲望，社会病态的心理倾向全部被记录管理。大众们将“好的人生”作为目标，于是出现了实实在在的数值。\n　　人类的“心”的存在方式作为判定个人的灵魂本身的基准，而被使用的这种测算值衡量的人们，习惯将其通称为“Psycho—Pass”。",
   "types": [
-    "侦探/科幻/其它"
+    "侦探",
+    "科幻",
+    "其它"
   ],
   "authors": "深见真",
   "first_letter": "P",
-  "subscribe_num": 2873,
-  "redis_update_time": 1564307785,
+  "subscribe_num": 2880,
+  "redis_update_time": 1564424648,
   "volume": [
     {
       "id": 6506,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 上",
       "volume_order": 10,
       "addtime": 1417188109,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6507,
@@ -33,7 +35,160 @@
       "volume_name": "第二卷 下",
       "volume_order": 20,
       "addtime": 1417188110,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6506,
+      "id": 6506,
+      "volume_name": "第一卷 上",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46398,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46399,
+          "chapter_name": "01 犯罪系数",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46400,
+          "chapter_name": "02 有能者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46401,
+          "chapter_name": "03 饲育的作法",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46402,
+          "chapter_name": "04 谁都不知道的你的假面",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46403,
+          "chapter_name": "05 无人知道的你的面孔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46404,
+          "chapter_name": "06 狂王子的归还",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46405,
+          "chapter_name": "07 紫兰的花语",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 46406,
+          "chapter_name": "08 之后是，沉默",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 46407,
+          "chapter_name": "09 乐园的果实",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 46408,
+          "chapter_name": "10 玛土撒拉的游戏",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 46409,
+          "chapter_name": "11 圣者的晚餐",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 6507,
+      "id": 6507,
+      "volume_name": "第二卷 下",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 46410,
+          "chapter_name": "XX 消逝的情人节",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46411,
+          "chapter_name": "12 youthful days",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46412,
+          "chapter_name": "13 深渊来的招待",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46413,
+          "chapter_name": "14 甜蜜的毒",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46414,
+          "chapter_name": "15 硫磺洒落的城市",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46415,
+          "chapter_name": "16 制裁之门",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46416,
+          "chapter_name": "17 铁石心肠",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46417,
+          "chapter_name": "18 无果之约",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 46418,
+          "chapter_name": "19 透明的影",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 46419,
+          "chapter_name": "20 正义所在",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 46420,
+          "chapter_name": "21 血的褒奖",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 46421,
+          "chapter_name": "22 完美的世界",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 46422,
+          "chapter_name": "尾声",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 46423,
+          "chapter_name": "唐之杜志恩和六合冢弥生",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 46424,
+          "chapter_name": "涛声响彻的房间",
+          "chapter_order": 150
+        }
+      ]
     }
   ]
 }

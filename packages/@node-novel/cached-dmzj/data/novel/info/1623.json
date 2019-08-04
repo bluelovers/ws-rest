@@ -16,8 +16,8 @@
   ],
   "authors": "小路幸也",
   "first_letter": "D",
-  "subscribe_num": 330,
-  "redis_update_time": 1564263182,
+  "subscribe_num": 331,
+  "redis_update_time": 1564521956,
   "volume": [
     {
       "id": 5993,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷 摇滚爱书魂",
       "volume_order": 10,
       "addtime": 1399000876,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5993,
+      "id": 5993,
+      "volume_name": "第一卷 摇滚爱书魂",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41613,
+          "chapter_name": "人物关系介绍表",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41614,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41615,
+          "chapter_name": "春天 离奇消失的百科全书",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41616,
+          "chapter_name": "夏天 两个媳妇的眼泪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41617,
+          "chapter_name": "秋天 鼠贼雅盗与被遗忘的胸针",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41618,
+          "chapter_name": "冬天 一切都是为了爱",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

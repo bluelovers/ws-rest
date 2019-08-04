@@ -12,12 +12,14 @@
   "hot_hits": 14914,
   "introduction": "拯救过世界的勇者被起诉了！？\n藉由勇者的功绩，圣魔战争结束后300年。以成为正义的律师为目标的少女菲奥娜，拜入名门法律事务所学艺，却因反感唯利是图的所长而转业。但是，在出道战中对簿公堂的是曾经的老师史蜜欧·玛利亚海尔，竟然是那个人！菲奥娜落败，最后在史蜜欧身边任其差使……。就在这样的某一天，事务所收到了一个委托——为那个勇者辩护！？初出茅庐的律师挑战最强的『法庭的魔女』的审判幻想，开庭！！",
   "types": [
-    "魔法/奇幻/搞笑"
+    "魔法",
+    "奇幻",
+    "搞笑"
   ],
   "authors": "羽田辽亮",
   "first_letter": "L",
   "subscribe_num": 129,
-  "redis_update_time": 1564307786,
+  "redis_update_time": 1564512544,
   "volume": [
     {
       "id": 6023,
@@ -25,7 +27,57 @@
       "volume_name": "第一卷 勇者弹劾审判",
       "volume_order": 10,
       "addtime": 1399913118,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6023,
+      "id": 6023,
+      "volume_name": "第一卷 勇者弹劾审判",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41874,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41875,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41876,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41877,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41878,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41879,
+          "chapter_name": "终幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41880,
+          "chapter_name": "Inside Story",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41881,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,13 @@
   "hot_hits": 35031,
   "introduction": "失去的是何物？冲击心灵的青春悬疑小说\n11月9日上午6时42分，我和她重逢了。比任何人都要率真的、正确的、凛然的少女，真边由宇。不应发生的相遇让我的高中生活出现剧变。奇妙的岛屿，连续涂鸦事件，隐藏其中的谜题……我为何身处此地？她为何来到此处？快要被揭开的真相不断把残酷的现实推向我们的青春。“阶梯岛”系列、开幕。",
   "types": [
-    "侦探/冒险"
+    "侦探",
+    "冒险"
   ],
   "authors": "河野裕",
   "first_letter": "J",
   "subscribe_num": 5021,
-  "redis_update_time": 1564312796,
+  "redis_update_time": 1564380815,
   "volume": [
     {
       "id": 6763,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 消失吧，群青",
       "volume_order": 10,
       "addtime": 1426421775,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 8936,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 即使那是片虚假的洁白",
       "volume_order": 20,
       "addtime": 1503925458,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 9082,
@@ -41,7 +42,138 @@
       "volume_name": "第三卷 名为恋情的不洁之红",
       "volume_order": 30,
       "addtime": 1511082926,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6763,
+      "id": 6763,
+      "volume_name": "第一卷 消失吧，群青",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 48850,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48851,
+          "chapter_name": "第一话 唯一无法容忍的事情",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48852,
+          "chapter_name": "第二话 手枪星",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48853,
+          "chapter_name": "第三话 不想被看到挥手的身影",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48854,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 8936,
+      "id": 8936,
+      "volume_name": "第二卷 即使那是片虚假的洁白",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 78994,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78995,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78996,
+          "chapter_name": "第一话 每个人都在拼命寻找着什么",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78997,
+          "chapter_name": "第二话 未能成为纯白",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78998,
+          "chapter_name": "第三话 看着遍体鳞伤的英雄，究竟有谁能笑得出来",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78999,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 79000,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 9082,
+      "id": 9082,
+      "volume_name": "第三卷 名为恋情的不洁之红",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 80993,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 80994,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80995,
+          "chapter_name": "第一话 减法魔女的传闻",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80996,
+          "chapter_name": "第二话 以时钟的速度步行",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80997,
+          "chapter_name": "第三话 遥远的古老话语",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80998,
+          "chapter_name": "第四话 思春之时，我们的所在之处",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 80999,
+          "chapter_name": "第五话 手帕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81000,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 81001,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

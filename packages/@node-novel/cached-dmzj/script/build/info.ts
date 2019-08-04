@@ -28,77 +28,95 @@ export default (async () =>
 
 	const updatedList: Record<number, IDmzjNovelInfoWithChapters> = {};
 
-	let _do = true;
-
-	await Bluebird
-		.resolve(novelList.list)
-		.mapSeries(async (v, index) =>
+	MAIN:
+		for (let _i = 3; _i >= 0; _i--)
 		{
+			let _do = true;
 
-			if (_do && !taskList[v.id])
-			{
-				let fromCache: boolean;
-
-				let info = await api.novelInfoWithChapters(v.id)
-					.catch(e =>
+			await Bluebird
+				.resolve(novelList.list)
+				.mapSeries(async (v, index) =>
 				{
 
-					_do = false;
-
-					consoleDebug.error(v.id, v.name, (e as Error).message);
-
-					return null as IDmzjNovelInfoWithChapters
-				})
-					.tap(function (this: DmzjClient, data)
+					if (_do && !taskList[v.id])
 					{
-						if (data[SymSelf].$response.request.fromCache || this.$response.request.fromCache)
+						let fromCache: boolean;
+
+						let info = await api.novelInfoWithChapters(v.id)
+							.catch(e =>
+							{
+
+								_do = false;
+
+								consoleDebug.error(v.id, v.name, (e as Error).message);
+
+								return null as IDmzjNovelInfoWithChapters
+							})
+							.tap(function (this: DmzjClient, data)
+							{
+								if (data[SymSelf].$response.request.fromCache || this.$response.request.fromCache)
+								{
+									fromCache = true;
+								}
+							})
+						;
+
+						if (info && info.id == v.id)
 						{
-							fromCache = true;
+							consoleDebug.success(v.id, trim(v.name), moment.unix(v.last_update_time)
+								.format(), trim(v.last_update_volume_name), trim(v.last_update_chapter_name));
+
+							let _file = path.join(__root, 'data', 'novel/info', `${v.id}.json`);
+
+							await fs.outputJSON(_file, info, {
+								spaces: 2,
+							});
+
+							updatedList[v.id] = info;
+
+							taskList[v.id] = Math.max(v.last_update_time, info.last_update_time);
+
+							if (!fromCache)
+							{
+								if (!(index % 5))
+								{
+									saveCache();
+								}
+
+								let delay = Math.min(10000 + Math.min(index, 15) * 1000 * Math.random(), 20 * 1000);
+
+								consoleDebug.debug(`delay:`, delay);
+								await Bluebird.delay(delay);
+							}
 						}
-					})
-				;
-
-				if (info && info.id == v.id)
-				{
-					consoleDebug.success(v.id, trim(v.name), moment.unix(v.last_update_time)
-						.format(), trim(v.last_update_volume_name), trim(v.last_update_chapter_name));
-
-					let _file = path.join(__root, 'data', 'novel/info', `${v.id}.json`);
-
-					await fs.outputJSON(_file, info, {
-						spaces: 2,
-					});
-
-					updatedList[v.id] = info;
-
-					taskList[v.id] = Math.max(v.last_update_time, info.last_update_time);
-
-					if (!fromCache)
-					{
-						if (!(index % 5))
+						else
 						{
-							saveCache();
+							_do = false;
 						}
-
-						let delay = Math.min(5000 + Math.min(index, 10) * 1000 * Math.random(), 15 * 1000);
-
-						consoleDebug.debug(`delay:`, delay);
-						await Bluebird.delay(delay);
 					}
-				}
-				else
-				{
-					_do = false;
-				}
-			}
 
-		})
-		.catch(e => null)
-		.tap(v =>
-		{
-			consoleDebug.info(`結束抓取小說資料`);
-		})
-	;
+				})
+				.catch(e => null)
+				.tap(v =>
+				{
+					consoleDebug.info(`結束抓取小說資料`);
+				})
+			;
+
+			if (_do || _i === 0)
+			{
+				_do = false;
+				break MAIN;
+			}
+			else if (_i > 0)
+			{
+				_do = false;
+				break MAIN;
+
+				await Bluebird.delay(120 * 1000);
+			}
+		}
+		;
 
 	await Bluebird
 		.resolve(Object.entries(updatedList))

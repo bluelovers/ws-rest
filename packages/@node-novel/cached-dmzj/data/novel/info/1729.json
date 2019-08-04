@@ -12,12 +12,14 @@
   "hot_hits": 113231,
   "introduction": "本书目前没有文库本翻译，只有web版翻译(写作已完实则已坑)。<br>\n－－－－－－<br>\n这就是说，我持有着前世的记忆转生了么？<br>\n注意到这些的我（大杉健太郎：♂：大学生），在和自己最喜欢的网络游戏极为相似的世界里，变成了可爱的萝莉！<br>\n以少女之身在未知的异世界开始了第二次的人生，被梦寐以求的双亲与个性丰富的人们包围着，可是使用的魔法里却不包括杀伤魔法，连火球术都使不出来！？外表是小萝莉，却有着哲♂学的大脑，少女以新的身份迈进未知的世界！",
   "types": [
-    "冒险/魔法/异界"
+    "冒险",
+    "魔法",
+    "异界"
   ],
   "authors": "绢野帽子",
   "first_letter": "B",
-  "subscribe_num": 1234,
-  "redis_update_time": 1564306213,
+  "subscribe_num": 1235,
+  "redis_update_time": 1564436059,
   "volume": [
     {
       "id": 6347,
@@ -25,7 +27,47 @@
       "volume_name": "第一卷 web版",
       "volume_order": 10,
       "addtime": 1411215793,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6347,
+      "id": 6347,
+      "volume_name": "第一卷 web版",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 44846,
+          "chapter_name": "序章 「glorious world」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44847,
+          "chapter_name": "新的人生篇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44848,
+          "chapter_name": "新的家族篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44849,
+          "chapter_name": "王都篇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44850,
+          "chapter_name": "学园都市篇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44851,
+          "chapter_name": "类似后记的东西",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 65504,
   "introduction": "一个偶然的契机，人类和妖梦之间出生的少年——神原秋人，有一天与在学校屋顶看上去要跳楼的少女——栗山未来相遇了。\n有着即使在异界士中也很特殊的“血”之能力的少女，在孤独中战斗着。\n“我——看起来像是普通的人类么？”\n少年决心帮助这个命运与自己重叠的少女。\n由此，围绕在少年身边险恶的战斗开始了……",
   "types": [
-    "神鬼/校园/爱情"
+    "神鬼",
+    "校园",
+    "爱情"
   ],
   "authors": "鸟居なごむ",
   "first_letter": "J",
-  "subscribe_num": 6313,
-  "redis_update_time": 1564312787,
+  "subscribe_num": 6349,
+  "redis_update_time": 1564530743,
   "volume": [
     {
       "id": 6233,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1406810943,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7513,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1454153238,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7514,
@@ -41,7 +43,98 @@
       "volume_name": "BD特典小说 卖眼镜的少女与灰姑娘",
       "volume_order": 30,
       "addtime": 1454153400,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6233,
+      "id": 6233,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 43851,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43852,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43853,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43854,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43855,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43856,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43857,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7513,
+      "id": 7513,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 56838,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 56839,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 56840,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 7514,
+      "id": 7514,
+      "volume_name": "BD特典小说 卖眼镜的少女与灰姑娘",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 56841,
+          "chapter_name": "第一回",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 56884,
+          "chapter_name": "第二回",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 56885,
+          "chapter_name": "第三回",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

@@ -17,7 +17,7 @@
   "authors": "似鸟鸡",
   "first_letter": "T",
   "subscribe_num": 234,
-  "redis_update_time": 1564201354,
+  "redis_update_time": 1564344678,
   "volume": [
     {
       "id": 6893,
@@ -25,7 +25,42 @@
       "volume_name": "第一卷 嫌犯请先享用",
       "volume_order": 10,
       "addtime": 1432295706,
-      "sum_chapters": 5
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6893,
+      "id": 6893,
+      "volume_name": "第一卷 嫌犯请先享用",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50049,
+          "chapter_name": "Chapter 1 献给服丧的女王陛下",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50050,
+          "chapter_name": "Chapter 2 舒芙蕾的时间",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50051,
+          "chapter_name": "Chapter 3 星空、死者、桃子派",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50052,
+          "chapter_name": "Chapter 4 最后的甜美结局",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50053,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

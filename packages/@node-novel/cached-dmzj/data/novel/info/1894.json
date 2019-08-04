@@ -17,7 +17,7 @@
   "authors": "嬉野君",
   "first_letter": "4",
   "subscribe_num": 381,
-  "redis_update_time": 1564283170,
+  "redis_update_time": 1564327429,
   "volume": [
     {
       "id": 6922,
@@ -25,7 +25,32 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1433085905,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6922,
+      "id": 6922,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50352,
+          "chapter_name": "诈欺师筹码四百圆",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50353,
+          "chapter_name": "诈欺师发展心理学",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50354,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

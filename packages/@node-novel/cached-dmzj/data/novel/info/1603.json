@@ -16,8 +16,8 @@
   ],
   "authors": "红玉伊月",
   "first_letter": "C",
-  "subscribe_num": 241,
-  "redis_update_time": 1564228406,
+  "subscribe_num": 242,
+  "redis_update_time": 1564531146,
   "volume": [
     {
       "id": 5901,
@@ -25,7 +25,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1395841400,
-      "sum_chapters": 5
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5901,
+      "id": 5901,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 40778,
+          "chapter_name": "开幕 乘秋千飞翔的圣修伯里 Ⅰ",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40779,
+          "chapter_name": "第一幕 乘秋千飞翔的圣修伯里 Ⅱ",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40780,
+          "chapter_name": "第二幕 训兽师卡夫卡",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40781,
+          "chapter_name": "第三幕 歌姬安徒生",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40782,
+          "chapter_name": "闭幕 乘秋千飞翔的圣修伯里 Ⅲ",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

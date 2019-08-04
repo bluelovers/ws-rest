@@ -12,12 +12,13 @@
   "hot_hits": 65825,
   "introduction": "魔法少女是个危险的职业。\n少女很明白这点。\n即便明白，她还是在不断的战斗。",
   "types": [
-    "魔法/冒险"
+    "魔法",
+    "冒险"
   ],
   "authors": "明秀一",
   "first_letter": "S",
-  "subscribe_num": 331,
-  "redis_update_time": 1564265658,
+  "subscribe_num": 332,
+  "redis_update_time": 1564506119,
   "volume": [
     {
       "id": 5933,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1397227731,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6321,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1409915619,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 6849,
@@ -41,7 +42,163 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1430748363,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5933,
+      "id": 5933,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41088,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41089,
+          "chapter_name": "第一章 魔法少女没有男生",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41090,
+          "chapter_name": "第二章 大小姐的怪异行为",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41091,
+          "chapter_name": "第三章 Queen",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41092,
+          "chapter_name": "第四章 天使降临",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41093,
+          "chapter_name": "第五章 闪光的White-out",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41094,
+          "chapter_name": "Episode",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41095,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6321,
+      "id": 6321,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 44623,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44789,
+          "chapter_name": "第一章 学园出道（Debut）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45003,
+          "chapter_name": "第二章 新的组合！？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45307,
+          "chapter_name": "第三章 女生宿舍潜入搜查",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45308,
+          "chapter_name": "第四章 正体",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45869,
+          "chapter_name": "第五章 开始监视生活",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45870,
+          "chapter_name": "第六章 陷阱",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45871,
+          "chapter_name": "第七章 真相、闪光与雪茫（Whiteout）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 45872,
+          "chapter_name": "Epilogue",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 45873,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 6849,
+      "id": 6849,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 49612,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49613,
+          "chapter_name": "第一章 揭开秘密",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49806,
+          "chapter_name": "第二章 大小姐的礼仪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49807,
+          "chapter_name": "第三章 需求的选择",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50022,
+          "chapter_name": "第四章 崩坏的世界",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50023,
+          "chapter_name": "第五章 最终决战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50024,
+          "chapter_name": "Epilogue",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50025,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

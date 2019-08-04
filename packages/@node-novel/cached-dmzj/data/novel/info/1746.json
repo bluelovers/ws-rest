@@ -12,12 +12,13 @@
   "hot_hits": 101986,
   "introduction": "为了与被称为狂精灵的威胁对抗，人类开发了魔法——。魔奏学园，是以培养魔法的使用者，尤其是在魔法之中最强的魔法兵器，精灵翔机的使用者为目的的学园都市。无法使用魔法，却又拼命追求力量的少年·一叶，一度离开了这里，如今又重回此地。就连他也能使用的魔法兵器的诞生之仪，将由青梅竹马桔梗施行。但是，为他而生的兵器，不知为何却是女孩子的样子……！？\n“只要是主人的命令我什么都会做。就算是穿裸体围裙，我也不会犹豫。”\n“那是不可能的好么！？”\n点燃真实之力，描绘新的命运——！\n魔法X机械=火力全开的学园动作剧，开幕！",
   "types": [
-    "魔法/校园"
+    "魔法",
+    "校园"
   ],
   "authors": "七乌未奏",
   "first_letter": "R",
-  "subscribe_num": 1732,
-  "redis_update_time": 1564294424,
+  "subscribe_num": 1734,
+  "redis_update_time": 1564437723,
   "volume": [
     {
       "id": 6412,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 Phase01 双魔剑的精灵翔机",
       "volume_order": 10,
       "addtime": 1413805465,
-      "sum_chapters": 3
+      "sum_chapters": 30
     },
     {
       "id": 6543,
@@ -33,7 +34,95 @@
       "volume_name": "第二卷 Phase02 初恋炼花",
       "volume_order": 20,
       "addtime": 1418557920,
-      "sum_chapters": 3
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6412,
+      "id": 6412,
+      "volume_name": "第一卷 Phase01 双魔剑的精灵翔机",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 45510,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45511,
+          "chapter_name": "第一章 人型的精灵核",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45512,
+          "chapter_name": "第二章 魔奏学园",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45513,
+          "chapter_name": "第三章 事件调查",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45514,
+          "chapter_name": "第四章 双魔剑的精灵翔机",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45515,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45516,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6543,
+      "id": 6543,
+      "volume_name": "第二卷 Phase02 初恋炼花",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 46758,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46759,
+          "chapter_name": "第一章 翔舞祭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46847,
+          "chapter_name": "第二章 蠢动者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47024,
+          "chapter_name": "第三章 初恋炼花",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47357,
+          "chapter_name": "第四章 终结与开始",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47358,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47359,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

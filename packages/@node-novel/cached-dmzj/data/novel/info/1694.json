@@ -12,12 +12,14 @@
   "hot_hits": 183868,
   "introduction": "　　我叫作三柴直道，这本书的「主角」——应该不是我。\n　　在发生情书事件（第一次收到）之后，结果就发现青梅竹马一条爱澄竟然是魔术师！而且还突然有个妹妹跑来对我撒娇，学校的校花也贴了过来，我现在是犯桃花吗？\n　　爱澄、铃、麻乃各自述说了我的「真面目」，但她们三人所说的事实全都相互矛盾，而且我这种人才不会是那种特别与众不同的主角。\n　　「我只是个平凡的男高中生，还是个空窗期＝年龄的处男，不行吗！」「这么想的人只有你而已。」「你是说我失忆的时候体验过了是不是！」\n　　就这样，我偏离了『日常系』，展成了超·日常系学园的奇幻故事！",
   "types": [
-    "爱情/校园/奇幻"
+    "爱情",
+    "校园",
+    "奇幻"
   ],
   "authors": "二阶堂纮嗣",
   "first_letter": "H",
-  "subscribe_num": 3224,
-  "redis_update_time": 1564310649,
+  "subscribe_num": 3225,
+  "redis_update_time": 1564534099,
   "volume": [
     {
       "id": 6225,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 一条爱澄是第一女主角",
       "volume_order": 10,
       "addtime": 1406643197,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6920,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 不知为何女主角增加了",
       "volume_order": 20,
       "addtime": 1433084977,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7244,
@@ -41,7 +43,213 @@
       "volume_name": "第三卷 为何我的眼前冒出选项",
       "volume_order": 30,
       "addtime": 1443362793,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6225,
+      "id": 6225,
+      "volume_name": "第一卷 一条爱澄是第一女主角",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 43785,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43786,
+          "chapter_name": "第1话 美少女以上，魔法少女未满",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43787,
+          "chapter_name": "第2话 我才没有妹妹",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43788,
+          "chapter_name": "第3话 白雪姬计划",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43789,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 6920,
+      "id": 6920,
+      "volume_name": "第二卷 不知为何女主角增加了",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 50337,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50338,
+          "chapter_name": "第4话 王子殿下杀人事件",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50339,
+          "chapter_name": "第5话 美少女X(前篇)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50340,
+          "chapter_name": "第6话 美少女X(后篇)",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50341,
+          "chapter_name": "结",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50342,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7244,
+      "id": 7244,
+      "volume_name": "第三卷 为何我的眼前冒出选项",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 53281,
+          "chapter_name": "第7话打破惯例！（11页）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53282,
+          "chapter_name": "回头一看有位浴衣美女（17页）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53283,
+          "chapter_name": "G—SHOCK（28页）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53284,
+          "chapter_name": "爱澄·in·Summer World（44页）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53285,
+          "chapter_name": "白衣天使降临（60页）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53286,
+          "chapter_name": "简直就像一场恶梦（73页）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53287,
+          "chapter_name": "浴场乐融融（81页）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 53288,
+          "chapter_name": "我们的大姊头（91页）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 53289,
+          "chapter_name": "漂亮小铃（99页）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 53290,
+          "chapter_name": "true lies（107页）",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 53291,
+          "chapter_name": "连薛丁格的猫手都想借（138页）",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 53292,
+          "chapter_name": "香浓麻乃（147页）",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 53293,
+          "chapter_name": "隐藏的佐料是爱（154）",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 53298,
+          "chapter_name": "头槌(167页)",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 53295,
+          "chapter_name": "初吻（176页）",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 53296,
+          "chapter_name": "就说不可能（185页）",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 53297,
+          "chapter_name": "温柔地吻我（190页）",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 53299,
+          "chapter_name": "我含（194页）",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 53300,
+          "chapter_name": "这里是哪里？（199页）",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 53301,
+          "chapter_name": "怎么会这么柔软……（201页）",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 53302,
+          "chapter_name": "黑暗之中令人心跳加速的电影（206页）",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 53303,
+          "chapter_name": "中继点（217页）",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 53304,
+          "chapter_name": "欢迎来到万兽森林（232页）",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 53305,
+          "chapter_name": "重新开始（243）",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 53306,
+          "chapter_name": "后记",
+          "chapter_order": 250
+        }
+      ]
     }
   ]
 }

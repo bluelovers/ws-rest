@@ -16,8 +16,8 @@
   ],
   "authors": "行田尚希",
   "first_letter": "X",
-  "subscribe_num": 862,
-  "redis_update_time": 1564299873,
+  "subscribe_num": 863,
+  "redis_update_time": 1564382078,
   "volume": [
     {
       "id": 6562,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1419008384,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 6762,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1426421256,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 8311,
@@ -41,7 +41,123 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1479986058,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6562,
+      "id": 6562,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46914,
+          "chapter_name": "第一章 人类的故事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46915,
+          "chapter_name": "第二章 天狗的故事",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46916,
+          "chapter_name": "第三章 狸猫的故事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46917,
+          "chapter_name": "第四章 猫又的故事",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46918,
+          "chapter_name": "第五章 狐狸的故事",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46919,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6762,
+      "id": 6762,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 48840,
+          "chapter_name": "第一章 镰鼬的故事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48841,
+          "chapter_name": "第二章 座敷童子的故事",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48842,
+          "chapter_name": "第三章 滑头鬼的故事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48843,
+          "chapter_name": "第四章 人类的故事 之二",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48844,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 8311,
+      "id": 8311,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 69175,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69176,
+          "chapter_name": "第一章 鵺的故事",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69177,
+          "chapter_name": "第二章 天邪鬼的故事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69178,
+          "chapter_name": "第三章 雪女的故事",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69179,
+          "chapter_name": "第四章 人类的故事 之三",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69180,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 69181,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

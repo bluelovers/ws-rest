@@ -12,12 +12,13 @@
   "hot_hits": 143968,
   "introduction": "　　绰号为小吉的高中二年级学生小衣吉足，正跟就读高一的妹妹日向单独住在一起。\n　　三年前父母双亡的打击使他得到「愈是与自己亲近就忘记得愈彻底」的特殊失忆症，失去过去的部分记忆。\n　　有一天，能让所有人忍不住回头多看一眼的美少女转入他们班上。\n　　名为浅海结爱的少女对吉足吐出极具冲击性的真实告白。\n　　「我的前男友是……小衣吉足。」\n　　失去记忆的空白一年，吉足真的曾跟结爱交往过吗？\n　　对结爱的急速接近惊慌失措的妹妹日向心中真意为何？",
   "types": [
-    "校园/爱情"
+    "校园",
+    "爱情"
   ],
   "authors": "比嘉智康",
   "first_letter": "S",
-  "subscribe_num": 3208,
-  "redis_update_time": 1564307212,
+  "subscribe_num": 3225,
+  "redis_update_time": 1564535737,
   "volume": [
     {
       "id": 6018,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1399862276,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 7105,
@@ -33,7 +34,125 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1438779919,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6018,
+      "id": 6018,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41830,
+          "chapter_name": "第一话 小衣吉足必定遇到的灾难",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41831,
+          "chapter_name": "第二话 浅海结爱登场",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41832,
+          "chapter_name": "第三话 浅海结爱的推理",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41833,
+          "chapter_name": "第四话 请求同居许可",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41834,
+          "chapter_name": "第五话 同居生活～晚餐&自我介绍～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41835,
+          "chapter_name": "第六话 同居生活～洗衣、帐篷，今晚的床铺～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41836,
+          "chapter_name": "第七话 小衣吉足最倒楣的一天",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41837,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7105,
+      "id": 7105,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51978,
+          "chapter_name": "序章 至上次为止的简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51979,
+          "chapter_name": "第一话 平日早上的霉运",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51980,
+          "chapter_name": "第二话 出发前往游泳池之前",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51981,
+          "chapter_name": "第三话 乳女神",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51982,
+          "chapter_name": "第四话 红白情侣的约会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51983,
+          "chapter_name": "第五话 男性更衣室置物柜的故事",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51984,
+          "chapter_name": "第六话 请别用那种绰号叫我",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51985,
+          "chapter_name": "第七话 不是恋妹癖的证据",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 51986,
+          "chapter_name": "第八话 日向的秘密",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 51987,
+          "chapter_name": "第九话 在前往修学旅行的车上",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 51988,
+          "chapter_name": "第十话 成人频道……然后",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 51989,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

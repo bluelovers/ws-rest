@@ -12,12 +12,13 @@
   "hot_hits": 44753,
   "introduction": "在精灵诅咒下，受到龙化侵蚀的魔法师·朝雾圭，为了寻求解咒的线索，他成为专门回收寄宿灵魂、散发异能的《古久品》猎人，游走在亚洲各地。某一天，回到学园都市的圭，意外与平时保持有人类形态的特异古久品·金发美少女维多莉雅展开同居？定期让维多莉雅吸收魔力，可以抑制圭的龙化侵蚀，但方法却是……接吻！？就在同时，为了从不择手段，三番四次展开抢夺的收藏家中保护稀有《古久品》维多莉雅，圭赌上了自己的性命——！魔法x火枪的火药动作冒险，盛大开幕！",
   "types": [
-    "魔法/冒险"
+    "魔法",
+    "冒险"
   ],
   "authors": "北元明野",
   "first_letter": "S",
   "subscribe_num": 963,
-  "redis_update_time": 1564303403,
+  "redis_update_time": 1564335044,
   "volume": [
     {
       "id": 6902,
@@ -25,7 +26,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1432481305,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6902,
+      "id": 6902,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 50129,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50130,
+          "chapter_name": "1.维多莉雅·布朗蓓思",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50131,
+          "chapter_name": "2.调换儿与古久品",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50132,
+          "chapter_name": "3.黑与白",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50133,
+          "chapter_name": "4.始自火药味的吻",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50134,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

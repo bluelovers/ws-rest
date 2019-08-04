@@ -12,12 +12,15 @@
   "hot_hits": 154417,
   "introduction": "吊车尾的探索士勇纪，捡到了一个东西，那就是——“啊，这就是我应该保护的世界吗！”——自称女神的缇娜。无法引发奇迹的少女，和失去了挥剑理由的少年相遇了，世界的变革从这里开始。\n只剩下一座都市和一座迷宫，整个世界都被虚无蚕食殆尽。战斗胜利的光荣，冒险结局是荣华富贵还是死亡。人们的粮食和欲望，命运和奇迹——世间的一切都沉睡在大迷宫《伟大之门》中，在这里探索士勇纪捡到了一名少女。“这里就是索里图斯，吾的城镇！来迎接神姬的归来吧！”自称是守护城镇的女神——神姬的少女缇娜，为了取回失去的力量，请求勇纪的帮助。“我没有钱。所以，请买我的身体吧。”和背弃了命运的探索士一起，为了取回奇迹之力而努力奋战的女神所描绘的“保护世界”的剑戟迷宫奇幻小说。",
   "types": [
-    "魔法/冒险/奇幻/异界"
+    "魔法",
+    "冒险",
+    "奇幻",
+    "异界"
   ],
   "authors": "すえばしけん",
   "first_letter": "L",
   "subscribe_num": 2017,
-  "redis_update_time": 1564312246,
+  "redis_update_time": 1564525833,
   "volume": [
     {
       "id": 5932,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1397209512,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 5934,
@@ -33,7 +36,110 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1397389849,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5932,
+      "id": 5932,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 41070,
+          "chapter_name": "主要人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41071,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41072,
+          "chapter_name": "序章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41073,
+          "chapter_name": "第一章 坠落的少女",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41074,
+          "chapter_name": "第二章 被捡到的神姬和劳动",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41075,
+          "chapter_name": "第三章 空之誓约团",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41076,
+          "chapter_name": "第四章 雪白的龙牙石",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41077,
+          "chapter_name": "第五章 只是为了守护",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 41078,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 41079,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 5934,
+      "id": 5934,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 41100,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41101,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41363,
+          "chapter_name": "第一章 小树苗们的体验探索",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41364,
+          "chapter_name": "第二章 混沌迷宫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41508,
+          "chapter_name": "第三章 守护的东西，破坏的东西",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41509,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41510,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

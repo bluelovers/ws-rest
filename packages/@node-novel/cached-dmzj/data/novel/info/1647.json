@@ -12,12 +12,15 @@
   "hot_hits": 22205,
   "introduction": "我，小林修司，有三个青梅竹马的伙伴──但很可惜，都是笨蛋。\n「小林同学。你就是这起事件的犯人！」\n明智京太郎今天也一如往常地说出自己的诡辩台词（又在乱来了）。\n「好厉害！名推理！」\n文美今天也一如往常地在一旁帮腔附和（文美……是白痴吗）。\n「不要欺负我哥哥！」\n连明智的妹妹二重也一如往常地大叫，还不断对我重覆使出飞身踢击（到底在搞什么）。\n「京太郎！提出证据来啊！」\n看来我也只能一如往常地自己解开真相（别再把我当成犯人了，我明明就是被害者啊）……\n第13届ENTAME大赏优秀奖，名侦探【→笨蛋】与我【→(无辜的)嫌疑犯】崭新的校园冒险推理！",
   "types": [
-    "校园/冒险/侦探/搞笑"
+    "校园",
+    "冒险",
+    "侦探",
+    "搞笑"
   ],
   "authors": "道端さつと",
   "first_letter": "M",
-  "subscribe_num": 333,
-  "redis_update_time": 1564308253,
+  "subscribe_num": 334,
+  "redis_update_time": 1564498278,
   "volume": [
     {
       "id": 6065,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1401541834,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 6730,
@@ -33,7 +36,95 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1424828276,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6065,
+      "id": 6065,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 42280,
+          "chapter_name": "序章 明智少年",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42281,
+          "chapter_name": "第一章 被舞动的人们",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42282,
+          "chapter_name": "第二章 DOGGOD·FAMILY",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42283,
+          "chapter_name": "第三章 「K」的悲剧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42284,
+          "chapter_name": "第四章 于是「那个谁」不见了",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 42285,
+          "chapter_name": "终章 明智少年的真相",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 42286,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6730,
+      "id": 6730,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 48532,
+          "chapter_name": "序章 金发的大小姐侦探转入",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48533,
+          "chapter_name": "第一章 顺着推理之旅的气势",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48534,
+          "chapter_name": "第二章 享受夏天乐趣之后",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48535,
+          "chapter_name": "第三章 Ladder to the moon",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48536,
+          "chapter_name": "第四章 Muder of the Orient-Express",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48537,
+          "chapter_name": "终章 金田乃惠琉的隐情",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48538,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

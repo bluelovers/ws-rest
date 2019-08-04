@@ -12,12 +12,13 @@
   "hot_hits": 40496,
   "introduction": "赫塔利的留学生回，在因工到访的工场遗址再会了儿时玩伴的柊，虽然想帮助她但她的身体有着不可告人的秘密。以异世界为舞台，正统的boymeetgirlstory！",
   "types": [
-    "爱情/异界"
+    "爱情",
+    "异界"
   ],
   "authors": "手岛史词",
   "first_letter": "H",
-  "subscribe_num": 845,
-  "redis_update_time": 1564244524,
+  "subscribe_num": 844,
+  "redis_update_time": 1564536185,
   "volume": [
     {
       "id": 5802,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 为了你，我所能做的事",
       "volume_order": 10,
       "addtime": 1392175266,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 7192,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 徘徊在地下迷宫的收藏家",
       "volume_order": 20,
       "addtime": 1441634154,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 7214,
@@ -41,7 +42,128 @@
       "volume_name": "第三卷 小人物的镇魂歌",
       "volume_order": 30,
       "addtime": 1442328536,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5802,
+      "id": 5802,
+      "volume_name": "第一卷 为了你，我所能做的事",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 39880,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39881,
+          "chapter_name": "第一章 首先，出任务吧！少年！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39882,
+          "chapter_name": "追想一 操偶师尚年轻",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39883,
+          "chapter_name": "第二章 然后，让我们试着把手握紧些",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39884,
+          "chapter_name": "追想二 操偶师原来是美人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39885,
+          "chapter_name": "第三章 那么，试着战斗吧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39886,
+          "chapter_name": "第四章 那么，人偶剧开始罗",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39887,
+          "chapter_name": "第五章 这就是传说中的逆袭吧",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 39888,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 39889,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7192,
+      "id": 7192,
+      "volume_name": "第二卷 徘徊在地下迷宫的收藏家",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 52827,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52828,
+          "chapter_name": "第一章 首先我们试着去探索一下幽灵吧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52829,
+          "chapter_name": "第二章 接着我们去探索一下地下吧",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52830,
+          "chapter_name": "第三章 和操纵人偶跳舞感觉怎么样",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52831,
+          "chapter_name": "第四章 做了这样的事之后竟然迷路了",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52832,
+          "chapter_name": "第五章 要吵就吵",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52833,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52834,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7214,
+      "id": 7214,
+      "volume_name": "第三卷 小人物的镇魂歌",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 53031,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 2303178,
   "introduction": "这是一个被名为魔甲虫的威胁夺走了大地，人类住在天空的浮游都市的世界。人类之中出现了身怀魔力并能与魔甲虫对抗的魔导士——空战魔导士。就读于空战魔导士育成机构的学园浮游都市“雾枪”的奏多·英司，是被称为“黑之剑圣”的S128特务小队王牌。但是现在，则被蔑称为“特务小队的叛徒”而被人厌恶着.....一天，这样的奏多被任命为连战连败的E601小队的教官。等待着奏多的却是三名问题少女？叛徒和吊车尾少女们的快进击，现在开始。",
   "types": [
-    "魔法/校园/后宫"
+    "魔法",
+    "校园",
+    "后宫"
   ],
   "authors": "诸星悠",
   "first_letter": "K",
-  "subscribe_num": 37414,
-  "redis_update_time": 1564313071,
+  "subscribe_num": 37449,
+  "redis_update_time": 1564441565,
   "volume": [
     {
       "id": 6299,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1409137098,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6317,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1409764556,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6391,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1412657877,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6593,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1419779709,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 6793,
@@ -57,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1427716271,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7148,
@@ -65,7 +67,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1439914453,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7714,
@@ -73,7 +75,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1460717123,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7809,
@@ -81,7 +83,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1463055584,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 7810,
@@ -89,7 +91,7 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1463055593,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 8475,
@@ -97,7 +99,7 @@
       "volume_name": "第十卷",
       "volume_order": 100,
       "addtime": 1485943681,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 8762,
@@ -105,7 +107,7 @@
       "volume_name": "第十一卷",
       "volume_order": 110,
       "addtime": 1498223040,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 8895,
@@ -113,7 +115,7 @@
       "volume_name": "第十二卷",
       "volume_order": 120,
       "addtime": 1502540237,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 9067,
@@ -121,7 +123,7 @@
       "volume_name": "短篇",
       "volume_order": 130,
       "addtime": 1510305928,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 10093,
@@ -129,7 +131,7 @@
       "volume_name": "第十三卷",
       "volume_order": 140,
       "addtime": 1557286156,
-      "sum_chapters": 9
+      "sum_chapters": 30
     },
     {
       "id": 10111,
@@ -137,7 +139,734 @@
       "volume_name": "第十四卷",
       "volume_order": 150,
       "addtime": 1557925415,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6299,
+      "id": 6299,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 44419,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44420,
+          "chapter_name": "第一章 最强的背叛者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44421,
+          "chapter_name": "第二章 最弱带来的可能性",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44422,
+          "chapter_name": "第三章 红发的少女奏起决意",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44423,
+          "chapter_name": "第四章 她的一击是胜利的关键",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44424,
+          "chapter_name": "第五章 被夺走的天空、然后..少女们奔赴天空",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44425,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44426,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6317,
+      "id": 6317,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 44590,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44591,
+          "chapter_name": "第一章 叛徒的替换",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44666,
+          "chapter_name": "第二章 最弱不能萌发出任何东西",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44668,
+          "chapter_name": "第三章 灾难面前，叛徒的背后能看见什么",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44697,
+          "chapter_name": "第四章 从零开始的无限可能性",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44704,
+          "chapter_name": "第五章 模拟战，然后…",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 44748,
+          "chapter_name": "第六章 最强与最弱交集——然后她们相互理解",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 44749,
+          "chapter_name": "尾声",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 44750,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 6391,
+      "id": 6391,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 45291,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45383,
+          "chapter_name": "第一章 突然的再会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45384,
+          "chapter_name": "第二章 抹消不了的&lt;心之壁&gt;",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45385,
+          "chapter_name": "第三章 名为温柔的力量",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45386,
+          "chapter_name": "第四章 决战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45387,
+          "chapter_name": "第五章 终焉的舞会",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45388,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45389,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6593,
+      "id": 6593,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 47262,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47341,
+          "chapter_name": "第一章 一丝忧虑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47342,
+          "chapter_name": "第二章 空士的羁绊",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47343,
+          "chapter_name": "第三章 交错而过的决意",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47344,
+          "chapter_name": "第四章 小队长的决心",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47345,
+          "chapter_name": "第五章 吊车尾女神要成为天地之尊",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47346,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 47347,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6793,
+      "id": 6793,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 49109,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49571,
+          "chapter_name": "第一章 败北与开端",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49572,
+          "chapter_name": "第二章 学而时习之",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49573,
+          "chapter_name": "第三章 决意与嫉妒",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49574,
+          "chapter_name": "第四章 袒露的决心！红发少女放眼苍穹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49575,
+          "chapter_name": "第五章 连他也意想不到",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49576,
+          "chapter_name": "第六章 满怀信念的一击",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 49577,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 49578,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7148,
+      "id": 7148,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 52387,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52388,
+          "chapter_name": "第一章 空中旅途",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52389,
+          "chapter_name": "第二章 到&lt;贝贝鲁&gt;的目的",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52391,
+          "chapter_name": "第三章 最强与最弱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52592,
+          "chapter_name": "第四章 开幕晚会的阴谋",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52593,
+          "chapter_name": "第五章 夜战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 52594,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 52595,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7714,
+      "id": 7714,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 59685,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 59686,
+          "chapter_name": "第一章 疑心的连锁情结",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 59687,
+          "chapter_name": "第二章 爱的宠物守护者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 59688,
+          "chapter_name": "第三章 协创的战争行动",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 59689,
+          "chapter_name": "第四章 爱情的糕点师傅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 59690,
+          "chapter_name": "第五章 将忠诚献给女王",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 59691,
+          "chapter_name": "第六章 惹麻烦的第三者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 59692,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 59693,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 7809,
+      "id": 7809,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 63906,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 63907,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 63908,
+          "chapter_name": "第一章 生命的抉择",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 63909,
+          "chapter_name": "第二章 奉献一切也想守护的事物",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 63910,
+          "chapter_name": "第三章 最后晚餐的当天……",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 63911,
+          "chapter_name": "第四章 两人的选择带来的结果",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 63912,
+          "chapter_name": "第五章 选择的连锁奏响奇迹",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 63913,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 63914,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 63979,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7810,
+      "id": 7810,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 60920,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 60921,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61356,
+          "chapter_name": "第一章 暗跃的人形魔甲虫",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 64226,
+          "chapter_name": "第二章 未知的遭遇战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 65962,
+          "chapter_name": "第三章 败北与后悔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 66028,
+          "chapter_name": "第四章 E601小队的力量",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 66221,
+          "chapter_name": "第五章 贯彻那个的，是她们的觉悟与思绪",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 66222,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 66280,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8475,
+      "id": 8475,
+      "volume_name": "第十卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 71640,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 71641,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 71642,
+          "chapter_name": "第一章 为了胜利而必要的事情",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 71696,
+          "chapter_name": "第二章 幻想与现实的境界线",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 71748,
+          "chapter_name": "第三章 那个时候，境界线上的他回答道了",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 71749,
+          "chapter_name": "第四章 空士们的舞演",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 71750,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 8762,
+      "id": 8762,
+      "volume_name": "第十一卷",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 76713,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 76714,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 76715,
+          "chapter_name": "第一章 超越者们的盛宴",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 76716,
+          "chapter_name": "第二章 彼方的决断",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 76717,
+          "chapter_name": "第三章 在残留的时间里所能做到之事",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 76718,
+          "chapter_name": "第四章 诀别的朝日",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 76719,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 76720,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 76721,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8895,
+      "id": 8895,
+      "volume_name": "第十二卷",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 78592,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78593,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78594,
+          "chapter_name": "第一章 孤高的空士",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78595,
+          "chapter_name": "第二章 美空与优莉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78596,
+          "chapter_name": "第三章 位于苍空下的人们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78597,
+          "chapter_name": "第四章 即便是会四散分离的命运……",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 78598,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 78599,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 9067,
+      "id": 9067,
+      "volume_name": "短篇",
+      "volume_order": 130,
+      "chapters": [
+        {
+          "chapter_id": 80845,
+          "chapter_name": "2017富士见大感谢祭场贩短篇",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 10093,
+      "id": 10093,
+      "volume_name": "第十三卷",
+      "volume_order": 140,
+      "chapters": [
+        {
+          "chapter_id": 95819,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 95820,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 95821,
+          "chapter_name": "第一章 天槌猛击〈Heaven`s Blow〉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 95822,
+          "chapter_name": "第二章 那家伙的教诲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95823,
+          "chapter_name": "第三章 战场上的羁绊",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95824,
+          "chapter_name": "第四章 空士们的人生",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95825,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 95826,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 95827,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10111,
+      "id": 10111,
+      "volume_name": "第十四卷",
+      "volume_order": 150,
+      "chapters": [
+        {
+          "chapter_id": 96062,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 96063,
+          "chapter_name": "第一章 真正的新纪录",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 96064,
+          "chapter_name": "第二章 赤裸裸的匿名作家",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 96065,
+          "chapter_name": "第三章 好友们的宠物竞赛",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 96066,
+          "chapter_name": "第四章 非凡的新人格",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 96067,
+          "chapter_name": "第五章 战栗的访问日",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 96068,
+          "chapter_name": "终章 重新开始的重逢",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 96069,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 96070,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "ふみー",
   "first_letter": "M",
-  "subscribe_num": 6291,
-  "redis_update_time": 1564312777,
+  "subscribe_num": 6300,
+  "redis_update_time": 1564432921,
   "volume": [
     {
       "id": 6468,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1416135768,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6468,
+      "id": 6468,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 46005,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46006,
+          "chapter_name": "第一章 后巷的邂逅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46007,
+          "chapter_name": "第二章 觉醒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46008,
+          "chapter_name": "第三章 可爱的小瓶子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46009,
+          "chapter_name": "第四章 被爱的少女",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46010,
+          "chapter_name": "第五章 Ellen",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46011,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46012,
+          "chapter_name": "从头开始",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

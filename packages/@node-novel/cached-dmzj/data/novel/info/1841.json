@@ -12,12 +12,14 @@
   "hot_hits": 54291,
   "introduction": "　　「即使无法使用魔导，我还是有我的战斗方式！！」\n　　由煌王教会掌握绝对权力的世界，在这个世界里有种叫做灾害兽的怪物在威胁人们的生活，主角艾鲁是以驱除灾害兽为业的平凡猎人，除了“无法使用魔导”和“拥有异于常人的幸运”这两点外——\n　　然而艾鲁的猎人生活在目击到雅莉西亚裸体瞬间，开始有了重大转变。明明不会使用魔导，教官却任命他担任魔导小队的队长！？加上队员们分别都有些奇怪的地方。由美少女队员与无能主角的羁绊所交织而成的战略奇幻故事，就此展开序幕！\n　　「才、才不是什么后宫……这些家伙是最棒的伙伴！」",
   "types": [
-    "魔法/冒险/异界"
+    "魔法",
+    "冒险",
+    "异界"
   ],
   "authors": "桐生恭丞",
   "first_letter": "C",
-  "subscribe_num": 1234,
-  "redis_update_time": 1564312606,
+  "subscribe_num": 1236,
+  "redis_update_time": 1564363702,
   "volume": [
     {
       "id": 6750,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1425907571,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 7254,
@@ -33,7 +35,115 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1443691603,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6750,
+      "id": 6750,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 48730,
+          "chapter_name": "序章 魔导小队与煌王骑士",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48731,
+          "chapter_name": "第一章 黑灰牙王的森林与少女们",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48732,
+          "chapter_name": "第二章 艾鲁，加入魔导小队",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48733,
+          "chapter_name": "第三章 无能者集团",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48734,
+          "chapter_name": "第四章 队长",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48735,
+          "chapter_name": "第五章 潜伏着灾害兽的大森林",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48736,
+          "chapter_name": "第六章 殊死的首次任务",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48737,
+          "chapter_name": "第七章 隐藏的力量",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 48738,
+          "chapter_name": "终章 异能魔导小队",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 48739,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7254,
+      "id": 7254,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 53412,
+          "chapter_name": "序章 突袭，海上的灾害兽",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53413,
+          "chapter_name": "第一章 超特级指定灾害兽",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53414,
+          "chapter_name": "第二章 摇晃思绪的魔导帆船",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53415,
+          "chapter_name": "第三章 遗迹之岛卡布雷萨",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53416,
+          "chapter_name": "第四章 阴谋与算计的讨伐",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53417,
+          "chapter_name": "第五章 煌王骑士之泪",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53418,
+          "chapter_name": "终章 归处",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 53419,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

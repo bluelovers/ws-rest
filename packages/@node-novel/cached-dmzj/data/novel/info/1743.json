@@ -17,7 +17,7 @@
   "authors": "広沢サカキ",
   "first_letter": "I",
   "subscribe_num": 311,
-  "redis_update_time": 1564218012,
+  "redis_update_time": 1564413421,
   "volume": [
     {
       "id": 6393,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1412774866,
-      "sum_chapters": 5
+      "sum_chapters": 30
     },
     {
       "id": 7179,
@@ -33,7 +33,95 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1441039063,
-      "sum_chapters": 5
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 6393,
+      "id": 6393,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 45313,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45314,
+          "chapter_name": "第一章 战斗灰姑娘",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45315,
+          "chapter_name": "第二章 呛辣桃色陷阱",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45316,
+          "chapter_name": "第三章 苦涩的约会训练",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45317,
+          "chapter_name": "第四章 甜蜜夜晚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45318,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45319,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7179,
+      "id": 7179,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 52737,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52738,
+          "chapter_name": "第一章 公主公主",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 52739,
+          "chapter_name": "第二章 柠檬饼干派对",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52740,
+          "chapter_name": "第三章 行动代号·NOIR",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52741,
+          "chapter_name": "第四章 射弹珠奇才",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 52742,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52743,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }
