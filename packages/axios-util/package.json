@@ -1,0 +1,39 @@
+{
+  "name": "axios-util",
+  "version": "1.0.0",
+  "description": "axios util",
+  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-rest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-rest.git"
+  },
+  "keywords": [
+    "axios",
+    "util"
+  ],
+  "license": "ISC",
+  "author": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "coverage": "npx nyc yarn run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "npm:publish": "npm publish",
+    "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
+    "postpublish": "echo postpublish",
+    "sort-package-json": "npx sort-package-json ./package.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc:default": "tsc -p tsconfig.json",
+    "tsc:esm": "tsc -p tsconfig.esm.json"
+  },
+  "dependencies": {
+    "get-value": "^3.0.1",
+    "unset-value": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/get-value": "^3.0.1"
+  }
+}

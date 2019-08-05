@@ -1,93 +1,61 @@
-
-import { AxiosRequestConfig, AxiosResponse, AxiosInstance, AxiosAdapter, AxiosPromise, AxiosError, AxiosStatic } from 'axios';
-import _axios from 'axios';
+import {
+	AxiosAdapter,
+	AxiosError,
+	AxiosInstance,
+	AxiosPromise,
+	AxiosRequestConfig,
+	AxiosResponse,
+	AxiosStatic,
+} from 'axios';
+import { merge, defaultsDeep, cloneDeep } from 'lodash';
 import Bluebird from 'bluebird';
-import { RetryConfig as IAxiosRetryConfig, attach as RaxAttach } from 'retry-axios';
-import { IResponseHeaders, ILazyHeaders } from 'typed-http-headers';
-import { IPropertyKey } from 'reflect-metadata-util';
-import { ITSUnpackedPromiseLike } from 'ts-type';
+import { attach as RaxAttach, RetryConfig as IAxiosRetryConfig } from 'retry-axios';
 import axiosCookieJarSupport from 'axios-cookiejar-support';
-import { IAxiosCacheAdapterOptions, setupCache } from 'axios-cache-adapter';
-import setupCacheConfig, { IAxiosCacheAdapterOptionsConfig, mixinCacheConfig } from './cache';
-
-export type IBluebird<T> = Bluebird<T>
-
-export type IHttpheadersValues = string | number | boolean | string[];
+import { IAxiosCacheAdapterOptions } from 'axios-cache-adapter';
+import setupCacheConfig, { mixinCacheConfig } from './cache';
+import { IAxiosAdapterWarpper } from './types';
+import { mixinDefaultConfig } from './config';
+import { isAxiosStatic } from 'axios-util';
+export * from "./types";
+// @ts-ignore
+import unsetValue from 'unset-value';
 
 export { IAxiosCacheAdapterOptions, IAxiosRetryConfig, AxiosAdapter, AxiosPromise }
-
-export interface IHttpheaders extends Record<string | keyof IResponseHeaders, IHttpheadersValues>
-{
-	Accepts?: 'application/json' | string | string[],
-	Referer?: string,
-	'Content-Type'?: string,
-	'Authorization'?: string,
-	'x-auth-token'?: string,
-	'Set-Cookie'?: string[],
-}
-
-export interface IAxiosDefaultsHeaders extends Partial<Record<'common' | 'delete' | 'get' | 'post' | 'put' | 'patch', IHttpheaders>>
-{
-
-}
-
-export interface IAxiosResponseClientRequest extends Record<IPropertyKey, any>
-{
-	res?: {
-		responseUrl?: string,
-		redirects?: string[],
-		headers?: IHttpheaders,
-		rawHeaders?: string[],
-	},
-	path?: string,
-	method?: string,
-	finished?: boolean,
-
-	fromCache?: boolean,
-}
-
-declare module 'axios'
-{
-
-	interface AxiosRequestConfigHeaders extends IHttpheaders
-	{
-
-	}
-
-	interface AxiosInstance
-	{
-
-	}
-
-	interface AxiosRequestConfig
-	{
-		headers?: AxiosRequestConfig["headers"] | IHttpheaders;
-		/**
-		 * @see https://www.npmjs.com/package/retry-axios
-		 */
-		raxConfig?: IAxiosRetryConfig;
-	}
-
-	interface AxiosResponse<T = any>
-	{
-		headers: AxiosResponse["headers"] | IHttpheaders;
-		request?: AxiosResponse["request"] | IAxiosResponseClientRequest;
-	}
-
-	interface AxiosError<T = any>
-	{
-		//config: AxiosError<T>["config"]
-		request?: AxiosError<T>["request"] | IAxiosResponseClientRequest;
-	}
-}
-
 export { AxiosRequestConfig, AxiosResponse, AxiosInstance, AxiosError, AxiosStatic }
 
-export function extendAxios<AX extends AxiosInstance | AxiosStatic>(axios: AX)
+export function extendAxios<AX extends AxiosInstance | AxiosStatic>(axios: AX, defaultOptions?: AxiosRequestConfig)
 {
+	axios = axiosCookieJarSupport(axios) as AX;
+
 	RaxAttach(axios);
 
-	axios = axiosCookieJarSupport(axios) as AX;
+	if (isAxiosStatic(axios))
+	{
+		let old = axios.create;
+
+		axios.create = function (config, ...argv)
+		{
+			if (config == null)
+			{
+				config = cloneDeep(this.defaults);
+			}
+
+			unsetValue(config, 'raxConfig.currentRetryAttempt');
+
+			let o = old.call(this, config, ...argv);
+
+			merge(o.defaults, <AxiosRequestConfig>{
+					raxConfig: {
+						instance: o,
+					}
+				})
+			;
+
+			RaxAttach(o);
+
+			return o;
+		}
+	}
 
 	return {
 		axios,
@@ -96,27 +64,14 @@ export function extendAxios<AX extends AxiosInstance | AxiosStatic>(axios: AX)
 		 */
 		setupCacheConfig,
 		mixinCacheConfig,
+		mixinDefaultConfig<T extends AxiosRequestConfig>(config: T, _axios: AxiosInstance = axios, ...opts: AxiosRequestConfig[]): AxiosRequestConfig
+		{
+			return mixinDefaultConfig(config, _axios, defaultOptions, ...opts)
+		},
 	}
 }
 
-export { setupCacheConfig }
-
-export { mixinCacheConfig }
-
-export type IUnpackAxiosResponse<T> =
-	T extends PromiseLike<AxiosResponse<infer U>> ? U :
-		T extends AxiosResponse<infer U> ? U :
-			never
-	;
-
-export type IBluebirdAxiosResponse<T = any> = IBluebird<AxiosResponse<T>>;
-
-export type IUnpackedPromiseLikeReturnType<T extends (...args: any) => any> = ITSUnpackedPromiseLike<ReturnType<T>>;
-
-export interface IAxiosAdapterWarpper
-{
-	(config: AxiosRequestConfig, returnValue: AxiosResponse<any>): AxiosPromise<any>;
-}
+export { setupCacheConfig, mixinDefaultConfig, mixinCacheConfig }
 
 export function wrapAdapter(fn: IAxiosAdapterWarpper, config: AxiosRequestConfig)
 {

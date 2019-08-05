@@ -5,13 +5,9 @@ import { setupCache, IAxiosCacheAdapterOptions, ISetupCache } from 'axios-cache-
 import { defaultsDeep } from 'lodash';
 import Bluebird from 'bluebird';
 import { ITSPartialPick } from 'ts-type';
+import { IAxiosCacheAdapterOptionsConfig } from './types';
 
-export { IAxiosCacheAdapterOptions, ISetupCache }
-
-export interface IAxiosCacheAdapterOptionsConfig extends ITSPartialPick<AxiosRequestConfig, 'cache' | 'clearCacheEntry'>
-{
-
-}
+export { IAxiosCacheAdapterOptions, ISetupCache, IAxiosCacheAdapterOptionsConfig }
 
 export { setupCache }
 
