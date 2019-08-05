@@ -2,6 +2,7 @@ import fs from 'fs-extra';
 import { exportCache, importCache, processExitHook } from 'axios-cache-adapter-util';
 import { IBaseCacheStore } from 'axios-cache-adapter-util';
 import consoleDebug from 'restful-decorator/lib/util/debug';
+import { ICacheStoreJsonItem, ICacheStoreJsonRow } from './index';
 
 export async function setupCacheFile(options?: {
 	store: IBaseCacheStore | object,
@@ -22,13 +23,8 @@ export async function setupCacheFile(options?: {
 			let len = await (store as IBaseCacheStore).length();
 
 			await importCache(store, json, {
-				importFilter(k, v)
+				importFilter(k: string, v)
 				{
-					if (now >= v.expires)
-					{
-						//v.expires = now;
-					}
-
 					return v;
 				}
 			});
@@ -50,6 +46,8 @@ export async function setupCacheFile(options?: {
 
 		})
 	}
+
+	saveCache.store = store;
 
 	if (!saveCacheFileBySelf)
 	{

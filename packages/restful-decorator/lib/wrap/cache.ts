@@ -40,7 +40,7 @@ export function mixinCacheConfig(config: IAxiosCacheAdapterOptionsConfig)
 			exclude: {
 				filter(res: any)
 				{
-					return res.status == 500;
+					return res.status >= 500;
 				}
 			}
 		})

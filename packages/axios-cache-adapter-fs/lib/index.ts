@@ -17,21 +17,21 @@ export interface ICacheStoreJsonRow
 	data: string,
 }
 
-export interface ICacheStoreJsonItem<T = ICacheStoreJsonRow>
+export interface ICacheStoreJsonItem<T extends ICacheStoreJsonRow = ICacheStoreJsonRow>
 {
 	expires: number,
 	data: T,
 }
 
-export interface ICacheStoreJson<T = ICacheStoreJsonRow> extends Record<any, ICacheStoreJsonItem<T>>
+export interface ICacheStoreJson<T extends ICacheStoreJsonRow = ICacheStoreJsonRow> extends Record<any, ICacheStoreJsonItem<T>>
 {
 
 }
 
 export interface IOptions
 {
-	importFilter?<T = ICacheStoreJsonRow>(k: string, v: ICacheStoreJsonItem<T>): boolean | number | ICacheStoreJsonItem<T>;
-	exportFilter?<T = ICacheStoreJsonRow>(k: string, v: ICacheStoreJsonItem<T>): boolean | number | ICacheStoreJsonItem<T>;
+	importFilter?<T extends ICacheStoreJsonRow = ICacheStoreJsonRow>(k: string, v: ICacheStoreJsonItem<T>): boolean | number | ICacheStoreJsonItem<T>;
+	exportFilter?<T extends ICacheStoreJsonRow = ICacheStoreJsonRow>(k: string, v: ICacheStoreJsonItem<T>): boolean | number | ICacheStoreJsonItem<T>;
 }
 
 export interface IBaseCacheStore
@@ -73,7 +73,7 @@ export function importCache<S extends ISetupCache["store"]>(store: S | IBaseCach
 		;
 }
 
-export function exportCache<S extends ISetupCache["store"], C extends ICacheStoreJson<unknown | ICacheStoreJsonRow>, R = C>(store: S | IBaseCacheStore, options?: ((json: C) => R) | IOptions & {
+export function exportCache<S extends ISetupCache["store"], C extends ICacheStoreJson<unknown & ICacheStoreJsonRow>, R = C>(store: S | IBaseCacheStore, options?: ((json: C) => R) | IOptions & {
 	exportCb?(json: C): R;
 }): Promise<R>
 {
