@@ -1,5 +1,5 @@
 
-import { AxiosRequestConfig, AxiosResponse, AxiosInstance, AxiosAdapter, AxiosPromise, AxiosError } from 'axios';
+import { AxiosRequestConfig, AxiosResponse, AxiosInstance, AxiosAdapter, AxiosPromise, AxiosError, AxiosStatic } from 'axios';
 import _axios from 'axios';
 import Bluebird from 'bluebird';
 import { RetryConfig as IAxiosRetryConfig, attach as RaxAttach } from 'retry-axios';
@@ -14,7 +14,7 @@ export type IBluebird<T> = Bluebird<T>
 
 export type IHttpheadersValues = string | number | boolean | string[];
 
-export { IAxiosCacheAdapterOptions, IAxiosRetryConfig }
+export { IAxiosCacheAdapterOptions, IAxiosRetryConfig, AxiosAdapter, AxiosPromise }
 
 export interface IHttpheaders extends Record<string | keyof IResponseHeaders, IHttpheadersValues>
 {
@@ -81,9 +81,9 @@ declare module 'axios'
 	}
 }
 
-export { AxiosRequestConfig, AxiosResponse, AxiosInstance, AxiosError }
+export { AxiosRequestConfig, AxiosResponse, AxiosInstance, AxiosError, AxiosStatic }
 
-export function extendAxios<AX extends AxiosInstance | typeof _axios>(axios: AX)
+export function extendAxios<AX extends AxiosInstance | AxiosStatic>(axios: AX)
 {
 	RaxAttach(axios);
 

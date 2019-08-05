@@ -2,7 +2,7 @@
  * Created by user on 2019/8/5.
  */
 
-import { extendAxios } from '@node-novel/axios-extend'
+import { extendAxios, IAxiosCacheAdapterOptions, mixinCacheConfig, IBluebird, AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse, IAxiosAdapterWarpper, IAxiosDefaultsHeaders, IAxiosResponseClientRequest, IAxiosRetryConfig, IBluebirdAxiosResponse, IHttpheaders, IHttpheadersValues, IUnpackAxiosResponse, IUnpackedPromiseLikeReturnType, setupCacheConfig, wrapAdapter } from '../lib'
 import _axios from 'axios';
 
 {
