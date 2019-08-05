@@ -44,7 +44,8 @@ export default (async () =>
 
 	await Bluebird
 		.resolve(novelList.list)
-		.mapSeries(async (v, index) =>
+		.filter(v => !taskList[v.id])
+		.mapSeries(async (v, index, length) =>
 		{
 
 			if (_do && !taskList[v.id])
@@ -76,6 +77,7 @@ export default (async () =>
 				if (info && info.id == v.id)
 				{
 					consoleDebug.success('[' + String(++jjj)
+						.padStart(4, '0') + '/' + String(length)
 						.padStart(4, '0') + ']', v.id, trim(v.name), moment.unix(v.last_update_time)
 						.format(), trim(v.last_update_volume_name), trim(v.last_update_chapter_name));
 

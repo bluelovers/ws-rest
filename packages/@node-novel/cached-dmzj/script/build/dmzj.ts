@@ -31,7 +31,7 @@ export default (async () => {
 
 	if (novelList && novelList.list && novelList.list!.length > 20 * 10)
 	{
-		//n = 5;
+		n = 10;
 	}
 
 	await api.novelRecentUpdateAll(0, n, {
