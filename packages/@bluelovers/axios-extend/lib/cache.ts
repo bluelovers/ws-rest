@@ -4,10 +4,11 @@ import { AxiosAdapter } from 'axios';
 import { setupCache, IAxiosCacheAdapterOptions, ISetupCache } from 'axios-cache-adapter';
 import { defaultsDeep } from 'lodash';
 import Bluebird from 'bluebird';
+import { ITSPartialPick } from 'ts-type';
 
 export { IAxiosCacheAdapterOptions, ISetupCache }
 
-export interface IAxiosCacheAdapterOptionsConfig extends Pick<AxiosRequestConfig, 'cache' | 'clearCacheEntry'>
+export interface IAxiosCacheAdapterOptionsConfig extends ITSPartialPick<AxiosRequestConfig, 'cache' | 'clearCacheEntry'>
 {
 
 }
@@ -37,7 +38,7 @@ export function setupCacheConfig<T extends IAxiosCacheAdapterOptionsConfig | Axi
 
 export function mixinCacheConfig<T extends IAxiosCacheAdapterOptionsConfig>(config: T)
 {
-	if (typeof config.cache === 'object')
+	if (config.cache != null && typeof config.cache === 'object')
 	{
 		config.cache = defaultsDeep(config.cache, {
 			exclude: {

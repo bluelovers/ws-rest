@@ -33,19 +33,21 @@
     "cookie",
     "cookiejar",
     "cookies",
+    "axios-plugin",
+    "plugin",
     "tough-cookie",
     "axios",
     "retry"
   ],
   "dependencies": {
-    "@types/bluebird": "^3.5.27",
-    "axios-cache-adapter": "^2.3.3",
-    "axios-cookiejar-support": "^0.5.0",
-    "bluebird": "^3.5.5",
-    "lodash": "^4.17.15",
+    "@types/bluebird": "*",
+    "axios-cache-adapter": "*",
+    "axios-cookiejar-support": "*",
+    "bluebird": "*",
+    "lodash": "^4",
     "reflect-metadata-util": "^1.0.6",
     "restful-decorator": "^1.0.15",
-    "retry-axios": "^1.0.1",
+    "retry-axios": "*",
     "ts-type": "^1.2.9",
     "typed-http-headers": "^1.0.2"
   },
@@ -53,6 +55,6 @@
     "@types/lodash": "^4.14.136"
   },
   "peerDependencies": {
-    "axios": "^0.19.0"
+    "axios": "*"
   }
 }

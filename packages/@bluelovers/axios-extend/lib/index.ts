@@ -83,7 +83,7 @@ declare module 'axios'
 
 export { AxiosRequestConfig, AxiosResponse, AxiosInstance, AxiosError }
 
-export function extendAxios<AX extends AxiosInstance>(axios: AX)
+export function extendAxios<AX extends AxiosInstance | typeof _axios>(axios: AX)
 {
 	RaxAttach(axios);
 
@@ -94,15 +94,14 @@ export function extendAxios<AX extends AxiosInstance>(axios: AX)
 		/**
 		 * only use this method once for each axios, if not will create new cache
 		 */
-		setupCacheConfig<T extends AxiosRequestConfig>(configInput: T)
-		{
-			let ret = setupCacheConfig(configInput);
-
-			return ret
-		},
+		setupCacheConfig,
 		mixinCacheConfig,
 	}
 }
+
+export { setupCacheConfig }
+
+export { mixinCacheConfig }
 
 export type IUnpackAxiosResponse<T> =
 	T extends PromiseLike<AxiosResponse<infer U>> ? U :

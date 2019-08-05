@@ -1,6 +1,6 @@
 # README.md
 
-    <description>
+    extend axios with a set of plugins
 
 ## install
 
