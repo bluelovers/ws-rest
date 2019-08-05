@@ -19,7 +19,7 @@
     "ncu": "npx yarn-tool ncu -u",
     "npm:publish": "npm publish",
     "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
-    "postpublish": "git commit -m \"publish new version\" .",
+    "postpublish": "echo postpublish",
     "sort-package-json": "npx sort-package-json ./package.json",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc:default": "tsc -p tsconfig.json",
@@ -43,7 +43,9 @@
     "@types/bluebird": "*",
     "axios-cache-adapter": "*",
     "axios-cookiejar-support": "*",
+    "axios-util": "^1.0.0",
     "bluebird": "*",
+    "get-value": "^3.0.1",
     "lodash": "^4",
     "reflect-metadata-util": "^1.0.6",
     "restful-decorator": "^1.0.15",
@@ -52,6 +54,7 @@
     "typed-http-headers": "^1.0.2"
   },
   "devDependencies": {
+    "@types/get-value": "^3.0.1",
     "@types/lodash": "^4.14.136"
   },
   "peerDependencies": {
