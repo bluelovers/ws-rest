@@ -16,16 +16,31 @@
   ],
   "authors": "岛田庄司",
   "first_letter": "Z",
-  "subscribe_num": 1216,
-  "redis_update_time": 1564295263,
+  "subscribe_num": 1225,
+  "redis_update_time": 1565007362,
   "volume": [
     {
       "id": 2919,
       "lnovel_id": 828,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1277351326,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2919,
+      "id": 2919,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16496,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

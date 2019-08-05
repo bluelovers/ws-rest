@@ -3,7 +3,7 @@
   "name": "静流姐系列",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "静流姐与无言的公主们\r",
+  "last_update_volume_name": "静流姐与无言的公主们",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 745,
   "last_update_chapter_id": 4294,
@@ -16,32 +16,118 @@
   ],
   "authors": "上远野浩平、椋本夏夜",
   "first_letter": "J",
-  "subscribe_num": 823,
-  "redis_update_time": 1564306861,
+  "subscribe_num": 834,
+  "redis_update_time": 1565038034,
   "volume": [
     {
       "id": 743,
       "lnovel_id": 205,
-      "volume_name": "静流姐与执拗的死者们\r",
+      "volume_name": "静流姐与执拗的死者们",
       "volume_order": 10,
       "addtime": 1274918085,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 744,
       "lnovel_id": 205,
-      "volume_name": "静流姐与无底的密室群\r",
+      "volume_name": "静流姐与无底的密室群",
       "volume_order": 20,
       "addtime": 1274918085,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 745,
       "lnovel_id": 205,
-      "volume_name": "静流姐与无言的公主们\r",
+      "volume_name": "静流姐与无言的公主们",
       "volume_order": 30,
       "addtime": 1274918085,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 743,
+      "id": 743,
+      "volume_name": "静流姐与执拗的死者们",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4283,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4284,
+          "chapter_name": "第一章 静流姐与单眼独脚伞怪",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4285,
+          "chapter_name": "刺猬奇库达的冒险 其之1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4286,
+          "chapter_name": "第二章 静流姐与宇宙怪物",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4287,
+          "chapter_name": "刺猬奇库达的冒险 其之2",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4288,
+          "chapter_name": "第三章 静流姐与幽灵犬",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4289,
+          "chapter_name": "刺猬奇库达的冒险 其之3",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4290,
+          "chapter_name": "第四章 静流姐与倒吊男",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4291,
+          "chapter_name": "刺猬奇库达的冒险 其之4",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 4292,
+          "chapter_name": "后记——惬意，并且富有神秘感……",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 744,
+      "id": 744,
+      "volume_name": "静流姐与无底的密室群",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 4293,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 745,
+      "id": 745,
+      "volume_name": "静流姐与无言的公主们",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 4294,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

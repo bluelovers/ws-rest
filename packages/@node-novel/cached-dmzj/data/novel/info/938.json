@@ -3,7 +3,7 @@
   "name": "剑道杀人事件",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第十章 永恒一贯剑",
   "last_update_volume_id": 3324,
   "last_update_chapter_id": 19027,
@@ -17,15 +17,75 @@
   "authors": "鸟羽亮",
   "first_letter": "J",
   "subscribe_num": 119,
-  "redis_update_time": 1564165270,
+  "redis_update_time": 1564974201,
   "volume": [
     {
       "id": 3324,
       "lnovel_id": 938,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1291601015,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3324,
+      "id": 3324,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19018,
+          "chapter_name": "第一章 一触即发剑",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19019,
+          "chapter_name": "第二章 声东击西剑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19020,
+          "chapter_name": "第三章 有心无眼剑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19021,
+          "chapter_name": "第四章 攻守合一剑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19022,
+          "chapter_name": "第五章 闪电春风剑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19023,
+          "chapter_name": "第六章 松风破音剑",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19024,
+          "chapter_name": "第七章 进退自如剑",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19025,
+          "chapter_name": "第八章 风水听闻剑",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 19026,
+          "chapter_name": "第九章 有我无敌剑",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 19027,
+          "chapter_name": "第十章 永恒一贯剑",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

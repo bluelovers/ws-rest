@@ -3,7 +3,7 @@
   "name": "“写给尊敬的姐姐”系列",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷 炎之减肥与姐姐\r",
+  "last_update_volume_name": "第一卷 炎之减肥与姐姐",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 3327,
   "last_update_chapter_id": 19052,
@@ -16,16 +16,61 @@
   ],
   "authors": "川口大介",
   "first_letter": "X",
-  "subscribe_num": 155,
-  "redis_update_time": 1564295054,
+  "subscribe_num": 161,
+  "redis_update_time": 1564981829,
   "volume": [
     {
       "id": 3327,
       "lnovel_id": 941,
-      "volume_name": "第一卷 炎之减肥与姐姐\r",
+      "volume_name": "第一卷 炎之减肥与姐姐",
       "volume_order": 10,
       "addtime": 1291614170,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3327,
+      "id": 3327,
+      "volume_name": "第一卷 炎之减肥与姐姐",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19046,
+          "chapter_name": "第一章 姐姐的秘密",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19047,
+          "chapter_name": "第二章 洞窟、魔剑与姐姐",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19048,
+          "chapter_name": "第三章 发掘爱与拳头的遗物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19049,
+          "chapter_name": "第四章 炎之减肥与姐姐",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19050,
+          "chapter_name": "第五章 克鲁劳尔家的新成员",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19051,
+          "chapter_name": "（新作品）婚约者突然——",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19052,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

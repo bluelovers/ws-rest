@@ -12,12 +12,14 @@
   "hot_hits": 28130,
   "introduction": "　　想成为正义的魔法少女？那就乖乖吃味噌！\n　　人类发现「魔法」这股不可思议的力量后，已过了大约100年。\n　　作为能与科学匹敌的「力量」，人们持续研究着魔法。\n　　然而，由于魔法抑制物质「MISO」——The　MaterialofanimpedimenttotheSorcerer'sOrders的问世，「魔法」从特殊的力量，转变为一种单纯的「技术」。\n　　某天早晨，当魔法学校的高中生·八丁屋将太正品尝着自己最爱的味噌汤时，来自魔法发源地梅奇列、被武装直升机追杀的公主竟突然闯入家中！？\n　　第一届讲谈社轻小说文库新人赏·「大赏」得奖作，堂堂登场！",
   "types": [
-    "魔法/爱情/搞笑"
+    "魔法",
+    "爱情",
+    "搞笑"
   ],
   "authors": "澄守彩",
   "first_letter": "W",
-  "subscribe_num": 333,
-  "redis_update_time": 1564249293,
+  "subscribe_num": 337,
+  "redis_update_time": 1564940236,
   "volume": [
     {
       "id": 4979,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1357972350,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5201,
@@ -33,7 +35,105 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1365645398,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4979,
+      "id": 4979,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32858,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32859,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32860,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32861,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32862,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32863,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32864,
+          "chapter_name": "后日谈",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32865,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5201,
+      "id": 5201,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 34733,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34734,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34735,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34736,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34737,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34738,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34739,
+          "chapter_name": "后日谈",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 34740,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

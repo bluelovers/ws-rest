@@ -16,16 +16,16 @@
   ],
   "authors": "西尾维新",
   "first_letter": "N",
-  "subscribe_num": 4618,
-  "redis_update_time": 1564309320,
+  "subscribe_num": 4630,
+  "redis_update_time": 1565033978,
   "volume": [
     {
       "id": 1184,
       "lnovel_id": 319,
-      "volume_name": "你我的崩坏世界\r",
+      "volume_name": "你我的崩坏世界",
       "volume_order": 10,
       "addtime": 1274918326,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3342,
@@ -33,7 +33,7 @@
       "volume_name": "阴森朴素的围困世界",
       "volume_order": 20,
       "addtime": 1292477891,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3344,
@@ -41,7 +41,7 @@
       "volume_name": "你与我破坏的世界",
       "volume_order": 30,
       "addtime": 1292811634,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3456,
@@ -49,7 +49,166 @@
       "volume_name": "阴森朴素的围困的你我的崩坏世界",
       "volume_order": 40,
       "addtime": 1297734571,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1184,
+      "id": 1184,
+      "volume_name": "你我的崩坏世界",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6825,
+          "chapter_name": "问题篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6826,
+          "chapter_name": "侦察篇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6827,
+          "chapter_name": "解答篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6828,
+          "chapter_name": "尾声",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6829,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 3342,
+      "id": 3342,
+      "volume_name": "阴森朴素的围困世界",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 19138,
+          "chapter_name": "问题篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19152,
+          "chapter_name": "大问题篇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19248,
+          "chapter_name": "未解决篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19249,
+          "chapter_name": "尾声",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19250,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 3344,
+      "id": 3344,
+      "volume_name": "你与我破坏的世界",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 19153,
+          "chapter_name": "选择题篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19154,
+          "chapter_name": "填空题",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19298,
+          "chapter_name": "阅读题",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19663,
+          "chapter_name": "作文题",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19977,
+          "chapter_name": "判断题",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19978,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19979,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3456,
+      "id": 3456,
+      "volume_name": "阴森朴素的围困的你我的崩坏世界",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 19999,
+          "chapter_name": "姓名栏",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20066,
+          "chapter_name": "第一问",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20449,
+          "chapter_name": "第二问",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20706,
+          "chapter_name": "第三问",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20707,
+          "chapter_name": "第四问",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20764,
+          "chapter_name": "第五问",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20877,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20878,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

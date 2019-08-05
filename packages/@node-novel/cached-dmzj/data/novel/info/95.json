@@ -3,7 +3,7 @@
   "name": "大家的阿葵儿",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "大家的阿葵儿\r",
+  "last_update_volume_name": "大家的阿葵儿",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 347,
   "last_update_chapter_id": 2200,
@@ -17,15 +17,30 @@
   "authors": "浅沼广太",
   "first_letter": "D",
   "subscribe_num": 50,
-  "redis_update_time": 1564280928,
+  "redis_update_time": 1564430735,
   "volume": [
     {
       "id": 347,
       "lnovel_id": 95,
-      "volume_name": "大家的阿葵儿\r",
+      "volume_name": "大家的阿葵儿",
       "volume_order": 10,
       "addtime": 1274917870,
-      "sum_chapters": 3
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 347,
+      "id": 347,
+      "volume_name": "大家的阿葵儿",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2200,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

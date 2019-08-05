@@ -3,7 +3,7 @@
   "name": "魔学诡术士",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "tricksters C PART1\r",
+  "last_update_volume_name": "tricksters C PART1",
   "last_update_chapter_name": "tricksters C PART1 第四章ACT Ⅳ including",
   "last_update_volume_id": 1097,
   "last_update_chapter_id": 23803,
@@ -12,60 +12,363 @@
   "hot_hits": 47594,
   "introduction": "一个魔法师邪气地勾唇一笑说：“游戏是吧？挺有趣的嘛——”那以游戏为名的预告是既大胆而唐突的。“本座在此宣布，要从目前在场的各位同学之中选出祭品予以处刑。”当这个难以理解的预告变成事实的时候，故事的背景舞台城翠大学也随之坠入混乱的漩涡之中。猜疑、恐怖、狂乱以加速度拓展开来。但是，美丽的女魔法师运用她巧妙的魔术手法，鲜明而讽刺地解开了谜底；而游戏则以没有人料想得到的方式步向终局。",
   "types": [
-    "魔法/侦探/校园/恐怖"
+    "魔法",
+    "侦探",
+    "校园",
+    "恐怖"
   ],
   "authors": "久住四季",
   "first_letter": "M",
-  "subscribe_num": 842,
-  "redis_update_time": 1564308204,
+  "subscribe_num": 844,
+  "redis_update_time": 1565022234,
   "volume": [
     {
       "id": 1093,
       "lnovel_id": 288,
-      "volume_name": "tricksterS\r",
+      "volume_name": "tricksterS",
       "volume_order": 10,
       "addtime": 1274918274,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1094,
       "lnovel_id": 288,
-      "volume_name": "tricksters L\r",
+      "volume_name": "tricksters L",
       "volume_order": 20,
       "addtime": 1274918274,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1095,
       "lnovel_id": 288,
-      "volume_name": "tricksters D\r",
+      "volume_name": "tricksters D",
       "volume_order": 30,
       "addtime": 1274918274,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1096,
       "lnovel_id": 288,
-      "volume_name": "tricksters M\r",
+      "volume_name": "tricksters M",
       "volume_order": 40,
       "addtime": 1274918274,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1097,
       "lnovel_id": 288,
-      "volume_name": "tricksters C PART1\r",
+      "volume_name": "tricksters C PART1",
       "volume_order": 50,
       "addtime": 1274918274,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1098,
       "lnovel_id": 288,
-      "volume_name": "tricksters C PART2\r",
+      "volume_name": "tricksters C PART2",
       "volume_order": 60,
       "addtime": 1274918274,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1093,
+      "id": 1093,
+      "volume_name": "tricksterS",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6260,
+          "chapter_name": "预习课程",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6261,
+          "chapter_name": "第一堂课 魔学系入学说明会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6262,
+          "chapter_name": "第二堂课 法术师杀人游戏",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6263,
+          "chapter_name": "第三堂课 ——停课——（基础英语与第二外语）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6264,
+          "chapter_name": "第四堂课 以魔学观点探讨密室杀人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6265,
+          "chapter_name": "第五堂课 课外研讨·佐杏组的搜查与推理",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6266,
+          "chapter_name": "第六堂课 魔术师的答辩",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6267,
+          "chapter_name": "补充课程",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 6268,
+          "chapter_name": "~后记~",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1094,
+      "id": 1094,
+      "volume_name": "tricksters L",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 6269,
+          "chapter_name": "登场人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6270,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6271,
+          "chapter_name": "【第一天】（1） Case of closed",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23802,
+          "chapter_name": "【第一天】（2） Case of rebirth 密室法术实验",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6273,
+          "chapter_name": "【第二天】（1）Case of replace 迷刑警上场，名侦探退场",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6274,
+          "chapter_name": "【第二天】（2）Case of investigation＆reasoning",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6275,
+          "chapter_name": "【第二天】（3） Case of solution 暴风雨山庄结束之夜",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6276,
+          "chapter_name": "【第三天】（1）Case of L",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1095,
+      "id": 1095,
+      "volume_name": "tricksters D",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 6277,
+          "chapter_name": "登场人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6278,
+          "chapter_name": "~「D」的前幕~",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6279,
+          "chapter_name": "第一幕 in the 「D」aylight",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6280,
+          "chapter_name": "第二幕 in the 「D」aylight 2",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6281,
+          "chapter_name": "第三幕 in the 「D」ark",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6282,
+          "chapter_name": "第四幕 in the 「D」ark 2",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6283,
+          "chapter_name": "第五幕 in the 「D」ark 3",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6284,
+          "chapter_name": "第六幕 in the 「D」ark 4",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 6285,
+          "chapter_name": "第七幕 in the 「D」ark 5",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 6286,
+          "chapter_name": "第八幕 in the 「D」ark 6",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 6287,
+          "chapter_name": "第九幕 in the 「D」aylight 3",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 6288,
+          "chapter_name": "~后记~",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 1096,
+      "id": 1096,
+      "volume_name": "tricksters M",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 6289,
+          "chapter_name": "~「M」前幕~",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6290,
+          "chapter_name": "【第一部】 法术师师徒对作梦一事的研讨",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6291,
+          "chapter_name": "【第二部】 画具舞会揭幕！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6292,
+          "chapter_name": "【第三部】名侦探的条件",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6293,
+          "chapter_name": "【第四部】她为何寻死？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6294,
+          "chapter_name": "【第五部】闭幕，以及未来",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6295,
+          "chapter_name": "~「M」落幕后~",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6296,
+          "chapter_name": "~后记~",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1097,
+      "id": 1097,
+      "volume_name": "tricksters C PART1",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 6297,
+          "chapter_name": "～「C」前幕 ～",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6298,
+          "chapter_name": "◆来自法术师的挑战书◆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6299,
+          "chapter_name": "第一章ACTⅠincluding",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6300,
+          "chapter_name": "第二章ACTⅡincluding",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6301,
+          "chapter_name": "第三章ACT Ⅲ including",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23803,
+          "chapter_name": "第四章ACT Ⅳ including",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6303,
+          "chapter_name": "第五章ACT Ⅴ including",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6304,
+          "chapter_name": "～后记～",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1098,
+      "id": 1098,
+      "volume_name": "tricksters C PART2",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 6305,
+          "chapter_name": "【第六章】 Act Ⅵ including",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6306,
+          "chapter_name": "【第七章】ActⅦ including",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6307,
+          "chapter_name": "【第八章】Act Ⅷ including",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6308,
+          "chapter_name": "~「C·close」落幕后／「C·continue」开幕前~",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6309,
+          "chapter_name": "~后记~",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

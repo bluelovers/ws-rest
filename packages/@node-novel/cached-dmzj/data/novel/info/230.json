@@ -3,7 +3,7 @@
   "name": "矿物质超女",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "最终卷\r",
+  "last_update_volume_name": "最终卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 840,
   "last_update_chapter_id": 4733,
@@ -16,64 +16,427 @@
   ],
   "authors": "冬树忍",
   "first_letter": "K",
-  "subscribe_num": 482,
-  "redis_update_time": 1564305406,
+  "subscribe_num": 483,
+  "redis_update_time": 1564986951,
   "volume": [
     {
       "id": 834,
       "lnovel_id": 230,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918134,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 835,
       "lnovel_id": 230,
-      "volume_name": "第二卷 你会死吗？\r",
+      "volume_name": "第二卷 你会死吗？",
       "volume_order": 20,
       "addtime": 1274918134,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 836,
       "lnovel_id": 230,
-      "volume_name": "第三卷 物种存活的理由\r",
+      "volume_name": "第三卷 物种存活的理由",
       "volume_order": 30,
       "addtime": 1274918134,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 837,
       "lnovel_id": 230,
-      "volume_name": "第四卷 所欲为何？\r",
+      "volume_name": "第四卷 所欲为何？",
       "volume_order": 40,
       "addtime": 1274918134,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 838,
       "lnovel_id": 230,
-      "volume_name": "第五卷\r",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1274918134,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 839,
       "lnovel_id": 230,
-      "volume_name": "第六卷\r",
+      "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1274918134,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 840,
       "lnovel_id": 230,
-      "volume_name": "最终卷\r",
+      "volume_name": "最终卷",
       "volume_order": 70,
       "addtime": 1274918134,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 834,
+      "id": 834,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4673,
+          "chapter_name": "第一章 繁殖",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4674,
+          "chapter_name": "第二章 死灭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4675,
+          "chapter_name": "第三章 极相",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4676,
+          "chapter_name": "第四章 寄生",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4677,
+          "chapter_name": "第五章 社会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4678,
+          "chapter_name": "第六章 竞争",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4679,
+          "chapter_name": "第七章 共生",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4680,
+          "chapter_name": "第八章 起源",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4681,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 4682,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 835,
+      "id": 835,
+      "volume_name": "第二卷 你会死吗？",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 4683,
+          "chapter_name": "第二卷简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4684,
+          "chapter_name": "第一章 湖畔的情景",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4685,
+          "chapter_name": "第二章 死亡的念头",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4686,
+          "chapter_name": "第三章 闪耀的季节",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4687,
+          "chapter_name": "第四章 黑色窗户的风景",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4688,
+          "chapter_name": "第五章 尽头",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4689,
+          "chapter_name": "第六章 终究，总有一天",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4690,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4691,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 836,
+      "id": 836,
+      "volume_name": "第三卷 物种存活的理由",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 4692,
+          "chapter_name": "目录",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4693,
+          "chapter_name": "第一章 出发前日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4694,
+          "chapter_name": "第二章 出发，在船上",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4695,
+          "chapter_name": "第三章 到达，海水浴场",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4696,
+          "chapter_name": "第四章 晚霞，烟",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4697,
+          "chapter_name": "第五章 夜晚，住宿",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4698,
+          "chapter_name": "第六章 早晨，收尾",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4699,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4700,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 837,
+      "id": 837,
+      "volume_name": "第四卷 所欲为何？",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 4701,
+          "chapter_name": "序章 八月 十七日（还有十五天）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4702,
+          "chapter_name": "第一章 八月 十五日（还有十七天）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4703,
+          "chapter_name": "第二章 续·八月 十七日（还有十五天）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4704,
+          "chapter_name": "第三章 八月 二十日（还有十二天）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4705,
+          "chapter_name": "第四章 八月 二十六日（还有六天）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4706,
+          "chapter_name": "第五章 八月 二十九日（还有三天）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4707,
+          "chapter_name": "尾章·红 九月一日（当天）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4708,
+          "chapter_name": "尾章·灰 九月一日（当天）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4709,
+          "chapter_name": "尾章·苍 九月一日（当天）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 4710,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 838,
+      "id": 838,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 4711,
+          "chapter_name": "彩图、插画",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4712,
+          "chapter_name": "第一章 对面",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4713,
+          "chapter_name": "第二章 接近",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4714,
+          "chapter_name": "第三章 距离",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4715,
+          "chapter_name": "第四章 接触",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4716,
+          "chapter_name": "第五章 肉搏",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4717,
+          "chapter_name": "第六章 冲突",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4718,
+          "chapter_name": "第七章 密切",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4719,
+          "chapter_name": "尾章˙白",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 4720,
+          "chapter_name": "尾章˙透",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 4721,
+          "chapter_name": "尾章˙梦",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 4722,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 839,
+      "id": 839,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 4723,
+          "chapter_name": "开端",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4724,
+          "chapter_name": "第一章 祭典，抑或者出现",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4725,
+          "chapter_name": "第二章 每日，抑或者侵略",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4726,
+          "chapter_name": "第三章 集宿，抑或者攻防",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4727,
+          "chapter_name": "第四章 新年，抑或者决战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4728,
+          "chapter_name": "第五章 日常，抑或者善后处理",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4729,
+          "chapter_name": "尾章 末日",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4730,
+          "chapter_name": "尾章 终",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4731,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 840,
+      "id": 840,
+      "volume_name": "最终卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 4732,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4733,
+          "chapter_name": "后记",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

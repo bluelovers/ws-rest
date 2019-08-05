@@ -3,7 +3,7 @@
   "name": "星之声",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "穿越星辰\r",
+  "last_update_volume_name": "穿越星辰",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1885,
   "last_update_chapter_id": 11151,
@@ -16,32 +16,73 @@
   ],
   "authors": "新海诚",
   "first_letter": "X",
-  "subscribe_num": 2056,
-  "redis_update_time": 1564302068,
+  "subscribe_num": 2097,
+  "redis_update_time": 1565029930,
   "volume": [
     {
       "id": 1883,
       "lnovel_id": 499,
-      "volume_name": "遥远的声音\r",
+      "volume_name": "遥远的声音",
       "volume_order": 10,
       "addtime": 1274918745,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1884,
       "lnovel_id": 499,
-      "volume_name": "爱的语言\r",
+      "volume_name": "爱的语言",
       "volume_order": 20,
       "addtime": 1274918745,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1885,
       "lnovel_id": 499,
-      "volume_name": "穿越星辰\r",
+      "volume_name": "穿越星辰",
       "volume_order": 30,
       "addtime": 1274918745,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1883,
+      "id": 1883,
+      "volume_name": "遥远的声音",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11149,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1884,
+      "id": 1884,
+      "volume_name": "爱的语言",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11150,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1885,
+      "id": 1885,
+      "volume_name": "穿越星辰",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 11151,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

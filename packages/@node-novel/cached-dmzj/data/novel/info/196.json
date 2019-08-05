@@ -3,7 +3,7 @@
   "name": "绝望的世界",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一部 腐蚀篇\r",
+  "last_update_volume_name": "第一部 腐蚀篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 706,
   "last_update_chapter_id": 4022,
@@ -16,16 +16,31 @@
   ],
   "authors": "宫谷俊二",
   "first_letter": "J",
-  "subscribe_num": 1247,
-  "redis_update_time": 1564298762,
+  "subscribe_num": 1254,
+  "redis_update_time": 1565037710,
   "volume": [
     {
       "id": 706,
       "lnovel_id": 196,
-      "volume_name": "第一部 腐蚀篇\r",
+      "volume_name": "第一部 腐蚀篇",
       "volume_order": 10,
       "addtime": 1274918064,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 706,
+      "id": 706,
+      "volume_name": "第一部 腐蚀篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4022,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

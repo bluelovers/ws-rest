@@ -3,7 +3,7 @@
   "name": "后院的神明",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 663,
   "last_update_chapter_id": 3817,
@@ -17,15 +17,95 @@
   "authors": "神野オキナ",
   "first_letter": "H",
   "subscribe_num": 23,
-  "redis_update_time": 1564292903,
+  "redis_update_time": 1564936891,
   "volume": [
     {
       "id": 663,
       "lnovel_id": 182,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918042,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 663,
+      "id": 663,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3804,
+          "chapter_name": "背景介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3805,
+          "chapter_name": "代替序章的开场白",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3806,
+          "chapter_name": "第一章 朋友真的还在吶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3807,
+          "chapter_name": "第二章 关于协助神明这件事吶",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3808,
+          "chapter_name": "第三章 凡事皆另有隐情吶",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3809,
+          "chapter_name": "第四章 工欲善其事必先利其器吶",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3810,
+          "chapter_name": "第五章 各种道具都来了吶",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3811,
+          "chapter_name": "第六章 任务的前一天吶",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 3812,
+          "chapter_name": "第七章 所谓的海狼吶",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 3813,
+          "chapter_name": "第八章 对手是认识的人吶",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 3814,
+          "chapter_name": "第九章 互有领先不分胜负吶",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 3815,
+          "chapter_name": "第十章 真是学不乖的家伙吶",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 3816,
+          "chapter_name": "代替终章的极短篇",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 3817,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "4TEEN(十四岁)",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2557,
   "last_update_chapter_id": 14504,
@@ -16,16 +16,31 @@
   ],
   "authors": "石田衣良",
   "first_letter": "0",
-  "subscribe_num": 414,
-  "redis_update_time": 1564154203,
+  "subscribe_num": 415,
+  "redis_update_time": 1565010934,
   "volume": [
     {
       "id": 2557,
       "lnovel_id": 735,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481541,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2557,
+      "id": 2557,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14504,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

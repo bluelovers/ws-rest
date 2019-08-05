@@ -3,7 +3,7 @@
   "name": "绞缬城绮谭",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "后记 解说",
   "last_update_volume_id": 789,
   "last_update_chapter_id": 4510,
@@ -16,16 +16,61 @@
   ],
   "authors": "田中芳树",
   "first_letter": "J",
-  "subscribe_num": 200,
-  "redis_update_time": 1564308196,
+  "subscribe_num": 201,
+  "redis_update_time": 1565029319,
   "volume": [
     {
       "id": 789,
       "lnovel_id": 216,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918110,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 789,
+      "id": 789,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4504,
+          "chapter_name": "第一章 秋风之卷",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4505,
+          "chapter_name": "第二章 幻戏之卷",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4506,
+          "chapter_name": "第三章 高楼之卷",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4507,
+          "chapter_name": "第四章 残月之卷",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4508,
+          "chapter_name": "第五章 白雾之卷",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4509,
+          "chapter_name": "第六章 断影之卷",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4510,
+          "chapter_name": "后记 解说",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

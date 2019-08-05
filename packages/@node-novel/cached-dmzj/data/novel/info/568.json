@@ -3,7 +3,7 @@
   "name": "幽灵少女与科学少年",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "妖狐的夏祭舞蹈\r",
+  "last_update_volume_name": "妖狐的夏祭舞蹈",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2128,
   "last_update_chapter_id": 12423,
@@ -16,24 +16,92 @@
   ],
   "authors": "飞田甲",
   "first_letter": "Y",
-  "subscribe_num": 112,
-  "redis_update_time": 1564209525,
+  "subscribe_num": 113,
+  "redis_update_time": 1564996122,
   "volume": [
     {
       "id": 2127,
       "lnovel_id": 568,
-      "volume_name": "微笑的同居生活\r",
+      "volume_name": "微笑的同居生活",
       "volume_order": 10,
       "addtime": 1274918893,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2128,
       "lnovel_id": 568,
-      "volume_name": "妖狐的夏祭舞蹈\r",
+      "volume_name": "妖狐的夏祭舞蹈",
       "volume_order": 20,
       "addtime": 1274918893,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2127,
+      "id": 2127,
+      "volume_name": "微笑的同居生活",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12414,
+          "chapter_name": "第一章 Encounter The Ghost",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12415,
+          "chapter_name": "第二章 Ground 0",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12416,
+          "chapter_name": "第三章 Time Limit",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12417,
+          "chapter_name": "第四章 Forget me not",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12418,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2128,
+      "id": 2128,
+      "volume_name": "妖狐的夏祭舞蹈",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12419,
+          "chapter_name": "第一章 连锁信",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12420,
+          "chapter_name": "第二章 访问者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12421,
+          "chapter_name": "第三章 Four Site",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12422,
+          "chapter_name": "第四章 Returner",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12423,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

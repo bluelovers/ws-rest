@@ -16,24 +16,24 @@
   ],
   "authors": "志瑞祐",
   "first_letter": "D",
-  "subscribe_num": 1184,
-  "redis_update_time": 1564313495,
+  "subscribe_num": 1187,
+  "redis_update_time": 1565034920,
   "volume": [
     {
       "id": 307,
       "lnovel_id": 77,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274917850,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 308,
       "lnovel_id": 77,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274917850,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3393,
@@ -41,7 +41,108 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1294903051,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 307,
+      "id": 307,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 1980,
+          "chapter_name": "人物简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1981,
+          "chapter_name": "德鲁伊来咯！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 1982,
+          "chapter_name": "来自法香同学的挑战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 1983,
+          "chapter_name": "午夜妖怪退治！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 1984,
+          "chapter_name": "莎蕾莉娅的婚约者？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 1985,
+          "chapter_name": "决战，机械莎蕾莉娅！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 1986,
+          "chapter_name": "剩余部份",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 1987,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 308,
+      "id": 308,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 1988,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3393,
+      "id": 3393,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 19474,
+          "chapter_name": "第一话 老大姐的凝望!?",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19475,
+          "chapter_name": "第二话 爱你在心口难开的情人节!",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19476,
+          "chapter_name": "第三话 德鲁伊、南海的大决斗!",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19477,
+          "chapter_name": "第四话 夏蕾亚的爸爸来啰!?",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19478,
+          "chapter_name": "第三卷 终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19479,
+          "chapter_name": "第三卷 后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

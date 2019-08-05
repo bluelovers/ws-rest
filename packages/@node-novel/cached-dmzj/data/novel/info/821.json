@@ -3,7 +3,7 @@
   "name": "机动战士高达SEED",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第五卷 飞向无止尽的明天\r",
+  "last_update_volume_name": "第五卷 飞向无止尽的明天",
   "last_update_chapter_name": "第五卷 飞向无止尽的明天 PHASE 04",
   "last_update_volume_id": 2843,
   "last_update_chapter_id": 23867,
@@ -12,52 +12,256 @@
   "hot_hits": 166243,
   "introduction": "C.E.（ 宇宙纪元 ） 30 年代，基因工程的风潮发展到了最巅峰，人类因此制造出新的对立架构。在受精卵阶段便接受基因调整而出生，这些被称作“调整者”的全新人类们，对旧有的人类“自然人”而言构成了一大威胁。这些调整者们无论在智力、体力等各方面都凌驾于自然人，虽然他们仅占少数，却有囊括学术、体育等所有领域顶尖地位之趋势。终于这种落差形成了对立，寡不敌众的调整者在地球各地都受到迫害。被赶出了熟悉的土地，宇宙便成了他们心目中的净土。",
   "types": [
-    "科幻/机战/战争"
+    "科幻",
+    "机战",
+    "战争"
   ],
   "authors": "后藤柳",
   "first_letter": "J",
-  "subscribe_num": 1625,
-  "redis_update_time": 1564313730,
+  "subscribe_num": 1639,
+  "redis_update_time": 1565017807,
   "volume": [
     {
       "id": 2839,
       "lnovel_id": 821,
-      "volume_name": "第一卷 交会而过的羽翼\r",
+      "volume_name": "第一卷 交会而过的羽翼",
       "volume_order": 10,
       "addtime": 1277003751,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2840,
       "lnovel_id": 821,
-      "volume_name": "第二卷 沙漠之虎\r",
+      "volume_name": "第二卷 沙漠之虎",
       "volume_order": 20,
       "addtime": 1277003751,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2841,
       "lnovel_id": 821,
-      "volume_name": "第三卷 和平之囯\r",
+      "volume_name": "第三卷 和平之囯",
       "volume_order": 30,
       "addtime": 1277003751,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2842,
       "lnovel_id": 821,
-      "volume_name": "第四卷 飞舞而降之剑\r",
+      "volume_name": "第四卷 飞舞而降之剑",
       "volume_order": 40,
       "addtime": 1277003751,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2843,
       "lnovel_id": 821,
-      "volume_name": "第五卷 飞向无止尽的明天\r",
+      "volume_name": "第五卷 飞向无止尽的明天",
       "volume_order": 50,
       "addtime": 1277003751,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2839,
+      "id": 2839,
+      "volume_name": "第一卷 交会而过的羽翼",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 15975,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15976,
+          "chapter_name": "PHASE 01",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15977,
+          "chapter_name": "PHASE 02",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23861,
+          "chapter_name": "PHASE 03",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15979,
+          "chapter_name": "PHASE 04",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15980,
+          "chapter_name": "PHASE 解说",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2840,
+      "id": 2840,
+      "volume_name": "第二卷 沙漠之虎",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 15981,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15982,
+          "chapter_name": "PHASE 01",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15983,
+          "chapter_name": "PHASE 02",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15984,
+          "chapter_name": "PHASE 03",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15985,
+          "chapter_name": "PHASE 04",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15986,
+          "chapter_name": "PHASE 05",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15987,
+          "chapter_name": "PHASE 解说",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 2841,
+      "id": 2841,
+      "volume_name": "第三卷 和平之囯",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 15988,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15989,
+          "chapter_name": "PHASE 01",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15990,
+          "chapter_name": "PHASE 02",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23862,
+          "chapter_name": "PHASE 03",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15992,
+          "chapter_name": "PHASE 04",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15993,
+          "chapter_name": "PHASE 05",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15994,
+          "chapter_name": "PHASE 解说",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 2842,
+      "id": 2842,
+      "volume_name": "第四卷 飞舞而降之剑",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 15995,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23863,
+          "chapter_name": "PHASE 01",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15997,
+          "chapter_name": "PHASE 02",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23864,
+          "chapter_name": "PHASE 03",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23865,
+          "chapter_name": "PHASE 04",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 16000,
+          "chapter_name": "PHASE 解说",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2843,
+      "id": 2843,
+      "volume_name": "第五卷 飞向无止尽的明天",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 16001,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16002,
+          "chapter_name": "PHASE 01",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23866,
+          "chapter_name": "PHASE 02",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16004,
+          "chapter_name": "PHASE 03",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23867,
+          "chapter_name": "PHASE 04",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 16006,
+          "chapter_name": "PHASE 解说",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

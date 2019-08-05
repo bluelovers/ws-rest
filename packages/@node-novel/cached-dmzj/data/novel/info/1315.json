@@ -12,12 +12,13 @@
   "hot_hits": 59063,
   "introduction": "　　曾经的不良少年，真宫逢人在今年春天考上了高中。某天打工处有一位客人吃完饭不付钱就想开溜。就在逢人追出去却差点追丢的时候，忽然看见一位绑着马尾的美少女藤室绫秀出一件纯白的……不对，是一记见义勇为高脚踢。真宫因此逮到了这名吃霸王饭的客人。\n　　从这天起，他便不时会想起绫的身影。无巧不巧，高中入学典礼当天，真宫意外在座位前方看到那一头熟悉的马尾在眼前摇曳。同时，绫的妹妹，瑞姬竟也来到真宫的打工处谋职，彷佛崭新的生活就要开始……然而，某天瑞姬的妹妹忽然对真宫说：「其实你对我姊姊有意思对吧？」\n　　——第七届新人奖首奖得奖作品。由曾经身为不良少年的男主角和三位美少女姊妹，四人共同谱出的一部青春而笨拙的初恋故事。",
   "types": [
-    "爱情/校园"
+    "爱情",
+    "校园"
   ],
   "authors": "凉木行",
   "first_letter": "H",
-  "subscribe_num": 754,
-  "redis_update_time": 1564313172,
+  "subscribe_num": 756,
+  "redis_update_time": 1564942900,
   "volume": [
     {
       "id": 4780,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1350403660,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6572,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1419079900,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 7048,
@@ -41,7 +42,133 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1437308354,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4780,
+      "id": 4780,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 31135,
+          "chapter_name": "序章 “与人相逢”的逢人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31136,
+          "chapter_name": "第一章 时值春季",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31137,
+          "chapter_name": "第二章 就算猪会飞……",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31138,
+          "chapter_name": "第三章 擂台之外",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 31139,
+          "chapter_name": "第四章 多少有好转一些吧……",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 31140,
+          "chapter_name": "第五章 SECOND",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 31141,
+          "chapter_name": "第六章 我说过，没问题的吧？",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 31142,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6572,
+      "id": 6572,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 46954,
+          "chapter_name": "序章 没问题才怪！",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46955,
+          "chapter_name": "第一章 夏天伊始的种种",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47176,
+          "chapter_name": "第二章 他和她的问题",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47702,
+          "chapter_name": "第三章 再接再厉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47703,
+          "chapter_name": "尾声 后来发生的一些事",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47704,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7048,
+      "id": 7048,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 51525,
+          "chapter_name": "第一章 我的夏天和某人的夏天",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51649,
+          "chapter_name": "第二章 在水中让人身心舒畅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51887,
+          "chapter_name": "第三章 这架飞机的目的地是……",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 52631,
+          "chapter_name": "第四章 这就叫做“三生有幸”",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 52635,
+          "chapter_name": "最终章 面向大海，启程回家",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 52636,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

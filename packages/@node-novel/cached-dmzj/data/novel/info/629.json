@@ -3,7 +3,7 @@
   "name": "扉之外",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第三卷\r",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2350,
   "last_update_chapter_id": 13718,
@@ -16,32 +16,128 @@
   ],
   "authors": "土桥真二郎",
   "first_letter": "Z",
-  "subscribe_num": 1016,
-  "redis_update_time": 1564305583,
+  "subscribe_num": 1021,
+  "redis_update_time": 1565012687,
   "volume": [
     {
       "id": 2348,
       "lnovel_id": 629,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274919026,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2349,
       "lnovel_id": 629,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274919026,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2350,
       "lnovel_id": 629,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274919026,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2348,
+      "id": 2348,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13705,
+          "chapter_name": "背景介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13706,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13707,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13708,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13709,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2349,
+      "id": 2349,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13710,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13711,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13712,
+          "chapter_name": "扉之外2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13713,
+          "chapter_name": "终章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13714,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2350,
+      "id": 2350,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 13715,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13716,
+          "chapter_name": "扉之外3",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13717,
+          "chapter_name": "终章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13718,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

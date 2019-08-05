@@ -17,7 +17,7 @@
   "authors": "有川浩",
   "first_letter": "D",
   "subscribe_num": 265,
-  "redis_update_time": 1564243940,
+  "redis_update_time": 1564910278,
   "volume": [
     {
       "id": 4322,
@@ -25,7 +25,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1331716980,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4322,
+      "id": 4322,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 27205,
+          "chapter_name": "ch1.打工族的起步",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27206,
+          "chapter_name": "ch2.打工族的奋斗",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27207,
+          "chapter_name": "ch3.打工族的转职",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27208,
+          "chapter_name": "ch4.原打工族的正职",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27209,
+          "chapter_name": "ch5.原打工族要买家",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27210,
+          "chapter_name": "【after hours】原打工族的旁观感言",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27211,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

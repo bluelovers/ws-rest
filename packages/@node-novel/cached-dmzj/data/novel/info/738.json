@@ -3,7 +3,7 @@
   "name": "无人岛物语",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "漫长的暑假(全年龄版)\r",
+  "last_update_volume_name": "漫长的暑假(全年龄版)",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2560,
   "last_update_chapter_id": 14507,
@@ -16,16 +16,31 @@
   ],
   "authors": "铃木俊介",
   "first_letter": "W",
-  "subscribe_num": 143,
-  "redis_update_time": 1564279257,
+  "subscribe_num": 144,
+  "redis_update_time": 1564982493,
   "volume": [
     {
       "id": 2560,
       "lnovel_id": 738,
-      "volume_name": "漫长的暑假(全年龄版)\r",
+      "volume_name": "漫长的暑假(全年龄版)",
       "volume_order": 10,
       "addtime": 1275481541,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2560,
+      "id": 2560,
+      "volume_name": "漫长的暑假(全年龄版)",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14507,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

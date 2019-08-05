@@ -3,7 +3,7 @@
   "name": "Flyable heart",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3539,
   "last_update_chapter_id": 20567,
@@ -17,15 +17,85 @@
   "authors": "冈崎いずみ",
   "first_letter": "F",
   "subscribe_num": 157,
-  "redis_update_time": 1564235189,
+  "redis_update_time": 1564928576,
   "volume": [
     {
       "id": 3539,
       "lnovel_id": 1005,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1300155684,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3539,
+      "id": 3539,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20556,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20557,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20558,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20559,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20560,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20561,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20562,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20563,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20564,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 20565,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 20566,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 20567,
+          "chapter_name": "插图",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

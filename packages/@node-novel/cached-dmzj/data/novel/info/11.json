@@ -3,7 +3,7 @@
   "name": "艾莉森",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第三卷(下) 名为阴谋的列车\r",
+  "last_update_volume_name": "第三卷(下) 名为阴谋的列车",
   "last_update_chapter_name": "序章之前·b",
   "last_update_volume_id": 47,
   "last_update_chapter_id": 284,
@@ -16,40 +16,239 @@
   ],
   "authors": "时雨泽惠一",
   "first_letter": "A",
-  "subscribe_num": 883,
-  "redis_update_time": 1564307989,
+  "subscribe_num": 884,
+  "redis_update_time": 1565019581,
   "volume": [
     {
       "id": 44,
       "lnovel_id": 11,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917718,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 45,
       "lnovel_id": 11,
-      "volume_name": "第二卷 白昼夜梦\r",
+      "volume_name": "第二卷 白昼夜梦",
       "volume_order": 20,
       "addtime": 1274917718,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 46,
       "lnovel_id": 11,
-      "volume_name": "第三卷(上) 车窗外的路妥尼河\r",
+      "volume_name": "第三卷(上) 车窗外的路妥尼河",
       "volume_order": 30,
       "addtime": 1274917718,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 47,
       "lnovel_id": 11,
-      "volume_name": "第三卷(下) 名为阴谋的列车\r",
+      "volume_name": "第三卷(下) 名为阴谋的列车",
       "volume_order": 40,
       "addtime": 1274917718,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 44,
+      "id": 44,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 252,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 253,
+          "chapter_name": "第一章 艾莉森和维尔",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 254,
+          "chapter_name": "第二章 诱拐、纵火和窃盗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 255,
+          "chapter_name": "第三章 剩下的人们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 256,
+          "chapter_name": "第四章 早餐后出击",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 257,
+          "chapter_name": "第五章 洛克榭的间谍",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 258,
+          "chapter_name": "第六章 瓦尔塔的战斗",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 259,
+          "chapter_name": "第七章 这样也不错",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 260,
+          "chapter_name": "第八章 两人所在的世界",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 261,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 45,
+      "id": 45,
+      "volume_name": "第二卷 白昼夜梦",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 262,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 263,
+          "chapter_name": "第一章 信与对话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 264,
+          "chapter_name": "第二章 绑架",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 265,
+          "chapter_name": "第三章 菲欧娜之古",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 266,
+          "chapter_name": "第四章 逃狱后逃亡",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 267,
+          "chapter_name": "第五章 身负使命的人们",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 268,
+          "chapter_name": "第六章 一群冒牌货",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 269,
+          "chapter_name": "第七章 公主殿下与英雄",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 270,
+          "chapter_name": "第八章 对话与信",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 271,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 46,
+      "id": 46,
+      "volume_name": "第三卷(上) 车窗外的路妥尼河",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 272,
+          "chapter_name": "序章之前·a",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 273,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 274,
+          "chapter_name": "第一章 广播与电报",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 275,
+          "chapter_name": "第二章 旧战场上架的桥",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 276,
+          "chapter_name": "第三章 史托克少校的战斗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 277,
+          "chapter_name": "第四章 杀人的理由",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 278,
+          "chapter_name": "第五章 同行的理由",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 279,
+          "chapter_name": "条列记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 47,
+      "id": 47,
+      "volume_name": "第三卷(下) 名为阴谋的列车",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 280,
+          "chapter_name": "第六章 纵火与爆破",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 281,
+          "chapter_name": "第七章 对岸",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 282,
+          "chapter_name": "第八章 名为阴谋的列车",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 283,
+          "chapter_name": "第九章 答案是艾莉森",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 284,
+          "chapter_name": "序章之前·b",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

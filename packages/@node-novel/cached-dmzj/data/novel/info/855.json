@@ -16,8 +16,8 @@
   ],
   "authors": "麻枝准",
   "first_letter": "A",
-  "subscribe_num": 3891,
-  "redis_update_time": 1564305763,
+  "subscribe_num": 3916,
+  "redis_update_time": 1565020071,
   "volume": [
     {
       "id": 2999,
@@ -25,7 +25,37 @@
       "volume_name": "一卷全",
       "volume_order": 10,
       "addtime": 1277454555,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2999,
+      "id": 2999,
+      "volume_name": "一卷全",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16650,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16651,
+          "chapter_name": "插图",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16695,
+          "chapter_name": "番外篇 星期一的黎明",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17677,
+          "chapter_name": "番外篇 星期一的黎明II",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

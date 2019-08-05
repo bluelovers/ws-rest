@@ -10,22 +10,24 @@
   "last_update_time": 1329983295,
   "cover": "https://xs.dmzj.com/img/webpic/24/ajmfs.jpg",
   "hot_hits": 47948,
-  "introduction": "「我讨厌现实！我不要这样的人生！」基于这样的想法，没钱没女友又没魔法才能的坏人脸少年尼洛离开了家，投身漂泊之旅。某日他碰上一名操着前所未闻的＜香蕉式魔术＞的美少女寻宝猎人雅露露，从此之后就如同裸身扑火一般，开始一连串冒险寻宝记。梦想是发大财＆一口气买下大量香蕉!?一段充满爱、勇气以及香蕉，得过大奖的诙谐冒险奇幻故事即将揭幕!! …… \n\n",
+  "introduction": "「我讨厌现实！我不要这样的人生！」基于这样的想法，没钱没女友又没魔法才能的坏人脸少年尼洛离开了家，投身漂泊之旅。某日他碰上一名操着前所未闻的＜香蕉式魔术＞的美少女寻宝猎人雅露露，从此之后就如同裸身扑火一般，开始一连串冒险寻宝记。梦想是发大财＆一口气买下大量香蕉!?一段充满爱、勇气以及香蕉，得过大奖的诙谐冒险奇幻故事即将揭幕!! ……",
   "types": [
-    "搞笑/冒险/奇幻"
+    "搞笑",
+    "冒险",
+    "奇幻"
   ],
   "authors": "谷口シュンスケ",
   "first_letter": "A",
   "subscribe_num": 235,
-  "redis_update_time": 1564250367,
+  "redis_update_time": 1564962414,
   "volume": [
     {
       "id": 3463,
       "lnovel_id": 976,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1297735866,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4259,
@@ -33,7 +35,105 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1329983245,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3463,
+      "id": 3463,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20039,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20040,
+          "chapter_name": "第一章 传说由此揭开序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20041,
+          "chapter_name": "第二章 白蔷薇的魔女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20042,
+          "chapter_name": "第三章 阻碍前进的是脆弱之心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20043,
+          "chapter_name": "第四章 龙神～Ryu-Jin～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20044,
+          "chapter_name": "第五章 死斗！VS魔王香德拉",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20045,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20046,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20047,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4259,
+      "id": 4259,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 26669,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26670,
+          "chapter_name": "第一章 爆炸秃头的冒险",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26671,
+          "chapter_name": "第二章 尼洛·亚塔尔再次飞舞",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26672,
+          "chapter_name": "第三章 真实总潜藏在胃中",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26673,
+          "chapter_name": "第四章 冲击！事件的隐藏人物是村长！？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26674,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26675,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

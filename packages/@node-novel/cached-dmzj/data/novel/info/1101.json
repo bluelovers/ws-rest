@@ -3,29 +3,69 @@
   "name": "Ever17－时空轮回官方小说－",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第四章 激流",
   "last_update_volume_id": 3899,
   "last_update_chapter_id": 23521,
   "last_update_time": 1314954241,
   "cover": "https://xs.dmzj.com/img/webpic/7/ever17.jpg",
   "hot_hits": 12164,
-  "introduction": "少年醒来时，发现自己失去了记忆。只知道这里是大规模海中海洋主题公园LeMU，而自己是为了寻找某个人来到这里……然后，突发事故。少年被困在了逐渐崩塌的LeMU内。他在LeMU中遇见的朋友们各自身怀着的秘密是什么？他们能成功逃脱吗！？时间还剩119小时……。以洗练的语言将大人气作品《Ever17》小说化！渐渐浮出水面的惊人真相究竟是！？ ",
+  "introduction": "少年醒来时，发现自己失去了记忆。只知道这里是大规模海中海洋主题公园LeMU，而自己是为了寻找某个人来到这里……然后，突发事故。少年被困在了逐渐崩塌的LeMU内。他在LeMU中遇见的朋友们各自身怀着的秘密是什么？他们能成功逃脱吗！？时间还剩119小时……。以洗练的语言将大人气作品《Ever17》小说化！渐渐浮出水面的惊人真相究竟是！？",
   "types": [
     "冒险"
   ],
   "authors": "日暮茶坊",
   "first_letter": "E",
-  "subscribe_num": 149,
-  "redis_update_time": 1564160115,
+  "subscribe_num": 152,
+  "redis_update_time": 1564932154,
   "volume": [
     {
       "id": 3899,
       "lnovel_id": 1101,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1314954234,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3899,
+      "id": 3899,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23516,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23517,
+          "chapter_name": "序章 deep blue moon",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23518,
+          "chapter_name": "第一章 浸水",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23519,
+          "chapter_name": "第二章 视线",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23520,
+          "chapter_name": "第三章 疑念",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23521,
+          "chapter_name": "第四章 激流",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

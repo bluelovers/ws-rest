@@ -16,16 +16,16 @@
   ],
   "authors": "杉井光",
   "first_letter": "H",
-  "subscribe_num": 597,
-  "redis_update_time": 1564266204,
+  "subscribe_num": 599,
+  "redis_update_time": 1564991690,
   "volume": [
     {
       "id": 2607,
       "lnovel_id": 761,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275561491,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3057,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1280372373,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3489,
@@ -41,7 +41,153 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1298443084,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2607,
+      "id": 2607,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14666,
+          "chapter_name": "一、火中",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14667,
+          "chapter_name": "二、火垂苑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14668,
+          "chapter_name": "三、火护之钟",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14669,
+          "chapter_name": "四、火焙巡礼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14670,
+          "chapter_name": "五、火渡之红弓",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14671,
+          "chapter_name": "六、火目的巫女",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14672,
+          "chapter_name": "七、火刑",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14673,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 14674,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 3057,
+      "id": 3057,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 17102,
+          "chapter_name": "一 时子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17103,
+          "chapter_name": "二 佳乃",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17104,
+          "chapter_name": "三 茜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17105,
+          "chapter_name": "四 双叶",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17106,
+          "chapter_name": "五 伊月",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17107,
+          "chapter_name": "六 丰日",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17108,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 17109,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3489,
+      "id": 3489,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 20198,
+          "chapter_name": "第三卷 序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20199,
+          "chapter_name": "一 远歌",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20200,
+          "chapter_name": "二 红雪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20201,
+          "chapter_name": "三 古血",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20202,
+          "chapter_name": "四 长夜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20203,
+          "chapter_name": "五 轻风",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20204,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

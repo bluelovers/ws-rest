@@ -3,7 +3,7 @@
   "name": "蔚蓝的萨利菲拉",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 3697,
   "last_update_chapter_id": 21780,
@@ -17,15 +17,60 @@
   "authors": "天堂里砂",
   "first_letter": "W",
   "subscribe_num": 112,
-  "redis_update_time": 1564282531,
+  "redis_update_time": 1564932916,
   "volume": [
     {
       "id": 3697,
       "lnovel_id": 1044,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1307066696,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3697,
+      "id": 3697,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 21774,
+          "chapter_name": "一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21775,
+          "chapter_name": "二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21776,
+          "chapter_name": "三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21777,
+          "chapter_name": "四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21778,
+          "chapter_name": "五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21779,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21780,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

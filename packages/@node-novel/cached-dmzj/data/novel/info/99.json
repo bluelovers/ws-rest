@@ -3,7 +3,7 @@
   "name": "电击!!神盾5少女",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "代替后记的回忆谈",
   "last_update_volume_id": 353,
   "last_update_chapter_id": 2225,
@@ -17,23 +17,101 @@
   "authors": "谷川流",
   "first_letter": "D",
   "subscribe_num": 310,
-  "redis_update_time": 1564303449,
+  "redis_update_time": 1565020549,
   "volume": [
     {
       "id": 352,
       "lnovel_id": 99,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917873,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 353,
       "lnovel_id": 99,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274917873,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 352,
+      "id": 352,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2214,
+          "chapter_name": "第一话『盾与羊』",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2215,
+          "chapter_name": "第二话 『速度&沉默』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2216,
+          "chapter_name": "第三话 『幼稚园小朋友与海』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2217,
+          "chapter_name": "第四话 『微笑止痛剂』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2218,
+          "chapter_name": "第五话 『天狼星』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2219,
+          "chapter_name": "代替后记的回忆谈",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 353,
+      "id": 353,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2220,
+          "chapter_name": "第六话 ‘Imitation·Love’",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2221,
+          "chapter_name": "第七话 ‘Straight·Chaser",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2222,
+          "chapter_name": "第八话 ‘LittleSmile’",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2223,
+          "chapter_name": "第九话 ‘SisterAccident’",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2224,
+          "chapter_name": "第十话 ‘LastSpring·Again",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2225,
+          "chapter_name": "代替后记的回忆谈",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

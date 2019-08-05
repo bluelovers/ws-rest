@@ -3,7 +3,7 @@
   "name": "付丧堂古董店",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第四卷\r",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "第一章 影",
   "last_update_volume_id": 439,
   "last_update_chapter_id": 49684,
@@ -16,40 +16,40 @@
   ],
   "authors": "御堂彰彦",
   "first_letter": "F",
-  "subscribe_num": 3129,
-  "redis_update_time": 1564312386,
+  "subscribe_num": 3146,
+  "redis_update_time": 1565038192,
   "volume": [
     {
       "id": 436,
       "lnovel_id": 122,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917919,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 437,
       "lnovel_id": 122,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274917919,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 438,
       "lnovel_id": 122,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274917919,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 439,
       "lnovel_id": 122,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274917919,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3003,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1277691745,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4739,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷",
       "volume_order": 59,
       "addtime": 1348839901,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4358,
@@ -73,7 +73,240 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1332756356,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 436,
+      "id": 436,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 15131,
+          "chapter_name": "第一卷 全本",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 437,
+      "id": 437,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2735,
+          "chapter_name": "彩页介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2736,
+          "chapter_name": "第一章 寂静",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2737,
+          "chapter_name": "第二章 自己",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2738,
+          "chapter_name": "第三章 死目",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2739,
+          "chapter_name": "第四章 化妆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2740,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 438,
+      "id": 438,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 2741,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2742,
+          "chapter_name": "第一章 箱",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2743,
+          "chapter_name": "第二章 人偶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2744,
+          "chapter_name": "第三章 梦",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2745,
+          "chapter_name": "第四章 睡美人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2746,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 439,
+      "id": 439,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 49684,
+          "chapter_name": "第一章 影",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14979,
+          "chapter_name": "第二章 赌徒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14980,
+          "chapter_name": "第三章 小指",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14981,
+          "chapter_name": "第四章 秘密",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14982,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 3003,
+      "id": 3003,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 16667,
+          "chapter_name": "第一章 幸运",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16668,
+          "chapter_name": "第二章 希望",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16669,
+          "chapter_name": "第三章 言之叶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16670,
+          "chapter_name": "第四章 真心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 16671,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4739,
+      "id": 4739,
+      "volume_name": "第六卷",
+      "volume_order": 59,
+      "chapters": [
+        {
+          "chapter_id": 30744,
+          "chapter_name": "第一章 嫉妒",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30745,
+          "chapter_name": "第二章 音",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30746,
+          "chapter_name": "第三章 未来",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30747,
+          "chapter_name": "第四章 过去",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30748,
+          "chapter_name": "幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30749,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 4358,
+      "id": 4358,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 27497,
+          "chapter_name": "第一章 爪痕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27682,
+          "chapter_name": "第二章 真实",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28454,
+          "chapter_name": "第三章 幻想",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30727,
+          "chapter_name": "第四章 罪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30728,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30729,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

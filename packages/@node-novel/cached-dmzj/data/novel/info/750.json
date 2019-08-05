@@ -3,7 +3,7 @@
   "name": "樱花大战3前传 巴黎前夜",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "古妮西露篇\r",
+  "last_update_volume_name": "古妮西露篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2590,
   "last_update_chapter_id": 14636,
@@ -17,31 +17,72 @@
   "authors": "あかほりさとる",
   "first_letter": "Y",
   "subscribe_num": 125,
-  "redis_update_time": 1564308913,
+  "redis_update_time": 1565001938,
   "volume": [
     {
       "id": 2588,
       "lnovel_id": 750,
-      "volume_name": "北大路花火篇\r",
+      "volume_name": "北大路花火篇",
       "volume_order": 10,
       "addtime": 1275561490,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2589,
       "lnovel_id": 750,
-      "volume_name": "艾莉卡篇\r",
+      "volume_name": "艾莉卡篇",
       "volume_order": 20,
       "addtime": 1275561490,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2590,
       "lnovel_id": 750,
-      "volume_name": "古妮西露篇\r",
+      "volume_name": "古妮西露篇",
       "volume_order": 30,
       "addtime": 1275561490,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2588,
+      "id": 2588,
+      "volume_name": "北大路花火篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14634,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2589,
+      "id": 2589,
+      "volume_name": "艾莉卡篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14635,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2590,
+      "id": 2590,
+      "volume_name": "古妮西露篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 14636,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

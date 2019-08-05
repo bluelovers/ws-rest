@@ -16,56 +16,130 @@
   ],
   "authors": "KID",
   "first_letter": "E",
-  "subscribe_num": 423,
-  "redis_update_time": 1564222284,
+  "subscribe_num": 429,
+  "redis_update_time": 1565023808,
   "volume": [
     {
       "id": 2923,
       "lnovel_id": 830,
-      "volume_name": "游戏剧情小说 时光的羁绊\r",
+      "volume_name": "游戏剧情小说 时光的羁绊",
       "volume_order": 10,
       "addtime": 1277351898,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2924,
       "lnovel_id": 830,
-      "volume_name": "剧本－－沙罗线\r",
+      "volume_name": "剧本－－沙罗线",
       "volume_order": 20,
       "addtime": 1277351898,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2925,
       "lnovel_id": 830,
-      "volume_name": "剧本－－优线\r",
+      "volume_name": "剧本－－优线",
       "volume_order": 30,
       "addtime": 1277351898,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2926,
       "lnovel_id": 830,
-      "volume_name": "剧本－－月海线\r",
+      "volume_name": "剧本－－月海线",
       "volume_order": 40,
       "addtime": 1277351898,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2927,
       "lnovel_id": 830,
-      "volume_name": "剧本－－空线\r",
+      "volume_name": "剧本－－空线",
       "volume_order": 50,
       "addtime": 1277351898,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2928,
       "lnovel_id": 830,
-      "volume_name": "剧本－－可可线\r",
+      "volume_name": "剧本－－可可线",
       "volume_order": 60,
       "addtime": 1277351898,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2923,
+      "id": 2923,
+      "volume_name": "游戏剧情小说 时光的羁绊",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16500,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2924,
+      "id": 2924,
+      "volume_name": "剧本－－沙罗线",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 16501,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2925,
+      "id": 2925,
+      "volume_name": "剧本－－优线",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 16502,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2926,
+      "id": 2926,
+      "volume_name": "剧本－－月海线",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 16503,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2927,
+      "id": 2927,
+      "volume_name": "剧本－－空线",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 16504,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2928,
+      "id": 2928,
+      "volume_name": "剧本－－可可线",
+      "volume_order": 60,
+      "chapters": []
     }
   ]
 }

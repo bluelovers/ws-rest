@@ -12,12 +12,14 @@
   "hot_hits": 22648,
   "introduction": "　　位于世界尽头的小岛，渥太利亚。漂流到这座岛屿的漂流人李克，成为玛黛拉面包店的学徒，每天过着配送美味魔法面包的生活。岛上住的几乎都是漂流人，虽不记得过去的经历，但还是积极面对生活，快乐地活在「当下」……在这片安乐的土地，李克将会遭遇到哪三件趣事呢？让温馨故事随着面包薰香温暖您心，众多人气角色共演的三篇＋α小说版登场！]",
   "types": [
-    "冒险/奇幻/异界"
+    "冒险",
+    "奇幻",
+    "异界"
   ],
   "authors": "加纳新太",
   "first_letter": "G",
   "subscribe_num": 235,
-  "redis_update_time": 1564222818,
+  "redis_update_time": 1564817361,
   "volume": [
     {
       "id": 4511,
@@ -25,7 +27,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1338951371,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4511,
+      "id": 4511,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 28740,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28741,
+          "chapter_name": "第一话「圆环」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28742,
+          "chapter_name": "第二话「冒险者的愿望」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28743,
+          "chapter_name": "第三话「愿与君漫步」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28744,
+          "chapter_name": "小小第四话「乐园」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28745,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

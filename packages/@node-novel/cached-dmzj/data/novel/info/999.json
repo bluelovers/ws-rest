@@ -3,7 +3,7 @@
   "name": "彩虹村的秘密",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第七章 真相大白",
   "last_update_volume_id": 3524,
   "last_update_chapter_id": 20433,
@@ -16,16 +16,61 @@
   ],
   "authors": "有栖川有栖",
   "first_letter": "C",
-  "subscribe_num": 121,
-  "redis_update_time": 1563852419,
+  "subscribe_num": 122,
+  "redis_update_time": 1564911768,
   "volume": [
     {
       "id": 3524,
       "lnovel_id": 999,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1299635451,
-      "sum_chapters": 56
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3524,
+      "id": 3524,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20427,
+          "chapter_name": "第一章 到彩虹村去",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20428,
+          "chapter_name": "第二章 侦探小说家的书房",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20429,
+          "chapter_name": "第三章 向彩虹许愿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20430,
+          "chapter_name": "第四章 密室杀人事件",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20431,
+          "chapter_name": "第五章 又一起杀人事件",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20432,
+          "chapter_name": "第六章 抢在天亮之前",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20433,
+          "chapter_name": "第七章 真相大白",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

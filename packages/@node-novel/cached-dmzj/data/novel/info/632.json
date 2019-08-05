@@ -3,7 +3,7 @@
   "name": "最终兵器彼女",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 以吻封笺\r",
+  "last_update_volume_name": "第二卷 以吻封笺",
   "last_update_chapter_name": "第十一话 离开",
   "last_update_volume_id": 2354,
   "last_update_chapter_id": 13739,
@@ -16,24 +16,137 @@
   ],
   "authors": "江良至",
   "first_letter": "Z",
-  "subscribe_num": 258,
-  "redis_update_time": 1564290825,
+  "subscribe_num": 259,
+  "redis_update_time": 1565012672,
   "volume": [
     {
       "id": 2353,
       "lnovel_id": 632,
-      "volume_name": "第一卷 沉沦\r",
+      "volume_name": "第一卷 沉沦",
       "volume_order": 10,
       "addtime": 1274919028,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2354,
       "lnovel_id": 632,
-      "volume_name": "第二卷 以吻封笺\r",
+      "volume_name": "第二卷 以吻封笺",
       "volume_order": 20,
       "addtime": 1274919028,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2353,
+      "id": 2353,
+      "volume_name": "第一卷 沉沦",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13721,
+          "chapter_name": "序 命运",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13722,
+          "chapter_name": "第一话 短暂的和平",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13723,
+          "chapter_name": "第二话 晶核一体化",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13724,
+          "chapter_name": "第三话 绝望与束缚",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13725,
+          "chapter_name": "第四话 复合拟化",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13726,
+          "chapter_name": "第五话 巨剑荡群魔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 13727,
+          "chapter_name": "第六话 冰封刺魔锥",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 13728,
+          "chapter_name": "第七话 沉沦",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2354,
+      "id": 2354,
+      "volume_name": "第二卷 以吻封笺",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13729,
+          "chapter_name": "第一话 意外的邀请",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13730,
+          "chapter_name": "第二话 兄妹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13731,
+          "chapter_name": "第三话 商场风波",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13732,
+          "chapter_name": "第四话 西捷·达特斯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13733,
+          "chapter_name": "第五话 私立森维学院",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13734,
+          "chapter_name": "第六话 测试与思索",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 13735,
+          "chapter_name": "第七话 城堡中的挑战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 13736,
+          "chapter_name": "第八话 古堡",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 13737,
+          "chapter_name": "第九话 凶灵",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 13738,
+          "chapter_name": "第十话 触媒",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 13739,
+          "chapter_name": "第十一话 离开",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

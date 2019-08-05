@@ -16,16 +16,16 @@
   ],
   "authors": "周防司",
   "first_letter": "L",
-  "subscribe_num": 288,
-  "redis_update_time": 1564274045,
+  "subscribe_num": 289,
+  "redis_update_time": 1565010469,
   "volume": [
     {
       "id": 862,
       "lnovel_id": 238,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918149,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3000,
@@ -33,7 +33,95 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1277454819,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 862,
+      "id": 862,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4872,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4873,
+          "chapter_name": "第一阶段 日日反复",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4874,
+          "chapter_name": "第二阶段 异常世界，两个规则",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4875,
+          "chapter_name": "第三阶段 梦之中，桥之上",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4876,
+          "chapter_name": "第四阶段 从脱序的世界中…",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4877,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 3000,
+      "id": 3000,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 16653,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16654,
+          "chapter_name": "第一阶段 追想前《现在》",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22243,
+          "chapter_name": "第二阶段第一级 A书少年和便利店少女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22244,
+          "chapter_name": "间幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23265,
+          "chapter_name": "阶段2.2 逆时间翻转",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23266,
+          "chapter_name": "阶段2.3 分隔线",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23267,
+          "chapter_name": "阶段3 追想后《现在》",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 23268,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "id": 105,
-  "name": "EME　Black",
+  "name": "EME Black",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 张开血盆大口的魔王迷宫\r",
+  "last_update_volume_name": "第一卷 张开血盆大口的魔王迷宫",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 367,
   "last_update_chapter_id": 2282,
@@ -17,15 +17,30 @@
   "authors": "泷川武司",
   "first_letter": "E",
   "subscribe_num": 86,
-  "redis_update_time": 1563632105,
+  "redis_update_time": 1564362826,
   "volume": [
     {
       "id": 367,
       "lnovel_id": 105,
-      "volume_name": "第一卷 张开血盆大口的魔王迷宫\r",
+      "volume_name": "第一卷 张开血盆大口的魔王迷宫",
       "volume_order": 10,
       "addtime": 1274917881,
       "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 367,
+      "id": 367,
+      "volume_name": "第一卷 张开血盆大口的魔王迷宫",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2282,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

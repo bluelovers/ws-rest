@@ -3,7 +3,7 @@
   "name": "真庭语",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3076,
   "last_update_chapter_id": 17242,
@@ -16,16 +16,56 @@
   ],
   "authors": "西尾维新",
   "first_letter": "Z",
-  "subscribe_num": 1271,
-  "redis_update_time": 1564313255,
+  "subscribe_num": 1274,
+  "redis_update_time": 1564992783,
   "volume": [
     {
       "id": 3076,
       "lnovel_id": 870,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1281011919,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3076,
+      "id": 3076,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17237,
+          "chapter_name": "第一话 初代真庭蝙蝠",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17238,
+          "chapter_name": "第二话 初代真庭喰鲛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17239,
+          "chapter_name": "第三话 初代真庭蝴蝶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17240,
+          "chapter_name": "第四话 初代真庭白鹭",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17241,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17242,
+          "chapter_name": "插图",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

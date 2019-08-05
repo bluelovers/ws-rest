@@ -17,7 +17,7 @@
   "authors": "池上永一",
   "first_letter": "X",
   "subscribe_num": 183,
-  "redis_update_time": 1564212224,
+  "redis_update_time": 1564939452,
   "volume": [
     {
       "id": 4428,
@@ -25,7 +25,7 @@
       "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1335346863,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 4676,
@@ -33,7 +33,110 @@
       "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1346829210,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4428,
+      "id": 4428,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 28084,
+          "chapter_name": "第一章 城主归来",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28085,
+          "chapter_name": "第二章 苏醒吧梅杜莎",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28086,
+          "chapter_name": "第三章 科技的黎明",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28087,
+          "chapter_name": "第四章 空中地狱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28088,
+          "chapter_name": "第五章 神隐暴雨",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28089,
+          "chapter_name": "第六章 讨伐梅杜莎",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28090,
+          "chapter_name": "第七章 水蛭子的预言",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28091,
+          "chapter_name": "第八章 宙斯的密码",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4676,
+      "id": 4676,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 30251,
+          "chapter_name": "第九章 空防层的决死线",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30252,
+          "chapter_name": "第十章 海市蟹楼之都",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30253,
+          "chapter_name": "第十一章 全能之神的脑死",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30254,
+          "chapter_name": "第十二章 森林污染",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30255,
+          "chapter_name": "第十三章 东京大空袭",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30256,
+          "chapter_name": "第十四章 四项神器",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30257,
+          "chapter_name": "第十五章 暗杀皇太子",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 30258,
+          "chapter_name": "第十六章 天地开阔",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 30259,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "青花传说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2444,
   "last_update_chapter_id": 14225,
@@ -17,15 +17,30 @@
   "authors": "八原ゆうき",
   "first_letter": "Q",
   "subscribe_num": 37,
-  "redis_update_time": 1564238998,
+  "redis_update_time": 1564623494,
   "volume": [
     {
       "id": 2444,
       "lnovel_id": 671,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481531,
-      "sum_chapters": 3
+      "sum_chapters": 6
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2444,
+      "id": 2444,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14225,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "消极的快乐、电锯的边缘",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 2008,
   "last_update_chapter_id": 11825,
@@ -16,16 +16,31 @@
   ],
   "authors": "泷本龙彦",
   "first_letter": "X",
-  "subscribe_num": 579,
-  "redis_update_time": 1564296263,
+  "subscribe_num": 584,
+  "redis_update_time": 1565006724,
   "volume": [
     {
       "id": 2008,
       "lnovel_id": 529,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918824,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2008,
+      "id": 2008,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11825,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

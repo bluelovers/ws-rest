@@ -3,7 +3,7 @@
   "name": "BLACK CAT黑猫",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "星之残照\r",
+  "last_update_volume_name": "星之残照",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 71,
   "last_update_chapter_id": 421,
@@ -17,31 +17,72 @@
   "authors": "大崎知仁",
   "first_letter": "B",
   "subscribe_num": 372,
-  "redis_update_time": 1564292248,
+  "redis_update_time": 1565010451,
   "volume": [
     {
       "id": 69,
       "lnovel_id": 21,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917731,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 70,
       "lnovel_id": 21,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274917731,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 71,
       "lnovel_id": 21,
-      "volume_name": "星之残照\r",
+      "volume_name": "星之残照",
       "volume_order": 30,
       "addtime": 1274917731,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 69,
+      "id": 69,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 419,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 70,
+      "id": 70,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 420,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 71,
+      "id": 71,
+      "volume_name": "星之残照",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 421,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

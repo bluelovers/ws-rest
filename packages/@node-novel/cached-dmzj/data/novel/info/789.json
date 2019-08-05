@@ -3,7 +3,7 @@
   "name": "Tales of Rebirth 重生传说",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "落日的瞬间 上\r",
+  "last_update_volume_name": "落日的瞬间 上",
   "last_update_chapter_name": "落日的瞬间 上 一卷全",
   "last_update_volume_id": 2687,
   "last_update_chapter_id": 23832,
@@ -12,20 +12,21 @@
   "hot_hits": 17406,
   "introduction": "    那一天，维格因为体内一股不明的力量突然爆发，导致最重要的亲人克蕾儿遭到冰封。在那一年之后，名为尤金与马欧的两人来到了维格身边，而他们竟然与维格有着相同的力量！？",
   "types": [
-    "冒险/奇幻"
+    "冒险",
+    "奇幻"
   ],
   "authors": "矢島さら",
   "first_letter": "T",
   "subscribe_num": 128,
-  "redis_update_time": 1564122462,
+  "redis_update_time": 1564911641,
   "volume": [
     {
       "id": 2687,
       "lnovel_id": 789,
-      "volume_name": "落日的瞬间 上\r",
+      "volume_name": "落日的瞬间 上",
       "volume_order": 10,
       "addtime": 1276049052,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 3395,
@@ -33,7 +34,7 @@
       "volume_name": "落日的瞬间 下",
       "volume_order": 15,
       "addtime": 1294971109,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 3276,
@@ -41,7 +42,7 @@
       "volume_name": "虚伪的再诞 上",
       "volume_order": 20,
       "addtime": 1289560422,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 3396,
@@ -49,7 +50,7 @@
       "volume_name": "虚伪的再诞 下",
       "volume_order": 40,
       "addtime": 1294971115,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 3599,
@@ -57,7 +58,204 @@
       "volume_name": "崭新的时代",
       "volume_order": 50,
       "addtime": 1303661138,
-      "sum_chapters": 11
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2687,
+      "id": 2687,
+      "volume_name": "落日的瞬间 上",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23832,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3395,
+      "id": 3395,
+      "volume_name": "落日的瞬间 下",
+      "volume_order": 15,
+      "chapters": [
+        {
+          "chapter_id": 19485,
+          "chapter_name": "第六章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19486,
+          "chapter_name": "第七章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19487,
+          "chapter_name": "第八章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19488,
+          "chapter_name": "第九章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19489,
+          "chapter_name": "第十章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19490,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19491,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3276,
+      "id": 3276,
+      "volume_name": "虚伪的再诞 上",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 18624,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18625,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18626,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18627,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18628,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18629,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18630,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3396,
+      "id": 3396,
+      "volume_name": "虚伪的再诞 下",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 19492,
+          "chapter_name": "第六章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19493,
+          "chapter_name": "第七章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19494,
+          "chapter_name": "第八章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19495,
+          "chapter_name": "第九章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19496,
+          "chapter_name": "第十章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19497,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19498,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3599,
+      "id": 3599,
+      "volume_name": "崭新的时代",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 20997,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20998,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20999,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21000,
+          "chapter_name": "崭新的时代 第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21001,
+          "chapter_name": "崭新的时代 第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21002,
+          "chapter_name": "崭新的时代 第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21003,
+          "chapter_name": "崭新的时代 终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 21004,
+          "chapter_name": "崭新的时代 后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 21005,
+          "chapter_name": "崭新的时代 插图",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

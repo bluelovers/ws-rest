@@ -12,12 +12,14 @@
   "hot_hits": 57308,
   "introduction": "一本被烧毁的秘密私人笔记，揭橥恶人救世主DIO与乔斯达家横跨百年的因缘纠葛。从悲惨的出身背景及幼年经历，至与义兄弟兼宿敌乔纳森的爱恨情仇，最后再到跟乔斯达家后裔乔瑟夫、空条承太郎的险恶战斗，全自DIO口中娓娓道来。掌握了14句密语、36名罪人的灵魂，与舍弃自己替身的勇气，DIO是否就能寻得他梦寐以求的天堂之路？",
   "types": [
-    "冒险/格斗/奇幻"
+    "冒险",
+    "格斗",
+    "奇幻"
   ],
   "authors": "西尾维新",
   "first_letter": "J",
-  "subscribe_num": 3018,
-  "redis_update_time": 1564311163,
+  "subscribe_num": 3048,
+  "redis_update_time": 1564948417,
   "volume": [
     {
       "id": 5168,
@@ -25,7 +27,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1364784492,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5168,
+      "id": 5168,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 34455,
+          "chapter_name": "序文",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34456,
+          "chapter_name": "01－10",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34457,
+          "chapter_name": "11－20",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34458,
+          "chapter_name": "21－30",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34459,
+          "chapter_name": "31－40",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34460,
+          "chapter_name": "41－50",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34461,
+          "chapter_name": "51－60",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 34462,
+          "chapter_name": "61－70",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 34463,
+          "chapter_name": "71－80",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 34464,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

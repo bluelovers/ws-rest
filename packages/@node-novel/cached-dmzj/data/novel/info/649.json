@@ -3,7 +3,7 @@
   "name": "赤色罗曼史 前日谭",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "Missing Thanatos\r",
+  "last_update_volume_name": "Missing Thanatos",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2413,
   "last_update_chapter_id": 14011,
@@ -16,16 +16,31 @@
   ],
   "authors": "藤原祐",
   "first_letter": "C",
-  "subscribe_num": 116,
-  "redis_update_time": 1564303744,
+  "subscribe_num": 117,
+  "redis_update_time": 1564672384,
   "volume": [
     {
       "id": 2413,
       "lnovel_id": 649,
-      "volume_name": "Missing Thanatos\r",
+      "volume_name": "Missing Thanatos",
       "volume_order": 10,
       "addtime": 1275481526,
-      "sum_chapters": 3
+      "sum_chapters": 35
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2413,
+      "id": 2413,
+      "volume_name": "Missing Thanatos",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14011,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

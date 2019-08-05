@@ -3,7 +3,7 @@
   "name": "死后文",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第4卷\r",
+  "last_update_volume_name": "第4卷",
   "last_update_chapter_name": "第4卷 结束的开始",
   "last_update_volume_id": 1626,
   "last_update_chapter_id": 21544,
@@ -12,44 +12,189 @@
   "hot_hits": 63603,
   "introduction": "一位身着日本旧式邮政工作制服、手持不可思议的手杖的少女，在她黑色的工作包中装满了贴着黑色邮票的信件。那并不是普通的信，而是已经过世了的人写给重要的人的信——死后文。少女与作为同伴的手杖“kanaka”一起往返于冥界与生界，传递着跨越了生死的依恋。",
   "types": [
-    "神鬼/治愈"
+    "神鬼",
+    "治愈"
   ],
   "authors": "雨宫谅",
   "first_letter": "S",
-  "subscribe_num": 2211,
-  "redis_update_time": 1564309253,
+  "subscribe_num": 2226,
+  "redis_update_time": 1565024197,
   "volume": [
     {
       "id": 1623,
       "lnovel_id": 429,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918581,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1624,
       "lnovel_id": 429,
-      "volume_name": "第2卷\r",
+      "volume_name": "第2卷",
       "volume_order": 20,
       "addtime": 1274918581,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1625,
       "lnovel_id": 429,
-      "volume_name": "第3卷\r",
+      "volume_name": "第3卷",
       "volume_order": 30,
       "addtime": 1274918581,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1626,
       "lnovel_id": 429,
-      "volume_name": "第4卷\r",
+      "volume_name": "第4卷",
       "volume_order": 40,
       "addtime": 1274918581,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1623,
+      "id": 1623,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9424,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9425,
+          "chapter_name": "无法飞翔的蝴蝶",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9426,
+          "chapter_name": "缕缕的思念",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9427,
+          "chapter_name": "父亲的目光",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9428,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1624,
+      "id": 1624,
+      "volume_name": "第2卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 9429,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9430,
+          "chapter_name": "成为英雄的瞬间",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9431,
+          "chapter_name": "青空，白猫",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9432,
+          "chapter_name": "丘比特",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9433,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1625,
+      "id": 1625,
+      "volume_name": "第3卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 9434,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9435,
+          "chapter_name": "谎言与北极光",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9436,
+          "chapter_name": "《闪光之物》前篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9437,
+          "chapter_name": "《闪光之物》中篇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9438,
+          "chapter_name": "《闪光之物》后篇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9439,
+          "chapter_name": "Rainy day",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9440,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1626,
+      "id": 1626,
+      "volume_name": "第4卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 9441,
+          "chapter_name": "呼唤我的名字吧",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21544,
+          "chapter_name": "结束的开始",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9443,
+          "chapter_name": "Brother and SiSter",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9444,
+          "chapter_name": "伊始的终结",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9445,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

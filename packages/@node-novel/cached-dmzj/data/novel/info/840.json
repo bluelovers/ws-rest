@@ -16,16 +16,31 @@
   ],
   "authors": "小栗虫太郎",
   "first_letter": "H",
-  "subscribe_num": 929,
-  "redis_update_time": 1564309133,
+  "subscribe_num": 942,
+  "redis_update_time": 1565021847,
   "volume": [
     {
       "id": 2958,
       "lnovel_id": 840,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1277353299,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2958,
+      "id": 2958,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16547,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

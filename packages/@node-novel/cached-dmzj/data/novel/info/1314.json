@@ -12,12 +12,14 @@
   "hot_hits": 39852,
   "introduction": "我的名字是香见园玲旺。\n虽然是个国中三年级的学生，现在却意外变成别人的老师了。\n某天「异界」突然侵蚀这个世界，\n我们人类因而失去所有物资。\n但讽刺的是，人类也因为灾厄的元凶——异界的关系，勉强得以幸存。\n为了解开这个谜团而成立的培育机构，专门聚集特殊能力已经开始萌芽的孩子——那就是我任职的学校。\n但是，为什么学生全部都是女孩呢！？\n我们之间令人心痒痒、小鹿乱撞的共同生活即刻宣告开始！",
   "types": [
-    "爱情/校园/奇幻"
+    "爱情",
+    "校园",
+    "奇幻"
   ],
   "authors": "糸绪思惟",
   "first_letter": "S",
-  "subscribe_num": 454,
-  "redis_update_time": 1564313262,
+  "subscribe_num": 455,
+  "redis_update_time": 1564948060,
   "volume": [
     {
       "id": 4779,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1350268363,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5290,
@@ -33,7 +35,105 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1369219137,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4779,
+      "id": 4779,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 31114,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31115,
+          "chapter_name": "第1章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31116,
+          "chapter_name": "第2章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31117,
+          "chapter_name": "第3章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 31118,
+          "chapter_name": "第4章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 31119,
+          "chapter_name": "第5章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 31120,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 31121,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5290,
+      "id": 5290,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 35571,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35572,
+          "chapter_name": "第1章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35573,
+          "chapter_name": "第2章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35574,
+          "chapter_name": "第3章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35575,
+          "chapter_name": "第4章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35576,
+          "chapter_name": "第5章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35577,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 35578,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "我的世界守护者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "ex\r",
+  "last_update_volume_name": "ex",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1827,
   "last_update_chapter_id": 10848,
@@ -17,7 +17,7 @@
   "authors": "谷川流",
   "first_letter": "W",
   "subscribe_num": 307,
-  "redis_update_time": 1564309855,
+  "redis_update_time": 1565017867,
   "volume": [
     {
       "id": 1825,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918707,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1826,
@@ -33,15 +33,151 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918707,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1827,
       "lnovel_id": 482,
-      "volume_name": "ex\r",
+      "volume_name": "ex",
       "volume_order": 30,
       "addtime": 1274918707,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1825,
+      "id": 1825,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10827,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10828,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10829,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10830,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10831,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10832,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10833,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10834,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10835,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1826,
+      "id": 1826,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 10836,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10837,
+          "chapter_name": "前·终幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10838,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10839,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10840,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10841,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10842,
+          "chapter_name": "终幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10843,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1827,
+      "id": 1827,
+      "volume_name": "ex",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 10844,
+          "chapter_name": "背景介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10845,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10846,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10847,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10848,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

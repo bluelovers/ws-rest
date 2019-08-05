@@ -3,7 +3,7 @@
   "name": "战国BASARA2",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "Cool&The Gang\r",
+  "last_update_volume_name": "Cool&The Gang",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2225,
   "last_update_chapter_id": 13015,
@@ -17,15 +17,30 @@
   "authors": "安曾了",
   "first_letter": "Z",
   "subscribe_num": 86,
-  "redis_update_time": 1563522357,
+  "redis_update_time": 1564920668,
   "volume": [
     {
       "id": 2225,
       "lnovel_id": 593,
-      "volume_name": "Cool&The Gang\r",
+      "volume_name": "Cool&The Gang",
       "volume_order": 10,
       "addtime": 1274918952,
-      "sum_chapters": 41
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2225,
+      "id": 2225,
+      "volume_name": "Cool&The Gang",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13015,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

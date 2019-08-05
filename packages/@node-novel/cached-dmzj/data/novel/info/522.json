@@ -3,7 +3,7 @@
   "name": "夏希☆全力出击",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第2卷 微笑的夏希\r",
+  "last_update_volume_name": "第2卷 微笑的夏希",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1978,
   "last_update_chapter_id": 11668,
@@ -17,23 +17,51 @@
   "authors": "树户英斗",
   "first_letter": "X",
   "subscribe_num": 27,
-  "redis_update_time": 1564303408,
+  "redis_update_time": 1564492233,
   "volume": [
     {
       "id": 1977,
       "lnovel_id": 522,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918805,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 1978,
       "lnovel_id": 522,
-      "volume_name": "第2卷 微笑的夏希\r",
+      "volume_name": "第2卷 微笑的夏希",
       "volume_order": 20,
       "addtime": 1274918805,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1977,
+      "id": 1977,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11667,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1978,
+      "id": 1978,
+      "volume_name": "第2卷 微笑的夏希",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11668,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

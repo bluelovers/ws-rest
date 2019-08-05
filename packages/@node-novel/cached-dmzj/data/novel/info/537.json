@@ -1,9 +1,9 @@
 {
   "id": 537,
-  "name": ".hack／／AI　buster",
+  "name": ".hack／／AI buster",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2031,
   "last_update_chapter_id": 11991,
@@ -17,23 +17,96 @@
   "authors": "滨崎达也",
   "first_letter": "0",
   "subscribe_num": 163,
-  "redis_update_time": 1563814554,
+  "redis_update_time": 1564532918,
   "volume": [
     {
       "id": 2030,
       "lnovel_id": 537,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918837,
-      "sum_chapters": 56
+      "sum_chapters": 16
     },
     {
       "id": 2031,
       "lnovel_id": 537,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918837,
-      "sum_chapters": 56
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2030,
+      "id": 2030,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11981,
+          "chapter_name": "AREA.0 NAVEL OF LAKE",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11982,
+          "chapter_name": "AREA.1 TACIT RUINS",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11983,
+          "chapter_name": "AREA.2 BAD ANGEL",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11984,
+          "chapter_name": "AREA.3 ALCHEMY",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11985,
+          "chapter_name": "AREA.4 MOMERY",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11986,
+          "chapter_name": "AREA.*",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11987,
+          "chapter_name": "REAL CYBERCONNECT JAPAN CO.,LTD",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 11988,
+          "chapter_name": "TOWN 马克阿奴",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 11989,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 11990,
+          "chapter_name": "彩页",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 2031,
+      "id": 2031,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11991,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

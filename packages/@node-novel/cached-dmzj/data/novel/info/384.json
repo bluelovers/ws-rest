@@ -3,7 +3,7 @@
   "name": "尸人狩猎者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1464,
   "last_update_chapter_id": 8455,
@@ -16,24 +16,52 @@
   ],
   "authors": "葛西伸哉",
   "first_letter": "S",
-  "subscribe_num": 90,
-  "redis_update_time": 1564270002,
+  "subscribe_num": 91,
+  "redis_update_time": 1564925822,
   "volume": [
     {
       "id": 1463,
       "lnovel_id": 384,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918490,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1464,
       "lnovel_id": 384,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918490,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1463,
+      "id": 1463,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 8454,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1464,
+      "id": 1464,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 8455,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "叛红猎杀",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第2卷\r",
+  "last_update_volume_name": "第2卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1191,
   "last_update_chapter_id": 6836,
@@ -17,23 +17,51 @@
   "authors": "在原竹广",
   "first_letter": "P",
   "subscribe_num": 53,
-  "redis_update_time": 1564248873,
+  "redis_update_time": 1564461025,
   "volume": [
     {
       "id": 1190,
       "lnovel_id": 323,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918329,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 1191,
       "lnovel_id": 323,
-      "volume_name": "第2卷\r",
+      "volume_name": "第2卷",
       "volume_order": 20,
       "addtime": 1274918329,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1190,
+      "id": 1190,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6835,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1191,
+      "id": 1191,
+      "volume_name": "第2卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 6836,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

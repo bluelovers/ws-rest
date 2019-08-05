@@ -12,12 +12,13 @@
   "hot_hits": 27684,
   "introduction": "“老身是以回忆为食的魔物。”\n悄然伫立于郊外的小镇——灵户路镇。\n在经营着粗点心店、与妹妹的幽灵一起生活的我的面前，出现了一位穿着哥特萝莉装的少女。\n背负着忘却了重要的“什么”的我们与成为了食客、自称是“魔物”的少女的共同生活，即将迎来温柔而残酷的真实。\n七乌未奏为您送上的Heartful Fantasy。",
   "types": [
-    "神鬼/奇幻"
+    "神鬼",
+    "奇幻"
   ],
   "authors": "七鸟未奏",
   "first_letter": "Y",
-  "subscribe_num": 670,
-  "redis_update_time": 1564313076,
+  "subscribe_num": 671,
+  "redis_update_time": 1564939826,
   "volume": [
     {
       "id": 4767,
@@ -25,7 +26,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1349679901,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4767,
+      "id": 4767,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32392,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32393,
+          "chapter_name": "第一章 在某时某地",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32394,
+          "chapter_name": "第二章 魔法的光辉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32395,
+          "chapter_name": "第三章 梦的点滴",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32396,
+          "chapter_name": "第四章 离别的彼端",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32397,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32398,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

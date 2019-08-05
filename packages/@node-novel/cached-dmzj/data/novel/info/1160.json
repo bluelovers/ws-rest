@@ -12,20 +12,21 @@
   "hot_hits": 88511,
   "introduction": "　　深栖仲仁刚进高中不久，就因为父亲工作的关系，突然要搬家暂时一个人生活。没想到才打开新家的门，却发现已经有人住了。她们是名叫佐惠、澄实、里空的三姊妹。在双方都没有其它地方可去的情况下，少女们提议的解决办法是──要不要一起住？更不可思议的是，这一连串发展，竟然跟仲仁之前偶然登入的社群网站日记一模一样……？\n　　主夫？人父？可是我才高一好吗！与三姊妹开始新感觉同居生活，恋爱喜剧风温馨家庭剧，Let’splay！",
   "types": [
-    "爱情/治愈"
+    "爱情",
+    "治愈"
   ],
   "authors": "筑地俊彦",
   "first_letter": "J",
-  "subscribe_num": 647,
-  "redis_update_time": 1564253664,
+  "subscribe_num": 648,
+  "redis_update_time": 1564949361,
   "volume": [
     {
       "id": 4129,
       "lnovel_id": 1160,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1323827138,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5372,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1373254482,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5373,
@@ -41,7 +42,123 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1373353411,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4129,
+      "id": 4129,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 25568,
+          "chapter_name": "简易剧本与事前准备",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25569,
+          "chapter_name": "第一章 于是就如同SNS",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25570,
+          "chapter_name": "第二章 独创性与午餐",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25571,
+          "chapter_name": "第三章 无言之行",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25572,
+          "chapter_name": "第四章 何谓图书馆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25573,
+          "chapter_name": "第五章 宾开头的词",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25574,
+          "chapter_name": "闭幕与下期预告",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25575,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5372,
+      "id": 5372,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 36272,
+          "chapter_name": "第一幕 被接受或拒绝",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36273,
+          "chapter_name": "第二幕 并非突然造访",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36274,
+          "chapter_name": "第三幕 阴谋论",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36275,
+          "chapter_name": "第四幕 去就是了",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36276,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 5373,
+      "id": 5373,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 36282,
+          "chapter_name": "第一幕 伪装成游戏的灾难",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36283,
+          "chapter_name": "第二幕 佳也子来袭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36284,
+          "chapter_name": "第三幕 学较与騒动的叙事曲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36285,
+          "chapter_name": "第四幕 任谁都不会孤单一人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36286,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

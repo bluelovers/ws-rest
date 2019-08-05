@@ -12,20 +12,23 @@
   "hot_hits": 132242,
   "introduction": "我的名字是佐佐木与四郎。是一个一点也不奇怪的高中生……抱歉，说一点也不奇怪是骗人的。其实我能使用超能力。每天每夜，我都同伙伴一起使用着超能力与邪恶组织展开战斗……仍然是骗人的。虽然能使用超能力但却什么也做不好，并不感到快乐……虽然总这么想，可是……\n“我叫木元二叶。将和佐佐木与四郎在三年后结婚。”却有一个在高中入学日时做出了这种炸弹般发言的家伙来到了我身边！从那之后可爱的女孩子一个一个地向我求婚——到底时怎么一回事啊！？",
   "types": [
-    "爱情/校园/搞笑/异能"
+    "爱情",
+    "校园",
+    "搞笑",
+    "异能"
   ],
   "authors": "樋口司",
   "first_letter": "X",
-  "subscribe_num": 1060,
-  "redis_update_time": 1564285974,
+  "subscribe_num": 1069,
+  "redis_update_time": 1565020288,
   "volume": [
     {
       "id": 1966,
       "lnovel_id": 520,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918797,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2573,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1275544319,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3449,
@@ -41,7 +44,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1297393653,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3779,
@@ -49,7 +52,166 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1310615355,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1966,
+      "id": 1966,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11584,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2573,
+      "id": 2573,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14569,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14571,
+          "chapter_name": "第一章 这不是故意的",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14572,
+          "chapter_name": "第二章 绝对不是约会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17254,
+          "chapter_name": "第三章 一点也不坦率",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17614,
+          "chapter_name": "第四章 肯定不是做梦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17615,
+          "chapter_name": "终章 绝对不普通",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19951,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19952,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3449,
+      "id": 3449,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 22231,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22232,
+          "chapter_name": "第一章 十一月二日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22233,
+          "chapter_name": "第二章 六月九日",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22234,
+          "chapter_name": "第三章 ？月？日",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22235,
+          "chapter_name": "第四章 十一月一日",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22236,
+          "chapter_name": "终章 十一月三日",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22237,
+          "chapter_name": "终曲",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22238,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3779,
+      "id": 3779,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 22506,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22507,
+          "chapter_name": "第一章 梦",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22508,
+          "chapter_name": "第二章 恋",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22509,
+          "chapter_name": "第三章 变",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22581,
+          "chapter_name": "第四章 乱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22582,
+          "chapter_name": "终章 嘘",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22583,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22584,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

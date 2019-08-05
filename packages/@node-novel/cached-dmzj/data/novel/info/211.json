@@ -3,7 +3,7 @@
   "name": "疾走!青春期的帕拉贝伦",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 灰色领域的少女\r",
+  "last_update_volume_name": "第二卷 灰色领域的少女",
   "last_update_chapter_name": "终章",
   "last_update_volume_id": 771,
   "last_update_chapter_id": 4417,
@@ -16,24 +16,122 @@
   ],
   "authors": "深见真",
   "first_letter": "J",
-  "subscribe_num": 313,
-  "redis_update_time": 1564288232,
+  "subscribe_num": 314,
+  "redis_update_time": 1565003348,
   "volume": [
     {
       "id": 770,
       "lnovel_id": 211,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918099,
-      "sum_chapters": 3
+      "sum_chapters": 1
     },
     {
       "id": 771,
       "lnovel_id": 211,
-      "volume_name": "第二卷 灰色领域的少女\r",
+      "volume_name": "第二卷 灰色领域的少女",
       "volume_order": 20,
       "addtime": 1274918099,
-      "sum_chapters": 3
+      "sum_chapters": 1
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 770,
+      "id": 770,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4402,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 771,
+      "id": 771,
+      "volume_name": "第二卷 灰色领域的少女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 4403,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4404,
+          "chapter_name": "第一章 早晨的舞动",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4405,
+          "chapter_name": "第二章 少女与DVD与红豆面包与牛奶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4406,
+          "chapter_name": "第三章 北条教授和他危险的手下们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4407,
+          "chapter_name": "第四章 engage——交战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4408,
+          "chapter_name": "第五章 志甫虽然是个笨蛋",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4409,
+          "chapter_name": "第六章 追击与被追击",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4410,
+          "chapter_name": "第七章 直到夏天结束",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4411,
+          "chapter_name": "第八章 凌辱的周末",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 4412,
+          "chapter_name": "美好的日子",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 4413,
+          "chapter_name": "城户高中邀击战",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 4414,
+          "chapter_name": "精神格斗的八角形擂台",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 4415,
+          "chapter_name": "灰色领域",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 4416,
+          "chapter_name": "我是秀莲",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 4417,
+          "chapter_name": "终章",
+          "chapter_order": 150
+        }
+      ]
     }
   ]
 }

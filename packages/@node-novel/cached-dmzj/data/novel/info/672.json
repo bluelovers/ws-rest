@@ -3,7 +3,7 @@
   "name": "反抗者的系谱",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 逆袭的魔王\r",
+  "last_update_volume_name": "第一卷 逆袭的魔王",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2445,
   "last_update_chapter_id": 14226,
@@ -16,16 +16,31 @@
   ],
   "authors": "三浦良",
   "first_letter": "F",
-  "subscribe_num": 80,
-  "redis_update_time": 1564265320,
+  "subscribe_num": 81,
+  "redis_update_time": 1564911803,
   "volume": [
     {
       "id": 2445,
       "lnovel_id": 672,
-      "volume_name": "第一卷 逆袭的魔王\r",
+      "volume_name": "第一卷 逆袭的魔王",
       "volume_order": 10,
       "addtime": 1275481531,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2445,
+      "id": 2445,
+      "volume_name": "第一卷 逆袭的魔王",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14226,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "卒业",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2275,
   "last_update_chapter_id": 13247,
@@ -17,23 +17,51 @@
   "authors": "渡边麻实",
   "first_letter": "Z",
   "subscribe_num": 48,
-  "redis_update_time": 1564185936,
+  "redis_update_time": 1565005086,
   "volume": [
     {
       "id": 2274,
       "lnovel_id": 608,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918981,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2275,
       "lnovel_id": 608,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918981,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2274,
+      "id": 2274,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13246,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2275,
+      "id": 2275,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13247,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 1537240,
   "introduction": "曾经，在名为冬木的城市，七组魔术师与英灵展开了圣杯战争。但是，趁着第二次世界大战的混乱，某一个魔术师将圣杯强行夺走了。\n又经过了数十年，象征圣杯的尤格多米雷尼亚一族脱离了魔术协会，宣言自己组织的独立。尽管愤怒的魔术协会派出了刺客，但却被对方召唤出的SERVANT全部解决掉了。\n能够对抗SERVANT的只有SERVANT。圣杯战争的系统被变更，七对七的空前绝后大规模战争——圣杯大战爆发。\n另一方面，作为圣杯大战审判的第十五位SERVANT——贞德·达尔克被召唤了出来。尽管她对于自己被召唤出来的事情抱有一些疑问，但还是奔赴了作为舞台的城市——托利法斯。\n与《FATESTAYNIGHT》《FATEZERO》都有所不同的崭新世界。外典：圣杯战争，正式开幕!",
   "types": [
-    "魔法/格斗/冒险"
+    "魔法",
+    "格斗",
+    "冒险"
   ],
   "authors": "东出佑一郎",
   "first_letter": "F",
-  "subscribe_num": 49856,
-  "redis_update_time": 1564313340,
+  "subscribe_num": 49977,
+  "redis_update_time": 1564962800,
   "volume": [
     {
       "id": 5103,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1362378146,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5660,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 黑之轮舞／红之祭典",
       "volume_order": 20,
       "addtime": 1385725206,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6284,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1408706485,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6334,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1410693260,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6813,
@@ -57,7 +59,189 @@
       "volume_name": "第五卷 邪龙与圣女",
       "volume_order": 50,
       "addtime": 1428917287,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5103,
+      "id": 5103,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 33934,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33935,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33936,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33937,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33938,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 5660,
+      "id": 5660,
+      "volume_name": "第二卷 黑之轮舞／红之祭典",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 38647,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38648,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38649,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38650,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38651,
+          "chapter_name": "解说",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 6284,
+      "id": 6284,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 44326,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44327,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44328,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44329,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44330,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44331,
+          "chapter_name": "解说",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6334,
+      "id": 6334,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 44731,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44732,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44733,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44734,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44735,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44736,
+          "chapter_name": "解说",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6813,
+      "id": 6813,
+      "volume_name": "第五卷 邪龙与圣女",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 49290,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49291,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49292,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49293,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49294,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49295,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

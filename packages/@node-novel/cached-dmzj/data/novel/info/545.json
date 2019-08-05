@@ -3,7 +3,7 @@
   "name": "月之少女",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2048,
   "last_update_chapter_id": 12014,
@@ -17,23 +17,51 @@
   "authors": "渡边まさき",
   "first_letter": "Y",
   "subscribe_num": 49,
-  "redis_update_time": 1564297223,
+  "redis_update_time": 1564632119,
   "volume": [
     {
       "id": 2047,
       "lnovel_id": 545,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918847,
-      "sum_chapters": 3
+      "sum_chapters": 6
     },
     {
       "id": 2048,
       "lnovel_id": 545,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918847,
-      "sum_chapters": 3
+      "sum_chapters": 6
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2047,
+      "id": 2047,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12013,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2048,
+      "id": 2048,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12014,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "变装大作战",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3355,
   "last_update_chapter_id": 19245,
@@ -16,16 +16,96 @@
   ],
   "authors": "将吉",
   "first_letter": "B",
-  "subscribe_num": 69,
-  "redis_update_time": 1564308437,
+  "subscribe_num": 71,
+  "redis_update_time": 1565003763,
   "volume": [
     {
       "id": 3355,
       "lnovel_id": 947,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1293168435,
       "sum_chapters": 9
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3355,
+      "id": 3355,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19232,
+          "chapter_name": "序章（伪）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19233,
+          "chapter_name": "序章（真）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19234,
+          "chapter_name": "1、les Belles de Ricci和ESCADA的淡香水。因为是少女嘛。唔呼呼。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19235,
+          "chapter_name": "2、推理小说很讨人厌。因为很有逻辑性。",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19236,
+          "chapter_name": "3、把『No Return』看成『No Tarine』，其实也没什么大不了。",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19237,
+          "chapter_name": "4、比起获得芥川奖，仰卧起坐时举起200公斤恐怕还比较厉害。",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19238,
+          "chapter_name": "5、小学的毕业作文。将来的梦想是「攻占国会议事堂」。",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19239,
+          "chapter_name": "6、棒球从第九局，两人出局开始。千万不要大意。",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 19240,
+          "chapter_name": "7、解决编（假的）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 19241,
+          "chapter_name": "8、二十一时开演。Voodoo的夜晚。黑色及绿色的世界",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 19242,
+          "chapter_name": "9、想成为假面骑士的战斗员。",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 19243,
+          "chapter_name": "终章（伪）",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 19244,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 19245,
+          "chapter_name": "插图",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

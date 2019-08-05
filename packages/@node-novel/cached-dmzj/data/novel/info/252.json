@@ -3,7 +3,7 @@
   "name": "龙背上的骑兵",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 928,
   "last_update_chapter_id": 5338,
@@ -16,16 +16,31 @@
   ],
   "authors": "映岛巡",
   "first_letter": "L",
-  "subscribe_num": 632,
-  "redis_update_time": 1564307285,
+  "subscribe_num": 637,
+  "redis_update_time": 1565014365,
   "volume": [
     {
       "id": 928,
       "lnovel_id": 252,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918186,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 928,
+      "id": 928,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5338,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 234439,
   "introduction": "由“最后的魔女”掀起的技术革命“科学”给“魔法”的世界带来了新的秩序。一边是自己的青梅竹马，且是推进了科学时代的贵族千金----玛丽娅（Maria），另一边是偶然邂逅的魔法时代象征“幻想种”少女----露娜莉亚（Lunaria），持有科学与魔法两种力量的少年莱尔，徘徊于两个少女之间。2个少女，代表着2个时代。拥有改变世界力量的少年最终将会做出怎样的选择！？",
   "types": [
-    "魔法/爱情/冒险"
+    "魔法",
+    "爱情",
+    "冒险"
   ],
   "authors": "翅田大介",
   "first_letter": "Y",
-  "subscribe_num": 2628,
-  "redis_update_time": 1564310005,
+  "subscribe_num": 2638,
+  "redis_update_time": 1564961586,
   "volume": [
     {
       "id": 4950,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1356675448,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5325,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1371095947,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6322,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1410007579,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6827,
@@ -49,7 +51,201 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1429803317,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4950,
+      "id": 4950,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32647,
+          "chapter_name": "序章 最后的魔女",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32648,
+          "chapter_name": "一章 最后魔女的弟子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32649,
+          "chapter_name": "二章 月花之姬",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32650,
+          "chapter_name": "三章 赤铜千金",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32651,
+          "chapter_name": "四章 最后魔女的遗产",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32652,
+          "chapter_name": "终章 少年与少女们",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32653,
+          "chapter_name": "独白鸟的独白",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5325,
+      "id": 5325,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 35933,
+          "chapter_name": "序章 岩之城的公主",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41115,
+          "chapter_name": "一章 三人三事",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41116,
+          "chapter_name": "二章 独眼的小公主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41322,
+          "chapter_name": "三章 女巫弟子的忧郁",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41382,
+          "chapter_name": "四章 狼牙的袭击",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41383,
+          "chapter_name": "五章 女巫的锅子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41384,
+          "chapter_name": "终章 金银妖眼的王女",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41385,
+          "chapter_name": "断章 虚无的叹息",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 41386,
+          "chapter_name": "独白鸟的独白",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6322,
+      "id": 6322,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 44627,
+          "chapter_name": "序章 师徒问答",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44628,
+          "chapter_name": "一章 赫克森堡的假期",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44629,
+          "chapter_name": "二章 妖精的恶作剧",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 44674,
+          "chapter_name": "三章 列车中的偶发事件",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44675,
+          "chapter_name": "四章 铁蔷薇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44676,
+          "chapter_name": "五章 魔王之庭",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 44677,
+          "chapter_name": "终章 夏天的尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44678,
+          "chapter_name": "断章 告白",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 44679,
+          "chapter_name": "独白鸟的独白",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6827,
+      "id": 6827,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 49405,
+          "chapter_name": "序章 歌姬与舞姬",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49406,
+          "chapter_name": "一章 聪明的愚人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49407,
+          "chapter_name": "二章 急转直下",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49408,
+          "chapter_name": "三章 《黑森林》",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49409,
+          "chapter_name": "终章 每个人的接下来之后",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49410,
+          "chapter_name": "断章 另一篇的序章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49411,
+          "chapter_name": "独白鸟的独白",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

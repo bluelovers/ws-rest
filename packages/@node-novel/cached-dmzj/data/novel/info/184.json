@@ -3,7 +3,7 @@
   "name": "红蔷薇新娘",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 满杯的血腥\r",
+  "last_update_volume_name": "第三卷 满杯的血腥",
   "last_update_chapter_name": "道别",
   "last_update_volume_id": 667,
   "last_update_chapter_id": 3841,
@@ -17,31 +17,132 @@
   "authors": "田中芳树",
   "first_letter": "H",
   "subscribe_num": 242,
-  "redis_update_time": 1564228790,
+  "redis_update_time": 1564994801,
   "volume": [
     {
       "id": 665,
       "lnovel_id": 184,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918043,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 666,
       "lnovel_id": 184,
-      "volume_name": "第二卷 星夜之舞\r",
+      "volume_name": "第二卷 星夜之舞",
       "volume_order": 20,
       "addtime": 1274918043,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 667,
       "lnovel_id": 184,
-      "volume_name": "第三卷 满杯的血腥\r",
+      "volume_name": "第三卷 满杯的血腥",
       "volume_order": 30,
       "addtime": 1274918043,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 665,
+      "id": 665,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3827,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3828,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3829,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3830,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3831,
+          "chapter_name": "第5章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3832,
+          "chapter_name": "第6章",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 666,
+      "id": 666,
+      "volume_name": "第二卷 星夜之舞",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3833,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3834,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3835,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 667,
+      "id": 667,
+      "volume_name": "第三卷 满杯的血腥",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3836,
+          "chapter_name": "吸血鬼会梦见吸血羊吗？",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3837,
+          "chapter_name": "心灵的日蚀",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3838,
+          "chapter_name": "冬夜的嘲笑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3839,
+          "chapter_name": "黎明前的等待",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3840,
+          "chapter_name": "吸血鬼克星",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3841,
+          "chapter_name": "道别",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -12,28 +12,29 @@
   "hot_hits": 276252,
   "introduction": "　看起来只是个普通高中生的主角·乃出狗斗，却拥有一种特别的能力——他是个「不死身」。不管是踹他、揍他、刺杀他，他都死不了。而身为杀人魔的美少女·桐崎恭子却爱上了这个不死的男人。理由是：「不管我怎么刺他，他都死不了呀」由鬼才为您献上迥然不同的黑色爱情喜剧，现在开幕",
   "types": [
-    "爱情/校园"
+    "爱情",
+    "校园"
   ],
   "authors": "空野一树",
   "first_letter": "L",
-  "subscribe_num": 1525,
-  "redis_update_time": 1564314108,
+  "subscribe_num": 1527,
+  "redis_update_time": 1565031372,
   "volume": [
     {
       "id": 941,
       "lnovel_id": 256,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918194,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 942,
       "lnovel_id": 256,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918194,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 943,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918194,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 944,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918194,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5341,
@@ -57,7 +58,119 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1371699121,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 941,
+      "id": 941,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5424,
+          "chapter_name": "第一章 不死男与杀人魔",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5425,
+          "chapter_name": "第二章 不死男与撕裂女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5426,
+          "chapter_name": "不死男与随机杀人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5427,
+          "chapter_name": "不死男与绝望的序曲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5428,
+          "chapter_name": "不死男与孤独的刀",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5429,
+          "chapter_name": "不死男与仿造的疯狂",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 5430,
+          "chapter_name": "最终章 恋上不死之男的少女",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 5431,
+          "chapter_name": "追记 未完的故事",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 5432,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 5433,
+          "chapter_name": "插画和彩页",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 942,
+      "id": 942,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 5434,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 943,
+      "id": 943,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 5435,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 944,
+      "id": 944,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 5436,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 5341,
+      "id": 5341,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 36032,
+          "chapter_name": "第一章 不死男与天空之旅",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

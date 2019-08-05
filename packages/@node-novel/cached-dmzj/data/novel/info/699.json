@@ -3,7 +3,7 @@
   "name": "关于莉莉周的一切",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第六章 不能飞翔的羽翼",
   "last_update_volume_id": 2485,
   "last_update_chapter_id": 14281,
@@ -16,16 +16,56 @@
   ],
   "authors": "岩井俊二",
   "first_letter": "G",
-  "subscribe_num": 292,
-  "redis_update_time": 1564313393,
+  "subscribe_num": 299,
+  "redis_update_time": 1565022391,
   "volume": [
     {
       "id": 2485,
       "lnovel_id": 699,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481534,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2485,
+      "id": 2485,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14276,
+          "chapter_name": "第一章 滑翔",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14277,
+          "chapter_name": "第二章 饱和",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14278,
+          "chapter_name": "第三章 飞行船",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14279,
+          "chapter_name": "第四章 爱情实验",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14280,
+          "chapter_name": "第五章 舞蹈的鱼",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14281,
+          "chapter_name": "第六章 不能飞翔的羽翼",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "赤朽叶家的传说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 178,
   "last_update_chapter_id": 1090,
@@ -16,16 +16,31 @@
   ],
   "authors": "樱庭一树",
   "first_letter": "C",
-  "subscribe_num": 799,
-  "redis_update_time": 1564240454,
+  "subscribe_num": 801,
+  "redis_update_time": 1565023024,
   "volume": [
     {
       "id": 178,
       "lnovel_id": 48,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917785,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 178,
+      "id": 178,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 1090,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

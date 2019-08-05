@@ -3,7 +3,7 @@
   "name": "暗之守护者",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "终章 黑暗的远方",
   "last_update_volume_id": 3220,
   "last_update_chapter_id": 18203,
@@ -16,16 +16,56 @@
   ],
   "authors": "上桥菜穗子",
   "first_letter": "A",
-  "subscribe_num": 151,
-  "redis_update_time": 1564236330,
+  "subscribe_num": 152,
+  "redis_update_time": 1564925425,
   "volume": [
     {
       "id": 3220,
       "lnovel_id": 916,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1287131618,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3220,
+      "id": 3220,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 18198,
+          "chapter_name": "序章 往黑暗之中前进",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18199,
+          "chapter_name": "第一章 睡在黑暗深处之物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18200,
+          "chapter_name": "第二章 开始蠢动的黑暗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18201,
+          "chapter_name": "第三章 “山之王”的居民",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18202,
+          "chapter_name": "第四章 “禄意霞的馈赠仪式”",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18203,
+          "chapter_name": "终章 黑暗的远方",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

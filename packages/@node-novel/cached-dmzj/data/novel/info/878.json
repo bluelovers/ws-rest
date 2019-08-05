@@ -10,22 +10,23 @@
   "last_update_time": 1337327397,
   "cover": "https://xs.dmzj.com/img/webpic/19/ydhgwalker.jpg",
   "hot_hits": 23300,
-  "introduction": "　　一堆怪人就读的私立御伽坂学园自然会发生一堆怪事。为了捍卫这所学园的和平，有个男人每天奋战不懈地奔走着──他就是山崎章夫。有时追查失踪的天才音乐家的去向、有时挑战密室杀人之谜、有时揭露突然变成美女的同学的秘密，然后一次又一次地「丧命」。没错，这一切都是『他们』的阴谋！章夫的青梅竹马‧安几良为了设法改变章夫的「收场」，与学园三奇人共同迎战『他们』──〈扭转命运系〉古怪校园奇幻故事，要是吐槽就输了！\n\n",
+  "introduction": "　　一堆怪人就读的私立御伽坂学园自然会发生一堆怪事。为了捍卫这所学园的和平，有个男人每天奋战不懈地奔走着──他就是山崎章夫。有时追查失踪的天才音乐家的去向、有时挑战密室杀人之谜、有时揭露突然变成美女的同学的秘密，然后一次又一次地「丧命」。没错，这一切都是『他们』的阴谋！章夫的青梅竹马‧安几良为了设法改变章夫的「收场」，与学园三奇人共同迎战『他们』──〈扭转命运系〉古怪校园奇幻故事，要是吐槽就输了！",
   "types": [
-    "校园/奇幻"
+    "校园",
+    "奇幻"
   ],
   "authors": "森田季节",
   "first_letter": "Y",
-  "subscribe_num": 216,
-  "redis_update_time": 1564237961,
+  "subscribe_num": 217,
+  "redis_update_time": 1564899083,
   "volume": [
     {
       "id": 3112,
       "lnovel_id": 878,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1282720489,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 4473,
@@ -33,7 +34,90 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1337327380,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3112,
+      "id": 3112,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17458,
+          "chapter_name": "《问》死了会怎样？",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17459,
+          "chapter_name": "之一˙第1回˙天上音乐事件",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17460,
+          "chapter_name": "之二˙第2回˙豪练馆杀人事件",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17461,
+          "chapter_name": "之三˙第9回·本尊消灭事件",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17462,
+          "chapter_name": "之四˙第10回˙原点回归诱拐事件",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17463,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17464,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 17465,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4473,
+      "id": 4473,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 28455,
+          "chapter_name": "第一话 天之下芝兰啊，描写爱吧。",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28456,
+          "chapter_name": "第二话 渡会龙太朗要咒杀。",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28457,
+          "chapter_name": "第三话 久我原夷隅不会私刑伺候。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28458,
+          "chapter_name": "第四话 足利安几良嫉妒了。",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28459,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

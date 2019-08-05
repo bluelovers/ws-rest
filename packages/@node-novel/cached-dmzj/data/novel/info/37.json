@@ -3,7 +3,7 @@
   "name": "BLEACH官方小说-《糯米年糕豆粥》",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "《糯米年糕豆粥》\r",
+  "last_update_volume_name": "《糯米年糕豆粥》",
   "last_update_chapter_name": "第七章",
   "last_update_volume_id": 135,
   "last_update_chapter_id": 919,
@@ -16,16 +16,61 @@
   ],
   "authors": "久保带人",
   "first_letter": "B",
-  "subscribe_num": 147,
-  "redis_update_time": 1564293669,
+  "subscribe_num": 151,
+  "redis_update_time": 1565033436,
   "volume": [
     {
       "id": 135,
       "lnovel_id": 37,
-      "volume_name": "《糯米年糕豆粥》\r",
+      "volume_name": "《糯米年糕豆粥》",
       "volume_order": 10,
       "addtime": 1274917764,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 135,
+      "id": 135,
+      "volume_name": "《糯米年糕豆粥》",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 913,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 914,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 915,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 916,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 917,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 918,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 919,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

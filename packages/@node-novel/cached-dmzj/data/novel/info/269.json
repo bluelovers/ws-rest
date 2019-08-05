@@ -3,7 +3,7 @@
   "name": "莉莉亚与特雷兹",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第六卷 我的王子殿下(下)\r",
+  "last_update_volume_name": "第六卷 我的王子殿下(下)",
   "last_update_chapter_name": "臭屁小鬼 于是迈向传说",
   "last_update_volume_id": 990,
   "last_update_chapter_id": 5698,
@@ -16,56 +16,326 @@
   ],
   "authors": "时雨泽惠一",
   "first_letter": "L",
-  "subscribe_num": 909,
-  "redis_update_time": 1564288360,
+  "subscribe_num": 910,
+  "redis_update_time": 1564928406,
   "volume": [
     {
       "id": 985,
       "lnovel_id": 269,
-      "volume_name": "第一卷 于是两人踏上旅途(上)\r",
+      "volume_name": "第一卷 于是两人踏上旅途(上)",
       "volume_order": 10,
       "addtime": 1274918216,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 986,
       "lnovel_id": 269,
-      "volume_name": "第二卷 于是两人踏上旅途(下)\r",
+      "volume_name": "第二卷 于是两人踏上旅途(下)",
       "volume_order": 20,
       "addtime": 1274918216,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 987,
       "lnovel_id": 269,
-      "volume_name": "第三卷 伊库司托法最长的一日(上)\r",
+      "volume_name": "第三卷 伊库司托法最长的一日(上)",
       "volume_order": 30,
       "addtime": 1274918216,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 988,
       "lnovel_id": 269,
-      "volume_name": "第四卷 伊库司托法最长的一日(下)\r",
+      "volume_name": "第四卷 伊库司托法最长的一日(下)",
       "volume_order": 40,
       "addtime": 1274918216,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 989,
       "lnovel_id": 269,
-      "volume_name": "第五卷 我的王子殿下(上)\r",
+      "volume_name": "第五卷 我的王子殿下(上)",
       "volume_order": 50,
       "addtime": 1274918216,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 990,
       "lnovel_id": 269,
-      "volume_name": "第六卷 我的王子殿下(下)\r",
+      "volume_name": "第六卷 我的王子殿下(下)",
       "volume_order": 60,
       "addtime": 1274918216,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 985,
+      "id": 985,
+      "volume_name": "第一卷 于是两人踏上旅途(上)",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5655,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5656,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5657,
+          "chapter_name": "第一章 于是两人踏上旅途",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5658,
+          "chapter_name": "第二章 观光与现实",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5659,
+          "chapter_name": "第三章 游览飞行与战斗机",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5660,
+          "chapter_name": "第四章 引导",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 5661,
+          "chapter_name": "第五章 重逢",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 5662,
+          "chapter_name": "后记 臭屁小鬼",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 986,
+      "id": 986,
+      "volume_name": "第二卷 于是两人踏上旅途(下)",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 5663,
+          "chapter_name": "第六章 死亡之翼",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5664,
+          "chapter_name": "第七章 大义之翼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5665,
+          "chapter_name": "第八章 办不到",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5666,
+          "chapter_name": "第九章 两人的旅途",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5667,
+          "chapter_name": "外传 遗书",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5668,
+          "chapter_name": "后记 续·臭屁小鬼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 5669,
+          "chapter_name": "外传 梅格与莉莉亚",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 987,
+      "id": 987,
+      "volume_name": "第三卷 伊库司托法最长的一日(上)",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 5670,
+          "chapter_name": "第一章 那天前的种种",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5671,
+          "chapter_name": "第二章 风云际会伊库司托法",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5672,
+          "chapter_name": "第三章 庆典之火",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5673,
+          "chapter_name": "第四章 反击",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5674,
+          "chapter_name": "后记 臭屁小鬼-再度亮相",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5675,
+          "chapter_name": "外传 骑士的背影",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 988,
+      "id": 988,
+      "volume_name": "第四卷 伊库司托法最长的一日(下)",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 5676,
+          "chapter_name": "第五章 伊库司托法的秘宝",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5677,
+          "chapter_name": "第六章 炸弹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5678,
+          "chapter_name": "第七章 伊库司托法的秘密",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5679,
+          "chapter_name": "第八章 特拉伐斯少校的奋斗",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5680,
+          "chapter_name": "第九章 特雷兹的奋战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5681,
+          "chapter_name": "第十章 无价之宝",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 5682,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 5683,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 5684,
+          "chapter_name": "外传 梅莉儿与特雷兹",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 989,
+      "id": 989,
+      "volume_name": "第五卷 我的王子殿下(上)",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 5685,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5686,
+          "chapter_name": "第一章 在那一天之前",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5687,
+          "chapter_name": "第二章 春假开始了",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5688,
+          "chapter_name": "第三章 于是，两人相遇了",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5689,
+          "chapter_name": "第四章 希尔妲＆莉莉亚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5690,
+          "chapter_name": "第五章 杀人的理由",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 5691,
+          "chapter_name": "卡尔洛的华丽大冒险 序曲",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 990,
+      "id": 990,
+      "volume_name": "第六卷 我的王子殿下(下)",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 5692,
+          "chapter_name": "第六章 我们不是杀戮者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5693,
+          "chapter_name": "第七章 犯人谨献至爱",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5694,
+          "chapter_name": "第八章 铁道追迹",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5695,
+          "chapter_name": "第九章 我的王子殿下",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5696,
+          "chapter_name": "第十章 莉莉亚&特雷兹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5697,
+          "chapter_name": "王子观察记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 5698,
+          "chapter_name": "臭屁小鬼 于是迈向传说",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

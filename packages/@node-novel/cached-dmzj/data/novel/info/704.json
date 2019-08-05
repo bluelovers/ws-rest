@@ -12,20 +12,22 @@
   "hot_hits": 61882,
   "introduction": "「今天开始我就是你的狗，以后请多多关照，你这个混球」\n眼前的美少女摆着一张生气的脸向我宣言。 那天，由于笨手笨脚而轻易死掉的高中生·一条天马，被学校的后辈校园偶像的藤宫富十贵子救活了。\n作为魔法使的十贵子，因为用魔法救回了天马的性命，于是两人似乎变成了「无法分离」的关系。\n完全无视对整个事态无法理解的天马同学，爱情指数为0的奇妙同居生活就这样拉开帷幕·...\n无精打采的少年 和 以<世界第一的魔法使>为目标的不坦率的困难少女之间 生动的恶汉爱情喜剧---开幕！",
   "types": [
-    "爱情/校园/魔法"
+    "爱情",
+    "校园",
+    "魔法"
   ],
   "authors": "鈴木大輔",
   "first_letter": "G",
-  "subscribe_num": 355,
-  "redis_update_time": 1564300105,
+  "subscribe_num": 358,
+  "redis_update_time": 1564918336,
   "volume": [
     {
       "id": 2491,
       "lnovel_id": 704,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481535,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 2720,
@@ -33,7 +35,70 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1276306988,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2491,
+      "id": 2491,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14293,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14294,
+          "chapter_name": "第一章 藤宮十貴子无能为力",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14295,
+          "chapter_name": "第二章 藤宮十貴子不让步",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14296,
+          "chapter_name": "第三章 藤宮十貴子不气馁。",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14297,
+          "chapter_name": "第四章 一条天马就在此地",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2720,
+      "id": 2720,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 15208,
+          "chapter_name": "ACT1 难以琢磨的藤宫十贵子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17420,
+          "chapter_name": "ACT2 藤宫十贵子的心情无法理解",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23981,
+          "chapter_name": "ACT3 一条天马看到了梦",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23982,
+          "chapter_name": "ACT4 天马和十贵子看到了梦想？",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

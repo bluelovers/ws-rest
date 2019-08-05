@@ -3,7 +3,7 @@
   "name": "Summer Days(日在夏天)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷(全年龄版)\r",
+  "last_update_volume_name": "第一卷(全年龄版)",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2704,
   "last_update_chapter_id": 15130,
@@ -16,16 +16,56 @@
   ],
   "authors": "冈田留奈",
   "first_letter": "S",
-  "subscribe_num": 529,
-  "redis_update_time": 1564311628,
+  "subscribe_num": 533,
+  "redis_update_time": 1565028660,
   "volume": [
     {
       "id": 2704,
       "lnovel_id": 794,
-      "volume_name": "第一卷(全年龄版)\r",
+      "volume_name": "第一卷(全年龄版)",
       "volume_order": 10,
       "addtime": 1276220581,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2704,
+      "id": 2704,
+      "volume_name": "第一卷(全年龄版)",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 15125,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15126,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15127,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15128,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15129,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15130,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -12,20 +12,21 @@
   "hot_hits": 17116,
   "introduction": "与很多进出银河的外星人邂逅的地球，为了帮助文明落后的宇宙航行种族设立了“外文明支援省”，并派出了“外文明观察官”来秘密协助他们。但是，年少的观察官.辻本司与三名美少女机器人意外发现且接触了“斯瓦利斯”，并I接触失败。不久后全银河都被卷入了动乱当中……",
   "types": [
-    "科幻/冒险"
+    "科幻",
+    "冒险"
   ],
   "authors": "小川一水",
   "first_letter": "Z",
-  "subscribe_num": 620,
-  "redis_update_time": 1563770703,
+  "subscribe_num": 621,
+  "redis_update_time": 1564969991,
   "volume": [
     {
       "id": 3688,
       "lnovel_id": 1042,
-      "volume_name": "第一卷 苏醒的大地\r",
+      "volume_name": "第一卷 苏醒的大地",
       "volume_order": 10,
       "addtime": 1307065348,
-      "sum_chapters": 14
+      "sum_chapters": 10
     },
     {
       "id": 4955,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 纷争的地平线",
       "volume_order": 20,
       "addtime": 1356920036,
-      "sum_chapters": 14
+      "sum_chapters": 10
     },
     {
       "id": 8075,
@@ -41,7 +42,98 @@
       "volume_name": "第三卷 灾祸的天空",
       "volume_order": 30,
       "addtime": 1472113912,
-      "sum_chapters": 14
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3688,
+      "id": 3688,
+      "volume_name": "第一卷 苏醒的大地",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 21703,
+          "chapter_name": "人物简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21704,
+          "chapter_name": "第一章 炎之黎明 狩猎采集时代 SOE582年",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21705,
+          "chapter_name": "第二章 苍之牙 金属器繁盛时代",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21706,
+          "chapter_name": "第三章 南方乐土 贸易航海时代 SOE344年",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21707,
+          "chapter_name": "外文明支援厅计划局资料",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 65705,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 4955,
+      "id": 4955,
+      "volume_name": "第二卷 纷争的地平线",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 32673,
+          "chapter_name": "第四章 搓合的灰色之绳 宗教起源时代",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32674,
+          "chapter_name": "第五章 迷茫的启明星 近代科学初始",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65706,
+          "chapter_name": "插画",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 8075,
+      "id": 8075,
+      "volume_name": "第三卷 灾祸的天空",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 65707,
+          "chapter_name": "第六章 羁绊之翼 航空时代的开幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 65708,
+          "chapter_name": "第七章 在静谧的群星之中",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65709,
+          "chapter_name": "第八章 人造之火 原子力与国际纷争",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 65710,
+          "chapter_name": "插画",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

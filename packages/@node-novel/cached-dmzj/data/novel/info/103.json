@@ -1,9 +1,9 @@
 {
   "id": 103,
-  "name": "EME　RED",
+  "name": "EME RED",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 A Mission After School\r",
+  "last_update_volume_name": "第一卷 A Mission After School",
   "last_update_chapter_name": "第一卷 A Mission After School 一卷全",
   "last_update_volume_id": 363,
   "last_update_chapter_id": 23792,
@@ -12,28 +12,57 @@
   "hot_hits": 32944,
   "introduction": "拥有特殊异能的少女，与身负强大力量少年的初次邂逅!\n少女在闪光中哭喊。雷光四处乱窜，撕裂大地、毁坏围墙、烧断电线，将四周破坏殆尽。\n少年在这阵由巨响与雷光组成的惊涛骇浪之中奋力向前，只为拯救这名少女。\nEME短篇作品集RED系列强劲开跑!",
   "types": [
-    "冒险/异能"
+    "冒险",
+    "异能"
   ],
   "authors": "泷川武司",
   "first_letter": "E",
   "subscribe_num": 188,
-  "redis_update_time": 1564197305,
+  "redis_update_time": 1564960873,
   "volume": [
     {
       "id": 363,
       "lnovel_id": 103,
-      "volume_name": "第一卷 A Mission After School\r",
+      "volume_name": "第一卷 A Mission After School",
       "volume_order": 10,
       "addtime": 1274917879,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 364,
       "lnovel_id": 103,
-      "volume_name": "第二卷 DIG DUG SEVEN\r",
+      "volume_name": "第二卷 DIG DUG SEVEN",
       "volume_order": 20,
       "addtime": 1274917879,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 363,
+      "id": 363,
+      "volume_name": "第一卷 A Mission After School",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23792,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 364,
+      "id": 364,
+      "volume_name": "第二卷 DIG DUG SEVEN",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2279,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

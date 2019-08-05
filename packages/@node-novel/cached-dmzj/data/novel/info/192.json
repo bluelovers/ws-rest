@@ -3,7 +3,7 @@
   "name": "将花束献给月亮与你",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "remains 第二卷\r",
+  "last_update_volume_name": "remains 第二卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 695,
   "last_update_chapter_id": 3973,
@@ -16,72 +16,343 @@
   ],
   "authors": "志村一矢",
   "first_letter": "J",
-  "subscribe_num": 232,
-  "redis_update_time": 1564254138,
+  "subscribe_num": 233,
+  "redis_update_time": 1565025476,
   "volume": [
     {
       "id": 688,
       "lnovel_id": 192,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918055,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 689,
       "lnovel_id": 192,
-      "volume_name": "第二卷 妖笼的少女\r",
+      "volume_name": "第二卷 妖笼的少女",
       "volume_order": 20,
       "addtime": 1274918055,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 690,
       "lnovel_id": 192,
-      "volume_name": "第三卷 鬼神猛袭\r",
+      "volume_name": "第三卷 鬼神猛袭",
       "volume_order": 30,
       "addtime": 1274918055,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 691,
       "lnovel_id": 192,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918055,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 692,
       "lnovel_id": 192,
-      "volume_name": "第五卷 圣夜狂澜\r",
+      "volume_name": "第五卷 圣夜狂澜",
       "volume_order": 50,
       "addtime": 1274918055,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 693,
       "lnovel_id": 192,
-      "volume_name": "第六卷 圣夜终焉\r",
+      "volume_name": "第六卷 圣夜终焉",
       "volume_order": 60,
       "addtime": 1274918055,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 694,
       "lnovel_id": 192,
-      "volume_name": "remains 第一卷\r",
+      "volume_name": "remains 第一卷",
       "volume_order": 70,
       "addtime": 1274918055,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 695,
       "lnovel_id": 192,
-      "volume_name": "remains 第二卷\r",
+      "volume_name": "remains 第二卷",
       "volume_order": 80,
       "addtime": 1274918055,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 688,
+      "id": 688,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3933,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3934,
+          "chapter_name": "第一章 刚睡醒的新婚丈夫",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3935,
+          "chapter_name": "第二章 在月亮与星空下",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3936,
+          "chapter_name": "第三章 接着是满月",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3937,
+          "chapter_name": "第四章 两人之光",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3938,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3939,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 689,
+      "id": 689,
+      "volume_name": "第二卷 妖笼的少女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3940,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3941,
+          "chapter_name": "第一章 少女、烟火和火海",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3942,
+          "chapter_name": "第二章 由花",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3943,
+          "chapter_name": "第三章 暗云",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3944,
+          "chapter_name": "第四章 两人之光(Ⅱ)",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3945,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3946,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 690,
+      "id": 690,
+      "volume_name": "第三卷 鬼神猛袭",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3947,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3948,
+          "chapter_name": "第一章 鬼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3949,
+          "chapter_name": "第二章 被削减的生命",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3950,
+          "chapter_name": "第三章 决意与泪水",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3951,
+          "chapter_name": "第四章 如鲜红花朵一般",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3952,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3953,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 691,
+      "id": 691,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 3954,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3955,
+          "chapter_name": "第一章 圣夜（I）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3956,
+          "chapter_name": "第二章 圣夜（II）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3957,
+          "chapter_name": "第三章 圣夜（Ⅲ）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3958,
+          "chapter_name": "第四章 圣夜（Ⅳ）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3959,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 692,
+      "id": 692,
+      "volume_name": "第五卷 圣夜狂澜",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 3960,
+          "chapter_name": "第一章 圣夜（V）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3961,
+          "chapter_name": "第二章 圣夜（Ⅵ）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3962,
+          "chapter_name": "第三章 圣夜(Ⅷ)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3963,
+          "chapter_name": "第四章 圣夜（Ⅷ）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3964,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 693,
+      "id": 693,
+      "volume_name": "第六卷 圣夜终焉",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 3965,
+          "chapter_name": "第一章 圣夜（IX）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3966,
+          "chapter_name": "第二章 圣夜（X）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3967,
+          "chapter_name": "第三章 两人之光（III）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3968,
+          "chapter_name": "第四章 向前",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3969,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3970,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3971,
+          "chapter_name": "图片",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 694,
+      "id": 694,
+      "volume_name": "remains 第一卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 3972,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 695,
+      "id": 695,
+      "volume_name": "remains 第二卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 3973,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

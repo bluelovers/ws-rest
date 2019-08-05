@@ -3,7 +3,7 @@
   "name": "星之梦",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "梦美的心愿",
   "last_update_volume_id": 2004,
   "last_update_chapter_id": 11797,
@@ -16,16 +16,111 @@
   ],
   "authors": "KEY",
   "first_letter": "X",
-  "subscribe_num": 1120,
-  "redis_update_time": 1564309183,
+  "subscribe_num": 1128,
+  "redis_update_time": 1565018758,
   "volume": [
     {
       "id": 2004,
       "lnovel_id": 527,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918821,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2004,
+      "id": 2004,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11781,
+          "chapter_name": "从最初开始",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11782,
+          "chapter_name": "机器人的花束",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11783,
+          "chapter_name": "封印都市和废墟猎人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11784,
+          "chapter_name": "废墟猎人的梦1 服务台前",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11785,
+          "chapter_name": "投影仪修理",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11786,
+          "chapter_name": "废墟猎人的梦2 恒星灯泡",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11787,
+          "chapter_name": "修理完毕 投影前奏",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 11788,
+          "chapter_name": "梦美的投影",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 11789,
+          "chapter_name": "振翅宇宙的人类的梦想",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 11790,
+          "chapter_name": "告别天象馆",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 11791,
+          "chapter_name": "封印都市1（无人的街道）",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 11792,
+          "chapter_name": "封印都市2（沉醉于细雨和美酒中）",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 11793,
+          "chapter_name": "封锁墙的缺口前",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 11794,
+          "chapter_name": "与招潮蟹的战斗",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 11795,
+          "chapter_name": "战斗结束",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 11796,
+          "chapter_name": "全息投影",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 11797,
+          "chapter_name": "梦美的心愿",
+          "chapter_order": 170
+        }
+      ]
     }
   ]
 }

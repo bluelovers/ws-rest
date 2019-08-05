@@ -3,7 +3,7 @@
   "name": "亚尔斯兰战记",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第十三卷 蛇王再临\r",
+  "last_update_volume_name": "第十三卷 蛇王再临",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2106,
   "last_update_chapter_id": 12336,
@@ -16,112 +16,573 @@
   ],
   "authors": "田中芳树",
   "first_letter": "Y",
-  "subscribe_num": 9920,
-  "redis_update_time": 1564313459,
+  "subscribe_num": 9941,
+  "redis_update_time": 1565029171,
   "volume": [
     {
       "id": 2094,
       "lnovel_id": 560,
-      "volume_name": "第一卷 王都烈焰\r",
+      "volume_name": "第一卷 王都烈焰",
       "volume_order": 10,
       "addtime": 1274918874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2095,
       "lnovel_id": 560,
-      "volume_name": "第二卷 真假王子\r",
+      "volume_name": "第二卷 真假王子",
       "volume_order": 20,
       "addtime": 1274918874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2096,
       "lnovel_id": 560,
-      "volume_name": "第三卷 落日悲歌\r",
+      "volume_name": "第三卷 落日悲歌",
       "volume_order": 30,
       "addtime": 1274918874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2097,
       "lnovel_id": 560,
-      "volume_name": "第四卷 汗血公路\r",
+      "volume_name": "第四卷 汗血公路",
       "volume_order": 40,
       "addtime": 1274918874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2098,
       "lnovel_id": 560,
-      "volume_name": "第五卷 征马孤影\r",
+      "volume_name": "第五卷 征马孤影",
       "volume_order": 50,
       "addtime": 1274918874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2099,
       "lnovel_id": 560,
-      "volume_name": "第六卷 风尘乱舞\r",
+      "volume_name": "第六卷 风尘乱舞",
       "volume_order": 60,
       "addtime": 1274918874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2100,
       "lnovel_id": 560,
-      "volume_name": "第七卷 夺回王都\r",
+      "volume_name": "第七卷 夺回王都",
       "volume_order": 70,
       "addtime": 1274918874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2101,
       "lnovel_id": 560,
-      "volume_name": "第八卷 假面兵团\r",
+      "volume_name": "第八卷 假面兵团",
       "volume_order": 80,
       "addtime": 1274918874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2102,
       "lnovel_id": 560,
-      "volume_name": "第九卷 旌旗流转\r",
+      "volume_name": "第九卷 旌旗流转",
       "volume_order": 90,
       "addtime": 1274918874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2103,
       "lnovel_id": 560,
-      "volume_name": "第十卷 妖云群行\r",
+      "volume_name": "第十卷 妖云群行",
       "volume_order": 100,
       "addtime": 1274918874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2104,
       "lnovel_id": 560,
-      "volume_name": "第十一卷 魔军来袭\r",
+      "volume_name": "第十一卷 魔军来袭",
       "volume_order": 110,
       "addtime": 1274918875,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2105,
       "lnovel_id": 560,
-      "volume_name": "第十二卷 暗黑神殿\r",
+      "volume_name": "第十二卷 暗黑神殿",
       "volume_order": 120,
       "addtime": 1274918875,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2106,
       "lnovel_id": 560,
-      "volume_name": "第十三卷 蛇王再临\r",
+      "volume_name": "第十三卷 蛇王再临",
       "volume_order": 130,
       "addtime": 1274918875,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2094,
+      "id": 2094,
+      "volume_name": "第一卷 王都烈焰",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12266,
+          "chapter_name": "第一章 亚特罗帕提尼会战",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12267,
+          "chapter_name": "第二章 巴休尔山",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12268,
+          "chapter_name": "第三章 王都烈焰",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12269,
+          "chapter_name": "第四章 美女与野兽",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12270,
+          "chapter_name": "第五章 王位继承人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12271,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2095,
+      "id": 2095,
+      "volume_name": "第二卷 真假王子",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12272,
+          "chapter_name": "第一章 卡歇城",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12273,
+          "chapter_name": "第二章 魔都群像",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12274,
+          "chapter_name": "第三章 培沙华尔途中",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12275,
+          "chapter_name": "第四章 分裂与再会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12276,
+          "chapter_name": "第五章 真假王子",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12277,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2096,
+      "id": 2096,
+      "volume_name": "第三卷 落日悲歌",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12278,
+          "chapter_name": "第一章 国境之河",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12279,
+          "chapter_name": "第二章 首次渡河",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12280,
+          "chapter_name": "第三章 落日悲歌",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12281,
+          "chapter_name": "第四章 二次渡河",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12282,
+          "chapter_name": "第五章 冬日尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12283,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2097,
+      "id": 2097,
+      "volume_name": "第四卷 汗血公路",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12284,
+          "chapter_name": "第一章 东城、西城",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12285,
+          "chapter_name": "第二章 来自内海的客人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12286,
+          "chapter_name": "第三章 出击",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12287,
+          "chapter_name": "第四章 汗血公路",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12288,
+          "chapter_name": "第五章 国王们和王族们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12289,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2098,
+      "id": 2098,
+      "volume_name": "第五卷 征马孤影",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 12290,
+          "chapter_name": "第一章 草原霸者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12291,
+          "chapter_name": "第二章 魔山",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12292,
+          "chapter_name": "第三章 两种逃脱",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12293,
+          "chapter_name": "第四章 王者对霸者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12294,
+          "chapter_name": "第五章 征马孤影",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12295,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2099,
+      "id": 2099,
+      "volume_name": "第六卷 风尘乱舞",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 12296,
+          "chapter_name": "第一章 陆都和水都",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12297,
+          "chapter_name": "第二章 南海秘宝",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12298,
+          "chapter_name": "第三章 列王之灾",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12299,
+          "chapter_name": "第四章 彩虹之港",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12300,
+          "chapter_name": "第五章 风尘乱舞",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12301,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2100,
+      "id": 2100,
+      "volume_name": "第七卷 夺回王都",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 12302,
+          "chapter_name": "第一章 热风中的血腥",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12303,
+          "chapter_name": "第二章 夺回王都",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12304,
+          "chapter_name": "第三章 亚特罗帕提尼再战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12305,
+          "chapter_name": "第四章 英雄王的叹息",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12306,
+          "chapter_name": "第五章 永远的叶克巴达那",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12307,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2101,
+      "id": 2101,
+      "volume_name": "第八卷 假面兵团",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 12308,
+          "chapter_name": "第一章 新旧之敌",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12309,
+          "chapter_name": "第二章 狩猎祭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12310,
+          "chapter_name": "第三章 野心家们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12311,
+          "chapter_name": "第四章 王都之秋",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12312,
+          "chapter_name": "第五章 假面兵团",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12313,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2102,
+      "id": 2102,
+      "volume_name": "第九卷 旌旗流转",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 12314,
+          "chapter_name": "第一章 亚尔斯兰的半月形",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12315,
+          "chapter_name": "第二章 旌旗流转",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12316,
+          "chapter_name": "第三章 步入迷宫的人们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12317,
+          "chapter_name": "第四章 雷鸣之谷",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12318,
+          "chapter_name": "第五章 乱云季节",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12319,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2103,
+      "id": 2103,
+      "volume_name": "第十卷 妖云群行",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 12320,
+          "chapter_name": "第一章 怪物们的盛夏",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12321,
+          "chapter_name": "第二章 山岭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12322,
+          "chapter_name": "第三章 密斯鲁的热风",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12323,
+          "chapter_name": "第四章 峡谷间的黑影",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12324,
+          "chapter_name": "第五章 妖云群行",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12325,
+          "chapter_name": "后记·再开篇",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2104,
+      "id": 2104,
+      "volume_name": "第十一卷 魔军来袭",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 12326,
+          "chapter_name": "马尔亚姆的黑云",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12327,
+          "chapter_name": "黎明前的黑暗",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12328,
+          "chapter_name": "恶灵们的宴会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12329,
+          "chapter_name": "孔雀姬",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12330,
+          "chapter_name": "魔军来袭",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2105,
+      "id": 2105,
+      "volume_name": "第十二卷 暗黑神殿",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 12331,
+          "chapter_name": "第一章 染血的一夜",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12332,
+          "chapter_name": "黄色的下弦月",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12333,
+          "chapter_name": "“悬铃木之园”奇谭",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12334,
+          "chapter_name": "暗黑神殿",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12335,
+          "chapter_name": "红色僧院的惨剧",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2106,
+      "id": 2106,
+      "volume_name": "第十三卷 蛇王再临",
+      "volume_order": 130,
+      "chapters": [
+        {
+          "chapter_id": 12336,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

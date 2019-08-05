@@ -3,8 +3,8 @@
   "name": "糖果子弹",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
-  "last_update_chapter_name": "终　章　再也见不到糖果子弹了",
+  "last_update_volume_name": "第一卷",
+  "last_update_chapter_name": "终 章 再也见不到糖果子弹了",
   "last_update_volume_id": 1720,
   "last_update_chapter_id": 9928,
   "last_update_time": 1274918637,
@@ -16,16 +16,46 @@
   ],
   "authors": "樱庭一树",
   "first_letter": "T",
-  "subscribe_num": 2261,
-  "redis_update_time": 1564309171,
+  "subscribe_num": 2285,
+  "redis_update_time": 1565028216,
   "volume": [
     {
       "id": 1720,
       "lnovel_id": 456,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918637,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1720,
+      "id": 1720,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9925,
+          "chapter_name": "扉页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9926,
+          "chapter_name": "第一章 我和糖果子弹合不来",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9927,
+          "chapter_name": "第二章 我和糖果子弹独处",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9928,
+          "chapter_name": "终 章 再也见不到糖果子弹了",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

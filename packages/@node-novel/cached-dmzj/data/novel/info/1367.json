@@ -12,12 +12,15 @@
   "hot_hits": 230421,
   "introduction": "仰慕的学生会长——真想要一个这样的女朋友。（……那么，自己作一个不就好了？）\n培养只有女性才能成为的“巫女炼金术师”的玛莎学院，因为才能被看中而得以在这里上学的唯一的男生・亚历克斯，因为以上的想法而进行了最大的禁忌・人体炼成。\n但是炼成的美少女，别说是听使唤了，根本就是把亚历克斯当作仆人——！？\n恋爱喜剧名手・月见草平作品女主角炼成恋爱喜剧！",
   "types": [
-    "爱情/校园/魔法/搞笑"
+    "爱情",
+    "校园",
+    "魔法",
+    "搞笑"
   ],
   "authors": "月见草平",
   "first_letter": "X",
-  "subscribe_num": 3193,
-  "redis_update_time": 1564312940,
+  "subscribe_num": 3220,
+  "redis_update_time": 1564958349,
   "volume": [
     {
       "id": 4983,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1358135028,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5040,
@@ -33,7 +36,90 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1359602342,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4983,
+      "id": 4983,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32879,
+          "chapter_name": "1章 恋人炼成！",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32880,
+          "chapter_name": "2章 玛莎学院的巫女炼金术师",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32881,
+          "chapter_name": "3章 艾米莉亚去学校",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32882,
+          "chapter_name": "4章 购物与探险",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32883,
+          "chapter_name": "5章 追踪，以及……",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32884,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32885,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5040,
+      "id": 5040,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 33332,
+          "chapter_name": "1章 科斯塔&#12539;STRIKES",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33471,
+          "chapter_name": "2章 帕美拉的邀约",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33679,
+          "chapter_name": "3章 创造祭！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33741,
+          "chapter_name": "4章 祭典过后……",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33782,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33783,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

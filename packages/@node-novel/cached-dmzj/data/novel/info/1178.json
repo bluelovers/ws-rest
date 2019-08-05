@@ -3,7 +3,7 @@
   "name": "恬不知耻的紫烟-JOJO的奇妙冒险-",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记——关于无处可去的心情和勇气",
   "last_update_volume_id": 4224,
   "last_update_chapter_id": 26385,
@@ -12,20 +12,82 @@
   "hot_hits": 48444,
   "introduction": "这是讲述了一群连一步都无法跨出的人们的故事。\n在将来毫无任何展望，也没有丝毫安稳的回忆。无法回到过去也没有将来，只能被悬吊在现在不上不下的人们在挣扎着——这是一个有关这些人的不可思议的故事。\n故事转到第5部结束的半年后，经历了惨痛的代价打倒BOSS狄阿波罗的祖班纳一行，以及中途与队伍决裂，现在被称为“背叛者”的少年——弗高。\n由上远野浩平亲力打造，讲述背叛者挣扎的命运。",
   "types": [
-    "冒险/奇幻/格斗"
+    "冒险",
+    "奇幻",
+    "格斗"
   ],
   "authors": "上远野浩平",
   "first_letter": "T",
-  "subscribe_num": 3718,
-  "redis_update_time": 1564312977,
+  "subscribe_num": 3808,
+  "redis_update_time": 1564969092,
   "volume": [
     {
       "id": 4224,
       "lnovel_id": 1178,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1328853549,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4224,
+      "id": 4224,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 26376,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26377,
+          "chapter_name": "I．vitti 'na crozza 髑髅之歌",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26378,
+          "chapter_name": "II．me voglio fa 'na casa 建一座塔吧",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26379,
+          "chapter_name": "III．'a vucchella 诱惑的双唇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26380,
+          "chapter_name": "IV．tu ca nun chiagne 不会哭泣的你",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26381,
+          "chapter_name": "V．mi votu e mi rivotu 不眠不休地挣扎",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26382,
+          "chapter_name": "VI．fantasia siciliana 幻想之岛",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26383,
+          "chapter_name": "VII．luna nova 新月",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 26384,
+          "chapter_name": "VIII．'o surdato 'nnammurato 恋爱中的士兵",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 26385,
+          "chapter_name": "后记——关于无处可去的心情和勇气",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

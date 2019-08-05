@@ -3,7 +3,7 @@
   "name": "脑髓地狱",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "全书",
   "last_update_volume_id": 1179,
   "last_update_chapter_id": 6786,
@@ -16,16 +16,36 @@
   ],
   "authors": "梦野久作",
   "first_letter": "N",
-  "subscribe_num": 2306,
-  "redis_update_time": 1564313691,
+  "subscribe_num": 2320,
+  "redis_update_time": 1565035695,
   "volume": [
     {
       "id": 1179,
       "lnovel_id": 314,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918322,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1179,
+      "id": 1179,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6785,
+          "chapter_name": "本书介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6786,
+          "chapter_name": "全书",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

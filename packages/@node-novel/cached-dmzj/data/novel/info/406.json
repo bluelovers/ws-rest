@@ -16,8 +16,8 @@
   ],
   "authors": "高远砂夜",
   "first_letter": "S",
-  "subscribe_num": 735,
-  "redis_update_time": 1564297730,
+  "subscribe_num": 738,
+  "redis_update_time": 1565030973,
   "volume": [
     {
       "id": 1560,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918545,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4089,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 继承圣剑的公主",
       "volume_order": 20,
       "addtime": 1323053981,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4209,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 阿尔提娜斯的迷宫",
       "volume_order": 30,
       "addtime": 1328599910,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4235,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷 宣告破灭的使者",
       "volume_order": 40,
       "addtime": 1329208175,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4236,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷 黑衣王女",
       "volume_order": 50,
       "addtime": 1329208243,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4256,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷 暗水晶的牢笼",
       "volume_order": 60,
       "addtime": 1329905220,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4348,
@@ -73,7 +73,7 @@
       "volume_name": "第七卷 艾尔榭罗莎之箭",
       "volume_order": 70,
       "addtime": 1332485251,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4434,
@@ -81,7 +81,7 @@
       "volume_name": "第八卷 螺旋之风",
       "volume_order": 80,
       "addtime": 1335435351,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4721,
@@ -89,7 +89,521 @@
       "volume_name": "第九卷 莉莉公主的谋略",
       "volume_order": 90,
       "addtime": 1348641335,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1560,
+      "id": 1560,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9026,
+          "chapter_name": "目 次",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9027,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9028,
+          "chapter_name": "1妹妹的私奔",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9029,
+          "chapter_name": "2替身公主",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9030,
+          "chapter_name": "3数名新娘",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9031,
+          "chapter_name": "4入侵者们",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9032,
+          "chapter_name": "5秘密通道",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 9033,
+          "chapter_name": "6谜样生物的真实身分",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 9034,
+          "chapter_name": "7杰涅斯迪亚的王子",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 9035,
+          "chapter_name": "8遭到揭穿的假面具",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 9036,
+          "chapter_name": "9仪式前日",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 9037,
+          "chapter_name": "10圣兽（降临）",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 9038,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 4089,
+      "id": 4089,
+      "volume_name": "第二卷 继承圣剑的公主",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 25265,
+          "chapter_name": "1 新娘逃亡",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25266,
+          "chapter_name": "2 可疑的店铺",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25267,
+          "chapter_name": "3 怪异的野兽",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25268,
+          "chapter_name": "4 被放逐的王子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25271,
+          "chapter_name": "5 湛蓝之剑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25272,
+          "chapter_name": "6 尤仙，丽斯提尔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25273,
+          "chapter_name": "7 来自异地的圣兽",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25274,
+          "chapter_name": "8 相互约定",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 25277,
+          "chapter_name": "9 对决时刻",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 25278,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4209,
+      "id": 4209,
+      "volume_name": "第三卷 阿尔提娜斯的迷宫",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 26243,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26244,
+          "chapter_name": "1 无人都市",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26245,
+          "chapter_name": "2 灭绝的居民",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26246,
+          "chapter_name": "3 重逢之时",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26247,
+          "chapter_name": "4 两位新娘",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26248,
+          "chapter_name": "5 生命之水",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26249,
+          "chapter_name": "6 带来灾祸的异端者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26250,
+          "chapter_name": "7 被解放的魔性",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 26251,
+          "chapter_name": "8 梦境过后",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 26252,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4235,
+      "id": 4235,
+      "volume_name": "第四卷 宣告破灭的使者",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 26475,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26476,
+          "chapter_name": "1 崭新的（祭品）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26477,
+          "chapter_name": "2 再会之时",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26478,
+          "chapter_name": "3 圣兽操纵者与前未婚夫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26479,
+          "chapter_name": "4 希露潘娜的神兽",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26480,
+          "chapter_name": "5 灾难之源",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26481,
+          "chapter_name": "6 令人畏惧的神之遗产",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26482,
+          "chapter_name": "7 新娘的选择",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 26483,
+          "chapter_name": "8 信赖",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 26484,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4236,
+      "id": 4236,
+      "volume_name": "第五卷 黑衣王女",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 26485,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26486,
+          "chapter_name": "1 歌声",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26487,
+          "chapter_name": "2 晚餐会的邀请",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26488,
+          "chapter_name": "3 出人意表的提案",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26489,
+          "chapter_name": "4 捉迷藏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26490,
+          "chapter_name": "5 私奔的决心",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26491,
+          "chapter_name": "6 魔女的女儿",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26492,
+          "chapter_name": "7 最后的神兽",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 26493,
+          "chapter_name": "8 瓦砾的残骸",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 26494,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4256,
+      "id": 4256,
+      "volume_name": "第六卷 暗水晶的牢笼",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 26640,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26641,
+          "chapter_name": "1 希露潘娜的反攻",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26642,
+          "chapter_name": "2 被掳走的两人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26643,
+          "chapter_name": "3 灾厄的〈祭品〉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26644,
+          "chapter_name": "4 里伯特的使者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26645,
+          "chapter_name": "5 次元的狭缝",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26646,
+          "chapter_name": "6 闭锁的门扉",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26647,
+          "chapter_name": "7 消灭的钥匙",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 26648,
+          "chapter_name": "8 两个伊欧·艾尔巴司",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 26649,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4348,
+      "id": 4348,
+      "volume_name": "第七卷 艾尔榭罗莎之箭",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 27396,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27397,
+          "chapter_name": "1 奇妙的赠礼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27398,
+          "chapter_name": "2 恢复心智的裘特里尔",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27399,
+          "chapter_name": "3 最后的忠告",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27400,
+          "chapter_name": "4 青色宝石之都",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27401,
+          "chapter_name": "5 重返过去的旅程",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27402,
+          "chapter_name": "6 杰涅斯迪亚的初代新娘",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 27403,
+          "chapter_name": "7 复苏的记忆",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 27404,
+          "chapter_name": "8 异界之地",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 27405,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4434,
+      "id": 4434,
+      "volume_name": "第八卷 螺旋之风",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 28130,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28131,
+          "chapter_name": "1 里伯特的秘密住所",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28132,
+          "chapter_name": "2 与希露潘娜的和解",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28133,
+          "chapter_name": "3 被幽禁的莉姬",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28134,
+          "chapter_name": "4 神兽〈降临〉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28135,
+          "chapter_name": "5 三头神兽",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28136,
+          "chapter_name": "6 杰涅斯迪亚崩坏",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28137,
+          "chapter_name": "7 回归上天之物",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 28138,
+          "chapter_name": "8 崭新的道路",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 28139,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4721,
+      "id": 4721,
+      "volume_name": "第九卷 莉莉公主的谋略",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 30617,
+          "chapter_name": "莉莉公主的谋略",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30618,
+          "chapter_name": "沉睡的魔物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30619,
+          "chapter_name": "伊欧的遗忘之物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30620,
+          "chapter_name": "回忆的场景？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30621,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

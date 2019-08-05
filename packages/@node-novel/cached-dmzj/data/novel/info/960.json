@@ -12,20 +12,22 @@
   "hot_hits": 22403,
   "introduction": "人气漫画小说版，故事讲超有钱的少爷小姐就读的名流高中——“私立樱兰学院高中部”的社团活动“男公关部”作为舞台。既有钱又有闲暇……穷极无聊的六个美少年为招待同样穷极无聊的千金小姐们，品味华丽而优雅的短暂时间，而成立了“男公关部”",
   "types": [
-    "搞笑/爱情/校园"
+    "搞笑",
+    "爱情",
+    "校园"
   ],
   "authors": "叶鸟螺子",
   "first_letter": "Y",
   "subscribe_num": 471,
-  "redis_update_time": 1564312411,
+  "redis_update_time": 1564977742,
   "volume": [
     {
       "id": 3397,
       "lnovel_id": 960,
-      "volume_name": "意想不到篇！\r",
+      "volume_name": "意想不到篇！",
       "volume_order": 10,
       "addtime": 1294971494,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3628,
@@ -33,7 +35,70 @@
       "volume_name": "深藏不露篇",
       "volume_order": 20,
       "addtime": 1304912346,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3397,
+      "id": 3397,
+      "volume_name": "意想不到篇！",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19500,
+          "chapter_name": "登场人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19501,
+          "chapter_name": "男公关部开始写部落格",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19502,
+          "chapter_name": "樱兰高校初等部男公关部",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19503,
+          "chapter_name": "满山香南的相簿",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19504,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 3628,
+      "id": 3628,
+      "volume_name": "深藏不露篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 21218,
+          "chapter_name": "魔王降临——新镜夜，登场！",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21219,
+          "chapter_name": "冲击给长腿叔叔的信",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21220,
+          "chapter_name": "男公关部与地底眼镜帝国的秘密",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21221,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

@@ -16,48 +16,48 @@
   ],
   "authors": "黑川実",
   "first_letter": "E",
-  "subscribe_num": 1589,
-  "redis_update_time": 1564310035,
+  "subscribe_num": 1591,
+  "redis_update_time": 1565014642,
   "volume": [
     {
       "id": 358,
       "lnovel_id": 102,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274917876,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 359,
       "lnovel_id": 102,
-      "volume_name": "第2卷\r",
+      "volume_name": "第2卷",
       "volume_order": 20,
       "addtime": 1274917876,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 360,
       "lnovel_id": 102,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274917876,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 361,
       "lnovel_id": 102,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274917876,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 362,
       "lnovel_id": 102,
-      "volume_name": "宵见里森罗万象短篇集\r",
+      "volume_name": "宵见里森罗万象短篇集",
       "volume_order": 50,
       "addtime": 1274917876,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2666,
@@ -65,7 +65,252 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1275875238,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 358,
+      "id": 358,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2249,
+          "chapter_name": "《序章》",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2250,
+          "chapter_name": "《第一章》",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2251,
+          "chapter_name": "《第二章》",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2252,
+          "chapter_name": "《第三章》",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2254,
+          "chapter_name": "《第四章》",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2255,
+          "chapter_name": "《终章》",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2256,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2257,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 359,
+      "id": 359,
+      "volume_name": "第2卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2258,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2259,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2260,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2261,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2262,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2263,
+          "chapter_name": "第六章 闲聊后话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2264,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2265,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 360,
+      "id": 360,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 2266,
+          "chapter_name": "简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2267,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2268,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2269,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2270,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2271,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2272,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2273,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2274,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 2275,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 361,
+      "id": 361,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 2276,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 362,
+      "id": 362,
+      "volume_name": "宵见里森罗万象短篇集",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 2277,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2666,
+      "id": 2666,
+      "volume_name": "第五卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 14926,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14927,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14928,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14929,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14930,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14931,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14932,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14933,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 14934,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 14935,
+          "chapter_name": "最终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 14936,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

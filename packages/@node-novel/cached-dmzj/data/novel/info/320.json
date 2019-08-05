@@ -3,7 +3,7 @@
   "name": "PSYCHE",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1185,
   "last_update_chapter_id": 6830,
@@ -16,16 +16,31 @@
   ],
   "authors": "唐边叶介",
   "first_letter": "P",
-  "subscribe_num": 861,
-  "redis_update_time": 1564247129,
+  "subscribe_num": 865,
+  "redis_update_time": 1565029683,
   "volume": [
     {
       "id": 1185,
       "lnovel_id": 320,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918326,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1185,
+      "id": 1185,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6830,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

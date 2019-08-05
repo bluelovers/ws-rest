@@ -3,7 +3,7 @@
   "name": "银河英雄传说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "银河英雄传说 - 落日篇\r",
+  "last_update_volume_name": "银河英雄传说 - 落日篇",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2180,
   "last_update_chapter_id": 82038,
@@ -16,88 +16,630 @@
   ],
   "authors": "田中芳树",
   "first_letter": "Y",
-  "subscribe_num": 18669,
-  "redis_update_time": 1564313790,
+  "subscribe_num": 18688,
+  "redis_update_time": 1565021413,
   "volume": [
     {
       "id": 2171,
       "lnovel_id": 581,
-      "volume_name": "银河英雄传说 - 黎明篇\r",
+      "volume_name": "银河英雄传说 - 黎明篇",
       "volume_order": 10,
       "addtime": 1274918921,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2172,
       "lnovel_id": 581,
-      "volume_name": "银河英雄传说 - 野望篇\r",
+      "volume_name": "银河英雄传说 - 野望篇",
       "volume_order": 20,
       "addtime": 1274918921,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2173,
       "lnovel_id": 581,
-      "volume_name": "银河英雄传说 - 雌伏篇\r",
+      "volume_name": "银河英雄传说 - 雌伏篇",
       "volume_order": 30,
       "addtime": 1274918921,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2174,
       "lnovel_id": 581,
-      "volume_name": "银河英雄传说 - 策谋篇\r",
+      "volume_name": "银河英雄传说 - 策谋篇",
       "volume_order": 40,
       "addtime": 1274918921,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2175,
       "lnovel_id": 581,
-      "volume_name": "银河英雄传说 - 风云篇\r",
+      "volume_name": "银河英雄传说 - 风云篇",
       "volume_order": 50,
       "addtime": 1274918921,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2176,
       "lnovel_id": 581,
-      "volume_name": "银河英雄传说 - 飞翔篇\r",
+      "volume_name": "银河英雄传说 - 飞翔篇",
       "volume_order": 60,
       "addtime": 1274918921,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2177,
       "lnovel_id": 581,
-      "volume_name": "银河英雄传说 - 怒涛篇\r",
+      "volume_name": "银河英雄传说 - 怒涛篇",
       "volume_order": 70,
       "addtime": 1274918921,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2178,
       "lnovel_id": 581,
-      "volume_name": "银河英雄传说 - 离乱篇\r",
+      "volume_name": "银河英雄传说 - 离乱篇",
       "volume_order": 80,
       "addtime": 1274918921,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2179,
       "lnovel_id": 581,
-      "volume_name": "银河英雄传说 - 回天篇\r",
+      "volume_name": "银河英雄传说 - 回天篇",
       "volume_order": 90,
       "addtime": 1274918921,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2180,
       "lnovel_id": 581,
-      "volume_name": "银河英雄传说 - 落日篇\r",
+      "volume_name": "银河英雄传说 - 落日篇",
       "volume_order": 100,
       "addtime": 1274918921,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2171,
+      "id": 2171,
+      "volume_name": "银河英雄传说 - 黎明篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12737,
+          "chapter_name": "序章 银河系史概略",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12738,
+          "chapter_name": "第一章 永恒的夜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12739,
+          "chapter_name": "第二章 亚斯提星域会战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12740,
+          "chapter_name": "第三章 帝国的落日余晖",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12741,
+          "chapter_name": "第四章 第十三舰队诞生",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12742,
+          "chapter_name": "第六章 繁星点点",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12743,
+          "chapter_name": "第八章 死线",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12744,
+          "chapter_name": "第九章 亚姆立札",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2172,
+      "id": 2172,
+      "volume_name": "银河英雄传说 - 野望篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12745,
+          "chapter_name": "第一章 暴风雨前夕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12746,
+          "chapter_name": "第二章 起火点",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12747,
+          "chapter_name": "第三章 杨舰队紧急出击",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12748,
+          "chapter_name": "第四章 流血的宇宙",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12749,
+          "chapter_name": "第五章 德奥里亚星域会战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12750,
+          "chapter_name": "第六章 勇气与忠诚",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12751,
+          "chapter_name": "第七章 属于何人的胜利",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12752,
+          "chapter_name": "第八章 黄金树倒下了",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12753,
+          "chapter_name": "第九章 别了！远去的日子",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 2173,
+      "id": 2173,
+      "volume_name": "银河英雄传说 - 雌伏篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12754,
+          "chapter_name": "第一章 首度出击",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12755,
+          "chapter_name": "第二章 振翅待飞的秃鹰",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12756,
+          "chapter_name": "第三章 一根细弦",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12757,
+          "chapter_name": "第四章 逝去的一切",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12758,
+          "chapter_name": "第五章 审查会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12759,
+          "chapter_name": "第六章 没有武器的战争",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12760,
+          "chapter_name": "第七章 要塞对要塞",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12761,
+          "chapter_name": "第八章 归来",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12762,
+          "chapter_name": "第九章 意志与野心",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 2174,
+      "id": 2174,
+      "volume_name": "银河英雄传说 - 策谋篇",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12763,
+          "chapter_name": "第一章 雷鸣",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12764,
+          "chapter_name": "第二章 迷宫",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12765,
+          "chapter_name": "第三章 箭已离弦",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12766,
+          "chapter_name": "第四章 银河帝国正统政府",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12767,
+          "chapter_name": "第五章 一次出发",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12768,
+          "chapter_name": "第六章 作战名“诸神的黄昏”",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12769,
+          "chapter_name": "第七章 驻在武官敏兹少尉",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12770,
+          "chapter_name": "第八章 安魂曲的邀宴",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12771,
+          "chapter_name": "第九章 占领费沙",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 2175,
+      "id": 2175,
+      "volume_name": "银河英雄传说 - 风云篇",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 12772,
+          "chapter_name": "第一章 寒流来袭",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12773,
+          "chapter_name": "第二章 杨提督的方舟舰队",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12774,
+          "chapter_name": "第三章 追求自由的宇宙",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12775,
+          "chapter_name": "第四章 双头蛇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12776,
+          "chapter_name": "第五章 黎明前的黑暗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12777,
+          "chapter_name": "第六章 连战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12778,
+          "chapter_name": "第七章 巴米利恩",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12779,
+          "chapter_name": "第八章 死门",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12780,
+          "chapter_name": "第九章 骤变",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12781,
+          "chapter_name": "第十章 “皇帝万岁！”",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 2176,
+      "id": 2176,
+      "volume_name": "银河英雄传说 - 飞翔篇",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 12782,
+          "chapter_name": "序章 地球衰亡记录",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12783,
+          "chapter_name": "第一章 邱梅尔事件",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12784,
+          "chapter_name": "第二章 一个退役生活者的肖像",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12785,
+          "chapter_name": "第三章 访问者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12786,
+          "chapter_name": "第四章 过去、现在、未来",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12787,
+          "chapter_name": "第五章 混乱、错乱、惑乱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12788,
+          "chapter_name": "第六章 圣地",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12789,
+          "chapter_name": "第七章 战斗开启",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12790,
+          "chapter_name": "第八章 休假结束",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 2177,
+      "id": 2177,
+      "volume_name": "银河英雄传说 - 怒涛篇",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 12791,
+          "chapter_name": "第一章 黄金狮子旗下",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12792,
+          "chapter_name": "第二章 背弃一切旗帜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12793,
+          "chapter_name": "第三章 「诸神的黄昏」再现",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12794,
+          "chapter_name": "第四章 解放、革命、谋略及其他",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12795,
+          "chapter_name": "第五章 流浪儿回家",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12796,
+          "chapter_name": "第六章 马尔．亚迪特星域会战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12797,
+          "chapter_name": "第七章 冬蔷薇园的敕令",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12798,
+          "chapter_name": "第八章 前途遥远",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12799,
+          "chapter_name": "第九章 祭典之前",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 2178,
+      "id": 2178,
+      "volume_name": "银河英雄传说 - 离乱篇",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 12800,
+          "chapter_name": "第一章 风过回廊",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12801,
+          "chapter_name": "第二章 春天的风暴",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12802,
+          "chapter_name": "第三章 常胜与不败",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12803,
+          "chapter_name": "第四章 万花筒",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12804,
+          "chapter_name": "第五章 魔术师，一去不回",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12805,
+          "chapter_name": "第六章 祭典之后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12806,
+          "chapter_name": "第七章 失意的凯旋",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12807,
+          "chapter_name": "第八章 迁都令",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12808,
+          "chapter_name": "第九章 八月的新政府",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 2179,
+      "id": 2179,
+      "volume_name": "银河英雄传说 - 回天篇",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 12809,
+          "chapter_name": "第一章 在边境上",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12810,
+          "chapter_name": "第二章 夏末的蔷薇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12811,
+          "chapter_name": "第三章 鸣动",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12812,
+          "chapter_name": "第四章 萌芽",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12813,
+          "chapter_name": "第五章 乌鲁瓦希事件",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12814,
+          "chapter_name": "第六章 叛逆是英雄的特权",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12815,
+          "chapter_name": "第七章 因剑而生",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12816,
+          "chapter_name": "第八章 因剑而亡",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12817,
+          "chapter_name": "第九章 无休止的安魂曲",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 2180,
+      "id": 2180,
+      "volume_name": "银河英雄传说 - 落日篇",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 12818,
+          "chapter_name": "第一章 皇妃诞生",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12819,
+          "chapter_name": "第二章 动乱的诱因",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12820,
+          "chapter_name": "第三章 宇宙结构",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12821,
+          "chapter_name": "第四章 流血通往和平",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12822,
+          "chapter_name": "第五章 迷惑的行星",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12823,
+          "chapter_name": "第六章 冬馆大火",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12824,
+          "chapter_name": "第七章 深红星路",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12825,
+          "chapter_name": "第八章 美人嗜血",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12826,
+          "chapter_name": "第九章 黯淡黄金狮子旗",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 82037,
+          "chapter_name": "尾声",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 82038,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

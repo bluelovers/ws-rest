@@ -3,7 +3,7 @@
   "name": "伊里野的天空UFO的夏天",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "伊里野的天空，UFO的夏天番外\r",
+  "last_update_volume_name": "伊里野的天空，UFO的夏天番外",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2161,
   "last_update_chapter_id": 12626,
@@ -16,48 +16,200 @@
   ],
   "authors": "秋山瑞人",
   "first_letter": "Y",
-  "subscribe_num": 1040,
-  "redis_update_time": 1564304378,
+  "subscribe_num": 1051,
+  "redis_update_time": 1565030873,
   "volume": [
     {
       "id": 2157,
       "lnovel_id": 579,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918912,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2158,
       "lnovel_id": 579,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918912,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2159,
       "lnovel_id": 579,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918912,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2160,
       "lnovel_id": 579,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918912,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2161,
       "lnovel_id": 579,
-      "volume_name": "伊里野的天空，UFO的夏天番外\r",
+      "volume_name": "伊里野的天空，UFO的夏天番外",
       "volume_order": 50,
       "addtime": 1274918912,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2157,
+      "id": 2157,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12605,
+          "chapter_name": "第一章 第三类接触",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12606,
+          "chapter_name": "第二章 情书",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12607,
+          "chapter_name": "第三章 偷速克达的诀窍—上集—",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12608,
+          "chapter_name": "番外篇 就因为是这样",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12609,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2158,
+      "id": 2158,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12610,
+          "chapter_name": "上集 十八点四十七分三十二秒",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12611,
+          "chapter_name": "下集 偷速克达的诀窍",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12612,
+          "chapter_name": "十八点四十七分三十二秒 上集",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12613,
+          "chapter_name": "十八点四十七分三十二秒 下集",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12614,
+          "chapter_name": "番外篇 去洗尸体吧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12615,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2159,
+      "id": 2159,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12616,
+          "chapter_name": "第一章 无钱饮食列传",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12617,
+          "chapter_name": "第二章 水前寺请回答 上集",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12618,
+          "chapter_name": "第三章 水前寺请回答 下集",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12619,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 2160,
+      "id": 2160,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12620,
+          "chapter_name": "第一章 再次来临的暑假 上集",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12621,
+          "chapter_name": "第二章 再次来临的暑假 下集",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12622,
+          "chapter_name": "第三章 最后之路",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12623,
+          "chapter_name": "第四章 南方之岛",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12624,
+          "chapter_name": "最终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12625,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2161,
+      "id": 2161,
+      "volume_name": "伊里野的天空，UFO的夏天番外",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 12626,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

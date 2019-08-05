@@ -1,9 +1,9 @@
 {
   "id": 507,
-  "name": "邪马台国战记　圣战少女：遥",
+  "name": "邪马台国战记 圣战少女：遥",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "下卷\r",
+  "last_update_volume_name": "下卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1915,
   "last_update_chapter_id": 11271,
@@ -17,23 +17,51 @@
   "authors": "树田省治",
   "first_letter": "X",
   "subscribe_num": 119,
-  "redis_update_time": 1564290181,
+  "redis_update_time": 1565001718,
   "volume": [
     {
       "id": 1914,
       "lnovel_id": 507,
-      "volume_name": "上卷\r",
+      "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1274918764,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1915,
       "lnovel_id": 507,
-      "volume_name": "下卷\r",
+      "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1274918764,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1914,
+      "id": 1914,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11270,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1915,
+      "id": 1915,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11271,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

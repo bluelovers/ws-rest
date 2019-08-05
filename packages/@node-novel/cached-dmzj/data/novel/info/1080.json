@@ -3,7 +3,7 @@
   "name": "植物图鉴",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第一卷 特别收录 Itsuki的「野草料理」食谱",
   "last_update_volume_id": 3828,
   "last_update_chapter_id": 22969,
@@ -16,16 +16,91 @@
   ],
   "authors": "有川浩",
   "first_letter": "Z",
-  "subscribe_num": 788,
-  "redis_update_time": 1564258264,
+  "subscribe_num": 793,
+  "redis_update_time": 1564925553,
   "volume": [
     {
       "id": 3828,
       "lnovel_id": 1080,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1312253605,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3828,
+      "id": 3828,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 22923,
+          "chapter_name": "1.鸡屎藤",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22924,
+          "chapter_name": "2.蜂斗菜/蜂斗菜花 以及笔头草",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22925,
+          "chapter_name": "3.山蒜/芥菜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22926,
+          "chapter_name": "4.春天的野花——西洋蒲公英、葶苈、风花菜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22927,
+          "chapter_name": "5.蕨菜/虎杖",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22928,
+          "chapter_name": "6.虎耳草/豆瓣菜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22929,
+          "chapter_name": "7.野莓",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22930,
+          "chapter_name": "8.野苋菜、马齿苋与苹果薄荷",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 22931,
+          "chapter_name": "9.红心藜&#8226;灰藜/艾草 以及花水木",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 22932,
+          "chapter_name": "10.四季流转",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 22933,
+          "chapter_name": "谢幕 午后三点",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 22968,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 22969,
+          "chapter_name": "特别收录 Itsuki的「野草料理」食谱",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

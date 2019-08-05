@@ -12,20 +12,22 @@
   "hot_hits": 284943,
   "introduction": "习惯平静的独居男高中生——神堂祐贵，某日突然被奇怪的团体绑架了。幕后黑手是由于某些原因而在十年间分开生活的双胞妹妹，贵理。之后居然被强行塞到贵理正在上的桃花泉女子学校——通称桃女去上学，而交给祐贵的使命，则是「入手」学校里共有七人的才女「姬神」。最初的目标是成绩优秀又强势的学生会长——鸣神加奈美，可祐贵与她的邂逅却非常糟糕——。在女校里仅有一名的男生——祐贵的命运究竟如何！？由人气剧作奉上的正统派爱情喜剧登场！",
   "types": [
-    "爱情/校园/后宫"
+    "爱情",
+    "校园",
+    "后宫"
   ],
   "authors": "镜游",
   "first_letter": "S",
   "subscribe_num": 1944,
-  "redis_update_time": 1564292302,
+  "redis_update_time": 1564960130,
   "volume": [
     {
       "id": 4226,
       "lnovel_id": 1180,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1328853856,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4230,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1329110041,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4532,
@@ -41,7 +43,138 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1340679159,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4226,
+      "id": 4226,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 26398,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26399,
+          "chapter_name": "第一章 起始之日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26400,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26401,
+          "chapter_name": "第三章 任何人都有秘密",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26402,
+          "chapter_name": "第四章 他和她们的决意",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26403,
+          "chapter_name": "第五章 深夜的派对",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26404,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4230,
+      "id": 4230,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 26429,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27098,
+          "chapter_name": "第一章 第一次约会伴随着枪声",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27183,
+          "chapter_name": "第二章 二人的甜蜜之夜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27557,
+          "chapter_name": "第三章 水上对战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27960,
+          "chapter_name": "第四章 只爱我一人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27961,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27962,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4532,
+      "id": 4532,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 28962,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29306,
+          "chapter_name": "第一章 艺术就是自由",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30053,
+          "chapter_name": "第二章 请小心地下迷宫",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31274,
+          "chapter_name": "第三章 乙女的战斗",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32293,
+          "chapter_name": "第四章 她的歌",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32294,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32295,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

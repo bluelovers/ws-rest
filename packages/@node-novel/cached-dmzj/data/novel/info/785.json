@@ -3,7 +3,7 @@
   "name": "伤与不伤 HURTLESS HURTFUL",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 2676,
   "last_update_chapter_id": 14963,
@@ -16,16 +16,76 @@
   ],
   "authors": "清水マリコ",
   "first_letter": "S",
-  "subscribe_num": 331,
-  "redis_update_time": 1564312015,
+  "subscribe_num": 335,
+  "redis_update_time": 1565028955,
   "volume": [
     {
       "id": 2676,
       "lnovel_id": 785,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275902772,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2676,
+      "id": 2676,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14954,
+          "chapter_name": "#坠落",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14955,
+          "chapter_name": "#令人不愉快的事情",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14956,
+          "chapter_name": "#逃狱少女的行动",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14957,
+          "chapter_name": "#回想",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14958,
+          "chapter_name": "#不明白他的罪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14959,
+          "chapter_name": "#四分五裂的心",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14960,
+          "chapter_name": "#一个秘密，藏了罪恶的盒子",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14961,
+          "chapter_name": "#浅眠之梦",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 14962,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 14963,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

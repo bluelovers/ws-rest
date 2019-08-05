@@ -12,12 +12,14 @@
   "hot_hits": 20207,
   "introduction": "喜好推理的真知子转学到位于东京的一所绿意盎然的高中就读，没想到在同班同学身上竟接二连三地发生恐怖事件！？恐惧的黑影悄悄潜入校园里！隐藏在画与宝石当中的谜团究竟为何？\n可爱的名侦探真知子与男友一起挑战解开神秘事件！悬疑惊悚的名作校园推理故事登场！！",
   "types": [
-    "侦探/校园/恐怖"
+    "侦探",
+    "校园",
+    "恐怖"
   ],
   "authors": "赤川次郎",
   "first_letter": "S",
   "subscribe_num": 359,
-  "redis_update_time": 1564308428,
+  "redis_update_time": 1564931498,
   "volume": [
     {
       "id": 5226,
@@ -25,7 +27,37 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1366882127,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5226,
+      "id": 5226,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 34949,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34950,
+          "chapter_name": "第一部 武藏野学园",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34951,
+          "chapter_name": "第二部 夏日的冒险",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34952,
+          "chapter_name": "第三部 死者的学园祭",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

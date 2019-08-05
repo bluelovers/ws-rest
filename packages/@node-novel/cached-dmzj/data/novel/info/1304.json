@@ -12,12 +12,14 @@
   "hot_hits": 5914,
   "introduction": "“蓬莱学园——全世界屈指可数的巨大高中。地址在东京都台东区宇津帆岛，不过具体位置位于20°50'N，140°31'E（东京正南2500km）。学生数约十万，每年级六十个班。\n俗称‘世界最危险的学园’。该学园因来自日本全国乃至世界各地的独特的学生们异想天开的冒险而闻名……”\n“初恋——学园学生突发的感情，潜伏期间1秒～1小时，伴随发烧、手抖、逃课、学园内流浪等症状。治疗方法是恋爱的成功或完美的失恋，不过成功是罕见的。……↓参照‘追逐’、‘逃课’、‘朝比奈纯一’等项”",
   "types": [
-    "校园/冒险/爱情"
+    "校园",
+    "冒险",
+    "爱情"
   ],
   "authors": "新城十马",
   "first_letter": "P",
   "subscribe_num": 33,
-  "redis_update_time": 1564222716,
+  "redis_update_time": 1564603913,
   "volume": [
     {
       "id": 4742,
@@ -25,7 +27,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1348907741,
-      "sum_chapters": 5
+      "sum_chapters": 6
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4742,
+      "id": 4742,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 30768,
+          "chapter_name": "第一章 朝比奈纯一目击自己的命运",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30769,
+          "chapter_name": "第二章 “那个女生”、课程和有轨电车",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30770,
+          "chapter_name": "第三章 发自反省房、学园最恶的特快专递",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30771,
+          "chapter_name": "第四章 “弁天女生宿舍”，深夜（其一）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30772,
+          "chapter_name": "第五章 “弁天女生宿舍”，深夜（其二）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30773,
+          "chapter_name": "第六章 塔顶的短时间重要会话与决心",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30774,
+          "chapter_name": "第七章 “大家，听我说！！……”",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 30775,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 30776,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

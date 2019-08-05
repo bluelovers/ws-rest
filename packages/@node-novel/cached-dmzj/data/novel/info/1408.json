@@ -12,12 +12,13 @@
   "hot_hits": 55096,
   "introduction": "稻叶悠大是一个极其平凡的高中生，但从某一天开始却遭到奇怪人物的跟踪。不过悠大并没有时间理会跟踪狂，因为他正忙着和青梅竹马日向诗织在养育一个走失的女童莉莉。失去记忆的莉莉并不记得自己的父母，而且悠大周遭的人居然还把莉莉当作他和诗织的『孩子』看待!?　由新人赏作家小岩井莲二带来的一部温馨感人的育儿爱情喜剧！",
   "types": [
-    "搞笑/爱情"
+    "搞笑",
+    "爱情"
   ],
   "authors": "小岩井莲二",
   "first_letter": "N",
-  "subscribe_num": 702,
-  "redis_update_time": 1564264534,
+  "subscribe_num": 704,
+  "redis_update_time": 1564921762,
   "volume": [
     {
       "id": 5162,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1364267208,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 5883,
@@ -33,7 +34,95 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1395070853,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5162,
+      "id": 5162,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 34403,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34404,
+          "chapter_name": "第一话 爸爸并不是恋童癖患者。",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34405,
+          "chapter_name": "第二话 抚养小孩与高中生活",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34406,
+          "chapter_name": "第三话 捏饭团NOW！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34407,
+          "chapter_name": "第四话 前往裂缝的另一端",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34408,
+          "chapter_name": "第五话 你并不孤单！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34409,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 34410,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5883,
+      "id": 5883,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 40643,
+          "chapter_name": "第一话 买脚踏车吧",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40644,
+          "chapter_name": "第二话 家庭餐厅的女仆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40645,
+          "chapter_name": "第三话 练习",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40646,
+          "chapter_name": "第四话 再一次",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40647,
+          "chapter_name": "第五话 不会变得孤单",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40648,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

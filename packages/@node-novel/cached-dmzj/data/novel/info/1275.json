@@ -12,12 +12,14 @@
   "hot_hits": 13487,
   "introduction": "世界上唯一能使用魔法的战士是精灵操术师。其中拥有[红剑鬼]之名隶属法苏朗王国军的利奥斯，在被调遣到欧菲班徳岛的时候卷入了当地军队的叛乱中。和作为新兵的龙骑兵菲利亚，工兵阿莉珴塔一起，协助正规军，镇压叛乱。在这场战斗中，利奥斯见到了仇敌黑暗狂战士木琉麻铝那狂傲的身姿。",
   "types": [
-    "魔法/战争/异界"
+    "魔法",
+    "战争",
+    "异界"
   ],
   "authors": "はやけん",
   "first_letter": "H",
-  "subscribe_num": 106,
-  "redis_update_time": 1564312365,
+  "subscribe_num": 107,
+  "redis_update_time": 1564926500,
   "volume": [
     {
       "id": 4618,
@@ -25,7 +27,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1344409261,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4618,
+      "id": 4618,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 29784,
+          "chapter_name": "序言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29785,
+          "chapter_name": "第一章 叛乱",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29786,
+          "chapter_name": "第二章 红剑鬼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29787,
+          "chapter_name": "第三章 泰伊门监狱的战斗",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29788,
+          "chapter_name": "第四章 少女的眼泪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29789,
+          "chapter_name": "第五章 为了守护之物",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29790,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

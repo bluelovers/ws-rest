@@ -16,8 +16,8 @@
   ],
   "authors": "森见登美彦",
   "first_letter": "H",
-  "subscribe_num": 675,
-  "redis_update_time": 1564286484,
+  "subscribe_num": 682,
+  "redis_update_time": 1564960980,
   "volume": [
     {
       "id": 4431,
@@ -25,7 +25,37 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1335347272,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4431,
+      "id": 4431,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 28107,
+          "chapter_name": "Chapter 01 狐的故事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28108,
+          "chapter_name": "Chapter 02 果实中的龙",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28109,
+          "chapter_name": "Chapter 03 魔",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28110,
+          "chapter_name": "Chapter 04 水神",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

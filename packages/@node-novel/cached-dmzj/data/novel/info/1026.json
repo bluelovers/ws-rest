@@ -3,7 +3,7 @@
   "name": "花物语(物语系列六)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第变话 骏河恶魔\r",
+  "last_update_volume_name": "第变话 骏河恶魔",
   "last_update_chapter_name": "第变话 骏河恶魔 插图",
   "last_update_volume_id": 3623,
   "last_update_chapter_id": 21186,
@@ -12,20 +12,83 @@
   "hot_hits": 321699,
   "introduction": "　　怀抱恶劣趣味写出来的小说。\n　　“成不了药就成为毒。不然你只是普通的水”\n　　阿良良木历毕业后，升读高中三年级的神原骏河。独自留在直江津高中的她听到了\n　　“能实现你所有愿望的‘恶魔大人’”的传闻……\n　　【物语】渐渐坠入神原——\n　　这是现代的\n　　怪异！怪异！怪异！\n　　为了了解你、释放疑惑的物语。",
   "types": [
-    "爱情/校园/神鬼/后宫"
+    "爱情",
+    "校园",
+    "神鬼",
+    "后宫"
   ],
   "authors": "西尾维新",
   "first_letter": "H",
-  "subscribe_num": 11168,
-  "redis_update_time": 1564307569,
+  "subscribe_num": 11231,
+  "redis_update_time": 1564977511,
   "volume": [
     {
       "id": 3623,
       "lnovel_id": 1026,
-      "volume_name": "第变话 骏河恶魔\r",
+      "volume_name": "第变话 骏河恶魔",
       "volume_order": 10,
       "addtime": 1304489406,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3623,
+      "id": 3623,
+      "volume_name": "第变话 骏河恶魔",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 21168,
+          "chapter_name": "001-004",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21169,
+          "chapter_name": "005-008",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21170,
+          "chapter_name": "009-012",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21171,
+          "chapter_name": "013-016",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21172,
+          "chapter_name": "017-020",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21173,
+          "chapter_name": "021-024",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21174,
+          "chapter_name": "025-028",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 21175,
+          "chapter_name": "029-032",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 21176,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 21186,
+          "chapter_name": "第变话 骏河恶魔 插图",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

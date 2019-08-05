@@ -3,7 +3,7 @@
   "name": "纯爱咖啡厅",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "惠麻&里伽子篇\r",
+  "last_update_volume_name": "惠麻&里伽子篇",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 250,
   "last_update_chapter_id": 1505,
@@ -16,24 +16,52 @@
   ],
   "authors": "おおつやすたか",
   "first_letter": "C",
-  "subscribe_num": 166,
-  "redis_update_time": 1564294475,
+  "subscribe_num": 168,
+  "redis_update_time": 1565018860,
   "volume": [
     {
       "id": 249,
       "lnovel_id": 65,
-      "volume_name": "由飞卷\r",
+      "volume_name": "由飞卷",
       "volume_order": 10,
       "addtime": 1274917820,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 250,
       "lnovel_id": 65,
-      "volume_name": "惠麻&里伽子篇\r",
+      "volume_name": "惠麻&里伽子篇",
       "volume_order": 20,
       "addtime": 1274917820,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 249,
+      "id": 249,
+      "volume_name": "由飞卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 1504,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 250,
+      "id": 250,
+      "volume_name": "惠麻&里伽子篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 1505,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

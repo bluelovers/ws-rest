@@ -3,7 +3,7 @@
   "name": "眼镜之心",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2120,
   "last_update_chapter_id": 12398,
@@ -17,15 +17,30 @@
   "authors": "ゆうきりん",
   "first_letter": "Y",
   "subscribe_num": 46,
-  "redis_update_time": 1563565320,
+  "redis_update_time": 1565016594,
   "volume": [
     {
       "id": 2120,
       "lnovel_id": 564,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918890,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2120,
+      "id": 2120,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12398,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

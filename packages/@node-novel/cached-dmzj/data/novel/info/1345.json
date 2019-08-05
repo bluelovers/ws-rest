@@ -12,12 +12,13 @@
   "hot_hits": 64323,
   "introduction": "日本最南端的冲绳——沙藤叶踏上了这片远方的土地！\n在这里，叶与古道热肠的邻家少女浜门陆、地方偶像照瑠等热情的邻居们相遇了。\n尽管叶向她们放言“我可是天才！离我远点！”，却没有人相信他的话，不情不愿却又充满快乐的生活就此展开。\n然而，当叶找回完成「未完成论文“破坏者（Demolishor）”」的记忆之时，世界灭亡的序曲开始奏响。\n叶能成为救世主，拯救世界吗？！",
   "types": [
-    "爱情/科幻"
+    "爱情",
+    "科幻"
   ],
   "authors": "岩井恭平",
   "first_letter": "Z",
-  "subscribe_num": 5743,
-  "redis_update_time": 1564312838,
+  "subscribe_num": 5746,
+  "redis_update_time": 1564958278,
   "volume": [
     {
       "id": 4890,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 破坏者",
       "volume_order": 10,
       "addtime": 1354993380,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 8060,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 黄金火山与幸福的少女",
       "volume_order": 20,
       "addtime": 1471941549,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 9297,
@@ -41,7 +42,153 @@
       "volume_name": "第三卷 文明吞噬者",
       "volume_order": 30,
       "addtime": 1521800771,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4890,
+      "id": 4890,
+      "volume_name": "第一卷 破坏者",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32160,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32161,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32162,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32163,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32164,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32165,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32166,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32167,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 8060,
+      "id": 8060,
+      "volume_name": "第二卷 黄金火山与幸福的少女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 65504,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 65505,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 65506,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 65507,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 65508,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 65509,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 65510,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 65511,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 65666,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 9297,
+      "id": 9297,
+      "volume_name": "第三卷 文明吞噬者",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 83765,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 83766,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 83767,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 83768,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 95777,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 95778,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 95779,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "水之都与哀伤的歌姬",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "水之都与哀伤的歌姬\r",
+  "last_update_volume_name": "水之都与哀伤的歌姬",
   "last_update_chapter_name": "Navigation.5 「梦幻歌剧和领航员」",
   "last_update_volume_id": 1619,
   "last_update_chapter_id": 9384,
@@ -17,15 +17,55 @@
   "authors": "天野こずえ",
   "first_letter": "S",
   "subscribe_num": 118,
-  "redis_update_time": 1564272124,
+  "redis_update_time": 1564926432,
   "volume": [
     {
       "id": 1619,
       "lnovel_id": 427,
-      "volume_name": "水之都与哀伤的歌姬\r",
+      "volume_name": "水之都与哀伤的歌姬",
       "volume_order": 10,
       "addtime": 1274918579,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1619,
+      "id": 1619,
+      "volume_name": "水之都与哀伤的歌姬",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9379,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9380,
+          "chapter_name": "Navigation.1 「传说中的剧场和灵异事件」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9381,
+          "chapter_name": "Navigation.2 「新的邂逅和歌姬的眼泪」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9382,
+          "chapter_name": "Navigation.3 「谜语和愿望」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9383,
+          "chapter_name": "Navigation.4 「天地和探求之物」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9384,
+          "chapter_name": "Navigation.5 「梦幻歌剧和领航员」",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

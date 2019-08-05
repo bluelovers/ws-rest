@@ -3,7 +3,7 @@
   "name": "少年天草的秀逗咒语",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1493,
   "last_update_chapter_id": 8579,
@@ -17,15 +17,35 @@
   "authors": "牧野修",
   "first_letter": "S",
   "subscribe_num": 102,
-  "redis_update_time": 1564266562,
+  "redis_update_time": 1565023497,
   "volume": [
     {
       "id": 1493,
       "lnovel_id": 394,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918507,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1493,
+      "id": 1493,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 8578,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8579,
+          "chapter_name": "一卷全",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

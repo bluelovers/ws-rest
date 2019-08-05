@@ -3,7 +3,7 @@
   "name": "龙眠",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "终",
   "last_update_volume_id": 959,
   "last_update_chapter_id": 5528,
@@ -17,15 +17,60 @@
   "authors": "宫部美幸",
   "first_letter": "L",
   "subscribe_num": 301,
-  "redis_update_time": 1564221744,
+  "redis_update_time": 1564983577,
   "volume": [
     {
       "id": 959,
       "lnovel_id": 263,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918203,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 959,
+      "id": 959,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5522,
+          "chapter_name": "遭遇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5523,
+          "chapter_name": "涟漪",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5524,
+          "chapter_name": "过去",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5525,
+          "chapter_name": "预兆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5526,
+          "chapter_name": "暗场",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5527,
+          "chapter_name": "事件",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 5528,
+          "chapter_name": "终",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

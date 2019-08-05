@@ -16,32 +16,73 @@
   ],
   "authors": "影山由美",
   "first_letter": "W",
-  "subscribe_num": 384,
-  "redis_update_time": 1564158038,
+  "subscribe_num": 386,
+  "redis_update_time": 1565019201,
   "volume": [
     {
       "id": 2985,
       "lnovel_id": 850,
-      "volume_name": "第一卷 The Prience Has Come！！\r",
+      "volume_name": "第一卷 The Prience Has Come！！",
       "volume_order": 10,
       "addtime": 1277356949,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2986,
       "lnovel_id": 850,
-      "volume_name": "第二卷 Begin The Battle！！\r",
+      "volume_name": "第二卷 Begin The Battle！！",
       "volume_order": 20,
       "addtime": 1277356949,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2987,
       "lnovel_id": 850,
-      "volume_name": "第三卷 The Gift Has Awaked！！\r",
+      "volume_name": "第三卷 The Gift Has Awaked！！",
       "volume_order": 30,
       "addtime": 1277356949,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2985,
+      "id": 2985,
+      "volume_name": "第一卷 The Prience Has Come！！",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16609,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2986,
+      "id": 2986,
+      "volume_name": "第二卷 Begin The Battle！！",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 16610,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2987,
+      "id": 2987,
+      "volume_name": "第三卷 The Gift Has Awaked！！",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 16611,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

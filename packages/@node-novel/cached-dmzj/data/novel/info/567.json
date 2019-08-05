@@ -3,7 +3,7 @@
   "name": "银之镇魂歌",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "银之镇魂歌\r",
+  "last_update_volume_name": "银之镇魂歌",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 2126,
   "last_update_chapter_id": 12413,
@@ -16,16 +16,31 @@
   ],
   "authors": "吉原理惠子",
   "first_letter": "Y",
-  "subscribe_num": 294,
-  "redis_update_time": 1564126048,
+  "subscribe_num": 295,
+  "redis_update_time": 1565022743,
   "volume": [
     {
       "id": 2126,
       "lnovel_id": 567,
-      "volume_name": "银之镇魂歌\r",
+      "volume_name": "银之镇魂歌",
       "volume_order": 10,
       "addtime": 1274918893,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2126,
+      "id": 2126,
+      "volume_name": "银之镇魂歌",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12413,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

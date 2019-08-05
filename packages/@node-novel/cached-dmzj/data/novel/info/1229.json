@@ -12,12 +12,13 @@
   "hot_hits": 14749,
   "introduction": "　　19世纪末，日本正值明治维新时期，人心不安、时局动荡，绅士侦探结城新十郎联合维新英雄胜海舟等人，在东京神乐坂一带展开了一系列曲折奇妙的推理冒险。其精巧细腻的解谜过程，展现着作者坂口安吾对推理小说的独到见解；而其诡谲悬疑的阴谋算计，又无不符合理性和人性，蕴含着日本推理小说前所未有的广度和深度。\n　　“捕物帖”是日本独有的一种侦探小说形式。而《明治开化安吾捕物帖》则是坂口安吾最负盛名的短篇推理小时集。该书结合着历史和推理这两大要素，以明治维新为时代舞台，当可使读者一窥日本转型时期的社会风貌。",
   "types": [
-    "侦探/历史"
+    "侦探",
+    "历史"
   ],
   "authors": "坂口安吾",
   "first_letter": "M",
-  "subscribe_num": 462,
-  "redis_update_time": 1564309105,
+  "subscribe_num": 466,
+  "redis_update_time": 1564964165,
   "volume": [
     {
       "id": 4404,
@@ -25,7 +26,7 @@
       "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1334300200,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4405,
@@ -33,7 +34,125 @@
       "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1334300201,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4404,
+      "id": 4404,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 27882,
+          "chapter_name": "舞会杀人事件",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27883,
+          "chapter_name": "密室奇案",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27884,
+          "chapter_name": "魔教之怪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27885,
+          "chapter_name": "悲惨人间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27886,
+          "chapter_name": "时钟馆的秘密",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27887,
+          "chapter_name": "神秘豪门",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27888,
+          "chapter_name": "冷笑鬼",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 27889,
+          "chapter_name": "狼稻荷",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 27890,
+          "chapter_name": "乞丐男爵",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 27891,
+          "chapter_name": "穿呢绒大衣的男子",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4405,
+      "id": 4405,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 27892,
+          "chapter_name": "小偷一家",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27893,
+          "chapter_name": "血溅珍珠",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27894,
+          "chapter_name": "倒脱靴",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27895,
+          "chapter_name": "闪电下",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27896,
+          "chapter_name": "愚妖",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27897,
+          "chapter_name": "虚幻之塔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27898,
+          "chapter_name": "罗迪南美容术",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 27899,
+          "chapter_name": "圈套",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 27900,
+          "chapter_name": "家里六个人，眼睛一只半",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 27901,
+          "chapter_name": "时钟上的舞俑",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "战斗！暴风少女！",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2204,
   "last_update_chapter_id": 12965,
@@ -16,24 +16,72 @@
   ],
   "authors": "佐佐原史绪",
   "first_letter": "Z",
-  "subscribe_num": 66,
-  "redis_update_time": 1563291767,
+  "subscribe_num": 68,
+  "redis_update_time": 1564634695,
   "volume": [
     {
       "id": 2203,
       "lnovel_id": 587,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918941,
-      "sum_chapters": 11
+      "sum_chapters": 6
     },
     {
       "id": 2204,
       "lnovel_id": 587,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918941,
-      "sum_chapters": 11
+      "sum_chapters": 6
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2203,
+      "id": 2203,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12960,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12961,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12962,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12963,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12964,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2204,
+      "id": 2204,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12965,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

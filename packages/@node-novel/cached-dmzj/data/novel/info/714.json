@@ -3,7 +3,7 @@
   "name": "AS～天使小夜曲",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "阿露缇线\r",
+  "last_update_volume_name": "阿露缇线",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2507,
   "last_update_chapter_id": 14332,
@@ -16,48 +16,115 @@
   ],
   "authors": "日本工画堂工作室",
   "first_letter": "A",
-  "subscribe_num": 90,
-  "redis_update_time": 1564228127,
+  "subscribe_num": 91,
+  "redis_update_time": 1565011408,
   "volume": [
     {
       "id": 2503,
       "lnovel_id": 714,
-      "volume_name": "公共篇\r",
+      "volume_name": "公共篇",
       "volume_order": 10,
       "addtime": 1275481536,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2504,
       "lnovel_id": 714,
-      "volume_name": "纱利雅线\r",
+      "volume_name": "纱利雅线",
       "volume_order": 20,
       "addtime": 1275481536,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2505,
       "lnovel_id": 714,
-      "volume_name": "拉丝蒂线\r",
+      "volume_name": "拉丝蒂线",
       "volume_order": 30,
       "addtime": 1275481536,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2506,
       "lnovel_id": 714,
-      "volume_name": "妃亚线\r",
+      "volume_name": "妃亚线",
       "volume_order": 40,
       "addtime": 1275481536,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2507,
       "lnovel_id": 714,
-      "volume_name": "阿露缇线\r",
+      "volume_name": "阿露缇线",
       "volume_order": 50,
       "addtime": 1275481536,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2503,
+      "id": 2503,
+      "volume_name": "公共篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14328,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2504,
+      "id": 2504,
+      "volume_name": "纱利雅线",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14329,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2505,
+      "id": 2505,
+      "volume_name": "拉丝蒂线",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 14330,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2506,
+      "id": 2506,
+      "volume_name": "妃亚线",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 14331,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2507,
+      "id": 2507,
+      "volume_name": "阿露缇线",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 14332,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

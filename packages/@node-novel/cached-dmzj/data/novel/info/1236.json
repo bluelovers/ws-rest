@@ -16,8 +16,8 @@
   ],
   "authors": "ゆうきりん",
   "first_letter": "M",
-  "subscribe_num": 33367,
-  "redis_update_time": 1564313252,
+  "subscribe_num": 33458,
+  "redis_update_time": 1564967525,
   "volume": [
     {
       "id": 4430,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 青梅竹马是勇者",
       "volume_order": 10,
       "addtime": 1335347033,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4538,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 牛、勇者与南瓜",
       "volume_order": 20,
       "addtime": 1340863261,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4915,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 机器人女孩今天一样不会飞",
       "volume_order": 30,
       "addtime": 1355588927,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5502,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷 天翻地覆的庆典",
       "volume_order": 40,
       "addtime": 1378354563,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5995,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷 野外大冒险！榴槤风味",
       "volume_order": 50,
       "addtime": 1399041874,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6154,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷 她的平凡与那女孩的特别",
       "volume_order": 60,
       "addtime": 1404695842,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6656,
@@ -73,7 +73,7 @@
       "volume_name": "第七卷 闹剧EVERYDAY",
       "volume_order": 70,
       "addtime": 1422358342,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 7018,
@@ -81,7 +81,7 @@
       "volume_name": "第八卷 上下螺旋",
       "volume_order": 80,
       "addtime": 1436101962,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 7225,
@@ -89,7 +89,7 @@
       "volume_name": "第九卷 村民们的秘密任务",
       "volume_order": 90,
       "addtime": 1442665535,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 7377,
@@ -97,7 +97,7 @@
       "volume_name": "第十卷 Go West！魔王大人们！！",
       "volume_order": 100,
       "addtime": 1449661508,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 8527,
@@ -105,7 +105,537 @@
       "volume_name": "第十一卷 魔王大人和我们的毕业式",
       "volume_order": 110,
       "addtime": 1488032943,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4430,
+      "id": 4430,
+      "volume_name": "第一卷 青梅竹马是勇者",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 28099,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28100,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28101,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28102,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28103,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28104,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 4538,
+      "id": 4538,
+      "volume_name": "第二卷 牛、勇者与南瓜",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 29014,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29015,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29016,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29017,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29018,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29019,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29020,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 29021,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 29022,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4915,
+      "id": 4915,
+      "volume_name": "第三卷 机器人女孩今天一样不会飞",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 32382,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32383,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32384,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32385,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32386,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32387,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32388,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32389,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5502,
+      "id": 5502,
+      "volume_name": "第四卷 天翻地覆的庆典",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 37373,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37374,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37375,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37376,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37377,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37378,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37379,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 37380,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5995,
+      "id": 5995,
+      "volume_name": "第五卷 野外大冒险！榴槤风味",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 41626,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 41627,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 41628,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 41629,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41630,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 41631,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 41632,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41633,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6154,
+      "id": 6154,
+      "volume_name": "第六卷 她的平凡与那女孩的特别",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 43098,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43099,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43100,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43101,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43102,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43103,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43104,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43105,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6656,
+      "id": 6656,
+      "volume_name": "第七卷 闹剧EVERYDAY",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 47860,
+          "chapter_name": "序言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47861,
+          "chapter_name": "1 锁之咒语",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47862,
+          "chapter_name": "2 在大圣诞树下",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 55548,
+          "chapter_name": "3 《年菜》大战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47864,
+          "chapter_name": "4 魔王的新年参拜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47865,
+          "chapter_name": "5 歼灭人类没那么简单！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47866,
+          "chapter_name": "终曲",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 47867,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7018,
+      "id": 7018,
+      "volume_name": "第八卷 上下螺旋",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 51262,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51263,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51264,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51265,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51266,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51267,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51268,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51269,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7225,
+      "id": 7225,
+      "volume_name": "第九卷 村民们的秘密任务",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 53091,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 53092,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53093,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 53094,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 53095,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 53096,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 53097,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 53098,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7377,
+      "id": 7377,
+      "volume_name": "第十卷 Go West！魔王大人们！！",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 55392,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55393,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 55394,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 55395,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 55396,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 55397,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 55398,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 8527,
+      "id": 8527,
+      "volume_name": "第十一卷 魔王大人和我们的毕业式",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 72439,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 72440,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 72451,
+          "chapter_name": "第二章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 72452,
+          "chapter_name": "第三章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 72453,
+          "chapter_name": "第四章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 72454,
+          "chapter_name": "第五章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 72455,
+          "chapter_name": "第六章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 72456,
+          "chapter_name": "尾声 ~然后村民A迈向传说~",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 72457,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 72458,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

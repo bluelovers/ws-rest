@@ -3,7 +3,7 @@
   "name": "献给虚无的供物",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2594,
   "last_update_chapter_id": 14641,
@@ -16,16 +16,31 @@
   ],
   "authors": "中井英夫",
   "first_letter": "X",
-  "subscribe_num": 794,
-  "redis_update_time": 1564303793,
+  "subscribe_num": 807,
+  "redis_update_time": 1565026251,
   "volume": [
     {
       "id": 2594,
       "lnovel_id": 754,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275561490,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2594,
+      "id": 2594,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14641,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

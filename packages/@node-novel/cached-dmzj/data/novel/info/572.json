@@ -3,7 +3,7 @@
   "name": "月姬II_TheDarkSix",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "The Dark Six\r",
+  "last_update_volume_name": "The Dark Six",
   "last_update_chapter_name": "The Dark Six",
   "last_update_volume_id": 2139,
   "last_update_chapter_id": 12503,
@@ -16,16 +16,31 @@
   ],
   "authors": "奈须きのこ",
   "first_letter": "Y",
-  "subscribe_num": 2615,
-  "redis_update_time": 1564313138,
+  "subscribe_num": 2657,
+  "redis_update_time": 1565022864,
   "volume": [
     {
       "id": 2139,
       "lnovel_id": 572,
-      "volume_name": "The Dark Six\r",
+      "volume_name": "The Dark Six",
       "volume_order": 10,
       "addtime": 1274918901,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2139,
+      "id": 2139,
+      "volume_name": "The Dark Six",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12503,
+          "chapter_name": "The Dark Six",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

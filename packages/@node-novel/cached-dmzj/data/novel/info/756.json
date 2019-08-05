@@ -3,7 +3,7 @@
   "name": "匣中的失乐",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "下卷\r",
+  "last_update_volume_name": "下卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2600,
   "last_update_chapter_id": 14648,
@@ -16,24 +16,52 @@
   ],
   "authors": "竹本健治",
   "first_letter": "X",
-  "subscribe_num": 969,
-  "redis_update_time": 1564303418,
+  "subscribe_num": 979,
+  "redis_update_time": 1565013190,
   "volume": [
     {
       "id": 2599,
       "lnovel_id": 756,
-      "volume_name": "上卷\r",
+      "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1275561491,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2600,
       "lnovel_id": 756,
-      "volume_name": "下卷\r",
+      "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1275561491,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2599,
+      "id": 2599,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14647,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2600,
+      "id": 2600,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14648,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

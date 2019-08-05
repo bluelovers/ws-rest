@@ -16,16 +16,31 @@
   ],
   "authors": "皆川由佳",
   "first_letter": "J",
-  "subscribe_num": 217,
-  "redis_update_time": 1564308241,
+  "subscribe_num": 218,
+  "redis_update_time": 1565017748,
   "volume": [
     {
       "id": 2952,
       "lnovel_id": 836,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1277352838,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2952,
+      "id": 2952,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16535,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

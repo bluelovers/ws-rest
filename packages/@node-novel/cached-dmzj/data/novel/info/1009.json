@@ -3,7 +3,7 @@
   "name": "玛莉亚狂热",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "争奇斗妍短篇集\r",
+  "last_update_volume_name": "争奇斗妍短篇集",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3552,
   "last_update_chapter_id": 20638,
@@ -16,16 +16,56 @@
   ],
   "authors": "松野秋鸣",
   "first_letter": "M",
-  "subscribe_num": 374,
-  "redis_update_time": 1564286980,
+  "subscribe_num": 375,
+  "redis_update_time": 1564950920,
   "volume": [
     {
       "id": 3552,
       "lnovel_id": 1009,
-      "volume_name": "争奇斗妍短篇集\r",
+      "volume_name": "争奇斗妍短篇集",
       "volume_order": 10,
       "addtime": 1300844953,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3552,
+      "id": 3552,
+      "volume_name": "争奇斗妍短篇集",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20633,
+          "chapter_name": "施虐驱魔的故事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20634,
+          "chapter_name": "傲娇少女与逃亡毛蟹的故事",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20635,
+          "chapter_name": "寻找佳奈子！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20636,
+          "chapter_name": "被恶魔附身之女孩的故事",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20637,
+          "chapter_name": "ISLAM SUNK",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20638,
+          "chapter_name": "插图",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

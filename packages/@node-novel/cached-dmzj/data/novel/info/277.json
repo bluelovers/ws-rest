@@ -3,7 +3,7 @@
   "name": "My Sweet",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 我甜蜜的苦涩公主\r",
+  "last_update_volume_name": "第二卷 我甜蜜的苦涩公主",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1060,
   "last_update_chapter_id": 6116,
@@ -16,24 +16,72 @@
   ],
   "authors": "森田季节",
   "first_letter": "M",
-  "subscribe_num": 295,
-  "redis_update_time": 1564278084,
+  "subscribe_num": 296,
+  "redis_update_time": 1565035500,
   "volume": [
     {
       "id": 1059,
       "lnovel_id": 277,
-      "volume_name": "第一卷 我甜蜜的苦涩委内瑞拉\r",
+      "volume_name": "第一卷 我甜蜜的苦涩委内瑞拉",
       "volume_order": 10,
       "addtime": 1274918256,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1060,
       "lnovel_id": 277,
-      "volume_name": "第二卷 我甜蜜的苦涩公主\r",
+      "volume_name": "第二卷 我甜蜜的苦涩公主",
       "volume_order": 20,
       "addtime": 1274918256,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1059,
+      "id": 1059,
+      "volume_name": "第一卷 我甜蜜的苦涩委内瑞拉",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6111,
+          "chapter_name": "背景介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6112,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6113,
+          "chapter_name": "有些机会千死一逢",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6114,
+          "chapter_name": "你若夺走十命，我便以百命偿之",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6115,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1060,
+      "id": 1060,
+      "volume_name": "第二卷 我甜蜜的苦涩公主",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 6116,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

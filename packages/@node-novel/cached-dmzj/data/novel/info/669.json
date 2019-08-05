@@ -3,7 +3,7 @@
   "name": "猫娘姐妹",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第一卷 插图",
   "last_update_volume_id": 2441,
   "last_update_chapter_id": 17456,
@@ -16,16 +16,61 @@
   ],
   "authors": "伏见司",
   "first_letter": "M",
-  "subscribe_num": 1023,
-  "redis_update_time": 1564313790,
+  "subscribe_num": 1027,
+  "redis_update_time": 1565029984,
   "volume": [
     {
       "id": 2441,
       "lnovel_id": 669,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481531,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2441,
+      "id": 2441,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14217,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14218,
+          "chapter_name": "第一话 虎斑猫的家庭教师时间",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14219,
+          "chapter_name": "第二话 黑猫的爱情故事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14220,
+          "chapter_name": "第三话 三毛猫的学校生活",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14221,
+          "chapter_name": "第四话 少女的英雄气概",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14222,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17456,
+          "chapter_name": "插图",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

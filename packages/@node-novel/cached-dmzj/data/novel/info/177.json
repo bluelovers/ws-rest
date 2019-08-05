@@ -16,48 +16,48 @@
   ],
   "authors": "龙骑士07",
   "first_letter": "H",
-  "subscribe_num": 4810,
-  "redis_update_time": 1564311015,
+  "subscribe_num": 4837,
+  "redis_update_time": 1565036436,
   "volume": [
     {
       "id": 628,
       "lnovel_id": 177,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918023,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 629,
       "lnovel_id": 177,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918023,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 630,
       "lnovel_id": 177,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918023,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 631,
       "lnovel_id": 177,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918023,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 632,
       "lnovel_id": 177,
-      "volume_name": "第五卷\r",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1274918023,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3124,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1282928617,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3917,
@@ -73,7 +73,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1315879968,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3918,
@@ -81,7 +81,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1315879972,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6561,
@@ -89,7 +89,114 @@
       "volume_name": "外传 翼",
       "volume_order": 90,
       "addtime": 1419008005,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 628,
+      "id": 628,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3674,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 629,
+      "id": 629,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3675,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 630,
+      "id": 630,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3676,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 631,
+      "id": 631,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": []
+    },
+    {
+      "volume_id": 632,
+      "id": 632,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 3678,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3124,
+      "id": 3124,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": []
+    },
+    {
+      "volume_id": 3917,
+      "id": 3917,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 23672,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3918,
+      "id": 3918,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 46912,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 6561,
+      "id": 6561,
+      "volume_name": "外传 翼",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 46913,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

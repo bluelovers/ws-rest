@@ -3,7 +3,7 @@
   "name": "XXXHOLIC—兰德尔特环的粉尘",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "四月一日灵异事件簿—兰德尔特环的粉尘\r",
+  "last_update_volume_name": "四月一日灵异事件簿—兰德尔特环的粉尘",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2013,
   "last_update_chapter_id": 11875,
@@ -16,16 +16,51 @@
   ],
   "authors": "西尾维新",
   "first_letter": "X",
-  "subscribe_num": 2222,
-  "redis_update_time": 1564299198,
+  "subscribe_num": 2233,
+  "redis_update_time": 1565022570,
   "volume": [
     {
       "id": 2013,
       "lnovel_id": 532,
-      "volume_name": "四月一日灵异事件簿—兰德尔特环的粉尘\r",
+      "volume_name": "四月一日灵异事件簿—兰德尔特环的粉尘",
       "volume_order": 10,
       "addtime": 1274918827,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2013,
+      "id": 2013,
+      "volume_name": "四月一日灵异事件簿—兰德尔特环的粉尘",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11871,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11872,
+          "chapter_name": "第一话 outer-holic",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11873,
+          "chapter_name": "第二话 under-holic",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11874,
+          "chapter_name": "第三话 after-holic",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11875,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

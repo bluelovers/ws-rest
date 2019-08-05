@@ -3,7 +3,7 @@
   "name": "魔女宅急便",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第5卷 魔法的歇脚树\r",
+  "last_update_volume_name": "第5卷 魔法的歇脚树",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1072,
   "last_update_chapter_id": 6157,
@@ -17,47 +17,189 @@
   "authors": "角野栄子",
   "first_letter": "M",
   "subscribe_num": 158,
-  "redis_update_time": 1564201972,
+  "redis_update_time": 1564910978,
   "volume": [
     {
       "id": 1068,
       "lnovel_id": 283,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918261,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 1069,
       "lnovel_id": 283,
-      "volume_name": "琪琪的新魔法\r",
+      "volume_name": "琪琪的新魔法",
       "volume_order": 20,
       "addtime": 1274918261,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 1070,
       "lnovel_id": 283,
-      "volume_name": "第3卷 琪琪和另一个魔女\r",
+      "volume_name": "第3卷 琪琪和另一个魔女",
       "volume_order": 30,
       "addtime": 1274918261,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 1071,
       "lnovel_id": 283,
-      "volume_name": "第4卷 琪琪的恋爱\r",
+      "volume_name": "第4卷 琪琪的恋爱",
       "volume_order": 40,
       "addtime": 1274918261,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 1072,
       "lnovel_id": 283,
-      "volume_name": "第5卷 魔法的歇脚树\r",
+      "volume_name": "第5卷 魔法的歇脚树",
       "volume_order": 50,
       "addtime": 1274918261,
-      "sum_chapters": 5
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1068,
+      "id": 1068,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6138,
+          "chapter_name": "故事的开头",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6139,
+          "chapter_name": "琪琪，迎来独立生活的日子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6140,
+          "chapter_name": "琪琪，在一个大镇子里落脚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6141,
+          "chapter_name": "琪琪，开店",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6142,
+          "chapter_name": "琪琪，遇到一件大事",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6143,
+          "chapter_name": "琪琪，有些心烦",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6144,
+          "chapter_name": "琪琪，偷看别人的秘密",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6145,
+          "chapter_name": "琪琪，为船长解忧",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 6146,
+          "chapter_name": "琪琪，送来新年",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 6147,
+          "chapter_name": "琪琪，送来春天的声音",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 6148,
+          "chapter_name": "琪琪，回家探亲",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 1069,
+      "id": 1069,
+      "volume_name": "琪琪的新魔法",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 6149,
+          "chapter_name": "琪琪，重返柯里柯镇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6150,
+          "chapter_name": "琪琪，快递河马",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6151,
+          "chapter_name": "琪琪，快递天蓝色魔法包",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6152,
+          "chapter_name": "琪琪，快递“森林之窗”",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6153,
+          "chapter_name": "琪琪，快递汤婆子",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6154,
+          "chapter_name": "琪琪，快递种子",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 1070,
+      "id": 1070,
+      "volume_name": "第3卷 琪琪和另一个魔女",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 6155,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1071,
+      "id": 1071,
+      "volume_name": "第4卷 琪琪的恋爱",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 6156,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1072,
+      "id": 1072,
+      "volume_name": "第5卷 魔法的歇脚树",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 6157,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

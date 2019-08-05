@@ -3,7 +3,7 @@
   "name": "手机听众",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全一卷\r",
+  "last_update_volume_name": "全一卷",
   "last_update_chapter_name": "手机听众",
   "last_update_volume_id": 1561,
   "last_update_chapter_id": 9039,
@@ -16,16 +16,31 @@
   ],
   "authors": "西尾维新",
   "first_letter": "S",
-  "subscribe_num": 525,
-  "redis_update_time": 1564297226,
+  "subscribe_num": 528,
+  "redis_update_time": 1565032027,
   "volume": [
     {
       "id": 1561,
       "lnovel_id": 407,
-      "volume_name": "全一卷\r",
+      "volume_name": "全一卷",
       "volume_order": 10,
       "addtime": 1274918546,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1561,
+      "id": 1561,
+      "volume_name": "全一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9039,
+          "chapter_name": "手机听众",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

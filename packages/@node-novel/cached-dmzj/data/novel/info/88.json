@@ -3,7 +3,7 @@
   "name": "第十三种人格的恐怖",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全一卷\r",
+  "last_update_volume_name": "全一卷",
   "last_update_chapter_name": "第13种人格新的杀人手段",
   "last_update_volume_id": 329,
   "last_update_chapter_id": 2062,
@@ -16,16 +16,91 @@
   ],
   "authors": "贵志袏介",
   "first_letter": "D",
-  "subscribe_num": 825,
-  "redis_update_time": 1564313549,
+  "subscribe_num": 830,
+  "redis_update_time": 1565034218,
   "volume": [
     {
       "id": 329,
       "lnovel_id": 88,
-      "volume_name": "全一卷\r",
+      "volume_name": "全一卷",
       "volume_order": 10,
       "addtime": 1274917861,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 329,
+      "id": 329,
+      "volume_name": "全一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2050,
+          "chapter_name": "由香里的特异功能",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2051,
+          "chapter_name": "危险的第13种人格",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2052,
+          "chapter_name": "千寻的临死实验",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2053,
+          "chapter_name": "人格支配下的第一次谋杀",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2054,
+          "chapter_name": "多重人格走向统合",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2055,
+          "chapter_name": "接二连三的神秘死亡事件",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2056,
+          "chapter_name": "高野弥生死亡之谜",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2057,
+          "chapter_name": "荒谬的体外脱离实验",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2058,
+          "chapter_name": "冤魂寄生于千寻肉体",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 2059,
+          "chapter_name": "暂时逃过冤魂追杀",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 2060,
+          "chapter_name": "迎着冤魂冲上去",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 2061,
+          "chapter_name": "撼人心魄的同归于尽",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 2062,
+          "chapter_name": "第13种人格新的杀人手段",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

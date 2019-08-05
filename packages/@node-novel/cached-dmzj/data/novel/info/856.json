@@ -16,16 +16,16 @@
   ],
   "authors": "福泽祐麒",
   "first_letter": "S",
-  "subscribe_num": 166,
-  "redis_update_time": 1564265701,
+  "subscribe_num": 168,
+  "redis_update_time": 1564940570,
   "volume": [
     {
       "id": 3009,
       "lnovel_id": 856,
-      "volume_name": "第一卷 选红或选白？\r",
+      "volume_name": "第一卷 选红或选白？",
       "volume_order": 10,
       "addtime": 1277949716,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3260,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 学院的玩具",
       "volume_order": 20,
       "addtime": 1289182994,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3282,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 Wet or Dry",
       "volume_order": 30,
       "addtime": 1289959547,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3695,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷 给自己加油",
       "volume_order": 40,
       "addtime": 1307066025,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4819,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷 欢庆学园祭",
       "volume_order": 50,
       "addtime": 1352392416,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5336,
@@ -65,7 +65,317 @@
       "volume_name": "第六卷 S接触",
       "volume_order": 60,
       "addtime": 1371534902,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3009,
+      "id": 3009,
+      "volume_name": "第一卷 选红或选白？",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16718,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16719,
+          "chapter_name": "第一章 风波不断的入学典礼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16720,
+          "chapter_name": "第二章 学生会室里的战斗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16721,
+          "chapter_name": "第三章 闷闷不乐的无归属者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 16722,
+          "chapter_name": "第四章 苦涩的周末",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 16723,
+          "chapter_name": "第五章 炽热的友情",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 16724,
+          "chapter_name": "第六章 华尔滋般的三皈依文",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 16725,
+          "chapter_name": "第七章 安德烈的忧郁",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 16726,
+          "chapter_name": "第八章 包裹与绝招",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 16727,
+          "chapter_name": "第九章 魔法般的话语",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 16728,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 16729,
+          "chapter_name": "插图",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 3260,
+      "id": 3260,
+      "volume_name": "第二卷 学院的玩具",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 18503,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18504,
+          "chapter_name": "未来事件的起因",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18505,
+          "chapter_name": "失与得",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18506,
+          "chapter_name": "别烦恼了！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18507,
+          "chapter_name": "暴风雨前的宁静",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18508,
+          "chapter_name": "推理与事实的陷阱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18509,
+          "chapter_name": "Don't stop!",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18510,
+          "chapter_name": "事后的奖励",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18511,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 3282,
+      "id": 3282,
+      "volume_name": "第三卷 Wet or Dry",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 18693,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18694,
+          "chapter_name": "想去哪里？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18695,
+          "chapter_name": "太棒了！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18696,
+          "chapter_name": "我很受欢迎",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18697,
+          "chapter_name": "干劲十足？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18698,
+          "chapter_name": "全部接受",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18699,
+          "chapter_name": "无法言喻的心情",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18700,
+          "chapter_name": "冰好了，请用",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18701,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 3695,
+      "id": 3695,
+      "volume_name": "第四卷 给自己加油",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 21756,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21757,
+          "chapter_name": "「像」与「不像」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21758,
+          "chapter_name": "心头的疙瘩如手上的硬皮",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21759,
+          "chapter_name": "怠惰",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21760,
+          "chapter_name": "两人的对谈",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21761,
+          "chapter_name": "跳、跳、跳",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21762,
+          "chapter_name": "以太鼓声援",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 21763,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4819,
+      "id": 4819,
+      "volume_name": "第五卷 欢庆学园祭",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 31523,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31524,
+          "chapter_name": "蔷薇学姐 in 花寺",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31525,
+          "chapter_name": "王子殿下 in 莉莉安",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31526,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 5336,
+      "id": 5336,
+      "volume_name": "第六卷 S接触",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 35987,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35988,
+          "chapter_name": "无论哪个都一样",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35989,
+          "chapter_name": "生病了",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35990,
+          "chapter_name": "七羽鹤",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35991,
+          "chapter_name": "机器人与弥次郎兵卫人偶",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35992,
+          "chapter_name": "兄弟的界线",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35993,
+          "chapter_name": "医院里的情景",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 35994,
+          "chapter_name": "兄弟复活",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 35995,
+          "chapter_name": "成为安德烈的那一天",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 35996,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

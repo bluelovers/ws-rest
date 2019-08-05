@@ -3,7 +3,7 @@
   "name": "恶女来敲门",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "恶女来敲门\r",
+  "last_update_volume_name": "恶女来敲门",
   "last_update_chapter_name": "插图2",
   "last_update_volume_id": 376,
   "last_update_chapter_id": 2324,
@@ -17,15 +17,70 @@
   "authors": "织田兄第",
   "first_letter": "E",
   "subscribe_num": 325,
-  "redis_update_time": 1564275937,
+  "redis_update_time": 1564976825,
   "volume": [
     {
       "id": 376,
       "lnovel_id": 107,
-      "volume_name": "恶女来敲门\r",
+      "volume_name": "恶女来敲门",
       "volume_order": 10,
       "addtime": 1274917885,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 376,
+      "id": 376,
+      "volume_name": "恶女来敲门",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2316,
+          "chapter_name": "序章 突然 就来了",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2317,
+          "chapter_name": "第一章 来路不明的她",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2318,
+          "chapter_name": "第二章 Another",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2319,
+          "chapter_name": "第三章 重要时机",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2320,
+          "chapter_name": "第四章 我所期望的未来",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2321,
+          "chapter_name": "终章 果然 来了",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2322,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2323,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2324,
+          "chapter_name": "插图2",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

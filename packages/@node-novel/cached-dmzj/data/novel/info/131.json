@@ -3,7 +3,7 @@
   "name": "Gift 永恒的彩虹",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "缘篇\r",
+  "last_update_volume_name": "缘篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 491,
   "last_update_chapter_id": 3066,
@@ -16,48 +16,115 @@
   ],
   "authors": "驹尾真子",
   "first_letter": "G",
-  "subscribe_num": 280,
-  "redis_update_time": 1564205275,
+  "subscribe_num": 284,
+  "redis_update_time": 1564986137,
   "volume": [
     {
       "id": 487,
       "lnovel_id": 131,
-      "volume_name": "雾乃篇\r",
+      "volume_name": "雾乃篇",
       "volume_order": 10,
       "addtime": 1274917948,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 488,
       "lnovel_id": 131,
-      "volume_name": "千纱篇\r",
+      "volume_name": "千纱篇",
       "volume_order": 20,
       "addtime": 1274917948,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 489,
       "lnovel_id": 131,
-      "volume_name": "莉子篇\r",
+      "volume_name": "莉子篇",
       "volume_order": 30,
       "addtime": 1274917948,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 490,
       "lnovel_id": 131,
-      "volume_name": "纶花篇\r",
+      "volume_name": "纶花篇",
       "volume_order": 40,
       "addtime": 1274917948,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 491,
       "lnovel_id": 131,
-      "volume_name": "缘篇\r",
+      "volume_name": "缘篇",
       "volume_order": 50,
       "addtime": 1274917948,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 487,
+      "id": 487,
+      "volume_name": "雾乃篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3062,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 488,
+      "id": 488,
+      "volume_name": "千纱篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3063,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 489,
+      "id": 489,
+      "volume_name": "莉子篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3064,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 490,
+      "id": 490,
+      "volume_name": "纶花篇",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 3065,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 491,
+      "id": 491,
+      "volume_name": "缘篇",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 3066,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

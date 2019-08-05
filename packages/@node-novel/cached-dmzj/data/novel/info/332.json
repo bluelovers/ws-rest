@@ -3,7 +3,7 @@
   "name": "起死回生的少女",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 诱拐\r",
+  "last_update_volume_name": "第四卷 诱拐",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1251,
   "last_update_chapter_id": 7215,
@@ -16,40 +16,94 @@
   ],
   "authors": "篠原千绘",
   "first_letter": "Q",
-  "subscribe_num": 152,
-  "redis_update_time": 1564279264,
+  "subscribe_num": 153,
+  "redis_update_time": 1564958018,
   "volume": [
     {
       "id": 1248,
       "lnovel_id": 332,
-      "volume_name": "第一卷 转世\r",
+      "volume_name": "第一卷 转世",
       "volume_order": 10,
       "addtime": 1274918364,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1249,
       "lnovel_id": 332,
-      "volume_name": "第二卷 预知\r",
+      "volume_name": "第二卷 预知",
       "volume_order": 20,
       "addtime": 1274918364,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1250,
       "lnovel_id": 332,
-      "volume_name": "第三卷 水祸\r",
+      "volume_name": "第三卷 水祸",
       "volume_order": 30,
       "addtime": 1274918364,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1251,
       "lnovel_id": 332,
-      "volume_name": "第四卷 诱拐\r",
+      "volume_name": "第四卷 诱拐",
       "volume_order": 40,
       "addtime": 1274918364,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1248,
+      "id": 1248,
+      "volume_name": "第一卷 转世",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7212,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1249,
+      "id": 1249,
+      "volume_name": "第二卷 预知",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 7213,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1250,
+      "id": 1250,
+      "volume_name": "第三卷 水祸",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 7214,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1251,
+      "id": 1251,
+      "volume_name": "第四卷 诱拐",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 7215,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

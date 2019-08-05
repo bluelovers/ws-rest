@@ -3,7 +3,7 @@
   "name": "佳奈～妹妹～",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全一卷\r",
+  "last_update_volume_name": "全一卷",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 752,
   "last_update_chapter_id": 4321,
@@ -16,16 +16,31 @@
   ],
   "authors": "D.O. 大仓邦彦",
   "first_letter": "J",
-  "subscribe_num": 1807,
-  "redis_update_time": 1564313084,
+  "subscribe_num": 1822,
+  "redis_update_time": 1565037688,
   "volume": [
     {
       "id": 752,
       "lnovel_id": 208,
-      "volume_name": "全一卷\r",
+      "volume_name": "全一卷",
       "volume_order": 10,
       "addtime": 1274918090,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 752,
+      "id": 752,
+      "volume_name": "全一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4321,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

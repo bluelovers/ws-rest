@@ -3,7 +3,7 @@
   "name": "天是红河岸",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "外传 魔之时代的黎明\r",
+  "last_update_volume_name": "外传 魔之时代的黎明",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2461,
   "last_update_chapter_id": 14242,
@@ -17,15 +17,30 @@
   "authors": "篠原千絵",
   "first_letter": "T",
   "subscribe_num": 182,
-  "redis_update_time": 1564312432,
+  "redis_update_time": 1565020996,
   "volume": [
     {
       "id": 2461,
       "lnovel_id": 680,
-      "volume_name": "外传 魔之时代的黎明\r",
+      "volume_name": "外传 魔之时代的黎明",
       "volume_order": 10,
       "addtime": 1275481532,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2461,
+      "id": 2461,
+      "volume_name": "外传 魔之时代的黎明",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14242,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

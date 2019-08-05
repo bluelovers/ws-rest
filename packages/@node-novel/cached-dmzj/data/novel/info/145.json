@@ -12,20 +12,21 @@
   "hot_hits": 92089,
   "introduction": "清晨，晴空无云，只有初夏才有的那种爽快的一天似乎就要来临。\n——虽说如此，也没什么和平常不一样的地方，更没感到什么异常的征兆或之类的东西，对他——葛城俊，来说，除开天气外，一切简直都和平常一模一样——直到目击那件事情。\n目击那件事之后，世界就变了，并不是在开玩笑或做什么比喻，对葛城俊来说世界确确实实变了。\n在一个早晨内，如果被问道这算是幸运还是倒霉，他绝对会回答“倒霉”。而且他的霉运毫无疑问还会如此的继续下去。",
   "types": [
-    "冒险/格斗"
+    "冒险",
+    "格斗"
   ],
   "authors": "舞阪洸",
   "first_letter": "G",
   "subscribe_num": 568,
-  "redis_update_time": 1564302101,
+  "redis_update_time": 1565034819,
   "volume": [
     {
       "id": 540,
       "lnovel_id": 145,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917977,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4545,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1341557847,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4551,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1341972628,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4813,
@@ -49,7 +50,146 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1352215644,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 540,
+      "id": 540,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 29125,
+          "chapter_name": "第一章 杀戮少女和被杀的少年",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29126,
+          "chapter_name": "第二章 天翔如龙",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29127,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29128,
+          "chapter_name": "第四章 舍去的日常与迎来的日常",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29129,
+          "chapter_name": "第五章 挥着如舞蹈般华丽的剑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29130,
+          "chapter_name": "第六章 闭锁之森与陷阱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29133,
+          "chapter_name": "骏和香月的居合道入门",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 29132,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4545,
+      "id": 4545,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 29134,
+          "chapter_name": "第一章 最初的牺牲者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29135,
+          "chapter_name": "第二章 第二位牺牲者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29136,
+          "chapter_name": "第三章 第三位牺牲者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29137,
+          "chapter_name": "第四章 背叛者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29138,
+          "chapter_name": "梦的故事",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29139,
+          "chapter_name": "作者的补足",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29140,
+          "chapter_name": "骏和香月的居合道入门2",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4551,
+      "id": 4551,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 29202,
+          "chapter_name": "第一章 袭击与背叛者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29304,
+          "chapter_name": "第二章 切开未来的选择",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29305,
+          "chapter_name": "第三章 被选择的未来与希望",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29472,
+          "chapter_name": "第四章 接受与等待",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 4813,
+      "id": 4813,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 31488,
+          "chapter_name": "第一章 应当选择的未来与决断",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45432,
+          "chapter_name": "第二章 被选择的未来与结果",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

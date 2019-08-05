@@ -3,7 +3,7 @@
   "name": "同居五重奏！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 不请自来的少女五重奏\r",
+  "last_update_volume_name": "第一卷 不请自来的少女五重奏",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1712,
   "last_update_chapter_id": 9885,
@@ -17,15 +17,60 @@
   "authors": "越后屋铁舟",
   "first_letter": "T",
   "subscribe_num": 627,
-  "redis_update_time": 1564312972,
+  "redis_update_time": 1565008961,
   "volume": [
     {
       "id": 1712,
       "lnovel_id": 451,
-      "volume_name": "第一卷 不请自来的少女五重奏\r",
+      "volume_name": "第一卷 不请自来的少女五重奏",
       "volume_order": 10,
       "addtime": 1274918632,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1712,
+      "id": 1712,
+      "volume_name": "第一卷 不请自来的少女五重奏",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9879,
+          "chapter_name": "序奏( Intro）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9880,
+          "chapter_name": "独奏( Solo )",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9881,
+          "chapter_name": "重奏（duet )",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9882,
+          "chapter_name": "三重奏（Trio )",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9883,
+          "chapter_name": "四重奏(Quartet )",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9884,
+          "chapter_name": "五重奏（Quintet）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9885,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

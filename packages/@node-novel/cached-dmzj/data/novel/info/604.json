@@ -3,8 +3,8 @@
   "name": "重回那天",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
-  "last_update_chapter_name": "终  章 穿越时空的人",
+  "last_update_volume_name": "第1卷",
+  "last_update_chapter_name": "终 章 穿越时空的人",
   "last_update_volume_id": 2267,
   "last_update_chapter_id": 13217,
   "last_update_time": 1274918977,
@@ -17,15 +17,55 @@
   "authors": "健速",
   "first_letter": "Z",
   "subscribe_num": 469,
-  "redis_update_time": 1564312139,
+  "redis_update_time": 1564979801,
   "volume": [
     {
       "id": 2267,
       "lnovel_id": 604,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918977,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2267,
+      "id": 2267,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13212,
+          "chapter_name": "序 章 昨日今日",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13213,
+          "chapter_name": "第一章 穿越时空",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13214,
+          "chapter_name": "断章二",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13215,
+          "chapter_name": "第三章 远方的落日",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13216,
+          "chapter_name": "第四章 真心",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13217,
+          "chapter_name": "终 章 穿越时空的人",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

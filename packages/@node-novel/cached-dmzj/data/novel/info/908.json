@@ -16,8 +16,8 @@
   ],
   "authors": "有栖川ケイ",
   "first_letter": "S",
-  "subscribe_num": 98,
-  "redis_update_time": 1564308773,
+  "subscribe_num": 101,
+  "redis_update_time": 1564854428,
   "volume": [
     {
       "id": 5297,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 起源～ORIGIN～",
       "volume_order": 10,
       "addtime": 1369739462,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 5319,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 大罪～SEVEN～",
       "volume_order": 20,
       "addtime": 1370659931,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 3210,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 错综～HORIZON～",
       "volume_order": 30,
       "addtime": 1286868262,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6224,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷 结束～CREATION～",
       "volume_order": 40,
       "addtime": 1406642885,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 6860,
@@ -57,7 +57,269 @@
       "volume_name": "第五卷 丧失～FALLEN～",
       "volume_order": 50,
       "addtime": 1431183571,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5297,
+      "id": 5297,
+      "volume_name": "第一卷 起源～ORIGIN～",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 35625,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35626,
+          "chapter_name": "PROLOGUE",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35627,
+          "chapter_name": "VOLUME.1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35628,
+          "chapter_name": "VOLUME.2",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35629,
+          "chapter_name": "VOLUME.3",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35630,
+          "chapter_name": "VOLUME.4",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35631,
+          "chapter_name": "VOLUME.5",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 35632,
+          "chapter_name": "EPILOGUE",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 35633,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 5319,
+      "id": 5319,
+      "volume_name": "第二卷 大罪～SEVEN～",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 35864,
+          "chapter_name": "PROLOGUE",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35865,
+          "chapter_name": "VOLUME.1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35866,
+          "chapter_name": "VOLUME.2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35867,
+          "chapter_name": "VOLUME.3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35868,
+          "chapter_name": "VOLUME.4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35869,
+          "chapter_name": "VOLUME.5",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35870,
+          "chapter_name": "EPILOGUE",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 35871,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3210,
+      "id": 3210,
+      "volume_name": "第三卷 错综～HORIZON～",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 18109,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18110,
+          "chapter_name": "PROLOGUE",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18111,
+          "chapter_name": "VOLUME.I",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18112,
+          "chapter_name": "VOLUME.II",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18113,
+          "chapter_name": "VOLUME.Ⅲ",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18114,
+          "chapter_name": "VOLUME.Ⅳ",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18115,
+          "chapter_name": "VOLUME.V",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18116,
+          "chapter_name": "EPILOGUE",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18117,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6224,
+      "id": 6224,
+      "volume_name": "第四卷 结束～CREATION～",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 43777,
+          "chapter_name": "PROLOGUE",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 43778,
+          "chapter_name": "VOLUME.1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 43779,
+          "chapter_name": "VOLUME.2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43780,
+          "chapter_name": "VOLUME.3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43781,
+          "chapter_name": "VOLUME.4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43782,
+          "chapter_name": "VOLUME.5",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43783,
+          "chapter_name": "EPILOGUE",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 43784,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6860,
+      "id": 6860,
+      "volume_name": "第五卷 丧失～FALLEN～",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 49697,
+          "chapter_name": "PROLOGUE",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49698,
+          "chapter_name": "VOLUME.1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49699,
+          "chapter_name": "VOLUME.2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49700,
+          "chapter_name": "VOLUME.3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 49701,
+          "chapter_name": "VOLUME.4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 49702,
+          "chapter_name": "VOLUME.5",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 49703,
+          "chapter_name": "VOLUME.6",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 49704,
+          "chapter_name": "VOLUME.7",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 49705,
+          "chapter_name": "EPILOGUE",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 49706,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

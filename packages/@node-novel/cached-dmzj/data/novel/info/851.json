@@ -16,16 +16,86 @@
   ],
   "authors": "千叶智宏",
   "first_letter": "J",
-  "subscribe_num": 605,
-  "redis_update_time": 1564289033,
+  "subscribe_num": 608,
+  "redis_update_time": 1565011675,
   "volume": [
     {
       "id": 2988,
       "lnovel_id": 851,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1277357077,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2988,
+      "id": 2988,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16612,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16613,
+          "chapter_name": "MISSION 01「目标是ASTRAY」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16614,
+          "chapter_name": "MISSION 02「血染的英雄威亚」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16615,
+          "chapter_name": "MISSION 03「风花亚哲的冒险」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 16616,
+          "chapter_name": "MISSION 04「阿马逊丛林的战斗」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 16617,
+          "chapter_name": "MISSION 05「Socius的挑战」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 16618,
+          "chapter_name": "MISSION 06「劾的生存之道」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 16619,
+          "chapter_name": "MISSION 07「迷途者（ASTRAY）的历史」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 16620,
+          "chapter_name": "MISSION 08「真正的佣兵」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 16621,
+          "chapter_name": "MISSION 09「各自的感情·守护的人们」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 16622,
+          "chapter_name": "LAST MISSION「天界的战斗」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 16623,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

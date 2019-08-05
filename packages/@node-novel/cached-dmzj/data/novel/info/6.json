@@ -1,9 +1,9 @@
 {
   "id": 6,
-  "name": "AURA　魔龙院光牙最后的战斗",
+  "name": "AURA 魔龙院光牙最后的战斗",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 37,
   "last_update_chapter_id": 201,
@@ -16,16 +16,31 @@
   ],
   "authors": "田中罗密欧",
   "first_letter": "A",
-  "subscribe_num": 1248,
-  "redis_update_time": 1564314210,
+  "subscribe_num": 1255,
+  "redis_update_time": 1565004220,
   "volume": [
     {
       "id": 37,
       "lnovel_id": 6,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917715,
       "sum_chapters": 9
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 37,
+      "id": 37,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 201,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

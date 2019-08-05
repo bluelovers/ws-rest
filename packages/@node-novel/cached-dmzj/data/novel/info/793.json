@@ -3,7 +3,7 @@
   "name": "月姬",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": ".talk(宵明星)\r",
+  "last_update_volume_name": ".talk(宵明星)",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2703,
   "last_update_chapter_id": 15124,
@@ -16,64 +16,467 @@
   ],
   "authors": "奈须きのこ",
   "first_letter": "Y",
-  "subscribe_num": 13171,
-  "redis_update_time": 1564312851,
+  "subscribe_num": 13292,
+  "redis_update_time": 1565028619,
   "volume": [
     {
       "id": 2697,
       "lnovel_id": 793,
-      "volume_name": "公主线\r",
+      "volume_name": "公主线",
       "volume_order": 10,
       "addtime": 1276220553,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2698,
       "lnovel_id": 793,
-      "volume_name": "琥珀线\r",
+      "volume_name": "琥珀线",
       "volume_order": 20,
       "addtime": 1276220553,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2699,
       "lnovel_id": 793,
-      "volume_name": "翡翠线\r",
+      "volume_name": "翡翠线",
       "volume_order": 30,
       "addtime": 1276220553,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2700,
       "lnovel_id": 793,
-      "volume_name": "雪儿线\r",
+      "volume_name": "雪儿线",
       "volume_order": 40,
       "addtime": 1276220553,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2701,
       "lnovel_id": 793,
-      "volume_name": "秋叶线\r",
+      "volume_name": "秋叶线",
       "volume_order": 50,
       "addtime": 1276220553,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2702,
       "lnovel_id": 793,
-      "volume_name": "The Dark Six\r",
+      "volume_name": "The Dark Six",
       "volume_order": 60,
       "addtime": 1276220553,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2703,
       "lnovel_id": 793,
-      "volume_name": ".talk(宵明星)\r",
+      "volume_name": ".talk(宵明星)",
       "volume_order": 70,
       "addtime": 1276220553,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2697,
+      "id": 2697,
+      "volume_name": "公主线",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 15056,
+          "chapter_name": "序章 涂鸦",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15057,
+          "chapter_name": "反转冲动I",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15058,
+          "chapter_name": "反转冲动II",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15059,
+          "chapter_name": "黑之兽I",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15060,
+          "chapter_name": "黑之兽II",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15061,
+          "chapter_name": "苍之咎迹",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15062,
+          "chapter_name": "直死之眼I",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 15063,
+          "chapter_name": "直死之眼II",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 15064,
+          "chapter_name": "死",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 15065,
+          "chapter_name": "朱红之月I",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 15066,
+          "chapter_name": "朱红之月II",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 15067,
+          "chapter_name": "凶之夜",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 15068,
+          "chapter_name": "月世界",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 15069,
+          "chapter_name": "Good End黎明之月",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 15070,
+          "chapter_name": "True End月姬",
+          "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 2698,
+      "id": 2698,
+      "volume_name": "琥珀线",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 15071,
+          "chapter_name": "序章 涂鸦",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15072,
+          "chapter_name": "反转冲动I",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15073,
+          "chapter_name": "反转冲动II",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15074,
+          "chapter_name": "反转冲动III",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15075,
+          "chapter_name": "蓝之庭",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15076,
+          "chapter_name": "KAINN I",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15077,
+          "chapter_name": "未视未死",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 15078,
+          "chapter_name": "逢魔I",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 15079,
+          "chapter_name": "逢魔II",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 15080,
+          "chapter_name": "折纸",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 15081,
+          "chapter_name": "槛",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 15082,
+          "chapter_name": "七夜",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 2699,
+      "id": 2699,
+      "volume_name": "翡翠线",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 15083,
+          "chapter_name": "序章 涂鸦",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15084,
+          "chapter_name": "反转冲动I",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15085,
+          "chapter_name": "反转冲动II",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15086,
+          "chapter_name": "反转冲动III",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15087,
+          "chapter_name": "摇篮之庭",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15088,
+          "chapter_name": "杀人鬼I",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15089,
+          "chapter_name": "杀人鬼II",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 15090,
+          "chapter_name": "透之爪痕",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 15091,
+          "chapter_name": "死",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 15092,
+          "chapter_name": "硝之躯I",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 15093,
+          "chapter_name": "硝之躯II",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 15094,
+          "chapter_name": "硝之躯III",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 15095,
+          "chapter_name": "白昼梦",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 15096,
+          "chapter_name": "金丝之茧",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 15097,
+          "chapter_name": "まひるの月",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 15098,
+          "chapter_name": "附录1 暗黒唇痕",
+          "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 2700,
+      "id": 2700,
+      "volume_name": "雪儿线",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 15099,
+          "chapter_name": "序章 涂鸦",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15100,
+          "chapter_name": "反转冲动I",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15101,
+          "chapter_name": "反转冲动II",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15102,
+          "chapter_name": "黑之兽I",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15103,
+          "chapter_name": "黑之兽II",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15104,
+          "chapter_name": "红色残滓I",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15105,
+          "chapter_name": "空之弓I",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 15106,
+          "chapter_name": "空之弓II",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 15107,
+          "chapter_name": "死",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 15108,
+          "chapter_name": "空蝉",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 15109,
+          "chapter_name": "红色残滓II",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 15110,
+          "chapter_name": "蜃气楼I",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 15111,
+          "chapter_name": "最终之石",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 15112,
+          "chapter_name": "白日之碧",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 2701,
+      "id": 2701,
+      "volume_name": "秋叶线",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 15113,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15114,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15115,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15116,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15117,
+          "chapter_name": "第5章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15118,
+          "chapter_name": "第6章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15119,
+          "chapter_name": "第7章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 15120,
+          "chapter_name": "第8章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 15121,
+          "chapter_name": "第9章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 15122,
+          "chapter_name": "第10章",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 2702,
+      "id": 2702,
+      "volume_name": "The Dark Six",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 15123,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2703,
+      "id": 2703,
+      "volume_name": ".talk(宵明星)",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 15124,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

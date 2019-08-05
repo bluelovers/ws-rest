@@ -3,7 +3,7 @@
   "name": "他人事",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2583,
   "last_update_chapter_id": 14617,
@@ -16,16 +16,31 @@
   ],
   "authors": "平山梦明",
   "first_letter": "T",
-  "subscribe_num": 702,
-  "redis_update_time": 1564296053,
+  "subscribe_num": 707,
+  "redis_update_time": 1565016638,
   "volume": [
     {
       "id": 2583,
       "lnovel_id": 746,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275561489,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2583,
+      "id": 2583,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14617,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

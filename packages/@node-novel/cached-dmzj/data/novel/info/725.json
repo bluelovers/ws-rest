@@ -3,7 +3,7 @@
   "name": "光速蒙面侠",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "热斗的百分比赛\r",
+  "last_update_volume_name": "热斗的百分比赛",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2542,
   "last_update_chapter_id": 14386,
@@ -17,23 +17,51 @@
   "authors": "稲垣理一郎",
   "first_letter": "G",
   "subscribe_num": 79,
-  "redis_update_time": 1564269342,
+  "redis_update_time": 1564978227,
   "volume": [
     {
       "id": 2541,
       "lnovel_id": 725,
-      "volume_name": "幻之黄金杯\r",
+      "volume_name": "幻之黄金杯",
       "volume_order": 10,
       "addtime": 1275481539,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2542,
       "lnovel_id": 725,
-      "volume_name": "热斗的百分比赛\r",
+      "volume_name": "热斗的百分比赛",
       "volume_order": 20,
       "addtime": 1275481539,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2541,
+      "id": 2541,
+      "volume_name": "幻之黄金杯",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14385,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2542,
+      "id": 2542,
+      "volume_name": "热斗的百分比赛",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14386,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

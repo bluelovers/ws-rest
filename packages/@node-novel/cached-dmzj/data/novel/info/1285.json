@@ -12,12 +12,13 @@
   "hot_hits": 28204,
   "introduction": "　　魔王化身孙悟空\n　　希尔德为了卜宝从魔界拿来的图画书掀起一阵骚勤，图画书里的世界竟然与现实世界对调了……！！图画书内容是「西游记」的故事……为了将世界恢复原状，卜宝他们化身为三藏法师一行人出门旅行，朝着天竺前进……！！人气漫画「恶魔奶爸」，第一次推出小说版！！",
   "types": [
-    "搞笑/奇幻"
+    "搞笑",
+    "奇幻"
   ],
   "authors": "SOW",
   "first_letter": "D",
-  "subscribe_num": 194,
-  "redis_update_time": 1564311147,
+  "subscribe_num": 193,
+  "redis_update_time": 1564961995,
   "volume": [
     {
       "id": 4667,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 卜宝☆西游记",
       "volume_order": 10,
       "addtime": 1346309238,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5684,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 卜宝☆TIME TRAVEL",
       "volume_order": 20,
       "addtime": 1386579276,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6109,
@@ -41,7 +42,153 @@
       "volume_name": "第三卷 卜宝☆校外乱斗！！矢魔混混列传",
       "volume_order": 30,
       "addtime": 1402832172,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4667,
+      "id": 4667,
+      "volume_name": "第一卷 卜宝☆西游记",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 30163,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30164,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30165,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30166,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30167,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30168,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30169,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 30170,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 30171,
+          "chapter_name": "名为后记的感想文",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 5684,
+      "id": 5684,
+      "volume_name": "第二卷 卜宝☆TIME TRAVEL",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 38866,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38867,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38868,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38869,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38870,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38871,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38872,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 38873,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 38874,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 38875,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 6109,
+      "id": 6109,
+      "volume_name": "第三卷 卜宝☆校外乱斗！！矢魔混混列传",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 42618,
+          "chapter_name": "拉米亚毫不特别且普通至极的一天",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42619,
+          "chapter_name": "旁门左道名作剧场纯洁的姬川",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42620,
+          "chapter_name": "东条英虎求职记",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 42621,
+          "chapter_name": "古市贵之人生夺回游戏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 42622,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

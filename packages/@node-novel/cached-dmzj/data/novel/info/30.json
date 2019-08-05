@@ -3,7 +3,7 @@
   "name": "北欧女神",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第2章 北欧女神（下卷）\r",
+  "last_update_volume_name": "第2章 北欧女神（下卷）",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 121,
   "last_update_chapter_id": 786,
@@ -16,24 +16,117 @@
   ],
   "authors": "梅村崇",
   "first_letter": "B",
-  "subscribe_num": 170,
-  "redis_update_time": 1564297927,
+  "subscribe_num": 171,
+  "redis_update_time": 1565036499,
   "volume": [
     {
       "id": 120,
       "lnovel_id": 30,
-      "volume_name": "第1章 北欧女神（上卷）\r",
+      "volume_name": "第1章 北欧女神（上卷）",
       "volume_order": 10,
       "addtime": 1274917756,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 121,
       "lnovel_id": 30,
-      "volume_name": "第2章 北欧女神（下卷）\r",
+      "volume_name": "第2章 北欧女神（下卷）",
       "volume_order": 20,
       "addtime": 1274917756,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 120,
+      "id": 120,
+      "volume_name": "第1章 北欧女神（上卷）",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 772,
+          "chapter_name": "Drologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 773,
+          "chapter_name": "Episode 1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 774,
+          "chapter_name": "Episode 2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 775,
+          "chapter_name": "Episode 3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 776,
+          "chapter_name": "Episode 4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 777,
+          "chapter_name": "Episode 5",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 778,
+          "chapter_name": "Episode 6",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 121,
+      "id": 121,
+      "volume_name": "第2章 北欧女神（下卷）",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 779,
+          "chapter_name": "Episode 7",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 780,
+          "chapter_name": "Episode 8",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 781,
+          "chapter_name": "Episode 9",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 782,
+          "chapter_name": "Episode 10",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 783,
+          "chapter_name": "Episode 11",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 784,
+          "chapter_name": "Episode 12",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 785,
+          "chapter_name": "Epilogue",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 786,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

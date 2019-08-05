@@ -3,7 +3,7 @@
   "name": "最后的彼得潘",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2289,
   "last_update_chapter_id": 13308,
@@ -16,16 +16,96 @@
   ],
   "authors": "日日日",
   "first_letter": "Z",
-  "subscribe_num": 395,
-  "redis_update_time": 1564147349,
+  "subscribe_num": 396,
+  "redis_update_time": 1565005861,
   "volume": [
     {
       "id": 2289,
       "lnovel_id": 613,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918989,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2289,
+      "id": 2289,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13295,
+          "chapter_name": "附注及目录",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13296,
+          "chapter_name": "一、饿鬼的小孩",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13297,
+          "chapter_name": "二、枷锁",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13298,
+          "chapter_name": "三、红与蓝",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13299,
+          "chapter_name": "四、透明的叮当",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13300,
+          "chapter_name": "五、嘀嗒嘀嗒的鳄鱼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 13301,
+          "chapter_name": "六、能当人的时刻",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 13302,
+          "chapter_name": "七、泡沫",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 13303,
+          "chapter_name": "八、请勿侵略",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 13304,
+          "chapter_name": "九、永无岛",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 13305,
+          "chapter_name": "十、那时总是望着天空",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 13306,
+          "chapter_name": "十一、落幕",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 13307,
+          "chapter_name": "终章、所有的温蒂都长大成人",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 13308,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

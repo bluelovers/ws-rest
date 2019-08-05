@@ -12,20 +12,21 @@
   "hot_hits": 88622,
   "introduction": "白翼山位于都城北方，十四岁的少女──招凛花独自一人登上这座魑魅魍魎猖獗之白翼山，便是为了见方士一面，请方士为自己炼制能够魅惑人心的媚药「金凤丹」。\n\n在山中被白兽追逐而昏倒的凛花在苏醒之后，眼前出现的是背上长着翅膀的白犬与身穿黑袍的少年，难道这位少年就是凛花千辛万苦追寻的方士……？",
   "types": [
-    "冒险/奇幻"
+    "冒险",
+    "奇幻"
   ],
   "authors": "山本 瑶",
   "first_letter": "T",
-  "subscribe_num": 351,
-  "redis_update_time": 1564141080,
+  "subscribe_num": 353,
+  "redis_update_time": 1565026357,
   "volume": [
     {
       "id": 1680,
       "lnovel_id": 445,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918614,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1681,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 星之仗与晓之花",
       "volume_order": 20,
       "addtime": 1274918614,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1682,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷 随着春风起舞的后宫之花",
       "volume_order": 30,
       "addtime": 1274918614,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1683,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷 金云的彼端 霸王之梦 前篇",
       "volume_order": 40,
       "addtime": 1274918614,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1684,
@@ -57,7 +58,7 @@
       "volume_name": "第五卷 金云的彼端 霸王之梦 后篇",
       "volume_order": 50,
       "addtime": 1274918614,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1685,
@@ -65,15 +66,15 @@
       "volume_name": "第六卷 魔性之女",
       "volume_order": 60,
       "addtime": 1274918614,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1686,
       "lnovel_id": 445,
-      "volume_name": "第七卷 翡翠色王国\r",
+      "volume_name": "第七卷 翡翠色王国",
       "volume_order": 70,
       "addtime": 1274918614,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 3413,
@@ -81,7 +82,7 @@
       "volume_name": "第八卷 仙境女神与黄金之桃",
       "volume_order": 80,
       "addtime": 1295314976,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 3414,
@@ -89,7 +90,7 @@
       "volume_name": "第九卷 渐圆之月与双龙的故乡",
       "volume_order": 90,
       "addtime": 1295314982,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 3415,
@@ -97,7 +98,7 @@
       "volume_name": "第十卷 前往遥远的王宫之钥",
       "volume_order": 100,
       "addtime": 1295314986,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 3715,
@@ -105,7 +106,7 @@
       "volume_name": "第十一卷 天上之花 永恒之恋",
       "volume_order": 110,
       "addtime": 1307496909,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 3800,
@@ -113,7 +114,440 @@
       "volume_name": "第十二卷 白翼山绮谈",
       "volume_order": 120,
       "addtime": 1311563119,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1680,
+      "id": 1680,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9700,
+          "chapter_name": "剧情/人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9701,
+          "chapter_name": "黄金媚药",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9702,
+          "chapter_name": "龙之秘药",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9703,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 1681,
+      "id": 1681,
+      "volume_name": "第二卷 星之仗与晓之花",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 9704,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9705,
+          "chapter_name": "第一章 被称为神的野兽",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9706,
+          "chapter_name": "第二章 舞姬",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9707,
+          "chapter_name": "第三章 银露草",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9708,
+          "chapter_name": "第四章 金丹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9709,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9710,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1682,
+      "id": 1682,
+      "volume_name": "第三卷 随着春风起舞的后宫之花",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 9711,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9712,
+          "chapter_name": "来访者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9713,
+          "chapter_name": "后宫",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9714,
+          "chapter_name": "华之宴",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9715,
+          "chapter_name": "落花寂寂",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9716,
+          "chapter_name": "终 章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9717,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1683,
+      "id": 1683,
+      "volume_name": "第四卷 金云的彼端 霸王之梦 前篇",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 9718,
+          "chapter_name": "序 章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9719,
+          "chapter_name": "豪雨带来之物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9720,
+          "chapter_name": "奇妙的囚禁生活",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9721,
+          "chapter_name": "道士之泪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9722,
+          "chapter_name": "萤火虫引路之森",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9723,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 1684,
+      "id": 1684,
+      "volume_name": "第五卷 金云的彼端 霸王之梦 后篇",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 9724,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1685,
+      "id": 1685,
+      "volume_name": "第六卷 魔性之女",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 9725,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1686,
+      "id": 1686,
+      "volume_name": "第七卷 翡翠色王国",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 9726,
+          "chapter_name": "序 章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9727,
+          "chapter_name": "第一章 湖畔之豪宅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9728,
+          "chapter_name": "第二章 紫琳公主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9729,
+          "chapter_name": "第三章 月宴",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9730,
+          "chapter_name": "第四章 梦境始末",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9731,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9732,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3413,
+      "id": 3413,
+      "volume_name": "第八卷 仙境女神与黄金之桃",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 19617,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19618,
+          "chapter_name": "第一章 不会成熟的果实",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19619,
+          "chapter_name": "第二章 十二之龙",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19620,
+          "chapter_name": "第三章 记忆之森",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19621,
+          "chapter_name": "第四章 桃园女神",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19622,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19623,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3414,
+      "id": 3414,
+      "volume_name": "第九卷 渐圆之月与双龙的故乡",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 19624,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19801,
+          "chapter_name": "第一章 别离",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19802,
+          "chapter_name": "第二章 邂逅",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19803,
+          "chapter_name": "第三章 天界",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19804,
+          "chapter_name": "第四章 氾林",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19805,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19806,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3415,
+      "id": 3415,
+      "volume_name": "第十卷 前往遥远的王宫之钥",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 19625,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19626,
+          "chapter_name": "第一章 另一份心意",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19627,
+          "chapter_name": "第二章 龙王之心",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19628,
+          "chapter_name": "第三章 奋斗者们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19629,
+          "chapter_name": "第四章 两把关键之钥",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19630,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19631,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3715,
+      "id": 3715,
+      "volume_name": "第十一卷 天上之花 永恒之恋",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 21905,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21912,
+          "chapter_name": "第一章 前来相会的人们",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21907,
+          "chapter_name": "第二章 重逢",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21908,
+          "chapter_name": "第三章 天堂黎明时",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21909,
+          "chapter_name": "第四章 天堂黎明时",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21910,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21911,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3800,
+      "id": 3800,
+      "volume_name": "第十二卷 白翼山绮谈",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 22688,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22689,
+          "chapter_name": "迷路的蛇舆翡翠泪珠",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22690,
+          "chapter_name": "忧郁的天马",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22691,
+          "chapter_name": "日落树梢，觉醒之恋",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22692,
+          "chapter_name": "水玉环秘谭",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22693,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

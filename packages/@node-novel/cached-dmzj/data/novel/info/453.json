@@ -3,7 +3,7 @@
   "name": "退魔少女队",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1715,
   "last_update_chapter_id": 9909,
@@ -17,15 +17,60 @@
   "authors": "すずきあきら",
   "first_letter": "T",
   "subscribe_num": 26,
-  "redis_update_time": 1564056152,
+  "redis_update_time": 1565033308,
   "volume": [
     {
       "id": 1715,
       "lnovel_id": 453,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918634,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1715,
+      "id": 1715,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9903,
+          "chapter_name": "妖魔",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9904,
+          "chapter_name": "光与呼惠",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9905,
+          "chapter_name": "相信的力量、相信的心",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9906,
+          "chapter_name": "亚魅",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9907,
+          "chapter_name": "男扮女装约会去?",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9908,
+          "chapter_name": "由宇树",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9909,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

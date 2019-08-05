@@ -3,7 +3,7 @@
   "name": "柳生忍法帖",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第十章 般若组\r",
+  "last_update_volume_name": "第十章 般若组",
   "last_update_chapter_name": "四",
   "last_update_volume_id": 975,
   "last_update_chapter_id": 5585,
@@ -16,88 +16,315 @@
   ],
   "authors": "山田风太郎",
   "first_letter": "L",
-  "subscribe_num": 273,
-  "redis_update_time": 1564166774,
+  "subscribe_num": 274,
+  "redis_update_time": 1565016062,
   "volume": [
     {
       "id": 966,
       "lnovel_id": 265,
-      "volume_name": "第一章 破戒门\r",
+      "volume_name": "第一章 破戒门",
       "volume_order": 10,
       "addtime": 1274918207,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 967,
       "lnovel_id": 265,
-      "volume_name": "第二章 崛主水一案\r",
+      "volume_name": "第二章 崛主水一案",
       "volume_order": 20,
       "addtime": 1274918207,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 968,
       "lnovel_id": 265,
-      "volume_name": "第三章 七凶枪\r",
+      "volume_name": "第三章 七凶枪",
       "volume_order": 30,
       "addtime": 1274918207,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 969,
       "lnovel_id": 265,
-      "volume_name": "第四章 踏上复仇之路\r",
+      "volume_name": "第四章 踏上复仇之路",
       "volume_order": 40,
       "addtime": 1274918207,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 970,
       "lnovel_id": 265,
-      "volume_name": "第五章 蛇目有七只\r",
+      "volume_name": "第五章 蛇目有七只",
       "volume_order": 50,
       "addtime": 1274918207,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 971,
       "lnovel_id": 265,
-      "volume_name": "第六章 竹笼\r",
+      "volume_name": "第六章 竹笼",
       "volume_order": 60,
       "addtime": 1274918207,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 972,
       "lnovel_id": 265,
-      "volume_name": "第七章\r",
+      "volume_name": "第七章",
       "volume_order": 70,
       "addtime": 1274918207,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 973,
       "lnovel_id": 265,
-      "volume_name": "第八章\r",
+      "volume_name": "第八章",
       "volume_order": 80,
       "addtime": 1274918207,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 974,
       "lnovel_id": 265,
-      "volume_name": "第九章\r",
+      "volume_name": "第九章",
       "volume_order": 90,
       "addtime": 1274918207,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 975,
       "lnovel_id": 265,
-      "volume_name": "第十章 般若组\r",
+      "volume_name": "第十章 般若组",
       "volume_order": 100,
       "addtime": 1274918207,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 966,
+      "id": 966,
+      "volume_name": "第一章 破戒门",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5557,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5558,
+          "chapter_name": "二",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5559,
+          "chapter_name": "三",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 967,
+      "id": 967,
+      "volume_name": "第二章 崛主水一案",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 5560,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5561,
+          "chapter_name": "二",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 968,
+      "id": 968,
+      "volume_name": "第三章 七凶枪",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 5562,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5563,
+          "chapter_name": "二",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5564,
+          "chapter_name": "三",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 969,
+      "id": 969,
+      "volume_name": "第四章 踏上复仇之路",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 5565,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5566,
+          "chapter_name": "二",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5567,
+          "chapter_name": "三",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 970,
+      "id": 970,
+      "volume_name": "第五章 蛇目有七只",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 5568,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5569,
+          "chapter_name": "二",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 971,
+      "id": 971,
+      "volume_name": "第六章 竹笼",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 5570,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5571,
+          "chapter_name": "二",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5572,
+          "chapter_name": "三",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 972,
+      "id": 972,
+      "volume_name": "第七章",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 5573,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5574,
+          "chapter_name": "二",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5575,
+          "chapter_name": "三",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 973,
+      "id": 973,
+      "volume_name": "第八章",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 5576,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5577,
+          "chapter_name": "二",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5578,
+          "chapter_name": "三",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 974,
+      "id": 974,
+      "volume_name": "第九章",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 5579,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5580,
+          "chapter_name": "二",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5581,
+          "chapter_name": "三",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 975,
+      "id": 975,
+      "volume_name": "第十章 般若组",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 5582,
+          "chapter_name": "一",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5583,
+          "chapter_name": "二",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5584,
+          "chapter_name": "三",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5585,
+          "chapter_name": "四",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

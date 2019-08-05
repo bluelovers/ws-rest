@@ -16,8 +16,8 @@
   ],
   "authors": "凑香苗",
   "first_letter": "S",
-  "subscribe_num": 465,
-  "redis_update_time": 1564302238,
+  "subscribe_num": 466,
+  "redis_update_time": 1564938459,
   "volume": [
     {
       "id": 4295,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1330659217,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4295,
+      "id": 4295,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 26951,
+          "chapter_name": "遗书",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26952,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26953,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26954,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26955,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26956,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26957,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26958,
+          "chapter_name": "遗书·绩篇",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

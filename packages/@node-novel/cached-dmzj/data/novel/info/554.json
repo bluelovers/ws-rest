@@ -3,7 +3,7 @@
   "name": ".hack／／G.U.",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第四卷 八次元的意念\r",
+  "last_update_volume_name": "第四卷 八次元的意念",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2074,
   "last_update_chapter_id": 12127,
@@ -16,40 +16,164 @@
   ],
   "authors": "滨崎达也",
   "first_letter": "0",
-  "subscribe_num": 221,
-  "redis_update_time": 1564201667,
+  "subscribe_num": 222,
+  "redis_update_time": 1565017966,
   "volume": [
     {
       "id": 2071,
       "lnovel_id": 554,
-      "volume_name": "第一卷 死的恐怖\r",
+      "volume_name": "第一卷 死的恐怖",
       "volume_order": 10,
       "addtime": 1274918860,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2072,
       "lnovel_id": 554,
-      "volume_name": "第二卷 境界的MMO\r",
+      "volume_name": "第二卷 境界的MMO",
       "volume_order": 20,
       "addtime": 1274918860,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2073,
       "lnovel_id": 554,
-      "volume_name": "第三卷 哈洛尔德的原型\r",
+      "volume_name": "第三卷 哈洛尔德的原型",
       "volume_order": 30,
       "addtime": 1274918860,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2074,
       "lnovel_id": 554,
-      "volume_name": "第四卷 八次元的意念\r",
+      "volume_name": "第四卷 八次元的意念",
       "volume_order": 40,
       "addtime": 1274918860,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2071,
+      "id": 2071,
+      "volume_name": "第一卷 死的恐怖",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12110,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12111,
+          "chapter_name": "第一章 三爪痕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12112,
+          "chapter_name": "第二章 乌鸦",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12113,
+          "chapter_name": "第三章 凭神",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12114,
+          "chapter_name": "第四章 红魔宫",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12115,
+          "chapter_name": "第五章 空虚",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12116,
+          "chapter_name": "第六章 王者之岛",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12117,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2072,
+      "id": 2072,
+      "volume_name": "第二卷 境界的MMO",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12118,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12119,
+          "chapter_name": "第一章 AIDA服务器",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12120,
+          "chapter_name": "第二章 佐伯令子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12121,
+          "chapter_name": "换幕 黄昏的碑文",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12122,
+          "chapter_name": "第三章 通往乌托邦之门",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2073,
+      "id": 2073,
+      "volume_name": "第三卷 哈洛尔德的原型",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12123,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12124,
+          "chapter_name": "第一章 月之树",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12125,
+          "chapter_name": "第二章 马尔·波尔美术馆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12126,
+          "chapter_name": "第三章 再诞",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 2074,
+      "id": 2074,
+      "volume_name": "第四卷 八次元的意念",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12127,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "第二章  毒之宴 谁在欺骗谁？",
+  "last_update_chapter_name": "第二章 毒之宴 谁在欺骗谁？",
   "last_update_volume_id": 3497,
   "last_update_chapter_id": 20267,
   "last_update_time": 1298946776,
@@ -17,15 +17,15 @@
   "authors": "川人忠明",
   "first_letter": "H",
   "subscribe_num": 96,
-  "redis_update_time": 1563956744,
+  "redis_update_time": 1564911657,
   "volume": [
     {
       "id": 662,
       "lnovel_id": 181,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918042,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 3497,
@@ -33,7 +33,70 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1298946595,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 662,
+      "id": 662,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3798,
+          "chapter_name": "序章 黄金之发 ～两人在月夜下相遇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3799,
+          "chapter_name": "第一章 两人的暗杀者～被血淋湿的少女发誓复仇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3800,
+          "chapter_name": "第二章 淑女们的晚会～那时，起始之剑被放出",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3801,
+          "chapter_name": "第三章 憎恶的祭品～少女敢于在陷阱中",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3802,
+          "chapter_name": "第四章 黑妖精之吻～该死的人是谁？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3803,
+          "chapter_name": "终幕 暗夜～小姐与警备兵共舞",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 3497,
+      "id": 3497,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 20265,
+          "chapter_name": "序章 濒死的少女 为了不失去她的笑容",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20266,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20267,
+          "chapter_name": "第二章 毒之宴 谁在欺骗谁？",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

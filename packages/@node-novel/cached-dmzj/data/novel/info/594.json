@@ -10,22 +10,24 @@
   "last_update_time": 1351945059,
   "cover": "https://xs.dmzj.com/img/webpic/4/zzhx13.jpg",
   "hot_hits": 23681,
-  "introduction": "坚强的姐姐在双亲病故后全力照顾文弱的妹妹，甚至为此更改了父母给予的名字；已经有半条腿跨入青春期的霍普对父亲的不满与日俱增，这让他更加思念自己那些好友；技术高超的飞空艇驾驶员塞兹最近也过得不安生，因为他的独生子达基似乎无意中背负起了过于沉重的宿命……\n\n",
+  "introduction": "坚强的姐姐在双亲病故后全力照顾文弱的妹妹，甚至为此更改了父母给予的名字；已经有半条腿跨入青春期的霍普对父亲的不满与日俱增，这让他更加思念自己那些好友；技术高超的飞空艇驾驶员塞兹最近也过得不安生，因为他的独生子达基似乎无意中背负起了过于沉重的宿命……",
   "types": [
-    "科幻/奇幻/冒险"
+    "科幻",
+    "奇幻",
+    "冒险"
   ],
   "authors": "映岛巡",
   "first_letter": "Z",
-  "subscribe_num": 456,
-  "redis_update_time": 1564308902,
+  "subscribe_num": 461,
+  "redis_update_time": 1565007682,
   "volume": [
     {
       "id": 2226,
       "lnovel_id": 594,
-      "volume_name": "零章·承诺 上\r",
+      "volume_name": "零章·承诺 上",
       "volume_order": 10,
       "addtime": 1274918953,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3073,
@@ -33,7 +35,7 @@
       "volume_name": "零章·承诺 下",
       "volume_order": 20,
       "addtime": 1280915714,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4811,
@@ -41,7 +43,83 @@
       "volume_name": "第二卷 Fragments Before",
       "volume_order": 30,
       "addtime": 1351945022,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2226,
+      "id": 2226,
+      "volume_name": "零章·承诺 上",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13016,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3073,
+      "id": 3073,
+      "volume_name": "零章·承诺 下",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 17213,
+          "chapter_name": "第四话 STRANGER（异邦）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17214,
+          "chapter_name": "第五话 SEARCH（搜索）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17215,
+          "chapter_name": "第六话 PRESENT（礼物）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17216,
+          "chapter_name": "第七章 TOMORROW(未来)",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 4811,
+      "id": 4811,
+      "volume_name": "第二卷 Fragments Before",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 31471,
+          "chapter_name": "imaginary&amp;real",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31472,
+          "chapter_name": "teacher&amp;children",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31473,
+          "chapter_name": "friend&amp;foe",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31474,
+          "chapter_name": "fair&amp;foul",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 31475,
+          "chapter_name": "someday&amp;somewhere",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

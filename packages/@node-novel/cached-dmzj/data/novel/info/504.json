@@ -3,7 +3,7 @@
   "name": "校园迷糊大王",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "巨是巨齿鲨的巨\r",
+  "last_update_volume_name": "巨是巨齿鲨的巨",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1911,
   "last_update_chapter_id": 11267,
@@ -17,23 +17,51 @@
   "authors": "hiroko tokita",
   "first_letter": "X",
   "subscribe_num": 211,
-  "redis_update_time": 1564293278,
+  "redis_update_time": 1564912085,
   "volume": [
     {
       "id": 1910,
       "lnovel_id": 504,
-      "volume_name": "初尝恋爱的滋味\r",
+      "volume_name": "初尝恋爱的滋味",
       "volume_order": 10,
       "addtime": 1274918761,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 1911,
       "lnovel_id": 504,
-      "volume_name": "巨是巨齿鲨的巨\r",
+      "volume_name": "巨是巨齿鲨的巨",
       "volume_order": 20,
       "addtime": 1274918761,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1910,
+      "id": 1910,
+      "volume_name": "初尝恋爱的滋味",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11266,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1911,
+      "id": 1911,
+      "volume_name": "巨是巨齿鲨的巨",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11267,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

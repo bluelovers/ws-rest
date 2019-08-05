@@ -12,12 +12,13 @@
   "hot_hits": 29231,
   "introduction": "在天才少年——果须田裕杜举办的终极战斗游戏<RuleoftheRule>中，从世界各地聚集而来并分成两人一组的参加者们必须一边击退作为『防御人（Defender）』的杀手集团，一边在限定时间内解决困难的事件。被卷入这个疯狂的游戏的高一学生铃藤小槙离开了作为同级生的春野祥，向青梅竹马的裕杜发起了挑战！第6届角川学园小说大奖『优秀奖』获奖作品，强势出击！",
   "types": [
-    "校园/格斗"
+    "校园",
+    "格斗"
   ],
   "authors": "岩井恭平",
   "first_letter": "X",
-  "subscribe_num": 485,
-  "redis_update_time": 1564295146,
+  "subscribe_num": 486,
+  "redis_update_time": 1564950105,
   "volume": [
     {
       "id": 4919,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 完美之王",
       "volume_order": 10,
       "addtime": 1355728996,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5266,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 永远与变化的小箱",
       "volume_order": 20,
       "addtime": 1368416696,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5666,
@@ -41,7 +42,148 @@
       "volume_name": "第三卷 Lost·Elysium",
       "volume_order": 30,
       "addtime": 1385974048,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4919,
+      "id": 4919,
+      "volume_name": "第一卷 完美之王",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32421,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32422,
+          "chapter_name": "1-5",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32423,
+          "chapter_name": "6-10",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32424,
+          "chapter_name": "11-15",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32425,
+          "chapter_name": "16-20",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32426,
+          "chapter_name": "21-23",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32427,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5266,
+      "id": 5266,
+      "volume_name": "第二卷 永远与变化的小箱",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 35322,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35384,
+          "chapter_name": "1－5",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35385,
+          "chapter_name": "6－10",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35386,
+          "chapter_name": "11－15",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35387,
+          "chapter_name": "16－20",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35388,
+          "chapter_name": "21－23",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35389,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 35390,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5666,
+      "id": 5666,
+      "volume_name": "第三卷 Lost·Elysium",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 38683,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38855,
+          "chapter_name": "1-5",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38977,
+          "chapter_name": "6-10",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38978,
+          "chapter_name": "11-15",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38986,
+          "chapter_name": "16－20",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38987,
+          "chapter_name": "21－23",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38988,
+          "chapter_name": "Epilogue",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 38989,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

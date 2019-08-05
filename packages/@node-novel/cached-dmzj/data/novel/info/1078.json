@@ -3,7 +3,7 @@
   "name": "HxH！泡澡澡是异文化的交流",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3821,
   "last_update_chapter_id": 22894,
@@ -12,20 +12,98 @@
   "hot_hits": 48187,
   "introduction": "少年龙特四处旅行，寻找对任何种族都能起效的灵药的材料。\n龙特到达古代遗迹。出现在他面前的，是名为苏菲的幼女，身为遗迹主人的吸血鬼！\n龙特得到苏菲许可，在亚人种聚居的村落逗留。但那里的人们都一起泡澡，不论男女不论种族……\n令人心跳加速的混浴奇幻爱情喜剧！",
   "types": [
-    "冒险/奇幻/搞笑/爱情"
+    "冒险",
+    "奇幻",
+    "搞笑",
+    "爱情"
   ],
   "authors": "神尾丈治",
   "first_letter": "H",
-  "subscribe_num": 446,
-  "redis_update_time": 1564286348,
+  "subscribe_num": 448,
+  "redis_update_time": 1564976394,
   "volume": [
     {
       "id": 3821,
       "lnovel_id": 1078,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1312177404,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3821,
+      "id": 3821,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 22882,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22883,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22884,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22885,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22886,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22887,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22888,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22889,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 22890,
+          "chapter_name": "第七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 22891,
+          "chapter_name": "第八章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 22892,
+          "chapter_name": "终",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 22893,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 22894,
+          "chapter_name": "插图",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

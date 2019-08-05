@@ -17,31 +17,72 @@
   "authors": "相澤春吉",
   "first_letter": "G",
   "subscribe_num": 190,
-  "redis_update_time": 1564304050,
+  "redis_update_time": 1564938504,
   "volume": [
     {
       "id": 2982,
       "lnovel_id": 849,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1277356811,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2983,
       "lnovel_id": 849,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1277356811,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2984,
       "lnovel_id": 849,
-      "volume_name": "顛覆北海道\r",
+      "volume_name": "顛覆北海道",
       "volume_order": 30,
       "addtime": 1277356811,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2982,
+      "id": 2982,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16606,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2983,
+      "id": 2983,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 16607,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2984,
+      "id": 2984,
+      "volume_name": "顛覆北海道",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 16608,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

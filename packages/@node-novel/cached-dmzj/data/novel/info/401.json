@@ -12,12 +12,14 @@
   "hot_hits": 71705,
   "introduction": "“游戏开始吧！”有一天造物主突然要求叶野学园的秋庭多加良等学生参加一场游戏的挑战。但是，却让他们冒出“又是神哦～”的无力感。为什么会这样？因为外表可爱，却很坏心眼的土地神“卡侬”带来的麻烦事，已经让他们每天都深感困扰。虽然如此，但要是找不到造物主的话，换来的代价竟是这个地球将会毁灭！？从今天开始，将展开为期一个月，攸关地球未来的找神游戏！！这是一场由向往人类的神所设下的——“神X神的游戏”！！",
   "types": [
-    "神鬼/校园/搞笑"
+    "神鬼",
+    "校园",
+    "搞笑"
   ],
   "authors": "宫崎柊羽",
   "first_letter": "S",
-  "subscribe_num": 866,
-  "redis_update_time": 1564298978,
+  "subscribe_num": 873,
+  "redis_update_time": 1565019350,
   "volume": [
     {
       "id": 1524,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 神该向谁祈祷",
       "volume_order": 10,
       "addtime": 1274918524,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1525,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 神该做何选择",
       "volume_order": 20,
       "addtime": 1274918524,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1526,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 神该由谁守护",
       "volume_order": 30,
       "addtime": 1274918524,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1527,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷 神该与谁共舞",
       "volume_order": 40,
       "addtime": 1274918524,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1528,
@@ -57,7 +59,7 @@
       "volume_name": "短篇集 晴／阴／雨／虹",
       "volume_order": 50,
       "addtime": 1274918524,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2776,
@@ -65,7 +67,7 @@
       "volume_name": "第五卷 神该寻找泪水",
       "volume_order": 60,
       "addtime": 1276538909,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3258,
@@ -73,7 +75,7 @@
       "volume_name": "第六卷 神该拥抱什么",
       "volume_order": 70,
       "addtime": 1288850805,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4937,
@@ -81,7 +83,7 @@
       "volume_name": "第七卷 该运送给神什么",
       "volume_order": 80,
       "addtime": 1356323501,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4938,
@@ -89,7 +91,501 @@
       "volume_name": "第八卷 该交给神什么",
       "volume_order": 90,
       "addtime": 1356323603,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1524,
+      "id": 1524,
+      "volume_name": "第一卷 神该向谁祈祷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 8727,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8728,
+          "chapter_name": "Game 01 无路可走",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 8729,
+          "chapter_name": "Save 01 破损的容器",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 8730,
+          "chapter_name": "Game 02 提示？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 8731,
+          "chapter_name": "Game 03 鬼牌",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 8732,
+          "chapter_name": "Save 02 扭曲变形",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 8733,
+          "chapter_name": "Save 03 心中的迷宫",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 8734,
+          "chapter_name": "Game 04 永不枯竭的花",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 8735,
+          "chapter_name": "Game 05 祈祷",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 8736,
+          "chapter_name": "Save 04 无名的愿望",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 8737,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 8738,
+          "chapter_name": "解说",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 1525,
+      "id": 1525,
+      "volume_name": "第二卷 神该做何选择",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 8739,
+          "chapter_name": "prologue：序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8740,
+          "chapter_name": "save 1 真正的强大",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 8741,
+          "chapter_name": "game 1 门",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 8742,
+          "chapter_name": "save 2 世界的那一端",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 8743,
+          "chapter_name": "game 2 特别奉送？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 8744,
+          "chapter_name": "SAVE 03 心灵之声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 8745,
+          "chapter_name": "save 4 1+1—两人—",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 8746,
+          "chapter_name": "epilogue 终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 8747,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1526,
+      "id": 1526,
+      "volume_name": "第三卷 神该由谁守护",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 8748,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8749,
+          "chapter_name": "白天的传唤",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 8750,
+          "chapter_name": "save 1 晚霞中的惊魂",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 8751,
+          "chapter_name": "game 2 夜晚中的疑惑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21546,
+          "chapter_name": "save 2 黄昏中的意图",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 8753,
+          "chapter_name": "game 3 半夜的谎言",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 8754,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1527,
+      "id": 1527,
+      "volume_name": "第四卷 神该与谁共舞",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 8755,
+          "chapter_name": "game 4 暗夜的困惑",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8756,
+          "chapter_name": "save 3 破晓的谎言",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 8757,
+          "chapter_name": "auto 1 欺骗的夜晚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 8758,
+          "chapter_name": "auto 2 旭日的约定",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 8759,
+          "chapter_name": "game 5 黎明的前奏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 8760,
+          "chapter_name": "save 4 午后的宁静",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 8761,
+          "chapter_name": "save 5 向夕阳许愿",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 8762,
+          "chapter_name": "game 6 月光下的落花",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 8763,
+          "chapter_name": "epilogue 漆黑的早晨",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 8764,
+          "chapter_name": "epilogue 光明的早晨",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 8765,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 1528,
+      "id": 1528,
+      "volume_name": "短篇集 晴／阴／雨／虹",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 8766,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2776,
+      "id": 2776,
+      "volume_name": "第五卷 神该寻找泪水",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 15587,
+          "chapter_name": "Prologue序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15588,
+          "chapter_name": "game1春天的战争",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15589,
+          "chapter_name": "save1雨之狂想曲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15590,
+          "chapter_name": "game2空的鸟笼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15591,
+          "chapter_name": "auto 捡到的神？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15592,
+          "chapter_name": "save2被雨照亮的道路",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15593,
+          "chapter_name": "save3雨之翼",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 15594,
+          "chapter_name": "save4雨之花",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 15595,
+          "chapter_name": "game3决战来临",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 15596,
+          "chapter_name": "epilogue终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 15597,
+          "chapter_name": "now loading",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 15598,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 15828,
+          "chapter_name": "插图",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 3258,
+      "id": 3258,
+      "volume_name": "第六卷 神该拥抱什么",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 18480,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18481,
+          "chapter_name": "game1 魔神×升官图=？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18482,
+          "chapter_name": "save1 你的温度",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18483,
+          "chapter_name": "game2 魔神×口袋=？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18484,
+          "chapter_name": "auto1 天意的安排",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18485,
+          "chapter_name": "save2 你的重量",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18486,
+          "chapter_name": "game3 魔神×蛋=神？",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18487,
+          "chapter_name": "auto2 神的安排",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18488,
+          "chapter_name": "save3 你的手",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 18489,
+          "chapter_name": "epilogue",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 18490,
+          "chapter_name": "now loading",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 18491,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 4937,
+      "id": 4937,
+      "volume_name": "第七卷 该运送给神什么",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 32550,
+          "chapter_name": "PROLOGUE A：瞒着人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32551,
+          "chapter_name": "PROLOGUE B：瞒着神",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32552,
+          "chapter_name": "GAME 1：前往不可思议的国度？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32553,
+          "chapter_name": "SAVE 1：花吐暗香",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32554,
+          "chapter_name": "GAME 2：不可思议的绒毛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32555,
+          "chapter_name": "AUTO Ⅰ：A Tug Of War",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32556,
+          "chapter_name": "SAVE 2：迷途者的地图",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32557,
+          "chapter_name": "GAME 3：进入不可思议之环（和）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 32558,
+          "chapter_name": "AUTO Ⅱ：Under Cover Of Smoke",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 32559,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4938,
+      "id": 4938,
+      "volume_name": "第八卷 该交给神什么",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 32560,
+          "chapter_name": "AUTO III：A Smoke Screen",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32561,
+          "chapter_name": "SAVE 3：心思打转",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32562,
+          "chapter_name": "GAME 4：前往不可思议的尽头？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32563,
+          "chapter_name": "SAVE 4：做梦的王",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32564,
+          "chapter_name": "AUTO Ⅳ：Girlhood&#039;s End",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32565,
+          "chapter_name": "GAME 5：痛苦的开端？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32566,
+          "chapter_name": "EPILOGUE A：人隐瞒",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32567,
+          "chapter_name": "EPILOGUE B：人隐瞒",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 32568,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

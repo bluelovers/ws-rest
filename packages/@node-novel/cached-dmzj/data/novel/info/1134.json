@@ -12,20 +12,21 @@
   "hot_hits": 80205,
   "introduction": "「今天，魔女从地球上灭绝了」——这是一个魔女是濒临灭绝种而受到保护的世界。我没有告诉任何人，悄悄地在家里饲养了一个小魔女。开始了与这个世界上孤身一人的魔女·米拉一同的生活——米拉用扫把将家破坏了，又不能说话，一日三餐都吃鲷鱼烧……？我暗自决定，一定要把米拉送回「魔女的乐园」——",
   "types": [
-    "魔法/搞笑"
+    "魔法",
+    "搞笑"
   ],
   "authors": "山川进",
   "first_letter": "R",
-  "subscribe_num": 1003,
-  "redis_update_time": 1564304794,
+  "subscribe_num": 1009,
+  "redis_update_time": 1564944573,
   "volume": [
     {
       "id": 4053,
       "lnovel_id": 1134,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1321415252,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4673,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1346654111,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5126,
@@ -41,7 +42,163 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1363167379,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4053,
+      "id": 4053,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 24988,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24989,
+          "chapter_name": "1 魔女与镜子与十个鲷鱼烧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24990,
+          "chapter_name": "2 魔女与内裤与火箭扫帚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24991,
+          "chapter_name": "3 魔女与装病与平家物语",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24992,
+          "chapter_name": "4 魔女与亲亲与乐园之门",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24993,
+          "chapter_name": "5 魔女与美女与胁迫之炎",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24994,
+          "chapter_name": "6 魔女与猫咪与逆转计划",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24995,
+          "chapter_name": "7 魔女与拖把与白色花瓣",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24996,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4673,
+      "id": 4673,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 30211,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30212,
+          "chapter_name": "1 双姝怨",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30213,
+          "chapter_name": "2 偷龙转凤",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30214,
+          "chapter_name": "3 盲女惊魂记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30215,
+          "chapter_name": "4 谜中谜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30216,
+          "chapter_name": "5 窈窕淑女",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30217,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 30218,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5126,
+      "id": 5126,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 34123,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34124,
+          "chapter_name": "1 我与魔女与异国少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34125,
+          "chapter_name": "2 我与鲷鱼烧与少女的秘密",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34126,
+          "chapter_name": "3 我与孤独与少女的泪水",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34127,
+          "chapter_name": "4 我与高烧与脖子上的花环",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34128,
+          "chapter_name": "5 我与故乡与魔女的谣言",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34129,
+          "chapter_name": "6 我与真相与魔女的再会",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 34130,
+          "chapter_name": "尾声 文哉与玛亚与魔女乐园",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 34131,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

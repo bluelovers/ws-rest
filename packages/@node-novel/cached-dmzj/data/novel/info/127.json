@@ -3,7 +3,7 @@
   "name": "歌月十夜",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "梦十夜\r",
+  "last_update_volume_name": "梦十夜",
   "last_update_chapter_name": "梦十夜 黃昏草月-舞踏祭",
   "last_update_volume_id": 459,
   "last_update_chapter_id": 23794,
@@ -12,28 +12,138 @@
   "hot_hits": 74175,
   "introduction": "故事描述主人公远野志贵在八年前的意外中，获得了可杀死事物的“直死之魔眼”。\n由于对自己的新能力的恐惧，他在当天逃离了医院，并邂逅了一个名为苍崎青子的魔法使，在她的帮助下，魔眼的能力得以用一副眼镜封印起来。之后的八年间，志贵作为养子在远野的分家有间家度过。八年平凡的日子后，由于父亲的去世，他被成为远野家新家主的妹妹秋叶召回远野家。\n就在生活突然发生巨大改变之时，志贵不自觉的利用直死之魔眼杀死了一名女性，但第二天女性像是没发生过似的站在他眼前。“杀死我的责任，你打算怎么负责呢？”纯白的吸血姬这么说着。",
   "types": [
-    "校园/奇幻/异能"
+    "校园",
+    "奇幻",
+    "异能"
   ],
   "authors": "奈须きのこ",
   "first_letter": "G",
-  "subscribe_num": 2621,
-  "redis_update_time": 1564309630,
+  "subscribe_num": 2655,
+  "redis_update_time": 1565025361,
   "volume": [
     {
       "id": 459,
       "lnovel_id": 127,
-      "volume_name": "梦十夜\r",
+      "volume_name": "梦十夜",
       "volume_order": 10,
       "addtime": 1274917932,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 460,
       "lnovel_id": 127,
-      "volume_name": "夏祭\r",
+      "volume_name": "夏祭",
       "volume_order": 20,
       "addtime": 1274917932,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 459,
+      "id": 459,
+      "volume_name": "梦十夜",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2867,
+          "chapter_name": "醉梦月",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2868,
+          "chapter_name": "加油！知得留老师",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2869,
+          "chapter_name": "妹切草",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2870,
+          "chapter_name": "黎明",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2871,
+          "chapter_name": "朱红之月",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2872,
+          "chapter_name": "远野家的骗人游戏",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2873,
+          "chapter_name": "宵明星",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2874,
+          "chapter_name": "宵待闲话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2875,
+          "chapter_name": "赤色鬼神",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 2876,
+          "chapter_name": "翡翠的反转冲动",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 2877,
+          "chapter_name": "知得留教室圣诞特别篇",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 23793,
+          "chapter_name": "奈奈子SOS",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 23794,
+          "chapter_name": "黃昏草月-舞踏祭",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 460,
+      "id": 460,
+      "volume_name": "夏祭",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2880,
+          "chapter_name": "夏祭-公主线",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2881,
+          "chapter_name": "夏祭-学姐线",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2882,
+          "chapter_name": "夏祭-秋叶线",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2883,
+          "chapter_name": "夏祭-琥珀线",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2884,
+          "chapter_name": "夏祭-翡翠线",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

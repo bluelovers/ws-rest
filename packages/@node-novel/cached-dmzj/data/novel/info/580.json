@@ -3,7 +3,7 @@
   "name": "银盘万花筒",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第九卷 灰姑娘进行曲 say it ain't so\r",
+  "last_update_volume_name": "第九卷 灰姑娘进行曲 say it ain't so",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2170,
   "last_update_chapter_id": 12736,
@@ -17,79 +17,703 @@
   "authors": "海原零",
   "first_letter": "Y",
   "subscribe_num": 307,
-  "redis_update_time": 1564207626,
+  "redis_update_time": 1565012625,
   "volume": [
     {
       "id": 2162,
       "lnovel_id": 580,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918915,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2163,
       "lnovel_id": 580,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918915,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2164,
       "lnovel_id": 580,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918915,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2165,
       "lnovel_id": 580,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918915,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2166,
       "lnovel_id": 580,
-      "volume_name": "第五卷\r",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1274918915,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2167,
       "lnovel_id": 580,
-      "volume_name": "第六卷\r",
+      "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1274918915,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2168,
       "lnovel_id": 580,
-      "volume_name": "第七卷 Be in love with your miracle\r",
+      "volume_name": "第七卷 Be in love with your miracle",
       "volume_order": 70,
       "addtime": 1274918915,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2169,
       "lnovel_id": 580,
-      "volume_name": "第八卷 王者进行曲 Big time again！\r",
+      "volume_name": "第八卷 王者进行曲 Big time again！",
       "volume_order": 80,
       "addtime": 1274918915,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2170,
       "lnovel_id": 580,
-      "volume_name": "第九卷 灰姑娘进行曲 say it ain't so\r",
+      "volume_name": "第九卷 灰姑娘进行曲 say it ain't so",
       "volume_order": 90,
       "addtime": 1274918915,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2162,
+      "id": 2162,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12627,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12628,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12629,
+          "chapter_name": "第一章 强制和声",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12630,
+          "chapter_name": "第二章 下雨了…更大的豪雨",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12631,
+          "chapter_name": "第三章 ONE MORE CHANCE ？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12632,
+          "chapter_name": "第四章 点火",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12633,
+          "chapter_name": "第五章 鹤纱，士别三日",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12634,
+          "chapter_name": "解说 阿部和重",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2163,
+      "id": 2163,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12635,
+          "chapter_name": "鹤纱为各位亲切解说",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12636,
+          "chapter_name": "第六章 集中炮火",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12637,
+          "chapter_name": "第七章 樱野风暴",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12638,
+          "chapter_name": "第八章 鹤纱登场",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12639,
+          "chapter_name": "第九章 Dancing Liqueur",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12640,
+          "chapter_name": "第十章 100DAYS灰姑娘",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12641,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12642,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2164,
+      "id": 2164,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12643,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12644,
+          "chapter_name": "第一章 烦恼的温室公主",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12645,
+          "chapter_name": "第二章 Lady Times",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12646,
+          "chapter_name": "第三章 没落千金",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12647,
+          "chapter_name": "第四章 汝不得在圣夜独自外出",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12648,
+          "chapter_name": "第五章 赌气的午夜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12649,
+          "chapter_name": "第六章 坦白说，这就是恋爱",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12650,
+          "chapter_name": "第七章 邂逅",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12651,
+          "chapter_name": "第八章 A Memory Go Round",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12652,
+          "chapter_name": "第九章 Princess Heartbreak",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 12653,
+          "chapter_name": "尾声",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 12654,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 2165,
+      "id": 2165,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12655,
+          "chapter_name": "花式滑冰的基础知识 vol.4",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12656,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12657,
+          "chapter_name": "第一章 Cherry",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12658,
+          "chapter_name": "第二章 小行星的忧郁",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12659,
+          "chapter_name": "第三章 我不要掌声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12660,
+          "chapter_name": "第四章 高岛家的十月骚动",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12661,
+          "chapter_name": "第五章 神采飞扬的来梦",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12662,
+          "chapter_name": "第六章 二流巡警",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12663,
+          "chapter_name": "第七章 失序的日常生活",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12664,
+          "chapter_name": "第八章 Sister At The Gold",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 12665,
+          "chapter_name": "第九章 有一点当女主角的感觉",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 12666,
+          "chapter_name": "第十章 望远镜里的星空",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 12667,
+          "chapter_name": "尾声",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 12668,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 2166,
+      "id": 2166,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 12669,
+          "chapter_name": "花式滑冰的基础知识 vol.5",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12670,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12671,
+          "chapter_name": "第一章 花之都",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12672,
+          "chapter_name": "第二章 拖人下水的三年坡",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12673,
+          "chapter_name": "第三章 白色豪宅是我的烛台",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12674,
+          "chapter_name": "第四章 红色情人节",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12675,
+          "chapter_name": "第五章 樱野鹤纱改造计划",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12676,
+          "chapter_name": "第六章 珍珠贝",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12677,
+          "chapter_name": "第七章 快乐的诸神",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12678,
+          "chapter_name": "第八章 云上晚宴",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 12679,
+          "chapter_name": "第九章 风信子",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 12680,
+          "chapter_name": "第十章 前往地狱的邀请函",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 12681,
+          "chapter_name": "尾声",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 12682,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 2167,
+      "id": 2167,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 12683,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12684,
+          "chapter_name": "花式滑冰的基础知识 vol.6",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12685,
+          "chapter_name": "序章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12686,
+          "chapter_name": "第一章 第一关·妈妈",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12687,
+          "chapter_name": "第二章 落水狗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12688,
+          "chapter_name": "第三章 崩坏的圣诞夜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12689,
+          "chapter_name": "第四章 So what?",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12690,
+          "chapter_name": "第五章 床边的忧郁蓝调",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12691,
+          "chapter_name": "第六章 神选之人",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12692,
+          "chapter_name": "第七章 悲剧女王",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 12693,
+          "chapter_name": "第八章 发现梦想",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 12694,
+          "chapter_name": "第九章 大苹果",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 12695,
+          "chapter_name": "第十章 鲜苹果",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 12696,
+          "chapter_name": "第十一章 金苹果",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 12697,
+          "chapter_name": "第十二章 烂苹果",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 12698,
+          "chapter_name": "尾声",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 12699,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 2168,
+      "id": 2168,
+      "volume_name": "第七卷 Be in love with your miracle",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 12700,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12701,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12702,
+          "chapter_name": "第一章 不乖的圣女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12703,
+          "chapter_name": "Sweet home memories",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12704,
+          "chapter_name": "铁之女",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12705,
+          "chapter_name": "逃避之日的邂逅",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12706,
+          "chapter_name": "令人心跳加速的圣彼得堡",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12707,
+          "chapter_name": "蜜月",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12708,
+          "chapter_name": "缓慢，而且",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12709,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 2169,
+      "id": 2169,
+      "volume_name": "第八卷 王者进行曲 Big time again！",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 12710,
+          "chapter_name": "登场人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12711,
+          "chapter_name": "公主条约",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12712,
+          "chapter_name": "裂痕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12713,
+          "chapter_name": "眼前的现实",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12714,
+          "chapter_name": "萨沙的爱情故事",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12715,
+          "chapter_name": "Calendar Steps",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12716,
+          "chapter_name": "2010——序曲",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12717,
+          "chapter_name": "碧蓝幻影",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12718,
+          "chapter_name": "新境界",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12719,
+          "chapter_name": "Bygones",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 2170,
+      "id": 2170,
+      "volume_name": "第九卷 灰姑娘进行曲 say it ain't so",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 12720,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12721,
+          "chapter_name": "XXI 终极六角",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12722,
+          "chapter_name": "XXII 惊异",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12723,
+          "chapter_name": "灰姑娘一部曲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12724,
+          "chapter_name": "灰姑娘二部曲",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12725,
+          "chapter_name": "灰姑娘三部曲",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12726,
+          "chapter_name": "灰姑娘四部曲",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12727,
+          "chapter_name": "灰姑娘五部曲",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12728,
+          "chapter_name": "灰姑娘六部曲",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12729,
+          "chapter_name": "灰姑娘七部曲",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 12730,
+          "chapter_name": "灰姑娘八部曲",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 12731,
+          "chapter_name": "灰姑娘九部曲",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 12732,
+          "chapter_name": "灰姑娘十部曲",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 12733,
+          "chapter_name": "灰姑娘十一部曲",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 12734,
+          "chapter_name": "灰姑娘十二部曲",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 12735,
+          "chapter_name": "灰姑娘终曲",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 12736,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "秋目人",
   "first_letter": "P",
-  "subscribe_num": 1548,
-  "redis_update_time": 1564297807,
+  "subscribe_num": 1549,
+  "redis_update_time": 1564945313,
   "volume": [
     {
       "id": 4154,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 骗王",
       "volume_order": 10,
       "addtime": 1325042375,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5568,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 谋王",
       "volume_order": 20,
       "addtime": 1381224745,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5728,
@@ -41,7 +41,113 @@
       "volume_name": "谋王前日谈",
       "volume_order": 30,
       "addtime": 1388049478,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4154,
+      "id": 4154,
+      "volume_name": "第一卷 骗王",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 25794,
+          "chapter_name": "序章 王子，与父王对谈",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25795,
+          "chapter_name": "第一章 王子，向高利贷行骗",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25796,
+          "chapter_name": "第二章 王子，向兄长的未婚妻行骗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25797,
+          "chapter_name": "第三章 王子，向未婚妻的出轨对象行骗",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25798,
+          "chapter_name": "第四章 王子，向敌国将领行骗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25799,
+          "chapter_name": "第五章 王子，在公开处决场行骗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25800,
+          "chapter_name": "第六章 王子，在战场行骗",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25801,
+          "chapter_name": "第七章 王子，向父王行骗",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5568,
+      "id": 5568,
+      "volume_name": "第二卷 谋王",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 37903,
+          "chapter_name": "序章 王子，被下达通牒",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37904,
+          "chapter_name": "第一章 王子，派兵",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37905,
+          "chapter_name": "第二章 王子，与两位王位继承人攀谈",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37906,
+          "chapter_name": "第三章 王子，直面会谈",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37907,
+          "chapter_name": "第四章 王子，说服起义的民众",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38540,
+          "chapter_name": "第五章 王子，在戴冠仪式上布局",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38609,
+          "chapter_name": "终章 王子，在宝座上笑",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5728,
+      "id": 5728,
+      "volume_name": "谋王前日谈",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 39232,
+          "chapter_name": "王子，与自称剧作家对谈",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

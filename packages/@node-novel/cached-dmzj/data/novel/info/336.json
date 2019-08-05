@@ -3,7 +3,7 @@
   "name": "棋魂",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "KAIO vs.HAZE\r",
+  "last_update_volume_name": "KAIO vs.HAZE",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1263,
   "last_update_chapter_id": 7259,
@@ -17,23 +17,51 @@
   "authors": "堀田由美",
   "first_letter": "Q",
   "subscribe_num": 458,
-  "redis_update_time": 1564213403,
+  "redis_update_time": 1565015070,
   "volume": [
     {
       "id": 1262,
       "lnovel_id": 336,
-      "volume_name": "BOY MEETS GHOST\r",
+      "volume_name": "BOY MEETS GHOST",
       "volume_order": 10,
       "addtime": 1274918373,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1263,
       "lnovel_id": 336,
-      "volume_name": "KAIO vs.HAZE\r",
+      "volume_name": "KAIO vs.HAZE",
       "volume_order": 20,
       "addtime": 1274918373,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1262,
+      "id": 1262,
+      "volume_name": "BOY MEETS GHOST",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7258,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1263,
+      "id": 1263,
+      "volume_name": "KAIO vs.HAZE",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 7259,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "梦神的教室",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "黄昏的公主\r",
+  "last_update_volume_name": "黄昏的公主",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1084,
   "last_update_chapter_id": 6208,
@@ -17,39 +17,123 @@
   "authors": "三上延",
   "first_letter": "M",
   "subscribe_num": 336,
-  "redis_update_time": 1564307270,
+  "redis_update_time": 1564986820,
   "volume": [
     {
       "id": 1081,
       "lnovel_id": 286,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918267,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1082,
       "lnovel_id": 286,
-      "volume_name": "第二卷 乐园之门\r",
+      "volume_name": "第二卷 乐园之门",
       "volume_order": 20,
       "addtime": 1274918267,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1083,
       "lnovel_id": 286,
-      "volume_name": "潘塔索斯之剑\r",
+      "volume_name": "潘塔索斯之剑",
       "volume_order": 30,
       "addtime": 1274918267,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1084,
       "lnovel_id": 286,
-      "volume_name": "黄昏的公主\r",
+      "volume_name": "黄昏的公主",
       "volume_order": 40,
       "addtime": 1274918267,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1081,
+      "id": 1081,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6199,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1082,
+      "id": 1082,
+      "volume_name": "第二卷 乐园之门",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 6200,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1083,
+      "id": 1083,
+      "volume_name": "潘塔索斯之剑",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 6201,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1084,
+      "id": 1084,
+      "volume_name": "黄昏的公主",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 6202,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6203,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6204,
+          "chapter_name": "第一章 黄昏少女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6205,
+          "chapter_name": "第二章 命定时刻",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6206,
+          "chapter_name": "第三章 莫斐斯",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6207,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6208,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

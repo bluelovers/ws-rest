@@ -3,7 +3,7 @@
   "name": "失落的碎片",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1484,
   "last_update_chapter_id": 8550,
@@ -16,16 +16,31 @@
   ],
   "authors": "星家なこ",
   "first_letter": "S",
-  "subscribe_num": 138,
-  "redis_update_time": 1564058234,
+  "subscribe_num": 139,
+  "redis_update_time": 1564969043,
   "volume": [
     {
       "id": 1484,
       "lnovel_id": 388,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918502,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1484,
+      "id": 1484,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 8550,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

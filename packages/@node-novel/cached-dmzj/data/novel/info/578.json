@@ -3,7 +3,7 @@
   "name": "云之彼端约定之地",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "云之彼端约定之地\r",
+  "last_update_volume_name": "云之彼端约定之地",
   "last_update_chapter_name": "全一卷完",
   "last_update_volume_id": 2156,
   "last_update_chapter_id": 12604,
@@ -16,16 +16,31 @@
   ],
   "authors": "新海诚",
   "first_letter": "Y",
-  "subscribe_num": 1531,
-  "redis_update_time": 1564302057,
+  "subscribe_num": 1584,
+  "redis_update_time": 1565029954,
   "volume": [
     {
       "id": 2156,
       "lnovel_id": 578,
-      "volume_name": "云之彼端约定之地\r",
+      "volume_name": "云之彼端约定之地",
       "volume_order": 10,
       "addtime": 1274918911,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2156,
+      "id": 2156,
+      "volume_name": "云之彼端约定之地",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12604,
+          "chapter_name": "全一卷完",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

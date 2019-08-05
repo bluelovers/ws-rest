@@ -16,8 +16,8 @@
   ],
   "authors": "凑香苗",
   "first_letter": "G",
-  "subscribe_num": 747,
-  "redis_update_time": 1564305257,
+  "subscribe_num": 752,
+  "redis_update_time": 1565003517,
   "volume": [
     {
       "id": 3230,
@@ -25,7 +25,47 @@
       "volume_name": "全一卷",
       "volume_order": 10,
       "addtime": 1287742242,
-      "sum_chapters": 9
+      "sum_chapters": 6
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3230,
+      "id": 3230,
+      "volume_name": "全一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 18250,
+          "chapter_name": "第一章 神职者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18251,
+          "chapter_name": "第二章 殉教者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18252,
+          "chapter_name": "第三章 慈爱者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18253,
+          "chapter_name": "第四章 求道者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18254,
+          "chapter_name": "第五章 信奉者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18255,
+          "chapter_name": "第六章 传道者",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

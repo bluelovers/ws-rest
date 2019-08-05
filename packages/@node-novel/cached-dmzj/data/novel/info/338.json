@@ -3,7 +3,7 @@
   "name": "秋叶少年",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1265,
   "last_update_chapter_id": 7261,
@@ -17,15 +17,30 @@
   "authors": "将吉",
   "first_letter": "Q",
   "subscribe_num": 37,
-  "redis_update_time": 1563639957,
+  "redis_update_time": 1564498383,
   "volume": [
     {
       "id": 1265,
       "lnovel_id": 338,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918375,
-      "sum_chapters": 8
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1265,
+      "id": 1265,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7261,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "装甲核心",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷 报偿\r",
+  "last_update_volume_name": "第一卷 报偿",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2472,
   "last_update_chapter_id": 14259,
@@ -17,15 +17,30 @@
   "authors": "神野淳一",
   "first_letter": "Z",
   "subscribe_num": 204,
-  "redis_update_time": 1564253396,
+  "redis_update_time": 1564934328,
   "volume": [
     {
       "id": 2472,
       "lnovel_id": 690,
-      "volume_name": "第一卷 报偿\r",
+      "volume_name": "第一卷 报偿",
       "volume_order": 10,
       "addtime": 1275481533,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2472,
+      "id": 2472,
+      "volume_name": "第一卷 报偿",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14259,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

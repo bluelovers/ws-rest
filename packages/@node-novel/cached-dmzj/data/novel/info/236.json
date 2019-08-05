@@ -3,7 +3,7 @@
   "name": "kanon 雪之少女官方小说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第五卷 日溜まりの街\r",
+  "last_update_volume_name": "第五卷 日溜まりの街",
   "last_update_chapter_name": "终章",
   "last_update_volume_id": 859,
   "last_update_chapter_id": 4860,
@@ -16,48 +16,305 @@
   ],
   "authors": "key",
   "first_letter": "K",
-  "subscribe_num": 1010,
-  "redis_update_time": 1564292761,
+  "subscribe_num": 1017,
+  "redis_update_time": 1565019060,
   "volume": [
     {
       "id": 855,
       "lnovel_id": 236,
-      "volume_name": "第一卷 雪的少女\r",
+      "volume_name": "第一卷 雪的少女",
       "volume_order": 10,
       "addtime": 1274918145,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 856,
       "lnovel_id": 236,
-      "volume_name": "第二卷 笑颜の向こう侧に\r",
+      "volume_name": "第二卷 笑颜の向こう侧に",
       "volume_order": 20,
       "addtime": 1274918145,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 857,
       "lnovel_id": 236,
-      "volume_name": "第三卷 少女の槛\r",
+      "volume_name": "第三卷 少女の槛",
       "volume_order": 30,
       "addtime": 1274918145,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 858,
       "lnovel_id": 236,
-      "volume_name": "第四卷 The fox and the grapes\r",
+      "volume_name": "第四卷 The fox and the grapes",
       "volume_order": 40,
       "addtime": 1274918145,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 859,
       "lnovel_id": 236,
-      "volume_name": "第五卷 日溜まりの街\r",
+      "volume_name": "第五卷 日溜まりの街",
       "volume_order": 50,
       "addtime": 1274918145,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 855,
+      "id": 855,
+      "volume_name": "第一卷 雪的少女",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4818,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4819,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4820,
+          "chapter_name": "第一章 转校首日",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4821,
+          "chapter_name": "第二章 很喜欢猫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4822,
+          "chapter_name": "第三章 两人独处",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4823,
+          "chapter_name": "第四章 雪兔子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4824,
+          "chapter_name": "第五章 礼物",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4825,
+          "chapter_name": "第六章 敞开心扉",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4826,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 856,
+      "id": 856,
+      "volume_name": "第二卷 笑颜の向こう侧に",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 4827,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4828,
+          "chapter_name": "第一章 喜爱香草冰淇淋的少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4829,
+          "chapter_name": "第二章 初次约会？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4830,
+          "chapter_name": "第三章 幸福的阴影",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4831,
+          "chapter_name": "第四章 告白",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4832,
+          "chapter_name": "第五章 梦幻般的日子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4833,
+          "chapter_name": "第六章 下雪之夜……",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4834,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 857,
+      "id": 857,
+      "volume_name": "第三卷 少女の槛",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 4835,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4836,
+          "chapter_name": "第一章 剑与魔物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4837,
+          "chapter_name": "第二章 关于她们的谣言",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4838,
+          "chapter_name": "第三章 舞会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4839,
+          "chapter_name": "第四章 想保护妳",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4840,
+          "chapter_name": "第五章 决战前夕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4841,
+          "chapter_name": "第六章 永远的牵绊",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4842,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 858,
+      "id": 858,
+      "volume_name": "第四卷 The fox and the grapes",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 4843,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4844,
+          "chapter_name": "第一章 陌生的重逢",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4845,
+          "chapter_name": "第二章 麻烦制造者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4846,
+          "chapter_name": "第三章 家族的温暖",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4847,
+          "chapter_name": "第四章 觉醒的记忆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4848,
+          "chapter_name": "第五章 传说与真实",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4849,
+          "chapter_name": "第六章 向春风起誓",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4850,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4851,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 859,
+      "id": 859,
+      "volume_name": "第五卷 日溜まりの街",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 4852,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4853,
+          "chapter_name": "第一章 迷失在梦中的孩子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4854,
+          "chapter_name": "第二章 夕阳下的森林",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4855,
+          "chapter_name": "第三章 第一个约定",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4856,
+          "chapter_name": "第四章 小时候的礼物",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4857,
+          "chapter_name": "第五章 重要的人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4858,
+          "chapter_name": "第六章 第二个秘密",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4859,
+          "chapter_name": "第七章 最后的愿望",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4860,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

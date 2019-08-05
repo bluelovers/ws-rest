@@ -3,7 +3,7 @@
   "name": "simoun 祈舞",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1396,
   "last_update_chapter_id": 7981,
@@ -17,23 +17,51 @@
   "authors": "冈崎纯子",
   "first_letter": "S",
   "subscribe_num": 173,
-  "redis_update_time": 1563722499,
+  "redis_update_time": 1564924925,
   "volume": [
     {
       "id": 1395,
       "lnovel_id": 375,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918451,
-      "sum_chapters": 14
+      "sum_chapters": 10
     },
     {
       "id": 1396,
       "lnovel_id": 375,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918451,
-      "sum_chapters": 14
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1395,
+      "id": 1395,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7980,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1396,
+      "id": 1396,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 7981,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

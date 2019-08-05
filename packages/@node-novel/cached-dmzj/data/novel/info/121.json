@@ -3,7 +3,7 @@
   "name": "复仇之虎",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "复仇之虎\r",
+  "last_update_volume_name": "复仇之虎",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 435,
   "last_update_chapter_id": 2728,
@@ -16,16 +16,31 @@
   ],
   "authors": "田中芳树",
   "first_letter": "F",
-  "subscribe_num": 81,
-  "redis_update_time": 1564198142,
+  "subscribe_num": 82,
+  "redis_update_time": 1565029357,
   "volume": [
     {
       "id": 435,
       "lnovel_id": 121,
-      "volume_name": "复仇之虎\r",
+      "volume_name": "复仇之虎",
       "volume_order": 10,
       "addtime": 1274917919,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 435,
+      "id": 435,
+      "volume_name": "复仇之虎",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2728,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

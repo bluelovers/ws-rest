@@ -12,20 +12,23 @@
   "hot_hits": 389547,
   "introduction": "这是原本被封印的魔王密特拉斯复活的时代。勇者阿提斯只身潜入魔王城堡；而被歌颂为「盾之圣女」的菲希那丝王国公主卡露瑟，为了守护勇者而投身于城堡外的战斗……但就在她的守候之下，魔王城伴随着闪光崩毁，勇者与魔王也一起失去了踪影──一年之后，在恢复和平的世界里，卡露瑟公主听闻有人见过勇者阿提斯的谣言。\n\n SOSG论坛",
   "types": [
-    "魔法/冒险/搞笑/异界"
+    "魔法",
+    "冒险",
+    "搞笑",
+    "异界"
   ],
   "authors": "伊都工平",
   "first_letter": "X",
-  "subscribe_num": 1595,
-  "redis_update_time": 1564303050,
+  "subscribe_num": 1598,
+  "redis_update_time": 1565026276,
   "volume": [
     {
       "id": 2509,
       "lnovel_id": 716,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481536,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3248,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1288175397,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3735,
@@ -41,7 +44,193 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1308188483,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2509,
+      "id": 2509,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14342,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14343,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14344,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14345,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14346,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14347,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14348,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 14349,
+          "chapter_name": "終章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 14350,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 3248,
+      "id": 3248,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 18394,
+          "chapter_name": "第二卷 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18395,
+          "chapter_name": "第二卷 第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18396,
+          "chapter_name": "第二卷 第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18397,
+          "chapter_name": "第二卷 第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18398,
+          "chapter_name": "第二卷 第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18399,
+          "chapter_name": "第二卷 第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18400,
+          "chapter_name": "第二卷 第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18401,
+          "chapter_name": "第二卷 第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18402,
+          "chapter_name": "第二卷 第八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 18403,
+          "chapter_name": "第二卷 第九章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 18404,
+          "chapter_name": "第二卷 第十章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 18405,
+          "chapter_name": "第二卷 终章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 18406,
+          "chapter_name": "第二卷 后记",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 3735,
+      "id": 3735,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 22106,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22107,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22108,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22109,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22110,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22111,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22112,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22113,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 22114,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 22116,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

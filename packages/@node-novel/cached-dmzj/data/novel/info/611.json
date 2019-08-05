@@ -3,7 +3,7 @@
   "name": "佐藤家的选择",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2286,
   "last_update_chapter_id": 13292,
@@ -17,23 +17,51 @@
   "authors": "贝花大介",
   "first_letter": "Z",
   "subscribe_num": 32,
-  "redis_update_time": 1564135342,
+  "redis_update_time": 1564919805,
   "volume": [
     {
       "id": 2285,
       "lnovel_id": 611,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918987,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 2286,
       "lnovel_id": 611,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918987,
-      "sum_chapters": 11
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2285,
+      "id": 2285,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13291,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2286,
+      "id": 2286,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13292,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

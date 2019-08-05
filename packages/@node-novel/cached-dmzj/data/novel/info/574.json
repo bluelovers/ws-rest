@@ -3,7 +3,7 @@
   "name": "银环计划",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全一卷\r",
+  "last_update_volume_name": "全一卷",
   "last_update_chapter_name": "【第五章】",
   "last_update_volume_id": 2141,
   "last_update_chapter_id": 12518,
@@ -16,16 +16,51 @@
   ],
   "authors": "田中芳树",
   "first_letter": "Y",
-  "subscribe_num": 135,
-  "redis_update_time": 1564132392,
+  "subscribe_num": 137,
+  "redis_update_time": 1564985483,
   "volume": [
     {
       "id": 2141,
       "lnovel_id": 574,
-      "volume_name": "全一卷\r",
+      "volume_name": "全一卷",
       "volume_order": 10,
       "addtime": 1274918902,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2141,
+      "id": 2141,
+      "volume_name": "全一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12514,
+          "chapter_name": "【第一章】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12515,
+          "chapter_name": "【第二章】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12516,
+          "chapter_name": "【第三章】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12517,
+          "chapter_name": "【第四章】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12518,
+          "chapter_name": "【第五章】",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

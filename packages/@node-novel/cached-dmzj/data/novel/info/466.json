@@ -3,7 +3,7 @@
   "name": "我们在虚空中巡视夜晚",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1757,
   "last_update_chapter_id": 10225,
@@ -16,16 +16,31 @@
   ],
   "authors": "上远野浩平",
   "first_letter": "W",
-  "subscribe_num": 522,
-  "redis_update_time": 1564308236,
+  "subscribe_num": 532,
+  "redis_update_time": 1565029558,
   "volume": [
     {
       "id": 1757,
       "lnovel_id": 466,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918661,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1757,
+      "id": 1757,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10225,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "筒井康隆",
   "first_letter": "D",
-  "subscribe_num": 506,
-  "redis_update_time": 1564252658,
+  "subscribe_num": 511,
+  "redis_update_time": 1564991676,
   "volume": [
     {
       "id": 3437,
@@ -25,7 +25,32 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1296178633,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3437,
+      "id": 3437,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19798,
+          "chapter_name": "第一部",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19799,
+          "chapter_name": "第二部",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19800,
+          "chapter_name": "解说",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

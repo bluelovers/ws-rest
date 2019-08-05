@@ -3,7 +3,7 @@
   "name": "超时空要塞-边界",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "短篇小说\r",
+  "last_update_volume_name": "短篇小说",
   "last_update_chapter_name": "雪莉露篇",
   "last_update_volume_id": 183,
   "last_update_chapter_id": 1095,
@@ -17,31 +17,72 @@
   "authors": "小太刀右京",
   "first_letter": "C",
   "subscribe_num": 492,
-  "redis_update_time": 1564155044,
+  "redis_update_time": 1565036194,
   "volume": [
     {
       "id": 181,
       "lnovel_id": 50,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274917786,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 182,
       "lnovel_id": 50,
-      "volume_name": "第2卷\r",
+      "volume_name": "第2卷",
       "volume_order": 20,
       "addtime": 1274917786,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 183,
       "lnovel_id": 50,
-      "volume_name": "短篇小说\r",
+      "volume_name": "短篇小说",
       "volume_order": 30,
       "addtime": 1274917786,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 181,
+      "id": 181,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 1093,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 182,
+      "id": 182,
+      "volume_name": "第2卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 1094,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 183,
+      "id": 183,
+      "volume_name": "短篇小说",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 1095,
+          "chapter_name": "雪莉露篇",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

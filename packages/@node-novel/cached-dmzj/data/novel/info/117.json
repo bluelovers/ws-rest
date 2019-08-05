@@ -3,7 +3,7 @@
   "name": "放学后的征服世界",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第2卷\r",
+  "last_update_volume_name": "第2卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 424,
   "last_update_chapter_id": 2635,
@@ -16,24 +16,92 @@
   ],
   "authors": "わかつきひかる",
   "first_letter": "F",
-  "subscribe_num": 531,
-  "redis_update_time": 1564298016,
+  "subscribe_num": 532,
+  "redis_update_time": 1565018082,
   "volume": [
     {
       "id": 423,
       "lnovel_id": 117,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274917911,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 424,
       "lnovel_id": 117,
-      "volume_name": "第2卷\r",
+      "volume_name": "第2卷",
       "volume_order": 20,
       "addtime": 1274917911,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 423,
+      "id": 423,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2626,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2627,
+          "chapter_name": "佐佐木梨梨子的秘密",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2628,
+          "chapter_name": "大臣大人来视察",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2629,
+          "chapter_name": "绪方瑠璃的忧郁",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2630,
+          "chapter_name": "学生会长的意见",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2631,
+          "chapter_name": "开放校园参观计策",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2632,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2633,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2634,
+          "chapter_name": "XE~~插图~~~",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 424,
+      "id": 424,
+      "volume_name": "第2卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2635,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

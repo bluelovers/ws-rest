@@ -3,7 +3,7 @@
   "name": "电波系彼女",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "OVA2附赠短篇《于是她不知所措了》\r",
+  "last_update_volume_name": "OVA2附赠短篇《于是她不知所措了》",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 341,
   "last_update_chapter_id": 2142,
@@ -16,40 +16,214 @@
   ],
   "authors": "片山宪太郎",
   "first_letter": "D",
-  "subscribe_num": 2307,
-  "redis_update_time": 1564310991,
+  "subscribe_num": 2322,
+  "redis_update_time": 1565038940,
   "volume": [
     {
       "id": 338,
       "lnovel_id": 90,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917865,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 339,
       "lnovel_id": 90,
-      "volume_name": "第二卷 愚昧者的选择\r",
+      "volume_name": "第二卷 愚昧者的选择",
       "volume_order": 20,
       "addtime": 1274917865,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 340,
       "lnovel_id": 90,
-      "volume_name": "第三卷 幸福的游戏\r",
+      "volume_name": "第三卷 幸福的游戏",
       "volume_order": 30,
       "addtime": 1274917865,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 341,
       "lnovel_id": 90,
-      "volume_name": "OVA2附赠短篇《于是她不知所措了》\r",
+      "volume_name": "OVA2附赠短篇《于是她不知所措了》",
       "volume_order": 40,
       "addtime": 1274917865,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 338,
+      "id": 338,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2115,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2116,
+          "chapter_name": "第一章 前世羁绊的誓言",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2117,
+          "chapter_name": "第二章 困扰的日子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2118,
+          "chapter_name": "第三章 叫柔泽红香的女人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2119,
+          "chapter_name": "第四章 悄悄接近的疯狂",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2120,
+          "chapter_name": "第五章 悄悄接近的疯狂",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2121,
+          "chapter_name": "第六章 表白",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2122,
+          "chapter_name": "第七章 羁绊",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2123,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 339,
+      "id": 339,
+      "volume_name": "第二卷 愚昧者的选择",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2124,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2125,
+          "chapter_name": "第一章 今天是晴空万里",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2126,
+          "chapter_name": "第二章 失去的东西",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2127,
+          "chapter_name": "第三章 愚者的足迹",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2128,
+          "chapter_name": "第四章 妄想之茧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2129,
+          "chapter_name": "第五章 挖眼魔的见解",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2130,
+          "chapter_name": "第六章 早晨",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2131,
+          "chapter_name": "第七章 今天，又是晴空万里",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2132,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 340,
+      "id": 340,
+      "volume_name": "第三卷 幸福的游戏",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 2133,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2134,
+          "chapter_name": "第一章 摧毁幸福",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2135,
+          "chapter_name": "第二章 糖份与思考的甜蜜关系",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2136,
+          "chapter_name": "第三章 失恋少女的心事",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2137,
+          "chapter_name": "第四章 幸福俱尔部",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2138,
+          "chapter_name": "第五章 活祭品",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2139,
+          "chapter_name": "第六章 让我幸福",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2140,
+          "chapter_name": "第七章 胜利者",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2141,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 341,
+      "id": 341,
+      "volume_name": "OVA2附赠短篇《于是她不知所措了》",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 2142,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

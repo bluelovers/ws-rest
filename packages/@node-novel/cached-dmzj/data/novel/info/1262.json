@@ -12,12 +12,13 @@
   "hot_hits": 212459,
   "introduction": "人气篮球动漫官方小说",
   "types": [
-    "校园/励志"
+    "校园",
+    "励志"
   ],
   "authors": "平林佐和子",
   "first_letter": "H",
-  "subscribe_num": 1106,
-  "redis_update_time": 1564295453,
+  "subscribe_num": 1114,
+  "redis_update_time": 1564948155,
   "volume": [
     {
       "id": 4554,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1341972966,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4555,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1341972966,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5050,
@@ -41,7 +42,88 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1359962941,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4554,
+      "id": 4554,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 29224,
+          "chapter_name": "第1G 帝光中学有些喧嚣的放学之后",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29225,
+          "chapter_name": "第2G 海常高中青春白皮书~暑假可不能就这么结束了~",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29226,
+          "chapter_name": "第3G 诚凛高中篮球部 最大的危机？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29227,
+          "chapter_name": "第4G 海常高中青春白皮书~还是不能让暑假就这么结束了~",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29228,
+          "chapter_name": "第5G 恐怖！山中合宿的悲剧！！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29229,
+          "chapter_name": "番外 吾辈乃是新队员",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 4555,
+      "id": 4555,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 29230,
+          "chapter_name": "第1G Welcome to 帝光祭",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29231,
+          "chapter_name": "第2G 绿间真太郎氏极其不幸的一天",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29232,
+          "chapter_name": "第3G 残酷的打工之战~笨蛋是无药可医的~",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29233,
+          "chapter_name": "第4G 桐皇学园的不眠之夜",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 5050,
+      "id": 5050,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 33397,
+          "chapter_name": "第1G 若奇迹们换上浴衣",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

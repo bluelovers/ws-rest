@@ -3,7 +3,7 @@
   "name": "魔壶妖精",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1061,
   "last_update_chapter_id": 6117,
@@ -17,15 +17,30 @@
   "authors": "鲷津裕太",
   "first_letter": "M",
   "subscribe_num": 60,
-  "redis_update_time": 1563675754,
+  "redis_update_time": 1564925077,
   "volume": [
     {
       "id": 1061,
       "lnovel_id": 278,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918257,
-      "sum_chapters": 8
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1061,
+      "id": 1061,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6117,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

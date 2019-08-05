@@ -16,56 +16,56 @@
   ],
   "authors": "桑原水菜",
   "first_letter": "H",
-  "subscribe_num": 277,
-  "redis_update_time": 1564309741,
+  "subscribe_num": 279,
+  "redis_update_time": 1564999319,
   "volume": [
     {
       "id": 580,
       "lnovel_id": 163,
-      "volume_name": "卷一\r",
+      "volume_name": "卷一",
       "volume_order": 10,
       "addtime": 1274917999,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 581,
       "lnovel_id": 163,
-      "volume_name": "卷二 女武神雪骑行\r",
+      "volume_name": "卷二 女武神雪骑行",
       "volume_order": 20,
       "addtime": 1274917999,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 582,
       "lnovel_id": 163,
-      "volume_name": "番外\r",
+      "volume_name": "番外",
       "volume_order": 30,
       "addtime": 1274917999,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 583,
       "lnovel_id": 163,
-      "volume_name": "第三卷 迷宫女神的纺车\r",
+      "volume_name": "第三卷 迷宫女神的纺车",
       "volume_order": 40,
       "addtime": 1274917999,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 584,
       "lnovel_id": 163,
-      "volume_name": "第四卷 破坏神的跳舞森林\r",
+      "volume_name": "第四卷 破坏神的跳舞森林",
       "volume_order": 50,
       "addtime": 1274917999,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 585,
       "lnovel_id": 163,
-      "volume_name": "第五卷 追忆录\r",
+      "volume_name": "第五卷 追忆录",
       "volume_order": 60,
       "addtime": 1274917999,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4082,
@@ -73,7 +73,255 @@
       "volume_name": "第六卷 燃烧深渊的守护者（前篇）",
       "volume_order": 70,
       "addtime": 1322794065,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 580,
+      "id": 580,
+      "volume_name": "卷一",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3427,
+          "chapter_name": "圣诞礼物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3428,
+          "chapter_name": "与女神相遇之夜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3429,
+          "chapter_name": "命之赠物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3430,
+          "chapter_name": "第三章 以新的身体",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3431,
+          "chapter_name": "第四章 不悦的转校生",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3432,
+          "chapter_name": "第五章 怪物的心脏",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3433,
+          "chapter_name": "第六章 壁之彼端",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3434,
+          "chapter_name": "第七章 两位骑士",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 3435,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 581,
+      "id": 581,
+      "volume_name": "卷二 女武神雪骑行",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3436,
+          "chapter_name": "第一章 春雷乍响的早晨",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3437,
+          "chapter_name": "第二章 穿着制服的恐怖分子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3438,
+          "chapter_name": "第三章 活下去的价值",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3439,
+          "chapter_name": "第四章 雪女的足迹",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3440,
+          "chapter_name": "第五章 女神归来",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3441,
+          "chapter_name": "第六章 圣道",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3442,
+          "chapter_name": "第七章 和恶魔立下约定",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3443,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 582,
+      "id": 582,
+      "volume_name": "番外",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3444,
+          "chapter_name": "看戏去吧",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 583,
+      "id": 583,
+      "volume_name": "第三卷 迷宫女神的纺车",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 3445,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3446,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3447,
+          "chapter_name": "地图上找不到的国家",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3448,
+          "chapter_name": "心脏的名字",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3449,
+          "chapter_name": "千手观音要解救的人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3450,
+          "chapter_name": "我们的毕业典礼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3451,
+          "chapter_name": "迷宫",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3452,
+          "chapter_name": "牢笼中的亚丽雅德妮",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 3453,
+          "chapter_name": "无法飞翔的翅膀",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 584,
+      "id": 584,
+      "volume_name": "第四卷 破坏神的跳舞森林",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 3454,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 585,
+      "id": 585,
+      "volume_name": "第五卷 追忆录",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 3455,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 4082,
+      "id": 4082,
+      "volume_name": "第六卷 燃烧深渊的守护者（前篇）",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 25216,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25222,
+          "chapter_name": "第一章 乌加特之眼的少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25218,
+          "chapter_name": "第二章 黑色心脏之神",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25219,
+          "chapter_name": "第三章 被称为圣之湖",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25223,
+          "chapter_name": "第四章 没有心脏的男人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25221,
+          "chapter_name": "第五章 人民",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25224,
+          "chapter_name": "第六章 不要靠近游行队伍",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25225,
+          "chapter_name": "第七章 格林希尔德的留书",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 25226,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

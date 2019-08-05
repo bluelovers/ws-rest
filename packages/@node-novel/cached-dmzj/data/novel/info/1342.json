@@ -12,12 +12,13 @@
   "hot_hits": 29130,
   "introduction": "　　「要不要和我两个人一起调查看看？」\n　　酷热无比的七月书架，一名少女留下未完成的画，从无人的校舍四楼坠楼身亡。少女的死，被判定为自杀，没有造成多大骚动而静静落幕。她为什么寻思？又为何不得不死？\n　　为什么要掀起波澜？为什么要追根究袛？\n　　明明——\n　　明明又不是我的错。\n　　为什么要害我的心情变得这么沉重。\n　　但是，我非得回答别人的问题不可。\n　　为了没有矛盾。为了让发问的人信服。\n　　这是我的义务。\n　　「看到活着的吉野彼方最后身影的」我的义务。\n　　刻印人心深处的悲恸故事\n　　苦涩惆怅的青春物语，就此展开……",
   "types": [
-    "校园/侦探"
+    "校园",
+    "侦探"
   ],
   "authors": "柴村仁",
   "first_letter": "S",
-  "subscribe_num": 474,
-  "redis_update_time": 1564303461,
+  "subscribe_num": 479,
+  "redis_update_time": 1564950838,
   "volume": [
     {
       "id": 4883,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1354700529,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5600,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 海德拉的告白",
       "volume_order": 20,
       "addtime": 1382702475,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5820,
@@ -41,7 +42,143 @@
       "volume_name": "第三卷 生者的纪念日",
       "volume_order": 30,
       "addtime": 1392627762,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4883,
+      "id": 4883,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32093,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32094,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32095,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32096,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32097,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32098,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32099,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32100,
+          "chapter_name": "记事表",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5600,
+      "id": 5600,
+      "volume_name": "第二卷 海德拉的告白",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 38149,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38150,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38151,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38152,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38153,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38154,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38155,
+          "chapter_name": "记事表",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5820,
+      "id": 5820,
+      "volume_name": "第三卷 生者的纪念日",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 40103,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40104,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40105,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40106,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40107,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40108,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40109,
+          "chapter_name": "记事表",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "机动战士高达0079",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "外传 密会\r",
+  "last_update_volume_name": "外传 密会",
   "last_update_chapter_name": "第二十章 夏亚跟莎拉，阿姆罗跟拉拉",
   "last_update_volume_id": 2546,
   "last_update_chapter_id": 14469,
@@ -16,24 +16,257 @@
   ],
   "authors": "富野由悠季",
   "first_letter": "J",
-  "subscribe_num": 959,
-  "redis_update_time": 1564297663,
+  "subscribe_num": 966,
+  "redis_update_time": 1565022427,
   "volume": [
     {
       "id": 2545,
       "lnovel_id": 728,
-      "volume_name": "官方小说\r",
+      "volume_name": "官方小说",
       "volume_order": 10,
       "addtime": 1275481540,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2546,
       "lnovel_id": 728,
-      "volume_name": "外传 密会\r",
+      "volume_name": "外传 密会",
       "volume_order": 20,
       "addtime": 1275481540,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2545,
+      "id": 2545,
+      "volume_name": "官方小说",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14427,
+          "chapter_name": "SIDE 7",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14428,
+          "chapter_name": "逃出SIDE 7",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14429,
+          "chapter_name": "惊爆加利福尼亚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14430,
+          "chapter_name": "新人类",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14431,
+          "chapter_name": "吉翁",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14432,
+          "chapter_name": "德克萨斯",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14433,
+          "chapter_name": "拉拉",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14434,
+          "chapter_name": "开端",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 14435,
+          "chapter_name": "逃脱",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 14436,
+          "chapter_name": "库丝可·艾儿",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 14437,
+          "chapter_name": "前夕",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 14438,
+          "chapter_name": "人与人",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 14439,
+          "chapter_name": "接触",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 14440,
+          "chapter_name": "预感",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 14441,
+          "chapter_name": "攻击",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 14442,
+          "chapter_name": "艾尔美斯",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 14443,
+          "chapter_name": "怨恨",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 14444,
+          "chapter_name": "多兹尔·查比",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 14445,
+          "chapter_name": "后退",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 14446,
+          "chapter_name": "胎动",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 14447,
+          "chapter_name": "试动",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 14448,
+          "chapter_name": "阿·巴瓦·库",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 14449,
+          "chapter_name": "什姆市",
+          "chapter_order": 230
+        }
+      ]
+    },
+    {
+      "volume_id": 2546,
+      "id": 2546,
+      "volume_name": "外传 密会",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14450,
+          "chapter_name": "第一章 炽热中",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14451,
+          "chapter_name": "第二章 巨人之影",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14452,
+          "chapter_name": "第三章 阿姆罗·雷",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14453,
+          "chapter_name": "第四章 从宇宙到地球、往宇宙",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14454,
+          "chapter_name": "第五章 垂死的天鹅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14455,
+          "chapter_name": "第六章 依偎红衣",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14456,
+          "chapter_name": "第七章 代替母亲",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14457,
+          "chapter_name": "第八章 女人这东西",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 14458,
+          "chapter_name": "第九章 阿姆罗的立足之地",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 14459,
+          "chapter_name": "第十章 旁观者拉拉",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 14460,
+          "chapter_name": "第十一章 层层交织",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 14461,
+          "chapter_name": "第十二章 人跟机器",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 14462,
+          "chapter_name": "第十三章 所罗门会战",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 14463,
+          "chapter_name": "第十四章 拉拉的拥抱",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 14464,
+          "chapter_name": "第十五章 波涛",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 14465,
+          "chapter_name": "第十六章 夹缝中的少女",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 14466,
+          "chapter_name": "第十七章 极致",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 14467,
+          "chapter_name": "第十八章 休息吧拉拉",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 14468,
+          "chapter_name": "第十九章 阿·巴瓦·库",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 14469,
+          "chapter_name": "第二十章 夏亚跟莎拉，阿姆罗跟拉拉",
+          "chapter_order": 200
+        }
+      ]
     }
   ]
 }

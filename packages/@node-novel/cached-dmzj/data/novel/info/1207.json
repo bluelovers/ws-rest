@@ -12,12 +12,13 @@
   "hot_hits": 40347,
   "introduction": "　　「我想邀请你加入第二科学社。」\n　　以田径资优生身分保送入学，却因为脚伤而失去目标的竹原高行，忽然收到这样的邀请。提出邀请的女孩名为海龙王寺八叶，她是聪明才智凌驾于常人之上的「天才」之一，然而她不但会贸然进行色诱，还完全没有整理物品的习惯，而且因为埋首做实验所以也很少洗澡，特异的所作所为凌驾于常人之上。\n　　以入社体验名义加入第二科学社的高行，就这样被她耍得团团转。海龙王寺邀请他加入的真正原因是什么？两人的关系又会如何进展？\n　　轻小说界备受瞩目的新人作家处女作，为各位读者献上感动的天才青春剧！",
   "types": [
-    "校园/爱情"
+    "校园",
+    "爱情"
   ],
   "authors": "优木カズヒロ",
   "first_letter": "H",
-  "subscribe_num": 331,
-  "redis_update_time": 1564295706,
+  "subscribe_num": 333,
+  "redis_update_time": 1564885303,
   "volume": [
     {
       "id": 4303,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1331025948,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 4356,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1332756227,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 4602,
@@ -41,7 +42,108 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1343804119,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4303,
+      "id": 4303,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 27046,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27047,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27048,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27049,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27050,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4356,
+      "id": 4356,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 27483,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27484,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27485,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27486,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27487,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4602,
+      "id": 4602,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 29640,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29641,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29642,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29643,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29644,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

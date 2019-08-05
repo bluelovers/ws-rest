@@ -12,20 +12,22 @@
   "hot_hits": 6180,
   "introduction": "「看，那颗星星就是我哟。我呀，会一直在那边等着哥哥来接我，一直……」\n将无法守护妹妹的悔恨藏于心中，驾驶新型战斗机投入战争的乡守真人，击坠了一台诡异的美军战斗机，而在其中的竟是自称「来自外星的使者」的少女琉美艾儿！受到少女指名负责照顾她的乡守，也因将这名来自异星的美丽少女身影与妹妹重叠而困扰不已，难道她是妹妹的……？\n在世界尽头岛屿的战时爱情ADV，动人心弦小说化登场！！",
   "types": [
-    "爱情/战争/科幻"
+    "爱情",
+    "战争",
+    "科幻"
   ],
   "authors": "foca",
   "first_letter": "X",
-  "subscribe_num": 61,
-  "redis_update_time": 1563993073,
+  "subscribe_num": 62,
+  "redis_update_time": 1564773658,
   "volume": [
     {
       "id": 4191,
       "lnovel_id": 1174,
-      "volume_name": "上卷\r",
+      "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1326768397,
-      "sum_chapters": 13
+      "sum_chapters": 10
     },
     {
       "id": 4204,
@@ -33,7 +35,80 @@
       "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1328598687,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4191,
+      "id": 4191,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 26085,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26086,
+          "chapter_name": "第一章 星尘散落的岛屿",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26087,
+          "chapter_name": "第二章 兄与妹",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26088,
+          "chapter_name": "第三章 天之御使与魔鬼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26089,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4204,
+      "id": 4204,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 26193,
+          "chapter_name": "第四章 Baseball一九四三",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26194,
+          "chapter_name": "第五章 决战前的夜晚",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26195,
+          "chapter_name": "第六章 离星空最近之处",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26196,
+          "chapter_name": "终章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26197,
+          "chapter_name": "人物＆世界观设定",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26198,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

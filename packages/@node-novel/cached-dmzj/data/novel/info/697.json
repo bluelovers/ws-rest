@@ -3,7 +3,7 @@
   "name": "名侦探的规条",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2483,
   "last_update_chapter_id": 14274,
@@ -16,16 +16,31 @@
   ],
   "authors": "东野圭吾",
   "first_letter": "M",
-  "subscribe_num": 1532,
-  "redis_update_time": 1564296922,
+  "subscribe_num": 1539,
+  "redis_update_time": 1565027554,
   "volume": [
     {
       "id": 2483,
       "lnovel_id": 697,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481534,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2483,
+      "id": 2483,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14274,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

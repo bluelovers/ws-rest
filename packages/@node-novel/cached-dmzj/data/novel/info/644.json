@@ -12,28 +12,30 @@
   "hot_hits": 56908,
   "introduction": "树雷皇来征木家视察已经一周了。\n准确地说，正好过了一周。\n每天一样的事，也正在重复着第八次——天地与树雷皇带来的“第一皇女阿重霞未婚夫候补”的决斗。\n照例又是以同样的台词开场。",
   "types": [
-    "搞笑/奇幻/后宫"
+    "搞笑",
+    "奇幻",
+    "后宫"
   ],
   "authors": "梶岛正树 黒田洋介",
   "first_letter": "Z",
-  "subscribe_num": 548,
-  "redis_update_time": 1564303750,
+  "subscribe_num": 552,
+  "redis_update_time": 1565020566,
   "volume": [
     {
       "id": 2398,
       "lnovel_id": 644,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481525,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2399,
       "lnovel_id": 644,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1275481525,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4758,
@@ -41,7 +43,158 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1349358095,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2398,
+      "id": 2398,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13946,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13947,
+          "chapter_name": "津名魅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13948,
+          "chapter_name": "濑户",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13949,
+          "chapter_name": "船穗",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13950,
+          "chapter_name": "魅月",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13951,
+          "chapter_name": "美砂树",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2399,
+      "id": 2399,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13952,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13953,
+          "chapter_name": "阿重霞",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13954,
+          "chapter_name": "遥照",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13955,
+          "chapter_name": "艾利",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13956,
+          "chapter_name": "船穗小狗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13957,
+          "chapter_name": "兼光",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 13958,
+          "chapter_name": "又见艾利",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 13959,
+          "chapter_name": "濑户与艾利",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 13960,
+          "chapter_name": "魉呼袭来",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 13961,
+          "chapter_name": "阿主沙",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 13962,
+          "chapter_name": "尾声",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 4758,
+      "id": 4758,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 30928,
+          "chapter_name": "雪的记忆",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30929,
+          "chapter_name": "鹫羽",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30930,
+          "chapter_name": "凪耶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30931,
+          "chapter_name": "美酿",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30932,
+          "chapter_name": "美云",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30933,
+          "chapter_name": "谷雷",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30934,
+          "chapter_name": "鹫羽和凪耶",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 30935,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

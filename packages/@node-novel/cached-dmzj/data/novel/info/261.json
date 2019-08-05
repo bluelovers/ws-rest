@@ -3,8 +3,8 @@
   "name": "流星慢舞",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
-  "last_update_chapter_name": "第七章  向星星许愿",
+  "last_update_volume_name": "第一卷",
+  "last_update_chapter_name": "第七章 向星星许愿",
   "last_update_volume_id": 955,
   "last_update_chapter_id": 5478,
   "last_update_time": 1274918201,
@@ -16,16 +16,61 @@
   ],
   "authors": "桥本纺",
   "first_letter": "L",
-  "subscribe_num": 367,
-  "redis_update_time": 1564304985,
+  "subscribe_num": 368,
+  "redis_update_time": 1564935967,
   "volume": [
     {
       "id": 955,
       "lnovel_id": 261,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918201,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 955,
+      "id": 955,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5472,
+          "chapter_name": "第一章 父亲的离家出走",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5473,
+          "chapter_name": "第二章 流星机器与天象仪",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5474,
+          "chapter_name": "第三章 他与父亲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5475,
+          "chapter_name": "第四章 射门",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5476,
+          "chapter_name": "第五章 妹妹生气了",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5477,
+          "chapter_name": "第六章 复仇的击倒",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 5478,
+          "chapter_name": "第七章 向星星许愿",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

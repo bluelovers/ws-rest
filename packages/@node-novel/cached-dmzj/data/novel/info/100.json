@@ -3,7 +3,7 @@
   "name": "对某个飞行员的追忆",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "终章",
   "last_update_volume_id": 354,
   "last_update_chapter_id": 2238,
@@ -16,16 +16,91 @@
   ],
   "authors": "犬村小六",
   "first_letter": "D",
-  "subscribe_num": 2536,
-  "redis_update_time": 1564302300,
+  "subscribe_num": 2551,
+  "redis_update_time": 1565031590,
   "volume": [
     {
       "id": 354,
       "lnovel_id": 100,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917874,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 354,
+      "id": 354,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2226,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2227,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2228,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2229,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2230,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2231,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2232,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2233,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2234,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 2235,
+          "chapter_name": "第九章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 2236,
+          "chapter_name": "第十章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 2237,
+          "chapter_name": "第十一章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 2238,
+          "chapter_name": "终章",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

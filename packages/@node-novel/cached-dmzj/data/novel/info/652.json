@@ -3,7 +3,7 @@
   "name": "SUGAR DARK 被埋葬的黑暗与少女",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第一卷 插图",
   "last_update_volume_id": 2416,
   "last_update_chapter_id": 17313,
@@ -16,16 +16,56 @@
   ],
   "authors": "新井円侍",
   "first_letter": "S",
-  "subscribe_num": 1701,
-  "redis_update_time": 1564299054,
+  "subscribe_num": 1705,
+  "redis_update_time": 1565028649,
   "volume": [
     {
       "id": 2416,
       "lnovel_id": 652,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481526,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2416,
+      "id": 2416,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14021,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14022,
+          "chapter_name": "Hole:1 GRAVE DIGGER",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14023,
+          "chapter_name": "Hole:2 GRAVE KEEPER",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14024,
+          "chapter_name": "Hole：3 GRAVE ROBBER",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17312,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17313,
+          "chapter_name": "插图",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

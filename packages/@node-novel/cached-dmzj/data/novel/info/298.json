@@ -3,7 +3,7 @@
   "name": "梦幻都市",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "略嫌冗长的后记",
   "last_update_volume_id": 1138,
   "last_update_chapter_id": 6545,
@@ -17,15 +17,75 @@
   "authors": "田中芳树",
   "first_letter": "M",
   "subscribe_num": 146,
-  "redis_update_time": 1564284840,
+  "redis_update_time": 1565019333,
   "volume": [
     {
       "id": 1138,
       "lnovel_id": 298,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918299,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1138,
+      "id": 1138,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6536,
+          "chapter_name": "原始森林与摩天大楼",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6537,
+          "chapter_name": "夜行者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6538,
+          "chapter_name": "巨大的阴影",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6539,
+          "chapter_name": "白色铁笼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6540,
+          "chapter_name": "俘虏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6541,
+          "chapter_name": "喧嚣的夜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6542,
+          "chapter_name": "头绪渐露",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6543,
+          "chapter_name": "前往地底",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 6544,
+          "chapter_name": "崩坏",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 6545,
+          "chapter_name": "略嫌冗长的后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

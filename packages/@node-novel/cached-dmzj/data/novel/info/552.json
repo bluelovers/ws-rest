@@ -3,8 +3,8 @@
   "name": "翼年代记官方小说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
-  "last_update_chapter_name": "第十章　交错的未来",
+  "last_update_volume_name": "第一卷",
+  "last_update_chapter_name": "第十章 交错的未来",
   "last_update_volume_id": 2066,
   "last_update_chapter_id": 12081,
   "last_update_time": 1274918858,
@@ -16,16 +16,81 @@
   ],
   "authors": "桃生圣史",
   "first_letter": "Y",
-  "subscribe_num": 666,
-  "redis_update_time": 1564313710,
+  "subscribe_num": 670,
+  "redis_update_time": 1565015853,
   "volume": [
     {
       "id": 2066,
       "lnovel_id": 552,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918857,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2066,
+      "id": 2066,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12071,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12072,
+          "chapter_name": "第一章 前往魔女的世界",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12073,
+          "chapter_name": "第二章 阪神共和国的守护神",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12074,
+          "chapter_name": "第三章 新的国度",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12075,
+          "chapter_name": "第四章 记忆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12076,
+          "chapter_name": "第五章 坚定的心愿",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12077,
+          "chapter_name": "第六章 末日之战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12078,
+          "chapter_name": "第七章 血线",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12079,
+          "chapter_name": "第八章 罪孽深重的人们",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12080,
+          "chapter_name": "第九章 旅程的走向",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 12081,
+          "chapter_name": "第十章 交错的未来",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

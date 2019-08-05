@@ -3,7 +3,7 @@
   "name": "万岁系列",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "樱花盛开万岁\r",
+  "last_update_volume_name": "樱花盛开万岁",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1843,
   "last_update_chapter_id": 10970,
@@ -17,71 +17,467 @@
   "authors": "三浦勇雄",
   "first_letter": "W",
   "subscribe_num": 313,
-  "redis_update_time": 1564288799,
+  "redis_update_time": 1565022595,
   "volume": [
     {
       "id": 1836,
       "lnovel_id": 490,
-      "volume_name": "第一弹 圣诞节万岁\r",
+      "volume_name": "第一弹 圣诞节万岁",
       "volume_order": 10,
       "addtime": 1274918715,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1837,
       "lnovel_id": 490,
-      "volume_name": "第二弹 情人节万岁\r",
+      "volume_name": "第二弹 情人节万岁",
       "volume_order": 20,
       "addtime": 1274918715,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1838,
       "lnovel_id": 490,
-      "volume_name": "第三弹 白色情人节万岁\r",
+      "volume_name": "第三弹 白色情人节万岁",
       "volume_order": 30,
       "addtime": 1274918715,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1839,
       "lnovel_id": 490,
-      "volume_name": "第四弹 六月新娘万岁\r",
+      "volume_name": "第四弹 六月新娘万岁",
       "volume_order": 40,
       "addtime": 1274918715,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1840,
       "lnovel_id": 490,
-      "volume_name": "第五弹 短篇万岁\r",
+      "volume_name": "第五弹 短篇万岁",
       "volume_order": 50,
       "addtime": 1274918715,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1841,
       "lnovel_id": 490,
-      "volume_name": "第六弹 祭典万岁\r",
+      "volume_name": "第六弹 祭典万岁",
       "volume_order": 60,
       "addtime": 1274918715,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1842,
       "lnovel_id": 490,
-      "volume_name": "第七卷 樱花万岁\r",
+      "volume_name": "第七卷 樱花万岁",
       "volume_order": 70,
       "addtime": 1274918715,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1843,
       "lnovel_id": 490,
-      "volume_name": "樱花盛开万岁\r",
+      "volume_name": "樱花盛开万岁",
       "volume_order": 80,
       "addtime": 1274918715,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1836,
+      "id": 1836,
+      "volume_name": "第一弹 圣诞节万岁",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10905,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10906,
+          "chapter_name": "第一话 圣诞少年万岁！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10907,
+          "chapter_name": "第二话 圣诞派对万岁！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10908,
+          "chapter_name": "第三话 余兴节目万岁！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10909,
+          "chapter_name": "第四话 绝地求生万岁！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10910,
+          "chapter_name": "第五话 幸福快乐万岁！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10911,
+          "chapter_name": "第六话 决一死战万岁！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10912,
+          "chapter_name": "Epilogue",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10913,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1837,
+      "id": 1837,
+      "volume_name": "第二弹 情人节万岁",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 10914,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10915,
+          "chapter_name": "第一话 交流企划万岁！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10916,
+          "chapter_name": "第二话 制作巧克力万岁！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10917,
+          "chapter_name": "第三话 报仇雪恨万岁！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10918,
+          "chapter_name": "第四话 全员出动万岁！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10919,
+          "chapter_name": "第五话 音乐演奏万岁！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10920,
+          "chapter_name": "第六话 我喜欢你万岁！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10921,
+          "chapter_name": "Eoilogue",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10922,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1838,
+      "id": 1838,
+      "volume_name": "第三弹 白色情人节万岁",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 10923,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10924,
+          "chapter_name": "第一话 加倍奉还万岁！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10925,
+          "chapter_name": "第二话 攻城掠地万岁！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10926,
+          "chapter_name": "第三话 钢铁雄兵万岁！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10927,
+          "chapter_name": "第四话 下定决心万岁！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10928,
+          "chapter_name": "第五话 欢喜冤家万岁！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10929,
+          "chapter_name": "Pilogue",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10930,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1839,
+      "id": 1839,
+      "volume_name": "第四弹 六月新娘万岁",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 10931,
+          "chapter_name": "Prologe",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10932,
+          "chapter_name": "第一话 乘龙快婿万岁！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10933,
+          "chapter_name": "第二话 豪华邮轮万岁！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10934,
+          "chapter_name": "第三话 婚婿登场万岁！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10935,
+          "chapter_name": "第四话 蓝色幸福万岁！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10936,
+          "chapter_name": "第五话 订婚喜宴万岁！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10937,
+          "chapter_name": "第六话 反击开始万岁！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10938,
+          "chapter_name": "第七话 六月新娘万岁！",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10939,
+          "chapter_name": "Epilogue",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 10940,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 1840,
+      "id": 1840,
+      "volume_name": "第五弹 短篇万岁",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 10941,
+          "chapter_name": "杀必死万岁！",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10942,
+          "chapter_name": "寂寞万岁！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10943,
+          "chapter_name": "幽灵万岁！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10944,
+          "chapter_name": "圣诞再万岁！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10945,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1841,
+      "id": 1841,
+      "volume_name": "第六弹 祭典万岁",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 10946,
+          "chapter_name": "Proogue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10947,
+          "chapter_name": "第一话 祭典万岁！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10948,
+          "chapter_name": "第二话 失忆万岁！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10949,
+          "chapter_name": "第三话 破坏万岁！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10950,
+          "chapter_name": "第四话 大混乱万岁！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10951,
+          "chapter_name": "第五话 对决万岁！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10952,
+          "chapter_name": "第六话 世界末日万岁！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10953,
+          "chapter_name": "Epilogue",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10954,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1842,
+      "id": 1842,
+      "volume_name": "第七卷 樱花万岁",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 10955,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10956,
+          "chapter_name": "prologu—Play Back & Re-Star",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10957,
+          "chapter_name": "第一话 重新出发万岁！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10958,
+          "chapter_name": "intermission",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10959,
+          "chapter_name": "第二话 逃脱万岁！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10960,
+          "chapter_name": "epilogue—Meet Again—",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10961,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1843,
+      "id": 1843,
+      "volume_name": "樱花盛开万岁",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 10962,
+          "chapter_name": "【prologue-Return Match-】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10963,
+          "chapter_name": "【第1话·复仇万岁！】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10964,
+          "chapter_name": "【intermission2】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10965,
+          "chapter_name": "【第2话·另类接触万岁！】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10966,
+          "chapter_name": "【第3话·姊妹万岁！】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10967,
+          "chapter_name": "【最终话·樱花开吧万岁！】",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10968,
+          "chapter_name": "【intermission3】",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10969,
+          "chapter_name": "【epilogue—Sakura-Saku—】",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10970,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

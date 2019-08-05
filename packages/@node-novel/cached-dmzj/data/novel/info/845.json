@@ -16,16 +16,31 @@
   ],
   "authors": "伊坂幸太郎",
   "first_letter": "Z",
-  "subscribe_num": 890,
-  "redis_update_time": 1564308697,
+  "subscribe_num": 896,
+  "redis_update_time": 1565023150,
   "volume": [
     {
       "id": 2977,
       "lnovel_id": 845,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1277356137,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2977,
+      "id": 2977,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16566,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

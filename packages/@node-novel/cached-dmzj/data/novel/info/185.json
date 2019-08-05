@@ -3,7 +3,7 @@
   "name": "红尘",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "长江无尽",
   "last_update_volume_id": 668,
   "last_update_chapter_id": 3851,
@@ -17,15 +17,75 @@
   "authors": "田中芳树",
   "first_letter": "H",
   "subscribe_num": 101,
-  "redis_update_time": 1564038558,
+  "redis_update_time": 1565029335,
   "volume": [
     {
       "id": 668,
       "lnovel_id": 185,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918045,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 668,
+      "id": 668,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3842,
+          "chapter_name": "江南冬雨",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3843,
+          "chapter_name": "密命",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3844,
+          "chapter_name": "黄天荡",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3845,
+          "chapter_name": "渡河",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3846,
+          "chapter_name": "燕京悲歌",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3847,
+          "chapter_name": "赵王府",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3848,
+          "chapter_name": "莫须有",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3849,
+          "chapter_name": "前夜",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 3850,
+          "chapter_name": "采石矶",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 3851,
+          "chapter_name": "长江无尽",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

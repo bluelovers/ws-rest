@@ -16,16 +16,16 @@
   ],
   "authors": "十文字青",
   "first_letter": "W",
-  "subscribe_num": 1273,
-  "redis_update_time": 1564252552,
+  "subscribe_num": 1277,
+  "redis_update_time": 1565022109,
   "volume": [
     {
       "id": 2429,
       "lnovel_id": 662,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481529,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3488,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1298441117,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3560,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1301366501,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4379,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1333604045,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5405,
@@ -57,7 +57,209 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1374809012,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2429,
+      "id": 2429,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14116,
+          "chapter_name": "第一话 戒指与狼",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14117,
+          "chapter_name": "第二话 贤者与未亡人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14118,
+          "chapter_name": "第三话 人类与敌人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14119,
+          "chapter_name": "第四话 骑士与义勇兵",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14120,
+          "chapter_name": "第五话 一个人与一个人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14121,
+          "chapter_name": "最终话 黎明与两人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14122,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3488,
+      "id": 3488,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 20191,
+          "chapter_name": "第1话 小银币与天空的眼泪",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20192,
+          "chapter_name": "第2话 谎言与纯真",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20193,
+          "chapter_name": "第3话 友情与同情",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20194,
+          "chapter_name": "第4话 死者与报恩",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20195,
+          "chapter_name": "第5话 猎人与擸物",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20196,
+          "chapter_name": "最终话 生命的碎片与意义",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20197,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3560,
+      "id": 3560,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 20708,
+          "chapter_name": "第一话 承诺与报复",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20709,
+          "chapter_name": "第二话 白云的流向与阴沉的黑暗",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20710,
+          "chapter_name": "第三话 因果与机关",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20711,
+          "chapter_name": "第四话 强者与弱者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20712,
+          "chapter_name": "最终话 罪与雪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20713,
+          "chapter_name": "第三卷 后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 4379,
+      "id": 4379,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 27650,
+          "chapter_name": "第1话 堕落的英雄与悲惨的狗",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27651,
+          "chapter_name": "第2话 杀手与乐者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27652,
+          "chapter_name": "第3话 首饰与魔王之歌",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27653,
+          "chapter_name": "第4话 锈蚀的心与软弱的我",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27654,
+          "chapter_name": "第5话 暗黑与黑暗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27655,
+          "chapter_name": "最终话 骑士的悲叹与魔女的智慧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27656,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5405,
+      "id": 5405,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 36537,
+          "chapter_name": "第1话 卡乌尔与列列",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36538,
+          "chapter_name": "第2话 叛徒与命运之子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36539,
+          "chapter_name": "第3话 幻影与无形之剑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36540,
+          "chapter_name": "最终话 明日",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36541,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

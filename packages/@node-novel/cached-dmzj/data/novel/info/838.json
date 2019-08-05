@@ -16,8 +16,8 @@
   ],
   "authors": "上桥菜惠子",
   "first_letter": "J",
-  "subscribe_num": 463,
-  "redis_update_time": 1564302425,
+  "subscribe_num": 465,
+  "redis_update_time": 1564925376,
   "volume": [
     {
       "id": 2954,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 精灵守护者",
       "volume_order": 10,
       "addtime": 1277353091,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3422,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 暗之守护者",
       "volume_order": 20,
       "addtime": 1295835416,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3423,
@@ -41,7 +41,113 @@
       "volume_name": "第三卷 梦之守护者",
       "volume_order": 30,
       "addtime": 1295835422,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2954,
+      "id": 2954,
+      "volume_name": "第一卷 精灵守护者",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16540,
+          "chapter_name": "序章 拯救皇子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16541,
+          "chapter_name": "第一章 寄宿于皇子体内之物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16542,
+          "chapter_name": "第二章 食卵魔物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16543,
+          "chapter_name": "第三章 孵化",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 3422,
+      "id": 3422,
+      "volume_name": "第二卷 暗之守护者",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 19694,
+          "chapter_name": "序章 往黑暗之中前进",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19695,
+          "chapter_name": "第一章 睡在黑暗深处之物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19696,
+          "chapter_name": "第二章 开始蠢动的黑暗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19697,
+          "chapter_name": "第三章 “山之王”的居民",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19698,
+          "chapter_name": "第四章 “禄意霞的馈赠仪式”",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19699,
+          "chapter_name": "终章 黑暗的远方",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 3423,
+      "id": 3423,
+      "volume_name": "第三卷 梦之守护者",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 19700,
+          "chapter_name": "序章 “花”之种萌芽之时",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19701,
+          "chapter_name": "第一章 “花”之梦",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19702,
+          "chapter_name": "第二章 “花之守护者”",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19703,
+          "chapter_name": "第三章 通往“花”的道路",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19704,
+          "chapter_name": "第四章 “花之夜”",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19705,
+          "chapter_name": "终章 夏之日",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

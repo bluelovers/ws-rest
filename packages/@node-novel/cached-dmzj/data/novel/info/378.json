@@ -3,7 +3,7 @@
   "name": "死神官方小说",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "呼唤君之名\r",
+  "last_update_volume_name": "呼唤君之名",
   "last_update_chapter_name": "呼唤君之名 一卷全",
   "last_update_volume_id": 1404,
   "last_update_chapter_id": 23807,
@@ -12,44 +12,46 @@
   "hot_hits": 319543,
   "introduction": "死神官方小说",
   "types": [
-    "格斗/奇幻/神鬼"
+    "格斗",
+    "奇幻",
+    "神鬼"
   ],
   "authors": "高原寺香月",
   "first_letter": "S",
-  "subscribe_num": 1780,
-  "redis_update_time": 1564312399,
+  "subscribe_num": 1785,
+  "redis_update_time": 1565030637,
   "volume": [
     {
       "id": 1401,
       "lnovel_id": 378,
-      "volume_name": "瀞灵庭的阴谋之秋\r",
+      "volume_name": "瀞灵庭的阴谋之秋",
       "volume_order": 10,
       "addtime": 1274918454,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1402,
       "lnovel_id": 378,
-      "volume_name": "散落记忆中的碎片\r",
+      "volume_name": "散落记忆中的碎片",
       "volume_order": 20,
       "addtime": 1274918454,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1403,
       "lnovel_id": 378,
-      "volume_name": "另一个冰轮丸\r",
+      "volume_name": "另一个冰轮丸",
       "volume_order": 30,
       "addtime": 1274918454,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1404,
       "lnovel_id": 378,
-      "volume_name": "呼唤君之名\r",
+      "volume_name": "呼唤君之名",
       "volume_order": 40,
       "addtime": 1274918454,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2811,
@@ -57,7 +59,7 @@
       "volume_name": "咖喱饭",
       "volume_order": 50,
       "addtime": 1276740215,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2812,
@@ -65,7 +67,152 @@
       "volume_name": "糯米年糕豆粥",
       "volume_order": 60,
       "addtime": 1276740370,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1401,
+      "id": 1401,
+      "volume_name": "瀞灵庭的阴谋之秋",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7986,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 7987,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 7988,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 7989,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 7990,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 7991,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 7992,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 7993,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 7994,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 7995,
+          "chapter_name": "第十章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 7996,
+          "chapter_name": "第十一章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 7997,
+          "chapter_name": "第十二章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 7998,
+          "chapter_name": "第十三章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 7999,
+          "chapter_name": "第十四章",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 1402,
+      "id": 1402,
+      "volume_name": "散落记忆中的碎片",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 8000,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1403,
+      "id": 1403,
+      "volume_name": "另一个冰轮丸",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 8001,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1404,
+      "id": 1404,
+      "volume_name": "呼唤君之名",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 23807,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2811,
+      "id": 2811,
+      "volume_name": "咖喱饭",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 15822,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2812,
+      "id": 2812,
+      "volume_name": "糯米年糕豆粥",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 15823,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

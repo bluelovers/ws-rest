@@ -3,7 +3,7 @@
   "name": "超妹大战",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 267,
   "last_update_chapter_id": 1600,
@@ -17,23 +17,131 @@
   "authors": "古桥秀之",
   "first_letter": "C",
   "subscribe_num": 99,
-  "redis_update_time": 1564287649,
+  "redis_update_time": 1564846382,
   "volume": [
     {
       "id": 266,
       "lnovel_id": 70,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917829,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 267,
       "lnovel_id": 70,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274917829,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 266,
+      "id": 266,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 1583,
+          "chapter_name": "第一话 妹控",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1584,
+          "chapter_name": "第二话 海冥寺来了！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 1585,
+          "chapter_name": "第三话 谁是怪物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 1586,
+          "chapter_name": "第四话 零之禁地",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 1587,
+          "chapter_name": "第五话 激斗！激走！温泉激战！？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 1588,
+          "chapter_name": "第六话 预赛结果！出乎意外的结果！？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 1589,
+          "chapter_name": "第七话 决战前夕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 1590,
+          "chapter_name": "第八话 黄金龙在此现身",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 1591,
+          "chapter_name": "第九话 优美的伪装下",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 1592,
+          "chapter_name": "第十话 苏醒的破坏者",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 1593,
+          "chapter_name": "第十一话 离别的倒数",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 1594,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 267,
+      "id": 267,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 1595,
+          "chapter_name": "决战前夕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1596,
+          "chapter_name": "黄金龙在此现身",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 1597,
+          "chapter_name": "优美的伪装下",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 1598,
+          "chapter_name": "苏醒的破坏者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 1599,
+          "chapter_name": "离别的倒数",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 1600,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

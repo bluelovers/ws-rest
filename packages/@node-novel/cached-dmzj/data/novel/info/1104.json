@@ -3,7 +3,7 @@
   "name": "恋文的技术",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第十二话 致伊吹夏子",
   "last_update_volume_id": 3920,
   "last_update_chapter_id": 23701,
@@ -16,16 +16,86 @@
   ],
   "authors": "森见登美彦",
   "first_letter": "L",
-  "subscribe_num": 837,
-  "redis_update_time": 1564312602,
+  "subscribe_num": 841,
+  "redis_update_time": 1564971605,
   "volume": [
     {
       "id": 3920,
       "lnovel_id": 1104,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1315880412,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3920,
+      "id": 3920,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23690,
+          "chapter_name": "第一话 致迂回进攻的友人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23691,
+          "chapter_name": "第二话 致个人历史上最难对付的学姐",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23692,
+          "chapter_name": "第三话 致有可取之处的少年",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23693,
+          "chapter_name": "第四话 致扭曲作家·森见登美彦",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23694,
+          "chapter_name": "第五话 致对女性的胸部没有抵抗力的友人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23695,
+          "chapter_name": "第六话 续·致个人历史上最难对付的学姐",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23696,
+          "chapter_name": "第七话 致情书反面教材·森见登美彦先生",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 23697,
+          "chapter_name": "第八话 致我心地善良的妹妹",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 23698,
+          "chapter_name": "第九话 致伊吹夏子同学·失败书简集",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 23699,
+          "chapter_name": "第十话 续·致有可取之处的少年八月九日",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 23700,
+          "chapter_name": "第十一话 大文字山的招待书",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 23701,
+          "chapter_name": "第十二话 致伊吹夏子",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

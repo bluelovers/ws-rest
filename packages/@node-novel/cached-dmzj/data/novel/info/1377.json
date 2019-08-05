@@ -12,12 +12,14 @@
   "hot_hits": 83469,
   "introduction": "新机动战记GundamWing的全新外传小说是一部从10年前就已经在进行构思的作品。小说由隅泽克之执笔，将给我们展示一个更全面的新机动战记！",
   "types": [
-    "科幻/冒险/机战"
+    "科幻",
+    "冒险",
+    "机战"
   ],
   "authors": "隅泽克之",
   "first_letter": "J",
-  "subscribe_num": 2379,
-  "redis_update_time": 1564299055,
+  "subscribe_num": 2390,
+  "redis_update_time": 1564961706,
   "volume": [
     {
       "id": 5028,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 赎罪的圆舞",
       "volume_order": 10,
       "addtime": 1359346091,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5029,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 连锁的镇魂曲",
       "volume_order": 20,
       "addtime": 1359346091,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5030,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 悲叹的夜想曲",
       "volume_order": 30,
       "addtime": 1359346091,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5031,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷 寂寥的狂诗曲",
       "volume_order": 40,
       "addtime": 1359346091,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5032,
@@ -57,7 +59,7 @@
       "volume_name": "特别编 胸臆的间奏曲",
       "volume_order": 50,
       "addtime": 1359346091,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 7368,
@@ -65,7 +67,7 @@
       "volume_name": "第五卷 邂逅的协奏曲",
       "volume_order": 60,
       "addtime": 1449023135,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 9367,
@@ -73,7 +75,305 @@
       "volume_name": "第六卷 沉默的赞歌",
       "volume_order": 70,
       "addtime": 1523969001,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5028,
+      "id": 5028,
+      "volume_name": "第一卷 赎罪的圆舞",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 33270,
+          "chapter_name": "PROLOGUE FILE",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33271,
+          "chapter_name": "Treize file",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33272,
+          "chapter_name": "Treize file2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33273,
+          "chapter_name": "Treize file3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33274,
+          "chapter_name": "Treize file4",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 5029,
+      "id": 5029,
+      "volume_name": "第二卷 连锁的镇魂曲",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 33275,
+          "chapter_name": "MC file 1",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33276,
+          "chapter_name": "MC file 2",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33277,
+          "chapter_name": "MC File 3（前篇）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33278,
+          "chapter_name": "MC File 3（中篇）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33279,
+          "chapter_name": "MC File 3（后篇）",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 5030,
+      "id": 5030,
+      "volume_name": "第三卷 悲叹的夜想曲",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 33280,
+          "chapter_name": "Peacecraft File 1",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33281,
+          "chapter_name": "Peacecraft File 2",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33282,
+          "chapter_name": "Peacecraft File 3",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33283,
+          "chapter_name": "MC File 4 前篇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33284,
+          "chapter_name": "MC File 4 中篇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33285,
+          "chapter_name": "MC File 4 后篇",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5031,
+      "id": 5031,
+      "volume_name": "第四卷 寂寥的狂诗曲",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 33286,
+          "chapter_name": "Peacecraft File 4",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33287,
+          "chapter_name": "Peacecraft File 5",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33288,
+          "chapter_name": "MC File 5 (上)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33289,
+          "chapter_name": "MC File 5 (下)",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 44208,
+          "chapter_name": "Peacecraft File 6",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 44209,
+          "chapter_name": "Peacecraft File 7",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 55241,
+          "chapter_name": "MC File 6 (前篇)",
+          "chapter_order": 65
+        },
+        {
+          "chapter_id": 44210,
+          "chapter_name": "MC File 6（中篇）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44211,
+          "chapter_name": "MC File 6（后篇）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 45899,
+          "chapter_name": "螺旋的小夜曲",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 55242,
+          "chapter_name": "忘却的不和谐音",
+          "chapter_order": 95
+        },
+        {
+          "chapter_id": 45900,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 5032,
+      "id": 5032,
+      "volume_name": "特别编 胸臆的间奏曲",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 33290,
+          "chapter_name": "Preventer 5 前篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33291,
+          "chapter_name": "Preventer 5 中篇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33292,
+          "chapter_name": "Preventer 5 后篇1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33293,
+          "chapter_name": "Preventer 5 后篇2",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 7368,
+      "id": 7368,
+      "volume_name": "第五卷 邂逅的协奏曲",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 55243,
+          "chapter_name": "Zechs file 序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 55244,
+          "chapter_name": "Zechs file 序(2)",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 55245,
+          "chapter_name": "Zechs file 序(3)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 55246,
+          "chapter_name": "Zechs file 序(4)",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 55247,
+          "chapter_name": "Zechs file 1 (前篇)",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 55248,
+          "chapter_name": "Zechs file 1 (中篇)",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 55249,
+          "chapter_name": "Zechs file 1 (后篇I)",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 55250,
+          "chapter_name": "Zechs file 1 (后篇II)",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 55251,
+          "chapter_name": "Zechs file 2 (前篇)",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 55252,
+          "chapter_name": "Zechs file 2 (中篇)",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 85051,
+          "chapter_name": "Zechs file 2（中篇2）",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 85052,
+          "chapter_name": "Zechs file 2（后篇）",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 85053,
+          "chapter_name": "Zechs file 3 第二次月面战争（前篇）",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 85054,
+          "chapter_name": "Zechs file 3 第二次月面战争（后篇）",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 9367,
+      "id": 9367,
+      "volume_name": "第六卷 沉默的赞歌",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 85055,
+          "chapter_name": "MC档案7",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 85056,
+          "chapter_name": "后记",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

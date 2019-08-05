@@ -3,7 +3,7 @@
   "name": "最终幻想14官方小说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷 埃尔路赛亚之风\r",
+  "last_update_volume_name": "第一卷 埃尔路赛亚之风",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3810,
   "last_update_chapter_id": 22775,
@@ -12,20 +12,72 @@
   "hot_hits": 22264,
   "introduction": "最终幻想XIV官方小说中文版",
   "types": [
-    "冒险/科幻/奇幻"
+    "冒险",
+    "科幻",
+    "奇幻"
   ],
   "authors": "长谷川雅",
   "first_letter": "Z",
-  "subscribe_num": 494,
-  "redis_update_time": 1564308918,
+  "subscribe_num": 497,
+  "redis_update_time": 1564964337,
   "volume": [
     {
       "id": 3810,
       "lnovel_id": 1073,
-      "volume_name": "第一卷 埃尔路赛亚之风\r",
+      "volume_name": "第一卷 埃尔路赛亚之风",
       "volume_order": 10,
       "addtime": 1311737026,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3810,
+      "id": 3810,
+      "volume_name": "第一卷 埃尔路赛亚之风",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 22768,
+          "chapter_name": "介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22769,
+          "chapter_name": "序言",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22770,
+          "chapter_name": "第一章 海之都 利牡沙·娄明沙",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22771,
+          "chapter_name": "第二章 森之都 古律达尼亚",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22772,
+          "chapter_name": "第三章 沙之都 乌尔达哈",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22773,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22774,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22775,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

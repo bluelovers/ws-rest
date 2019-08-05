@@ -10,54 +10,55 @@
   "last_update_time": 1342754815,
   "cover": "https://xs.dmzj.com/img/webpic/12/696G.jpg",
   "hot_hits": 47850,
-  "introduction": "在东京御台场某个杳无人迹的超高大厦内。\n从香港造访的吴姓男子，正准备进行稀有书籍「黑色童话集」的买卖。\n收购对象是一名金发英国男性，但在他的身旁，却还有一位称为鉴定师，戴着眼镜的东洋女性……\n为求安全起见，吴姓男子准备对东洋女性搜身，却在打开大衣时哑口无言……\n因为里面不只有许多暗袋，更塞满了文库本，杂志与运动报纸！\n\n",
+  "introduction": "在东京御台场某个杳无人迹的超高大厦内。\n从香港造访的吴姓男子，正准备进行稀有书籍「黑色童话集」的买卖。\n收购对象是一名金发英国男性，但在他的身旁，却还有一位称为鉴定师，戴着眼镜的东洋女性……\n为求安全起见，吴姓男子准备对东洋女性搜身，却在打开大衣时哑口无言……\n因为里面不只有许多暗袋，更塞满了文库本，杂志与运动报纸！",
   "types": [
-    "冒险/异能"
+    "冒险",
+    "异能"
   ],
   "authors": "仓田英之",
   "first_letter": "R",
   "subscribe_num": 1086,
-  "redis_update_time": 1564197276,
+  "redis_update_time": 1564963409,
   "volume": [
     {
       "id": 2407,
       "lnovel_id": 647,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481526,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2408,
       "lnovel_id": 647,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1275481526,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2409,
       "lnovel_id": 647,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1275481526,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2410,
       "lnovel_id": 647,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1275481526,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2411,
       "lnovel_id": 647,
-      "volume_name": "第五卷\r",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1275481526,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 3239,
@@ -65,7 +66,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1287973619,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 3619,
@@ -73,7 +74,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1304401094,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 4423,
@@ -81,7 +82,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1335255757,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 4570,
@@ -89,7 +90,236 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1342754786,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2407,
+      "id": 2407,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14000,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2408,
+      "id": 2408,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14001,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2409,
+      "id": 2409,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 14002,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2410,
+      "id": 2410,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 14003,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2411,
+      "id": 2411,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 14004,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14005,
+          "chapter_name": "第一章 『48小时』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14006,
+          "chapter_name": "第二章 『诈欺』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14007,
+          "chapter_name": "第三章 『Complete Control』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14008,
+          "chapter_name": "第四章 『What’s Your Name?』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14009,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 3239,
+      "id": 3239,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 18350,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18351,
+          "chapter_name": "第一章 『亚洲的中心处』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18352,
+          "chapter_name": "第二章 『黑色墨渍』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18353,
+          "chapter_name": "尾声",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18354,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21150,
+          "chapter_name": "第六卷 插图",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 3619,
+      "id": 3619,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 21151,
+          "chapter_name": "第七卷 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21152,
+          "chapter_name": "第七卷 第一话『纸福的时光』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21153,
+          "chapter_name": "第七卷 第二话『少年时代』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21154,
+          "chapter_name": "第七卷 尾声",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21155,
+          "chapter_name": "第七卷 后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4423,
+      "id": 4423,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 28052,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28053,
+          "chapter_name": "第一章「纸造的城寨」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28054,
+          "chapter_name": "第二章「迎向各自的道路」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28055,
+          "chapter_name": "尾声",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28056,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4570,
+      "id": 4570,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 29315,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29316,
+          "chapter_name": "第一章 「疯狂绅士前往大陆」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29317,
+          "chapter_name": "第二章 「我与那个女孩」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29318,
+          "chapter_name": "尾声",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29319,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

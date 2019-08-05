@@ -3,7 +3,7 @@
   "name": "我家有个狐仙大人",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷\r",
+  "last_update_volume_name": "第七卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1852,
   "last_update_chapter_id": 11009,
@@ -16,64 +16,297 @@
   ],
   "authors": "柴村仁",
   "first_letter": "W",
-  "subscribe_num": 1904,
-  "redis_update_time": 1564305790,
+  "subscribe_num": 1921,
+  "redis_update_time": 1565031882,
   "volume": [
     {
       "id": 1846,
       "lnovel_id": 492,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918721,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1847,
       "lnovel_id": 492,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918721,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1848,
       "lnovel_id": 492,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918721,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1849,
       "lnovel_id": 492,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918721,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1850,
       "lnovel_id": 492,
-      "volume_name": "第五卷\r",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1274918721,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1851,
       "lnovel_id": 492,
-      "volume_name": "第六卷\r",
+      "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1274918721,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1852,
       "lnovel_id": 492,
-      "volume_name": "第七卷\r",
+      "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1274918721,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1846,
+      "id": 1846,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10975,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10976,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10977,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10978,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10979,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1847,
+      "id": 1847,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 10980,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10981,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10982,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10983,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 1848,
+      "id": 1848,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 10984,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10985,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10986,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10987,
+          "chapter_name": "后纪",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 1849,
+      "id": 1849,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 10988,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10989,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10990,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10991,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10992,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1850,
+      "id": 1850,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 10993,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10994,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10995,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10996,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 1851,
+      "id": 1851,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 10997,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10998,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10999,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11000,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11001,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11002,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 1852,
+      "id": 1852,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 11003,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11004,
+          "chapter_name": "第一章 长月之章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11005,
+          "chapter_name": "第二章 神无月之章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11006,
+          "chapter_name": "第三章 师走之章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11007,
+          "chapter_name": "睦月の章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11008,
+          "chapter_name": "霜月之章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11009,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

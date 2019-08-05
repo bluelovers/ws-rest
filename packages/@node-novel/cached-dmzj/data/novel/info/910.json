@@ -3,7 +3,7 @@
   "name": "发明工坊 星降日记",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3212,
   "last_update_chapter_id": 18145,
@@ -17,15 +17,80 @@
   "authors": "霧海正悟",
   "first_letter": "F",
   "subscribe_num": 130,
-  "redis_update_time": 1564067550,
+  "redis_update_time": 1564799046,
   "volume": [
     {
       "id": 3212,
       "lnovel_id": 910,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1286868624,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3212,
+      "id": 3212,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 18135,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18136,
+          "chapter_name": "日记之一 四月的相遇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18137,
+          "chapter_name": "日记之二 五月的甜蜜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18138,
+          "chapter_name": "日记之三 六月的约会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18139,
+          "chapter_name": "日记之四 七月的海蓝色",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18140,
+          "chapter_name": "日记之五 八月的焰火",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18141,
+          "chapter_name": "日记之六 九月的疯狂派对",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18142,
+          "chapter_name": "日记之七 十月的泪珠",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18143,
+          "chapter_name": "日记之八 十一月的沐浴时间",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 18144,
+          "chapter_name": "日记之九 十二月的圣洁之雪",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 18145,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

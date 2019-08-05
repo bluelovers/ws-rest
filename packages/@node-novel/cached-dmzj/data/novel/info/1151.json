@@ -12,20 +12,22 @@
   "hot_hits": 120171,
   "introduction": "萨摩八平被『恋爱喜剧现象』诅咒了——会引发大概会被说「那不是诅咒，是祝福！」、稍微有点色色的事件。元凶（？）似乎是依附着八平的幽灵——香月。自从八平遇见了其他人看不见也听不到的香月以来，生活就因恋爱喜剧里经常出现的情节而鸡飞狗跳。尽管如此，八平仍不曾对遇见香月感到后悔。至于原因，是因为香月是个美少女！就算被当成和看不见的女孩子说话的变态男，就算被病娇同学穷追不舍，即便被美人姊姊跟踪，纵使触摸不到香月！「就算这样，我还是对你……！」专情又正直的八平，展开对抗恋爱喜剧的生活！",
   "types": [
-    "爱情/搞笑/神鬼"
+    "爱情",
+    "搞笑",
+    "神鬼"
   ],
   "authors": "壱日千次",
   "first_letter": "M",
-  "subscribe_num": 1364,
-  "redis_update_time": 1564304851,
+  "subscribe_num": 1368,
+  "redis_update_time": 1564949317,
   "volume": [
     {
       "id": 4114,
       "lnovel_id": 1151,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1323396981,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4605,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1343805356,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5588,
@@ -41,7 +43,193 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1382357126,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4114,
+      "id": 4114,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 25461,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25462,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25463,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25464,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25465,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25466,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25467,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25468,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 25469,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4605,
+      "id": 4605,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 29659,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29660,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29661,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29662,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29663,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29664,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29665,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 29666,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 29667,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 29668,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 29669,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 5588,
+      "id": 5588,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 38061,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38062,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38063,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38064,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38065,
+          "chapter_name": "插曲",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38066,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38067,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 38068,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 38069,
+          "chapter_name": "第七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 38070,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 38071,
+          "chapter_name": "尾声",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 38072,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

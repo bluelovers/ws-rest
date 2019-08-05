@@ -16,16 +16,16 @@
   ],
   "authors": "裕时悠示",
   "first_letter": "Q",
-  "subscribe_num": 4436,
-  "redis_update_time": 1564305238,
+  "subscribe_num": 4444,
+  "redis_update_time": 1564956175,
   "volume": [
     {
       "id": 4055,
       "lnovel_id": 1136,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1321415606,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4211,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1328600067,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4444,
@@ -41,15 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1335941107,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4593,
       "lnovel_id": 1136,
-      "volume_name": "第四卷 ",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1343627904,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6055,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1401286867,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 7066,
@@ -65,7 +65,362 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1437823315,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4055,
+      "id": 4055,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 25005,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25006,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25007,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25008,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25009,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25010,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25011,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25012,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4211,
+      "id": 4211,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 26257,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26258,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26771,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27085,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27470,
+          "chapter_name": "幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27471,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27675,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 27956,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 27957,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4444,
+      "id": 4444,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 28187,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28433,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28698,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29011,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29012,
+          "chapter_name": "幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29013,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29141,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 29142,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 31722,
+          "chapter_name": "附录短篇",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4593,
+      "id": 4593,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 29556,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29874,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29875,
+          "chapter_name": "幕间",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30055,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30435,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30835,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30836,
+          "chapter_name": "幕间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 31110,
+          "chapter_name": "第五章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 31111,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 34677,
+          "chapter_name": "附录短篇",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 6055,
+      "id": 6055,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 42199,
+          "chapter_name": "前情提要",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42200,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 42800,
+          "chapter_name": "瑞贵之章1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 43127,
+          "chapter_name": "奈奈菜之章1",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 43527,
+          "chapter_name": "瑞贵之章 2",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 43885,
+          "chapter_name": "昴之章 1",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 43886,
+          "chapter_name": "幕间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 44058,
+          "chapter_name": "瑞贵之章 3",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 44225,
+          "chapter_name": "奈奈菜之章 2",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 44669,
+          "chapter_name": "昴之章 2",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 44671,
+          "chapter_name": "奈奈菜之章 3",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 44762,
+          "chapter_name": "瑞贵之章 4",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 44763,
+          "chapter_name": "幕间",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 44802,
+          "chapter_name": "奈奈菜之章 4",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 44886,
+          "chapter_name": "莲也之章",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 44887,
+          "chapter_name": "尾声",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 44888,
+          "chapter_name": "后记",
+          "chapter_order": 200
+        }
+      ]
+    },
+    {
+      "volume_id": 7066,
+      "id": 7066,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 51635,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 52552,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 53507,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 54283,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 55536,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 55890,
+          "chapter_name": "幕间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 55891,
+          "chapter_name": "转章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 55892,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

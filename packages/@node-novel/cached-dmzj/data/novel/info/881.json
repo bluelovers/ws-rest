@@ -3,7 +3,7 @@
   "name": "精灵招术师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 马耳东风的塞尔菲斯\r",
+  "last_update_volume_name": "第一卷 马耳东风的塞尔菲斯",
   "last_update_chapter_name": "终章",
   "last_update_volume_id": 3130,
   "last_update_chapter_id": 17532,
@@ -17,15 +17,60 @@
   "authors": "弐宫环",
   "first_letter": "J",
   "subscribe_num": 94,
-  "redis_update_time": 1564164384,
+  "redis_update_time": 1564995497,
   "volume": [
     {
       "id": 3130,
       "lnovel_id": 881,
-      "volume_name": "第一卷 马耳东风的塞尔菲斯\r",
+      "volume_name": "第一卷 马耳东风的塞尔菲斯",
       "volume_order": 10,
       "addtime": 1283077451,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3130,
+      "id": 3130,
+      "volume_name": "第一卷 马耳东风的塞尔菲斯",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17526,
+          "chapter_name": "用语&人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17527,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17528,
+          "chapter_name": "第一章 接下了麻烦的工作",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17529,
+          "chapter_name": "第二章 被袭击的少年",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17530,
+          "chapter_name": "第三章 交错的夜祭",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17531,
+          "chapter_name": "第四章 觉醒、破灭的引导者",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17532,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

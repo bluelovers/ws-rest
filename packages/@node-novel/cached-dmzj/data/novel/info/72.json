@@ -3,7 +3,7 @@
   "name": "虫师",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "虫师官方小说\r",
+  "last_update_volume_name": "虫师官方小说",
   "last_update_chapter_name": "第六章 银蛊",
   "last_update_volume_id": 274,
   "last_update_chapter_id": 1653,
@@ -16,16 +16,61 @@
   ],
   "authors": "漆原友纪",
   "first_letter": "C",
-  "subscribe_num": 965,
-  "redis_update_time": 1564245189,
+  "subscribe_num": 968,
+  "redis_update_time": 1565017557,
   "volume": [
     {
       "id": 274,
       "lnovel_id": 72,
-      "volume_name": "虫师官方小说\r",
+      "volume_name": "虫师官方小说",
       "volume_order": 10,
       "addtime": 1274917833,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 274,
+      "id": 274,
+      "volume_name": "虫师官方小说",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 1647,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1648,
+          "chapter_name": "第一章 常之暗",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 1649,
+          "chapter_name": "第二章 禁种之虫",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 1650,
+          "chapter_name": "第三章 啊与呍",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 1651,
+          "chapter_name": "第四章 虹之蛇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 1652,
+          "chapter_name": "第五章 书库的黑暗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 1653,
+          "chapter_name": "第六章 银蛊",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

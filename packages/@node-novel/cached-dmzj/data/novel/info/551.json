@@ -3,7 +3,7 @@
   "name": "翼神世音",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "梦之卵\r",
+  "last_update_volume_name": "梦之卵",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2065,
   "last_update_chapter_id": 12070,
@@ -17,55 +17,135 @@
   "authors": "大野木宽",
   "first_letter": "Y",
   "subscribe_num": 134,
-  "redis_update_time": 1564076028,
+  "redis_update_time": 1565029066,
   "volume": [
     {
       "id": 2060,
       "lnovel_id": 551,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918854,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 2061,
       "lnovel_id": 551,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918854,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 2062,
       "lnovel_id": 551,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918854,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 2063,
       "lnovel_id": 551,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918854,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 2064,
       "lnovel_id": 551,
-      "volume_name": "第五卷\r",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1274918854,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 2065,
       "lnovel_id": 551,
-      "volume_name": "梦之卵\r",
+      "volume_name": "梦之卵",
       "volume_order": 60,
       "addtime": 1274918854,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2060,
+      "id": 2060,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12065,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2061,
+      "id": 2061,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12066,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2062,
+      "id": 2062,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12067,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2063,
+      "id": 2063,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12068,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2064,
+      "id": 2064,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 12069,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2065,
+      "id": 2065,
+      "volume_name": "梦之卵",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 12070,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

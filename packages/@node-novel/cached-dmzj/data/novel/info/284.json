@@ -12,28 +12,30 @@
   "hot_hits": 307639,
   "introduction": "某天，突然遭到调职的双亲抛下了高中二年级的良夫！使得他从此得一个人生活在复古又华丽、一个月房租三万日圆的可疑别墅里。\n在新家的探险过程当中，良夫追着滚落的铜板闯入幽暗地下室！并发现一扇钉有警示意味纸条的门！\n「一一这道门，乃通往魔界之道路。绝对不得任意开启一一」\n“这年头连小学生都不信这套啦。”此时，悄悄接近良夫身后的竟是……！？",
   "types": [
-    "爱情/奇幻/搞笑"
+    "爱情",
+    "奇幻",
+    "搞笑"
   ],
   "authors": "阿智太郎",
   "first_letter": "M",
-  "subscribe_num": 2387,
-  "redis_update_time": 1564313448,
+  "subscribe_num": 2401,
+  "redis_update_time": 1565031419,
   "volume": [
     {
       "id": 1073,
       "lnovel_id": 284,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918263,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1074,
       "lnovel_id": 284,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918263,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3010,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1278064675,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3268,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷 野兽之月",
       "volume_order": 40,
       "addtime": 1289271388,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3667,
@@ -57,7 +59,119 @@
       "volume_name": "第五卷 食约之鸟",
       "volume_order": 50,
       "addtime": 1306290576,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1073,
+      "id": 1073,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6158,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1074,
+      "id": 1074,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 6159,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3010,
+      "id": 3010,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 16731,
+          "chapter_name": "第三卷 第一话 魔界新娘初次到校！觉醒吧，禁断之爱！",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16732,
+          "chapter_name": "第三卷 第二话 比宇间良夫吓破胆！欢迎来到魔界学园！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16733,
+          "chapter_name": "第三卷 第三话 雇用魔界犬耳女仆！打倒变态跟踪狂！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16734,
+          "chapter_name": "第三卷 后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 16735,
+          "chapter_name": "第三卷 插图",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 3268,
+      "id": 3268,
+      "volume_name": "第四卷 野兽之月",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 18579,
+          "chapter_name": "第一话 犬耳女仆被盯上了！野兽大马戏团的野心",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18580,
+          "chapter_name": "第二话 比宇间良夫成为有骨气的男子汉！？泡澡请小心！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18581,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 3667,
+      "id": 3667,
+      "volume_name": "第五卷 食约之鸟",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 21554,
+          "chapter_name": "第一话 千年别西卜",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21555,
+          "chapter_name": "第二话 此宇间良夫穿越时空!海尔盖特斯之门诞生的秘密",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21556,
+          "chapter_name": "第三话 婚姻契约解赊!?可怕的魔鸟狄斯·波士!",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21557,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "少女爱上姐姐 樱花之庭院的星星",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2632,
   "last_update_chapter_id": 14768,
@@ -17,15 +17,80 @@
   "authors": "嵩夜あや",
   "first_letter": "S",
   "subscribe_num": 684,
-  "redis_update_time": 1564312229,
+  "redis_update_time": 1565029135,
   "volume": [
     {
       "id": 2632,
       "lnovel_id": 769,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275561495,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2632,
+      "id": 2632,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14758,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14759,
+          "chapter_name": "序言",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14760,
+          "chapter_name": "第一章 樱馆的入舍式",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14761,
+          "chapter_name": "第二章 妹妹是骑士殿下？！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14762,
+          "chapter_name": "第三章 为了小小的、可爱的你",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14763,
+          "chapter_name": "第四章 在新年里......",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14764,
+          "chapter_name": "第五章 花期迟来的艾弗雷特解释",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14765,
+          "chapter_name": "第六章 星之公主",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 14766,
+          "chapter_name": "第七章 樱花之庭院的星星",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 14767,
+          "chapter_name": "第八章 尾声",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 14768,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

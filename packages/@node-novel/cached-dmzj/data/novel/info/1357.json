@@ -12,12 +12,15 @@
   "hot_hits": 73202,
   "introduction": "178注：因卷入涉嫌抄袭风波，本书停止出版并收回！\n不久之前、在人类管理的地球中，其他人外出现了。经过几次对立斗争，现在已经是共存的局面了。这个二种物种的共存在“圣桐学园”里面存在着人类部分的“勇者生徒会”和非人类部分的“魔王生徒会”。在圣桐学园就读的主人公，兔泽红太郎，在某一天，突然被选作魔王学生会长。另外一方面、青梅竹马的伏城野爱丽丝则是敌对的勇者学生会长、红太郎必须要隐瞒住本来面目与青梅竹马发生斗争",
   "types": [
-    "爱情/校园/搞笑/奇幻"
+    "爱情",
+    "校园",
+    "搞笑",
+    "奇幻"
   ],
   "authors": "哀川让",
   "first_letter": "W",
-  "subscribe_num": 1022,
-  "redis_update_time": 1564313015,
+  "subscribe_num": 1023,
+  "redis_update_time": 1564959360,
   "volume": [
     {
       "id": 4926,
@@ -25,7 +28,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1355900505,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4926,
+      "id": 4926,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32467,
+          "chapter_name": "主要人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32468,
+          "chapter_name": "序章 自我介绍要简洁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32469,
+          "chapter_name": "第一话 任何事都要先从形式开始",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32470,
+          "chapter_name": "第二话 说是相谈相谈，多数场合只是希望受到安慰",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32471,
+          "chapter_name": "第三话 重要的东西总是要等到失去时才会注意到",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32472,
+          "chapter_name": "第四话 一会哭一会笑这才是认真的证明",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32473,
+          "chapter_name": "尾声 约定过一次的事情就算是死也要完成",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32474,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

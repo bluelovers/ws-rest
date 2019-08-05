@@ -1,9 +1,9 @@
 {
   "id": 509,
-  "name": "香草追击·A　sweet　partner",
+  "name": "香草追击·A sweet partner",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1917,
   "last_update_chapter_id": 11273,
@@ -16,16 +16,31 @@
   ],
   "authors": "朝浦",
   "first_letter": "X",
-  "subscribe_num": 948,
-  "redis_update_time": 1564309091,
+  "subscribe_num": 954,
+  "redis_update_time": 1565024058,
   "volume": [
     {
       "id": 1917,
       "lnovel_id": 509,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918765,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1917,
+      "id": 1917,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11273,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

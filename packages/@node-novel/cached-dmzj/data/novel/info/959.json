@@ -3,7 +3,7 @@
   "name": "魔龙妹妹秃头哥",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3391,
   "last_update_chapter_id": 19465,
@@ -17,15 +17,70 @@
   "authors": "谷口俊介",
   "first_letter": "M",
   "subscribe_num": 669,
-  "redis_update_time": 1564298719,
+  "redis_update_time": 1564982539,
   "volume": [
     {
       "id": 3391,
       "lnovel_id": 959,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1294729102,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3391,
+      "id": 3391,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19457,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19458,
+          "chapter_name": "第一章 魔龙妹妹秃头哥",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19459,
+          "chapter_name": "第二章 拯救京！秃子、中二病患和梦幻英雄！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19460,
+          "chapter_name": "第三章 猎龙者，其名阿洛玛！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19461,
+          "chapter_name": "第四章 无论谁的心上都有伤痕",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19462,
+          "chapter_name": "第五章 无发无神无佛！唤醒奇迹的秃头之力！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19463,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19464,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 19465,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

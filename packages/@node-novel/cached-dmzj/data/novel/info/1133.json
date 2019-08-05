@@ -17,15 +17,30 @@
   "authors": "梨木香步",
   "first_letter": "M",
   "subscribe_num": 144,
-  "redis_update_time": 1564242239,
+  "redis_update_time": 1564938049,
   "volume": [
     {
       "id": 4052,
       "lnovel_id": 1133,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1321415128,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4052,
+      "id": 4052,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 24987,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

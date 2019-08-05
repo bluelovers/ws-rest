@@ -3,7 +3,7 @@
   "name": "魔界都市新宿",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷 新宿\r",
+  "last_update_volume_name": "第一卷 新宿",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3922,
   "last_update_chapter_id": 23723,
@@ -12,20 +12,91 @@
   "hot_hits": 12134,
   "introduction": "日本奇幻文豪菊地秀行成名作！\n东京最繁华的新宿地区毁于魔震，成为魔界的大门！\n日本政府下令以最高戒备隔离，称为法外地区！\n妖兽、超能力犯罪集团充斥的魔界都市新宿就此诞生！\n念法对抗超科技！恶魔对抗战斗机器人！\n热血、豪快的冒险篇章于焉展开！",
   "types": [
-    "科幻/奇幻"
+    "科幻",
+    "奇幻"
   ],
   "authors": "菊地秀行",
   "first_letter": "M",
-  "subscribe_num": 219,
-  "redis_update_time": 1564207148,
+  "subscribe_num": 221,
+  "redis_update_time": 1564969149,
   "volume": [
     {
       "id": 3922,
       "lnovel_id": 1106,
-      "volume_name": "第一卷 新宿\r",
+      "volume_name": "第一卷 新宿",
       "volume_order": 10,
       "addtime": 1315880732,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3922,
+      "id": 3922,
+      "volume_name": "第一卷 新宿",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23712,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23713,
+          "chapter_name": "PART 1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23714,
+          "chapter_name": "PART 2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23715,
+          "chapter_name": "PART 3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23716,
+          "chapter_name": "PART 4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23717,
+          "chapter_name": "PART 5",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23718,
+          "chapter_name": "PART 6",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 23719,
+          "chapter_name": "PART 7",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 23720,
+          "chapter_name": "PART 8",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 23721,
+          "chapter_name": "结语",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 23722,
+          "chapter_name": "写在最后",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 23723,
+          "chapter_name": "插图",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

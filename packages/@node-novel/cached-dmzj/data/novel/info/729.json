@@ -3,7 +3,7 @@
   "name": "机动战士高达W 无尽的华尔兹",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2547,
   "last_update_chapter_id": 14470,
@@ -16,16 +16,31 @@
   ],
   "authors": "隅泽克之",
   "first_letter": "J",
-  "subscribe_num": 256,
-  "redis_update_time": 1564201633,
+  "subscribe_num": 257,
+  "redis_update_time": 1564799025,
   "volume": [
     {
       "id": 2547,
       "lnovel_id": 729,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481540,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2547,
+      "id": 2547,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14470,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

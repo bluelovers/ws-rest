@@ -3,7 +3,7 @@
   "name": "水星领航员",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "水之都与哀伤的歌姬\r",
+  "last_update_volume_name": "水之都与哀伤的歌姬",
   "last_update_chapter_name": "Navigation.5 「梦幻歌剧和领航员」",
   "last_update_volume_id": 1490,
   "last_update_chapter_id": 8567,
@@ -16,24 +16,102 @@
   ],
   "authors": "天野こずえ",
   "first_letter": "S",
-  "subscribe_num": 268,
-  "redis_update_time": 1564272130,
+  "subscribe_num": 269,
+  "redis_update_time": 1564942847,
   "volume": [
     {
       "id": 1489,
       "lnovel_id": 391,
-      "volume_name": "四季之风的赠礼\r",
+      "volume_name": "四季之风的赠礼",
       "volume_order": 10,
       "addtime": 1274918504,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1490,
       "lnovel_id": 391,
-      "volume_name": "水之都与哀伤的歌姬\r",
+      "volume_name": "水之都与哀伤的歌姬",
       "volume_order": 20,
       "addtime": 1274918504,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1489,
+      "id": 1489,
+      "volume_name": "四季之风的赠礼",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 8556,
+          "chapter_name": "简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8557,
+          "chapter_name": "Navigation SPRING 春 奇虾的赠礼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 8558,
+          "chapter_name": "Navigation SUMMER 夏 夏之岛的赠礼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 8559,
+          "chapter_name": "Navigation AUTUMN 秋 风车之丘的赠礼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 8560,
+          "chapter_name": "Navigation WINTER 冬 雪白精灵的赠礼",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 8561,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 1490,
+      "id": 1490,
+      "volume_name": "水之都与哀伤的歌姬",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 8562,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8563,
+          "chapter_name": "Navigation.1 「传说中的剧场和灵异事件」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 8564,
+          "chapter_name": "Navigation.2 「新的邂逅和歌姬的眼泪」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 8565,
+          "chapter_name": "Navigation.3 「谜语和愿望」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 8566,
+          "chapter_name": "Navigation.4 「天地和探求之物」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 8567,
+          "chapter_name": "Navigation.5 「梦幻歌剧和领航员」",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

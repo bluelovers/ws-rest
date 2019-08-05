@@ -3,7 +3,7 @@
   "name": "明日的雪之丞",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "明日的雪之丞\r",
+  "last_update_volume_name": "明日的雪之丞",
   "last_update_chapter_name": "后篇",
   "last_update_volume_id": 2525,
   "last_update_chapter_id": 14367,
@@ -17,15 +17,35 @@
   "authors": "エルフ",
   "first_letter": "M",
   "subscribe_num": 54,
-  "redis_update_time": 1563909953,
+  "redis_update_time": 1564792290,
   "volume": [
     {
       "id": 2525,
       "lnovel_id": 720,
-      "volume_name": "明日的雪之丞\r",
+      "volume_name": "明日的雪之丞",
       "volume_order": 10,
       "addtime": 1275481538,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2525,
+      "id": 2525,
+      "volume_name": "明日的雪之丞",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14366,
+          "chapter_name": "前篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14367,
+          "chapter_name": "后篇",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

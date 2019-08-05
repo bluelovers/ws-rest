@@ -3,7 +3,7 @@
   "name": "SHUFFLE!官方小说",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "璞莉姆拉篇\r",
+  "last_update_volume_name": "璞莉姆拉篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2663,
   "last_update_chapter_id": 14919,
@@ -16,16 +16,31 @@
   ],
   "authors": "小形圣史",
   "first_letter": "S",
-  "subscribe_num": 199,
-  "redis_update_time": 1564309832,
+  "subscribe_num": 202,
+  "redis_update_time": 1565011057,
   "volume": [
     {
       "id": 2663,
       "lnovel_id": 780,
-      "volume_name": "璞莉姆拉篇\r",
+      "volume_name": "璞莉姆拉篇",
       "volume_order": 10,
       "addtime": 1275789584,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2663,
+      "id": 2663,
+      "volume_name": "璞莉姆拉篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14919,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

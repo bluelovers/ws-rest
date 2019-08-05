@@ -3,7 +3,7 @@
   "name": "废弃公主",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "外传\r",
+  "last_update_volume_name": "外传",
   "last_update_chapter_name": "剑的意味",
   "last_update_volume_id": 412,
   "last_update_chapter_id": 2585,
@@ -16,120 +16,769 @@
   ],
   "authors": "榊一郎",
   "first_letter": "F",
-  "subscribe_num": 936,
-  "redis_update_time": 1564291120,
+  "subscribe_num": 952,
+  "redis_update_time": 1565014621,
   "volume": [
     {
       "id": 399,
       "lnovel_id": 113,
-      "volume_name": "第一卷 弃猫公主的前奏曲\r",
+      "volume_name": "第一卷 弃猫公主的前奏曲",
       "volume_order": 10,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 400,
       "lnovel_id": 113,
-      "volume_name": "第二卷 罪无可赦之人的骚动歌\r",
+      "volume_name": "第二卷 罪无可赦之人的骚动歌",
       "volume_order": 20,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 401,
       "lnovel_id": 113,
-      "volume_name": "第三卷 献给异教徒的安魂曲\r",
+      "volume_name": "第三卷 献给异教徒的安魂曲",
       "volume_order": 30,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 402,
       "lnovel_id": 113,
-      "volume_name": "第四卷 半桶水骑士的进行曲\r",
+      "volume_name": "第四卷 半桶水骑士的进行曲",
       "volume_order": 40,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 403,
       "lnovel_id": 113,
-      "volume_name": "第五卷 流浪狗少女的梦幻曲\r",
+      "volume_name": "第五卷 流浪狗少女的梦幻曲",
       "volume_order": 50,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 404,
       "lnovel_id": 113,
-      "volume_name": "第六卷 短暂的歌剧曲\r",
+      "volume_name": "第六卷 短暂的歌剧曲",
       "volume_order": 60,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 405,
       "lnovel_id": 113,
-      "volume_name": "第七卷 过路的摇篮曲\r",
+      "volume_name": "第七卷 过路的摇篮曲",
       "volume_order": 70,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 406,
       "lnovel_id": 113,
-      "volume_name": "第八卷 永无止尽的情歌\r",
+      "volume_name": "第八卷 永无止尽的情歌",
       "volume_order": 80,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 407,
       "lnovel_id": 113,
-      "volume_name": "第九卷 兽姬的狂想曲\r",
+      "volume_name": "第九卷 兽姬的狂想曲",
       "volume_order": 90,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 408,
       "lnovel_id": 113,
-      "volume_name": "第十卷 遥远的轮唱曲\r",
+      "volume_name": "第十卷 遥远的轮唱曲",
       "volume_order": 100,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 409,
       "lnovel_id": 113,
-      "volume_name": "第十一卷 小巷里的哀歌\r",
+      "volume_name": "第十一卷 小巷里的哀歌",
       "volume_order": 110,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 410,
       "lnovel_id": 113,
-      "volume_name": "第十二卷 叛乱分子的多重奏\r",
+      "volume_name": "第十二卷 叛乱分子的多重奏",
       "volume_order": 120,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 411,
       "lnovel_id": 113,
-      "volume_name": "第十三卷 响彻天际的清唱剧\r",
+      "volume_name": "第十三卷 响彻天际的清唱剧",
       "volume_order": 130,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 412,
       "lnovel_id": 113,
-      "volume_name": "外传\r",
+      "volume_name": "外传",
       "volume_order": 140,
       "addtime": 1274917897,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 399,
+      "id": 399,
+      "volume_name": "第一卷 弃猫公主的前奏曲",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2479,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2480,
+          "chapter_name": "第一章 平凡生活的终结",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2481,
+          "chapter_name": "第二章 命运的抉择",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2482,
+          "chapter_name": "第三章 废弃公主的棺木",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2483,
+          "chapter_name": "第四章 守护者的忧郁",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2484,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 400,
+      "id": 400,
+      "volume_name": "第二卷 罪无可赦之人的骚动歌",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2485,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2486,
+          "chapter_name": "第一章 旅人到来",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2487,
+          "chapter_name": "第二章 美女与魔兽",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2488,
+          "chapter_name": "第三章 歌姬",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2489,
+          "chapter_name": "第四章 再遇特务战技兵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2490,
+          "chapter_name": "第五章 坚定不移的羁绊",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2491,
+          "chapter_name": "第六章 软弱的人们",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2492,
+          "chapter_name": "第七章 律法破坏者(Providence Breaker)",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2493,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 2494,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 401,
+      "id": 401,
+      "volume_name": "第三卷 献给异教徒的安魂曲",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 2495,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2496,
+          "chapter_name": "第一章 异教检察官",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2497,
+          "chapter_name": "第二章 渎神花园(Blasphemous Garden)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2498,
+          "chapter_name": "第三章 两个废弃公主",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2499,
+          "chapter_name": "第四章 假面圣人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2500,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2501,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 402,
+      "id": 402,
+      "volume_name": "第四卷 半桶水骑士的进行曲",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 2502,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2503,
+          "chapter_name": "第一章 不及格的白马骑士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2504,
+          "chapter_name": "第二章 大小姐的忧郁",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2505,
+          "chapter_name": "第三章 精灵大人之湖",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2506,
+          "chapter_name": "第四章 王国骑士",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2507,
+          "chapter_name": "第五章 多数正义",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2508,
+          "chapter_name": "第六章 软弱与坚强",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2509,
+          "chapter_name": "第七章 骑士们",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2510,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 2511,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 403,
+      "id": 403,
+      "volume_name": "第五卷 流浪狗少女的梦幻曲",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 2512,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2513,
+          "chapter_name": "第一章 某个下雨天",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2514,
+          "chapter_name": "第二章 关于这名少女的失忆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2515,
+          "chapter_name": "第三章 虔敬的猎犬",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2516,
+          "chapter_name": "第四章 关于这名少女的危险",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2517,
+          "chapter_name": "第五章 牵绊的形式",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2518,
+          "chapter_name": "第五章 转生",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2519,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2520,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 404,
+      "id": 404,
+      "volume_name": "第六卷 短暂的歌剧曲",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 2521,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2522,
+          "chapter_name": "第一章 巡回剧团来也",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2523,
+          "chapter_name": "第二章 杀手们也来搅局",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2524,
+          "chapter_name": "第三章 乐手也来插一脚",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2525,
+          "chapter_name": "第四章 魔物也来凑热闹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2526,
+          "chapter_name": "第五章 公演日终于来也",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2527,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2528,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 405,
+      "id": 405,
+      "volume_name": "第七卷 过路的摇篮曲",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 2529,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2530,
+          "chapter_name": "第一章 其名为梅菲丽亚",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2531,
+          "chapter_name": "第二章 维克和亚特",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2532,
+          "chapter_name": "第三章 母亲的脸孔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2533,
+          "chapter_name": "第四章 再战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2534,
+          "chapter_name": "第五章 总管罗伊·安契生",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2535,
+          "chapter_name": "第六章 直闯黑格兰城",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2536,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 406,
+      "id": 406,
+      "volume_name": "第八卷 永无止尽的情歌",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 2537,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2538,
+          "chapter_name": "第一章 星散",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2539,
+          "chapter_name": "第二章 搜索",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2540,
+          "chapter_name": "第三章 再会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2541,
+          "chapter_name": "第四章 别离",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2542,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 407,
+      "id": 407,
+      "volume_name": "第九卷 兽姬的狂想曲",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 2543,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2544,
+          "chapter_name": "第一章 汪洋大海",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2545,
+          "chapter_name": "第二章 废弃公主与兽姬",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2546,
+          "chapter_name": "第三章 魔族遗产",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2547,
+          "chapter_name": "第四章 两具魔兽",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2548,
+          "chapter_name": "第五章 异形战线",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2549,
+          "chapter_name": "第六章 胜利之钟难响",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2550,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2551,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 408,
+      "id": 408,
+      "volume_name": "第十卷 遥远的轮唱曲",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 2552,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2553,
+          "chapter_name": "第一章 表礼过后",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2554,
+          "chapter_name": "第二章 魔族之城",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2555,
+          "chapter_name": "第三章 龙机神的记忆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2556,
+          "chapter_name": "第四章 死亡双面镜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2557,
+          "chapter_name": "第五章 心灵反射",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2558,
+          "chapter_name": "第六章 王都海战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2559,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 409,
+      "id": 409,
+      "volume_name": "第十一卷 小巷里的哀歌",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 2561,
+          "chapter_name": "转载信息",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 2560,
+          "chapter_name": "序章 脱身",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2562,
+          "chapter_name": "第二章 记忆丧失",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2563,
+          "chapter_name": "第三章 错综",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2564,
+          "chapter_name": "第四章 暗杀者与骑士",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2565,
+          "chapter_name": "第五章 娼寮",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2566,
+          "chapter_name": "第六章 归去之所",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2567,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 410,
+      "id": 410,
+      "volume_name": "第十二卷 叛乱分子的多重奏",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 2568,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2569,
+          "chapter_name": "第一章 彷徨的人们",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2570,
+          "chapter_name": "第二章 囚困的废弃公主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2571,
+          "chapter_name": "第三章 王都起火",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2572,
+          "chapter_name": "第四章 龙机神复活",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2573,
+          "chapter_name": "第五章 废弃公主夺回",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2574,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2575,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 411,
+      "id": 411,
+      "volume_name": "第十三卷 响彻天际的清唱剧",
+      "volume_order": 130,
+      "chapters": [
+        {
+          "chapter_id": 2576,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2579,
+          "chapter_name": "独角兽之日",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2577,
+          "chapter_name": "第一章 王子与公主的忧郁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2578,
+          "chapter_name": "第二章 夹缝间",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2580,
+          "chapter_name": "第四章 世界毁灭者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2581,
+          "chapter_name": "第五章 死后的世界",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2582,
+          "chapter_name": "第六章 展现奇迹之人",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2583,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2584,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 412,
+      "id": 412,
+      "volume_name": "外传",
+      "volume_order": 140,
+      "chapters": [
+        {
+          "chapter_id": 2585,
+          "chapter_name": "剑的意味",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -2,12 +2,22 @@
  * Created by user on 2019/7/7.
  */
 
+import {
+	AxiosAdapter,
+	AxiosError,
+	AxiosInstance,
+	AxiosPromise,
+	AxiosRequestConfig,
+	AxiosResponse,
+	AxiosStatic,
+} from 'axios';
 import { DmzjClient } from 'dmzj-api';
 import fs from 'fs-extra';
-import path from 'path';
+import path from "upath2";
 import { exportCache, IBaseCacheStore, importCache, processExitHook } from 'axios-cache-adapter-util';
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';
 import { console, consoleDebug } from 'restful-decorator/lib/util/debug';
+import { dotValue } from 'axios-util';
 
 export { consoleDebug, console }
 
@@ -24,6 +34,25 @@ export async function getDmzjClient()
 			cache: {
 				maxAge: 24 * 60 * 60 * 1000,
 			},
+
+			raxConfig: {
+				retry: 1,
+				retryDelay: 1000,
+
+				onRetryAttempt: (err: AxiosError) => {
+
+					let currentRetryAttempt = dotValue(err, 'config.raxConfig.currentRetryAttempt');
+
+					consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`);
+				}
+
+			},
+
+//			proxy: {
+//				host: '49.51.155.45',
+//				port: 8081,
+//			},
+
 		});
 		saveCache = await setupCacheFile(api);
 	}
@@ -58,6 +87,13 @@ async function setupCacheFile(api: DmzjClient, saveCacheFileBySelf?: boolean)
 						//v.expires = now;
 					}
 
+					let { status } = v.data;
+
+					if (status != 200)
+					{
+						consoleDebug.debug(`[importCache]`, String(status).padStart(3, '0'), k);
+					}
+
 					return v;
 				}
 			});
@@ -75,7 +111,7 @@ async function setupCacheFile(api: DmzjClient, saveCacheFileBySelf?: boolean)
 				spaces: 2,
 			});
 
-			console.debug(`[Cache]`, Object.keys(json).length, `saved`, cacheFile);
+			console.debug(`[Cache]`, Object.keys(json).length, `saved`, path.relative(path.join(__dirname, '..'), cacheFile));
 
 		})
 	}

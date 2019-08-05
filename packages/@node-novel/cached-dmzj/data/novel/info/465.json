@@ -3,7 +3,7 @@
   "name": "我们在虚梦中倾听月色",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1756,
   "last_update_chapter_id": 10224,
@@ -16,16 +16,31 @@
   ],
   "authors": "上远野浩平",
   "first_letter": "W",
-  "subscribe_num": 646,
-  "redis_update_time": 1564308249,
+  "subscribe_num": 654,
+  "redis_update_time": 1565029546,
   "volume": [
     {
       "id": 1756,
       "lnovel_id": 465,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918660,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1756,
+      "id": 1756,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10224,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

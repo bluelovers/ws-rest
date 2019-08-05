@@ -3,7 +3,7 @@
   "name": "恋物语(物语系列九)",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第恋话 黑仪END\r",
+  "last_update_volume_name": "第恋话 黑仪END",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 4194,
   "last_update_chapter_id": 26116,
@@ -12,20 +12,76 @@
   "hot_hits": 345607,
   "introduction": "　　100%恶趣味的小说\n　　“一直持续着的单相思——\n　　你不觉得那比两情相悦更幸福吗？”\n　　为了守护阿良良木历，\n　　少女·战场原黑仪同神展开事关生死的较量。\n　　寒假，约定的【殒命之日】逐渐逼近\n　　她选择了最黑暗最邪恶的手段……\n　　《故事》被重压倾轧、揉捻、发出悲鸣——\n　　那就是现代的\n　　怪异！怪异！怪异！\n　　青春，就是为了和你恋爱。",
   "types": [
-    "神鬼/爱情"
+    "神鬼",
+    "爱情"
   ],
   "authors": "西尾维新",
   "first_letter": "L",
-  "subscribe_num": 14406,
-  "redis_update_time": 1564308211,
+  "subscribe_num": 14472,
+  "redis_update_time": 1564967123,
   "volume": [
     {
       "id": 4194,
       "lnovel_id": 1177,
-      "volume_name": "第恋话 黑仪END\r",
+      "volume_name": "第恋话 黑仪END",
       "volume_order": 10,
       "addtime": 1326768684,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4194,
+      "id": 4194,
+      "volume_name": "第恋话 黑仪END",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 26108,
+          "chapter_name": "001-005",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26109,
+          "chapter_name": "006-010",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26110,
+          "chapter_name": "011-015",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26111,
+          "chapter_name": "016-020",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26112,
+          "chapter_name": "021-025",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26113,
+          "chapter_name": "026-030",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26114,
+          "chapter_name": "031-035",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26115,
+          "chapter_name": "036-039",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 26116,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

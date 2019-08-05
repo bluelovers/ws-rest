@@ -1,9 +1,9 @@
 {
   "id": 345,
-  "name": "秋之回忆　从今以后",
+  "name": "秋之回忆 从今以后",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "鹭泽缘篇\r",
+  "last_update_volume_name": "鹭泽缘篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1293,
   "last_update_chapter_id": 7394,
@@ -16,40 +16,129 @@
   ],
   "authors": "KID",
   "first_letter": "Q",
-  "subscribe_num": 346,
-  "redis_update_time": 1564240072,
+  "subscribe_num": 348,
+  "redis_update_time": 1565018225,
   "volume": [
     {
       "id": 1290,
       "lnovel_id": 345,
-      "volume_name": "陵祈篇\r",
+      "volume_name": "陵祈篇",
       "volume_order": 10,
       "addtime": 1274918390,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1291,
       "lnovel_id": 345,
-      "volume_name": "藤原雅篇\r",
+      "volume_name": "藤原雅篇",
       "volume_order": 20,
       "addtime": 1274918390,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1292,
       "lnovel_id": 345,
-      "volume_name": "花祭果凛篇\r",
+      "volume_name": "花祭果凛篇",
       "volume_order": 30,
       "addtime": 1274918390,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1293,
       "lnovel_id": 345,
-      "volume_name": "鹭泽缘篇\r",
+      "volume_name": "鹭泽缘篇",
       "volume_order": 40,
       "addtime": 1274918390,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1290,
+      "id": 1290,
+      "volume_name": "陵祈篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7384,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 7385,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 7386,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 7387,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 7388,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 7389,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 7390,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 7391,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1291,
+      "id": 1291,
+      "volume_name": "藤原雅篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 7392,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1292,
+      "id": 1292,
+      "volume_name": "花祭果凛篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 7393,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1293,
+      "id": 1293,
+      "volume_name": "鹭泽缘篇",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 7394,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

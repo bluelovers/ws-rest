@@ -3,7 +3,7 @@
   "name": "月之珊瑚",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第四章",
   "last_update_volume_id": 3869,
   "last_update_chapter_id": 23252,
@@ -12,20 +12,52 @@
   "hot_hits": 30255,
   "introduction": "坂本真绫满月朗读馆《月之珊瑚》，以第一人称的角度来描写人物内心，讲述了一段奇幻的爱情故事。",
   "types": [
-    "科幻/爱情/奇幻"
+    "科幻",
+    "爱情",
+    "奇幻"
   ],
   "authors": "奈须きのこ",
   "first_letter": "Y",
-  "subscribe_num": 2964,
-  "redis_update_time": 1564313268,
+  "subscribe_num": 3006,
+  "redis_update_time": 1564973843,
   "volume": [
     {
       "id": 3869,
       "lnovel_id": 1090,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1313648496,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3869,
+      "id": 3869,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23249,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23250,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23251,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23252,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

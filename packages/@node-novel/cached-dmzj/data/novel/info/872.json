@@ -3,7 +3,7 @@
   "name": "摩天楼的怪人",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 3081,
   "last_update_chapter_id": 17279,
@@ -16,16 +16,31 @@
   ],
   "authors": "岛田庄司",
   "first_letter": "M",
-  "subscribe_num": 545,
-  "redis_update_time": 1564287826,
+  "subscribe_num": 549,
+  "redis_update_time": 1564921432,
   "volume": [
     {
       "id": 3081,
       "lnovel_id": 872,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1281325516,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3081,
+      "id": 3081,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17279,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

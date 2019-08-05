@@ -10,14 +10,15 @@
   "last_update_time": 1491407550,
   "cover": "https://xs.dmzj.com/img/webpic/12/0056N.jpg",
   "hot_hits": 92848,
-  "introduction": "写实而生动地描写出亡命街头急驰的新新人类。\n融合了青春小说的清新与犯罪小说的危险，改编成日剧并引起巨大回响，日本小说的杰作！\n并获得小说杂志《ALL读物》第36届推理小说新人奖，同作品并于2000年改编成日剧，由长濑智也、洼冢洋介、妻夫木聪等人担纲主演，当时在日本青少年之间引起一股热潮。\n\n",
+  "introduction": "写实而生动地描写出亡命街头急驰的新新人类。\n融合了青春小说的清新与犯罪小说的危险，改编成日剧并引起巨大回响，日本小说的杰作！\n并获得小说杂志《ALL读物》第36届推理小说新人奖，同作品并于2000年改编成日剧，由长濑智也、洼冢洋介、妻夫木聪等人担纲主演，当时在日本青少年之间引起一股热潮。",
   "types": [
-    "侦探/都市"
+    "侦探",
+    "都市"
   ],
   "authors": "石田衣良",
   "first_letter": "C",
-  "subscribe_num": 2169,
-  "redis_update_time": 1564300299,
+  "subscribe_num": 2184,
+  "redis_update_time": 1565029078,
   "volume": [
     {
       "id": 207,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 池袋西口公园",
       "volume_order": 10,
       "addtime": 1274917800,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 208,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 计数器少年",
       "volume_order": 20,
       "addtime": 1274917800,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 209,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷 骨音",
       "volume_order": 30,
       "addtime": 1274917800,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 210,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷 电子之星",
       "volume_order": 40,
       "addtime": 1274917800,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 211,
@@ -57,7 +58,7 @@
       "volume_name": "第五卷 反自杀俱乐部",
       "volume_order": 50,
       "addtime": 1274917800,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 212,
@@ -65,15 +66,15 @@
       "volume_name": "第六卷 灰色的彼得潘",
       "volume_order": 60,
       "addtime": 1274917800,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3175,
       "lnovel_id": 53,
-      "volume_name": "第七卷 G少年冬天的战争 ",
+      "volume_name": "第七卷 G少年冬天的战争",
       "volume_order": 70,
       "addtime": 1284891136,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3336,
@@ -81,7 +82,7 @@
       "volume_name": "第八卷 非正规反抗",
       "volume_order": 80,
       "addtime": 1292204114,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4666,
@@ -89,7 +90,7 @@
       "volume_name": "第九卷 龙泪",
       "volume_order": 90,
       "addtime": 1346308037,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 8594,
@@ -97,7 +98,224 @@
       "volume_name": "第十卷 尊严",
       "volume_order": 100,
       "addtime": 1491407505,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 207,
+      "id": 207,
+      "volume_name": "第一卷 池袋西口公园",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 1294,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1295,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 1296,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 1297,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 1298,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 1299,
+          "chapter_name": "章节补完",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 208,
+      "id": 208,
+      "volume_name": "第二卷 计数器少年",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 1300,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 209,
+      "id": 209,
+      "volume_name": "第三卷 骨音",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 1301,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 210,
+      "id": 210,
+      "volume_name": "第四卷 电子之星",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 1302,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 211,
+      "id": 211,
+      "volume_name": "第五卷 反自杀俱乐部",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 1303,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 212,
+      "id": 212,
+      "volume_name": "第六卷 灰色的彼得潘",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 1304,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3175,
+      "id": 3175,
+      "volume_name": "第七卷 G少年冬天的战争",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 17893,
+          "chapter_name": "1、要町电话男",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17894,
+          "chapter_name": "2、欺诈师维纳斯",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17895,
+          "chapter_name": "3、连续纵火犯",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17896,
+          "chapter_name": "4、G少年冬天的战争",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 3336,
+      "id": 3336,
+      "volume_name": "第八卷 非正规反抗",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 19124,
+          "chapter_name": "千川余生妈妈",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19125,
+          "chapter_name": "池袋清洁队",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19126,
+          "chapter_name": "退休牛头犬",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19127,
+          "chapter_name": "非正规反抗军",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 4666,
+      "id": 4666,
+      "volume_name": "第九卷 龙泪",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 30156,
+          "chapter_name": "目白通的猎人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30157,
+          "chapter_name": "流浪汉的游行",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30158,
+          "chapter_name": "圣诞老人的缘分",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30159,
+          "chapter_name": "Dragon tears—龙泪",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 8594,
+      "id": 8594,
+      "volume_name": "第十卷 尊严",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 73621,
+          "chapter_name": "01 数据库的蜘蛛",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 73622,
+          "chapter_name": "02 鬼子母神的夹杀",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 73623,
+          "chapter_name": "03 北口地下偶像",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 73624,
+          "chapter_name": "04 尊严——PRIDE",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

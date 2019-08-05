@@ -3,7 +3,7 @@
   "name": "白貌传道师",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 60,
   "last_update_chapter_id": 395,
@@ -16,16 +16,111 @@
   ],
   "authors": "虚渊玄",
   "first_letter": "B",
-  "subscribe_num": 1007,
-  "redis_update_time": 1564286720,
+  "subscribe_num": 1013,
+  "redis_update_time": 1565031260,
   "volume": [
     {
       "id": 60,
       "lnovel_id": 13,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917726,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 60,
+      "id": 60,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 379,
+          "chapter_name": "狼群的饵食",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 380,
+          "chapter_name": "觉醒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 381,
+          "chapter_name": "人、森林与精灵",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 382,
+          "chapter_name": "无根草的狭义之心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 383,
+          "chapter_name": "来自黑暗的使者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 384,
+          "chapter_name": "入侵",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 385,
+          "chapter_name": "暗之礼赞",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 386,
+          "chapter_name": "愚者与智者",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 387,
+          "chapter_name": "白貌",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 388,
+          "chapter_name": "黑衣刺客",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 389,
+          "chapter_name": "不请自来的客人",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 390,
+          "chapter_name": "共荣之末路",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 391,
+          "chapter_name": "惨剧森林",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 392,
+          "chapter_name": "救赎",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 393,
+          "chapter_name": "红莲之祷告",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 394,
+          "chapter_name": "焦土之风",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 395,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        }
+      ]
     }
   ]
 }

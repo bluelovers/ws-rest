@@ -3,7 +3,7 @@
   "name": "华莱士人鱼",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "转载信息",
   "last_update_volume_id": 2561,
   "last_update_chapter_id": 15224,
@@ -16,16 +16,36 @@
   ],
   "authors": "岩井俊二",
   "first_letter": "H",
-  "subscribe_num": 171,
-  "redis_update_time": 1564264492,
+  "subscribe_num": 174,
+  "redis_update_time": 1565015559,
   "volume": [
     {
       "id": 2561,
       "lnovel_id": 739,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481542,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2561,
+      "id": 2561,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14508,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15224,
+          "chapter_name": "转载信息",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

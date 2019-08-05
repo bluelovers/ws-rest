@@ -3,7 +3,7 @@
   "name": "恐怖宠物店",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2627,
   "last_update_chapter_id": 14753,
@@ -16,16 +16,31 @@
   ],
   "authors": "秋乃茉莉",
   "first_letter": "K",
-  "subscribe_num": 633,
-  "redis_update_time": 1564304131,
+  "subscribe_num": 636,
+  "redis_update_time": 1564960307,
   "volume": [
     {
       "id": 2627,
       "lnovel_id": 767,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275561494,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2627,
+      "id": 2627,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14753,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

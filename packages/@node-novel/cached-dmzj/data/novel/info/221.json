@@ -3,7 +3,7 @@
   "name": "克蕾利亚传说",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "赤焰魔剑\r",
+  "last_update_volume_name": "赤焰魔剑",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 804,
   "last_update_chapter_id": 4572,
@@ -17,15 +17,30 @@
   "authors": "山本一郎",
   "first_letter": "K",
   "subscribe_num": 111,
-  "redis_update_time": 1564238212,
+  "redis_update_time": 1565032080,
   "volume": [
     {
       "id": 804,
       "lnovel_id": 221,
-      "volume_name": "赤焰魔剑\r",
+      "volume_name": "赤焰魔剑",
       "volume_order": 10,
       "addtime": 1274918118,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 804,
+      "id": 804,
+      "volume_name": "赤焰魔剑",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4572,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

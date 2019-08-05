@@ -3,7 +3,7 @@
   "name": ".hack／／CELL",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷 无限的解放\r",
+  "last_update_volume_name": "第二卷 无限的解放",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2076,
   "last_update_chapter_id": 12142,
@@ -22,7 +22,7 @@
     {
       "id": 2075,
       "lnovel_id": 555,
-      "volume_name": "第一卷 终结的世界\r",
+      "volume_name": "第一卷 终结的世界",
       "volume_order": 10,
       "addtime": 1274918863,
       "sum_chapters": 5
@@ -30,10 +30,103 @@
     {
       "id": 2076,
       "lnovel_id": 555,
-      "volume_name": "第二卷 无限的解放\r",
+      "volume_name": "第二卷 无限的解放",
       "volume_order": 20,
       "addtime": 1274918863,
       "sum_chapters": 5
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2075,
+      "id": 2075,
+      "volume_name": "第一卷 终结的世界",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12128,
+          "chapter_name": "VOL.1",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12129,
+          "chapter_name": "VOL.2",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12130,
+          "chapter_name": "VOL.3",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12131,
+          "chapter_name": "VOL.4",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12132,
+          "chapter_name": "VOL.5",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12133,
+          "chapter_name": "VOL.6",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12134,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 2076,
+      "id": 2076,
+      "volume_name": "第二卷 无限的解放",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12135,
+          "chapter_name": "VOL.7",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12136,
+          "chapter_name": "VOL.8",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12137,
+          "chapter_name": "VOL.9",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12138,
+          "chapter_name": "VOL.10",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12139,
+          "chapter_name": "VOL.11",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12140,
+          "chapter_name": "VOL.12",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12141,
+          "chapter_name": "Epilogue",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12142,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

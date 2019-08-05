@@ -3,7 +3,7 @@
   "name": "我们的蔬菜不够",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "与田有关的Final-lesson4：埋错的时空胶囊\r",
+  "last_update_volume_name": "与田有关的Final-lesson4：埋错的时空胶囊",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1824,
   "last_update_chapter_id": 10826,
@@ -16,40 +16,234 @@
   ],
   "authors": "浅沼广太",
   "first_letter": "W",
-  "subscribe_num": 53,
-  "redis_update_time": 1564059881,
+  "subscribe_num": 52,
+  "redis_update_time": 1564890765,
   "volume": [
     {
       "id": 1821,
       "lnovel_id": 481,
-      "volume_name": "与田有关的Lesson1 这个要种种看！\r",
+      "volume_name": "与田有关的Lesson1 这个要种种看！",
       "volume_order": 10,
       "addtime": 1274918705,
-      "sum_chapters": 13
+      "sum_chapters": 12
     },
     {
       "id": 1822,
       "lnovel_id": 481,
-      "volume_name": "与田有关的Lesson2 有荞麦能使鬼推磨\r",
+      "volume_name": "与田有关的Lesson2 有荞麦能使鬼推磨",
       "volume_order": 20,
       "addtime": 1274918705,
-      "sum_chapters": 13
+      "sum_chapters": 12
     },
     {
       "id": 1823,
       "lnovel_id": 481,
-      "volume_name": "与田有关的Lesson3 现在，很想吃你\r",
+      "volume_name": "与田有关的Lesson3 现在，很想吃你",
       "volume_order": 30,
       "addtime": 1274918705,
-      "sum_chapters": 13
+      "sum_chapters": 12
     },
     {
       "id": 1824,
       "lnovel_id": 481,
-      "volume_name": "与田有关的Final-lesson4：埋错的时空胶囊\r",
+      "volume_name": "与田有关的Final-lesson4：埋错的时空胶囊",
       "volume_order": 40,
       "addtime": 1274918705,
-      "sum_chapters": 13
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1821,
+      "id": 1821,
+      "volume_name": "与田有关的Lesson1 这个要种种看！",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10795,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10796,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10797,
+          "chapter_name": "March.24 从今天起你就是新娘候选人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10798,
+          "chapter_name": "March.25 学校是培育农家梦想的地方",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10799,
+          "chapter_name": "April.5 有各式各样的蔬菜，也有各式各样的学长",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10800,
+          "chapter_name": "April.10 所有的面类本是同根生……吗？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10801,
+          "chapter_name": "April.19 白菜要挑菜根白的",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10802,
+          "chapter_name": "April.29 本大爷保护……不了你？",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10803,
+          "chapter_name": "May.10 田地与球场是男人的战场",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 10804,
+          "chapter_name": "May.25 我才不会让你说再见！",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 10805,
+          "chapter_name": "尾声",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 10806,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 1822,
+      "id": 1822,
+      "volume_name": "与田有关的Lesson2 有荞麦能使鬼推磨",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 10807,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10808,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10809,
+          "chapter_name": "June.2 用亲手做的便当抓住他的心",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10810,
+          "chapter_name": "June.6 在炽热沙滩上展开萝卜对战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10811,
+          "chapter_name": "June.6 漂流到无人岛上",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10812,
+          "chapter_name": "June.7 本大爷只要有心也办得到吧？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10813,
+          "chapter_name": "June.7 逃出暴风雨",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10814,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10815,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1823,
+      "id": 1823,
+      "volume_name": "与田有关的Lesson3 现在，很想吃你",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 10816,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10817,
+          "chapter_name": "July.20 想要见到记忆中的父亲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10818,
+          "chapter_name": "July.25 暑期特训",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10819,
+          "chapter_name": "August.1 与母亲相会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10820,
+          "chapter_name": "August.15 开幕！全国高中生农力者大赛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10821,
+          "chapter_name": "August.16 迈向胜利的最终答案",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10822,
+          "chapter_name": "告别的理由",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10823,
+          "chapter_name": "转章 可贝儿的心情",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10824,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 10825,
+          "chapter_name": "作者后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 1824,
+      "id": 1824,
+      "volume_name": "与田有关的Final-lesson4：埋错的时空胶囊",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 10826,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

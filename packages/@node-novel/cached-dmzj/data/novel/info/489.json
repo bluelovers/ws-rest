@@ -3,29 +3,89 @@
   "name": "我们的幸福时光",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1835,
   "last_update_chapter_id": 10904,
   "last_update_time": 1274918715,
   "cover": "https://xs.dmzj.com/img/webpic/17/0520A.jpg",
   "hot_hits": 21596,
-  "introduction": "无法传达的恋慕，无法实现的爱情，静静奏起幻想旋律般的青春故事。\n",
+  "introduction": "无法传达的恋慕，无法实现的爱情，静静奏起幻想旋律般的青春故事。",
   "types": [
     "爱情"
   ],
   "authors": "筑地俊彦",
   "first_letter": "W",
-  "subscribe_num": 146,
-  "redis_update_time": 1564242022,
+  "subscribe_num": 148,
+  "redis_update_time": 1565019881,
   "volume": [
     {
       "id": 1835,
       "lnovel_id": 489,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918714,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1835,
+      "id": 1835,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10895,
+          "chapter_name": "背景介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10896,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10897,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10898,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10899,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10900,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10901,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10902,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10903,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 10904,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

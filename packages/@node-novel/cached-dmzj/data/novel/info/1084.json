@@ -16,8 +16,8 @@
   ],
   "authors": "佐々宮ちるだ",
   "first_letter": "Y",
-  "subscribe_num": 183,
-  "redis_update_time": 1564296258,
+  "subscribe_num": 184,
+  "redis_update_time": 1564919795,
   "volume": [
     {
       "id": 3848,
@@ -25,7 +25,67 @@
       "volume_name": "翠篇",
       "volume_order": 10,
       "addtime": 1312969919,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3848,
+      "id": 3848,
+      "volume_name": "翠篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23088,
+          "chapter_name": "登场人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23079,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23080,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23081,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23082,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23083,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23084,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 23085,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 23086,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 23087,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

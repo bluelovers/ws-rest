@@ -12,12 +12,14 @@
   "hot_hits": 164174,
   "introduction": "因为失踪的家人留下的巨大欠款，高中生槙那一兔依约前往的，是由超巨大财阀所支配的最先端都市·弓弦羽市。\n一兔在那里遇到的，是操纵着雷电的狂暴战国武将·立花道雪。还有使用着异能之力，向不从之雷神发起挑战的少女们。\n这里是进行着从过去苏醒过来的的伟人=怪伟人，与继承了著名英雄的能力的美少女们=伏歼机关IXAs(伊克萨斯)之间的反复激战的城市。\n面对道雪唤起的雷电，迎战的是柳生十兵卫之剑和Wyatt·Earp（怀特·厄普）之枪，以及卑弥呼的后继者，巨大财阀的大小姐·伏姬咲耶花。让一兔变成咲耶花的所有物的秘密究竟是？\n超历史战斗×爱情剧、开幕！",
   "types": [
-    "爱情/神鬼/格斗"
+    "爱情",
+    "神鬼",
+    "格斗"
   ],
   "authors": "大树连司",
   "first_letter": "N",
-  "subscribe_num": 3186,
-  "redis_update_time": 1564312224,
+  "subscribe_num": 3197,
+  "redis_update_time": 1564951327,
   "volume": [
     {
       "id": 4866,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1354006303,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5836,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1393235106,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 7331,
@@ -41,7 +43,133 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1447161245,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4866,
+      "id": 4866,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 31919,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31920,
+          "chapter_name": "第一话 雷神、袭来",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31921,
+          "chapter_name": "第二话 IXA们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31922,
+          "chapter_name": "第三话 《立花道雪》驰骋于大地！！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 31923,
+          "chapter_name": "第四话 太阳出来了吗？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 31924,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 31925,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5836,
+      "id": 5836,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51597,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51603,
+          "chapter_name": "第一话 陌生的王位",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51604,
+          "chapter_name": "第二话 伯爵夫人之馆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51605,
+          "chapter_name": "第三话 灰姑娘城堡破坏命令",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51606,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51607,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 7331,
+      "id": 7331,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 54268,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 54269,
+          "chapter_name": "第一话 IXAs机动队，到西北去",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 54270,
+          "chapter_name": "第二话 别开枪！小玲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 54271,
+          "chapter_name": "第三话 「温卡姆伊」来袭",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 54272,
+          "chapter_name": "第四话 弓弦羽最壮大的决战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 54273,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 54274,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

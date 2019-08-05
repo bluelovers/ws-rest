@@ -3,7 +3,7 @@
   "name": "绯华Sparkling",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷 乌拉 比萨的海贼\r",
+  "last_update_volume_name": "第二卷 乌拉 比萨的海贼",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2352,
   "last_update_chapter_id": 13720,
@@ -17,23 +17,51 @@
   "authors": "藤原征失",
   "first_letter": "Z",
   "subscribe_num": 62,
-  "redis_update_time": 1564226261,
+  "redis_update_time": 1565018657,
   "volume": [
     {
       "id": 2351,
       "lnovel_id": 630,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274919027,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2352,
       "lnovel_id": 630,
-      "volume_name": "第二卷 乌拉 比萨的海贼\r",
+      "volume_name": "第二卷 乌拉 比萨的海贼",
       "volume_order": 20,
       "addtime": 1274919027,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2351,
+      "id": 2351,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13719,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2352,
+      "id": 2352,
+      "volume_name": "第二卷 乌拉 比萨的海贼",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13720,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

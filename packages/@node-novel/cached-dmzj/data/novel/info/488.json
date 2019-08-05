@@ -3,7 +3,7 @@
   "name": "为婚纱衬上深红蔷薇",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1834,
   "last_update_chapter_id": 10894,
@@ -17,15 +17,60 @@
   "authors": "田中芳树",
   "first_letter": "W",
   "subscribe_num": 323,
-  "redis_update_time": 1564306273,
+  "redis_update_time": 1565019365,
   "volume": [
     {
       "id": 1834,
       "lnovel_id": 488,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918713,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1834,
+      "id": 1834,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10888,
+          "chapter_name": "第一章 为婚纱衬上深红蔷薇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10889,
+          "chapter_name": "第二章 日蚀常存心中",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10890,
+          "chapter_name": "第三章 来自冬夜的三度嘲笑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10891,
+          "chapter_name": "第四章 静待拂晓",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10892,
+          "chapter_name": "第五章 吸血鬼破坏者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10893,
+          "chapter_name": "第六章 无数次告别",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10894,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

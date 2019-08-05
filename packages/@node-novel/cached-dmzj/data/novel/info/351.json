@@ -16,8 +16,8 @@
   ],
   "authors": "森博嗣",
   "first_letter": "Q",
-  "subscribe_num": 2612,
-  "redis_update_time": 1564292029,
+  "subscribe_num": 2622,
+  "redis_update_time": 1565035925,
   "volume": [
     {
       "id": 4361,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 全部成为F",
       "volume_order": 10,
       "addtime": 1332843138,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4362,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 冰冷密室与博士们",
       "volume_order": 20,
       "addtime": 1332843219,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4363,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 不会笑的数学家",
       "volume_order": 30,
       "addtime": 1332843240,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4364,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷 诗般的杀意",
       "volume_order": 40,
       "addtime": 1332843291,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4365,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷 封印再度",
       "volume_order": 50,
       "addtime": 1332843350,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 6981,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷 死亡幻术的门徒",
       "volume_order": 60,
       "addtime": 1434809930,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 6982,
@@ -73,7 +73,7 @@
       "volume_name": "第七卷 夏的复制品",
       "volume_order": 70,
       "addtime": 1434810336,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 6983,
@@ -81,7 +81,7 @@
       "volume_name": "第八卷 永劫回归",
       "volume_order": 80,
       "addtime": 1434810451,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 6984,
@@ -89,7 +89,7 @@
       "volume_name": "第九卷 命运的模型",
       "volume_order": 90,
       "addtime": 1434810529,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 6985,
@@ -97,7 +97,534 @@
       "volume_name": "第十卷 有限与微小的面包",
       "volume_order": 100,
       "addtime": 1434810568,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4361,
+      "id": 4361,
+      "volume_name": "第一卷 全部成为F",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 27509,
+          "chapter_name": "第一章 白色的见面",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27510,
+          "chapter_name": "第二章 青色的再访",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27511,
+          "chapter_name": "第三章 红色的魔法",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27512,
+          "chapter_name": "第四章 褐色的过去",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27513,
+          "chapter_name": "第五章 灰色的境界",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27514,
+          "chapter_name": "第六章 彩虹色的目击",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27515,
+          "chapter_name": "第七章 琥珀色的梦",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 27516,
+          "chapter_name": "第八章 深蓝色的秩序",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 27517,
+          "chapter_name": "第九章 黄色的门",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 27518,
+          "chapter_name": "第十章 银色的真相",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 27519,
+          "chapter_name": "第十一章 无色的周末",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 4362,
+      "id": 4362,
+      "volume_name": "第二卷 冰冷密室与博士们",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 27520,
+          "chapter_name": "第一部分",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27521,
+          "chapter_name": "第二部分",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27522,
+          "chapter_name": "第三部分",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 4363,
+      "id": 4363,
+      "volume_name": "第三卷 不会笑的数学家",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 27523,
+          "chapter_name": "第一章 三星馆之谜",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27524,
+          "chapter_name": "第二章 宇宙与数学之谜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27525,
+          "chapter_name": "第三章 勇者与死者之谜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27526,
+          "chapter_name": "第四章 内侧与外侧之谜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27527,
+          "chapter_name": "第五章 天才数学家之谜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27528,
+          "chapter_name": "第六章 袭击者与尸体之谜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27529,
+          "chapter_name": "第七章 遥远过去之谜",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 27530,
+          "chapter_name": "第八章 天才建筑师之谜",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 27531,
+          "chapter_name": "第九章 遗忘与觉醒之谜",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 27532,
+          "chapter_name": "第十章 再现与消失之谜",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 27533,
+          "chapter_name": "第十一章 有限与无限之谜",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 4364,
+      "id": 4364,
+      "volume_name": "第四卷 诗般的杀意",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 27534,
+          "chapter_name": "第一章 最初的密室",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27535,
+          "chapter_name": "第二章 第二个密室",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27536,
+          "chapter_name": "第三章 解决之后的未解决",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27537,
+          "chapter_name": "第四章 昏睡的不安",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27538,
+          "chapter_name": "第五章 追踪的疲惫",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27539,
+          "chapter_name": "第六章 第三个密室",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27540,
+          "chapter_name": "第七章 失踪的梦",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 27541,
+          "chapter_name": "第八章 沉默与混乱",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 27542,
+          "chapter_name": "第九章 思考的脉络",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 27543,
+          "chapter_name": "第十章 危机四伏的真相",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 27544,
+          "chapter_name": "第十一章 令人不快的真相",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 27545,
+          "chapter_name": "第十二章 诗一般的后续",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 4365,
+      "id": 4365,
+      "volume_name": "第五卷 封印再度",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 27546,
+          "chapter_name": "第一章 钥匙在陶壶里",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27547,
+          "chapter_name": "第二章 陶壶在密室里",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27548,
+          "chapter_name": "第三章 密室在黑暗里",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27549,
+          "chapter_name": "第四章 黑暗在记忆里",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27550,
+          "chapter_name": "第五章 记忆在色彩里",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27551,
+          "chapter_name": "第六章 色彩在默祷里",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27552,
+          "chapter_name": "第七章 默祷在怀疑里",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 27553,
+          "chapter_name": "第八章 怀疑在虚无里",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 27554,
+          "chapter_name": "第九章 虚无在真实里",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 27555,
+          "chapter_name": "第十章 真实在钥匙里",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 6981,
+      "id": 6981,
+      "volume_name": "第六卷 死亡幻术的门徒",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 50901,
+          "chapter_name": "第一章 奇趣的预感",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50911,
+          "chapter_name": "第三章 奇绝的舞台",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50912,
+          "chapter_name": "第五章 奇怪的消失",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50921,
+          "chapter_name": "第七章 奇想的后台",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50914,
+          "chapter_name": "第九章 奇巧的假设",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50915,
+          "chapter_name": "第十一章 奇异的换场",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50916,
+          "chapter_name": "第十三章 奇特的帮助",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50917,
+          "chapter_name": "第十五章 奇技的门徒",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 50918,
+          "chapter_name": "第十七章 奇迹的名字",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 6982,
+      "id": 6982,
+      "volume_name": "第七卷 夏的复制品",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 50922,
+          "chapter_name": "第二章 偶发的意外",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50923,
+          "chapter_name": "第四章 偶得的疑问",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50924,
+          "chapter_name": "第六章 偶语的思绪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50925,
+          "chapter_name": "第八章 偶感的悔恨",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50926,
+          "chapter_name": "第十章 偶然的歧异",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50927,
+          "chapter_name": "第十二章 偶合的想像",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50928,
+          "chapter_name": "第十四章 偶人的舞蹈",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50929,
+          "chapter_name": "第十六章 偶成的解答",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50930,
+          "chapter_name": "第十八章 偶像的踪影",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6983,
+      "id": 6983,
+      "volume_name": "第八卷 永劫回归",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 50932,
+          "chapter_name": "毫无意义的序曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50933,
+          "chapter_name": "第一幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50934,
+          "chapter_name": "第二幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50935,
+          "chapter_name": "第三幕",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50936,
+          "chapter_name": "完全多余的尾声",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6984,
+      "id": 6984,
+      "volume_name": "第九卷 命运的模型",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 50937,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50938,
+          "chapter_name": "第一章 奇幻的星期六",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50939,
+          "chapter_name": "第二章 疯狂的星期日",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50940,
+          "chapter_name": "第三章 忧郁的星期一",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50941,
+          "chapter_name": "第四章 万变的星期二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50942,
+          "chapter_name": "第五章 多梦的星期三",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50943,
+          "chapter_name": "第六章 悬疑的星期四",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50944,
+          "chapter_name": "第七章 浓稠的星期五",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50945,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6985,
+      "id": 6985,
+      "volume_name": "第十卷 有限与微小的面包",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 50946,
+          "chapter_name": "第一章 潘多拉的盒子(Pandora’s Box)",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50947,
+          "chapter_name": "第二章 人间的神殿( Pantheon )",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 50948,
+          "chapter_name": "第三章 浑沌的地狱( Pandemonium)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 50949,
+          "chapter_name": "第四章 扩大的绘图(Pantograph)",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 50950,
+          "chapter_name": "第五章 追赶的野兽(Panther)",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 50951,
+          "chapter_name": "第六章 三色堇(Pansy)",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 50952,
+          "chapter_name": "第七章 全景的构图(Panorama)",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 50953,
+          "chapter_name": "第八章 过度的恐慌(Panic)",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 50954,
+          "chapter_name": "第九章 慈悲的手(Panhandler)",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 50955,
+          "chapter_name": "第十章 神之药(Panacea)",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

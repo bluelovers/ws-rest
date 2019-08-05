@@ -12,12 +12,14 @@
   "hot_hits": 30323,
   "introduction": "魔法和科学并存的神奇世界——。\n只有勤劳和运动神经优秀优点的少年诺德，过着一直无法对青梅竹马，且是魔法阵师的女孩儿，莲比亚说出爱意的生活。\n某日，诺德不知为何突然决心要「到月亮上去」。\n并不顾不解的莲比亚，和同样以登月为目标的女孩儿?\n娜琪亚美一同向加尔尼亚王国发起的『月面踏破计划』的宙士选拔考试挑战了。诺德最终能登上月球吗！？",
   "types": [
-    "魔法/爱情/奇幻"
+    "魔法",
+    "爱情",
+    "奇幻"
   ],
   "authors": "赤松中学",
   "first_letter": "F",
-  "subscribe_num": 199,
-  "redis_update_time": 1564153965,
+  "subscribe_num": 200,
+  "redis_update_time": 1565031141,
   "volume": [
     {
       "id": 425,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917913,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 426,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274917913,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 4984,
@@ -41,7 +43,168 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1358230993,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 425,
+      "id": 425,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2636,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2637,
+          "chapter_name": "第1夜 恋爱的共感",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2638,
+          "chapter_name": "第2夜 宙士选拔考试",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2639,
+          "chapter_name": "第3夜 宙士诺德！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2640,
+          "chapter_name": "第4夜 帕里维奥Ⅰ",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2641,
+          "chapter_name": "第5夜 报天行",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2642,
+          "chapter_name": "第6夜 返航轨道",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2643,
+          "chapter_name": "最终夜 奔向各自的宇宙",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2644,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 426,
+      "id": 426,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2645,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2646,
+          "chapter_name": "序——在那星屑中的少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2647,
+          "chapter_name": "坠落前52日——不受欢迎的东西们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2648,
+          "chapter_name": "坠落前50日——消失的共感",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2649,
+          "chapter_name": "坠落前48日——最接近宇宙的岛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2650,
+          "chapter_name": "坠落前23日——惊天行",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2651,
+          "chapter_name": "坠落前32分——尼禄",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2652,
+          "chapter_name": "尾声——预言的去向",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2653,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4984,
+      "id": 4984,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 32886,
+          "chapter_name": "序章 梦境·碎散的佛伯斯和迪摩斯",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32887,
+          "chapter_name": "第一章 乌斯达玛卡的戒指",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32888,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32889,
+          "chapter_name": "第三章 超天行",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32890,
+          "chapter_name": "第四章 火星中毒",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32891,
+          "chapter_name": "第五章 扩张的共感",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32892,
+          "chapter_name": "第六章 总有一天也会到月球",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32893,
+          "chapter_name": "最终章 宙士诺德",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 32894,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

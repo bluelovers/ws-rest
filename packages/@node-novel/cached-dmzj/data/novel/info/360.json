@@ -3,7 +3,7 @@
   "name": "日本沉没",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "尾声：龙之死",
   "last_update_volume_id": 1351,
   "last_update_chapter_id": 7801,
@@ -16,16 +16,61 @@
   ],
   "authors": "小松左京",
   "first_letter": "R",
-  "subscribe_num": 325,
-  "redis_update_time": 1564240087,
+  "subscribe_num": 327,
+  "redis_update_time": 1564919869,
   "volume": [
     {
       "id": 1351,
       "lnovel_id": 360,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918426,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1351,
+      "id": 1351,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7795,
+          "chapter_name": "第一章：日本海沟",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 7796,
+          "chapter_name": "第二章：东京",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 7797,
+          "chapter_name": "第三章：政府",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 7798,
+          "chapter_name": "第四章：日本列岛",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 7799,
+          "chapter_name": "第五章：即将沉没的国家",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 7800,
+          "chapter_name": "第六章：日本沉没",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 7801,
+          "chapter_name": "尾声：龙之死",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

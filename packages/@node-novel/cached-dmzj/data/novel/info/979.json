@@ -3,7 +3,7 @@
   "name": "未完成的情书",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3474,
   "last_update_chapter_id": 20129,
@@ -16,16 +16,66 @@
   ],
   "authors": "山口升",
   "first_letter": "W",
-  "subscribe_num": 1111,
-  "redis_update_time": 1564312666,
+  "subscribe_num": 1113,
+  "redis_update_time": 1564990893,
   "volume": [
     {
       "id": 3474,
       "lnovel_id": 979,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1298256555,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3474,
+      "id": 3474,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20122,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20123,
+          "chapter_name": "第一章 圆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20124,
+          "chapter_name": "第二章 都市的颜色",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20125,
+          "chapter_name": "第三章 冬色中的画布",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20126,
+          "chapter_name": "第四章 未画完的情书",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20127,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20128,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20129,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

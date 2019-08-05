@@ -16,16 +16,16 @@
   ],
   "authors": "早见裕司",
   "first_letter": "N",
-  "subscribe_num": 228,
-  "redis_update_time": 1564269947,
+  "subscribe_num": 230,
+  "redis_update_time": 1565021508,
   "volume": [
     {
       "id": 1161,
       "lnovel_id": 310,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918312,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 6812,
@@ -33,7 +33,50 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1428838615,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1161,
+      "id": 1161,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6684,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 6812,
+      "id": 6812,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 49285,
+          "chapter_name": "第4话 葵化身为女明星！名流夫妇的真实面目",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49286,
+          "chapter_name": "第5话 葵的相亲？婚纱成为丧服",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 49287,
+          "chapter_name": "第6话 悲哀的同学会！葵的白马王子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 49288,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

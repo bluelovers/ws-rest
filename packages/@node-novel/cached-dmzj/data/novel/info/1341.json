@@ -16,8 +16,8 @@
   ],
   "authors": "七海树里",
   "first_letter": "W",
-  "subscribe_num": 230,
-  "redis_update_time": 1564224607,
+  "subscribe_num": 231,
+  "redis_update_time": 1564913351,
   "volume": [
     {
       "id": 4872,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 出道篇",
       "volume_order": 10,
       "addtime": 1354173614,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 4879,
@@ -33,7 +33,75 @@
       "volume_name": "第二卷 恋爱篇",
       "volume_order": 20,
       "addtime": 1354528151,
-      "sum_chapters": 5
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4872,
+      "id": 4872,
+      "volume_name": "第一卷 出道篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32004,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32005,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32006,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32007,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32008,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4879,
+      "id": 4879,
+      "volume_name": "第二卷 恋爱篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 32078,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32254,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32521,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32656,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32657,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

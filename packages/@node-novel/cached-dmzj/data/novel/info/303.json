@@ -3,7 +3,7 @@
   "name": "魔法使之夜",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "第3章",
   "last_update_volume_id": 1146,
   "last_update_chapter_id": 6599,
@@ -16,16 +16,41 @@
   ],
   "authors": "奈须きのこ",
   "first_letter": "M",
-  "subscribe_num": 5521,
-  "redis_update_time": 1564311698,
+  "subscribe_num": 5582,
+  "redis_update_time": 1565029930,
   "volume": [
     {
       "id": 1146,
       "lnovel_id": 303,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918303,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1146,
+      "id": 1146,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6597,
+          "chapter_name": "我是魔法使。",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6598,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6599,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

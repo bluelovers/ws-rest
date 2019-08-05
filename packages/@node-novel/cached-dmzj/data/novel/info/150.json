@@ -3,7 +3,7 @@
   "name": "骨王",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "骨王\r",
+  "last_update_volume_name": "骨王",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 552,
   "last_update_chapter_id": 3342,
@@ -16,16 +16,76 @@
   ],
   "authors": "野村佳",
   "first_letter": "G",
-  "subscribe_num": 214,
-  "redis_update_time": 1564303279,
+  "subscribe_num": 215,
+  "redis_update_time": 1565035691,
   "volume": [
     {
       "id": 552,
       "lnovel_id": 150,
-      "volume_name": "骨王\r",
+      "volume_name": "骨王",
       "volume_order": 10,
       "addtime": 1274917984,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 552,
+      "id": 552,
+      "volume_name": "骨王",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3333,
+          "chapter_name": "纯白色的无色立方体",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3334,
+          "chapter_name": "蓝色的美丽垃圾岛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3335,
+          "chapter_name": "红色的血之证明",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3336,
+          "chapter_name": "身穿黑色衣服的死神",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3337,
+          "chapter_name": "多半是灰色",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3338,
+          "chapter_name": "纯白色的,无色立方体再现",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3339,
+          "chapter_name": "粉红樱桃的香气",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3340,
+          "chapter_name": "天空色的宝箱",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 3341,
+          "chapter_name": "奇妙色彩的玉座",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 3342,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

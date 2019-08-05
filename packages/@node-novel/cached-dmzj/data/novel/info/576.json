@@ -3,7 +3,7 @@
   "name": "月阳炎",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2146,
   "last_update_chapter_id": 12557,
@@ -17,15 +17,70 @@
   "authors": "杂贺匡",
   "first_letter": "Y",
   "subscribe_num": 94,
-  "redis_update_time": 1564278042,
+  "redis_update_time": 1564852803,
   "volume": [
     {
       "id": 2146,
       "lnovel_id": 576,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918905,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2146,
+      "id": 2146,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12549,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12550,
+          "chapter_name": "有马神社",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12551,
+          "chapter_name": "有马家的人们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12552,
+          "chapter_name": "外面的世界",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12553,
+          "chapter_name": "契约",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12554,
+          "chapter_name": "僧侣模样的男子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12555,
+          "chapter_name": "堕落天神与神威",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12556,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12557,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

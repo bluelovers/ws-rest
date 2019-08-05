@@ -3,7 +3,7 @@
   "name": "噬神战士 违背禁忌之人",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3845,
   "last_update_chapter_id": 23051,
@@ -12,20 +12,62 @@
   "hot_hits": 36537,
   "introduction": "正在进行新人训练的芬里尔极东支部第一部队队长雨宫林道，不幸遭遇上了第一种禁忌荒神「素戋鸣尊」。而就在此时，在他面前突然出现了一箱货仓，从中走出的少年，仅仅一人便与素戋鸣尊展开了对峙。这名少年，正是禁忌种荒神专门讨伐部队「亚瑟神魂」的成员……\n人气游戏『噬神战士』小说化！尽情体验只有小说版才有的任务内容吧！！",
   "types": [
-    "冒险/科幻/格斗"
+    "冒险",
+    "科幻",
+    "格斗"
   ],
   "authors": "ゆうき りん",
   "first_letter": "S",
-  "subscribe_num": 486,
-  "redis_update_time": 1564291036,
+  "subscribe_num": 487,
+  "redis_update_time": 1564974933,
   "volume": [
     {
       "id": 3845,
       "lnovel_id": 1083,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1312782386,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3845,
+      "id": 3845,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23046,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23047,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23048,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23049,
+          "chapter_name": "终章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23050,
+          "chapter_name": "解说",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23051,
+          "chapter_name": "插图",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

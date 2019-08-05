@@ -12,12 +12,13 @@
   "hot_hits": 21282,
   "introduction": "    因饱受欺凌而对同学萌生杀意的少女，决定使用蛊术来杀死她们。蛊术，那是一种残忍的咒术，需要活物献祭……本书以暗潮涌动的女子高中为舞台，叙述了被犬神附身的少女楠濑步在校园中经历的怪异故事。",
   "types": [
-    "神鬼/侦探"
+    "神鬼",
+    "侦探"
   ],
   "authors": "唐边叶介",
   "first_letter": "Q",
   "subscribe_num": 540,
-  "redis_update_time": 1564213770,
+  "redis_update_time": 1564917179,
   "volume": [
     {
       "id": 5232,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1367046576,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 5737,
@@ -33,7 +34,70 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1388499352,
-      "sum_chapters": 5
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5232,
+      "id": 5232,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 35031,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35032,
+          "chapter_name": "第一话 蛊毒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35033,
+          "chapter_name": "第二话 管狐",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35034,
+          "chapter_name": "第三话 返魂",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35035,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 5737,
+      "id": 5737,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 39395,
+          "chapter_name": "第四话 傀儡子·前",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39443,
+          "chapter_name": "第五话 傀儡子·后",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39444,
+          "chapter_name": "最终话·犬神",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39445,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

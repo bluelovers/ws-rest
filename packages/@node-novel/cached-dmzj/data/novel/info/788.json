@@ -3,7 +3,7 @@
   "name": "叛逆的鲁路修外传",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "学生会事件簿\r",
+  "last_update_volume_name": "学生会事件簿",
   "last_update_chapter_name": "学生会事件簿 日本式的新年!?",
   "last_update_volume_id": 2683,
   "last_update_chapter_id": 23831,
@@ -12,20 +12,57 @@
   "hot_hits": 79288,
   "introduction": "「鲁路修……所以你才……原来是这样啊。」\n朱雀像是终于放心似的低语。\n不像平常的他，朱雀的表情十分柔和。\n而他的眼睛也仿佛诉说着此刻无比的喜悦一般，闪耀着光芒。",
   "types": [
-    "科幻/机战/战争"
+    "科幻",
+    "机战",
+    "战争"
   ],
   "authors": "朝香祥",
   "first_letter": "P",
-  "subscribe_num": 2370,
-  "redis_update_time": 1564308723,
+  "subscribe_num": 2379,
+  "redis_update_time": 1565028162,
   "volume": [
     {
       "id": 2683,
       "lnovel_id": 788,
-      "volume_name": "学生会事件簿\r",
+      "volume_name": "学生会事件簿",
       "volume_order": 10,
       "addtime": 1275958013,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2683,
+      "id": 2683,
+      "volume_name": "学生会事件簿",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23829,
+          "chapter_name": "学园七大怪谈",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23830,
+          "chapter_name": "鲁路修之谜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23831,
+          "chapter_name": "日本式的新年!?",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15010,
+          "chapter_name": "振袖和服处置记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15011,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

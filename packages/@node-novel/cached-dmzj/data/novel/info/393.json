@@ -1,9 +1,9 @@
 {
   "id": 393,
-  "name": "生化危机　空白玫瑰",
+  "name": "生化危机 空白玫瑰",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "编年史",
   "last_update_volume_id": 1492,
   "last_update_chapter_id": 8577,
@@ -16,16 +16,71 @@
   ],
   "authors": "爱泽匡",
   "first_letter": "S",
-  "subscribe_num": 462,
-  "redis_update_time": 1564310391,
+  "subscribe_num": 463,
+  "redis_update_time": 1565029258,
   "volume": [
     {
       "id": 1492,
       "lnovel_id": 393,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918506,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1492,
+      "id": 1492,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 8569,
+          "chapter_name": "始动",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8570,
+          "chapter_name": "裸牛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 8571,
+          "chapter_name": "镇魂曲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 8572,
+          "chapter_name": "忘却录音",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 8573,
+          "chapter_name": "狂宴的开始",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 8574,
+          "chapter_name": "崩溃之笑",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 8575,
+          "chapter_name": "染红的天幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 8576,
+          "chapter_name": "空白玫瑰",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 8577,
+          "chapter_name": "编年史",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

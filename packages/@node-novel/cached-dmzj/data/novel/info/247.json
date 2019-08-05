@@ -16,8 +16,8 @@
   ],
   "authors": "花衣沙久罗",
   "first_letter": "L",
-  "subscribe_num": 146,
-  "redis_update_time": 1564302346,
+  "subscribe_num": 151,
+  "redis_update_time": 1565017673,
   "volume": [
     {
       "id": 920,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 王子归来",
       "volume_order": 10,
       "addtime": 1274918181,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3479,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 封印的龙剑",
       "volume_order": 20,
       "addtime": 1298366313,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3480,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 独眼的皇帝",
       "volume_order": 30,
       "addtime": 1298366330,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3481,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷 宿命的恋人",
       "volume_order": 40,
       "addtime": 1298366682,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 919,
@@ -57,7 +57,74 @@
       "volume_name": "第五卷 蔷薇的赎罪",
       "volume_order": 50,
       "addtime": 1274918181,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 920,
+      "id": 920,
+      "volume_name": "第一卷 王子归来",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5272,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3479,
+      "id": 3479,
+      "volume_name": "第二卷 封印的龙剑",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 20156,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3480,
+      "id": 3480,
+      "volume_name": "第三卷 独眼的皇帝",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 20157,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3481,
+      "id": 3481,
+      "volume_name": "第四卷 宿命的恋人",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 20158,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 919,
+      "id": 919,
+      "volume_name": "第五卷 蔷薇的赎罪",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 5271,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

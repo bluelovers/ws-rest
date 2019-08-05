@@ -12,12 +12,14 @@
   "hot_hits": 261875,
   "introduction": "能力值永远卡在九十九的普通班学生──春日理刀，梦想进入能力开发科「星光班」，实现助人的愿望。他听说吃了魔界食物，便能提高自己的能力值，于是计划接近来自魔界的短期留学生──丝啾丝！\n为此，理刀潜入欢迎留学生的派对，但这位绝代大美女丝啾丝竟缺席了。大失所望的理刀悄悄离开派对，却莫名其妙被一只长得像蜥蜴的龙寄生！正当他不知所措的时候，一名外表稚嫩、口气有些大牌的可爱美少女叫住了他……\n跨越种族的奇幻爱情故事，就此开锣！",
   "types": [
-    "校园/爱情/奇幻"
+    "校园",
+    "爱情",
+    "奇幻"
   ],
   "authors": "野岛研二",
   "first_letter": "B",
-  "subscribe_num": 1354,
-  "redis_update_time": 1564312540,
+  "subscribe_num": 1355,
+  "redis_update_time": 1564972697,
   "volume": [
     {
       "id": 4000,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1319609105,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4001,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1319609531,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4002,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1319610870,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4003,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1319611620,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4004,
@@ -57,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1319611707,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4005,
@@ -65,7 +67,7 @@
       "volume_name": "SS1 酷酷的黑媛",
       "volume_order": 60,
       "addtime": 1319611879,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4006,
@@ -73,7 +75,7 @@
       "volume_name": "第六卷",
       "volume_order": 70,
       "addtime": 1319611984,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4007,
@@ -81,7 +83,7 @@
       "volume_name": "第七卷",
       "volume_order": 80,
       "addtime": 1319612102,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4008,
@@ -89,7 +91,7 @@
       "volume_name": "第八卷",
       "volume_order": 90,
       "addtime": 1319612172,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4653,
@@ -97,7 +99,544 @@
       "volume_name": "第九卷",
       "volume_order": 100,
       "addtime": 1345804461,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4000,
+      "id": 4000,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 24545,
+          "chapter_name": "第一卷 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24546,
+          "chapter_name": "第一卷 第一章 龙头的诞生",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24547,
+          "chapter_name": "第一卷 第二章 浴室的光景",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24548,
+          "chapter_name": "第一卷 第四章 姊姊们的袭击",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24549,
+          "chapter_name": "第一卷 第五章 派对的举行",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24550,
+          "chapter_name": "第一卷 第六章 仪式的展开",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24551,
+          "chapter_name": "第一卷 第七章 忧郁的少女",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24552,
+          "chapter_name": "第一卷 终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24553,
+          "chapter_name": "第一卷 后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4001,
+      "id": 4001,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 24554,
+          "chapter_name": "第二卷 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24555,
+          "chapter_name": "第二卷 第一章 丝伊特来袭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24556,
+          "chapter_name": "第二卷 第二章 剑齿虎标万金油骚动",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24557,
+          "chapter_name": "第二卷 第三章 游泳特训",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24558,
+          "chapter_name": "第二卷 第四章 混沌炸弹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24559,
+          "chapter_name": "第二卷 第五章 周末狂热",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24560,
+          "chapter_name": "第二卷 第六章 嘉年华开幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24561,
+          "chapter_name": "第二卷 第七章 你并不孤独",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24562,
+          "chapter_name": "第二卷 终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 24563,
+          "chapter_name": "第二卷 后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4002,
+      "id": 4002,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 24564,
+          "chapter_name": "第三卷 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24565,
+          "chapter_name": "第三卷 第一章 最后的晚餐",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24566,
+          "chapter_name": "第三卷 第二章 封印庭解放",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24567,
+          "chapter_name": "第三卷 第三章 自吹自擂游戏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24568,
+          "chapter_name": "第三卷 第四章 恼人的双胞胎",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24569,
+          "chapter_name": "第三卷 第五章 第卅八女登场",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24570,
+          "chapter_name": "第三卷 第六章 世界树的一叶",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24571,
+          "chapter_name": "第三卷 第七章 做自己尽其在我",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24572,
+          "chapter_name": "第三卷 终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 24573,
+          "chapter_name": "第三卷 后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 24574,
+          "chapter_name": "第三卷 插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 4003,
+      "id": 4003,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 24575,
+          "chapter_name": "第四卷 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24576,
+          "chapter_name": "第四卷 第一章 冯塔纳岛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24577,
+          "chapter_name": "第四卷 第二章 小蜥的节奏",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24578,
+          "chapter_name": "第四卷 第三章 传说的游戏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24579,
+          "chapter_name": "第四卷 第四章 脸红心跳之夜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24580,
+          "chapter_name": "第四卷 第五章 惊险刺激的战斗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24581,
+          "chapter_name": "第四卷 第六章 Dash GoGo",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24582,
+          "chapter_name": "第四卷 第七章 岛的坠落",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24583,
+          "chapter_name": "第四卷 终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 24584,
+          "chapter_name": "第四卷 后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4004,
+      "id": 4004,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 24585,
+          "chapter_name": "第五卷 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24586,
+          "chapter_name": "第五卷 第一章 毒舌丸的恋爱谘商室",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24587,
+          "chapter_name": "第五卷 第二章 姊姊的庭园教室",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24588,
+          "chapter_name": "第五卷 第三章 混沌少年真是爱担心唷～☆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24589,
+          "chapter_name": "第五卷 第四章 妖精，日安",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24590,
+          "chapter_name": "第五卷 第五章 转啊转啊转",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24591,
+          "chapter_name": "第五卷 第六章 偷偷摸摸的姊妹们",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24592,
+          "chapter_name": "第五卷 第七章 Last Girl Standing",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24593,
+          "chapter_name": "第五卷 终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 24594,
+          "chapter_name": "第五卷 后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4005,
+      "id": 4005,
+      "volume_name": "SS1 酷酷的黑媛",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 24595,
+          "chapter_name": "SS1 酷酷的黑媛 第一话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24596,
+          "chapter_name": "SS1 酷酷的黑媛 第三话",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 4006,
+      "id": 4006,
+      "volume_name": "第六卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 24597,
+          "chapter_name": "第六卷 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24598,
+          "chapter_name": "第六卷 第一章 一定要变强",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24599,
+          "chapter_name": "第六卷 第二章 最~喜欢了&#9834;",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24600,
+          "chapter_name": "第六卷 第三章 因为是朋友呢~",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24601,
+          "chapter_name": "第六卷 第四章 不能逃",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24602,
+          "chapter_name": "第六卷 第五章 之后再见吧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24603,
+          "chapter_name": "第六卷 第六章 反击之拳！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24604,
+          "chapter_name": "第六卷 第七章 反击之拳II！",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24605,
+          "chapter_name": "第六卷 终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 24606,
+          "chapter_name": "第六卷 后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4007,
+      "id": 4007,
+      "volume_name": "第七卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 24607,
+          "chapter_name": "第七卷 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24608,
+          "chapter_name": "第七卷 第一章 紧贴Monday",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24609,
+          "chapter_name": "第七卷 第二章 吃惊Tuesday",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24610,
+          "chapter_name": "第七卷 第三章 梦宴Wednesday",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24611,
+          "chapter_name": "第七卷 第四章 汤烟Thursday",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24612,
+          "chapter_name": "第七卷 第五章 升龙Friday",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24613,
+          "chapter_name": "第七卷 第六章 纯情Saturday",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24614,
+          "chapter_name": "第七卷 终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24615,
+          "chapter_name": "第七卷 后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4008,
+      "id": 4008,
+      "volume_name": "第八卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 24616,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24617,
+          "chapter_name": "第一章 Goodbye·Madeleine",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24775,
+          "chapter_name": "第二章 亲亲抱抱",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30079,
+          "chapter_name": "第三章 欢迎来到魔界！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30080,
+          "chapter_name": "第四章 魔界体验",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30081,
+          "chapter_name": "第五章 曼德佩因",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30082,
+          "chapter_name": "第六章 小鸟的公主殿下",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 30083,
+          "chapter_name": "第七章 希尔蒂夏普，简称希尔蒂",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 30084,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 30085,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 4653,
+      "id": 4653,
+      "volume_name": "第九卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 30086,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30185,
+          "chapter_name": "第一章 胡来的冯塔纳",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30362,
+          "chapter_name": "第二章 心的形状",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31288,
+          "chapter_name": "第三章 惊慌失措双人赛",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 31404,
+          "chapter_name": "第四章 骑龙竞速",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 31768,
+          "chapter_name": "第五章 Rhythm&#8226;of&#8226;Battle",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32010,
+          "chapter_name": "第六章 极限necromancer",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32011,
+          "chapter_name": "第七章 骑龙竞速收场？",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 32012,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 32013,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

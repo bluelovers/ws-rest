@@ -1,9 +1,9 @@
 {
   "id": 223,
-  "name": "狂野历险　Alter　code:F",
+  "name": "狂野历险 Alter code:F",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "狂野历险 Alter code:F 下",
   "last_update_volume_id": 807,
   "last_update_chapter_id": 4575,
@@ -17,23 +17,51 @@
   "authors": "細江ひろみ",
   "first_letter": "K",
   "subscribe_num": 52,
-  "redis_update_time": 1564201451,
+  "redis_update_time": 1564505898,
   "volume": [
     {
       "id": 806,
       "lnovel_id": 223,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918120,
-      "sum_chapters": 5
+      "sum_chapters": 16
     },
     {
       "id": 807,
       "lnovel_id": 223,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918120,
-      "sum_chapters": 5
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 806,
+      "id": 806,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4574,
+          "chapter_name": "《狂野历险 Alter code:F》上",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 807,
+      "id": 807,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 4575,
+          "chapter_name": "狂野历险 Alter code:F 下",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

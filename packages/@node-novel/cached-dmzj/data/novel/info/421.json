@@ -3,7 +3,7 @@
   "name": "深渊传说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 1608,
   "last_update_chapter_id": 9296,
@@ -17,15 +17,30 @@
   "authors": "南梦宫",
   "first_letter": "S",
   "subscribe_num": 154,
-  "redis_update_time": 1564205104,
+  "redis_update_time": 1564967503,
   "volume": [
     {
       "id": 1608,
       "lnovel_id": 421,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918572,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1608,
+      "id": 1608,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9296,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

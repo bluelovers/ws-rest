@@ -1,9 +1,9 @@
 {
   "id": 171,
-  "name": "幻想传奇　悠久的时空",
+  "name": "幻想传奇 悠久的时空",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 607,
   "last_update_chapter_id": 3590,
@@ -17,23 +17,51 @@
   "authors": "矢島さら",
   "first_letter": "H",
   "subscribe_num": 104,
-  "redis_update_time": 1564293652,
+  "redis_update_time": 1565017692,
   "volume": [
     {
       "id": 606,
       "lnovel_id": 171,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918012,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 607,
       "lnovel_id": 171,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918012,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 606,
+      "id": 606,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3589,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 607,
+      "id": 607,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3590,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "id": 467,
-  "name": "舞-HiME★DESTINY　龙之巫女",
+  "name": "舞-HiME★DESTINY 龙之巫女",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 被禁锢的手铐娘\r",
+  "last_update_volume_name": "第一卷 被禁锢的手铐娘",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1758,
   "last_update_chapter_id": 10226,
@@ -17,15 +17,30 @@
   "authors": "伊吹秀明",
   "first_letter": "W",
   "subscribe_num": 157,
-  "redis_update_time": 1564037041,
+  "redis_update_time": 1565025223,
   "volume": [
     {
       "id": 1758,
       "lnovel_id": 467,
-      "volume_name": "第一卷 被禁锢的手铐娘\r",
+      "volume_name": "第一卷 被禁锢的手铐娘",
       "volume_order": 10,
       "addtime": 1274918661,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1758,
+      "id": 1758,
+      "volume_name": "第一卷 被禁锢的手铐娘",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10226,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

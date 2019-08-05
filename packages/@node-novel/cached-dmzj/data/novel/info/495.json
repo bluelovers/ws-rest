@@ -3,7 +3,7 @@
   "name": "新罗德斯岛战记",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第六卷 终焉的邪教（下）\r",
+  "last_update_volume_name": "第六卷 终焉的邪教（下）",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1865,
   "last_update_chapter_id": 11069,
@@ -16,64 +16,317 @@
   ],
   "authors": "水野良",
   "first_letter": "X",
-  "subscribe_num": 940,
-  "redis_update_time": 1564292658,
+  "subscribe_num": 947,
+  "redis_update_time": 1565018731,
   "volume": [
     {
       "id": 1859,
       "lnovel_id": 495,
-      "volume_name": "第零卷 炎之继承者\r",
+      "volume_name": "第零卷 炎之继承者",
       "volume_order": 10,
       "addtime": 1274918729,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1860,
       "lnovel_id": 495,
-      "volume_name": "第一卷 暗黑森林的魔兽\r",
+      "volume_name": "第一卷 暗黑森林的魔兽",
       "volume_order": 20,
       "addtime": 1274918729,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1861,
       "lnovel_id": 495,
-      "volume_name": "第二卷 新生之魔帝国\r",
+      "volume_name": "第二卷 新生之魔帝国",
       "volume_order": 30,
       "addtime": 1274918729,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1862,
       "lnovel_id": 495,
-      "volume_name": "第三卷 黑翼邪龙\r",
+      "volume_name": "第三卷 黑翼邪龙",
       "volume_order": 40,
       "addtime": 1274918729,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1863,
       "lnovel_id": 495,
-      "volume_name": "第四卷 命运的魔船\r",
+      "volume_name": "第四卷 命运的魔船",
       "volume_order": 50,
       "addtime": 1274918729,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1864,
       "lnovel_id": 495,
-      "volume_name": "第五卷 终焉的邪教（上）\r",
+      "volume_name": "第五卷 终焉的邪教（上）",
       "volume_order": 60,
       "addtime": 1274918729,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1865,
       "lnovel_id": 495,
-      "volume_name": "第六卷 终焉的邪教（下）\r",
+      "volume_name": "第六卷 终焉的邪教（下）",
       "volume_order": 70,
       "addtime": 1274918729,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1859,
+      "id": 1859,
+      "volume_name": "第零卷 炎之继承者",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11031,
+          "chapter_name": "序曲 加冕仪式",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11032,
+          "chapter_name": "第01章 炎之继承者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11033,
+          "chapter_name": "第02章 魔兽之森",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11034,
+          "chapter_name": "第03章 暗黑之岛的领主",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11035,
+          "chapter_name": "第04章 不死者之王",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11036,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 1860,
+      "id": 1860,
+      "volume_name": "第一卷 暗黑森林的魔兽",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11037,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11038,
+          "chapter_name": "第01章 无人祝福的开始",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11039,
+          "chapter_name": "第02章 妖魔之银",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11040,
+          "chapter_name": "第03章 魔兽来袭",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11041,
+          "chapter_name": "第04章 亚拉尼亚之魔兽使",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11042,
+          "chapter_name": "第05章 九头大蛇",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11043,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1861,
+      "id": 1861,
+      "volume_name": "第二卷 新生之魔帝国",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 11044,
+          "chapter_name": "第01章 暗黑骑士团",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11045,
+          "chapter_name": "第02章 风与炎之沙漠",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11046,
+          "chapter_name": "第03章 袭击而来的妖魔",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11047,
+          "chapter_name": "第04章 暗黑神殿之废墟",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 1862,
+      "id": 1862,
+      "volume_name": "第三卷 黑翼邪龙",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 11048,
+          "chapter_name": "第01章 来自始源巨人之鳞",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11049,
+          "chapter_name": "第02章 黑暗统治者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11050,
+          "chapter_name": "第03章 黑翼邪龙",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11051,
+          "chapter_name": "第04章 幼龙解放",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11052,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1863,
+      "id": 1863,
+      "volume_name": "第四卷 命运的魔船",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 11053,
+          "chapter_name": "第01章 孤立",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11054,
+          "chapter_name": "第02章 路德堡垒的宾客",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11055,
+          "chapter_name": "第03章 暗黑骑士团",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 1864,
+      "id": 1864,
+      "volume_name": "第五卷 终焉的邪教（上）",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 11056,
+          "chapter_name": "暗黑森林的妖魔",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11057,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11058,
+          "chapter_name": "终焉之门",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11059,
+          "chapter_name": "公国灭亡",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11060,
+          "chapter_name": "後记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11061,
+          "chapter_name": "第06章 常闇之苗床",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11062,
+          "chapter_name": "第09章 终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 11063,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1865,
+      "id": 1865,
+      "volume_name": "第六卷 终焉的邪教（下）",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 11064,
+          "chapter_name": "诸王国会议",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11065,
+          "chapter_name": "常闇之苗床",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11066,
+          "chapter_name": "夺回公都",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11067,
+          "chapter_name": "亡者之女王",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11068,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11069,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

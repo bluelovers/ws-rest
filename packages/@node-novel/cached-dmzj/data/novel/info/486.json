@@ -3,7 +3,7 @@
   "name": "无间地狱",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "无间地狱 下（Zwei篇）\r",
+  "last_update_volume_name": "无间地狱 下（Zwei篇）",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1832,
   "last_update_chapter_id": 10881,
@@ -16,24 +16,157 @@
   ],
   "authors": "虚渊玄",
   "first_letter": "W",
-  "subscribe_num": 892,
-  "redis_update_time": 1564309261,
+  "subscribe_num": 902,
+  "redis_update_time": 1565020760,
   "volume": [
     {
       "id": 1831,
       "lnovel_id": 486,
-      "volume_name": "无间地狱 上（Ein篇）\r",
+      "volume_name": "无间地狱 上（Ein篇）",
       "volume_order": 10,
       "addtime": 1274918711,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1832,
       "lnovel_id": 486,
-      "volume_name": "无间地狱 下（Zwei篇）\r",
+      "volume_name": "无间地狱 下（Zwei篇）",
       "volume_order": 20,
       "addtime": 1274918711,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1831,
+      "id": 1831,
+      "volume_name": "无间地狱 上（Ein篇）",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10859,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10860,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10861,
+          "chapter_name": "第一章 “Zwei”",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10862,
+          "chapter_name": "第二章 “苏醒的记忆”",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10863,
+          "chapter_name": "第三章 “艾伦”",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10864,
+          "chapter_name": "第四章 “码头的攻防战”",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10865,
+          "chapter_name": "第五章 “新的邂逅”",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10866,
+          "chapter_name": "第六章 “少女之幻”",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10867,
+          "chapter_name": "第七章 “神秘的子弹”",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 10868,
+          "chapter_name": "第八章 “在绝望的深处”",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 10869,
+          "chapter_name": "尾声",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 10870,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 1832,
+      "id": 1832,
+      "volume_name": "无间地狱 下（Zwei篇）",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 10871,
+          "chapter_name": "封面",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10872,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10873,
+          "chapter_name": "第一章 “故乡的学园生活，以及……”",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10874,
+          "chapter_name": "第二章 “新的Phantom”",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10875,
+          "chapter_name": "第三章 “围绕Phantom产生的想法”",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10876,
+          "chapter_name": "第四章 “Ein vs Drei”",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10877,
+          "chapter_name": "第五章 “赛司的五指山”",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10878,
+          "chapter_name": "第六章 “凯尔的困扰”",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10879,
+          "chapter_name": "第七章 “对玲二的思念”",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 10880,
+          "chapter_name": "第八章 “谁手握胜算”",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 10881,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

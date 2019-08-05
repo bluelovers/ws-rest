@@ -12,20 +12,21 @@
   "hot_hits": 30878,
   "introduction": "   学园祭当天，12人向着学校出发。既和平时一样，又和平时不一样。继承了恶魔的那个的他们聚集之时——被诅咒的仪式再开的条件便齐具了。\n    「想要活的人就要去掠夺。想要死的人就该去奉献。争斗到只剩最后一个人为止」\n    以那句话为契机，有人追寻，有人落逃，有人旁观。相信谁怀疑谁——然后自己该怎么做才好？限制时间是今晚零点。一夜的狂想曲开始了！！",
   "types": [
-    "恐怖/校园"
+    "恐怖",
+    "校园"
   ],
   "authors": "御堂彰彦",
   "first_letter": "1",
   "subscribe_num": 252,
-  "redis_update_time": 1564305010,
+  "redis_update_time": 1564986464,
   "volume": [
     {
       "id": 3464,
       "lnovel_id": 977,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1297735932,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3556,
@@ -33,7 +34,115 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1301277442,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3464,
+      "id": 3464,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20048,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20049,
+          "chapter_name": "第一章 被封闭的世界",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20050,
+          "chapter_name": "第二章 恶魔部位的争夺战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20051,
+          "chapter_name": "第三章 掠夺方与被掠夺方",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20052,
+          "chapter_name": "第四章 返回的路标",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20053,
+          "chapter_name": "第五章 真实与谎言",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20054,
+          "chapter_name": "第六章 暗中操纵之人 潜伏阴影之人",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20055,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20056,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 3556,
+      "id": 3556,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 20666,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20667,
+          "chapter_name": "幕间",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20668,
+          "chapter_name": "第七章 再开与再会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20669,
+          "chapter_name": "第八章 远离",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20670,
+          "chapter_name": "第九章 最初的愿望 最后的愿望",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20671,
+          "chapter_name": "第十章 特別",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20914,
+          "chapter_name": "第十一章 未见之物",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20915,
+          "chapter_name": "第十二章 于是，十二人……",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20916,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

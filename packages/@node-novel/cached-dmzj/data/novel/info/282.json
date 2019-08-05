@@ -1,9 +1,9 @@
 {
   "id": 282,
-  "name": "名侦探柯南　小提琴之谜",
+  "name": "名侦探柯南 小提琴之谜",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "下卷\r",
+  "last_update_volume_name": "下卷",
   "last_update_chapter_name": "终章 安可曲",
   "last_update_volume_id": 1067,
   "last_update_chapter_id": 6137,
@@ -16,24 +16,97 @@
   ],
   "authors": "青山刚昌",
   "first_letter": "M",
-  "subscribe_num": 1149,
-  "redis_update_time": 1564304374,
+  "subscribe_num": 1154,
+  "redis_update_time": 1565002741,
   "volume": [
     {
       "id": 1066,
       "lnovel_id": 282,
-      "volume_name": "上卷\r",
+      "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1274918260,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1067,
       "lnovel_id": 282,
-      "volume_name": "下卷\r",
+      "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1274918260,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1066,
+      "id": 1066,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6127,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6128,
+          "chapter_name": "第一乐章 滴血的前奏",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6129,
+          "chapter_name": "第二乐章 优雅的抒情曲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6130,
+          "chapter_name": "第三乐章 如歌的慢板",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6131,
+          "chapter_name": "第四乐章 颤栗的进行曲",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1067,
+      "id": 1067,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 6132,
+          "chapter_name": "第四乐章 颤栗的进行曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6133,
+          "chapter_name": "第五乐章 生动活泼的快板",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6134,
+          "chapter_name": "第六乐章 短暂的波尔卡",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6135,
+          "chapter_name": "第七乐章 逝者的安魂曲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6136,
+          "chapter_name": "第八乐章 激烈的狂想曲",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6137,
+          "chapter_name": "终章 安可曲",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

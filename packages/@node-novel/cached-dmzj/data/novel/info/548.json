@@ -3,7 +3,7 @@
   "name": "亚雷克森传奇",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2056,
   "last_update_chapter_id": 12061,
@@ -17,15 +17,30 @@
   "authors": "五代ゆぅ",
   "first_letter": "Y",
   "subscribe_num": 49,
-  "redis_update_time": 1564204200,
+  "redis_update_time": 1564988440,
   "volume": [
     {
       "id": 2056,
       "lnovel_id": 548,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918852,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2056,
+      "id": 2056,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12061,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

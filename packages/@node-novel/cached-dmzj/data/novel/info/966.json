@@ -3,7 +3,7 @@
   "name": "M之奇谈",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 天鹅座迷宫\r",
+  "last_update_volume_name": "第一卷 天鹅座迷宫",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3427,
   "last_update_chapter_id": 19733,
@@ -17,15 +17,70 @@
   "authors": "三上康明",
   "first_letter": "M",
   "subscribe_num": 86,
-  "redis_update_time": 1564221714,
+  "redis_update_time": 1564892707,
   "volume": [
     {
       "id": 3427,
       "lnovel_id": 966,
-      "volume_name": "第一卷 天鹅座迷宫\r",
+      "volume_name": "第一卷 天鹅座迷宫",
       "volume_order": 10,
       "addtime": 1295836270,
-      "sum_chapters": 5
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3427,
+      "id": 3427,
+      "volume_name": "第一卷 天鹅座迷宫",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19725,
+          "chapter_name": "序章 圣域",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19726,
+          "chapter_name": "第一章 邂逅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19727,
+          "chapter_name": "第二章 对立",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19728,
+          "chapter_name": "第三章 消失",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19729,
+          "chapter_name": "第四章 追踪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19730,
+          "chapter_name": "第五章 降临",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19731,
+          "chapter_name": "终章 领域",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19732,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 19733,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

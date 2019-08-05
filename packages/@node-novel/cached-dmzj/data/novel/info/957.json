@@ -3,7 +3,7 @@
   "name": "黑祠之岛",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第九章",
   "last_update_volume_id": 3389,
   "last_update_chapter_id": 19451,
@@ -16,16 +16,71 @@
   ],
   "authors": "小野不由美",
   "first_letter": "H",
-  "subscribe_num": 557,
-  "redis_update_time": 1564275249,
+  "subscribe_num": 563,
+  "redis_update_time": 1565003893,
   "volume": [
     {
       "id": 3389,
       "lnovel_id": 957,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1294625588,
-      "sum_chapters": 3
+      "sum_chapters": 9
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3389,
+      "id": 3389,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19443,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19444,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19445,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19446,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19447,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19448,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19449,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19450,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 19451,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

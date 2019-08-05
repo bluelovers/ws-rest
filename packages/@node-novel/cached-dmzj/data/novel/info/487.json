@@ -3,7 +3,7 @@
   "name": "为夜空的双子座衬上深红蔷薇",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1833,
   "last_update_chapter_id": 10887,
@@ -16,16 +16,56 @@
   ],
   "authors": "田中芳树",
   "first_letter": "W",
-  "subscribe_num": 379,
-  "redis_update_time": 1564309873,
+  "subscribe_num": 378,
+  "redis_update_time": 1565029260,
   "volume": [
     {
       "id": 1833,
       "lnovel_id": 487,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918713,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1833,
+      "id": 1833,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10882,
+          "chapter_name": "第一章 跃向夜空的繁星",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10883,
+          "chapter_name": "第二章 漆黑的真理与洁白的伦理",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10884,
+          "chapter_name": "第三章 兽人们的地下帝国",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10885,
+          "chapter_name": "第四章 小心成群的『不祥之物』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10886,
+          "chapter_name": "第五章 启程之日高升狼烟",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10887,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

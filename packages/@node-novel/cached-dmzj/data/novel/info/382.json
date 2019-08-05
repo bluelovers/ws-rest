@@ -16,24 +16,24 @@
   ],
   "authors": "舞阪洸",
   "first_letter": "S",
-  "subscribe_num": 346,
-  "redis_update_time": 1564205005,
+  "subscribe_num": 347,
+  "redis_update_time": 1564958149,
   "volume": [
     {
       "id": 1443,
       "lnovel_id": 382,
-      "volume_name": "来自警护所的少女\r",
+      "volume_name": "来自警护所的少女",
       "volume_order": 10,
       "addtime": 1274918479,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1444,
       "lnovel_id": 382,
-      "volume_name": "北方大地等待的公主\r",
+      "volume_name": "北方大地等待的公主",
       "volume_order": 20,
       "addtime": 1274918479,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1445,
@@ -41,7 +41,7 @@
       "volume_name": "只要有爱",
       "volume_order": 30,
       "addtime": 1274918479,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 3030,
@@ -49,7 +49,146 @@
       "volume_name": "搏命厮杀",
       "volume_order": 40,
       "addtime": 1278985273,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1443,
+      "id": 1443,
+      "volume_name": "来自警护所的少女",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 8364,
+          "chapter_name": "相遇即是新的开始",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8365,
+          "chapter_name": "武士的价值即是战斗",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 8366,
+          "chapter_name": "百闻即是不如一见",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 8367,
+          "chapter_name": "决意即是接受变化的觉悟",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 8368,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1444,
+      "id": 1444,
+      "volume_name": "北方大地等待的公主",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 8369,
+          "chapter_name": "朋友即是值得信任之人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8370,
+          "chapter_name": "勇气即是不从困境中逃离的意志",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 8371,
+          "chapter_name": "爱即是矢志不渝的热情",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 8372,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 1445,
+      "id": 1445,
+      "volume_name": "只要有爱",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 8373,
+          "chapter_name": "爱即是不吝惜的与夺",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 8374,
+          "chapter_name": "第二章 偶然即是必然的别名",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14881,
+          "chapter_name": "第三章 虎子即是藏于虎穴之物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14882,
+          "chapter_name": "第四章 羁绊即是彼此的信赖",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14883,
+          "chapter_name": "插图",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 3030,
+      "id": 3030,
+      "volume_name": "搏命厮杀",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 16873,
+          "chapter_name": "第一章 战友即能托付后背之人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16946,
+          "chapter_name": "第二章 穷则变，变则通",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19327,
+          "chapter_name": "第三章 真相即是不可易见之物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19328,
+          "chapter_name": "第四章 追寻者终有所得",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19480,
+          "chapter_name": "第五章 搏命的比试自是你死我活",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19521,
+          "chapter_name": "第四卷 搏命厮杀 终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19522,
+          "chapter_name": "第四卷 搏命厮杀 后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

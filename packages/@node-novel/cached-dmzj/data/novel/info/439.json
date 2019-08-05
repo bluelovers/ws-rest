@@ -3,7 +3,7 @@
   "name": "他能在那天逃过死亡吗",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全一卷\r",
+  "last_update_volume_name": "全一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1663,
   "last_update_chapter_id": 9653,
@@ -16,16 +16,61 @@
   ],
   "authors": "小木君人",
   "first_letter": "T",
-  "subscribe_num": 725,
-  "redis_update_time": 1564231646,
+  "subscribe_num": 729,
+  "redis_update_time": 1565021246,
   "volume": [
     {
       "id": 1663,
       "lnovel_id": 439,
-      "volume_name": "全一卷\r",
+      "volume_name": "全一卷",
       "volume_order": 10,
       "addtime": 1274918604,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1663,
+      "id": 1663,
+      "volume_name": "全一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9647,
+          "chapter_name": "TUTORIAL1",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9648,
+          "chapter_name": "Sophia",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9649,
+          "chapter_name": "友实",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9650,
+          "chapter_name": "友实",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9651,
+          "chapter_name": "弥宵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9652,
+          "chapter_name": "钢一与索菲娅",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9653,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

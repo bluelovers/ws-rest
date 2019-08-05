@@ -3,7 +3,7 @@
   "name": "在SouthBerry树下",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2543,
   "last_update_chapter_id": 14387,
@@ -17,15 +17,30 @@
   "authors": "原田宇陀儿",
   "first_letter": "Z",
   "subscribe_num": 82,
-  "redis_update_time": 1564292637,
+  "redis_update_time": 1564919897,
   "volume": [
     {
       "id": 2543,
       "lnovel_id": 726,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481539,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2543,
+      "id": 2543,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14387,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

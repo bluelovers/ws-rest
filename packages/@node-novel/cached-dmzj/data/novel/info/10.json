@@ -3,7 +3,7 @@
   "name": "暗夜魔法使",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 43,
   "last_update_chapter_id": 251,
@@ -17,15 +17,65 @@
   "authors": "菊池武",
   "first_letter": "A",
   "subscribe_num": 198,
-  "redis_update_time": 1564308916,
+  "redis_update_time": 1564991577,
   "volume": [
     {
       "id": 43,
       "lnovel_id": 10,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274917718,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 43,
+      "id": 43,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 244,
+          "chapter_name": "prologue 结束的时刻",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 245,
+          "chapter_name": "scene/1 命运的邂逅 ~boy meets girl~",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 246,
+          "chapter_name": "scene/2 宝石少女 ~successor of seven gems~",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 247,
+          "chapter_name": "scene/3 宝贵的日常生活 ~beautiful world~",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 248,
+          "chapter_name": "scene/4 前奏的结束 ~the end of a prelude~",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 249,
+          "chapter_name": "scene/5 月匣中的决战～seven devils coming～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 250,
+          "chapter_name": "scene/6 崩溃的开始 ~the beginning of a collapse~",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 251,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

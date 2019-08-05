@@ -3,7 +3,7 @@
   "name": "续巷说百物语",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "死神\r",
+  "last_update_volume_name": "死神",
   "last_update_chapter_name": "第9章",
   "last_update_volume_id": 1996,
   "last_update_chapter_id": 11740,
@@ -16,48 +16,260 @@
   ],
   "authors": "京极夏彦",
   "first_letter": "X",
-  "subscribe_num": 715,
-  "redis_update_time": 1564248342,
+  "subscribe_num": 716,
+  "redis_update_time": 1564992215,
   "volume": [
     {
       "id": 1992,
       "lnovel_id": 524,
-      "volume_name": "野铁炮\r",
+      "volume_name": "野铁炮",
       "volume_order": 10,
       "addtime": 1274918814,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1993,
       "lnovel_id": 524,
-      "volume_name": "狐者异\r",
+      "volume_name": "狐者异",
       "volume_order": 20,
       "addtime": 1274918814,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1994,
       "lnovel_id": 524,
-      "volume_name": "飞缘魔\r",
+      "volume_name": "飞缘魔",
       "volume_order": 30,
       "addtime": 1274918814,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1995,
       "lnovel_id": 524,
-      "volume_name": "船幽灵\r",
+      "volume_name": "船幽灵",
       "volume_order": 40,
       "addtime": 1274918814,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1996,
       "lnovel_id": 524,
-      "volume_name": "死神\r",
+      "volume_name": "死神",
       "volume_order": 50,
       "addtime": 1274918814,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1992,
+      "id": 1992,
+      "volume_name": "野铁炮",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11707,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11708,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11709,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11710,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 1993,
+      "id": 1993,
+      "volume_name": "狐者异",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11711,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11712,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11713,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11714,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11715,
+          "chapter_name": "第5章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11716,
+          "chapter_name": "第6章",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 1994,
+      "id": 1994,
+      "volume_name": "飞缘魔",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 11717,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11718,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11719,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11720,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11721,
+          "chapter_name": "第5章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11722,
+          "chapter_name": "第6章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11723,
+          "chapter_name": "第7章",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1995,
+      "id": 1995,
+      "volume_name": "船幽灵",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 11724,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11725,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11726,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11727,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11728,
+          "chapter_name": "第5章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11729,
+          "chapter_name": "第6章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11730,
+          "chapter_name": "第7章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 11731,
+          "chapter_name": "第8章",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1996,
+      "id": 1996,
+      "volume_name": "死神",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 11732,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11733,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11734,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11735,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11736,
+          "chapter_name": "第5章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11737,
+          "chapter_name": "第6章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11738,
+          "chapter_name": "第7章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 11739,
+          "chapter_name": "第8章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 11740,
+          "chapter_name": "第9章",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

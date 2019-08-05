@@ -1,9 +1,9 @@
 {
   "id": 219,
-  "name": "快打都市slum　online",
+  "name": "快打都市slum online",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 800,
   "last_update_chapter_id": 4549,
@@ -17,15 +17,30 @@
   "authors": "樱坂洋",
   "first_letter": "K",
   "subscribe_num": 124,
-  "redis_update_time": 1564215782,
+  "redis_update_time": 1565005774,
   "volume": [
     {
       "id": 800,
       "lnovel_id": 219,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918116,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 800,
+      "id": 800,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4549,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

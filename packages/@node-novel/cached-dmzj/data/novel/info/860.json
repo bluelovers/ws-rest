@@ -12,20 +12,22 @@
   "hot_hits": 68679,
   "introduction": "　　《兽之奏者》系列是上桥于2006年开始推出的最新作品，也是继「守护者」系列之后最受期待的另一代表作，果然一出版后便叫好叫座，不但立即被日本最具影响力的读书杂志《达文西》选为「绝对不能错过的白金之书」，并获得同一杂志读者票选2007年「Book Of The Year」第四名！《兽之奏者》系列共分为「斗蛇篇」、「王兽篇」、「探求篇」和「完结篇」四部曲，目前全系列销量已直逼一百万本，除已改编成漫画外，并于2009年被日本NHK电视台改编拍成动画，由著名的动画公司Production I.G和TRANS ARTS负责制作，做为NHK教育频道开播50周年的纪念节目。",
   "types": [
-    "冒险/奇幻/异界"
+    "冒险",
+    "奇幻",
+    "异界"
   ],
   "authors": "上桥菜穗子",
   "first_letter": "S",
-  "subscribe_num": 404,
-  "redis_update_time": 1564170714,
+  "subscribe_num": 405,
+  "redis_update_time": 1564903511,
   "volume": [
     {
       "id": 3029,
       "lnovel_id": 860,
-      "volume_name": "第一卷 斗蛇篇\r",
+      "volume_name": "第一卷 斗蛇篇",
       "volume_order": 10,
       "addtime": 1278907867,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 3054,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 王兽篇",
       "volume_order": 20,
       "addtime": 1280308585,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 3385,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 探求篇",
       "volume_order": 30,
       "addtime": 1294624806,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 3392,
@@ -49,7 +51,166 @@
       "volume_name": "第四卷 完结篇",
       "volume_order": 40,
       "addtime": 1294738016,
-      "sum_chapters": 5
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3029,
+      "id": 3029,
+      "volume_name": "第一卷 斗蛇篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16867,
+          "chapter_name": "主要登场人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16868,
+          "chapter_name": "序章 妈妈的呼哨",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16869,
+          "chapter_name": "第一章 养蜂人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16870,
+          "chapter_name": "第二章 翱翔天际的野兽",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 16871,
+          "chapter_name": "第三章 献上幼兽",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 16872,
+          "chapter_name": "第四章 卡萨鲁姆王兽保育场",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 16971,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3054,
+      "id": 3054,
+      "volume_name": "第二卷 王兽篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 17082,
+          "chapter_name": "第二卷 王兽篇 第五章 命运的转角",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17083,
+          "chapter_name": "第二卷 王兽篇 第六章 飞翔",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17084,
+          "chapter_name": "第二卷 王兽篇 第七章 袭击",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17085,
+          "chapter_name": "第二卷 王兽篇 第八章 风云",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17086,
+          "chapter_name": "第二卷 王兽篇 终章 兽之奏者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17087,
+          "chapter_name": "第二卷 王兽篇 后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 3385,
+      "id": 3385,
+      "volume_name": "第三卷 探求篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 19424,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19425,
+          "chapter_name": "第一章 来自过去的声音",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19426,
+          "chapter_name": "第二章 赛米雅的日子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19427,
+          "chapter_name": "第三章 后裔们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19428,
+          "chapter_name": "第四章 父与子",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19429,
+          "chapter_name": "第五章 新的道路",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 3392,
+      "id": 3392,
+      "volume_name": "第四卷 完结篇",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 19466,
+          "chapter_name": "第六章 家族的日子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27797,
+          "chapter_name": "第七章 春季飞翔",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27798,
+          "chapter_name": "第八章 离别",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27799,
+          "chapter_name": "第九章 狂乱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27800,
+          "chapter_name": "终章 艾琳的树",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27801,
+          "chapter_name": "后记——奏者的旅程",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

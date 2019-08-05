@@ -3,8 +3,8 @@
   "name": "白夜的吊钟",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1章 白夜的吊钟\r",
-  "last_update_chapter_name": "　解说 暌违两三年之重逢",
+  "last_update_volume_name": "第1章 白夜的吊钟",
+  "last_update_chapter_name": "解说 暌违两三年之重逢",
   "last_update_volume_id": 126,
   "last_update_chapter_id": 824,
   "last_update_time": 1274917760,
@@ -16,16 +16,86 @@
   ],
   "authors": "田中芳树",
   "first_letter": "B",
-  "subscribe_num": 126,
-  "redis_update_time": 1564284893,
+  "subscribe_num": 127,
+  "redis_update_time": 1565019315,
   "volume": [
     {
       "id": 126,
       "lnovel_id": 33,
-      "volume_name": "第1章 白夜的吊钟\r",
+      "volume_name": "第1章 白夜的吊钟",
       "volume_order": 10,
       "addtime": 1274917759,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 126,
+      "id": 126,
+      "volume_name": "第1章 白夜的吊钟",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 813,
+          "chapter_name": "序章 莫斯科郊外的夜晚",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 814,
+          "chapter_name": "第一章 饲养者与被饲养者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 815,
+          "chapter_name": "第二章 誓约",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 816,
+          "chapter_name": "第三章 森之馆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 817,
+          "chapter_name": "第四章 巴黎的俄罗斯人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 818,
+          "chapter_name": "第五章 疑惑与背信",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 819,
+          "chapter_name": "第六章 克里姆希尔德之葬送",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 820,
+          "chapter_name": "第七章 不情愿的滞留",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 821,
+          "chapter_name": "第八章 逃脱行",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 822,
+          "chapter_name": "第九章 不说再见",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 823,
+          "chapter_name": "终章 星期二的正午前",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 824,
+          "chapter_name": "解说 暌违两三年之重逢",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

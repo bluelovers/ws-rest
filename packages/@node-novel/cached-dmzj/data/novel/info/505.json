@@ -1,9 +1,9 @@
 {
   "id": 505,
-  "name": "向阳素描　欢迎来到向阳庄",
+  "name": "向阳素描 欢迎来到向阳庄",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "欢迎来到向阳庄\r",
+  "last_update_volume_name": "欢迎来到向阳庄",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1912,
   "last_update_chapter_id": 11268,
@@ -17,15 +17,30 @@
   "authors": "日暮茶坊",
   "first_letter": "X",
   "subscribe_num": 146,
-  "redis_update_time": 1564302980,
+  "redis_update_time": 1565031363,
   "volume": [
     {
       "id": 1912,
       "lnovel_id": 505,
-      "volume_name": "欢迎来到向阳庄\r",
+      "volume_name": "欢迎来到向阳庄",
       "volume_order": 10,
       "addtime": 1274918762,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1912,
+      "id": 1912,
+      "volume_name": "欢迎来到向阳庄",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11268,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

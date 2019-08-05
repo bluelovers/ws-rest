@@ -3,7 +3,7 @@
   "name": "最终幻想VII",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "尤菲篇\r",
+  "last_update_volume_name": "尤菲篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2211,
   "last_update_chapter_id": 12972,
@@ -16,64 +16,157 @@
   ],
   "authors": "野岛一成",
   "first_letter": "Z",
-  "subscribe_num": 492,
-  "redis_update_time": 1564312600,
+  "subscribe_num": 494,
+  "redis_update_time": 1565005154,
   "volume": [
     {
       "id": 2205,
       "lnovel_id": 588,
-      "volume_name": "巴瑞特篇\r",
+      "volume_name": "巴瑞特篇",
       "volume_order": 10,
       "addtime": 1274918942,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2206,
       "lnovel_id": 588,
-      "volume_name": "生命之流\r",
+      "volume_name": "生命之流",
       "volume_order": 20,
       "addtime": 1274918942,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2207,
       "lnovel_id": 588,
-      "volume_name": "丁塞尔篇\r",
+      "volume_name": "丁塞尔篇",
       "volume_order": 30,
       "addtime": 1274918942,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2208,
       "lnovel_id": 588,
-      "volume_name": "蒂法篇\r",
+      "volume_name": "蒂法篇",
       "volume_order": 40,
       "addtime": 1274918942,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2209,
       "lnovel_id": 588,
-      "volume_name": "神罗篇\r",
+      "volume_name": "神罗篇",
       "volume_order": 50,
       "addtime": 1274918942,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2210,
       "lnovel_id": 588,
-      "volume_name": "那那岐篇\r",
+      "volume_name": "那那岐篇",
       "volume_order": 60,
       "addtime": 1274918942,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2211,
       "lnovel_id": 588,
-      "volume_name": "尤菲篇\r",
+      "volume_name": "尤菲篇",
       "volume_order": 70,
       "addtime": 1274918942,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2205,
+      "id": 2205,
+      "volume_name": "巴瑞特篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12966,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2206,
+      "id": 2206,
+      "volume_name": "生命之流",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12967,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2207,
+      "id": 2207,
+      "volume_name": "丁塞尔篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12968,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2208,
+      "id": 2208,
+      "volume_name": "蒂法篇",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12969,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2209,
+      "id": 2209,
+      "volume_name": "神罗篇",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 12970,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2210,
+      "id": 2210,
+      "volume_name": "那那岐篇",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 12971,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2211,
+      "id": 2211,
+      "volume_name": "尤菲篇",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 12972,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

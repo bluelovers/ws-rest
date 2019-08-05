@@ -3,7 +3,7 @@
   "name": "美丽人生",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "第12章",
   "last_update_volume_id": 1141,
   "last_update_chapter_id": 6572,
@@ -16,16 +16,86 @@
   ],
   "authors": "北川悦吏子",
   "first_letter": "M",
-  "subscribe_num": 221,
-  "redis_update_time": 1564309515,
+  "subscribe_num": 222,
+  "redis_update_time": 1565027006,
   "volume": [
     {
       "id": 1141,
       "lnovel_id": 300,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918300,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1141,
+      "id": 1141,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6561,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6562,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6563,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6564,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6565,
+          "chapter_name": "第5章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6566,
+          "chapter_name": "第6章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6567,
+          "chapter_name": "第7章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6568,
+          "chapter_name": "第8章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 6569,
+          "chapter_name": "第9章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 6570,
+          "chapter_name": "第10章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 6571,
+          "chapter_name": "第11章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 6572,
+          "chapter_name": "第12章",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

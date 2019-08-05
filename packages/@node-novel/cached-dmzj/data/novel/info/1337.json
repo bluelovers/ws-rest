@@ -12,12 +12,14 @@
   "hot_hits": 68056,
   "introduction": "神代利树是一名独居的高中生。此时已有4年不见的青梅竹马珠美突然出现，向他传达了他父母的命令——“一周之内交到女友，否则就回老家。”为了守护能够继续进行宅系活动的优越环境，利树不得已挑战交女友这件事，不过一点眉目也没有。这时利树得到了珠美和周围的女孩们的支援。他究竟能否成功守护二次元的据点呢？",
   "types": [
-    "爱情/校园/搞笑"
+    "爱情",
+    "校园",
+    "搞笑"
   ],
   "authors": "岩波零",
   "first_letter": "W",
-  "subscribe_num": 1103,
-  "redis_update_time": 1564309844,
+  "subscribe_num": 1111,
+  "redis_update_time": 1564957177,
   "volume": [
     {
       "id": 4863,
@@ -25,7 +27,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1353929992,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4863,
+      "id": 4863,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 31899,
+          "chapter_name": "序章 四月十一日（距离期限，还有一天）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31900,
+          "chapter_name": "一章 四月五日（距离期限，还有七天）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31901,
+          "chapter_name": "二章 四月六日（距离期限，还有六天）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31902,
+          "chapter_name": "三章 四月七日（距离期限，还有五天）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 31903,
+          "chapter_name": "第四章 四月八日（距离期限，还有四天）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 31904,
+          "chapter_name": "五章 四月九日（距离期限，还有三天）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 31905,
+          "chapter_name": "六章 四月十日（距离期限，还有两天）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 31906,
+          "chapter_name": "七章 四月十二日（期限当天）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 31907,
+          "chapter_name": "终章 四月十五日（期限已过，三天）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 31908,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

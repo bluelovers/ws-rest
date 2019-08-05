@@ -16,8 +16,8 @@
   ],
   "authors": "柳田理科雄",
   "first_letter": "K",
-  "subscribe_num": 247,
-  "redis_update_time": 1564308385,
+  "subscribe_num": 249,
+  "redis_update_time": 1564858761,
   "volume": [
     {
       "id": 4456,
@@ -25,7 +25,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1336466284,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4456,
+      "id": 4456,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 28319,
+          "chapter_name": "能不能想点办法解决「日常琐事」？",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28320,
+          "chapter_name": "PART.1 让身边常用的道具更便利！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28321,
+          "chapter_name": "PART.2 为了活得更加健康与安心！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28322,
+          "chapter_name": "PART.3 让搭乘载具更加安全及舒适！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28323,
+          "chapter_name": "跋",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

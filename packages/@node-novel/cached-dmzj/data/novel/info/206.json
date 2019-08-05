@@ -3,7 +3,7 @@
   "name": "姬宫学姊的内在美",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第五卷\r",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 750,
   "last_update_chapter_id": 4319,
@@ -16,48 +16,215 @@
   ],
   "authors": "月见草平",
   "first_letter": "J",
-  "subscribe_num": 446,
-  "redis_update_time": 1564291578,
+  "subscribe_num": 449,
+  "redis_update_time": 1565033771,
   "volume": [
     {
       "id": 746,
       "lnovel_id": 206,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918087,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 747,
       "lnovel_id": 206,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918087,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 748,
       "lnovel_id": 206,
-      "volume_name": "第3卷\r",
+      "volume_name": "第3卷",
       "volume_order": 30,
       "addtime": 1274918087,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 749,
       "lnovel_id": 206,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918087,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 750,
       "lnovel_id": 206,
-      "volume_name": "第五卷\r",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1274918087,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 746,
+      "id": 746,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4295,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4296,
+          "chapter_name": "学生会长的秘密",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4297,
+          "chapter_name": "内在美特训",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4298,
+          "chapter_name": "神乐结衣与姬宫千夏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4299,
+          "chapter_name": "因为，我很不会做人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4300,
+          "chapter_name": "循着花香找到标准答案",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4301,
+          "chapter_name": "你要选哪一个女神！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4302,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4303,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 747,
+      "id": 747,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 4304,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 748,
+      "id": 748,
+      "volume_name": "第3卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 4305,
+          "chapter_name": "第1章 小鹿乱撞的公园约会",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4306,
+          "chapter_name": "第2章 各怀鬼胎的相亲派对",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4307,
+          "chapter_name": "第3章 紧张兴奋的Double Date",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4308,
+          "chapter_name": "第4章 酸中带甜的苹果汁",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4309,
+          "chapter_name": "第5章 不可能的任务",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4310,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 749,
+      "id": 749,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 4311,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 750,
+      "id": 750,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 4312,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4313,
+          "chapter_name": "第1章 告白的Overture",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4314,
+          "chapter_name": "第2章 破灭的Intermezzo",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4315,
+          "chapter_name": "第3章 悲伤的Canon",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4316,
+          "chapter_name": "第4章 勇气的Counter Melody",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4317,
+          "chapter_name": "第5章 圣诞夜的Fanfare",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4318,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4319,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

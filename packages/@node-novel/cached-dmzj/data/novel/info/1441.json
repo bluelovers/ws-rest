@@ -12,12 +12,13 @@
   "hot_hits": 49180,
   "introduction": "成人漫画专卖店《MARVELOUS》今天也是和乐融融。自称A漫精灵的痴萝莉小姐，能探测A书气场的美艳武士关羽姊，端庄娴淑的良家腐女掰洞妖（八零一）美眉。这些变态美少女店员，将为您献上至高无上的一册……咦，朝仓同学，你流鼻血了！就算你是店长也不该这么勉强自己啊！为了每日四本的酬劳……说错了—为了帮助店长，也为了守护我们的高中生活！我紫东陆现在就要成A漫骑士！H要素满载的打工恋爱喜剧，正式开始♡",
   "types": [
-    "搞笑/爱情"
+    "搞笑",
+    "爱情"
   ],
   "authors": "新木伸",
   "first_letter": "B",
-  "subscribe_num": 982,
-  "redis_update_time": 1564292558,
+  "subscribe_num": 985,
+  "redis_update_time": 1564930584,
   "volume": [
     {
       "id": 5280,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1369019390,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 6481,
@@ -33,7 +34,180 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1416493146,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5280,
+      "id": 5280,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 35440,
+          "chapter_name": "SS01 射o声",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35441,
+          "chapter_name": "SS02 名牌上的名字",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35442,
+          "chapter_name": "SS03 促销赠品",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35443,
+          "chapter_name": "Act1 我从常客变成店员的理由",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35444,
+          "chapter_name": "SS04 传呼机",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35445,
+          "chapter_name": "SS05 关羽姊",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35446,
+          "chapter_name": "SS06 往后排",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 35447,
+          "chapter_name": "Act2 鼻血店长的危机",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 35448,
+          "chapter_name": "SS07 何谓究极的色情？",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 35449,
+          "chapter_name": "SS08 八零一美眉",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 35450,
+          "chapter_name": "SS09 最强A漫决定战",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 35451,
+          "chapter_name": "Act3 住在店里又怎样？",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 35452,
+          "chapter_name": "SS10 一万零十二岁",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 35453,
+          "chapter_name": "SS11 谁是小陆喜欢的菜",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 35454,
+          "chapter_name": "Act4 绫乃的贵重物品",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 35455,
+          "chapter_name": "Act5 再见了，鼻血店长",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 35456,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 6481,
+      "id": 6481,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 46130,
+          "chapter_name": "SS01 汁量守恒定律",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 46131,
+          "chapter_name": "SS02 处女？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46132,
+          "chapter_name": "SS03 床上流氓",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 46133,
+          "chapter_name": "ACT1 员工旅行，热海温泉白昼之章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 46134,
+          "chapter_name": "SS04 神奇鸟巢兄",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 46135,
+          "chapter_name": "SS05 袋子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 46136,
+          "chapter_name": "Act2 员工旅行，热海温泉黑夜之章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 46137,
+          "chapter_name": "SS06 续&#8226;促销赠品",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 46138,
+          "chapter_name": "SS07 智能型手机？自慰飞机杯？",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 46139,
+          "chapter_name": "SS08 COSPLAY店长",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 46140,
+          "chapter_name": "Act03 班长与笨蛋夫",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 46141,
+          "chapter_name": "SS09 一般漫画",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 46142,
+          "chapter_name": "Act4 小陆与绫乃",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 46143,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

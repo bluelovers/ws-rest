@@ -16,8 +16,8 @@
   ],
   "authors": "冲方丁",
   "first_letter": "T",
-  "subscribe_num": 411,
-  "redis_update_time": 1564292629,
+  "subscribe_num": 413,
+  "redis_update_time": 1564942352,
   "volume": [
     {
       "id": 4933,
@@ -25,7 +25,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1355985190,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4933,
+      "id": 4933,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32513,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32514,
+          "chapter_name": "第一章 一瞥即解",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32515,
+          "chapter_name": "第二章 算法比试",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32516,
+          "chapter_name": "第三章 纬度测量",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32517,
+          "chapter_name": "第四章 授时历",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32518,
+          "chapter_name": "第五章 改历请愿",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32519,
+          "chapter_name": "第六章 天地明察",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

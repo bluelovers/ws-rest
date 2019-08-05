@@ -12,36 +12,37 @@
   "hot_hits": 30410,
   "introduction": "　　大陆一角的七座主要都市，为了取得统一全国的大义名分，先后拥立据说是先王后裔的七名公主。其中一名公主就是被选出来装扮成七宫贺川公主的九岁孤儿空澄──支持她的人则是武将展",
   "types": [
-    "冒险/百合"
+    "冒险",
+    "百合"
   ],
   "authors": "高野和",
   "first_letter": "Q",
-  "subscribe_num": 1029,
-  "redis_update_time": 1564289219,
+  "subscribe_num": 1038,
+  "redis_update_time": 1565028429,
   "volume": [
     {
       "id": 1256,
       "lnovel_id": 334,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918369,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1257,
       "lnovel_id": 334,
-      "volume_name": "第二卷 世界的模样\r",
+      "volume_name": "第二卷 世界的模样",
       "volume_order": 20,
       "addtime": 1274918369,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1258,
       "lnovel_id": 334,
-      "volume_name": "第三卷 姬影交会\r",
+      "volume_name": "第三卷 姬影交会",
       "volume_order": 30,
       "addtime": 1274918369,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1259,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷 夏日插曲",
       "volume_order": 40,
       "addtime": 1274918369,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1260,
@@ -57,7 +58,7 @@
       "volume_name": "第五卷 东和的形状",
       "volume_order": 50,
       "addtime": 1274918369,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4271,
@@ -65,7 +66,297 @@
       "volume_name": "第六卷 一个理想",
       "volume_order": 60,
       "addtime": 1330332960,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1256,
+      "id": 1256,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7220,
+          "chapter_name": "序 命月 一月",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 7221,
+          "chapter_name": "一节 空澄 七月",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 7222,
+          "chapter_name": "二节 雪终 二月 息吹月 三月",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 7223,
+          "chapter_name": "三节 高夏 八月",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 7224,
+          "chapter_name": "四节 早风 九月",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 7225,
+          "chapter_name": "五节 名无月 十月",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 7226,
+          "chapter_name": "六节 雪祭 十一月",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 7227,
+          "chapter_name": "七节 终月 十二月",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 7228,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1257,
+      "id": 1257,
+      "volume_name": "第二卷 世界的模样",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 7229,
+          "chapter_name": "序 远景",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 7230,
+          "chapter_name": "一节 冬天的色彩",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 7231,
+          "chapter_name": "二节 两人的构图",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 7232,
+          "chapter_name": "三节 夜祭 迷途",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 7233,
+          "chapter_name": "四节 寒风的去处",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 7234,
+          "chapter_name": "五节 冬景之后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 7235,
+          "chapter_name": "六节 冬天的模样",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 7236,
+          "chapter_name": "终节",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 7237,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1258,
+      "id": 1258,
+      "volume_name": "第三卷 姬影交会",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 7238,
+          "chapter_name": "序 风的气息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 7239,
+          "chapter_name": "一节 公主的侧脸",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 7240,
+          "chapter_name": "二节 樱归 随风而行",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 7241,
+          "chapter_name": "三节 迈向鼓城",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 7242,
+          "chapter_name": "四节 胧月夜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 7243,
+          "chapter_name": "五节 交会之影",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 7244,
+          "chapter_name": "六节 双姬",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 7245,
+          "chapter_name": "终节 叶樱下",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 7246,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1259,
+      "id": 1259,
+      "volume_name": "第四卷 夏日插曲",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 7247,
+          "chapter_name": "背对背",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 7248,
+          "chapter_name": "一节 祭铃响起",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 7249,
+          "chapter_name": "商都的天空",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 7250,
+          "chapter_name": "问答云",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 7251,
+          "chapter_name": "水都漫步",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 7252,
+          "chapter_name": "记忆中的风景",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 7253,
+          "chapter_name": "六节 夏季将至",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 7254,
+          "chapter_name": "终节 归人",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 7255,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1260,
+      "id": 1260,
+      "volume_name": "第五卷 东和的形状",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 7256,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 4271,
+      "id": 4271,
+      "volume_name": "第六卷 一个理想",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 26759,
+          "chapter_name": "序节 世界的形状",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26760,
+          "chapter_name": "一节 手中的未来",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26761,
+          "chapter_name": "二节 双人景色",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26762,
+          "chapter_name": "三节 野心与现实",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26763,
+          "chapter_name": "四节 战云密布",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26764,
+          "chapter_name": "五节 望远的深度",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26765,
+          "chapter_name": "六节 死线交织",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26766,
+          "chapter_name": "七节 对决之人",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 26767,
+          "chapter_name": "八节 终局的构造",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 26768,
+          "chapter_name": "终节 走过的日子",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 26769,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "世纪末冒险",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第三卷\r",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1399,
   "last_update_chapter_id": 7984,
@@ -16,32 +16,73 @@
   ],
   "authors": "高圆寺葵子",
   "first_letter": "S",
-  "subscribe_num": 152,
-  "redis_update_time": 1564020656,
+  "subscribe_num": 153,
+  "redis_update_time": 1564933109,
   "volume": [
     {
       "id": 1397,
       "lnovel_id": 376,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918452,
-      "sum_chapters": 13
+      "sum_chapters": 10
     },
     {
       "id": 1398,
       "lnovel_id": 376,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918452,
-      "sum_chapters": 13
+      "sum_chapters": 10
     },
     {
       "id": 1399,
       "lnovel_id": 376,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918452,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1397,
+      "id": 1397,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7982,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1398,
+      "id": 1398,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 7983,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1399,
+      "id": 1399,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 7984,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

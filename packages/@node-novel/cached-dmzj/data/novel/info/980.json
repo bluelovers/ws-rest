@@ -3,7 +3,7 @@
   "name": "B-EDGE AGE 狮子们在爱丽丝的庭院里",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 3475,
   "last_update_chapter_id": 20139,
@@ -16,16 +16,76 @@
   ],
   "authors": "樱庭一树",
   "first_letter": "B",
-  "subscribe_num": 472,
-  "redis_update_time": 1564283450,
+  "subscribe_num": 473,
+  "redis_update_time": 1564973033,
   "volume": [
     {
       "id": 3475,
       "lnovel_id": 980,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1298256821,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3475,
+      "id": 3475,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20130,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20131,
+          "chapter_name": "序幕 天使堕落了",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20132,
+          "chapter_name": "第一幕 骑士在叹息",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20133,
+          "chapter_name": "第二幕 公主在困惑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20134,
+          "chapter_name": "第三幕 神在剥夺",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20135,
+          "chapter_name": "第四幕 恶魔在飞溅血沫",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20136,
+          "chapter_name": "第五幕 蛇盘成了一团",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20137,
+          "chapter_name": "第六幕 天使降临",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20138,
+          "chapter_name": "终幕 最后，骑士和公主静静退场之后的舞台",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 20139,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

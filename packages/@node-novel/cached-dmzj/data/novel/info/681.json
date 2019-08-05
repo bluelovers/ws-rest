@@ -3,7 +3,7 @@
   "name": "死魂曲",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "辉胜号怪谈\r",
+  "last_update_volume_name": "辉胜号怪谈",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2463,
   "last_update_chapter_id": 14244,
@@ -16,24 +16,52 @@
   ],
   "authors": "sony",
   "first_letter": "S",
-  "subscribe_num": 142,
-  "redis_update_time": 1564218061,
+  "subscribe_num": 143,
+  "redis_update_time": 1564909349,
   "volume": [
     {
       "id": 2462,
       "lnovel_id": 681,
-      "volume_name": "羽生蛇村异闻录\r",
+      "volume_name": "羽生蛇村异闻录",
       "volume_order": 10,
       "addtime": 1275481532,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 2463,
       "lnovel_id": 681,
-      "volume_name": "辉胜号怪谈\r",
+      "volume_name": "辉胜号怪谈",
       "volume_order": 20,
       "addtime": 1275481532,
-      "sum_chapters": 5
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2462,
+      "id": 2462,
+      "volume_name": "羽生蛇村异闻录",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14243,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2463,
+      "id": 2463,
+      "volume_name": "辉胜号怪谈",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14244,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

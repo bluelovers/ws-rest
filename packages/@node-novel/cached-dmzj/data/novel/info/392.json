@@ -3,7 +3,7 @@
   "name": "圣斗士官方小说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "R的半身是J 盟之章\r",
+  "last_update_volume_name": "R的半身是J 盟之章",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1491,
   "last_update_chapter_id": 8568,
@@ -16,16 +16,31 @@
   ],
   "authors": "浜崎达也",
   "first_letter": "S",
-  "subscribe_num": 294,
-  "redis_update_time": 1564251732,
+  "subscribe_num": 297,
+  "redis_update_time": 1565020673,
   "volume": [
     {
       "id": 1491,
       "lnovel_id": 392,
-      "volume_name": "R的半身是J 盟之章\r",
+      "volume_name": "R的半身是J 盟之章",
       "volume_order": 10,
       "addtime": 1274918506,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1491,
+      "id": 1491,
+      "volume_name": "R的半身是J 盟之章",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 8568,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

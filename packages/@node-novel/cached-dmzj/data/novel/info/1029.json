@@ -3,7 +3,7 @@
   "name": "幻色江户历",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "十二月流转的江户浮世绘\r",
+  "last_update_volume_name": "十二月流转的江户浮世绘",
   "last_update_chapter_name": "季冬 胧月",
   "last_update_volume_id": 3634,
   "last_update_chapter_id": 21265,
@@ -16,16 +16,91 @@
   ],
   "authors": "宫部美雪",
   "first_letter": "H",
-  "subscribe_num": 338,
-  "redis_update_time": 1564244180,
+  "subscribe_num": 340,
+  "redis_update_time": 1564974460,
   "volume": [
     {
       "id": 3634,
       "lnovel_id": 1029,
-      "volume_name": "十二月流转的江户浮世绘\r",
+      "volume_name": "十二月流转的江户浮世绘",
       "volume_order": 10,
       "addtime": 1304998836,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3634,
+      "id": 3634,
+      "volume_name": "十二月流转的江户浮世绘",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 21253,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21254,
+          "chapter_name": "初空 睦月",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21255,
+          "chapter_name": "梅见 如月",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21256,
+          "chapter_name": "夜樱 弥生月",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21257,
+          "chapter_name": "清和 卯月",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21258,
+          "chapter_name": "浴兰 皋月",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21259,
+          "chapter_name": "蝉羽 水无月",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 21260,
+          "chapter_name": "七步 凉月",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 21261,
+          "chapter_name": "清秋 红染月",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 21262,
+          "chapter_name": "竹醉 玄月",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 21263,
+          "chapter_name": "时雨 神无月",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 21264,
+          "chapter_name": "神乐 霜月",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 21265,
+          "chapter_name": "季冬 胧月",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

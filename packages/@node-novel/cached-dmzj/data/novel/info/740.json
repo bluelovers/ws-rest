@@ -3,7 +3,7 @@
   "name": "人间之剑",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "战国篇\r",
+  "last_update_volume_name": "战国篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2562,
   "last_update_chapter_id": 14509,
@@ -16,16 +16,31 @@
   ],
   "authors": "森村诚一",
   "first_letter": "R",
-  "subscribe_num": 201,
-  "redis_update_time": 1564293838,
+  "subscribe_num": 204,
+  "redis_update_time": 1565004707,
   "volume": [
     {
       "id": 2562,
       "lnovel_id": 740,
-      "volume_name": "战国篇\r",
+      "volume_name": "战国篇",
       "volume_order": 10,
       "addtime": 1275481542,
-      "sum_chapters": 3
+      "sum_chapters": 9
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2562,
+      "id": 2562,
+      "volume_name": "战国篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14509,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

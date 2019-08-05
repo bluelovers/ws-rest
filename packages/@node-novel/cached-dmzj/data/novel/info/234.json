@@ -3,7 +3,7 @@
   "name": "狂恋声优宝贝",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "狂恋声优宝贝\r",
+  "last_update_volume_name": "狂恋声优宝贝",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 851,
   "last_update_chapter_id": 4802,
@@ -17,15 +17,65 @@
   "authors": "木本雅彦",
   "first_letter": "K",
   "subscribe_num": 37,
-  "redis_update_time": 1564305998,
+  "redis_update_time": 1564570873,
   "volume": [
     {
       "id": 851,
       "lnovel_id": 234,
-      "volume_name": "狂恋声优宝贝\r",
+      "volume_name": "狂恋声优宝贝",
       "volume_order": 10,
       "addtime": 1274918143,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 851,
+      "id": 851,
+      "volume_name": "狂恋声优宝贝",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4795,
+          "chapter_name": "1st STAGE",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4796,
+          "chapter_name": "2nd STAGE",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4797,
+          "chapter_name": "3rd STAGE",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4798,
+          "chapter_name": "4th STAGE",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4799,
+          "chapter_name": "5th STAGE",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4800,
+          "chapter_name": "6th STAGE",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4801,
+          "chapter_name": "7th STAGE",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4802,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

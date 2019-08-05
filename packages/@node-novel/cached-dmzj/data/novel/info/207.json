@@ -3,7 +3,7 @@
   "name": "基因之种",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 751,
   "last_update_chapter_id": 4320,
@@ -16,16 +16,31 @@
   ],
   "authors": "高平鸣海",
   "first_letter": "J",
-  "subscribe_num": 49,
-  "redis_update_time": 1563323261,
+  "subscribe_num": 51,
+  "redis_update_time": 1564971930,
   "volume": [
     {
       "id": 751,
       "lnovel_id": 207,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918090,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 751,
+      "id": 751,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4320,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

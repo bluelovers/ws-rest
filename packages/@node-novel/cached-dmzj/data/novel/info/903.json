@@ -3,29 +3,74 @@
   "name": "三大叔",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷 ",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第一卷 第六话",
   "last_update_volume_id": 3194,
   "last_update_chapter_id": 18004,
   "last_update_time": 1286599399,
   "cover": "https://xs.dmzj.com/img/http://img.178.com/naruto/201010/80600173440/80600186889.jpg",
   "hot_hits": 11479,
-  "introduction": "清田家开着一间以中小学生为对象的剑道教室，清田老爷子故去后，儿子清一便继承了下来。\n　　老爷子还在的时候，清一虽然以代师父的身份在教室里帮忙，但他的正式职业是公司职员，所以原本的打算是就此将道场关闭。\n　　可学生们的家长却不愿意，纷纷跑来劝说：公司方面就按时去上班，先前给父亲的道场帮忙都能被批准，如今再去找公司商量商量，就这样继续把道场经营下去吧。\n",
+  "introduction": "清田家开着一间以中小学生为对象的剑道教室，清田老爷子故去后，儿子清一便继承了下来。\n　　老爷子还在的时候，清一虽然以代师父的身份在教室里帮忙，但他的正式职业是公司职员，所以原本的打算是就此将道场关闭。\n　　可学生们的家长却不愿意，纷纷跑来劝说：公司方面就按时去上班，先前给父亲的道场帮忙都能被批准，如今再去找公司商量商量，就这样继续把道场经营下去吧。",
   "types": [
     "其它"
   ],
   "authors": "有川浩",
   "first_letter": "S",
-  "subscribe_num": 178,
-  "redis_update_time": 1564313291,
+  "subscribe_num": 179,
+  "redis_update_time": 1564999697,
   "volume": [
     {
       "id": 3194,
       "lnovel_id": 903,
-      "volume_name": "第一卷 ",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1286599330,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3194,
+      "id": 3194,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17998,
+          "chapter_name": "第一话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17999,
+          "chapter_name": "第二话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18000,
+          "chapter_name": "第三话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18001,
+          "chapter_name": "第四话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18002,
+          "chapter_name": "第四话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18003,
+          "chapter_name": "第五话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18004,
+          "chapter_name": "第六话",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

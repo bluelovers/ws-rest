@@ -3,7 +3,7 @@
   "name": "你是主我是仆",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "森罗篇\r",
+  "last_update_volume_name": "森罗篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1162,
   "last_update_chapter_id": 6685,
@@ -16,16 +16,31 @@
   ],
   "authors": "布施はるか",
   "first_letter": "N",
-  "subscribe_num": 400,
-  "redis_update_time": 1564289424,
+  "subscribe_num": 404,
+  "redis_update_time": 1565035872,
   "volume": [
     {
       "id": 1162,
       "lnovel_id": 311,
-      "volume_name": "森罗篇\r",
+      "volume_name": "森罗篇",
       "volume_order": 10,
       "addtime": 1274918312,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1162,
+      "id": 1162,
+      "volume_name": "森罗篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6685,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

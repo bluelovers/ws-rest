@@ -3,7 +3,7 @@
   "name": "火焰之纹章",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "官方小说 暗黑龙与光之剑\r",
+  "last_update_volume_name": "官方小说 暗黑龙与光之剑",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2478,
   "last_update_chapter_id": 14265,
@@ -16,16 +16,31 @@
   ],
   "authors": "Intelligent Systems",
   "first_letter": "H",
-  "subscribe_num": 338,
-  "redis_update_time": 1564301136,
+  "subscribe_num": 348,
+  "redis_update_time": 1565029286,
   "volume": [
     {
       "id": 2478,
       "lnovel_id": 692,
-      "volume_name": "官方小说 暗黑龙与光之剑\r",
+      "volume_name": "官方小说 暗黑龙与光之剑",
       "volume_order": 10,
       "addtime": 1275481533,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2478,
+      "id": 2478,
+      "volume_name": "官方小说 暗黑龙与光之剑",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14265,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -16,24 +16,24 @@
   ],
   "authors": "平坂读",
   "first_letter": "Q",
-  "subscribe_num": 613,
-  "redis_update_time": 1564249017,
+  "subscribe_num": 614,
+  "redis_update_time": 1565024481,
   "volume": [
     {
       "id": 1322,
       "lnovel_id": 350,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918410,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1323,
       "lnovel_id": 350,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918410,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2731,
@@ -41,7 +41,48 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1276393322,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1322,
+      "id": 1322,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7672,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1323,
+      "id": 1323,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 7673,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2731,
+      "id": 2731,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 15242,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "战争时代·下课后防卫队",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2236,
   "last_update_chapter_id": 13046,
@@ -17,15 +17,30 @@
   "authors": "柿沼秀树",
   "first_letter": "Z",
   "subscribe_num": 78,
-  "redis_update_time": 1564114966,
+  "redis_update_time": 1564994715,
   "volume": [
     {
       "id": 2236,
       "lnovel_id": 599,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918958,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2236,
+      "id": 2236,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13046,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

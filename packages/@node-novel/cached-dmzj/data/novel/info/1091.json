@@ -12,20 +12,22 @@
   "hot_hits": 357148,
   "introduction": "　　众神为这个世界留下祝福之后便离开了。\n　　见习药师赛罗居住在边境之地米斯特哈温德。他的祖父是一位优秀的魔导具工匠，但是身为孙子的他，却不知为什么没有任何制造或使用魔导具的能力。在祖父去世以后，他一直为家主奥尔德巴辛勤工作，在药师的修行中度日。有一天，一位来自王立魔导骑士团，自称哈尔姆巴克的青年现身于赛罗的面前。他对“祖父的遗物”，亦即几件魔导具兴趣十足——\n　　《天空之钟响彻惑星》的作者渡濑草一郎在此献上备受期待的新作，由“见习药师”和“黑猫”编织而成的冒险幻想剧！",
   "types": [
-    "魔法/冒险/异界"
+    "魔法",
+    "冒险",
+    "异界"
   ],
   "authors": "渡濑草一郎",
   "first_letter": "L",
-  "subscribe_num": 3641,
-  "redis_update_time": 1564310303,
+  "subscribe_num": 3652,
+  "redis_update_time": 1564976286,
   "volume": [
     {
       "id": 3870,
       "lnovel_id": 1091,
-      "volume_name": "第一卷 暗语的阿尔凯因\r",
+      "volume_name": "第一卷 暗语的阿尔凯因",
       "volume_order": 10,
       "addtime": 1313648606,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3978,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 旅行终结的森林",
       "volume_order": 20,
       "addtime": 1318125060,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4478,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 龙骨迷宫与黑狼公主",
       "volume_order": 30,
       "addtime": 1337760748,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4540,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷 哈伊亚德的龙使",
       "volume_order": 40,
       "addtime": 1341198392,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4558,
@@ -57,7 +59,7 @@
       "volume_name": "第五卷 傀儡之城",
       "volume_order": 50,
       "addtime": 1342073439,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4615,
@@ -65,7 +67,7 @@
       "volume_name": "第六卷 贤人们的梦境",
       "volume_order": 60,
       "addtime": 1344308153,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4647,
@@ -73,15 +75,15 @@
       "volume_name": "第七卷 疾风革命",
       "volume_order": 70,
       "addtime": 1345542192,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4824,
       "lnovel_id": 1091,
-      "volume_name": "第八卷 众神永久的离去 ",
+      "volume_name": "第八卷 众神永久的离去",
       "volume_order": 80,
       "addtime": 1352713218,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4946,
@@ -89,7 +91,7 @@
       "volume_name": "第九卷 神界之门",
       "volume_order": 90,
       "addtime": 1356523061,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5230,
@@ -97,7 +99,499 @@
       "volume_name": "第十卷 众神轮转的故事",
       "volume_order": 100,
       "addtime": 1366961075,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3870,
+      "id": 3870,
+      "volume_name": "第一卷 暗语的阿尔凯因",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23253,
+          "chapter_name": "序 创世神话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23254,
+          "chapter_name": "一 在雾泉畅游的少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23255,
+          "chapter_name": "二 夜兽",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23256,
+          "chapter_name": "三 黑色的救星",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23257,
+          "chapter_name": "四 雾之猎犬",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23258,
+          "chapter_name": "五 暗语",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23288,
+          "chapter_name": "六 赛罗的选择",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 23289,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3978,
+      "id": 3978,
+      "volume_name": "第二卷 旅行终结的森林",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 24362,
+          "chapter_name": "序 旅行终结的森林",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24397,
+          "chapter_name": "一 横扫战轮与鹰眼学士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25014,
+          "chapter_name": "二 绿意盎然的森林都市",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25091,
+          "chapter_name": "三 森林守护者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25153,
+          "chapter_name": "四 寄宿于神珠的少女",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25966,
+          "chapter_name": "五 梦境终结的森林",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25994,
+          "chapter_name": "余 湖岸的合谋",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25995,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4478,
+      "id": 4478,
+      "volume_name": "第三卷 龙骨迷宫与黑狼公主",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 28480,
+          "chapter_name": "序 龙神信仰",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28607,
+          "chapter_name": "第一章 酒馆姑娘与年迈骑士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28691,
+          "chapter_name": "第二章 公主的去向",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28756,
+          "chapter_name": "第三章 潜于矿脉之物",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28757,
+          "chapter_name": "第四章 古老信仰的遗迹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28758,
+          "chapter_name": "第五章 湖上的战斗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28759,
+          "chapter_name": "终章 王弟所见的真实",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28760,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4540,
+      "id": 4540,
+      "volume_name": "第四卷 哈伊亚德的龙使",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 29033,
+          "chapter_name": "序章 哈伊亚德傀儡",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29035,
+          "chapter_name": "第一章 骑士之茧与年幼公主",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29079,
+          "chapter_name": "第二章 迎来早晨的矿脉之都",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29144,
+          "chapter_name": "第三章 王弟失踪后的城市",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29154,
+          "chapter_name": "第四章 于王都蠢蠢欲动的人们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29155,
+          "chapter_name": "第五章 黑暗与火炎的争斗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29156,
+          "chapter_name": "终章 黑衣少女与黑衣青年",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 29157,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4558,
+      "id": 4558,
+      "volume_name": "第五卷 傀儡之城",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 29248,
+          "chapter_name": "序章 书库少女与欺诈师之男",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29391,
+          "chapter_name": "第一章 西天将 露娜丝缇雅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29459,
+          "chapter_name": "第二章 魔人之城",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29487,
+          "chapter_name": "第三章 鸣响太鼓之猫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29488,
+          "chapter_name": "第四章 狂战士的觉醒",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29506,
+          "chapter_name": "第五章 狂乱的暴风雨，在那之后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29507,
+          "chapter_name": "第六章 傀儡之王",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 29508,
+          "chapter_name": "终章 卖点心的神官",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 29509,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4615,
+      "id": 4615,
+      "volume_name": "第六卷 贤人们的梦境",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 29760,
+          "chapter_name": "序章 星夜下的贤人们",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29761,
+          "chapter_name": "第一章 王都的早晨",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29895,
+          "chapter_name": "第二章 英雄们的休息",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29896,
+          "chapter_name": "第三章 亚加莫尼的思索日记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29897,
+          "chapter_name": "第四章 梦境的结束即现实的开始",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29898,
+          "chapter_name": "第五章 圣人选择的方式",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29899,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4647,
+      "id": 4647,
+      "volume_name": "第七卷 疾风革命",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 30002,
+          "chapter_name": "序章 大罪战争",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31261,
+          "chapter_name": "第一章 云上的庭园",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31419,
+          "chapter_name": "第二章 内忧之国，内乱之兆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31420,
+          "chapter_name": "第三章 贵族、魔族和凶贼的盛宴",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 31421,
+          "chapter_name": "第四章 聚集在僧院的人们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 31422,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 4824,
+      "id": 4824,
+      "volume_name": "第八卷 众神永久的离去",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 31553,
+          "chapter_name": "序章 神界之门",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31693,
+          "chapter_name": "第一章 夏亚鲁尔僧院的战斗",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31694,
+          "chapter_name": "第二章 对革命的不和谐声音",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31695,
+          "chapter_name": "第三章 工神的铁锤",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 31696,
+          "chapter_name": "第四章 在他落到的地方",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 31697,
+          "chapter_name": "第五章 全知全能者",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 31698,
+          "chapter_name": "第六章 乐神的竖琴",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 31699,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4946,
+      "id": 4946,
+      "volume_name": "第九卷 神界之门",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 32613,
+          "chapter_name": "序章 圣神之石",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34867,
+          "chapter_name": "第一章 豆之神与丰收女神",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34868,
+          "chapter_name": "第二章 异形的信仰者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34869,
+          "chapter_name": "第三章 相连的时代与众多的世界",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34870,
+          "chapter_name": "第四章 魔人的失败",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34871,
+          "chapter_name": "第五章 暗黑神之里",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34872,
+          "chapter_name": "第六章 来自异境的入侵者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 34873,
+          "chapter_name": "第七章 英雄们的遗产",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 34874,
+          "chapter_name": "终章 圣神伊斯加所期望的世界",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 34875,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 5230,
+      "id": 5230,
+      "volume_name": "第十卷 众神轮转的故事",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 34995,
+          "chapter_name": "序章 神话的虚实",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35382,
+          "chapter_name": "第一章 在浮游庭园",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35463,
+          "chapter_name": "第二章 伊斯加之梦与维斯加之愿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35554,
+          "chapter_name": "第三章 神治下的圣都",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35581,
+          "chapter_name": "第四章 圣神的拥抱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35608,
+          "chapter_name": "第五章 加护的终结",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35609,
+          "chapter_name": "第六章 她所期望的居所",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 35610,
+          "chapter_name": "第七章 时光归于流动之轮",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 35611,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 35612,
+          "chapter_name": "终章 星咏",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

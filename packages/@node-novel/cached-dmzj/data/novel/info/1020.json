@@ -12,20 +12,21 @@
   "hot_hits": 25042,
   "introduction": "这是小说文库版，非游戏提取文本！\n　　为了这些财宝而勾心斗角的人们，突然收到到了来自“魔女”的可疑信件，原本应该只有18个人的岛上，竟然还存在着第19个人？不断出现的残酷杀人事件，留在现场的无法解开的谜团。接下来究竟谁会死去，谁能活下来，或是所有人都会被杀？犯人就在这18人中间么，还是那个神秘的“魔女”？",
   "types": [
-    "侦探/恐怖"
+    "侦探",
+    "恐怖"
   ],
   "authors": "龙骑士07",
   "first_letter": "H",
-  "subscribe_num": 1569,
-  "redis_update_time": 1564292597,
+  "subscribe_num": 1580,
+  "redis_update_time": 1564972777,
   "volume": [
     {
       "id": 3595,
       "lnovel_id": 1020,
-      "volume_name": "Episode.1 上\r",
+      "volume_name": "Episode.1 上",
       "volume_order": 10,
       "addtime": 1303444782,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3629,
@@ -33,7 +34,120 @@
       "volume_name": "Episode.1 下",
       "volume_order": 20,
       "addtime": 1304912399,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3595,
+      "id": 3595,
+      "volume_name": "Episode.1 上",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20969,
+          "chapter_name": "开端",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20970,
+          "chapter_name": "重逢",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20971,
+          "chapter_name": "到达六轩岛",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20972,
+          "chapter_name": "客房",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20973,
+          "chapter_name": "餐厅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20974,
+          "chapter_name": "沙滩",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20975,
+          "chapter_name": "沙滩2",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20976,
+          "chapter_name": "信与伞",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20977,
+          "chapter_name": "黄金传说",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 3629,
+      "id": 3629,
+      "volume_name": "Episode.1 下",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 21222,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21223,
+          "chapter_name": "钥匙选中的祭品",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21224,
+          "chapter_name": "惨剧的开幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28806,
+          "chapter_name": "神秘学",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28807,
+          "chapter_name": "相互依偎的两人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28808,
+          "chapter_name": "闭关",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28809,
+          "chapter_name": "黄金魔",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28810,
+          "chapter_name": "炼狱",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 28811,
+          "chapter_name": "？？？？",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 28812,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "尸鬼",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第五卷 折翼的祈祷\r",
+  "last_update_volume_name": "第五卷 折翼的祈祷",
   "last_update_chapter_name": "解说",
   "last_update_volume_id": 1618,
   "last_update_chapter_id": 9378,
@@ -16,48 +16,350 @@
   ],
   "authors": "小野不由美",
   "first_letter": "S",
-  "subscribe_num": 7098,
-  "redis_update_time": 1564310774,
+  "subscribe_num": 7139,
+  "redis_update_time": 1565031377,
   "volume": [
     {
       "id": 1614,
       "lnovel_id": 426,
-      "volume_name": "第一卷 乌鸦\r",
+      "volume_name": "第一卷 乌鸦",
       "volume_order": 10,
       "addtime": 1274918576,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1615,
       "lnovel_id": 426,
-      "volume_name": "第二卷 来自深渊的呼唤\r",
+      "volume_name": "第二卷 来自深渊的呼唤",
       "volume_order": 20,
       "addtime": 1274918576,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1616,
       "lnovel_id": 426,
-      "volume_name": "第三卷 幽鬼之宫(上)\r",
+      "volume_name": "第三卷 幽鬼之宫(上)",
       "volume_order": 30,
       "addtime": 1274918576,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1617,
       "lnovel_id": 426,
-      "volume_name": "第四卷 幽鬼之宫(下)\r",
+      "volume_name": "第四卷 幽鬼之宫(下)",
       "volume_order": 40,
       "addtime": 1274918576,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1618,
       "lnovel_id": 426,
-      "volume_name": "第五卷 折翼的祈祷\r",
+      "volume_name": "第五卷 折翼的祈祷",
       "volume_order": 50,
       "addtime": 1274918576,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1614,
+      "id": 1614,
+      "volume_name": "第一卷 乌鸦",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9327,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9328,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9329,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9330,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9331,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9332,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9333,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 9334,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 9335,
+          "chapter_name": "第七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 9336,
+          "chapter_name": "第八章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 9337,
+          "chapter_name": "第九章",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 1615,
+      "id": 1615,
+      "volume_name": "第二卷 来自深渊的呼唤",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 9338,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9339,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9340,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9341,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9342,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9343,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9344,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 9345,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 9346,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 9347,
+          "chapter_name": "第十章",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 1616,
+      "id": 1616,
+      "volume_name": "第三卷 幽鬼之宫(上)",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 9348,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9349,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9350,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9351,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9352,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9353,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9354,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 9355,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1617,
+      "id": 1617,
+      "volume_name": "第四卷 幽鬼之宫(下)",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 9356,
+          "chapter_name": "第八章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9357,
+          "chapter_name": "第九章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9358,
+          "chapter_name": "第十章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9359,
+          "chapter_name": "第十一章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9360,
+          "chapter_name": "第十二章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9361,
+          "chapter_name": "第十三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9362,
+          "chapter_name": "第十四章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 9363,
+          "chapter_name": "第十五章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 9364,
+          "chapter_name": "第十六章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 9365,
+          "chapter_name": "第十七章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 9366,
+          "chapter_name": "第十八章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 9367,
+          "chapter_name": "第十九章",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 1618,
+      "id": 1618,
+      "volume_name": "第五卷 折翼的祈祷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 9368,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9369,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9370,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9371,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9372,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9373,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9374,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 9375,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 9376,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 9377,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 9378,
+          "chapter_name": "解说",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

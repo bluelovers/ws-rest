@@ -3,7 +3,7 @@
   "name": "波罗的海复仇记",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "《波罗的海复仇记》取材同行记",
   "last_update_volume_id": 67,
   "last_update_chapter_id": 417,
@@ -16,16 +16,76 @@
   ],
   "authors": "田中芳树",
   "first_letter": "B",
-  "subscribe_num": 122,
-  "redis_update_time": 1564251365,
+  "subscribe_num": 124,
+  "redis_update_time": 1565012568,
   "volume": [
     {
       "id": 67,
       "lnovel_id": 19,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917730,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 67,
+      "id": 67,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 408,
+          "chapter_name": "落海",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 409,
+          "chapter_name": "向霍琪婆婆借钱",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 410,
+          "chapter_name": "返乡",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 411,
+          "chapter_name": "返乡",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 412,
+          "chapter_name": "逃离故乡",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 413,
+          "chapter_name": "抽丝剥茧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 414,
+          "chapter_name": "正面交锋",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 415,
+          "chapter_name": "化明为暗",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 416,
+          "chapter_name": "重新开始",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 417,
+          "chapter_name": "《波罗的海复仇记》取材同行记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

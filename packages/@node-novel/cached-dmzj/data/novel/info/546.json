@@ -3,7 +3,7 @@
   "name": "樱乃绮罗帆系列",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "樱乃绮罗帆的夏色救急箱\r",
+  "last_update_volume_name": "樱乃绮罗帆的夏色救急箱",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2051,
   "last_update_chapter_id": 12028,
@@ -17,31 +17,127 @@
   "authors": "月见草平",
   "first_letter": "Y",
   "subscribe_num": 90,
-  "redis_update_time": 1564077824,
+  "redis_update_time": 1564916694,
   "volume": [
     {
       "id": 2049,
       "lnovel_id": 546,
-      "volume_name": "樱乃绮罗帆的魔法医病历\r",
+      "volume_name": "樱乃绮罗帆的魔法医病历",
       "volume_order": 10,
       "addtime": 1274918848,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 2050,
       "lnovel_id": 546,
-      "volume_name": "樱乃绮罗帆的恋爱处方笺\r",
+      "volume_name": "樱乃绮罗帆的恋爱处方笺",
       "volume_order": 20,
       "addtime": 1274918848,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 2051,
       "lnovel_id": 546,
-      "volume_name": "樱乃绮罗帆的夏色救急箱\r",
+      "volume_name": "樱乃绮罗帆的夏色救急箱",
       "volume_order": 30,
       "addtime": 1274918848,
-      "sum_chapters": 11
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2049,
+      "id": 2049,
+      "volume_name": "樱乃绮罗帆的魔法医病历",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12015,
+          "chapter_name": "彩图",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12016,
+          "chapter_name": "初诊的价格",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12017,
+          "chapter_name": "绮罗帆出诊",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12018,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 2050,
+      "id": 2050,
+      "volume_name": "樱乃绮罗帆的恋爱处方笺",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12019,
+          "chapter_name": "彩图",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12020,
+          "chapter_name": "恋爱的流行性感冒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12021,
+          "chapter_name": "吸血鬼的治疗方法",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12022,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 2051,
+      "id": 2051,
+      "volume_name": "樱乃绮罗帆的夏色救急箱",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12023,
+          "chapter_name": "彩图",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12024,
+          "chapter_name": "智子与鞠菜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12025,
+          "chapter_name": "朝永医师的华丽半日闲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12026,
+          "chapter_name": "樱乃绮罗帆的暑假",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12027,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12028,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

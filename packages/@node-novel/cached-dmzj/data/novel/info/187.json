@@ -3,7 +3,7 @@
   "name": "欢迎加入NHK！",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 673,
   "last_update_chapter_id": 3895,
@@ -16,16 +16,91 @@
   ],
   "authors": "泷本龙彦",
   "first_letter": "H",
-  "subscribe_num": 930,
-  "redis_update_time": 1564296280,
+  "subscribe_num": 935,
+  "redis_update_time": 1565025044,
   "volume": [
     {
       "id": 673,
       "lnovel_id": 187,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918048,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 673,
+      "id": 673,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3883,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3884,
+          "chapter_name": "第一章 战士的诞生",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3885,
+          "chapter_name": "第二章 决意",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3886,
+          "chapter_name": "第三章 邂逅",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3887,
+          "chapter_name": "第四章 迈向造物主的道路",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3888,
+          "chapter_name": "第五章 二十一世纪的亨伯特·亨伯特",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3889,
+          "chapter_name": "第六章 追忆 并且契约",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3890,
+          "chapter_name": "第七章 旋转岩石",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 3891,
+          "chapter_name": "第八章 潜入",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 3892,
+          "chapter_name": "第九章 结束的日子",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 3893,
+          "chapter_name": "第十章 跳下",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 3894,
+          "chapter_name": "终章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 3895,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

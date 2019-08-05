@@ -12,12 +12,14 @@
   "hot_hits": 9103,
   "introduction": "AlphasProject──是天城高雅意图以最先端的技术，将自幼所憧憬的幻想英雄具现化所拟定出的计画。然而，在计画的执行过程中所诞生的Alphas２３号试作机「Ｗflame」却毫无预警地开始暴走。在拥有压倒性战斗能力的试作机面前，手足无措的高雅究竟该如何因应……！？这是沿循著天城高雅所秉持的正义而出现的“另一个ZETMAN”的故事──。",
   "types": [
-    "科幻/奇幻/格斗"
+    "科幻",
+    "奇幻",
+    "格斗"
   ],
   "authors": "古桥秀之",
   "first_letter": "A",
-  "subscribe_num": 161,
-  "redis_update_time": 1564306998,
+  "subscribe_num": 162,
+  "redis_update_time": 1564938934,
   "volume": [
     {
       "id": 5206,
@@ -25,7 +27,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1365993622,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5206,
+      "id": 5206,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 34783,
+          "chapter_name": "主要人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34784,
+          "chapter_name": "序章 黑色《Alphas》",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34785,
+          "chapter_name": "第一章 翼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34786,
+          "chapter_name": "第二章 秘密基地",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34787,
+          "chapter_name": "第三章 怪物",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34788,
+          "chapter_name": "第四章 奔腾的杀意",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34789,
+          "chapter_name": "终章 正义使者",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

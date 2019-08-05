@@ -3,7 +3,7 @@
   "name": "初恋限定",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "冬季写真\r",
+  "last_update_volume_name": "冬季写真",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 213,
   "last_update_chapter_id": 1305,
@@ -17,15 +17,30 @@
   "authors": "平林佐和子",
   "first_letter": "C",
   "subscribe_num": 235,
-  "redis_update_time": 1564278859,
+  "redis_update_time": 1564999480,
   "volume": [
     {
       "id": 213,
       "lnovel_id": 54,
-      "volume_name": "冬季写真\r",
+      "volume_name": "冬季写真",
       "volume_order": 10,
       "addtime": 1274917802,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 213,
+      "id": 213,
+      "volume_name": "冬季写真",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 1305,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

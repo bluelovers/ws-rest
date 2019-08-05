@@ -3,7 +3,7 @@
   "name": "侵略少女与谎言庭院",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全一卷\r",
+  "last_update_volume_name": "全一卷",
   "last_update_chapter_name": "后来",
   "last_update_volume_id": 1331,
   "last_update_chapter_id": 7693,
@@ -16,16 +16,66 @@
   ],
   "authors": "清水マリコ",
   "first_letter": "Q",
-  "subscribe_num": 315,
-  "redis_update_time": 1564268864,
+  "subscribe_num": 317,
+  "redis_update_time": 1564740425,
   "volume": [
     {
       "id": 1331,
       "lnovel_id": 355,
-      "volume_name": "全一卷\r",
+      "volume_name": "全一卷",
       "volume_order": 10,
       "addtime": 1274918414,
-      "sum_chapters": 3
+      "sum_chapters": 35
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1331,
+      "id": 1331,
+      "volume_name": "全一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7686,
+          "chapter_name": "契机",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 7687,
+          "chapter_name": "基拉----恶魔中山",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 7688,
+          "chapter_name": "内心（前篇）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 7689,
+          "chapter_name": "庭院里的战士",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 7690,
+          "chapter_name": "内心（后篇）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 7691,
+          "chapter_name": "传说的继续",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 7692,
+          "chapter_name": "月之河",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 7693,
+          "chapter_name": "后来",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

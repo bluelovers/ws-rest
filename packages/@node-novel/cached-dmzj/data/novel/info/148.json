@@ -3,7 +3,7 @@
   "name": "鬼哭街",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第2章 鬼哭街 下卷 鬼眼丽人\r",
+  "last_update_volume_name": "第2章 鬼哭街 下卷 鬼眼丽人",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 550,
   "last_update_chapter_id": 3321,
@@ -16,24 +16,82 @@
   ],
   "authors": "虚渊玄",
   "first_letter": "G",
-  "subscribe_num": 2182,
-  "redis_update_time": 1564309394,
+  "subscribe_num": 2195,
+  "redis_update_time": 1565037972,
   "volume": [
     {
       "id": 549,
       "lnovel_id": 148,
-      "volume_name": "第1章 鬼哭街 上卷 紫电掌\r",
+      "volume_name": "第1章 鬼哭街 上卷 紫电掌",
       "volume_order": 10,
       "addtime": 1274917982,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 550,
       "lnovel_id": 148,
-      "volume_name": "第2章 鬼哭街 下卷 鬼眼丽人\r",
+      "volume_name": "第2章 鬼哭街 下卷 鬼眼丽人",
       "volume_order": 20,
       "addtime": 1274917982,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 549,
+      "id": 549,
+      "volume_name": "第1章 鬼哭街 上卷 紫电掌",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3314,
+          "chapter_name": "第一章 鬼哭雨夜",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3315,
+          "chapter_name": "第二章 机拳功剑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3316,
+          "chapter_name": "第三章 恩仇追想",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3317,
+          "chapter_name": "第四章 浦东地狱变",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 550,
+      "id": 550,
+      "volume_name": "第2章 鬼哭街 下卷 鬼眼丽人",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3318,
+          "chapter_name": "第四章 浦东地狱变（承前）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3319,
+          "chapter_name": "第五章 骤雨血风",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3320,
+          "chapter_name": "第六章 爱憎之园",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3321,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

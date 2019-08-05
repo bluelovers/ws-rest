@@ -3,7 +3,7 @@
   "name": "我的亲爱主人!?",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第五卷\r",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1820,
   "last_update_chapter_id": 10794,
@@ -16,48 +16,290 @@
   ],
   "authors": "鹰野佑希",
   "first_letter": "W",
-  "subscribe_num": 1310,
-  "redis_update_time": 1564307212,
+  "subscribe_num": 1312,
+  "redis_update_time": 1565031138,
   "volume": [
     {
       "id": 1816,
       "lnovel_id": 480,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918701,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1817,
       "lnovel_id": 480,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918701,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1818,
       "lnovel_id": 480,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918701,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1819,
       "lnovel_id": 480,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918701,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1820,
       "lnovel_id": 480,
-      "volume_name": "第五卷\r",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1274918701,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1816,
+      "id": 1816,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10755,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10756,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10757,
+          "chapter_name": "一、全都从这一摔开始",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10758,
+          "chapter_name": "二、老天爷的难笑恶作剧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10759,
+          "chapter_name": "三、不合格的女仆与未婚妻",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10760,
+          "chapter_name": "四、针对女仆的陷阱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10761,
+          "chapter_name": "五、无底深渊",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10762,
+          "chapter_name": "六、陆续陷落的人们",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10763,
+          "chapter_name": "七、坠落的终结",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 10764,
+          "chapter_name": "尾声+后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 1817,
+      "id": 1817,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 10765,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10766,
+          "chapter_name": "一 今有如图",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10767,
+          "chapter_name": "二 不交双圆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10768,
+          "chapter_name": "三 问其相距",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10769,
+          "chapter_name": "四 几何",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10770,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10771,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1818,
+      "id": 1818,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 10772,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10773,
+          "chapter_name": "一 敞开的门扉",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10774,
+          "chapter_name": "二 封闭的情感",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10775,
+          "chapter_name": "三 永梦的尽头",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10776,
+          "chapter_name": "四 被封闭的世界中",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10777,
+          "chapter_name": "五 洞开的回忆",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10778,
+          "chapter_name": "六 紧闭的门扉",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10779,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10780,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1819,
+      "id": 1819,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 10781,
+          "chapter_name": "荣耀满身",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10782,
+          "chapter_name": "少女的秘密~心跳之谜~",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10783,
+          "chapter_name": "少女的秘密~丰胸之谜~",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10784,
+          "chapter_name": "人物写真—笑容的彼端",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10785,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1820,
+      "id": 1820,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 10786,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10787,
+          "chapter_name": "一 去者、来者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10788,
+          "chapter_name": "二 归来的女仆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10789,
+          "chapter_name": "三 会灵之馆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10790,
+          "chapter_name": "四 棘手的归人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 10791,
+          "chapter_name": "五 寻宝去吧！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 10792,
+          "chapter_name": "六 各自归返",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 10793,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 10794,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

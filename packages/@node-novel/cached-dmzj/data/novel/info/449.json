@@ -3,7 +3,7 @@
   "name": "铁鼠之槛",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "铁鼠之槛（下）",
   "last_update_volume_id": 1708,
   "last_update_chapter_id": 9857,
@@ -16,16 +16,36 @@
   ],
   "authors": "京极夏彦",
   "first_letter": "T",
-  "subscribe_num": 975,
-  "redis_update_time": 1564248337,
+  "subscribe_num": 978,
+  "redis_update_time": 1565015309,
   "volume": [
     {
       "id": 1708,
       "lnovel_id": 449,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918629,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1708,
+      "id": 1708,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9856,
+          "chapter_name": "铁鼠之槛（上）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9857,
+          "chapter_name": "铁鼠之槛（下）",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

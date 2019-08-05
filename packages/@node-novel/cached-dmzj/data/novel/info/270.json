@@ -3,7 +3,7 @@
   "name": "罗德斯岛传说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "外传\r",
+  "last_update_volume_name": "外传",
   "last_update_chapter_name": "太阳之王子，明月之公主",
   "last_update_volume_id": 996,
   "last_update_chapter_id": 5724,
@@ -16,56 +16,236 @@
   ],
   "authors": "水野良",
   "first_letter": "L",
-  "subscribe_num": 726,
-  "redis_update_time": 1564292709,
+  "subscribe_num": 730,
+  "redis_update_time": 1565034312,
   "volume": [
     {
       "id": 991,
       "lnovel_id": 270,
-      "volume_name": "亡国之王子\r",
+      "volume_name": "亡国之王子",
       "volume_order": 10,
       "addtime": 1274918220,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 992,
       "lnovel_id": 270,
-      "volume_name": "天空之骑士\r",
+      "volume_name": "天空之骑士",
       "volume_order": 20,
       "addtime": 1274918220,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 993,
       "lnovel_id": 270,
-      "volume_name": "荣光之勇者\r",
+      "volume_name": "荣光之勇者",
       "volume_order": 30,
       "addtime": 1274918220,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 994,
       "lnovel_id": 270,
-      "volume_name": "传说之英雄\r",
+      "volume_name": "传说之英雄",
       "volume_order": 40,
       "addtime": 1274918220,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 995,
       "lnovel_id": 270,
-      "volume_name": "至高神的圣女\r",
+      "volume_name": "至高神的圣女",
       "volume_order": 50,
       "addtime": 1274918220,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 996,
       "lnovel_id": 270,
-      "volume_name": "外传\r",
+      "volume_name": "外传",
       "volume_order": 60,
       "addtime": 1274918220,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 991,
+      "id": 991,
+      "volume_name": "亡国之王子",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5699,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5700,
+          "chapter_name": "乌云笼罩",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5701,
+          "chapter_name": "王子之决断",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5702,
+          "chapter_name": "魔神蠢动",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5703,
+          "chapter_name": "归来之人",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 992,
+      "id": 992,
+      "volume_name": "天空之骑士",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 5704,
+          "chapter_name": "盟约破裂",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5705,
+          "chapter_name": "命运的相会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5706,
+          "chapter_name": "百之勇者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5707,
+          "chapter_name": "局势动荡",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 993,
+      "id": 993,
+      "volume_name": "荣光之勇者",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 5708,
+          "chapter_name": "遥不可及的和平",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5709,
+          "chapter_name": "大湿原之古城",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5710,
+          "chapter_name": "魔王之领域",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5711,
+          "chapter_name": "英雄集结",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 994,
+      "id": 994,
+      "volume_name": "传说之英雄",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 5712,
+          "chapter_name": "新局面的预感",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5713,
+          "chapter_name": "圣女之奇迹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5714,
+          "chapter_name": "传说之尽头",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 995,
+      "id": 995,
+      "volume_name": "至高神的圣女",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 5715,
+          "chapter_name": "第一章 解放史卡德",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5716,
+          "chapter_name": "第二章 穿越大隧道",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5717,
+          "chapter_name": "第三章 最深奥之迷宫",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5718,
+          "chapter_name": "尾声 传说的终结",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 996,
+      "id": 996,
+      "volume_name": "外传",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 5719,
+          "chapter_name": "圣女的诞生",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5720,
+          "chapter_name": "幻影之王子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5721,
+          "chapter_name": "魂之魔神",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5722,
+          "chapter_name": "龙之心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5723,
+          "chapter_name": "血之羁绊",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5724,
+          "chapter_name": "太阳之王子，明月之公主",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -12,36 +12,37 @@
   "hot_hits": 33956,
   "introduction": "旅行者奇诺（Kino）骑着她那会说话的摩托车汉密斯（Hermes），与西兹一行人为了追捕四大魔王而宇宙中旅行。他们在一乡下行星补给物资时，当地的女神希望他们能帮助她阻止四大魔王把该星球的年轻人变成妖魔。因拒绝女神的求助而被抓狂的女神植入虚构的记忆，分别变成木乃、汉密斯和静，并以学生的身份送入学园除魔斩妖。",
   "types": [
-    "校园/奇幻"
+    "校园",
+    "奇幻"
   ],
   "authors": "时雨泽惠一",
   "first_letter": "X",
-  "subscribe_num": 2302,
-  "redis_update_time": 1564311372,
+  "subscribe_num": 2314,
+  "redis_update_time": 1565029919,
   "volume": [
     {
       "id": 1907,
       "lnovel_id": 503,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918759,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1908,
       "lnovel_id": 503,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918759,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1909,
       "lnovel_id": 503,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918760,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3581,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1302486898,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4493,
@@ -57,7 +58,174 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1338536235,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1907,
+      "id": 1907,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11258,
+          "chapter_name": "第一话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11259,
+          "chapter_name": "第二话“令人在意的那家伙是转学生汪!”",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11260,
+          "chapter_name": "编辑部公告",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11261,
+          "chapter_name": "第三话 暑假充满浪漫与火药味",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11262,
+          "chapter_name": "后记1",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1908,
+      "id": 1908,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11263,
+          "chapter_name": "上",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11264,
+          "chapter_name": "下",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 1909,
+      "id": 1909,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 11265,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3581,
+      "id": 3581,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 20880,
+          "chapter_name": "序章“奇诺”",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20906,
+          "chapter_name": "第一章“起而行！”",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20907,
+          "chapter_name": "第二章“听我唱歌吧”",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20908,
+          "chapter_name": "第三章“正义使者，如此战斗”",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20909,
+          "chapter_name": "第四章“艾利亚斯的战斗”",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20910,
+          "chapter_name": "第五章“沙罗的战斗”",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20911,
+          "chapter_name": "最终章“妖魔”",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20912,
+          "chapter_name": "“某炸弹少女的故事”",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20913,
+          "chapter_name": "“Yes、Oui、后记！”",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4493,
+      "id": 4493,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 28609,
+          "chapter_name": "第八话 序章「茶子老师突然……」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28610,
+          "chapter_name": "第一章「来打棒球吧！」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28611,
+          "chapter_name": "第二章「敌人是棒球队」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28612,
+          "chapter_name": "第三章「敌人是自己」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28613,
+          "chapter_name": "第四章「永远闪亮的内野」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28614,
+          "chapter_name": "最终章「星期一」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28615,
+          "chapter_name": "第八·五话「相当失焦」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28616,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

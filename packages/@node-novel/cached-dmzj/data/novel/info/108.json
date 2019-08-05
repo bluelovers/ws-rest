@@ -3,7 +3,7 @@
   "name": "恶魔召唤使-王权之剑",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 377,
   "last_update_chapter_id": 2332,
@@ -16,16 +16,66 @@
   ],
   "authors": "中里融司",
   "first_letter": "E",
-  "subscribe_num": 196,
-  "redis_update_time": 1564283388,
+  "subscribe_num": 197,
+  "redis_update_time": 1565026702,
   "volume": [
     {
       "id": 377,
       "lnovel_id": 108,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274917886,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 377,
+      "id": 377,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2325,
+          "chapter_name": "序章 统驭魔物的宝剑",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2326,
+          "chapter_name": "第一章 来自未知世界的呼唤",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2327,
+          "chapter_name": "第二章 学园战线",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2328,
+          "chapter_name": "第三章 咒缚陷阱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2329,
+          "chapter_name": "第四章 战姬的肖像",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2330,
+          "chapter_name": "第五章 王权追逐者",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2331,
+          "chapter_name": "终章 不论何时，无论何地",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2332,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

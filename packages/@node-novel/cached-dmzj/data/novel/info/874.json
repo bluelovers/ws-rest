@@ -3,7 +3,7 @@
   "name": "寻狗事务所",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第六章",
   "last_update_volume_id": 3095,
   "last_update_chapter_id": 17355,
@@ -16,16 +16,56 @@
   ],
   "authors": "米泽穗信",
   "first_letter": "X",
-  "subscribe_num": 697,
-  "redis_update_time": 1564309575,
+  "subscribe_num": 700,
+  "redis_update_time": 1565001223,
   "volume": [
     {
       "id": 3095,
       "lnovel_id": 874,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1281847479,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3095,
+      "id": 3095,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17350,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17351,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17352,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17353,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17354,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17355,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

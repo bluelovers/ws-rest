@@ -12,68 +12,69 @@
   "hot_hits": 101921,
   "introduction": "在至今还留有诸神痕迹的世界——艾斯佩利物·邬莫尔一角的巴斯提亚大陆，这里有一支名闻遐迩、仅以年轻清纯之少女所组成的骑士团，人称“钢铁白兔骑士团”。她们不但强悍，美丽的外貌更加引人注目。如今，胸怀母亲遗志的少女·加布莉艾拉即将要挑战入团测验！……",
   "types": [
-    "冒险/异界"
+    "冒险",
+    "异界"
   ],
   "authors": "舞阪洸",
   "first_letter": "G",
-  "subscribe_num": 849,
-  "redis_update_time": 1564283059,
+  "subscribe_num": 854,
+  "redis_update_time": 1565037255,
   "volume": [
     {
       "id": 541,
       "lnovel_id": 146,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917978,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 542,
       "lnovel_id": 146,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274917978,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 543,
       "lnovel_id": 146,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274917978,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 544,
       "lnovel_id": 146,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274917978,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 545,
       "lnovel_id": 146,
-      "volume_name": "第五卷\r",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1274917978,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 546,
       "lnovel_id": 146,
-      "volume_name": "第六卷\r",
+      "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1274917978,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 547,
       "lnovel_id": 146,
-      "volume_name": "第七卷\r",
+      "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1274917978,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3256,
@@ -81,7 +82,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1288850541,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3682,
@@ -89,7 +90,7 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1306898020,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3683,
@@ -97,7 +98,7 @@
       "volume_name": "第十卷",
       "volume_order": 100,
       "addtime": 1306898089,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4137,
@@ -105,7 +106,307 @@
       "volume_name": "短篇集 钢铁暗黑兔骑士",
       "volume_order": 110,
       "addtime": 1324274417,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 541,
+      "id": 541,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3300,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 542,
+      "id": 542,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3301,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 543,
+      "id": 543,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3302,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 544,
+      "id": 544,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 3303,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 545,
+      "id": 545,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 3304,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 546,
+      "id": 546,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 3305,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 547,
+      "id": 547,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 3306,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3256,
+      "id": 3256,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 18462,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18463,
+          "chapter_name": "第1章 翔天黑翼的女儿",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18464,
+          "chapter_name": "第2章 观光游山队成立",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18465,
+          "chapter_name": "第3章 与时间赛跑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18466,
+          "chapter_name": "第4章 达塔纽斯的担忧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18467,
+          "chapter_name": "第5章 意料之外的全员到齐",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18468,
+          "chapter_name": "第6章 永传后世的作战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18469,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18470,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 3682,
+      "id": 3682,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 21671,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21672,
+          "chapter_name": "第一章 新的任务，新的试炼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21673,
+          "chapter_name": "第二章 “撤退作战就交给你们了！”的殿后部队",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21678,
+          "chapter_name": "第二章 “撤退作战就交给你们了！”的殿后部队",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21675,
+          "chapter_name": "第四章 加布莉艾拉的奇策和诱惑队",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21676,
+          "chapter_name": "第五章 最后的攻防战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21677,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22591,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3683,
+      "id": 3683,
+      "volume_name": "第十卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 21679,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23433,
+          "chapter_name": "第一章 列芙莲希雅的恶趣味",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23488,
+          "chapter_name": "第二章 吓死人的传闻",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23489,
+          "chapter_name": "小小的幕间剧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23587,
+          "chapter_name": "第三章 左右命运的干部总会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24010,
+          "chapter_name": "第四章 强行突破",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25906,
+          "chapter_name": "第五章 新团长诞生",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25907,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 27732,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4137,
+      "id": 4137,
+      "volume_name": "短篇集 钢铁暗黑兔骑士",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 25632,
+          "chapter_name": "1 钢铁暗黑兔骑士——加布莉艾拉·利比耶拉·森纳",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25633,
+          "chapter_name": "2 翔天黑翼的女儿——加布莉艾拉·利比耶拉·森纳",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25634,
+          "chapter_name": "3 我的忌日——黛列依·杜纽·戴比亚诺斯",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25635,
+          "chapter_name": "4 一定会帮你复原——爱芬蕾雅·法乌比·赛毕里西斯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25636,
+          "chapter_name": "5 首度交锋——瑶子篇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25637,
+          "chapter_name": "6 首度交锋——艾格拉篇",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25638,
+          "chapter_name": "7 「枭亭」三姐妹",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25639,
+          "chapter_name": "8 超附录·白兔女学院剑骚记（序章）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 25665,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "青梅竹马",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "一卷全\r",
+  "last_update_volume_name": "一卷全",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1343,
   "last_update_chapter_id": 7751,
@@ -16,16 +16,31 @@
   ],
   "authors": "吉原理惠子",
   "first_letter": "Q",
-  "subscribe_num": 364,
-  "redis_update_time": 1564238142,
+  "subscribe_num": 366,
+  "redis_update_time": 1565029987,
   "volume": [
     {
       "id": 1343,
       "lnovel_id": 357,
-      "volume_name": "一卷全\r",
+      "volume_name": "一卷全",
       "volume_order": 10,
       "addtime": 1274918421,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1343,
+      "id": 1343,
+      "volume_name": "一卷全",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7751,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

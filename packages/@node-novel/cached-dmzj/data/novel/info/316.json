@@ -3,7 +3,7 @@
   "name": "女神侧身像",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "下(7-12)",
   "last_update_volume_id": 1181,
   "last_update_chapter_id": 6803,
@@ -17,15 +17,35 @@
   "authors": "梅松崇",
   "first_letter": "N",
   "subscribe_num": 66,
-  "redis_update_time": 1564114497,
+  "redis_update_time": 1564721782,
   "volume": [
     {
       "id": 1181,
       "lnovel_id": 316,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918324,
-      "sum_chapters": 11
+      "sum_chapters": 35
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1181,
+      "id": 1181,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6802,
+          "chapter_name": "上(1-6)",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6803,
+          "chapter_name": "下(7-12)",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

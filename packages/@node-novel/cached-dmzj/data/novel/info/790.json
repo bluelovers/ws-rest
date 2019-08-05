@@ -3,7 +3,7 @@
   "name": "暗黑童话",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第五章",
   "last_update_volume_id": 2688,
   "last_update_chapter_id": 15043,
@@ -16,16 +16,61 @@
   ],
   "authors": "乙一",
   "first_letter": "A",
-  "subscribe_num": 3737,
-  "redis_update_time": 1564311112,
+  "subscribe_num": 3750,
+  "redis_update_time": 1565021966,
   "volume": [
     {
       "id": 2688,
       "lnovel_id": 790,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1276049074,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2688,
+      "id": 2688,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 15037,
+          "chapter_name": "眼之记忆·上",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15038,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15039,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15040,
+          "chapter_name": "眼之记忆·下",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15041,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15042,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15043,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

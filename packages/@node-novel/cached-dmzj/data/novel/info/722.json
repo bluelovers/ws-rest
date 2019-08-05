@@ -3,7 +3,7 @@
   "name": "美人",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "下",
   "last_update_volume_id": 2533,
   "last_update_chapter_id": 14377,
@@ -16,16 +16,41 @@
   ],
   "authors": "木原音濑",
   "first_letter": "M",
-  "subscribe_num": 219,
-  "redis_update_time": 1564309844,
+  "subscribe_num": 223,
+  "redis_update_time": 1564983659,
   "volume": [
     {
       "id": 2533,
       "lnovel_id": 722,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481538,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2533,
+      "id": 2533,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14375,
+          "chapter_name": "上",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14376,
+          "chapter_name": "中",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14377,
+          "chapter_name": "下",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

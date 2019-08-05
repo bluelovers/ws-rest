@@ -12,20 +12,21 @@
   "hot_hits": 101326,
   "introduction": "「你身上有瘴气的味道喔。」夕阳西下的街道，一位女剑士主动向我攀谈，这令我焦躁起来。她该不会是火\n琉奈吧？我以前写过的小说女主角！？就如我所设定的是位爱慕我、犹如梦中情人般的美少女……等一下，\n怎么可能有这种事啦！！首先，那部小说已经变成我的梦魇了。经过某个震撼的事件后我不但放弃创作，\n也脱离了御宅族的身分，如今正过着平静无波的高中生活。因此，这意外的邂逅不但不足为喜，甚至还可能\n是个将我安稳的「现在」破坏殆尽的大危机！！",
   "types": [
-    "校园/搞笑"
+    "校园",
+    "搞笑"
   ],
   "authors": "花谷敏嗣",
   "first_letter": "C",
-  "subscribe_num": 585,
-  "redis_update_time": 1564287847,
+  "subscribe_num": 586,
+  "redis_update_time": 1564942827,
   "volume": [
     {
       "id": 3889,
       "lnovel_id": 1098,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1314606310,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5006,
@@ -33,7 +34,140 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1358748105,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3889,
+      "id": 3889,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23440,
+          "chapter_name": "第一天 星期二 黄昏剑士，火琉奈登场！",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23441,
+          "chapter_name": "第二天 星期三 被揭开的过去，敌人来袭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23442,
+          "chapter_name": "第三天 星期四 碰触禁忌的瞬间。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23443,
+          "chapter_name": "第四天 星期五 极为平稳的一日",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23444,
+          "chapter_name": "第五天 星期六 第三名战士登场",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23445,
+          "chapter_name": "第六天 星期日 过往的碎片",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23446,
+          "chapter_name": "第七天 星期一 火琉奈之舞！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 23447,
+          "chapter_name": "第八天 星期二 告白",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 23448,
+          "chapter_name": "第九天 星期三 她的光 他的暗",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 23449,
+          "chapter_name": "第十天 星期四 绝望之日",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 23450,
+          "chapter_name": "最后一天 星期五 先给黎明之诗",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 23451,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 23452,
+          "chapter_name": "插图",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 5006,
+      "id": 5006,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 33124,
+          "chapter_name": "序章 樱从天舞落",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33125,
+          "chapter_name": "第一章 他与她的早晨",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33126,
+          "chapter_name": "第二章 春之岚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33127,
+          "chapter_name": "第三章 飞向胜利的羽翼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33128,
+          "chapter_name": "第四章 星期天装备",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33129,
+          "chapter_name": "第五章 擦身而过之歌",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 33130,
+          "chapter_name": "间奏 虚无与零的夹缝 聊天记录#5042（管理连专用）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 33131,
+          "chapter_name": "第六章 回归宿命的夕暮",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 33132,
+          "chapter_name": "终章 黄昏的大军",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 33133,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

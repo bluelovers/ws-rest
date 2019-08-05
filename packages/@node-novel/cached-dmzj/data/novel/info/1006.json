@@ -12,12 +12,15 @@
   "hot_hits": 18947,
   "introduction": "很久很久以前，有个有两个名字的人。\n这人是和平国家的嫡子，但国家被毁灭，为了复仇，他戴上了假面，改变了名字，成为了军队中传说的英雄。\n这个人现在说，要将愚蠢的人类肃清。\n为什么会变成这样呢？\n并且——\n这是完全的和平主义吗？\n还是英雄的本能呢？\n这个人可能真的厌恶和平。\n可能很厌恶继承父亲和平遗志的妹妹。\n但是他的真心谁也不知道……\n\n http://blog.hjenglish.com/ntcace/",
   "types": [
-    "科幻/校园/机战/战争"
+    "科幻",
+    "校园",
+    "机战",
+    "战争"
   ],
   "authors": "隅沢克之",
   "first_letter": "G",
-  "subscribe_num": 285,
-  "redis_update_time": 1564288992,
+  "subscribe_num": 287,
+  "redis_update_time": 1564942326,
   "volume": [
     {
       "id": 3541,
@@ -25,7 +28,42 @@
       "volume_name": "连锁的镇魂曲",
       "volume_order": 10,
       "addtime": 1300177423,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3541,
+      "id": 3541,
+      "volume_name": "连锁的镇魂曲",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 21970,
+          "chapter_name": "无言的前奏曲",
+          "chapter_order": 5
+        },
+        {
+          "chapter_id": 20578,
+          "chapter_name": "连锁的镇魂曲 I",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20948,
+          "chapter_name": "连锁的镇魂曲II",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21968,
+          "chapter_name": "连锁的镇魂曲III(上)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21969,
+          "chapter_name": "连锁的镇魂曲III(中)",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

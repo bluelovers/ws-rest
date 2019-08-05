@@ -12,12 +12,15 @@
   "hot_hits": 19167,
   "introduction": "班˙佛雷特兰德凭藉俊俏的外貌和三寸不烂之舌在伊涅尔艾格雷斯州国的边境骗了不少女人，一次他不幸吞下一颗名为「罪龙之气息」的石头，正打算趁此机会大捞一笔时，却发现自己只要一说谎就会从口中喷出火焰，吞下的石头也无法取出！\n龙徒少女阿缇尔因为「罪龙之气息」找上他，在日复一日的魔鬼修行中，两人的心开始出现微妙变化……",
   "types": [
-    "魔法/冒险/搞笑/异界"
+    "魔法",
+    "冒险",
+    "搞笑",
+    "异界"
   ],
   "authors": "坂照铁平",
   "first_letter": "L",
-  "subscribe_num": 200,
-  "redis_update_time": 1564193090,
+  "subscribe_num": 201,
+  "redis_update_time": 1564938271,
   "volume": [
     {
       "id": 5116,
@@ -25,7 +28,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1362975256,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5116,
+      "id": 5116,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 34049,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34050,
+          "chapter_name": "第一章 边境的大骗子 Burn the Liar",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34051,
+          "chapter_name": "第二章 灾难的开始 Dragonbreath",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34052,
+          "chapter_name": "第三章 歧路 No one……",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34053,
+          "chapter_name": "第四章 赤裸的心 Burn the Liar！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34054,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34055,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

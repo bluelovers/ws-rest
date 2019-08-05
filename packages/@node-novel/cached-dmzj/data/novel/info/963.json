@@ -3,7 +3,7 @@
   "name": "薄樱鬼 新选组奇谭",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "薄樱鬼特别篇——斋藤一",
   "last_update_volume_id": 3416,
   "last_update_chapter_id": 19645,
@@ -17,15 +17,95 @@
   "authors": "IDEA FACTORY",
   "first_letter": "B",
   "subscribe_num": 262,
-  "redis_update_time": 1564175183,
+  "redis_update_time": 1564987294,
   "volume": [
     {
       "id": 3416,
       "lnovel_id": 963,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1295336157,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3416,
+      "id": 3416,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19632,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19633,
+          "chapter_name": "第一话 雪华之都",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19634,
+          "chapter_name": "第二话 动乱的内幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19635,
+          "chapter_name": "第三话 日暮之花",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19636,
+          "chapter_name": "第四话 暗中来香",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19637,
+          "chapter_name": "第五话 相克之刃",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19638,
+          "chapter_name": "第六话 鬼之命脉",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19639,
+          "chapter_name": "第七话 束缚之命",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 19640,
+          "chapter_name": "第八话 浅梦之见",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 19641,
+          "chapter_name": "第九话 修罗之辙",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 19642,
+          "chapter_name": "第十话 羁绊之末",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 19643,
+          "chapter_name": "第十一话 凋零之物",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 19644,
+          "chapter_name": "第十二话 剑戟之彼",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 19645,
+          "chapter_name": "薄樱鬼特别篇——斋藤一",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

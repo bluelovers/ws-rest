@@ -3,7 +3,7 @@
   "name": "莱茵河的囚徒",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 940,
   "last_update_chapter_id": 5423,
@@ -16,16 +16,31 @@
   ],
   "authors": "田中芳树",
   "first_letter": "L",
-  "subscribe_num": 138,
-  "redis_update_time": 1564011442,
+  "subscribe_num": 139,
+  "redis_update_time": 1565029302,
   "volume": [
     {
       "id": 940,
       "lnovel_id": 255,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918193,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 940,
+      "id": 940,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5423,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

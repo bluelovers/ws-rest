@@ -12,12 +12,14 @@
   "hot_hits": 242101,
   "introduction": "现代高中生水原光，在与幼驯染的探险中被不知名的光带到了平安京，遇上了神秘的狐狸耳朵美少女，开始了恋爱&修罗场&战斗的生活。",
   "types": [
-    "爱情/奇幻/神鬼"
+    "爱情",
+    "奇幻",
+    "神鬼"
   ],
   "authors": "春日みかげ",
   "first_letter": "H",
-  "subscribe_num": 3949,
-  "redis_update_time": 1564313244,
+  "subscribe_num": 3969,
+  "redis_update_time": 1564953844,
   "volume": [
     {
       "id": 4725,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1348644157,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5256,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1367911526,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5448,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1376291196,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6029,
@@ -49,7 +51,176 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1400145087,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4725,
+      "id": 4725,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 30799,
+          "chapter_name": "人物简介",
+          "chapter_order": 3
+        },
+        {
+          "chapter_id": 30666,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30667,
+          "chapter_name": "第一话 朝日奈紫的冒险",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30668,
+          "chapter_name": "第二话 水光原不想签下约定",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30669,
+          "chapter_name": "第三话 朝日奈紫迷路了",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30670,
+          "chapter_name": "第四话 水原光不愿觉醒",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30671,
+          "chapter_name": "第五话 谎狐狸保护仆人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30800,
+          "chapter_name": "第六话 光源氏想要安静的生活",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 30801,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 5256,
+      "id": 5256,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 35253,
+          "chapter_name": "第一话 六条小姐出现了",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35254,
+          "chapter_name": "第二话 向六条小姐接近",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35255,
+          "chapter_name": "第三话 六条小姐的觉醒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35256,
+          "chapter_name": "第四话 怪怪的喔，六条小姐",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35257,
+          "chapter_name": "第五话 六条小姐的秘密",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35258,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5448,
+      "id": 5448,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 36867,
+          "chapter_name": "第一话 晴明与光",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36868,
+          "chapter_name": "第二话 朱雀帝即位",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36869,
+          "chapter_name": "第三话 胧月夜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36870,
+          "chapter_name": "第四话 伏见稻荷探险",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36871,
+          "chapter_name": "第五话 白虹贯日",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36872,
+          "chapter_name": "第六话 光源氏寄旅须磨",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36873,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6029,
+      "id": 6029,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 41920,
+          "chapter_name": "第一话 明石",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 42673,
+          "chapter_name": "第二话 胡蝶",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44543,
+          "chapter_name": "第三话 御法",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45535,
+          "chapter_name": "第四话「云隐」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45536,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

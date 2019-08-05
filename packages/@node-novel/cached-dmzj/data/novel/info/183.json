@@ -3,7 +3,7 @@
   "name": "海啸",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 664,
   "last_update_chapter_id": 3826,
@@ -16,16 +16,71 @@
   ],
   "authors": "田中芳树",
   "first_letter": "H",
-  "subscribe_num": 136,
-  "redis_update_time": 1564076427,
+  "subscribe_num": 135,
+  "redis_update_time": 1565029345,
   "volume": [
     {
       "id": 664,
       "lnovel_id": 183,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918043,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 664,
+      "id": 664,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3818,
+          "chapter_name": "朔风",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3819,
+          "chapter_name": "临安府开城",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3820,
+          "chapter_name": "南行北行",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3821,
+          "chapter_name": "再会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3822,
+          "chapter_name": "海上朝廷",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3823,
+          "chapter_name": "流转",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3824,
+          "chapter_name": "崖山",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3825,
+          "chapter_name": "落日余晖",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 3826,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

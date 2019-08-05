@@ -3,7 +3,7 @@
   "name": "春宵苦短，少女前进吧！",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "魔感冒恋爱感冒",
   "last_update_volume_id": 3300,
   "last_update_chapter_id": 18805,
@@ -16,16 +16,46 @@
   ],
   "authors": "森见登美彦",
   "first_letter": "C",
-  "subscribe_num": 2952,
-  "redis_update_time": 1564310457,
+  "subscribe_num": 2972,
+  "redis_update_time": 1564995262,
   "volume": [
     {
       "id": 3300,
       "lnovel_id": 931,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1290505367,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3300,
+      "id": 3300,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 18802,
+          "chapter_name": "春宵苦短，少女前进吧！",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18803,
+          "chapter_name": "深海鱼们",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18804,
+          "chapter_name": "方便主义者如是说",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18805,
+          "chapter_name": "魔感冒恋爱感冒",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

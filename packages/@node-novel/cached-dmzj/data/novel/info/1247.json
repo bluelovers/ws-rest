@@ -12,12 +12,15 @@
   "hot_hits": 142215,
   "introduction": "    陆曜一原本是一位，狩猎危害人类存在【奇立奥—尼拉】的优秀猎人。用尽全力打倒了奇立奥—尼拉之王——【祖王】。而这结果，也导致了曜一最重要的东西失去了。猎人的<能力>之源——\n    但是，在思考平和的时代终于到来之际，祖王、奇立奥—尼拉竟然复活了。青梅竹马的少女·南波和同班同学的少女们的帮助使得曜一重新夺回了自己的<能力>，再次投入于与奇立奥—尼拉的战斗之中！\n    筑地俊彦赠与大家的学院战斗.超.轻喜剧，开幕！",
   "types": [
-    "搞笑/校园/奇幻/格斗"
+    "搞笑",
+    "校园",
+    "奇幻",
+    "格斗"
   ],
   "authors": "筑地俊彦",
   "first_letter": "N",
-  "subscribe_num": 1427,
-  "redis_update_time": 1564304333,
+  "subscribe_num": 1432,
+  "redis_update_time": 1564942006,
   "volume": [
     {
       "id": 4461,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1336466768,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4474,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1337327411,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4886,
@@ -41,7 +44,133 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1354874737,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4461,
+      "id": 4461,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 28358,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28359,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28360,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28361,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28362,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28363,
+          "chapter_name": "Epilogue",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28364,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4474,
+      "id": 4474,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 28460,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28943,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30228,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30495,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30968,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30969,
+          "chapter_name": "Epilogue",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30970,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4886,
+      "id": 4886,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 32126,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33185,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33697,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34122,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34780,
+          "chapter_name": "Epilogue",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34781,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "角鸮与夜之王",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "角鸮与夜之王\r",
+  "last_update_volume_name": "角鸮与夜之王",
   "last_update_chapter_name": "封面",
   "last_update_volume_id": 788,
   "last_update_chapter_id": 4503,
@@ -16,16 +16,86 @@
   ],
   "authors": "红玉いづき",
   "first_letter": "J",
-  "subscribe_num": 701,
-  "redis_update_time": 1564273553,
+  "subscribe_num": 713,
+  "redis_update_time": 1565011201,
   "volume": [
     {
       "id": 788,
       "lnovel_id": 215,
-      "volume_name": "角鸮与夜之王\r",
+      "volume_name": "角鸮与夜之王",
       "volume_order": 10,
       "addtime": 1274918110,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 788,
+      "id": 788,
+      "volume_name": "角鸮与夜之王",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4492,
+          "chapter_name": "序幕 夜之森",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4493,
+          "chapter_name": "第一章 一心求死的角鸮和讨厌人类的夜之王",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4494,
+          "chapter_name": "第二章 追求幸福的门槛",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4495,
+          "chapter_name": "第三章 炼狱之花",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4496,
+          "chapter_name": "第四章 救出1",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4497,
+          "chapter_name": "第五章 温柔的忘却",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4498,
+          "chapter_name": "第六章 夜之王的刻印",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4499,
+          "chapter_name": "第七章 夜之王的刻印",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4500,
+          "chapter_name": "第八章 救出2",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 4501,
+          "chapter_name": "尾声 角鸮与猫头鹰",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 4502,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 4503,
+          "chapter_name": "封面",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

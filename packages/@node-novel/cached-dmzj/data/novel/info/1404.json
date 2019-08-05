@@ -12,12 +12,13 @@
   "hot_hits": 8496,
   "introduction": "妈妈离家出走了，我们被遗弃了。爸爸一直不见。但是我没关系。和弟弟孝酱两个人一起生活。还有朋友的健一也支持我。直到有一天，我在路边与“绝望”相遇了。失去了希望，为了夺回，被拒绝后的愿望的实现，高中生·水树的战斗和冒险的开始。故事对生活充满了鼓励。",
   "types": [
-    "冒险/格斗"
+    "冒险",
+    "格斗"
   ],
   "authors": "桥本纺",
   "first_letter": "T",
-  "subscribe_num": 216,
-  "redis_update_time": 1564091533,
+  "subscribe_num": 218,
+  "redis_update_time": 1564912387,
   "volume": [
     {
       "id": 5145,
@@ -25,7 +26,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1363575786,
-      "sum_chapters": 11
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5145,
+      "id": 5145,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 34255,
+          "chapter_name": "第一话 冒牌的家庭",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34256,
+          "chapter_name": "第二话 恋爱",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34257,
+          "chapter_name": "第三话 少年的烦恼I",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34258,
+          "chapter_name": "第四话 苦难之箱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34259,
+          "chapter_name": "第五话 蓝色的瞳孔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34260,
+          "chapter_name": "第六话 少年的烦恼II",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34261,
+          "chapter_name": "第七话 偷猫贼",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 34262,
+          "chapter_name": "第八话 母亲",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

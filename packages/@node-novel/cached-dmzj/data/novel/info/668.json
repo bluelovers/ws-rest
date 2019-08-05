@@ -3,7 +3,7 @@
   "name": "高达前哨战",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "访谈",
   "last_update_volume_id": 2440,
   "last_update_chapter_id": 14216,
@@ -16,16 +16,116 @@
   ],
   "authors": "高桥昌也",
   "first_letter": "G",
-  "subscribe_num": 817,
-  "redis_update_time": 1564297986,
+  "subscribe_num": 822,
+  "redis_update_time": 1565028944,
   "volume": [
     {
       "id": 2440,
       "lnovel_id": 668,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481530,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2440,
+      "id": 2440,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14199,
+          "chapter_name": "序章 伙伴们",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14200,
+          "chapter_name": "第一章 培曾的叛变",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14201,
+          "chapter_name": "第二章 前哨战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14202,
+          "chapter_name": "第三章 S钢弹出击！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14203,
+          "chapter_name": "第四章 镇压培曾",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14204,
+          "chapter_name": "第五章 月面之梦",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14205,
+          "chapter_name": "第六章 逻辑炸弹",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14206,
+          "chapter_name": "第七章 苍鹰坠落",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 14207,
+          "chapter_name": "第八章 埃尔斯攻防战",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 14208,
+          "chapter_name": "第九章 质量加速机",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 14209,
+          "chapter_name": "第十章 新吉翁的暗影",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 14210,
+          "chapter_name": "第十一章 目标五芒星",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 14211,
+          "chapter_name": "第十二章 追击",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 14212,
+          "chapter_name": "第十三章 三重攻击",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 14213,
+          "chapter_name": "第十四章 地球之光",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 14214,
+          "chapter_name": "后 记",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 14215,
+          "chapter_name": "解说",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 14216,
+          "chapter_name": "访谈",
+          "chapter_order": 180
+        }
+      ]
     }
   ]
 }

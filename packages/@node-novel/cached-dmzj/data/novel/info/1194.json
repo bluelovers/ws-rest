@@ -16,8 +16,8 @@
   ],
   "authors": "博惠夏树",
   "first_letter": "Y",
-  "subscribe_num": 255,
-  "redis_update_time": 1564310198,
+  "subscribe_num": 257,
+  "redis_update_time": 1564918149,
   "volume": [
     {
       "id": 4282,
@@ -25,7 +25,57 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1330399271,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4282,
+      "id": 4282,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 26852,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26853,
+          "chapter_name": "第一话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26854,
+          "chapter_name": "第二话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26855,
+          "chapter_name": "第三话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26856,
+          "chapter_name": "第四话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26857,
+          "chapter_name": "第五话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26858,
+          "chapter_name": "第六话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26859,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

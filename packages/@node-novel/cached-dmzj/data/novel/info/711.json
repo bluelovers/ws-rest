@@ -3,7 +3,7 @@
   "name": "空想非科学读本",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2500,
   "last_update_chapter_id": 14318,
@@ -16,16 +16,31 @@
   ],
   "authors": "柳田理科雄",
   "first_letter": "K",
-  "subscribe_num": 173,
-  "redis_update_time": 1564308407,
+  "subscribe_num": 175,
+  "redis_update_time": 1564969945,
   "volume": [
     {
       "id": 2500,
       "lnovel_id": 711,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481536,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2500,
+      "id": 2500,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14318,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

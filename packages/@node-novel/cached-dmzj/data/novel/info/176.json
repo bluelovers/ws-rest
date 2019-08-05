@@ -3,7 +3,7 @@
   "name": "混沌军团",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 圣双去来篇\r",
+  "last_update_volume_name": "第三卷 圣双去来篇",
   "last_update_chapter_name": "往日凯歌篇 3-3 新的手杖",
   "last_update_volume_id": 627,
   "last_update_chapter_id": 3673,
@@ -16,32 +16,113 @@
   ],
   "authors": "冲方丁",
   "first_letter": "H",
-  "subscribe_num": 263,
-  "redis_update_time": 1564289932,
+  "subscribe_num": 265,
+  "redis_update_time": 1565037343,
   "volume": [
     {
       "id": 625,
       "lnovel_id": 176,
-      "volume_name": "第一卷 圣战魔军篇\r",
+      "volume_name": "第一卷 圣战魔军篇",
       "volume_order": 10,
       "addtime": 1274918022,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 626,
       "lnovel_id": 176,
-      "volume_name": "第二卷 招魔六阵篇\r",
+      "volume_name": "第二卷 招魔六阵篇",
       "volume_order": 20,
       "addtime": 1274918022,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 627,
       "lnovel_id": 176,
-      "volume_name": "第三卷 圣双去来篇\r",
+      "volume_name": "第三卷 圣双去来篇",
       "volume_order": 30,
       "addtime": 1274918022,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 625,
+      "id": 625,
+      "volume_name": "第一卷 圣战魔军篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3663,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3664,
+          "chapter_name": "第一章 堕界的使徒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3665,
+          "chapter_name": "圣罪之印",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 626,
+      "id": 626,
+      "volume_name": "第二卷 招魔六阵篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3666,
+          "chapter_name": "第一章 爱尔塔夏的女儿",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3667,
+          "chapter_name": "第二章 裘塔吉席的森林",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3668,
+          "chapter_name": "第三章 拉格聂之泪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3669,
+          "chapter_name": "第四章 克诺的祈祷",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3670,
+          "chapter_name": "第五章 拉普洁尔的阶梯",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 627,
+      "id": 627,
+      "volume_name": "第三卷 圣双去来篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3671,
+          "chapter_name": "往日凯歌篇 3-1剑之誓言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3672,
+          "chapter_name": "往日凯歌篇 3-2一箭复仇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3673,
+          "chapter_name": "往日凯歌篇 3-3 新的手杖",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

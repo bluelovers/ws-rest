@@ -17,7 +17,7 @@
   "authors": "畠中惠",
   "first_letter": "S",
   "subscribe_num": 314,
-  "redis_update_time": 1564195562,
+  "redis_update_time": 1564916895,
   "volume": [
     {
       "id": 3511,
@@ -25,15 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 0,
       "addtime": 1299060860,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 3491,
       "lnovel_id": 983,
-      "volume_name": "第二卷 猫婆婆\r",
+      "volume_name": "第二卷 猫婆婆",
       "volume_order": 10,
       "addtime": 1298627915,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 3736,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 狐者异",
       "volume_order": 20,
       "addtime": 1308280550,
-      "sum_chapters": 5
+      "sum_chapters": 12
     },
     {
       "id": 5798,
@@ -49,7 +49,211 @@
       "volume_name": "第四卷 算术师傅的难题",
       "volume_order": 30,
       "addtime": 1392031500,
-      "sum_chapters": 5
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3511,
+      "id": 3511,
+      "volume_name": "第一卷",
+      "volume_order": 0,
+      "chapters": [
+        {
+          "chapter_id": 20315,
+          "chapter_name": "暗夜",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20316,
+          "chapter_name": "妖",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20317,
+          "chapter_name": "木匠",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20318,
+          "chapter_name": "杀人犯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20319,
+          "chapter_name": "药行",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20320,
+          "chapter_name": "往昔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20321,
+          "chapter_name": "缘由",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20322,
+          "chapter_name": "返魂香",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20323,
+          "chapter_name": "火焰",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 3491,
+      "id": 3491,
+      "volume_name": "第二卷 猫婆婆",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20224,
+          "chapter_name": "致当家大人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20225,
+          "chapter_name": "荣吉的点心",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20226,
+          "chapter_name": "天空般的玻璃",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20227,
+          "chapter_name": "会哭的被子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20228,
+          "chapter_name": "仁吉的心上人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20229,
+          "chapter_name": "梦幻记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20230,
+          "chapter_name": "茶巾鸡蛋",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20231,
+          "chapter_name": "花簪",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20232,
+          "chapter_name": "猫婆婆",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 20233,
+          "chapter_name": "犬神的往事",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 20234,
+          "chapter_name": "肥皂泡",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 3736,
+      "id": 3736,
+      "volume_name": "第三卷 狐者异",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 22122,
+          "chapter_name": "狐者异",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22131,
+          "chapter_name": "包装纸",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22124,
+          "chapter_name": "移动的影子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22125,
+          "chapter_name": "烟花巷",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22126,
+          "chapter_name": "多余的鸣家",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22127,
+          "chapter_name": "箱根旅行记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22128,
+          "chapter_name": "二 塔之泽",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22129,
+          "chapter_name": "三 芦湖",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 22130,
+          "chapter_name": "四 东光庵药师堂",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 5798,
+      "id": 5798,
+      "volume_name": "第四卷 算术师傅的难题",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 39849,
+          "chapter_name": "鬼与小鬼",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39850,
+          "chapter_name": "算术师傅的难题",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39851,
+          "chapter_name": "美男子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39852,
+          "chapter_name": "今昔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39853,
+          "chapter_name": "春日将逝",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

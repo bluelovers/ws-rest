@@ -3,7 +3,7 @@
   "name": "异次元流浪者",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2040,
   "last_update_chapter_id": 12000,
@@ -17,15 +17,30 @@
   "authors": "眉村卓",
   "first_letter": "Y",
   "subscribe_num": 48,
-  "redis_update_time": 1564273343,
+  "redis_update_time": 1564758609,
   "volume": [
     {
       "id": 2040,
       "lnovel_id": 540,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918843,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2040,
+      "id": 2040,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12000,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

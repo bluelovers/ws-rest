@@ -3,7 +3,7 @@
   "name": "开膛手杰克的百年孤寂",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "尾声",
   "last_update_volume_id": 3718,
   "last_update_chapter_id": 21949,
@@ -16,16 +16,61 @@
   ],
   "authors": "岛田庄司",
   "first_letter": "K",
-  "subscribe_num": 1344,
-  "redis_update_time": 1564294803,
+  "subscribe_num": 1345,
+  "redis_update_time": 1564971090,
   "volume": [
     {
       "id": 3718,
       "lnovel_id": 1050,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1307585495,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3718,
+      "id": 3718,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 21943,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21944,
+          "chapter_name": "一九八八年·柏林",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21945,
+          "chapter_name": "一八八八年·伦敦",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21946,
+          "chapter_name": "一九八八年·柏林",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21947,
+          "chapter_name": "一八八八年·伦敦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21948,
+          "chapter_name": "一九八八年·柏林",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21949,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

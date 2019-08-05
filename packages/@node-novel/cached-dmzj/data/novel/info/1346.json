@@ -16,8 +16,8 @@
   ],
   "authors": "阿贺三梦也",
   "first_letter": "C",
-  "subscribe_num": 2502,
-  "redis_update_time": 1564306471,
+  "subscribe_num": 2516,
+  "redis_update_time": 1564960712,
   "volume": [
     {
       "id": 4891,
@@ -25,7 +25,37 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1354993857,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4891,
+      "id": 4891,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32168,
+          "chapter_name": "第一部分",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32169,
+          "chapter_name": "第二部分",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32170,
+          "chapter_name": "第三部分",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32171,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

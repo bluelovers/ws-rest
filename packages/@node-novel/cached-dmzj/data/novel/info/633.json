@@ -3,7 +3,7 @@
   "name": "三月，七日。",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷 ～在那之后的故事～\r",
+  "last_update_volume_name": "第二卷 ～在那之后的故事～",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2358,
   "last_update_chapter_id": 13763,
@@ -16,24 +16,117 @@
   ],
   "authors": "森橋ビンゴ",
   "first_letter": "S",
-  "subscribe_num": 669,
-  "redis_update_time": 1564282573,
+  "subscribe_num": 671,
+  "redis_update_time": 1565018204,
   "volume": [
     {
       "id": 2357,
       "lnovel_id": 633,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481520,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2358,
       "lnovel_id": 633,
-      "volume_name": "第二卷 ～在那之后的故事～\r",
+      "volume_name": "第二卷 ～在那之后的故事～",
       "volume_order": 20,
       "addtime": 1275481520,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2357,
+      "id": 2357,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13749,
+          "chapter_name": "第一章 人生在世的喜悦",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13750,
+          "chapter_name": "第二章 哪怕是在饶心难过的时候",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13751,
+          "chapter_name": "第三章 某天早晨，当我醒来",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13752,
+          "chapter_name": "第四章 热泪盈眶",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13753,
+          "chapter_name": "第五章 我能明了",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13754,
+          "chapter_name": "第六章 爸爸说的那句话的意义",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 13755,
+          "chapter_name": "第七章 G R E E N G R E E N",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 13756,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2358,
+      "id": 2358,
+      "volume_name": "第二卷 ～在那之后的故事～",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13757,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13758,
+          "chapter_name": "第一章 擦身而过的日子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13759,
+          "chapter_name": "第二章 两人的心意",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13760,
+          "chapter_name": "第三章 郁郁寡欢的心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13761,
+          "chapter_name": "第四章 喜悦?寂寞?",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13762,
+          "chapter_name": "第五章 在那之后的故事",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 13763,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

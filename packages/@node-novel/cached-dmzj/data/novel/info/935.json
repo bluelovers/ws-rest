@@ -3,7 +3,7 @@
   "name": "黑暗之神",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第十五章 大揭秘",
   "last_update_volume_id": 3312,
   "last_update_chapter_id": 18917,
@@ -16,16 +16,101 @@
   ],
   "authors": "小野不由美",
   "first_letter": "H",
-  "subscribe_num": 426,
-  "redis_update_time": 1564284558,
+  "subscribe_num": 428,
+  "redis_update_time": 1565003980,
   "volume": [
     {
       "id": 3312,
       "lnovel_id": 935,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1291011252,
-      "sum_chapters": 3
+      "sum_chapters": 9
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3312,
+      "id": 3312,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 18903,
+          "chapter_name": "第一章 四人游戏",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18904,
+          "chapter_name": "第二章 地窖童子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18905,
+          "chapter_name": "第三章 中毒事件",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18906,
+          "chapter_name": "第四章 水桶接力",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18907,
+          "chapter_name": "第五章 恐怖沼泽地",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18908,
+          "chapter_name": "第六章 少军领探开始行动",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18909,
+          "chapter_name": "第七章 夜半诵经声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18910,
+          "chapter_name": "第八章 秘密阁楼",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18911,
+          "chapter_name": "第九章 土地神",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 18912,
+          "chapter_name": "第十章 罪犯不是幽灵",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 18913,
+          "chapter_name": "第十一章 井边约会",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 18914,
+          "chapter_name": "第十二章 背叛",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 18915,
+          "chapter_name": "第十三章 到底是谁干的",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 18916,
+          "chapter_name": "第十四章 地窖童子现形",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 18917,
+          "chapter_name": "第十五章 大揭秘",
+          "chapter_order": 150
+        }
+      ]
     }
   ]
 }

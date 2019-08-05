@@ -3,7 +3,7 @@
   "name": "恋空",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "君空(恋空姐妹篇)\r",
+  "last_update_volume_name": "君空(恋空姐妹篇)",
   "last_update_chapter_name": "全书",
   "last_update_volume_id": 950,
   "last_update_chapter_id": 5459,
@@ -16,24 +16,52 @@
   ],
   "authors": "美嘉",
   "first_letter": "L",
-  "subscribe_num": 756,
-  "redis_update_time": 1564283294,
+  "subscribe_num": 760,
+  "redis_update_time": 1564998681,
   "volume": [
     {
       "id": 949,
       "lnovel_id": 258,
-      "volume_name": "恋空\r",
+      "volume_name": "恋空",
       "volume_order": 10,
       "addtime": 1274918198,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 950,
       "lnovel_id": 258,
-      "volume_name": "君空(恋空姐妹篇)\r",
+      "volume_name": "君空(恋空姐妹篇)",
       "volume_order": 20,
       "addtime": 1274918198,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 949,
+      "id": 949,
+      "volume_name": "恋空",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5458,
+          "chapter_name": "全书",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 950,
+      "id": 950,
+      "volume_name": "君空(恋空姐妹篇)",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 5459,
+          "chapter_name": "全书",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

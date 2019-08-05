@@ -12,12 +12,13 @@
   "hot_hits": 52160,
   "introduction": "　　激暑动作推理控注意啰——今夏最痛快的冷硬派！坏坏型男侦探团搞怪登场！\n　　我·冴木隆是个坏得正点的高二生，夜冲跑趴样样来，但我不混帮派更不是宅男。我老爸·冴木凉介是个好色之徒，吃喝玩赌少不了，不太顾家也懒得管我。咱们唯一的收入就靠这家非怪案不接的「冴木侦探事务所」。\n　　某天，我的正妹家教惹上了麻烦，不良老爸和我当然要「挺」身相助啰——",
   "types": [
-    "侦探/搞笑"
+    "侦探",
+    "搞笑"
   ],
   "authors": "大泽在昌",
   "first_letter": "D",
-  "subscribe_num": 420,
-  "redis_update_time": 1564311303,
+  "subscribe_num": 427,
+  "redis_update_time": 1564962958,
   "volume": [
     {
       "id": 4987,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1358328335,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5009,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1358836237,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5010,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1358836267,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5011,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1358836306,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5012,
@@ -57,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1358836367,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5018,
@@ -65,7 +66,232 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1359103692,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4987,
+      "id": 4987,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32919,
+          "chapter_name": "打工侦探贵得很",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32920,
+          "chapter_name": "用生命支付遗产税",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32921,
+          "chapter_name": "海上的跑单帮客",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32922,
+          "chapter_name": "水手服和设计图",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32923,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 5009,
+      "id": 5009,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 33152,
+          "chapter_name": "避暑胜地的夏天，杀手的夏天",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33153,
+          "chapter_name": "吸血同盟",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33154,
+          "chapter_name": "寻找制#毒师",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33155,
+          "chapter_name": "打工情报员",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 5010,
+      "id": 5010,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 33156,
+          "chapter_name": "重现江湖的男人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33157,
+          "chapter_name": "锁城",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33158,
+          "chapter_name": "黎明的杀人魔",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33159,
+          "chapter_name": "拿手科目是“射击”",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33160,
+          "chapter_name": "重逢的子弹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33161,
+          "chapter_name": "亚裔法国人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 33162,
+          "chapter_name": "前门的核子潜水艇，校门口的吻",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 33163,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5011,
+      "id": 5011,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 33164,
+          "chapter_name": "东京假期",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33165,
+          "chapter_name": "照亮杀手",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33166,
+          "chapter_name": "前有毒箭，后有炸弹",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33167,
+          "chapter_name": "跑单帮客南行",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33168,
+          "chapter_name": "密林追踪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33169,
+          "chapter_name": "红色女神",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5012,
+      "id": 5012,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 33170,
+          "chapter_name": "恐怖的行李",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33171,
+          "chapter_name": "恐怖的摇篮曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33172,
+          "chapter_name": "恐怖的单程票",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33173,
+          "chapter_name": "恐怖的追加留言",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33174,
+          "chapter_name": "恐怖的世界史",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33175,
+          "chapter_name": "恐怖的交换会",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 33176,
+          "chapter_name": "恐怖的报酬",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5018,
+      "id": 5018,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 33223,
+          "chapter_name": "1-5章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33224,
+          "chapter_name": "6-10章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33225,
+          "chapter_name": "11-15章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33226,
+          "chapter_name": "16-20章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33227,
+          "chapter_name": "21-26章",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

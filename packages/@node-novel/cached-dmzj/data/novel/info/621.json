@@ -16,24 +16,24 @@
   ],
   "authors": "神林长平",
   "first_letter": "Z",
-  "subscribe_num": 1142,
-  "redis_update_time": 1564287697,
+  "subscribe_num": 1145,
+  "redis_update_time": 1564979239,
   "volume": [
     {
       "id": 2322,
       "lnovel_id": 621,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274919011,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2323,
       "lnovel_id": 621,
-      "volume_name": "第2卷\r",
+      "volume_name": "第2卷",
       "volume_order": 20,
       "addtime": 1274919011,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2324,
@@ -41,7 +41,7 @@
       "volume_name": "第2卷下",
       "volume_order": 30,
       "addtime": 1274919011,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 7551,
@@ -49,7 +49,61 @@
       "volume_name": "第3卷",
       "volume_order": 40,
       "addtime": 1455459079,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2322,
+      "id": 2322,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13598,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2323,
+      "id": 2323,
+      "volume_name": "第2卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13599,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2324,
+      "id": 2324,
+      "volume_name": "第2卷下",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 13600,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 7551,
+      "id": 7551,
+      "volume_name": "第3卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 57225,
+          "chapter_name": "1、 变成迦姆的男人",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

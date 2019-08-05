@@ -3,7 +3,7 @@
   "name": "看着月亮说着谎话",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 833,
   "last_update_chapter_id": 4672,
@@ -16,16 +16,31 @@
   ],
   "authors": "日日日",
   "first_letter": "K",
-  "subscribe_num": 245,
-  "redis_update_time": 1564285825,
+  "subscribe_num": 246,
+  "redis_update_time": 1565031935,
   "volume": [
     {
       "id": 833,
       "lnovel_id": 229,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918133,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 833,
+      "id": 833,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4672,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

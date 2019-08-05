@@ -12,12 +12,15 @@
   "hot_hits": 60758,
   "introduction": "      于シローフォノ军的研究机关『Cradle』诞生的，持有怪异之力的人型生命兵器——『贋人』。\n      作为贋人诞生的少女・ユズカ，以及许下希冀ユズカ成为人类这愿望的少年・アルトゥール，两人探寻着被认为是唯一知道贋人秘密的研究者・ディニタ・イングリス的行踪。\n      利用ユズカ操纵冷气的能力『冰姬』，二人边经营着快递业边持续旅行，但于某日遭遇了狙击贋人心脏『Materie』的『贋人狩猎者』——\n      启程时为三人、失去重要之人的那一天、希冀守护之激烈的情感，唤起了沉睡于少年体内的7头龙之本格Fantasy。",
   "types": [
-    "科幻/格斗/异能/冒险"
+    "科幻",
+    "格斗",
+    "异能",
+    "冒险"
   ],
   "authors": "淡路帆希",
   "first_letter": "R",
-  "subscribe_num": 727,
-  "redis_update_time": 1564313570,
+  "subscribe_num": 732,
+  "redis_update_time": 1564960861,
   "volume": [
     {
       "id": 4523,
@@ -25,7 +28,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1339554723,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4523,
+      "id": 4523,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 28871,
+          "chapter_name": "Memoria",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28872,
+          "chapter_name": "一、暴风雪（blizzard）快递",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28873,
+          "chapter_name": "二、约会吧",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28874,
+          "chapter_name": "三、不高兴",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28875,
+          "chapter_name": "memoria",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28876,
+          "chapter_name": "四、已经不想再失去什么了",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28877,
+          "chapter_name": "memoria",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28878,
+          "chapter_name": "五、继续活下去",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 28879,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "月兔公主",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "喜欢 喜欢,好喜欢你!\r",
+  "last_update_volume_name": "喜欢 喜欢,好喜欢你!",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2190,
   "last_update_chapter_id": 12901,
@@ -16,48 +16,305 @@
   ],
   "authors": "野村美月",
   "first_letter": "Y",
-  "subscribe_num": 1273,
-  "redis_update_time": 1564313104,
+  "subscribe_num": 1279,
+  "redis_update_time": 1565029682,
   "volume": [
     {
       "id": 2186,
       "lnovel_id": 583,
-      "volume_name": "女生，最麻烦了！\r",
+      "volume_name": "女生，最麻烦了！",
       "volume_order": 10,
       "addtime": 1274918931,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2187,
       "lnovel_id": 583,
-      "volume_name": "闪亮亮的你！\r",
+      "volume_name": "闪亮亮的你！",
       "volume_order": 20,
       "addtime": 1274918931,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2188,
       "lnovel_id": 583,
-      "volume_name": "这一定就是爱吧！\r",
+      "volume_name": "这一定就是爱吧！",
       "volume_order": 30,
       "addtime": 1274918931,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2189,
       "lnovel_id": 583,
-      "volume_name": "骗子骗子，大骗子\r",
+      "volume_name": "骗子骗子，大骗子",
       "volume_order": 40,
       "addtime": 1274918931,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2190,
       "lnovel_id": 583,
-      "volume_name": "喜欢 喜欢,好喜欢你!\r",
+      "volume_name": "喜欢 喜欢,好喜欢你!",
       "volume_order": 50,
       "addtime": 1274918931,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2186,
+      "id": 2186,
+      "volume_name": "女生，最麻烦了！",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12859,
+          "chapter_name": "噗咻地飞天而去的东西",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12860,
+          "chapter_name": "呜~~呜~~吵死人啦！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12861,
+          "chapter_name": "我是月之国的公主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12862,
+          "chapter_name": "我才不干呢！可恶！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12863,
+          "chapter_name": "我会一直跟着你的",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12864,
+          "chapter_name": "女生是非常可怕的",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12865,
+          "chapter_name": "兔子咕噜咕噜滚",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12866,
+          "chapter_name": "因为我是真心的！",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12867,
+          "chapter_name": "终章 地球今天依然转动",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12868,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 2187,
+      "id": 2187,
+      "volume_name": "闪亮亮的你！",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12869,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12870,
+          "chapter_name": "第一章 不要再蹦蹦跳了啦",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12871,
+          "chapter_name": "第二章 风，是亮丽的粉红色",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12872,
+          "chapter_name": "第三章 我就是你的王子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12873,
+          "chapter_name": "第四章 与兔子的假日约会！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12874,
+          "chapter_name": "第五章 不穿裙子的理由",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12875,
+          "chapter_name": "第六章 久等了，我现在就过去",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12876,
+          "chapter_name": "第七章 闪亮亮的你！",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12877,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 2188,
+      "id": 2188,
+      "volume_name": "这一定就是爱吧！",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12878,
+          "chapter_name": "讨厌！你是谁啊？",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12879,
+          "chapter_name": "可恶！真叫人生气！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12880,
+          "chapter_name": "这一定就是爱吧！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12881,
+          "chapter_name": "决战就在今夜！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12882,
+          "chapter_name": "到底什么是爱的交响曲啊！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12883,
+          "chapter_name": "最强魔法师登场！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12884,
+          "chapter_name": "终章 要永远在一起唷！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12885,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2189,
+      "id": 2189,
+      "volume_name": "骗子骗子，大骗子",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12886,
+          "chapter_name": "序章 黑色长发的公主",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12887,
+          "chapter_name": "你真的变了吧?",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12888,
+          "chapter_name": "海姊，你在说什么啊！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12889,
+          "chapter_name": "得不到就杀了你",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12890,
+          "chapter_name": "你爱的是哪一只兔子呢?",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12891,
+          "chapter_name": "我们立下约定的山丘",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12892,
+          "chapter_name": "骗子骗子，大骗子！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12893,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2190,
+      "id": 2190,
+      "volume_name": "喜欢 喜欢,好喜欢你!",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 12894,
+          "chapter_name": "穿越时空的恋人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12895,
+          "chapter_name": "我不能接受啊!",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12896,
+          "chapter_name": "如果我是女孩",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12897,
+          "chapter_name": "以前发生过什么事？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12898,
+          "chapter_name": "沐浴在月光下的恶灵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12899,
+          "chapter_name": "我要保护地球",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12900,
+          "chapter_name": "只有一次机会",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12901,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

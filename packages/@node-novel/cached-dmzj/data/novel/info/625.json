@@ -3,7 +3,7 @@
   "name": "魍魉之匣",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第三卷\r",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2338,
   "last_update_chapter_id": 13650,
@@ -16,32 +16,73 @@
   ],
   "authors": "京极夏彦",
   "first_letter": "C",
-  "subscribe_num": 1599,
-  "redis_update_time": 1564309571,
+  "subscribe_num": 1605,
+  "redis_update_time": 1565012718,
   "volume": [
     {
       "id": 2336,
       "lnovel_id": 625,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274919019,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2337,
       "lnovel_id": 625,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274919019,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2338,
       "lnovel_id": 625,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274919019,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2336,
+      "id": 2336,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13648,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2337,
+      "id": 2337,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13649,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2338,
+      "id": 2338,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 13650,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

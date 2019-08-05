@@ -3,7 +3,7 @@
   "name": "樱兰高中男公关部",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "满山香南的相册\r",
+  "last_update_volume_name": "满山香南的相册",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2412,
   "last_update_chapter_id": 14010,
@@ -17,15 +17,30 @@
   "authors": "土井佐智子",
   "first_letter": "Y",
   "subscribe_num": 146,
-  "redis_update_time": 1564300348,
+  "redis_update_time": 1564957708,
   "volume": [
     {
       "id": 2412,
       "lnovel_id": 648,
-      "volume_name": "满山香南的相册\r",
+      "volume_name": "满山香南的相册",
       "volume_order": 10,
       "addtime": 1275481526,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2412,
+      "id": 2412,
+      "volume_name": "满山香南的相册",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14010,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

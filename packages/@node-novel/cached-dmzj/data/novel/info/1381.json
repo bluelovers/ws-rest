@@ -16,8 +16,8 @@
   ],
   "authors": "多作者合作",
   "first_letter": "1",
-  "subscribe_num": 806,
-  "redis_update_time": 1564285474,
+  "subscribe_num": 807,
+  "redis_update_time": 1564945980,
   "volume": [
     {
       "id": 5048,
@@ -25,7 +25,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1359698580,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5048,
+      "id": 5048,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 33388,
+          "chapter_name": "曾经的19岁",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33389,
+          "chapter_name": "XXX的故事",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33390,
+          "chapter_name": "向日葵狂想曲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33391,
+          "chapter_name": "铅笔色的黑发",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33392,
+          "chapter_name": "致19岁的我们",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

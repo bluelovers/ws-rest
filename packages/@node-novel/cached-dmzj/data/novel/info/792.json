@@ -3,7 +3,7 @@
   "name": "情归故里",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "时夫线\r",
+  "last_update_volume_name": "时夫线",
   "last_update_chapter_name": "时夫线 一卷全",
   "last_update_volume_id": 2696,
   "last_update_chapter_id": 23839,
@@ -16,64 +16,157 @@
   ],
   "authors": "Alco Entertainment",
   "first_letter": "Q",
-  "subscribe_num": 31,
-  "redis_update_time": 1563204835,
+  "subscribe_num": 33,
+  "redis_update_time": 1564575739,
   "volume": [
     {
       "id": 2690,
       "lnovel_id": 792,
-      "volume_name": "泠线\r",
+      "volume_name": "泠线",
       "volume_order": 10,
       "addtime": 1276220519,
-      "sum_chapters": 53
+      "sum_chapters": 16
     },
     {
       "id": 2691,
       "lnovel_id": 792,
-      "volume_name": "绿线\r",
+      "volume_name": "绿线",
       "volume_order": 20,
       "addtime": 1276220519,
-      "sum_chapters": 53
+      "sum_chapters": 16
     },
     {
       "id": 2692,
       "lnovel_id": 792,
-      "volume_name": "晶线\r",
+      "volume_name": "晶线",
       "volume_order": 30,
       "addtime": 1276220519,
-      "sum_chapters": 53
+      "sum_chapters": 16
     },
     {
       "id": 2693,
       "lnovel_id": 792,
-      "volume_name": "光线\r",
+      "volume_name": "光线",
       "volume_order": 40,
       "addtime": 1276220519,
-      "sum_chapters": 53
+      "sum_chapters": 16
     },
     {
       "id": 2694,
       "lnovel_id": 792,
-      "volume_name": "由美子线\r",
+      "volume_name": "由美子线",
       "volume_order": 50,
       "addtime": 1276220519,
-      "sum_chapters": 53
+      "sum_chapters": 16
     },
     {
       "id": 2695,
       "lnovel_id": 792,
-      "volume_name": "波美线\r",
+      "volume_name": "波美线",
       "volume_order": 60,
       "addtime": 1276220519,
-      "sum_chapters": 53
+      "sum_chapters": 16
     },
     {
       "id": 2696,
       "lnovel_id": 792,
-      "volume_name": "时夫线\r",
+      "volume_name": "时夫线",
       "volume_order": 70,
       "addtime": 1276220519,
-      "sum_chapters": 53
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2690,
+      "id": 2690,
+      "volume_name": "泠线",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23833,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2691,
+      "id": 2691,
+      "volume_name": "绿线",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 23834,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2692,
+      "id": 2692,
+      "volume_name": "晶线",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 23835,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2693,
+      "id": 2693,
+      "volume_name": "光线",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 23836,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2694,
+      "id": 2694,
+      "volume_name": "由美子线",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 23837,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2695,
+      "id": 2695,
+      "volume_name": "波美线",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 23838,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2696,
+      "id": 2696,
+      "volume_name": "时夫线",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 23839,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

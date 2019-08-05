@@ -3,7 +3,7 @@
   "name": "征服世界是可能的吗？",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第一卷 一卷全",
   "last_update_volume_id": 2284,
   "last_update_chapter_id": 20214,
@@ -16,16 +16,31 @@
   ],
   "authors": "冈田斗司夫",
   "first_letter": "Z",
-  "subscribe_num": 176,
-  "redis_update_time": 1564233072,
+  "subscribe_num": 178,
+  "redis_update_time": 1565020673,
   "volume": [
     {
       "id": 2284,
       "lnovel_id": 610,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918986,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2284,
+      "id": 2284,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20214,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

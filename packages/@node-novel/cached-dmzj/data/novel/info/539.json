@@ -3,7 +3,7 @@
   "name": "萤火虫之墓",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2039,
   "last_update_chapter_id": 11999,
@@ -16,16 +16,31 @@
   ],
   "authors": "野坂昭如",
   "first_letter": "Y",
-  "subscribe_num": 179,
-  "redis_update_time": 1564151094,
+  "subscribe_num": 180,
+  "redis_update_time": 1564809570,
   "volume": [
     {
       "id": 2039,
       "lnovel_id": 539,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918842,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2039,
+      "id": 2039,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11999,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

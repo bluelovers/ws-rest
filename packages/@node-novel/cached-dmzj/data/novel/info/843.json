@@ -16,16 +16,31 @@
   ],
   "authors": "LEAF",
   "first_letter": "T",
-  "subscribe_num": 114,
-  "redis_update_time": 1564070814,
+  "subscribe_num": 115,
+  "redis_update_time": 1565004791,
   "volume": [
     {
       "id": 2974,
       "lnovel_id": 843,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1277353594,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2974,
+      "id": 2974,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16563,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

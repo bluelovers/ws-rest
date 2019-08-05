@@ -3,7 +3,7 @@
   "name": "波动干涉",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第六卷\r",
+  "last_update_volume_name": "第六卷",
   "last_update_chapter_name": "【后记的价值是……】",
   "last_update_volume_id": 132,
   "last_update_chapter_id": 896,
@@ -17,55 +17,465 @@
   "authors": "苍羽我",
   "first_letter": "B",
   "subscribe_num": 102,
-  "redis_update_time": 1564186189,
+  "redis_update_time": 1564986658,
   "volume": [
     {
       "id": 127,
       "lnovel_id": 34,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917760,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 128,
       "lnovel_id": 34,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274917760,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 129,
       "lnovel_id": 34,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274917760,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 130,
       "lnovel_id": 34,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274917760,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 131,
       "lnovel_id": 34,
-      "volume_name": "第五卷\r",
+      "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1274917760,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 132,
       "lnovel_id": 34,
-      "volume_name": "第六卷\r",
+      "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1274917760,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 127,
+      "id": 127,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 825,
+          "chapter_name": "序言 曾经邂逅",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 826,
+          "chapter_name": "第一章 干涉的存在，被干涉的存在",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 827,
+          "chapter_name": "之二 被委托者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 828,
+          "chapter_name": "之三 探索者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 829,
+          "chapter_name": "之四 干涉者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 830,
+          "chapter_name": "之五 倾听者",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 831,
+          "chapter_name": "飞翔夜，夜撕裂",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 832,
+          "chapter_name": "之一 分割的清晨",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 833,
+          "chapter_name": "之二“寻求的午后”",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 834,
+          "chapter_name": "之三 撕裂的夜晚",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 835,
+          "chapter_name": "之四 舍弃的黄昏",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 836,
+          "chapter_name": "之五 撕裂的夜晚二",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 837,
+          "chapter_name": "之六 贞忏的破晓",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 838,
+          "chapter_name": "尾声 归属的黎明",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 839,
+          "chapter_name": "【后记、袭来】",
+          "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 128,
+      "id": 128,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 840,
+          "chapter_name": "非曲 One day，That day",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 841,
+          "chapter_name": "第三章 君瞳瞬刻·意动轨迹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 842,
+          "chapter_name": "之二 眼中看见的是－－",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 843,
+          "chapter_name": "之三 意动的轨迹",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 844,
+          "chapter_name": "第四章 蹴空无依.不落天碑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 845,
+          "chapter_name": "之二 遗人不再",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 846,
+          "chapter_name": "之三 曾经奔驰前祭",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 847,
+          "chapter_name": "之参“曾经奔驰”",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 848,
+          "chapter_name": "之四 如今依旧",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 849,
+          "chapter_name": "尾声 步伐再起",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 850,
+          "chapter_name": "非曲 The man，Girl，Aand Gun",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 851,
+          "chapter_name": "后记、完稿之后",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 129,
+      "id": 129,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 852,
+          "chapter_name": "之一 黄昏之彩",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 853,
+          "chapter_name": "之二 双影之彩",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 854,
+          "chapter_name": "之三 轨迹之彩",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 855,
+          "chapter_name": "之四 虚妄复苏之馆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 856,
+          "chapter_name": "之五 少女独行之馆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 857,
+          "chapter_name": "之六 伪者新生之馆",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 858,
+          "chapter_name": "之七 Welcome to my world",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 859,
+          "chapter_name": "之八 不返的黄昏约束",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 860,
+          "chapter_name": "尾声 没有温度的温暖",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 861,
+          "chapter_name": "之一 双羽",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 862,
+          "chapter_name": "之二 霜雨",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 863,
+          "chapter_name": "【决战、第三次后记】",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 130,
+      "id": 130,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 864,
+          "chapter_name": "之零 囚之兽",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 865,
+          "chapter_name": "之一 叹息的憧憬",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 866,
+          "chapter_name": "之二 脱之兽",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 867,
+          "chapter_name": "之三 束缚的……",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 868,
+          "chapter_name": "之四 其实只是",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 869,
+          "chapter_name": "之五 三人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 870,
+          "chapter_name": "之六 当时的颤抖",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 871,
+          "chapter_name": "之七 之所以相信",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 872,
+          "chapter_name": "之七 之所以相信",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 873,
+          "chapter_name": "之九 第二“世界”",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 874,
+          "chapter_name": "尾声 因为活着",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 875,
+          "chapter_name": "里幕 白昼之夜",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 876,
+          "chapter_name": "【瞬间、后记重叠】",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 131,
+      "id": 131,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 877,
+          "chapter_name": "之零 铁之摇篮",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 878,
+          "chapter_name": "之一 归雁与流浪犬",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 879,
+          "chapter_name": "之二 白昼之梦",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 880,
+          "chapter_name": "之三 魇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 881,
+          "chapter_name": "之四 另一场梦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 882,
+          "chapter_name": "之五 崩之昼梦",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 883,
+          "chapter_name": "之六 梦里梦外",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 884,
+          "chapter_name": "之七 两段梦·一场空",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 885,
+          "chapter_name": "尾声 来自摇篮的－－",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 886,
+          "chapter_name": "海蜃 华胥之梦",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 887,
+          "chapter_name": "【静止的后记中】",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 132,
+      "id": 132,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 888,
+          "chapter_name": "之一 The City Without Justice",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 889,
+          "chapter_name": "之二 The Crow In The Night",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 890,
+          "chapter_name": "之三 Boy Meets Man",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 891,
+          "chapter_name": "之四 Bullyrag The Fool",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 892,
+          "chapter_name": "之五 Believer Must Die",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 893,
+          "chapter_name": "之六 Black Sheep， Dead Sleep",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 894,
+          "chapter_name": "之七 The Man With Justice",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 895,
+          "chapter_name": "附录",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 896,
+          "chapter_name": "【后记的价值是……】",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

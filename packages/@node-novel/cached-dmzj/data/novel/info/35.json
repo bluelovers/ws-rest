@@ -16,16 +16,16 @@
   ],
   "authors": "来乐零",
   "first_letter": "B",
-  "subscribe_num": 1819,
-  "redis_update_time": 1564304817,
+  "subscribe_num": 1822,
+  "redis_update_time": 1565017343,
   "volume": [
     {
       "id": 133,
       "lnovel_id": 35,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917763,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 7022,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1436352852,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 7888,
@@ -41,7 +41,173 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1465483368,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 133,
+      "id": 133,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 897,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 898,
+          "chapter_name": "目录",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 899,
+          "chapter_name": "序",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 900,
+          "chapter_name": "第一章 落下",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 901,
+          "chapter_name": "第二章 共食",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 902,
+          "chapter_name": "第三章 反转",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 903,
+          "chapter_name": "第四章 非人",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 904,
+          "chapter_name": "第五章 百鬼夜行",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 905,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 906,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 7022,
+      "id": 7022,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 51294,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51295,
+          "chapter_name": "第一章 耽误&lt;三月二十六日到二十七日①&gt;",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51296,
+          "chapter_name": "第二章 交错&lt;三月二十六日到二十七日②&gt;",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51297,
+          "chapter_name": "第三章 黑色的女人&lt;三月二十七日深夜到二十九日&gt;",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51302,
+          "chapter_name": "第四章 壶之中<三月三十日>",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51299,
+          "chapter_name": "第五章 受到诅咒的人&lt;三月三十一日&gt;",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51300,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51301,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7888,
+      "id": 7888,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 62557,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 62558,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 72097,
+          "chapter_name": "第一章 恢复〈晚夏至冬〉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 72098,
+          "chapter_name": "第二章 哈默尔恩〈冬〉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 72099,
+          "chapter_name": "第三章 少年勇者〈冬〉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 72100,
+          "chapter_name": "第四章 比赛结束&lt;冬&gt;",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 72101,
+          "chapter_name": "第五章 吹笛的男人〈春へ〉",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 72102,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 72103,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 72104,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

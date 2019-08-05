@@ -16,16 +16,16 @@
   ],
   "authors": "成田良悟",
   "first_letter": "V",
-  "subscribe_num": 683,
-  "redis_update_time": 1564278896,
+  "subscribe_num": 686,
+  "redis_update_time": 1564990886,
   "volume": [
     {
       "id": 1730,
       "lnovel_id": 459,
-      "volume_name": "第一卷 ",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918644,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2809,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1276738823,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3111,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1282719866,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3826,
@@ -49,7 +49,176 @@
       "volume_name": "第五卷",
       "volume_order": 40,
       "addtime": 1312253389,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1730,
+      "id": 1730,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10027,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10028,
+          "chapter_name": "正文",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10029,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 2809,
+      "id": 2809,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 15819,
+          "chapter_name": "彩页故事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16008,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16009,
+          "chapter_name": "第一章 吸血鬼们的会议蠢蠢欲动",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16664,
+          "chapter_name": "第二章 子爵沐浴着清晨的阳光",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 16736,
+          "chapter_name": "第三章 博士和教授闭居地下",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 16847,
+          "chapter_name": "第四章 两人走在[食鬼人]之路上",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 16928,
+          "chapter_name": "第五章 绿色的军队在悄悄行进",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 16961,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3111,
+      "id": 3111,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 17453,
+          "chapter_name": "彩页",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17454,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17455,
+          "chapter_name": "第七章 橙色欢喜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19717,
+          "chapter_name": "第八章 白雪公主涂满鲜血",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19718,
+          "chapter_name": "第九章 恶之化身在微笑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20905,
+          "chapter_name": "第十章 花治愈了罪人的心",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23035,
+          "chapter_name": "第十一章 守护神破壳而出",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 23036,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 23037,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 3826,
+      "id": 3826,
+      "volume_name": "第五卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 22917,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22918,
+          "chapter_name": "Prologue 说书人，参上！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23983,
+          "chapter_name": "1章 银狼，咀嚼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23984,
+          "chapter_name": "间章1 半人半鬼，邂逅！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39785,
+          "chapter_name": "2章 血族，蹂躏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39786,
+          "chapter_name": "间章2 液体绅士，诉说！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39787,
+          "chapter_name": "3章 杀人犯，暗中活动",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

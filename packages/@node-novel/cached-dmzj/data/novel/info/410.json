@@ -12,12 +12,13 @@
   "hot_hits": 49288,
   "introduction": "N在沙漠圣地卡巴尔长大的男装少女拉比萨将以“西穆西穆使者”的身份踏上旅途。\n西穆西穆是带来水之恩泽的奇迹之树，使者需要在广大的沙漠中寻找唯一一处适合其种子生长的城镇。\n然而就在出发之前，盗贼“砂岚旅团”袭击了卡巴尔，拉比萨被突然出现的青年吉塞特救出。\n两人逃离了卡巴尔，踏上了命运的旅途！",
   "types": [
-    "冒险/异界"
+    "冒险",
+    "异界"
   ],
   "authors": "仓吹智绘",
   "first_letter": "S",
-  "subscribe_num": 452,
-  "redis_update_time": 1564292565,
+  "subscribe_num": 453,
+  "redis_update_time": 1564965547,
   "volume": [
     {
       "id": 1569,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 乐园的种子",
       "volume_order": 10,
       "addtime": 1274918550,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3954,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 随风而逝",
       "volume_order": 20,
       "addtime": 1317959050,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3955,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷 水面绽放的花",
       "volume_order": 30,
       "addtime": 1317959056,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4222,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷 星之指引",
       "volume_order": 40,
       "addtime": 1328852725,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4913,
@@ -57,7 +58,7 @@
       "volume_name": "第五卷 待补",
       "volume_order": 50,
       "addtime": 1355588747,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4914,
@@ -65,7 +66,7 @@
       "volume_name": "第六卷 交缠不清",
       "volume_order": 60,
       "addtime": 1355588759,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5696,
@@ -73,7 +74,7 @@
       "volume_name": "第七卷 暗夜流流",
       "volume_order": 70,
       "addtime": 1387192326,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 6711,
@@ -81,7 +82,7 @@
       "volume_name": "第八卷 钢之旋律",
       "volume_order": 80,
       "addtime": 1424339136,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 7089,
@@ -89,7 +90,370 @@
       "volume_name": "第九卷 重重的辉迹",
       "volume_order": 90,
       "addtime": 1438439546,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1569,
+      "id": 1569,
+      "volume_name": "第一卷 乐园的种子",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9075,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3954,
+      "id": 3954,
+      "volume_name": "第二卷 随风而逝",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 24071,
+          "chapter_name": "1、黄山丘之镇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24072,
+          "chapter_name": "2、暗中潜伏",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24073,
+          "chapter_name": "3、风的相遇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24074,
+          "chapter_name": "4、梦乡",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24075,
+          "chapter_name": "5、沉默的舞姬",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24076,
+          "chapter_name": "6、灯尽火灭",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24077,
+          "chapter_name": "7、黎明的哀歌",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24078,
+          "chapter_name": "8、随风而逝",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24079,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 3955,
+      "id": 3955,
+      "volume_name": "第三卷 水面绽放的花",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 24080,
+          "chapter_name": "1.流转少女",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24081,
+          "chapter_name": "2.笼外的小鸟",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24082,
+          "chapter_name": "3.无形的线",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24083,
+          "chapter_name": "4.水的记忆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24084,
+          "chapter_name": "5.密谋",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24085,
+          "chapter_name": "6.鸟媒之理",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24086,
+          "chapter_name": "7.水面绽放的花",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24087,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4222,
+      "id": 4222,
+      "volume_name": "第四卷 星之指引",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 26357,
+          "chapter_name": "1 返乡",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26358,
+          "chapter_name": "2 关于同位置",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26359,
+          "chapter_name": "3 遥远的景色",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26360,
+          "chapter_name": "4 冲动",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26361,
+          "chapter_name": "5 引导之光",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26362,
+          "chapter_name": "6 伤之诱惑",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26363,
+          "chapter_name": "7 星之指引",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26364,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4913,
+      "id": 4913,
+      "volume_name": "第五卷 待补",
+      "volume_order": 50,
+      "chapters": []
+    },
+    {
+      "volume_id": 4914,
+      "id": 4914,
+      "volume_name": "第六卷 交缠不清",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 32368,
+          "chapter_name": "1、赤翼之影",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32369,
+          "chapter_name": "2、失踪",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32370,
+          "chapter_name": "3、接触",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32371,
+          "chapter_name": "4、暴风雨前的宁静",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32372,
+          "chapter_name": "5、急转直下",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32373,
+          "chapter_name": "6、摇摆不定",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32374,
+          "chapter_name": "7、转暗",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32375,
+          "chapter_name": "8、交缠不清",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 32376,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 5696,
+      "id": 5696,
+      "volume_name": "第七卷 暗夜流流",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 38993,
+          "chapter_name": "1 决断",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38994,
+          "chapter_name": "2 记忆的片段",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38995,
+          "chapter_name": "3 蠢动",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38996,
+          "chapter_name": "4 破裂的碎片",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38997,
+          "chapter_name": "5 觉醒",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38998,
+          "chapter_name": "6 暗夜流流",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38999,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6711,
+      "id": 6711,
+      "volume_name": "第八卷 钢之旋律",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 48338,
+          "chapter_name": "1 不安的觉醒",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 48339,
+          "chapter_name": "2 暗之桎梏",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48340,
+          "chapter_name": "3 解说者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48341,
+          "chapter_name": "4 真与侵",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48342,
+          "chapter_name": "5 抵达",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48343,
+          "chapter_name": "6 命运的少女",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48344,
+          "chapter_name": "7 钢之旋律",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48345,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 7089,
+      "id": 7089,
+      "volume_name": "第九卷 重重的辉迹",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 51801,
+          "chapter_name": "1.狂宴前夜",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 51802,
+          "chapter_name": "2.变化的圣树",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51803,
+          "chapter_name": "3.逃避之行",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 51804,
+          "chapter_name": "4.发誓",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 51805,
+          "chapter_name": "5.点与线",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 51806,
+          "chapter_name": "6.黄昏之中",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 51807,
+          "chapter_name": "7.重重的辉迹",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 51808,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

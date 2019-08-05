@@ -3,7 +3,7 @@
   "name": "神曲奏界 异色协奏",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3150,
   "last_update_chapter_id": 17705,
@@ -16,16 +16,56 @@
   ],
   "authors": "三田诚 浅井ラポ 神野奥那 あざの耕平",
   "first_letter": "S",
-  "subscribe_num": 517,
-  "redis_update_time": 1564305042,
+  "subscribe_num": 521,
+  "redis_update_time": 1565006529,
   "volume": [
     {
       "id": 3150,
       "lnovel_id": 888,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1284343349,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3150,
+      "id": 3150,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17700,
+          "chapter_name": "当时光流逝（三田诚）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17701,
+          "chapter_name": "无法传至耳中的遥远音符（浅井ラポ）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17702,
+          "chapter_name": "西部狂想曲（神野奥那）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17703,
+          "chapter_name": "丹.萨里艾尔和白银之虎（あざの耕平）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17704,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17705,
+          "chapter_name": "插图",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

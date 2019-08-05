@@ -3,7 +3,7 @@
   "name": "幻想传说 沉寂的历史",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2593,
   "last_update_chapter_id": 14640,
@@ -17,15 +17,30 @@
   "authors": "祭紀 りゅーじ",
   "first_letter": "H",
   "subscribe_num": 58,
-  "redis_update_time": 1564237684,
+  "redis_update_time": 1564531988,
   "volume": [
     {
       "id": 2593,
       "lnovel_id": 753,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275561490,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2593,
+      "id": 2593,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14640,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

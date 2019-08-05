@@ -3,7 +3,7 @@
   "name": "魔碟军团",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 暗黑突击作战\r",
+  "last_update_volume_name": "第二卷 暗黑突击作战",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2443,
   "last_update_chapter_id": 14224,
@@ -17,23 +17,51 @@
   "authors": "广冈未森",
   "first_letter": "M",
   "subscribe_num": 13,
-  "redis_update_time": 1563975986,
+  "redis_update_time": 1565017719,
   "volume": [
     {
       "id": 2442,
       "lnovel_id": 670,
-      "volume_name": "第一卷 暗杀通缉令\r",
+      "volume_name": "第一卷 暗杀通缉令",
       "volume_order": 10,
       "addtime": 1275481531,
-      "sum_chapters": 13
+      "sum_chapters": 10
     },
     {
       "id": 2443,
       "lnovel_id": 670,
-      "volume_name": "第二卷 暗黑突击作战\r",
+      "volume_name": "第二卷 暗黑突击作战",
       "volume_order": 20,
       "addtime": 1275481531,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2442,
+      "id": 2442,
+      "volume_name": "第一卷 暗杀通缉令",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14223,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2443,
+      "id": 2443,
+      "volume_name": "第二卷 暗黑突击作战",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14224,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

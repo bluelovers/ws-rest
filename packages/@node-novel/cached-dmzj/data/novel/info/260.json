@@ -3,7 +3,7 @@
   "name": "流星之绊",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全一卷\r",
+  "last_update_volume_name": "全一卷",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 954,
   "last_update_chapter_id": 5471,
@@ -16,16 +16,31 @@
   ],
   "authors": "东野圭吾",
   "first_letter": "L",
-  "subscribe_num": 1231,
-  "redis_update_time": 1564300324,
+  "subscribe_num": 1232,
+  "redis_update_time": 1565014229,
   "volume": [
     {
       "id": 954,
       "lnovel_id": 260,
-      "volume_name": "全一卷\r",
+      "volume_name": "全一卷",
       "volume_order": 10,
       "addtime": 1274918200,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 954,
+      "id": 954,
+      "volume_name": "全一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5471,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

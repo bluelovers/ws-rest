@@ -3,7 +3,7 @@
   "name": "世界树迷宮～逝者的镇魂歌～",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 4113,
   "last_update_chapter_id": 25459,
@@ -17,15 +17,95 @@
   "authors": "嬉野秋彦",
   "first_letter": "S",
   "subscribe_num": 239,
-  "redis_update_time": 1564252373,
+  "redis_update_time": 1564911950,
   "volume": [
     {
       "id": 4113,
       "lnovel_id": 1150,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1323396797,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4113,
+      "id": 4113,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 25446,
+          "chapter_name": "第一章 从深绿色荒野出发",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25447,
+          "chapter_name": "第二章 世界树的摇篮",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25448,
+          "chapter_name": "第三章 艾特利亚少年",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25449,
+          "chapter_name": "第四章 冒险家们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25450,
+          "chapter_name": "第五章 危机重重的树海",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25451,
+          "chapter_name": "第六章 等待明日降临",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25452,
+          "chapter_name": "第七章 迷宫中的漫长午后",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25453,
+          "chapter_name": "第八章 生还者的方法",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 25454,
+          "chapter_name": "第九章 背水一战",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 25455,
+          "chapter_name": "第十章 朝密林前进",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 25456,
+          "chapter_name": "第十一章 响彻云霄之镇魂歌",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 25457,
+          "chapter_name": "第十二章 森林之王",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 25458,
+          "chapter_name": "终章 无名英雄塚",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 25459,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

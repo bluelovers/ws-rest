@@ -3,7 +3,7 @@
   "name": "金田一少年事件簿",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "短篇\r",
+  "last_update_volume_name": "短篇",
   "last_update_chapter_name": "迷路的恶魔",
   "last_update_volume_id": 687,
   "last_update_chapter_id": 3932,
@@ -16,80 +16,209 @@
   ],
   "authors": "天树征丸",
   "first_letter": "J",
-  "subscribe_num": 3592,
-  "redis_update_time": 1564312606,
+  "subscribe_num": 3627,
+  "redis_update_time": 1565026733,
   "volume": [
     {
       "id": 679,
       "lnovel_id": 191,
-      "volume_name": "歌剧院新事件\r",
+      "volume_name": "歌剧院新事件",
       "volume_order": 10,
       "addtime": 1274918051,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 680,
       "lnovel_id": 191,
-      "volume_name": "幽灵客船杀人事件\r",
+      "volume_name": "幽灵客船杀人事件",
       "volume_order": 20,
       "addtime": 1274918051,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 681,
       "lnovel_id": 191,
-      "volume_name": "电脑山庄杀人事件\r",
+      "volume_name": "电脑山庄杀人事件",
       "volume_order": 30,
       "addtime": 1274918051,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 682,
       "lnovel_id": 191,
-      "volume_name": "鬼火岛杀人事件\r",
+      "volume_name": "鬼火岛杀人事件",
       "volume_order": 40,
       "addtime": 1274918051,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 683,
       "lnovel_id": 191,
-      "volume_name": "上海鱼人传说杀人事件\r",
+      "volume_name": "上海鱼人传说杀人事件",
       "volume_order": 50,
       "addtime": 1274918051,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 684,
       "lnovel_id": 191,
-      "volume_name": "雷祭杀人事件\r",
+      "volume_name": "雷祭杀人事件",
       "volume_order": 60,
       "addtime": 1274918051,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 685,
       "lnovel_id": 191,
-      "volume_name": "杀戮之深蓝\r",
+      "volume_name": "杀戮之深蓝",
       "volume_order": 70,
       "addtime": 1274918051,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 686,
       "lnovel_id": 191,
-      "volume_name": "邪宗馆惊魂\r",
+      "volume_name": "邪宗馆惊魂",
       "volume_order": 80,
       "addtime": 1274918051,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 687,
       "lnovel_id": 191,
-      "volume_name": "短篇\r",
+      "volume_name": "短篇",
       "volume_order": 90,
       "addtime": 1274918051,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 679,
+      "id": 679,
+      "volume_name": "歌剧院新事件",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3922,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 680,
+      "id": 680,
+      "volume_name": "幽灵客船杀人事件",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3923,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 681,
+      "id": 681,
+      "volume_name": "电脑山庄杀人事件",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3924,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 682,
+      "id": 682,
+      "volume_name": "鬼火岛杀人事件",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 3925,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 683,
+      "id": 683,
+      "volume_name": "上海鱼人传说杀人事件",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 3926,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 684,
+      "id": 684,
+      "volume_name": "雷祭杀人事件",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 3927,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 685,
+      "id": 685,
+      "volume_name": "杀戮之深蓝",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 3928,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 686,
+      "id": 686,
+      "volume_name": "邪宗馆惊魂",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 3929,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 687,
+      "id": 687,
+      "volume_name": "短篇",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 3930,
+          "chapter_name": "交换杀人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3931,
+          "chapter_name": "少年之恶梦",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3932,
+          "chapter_name": "迷路的恶魔",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

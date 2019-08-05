@@ -12,12 +12,15 @@
   "hot_hits": 25572,
   "introduction": "这是一个拥有能力的精灵存在的世界。他们弹奏着神曲，以旋律为粮食，在适当的时候发挥各种各样音乐的能力。",
   "types": [
-    "奇幻/冒险/校园/爱情"
+    "奇幻",
+    "冒险",
+    "校园",
+    "爱情"
   ],
   "authors": "筑地俊彦",
   "first_letter": "S",
-  "subscribe_num": 412,
-  "redis_update_time": 1564304456,
+  "subscribe_num": 414,
+  "redis_update_time": 1565012170,
   "volume": [
     {
       "id": 1598,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷 激昂湛蓝",
       "volume_order": 10,
       "addtime": 1274918566,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1599,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷 潜踪湛蓝",
       "volume_order": 20,
       "addtime": 1274918566,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4275,
@@ -41,7 +44,168 @@
       "volume_name": "第三卷 惊爆湛蓝",
       "volume_order": 30,
       "addtime": 1330333537,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1598,
+      "id": 1598,
+      "volume_name": "第一卷 激昂湛蓝",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9204,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9205,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9206,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9207,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9208,
+          "chapter_name": "第5章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9209,
+          "chapter_name": "第6章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9210,
+          "chapter_name": "第7章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 9211,
+          "chapter_name": "第8章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 9212,
+          "chapter_name": "第9章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 9213,
+          "chapter_name": "第10章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 9214,
+          "chapter_name": "第11章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 9215,
+          "chapter_name": "第12章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 9216,
+          "chapter_name": "第13章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 9217,
+          "chapter_name": "第14章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 9218,
+          "chapter_name": "第15章",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 9219,
+          "chapter_name": "后记",
+          "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 1599,
+      "id": 1599,
+      "volume_name": "第二卷 潜踪湛蓝",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 9220,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9221,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9222,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9223,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9224,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9225,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 4275,
+      "id": 4275,
+      "volume_name": "第三卷 惊爆湛蓝",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 26803,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26804,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26805,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26806,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26807,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

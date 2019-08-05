@@ -16,8 +16,8 @@
   ],
   "authors": "田中罗密欧",
   "first_letter": "Z",
-  "subscribe_num": 683,
-  "redis_update_time": 1564308097,
+  "subscribe_num": 685,
+  "redis_update_time": 1564921837,
   "volume": [
     {
       "id": 4292,
@@ -25,7 +25,37 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1330501939,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4292,
+      "id": 4292,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 26937,
+          "chapter_name": "一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26938,
+          "chapter_name": "二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26939,
+          "chapter_name": "三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26940,
+          "chapter_name": "四章",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

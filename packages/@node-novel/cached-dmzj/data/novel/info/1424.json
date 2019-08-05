@@ -16,8 +16,8 @@
   ],
   "authors": "恩田陆",
   "first_letter": "R",
-  "subscribe_num": 247,
-  "redis_update_time": 1564138211,
+  "subscribe_num": 250,
+  "redis_update_time": 1564911286,
   "volume": [
     {
       "id": 5225,
@@ -25,7 +25,47 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1366881989,
-      "sum_chapters": 11
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5225,
+      "id": 5225,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 34943,
+          "chapter_name": "第一部 化现",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34944,
+          "chapter_name": "第二部 化缘",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34945,
+          "chapter_name": "第三部 化色（前篇）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34946,
+          "chapter_name": "第四部 化色（后篇）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34947,
+          "chapter_name": "第五部 化生",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34948,
+          "chapter_name": "作者后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

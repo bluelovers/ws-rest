@@ -16,8 +16,8 @@
   ],
   "authors": "金泽伸明",
   "first_letter": "G",
-  "subscribe_num": 21305,
-  "redis_update_time": 1564311015,
+  "subscribe_num": 21345,
+  "redis_update_time": 1564967213,
   "volume": [
     {
       "id": 4266,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1329986087,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4412,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 终极",
       "volume_order": 20,
       "addtime": 1334656034,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6424,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 临场",
       "volume_order": 30,
       "addtime": 1414329655,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6425,
@@ -49,7 +49,246 @@
       "volume_name": "第四卷 灭亡6.08",
       "volume_order": 40,
       "addtime": 1414329947,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4266,
+      "id": 4266,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 26731,
+          "chapter_name": "游戏规则",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26732,
+          "chapter_name": "班级点名簿",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26733,
+          "chapter_name": "命令1【10月19日（星期一）午后0点0分】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26734,
+          "chapter_name": "命令2【10月20日（星期二）午夜0点0分】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26735,
+          "chapter_name": "命令3【10月20日（星期二）下午4点35分】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26736,
+          "chapter_name": "命令4【10月22日（星期四）午夜0点0分】",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26737,
+          "chapter_name": "命令5【10月23日（星期五）上午8点15分】",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26738,
+          "chapter_name": "命令6【10月24日（星期六）上午8点6分】",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 26739,
+          "chapter_name": "命令7【10月25日（星期日）午夜0点34分】",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 26740,
+          "chapter_name": "命令8【10月25日（星期日）晚间11点36分】",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 26741,
+          "chapter_name": "命令9【10月27日（星期二）午夜0点43分】",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 26742,
+          "chapter_name": "命令10【10月28日（星期三）午夜0点2分】",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 26743,
+          "chapter_name": "命令11【10月29日（星期四）午夜0点1分】",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 26744,
+          "chapter_name": "夜鸣村【10月29日（星期四）凌晨4点45分】",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 26745,
+          "chapter_name": "命令12【10月30日（星期五）午夜0点0分】",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 26746,
+          "chapter_name": "命令13【10月31日（星期六）午夜0点2分】",
+          "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 4412,
+      "id": 4412,
+      "volume_name": "第二卷 终极",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 27946,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27947,
+          "chapter_name": "命令1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27948,
+          "chapter_name": "命令2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27949,
+          "chapter_name": "夜鸣村",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27950,
+          "chapter_name": "命令3",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27951,
+          "chapter_name": "命令4",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27952,
+          "chapter_name": "命令5",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 27953,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6424,
+      "id": 6424,
+      "volume_name": "第三卷 临场",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 45622,
+          "chapter_name": "吴广高中——2010年6月",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45623,
+          "chapter_name": "紫闷高中【命令7】——2009年6月",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45624,
+          "chapter_name": "紫闷高中【命令8】——2009年6月",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45631,
+          "chapter_name": "紫闷高中【命令9】——2009年6月",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45633,
+          "chapter_name": "紫闷高中【命令10】——2009年6月",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45627,
+          "chapter_name": "紫闷高中【命令11】——2009年6月",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45628,
+          "chapter_name": "紫闷高中【命令12、13】——2009年6月",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45629,
+          "chapter_name": "夜鸣村——2010年6月",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 45630,
+          "chapter_name": "吴广高中——2009年9月",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 6425,
+      "id": 6425,
+      "volume_name": "第四卷 灭亡6.08",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 45634,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45635,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45636,
+          "chapter_name": "第1章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45637,
+          "chapter_name": "第2章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45638,
+          "chapter_name": "第3章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45639,
+          "chapter_name": "第4章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 45640,
+          "chapter_name": "第5章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 45641,
+          "chapter_name": "第6章",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

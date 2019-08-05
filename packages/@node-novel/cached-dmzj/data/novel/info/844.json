@@ -16,24 +16,52 @@
   ],
   "authors": "小形圣史",
   "first_letter": "S",
-  "subscribe_num": 223,
-  "redis_update_time": 1564295010,
+  "subscribe_num": 225,
+  "redis_update_time": 1565011075,
   "volume": [
     {
       "id": 2975,
       "lnovel_id": 844,
-      "volume_name": "时雨亚沙线\r",
+      "volume_name": "时雨亚沙线",
       "volume_order": 10,
       "addtime": 1277353817,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2976,
       "lnovel_id": 844,
-      "volume_name": "奈莉奈线\r",
+      "volume_name": "奈莉奈线",
       "volume_order": 20,
       "addtime": 1277353817,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2975,
+      "id": 2975,
+      "volume_name": "时雨亚沙线",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16564,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2976,
+      "id": 2976,
+      "volume_name": "奈莉奈线",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 16565,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

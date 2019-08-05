@@ -3,7 +3,7 @@
   "name": "光明之风×光明之泪",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第4章 光明之风×泪 公主们的冒险\r",
+  "last_update_volume_name": "第4章 光明之风×泪 公主们的冒险",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 486,
   "last_update_chapter_id": 3061,
@@ -17,39 +17,208 @@
   "authors": "加納新太",
   "first_letter": "G",
   "subscribe_num": 255,
-  "redis_update_time": 1564303397,
+  "redis_update_time": 1565036148,
   "volume": [
     {
       "id": 483,
       "lnovel_id": 130,
-      "volume_name": "第1章 光明之泪 双龙骑士\r",
+      "volume_name": "第1章 光明之泪 双龙骑士",
       "volume_order": 10,
       "addtime": 1274917946,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 484,
       "lnovel_id": 130,
-      "volume_name": "第2章 光明之泪 神龙之剑\r",
+      "volume_name": "第2章 光明之泪 神龙之剑",
       "volume_order": 20,
       "addtime": 1274917946,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 485,
       "lnovel_id": 130,
-      "volume_name": "第3章 光明之风 另一段连接---封鬼剑士\r",
+      "volume_name": "第3章 光明之风 另一段连接---封鬼剑士",
       "volume_order": 30,
       "addtime": 1274917946,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 486,
       "lnovel_id": 130,
-      "volume_name": "第4章 光明之风×泪 公主们的冒险\r",
+      "volume_name": "第4章 光明之风×泪 公主们的冒险",
       "volume_order": 40,
       "addtime": 1274917946,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 483,
+      "id": 483,
+      "volume_name": "第1章 光明之泪 双龙骑士",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3035,
+          "chapter_name": "序幕——诗人娓娓道来——",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3036,
+          "chapter_name": "第一章 传说归来",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3037,
+          "chapter_name": "第二章 暗黑众神的军势",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3038,
+          "chapter_name": "第三章 冰之魔女",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3039,
+          "chapter_name": "第四章 命运的邂逅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3040,
+          "chapter_name": "第五章 狂乱王者们的余晖",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3041,
+          "chapter_name": "第六章 双龙互搏",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3042,
+          "chapter_name": "第七章 神的宝座",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 3043,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 484,
+      "id": 484,
+      "volume_name": "第2章 光明之泪 神龙之剑",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3044,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 485,
+      "id": 485,
+      "volume_name": "第3章 光明之风 另一段连接---封鬼剑士",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3045,
+          "chapter_name": "介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3046,
+          "chapter_name": "第一章 发生神隐的城镇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3047,
+          "chapter_name": "第二章 （四季会）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3048,
+          "chapter_name": "第三章 白色石头、黑色野兽",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3049,
+          "chapter_name": "第四章 前往异界的邀请",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3050,
+          "chapter_name": "第五章 三场决斗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3051,
+          "chapter_name": "第五章 三场决斗",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3052,
+          "chapter_name": "第七章 对抗幻想",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 3053,
+          "chapter_name": "第八章 （混沌）之眷属",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 3054,
+          "chapter_name": "第九章 天神降临之冬季",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 3055,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 486,
+      "id": 486,
+      "volume_name": "第4章 光明之风×泪 公主们的冒险",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 3056,
+          "chapter_name": "介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3057,
+          "chapter_name": "第一章 幸福硬币",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3058,
+          "chapter_name": "第二章 冰之继承者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3059,
+          "chapter_name": "第三章 永别了，心爱的眼眸",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3060,
+          "chapter_name": "第四章 孤独的公主骑士",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3061,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

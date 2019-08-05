@@ -1,9 +1,9 @@
 {
   "id": 224,
-  "name": "狂野历险　ADVANCED　3rd",
+  "name": "狂野历险 ADVANCED 3rd",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第三卷\r",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 810,
   "last_update_chapter_id": 4578,
@@ -17,31 +17,72 @@
   "authors": "細江ひろみ",
   "first_letter": "K",
   "subscribe_num": 17,
-  "redis_update_time": 1564031743,
+  "redis_update_time": 1564505933,
   "volume": [
     {
       "id": 808,
       "lnovel_id": 224,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918121,
-      "sum_chapters": 13
+      "sum_chapters": 16
     },
     {
       "id": 809,
       "lnovel_id": 224,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918121,
-      "sum_chapters": 13
+      "sum_chapters": 16
     },
     {
       "id": 810,
       "lnovel_id": 224,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918121,
-      "sum_chapters": 13
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 808,
+      "id": 808,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4576,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 809,
+      "id": 809,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 4577,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 810,
+      "id": 810,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 4578,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

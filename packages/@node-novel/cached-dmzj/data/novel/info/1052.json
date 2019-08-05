@@ -3,7 +3,7 @@
   "name": "约定之柱，落日的女王",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 3724,
   "last_update_chapter_id": 22022,
@@ -17,15 +17,70 @@
   "authors": "いわなぎ一叶",
   "first_letter": "Y",
   "subscribe_num": 145,
-  "redis_update_time": 1564304532,
+  "redis_update_time": 1564973774,
   "volume": [
     {
       "id": 3724,
       "lnovel_id": 1052,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1308019739,
-      "sum_chapters": 1
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3724,
+      "id": 3724,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 22014,
+          "chapter_name": "序章 于落日之中",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22015,
+          "chapter_name": "第一章 出仕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22016,
+          "chapter_name": "第二章 告白",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22017,
+          "chapter_name": "第三章 旅途",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22018,
+          "chapter_name": "第四章 交易",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22019,
+          "chapter_name": "第五章 真相",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22020,
+          "chapter_name": "第六章 流动",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22021,
+          "chapter_name": "终章 以及，约定之柱",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 22022,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "地狱少女",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "彼岸花\r",
+  "last_update_volume_name": "彼岸花",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 321,
   "last_update_chapter_id": 2030,
@@ -16,16 +16,31 @@
   ],
   "authors": "天羽沙夜",
   "first_letter": "D",
-  "subscribe_num": 1640,
-  "redis_update_time": 1564301390,
+  "subscribe_num": 1647,
+  "redis_update_time": 1565025571,
   "volume": [
     {
       "id": 321,
       "lnovel_id": 83,
-      "volume_name": "彼岸花\r",
+      "volume_name": "彼岸花",
       "volume_order": 10,
       "addtime": 1274917857,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 321,
+      "id": 321,
+      "volume_name": "彼岸花",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2030,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

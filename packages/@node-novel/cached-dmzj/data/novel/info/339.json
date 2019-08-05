@@ -3,7 +3,7 @@
   "name": "潜水艇",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第3卷\r",
+  "last_update_volume_name": "第3卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1268,
   "last_update_chapter_id": 7264,
@@ -16,32 +16,73 @@
   ],
   "authors": "水城正太郎",
   "first_letter": "Q",
-  "subscribe_num": 65,
-  "redis_update_time": 1564278547,
+  "subscribe_num": 66,
+  "redis_update_time": 1565035960,
   "volume": [
     {
       "id": 1266,
       "lnovel_id": 339,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918375,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1267,
       "lnovel_id": 339,
-      "volume_name": "第2卷\r",
+      "volume_name": "第2卷",
       "volume_order": 20,
       "addtime": 1274918375,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1268,
       "lnovel_id": 339,
-      "volume_name": "第3卷\r",
+      "volume_name": "第3卷",
       "volume_order": 30,
       "addtime": 1274918375,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1266,
+      "id": 1266,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7262,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1267,
+      "id": 1267,
+      "volume_name": "第2卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 7263,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1268,
+      "id": 1268,
+      "volume_name": "第3卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 7264,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

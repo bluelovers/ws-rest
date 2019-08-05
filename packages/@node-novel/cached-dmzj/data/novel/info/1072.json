@@ -3,7 +3,7 @@
   "name": "囮物语(物语系列七)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第乱话 抚子美杜莎\r",
+  "last_update_volume_name": "第乱话 抚子美杜莎",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3808,
   "last_update_chapter_id": 22759,
@@ -12,20 +12,71 @@
   "hot_hits": 381113,
   "introduction": "  　100%善始善终的小说。\n　　“——骗子，身为神却撒谎”\n　　被蛇附体的少女·千石抚子。\n　　对阿良良木历倾心的她眼前出现的，\n　　白色“使者”的真实身份是……？\n　　《物语》突入最终章、执拗、纠缠、进化——\n　　这就是现代的\n　　怪异！怪异！怪异！\n　　紧追不放、吸引你的陷阱。",
   "types": [
-    "神鬼/爱情"
+    "神鬼",
+    "爱情"
   ],
   "authors": "西尾维新",
   "first_letter": "H",
-  "subscribe_num": 13869,
-  "redis_update_time": 1564308231,
+  "subscribe_num": 13932,
+  "redis_update_time": 1564976989,
   "volume": [
     {
       "id": 3808,
       "lnovel_id": 1072,
-      "volume_name": "第乱话 抚子美杜莎\r",
+      "volume_name": "第乱话 抚子美杜莎",
       "volume_order": 10,
       "addtime": 1311649846,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3808,
+      "id": 3808,
+      "volume_name": "第乱话 抚子美杜莎",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 22752,
+          "chapter_name": "001-004",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22753,
+          "chapter_name": "005-008",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22754,
+          "chapter_name": "009-012",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22755,
+          "chapter_name": "013-016",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22756,
+          "chapter_name": "017-020",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22757,
+          "chapter_name": "021-024",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22758,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22759,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

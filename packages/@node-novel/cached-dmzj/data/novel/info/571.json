@@ -3,7 +3,7 @@
   "name": "银河英雄传说外传",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "银英传说外传 - 尤利安的伊谢尔伦日记\r",
+  "last_update_volume_name": "银英传说外传 - 尤利安的伊谢尔伦日记",
   "last_update_chapter_name": "第九章 出击的前夜",
   "last_update_volume_id": 2138,
   "last_update_chapter_id": 12502,
@@ -16,72 +16,313 @@
   ],
   "authors": "田中芳树",
   "first_letter": "Y",
-  "subscribe_num": 2064,
-  "redis_update_time": 1564313602,
+  "subscribe_num": 2072,
+  "redis_update_time": 1565029112,
   "volume": [
     {
       "id": 2131,
       "lnovel_id": 571,
-      "volume_name": "银英传说外传 - 白银之谷\r",
+      "volume_name": "银英传说外传 - 白银之谷",
       "volume_order": 10,
       "addtime": 1274918896,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2132,
       "lnovel_id": 571,
-      "volume_name": "银英传说外传 - 朝之梦、夜之歌\r",
+      "volume_name": "银英传说外传 - 朝之梦、夜之歌",
       "volume_order": 20,
       "addtime": 1274918896,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2133,
       "lnovel_id": 571,
-      "volume_name": "银英传说外传 - 达贡星域会战记\r",
+      "volume_name": "银英传说外传 - 达贡星域会战记",
       "volume_order": 30,
       "addtime": 1274918896,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2134,
       "lnovel_id": 571,
-      "volume_name": "银英传说外传 - 击碎星辰的人\r",
+      "volume_name": "银英传说外传 - 击碎星辰的人",
       "volume_order": 40,
       "addtime": 1274918896,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2135,
       "lnovel_id": 571,
-      "volume_name": "银英传说外传 - 螺旋迷宫\r",
+      "volume_name": "银英传说外传 - 螺旋迷宫",
       "volume_order": 50,
       "addtime": 1274918896,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2136,
       "lnovel_id": 571,
-      "volume_name": "银英传说外传 - 千亿的星辰，千亿的光芒\r",
+      "volume_name": "银英传说外传 - 千亿的星辰，千亿的光芒",
       "volume_order": 60,
       "addtime": 1274918896,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2137,
       "lnovel_id": 571,
-      "volume_name": "银英传说外传 - 污名\r",
+      "volume_name": "银英传说外传 - 污名",
       "volume_order": 70,
       "addtime": 1274918896,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2138,
       "lnovel_id": 571,
-      "volume_name": "银英传说外传 - 尤利安的伊谢尔伦日记\r",
+      "volume_name": "银英传说外传 - 尤利安的伊谢尔伦日记",
       "volume_order": 80,
       "addtime": 1274918896,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2131,
+      "id": 2131,
+      "volume_name": "银英传说外传 - 白银之谷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12468,
+          "chapter_name": "银英传说外传 - 白银之谷",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2132,
+      "id": 2132,
+      "volume_name": "银英传说外传 - 朝之梦、夜之歌",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12469,
+          "chapter_name": "银英传说外传 - 朝之梦、夜之歌",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2133,
+      "id": 2133,
+      "volume_name": "银英传说外传 - 达贡星域会战记",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12470,
+          "chapter_name": "银英传说外传 - 达贡星域会战记",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2134,
+      "id": 2134,
+      "volume_name": "银英传说外传 - 击碎星辰的人",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12471,
+          "chapter_name": "第一章 第三次提亚马特会战",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12472,
+          "chapter_name": "第二章 蜘蛛网",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12473,
+          "chapter_name": "第三章 克洛普修特克事件",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12474,
+          "chapter_name": "第四章 肃正军规",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12475,
+          "chapter_name": "第五章 间奏曲",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2135,
+      "id": 2135,
+      "volume_name": "银英传说外传 - 螺旋迷宫",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 12476,
+          "chapter_name": "第一章 英雄的新工作",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12477,
+          "chapter_name": "第二章 往过去的光辉之旅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12478,
+          "chapter_name": "第三章 第二次迪亚马特会战记",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12479,
+          "chapter_name": "第四章 丧服与军服之间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12480,
+          "chapter_name": "第五章 收容所行星",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12481,
+          "chapter_name": "第六章 俘虏和人质",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12482,
+          "chapter_name": "第七章 显微镜规模的叛乱",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12483,
+          "chapter_name": "第八章 来自过去的线索",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12484,
+          "chapter_name": "第九章 找寻出口之旅",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 2136,
+      "id": 2136,
+      "volume_name": "银英传说外传 - 千亿的星辰，千亿的光芒",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 12485,
+          "chapter_name": "第一章 凡佛利特星域会战",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12486,
+          "chapter_name": "第二章 三种红色",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12487,
+          "chapter_name": "第三章 染血的四月",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12488,
+          "chapter_name": "第四章 混战的始末",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12489,
+          "chapter_name": "第五章 初夏强风",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12490,
+          "chapter_name": "第六章 伯爵家候补继承人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12491,
+          "chapter_name": "第七章 真实是时间的女儿",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12492,
+          "chapter_name": "第八章 千亿的星辰、独一的野心",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2137,
+      "id": 2137,
+      "volume_name": "银英传说外传 - 污名",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 12493,
+          "chapter_name": "银英传说外传 - 污名",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2138,
+      "id": 2138,
+      "volume_name": "银英传说外传 - 尤利安的伊谢尔伦日记",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 12494,
+          "chapter_name": "第一章 偶数年发生的事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12495,
+          "chapter_name": "第二章 第一次的薪水",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12496,
+          "chapter_name": "第三章 全体人员集合",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12497,
+          "chapter_name": "第四章 帝国的提案",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12498,
+          "chapter_name": "第五章 旧住民VS新住民",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12499,
+          "chapter_name": "第六章 俘虏交换仪式",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12500,
+          "chapter_name": "第七章 多鲁顿事件",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12501,
+          "chapter_name": "第八章 板凳上的秘密会议",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12502,
+          "chapter_name": "第九章 出击的前夜",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

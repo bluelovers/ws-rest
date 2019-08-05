@@ -4,20 +4,21 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第十二卷",
-  "last_update_chapter_name": "序",
+  "last_update_chapter_name": "后记",
   "last_update_volume_id": 10182,
-  "last_update_chapter_id": 97241,
-  "last_update_time": 1560951424,
+  "last_update_chapter_id": 98494,
+  "last_update_time": 1564755684,
   "cover": "https://xs.dmzj.com/img/webpic/19/qzmjydzsn48l.jpg",
   "hot_hits": 415025,
   "introduction": "　　这是人类的黑暗世纪。富庶丰饶的大陆被魔物占据，人类被迫迁居至漂浮海上的都市以及其他的小岛苟延残喘。年轻的勇者虽然牺牲自己封印了魔王，人类依然没有能力击退盘据大陆的魔物，收复沦陷已久的故土。一百多年之后，以「希望」为名的年轻魔剑使亚马洛克出现在漂浮于海上的某座都市，这个有点莽撞、有点迷糊却又正义感十足的年轻人带着一把会说话的魔剑，与同为魔剑使的少女爱莉西亚和炼成师少女菲尔组成冒险队伍，往返于都市与大陆之间。以打倒魔王为梦想的亚马洛克是否能够实现梦想，替人类带来全新的希望？",
   "types": [
-    "冒险/异界"
+    "冒险",
+    "异界"
   ],
   "authors": "川口士",
   "first_letter": "Q",
-  "subscribe_num": 7666,
-  "redis_update_time": 1564311801,
+  "subscribe_num": 8697,
+  "redis_update_time": 1564967313,
   "volume": [
     {
       "id": 4499,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1338537045,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4547,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1341798812,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4587,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1343030851,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4662,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1346226170,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5531,
@@ -57,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1379318809,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5762,
@@ -65,7 +66,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1389700709,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6341,
@@ -73,7 +74,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1411041124,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6342,
@@ -81,7 +82,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1411041130,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6399,
@@ -89,7 +90,7 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1413114198,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6653,
@@ -97,7 +98,7 @@
       "volume_name": "第十卷",
       "volume_order": 100,
       "addtime": 1422191415,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6665,
@@ -105,7 +106,7 @@
       "volume_name": "第十一卷",
       "volume_order": 110,
       "addtime": 1422616859,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 10182,
@@ -113,7 +114,565 @@
       "volume_name": "第十二卷",
       "volume_order": 120,
       "addtime": 1560951237,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4499,
+      "id": 4499,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 28647,
+          "chapter_name": "1 魔剑觉醒",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28648,
+          "chapter_name": "2 漂流的都市",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28649,
+          "chapter_name": "3 徘徊的巨人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28650,
+          "chapter_name": "4 都市的街道",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28651,
+          "chapter_name": "5 不变的意志",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28652,
+          "chapter_name": "结",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28653,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4547,
+      "id": 4547,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 29158,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29195,
+          "chapter_name": "1、辉耀魔枪",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29307,
+          "chapter_name": "2、消失的白刃",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29373,
+          "chapter_name": "3、高耸之塔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29463,
+          "chapter_name": "4、笑面妖精",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29464,
+          "chapter_name": "5、破坏之盾",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29465,
+          "chapter_name": "结",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 29466,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4587,
+      "id": 4587,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 29467,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29590,
+          "chapter_name": "1、闪光的大树",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29591,
+          "chapter_name": "2、动摇的羁绊",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29732,
+          "chapter_name": "3、邪心潜藏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29733,
+          "chapter_name": "4、乱剑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29833,
+          "chapter_name": "5、传达心意",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29982,
+          "chapter_name": "结",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 29983,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4662,
+      "id": 4662,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 30145,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37592,
+          "chapter_name": "1、霞萤",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37829,
+          "chapter_name": "2 起点",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37830,
+          "chapter_name": "3 蠢动的亡者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37831,
+          "chapter_name": "4 进攻都市",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37832,
+          "chapter_name": "5 会说话的灵魂",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37833,
+          "chapter_name": "结",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 37834,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5531,
+      "id": 5531,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 37591,
+          "chapter_name": "第一章 沉睡的魔枪",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39631,
+          "chapter_name": "第二章 溺水的战士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39992,
+          "chapter_name": "第三章 迫近的沙海",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39993,
+          "chapter_name": "第四章 潜入遗迹",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39994,
+          "chapter_name": "第五章 缠之力",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39995,
+          "chapter_name": "结",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39996,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5762,
+      "id": 5762,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 39592,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40126,
+          "chapter_name": "第一章 疾走的都市~十年前~",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40563,
+          "chapter_name": "第二章 被刻印的每日",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 41287,
+          "chapter_name": "第三章 培养出来的羁绊 一年前．二",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 41288,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6341,
+      "id": 6341,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 45539,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45883,
+          "chapter_name": "第一章 钝光",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 46190,
+          "chapter_name": "第二章 引导的小巷",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 58921,
+          "chapter_name": "第三章 邀请前往海之国",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58922,
+          "chapter_name": "第四章 凶暴的海魔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58923,
+          "chapter_name": "第五章 解放的盾牌",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58924,
+          "chapter_name": "结",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 58925,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6342,
+      "id": 6342,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 44807,
+          "chapter_name": "第一章 恋爱的战士",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 45183,
+          "chapter_name": "第二章 震动的冰原",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 45353,
+          "chapter_name": "第三章 迷惑的神殿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 45354,
+          "chapter_name": "第四章 咆哮的白猪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 45355,
+          "chapter_name": "第五章 被解放的王",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 45356,
+          "chapter_name": "结",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 6399,
+      "id": 6399,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 45360,
+          "chapter_name": "序",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47574,
+          "chapter_name": "第一章 开始行动的魔王",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47575,
+          "chapter_name": "第二章 被触及的过去",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47595,
+          "chapter_name": "第三章 来访的龙",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 47596,
+          "chapter_name": "第四章 引诱的妖精",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 47597,
+          "chapter_name": "第五章 迫近的黑暗",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 47598,
+          "chapter_name": "结",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 47599,
+          "chapter_name": "断章",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 6653,
+      "id": 6653,
+      "volume_name": "第十卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 47844,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47851,
+          "chapter_name": "第一章 前进的勇气",
+          "chapter_order": 15
+        },
+        {
+          "chapter_id": 47845,
+          "chapter_name": "第二章 叫喊的精灵",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47846,
+          "chapter_name": "第三章 阻挡的怪异",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47847,
+          "chapter_name": "第四章 叙述的神殿",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 47848,
+          "chapter_name": "第五章 苏醒的魔剑",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 47849,
+          "chapter_name": "结",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 47850,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 6665,
+      "id": 6665,
+      "volume_name": "第十一卷",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 47907,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47912,
+          "chapter_name": "第一章 以顶点为目标",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 48058,
+          "chapter_name": "第二章 伫立的神代",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 48217,
+          "chapter_name": "第三章 迫近的魔军",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 48480,
+          "chapter_name": "第四章 挑战魔城",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 48481,
+          "chapter_name": "第五章 苏醒的王",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 48482,
+          "chapter_name": "结",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 48483,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10182,
+      "id": 10182,
+      "volume_name": "第十二卷",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 97240,
+          "chapter_name": "插画",
+          "chapter_order": 1
+        },
+        {
+          "chapter_id": 97239,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 97241,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98407,
+          "chapter_name": "第一章 群雄林立",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98408,
+          "chapter_name": "第二章 挑战魔王",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98489,
+          "chapter_name": "第三章 抗争的少女",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98490,
+          "chapter_name": "第四章 微笑妖精",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98491,
+          "chapter_name": "第五章 关不住的黑暗",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98492,
+          "chapter_name": "结",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98493,
+          "chapter_name": "断章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98494,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

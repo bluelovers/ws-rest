@@ -16,16 +16,51 @@
   ],
   "authors": "凑香苗",
   "first_letter": "W",
-  "subscribe_num": 1667,
-  "redis_update_time": 1564299286,
+  "subscribe_num": 1678,
+  "redis_update_time": 1564938302,
   "volume": [
     {
       "id": 4117,
       "lnovel_id": 1153,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1323397240,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4117,
+      "id": 4117,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 25485,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25486,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25487,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25488,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25489,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

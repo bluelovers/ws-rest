@@ -12,20 +12,23 @@
   "hot_hits": 53837,
   "introduction": "　　从魔界来到人间的迷你小王子，遇上了少根筋的女高中生！两人居然莫名其妙有了婚约？想要解除婚约而一起回到魔界的两个人，却发现只有解开神秘咒语才能如愿！两人因此踏上冒险之途。看书里傲娇王子跟傻呼呼小妹的搞笑对话＋惊险刺激的魔龙之斗，偶尔还有高大挺拔的魔王爸爸＆冷酷带点俏皮的王室管家来插花，到底两个人的命运会如何呢？",
   "types": [
-    "冒险/奇幻/搞笑/异界"
+    "冒险",
+    "奇幻",
+    "搞笑",
+    "异界"
   ],
   "authors": "片濑由良",
   "first_letter": "A",
-  "subscribe_num": 255,
-  "redis_update_time": 1564305325,
+  "subscribe_num": 256,
+  "redis_update_time": 1564936211,
   "volume": [
     {
       "id": 3745,
       "lnovel_id": 1058,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1308801759,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3746,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷 琉璃色之卵",
       "volume_order": 20,
       "addtime": 1309144046,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3747,
@@ -41,7 +44,7 @@
       "volume_name": "第三卷 白色怪盗",
       "volume_order": 30,
       "addtime": 1309144052,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4989,
@@ -49,7 +52,181 @@
       "volume_name": "第四卷 琥珀色的风",
       "volume_order": 40,
       "addtime": 1358405612,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3745,
+      "id": 3745,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 22203,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22204,
+          "chapter_name": "1 王子，出现。",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22205,
+          "chapter_name": "2 王子，回乡。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22206,
+          "chapter_name": "3 王子，忙碌。",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22207,
+          "chapter_name": "4 王子，相见。",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22208,
+          "chapter_name": "5 王子，知情。",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22209,
+          "chapter_name": "6 王子，之后……。",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22210,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3746,
+      "id": 3746,
+      "volume_name": "第二卷 琉璃色之卵",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 22223,
+          "chapter_name": "1 王子，重逢。",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22217,
+          "chapter_name": "2 王子，请托。",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22218,
+          "chapter_name": "3 王子，苦战。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22219,
+          "chapter_name": "4 王子，状况一变。",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22220,
+          "chapter_name": "5 王子，祝福。",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22221,
+          "chapter_name": "6 王子，之后……。",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22222,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3747,
+      "id": 3747,
+      "volume_name": "第三卷 白色怪盗",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 22224,
+          "chapter_name": "1 王子，暂时回乡。",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22225,
+          "chapter_name": "2 王子，面对面。",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22226,
+          "chapter_name": "3 王子，吃醋。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22227,
+          "chapter_name": "4 王子，演戏。",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22228,
+          "chapter_name": "5 王子，之后……。",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22229,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 4989,
+      "id": 4989,
+      "volume_name": "第四卷 琥珀色的风",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 32929,
+          "chapter_name": "1 王子，紧急状况。",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32930,
+          "chapter_name": "2 王子，参加比赛。",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32931,
+          "chapter_name": "3 王子，被抓。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32932,
+          "chapter_name": "4 王子，再次举行比赛。",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32933,
+          "chapter_name": "5 王子，结果出炉。",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32934,
+          "chapter_name": "6 王子，然后……。",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32935,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

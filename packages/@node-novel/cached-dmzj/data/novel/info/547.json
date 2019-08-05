@@ -16,40 +16,40 @@
   ],
   "authors": "篠原美季",
   "first_letter": "Y",
-  "subscribe_num": 495,
-  "redis_update_time": 1564123311,
+  "subscribe_num": 497,
+  "redis_update_time": 1564988667,
   "volume": [
     {
       "id": 2052,
       "lnovel_id": 547,
-      "volume_name": "英国妖异谭\r",
+      "volume_name": "英国妖异谭",
       "volume_order": 10,
       "addtime": 1274918850,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 2053,
       "lnovel_id": 547,
-      "volume_name": "叹息的肖像画\r",
+      "volume_name": "叹息的肖像画",
       "volume_order": 20,
       "addtime": 1274918850,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 2054,
       "lnovel_id": 547,
-      "volume_name": "被困的独角兽\r",
+      "volume_name": "被困的独角兽",
       "volume_order": 30,
       "addtime": 1274918850,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 2055,
       "lnovel_id": 547,
-      "volume_name": "无尽的德鲁伊誓约\r",
+      "volume_name": "无尽的德鲁伊誓约",
       "volume_order": 40,
       "addtime": 1274918850,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 8909,
@@ -57,7 +57,249 @@
       "volume_name": "第五卷 死者之灯火",
       "volume_order": 50,
       "addtime": 1503148534,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2052,
+      "id": 2052,
+      "volume_name": "英国妖异谭",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12029,
+          "chapter_name": "百物语的夜晚",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12030,
+          "chapter_name": "来自过去的访问者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12031,
+          "chapter_name": "魔女的呼声",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12032,
+          "chapter_name": "时之楔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12033,
+          "chapter_name": "倒映在水中之影",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12034,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12035,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 2053,
+      "id": 2053,
+      "volume_name": "叹息的肖像画",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12036,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12037,
+          "chapter_name": "彼此的假日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12038,
+          "chapter_name": "错过的心",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12039,
+          "chapter_name": "谋划",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12040,
+          "chapter_name": "被诅咒的画像",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12041,
+          "chapter_name": "第五章 虚拟魔法",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12042,
+          "chapter_name": "第六章 来自过去的礼物",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12043,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2054,
+      "id": 2054,
+      "volume_name": "被困的独角兽",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12044,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12045,
+          "chapter_name": "第一章 塞纳河的水流",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12046,
+          "chapter_name": "幽灵城的请柬",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12047,
+          "chapter_name": "地下室的享宴",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12048,
+          "chapter_name": "纯洁的新娘",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12049,
+          "chapter_name": "圣兽归来",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12050,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12051,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2055,
+      "id": 2055,
+      "volume_name": "无尽的德鲁伊誓约",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12052,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12053,
+          "chapter_name": "被打扰的长眠",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12054,
+          "chapter_name": "黑炎",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12055,
+          "chapter_name": "黑炎",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12056,
+          "chapter_name": "白衣的贤人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12057,
+          "chapter_name": "植物的传言",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12058,
+          "chapter_name": "植物的传言",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12059,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12060,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 8909,
+      "id": 8909,
+      "volume_name": "第五卷 死者之灯火",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 78754,
+          "chapter_name": "转载信息",
+          "chapter_order": 4
+        },
+        {
+          "chapter_id": 78753,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 78755,
+          "chapter_name": "第一章 欢喜骚动的人们",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 78756,
+          "chapter_name": "第二章 死者的失物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 78757,
+          "chapter_name": "第三章 幽灵的真相",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 78758,
+          "chapter_name": "第四章 杰克·O·兰达",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 78759,
+          "chapter_name": "第五章 万圣节的宵祭（Halloween）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 78760,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

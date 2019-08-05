@@ -3,7 +3,7 @@
   "name": "银飘扬",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2706,
   "last_update_chapter_id": 15140,
@@ -16,16 +16,61 @@
   ],
   "authors": "有沢まみず",
   "first_letter": "Y",
-  "subscribe_num": 427,
-  "redis_update_time": 1564302432,
+  "subscribe_num": 434,
+  "redis_update_time": 1565019835,
   "volume": [
     {
       "id": 2706,
       "lnovel_id": 795,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1276254070,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2706,
+      "id": 2706,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 15134,
+          "chapter_name": "序章 改变世界的邂逅",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15135,
+          "chapter_name": "第一章 冬色眼眸",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15136,
+          "chapter_name": "第二章 雪舞",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15137,
+          "chapter_name": "第三章 矛盾心态·核心·保护",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15138,
+          "chapter_name": "第四章 银光闪耀的花朵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15139,
+          "chapter_name": "第五章 羁绊",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15140,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

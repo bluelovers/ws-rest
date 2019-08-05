@@ -1,9 +1,9 @@
 {
   "id": 104,
-  "name": "EME　BLUE",
+  "name": "EME BLUE",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 潘多拉之盒\r",
+  "last_update_volume_name": "第二卷 潘多拉之盒",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 366,
   "last_update_chapter_id": 2281,
@@ -17,23 +17,51 @@
   "authors": "泷川武司",
   "first_letter": "E",
   "subscribe_num": 84,
-  "redis_update_time": 1563632176,
+  "redis_update_time": 1564458061,
   "volume": [
     {
       "id": 365,
       "lnovel_id": 104,
-      "volume_name": "第一卷 阿修罗之手\r",
+      "volume_name": "第一卷 阿修罗之手",
       "volume_order": 10,
       "addtime": 1274917880,
-      "sum_chapters": 8
+      "sum_chapters": 16
     },
     {
       "id": 366,
       "lnovel_id": 104,
-      "volume_name": "第二卷 潘多拉之盒\r",
+      "volume_name": "第二卷 潘多拉之盒",
       "volume_order": 20,
       "addtime": 1274917880,
-      "sum_chapters": 8
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 365,
+      "id": 365,
+      "volume_name": "第一卷 阿修罗之手",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2280,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 366,
+      "id": 366,
+      "volume_name": "第二卷 潘多拉之盒",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2281,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

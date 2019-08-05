@@ -3,7 +3,7 @@
   "name": "两个爱丽丝与不可思议的少女们",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 927,
   "last_update_chapter_id": 5337,
@@ -17,15 +17,30 @@
   "authors": "岡崎いずみ",
   "first_letter": "L",
   "subscribe_num": 99,
-  "redis_update_time": 1564125438,
+  "redis_update_time": 1564998241,
   "volume": [
     {
       "id": 927,
       "lnovel_id": 251,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918186,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 927,
+      "id": 927,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5337,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "夏日大作战",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "终幕",
   "last_update_volume_id": 2725,
   "last_update_chapter_id": 15222,
@@ -16,16 +16,56 @@
   ],
   "authors": "岩井恭平",
   "first_letter": "X",
-  "subscribe_num": 1295,
-  "redis_update_time": 1564309127,
+  "subscribe_num": 1300,
+  "redis_update_time": 1565021361,
   "volume": [
     {
       "id": 2725,
       "lnovel_id": 798,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1276307785,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2725,
+      "id": 2725,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 15217,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15218,
+          "chapter_name": "第一阵",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15219,
+          "chapter_name": "第二阵",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15220,
+          "chapter_name": "第三阵",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15221,
+          "chapter_name": "第四阵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15222,
+          "chapter_name": "终幕",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

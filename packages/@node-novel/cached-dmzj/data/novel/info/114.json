@@ -3,7 +3,7 @@
   "name": "风水学园",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "凶星城的最终决战\r",
+  "last_update_volume_name": "凶星城的最终决战",
   "last_update_chapter_name": "五章 祗王",
   "last_update_volume_id": 420,
   "last_update_chapter_id": 2623,
@@ -17,71 +17,327 @@
   "authors": "夏绿",
   "first_letter": "F",
   "subscribe_num": 294,
-  "redis_update_time": 1564217136,
+  "redis_update_time": 1565022840,
   "volume": [
     {
       "id": 413,
       "lnovel_id": 114,
-      "volume_name": "黄昏时刻的黑猫\r",
+      "volume_name": "黄昏时刻的黑猫",
       "volume_order": 10,
       "addtime": 1274917905,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 414,
       "lnovel_id": 114,
-      "volume_name": "神风的姬巫女\r",
+      "volume_name": "神风的姬巫女",
       "volume_order": 20,
       "addtime": 1274917905,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 415,
       "lnovel_id": 114,
-      "volume_name": "珊瑚礁的夏人鱼\r",
+      "volume_name": "珊瑚礁的夏人鱼",
       "volume_order": 30,
       "addtime": 1274917905,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 416,
       "lnovel_id": 114,
-      "volume_name": "暗剑杀的魔王\r",
+      "volume_name": "暗剑杀的魔王",
       "volume_order": 40,
       "addtime": 1274917905,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 417,
       "lnovel_id": 114,
-      "volume_name": "首冢的夜叉姬\r",
+      "volume_name": "首冢的夜叉姬",
       "volume_order": 50,
       "addtime": 1274917905,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 418,
       "lnovel_id": 114,
-      "volume_name": "神无月的学园祭\r",
+      "volume_name": "神无月的学园祭",
       "volume_order": 60,
       "addtime": 1274917905,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 419,
       "lnovel_id": 114,
-      "volume_name": "太阁的魔城\r",
+      "volume_name": "太阁的魔城",
       "volume_order": 70,
       "addtime": 1274917905,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 420,
       "lnovel_id": 114,
-      "volume_name": "凶星城的最终决战\r",
+      "volume_name": "凶星城的最终决战",
       "volume_order": 80,
       "addtime": 1274917905,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 413,
+      "id": 413,
+      "volume_name": "黄昏时刻的黑猫",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2586,
+          "chapter_name": "一章 欢迎光临魔法建筑专门学校",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2587,
+          "chapter_name": "二章 不可一世的狂妄妖怪?蛟！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2588,
+          "chapter_name": "三章 大祸时刻的校外实习",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2589,
+          "chapter_name": "四章 怪猫之馆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2590,
+          "chapter_name": "五章 黄泉比良坂",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2591,
+          "chapter_name": "六章 诸神乐土",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 414,
+      "id": 414,
+      "volume_name": "神风的姬巫女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2592,
+          "chapter_name": "一章 狩猎式神",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2593,
+          "chapter_name": "二章 风之巫女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2594,
+          "chapter_name": "三章 疾风妖怪?鸠盘荼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2595,
+          "chapter_name": "四章 窒塞的异界之门",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2596,
+          "chapter_name": "五章 巫蛊",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 415,
+      "id": 415,
+      "volume_name": "珊瑚礁的夏人鱼",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 2597,
+          "chapter_name": "一章 炎夏的秋叶原~秋津志摩的暑假篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2598,
+          "chapter_name": "二章 热带孤岛的野炊~浅间石那的暑假篇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2599,
+          "chapter_name": "三章 水晶砂的出海口~谏早东日流的暑假篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2600,
+          "chapter_name": "四章 烟火之夜的少女心~星祭文月的暑假篇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2601,
+          "chapter_name": "五章 邪魔歪道受死吧——榎小角的暑假篇",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 416,
+      "id": 416,
+      "volume_name": "暗剑杀的魔王",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 2602,
+          "chapter_name": "一章 九月的魔法",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2603,
+          "chapter_name": "二章 受诅咒的学园",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2604,
+          "chapter_name": "三章 灵道的去向",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2605,
+          "chapter_name": "四章 孔雀的阴谋",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2606,
+          "chapter_name": "五章 暗剑杀的潜影",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 417,
+      "id": 417,
+      "volume_name": "首冢的夜叉姬",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 2607,
+          "chapter_name": "一章消失的首级",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2608,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2609,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 418,
+      "id": 418,
+      "volume_name": "神无月的学园祭",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 2610,
+          "chapter_name": "一章 草薙小姐选美",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2611,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2612,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2613,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 419,
+      "id": 419,
+      "volume_name": "太阁的魔城",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 2614,
+          "chapter_name": "一章 目的地，难波！",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2615,
+          "chapter_name": "二章 无法实现的爱恋",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2616,
+          "chapter_name": "三章 东奔西跑的大阪城",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2617,
+          "chapter_name": "四章 四百年的阴谋",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2618,
+          "chapter_name": "五章 往西前进",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 420,
+      "id": 420,
+      "volume_name": "凶星城的最终决战",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 2619,
+          "chapter_name": "一章 神在月",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2620,
+          "chapter_name": "二章 成灾之物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2621,
+          "chapter_name": "三章 骸之城",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2622,
+          "chapter_name": "四章 蝇折",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2623,
+          "chapter_name": "五章 祗王",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

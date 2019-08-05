@@ -3,7 +3,7 @@
   "name": "风水天戏",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 开启吧！命运的门扉\r",
+  "last_update_volume_name": "第一卷 开启吧！命运的门扉",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3891,
   "last_update_chapter_id": 23470,
@@ -17,15 +17,70 @@
   "authors": "望月もらん",
   "first_letter": "F",
   "subscribe_num": 22,
-  "redis_update_time": 1563989844,
+  "redis_update_time": 1564975582,
   "volume": [
     {
       "id": 3891,
       "lnovel_id": 1100,
-      "volume_name": "第一卷 开启吧！命运的门扉\r",
+      "volume_name": "第一卷 开启吧！命运的门扉",
       "volume_order": 10,
       "addtime": 1314606910,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3891,
+      "id": 3891,
+      "volume_name": "第一卷 开启吧！命运的门扉",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23462,
+          "chapter_name": "人物简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23463,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23464,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23465,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23466,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23467,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23468,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 23469,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 23470,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

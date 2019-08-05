@@ -12,12 +12,14 @@
   "hot_hits": 122954,
   "introduction": "描绘京都过去篇中大头领滑瓢与璎姬的后续喜事、鸩与黑羽丸遭遇的怪异奇谈……栖身于浮世绘町的妖怪们离奇古怪的日常生活，即将揭晓！『妖怪少爷』小说版浮世绘町绮谭，在此揭开序幕——！",
   "types": [
-    "神鬼/校园/冒险"
+    "神鬼",
+    "校园",
+    "冒险"
   ],
   "authors": "大崎知仁",
   "first_letter": "H",
-  "subscribe_num": 2414,
-  "redis_update_time": 1564312901,
+  "subscribe_num": 2428,
+  "redis_update_time": 1564965313,
   "volume": [
     {
       "id": 4098,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 浮世绘町绮谭",
       "volume_order": 10,
       "addtime": 1323139053,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4377,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 大江户奴良组始末",
       "volume_order": 20,
       "addtime": 1333259734,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4479,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 京都梦幻夜话",
       "volume_order": 30,
       "addtime": 1337760790,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4916,
@@ -49,7 +51,131 @@
       "volume_name": "第四卷 帝都鲤物语",
       "volume_order": 40,
       "addtime": 1355589011,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4098,
+      "id": 4098,
+      "volume_name": "第一卷 浮世绘町绮谭",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 25338,
+          "chapter_name": "登场人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25339,
+          "chapter_name": "第一幕 化猫屋骚动记",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25340,
+          "chapter_name": "第二幕 药鸩堂日志",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25341,
+          "chapter_name": "第三幕 三羽鸦与千之夜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25342,
+          "chapter_name": "第四幕 浮世绘町喜事·樱花",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25343,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 4377,
+      "id": 4377,
+      "volume_name": "第二卷 大江户奴良组始末",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 27636,
+          "chapter_name": "第一幕 大江户育儿经",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27637,
+          "chapter_name": "第二幕 远野过客录",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27638,
+          "chapter_name": "第三幕 京都妖怪始末记",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27639,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 4479,
+      "id": 4479,
+      "volume_name": "第三卷 京都梦幻夜话",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 28481,
+          "chapter_name": "第一幕 暗冥之馆·少女与狐狸",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28482,
+          "chapter_name": "第二幕 带子妖怪采买记",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28483,
+          "chapter_name": "第三幕 吉原绫取草子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28484,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 4916,
+      "id": 4916,
+      "volume_name": "第四卷 帝都鲤物语",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 32378,
+          "chapter_name": "第一幕 奴良组讨伐觉悟",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32379,
+          "chapter_name": "第二幕 帝都鲤物语",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32380,
+          "chapter_name": "第三幕 清十字怪奇侦探团档案",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32381,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "温柔的12人杀人屋－ZODIAC STORIES－",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "飞鸟勇气－巨蟹宫－",
   "last_update_volume_id": 3215,
   "last_update_chapter_id": 18162,
@@ -17,23 +17,81 @@
   "authors": "12x男",
   "first_letter": "W",
   "subscribe_num": 79,
-  "redis_update_time": 1564015353,
+  "redis_update_time": 1564911689,
   "volume": [
     {
       "id": 3214,
       "lnovel_id": 912,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1286868902,
-      "sum_chapters": 13
+      "sum_chapters": 12
     },
     {
       "id": 3215,
       "lnovel_id": 912,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1286868902,
-      "sum_chapters": 13
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3214,
+      "id": 3214,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 18155,
+          "chapter_name": "角坂翔－白羊宫－",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18156,
+          "chapter_name": "爱染良彦－双鱼宫－",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18157,
+          "chapter_name": "天野隼人－处女宫－",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18158,
+          "chapter_name": "武内直树－人马宫（射手宫）－",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 3215,
+      "id": 3215,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 18159,
+          "chapter_name": "醍醐小太郎－狮子宫－",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18160,
+          "chapter_name": "宗像健一－魔羯宫－",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18161,
+          "chapter_name": "葛叶凉－天蝎宫－",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18162,
+          "chapter_name": "飞鸟勇气－巨蟹宫－",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

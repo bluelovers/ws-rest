@@ -3,7 +3,7 @@
   "name": "圣工的末裔",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1611,
   "last_update_chapter_id": 9314,
@@ -22,10 +22,50 @@
     {
       "id": 1611,
       "lnovel_id": 424,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918574,
       "sum_chapters": 13
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1611,
+      "id": 1611,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9309,
+          "chapter_name": "第一章 迷宫街",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9310,
+          "chapter_name": "第二章 石像",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9311,
+          "chapter_name": "第三章 制造者与使用者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9312,
+          "chapter_name": "第四章 一夜传说",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9313,
+          "chapter_name": "终章 在恬淡的时光中",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9314,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

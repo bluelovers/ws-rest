@@ -3,7 +3,7 @@
   "name": "夏目友人帐",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全一卷\r",
+  "last_update_volume_name": "全一卷",
   "last_update_chapter_name": "下",
   "last_update_volume_id": 1965,
   "last_update_chapter_id": 11583,
@@ -16,16 +16,36 @@
   ],
   "authors": "绿川幸",
   "first_letter": "X",
-  "subscribe_num": 2540,
-  "redis_update_time": 1564310564,
+  "subscribe_num": 2552,
+  "redis_update_time": 1565030730,
   "volume": [
     {
       "id": 1965,
       "lnovel_id": 519,
-      "volume_name": "全一卷\r",
+      "volume_name": "全一卷",
       "volume_order": 10,
       "addtime": 1274918797,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1965,
+      "id": 1965,
+      "volume_name": "全一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11582,
+          "chapter_name": "上",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11583,
+          "chapter_name": "下",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

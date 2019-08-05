@@ -3,7 +3,7 @@
   "name": "某一天，炸弹从天而降",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1131,
   "last_update_chapter_id": 6502,
@@ -16,16 +16,66 @@
   ],
   "authors": "古桥秀之",
   "first_letter": "M",
-  "subscribe_num": 876,
-  "redis_update_time": 1564304454,
+  "subscribe_num": 878,
+  "redis_update_time": 1565013593,
   "volume": [
     {
       "id": 1131,
       "lnovel_id": 296,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918295,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1131,
+      "id": 1131,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6495,
+          "chapter_name": "某一天，炸弹从天而降",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6496,
+          "chapter_name": "快快长大",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6497,
+          "chapter_name": "爱恋亡者之夜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6498,
+          "chapter_name": "小神仙",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6499,
+          "chapter_name": "出席座位0号",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6500,
+          "chapter_name": "第三节课的加贺圆",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6501,
+          "chapter_name": "从前，炸弹从天而降",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6502,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

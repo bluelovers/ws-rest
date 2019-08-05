@@ -12,28 +12,30 @@
   "hot_hits": 333451,
   "introduction": "白银武是白陵大学附属榜学园3年B班的学生，每天早上过着由住在隔壁的青梅竹马·鉴纯夏叫自己起床的日子。\n然而在某天早晨，平稳的日常生活突如其来地结束了。\n武一觉醒来，发现他旁边睡的竟然是大财阀的继承人——御剑冥夜!\n她自称与武之间以绝对的命运连结在一起，而冥夜的登场更是引爆了大骚动以及大问题!在欢乐的日常生活里，命运的齿轮开始转动了!!\n\n 泉川生徒会",
   "types": [
-    "科幻/机战/战争"
+    "科幻",
+    "机战",
+    "战争"
   ],
   "authors": "北侧寒围",
   "first_letter": "M",
-  "subscribe_num": 2724,
-  "redis_update_time": 1564291990,
+  "subscribe_num": 2731,
+  "redis_update_time": 1565011499,
   "volume": [
     {
       "id": 2679,
       "lnovel_id": 786,
-      "volume_name": "第一卷 命运\r",
+      "volume_name": "第一卷 命运",
       "volume_order": 10,
       "addtime": 1275957769,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2680,
       "lnovel_id": 786,
-      "volume_name": "第二卷 友情\r",
+      "volume_name": "第二卷 友情",
       "volume_order": 20,
       "addtime": 1275957769,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2685,
@@ -41,7 +43,7 @@
       "volume_name": "第三卷 战争",
       "volume_order": 30,
       "addtime": 1276047428,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3027,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷 战败",
       "volume_order": 40,
       "addtime": 1278907275,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4610,
@@ -57,7 +59,7 @@
       "volume_name": "第五卷 再起",
       "volume_order": 50,
       "addtime": 1343902658,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4091,
@@ -65,7 +67,7 @@
       "volume_name": "第六卷 流转",
       "volume_order": 60,
       "addtime": 1323054412,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4543,
@@ -73,7 +75,270 @@
       "volume_name": "第七卷 决战",
       "volume_order": 70,
       "addtime": 1341297165,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2679,
+      "id": 2679,
+      "volume_name": "第一卷 命运",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23824,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2680,
+      "id": 2680,
+      "volume_name": "第二卷 友情",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 23825,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2685,
+      "id": 2685,
+      "volume_name": "第三卷 战争",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 15020,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15021,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15022,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15023,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15024,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15025,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15026,
+          "chapter_name": "中场休息",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 15027,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3027,
+      "id": 3027,
+      "volume_name": "第四卷 战败",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 16856,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16857,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17088,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17089,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17090,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17091,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17092,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 17093,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4610,
+      "id": 4610,
+      "volume_name": "第五卷 再起",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 29694,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29695,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29696,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29697,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29698,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29699,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29700,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4091,
+      "id": 4091,
+      "volume_name": "第六卷 流转",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 25284,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25285,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25286,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25287,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25288,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25289,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25290,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4543,
+      "id": 4543,
+      "volume_name": "第七卷 决战",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 29096,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 29097,
+          "chapter_name": "二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 29098,
+          "chapter_name": "一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 29099,
+          "chapter_name": "三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 29100,
+          "chapter_name": "四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 29101,
+          "chapter_name": "五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 29102,
+          "chapter_name": "Final EXTRA",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 29103,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 29104,
+          "chapter_name": "解说",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

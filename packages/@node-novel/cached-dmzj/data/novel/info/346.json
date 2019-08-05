@@ -1,9 +1,9 @@
 {
   "id": 346,
-  "name": "秋之回忆　从今以后Again",
+  "name": "秋之回忆 从今以后Again",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "藤原雅篇\r",
+  "last_update_volume_name": "藤原雅篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1296,
   "last_update_chapter_id": 7397,
@@ -16,32 +16,73 @@
   ],
   "authors": "KID",
   "first_letter": "Q",
-  "subscribe_num": 329,
-  "redis_update_time": 1564189721,
+  "subscribe_num": 333,
+  "redis_update_time": 1565018222,
   "volume": [
     {
       "id": 1294,
       "lnovel_id": 346,
-      "volume_name": "陵祈篇\r",
+      "volume_name": "陵祈篇",
       "volume_order": 10,
       "addtime": 1274918392,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1295,
       "lnovel_id": 346,
-      "volume_name": "花祭果凛篇\r",
+      "volume_name": "花祭果凛篇",
       "volume_order": 20,
       "addtime": 1274918392,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1296,
       "lnovel_id": 346,
-      "volume_name": "藤原雅篇\r",
+      "volume_name": "藤原雅篇",
       "volume_order": 30,
       "addtime": 1274918392,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1294,
+      "id": 1294,
+      "volume_name": "陵祈篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 7395,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1295,
+      "id": 1295,
+      "volume_name": "花祭果凛篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 7396,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1296,
+      "id": 1296,
+      "volume_name": "藤原雅篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 7397,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -12,20 +12,21 @@
   "hot_hits": 39315,
   "introduction": "「我要将我走过的道路与看见的东西描绘下来。这就是我的地图。」\n聪慧又年轻的公主「理娜」与负责保护她的骑士们，奉理娜的父王之命，为了制作地图启程前往边境，但途中却遭遇来路不明的集团攻击。在他们千钧一发之际，被流浪佣兵「达尔」所救。不管发生什么事也要完成任务的理娜，以及被她雇用为临时护卫的达尔，在制作地图的旅途中击退妖魔与夜盗，同时掌握了在宫廷中酝酿的阴谋。但在此同时，沉眠于边境迷宫中的强大势力也正要觉醒……\n由正统派奇幻新锐作家所献上的「本格地图奇幻故事」。",
   "types": [
-    "冒险/奇幻"
+    "冒险",
+    "奇幻"
   ],
   "authors": "川口士",
   "first_letter": "X",
-  "subscribe_num": 436,
-  "redis_update_time": 1564299487,
+  "subscribe_num": 439,
+  "redis_update_time": 1564939077,
   "volume": [
     {
       "id": 4123,
       "lnovel_id": 1157,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1323757708,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5219,
@@ -33,7 +34,7 @@
       "volume_name": "短篇",
       "volume_order": 20,
       "addtime": 1366613993,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5220,
@@ -41,7 +42,7 @@
       "volume_name": "第二卷",
       "volume_order": 30,
       "addtime": 1366614006,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5788,
@@ -49,7 +50,191 @@
       "volume_name": "第三卷",
       "volume_order": 40,
       "addtime": 1390890312,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4123,
+      "id": 4123,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 25531,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25532,
+          "chapter_name": "1 日暮时分的蔚蓝眼瞳",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25533,
+          "chapter_name": "2 启程之日",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25534,
+          "chapter_name": "3 靠海的城镇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25535,
+          "chapter_name": "4 空洞的骑士",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25536,
+          "chapter_name": "5 理娜的地图",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25537,
+          "chapter_name": "6 第六区",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25538,
+          "chapter_name": "7 前往岛屿",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 25539,
+          "chapter_name": "8 黑暗的地底",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 25540,
+          "chapter_name": "尾声",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 25541,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 5219,
+      "id": 5219,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 34877,
+          "chapter_name": "贫穷公主帕尔薇",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 5220,
+      "id": 5220,
+      "volume_name": "第二卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 34878,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34879,
+          "chapter_name": "1 只要登上这座山",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34880,
+          "chapter_name": "2 环山邻森的城镇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34881,
+          "chapter_name": "3 米耶尔的巫女",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34882,
+          "chapter_name": "4 精灵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34883,
+          "chapter_name": "5 混沌",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34884,
+          "chapter_name": "6 掳掠公主的龙",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 34885,
+          "chapter_name": "7 银之翼",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 34886,
+          "chapter_name": "8 给再次启程的你",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 34887,
+          "chapter_name": "后记～片尾NG集～",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 5788,
+      "id": 5788,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 39751,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39752,
+          "chapter_name": "1 两位公主",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39753,
+          "chapter_name": "2 异国之都",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39754,
+          "chapter_name": "3 敌人是海贼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39755,
+          "chapter_name": "4 绘制海图",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39756,
+          "chapter_name": "5 星图咏",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39757,
+          "chapter_name": "终 蓝色的归宿",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39758,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

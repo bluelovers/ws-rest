@@ -3,7 +3,7 @@
   "name": "灼热的龙骑兵",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第三卷\r",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2270,
   "last_update_chapter_id": 13227,
@@ -16,32 +16,108 @@
   ],
   "authors": "田中芳树",
   "first_letter": "Z",
-  "subscribe_num": 343,
-  "redis_update_time": 1564305687,
+  "subscribe_num": 345,
+  "redis_update_time": 1565018848,
   "volume": [
     {
       "id": 2268,
       "lnovel_id": 605,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918977,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2269,
       "lnovel_id": 605,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918977,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 2270,
       "lnovel_id": 605,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918977,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2268,
+      "id": 2268,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13218,
+          "chapter_name": "楔 子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13219,
+          "chapter_name": "第一章 灰褐色的行星",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13220,
+          "chapter_name": "第二章 暴风雨之前",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13221,
+          "chapter_name": "第三章 下水道",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13222,
+          "chapter_name": "第四章 地下激流奔腾、地上战火绵延",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13223,
+          "chapter_name": "第六章 赛安(Zaione)一个月纷争的结局",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 13224,
+          "chapter_name": "历史年表",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 13225,
+          "chapter_name": "行星档案",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2269,
+      "id": 2269,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13226,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2270,
+      "id": 2270,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 13227,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

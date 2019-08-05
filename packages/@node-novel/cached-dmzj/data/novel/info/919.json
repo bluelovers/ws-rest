@@ -10,22 +10,23 @@
   "last_update_time": 1323229742,
   "cover": "https://xs.dmzj.com/img/webpic/22/yuhuocui.jpg",
   "hot_hits": 35367,
-  "introduction": "    高中生神薙红莲自幼受到父母的人体实验与改造，在一次偶然的情况下，他遭遇寄宿在人类身上的恶鬼－「宿鬼」袭击，在危险之际，他变身成为对宿鬼武器「修罗奇兵」，更遇见了自古以来狩猎宿鬼的秘密组织「御火槌」，为了恢复成为平凡人类，和青梅竹马的笹原琴音重新过着平凡生活，红莲于是加入「御火槌」，踏上狩猎宿鬼的修罗之路。\n\n",
+  "introduction": "    高中生神薙红莲自幼受到父母的人体实验与改造，在一次偶然的情况下，他遭遇寄宿在人类身上的恶鬼－「宿鬼」袭击，在危险之际，他变身成为对宿鬼武器「修罗奇兵」，更遇见了自古以来狩猎宿鬼的秘密组织「御火槌」，为了恢复成为平凡人类，和青梅竹马的笹原琴音重新过着平凡生活，红莲于是加入「御火槌」，踏上狩猎宿鬼的修罗之路。",
   "types": [
-    "神鬼/冒险"
+    "神鬼",
+    "冒险"
   ],
   "authors": "榊一郎",
   "first_letter": "Y",
   "subscribe_num": 144,
-  "redis_update_time": 1564078888,
+  "redis_update_time": 1564951953,
   "volume": [
     {
       "id": 3229,
       "lnovel_id": 919,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1287646317,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 4103,
@@ -33,7 +34,80 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1323229721,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3229,
+      "id": 3229,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 18244,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18245,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18246,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18247,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18248,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18249,
+          "chapter_name": "插图",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 4103,
+      "id": 4103,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 25381,
+          "chapter_name": "间章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25382,
+          "chapter_name": "第四章 未婚妻的少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25383,
+          "chapter_name": "第五章 平凡的结束",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25384,
+          "chapter_name": "终章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25385,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

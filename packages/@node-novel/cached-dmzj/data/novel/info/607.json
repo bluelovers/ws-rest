@@ -1,6 +1,6 @@
 {
   "id": 607,
-  "name": "真·恋姬无双　少女缭乱　三国志演义",
+  "name": "真·恋姬无双 少女缭乱 三国志演义",
   "zone": "日本",
   "status": "已完结",
   "last_update_volume_name": "第一卷 蜀书 外史 荒野决战",
@@ -16,8 +16,8 @@
   ],
   "authors": "小林正亲",
   "first_letter": "Z",
-  "subscribe_num": 782,
-  "redis_update_time": 1564313666,
+  "subscribe_num": 789,
+  "redis_update_time": 1565017219,
   "volume": [
     {
       "id": 2273,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 蜀书 外史 荒野决战",
       "volume_order": 10,
       "addtime": 1274918980,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3045,
@@ -33,7 +33,75 @@
       "volume_name": "第二卷 吴书 外史 海战！邪马台国",
       "volume_order": 20,
       "addtime": 1279966401,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2273,
+      "id": 2273,
+      "volume_name": "第一卷 蜀书 外史 荒野决战",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13245,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16970,
+          "chapter_name": "插图",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 3045,
+      "id": 3045,
+      "volume_name": "第二卷 吴书 外史 海战！邪马台国",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 16962,
+          "chapter_name": "一幕 在那之后的天之使者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16963,
+          "chapter_name": "二幕 来自邪马台国的使者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16964,
+          "chapter_name": "三幕 日出之国的海战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16965,
+          "chapter_name": "四幕 能成神入魔之力",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 16966,
+          "chapter_name": "五幕 天之使者的战斗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 16967,
+          "chapter_name": "终幕 未竟之梦",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 16968,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 16969,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

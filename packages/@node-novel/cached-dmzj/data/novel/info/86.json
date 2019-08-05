@@ -12,20 +12,21 @@
   "hot_hits": 174365,
   "introduction": "在08年引起一阵阅读热潮的轻小说《对某飞行员的追忆》的后续作品《对某飞行员的恋歌》，恋爱和空战的故事再临。\n“追忆”故事主要讲述了出身卑微的少年梦想成为一名飞行员，和一名候补皇妃的恋爱故事。\n本次恋歌则讲述的是因为6年前的革命而失去一切的原皇子卡鲁艾露，和被称为革命的旗印的呼风少女尼娜一起到空中的岛屿 ISURA的故事。\n世界观继承了“追忆”，恋爱和空战的又一个故事。继追忆之后，犬村老师又将给我们带来怎样的感人故事，请拭目以待！\n\n 澄空学园",
   "types": [
-    "爱情/战争"
+    "爱情",
+    "战争"
   ],
   "authors": "犬村小六",
   "first_letter": "D",
-  "subscribe_num": 2494,
-  "redis_update_time": 1564281379,
+  "subscribe_num": 2504,
+  "redis_update_time": 1565031596,
   "volume": [
     {
       "id": 326,
       "lnovel_id": 86,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917859,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3321,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1291600026,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3933,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1316401021,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3934,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1316401026,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4504,
@@ -57,7 +58,139 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1338775971,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 326,
+      "id": 326,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2040,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3321,
+      "id": 3321,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 19002,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19003,
+          "chapter_name": "第一章 圣特汝尔",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19004,
+          "chapter_name": "第二章 艾黎儿与克莉亚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19005,
+          "chapter_name": "第三章 星星、大海与克莉亚",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 3933,
+      "id": 3933,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 23899,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23900,
+          "chapter_name": "第一章 夏夜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23901,
+          "chapter_name": "第二章 圣泉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23902,
+          "chapter_name": "第三章 散花",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23903,
+          "chapter_name": "第四章 鸟的名字",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 3934,
+      "id": 3934,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 23904,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23905,
+          "chapter_name": "第一章 你的名字是……",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23906,
+          "chapter_name": "第二章 复仇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23907,
+          "chapter_name": "第三章 射击观测",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23908,
+          "chapter_name": "第四章 恋歌",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4504,
+      "id": 4504,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 28692,
+          "chapter_name": "第一章 约定",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28693,
+          "chapter_name": "第二章 天空的尽头",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28694,
+          "chapter_name": "终章 伊斯拉返回的场所",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 26537,
   "introduction": "开学仪式的早上，和这位被称为“世界灾难的魔女”的她邂逅的我。在不经意间被她的魔术“理操魔术”击中了。这好像不是什么普通的事情吧！所以不管怎么说，怎么会有「我是危险的人→要是有想法的话就放心了→不管怎样看都是情侣相→普通的呆在一起」这种结论……「那种讨人厌的脸，减3点」这是什么计分制？「惊讶的表情，并不讨厌，加2点」，这种事你就饶了我吧！常识掺杂着魔术的校园故事，开幕！",
   "types": [
-    "魔法/校园/搞笑"
+    "魔法",
+    "校园",
+    "搞笑"
   ],
   "authors": "土屋司",
   "first_letter": "L",
-  "subscribe_num": 265,
-  "redis_update_time": 1564260029,
+  "subscribe_num": 266,
+  "redis_update_time": 1564816915,
   "volume": [
     {
       "id": 5064,
@@ -25,7 +27,67 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1361171469,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5064,
+      "id": 5064,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 33546,
+          "chapter_name": "序章 四月八日 Rule's rule",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33547,
+          "chapter_name": "第一章 同一天 现场舞台",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33548,
+          "chapter_name": "第二章 四月九日 欧洲文化研究会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33549,
+          "chapter_name": "第三章 四月十日 两名女生来访者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33550,
+          "chapter_name": "第四章 四月十一日，猫的后脚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33551,
+          "chapter_name": "第五章 四月十二日 丸最大的失败",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 33552,
+          "chapter_name": "第六章 同一天 夜里的学校冒险",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 33553,
+          "chapter_name": "终章 四月十三日 星期六的部活动",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 33554,
+          "chapter_name": "幕间 四月十四日 三人三种休息日。",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 33555,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

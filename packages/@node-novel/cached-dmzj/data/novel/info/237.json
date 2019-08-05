@@ -3,7 +3,7 @@
   "name": "空之境界",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "未来福音\r",
+  "last_update_volume_name": "未来福音",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 861,
   "last_update_chapter_id": 4871,
@@ -16,24 +16,97 @@
   ],
   "authors": "奈须きのこ",
   "first_letter": "K",
-  "subscribe_num": 52355,
-  "redis_update_time": 1564311969,
+  "subscribe_num": 52691,
+  "redis_update_time": 1565035910,
   "volume": [
     {
       "id": 860,
       "lnovel_id": 237,
-      "volume_name": "空之境界\r",
+      "volume_name": "空之境界",
       "volume_order": 10,
       "addtime": 1274918148,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 861,
       "lnovel_id": 237,
-      "volume_name": "未来福音\r",
+      "volume_name": "未来福音",
       "volume_order": 20,
       "addtime": 1274918148,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 860,
+      "id": 860,
+      "volume_name": "空之境界",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4861,
+          "chapter_name": "第一章 俯瞰风景",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 4862,
+          "chapter_name": "第二章 杀人考察(前)",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 4863,
+          "chapter_name": "第三章 痛觉残留",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 4864,
+          "chapter_name": "第四章 伽蓝之洞",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 4865,
+          "chapter_name": "境界式",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 4866,
+          "chapter_name": "第五章 矛盾螺旋",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 4867,
+          "chapter_name": "第六章 忘却录音",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 4868,
+          "chapter_name": "境界式",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 4869,
+          "chapter_name": "第七章 杀人考察（后）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 4870,
+          "chapter_name": "尾声",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 861,
+      "id": 861,
+      "volume_name": "未来福音",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 4871,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

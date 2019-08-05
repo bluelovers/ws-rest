@@ -3,29 +3,84 @@
   "name": "狐笛的彼方",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3565,
   "last_update_chapter_id": 20775,
   "last_update_time": 1301630012,
   "cover": "https://xs.dmzj.com/img/webpic/6/hddbf.jpg",
   "hot_hits": 7529,
-  "introduction": "　　拥有“心耳”能力的少女小夜，从懂事以来就跟奶奶住在远离村落的夜名森林一带。某天晚上，小夜在偶然的机缘下搭救受了伤的狐狸野火，一人一狐逃往传说中森林里那栋被诅咒的宅邸躲避杀机。命运的相遇，常年囚禁其中的少年小春丸与小夜结为密友；而在不远的地方，则有一双温柔的眼睛默默地守护着他们俩……\n　　原本是兄弟之国的汤来国与春名国，因为争夺水源长期对峙，控制人心的魔法在其间穿插运行；受狐笛所牵制，富有强大能力的灵狐野火，被迫成为人类间战争的箭矢。当春名国的继承人意外死亡，该由谁继位的问题点燃了两国角力的新战火。此时，大人世界的仇恨，不知不觉间已朝向分属敌对两国的小夜、小春丸，以及野火袭来；而隐藏在背后、关于他们三者各自的身世与秘密，也将随着这场魔法与人心的战役渐渐被掀开……\n\n",
+  "introduction": "　　拥有“心耳”能力的少女小夜，从懂事以来就跟奶奶住在远离村落的夜名森林一带。某天晚上，小夜在偶然的机缘下搭救受了伤的狐狸野火，一人一狐逃往传说中森林里那栋被诅咒的宅邸躲避杀机。命运的相遇，常年囚禁其中的少年小春丸与小夜结为密友；而在不远的地方，则有一双温柔的眼睛默默地守护着他们俩……\n　　原本是兄弟之国的汤来国与春名国，因为争夺水源长期对峙，控制人心的魔法在其间穿插运行；受狐笛所牵制，富有强大能力的灵狐野火，被迫成为人类间战争的箭矢。当春名国的继承人意外死亡，该由谁继位的问题点燃了两国角力的新战火。此时，大人世界的仇恨，不知不觉间已朝向分属敌对两国的小夜、小春丸，以及野火袭来；而隐藏在背后、关于他们三者各自的身世与秘密，也将随着这场魔法与人心的战役渐渐被掀开……",
   "types": [
     "神鬼"
   ],
   "authors": "上桥菜穗子",
   "first_letter": "H",
   "subscribe_num": 156,
-  "redis_update_time": 1564299926,
+  "redis_update_time": 1564937280,
   "volume": [
     {
       "id": 3565,
       "lnovel_id": 1014,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1301630006,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3565,
+      "id": 3565,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20767,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20768,
+          "chapter_name": "序章 邂逅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20769,
+          "chapter_name": "第一章 揭开封印",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20770,
+          "chapter_name": "第二章 术士与守护者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20771,
+          "chapter_name": "第三章 野火与小夜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20772,
+          "chapter_name": "第四章 诅咒的结局",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20773,
+          "chapter_name": "终章 情留若樱野",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20774,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20775,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

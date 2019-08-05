@@ -3,7 +3,7 @@
   "name": "兔子强尼",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第一卷 第二幕 强尼兔之小人物的安魂曲 A Faint Requiem",
   "last_update_volume_id": 3725,
   "last_update_chapter_id": 23869,
@@ -12,20 +12,56 @@
   "hot_hits": 8491,
   "introduction": "由黑手党养大的兔子强尼，在主人死后回到兔子世界，成立了一家侦探社。某天，它被委托寻找一只失踪的兔子，却意外寻获主人死亡的内幕。为了替主人报仇，它毅然回到人类世界，勇敢面对真实的黑帮火拼。本作由宠物兔（侦探）的眼光，来看人类世界的利益纷争及生死恶斗，虽然荒唐，但穿插于案件中的小动物本能反应，逗趣爆笑。",
   "types": [
-    "侦探/搞笑"
+    "侦探",
+    "搞笑"
   ],
   "authors": "东山彰良",
   "first_letter": "T",
-  "subscribe_num": 161,
-  "redis_update_time": 1564237041,
+  "subscribe_num": 166,
+  "redis_update_time": 1564942022,
   "volume": [
     {
       "id": 3725,
       "lnovel_id": 1053,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1308019858,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3725,
+      "id": 3725,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 22024,
+          "chapter_name": "开场白 欲穷摘月 Cry for the moon",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23868,
+          "chapter_name": "第一幕 强尼兔之枉为兔 No Longer Rabbit",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22026,
+          "chapter_name": "幕间 兔子向东尾朝西 When the Rabbit Hops His Tails Follows",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23869,
+          "chapter_name": "第二幕 强尼兔之小人物的安魂曲 A Faint Requiem",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22028,
+          "chapter_name": "落幕 蓝天里的强尼兔 Johnny in the Blue Sky",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

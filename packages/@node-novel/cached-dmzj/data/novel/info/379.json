@@ -3,7 +3,7 @@
   "name": "深宫幽情",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1405,
   "last_update_chapter_id": 8003,
@@ -16,16 +16,31 @@
   ],
   "authors": "冰室冴子",
   "first_letter": "S",
-  "subscribe_num": 144,
-  "redis_update_time": 1564243508,
+  "subscribe_num": 145,
+  "redis_update_time": 1565024026,
   "volume": [
     {
       "id": 1405,
       "lnovel_id": 379,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918456,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1405,
+      "id": 1405,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 8003,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

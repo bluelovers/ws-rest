@@ -1,9 +1,9 @@
 {
   "id": 441,
-  "name": "天元突破　红莲之眼",
+  "name": "天元突破 红莲之眼",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1665,
   "last_update_chapter_id": 9660,
@@ -16,16 +16,31 @@
   ],
   "authors": "砂山藏澄",
   "first_letter": "T",
-  "subscribe_num": 169,
-  "redis_update_time": 1564240150,
+  "subscribe_num": 170,
+  "redis_update_time": 1564992742,
   "volume": [
     {
       "id": 1665,
       "lnovel_id": 441,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918606,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1665,
+      "id": 1665,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9660,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

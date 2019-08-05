@@ -3,7 +3,7 @@
   "name": "少女爱上姐姐",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "奏线\r",
+  "last_update_volume_name": "奏线",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2524,
   "last_update_chapter_id": 14365,
@@ -16,56 +16,106 @@
   ],
   "authors": "キャラメルBOX",
   "first_letter": "S",
-  "subscribe_num": 1238,
-  "redis_update_time": 1564300823,
+  "subscribe_num": 1246,
+  "redis_update_time": 1565013522,
   "volume": [
     {
       "id": 2519,
       "lnovel_id": 719,
-      "volume_name": "紫苑线\r",
+      "volume_name": "紫苑线",
       "volume_order": 10,
       "addtime": 1275481537,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2520,
       "lnovel_id": 719,
-      "volume_name": "一子线\r",
+      "volume_name": "一子线",
       "volume_order": 20,
       "addtime": 1275481537,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2521,
       "lnovel_id": 719,
-      "volume_name": "贵子线\r",
+      "volume_name": "贵子线",
       "volume_order": 30,
       "addtime": 1275481537,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2522,
       "lnovel_id": 719,
-      "volume_name": "玛利亚线\r",
+      "volume_name": "玛利亚线",
       "volume_order": 40,
       "addtime": 1275481537,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2523,
       "lnovel_id": 719,
-      "volume_name": "由佳里线\r",
+      "volume_name": "由佳里线",
       "volume_order": 50,
       "addtime": 1275481537,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2524,
       "lnovel_id": 719,
-      "volume_name": "奏线\r",
+      "volume_name": "奏线",
       "volume_order": 60,
       "addtime": 1275481537,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2519,
+      "id": 2519,
+      "volume_name": "紫苑线",
+      "volume_order": 10,
+      "chapters": []
+    },
+    {
+      "volume_id": 2520,
+      "id": 2520,
+      "volume_name": "一子线",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14361,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2521,
+      "id": 2521,
+      "volume_name": "贵子线",
+      "volume_order": 30,
+      "chapters": []
+    },
+    {
+      "volume_id": 2522,
+      "id": 2522,
+      "volume_name": "玛利亚线",
+      "volume_order": 40,
+      "chapters": []
+    },
+    {
+      "volume_id": 2523,
+      "id": 2523,
+      "volume_name": "由佳里线",
+      "volume_order": 50,
+      "chapters": []
+    },
+    {
+      "volume_id": 2524,
+      "id": 2524,
+      "volume_name": "奏线",
+      "volume_order": 60,
+      "chapters": []
     }
   ]
 }

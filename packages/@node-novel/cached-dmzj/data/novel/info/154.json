@@ -3,7 +3,7 @@
   "name": "火车",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 560,
   "last_update_chapter_id": 3389,
@@ -16,16 +16,31 @@
   ],
   "authors": "宫部美幸",
   "first_letter": "H",
-  "subscribe_num": 537,
-  "redis_update_time": 1564303626,
+  "subscribe_num": 539,
+  "redis_update_time": 1565008276,
   "volume": [
     {
       "id": 560,
       "lnovel_id": 154,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917988,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 560,
+      "id": 560,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3389,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

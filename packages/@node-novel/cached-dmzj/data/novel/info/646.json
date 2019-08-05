@@ -3,7 +3,7 @@
   "name": "仙乐传说 拉塔特斯克的骑士",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "世界之愿 第3卷\r",
+  "last_update_volume_name": "世界之愿 第3卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2406,
   "last_update_chapter_id": 13999,
@@ -17,31 +17,72 @@
   "authors": "矢岛さら",
   "first_letter": "X",
   "subscribe_num": 236,
-  "redis_update_time": 1564139915,
+  "redis_update_time": 1565017380,
   "volume": [
     {
       "id": 2404,
       "lnovel_id": 646,
-      "volume_name": "世界之愿 第1卷\r",
+      "volume_name": "世界之愿 第1卷",
       "volume_order": 10,
       "addtime": 1275481526,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 2405,
       "lnovel_id": 646,
-      "volume_name": "世界之愿 第2卷\r",
+      "volume_name": "世界之愿 第2卷",
       "volume_order": 20,
       "addtime": 1275481526,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 2406,
       "lnovel_id": 646,
-      "volume_name": "世界之愿 第3卷\r",
+      "volume_name": "世界之愿 第3卷",
       "volume_order": 30,
       "addtime": 1275481526,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2404,
+      "id": 2404,
+      "volume_name": "世界之愿 第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13997,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2405,
+      "id": 2405,
+      "volume_name": "世界之愿 第2卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13998,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2406,
+      "id": 2406,
+      "volume_name": "世界之愿 第3卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 13999,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

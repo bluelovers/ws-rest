@@ -3,7 +3,7 @@
   "name": "络新妇之理",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "下卷\r",
+  "last_update_volume_name": "下卷",
   "last_update_chapter_name": "下卷 一卷全",
   "last_update_volume_id": 2682,
   "last_update_chapter_id": 23828,
@@ -12,28 +12,29 @@
   "hot_hits": 61240,
   "introduction": "贵族女校里身负蜘蛛的黑圣母，在月圆之夜聆听咒杀的愿望；\n豪富家族世代居住在蜘蛛网公馆里，家族继承人接连死于非命；\n轰动街头的“溃眼魔连续杀人事件”里，\n女郎蜘蛛在床边静静忙碌……\n与无限铺陈的因果的织物里，绞杀一切猎物，不死不休。\n究竟，谁是蜘蛛？\n神探榎木津也迷陷其中的天罗地网，\n京极堂能否勘破玄机？！",
   "types": [
-    "恐怖/侦探"
+    "恐怖",
+    "侦探"
   ],
   "authors": "京极夏彦",
   "first_letter": "L",
-  "subscribe_num": 2369,
-  "redis_update_time": 1564304515,
+  "subscribe_num": 2374,
+  "redis_update_time": 1565021549,
   "volume": [
     {
       "id": 2681,
       "lnovel_id": 787,
-      "volume_name": "上卷\r",
+      "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1275957853,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2682,
       "lnovel_id": 787,
-      "volume_name": "下卷\r",
+      "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1275957853,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2727,
@@ -41,7 +42,48 @@
       "volume_name": "转载信息",
       "volume_order": 30,
       "addtime": 1276339751,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2681,
+      "id": 2681,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23826,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2682,
+      "id": 2682,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 23828,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2727,
+      "id": 2727,
+      "volume_name": "转载信息",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 15226,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

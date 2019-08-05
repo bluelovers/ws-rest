@@ -3,7 +3,7 @@
   "name": "好想做个女孩子",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 619,
   "last_update_chapter_id": 3639,
@@ -16,16 +16,31 @@
   ],
   "authors": "三叶",
   "first_letter": "H",
-  "subscribe_num": 540,
-  "redis_update_time": 1564307507,
+  "subscribe_num": 543,
+  "redis_update_time": 1565013924,
   "volume": [
     {
       "id": 619,
       "lnovel_id": 174,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918019,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 619,
+      "id": 619,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3639,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

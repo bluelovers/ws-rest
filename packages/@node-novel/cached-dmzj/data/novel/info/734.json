@@ -3,7 +3,7 @@
   "name": "完美小姐进化论",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "回复平静的中原宅邸",
   "last_update_volume_id": 2556,
   "last_update_chapter_id": 14503,
@@ -16,16 +16,66 @@
   ],
   "authors": "中村美音",
   "first_letter": "W",
-  "subscribe_num": 112,
-  "redis_update_time": 1564306455,
+  "subscribe_num": 114,
+  "redis_update_time": 1565013150,
   "volume": [
     {
       "id": 2556,
       "lnovel_id": 734,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481541,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2556,
+      "id": 2556,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14496,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14497,
+          "chapter_name": "猛暑，再度降临",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14498,
+          "chapter_name": "中原宅邸，被占据的危机！？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14499,
+          "chapter_name": "俊男美女一行人的 夺回须奈子大作战！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14500,
+          "chapter_name": "女孩子的恋爱力量",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14501,
+          "chapter_name": "亚洲美人 须奈子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14502,
+          "chapter_name": "两人间的羁绊",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14503,
+          "chapter_name": "回复平静的中原宅邸",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

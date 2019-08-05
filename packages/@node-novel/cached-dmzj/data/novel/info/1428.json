@@ -12,12 +12,14 @@
   "hot_hits": 27508,
   "introduction": "这是一个【塔】形的世界，由无数的阶层相连而成。每个阶层都由神的代理机器安特罗伯修卡管理。运营着阶层世界的安特罗伯修卡们都被给予了一个命题，要创造出一个让居住在阶层的人们【幸福】生活的世界。但经过了久远的时间后，很多安特罗伯修卡都出现了错乱……。\n少年·萨德利与旅伴青蛙一起穿行于因【幸福】而错乱的世界中，他们以海为目标朝塔的下方前行，只为了实现曾与“她”所做的一个约定。\n温柔而残酷的，神与世界的故事。",
   "types": [
-    "冒险/奇幻/异界"
+    "冒险",
+    "奇幻",
+    "异界"
   ],
   "authors": "西村悠",
   "first_letter": "E",
-  "subscribe_num": 870,
-  "redis_update_time": 1564289352,
+  "subscribe_num": 873,
+  "redis_update_time": 1564910652,
   "volume": [
     {
       "id": 5234,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1367147667,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 5599,
@@ -33,7 +35,80 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1382702364,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5234,
+      "id": 5234,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 35046,
+          "chapter_name": "九一四层的积层图书馆",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35047,
+          "chapter_name": "九四三层的战争",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35048,
+          "chapter_name": "九〇〇层的青蛙之国",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35049,
+          "chapter_name": "一〇五六层的幻想",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35050,
+          "chapter_name": "二四〇九层的她",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35051,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5599,
+      "id": 5599,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 38144,
+          "chapter_name": "七三五层的黑暗",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38145,
+          "chapter_name": "二一三层的智力玩具",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38146,
+          "chapter_name": "一二四四层的竞争",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38147,
+          "chapter_name": "一八六层的列车",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38148,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

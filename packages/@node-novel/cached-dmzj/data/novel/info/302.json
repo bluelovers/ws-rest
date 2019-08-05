@@ -3,7 +3,7 @@
   "name": "魔法少女奈叶",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "魔法少女奈叶\r",
+  "last_update_volume_name": "魔法少女奈叶",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1145,
   "last_update_chapter_id": 6596,
@@ -16,16 +16,71 @@
   ],
   "authors": "都筑真纪",
   "first_letter": "M",
-  "subscribe_num": 931,
-  "redis_update_time": 1564307912,
+  "subscribe_num": 938,
+  "redis_update_time": 1565023120,
   "volume": [
     {
       "id": 1145,
       "lnovel_id": 302,
-      "volume_name": "魔法少女奈叶\r",
+      "volume_name": "魔法少女奈叶",
       "volume_order": 10,
       "addtime": 1274918303,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1145,
+      "id": 1145,
+      "volume_name": "魔法少女奈叶",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6588,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6589,
+          "chapter_name": "第一章 高町奈叶",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6590,
+          "chapter_name": "第二章 菲特·泰斯塔罗沙",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6591,
+          "chapter_name": "第三章 普蕾希亚·泰斯塔罗莎",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6592,
+          "chapter_name": "第四章 莉妮丝",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6593,
+          "chapter_name": "第五章 P·T事件概要报告书",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6594,
+          "chapter_name": "第六章 决战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6595,
+          "chapter_name": "终章 Heart to ACE",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 6596,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

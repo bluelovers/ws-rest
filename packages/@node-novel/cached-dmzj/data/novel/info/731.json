@@ -3,7 +3,7 @@
   "name": "机动战士高达W",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第五卷 终焉\r",
+  "last_update_volume_name": "第五卷 终焉",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2553,
   "last_update_chapter_id": 14476,
@@ -16,48 +16,115 @@
   ],
   "authors": "神代创",
   "first_letter": "J",
-  "subscribe_num": 350,
-  "redis_update_time": 1564233127,
+  "subscribe_num": 352,
+  "redis_update_time": 1564909087,
   "volume": [
     {
       "id": 2549,
       "lnovel_id": 731,
-      "volume_name": "第一卷 始动\r",
+      "volume_name": "第一卷 始动",
       "volume_order": 10,
       "addtime": 1275481540,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 2550,
       "lnovel_id": 731,
-      "volume_name": "第二卷 矜持\r",
+      "volume_name": "第二卷 矜持",
       "volume_order": 20,
       "addtime": 1275481540,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 2551,
       "lnovel_id": 731,
-      "volume_name": "第三卷 故乡\r",
+      "volume_name": "第三卷 故乡",
       "volume_order": 30,
       "addtime": 1275481541,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 2552,
       "lnovel_id": 731,
-      "volume_name": "第四卷 彷徨\r",
+      "volume_name": "第四卷 彷徨",
       "volume_order": 40,
       "addtime": 1275481541,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 2553,
       "lnovel_id": 731,
-      "volume_name": "第五卷 终焉\r",
+      "volume_name": "第五卷 终焉",
       "volume_order": 50,
       "addtime": 1275481541,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2549,
+      "id": 2549,
+      "volume_name": "第一卷 始动",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14472,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2550,
+      "id": 2550,
+      "volume_name": "第二卷 矜持",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14473,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2551,
+      "id": 2551,
+      "volume_name": "第三卷 故乡",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 14474,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2552,
+      "id": 2552,
+      "volume_name": "第四卷 彷徨",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 14475,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2553,
+      "id": 2553,
+      "volume_name": "第五卷 终焉",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 14476,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

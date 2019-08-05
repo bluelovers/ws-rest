@@ -16,8 +16,8 @@
   ],
   "authors": "高殿円",
   "first_letter": "S",
-  "subscribe_num": 568,
-  "redis_update_time": 1564302277,
+  "subscribe_num": 572,
+  "redis_update_time": 1564949643,
   "volume": [
     {
       "id": 1600,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 永恒纯白",
       "volume_order": 10,
       "addtime": 1274918567,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1601,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 无限纯白",
       "volume_order": 20,
       "addtime": 1274918567,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1602,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 消逝纯白",
       "volume_order": 30,
       "addtime": 1274918567,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1603,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷 欢庆纯白",
       "volume_order": 40,
       "addtime": 1274918567,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4024,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷 亘古纯白",
       "volume_order": 50,
       "addtime": 1320288509,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4025,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷 螺旋纯白",
       "volume_order": 60,
       "addtime": 1320288934,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4417,
@@ -73,7 +73,7 @@
       "volume_name": "第七卷 边界纯白",
       "volume_order": 70,
       "addtime": 1335172336,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4899,
@@ -81,7 +81,7 @@
       "volume_name": "第八卷 追忆纯白",
       "volume_order": 80,
       "addtime": 1355373845,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 6894,
@@ -89,7 +89,276 @@
       "volume_name": "第九卷 纯洁纯白",
       "volume_order": 90,
       "addtime": 1432379010,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1600,
+      "id": 1600,
+      "volume_name": "第一卷 永恒纯白",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 27811,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27812,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27813,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 1601,
+      "id": 1601,
+      "volume_name": "第二卷 无限纯白",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 9243,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9244,
+          "chapter_name": "1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9245,
+          "chapter_name": "2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9246,
+          "chapter_name": "3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9247,
+          "chapter_name": "5",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9248,
+          "chapter_name": "6",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9249,
+          "chapter_name": "8",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 9250,
+          "chapter_name": "9",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 9251,
+          "chapter_name": "10",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 1602,
+      "id": 1602,
+      "volume_name": "第三卷 消逝纯白",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 9252,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9253,
+          "chapter_name": "1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9254,
+          "chapter_name": "2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9255,
+          "chapter_name": "3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9256,
+          "chapter_name": "4",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9257,
+          "chapter_name": "5",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9258,
+          "chapter_name": "6",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 9259,
+          "chapter_name": "7",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1603,
+      "id": 1603,
+      "volume_name": "第四卷 欢庆纯白",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 9260,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 4024,
+      "id": 4024,
+      "volume_name": "第五卷 亘古纯白",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 24767,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24768,
+          "chapter_name": "第1章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24769,
+          "chapter_name": "第2章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24770,
+          "chapter_name": "第3章",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 4025,
+      "id": 4025,
+      "volume_name": "第六卷 螺旋纯白",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 24771,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24772,
+          "chapter_name": "第2章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24773,
+          "chapter_name": "第3章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24774,
+          "chapter_name": "第4章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24778,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4417,
+      "id": 4417,
+      "volume_name": "第七卷 边界纯白",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 27981,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27982,
+          "chapter_name": "边界纯白",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27983,
+          "chapter_name": "小小完美淑女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27984,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 4899,
+      "id": 4899,
+      "volume_name": "第八卷 追忆纯白",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 32258,
+          "chapter_name": "追忆纯白",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32259,
+          "chapter_name": "打造纯白",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32260,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 6894,
+      "id": 6894,
+      "volume_name": "第九卷 纯洁纯白",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 50057,
+          "chapter_name": "纯洁纯白（Purely White）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 50059,
+          "chapter_name": "后记",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

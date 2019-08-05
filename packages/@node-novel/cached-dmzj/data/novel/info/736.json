@@ -3,7 +3,7 @@
   "name": "异度传说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "官方外传\r",
+  "last_update_volume_name": "官方外传",
   "last_update_chapter_name": "失落的一年～封印在U.M.N.里的真实断片～",
   "last_update_volume_id": 2558,
   "last_update_chapter_id": 14505,
@@ -16,16 +16,31 @@
   ],
   "authors": "NAMCO",
   "first_letter": "Y",
-  "subscribe_num": 127,
-  "redis_update_time": 1564197494,
+  "subscribe_num": 129,
+  "redis_update_time": 1565020657,
   "volume": [
     {
       "id": 2558,
       "lnovel_id": 736,
-      "volume_name": "官方外传\r",
+      "volume_name": "官方外传",
       "volume_order": 10,
       "addtime": 1275481541,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2558,
+      "id": 2558,
+      "volume_name": "官方外传",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14505,
+          "chapter_name": "失落的一年～封印在U.M.N.里的真实断片～",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 27186,
   "introduction": "　　「哇哈哈哈，久等了！\n　　我就是普天之下，唯有一人的侦探，榎木津礼二郎！！」\n　　神·榎木津礼二郎领衔主演，痛快冒险大混乱活剧第一弹！\n　　另一个京极堂系列，\n　　爆笑妖怪推理《百器徒然袋—雨》2012年开春欢乐登场！",
   "types": [
-    "侦探/神鬼/搞笑"
+    "侦探",
+    "神鬼",
+    "搞笑"
   ],
   "authors": "京极夏彦",
   "first_letter": "B",
-  "subscribe_num": 633,
-  "redis_update_time": 1564263123,
+  "subscribe_num": 635,
+  "redis_update_time": 1564942556,
   "volume": [
     {
       "id": 4375,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 雨",
       "volume_order": 10,
       "addtime": 1333088738,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 6297,
@@ -33,7 +35,55 @@
       "volume_name": "第二卷 风",
       "volume_order": 20,
       "addtime": 1409136537,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4375,
+      "id": 4375,
+      "volume_name": "第一卷 雨",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 27618,
+          "chapter_name": "第一番 鸣釜 玫瑰十字侦探的忧郁",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27619,
+          "chapter_name": "第二番 瓶长 玫瑰十字侦探的郁愤",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27620,
+          "chapter_name": "第三番 山颪 玫瑰十字侦探的愤慨",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 6297,
+      "id": 6297,
+      "volume_name": "第二卷 风",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 44406,
+          "chapter_name": "第四番 五德猫 玫瑰十字侦探的慨然",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 44407,
+          "chapter_name": "第五番 云外镜 玫瑰十字侦探的然疑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 44408,
+          "chapter_name": "第六番 面灵气 玫瑰十字侦探的疑惑",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

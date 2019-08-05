@@ -3,7 +3,7 @@
   "name": "明日华—麻将饿狼传—",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 4022,
   "last_update_chapter_id": 24751,
@@ -17,15 +17,65 @@
   "authors": "吉村夜",
   "first_letter": "M",
   "subscribe_num": 108,
-  "redis_update_time": 1564289223,
+  "redis_update_time": 1564938209,
   "volume": [
     {
       "id": 4022,
       "lnovel_id": 1128,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1320215671,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4022,
+      "id": 4022,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 24744,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24745,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24746,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24747,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24748,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24749,
+          "chapter_name": "注释",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24750,
+          "chapter_name": "和牌役一览",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24751,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

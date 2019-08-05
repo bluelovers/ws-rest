@@ -3,7 +3,7 @@
   "name": "电波男",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 346,
   "last_update_chapter_id": 2199,
@@ -16,16 +16,106 @@
   ],
   "authors": "本田透",
   "first_letter": "D",
-  "subscribe_num": 139,
-  "redis_update_time": 1564297894,
+  "subscribe_num": 140,
+  "redis_update_time": 1565017418,
   "volume": [
     {
       "id": 346,
       "lnovel_id": 94,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917870,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 346,
+      "id": 346,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2184,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2185,
+          "chapter_name": "第一章 \"恋爱资本主义\"的构造与现实 1 没女人缘的男人的现状",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2186,
+          "chapter_name": "第一章 \"恋爱资本主义\"的构造与现实 2 恋爱的两极化",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2187,
+          "chapter_name": "第一章 \"恋爱资本主义\"的构造与现实 3 为何恋爱变成好象拥有至高无上价值的样子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2188,
+          "chapter_name": "第一章 \"恋爱资本主义\"的构造与现实 4 恋爱资本主义的缺陷",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2189,
+          "chapter_name": "第一章 \"恋爱资本主义\"的构造与现实 5 被区分为三种类的,没人要的男人与女人的",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2190,
+          "chapter_name": "第二章 暗号是“萌”～御宅族的“脑内恋爱”宣言 1 萌系御宅族的登场",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2191,
+          "chapter_name": "第二章 暗号是“萌”～御宅族的“脑内恋爱”宣言 2 别去思考，萌起来吧！欢迎来到",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2192,
+          "chapter_name": "第二章 暗号是“萌”～御宅族的“脑内恋爱”宣言 3 数位的优点与类比的缺点",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 2193,
+          "chapter_name": "第二章 暗号是“萌”～御宅族的“脑内恋爱”宣言 4 御宅族才是国家的宝物",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 2194,
+          "chapter_name": "第二章 暗号是“萌”～御宅族的“脑内恋爱”宣言 5 别被《电车男》欺骗了！",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 2195,
+          "chapter_name": "第三章 \"萌\"的力量 1 萌与鬼畜",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 2196,
+          "chapter_name": "第三章 \"萌\"的力量 2 \"萌\"的进化",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 2197,
+          "chapter_name": "第四章 从现在开始，“萌系御宅族”才是赢家组 1 发动吧！“萌革命”",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 2198,
+          "chapter_name": "第四章 从现在开始，“萌系御宅族”才是赢家组 2 御宅族的未来预测图",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 2199,
+          "chapter_name": "后记",
+          "chapter_order": 160
+        }
+      ]
     }
   ]
 }

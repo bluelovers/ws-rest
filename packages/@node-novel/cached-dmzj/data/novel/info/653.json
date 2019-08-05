@@ -3,7 +3,7 @@
   "name": "魔神的游戏",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "尾声",
   "last_update_volume_id": 2417,
   "last_update_chapter_id": 14029,
@@ -16,16 +16,51 @@
   ],
   "authors": "岛田庄司",
   "first_letter": "M",
-  "subscribe_num": 703,
-  "redis_update_time": 1564293042,
+  "subscribe_num": 708,
+  "redis_update_time": 1565018450,
   "volume": [
     {
       "id": 2417,
       "lnovel_id": 653,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481527,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2417,
+      "id": 2417,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14025,
+          "chapter_name": "【前言】西亚里威咖啡馆",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14026,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14027,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14028,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14029,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

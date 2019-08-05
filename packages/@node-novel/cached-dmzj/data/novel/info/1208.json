@@ -16,8 +16,8 @@
   ],
   "authors": "广濑正",
   "first_letter": "F",
-  "subscribe_num": 181,
-  "redis_update_time": 1564293826,
+  "subscribe_num": 182,
+  "redis_update_time": 1564920202,
   "volume": [
     {
       "id": 4304,
@@ -25,7 +25,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1331026096,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4304,
+      "id": 4304,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 27052,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27053,
+          "chapter_name": "正数18",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27054,
+          "chapter_name": "负数31",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27055,
+          "chapter_name": "零",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27056,
+          "chapter_name": "负数·零",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

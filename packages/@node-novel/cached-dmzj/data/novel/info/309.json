@@ -3,7 +3,7 @@
   "name": "NANA",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "世上另一个我(上)\r",
+  "last_update_volume_name": "世上另一个我(上)",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1160,
   "last_update_chapter_id": 6683,
@@ -16,16 +16,31 @@
   ],
   "authors": "矢泽爱",
   "first_letter": "N",
-  "subscribe_num": 296,
-  "redis_update_time": 1564311200,
+  "subscribe_num": 297,
+  "redis_update_time": 1564932641,
   "volume": [
     {
       "id": 1160,
       "lnovel_id": 309,
-      "volume_name": "世上另一个我(上)\r",
+      "volume_name": "世上另一个我(上)",
       "volume_order": 10,
       "addtime": 1274918311,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1160,
+      "id": 1160,
+      "volume_name": "世上另一个我(上)",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6683,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

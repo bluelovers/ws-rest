@@ -3,7 +3,7 @@
   "name": "悖德之城",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第2章 悖德之城 The Genetic Sodom ILEGENES（下）\r",
+  "last_update_volume_name": "第2章 悖德之城 The Genetic Sodom ILEGENES（下）",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2335,
   "last_update_chapter_id": 13647,
@@ -16,24 +16,107 @@
   ],
   "authors": "桑原水菜",
   "first_letter": "B",
-  "subscribe_num": 425,
-  "redis_update_time": 1564308489,
+  "subscribe_num": 426,
+  "redis_update_time": 1564918647,
   "volume": [
     {
       "id": 2334,
       "lnovel_id": 624,
-      "volume_name": "第1章 悖德之城 The Genetic Sodom ILEGENES（上）\r",
+      "volume_name": "第1章 悖德之城 The Genetic Sodom ILEGENES（上）",
       "volume_order": 10,
       "addtime": 1274919017,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 2335,
       "lnovel_id": 624,
-      "volume_name": "第2章 悖德之城 The Genetic Sodom ILEGENES（下）\r",
+      "volume_name": "第2章 悖德之城 The Genetic Sodom ILEGENES（下）",
       "volume_order": 20,
       "addtime": 1274919017,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2334,
+      "id": 2334,
+      "volume_name": "第1章 悖德之城 The Genetic Sodom ILEGENES（上）",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13635,
+          "chapter_name": "EPISODE：1",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13636,
+          "chapter_name": "EPISODE：2",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13637,
+          "chapter_name": "EPISODE：3",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13638,
+          "chapter_name": "EPISODE：4",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13639,
+          "chapter_name": "EPISODE：5",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13640,
+          "chapter_name": "EPISODE：6",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2335,
+      "id": 2335,
+      "volume_name": "第2章 悖德之城 The Genetic Sodom ILEGENES（下）",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13641,
+          "chapter_name": "EPISODE：7",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13642,
+          "chapter_name": "EPISODE：8",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13643,
+          "chapter_name": "EPISODE：9",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13644,
+          "chapter_name": "EPISDOE：10",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13645,
+          "chapter_name": "EPISODE：11",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13646,
+          "chapter_name": "EPISODE：12",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 13647,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

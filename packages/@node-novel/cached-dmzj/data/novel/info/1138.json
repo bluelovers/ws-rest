@@ -16,16 +16,16 @@
   ],
   "authors": "砂浦俊一",
   "first_letter": "W",
-  "subscribe_num": 138,
-  "redis_update_time": 1564261767,
+  "subscribe_num": 139,
+  "redis_update_time": 1564931552,
   "volume": [
     {
       "id": 4083,
       "lnovel_id": 1138,
-      "volume_name": "上卷\r",
+      "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1322794432,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4110,
@@ -33,7 +33,95 @@
       "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1323395914,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4083,
+      "id": 4083,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 25227,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25228,
+          "chapter_name": "第一乐章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25229,
+          "chapter_name": "第二乐章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25230,
+          "chapter_name": "第三乐章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25231,
+          "chapter_name": "第四乐章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25232,
+          "chapter_name": "第五乐章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25233,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4110,
+      "id": 4110,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 25431,
+          "chapter_name": "间奏",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25432,
+          "chapter_name": "第六乐章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25433,
+          "chapter_name": "第七乐章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25434,
+          "chapter_name": "第八乐章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25435,
+          "chapter_name": "第九乐章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25436,
+          "chapter_name": "最终乐章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25437,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

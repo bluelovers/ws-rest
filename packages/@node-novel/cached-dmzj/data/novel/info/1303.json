@@ -16,8 +16,8 @@
   ],
   "authors": "入间人间",
   "first_letter": "Z",
-  "subscribe_num": 3139,
-  "redis_update_time": 1564313014,
+  "subscribe_num": 3146,
+  "redis_update_time": 1564951149,
   "volume": [
     {
       "id": 4733,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1348717922,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4978,
@@ -33,7 +33,95 @@
       "volume_name": "第二卷 明日仍将恋上他",
       "volume_order": 20,
       "addtime": 1357971987,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4733,
+      "id": 4733,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 30719,
+          "chapter_name": "车轮之歌",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30720,
+          "chapter_name": "第一章 回头之后全力以赴",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30721,
+          "chapter_name": "第二章 我成了你，你成了我",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30722,
+          "chapter_name": "第三章 只有你不会听见",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30757,
+          "chapter_name": "第四章 昨日也曾爱着他",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30758,
+          "chapter_name": "第五章 一方起，一方就落",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30759,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4978,
+      "id": 4978,
+      "volume_name": "第二卷 明日仍将恋上他",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 32851,
+          "chapter_name": "第六章 Back To The Past",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32852,
+          "chapter_name": "第七章 四轮驱动",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32853,
+          "chapter_name": "第八章 神之岛",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32854,
+          "chapter_name": "第九章 无论何时，都只为你",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32855,
+          "chapter_name": "第十章 明日仍将恋上他",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32856,
+          "chapter_name": "D.S.",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32857,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

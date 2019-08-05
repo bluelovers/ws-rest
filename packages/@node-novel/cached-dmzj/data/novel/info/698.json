@@ -3,7 +3,7 @@
   "name": "14个月",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2484,
   "last_update_chapter_id": 14275,
@@ -16,16 +16,31 @@
   ],
   "authors": "市川拓司",
   "first_letter": "0",
-  "subscribe_num": 565,
-  "redis_update_time": 1564085642,
+  "subscribe_num": 568,
+  "redis_update_time": 1564935524,
   "volume": [
     {
       "id": 2484,
       "lnovel_id": 698,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481534,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2484,
+      "id": 2484,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14275,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

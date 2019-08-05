@@ -3,7 +3,7 @@
   "name": "DoubleDown—以小博大的勘缲郎",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全书\r",
+  "last_update_volume_name": "全书",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 349,
   "last_update_chapter_id": 2203,
@@ -16,16 +16,36 @@
   ],
   "authors": "西尾维新",
   "first_letter": "D",
-  "subscribe_num": 981,
-  "redis_update_time": 1564248158,
+  "subscribe_num": 986,
+  "redis_update_time": 1565018248,
   "volume": [
     {
       "id": 349,
       "lnovel_id": 97,
-      "volume_name": "全书\r",
+      "volume_name": "全书",
       "volume_order": 10,
       "addtime": 1274917871,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 349,
+      "id": 349,
+      "volume_name": "全书",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2202,
+          "chapter_name": "正文",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2203,
+          "chapter_name": "后记",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "逆理的魔女",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第一卷 后记",
   "last_update_volume_id": 3512,
   "last_update_chapter_id": 20336,
@@ -17,15 +17,50 @@
   "authors": "雪野静",
   "first_letter": "N",
   "subscribe_num": 146,
-  "redis_update_time": 1564287098,
+  "redis_update_time": 1564965586,
   "volume": [
     {
       "id": 3512,
       "lnovel_id": 996,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1299123343,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3512,
+      "id": 3512,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20332,
+          "chapter_name": "第一章 魔女的秘密",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20333,
+          "chapter_name": "第二章 歌姬的暴走",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20334,
+          "chapter_name": "第三章 逆理的理(前篇)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20335,
+          "chapter_name": "第四章 逆理的理(后续)",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20336,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 20378,
   "introduction": "我是雷治，从今年开始（靠关系走后门）进入传说中的贵族学校「八高」就读。原本想在植物也会爱人的妄想世界中平稳度过三年，但同班同学全是一堆欠缺道德伦理常识的王国子民！尤其是这个小女生到底是怎么回事啊？到处割人耳朵的奈露莉王女殿下？好不容易要开始享受高中生活了，我可不想过得心惊胆跳啊──！",
   "types": [
-    "搞笑/校园/爱情"
+    "搞笑",
+    "校园",
+    "爱情"
   ],
   "authors": "石川博品",
   "first_letter": "G",
-  "subscribe_num": 258,
-  "redis_update_time": 1564251845,
+  "subscribe_num": 259,
+  "redis_update_time": 1564936619,
   "volume": [
     {
       "id": 5059,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1361170579,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5156,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1364176208,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5272,
@@ -41,7 +43,188 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1368522742,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5059,
+      "id": 5059,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 33493,
+          "chapter_name": "三月三十一日（第一曜日）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33494,
+          "chapter_name": "四月一日（第二曜日）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33495,
+          "chapter_name": "四月二日（第三曜日）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33496,
+          "chapter_name": "四月三日（第四曜日）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33497,
+          "chapter_name": "四月四日和五日（第五、第六曜日）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33498,
+          "chapter_name": "四月六日（第七曜日）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 33499,
+          "chapter_name": "四月七日（第一曜日）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 33500,
+          "chapter_name": "四月八日和九日（第二、第三曜日）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 33501,
+          "chapter_name": "四月十日（第四曜日）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 33502,
+          "chapter_name": "奈露莉的源流整理",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 33503,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 33504,
+          "chapter_name": "台湾版后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 5156,
+      "id": 5156,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 34378,
+          "chapter_name": "开演前",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34379,
+          "chapter_name": "第一幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34380,
+          "chapter_name": "第二幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34381,
+          "chapter_name": "第三幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34382,
+          "chapter_name": "第四幕",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34383,
+          "chapter_name": "谢幕后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34384,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5272,
+      "id": 5272,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 35355,
+          "chapter_name": "1 节日魔法",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35356,
+          "chapter_name": "2 H is for HAZIMETE",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35357,
+          "chapter_name": "3 那个搭着马车来了",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35358,
+          "chapter_name": "4 奈露LOVE PLUS沉睡海角",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35359,
+          "chapter_name": "5 淫兽",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35360,
+          "chapter_name": "6 雷治，心之彼方",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35361,
+          "chapter_name": "7 雷治屋檐上的积雪 奈露莉屋檐上的积雪",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 35362,
+          "chapter_name": "8 毒蛇",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 35363,
+          "chapter_name": "9 奈露莉的永夜",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 35364,
+          "chapter_name": "10 死亡奉公",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 35365,
+          "chapter_name": "11 十一班",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 35366,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

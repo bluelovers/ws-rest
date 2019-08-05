@@ -3,7 +3,7 @@
   "name": "雷吉欧斯传说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第3卷 雷吉欧斯显现\r",
+  "last_update_volume_name": "第3卷 雷吉欧斯显现",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 899,
   "last_update_chapter_id": 5163,
@@ -17,31 +17,72 @@
   "authors": "雨木シュウスケ",
   "first_letter": "L",
   "subscribe_num": 552,
-  "redis_update_time": 1564246493,
+  "redis_update_time": 1565035419,
   "volume": [
     {
       "id": 897,
       "lnovel_id": 242,
-      "volume_name": "第1卷 利故扎里欧洗礼\r",
+      "volume_name": "第1卷 利故扎里欧洗礼",
       "volume_order": 10,
       "addtime": 1274918170,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 898,
       "lnovel_id": 242,
-      "volume_name": "第2卷 伊古纳西斯觉醒\r",
+      "volume_name": "第2卷 伊古纳西斯觉醒",
       "volume_order": 20,
       "addtime": 1274918170,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 899,
       "lnovel_id": 242,
-      "volume_name": "第3卷 雷吉欧斯显现\r",
+      "volume_name": "第3卷 雷吉欧斯显现",
       "volume_order": 30,
       "addtime": 1274918170,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 897,
+      "id": 897,
+      "volume_name": "第1卷 利故扎里欧洗礼",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5161,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 898,
+      "id": 898,
+      "volume_name": "第2卷 伊古纳西斯觉醒",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 5162,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 899,
+      "id": 899,
+      "volume_name": "第3卷 雷吉欧斯显现",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 5163,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

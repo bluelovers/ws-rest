@@ -3,7 +3,7 @@
   "name": "初音岛",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "水越萌真子\r",
+  "last_update_volume_name": "水越萌真子",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 273,
   "last_update_chapter_id": 1646,
@@ -17,55 +17,335 @@
   "authors": "杂贺匡",
   "first_letter": "C",
   "subscribe_num": 735,
-  "redis_update_time": 1564307230,
+  "redis_update_time": 1564996850,
   "volume": [
     {
       "id": 268,
       "lnovel_id": 71,
-      "volume_name": "白河小鸟 篇\r",
+      "volume_name": "白河小鸟 篇",
       "volume_order": 10,
       "addtime": 1274917830,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 269,
       "lnovel_id": 71,
-      "volume_name": "朝仓音梦 篇\r",
+      "volume_name": "朝仓音梦 篇",
       "volume_order": 20,
       "addtime": 1274917830,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 270,
       "lnovel_id": 71,
-      "volume_name": "鹭泽赖子 篇\r",
+      "volume_name": "鹭泽赖子 篇",
       "volume_order": 30,
       "addtime": 1274917830,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 271,
       "lnovel_id": 71,
-      "volume_name": "芳乃樱篇\r",
+      "volume_name": "芳乃樱篇",
       "volume_order": 40,
       "addtime": 1274917830,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 272,
       "lnovel_id": 71,
-      "volume_name": "天枷美春 篇\r",
+      "volume_name": "天枷美春 篇",
       "volume_order": 50,
       "addtime": 1274917830,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 273,
       "lnovel_id": 71,
-      "volume_name": "水越萌真子\r",
+      "volume_name": "水越萌真子",
       "volume_order": 60,
       "addtime": 1274917830,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 268,
+      "id": 268,
+      "volume_name": "白河小鸟 篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 1601,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1602,
+          "chapter_name": "歌声",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 1603,
+          "chapter_name": "小鸟的经纪人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 1604,
+          "chapter_name": "告白",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 1605,
+          "chapter_name": "梦境",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 1606,
+          "chapter_name": "芳乃樱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 1607,
+          "chapter_name": "樱花凋零",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 1608,
+          "chapter_name": "渴望知道你的心",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 1609,
+          "chapter_name": "终曲",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 1610,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 269,
+      "id": 269,
+      "volume_name": "朝仓音梦 篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 1611,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1612,
+          "chapter_name": "日常生活",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 1613,
+          "chapter_name": "兄妹的分界线",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 1614,
+          "chapter_name": "重迭的心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 1615,
+          "chapter_name": "初夜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 1616,
+          "chapter_name": "花瓣",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 1617,
+          "chapter_name": "小小心愿",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 1618,
+          "chapter_name": "终曲",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 1619,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 270,
+      "id": 270,
+      "volume_name": "鹭泽赖子 篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 1620,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1621,
+          "chapter_name": "第一章 猫耳女仆出现",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 1622,
+          "chapter_name": "第二章 女仆的职责",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 1623,
+          "chapter_name": "第三章 初次作菜经验",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 1624,
+          "chapter_name": "第四章 害怕外出",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 1625,
+          "chapter_name": "第五章 向樱花许下的愿望",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 1626,
+          "chapter_name": "第六章 离别",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 1627,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 1628,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 271,
+      "id": 271,
+      "volume_name": "芳乃樱篇",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 1629,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1630,
+          "chapter_name": "青梅竹马",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 1631,
+          "chapter_name": "小樱与音梦",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 1632,
+          "chapter_name": "小樱的心意",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 1633,
+          "chapter_name": "小樱老师觐见！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 1634,
+          "chapter_name": "抢救小樱老师会议",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 1635,
+          "chapter_name": "梦醒时分",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 1636,
+          "chapter_name": "终曲",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 272,
+      "id": 272,
+      "volume_name": "天枷美春 篇",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 1637,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1638,
+          "chapter_name": "第一章 小汪汪是机器人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 1639,
+          "chapter_name": "第二章 美春的日常生活",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 1640,
+          "chapter_name": "第三章 寻找回忆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 1641,
+          "chapter_name": "第四章 喜欢的是……",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 1642,
+          "chapter_name": "第五章 时光胶囊",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 1643,
+          "chapter_name": "第六章 八音盒的旋律",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 1644,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 1645,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 273,
+      "id": 273,
+      "volume_name": "水越萌真子",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 1646,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

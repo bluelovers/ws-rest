@@ -3,7 +3,7 @@
   "name": "鸭川小鬼",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 3373,
   "last_update_chapter_id": 19359,
@@ -17,15 +17,70 @@
   "authors": "万成目学",
   "first_letter": "Y",
   "subscribe_num": 58,
-  "redis_update_time": 1564094368,
+  "redis_update_time": 1564317657,
   "volume": [
     {
       "id": 3373,
       "lnovel_id": 950,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1294105987,
-      "sum_chapters": 11
+      "sum_chapters": 8
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3373,
+      "id": 3373,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19351,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19352,
+          "chapter_name": "其一 京大青龙会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19353,
+          "chapter_name": "其二 宵山协定",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19354,
+          "chapter_name": "其三 吉田世代交替仪式",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19355,
+          "chapter_name": "其四 处女荷尔摩",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19356,
+          "chapter_name": "其五 京大青龙会Blues",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19357,
+          "chapter_name": "其六 鸭川十七条荷尔摩",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19358,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 19359,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

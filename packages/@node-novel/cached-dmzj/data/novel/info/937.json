@@ -12,20 +12,21 @@
   "hot_hits": 25977,
   "introduction": "不看书会死，但又超级讨厌看书！\n　　“驭时”一族能够藉由看两百万字的书，暂停一秒钟的时间。\n　　他们住在巴别塔，以看书维生，但是也有怪胎特地跑到人间，那就是住在我家隔壁的少女，也是我的青梅竹马——轮回。\n　　“我想来一场令人热血沸腾的大冒险!”\n　　我们因为轮回的一句话而展开冒险，意外获得“没有人看得懂的书”，同时得知“驭时”一族的秘密——能够跨越时空、住在历史之中的死神“碎时”。\n　　这个夏天，因为一本书、一场冒险，改变了我们的未来……",
   "types": [
-    "冒险/奇幻"
+    "冒险",
+    "奇幻"
   ],
   "authors": "清野静",
   "first_letter": "Y",
-  "subscribe_num": 157,
-  "redis_update_time": 1564296681,
+  "subscribe_num": 158,
+  "redis_update_time": 1564677680,
   "volume": [
     {
       "id": 3316,
       "lnovel_id": 937,
-      "volume_name": "第一卷 起始之书\r",
+      "volume_name": "第一卷 起始之书",
       "volume_order": 10,
       "addtime": 1291168874,
-      "sum_chapters": 3
+      "sum_chapters": 35
     },
     {
       "id": 4104,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷 时间摇篮",
       "volume_order": 20,
       "addtime": 1323229770,
-      "sum_chapters": 3
+      "sum_chapters": 35
     },
     {
       "id": 4421,
@@ -41,7 +42,233 @@
       "volume_name": "第三卷 呢喃的衣柜",
       "volume_order": 30,
       "addtime": 1335254061,
-      "sum_chapters": 3
+      "sum_chapters": 35
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3316,
+      "id": 3316,
+      "volume_name": "第一卷 起始之书",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 18952,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18953,
+          "chapter_name": "第1章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18954,
+          "chapter_name": "第2章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18955,
+          "chapter_name": "第3章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18956,
+          "chapter_name": "第4章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18957,
+          "chapter_name": "第5章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18958,
+          "chapter_name": "第6章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18959,
+          "chapter_name": "第7章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18960,
+          "chapter_name": "第8章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 18961,
+          "chapter_name": "第9章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 18962,
+          "chapter_name": "第10章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 18963,
+          "chapter_name": "终章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 18964,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 18965,
+          "chapter_name": "插图",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 4104,
+      "id": 4104,
+      "volume_name": "第二卷 时间摇篮",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 25386,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25387,
+          "chapter_name": "第1章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25388,
+          "chapter_name": "第2章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25389,
+          "chapter_name": "第3章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25390,
+          "chapter_name": "第4章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25391,
+          "chapter_name": "第5章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25392,
+          "chapter_name": "第6章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 25393,
+          "chapter_name": "第7章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 25394,
+          "chapter_name": "第8章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 25395,
+          "chapter_name": "第9章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 25396,
+          "chapter_name": "第10章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 25397,
+          "chapter_name": "终章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 25398,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 4421,
+      "id": 4421,
+      "volume_name": "第三卷 呢喃的衣柜",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 28012,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28025,
+          "chapter_name": "第1章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28026,
+          "chapter_name": "第2章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28027,
+          "chapter_name": "第3章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28028,
+          "chapter_name": "第4章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28037,
+          "chapter_name": "第5章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28038,
+          "chapter_name": "第6章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28039,
+          "chapter_name": "第7章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 28040,
+          "chapter_name": "第8章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 28041,
+          "chapter_name": "第9章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 28042,
+          "chapter_name": "第10章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 28043,
+          "chapter_name": "终章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 28044,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        }
+      ]
     }
   ]
 }

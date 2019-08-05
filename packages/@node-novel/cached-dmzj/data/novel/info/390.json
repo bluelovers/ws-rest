@@ -3,7 +3,7 @@
   "name": "死神侯补生",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "Peace@Pieces 死神侯补生\r",
+  "last_update_volume_name": "Peace@Pieces 死神侯补生",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1488,
   "last_update_chapter_id": 8555,
@@ -16,16 +16,31 @@
   ],
   "authors": "小林正亲",
   "first_letter": "S",
-  "subscribe_num": 123,
-  "redis_update_time": 1564187628,
+  "subscribe_num": 124,
+  "redis_update_time": 1564937277,
   "volume": [
     {
       "id": 1488,
       "lnovel_id": 390,
-      "volume_name": "Peace@Pieces 死神侯补生\r",
+      "volume_name": "Peace@Pieces 死神侯补生",
       "volume_order": 10,
       "addtime": 1274918504,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1488,
+      "id": 1488,
+      "volume_name": "Peace@Pieces 死神侯补生",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 8555,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

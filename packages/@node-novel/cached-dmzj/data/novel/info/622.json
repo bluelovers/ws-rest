@@ -1,9 +1,9 @@
 {
   "id": 622,
-  "name": "朱　Aka",
+  "name": "朱 Aka",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "下卷~拉蒂的请托~\r",
+  "last_update_volume_name": "下卷~拉蒂的请托~",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2326,
   "last_update_chapter_id": 13611,
@@ -16,24 +16,97 @@
   ],
   "authors": "清水マリコ",
   "first_letter": "Z",
-  "subscribe_num": 91,
-  "redis_update_time": 1564102725,
+  "subscribe_num": 92,
+  "redis_update_time": 1564912306,
   "volume": [
     {
       "id": 2325,
       "lnovel_id": 622,
-      "volume_name": "~鲁塔的眷属~\r",
+      "volume_name": "~鲁塔的眷属~",
       "volume_order": 10,
       "addtime": 1274919012,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 2326,
       "lnovel_id": 622,
-      "volume_name": "下卷~拉蒂的请托~\r",
+      "volume_name": "下卷~拉蒂的请托~",
       "volume_order": 20,
       "addtime": 1274919012,
-      "sum_chapters": 11
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2325,
+      "id": 2325,
+      "volume_name": "~鲁塔的眷属~",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13601,
+          "chapter_name": "楔 子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13602,
+          "chapter_name": "第一章：还原者与守护者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13603,
+          "chapter_name": "盗贼与水镜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13604,
+          "chapter_name": "第三章：佣兵与医治",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13605,
+          "chapter_name": "第四章：守护者与眷属（前篇）",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 2326,
+      "id": 2326,
+      "volume_name": "下卷~拉蒂的请托~",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13606,
+          "chapter_name": "第四章：守护者与眷属（后篇）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13607,
+          "chapter_name": "第五章：绯坛族",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13608,
+          "chapter_name": "第六章：峰雪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13609,
+          "chapter_name": "第七章：银丝",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13610,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13611,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

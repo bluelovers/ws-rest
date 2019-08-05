@@ -3,7 +3,7 @@
   "name": "我的紫苑",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2608,
   "last_update_chapter_id": 14683,
@@ -17,15 +17,70 @@
   "authors": "本田透",
   "first_letter": "W",
   "subscribe_num": 71,
-  "redis_update_time": 1564046409,
+  "redis_update_time": 1564918142,
   "volume": [
     {
       "id": 2608,
       "lnovel_id": 762,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275561492,
-      "sum_chapters": 13
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2608,
+      "id": 2608,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14675,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14676,
+          "chapter_name": "1 小恶魔来袭与迷途的羔羊",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14677,
+          "chapter_name": "2 小恶魔惊人的秘密与疯狂的羔羊",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14678,
+          "chapter_name": "3 法国史的学习与暗自窃笑的黑衣刺客",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14679,
+          "chapter_name": "4 灰姑娘的魔法于午后六点解除",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14680,
+          "chapter_name": "5 月是水银，后半夜的丧主。",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14681,
+          "chapter_name": "6 下在卢昂的雨",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14682,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 14683,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

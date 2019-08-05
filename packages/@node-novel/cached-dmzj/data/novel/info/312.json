@@ -3,7 +3,7 @@
   "name": "女王之刃",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷 独角兽骑士\r",
+  "last_update_volume_name": "第五卷 独角兽骑士",
   "last_update_chapter_name": "特别附录~最终大赛开幕",
   "last_update_volume_id": 1167,
   "last_update_chapter_id": 6723,
@@ -16,48 +16,280 @@
   ],
   "authors": "冲田栄次",
   "first_letter": "N",
-  "subscribe_num": 1882,
-  "redis_update_time": 1564312831,
+  "subscribe_num": 1892,
+  "redis_update_time": 1565033735,
   "volume": [
     {
       "id": 1163,
       "lnovel_id": 312,
-      "volume_name": "第一卷 独角兽之剑\r",
+      "volume_name": "第一卷 独角兽之剑",
       "volume_order": 10,
       "addtime": 1274918313,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1164,
       "lnovel_id": 312,
-      "volume_name": "第二卷 雅玛拉的回归\r",
+      "volume_name": "第二卷 雅玛拉的回归",
       "volume_order": 20,
       "addtime": 1274918313,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1165,
       "lnovel_id": 312,
-      "volume_name": "第三卷 卡特蕾尔的讯息\r",
+      "volume_name": "第三卷 卡特蕾尔的讯息",
       "volume_order": 30,
       "addtime": 1274918313,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1166,
       "lnovel_id": 312,
-      "volume_name": "第四卷 恶魔戒指的诅咒\r",
+      "volume_name": "第四卷 恶魔戒指的诅咒",
       "volume_order": 40,
       "addtime": 1274918313,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1167,
       "lnovel_id": 312,
-      "volume_name": "第五卷 独角兽骑士\r",
+      "volume_name": "第五卷 独角兽骑士",
       "volume_order": 50,
       "addtime": 1274918313,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1163,
+      "id": 1163,
+      "volume_name": "第一卷 独角兽之剑",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 6686,
+          "chapter_name": "序章 女王之刃",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6687,
+          "chapter_name": "第一章 对决!骸骨剑士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6688,
+          "chapter_name": "第二章 真真假假、假假真真",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6689,
+          "chapter_name": "第三章 被公开的秘密",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6690,
+          "chapter_name": "第四章 为了唯一的真实",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6691,
+          "chapter_name": "终章 旅程的起点、道别、歌声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6692,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6693,
+          "chapter_name": "「女王之刃」小说化有感",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1164,
+      "id": 1164,
+      "volume_name": "第二卷 雅玛拉的回归",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 6694,
+          "chapter_name": "序章 天使袭击",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6695,
+          "chapter_name": "第一章 魔人塞特拉的袭击",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6696,
+          "chapter_name": "第二章 沙漠的女王",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6697,
+          "chapter_name": "第三章 黑夜中闪烁的星空",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6698,
+          "chapter_name": "第四章 雅玛拉的守护者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6699,
+          "chapter_name": "第五章 神圣斗技",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6700,
+          "chapter_name": "终章 王朝复活",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6701,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1165,
+      "id": 1165,
+      "volume_name": "第三卷 卡特蕾尔的讯息",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 6702,
+          "chapter_name": "序章 蕾娜的例行特训",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6703,
+          "chapter_name": "第一章 帝都盖诺斯的居民",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6704,
+          "chapter_name": "第二章 天使的守护",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6705,
+          "chapter_name": "第三章 擦肩而过的意念",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6706,
+          "chapter_name": "第四章 誓言",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6707,
+          "chapter_name": "终章 卡特蕾尔的教诲",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6708,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1166,
+      "id": 1166,
+      "volume_name": "第四卷 恶魔戒指的诅咒",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 6709,
+          "chapter_name": "序章 逐渐逼近的黑影",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6710,
+          "chapter_name": "第一章 精灵之森的危机",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6711,
+          "chapter_name": "第二章 千变刺客的强袭",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6712,
+          "chapter_name": "第三章 接踵而来的危机",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6713,
+          "chapter_name": "第四章 觉醒!独角兽骑士",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6714,
+          "chapter_name": "终章 全新的旅程",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6715,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1167,
+      "id": 1167,
+      "volume_name": "第五卷 独角兽骑士",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 6716,
+          "chapter_name": "序章 寻找神话时代的武器",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 6717,
+          "chapter_name": "第一章 登陆恶灵岛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 6718,
+          "chapter_name": "第二章 猛攻!兽妃玛莉亚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 6719,
+          "chapter_name": "第三章 复苏的恐惧!魔神兵的复活",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 6720,
+          "chapter_name": "第四章 独角兽骑士",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 6721,
+          "chapter_name": "终章 离别之歌",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 6722,
+          "chapter_name": "後记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 6723,
+          "chapter_name": "特别附录~最终大赛开幕",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

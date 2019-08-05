@@ -12,12 +12,13 @@
   "hot_hits": 11492,
   "introduction": "　　和善温柔的江香、爱打扮爱撒娇的圆圆、\n　　帅气迷人的小津、冷漠成熟的阿柴。\n　　纤细敏感、一不小心就会受伤的少女们，\n　　她们在花园里看见了什么……\n　　当离开花园的那一刻到来，她们又该如何面对？",
   "types": [
-    "爱情/其它"
+    "爱情",
+    "其它"
   ],
   "authors": "红玉伊月",
-  "first_letter": "ｆ",
-  "subscribe_num": 542,
-  "redis_update_time": 1564279032,
+  "first_letter": "Ｆ",
+  "subscribe_num": 547,
+  "redis_update_time": 1564954010,
   "volume": [
     {
       "id": 5013,
@@ -25,7 +26,42 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1358837008,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5013,
+      "id": 5013,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 33179,
+          "chapter_name": "第一章 春之茧",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33180,
+          "chapter_name": "第二章 巧克力血",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33181,
+          "chapter_name": "第三章 echo",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33182,
+          "chapter_name": "第四章 失落的花园",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33183,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

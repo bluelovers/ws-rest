@@ -3,7 +3,7 @@
   "name": "攻壳机动队",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "宇宙生化人\r",
+  "last_update_volume_name": "宇宙生化人",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 499,
   "last_update_chapter_id": 3074,
@@ -16,16 +16,31 @@
   ],
   "authors": "远藤明范",
   "first_letter": "G",
-  "subscribe_num": 806,
-  "redis_update_time": 1564213407,
+  "subscribe_num": 814,
+  "redis_update_time": 1565028551,
   "volume": [
     {
       "id": 499,
       "lnovel_id": 136,
-      "volume_name": "宇宙生化人\r",
+      "volume_name": "宇宙生化人",
       "volume_order": 10,
       "addtime": 1274917954,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 499,
+      "id": 499,
+      "volume_name": "宇宙生化人",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3074,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

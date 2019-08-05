@@ -1,9 +1,9 @@
 {
   "id": 464,
-  "name": "Wild　Bouquet",
+  "name": "Wild Bouquet",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷 在这花不开放的世界\r",
+  "last_update_volume_name": "第一卷 在这花不开放的世界",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1755,
   "last_update_chapter_id": 10223,
@@ -16,16 +16,31 @@
   ],
   "authors": "驹尾真子",
   "first_letter": "W",
-  "subscribe_num": 710,
-  "redis_update_time": 1564309129,
+  "subscribe_num": 725,
+  "redis_update_time": 1565028856,
   "volume": [
     {
       "id": 1755,
       "lnovel_id": 464,
-      "volume_name": "第一卷 在这花不开放的世界\r",
+      "volume_name": "第一卷 在这花不开放的世界",
       "volume_order": 10,
       "addtime": 1274918660,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1755,
+      "id": 1755,
+      "volume_name": "第一卷 在这花不开放的世界",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10223,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "丧神之碑",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "埃利诺亚的光轮\r",
+  "last_update_volume_name": "埃利诺亚的光轮",
   "last_update_chapter_name": "埃利诺亚的光轮 一卷全",
   "last_update_volume_id": 1594,
   "last_update_chapter_id": 23813,
@@ -16,56 +16,136 @@
   ],
   "authors": "津守时生",
   "first_letter": "S",
-  "subscribe_num": 143,
-  "redis_update_time": 1564309942,
+  "subscribe_num": 144,
+  "redis_update_time": 1564912463,
   "volume": [
     {
       "id": 1590,
       "lnovel_id": 415,
-      "volume_name": "拉斐之末裔\r",
+      "volume_name": "拉斐之末裔",
       "volume_order": 10,
       "addtime": 1274918562,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 1591,
       "lnovel_id": 415,
-      "volume_name": "乌罗波洛斯之影\r",
+      "volume_name": "乌罗波洛斯之影",
       "volume_order": 20,
       "addtime": 1274918562,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 1592,
       "lnovel_id": 415,
-      "volume_name": "卡由的封印\r",
+      "volume_name": "卡由的封印",
       "volume_order": 30,
       "addtime": 1274918562,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 1593,
       "lnovel_id": 415,
-      "volume_name": "菲拉鲁的戒严令\r",
+      "volume_name": "菲拉鲁的戒严令",
       "volume_order": 40,
       "addtime": 1274918562,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 1594,
       "lnovel_id": 415,
-      "volume_name": "埃利诺亚的光轮\r",
+      "volume_name": "埃利诺亚的光轮",
       "volume_order": 50,
       "addtime": 1274918562,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 1595,
       "lnovel_id": 415,
-      "volume_name": "番外 奥塞罗·游戏\r",
+      "volume_name": "番外 奥塞罗·游戏",
       "volume_order": 60,
       "addtime": 1274918562,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1590,
+      "id": 1590,
+      "volume_name": "拉斐之末裔",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9189,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1591,
+      "id": 1591,
+      "volume_name": "乌罗波洛斯之影",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 9190,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1592,
+      "id": 1592,
+      "volume_name": "卡由的封印",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 9191,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1593,
+      "id": 1593,
+      "volume_name": "菲拉鲁的戒严令",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 9192,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1594,
+      "id": 1594,
+      "volume_name": "埃利诺亚的光轮",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 23813,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 1595,
+      "id": 1595,
+      "volume_name": "番外 奥塞罗·游戏",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 9194,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 35891,
   "introduction": "『机动战士高达0079』的世界衍生出的原创故事。DreamCast3D影像游戏小说版登场！\n\n宇宙世纪0079。吉恩公国与地球联邦之间的「一年战争」爆发，战争前期吉恩公国使用质量弹「殖民卫星」坠落地球。其结果，澳洲大陆1/3的土地遭到毁灭性打击，悉尼从地球上消失。开战后的0079年11月，这片大陆上联邦军开始对吉恩军进行大规模反攻作战。各部队的活跃，数次拯救了联邦的危机，以下是叙说该大陆上联邦军其中一支特殊部队的故事。。。。",
   "types": [
-    "科幻/机战/战争"
+    "科幻",
+    "机战",
+    "战争"
   ],
   "authors": "林让治",
   "first_letter": "J",
-  "subscribe_num": 778,
-  "redis_update_time": 1564304983,
+  "subscribe_num": 786,
+  "redis_update_time": 1564960743,
   "volume": [
     {
       "id": 3679,
@@ -25,7 +27,7 @@
       "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1306720907,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3691,
@@ -33,7 +35,100 @@
       "volume_name": "下卷",
       "volume_order": 20,
       "addtime": 1307065500,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3679,
+      "id": 3679,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 21652,
+          "chapter_name": "序章 殖民卫星坠落之日",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21646,
+          "chapter_name": "第一章 白色野狗",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21647,
+          "chapter_name": "第二章 攻打艾丽斯·斯普林斯",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21648,
+          "chapter_name": "第三章 荒野迅雷",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21649,
+          "chapter_name": "第四章 加利顿采掘基地",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21650,
+          "chapter_name": "第五章 阿德莱德沦陷",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21651,
+          "chapter_name": "第六章 尤康部队",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 3691,
+      "id": 3691,
+      "volume_name": "下卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 21718,
+          "chapter_name": "第一章 布罗肯·希尔",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21719,
+          "chapter_name": "第二章 特林顿基地",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21720,
+          "chapter_name": "第三章 熊之神",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21721,
+          "chapter_name": "第四章 月之阶梯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21722,
+          "chapter_name": "第五章 HLV基地",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21723,
+          "chapter_name": "第六章 最后的战斗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21724,
+          "chapter_name": "尾声 在非洲",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 21725,
+          "chapter_name": "给小说结束的寄语",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

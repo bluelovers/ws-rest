@@ -16,16 +16,16 @@
   ],
   "authors": "新城Kazma",
   "first_letter": "1",
-  "subscribe_num": 268,
-  "redis_update_time": 1564283718,
+  "subscribe_num": 269,
+  "redis_update_time": 1564917535,
   "volume": [
     {
       "id": 3431,
       "lnovel_id": 969,
-      "volume_name": "link one 她说，至少等到明天\r",
+      "volume_name": "link one 她说，至少等到明天",
       "volume_order": 10,
       "addtime": 1295942000,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 3818,
@@ -33,7 +33,7 @@
       "volume_name": "link two 大人不会懂",
       "volume_order": 20,
       "addtime": 1312176946,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 3875,
@@ -41,7 +41,7 @@
       "volume_name": "link three 「——叛徒！」",
       "volume_order": 30,
       "addtime": 1313978057,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 3983,
@@ -49,7 +49,7 @@
       "volume_name": "link four Riders of the Mark City",
       "volume_order": 40,
       "addtime": 1318921042,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 4288,
@@ -57,7 +57,7 @@
       "volume_name": "link five 逻辑化的感性／感性化的逻辑",
       "volume_order": 50,
       "addtime": 1330500852,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 4289,
@@ -65,7 +65,177 @@
       "volume_name": "link six 世界上绝无仅有的三项真实",
       "volume_order": 60,
       "addtime": 1330500857,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3431,
+      "id": 3431,
+      "volume_name": "link one 她说，至少等到明天",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19765,
+          "chapter_name": "登场人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19766,
+          "chapter_name": "PART1 那封邮件传来前",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19767,
+          "chapter_name": "PART2 那封邮件传来后",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19768,
+          "chapter_name": "PART3 她说，至少等到明天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19769,
+          "chapter_name": "PART4 车站捕手",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19770,
+          "chapter_name": "插图",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 3818,
+      "id": 3818,
+      "volume_name": "link two 大人不会懂",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 22852,
+          "chapter_name": "PART5「大人不会懂，或是2vs13」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22853,
+          "chapter_name": "PART6「……然后2vs12」",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 3875,
+      "id": 3875,
+      "volume_name": "link three 「——叛徒！」",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 23305,
+          "chapter_name": "PART6……然后2vs12（承先）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23306,
+          "chapter_name": "PART7「——！叛徒！」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23307,
+          "chapter_name": "后记（B）",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 3983,
+      "id": 3983,
+      "volume_name": "link four Riders of the Mark City",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 24432,
+          "chapter_name": "PART8「Riders of the Mark City」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24433,
+          "chapter_name": "PART9「快到对岸前，他们……」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24434,
+          "chapter_name": "后记（C）",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 4288,
+      "id": 4288,
+      "volume_name": "link five 逻辑化的感性／感性化的逻辑",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 26913,
+          "chapter_name": "PART10 家庭餐厅里的23分＆180秒",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26914,
+          "chapter_name": "PART11 Into the Midnight",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26915,
+          "chapter_name": "PART12 逻辑化的感性／感性化的逻辑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26916,
+          "chapter_name": "后记（D-1）",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 4289,
+      "id": 4289,
+      "volume_name": "link six 世界上绝无仅有的三项真实",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 26917,
+          "chapter_name": "PART12 逻辑化的感性／感性化的逻辑（承先）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26918,
+          "chapter_name": "PART13 世界上绝无仅有的三项真实〈instrumental version〉",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26919,
+          "chapter_name": "PART14 不论夜空多么深沉（总有一天）黎明终将造访",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26920,
+          "chapter_name": "PART15 世界上绝无仅有的三项真实〈full chorus version〉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26921,
+          "chapter_name": "终章 And then, four years later",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26922,
+          "chapter_name": "后记（D-2）",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

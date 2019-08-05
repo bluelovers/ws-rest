@@ -3,7 +3,7 @@
   "name": "亚普菲兰特",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2140,
   "last_update_chapter_id": 12513,
@@ -16,16 +16,76 @@
   ],
   "authors": "田中芳树",
   "first_letter": "Y",
-  "subscribe_num": 77,
-  "redis_update_time": 1564218449,
+  "subscribe_num": 78,
+  "redis_update_time": 1565029098,
   "volume": [
     {
       "id": 2140,
       "lnovel_id": 573,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918901,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2140,
+      "id": 2140,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12504,
+          "chapter_name": "旅行者与当地居民",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12505,
+          "chapter_name": "树上与窗内",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12506,
+          "chapter_name": "逃亡与追踪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12507,
+          "chapter_name": "女王陛下与魔术师",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12508,
+          "chapter_name": "女贼与警长",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12509,
+          "chapter_name": "地底的危险与地面的危机",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12510,
+          "chapter_name": "天下无敌与史上最强",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12511,
+          "chapter_name": "小国的主张与大国的理论",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 12512,
+          "chapter_name": "未来与未来",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 12513,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

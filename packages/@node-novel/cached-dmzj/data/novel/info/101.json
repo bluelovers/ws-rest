@@ -12,36 +12,38 @@
   "hot_hits": 264461,
   "introduction": "这所新学校，竟然是邪恶组织的人才培训所？\n就读高中的大和一哉有个不为人知的秘密：他有一对「与众不同」的双亲，并从他们身上继承了超越一般人的运动能力。为了避免受到瞩目，一哉刻意隐藏自己的能力，但累积在心中的压力快要让他憋不住了。他的母亲．美斯拉原本位居邪恶组织的重要干部，她建议儿子转入一所梦幻般的学园——「在那里，你可以尽情发挥全力」——更重要的是，学生有一大半都是女孩子！\n一哉兴高采烈地决定转学，没想到在校园中等候他的，竟然是继承改造人类基因、具有变身能力的同学们。「咦？这里该不会是邪恶组织的培训所吧？」接下来甚至还出现号称正义使者的敌人！\n一哉的校园生活会变成什么样子呢？",
   "types": [
-    "校园/异能/格斗"
+    "校园",
+    "异能",
+    "格斗"
   ],
   "authors": "织田兄第",
   "first_letter": "E",
-  "subscribe_num": 2171,
-  "redis_update_time": 1564291242,
+  "subscribe_num": 2184,
+  "redis_update_time": 1565020754,
   "volume": [
     {
       "id": 355,
       "lnovel_id": 101,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917874,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 356,
       "lnovel_id": 101,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274917874,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 357,
       "lnovel_id": 101,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274917874,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3564,
@@ -49,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1301474204,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5590,
@@ -57,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1382357402,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 7817,
@@ -65,7 +67,242 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1463227571,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 355,
+      "id": 355,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2239,
+          "chapter_name": "序 章 大和家的居民1",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2240,
+          "chapter_name": "第一章 校园中",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2241,
+          "chapter_name": "第二章 彼此的秘密",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2242,
+          "chapter_name": "第三章 暴风来袭",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2243,
+          "chapter_name": "第四章 让太阳温暖心灵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2244,
+          "chapter_name": "第五章 最弱而最强的角色",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2245,
+          "chapter_name": "终章 崭新的早晨",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2246,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 356,
+      "id": 356,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2247,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 357,
+      "id": 357,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 2248,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3564,
+      "id": 3564,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 20749,
+          "chapter_name": "序章 白色的战士",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20750,
+          "chapter_name": "第一章 转学生是青梅竹马?",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20751,
+          "chapter_name": "第二章 策划",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20752,
+          "chapter_name": "第三章 三〇〇分钟的空白",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20753,
+          "chapter_name": "第四章 大和家的居民Returns",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20754,
+          "chapter_name": "第五章 眷恋",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20755,
+          "chapter_name": "第六章 红莲X苍光",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20756,
+          "chapter_name": "终章 第一步",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20757,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 5590,
+      "id": 5590,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 38088,
+          "chapter_name": "prologue 事情的开端",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38089,
+          "chapter_name": "episode① 为烦恼的蜘蛛少女献上祝福",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38090,
+          "chapter_name": "episode② 千路美寻繁忙的一天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38091,
+          "chapter_name": "episode③ 找出学年主任的真面目！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38092,
+          "chapter_name": "episode④ 告白吧！峰音十季子",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38093,
+          "chapter_name": "episode⑤ 小零食、风、与蝙蝠",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38250,
+          "chapter_name": "episode⑥ 相摩量子崭新的日常生活",
+          "chapter_order": 65
+        },
+        {
+          "chapter_id": 38094,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 7817,
+      "id": 7817,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 61127,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 61128,
+          "chapter_name": "第一章 这里是大和家，全体集合！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 61129,
+          "chapter_name": "第二章 令人向往的旅行计画",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 61130,
+          "chapter_name": "中场休息 暗中行动",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 61131,
+          "chapter_name": "第三章 在商店街之一",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 61132,
+          "chapter_name": "第四章 在商店街之二",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 61133,
+          "chapter_name": "第五章 在商店街之三",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 61134,
+          "chapter_name": "第六章 决战",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 61135,
+          "chapter_name": "第七章 这里是大和家，还不快点全体集合！",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 61136,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

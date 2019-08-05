@@ -3,7 +3,7 @@
   "name": "电车男",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2471,
   "last_update_chapter_id": 14258,
@@ -16,16 +16,31 @@
   ],
   "authors": "中野独人",
   "first_letter": "D",
-  "subscribe_num": 145,
-  "redis_update_time": 1564265711,
+  "subscribe_num": 147,
+  "redis_update_time": 1564949545,
   "volume": [
     {
       "id": 2471,
       "lnovel_id": 689,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481533,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2471,
+      "id": 2471,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14258,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

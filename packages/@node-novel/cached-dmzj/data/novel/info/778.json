@@ -3,7 +3,7 @@
   "name": "东京吸血鬼金融",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "彩页",
   "last_update_volume_id": 2656,
   "last_update_chapter_id": 14863,
@@ -17,15 +17,35 @@
   "authors": "真藤顺丈",
   "first_letter": "D",
   "subscribe_num": 76,
-  "redis_update_time": 1564239480,
+  "redis_update_time": 1564995781,
   "volume": [
     {
       "id": 2656,
       "lnovel_id": 778,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275630337,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2656,
+      "id": 2656,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14862,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14863,
+          "chapter_name": "彩页",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "阿宅，你已经死了！",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记 『给御宅们』",
   "last_update_volume_id": 3151,
   "last_update_chapter_id": 17715,
@@ -17,15 +17,75 @@
   "authors": "冈田斗司夫",
   "first_letter": "A",
   "subscribe_num": 222,
-  "redis_update_time": 1564266966,
+  "redis_update_time": 1565004575,
   "volume": [
     {
       "id": 3151,
       "lnovel_id": 889,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1284343433,
-      "sum_chapters": 3
+      "sum_chapters": 9
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3151,
+      "id": 3151,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17706,
+          "chapter_name": "写在前面",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17707,
+          "chapter_name": "第1章 『御宅』变得令人搞不懂了",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17708,
+          "chapter_name": "第2章 『萌』有那么重要吗？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17709,
+          "chapter_name": "第3章 『御宅』是在说谁？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17710,
+          "chapter_name": "第4章 『OTAKU』与『御宅』的变迁",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17711,
+          "chapter_name": "第5章 萌的起源",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17712,
+          "chapter_name": "第6章 科幻已死",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 17713,
+          "chapter_name": "第7章 贵族主义与菁英主义",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 17714,
+          "chapter_name": "第8章 御宅之死，以及转生",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 17715,
+          "chapter_name": "后记 『给御宅们』",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

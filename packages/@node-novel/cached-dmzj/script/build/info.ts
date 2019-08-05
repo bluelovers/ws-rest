@@ -2,14 +2,24 @@
  * Created by user on 2019/7/28.
  */
 
+import {
+	AxiosAdapter,
+	AxiosError,
+	AxiosInstance,
+	AxiosPromise,
+	AxiosRequestConfig,
+	AxiosResponse,
+	AxiosStatic,
+} from 'axios';
 import { DmzjClient } from 'dmzj-api';
 import { __root, console, consoleDebug, getDmzjClient, trim } from '../util';
-import path from "path";
+import path from "upath2";
 import fs from 'fs-extra';
 import Bluebird from 'bluebird';
 import { IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import moment from 'moment';
 import { SymSelf } from 'restful-decorator/lib/helper/symbol';
+import { isResponseFromAxiosCache } from 'axios-util/lib/index';
 
 export default (async () =>
 {
@@ -28,95 +38,83 @@ export default (async () =>
 
 	const updatedList: Record<number, IDmzjNovelInfoWithChapters> = {};
 
-	MAIN:
-		for (let _i = 3; _i >= 0; _i--)
+	let jjj = 0;
+
+	let _do = true;
+
+	await Bluebird
+		.resolve(novelList.list)
+		.mapSeries(async (v, index) =>
 		{
-			let _do = true;
 
-			await Bluebird
-				.resolve(novelList.list)
-				.mapSeries(async (v, index) =>
-				{
+			if (_do && !taskList[v.id])
+			{
+				let fromCache: boolean;
 
-					if (_do && !taskList[v.id])
+				let info = await api.novelInfoWithChapters(v.id)
+					.catch((e: AxiosError) =>
 					{
-						let fromCache: boolean;
 
-						let info = await api.novelInfoWithChapters(v.id)
-							.catch(e =>
-							{
+						_do = false;
 
-								_do = false;
+						consoleDebug.error(v.id, v.name, e.message);
 
-								consoleDebug.error(v.id, v.name, (e as Error).message);
+						console.dir(e.request);
+						console.dir(e.config);
 
-								return null as IDmzjNovelInfoWithChapters
-							})
-							.tap(function (this: DmzjClient, data)
-							{
-								if (data[SymSelf].$response.request.fromCache || this.$response.request.fromCache)
-								{
-									fromCache = true;
-								}
-							})
-						;
-
-						if (info && info.id == v.id)
+						return null as IDmzjNovelInfoWithChapters
+					})
+					.tap(function (this: DmzjClient, data)
+					{
+						if (isResponseFromAxiosCache(data[SymSelf].$response) || isResponseFromAxiosCache(this.$response))
 						{
-							consoleDebug.success(v.id, trim(v.name), moment.unix(v.last_update_time)
-								.format(), trim(v.last_update_volume_name), trim(v.last_update_chapter_name));
-
-							let _file = path.join(__root, 'data', 'novel/info', `${v.id}.json`);
-
-							await fs.outputJSON(_file, info, {
-								spaces: 2,
-							});
-
-							updatedList[v.id] = info;
-
-							taskList[v.id] = Math.max(v.last_update_time, info.last_update_time);
-
-							if (!fromCache)
-							{
-								if (!(index % 5))
-								{
-									saveCache();
-								}
-
-								let delay = Math.min(10000 + Math.min(index, 15) * 1000 * Math.random(), 20 * 1000);
-
-								consoleDebug.debug(`delay:`, delay);
-								await Bluebird.delay(delay);
-							}
+							fromCache = true;
 						}
-						else
-						{
-							_do = false;
-						}
-					}
+					})
+				;
 
-				})
-				.catch(e => null)
-				.tap(v =>
+				if (info && info.id == v.id)
 				{
-					consoleDebug.info(`結束抓取小說資料`);
-				})
-			;
+					consoleDebug.success('[' + String(++jjj)
+						.padStart(4, '0') + ']', v.id, trim(v.name), moment.unix(v.last_update_time)
+						.format(), trim(v.last_update_volume_name), trim(v.last_update_chapter_name));
 
-			if (_do || _i === 0)
-			{
-				_do = false;
-				break MAIN;
-			}
-			else if (_i > 0)
-			{
-				_do = false;
-				break MAIN;
+					let _file = path.join(__root, 'data', 'novel/info', `${v.id}.json`);
 
-				await Bluebird.delay(120 * 1000);
+					await fs.outputJSON(_file, info, {
+						spaces: 2,
+					});
+
+					updatedList[v.id] = info;
+
+					taskList[v.id] = Math.max(v.last_update_time, info.last_update_time);
+
+					if (!fromCache)
+					{
+						if (!(index % 5))
+						{
+							saveCache();
+						}
+
+						let delay = Math.min(10000 + Math.min(index, 15) * 1000 * Math.random(), 20 * 1000);
+
+						consoleDebug.debug(`delay:`, delay);
+						await Bluebird.delay(delay);
+					}
+				}
+				else
+				{
+					_do = false;
+				}
 			}
-		}
-		;
+
+		})
+		.catch(e => null)
+		.tap(v =>
+		{
+			consoleDebug.info(`結束抓取小說資料`);
+		})
+	;
 
 	await Bluebird
 		.resolve(Object.entries(updatedList))

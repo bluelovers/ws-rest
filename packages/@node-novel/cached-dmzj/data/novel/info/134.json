@@ -3,7 +3,7 @@
   "name": "隔邻的魔法师",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "从一个咒语揭开序幕\r",
+  "last_update_volume_name": "从一个咒语揭开序幕",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 496,
   "last_update_chapter_id": 3071,
@@ -17,15 +17,30 @@
   "authors": "筱崎砂美",
   "first_letter": "G",
   "subscribe_num": 59,
-  "redis_update_time": 1564234828,
+  "redis_update_time": 1564651183,
   "volume": [
     {
       "id": 496,
       "lnovel_id": 134,
-      "volume_name": "从一个咒语揭开序幕\r",
+      "volume_name": "从一个咒语揭开序幕",
       "volume_order": 10,
       "addtime": 1274917952,
-      "sum_chapters": 3
+      "sum_chapters": 6
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 496,
+      "id": 496,
+      "volume_name": "从一个咒语揭开序幕",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3071,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

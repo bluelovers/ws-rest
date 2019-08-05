@@ -12,36 +12,39 @@
   "hot_hits": 62412,
   "introduction": "御厨惠，一名个头小、皮肤白皙、身材瘦弱的中学二年级学生。脸蛋像母亲，五官算得上端正，不过无论是读书或运动，都不十分在行。没想到在他这样平凡的人身上，也会出现不可思议的大变化──这……完全得归功於从事鍊金术师职业的父亲为他制造了一个人造妖精亚奈……除了亚奈的加入之外，他还必须与来到魔女母亲身边修行的上级魔女艾莉卡同住一个屋檐下。而这一连串不可思议的大变化，竟然是世界动摇的前兆──1910年，哈雷彗星的『来访』为世界揭开了魔法的序幕，在100年後的今天，世界将再度暴露在崭新的激烈变化中……",
   "types": [
-    "爱情/搞笑/奇幻/校园"
+    "爱情",
+    "搞笑",
+    "奇幻",
+    "校园"
   ],
   "authors": "加地尚武",
   "first_letter": "F",
   "subscribe_num": 164,
-  "redis_update_time": 1564291807,
+  "redis_update_time": 1565029464,
   "volume": [
     {
       "id": 440,
       "lnovel_id": 123,
-      "volume_name": "第一卷 魔法使之徒\r",
+      "volume_name": "第一卷 魔法使之徒",
       "volume_order": 10,
       "addtime": 1274917922,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 441,
       "lnovel_id": 123,
-      "volume_name": "第二章 阎之王子\r",
+      "volume_name": "第二章 阎之王子",
       "volume_order": 20,
       "addtime": 1274917922,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 442,
       "lnovel_id": 123,
-      "volume_name": "第三章 彩虹之衔尾蛇\r",
+      "volume_name": "第三章 彩虹之衔尾蛇",
       "volume_order": 30,
       "addtime": 1274917922,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3191,
@@ -49,7 +52,7 @@
       "volume_name": "第四卷 王立图书馆十字军",
       "volume_order": 40,
       "addtime": 1286596888,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3383,
@@ -57,7 +60,274 @@
       "volume_name": "第五卷 放学后的使徒",
       "volume_order": 50,
       "addtime": 1294558110,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 440,
+      "id": 440,
+      "volume_name": "第一卷 魔法使之徒",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2748,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2749,
+          "chapter_name": "序章 爱的女神",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2750,
+          "chapter_name": "第一章 新的家族",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2751,
+          "chapter_name": "第二章 圣诞节的炫目光彩",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2752,
+          "chapter_name": "第三章 勇往直前",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2753,
+          "chapter_name": "第四章 御厨象山的炼金术",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2754,
+          "chapter_name": "第五章 魔法使之徒",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2755,
+          "chapter_name": "第六章 吸血鬼狩猎者",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 2756,
+          "chapter_name": "终章 魔法使的早晨",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 2757,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 441,
+      "id": 441,
+      "volume_name": "第二章 阎之王子",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2758,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2759,
+          "chapter_name": "第一章 再度来访",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2760,
+          "chapter_name": "第二章 来自魔界的转学生",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2761,
+          "chapter_name": "第三章 媚药",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2762,
+          "chapter_name": "第四章 法师薛鲁纳",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2763,
+          "chapter_name": "第五章 再见了亚奈",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2764,
+          "chapter_name": "终章 此夜绵绵",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 442,
+      "id": 442,
+      "volume_name": "第三章 彩虹之衔尾蛇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 2765,
+          "chapter_name": "第一章 大器晚成的魔法使",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 2766,
+          "chapter_name": "第二章 「莉莉斯」的末裔们",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 2767,
+          "chapter_name": "第三章 从保护区来的男人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 2768,
+          "chapter_name": "第四章 新任法师",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 2769,
+          "chapter_name": "第五章 法师的「联合国演说」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 2770,
+          "chapter_name": "第六章 沸腾的世界",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 2771,
+          "chapter_name": "第七章 窑变的世界",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 2772,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3191,
+      "id": 3191,
+      "volume_name": "第四卷 王立图书馆十字军",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 17965,
+          "chapter_name": "序章 金星升起之时",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17966,
+          "chapter_name": "第一章 从玻璃瓶中来的转学生",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17967,
+          "chapter_name": "第二章 十字军",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17968,
+          "chapter_name": "第三章 戴草帽的家庭教师",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17969,
+          "chapter_name": "第四章 离家出走",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17970,
+          "chapter_name": "第六章 救星",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17971,
+          "chapter_name": "第七章 从天而降的女神",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 17972,
+          "chapter_name": "第八章 复仇者",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 17973,
+          "chapter_name": "第九章 圣灵降临",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 17974,
+          "chapter_name": "终章 金星沉沦之地",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 17975,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 3383,
+      "id": 3383,
+      "volume_name": "第五卷 放学后的使徒",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 19412,
+          "chapter_name": "序章 五朔节前夕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19413,
+          "chapter_name": "第一章 二月的约会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19499,
+          "chapter_name": "第二章 同学",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20619,
+          "chapter_name": "第三章 面包和鱼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20620,
+          "chapter_name": "第四章 为了不眠之夜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20838,
+          "chapter_name": "第五章 传教和教义",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22733,
+          "chapter_name": "第六章 道立安形高中天使联盟",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22731,
+          "chapter_name": "第七章 愿望的总和",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 22732,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

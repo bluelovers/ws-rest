@@ -12,20 +12,21 @@
   "hot_hits": 34471,
   "introduction": "“你，要不要成为我们的队员？请你加入吧——不对，应该是必须加入！我们现在正在招探险队员，没有经验的人也OK的。”\n挂起用难看到不能再难看的字写的‘探险队，幕集中’的告示板进行意图不明劝诱的夏海纱音。这是我与她的第一次邂逅。第一印象是......是个奇怪的女生。招募中是说......这个时候我完全没有考虑，我已经被她的能力诱拐到重复世界里了。听了她的话，我小小的常识也纷纷被破坏了，外形已经坍塌的世界观。也许是件难以置信的事，我和纱音一起从破灭的危机中拯救了这个世界。",
   "types": [
-    "冒险/奇幻"
+    "冒险",
+    "奇幻"
   ],
   "authors": "直江ヒロト",
   "first_letter": "X",
-  "subscribe_num": 195,
-  "redis_update_time": 1564092797,
+  "subscribe_num": 197,
+  "redis_update_time": 1564847877,
   "volume": [
     {
       "id": 3136,
       "lnovel_id": 886,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1283221924,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 3138,
@@ -33,7 +34,120 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1283397303,
-      "sum_chapters": 11
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3136,
+      "id": 3136,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17596,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17597,
+          "chapter_name": "第一章 与怪人邂逅的海浪声",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17598,
+          "chapter_name": "第二章 狂醉者与向蔚蓝扬帆起航的船",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17599,
+          "chapter_name": "第三章 冒险者与黑色潮流",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17600,
+          "chapter_name": "第四章 探索者与雾海",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17601,
+          "chapter_name": "第五章 徘徊者与迷宫航路",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17602,
+          "chapter_name": "第六章 夺路者与幽灵岛的尽头",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 17603,
+          "chapter_name": "第七章 求爱者与终局的登陆",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 17604,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 17605,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 3138,
+      "id": 3138,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 37273,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37274,
+          "chapter_name": "第一章 Stray Sheep",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37275,
+          "chapter_name": "第二章 Hit and Run",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37276,
+          "chapter_name": "第三章 Stormy Departures",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37277,
+          "chapter_name": "第四章 Ghost in theShip",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37278,
+          "chapter_name": "第五章 Wild Quest",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37279,
+          "chapter_name": "第六章 Escape Rhapsody",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 37280,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 37281,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

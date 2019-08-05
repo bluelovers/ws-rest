@@ -3,7 +3,7 @@
   "name": "猎捕史奈克",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 918,
   "last_update_chapter_id": 5270,
@@ -16,16 +16,31 @@
   ],
   "authors": "宫部美幸",
   "first_letter": "L",
-  "subscribe_num": 141,
-  "redis_update_time": 1564238244,
+  "subscribe_num": 142,
+  "redis_update_time": 1564989875,
   "volume": [
     {
       "id": 918,
       "lnovel_id": 246,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918181,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 918,
+      "id": 918,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5270,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

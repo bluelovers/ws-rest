@@ -3,7 +3,7 @@
   "name": "闲狼作家是美少女妖怪",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1958,
   "last_update_chapter_id": 11553,
@@ -16,24 +16,102 @@
   ],
   "authors": "杉井光",
   "first_letter": "X",
-  "subscribe_num": 974,
-  "redis_update_time": 1564296574,
+  "subscribe_num": 975,
+  "redis_update_time": 1565016985,
   "volume": [
     {
       "id": 1957,
       "lnovel_id": 517,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918791,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1958,
       "lnovel_id": 517,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918791,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1957,
+      "id": 1957,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11542,
+          "chapter_name": "叶隐饭纲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11543,
+          "chapter_name": "神无月翼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11544,
+          "chapter_name": "风姬尸鬼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11545,
+          "chapter_name": "风姬尸鬼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11546,
+          "chapter_name": "杉井光",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11547,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11548,
+          "chapter_name": "真正的后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 11549,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 1958,
+      "id": 1958,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11550,
+          "chapter_name": "第一话 Mr·Maternity",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11551,
+          "chapter_name": "第二话 黛亚里沙",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11552,
+          "chapter_name": "第三话 鸿池仁",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11553,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

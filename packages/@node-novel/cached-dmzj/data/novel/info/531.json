@@ -3,7 +3,7 @@
   "name": "学院圣殿",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "尾声",
   "last_update_volume_id": 2012,
   "last_update_chapter_id": 11870,
@@ -17,15 +17,65 @@
   "authors": "早见裕司",
   "first_letter": "X",
   "subscribe_num": 37,
-  "redis_update_time": 1564199343,
+  "redis_update_time": 1564899952,
   "volume": [
     {
       "id": 2012,
       "lnovel_id": 531,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918826,
-      "sum_chapters": 5
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2012,
+      "id": 2012,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11863,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11864,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11865,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11866,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11867,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11868,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11869,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 11870,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

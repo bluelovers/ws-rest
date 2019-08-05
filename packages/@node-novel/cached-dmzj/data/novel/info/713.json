@@ -3,7 +3,7 @@
   "name": "黑屋吊影",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2502,
   "last_update_chapter_id": 14327,
@@ -16,16 +16,31 @@
   ],
   "authors": "贵志佑介",
   "first_letter": "H",
-  "subscribe_num": 679,
-  "redis_update_time": 1564313410,
+  "subscribe_num": 685,
+  "redis_update_time": 1565018715,
   "volume": [
     {
       "id": 2502,
       "lnovel_id": 713,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481536,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2502,
+      "id": 2502,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14327,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

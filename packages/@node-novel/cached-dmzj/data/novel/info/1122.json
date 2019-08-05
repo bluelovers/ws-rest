@@ -3,7 +3,7 @@
   "name": "鬼物语(物语系列八)",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第忍话 忍时间\r",
+  "last_update_volume_name": "第忍话 忍时间",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 3990,
   "last_update_chapter_id": 24486,
@@ -12,20 +12,76 @@
   "hot_hits": 305899,
   "introduction": "100%善始善终的小说\n　　“如果不去努力解开误会，那就等同撒谎哟。”\n　　躲在阿良良木历影子中的吸血鬼·忍野忍。\n　　从她的记忆里觉醒的\n　　“超越怪异的威胁”到底是什么……！？\n　　妖艳的吸血鬼一人的轻轻细语，超越时空吞噬现在——！！\n　　这个现代の怪异！怪异！怪异！\n　　这是个应该连你也懂的谎言。",
   "types": [
-    "神鬼/爱情"
+    "神鬼",
+    "爱情"
   ],
   "authors": "西尾维新",
   "first_letter": "G",
-  "subscribe_num": 11184,
-  "redis_update_time": 1564308219,
+  "subscribe_num": 11250,
+  "redis_update_time": 1564974718,
   "volume": [
     {
       "id": 3990,
       "lnovel_id": 1122,
-      "volume_name": "第忍话 忍时间\r",
+      "volume_name": "第忍话 忍时间",
       "volume_order": 10,
       "addtime": 1319422327,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3990,
+      "id": 3990,
+      "volume_name": "第忍话 忍时间",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 24478,
+          "chapter_name": "001－004",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24479,
+          "chapter_name": "005－008",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24480,
+          "chapter_name": "009－012",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24481,
+          "chapter_name": "013－016",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24482,
+          "chapter_name": "017－020",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24483,
+          "chapter_name": "021－024",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24484,
+          "chapter_name": "025－028",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24485,
+          "chapter_name": "029－033",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24486,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

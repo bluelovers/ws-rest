@@ -12,12 +12,14 @@
   "hot_hits": 17419,
   "introduction": "技术高超但缺乏热情的少年，干劲十足却怀有缺陷的少女。\n相遇的两人能否开创出自己的神曲之路？\n世上存在着一群被称为「神曲乐士」的人们。\n他们为精灵演奏「神曲」，而以神曲为食粮的众多精灵，则回报给人类各式各样的恩惠——这里就是这样的世界。\n拉格那司虽然拥有优秀的演奏技术，却失去以神曲乐士为目标的热情，半推半就下转入托尔巴斯神曲学院。在那里，他与一位令人惊讶的少女相遇了。\n少女名叫乌莉露，是个比谁都热爱精灵、个性脱线但非常开朗，而且全心全意以神曲乐士为目标的女孩。然而，那开朗的外表只是假象，少女其实隐藏着一个对献身音乐的人来说，非常致命的问题……",
   "types": [
-    "冒险/爱情/奇幻"
+    "冒险",
+    "爱情",
+    "奇幻"
   ],
   "authors": "榊一郎",
   "first_letter": "S",
-  "subscribe_num": 423,
-  "redis_update_time": 1564241577,
+  "subscribe_num": 424,
+  "redis_update_time": 1564951950,
   "volume": [
     {
       "id": 4791,
@@ -25,7 +27,62 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1351098138,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4791,
+      "id": 4791,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 31264,
+          "chapter_name": "第一话 EXPRESSIONISM",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31265,
+          "chapter_name": "第二话 CHARACTER PIECE",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31266,
+          "chapter_name": "第三话 SOUNDSCAPE",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31267,
+          "chapter_name": "第四话 EINSATZ",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 31268,
+          "chapter_name": "第五话 OPPURE",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 31269,
+          "chapter_name": "第六话 ADLIB",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 31270,
+          "chapter_name": "第七话 DISSONANCE",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 31271,
+          "chapter_name": "最终话 LIEDER ohne WORTE",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 31272,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

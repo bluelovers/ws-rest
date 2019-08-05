@@ -3,7 +3,7 @@
   "name": "黑与蓝",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3107,
   "last_update_chapter_id": 17432,
@@ -16,16 +16,61 @@
   ],
   "authors": "中冈润一郎",
   "first_letter": "H",
-  "subscribe_num": 85,
-  "redis_update_time": 1564284562,
+  "subscribe_num": 86,
+  "redis_update_time": 1564906999,
   "volume": [
     {
       "id": 3107,
       "lnovel_id": 877,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1282452711,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3107,
+      "id": 3107,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17426,
+          "chapter_name": "序章 Revival of the Legend",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17427,
+          "chapter_name": "第一章 Uneventfully Days?",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17428,
+          "chapter_name": "第二章 Crooked Common Sence",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17429,
+          "chapter_name": "第三章 Change Of Mind",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17430,
+          "chapter_name": "第四章 Black & Blue ~Battle of “HOU”~",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17431,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17432,
+          "chapter_name": "插图",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 87026,
   "introduction": "遭受了被称为祸龙战争的的大动乱的嘉路达正统帝国。战事结束后，国家回复到和平的时候，见习圣职者的安娜注意到了每天都看着自己的青年。擅自确定了那名青年·优利欧斯是抱着什么烦恼的安娜，以天生的行动力强袭他的家。对让大约妹妹一样大的少女·莎罗莓去工作而自己不去工作的优利欧斯感到生气的安娜发誓要让他从新做人。不过，向他们逼近的是命运与过去带来的战争！龙与钢与魔女的幻想，一时一时的喜剧故事。物语终于要开始了！",
   "types": [
-    "冒险/奇幻/搞笑"
+    "冒险",
+    "奇幻",
+    "搞笑"
   ],
   "authors": "八剃玉造",
   "first_letter": "N",
   "subscribe_num": 880,
-  "redis_update_time": 1564236012,
+  "redis_update_time": 1564955257,
   "volume": [
     {
       "id": 5087,
@@ -25,7 +27,7 @@
       "volume_name": "短篇",
       "volume_order": 3,
       "addtime": 1361518255,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5086,
@@ -33,7 +35,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1361518194,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5127,
@@ -41,7 +43,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1363167485,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5213,
@@ -49,7 +51,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1366359722,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5450,
@@ -57,7 +59,174 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1376291407,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5087,
+      "id": 5087,
+      "volume_name": "短篇",
+      "volume_order": 3,
+      "chapters": [
+        {
+          "chapter_id": 33725,
+          "chapter_name": "第0章序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33726,
+          "chapter_name": "第1章本篇",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 5086,
+      "id": 5086,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 33719,
+          "chapter_name": "第一章 持菜刀而来的少女",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33720,
+          "chapter_name": "第二章 改革教会的到来",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33721,
+          "chapter_name": "第三章 守护天之门的狮子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33722,
+          "chapter_name": "第四章 打破铁剑的铁拳",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33723,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33724,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5127,
+      "id": 5127,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 34132,
+          "chapter_name": "序章 龙刺进去了",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34280,
+          "chapter_name": "第一章 不想工作的狮子，马夫也得靠衣装",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34486,
+          "chapter_name": "第二章 苍龙之拳，紫龙之枪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34609,
+          "chapter_name": "第三章 背叛的开端",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34610,
+          "chapter_name": "第四章 钢铁的激战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34611,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34612,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5213,
+      "id": 5213,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 34832,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35335,
+          "chapter_name": "第一章 粘着系的天空贵公子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35461,
+          "chapter_name": "第二章 安娜与库尔奈莉亚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35579,
+          "chapter_name": "第三章 莎罗苺的白花",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35613,
+          "chapter_name": "第四章 龙之魔女，焰之王",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35614,
+          "chapter_name": "终章 红太阳",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35615,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5450,
+      "id": 5450,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 36878,
+          "chapter_name": "序章 皇帝之血",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36879,
+          "chapter_name": "第一章 被人叫去躺着反倒是变得想工作了？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36895,
+          "chapter_name": "第二章 安娜的决断",
+          "chapter_order": 30
+        }
+      ]
     }
   ]
 }

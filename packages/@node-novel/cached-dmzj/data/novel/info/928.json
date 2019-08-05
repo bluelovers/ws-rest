@@ -3,7 +3,7 @@
   "name": "心生研究社",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3285,
   "last_update_chapter_id": 18728,
@@ -16,16 +16,66 @@
   ],
   "authors": "大泉りか",
   "first_letter": "X",
-  "subscribe_num": 299,
-  "redis_update_time": 1564308850,
+  "subscribe_num": 301,
+  "redis_update_time": 1564925693,
   "volume": [
     {
       "id": 3285,
       "lnovel_id": 928,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1290050390,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3285,
+      "id": 3285,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 18721,
+          "chapter_name": "圣九宫学园高校理念",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18722,
+          "chapter_name": "PROLOGUE 社团活动室的秘事",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18723,
+          "chapter_name": "第一话 少女的花园",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18724,
+          "chapter_name": "第二话 才女的好奇心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18725,
+          "chapter_name": "第三话 淑女的嗜好",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18726,
+          "chapter_name": "第四话 少女的恋爱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18727,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18728,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

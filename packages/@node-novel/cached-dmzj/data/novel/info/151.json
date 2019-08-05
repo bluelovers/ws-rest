@@ -3,7 +3,7 @@
   "name": "怪物猎人",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第四卷 狩猎的回忆\r",
+  "last_update_volume_name": "第四卷 狩猎的回忆",
   "last_update_chapter_name": "第五章 红色的飞龙",
   "last_update_volume_id": 556,
   "last_update_chapter_id": 3369,
@@ -16,40 +16,209 @@
   ],
   "authors": "ゆうきりん",
   "first_letter": "G",
-  "subscribe_num": 1316,
-  "redis_update_time": 1564311209,
+  "subscribe_num": 1323,
+  "redis_update_time": 1565028990,
   "volume": [
     {
       "id": 553,
       "lnovel_id": 151,
-      "volume_name": "第一卷 狩猎守则\r",
+      "volume_name": "第一卷 狩猎守则",
       "volume_order": 10,
       "addtime": 1274917985,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 554,
       "lnovel_id": 151,
-      "volume_name": "第二卷 英雄的条件\r",
+      "volume_name": "第二卷 英雄的条件",
       "volume_order": 20,
       "addtime": 1274917985,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 555,
       "lnovel_id": 151,
-      "volume_name": "第三卷 队长的资格\r",
+      "volume_name": "第三卷 队长的资格",
       "volume_order": 30,
       "addtime": 1274917985,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 556,
       "lnovel_id": 151,
-      "volume_name": "第四卷 狩猎的回忆\r",
+      "volume_name": "第四卷 狩猎的回忆",
       "volume_order": 40,
       "addtime": 1274917985,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 553,
+      "id": 553,
+      "volume_name": "第一卷 狩猎守则",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3343,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3344,
+          "chapter_name": "第一章 猎人集会所的相逢",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3345,
+          "chapter_name": "第二章 初出茅庐！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3346,
+          "chapter_name": "第三章 爱·飞龙",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3347,
+          "chapter_name": "第四章 骑士",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3348,
+          "chapter_name": "第五章 怪物猎人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3349,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 554,
+      "id": 554,
+      "volume_name": "第二卷 英雄的条件",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3350,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3351,
+          "chapter_name": "第一章 阔别一年的归乡",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3352,
+          "chapter_name": "第二章 各自的休假",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3353,
+          "chapter_name": "第三章 英雄愿望",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3354,
+          "chapter_name": "第四章 毒怪鸟的绝招",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3355,
+          "chapter_name": "第五章 稀白的飞龙",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3356,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3357,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 555,
+      "id": 555,
+      "volume_name": "第三卷 队长的资格",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3358,
+          "chapter_name": "简介",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3359,
+          "chapter_name": "第一章 焦躁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3360,
+          "chapter_name": "第二章 独自踏上旅程",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3361,
+          "chapter_name": "第三章 面试",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3362,
+          "chapter_name": "第四章 岩龙之地",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3363,
+          "chapter_name": "第四章 苍与樱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3364,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 556,
+      "id": 556,
+      "volume_name": "第四卷 狩猎的回忆",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 3365,
+          "chapter_name": "第一章 Egg Run",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3366,
+          "chapter_name": "第二章 背影",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3367,
+          "chapter_name": "第三章 沙漠的狙击手",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3368,
+          "chapter_name": "第四章 狂想曲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3369,
+          "chapter_name": "第五章 红色的飞龙",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "茸姬",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "短篇\r",
+  "last_update_volume_name": "短篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2422,
   "last_update_chapter_id": 14058,
@@ -16,16 +16,31 @@
   ],
   "authors": "入间人间",
   "first_letter": "R",
-  "subscribe_num": 379,
-  "redis_update_time": 1564235718,
+  "subscribe_num": 381,
+  "redis_update_time": 1565021149,
   "volume": [
     {
       "id": 2422,
       "lnovel_id": 657,
-      "volume_name": "短篇\r",
+      "volume_name": "短篇",
       "volume_order": 10,
       "addtime": 1275481527,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2422,
+      "id": 2422,
+      "volume_name": "短篇",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14058,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

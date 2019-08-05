@@ -12,12 +12,15 @@
   "hot_hits": 117906,
   "introduction": "人气漫画改编轻小说作品。鬼、妖怪、魔物等被称为妖的生物，还有守护人世的“鬼斩役十二家”。在悠久的历史中，许多的鬼斩役与妖互相残杀。但是人与妖的战斗随着时间的推移逐渐被淡化了，受大战的影响，十二家中大部分的人都失去了自己的能力。混入市井生活之后，逐渐将那些往事都忘却了……。 7年前双亲因事故身亡，独自一人生活的少年天河优人，在他16岁生日的那一天，谜之美少女绯鞠突然出现在他面前。并且从那一天开始，大量的妖开始袭击优人！原来优人是“鬼斩役十二家”之一天河家的后裔，而绯鞠则是因被天河家所拯救而对其宣誓效忠的猫妖一族后裔。 向优人与绯鞠袭来的，并不仅仅是恐怖的妖怪。美少女也一个接一个不断地出现，以优人为目标的诱惑大战就此展开！？优人的青梅竹马凛子也被卷入其中，一场名为恋爱的战争就此开打！",
   "types": [
-    "爱情/校园/格斗/神鬼"
+    "爱情",
+    "校园",
+    "格斗",
+    "神鬼"
   ],
   "authors": "みかづき红月",
   "first_letter": "S",
-  "subscribe_num": 3939,
-  "redis_update_time": 1564312241,
+  "subscribe_num": 3972,
+  "redis_update_time": 1564965613,
   "volume": [
     {
       "id": 4848,
@@ -25,7 +28,7 @@
       "volume_name": "第一卷 浪漫回忆",
       "volume_order": 10,
       "addtime": 1353643582,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5025,
@@ -33,7 +36,90 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1359343298,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4848,
+      "id": 4848,
+      "volume_name": "第一卷 浪漫回忆",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 31794,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31795,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31796,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31797,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 31798,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 31799,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5025,
+      "id": 5025,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 33263,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33264,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33265,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33266,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33267,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33487,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 33488,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

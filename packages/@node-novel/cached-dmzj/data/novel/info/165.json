@@ -3,7 +3,7 @@
   "name": "欢迎光临日本上空",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 588,
   "last_update_chapter_id": 3458,
@@ -17,15 +17,30 @@
   "authors": "佐佐原史绪",
   "first_letter": "H",
   "subscribe_num": 70,
-  "redis_update_time": 1564193076,
+  "redis_update_time": 1564983866,
   "volume": [
     {
       "id": 588,
       "lnovel_id": 165,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918003,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 588,
+      "id": 588,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3458,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -16,16 +16,16 @@
   ],
   "authors": "九辺ケンジ",
   "first_letter": "Q",
-  "subscribe_num": 37711,
-  "redis_update_time": 1564313792,
+  "subscribe_num": 38700,
+  "redis_update_time": 1565006622,
   "volume": [
     {
       "id": 3217,
       "lnovel_id": 914,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1287024472,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3420,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1295835238,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3902,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1315198909,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4253,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1329727770,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4507,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1338892855,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4873,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1354386813,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5231,
@@ -73,7 +73,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1366961547,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6809,
@@ -81,7 +81,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1428591890,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 9138,
@@ -89,7 +89,626 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1513954623,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3217,
+      "id": 3217,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 18173,
+          "chapter_name": "彩图",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18174,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18175,
+          "chapter_name": "第一章 莎布丽娜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18176,
+          "chapter_name": "第二章 岌岌可危的日常生活",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18177,
+          "chapter_name": "第三章 来自意大利的来访者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18178,
+          "chapter_name": "第四章 现实",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18179,
+          "chapter_name": "第五章 阵雨，随之而来的是远方的雷鸣",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18180,
+          "chapter_name": "第六章 连接 -绊-",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18181,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 18182,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 18183,
+          "chapter_name": "预告",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 3420,
+      "id": 3420,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 23106,
+          "chapter_name": "Prologo",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23107,
+          "chapter_name": "Capitolo.1 偷偷接近的娇小人影?",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23108,
+          "chapter_name": "Capitolo.2 克莱丽琪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23109,
+          "chapter_name": "Capitolo.3 过夜会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23110,
+          "chapter_name": "Capitolo.4 购物",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23111,
+          "chapter_name": "Capitolo.5 大庭中学小姐内衣选美会",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23112,
+          "chapter_name": "Capitolo.6 决斗与泪水",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 23113,
+          "chapter_name": "Epilogo.",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 23114,
+          "chapter_name": "Altro Epilogo. ～在那之后的沙希～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 23115,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 23116,
+          "chapter_name": "Un avviso perceclente.",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 3902,
+      "id": 3902,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 23532,
+          "chapter_name": "Prologo.序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23533,
+          "chapter_name": "Capitolo.1 踩葡萄小夜曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23534,
+          "chapter_name": "Capitolo.2 内裤、降落。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23535,
+          "chapter_name": "Capitolo.3 大小姐与无人岛",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23536,
+          "chapter_name": "Capitolo.4 一起去海里游泳吧！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23537,
+          "chapter_name": "Capitolo.5 八爪鱼、少女、扭来扭去",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23538,
+          "chapter_name": "Capitolo.6 任性的终结",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 23539,
+          "chapter_name": "Epologo.尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 23540,
+          "chapter_name": "After Epilogo.尾声之后",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 23541,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 23542,
+          "chapter_name": "Un avviso precedente. 预告。",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 4253,
+      "id": 4253,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 26632,
+          "chapter_name": "Party X Party",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26633,
+          "chapter_name": "两个人的情况",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26634,
+          "chapter_name": "Summer day Sunny day",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26635,
+          "chapter_name": "祭典到来",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26636,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4507,
+      "id": 4507,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 28703,
+          "chapter_name": "Prologo.",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28704,
+          "chapter_name": "Capitolo.1 平稳的日子啊，快回来吧～总觉得反而更加恶化了～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28705,
+          "chapter_name": "小剧场 无聊篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28706,
+          "chapter_name": "Capitolo.2 波澜到来的预感",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28707,
+          "chapter_name": "小剧场～开心的莎布丽娜篇～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28708,
+          "chapter_name": "Capitolo.3 路加·罗索",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28709,
+          "chapter_name": "小剧场 ～打盹篇～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28710,
+          "chapter_name": "Capitolo.4 哥哥心，不解妹妹情",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 28711,
+          "chapter_name": "小剧场 莎布丽娜的义大利文讲座篇",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 28712,
+          "chapter_name": "Capitolo.5 激战，和已VS.路加!也有养眼镜头哟!",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 28713,
+          "chapter_name": "小剧场 祈雨篇",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 28714,
+          "chapter_name": "Capitolo.6 自己的感受",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 28715,
+          "chapter_name": "Epilogo",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 28716,
+          "chapter_name": "Altro Epilogo",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 28717,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 28718,
+          "chapter_name": "Un avviso prececlente.",
+          "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 4873,
+      "id": 4873,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 32019,
+          "chapter_name": "Prologo",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32020,
+          "chapter_name": "Capitolo.1 恋爱传说",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32021,
+          "chapter_name": "妹妹X杀手X宅配便 小剧场 ～来打电动篇～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32022,
+          "chapter_name": "Capitolo.2 说到露天温泉的话……",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32023,
+          "chapter_name": "妹妹X杀手X宅配便 小剧场 ～犹豫篇～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32024,
+          "chapter_name": "Capitolo.3 牧场中有无限的可能性!",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32025,
+          "chapter_name": "妹妹X杀手X宅配便 小剧场 ～迷判决篇～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32026,
+          "chapter_name": "Capitolo.4 紧张刺激，试胆大会",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 32027,
+          "chapter_name": "妹妹X杀手X宅配便 小剧场 ～进步的秘密篇～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 32028,
+          "chapter_name": "Capitolo.5 当睁开眼睛，就来到了天堂",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 32029,
+          "chapter_name": "妹妹X杀手X宅配便 小剧场 ～小心火烛篇～",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 32030,
+          "chapter_name": "Capitolo.6 好对手",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 32031,
+          "chapter_name": "Eplogo",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 32032,
+          "chapter_name": "Altro Epilogo",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 32033,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 32034,
+          "chapter_name": "Un avviso prececlente?",
+          "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 5231,
+      "id": 5231,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 35011,
+          "chapter_name": "Prologo",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35012,
+          "chapter_name": "Capitolo.1 HAPPY HAPPY WEDDING",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35013,
+          "chapter_name": "小剧场 「喀嚓」品尝师篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35014,
+          "chapter_name": "Capitolo.2 两位老大",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35015,
+          "chapter_name": "小剧场 坚持篇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35016,
+          "chapter_name": "Capitolo.3 好孩子宣言!?",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35017,
+          "chapter_name": "小剧场 广播篇",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 35018,
+          "chapter_name": "Capitolo.4 跟莎布丽娜一起",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 35019,
+          "chapter_name": "小剧场 赏月篇",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 35020,
+          "chapter_name": "Capitolo.5 妹妹X结婚X肥皂剧",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 35021,
+          "chapter_name": "小剧场 抽鬼牌篇",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 35022,
+          "chapter_name": "Capitolo.6 我能够为妹妹做的事",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 35023,
+          "chapter_name": "Epilogo",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 35024,
+          "chapter_name": "Altro Epilogo",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 35025,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 35026,
+          "chapter_name": "Un avviso prececlente.",
+          "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 6809,
+      "id": 6809,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 72226,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 72227,
+          "chapter_name": "Prologo",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 72228,
+          "chapter_name": "Capitolo1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 72229,
+          "chapter_name": "Capitolo.2",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 72230,
+          "chapter_name": "Capitolo.3",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 72231,
+          "chapter_name": "Capitolo.4",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 72232,
+          "chapter_name": "Capitolo.5",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 72233,
+          "chapter_name": "Capitolo.6",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 72234,
+          "chapter_name": "Capitolo．？？？",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 72235,
+          "chapter_name": "Capitolo.7",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 72236,
+          "chapter_name": "Capitolo.8",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 72237,
+          "chapter_name": "Epilogo.",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 72238,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 9138,
+      "id": 9138,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 81593,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 81594,
+          "chapter_name": "和己与莎布丽娜的育儿日记",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 81595,
+          "chapter_name": "妹妹X杀手X宅配便 小剧场 为什么会变成这样！？篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 81596,
+          "chapter_name": "稻草富翁沙希？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 81597,
+          "chapter_name": "妹妹X杀手X宅配便 小剧场 上门推销篇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 81598,
+          "chapter_name": "完美女性",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 81599,
+          "chapter_name": "妹妹X杀手X宅配便 小剧场",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 81600,
+          "chapter_name": "圣诞大作战～和己VS莎布丽娜～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 81601,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 81602,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

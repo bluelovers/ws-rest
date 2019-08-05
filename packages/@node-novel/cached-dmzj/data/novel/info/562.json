@@ -17,39 +17,39 @@
   "authors": "熊谷雅人",
   "first_letter": "Y",
   "subscribe_num": 294,
-  "redis_update_time": 1564287856,
+  "redis_update_time": 1564979588,
   "volume": [
     {
       "id": 2111,
       "lnovel_id": 562,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918884,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2112,
       "lnovel_id": 562,
-      "volume_name": "第2卷\r",
+      "volume_name": "第2卷",
       "volume_order": 20,
       "addtime": 1274918884,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2113,
       "lnovel_id": 562,
-      "volume_name": "第3卷　\r",
+      "volume_name": "第3卷",
       "volume_order": 30,
       "addtime": 1274918884,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2114,
       "lnovel_id": 562,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918884,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3372,
@@ -57,7 +57,214 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1294105669,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2111,
+      "id": 2111,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12362,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12363,
+          "chapter_name": "阴沉黑魔法",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12364,
+          "chapter_name": "脸红心跳的初次邂逅",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12365,
+          "chapter_name": "令人不安的友情剧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12366,
+          "chapter_name": "悲伤的过去",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12367,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2112,
+      "id": 2112,
+      "volume_name": "第2卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12368,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12369,
+          "chapter_name": "第一幕 黑魔法少女与不良少年",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12370,
+          "chapter_name": "第二幕 一年级新生与新老师",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12371,
+          "chapter_name": "第三幕 天使与恶魔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12372,
+          "chapter_name": "第四幕 傲慢的学弟与自己崇拜的学长",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12373,
+          "chapter_name": "第五幕 聚光灯与后台",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 12374,
+          "chapter_name": "第六幕 黑魔法与代理天使",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 12375,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2113,
+      "id": 2113,
+      "volume_name": "第3卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12376,
+          "chapter_name": "第一幕 白色转学生的圆舞曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12377,
+          "chapter_name": "第二幕 青色小鸟的夜想曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12378,
+          "chapter_name": "第三幕 使命与误解的协奏曲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12379,
+          "chapter_name": "第四幕 过去与复活的狂想曲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12380,
+          "chapter_name": "第五幕 幸与不幸的交响曲",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12381,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 2114,
+      "id": 2114,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 12382,
+          "chapter_name": "第一幕 空口姊妹没发现受伤的牵绊",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12383,
+          "chapter_name": "第二幕 雏浦和大河内非日常的日常生活",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12384,
+          "chapter_name": "第三幕 弓滨和凑山既微妙又绝妙的关系",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12385,
+          "chapter_name": "第四幕 空口真帆和伙伴们的夏天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12386,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 3372,
+      "id": 3372,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 19343,
+          "chapter_name": "第一幕 暴露",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19344,
+          "chapter_name": "第二幕 回溯",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19345,
+          "chapter_name": "第三幕 逃避",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19346,
+          "chapter_name": "第四幕 真相",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19347,
+          "chapter_name": "第五幕 误解",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19348,
+          "chapter_name": "第六幕 阴沉少女与黑魔法之恋",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19349,
+          "chapter_name": "谢幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19350,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

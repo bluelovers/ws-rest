@@ -3,7 +3,7 @@
   "name": "奇异领域的奇异点",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷 迫近真理的七秒钟\r",
+  "last_update_volume_name": "第一卷 迫近真理的七秒钟",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 4086,
   "last_update_chapter_id": 25259,
@@ -17,15 +17,60 @@
   "authors": "范乃秋晴",
   "first_letter": "Q",
   "subscribe_num": 231,
-  "redis_update_time": 1564207712,
+  "redis_update_time": 1564902201,
   "volume": [
     {
       "id": 4086,
       "lnovel_id": 1141,
-      "volume_name": "第一卷 迫近真理的七秒钟\r",
+      "volume_name": "第一卷 迫近真理的七秒钟",
       "volume_order": 10,
       "addtime": 1322795869,
-      "sum_chapters": 5
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4086,
+      "id": 4086,
+      "volume_name": "第一卷 迫近真理的七秒钟",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 25253,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 25254,
+          "chapter_name": "第一章「科学加速前行的终点」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 25255,
+          "chapter_name": "第二章「现代科学的错误使用方法」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 25256,
+          "chapter_name": "第三章「科学上不可能的现象」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 25257,
+          "chapter_name": "第四章「科学家们的假说和实验」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 25258,
+          "chapter_name": "第五章「世界的外侧存在着什么」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 25259,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

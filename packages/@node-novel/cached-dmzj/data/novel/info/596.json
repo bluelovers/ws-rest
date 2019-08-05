@@ -3,7 +3,7 @@
   "name": "蒸汽男孩",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2229,
   "last_update_chapter_id": 13019,
@@ -16,16 +16,31 @@
   ],
   "authors": "村井さだゆき",
   "first_letter": "Z",
-  "subscribe_num": 108,
-  "redis_update_time": 1564289880,
+  "subscribe_num": 109,
+  "redis_update_time": 1564985548,
   "volume": [
     {
       "id": 2229,
       "lnovel_id": 596,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918954,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2229,
+      "id": 2229,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13019,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

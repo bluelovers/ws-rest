@@ -3,7 +3,7 @@
   "name": "四叠半神话大系",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "最终话 周游四叠半八十天",
   "last_update_volume_id": 3071,
   "last_update_chapter_id": 17202,
@@ -16,16 +16,46 @@
   ],
   "authors": "森见登美彦",
   "first_letter": "S",
-  "subscribe_num": 2415,
-  "redis_update_time": 1564310448,
+  "subscribe_num": 2430,
+  "redis_update_time": 1564995284,
   "volume": [
     {
       "id": 3071,
       "lnovel_id": 868,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1280820839,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3071,
+      "id": 3071,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17199,
+          "chapter_name": "第一话 四叠半恋爱的妨碍者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17200,
+          "chapter_name": "第二话 四叠半的自虐代理代理战争",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17201,
+          "chapter_name": "第三话 四叠半的甜美生活",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17202,
+          "chapter_name": "最终话 周游四叠半八十天",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

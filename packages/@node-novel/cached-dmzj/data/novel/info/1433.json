@@ -12,12 +12,13 @@
   "hot_hits": 27876,
   "introduction": "二十一世纪初。那时的人类还在发展中阶段。气象控制装置还在研发阶段，街道没有被分子膜所覆盖。\n因此，空气之中浮游着数百万种微生物，就连发明能量体的必要性都还没引起世人的重视吧。\n据统计，汉堡包和可乐颇受亲睐。人类的总体平均寿命不满七十年，生存于世界的大多数人都是不幸的，都是一副死鱼一样眼神。\n这个故事讲述的就是这个时代的人们。——也是一个<游戏>的故事。",
   "types": [
-    "科幻/校园"
+    "科幻",
+    "校园"
   ],
   "authors": "津田夕也",
   "first_letter": "M",
-  "subscribe_num": 331,
-  "redis_update_time": 1564221657,
+  "subscribe_num": 334,
+  "redis_update_time": 1564936089,
   "volume": [
     {
       "id": 5244,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 潘多拉之盒",
       "volume_order": 10,
       "addtime": 1367483359,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 5682,
@@ -33,7 +34,105 @@
       "volume_name": "第二卷 少女所愿的世界",
       "volume_order": 20,
       "addtime": 1386578943,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5244,
+      "id": 5244,
+      "volume_name": "第一卷 潘多拉之盒",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 35138,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35139,
+          "chapter_name": "一话 “她”的游戏",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35140,
+          "chapter_name": "二话 欢迎加入课外授课",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35141,
+          "chapter_name": "幕间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35142,
+          "chapter_name": "三话 守株待兔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35143,
+          "chapter_name": "四话 END GAME",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35144,
+          "chapter_name": "终",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 35145,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 5682,
+      "id": 5682,
+      "volume_name": "第二卷 少女所愿的世界",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 38846,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39188,
+          "chapter_name": "一话 少女们的世界",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39189,
+          "chapter_name": "二话 真汉，仲道晃",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39190,
+          "chapter_name": "三话 Playing Tutorial No.1",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39191,
+          "chapter_name": "四话 镜之国与爱丽丝",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39192,
+          "chapter_name": "五话 主人公的条件",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 39193,
+          "chapter_name": "终",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 39194,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

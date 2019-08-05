@@ -3,7 +3,7 @@
   "name": "空中骑士系列",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第三卷 坠入天堂\r",
+  "last_update_volume_name": "第三卷 坠入天堂",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2396,
   "last_update_chapter_id": 13944,
@@ -16,32 +16,103 @@
   ],
   "authors": "森博嗣",
   "first_letter": "K",
-  "subscribe_num": 369,
-  "redis_update_time": 1564186246,
+  "subscribe_num": 370,
+  "redis_update_time": 1564989670,
   "volume": [
     {
       "id": 2394,
       "lnovel_id": 642,
-      "volume_name": "第一卷 空中杀手\r",
+      "volume_name": "第一卷 空中杀手",
       "volume_order": 10,
       "addtime": 1275481524,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2395,
       "lnovel_id": 642,
-      "volume_name": "第二卷 冲上蓝天\r",
+      "volume_name": "第二卷 冲上蓝天",
       "volume_order": 20,
       "addtime": 1275481524,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2396,
       "lnovel_id": 642,
-      "volume_name": "第三卷 坠入天堂\r",
+      "volume_name": "第三卷 坠入天堂",
       "volume_order": 30,
       "addtime": 1275481524,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2394,
+      "id": 2394,
+      "volume_name": "第一卷 空中杀手",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13936,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 13937,
+          "chapter_name": "整流罩",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 13938,
+          "chapter_name": "座舱罩",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 13939,
+          "chapter_name": "发带",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 13940,
+          "chapter_name": "编梦者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 13941,
+          "chapter_name": "襟翼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 13942,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 2395,
+      "id": 2395,
+      "volume_name": "第二卷 冲上蓝天",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13943,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2396,
+      "id": 2396,
+      "volume_name": "第三卷 坠入天堂",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 13944,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

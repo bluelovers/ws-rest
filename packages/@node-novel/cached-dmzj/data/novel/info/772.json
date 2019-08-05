@@ -3,7 +3,7 @@
   "name": "遥远时空3",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "兑之卷 地之白虎 梶原景时篇\r",
+  "last_update_volume_name": "兑之卷 地之白虎 梶原景时篇",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2647,
   "last_update_chapter_id": 14819,
@@ -16,80 +16,199 @@
   ],
   "authors": "koei",
   "first_letter": "Y",
-  "subscribe_num": 92,
-  "redis_update_time": 1564159388,
+  "subscribe_num": 93,
+  "redis_update_time": 1564652641,
   "volume": [
     {
       "id": 2639,
       "lnovel_id": 772,
-      "volume_name": "始之卷 最初的逆鳞\r",
+      "volume_name": "始之卷 最初的逆鳞",
       "volume_order": 10,
       "addtime": 1275624071,
-      "sum_chapters": 5
+      "sum_chapters": 6
     },
     {
       "id": 2640,
       "lnovel_id": 772,
-      "volume_name": "震之卷 地之青龙 源九郎义经篇\r",
+      "volume_name": "震之卷 地之青龙 源九郎义经篇",
       "volume_order": 20,
       "addtime": 1275624071,
-      "sum_chapters": 5
+      "sum_chapters": 6
     },
     {
       "id": 2641,
       "lnovel_id": 772,
-      "volume_name": "巽之卷 天之青龙 有川将臣篇\r",
+      "volume_name": "巽之卷 天之青龙 有川将臣篇",
       "volume_order": 30,
       "addtime": 1275624071,
-      "sum_chapters": 5
+      "sum_chapters": 6
     },
     {
       "id": 2642,
       "lnovel_id": 772,
-      "volume_name": "乾之卷 天之白虎 有川让篇\r",
+      "volume_name": "乾之卷 天之白虎 有川让篇",
       "volume_order": 40,
       "addtime": 1275624071,
-      "sum_chapters": 5
+      "sum_chapters": 6
     },
     {
       "id": 2643,
       "lnovel_id": 772,
-      "volume_name": "离之卷 天之朱雀 西诺耶篇\r",
+      "volume_name": "离之卷 天之朱雀 西诺耶篇",
       "volume_order": 50,
       "addtime": 1275624071,
-      "sum_chapters": 5
+      "sum_chapters": 6
     },
     {
       "id": 2644,
       "lnovel_id": 772,
-      "volume_name": "坤之卷 地之朱雀 武藏坊弁庆篇\r",
+      "volume_name": "坤之卷 地之朱雀 武藏坊弁庆篇",
       "volume_order": 60,
       "addtime": 1275624071,
-      "sum_chapters": 5
+      "sum_chapters": 6
     },
     {
       "id": 2645,
       "lnovel_id": 772,
-      "volume_name": "艮之卷 地之玄武 老师（利兹本）篇\r",
+      "volume_name": "艮之卷 地之玄武 老师（利兹本）篇",
       "volume_order": 70,
       "addtime": 1275624071,
-      "sum_chapters": 5
+      "sum_chapters": 6
     },
     {
       "id": 2646,
       "lnovel_id": 772,
-      "volume_name": "坎之卷 天之玄武 平敦盛篇\r",
+      "volume_name": "坎之卷 天之玄武 平敦盛篇",
       "volume_order": 80,
       "addtime": 1275624071,
-      "sum_chapters": 5
+      "sum_chapters": 6
     },
     {
       "id": 2647,
       "lnovel_id": 772,
-      "volume_name": "兑之卷 地之白虎 梶原景时篇\r",
+      "volume_name": "兑之卷 地之白虎 梶原景时篇",
       "volume_order": 90,
       "addtime": 1275624071,
-      "sum_chapters": 5
+      "sum_chapters": 6
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2639,
+      "id": 2639,
+      "volume_name": "始之卷 最初的逆鳞",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14811,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2640,
+      "id": 2640,
+      "volume_name": "震之卷 地之青龙 源九郎义经篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14812,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2641,
+      "id": 2641,
+      "volume_name": "巽之卷 天之青龙 有川将臣篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 14813,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2642,
+      "id": 2642,
+      "volume_name": "乾之卷 天之白虎 有川让篇",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 14814,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2643,
+      "id": 2643,
+      "volume_name": "离之卷 天之朱雀 西诺耶篇",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 14815,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2644,
+      "id": 2644,
+      "volume_name": "坤之卷 地之朱雀 武藏坊弁庆篇",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 14816,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2645,
+      "id": 2645,
+      "volume_name": "艮之卷 地之玄武 老师（利兹本）篇",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 14817,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2646,
+      "id": 2646,
+      "volume_name": "坎之卷 天之玄武 平敦盛篇",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 14818,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2647,
+      "id": 2647,
+      "volume_name": "兑之卷 地之白虎 梶原景时篇",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 14819,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

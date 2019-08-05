@@ -3,7 +3,7 @@
   "name": "数学少女",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "参考文献与推荐书籍",
   "last_update_volume_id": 3012,
   "last_update_chapter_id": 16742,
@@ -16,16 +16,51 @@
   ],
   "authors": "结城浩",
   "first_letter": "S",
-  "subscribe_num": 300,
-  "redis_update_time": 1564268822,
+  "subscribe_num": 305,
+  "redis_update_time": 1564906653,
   "volume": [
     {
       "id": 3012,
       "lnovel_id": 858,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1278065349,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3012,
+      "id": 3012,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16738,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16739,
+          "chapter_name": "目录",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16740,
+          "chapter_name": "正文",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16741,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 16742,
+          "chapter_name": "参考文献与推荐书籍",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

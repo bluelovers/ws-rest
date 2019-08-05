@@ -3,8 +3,8 @@
   "name": "机动战士高达0083",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
-  "last_update_chapter_name": "终章　“浊流”",
+  "last_update_volume_name": "第一卷",
+  "last_update_chapter_name": "终章 “浊流”",
   "last_update_volume_id": 2651,
   "last_update_chapter_id": 14857,
   "last_update_time": 1275629658,
@@ -16,16 +16,116 @@
   ],
   "authors": "山口宏",
   "first_letter": "J",
-  "subscribe_num": 372,
-  "redis_update_time": 1564297822,
+  "subscribe_num": 375,
+  "redis_update_time": 1564988649,
   "volume": [
     {
       "id": 2651,
       "lnovel_id": 776,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275629658,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2651,
+      "id": 2651,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14840,
+          "chapter_name": "序 文",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14841,
+          "chapter_name": "序 章 终战",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14842,
+          "chapter_name": "第一章 “特林顿基地”",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14843,
+          "chapter_name": "第二章 没有终止的追击",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14844,
+          "chapter_name": "第三章 拔锚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14845,
+          "chapter_name": "第四章 热砂的攻防",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14846,
+          "chapter_name": "第五章 迪拉兹舰队",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14847,
+          "chapter_name": "第六章 被扯下的翅膀",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 14848,
+          "chapter_name": "第七章 冯·布朗的战士",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 14849,
+          "chapter_name": "第八章 宇宙的脉动",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 14850,
+          "chapter_name": "第九章 预感…",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 14851,
+          "chapter_name": "第十章 “所罗门的恶梦”",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 14852,
+          "chapter_name": "第十一章 “星尘”",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 14853,
+          "chapter_name": "第十二章 玫瑰人生号",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 14854,
+          "chapter_name": "第十三章 “阻止临界点”",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 14855,
+          "chapter_name": "第十四章 “绝望的宇宙”",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 14856,
+          "chapter_name": "第十五章 “奔驰而过的风暴”",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 14857,
+          "chapter_name": "终章 “浊流”",
+          "chapter_order": 180
+        }
+      ]
     }
   ]
 }

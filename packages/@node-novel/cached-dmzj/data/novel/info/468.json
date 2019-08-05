@@ -3,7 +3,7 @@
   "name": "汪汪地狱犬",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1759,
   "last_update_chapter_id": 10227,
@@ -17,15 +17,30 @@
   "authors": "芜木统文",
   "first_letter": "W",
   "subscribe_num": 127,
-  "redis_update_time": 1564204814,
+  "redis_update_time": 1565011408,
   "volume": [
     {
       "id": 1759,
       "lnovel_id": 468,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918662,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1759,
+      "id": 1759,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10227,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

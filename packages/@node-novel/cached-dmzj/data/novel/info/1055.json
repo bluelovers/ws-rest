@@ -3,7 +3,7 @@
   "name": "多摩湖与黄鸡",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 3738,
   "last_update_chapter_id": 22142,
@@ -12,20 +12,66 @@
   "hot_hits": 58678,
   "introduction": "    Q：你喜欢年长的大姊姊吗？\n    A：是的，我超爱的。\n    两个月前开始与我交往的多摩湖，是位比我年长，却是我学妹的成熟女性。\n    而本作所描写的，就是与这么棒的大姊姊在密室内玩着煽情游戏，仅有两人独处的纸牌游戏研究会中那些魅惑的日子！（不过真的就只有这样。）\n    喔喔，我要先声明，多摩湖和我，绝对不是那种卿卿我我的闪光情侣，而是热衷于两人游戏的变态情侣。\n    ……这样好吗——？\n\n　　闪光无敌\n　　变态万岁！？\n　　你曾经跟成熟大姊姊玩过充满魅惑的游戏吗？\n　　这是一对超级无敌变态情侣的青春故事……\n　　入间人间《电波女&青春男》的延伸作品登场！",
   "types": [
-    "搞笑/爱情"
+    "搞笑",
+    "爱情"
   ],
   "authors": "入间人间",
   "first_letter": "D",
-  "subscribe_num": 3001,
-  "redis_update_time": 1564312302,
+  "subscribe_num": 3010,
+  "redis_update_time": 1564973911,
   "volume": [
     {
       "id": 3738,
       "lnovel_id": 1055,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1308281094,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3738,
+      "id": 3738,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 22136,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22137,
+          "chapter_name": "「多摩湖&脱衣扑克」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22138,
+          "chapter_name": "「多摩湖&亲亲抽鬼」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22139,
+          "chapter_name": "「多摩湖&年龄接龙」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22140,
+          "chapter_name": "「多摩来来」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22141,
+          "chapter_name": "终章「我与多摩湖」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22142,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

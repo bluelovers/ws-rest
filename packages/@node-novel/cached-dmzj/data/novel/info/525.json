@@ -3,7 +3,7 @@
   "name": "巷说百物语",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第四卷\r",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "老人火",
   "last_update_volume_id": 2000,
   "last_update_chapter_id": 11755,
@@ -16,40 +16,149 @@
   ],
   "authors": "京极夏彦",
   "first_letter": "X",
-  "subscribe_num": 2078,
-  "redis_update_time": 1564293661,
+  "subscribe_num": 2080,
+  "redis_update_time": 1565020605,
   "volume": [
     {
       "id": 1997,
       "lnovel_id": 525,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918817,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1998,
       "lnovel_id": 525,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918817,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 1999,
       "lnovel_id": 525,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918817,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2000,
       "lnovel_id": 525,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274918817,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1997,
+      "id": 1997,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11741,
+          "chapter_name": "作品介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11742,
+          "chapter_name": "洗豆妖",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11743,
+          "chapter_name": "白藏主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11744,
+          "chapter_name": "舞首",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11745,
+          "chapter_name": "窥探",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11746,
+          "chapter_name": "芝右卫门狸",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11747,
+          "chapter_name": "盐之长司",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1998,
+      "id": 1998,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11748,
+          "chapter_name": "柳女",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11749,
+          "chapter_name": "帷子辻",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11750,
+          "chapter_name": "野铁炮",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11751,
+          "chapter_name": "狐者异",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 1999,
+      "id": 1999,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 11752,
+          "chapter_name": "飞缘魔",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11753,
+          "chapter_name": "船幽灵",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 2000,
+      "id": 2000,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 11754,
+          "chapter_name": "死神",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11755,
+          "chapter_name": "老人火",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

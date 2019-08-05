@@ -4,7 +4,7 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "第一话  参拜富士山",
+  "last_update_chapter_name": "第一话 参拜富士山",
   "last_update_volume_id": 3501,
   "last_update_chapter_id": 20287,
   "last_update_time": 1298950815,
@@ -16,8 +16,8 @@
   ],
   "authors": "鯨統一郎",
   "first_letter": "G",
-  "subscribe_num": 69,
-  "redis_update_time": 1564052414,
+  "subscribe_num": 71,
+  "redis_update_time": 1564879765,
   "volume": [
     {
       "id": 3501,
@@ -25,7 +25,22 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1298950746,
-      "sum_chapters": 13
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3501,
+      "id": 3501,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20287,
+          "chapter_name": "第一话 参拜富士山",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

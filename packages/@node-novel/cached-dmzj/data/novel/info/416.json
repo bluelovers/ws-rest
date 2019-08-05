@@ -3,7 +3,7 @@
   "name": "神曲奏界-共鸣乐章",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第2卷\r",
+  "last_update_volume_name": "第2卷",
   "last_update_chapter_name": "Drunk Crimson",
   "last_update_volume_id": 1597,
   "last_update_chapter_id": 9203,
@@ -16,24 +16,87 @@
   ],
   "authors": "筑地俊彦、大迫纯一、高殿円、榊一郎",
   "first_letter": "S",
-  "subscribe_num": 360,
-  "redis_update_time": 1564147986,
+  "subscribe_num": 362,
+  "redis_update_time": 1565017257,
   "volume": [
     {
       "id": 1596,
       "lnovel_id": 416,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918565,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1597,
       "lnovel_id": 416,
-      "volume_name": "第2卷\r",
+      "volume_name": "第2卷",
       "volume_order": 20,
       "addtime": 1274918565,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1596,
+      "id": 1596,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9195,
+          "chapter_name": "Digression Blue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9196,
+          "chapter_name": "Blessiong Black",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9197,
+          "chapter_name": "Blessiong BlackDancing White Night",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9198,
+          "chapter_name": "Possessive Crimson",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9199,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1597,
+      "id": 1597,
+      "volume_name": "第2卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 9200,
+          "chapter_name": "White Reasons",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9201,
+          "chapter_name": "Mystic Black",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9202,
+          "chapter_name": "Leon The Returner",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9203,
+          "chapter_name": "Drunk Crimson",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

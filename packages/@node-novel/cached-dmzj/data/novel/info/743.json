@@ -3,7 +3,7 @@
   "name": "红线 绊の记忆",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2580,
   "last_update_chapter_id": 14614,
@@ -16,16 +16,31 @@
   ],
   "authors": "远谷凑",
   "first_letter": "H",
-  "subscribe_num": 225,
-  "redis_update_time": 1564308992,
+  "subscribe_num": 236,
+  "redis_update_time": 1565022705,
   "volume": [
     {
       "id": 2580,
       "lnovel_id": 743,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275561489,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2580,
+      "id": 2580,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14614,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

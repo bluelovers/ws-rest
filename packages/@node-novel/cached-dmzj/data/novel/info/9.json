@@ -3,7 +3,7 @@
   "name": "Angel_voice",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全卷\r",
+  "last_update_volume_name": "全卷",
   "last_update_chapter_name": "第1章",
   "last_update_volume_id": 42,
   "last_update_chapter_id": 243,
@@ -16,16 +16,31 @@
   ],
   "authors": "奈须きのこ",
   "first_letter": "A",
-  "subscribe_num": 820,
-  "redis_update_time": 1564308370,
+  "subscribe_num": 831,
+  "redis_update_time": 1565025688,
   "volume": [
     {
       "id": 42,
       "lnovel_id": 9,
-      "volume_name": "全卷\r",
+      "volume_name": "全卷",
       "volume_order": 10,
       "addtime": 1274917717,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 42,
+      "id": 42,
+      "volume_name": "全卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 243,
+          "chapter_name": "第1章",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

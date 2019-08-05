@@ -16,8 +16,8 @@
   ],
   "authors": "内田弘树",
   "first_letter": "M",
-  "subscribe_num": 5051,
-  "redis_update_time": 1564307126,
+  "subscribe_num": 5063,
+  "redis_update_time": 1564965134,
   "volume": [
     {
       "id": 4680,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1346992181,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4988,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1358405515,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5024,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1359343067,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5204,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1365992664,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5492,
@@ -57,7 +57,7 @@
       "volume_name": "短篇集Requiem 1",
       "volume_order": 50,
       "addtime": 1378106534,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5695,
@@ -65,7 +65,7 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1386848926,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5697,
@@ -73,7 +73,7 @@
       "volume_name": "短篇集Requiem 2",
       "volume_order": 70,
       "addtime": 1387192376,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5884,
@@ -81,7 +81,7 @@
       "volume_name": "第六卷",
       "volume_order": 80,
       "addtime": 1395071027,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6870,
@@ -89,7 +89,381 @@
       "volume_name": "第七卷",
       "volume_order": 90,
       "addtime": 1431609221,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4680,
+      "id": 4680,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 30281,
+          "chapter_name": "人设与机设",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30282,
+          "chapter_name": "第一话 充满杀戮的血腥大地",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30283,
+          "chapter_name": "第二话 来自西方的少女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30284,
+          "chapter_name": "第三话 灰色的天空之下",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30285,
+          "chapter_name": "第四话 右手为谁而出",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 4988,
+      "id": 4988,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 32924,
+          "chapter_name": "第五话 在风中等待",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32925,
+          "chapter_name": "第六话 别离之时",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32926,
+          "chapter_name": "第七话 在以血为汤以尸为肉的锅釜之中",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32927,
+          "chapter_name": "第八话 再一次约定",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32928,
+          "chapter_name": "第九话 至少，熬到这个冬天！",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 5024,
+      "id": 5024,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 33255,
+          "chapter_name": "第一章 战火中的闲暇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 33256,
+          "chapter_name": "第二章 境界线上的丽姿",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 33257,
+          "chapter_name": "第三章 波罗的海战役(上)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 33258,
+          "chapter_name": "第四章 波罗的海战役(中)",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 33259,
+          "chapter_name": "第五章 波罗的海战役(后)",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 33489,
+          "chapter_name": "第六章 唯有鼓起勇气(前)",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 33663,
+          "chapter_name": "第七章 唯有鼓起勇气(后)",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 33664,
+          "chapter_name": "尾声Epilogue",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 33665,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 5204,
+      "id": 5204,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 34766,
+          "chapter_name": "第一章 别样的作息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35544,
+          "chapter_name": "第二章 黄昏的思念",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35545,
+          "chapter_name": "第三章 冰天雪地",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35546,
+          "chapter_name": "第四章 最后的风暴(前)",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35547,
+          "chapter_name": "第五章 最后的风暴(中)",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35548,
+          "chapter_name": "第六章 最后的风暴(后)",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 35549,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5492,
+      "id": 5492,
+      "volume_name": "短篇集Requiem 1",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 37195,
+          "chapter_name": "在死亡之都",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37196,
+          "chapter_name": "焦土之花 幸福的理由",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37197,
+          "chapter_name": "钢铁的墓碑",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37198,
+          "chapter_name": "安妮特的忧郁",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37199,
+          "chapter_name": "世界设定",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37200,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5695,
+      "id": 5695,
+      "volume_name": "第五卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 38979,
+          "chapter_name": "第一章 贯穿天际的光芒",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38980,
+          "chapter_name": "第二章 「梦幻之愿」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38981,
+          "chapter_name": "第三章 她的人生物语(前)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38982,
+          "chapter_name": "第四章 她的人生物语（中）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38983,
+          "chapter_name": "第五章 她的人生物语（后）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38984,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5697,
+      "id": 5697,
+      "volume_name": "短篇集Requiem 2",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 39000,
+          "chapter_name": "第1章 为了一去不复返的两人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 39001,
+          "chapter_name": "第2章 一定要，把那些幸福的日子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 39002,
+          "chapter_name": "第3章 笑容的价值",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 39003,
+          "chapter_name": "第4章 姬露可的灾厄",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 39004,
+          "chapter_name": "附录",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 39005,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5884,
+      "id": 5884,
+      "volume_name": "第六卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 40650,
+          "chapter_name": "第一章 黑色涟漪",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 40651,
+          "chapter_name": "第二章 你的名字是？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 40652,
+          "chapter_name": "第三章 不归之路",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 40656,
+          "chapter_name": "第四章 负罪之身",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 40657,
+          "chapter_name": "第五章 交错的命运",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 40658,
+          "chapter_name": "第六章 回忆之塚（前）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 40659,
+          "chapter_name": "第七章 回忆之塚（后）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 40660,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 6870,
+      "id": 6870,
+      "volume_name": "第七卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 49780,
+          "chapter_name": "第一章 背水一战",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 49781,
+          "chapter_name": "第二章 他和她的十四行诗篇（前）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 51552,
+          "chapter_name": "第三章 他和她的十四行诗篇（后）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 57599,
+          "chapter_name": "第四章 恐怖之垠、思念尽头",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 58008,
+          "chapter_name": "第五章 别放弃你的愿望",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 58718,
+          "chapter_name": "第六章 约定━━即便如此，仍对你……",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 58719,
+          "chapter_name": "尾声 Epilogue",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 58720,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

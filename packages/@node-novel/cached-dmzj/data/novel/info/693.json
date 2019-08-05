@@ -3,7 +3,7 @@
   "name": "一切终将远去",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2479,
   "last_update_chapter_id": 14266,
@@ -16,16 +16,31 @@
   ],
   "authors": "山本文绪",
   "first_letter": "Y",
-  "subscribe_num": 212,
-  "redis_update_time": 1564274978,
+  "subscribe_num": 214,
+  "redis_update_time": 1564985172,
   "volume": [
     {
       "id": 2479,
       "lnovel_id": 693,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481534,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2479,
+      "id": 2479,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14266,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

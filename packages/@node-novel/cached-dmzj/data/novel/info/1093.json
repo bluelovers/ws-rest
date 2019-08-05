@@ -3,7 +3,7 @@
   "name": "赎罪",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "终章",
   "last_update_volume_id": 3880,
   "last_update_chapter_id": 23370,
@@ -16,16 +16,56 @@
   ],
   "authors": "凑香苗",
   "first_letter": "S",
-  "subscribe_num": 723,
-  "redis_update_time": 1564250511,
+  "subscribe_num": 724,
+  "redis_update_time": 1564947982,
   "volume": [
     {
       "id": 3880,
       "lnovel_id": 1093,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1314169818,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3880,
+      "id": 3880,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23365,
+          "chapter_name": "一、法国玩偶",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23366,
+          "chapter_name": "二、临时家长会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23367,
+          "chapter_name": "三、熊兄妹",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23368,
+          "chapter_name": "四、十个月零十天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23369,
+          "chapter_name": "五、赎罪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23370,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

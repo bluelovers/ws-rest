@@ -12,36 +12,37 @@
   "hot_hits": 29320,
   "introduction": "古顷怪造高中一年星班座号七号，怪造学者实习生空井伊依，梦想是成为伟大的怪造学者，消去现界与虚界的界限，创造人类与怪造生物和平共存的世界……无尽遥远的异世界，虚界。召唤虚界生物并加以研究的学问，人们称之为『怪造学』。目标远大的少女空井伊依克服万难，进入怪造学界中的顶尖学府——古顷怪造高中就读，但新学期才刚开始，学校便因教师链之岛了信「怪造」出的凤凰(等级：上级一位)而陷入莫大危机。",
   "types": [
-    "校园/奇幻"
+    "校园",
+    "奇幻"
   ],
   "authors": "日日日",
   "first_letter": "X",
   "subscribe_num": 266,
-  "redis_update_time": 1564288433,
+  "redis_update_time": 1565005871,
   "volume": [
     {
       "id": 2001,
       "lnovel_id": 526,
-      "volume_name": "第一卷 无名的凤凰\r",
+      "volume_name": "第一卷 无名的凤凰",
       "volume_order": 10,
       "addtime": 1274918819,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2002,
       "lnovel_id": 526,
-      "volume_name": "第二卷 单色的天使\r",
+      "volume_name": "第二卷 单色的天使",
       "volume_order": 20,
       "addtime": 1274918819,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2003,
       "lnovel_id": 526,
-      "volume_name": "第三卷 危险的眼球\r",
+      "volume_name": "第三卷 危险的眼球",
       "volume_order": 30,
       "addtime": 1274918819,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4465,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷 吹笛子男人梦想的世界",
       "volume_order": 40,
       "addtime": 1336727632,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4752,
@@ -57,7 +58,274 @@
       "volume_name": "第五卷 骗子魔女注视的未来",
       "volume_order": 50,
       "addtime": 1349050968,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2001,
+      "id": 2001,
+      "volume_name": "第一卷 无名的凤凰",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11756,
+          "chapter_name": "目次与序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11757,
+          "chapter_name": "第Ⅰ章 天才少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11758,
+          "chapter_name": "第Ⅱ章 穿越新世界",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11759,
+          "chapter_name": "第三章 流浪症候群",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11760,
+          "chapter_name": "第四章 不放生不灭口",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11761,
+          "chapter_name": "第五章 无名的天使",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11762,
+          "chapter_name": "終章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 11763,
+          "chapter_name": "后 记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 2002,
+      "id": 2002,
+      "volume_name": "第二卷 单色的天使",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11764,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11765,
+          "chapter_name": "第一章 圣战少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11766,
+          "chapter_name": "第二章 关键",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11767,
+          "chapter_name": "第三章 战桥舞弓的怪造剑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11768,
+          "chapter_name": "第四章 虚无大公的几率存款",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11769,
+          "chapter_name": "第五章 不放生不灭口不犹豫",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11770,
+          "chapter_name": "第六章 连环尖叫",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 11771,
+          "chapter_name": "終章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 11772,
+          "chapter_name": "后 记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 2003,
+      "id": 2003,
+      "volume_name": "第三卷 危险的眼球",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 11773,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11774,
+          "chapter_name": "第Ⅰ章 死神少年",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11775,
+          "chapter_name": "第Ⅱ章 呼唤暴风雨的转学生",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11776,
+          "chapter_name": "第Ⅲ章 爱与眼球",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11777,
+          "chapter_name": "第Ⅳ章 伏魔殿",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11778,
+          "chapter_name": "第Ⅴ章 过去的外壳／未来的天空",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11779,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 11780,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4465,
+      "id": 4465,
+      "volume_name": "第四卷 吹笛子男人梦想的世界",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 28396,
+          "chapter_name": "monologue please smile，my precious.",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28399,
+          "chapter_name": "第1章 不会枯萎的花与不会绽放的花",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28398,
+          "chapter_name": "monologue please smile，my precious.",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28400,
+          "chapter_name": "第2章 歌咏夜晚，愚弄夜晚",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28401,
+          "chapter_name": "monologue please smile，my precious.",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28402,
+          "chapter_name": "第3章 终极的个体与最弱的集合",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28404,
+          "chapter_name": "monologue please smile，my precious.",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28406,
+          "chapter_name": "第4章 昨天的敌人是今天的朋友",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 28407,
+          "chapter_name": "monologue please smile，my precious.",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 28408,
+          "chapter_name": "第5章 不放生不灭口不犹豫不放弃",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 28412,
+          "chapter_name": "epilogue please smile，everybody.",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 28413,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 4752,
+      "id": 4752,
+      "volume_name": "第五卷 骗子魔女注视的未来",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 30860,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30861,
+          "chapter_name": "第I章 古顷大祭爆发",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30862,
+          "chapter_name": "第II章 被囚禁的公主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30863,
+          "chapter_name": "第III章 通往彩虹的单程车票",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30864,
+          "chapter_name": "第IV章 冥府武士堂堂登场",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30865,
+          "chapter_name": "第V章 现界的魔王",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30866,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 30867,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

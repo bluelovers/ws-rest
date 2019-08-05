@@ -16,40 +16,40 @@
   ],
   "authors": "富野由悠季",
   "first_letter": "J",
-  "subscribe_num": 656,
-  "redis_update_time": 1564304393,
+  "subscribe_num": 662,
+  "redis_update_time": 1565029182,
   "volume": [
     {
       "id": 2652,
       "lnovel_id": 777,
-      "volume_name": "第一卷 卡密儿·维丹\r",
+      "volume_name": "第一卷 卡密儿·维丹",
       "volume_order": 10,
       "addtime": 1275629897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2653,
       "lnovel_id": 777,
-      "volume_name": "第二卷 阿姆罗·雷\r",
+      "volume_name": "第二卷 阿姆罗·雷",
       "volume_order": 20,
       "addtime": 1275629897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2654,
       "lnovel_id": 777,
-      "volume_name": "第三卷 强化人类\r",
+      "volume_name": "第三卷 强化人类",
       "volume_order": 30,
       "addtime": 1275629897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2655,
       "lnovel_id": 777,
-      "volume_name": "第四卷 查比家再临\r",
+      "volume_name": "第四卷 查比家再临",
       "volume_order": 40,
       "addtime": 1275629897,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2844,
@@ -57,7 +57,74 @@
       "volume_name": "第五卷 应归之处",
       "volume_order": 50,
       "addtime": 1277085636,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2652,
+      "id": 2652,
+      "volume_name": "第一卷 卡密儿·维丹",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14858,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2653,
+      "id": 2653,
+      "volume_name": "第二卷 阿姆罗·雷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14859,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2654,
+      "id": 2654,
+      "volume_name": "第三卷 强化人类",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 14860,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2655,
+      "id": 2655,
+      "volume_name": "第四卷 查比家再临",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 14861,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2844,
+      "id": 2844,
+      "volume_name": "第五卷 应归之处",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 16007,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

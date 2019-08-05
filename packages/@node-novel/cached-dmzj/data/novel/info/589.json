@@ -3,7 +3,7 @@
   "name": "壮丽的黎明",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 少女于宵暗时刻彷徨\r",
+  "last_update_volume_name": "第三卷 少女于宵暗时刻彷徨",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2214,
   "last_update_chapter_id": 12975,
@@ -17,31 +17,72 @@
   "authors": "庄司卓",
   "first_letter": "Z",
   "subscribe_num": 46,
-  "redis_update_time": 1564195675,
+  "redis_update_time": 1565010474,
   "volume": [
     {
       "id": 2212,
       "lnovel_id": 589,
-      "volume_name": "第一卷 少女于黎明时高歌\r",
+      "volume_name": "第一卷 少女于黎明时高歌",
       "volume_order": 10,
       "addtime": 1274918945,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2213,
       "lnovel_id": 589,
-      "volume_name": "第二卷 少女于夕暮时刻嬉戏\r",
+      "volume_name": "第二卷 少女于夕暮时刻嬉戏",
       "volume_order": 20,
       "addtime": 1274918945,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 2214,
       "lnovel_id": 589,
-      "volume_name": "第三卷 少女于宵暗时刻彷徨\r",
+      "volume_name": "第三卷 少女于宵暗时刻彷徨",
       "volume_order": 30,
       "addtime": 1274918945,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2212,
+      "id": 2212,
+      "volume_name": "第一卷 少女于黎明时高歌",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12973,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2213,
+      "id": 2213,
+      "volume_name": "第二卷 少女于夕暮时刻嬉戏",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12974,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2214,
+      "id": 2214,
+      "volume_name": "第三卷 少女于宵暗时刻彷徨",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 12975,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

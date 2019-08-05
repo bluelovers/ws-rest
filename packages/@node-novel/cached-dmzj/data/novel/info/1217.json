@@ -12,12 +12,13 @@
   "hot_hits": 16230,
   "introduction": "拜托了双子星(星空的邂逅2)是拜托了老师(星空的邂逅)的续篇。说是续篇，其实也只是只是用上了相同的舞台和部分人物(有的还性格大变，例如莓和跨)。故事和主角却是全新的。",
   "types": [
-    "爱情/校园"
+    "爱情",
+    "校园"
   ],
   "authors": "雑破业",
   "first_letter": "B",
-  "subscribe_num": 149,
-  "redis_update_time": 1564104907,
+  "subscribe_num": 150,
+  "redis_update_time": 1564909971,
   "volume": [
     {
       "id": 4368,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷 一人与二人",
       "volume_order": 10,
       "addtime": 1333088119,
-      "sum_chapters": 11
+      "sum_chapters": 12
     },
     {
       "id": 4369,
@@ -33,7 +34,100 @@
       "volume_name": "第二卷 二人与一人",
       "volume_order": 20,
       "addtime": 1333088119,
-      "sum_chapters": 11
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4368,
+      "id": 4368,
+      "volume_name": "第一卷 一人与二人",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 27564,
+          "chapter_name": "第一章 一人与一人与一人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27565,
+          "chapter_name": "第二章 幸褔的声音",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27566,
+          "chapter_name": "第三章 打勾勾(勾小指)",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27567,
+          "chapter_name": "第四章 寻找梦想",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27568,
+          "chapter_name": "第五章 唇与唇与唇(神城家的妄想小剧场)",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27569,
+          "chapter_name": "第六章 一人与二人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27570,
+          "chapter_name": "解说",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4369,
+      "id": 4369,
+      "volume_name": "第二卷 二人与一人",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 27572,
+          "chapter_name": "第七章 宛如飞翔的假期",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27573,
+          "chapter_name": "第八章 不是亲情，不是爱情",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28504,
+          "chapter_name": "第九章 在麦克风呼唤",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28674,
+          "chapter_name": "第十章 幸福调查",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28724,
+          "chapter_name": "第十一章 二人与一人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28725,
+          "chapter_name": "序幕 然后，三个人的──",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28726,
+          "chapter_name": "刊后语",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28727,
+          "chapter_name": "解说",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

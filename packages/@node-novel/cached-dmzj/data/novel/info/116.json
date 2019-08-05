@@ -3,7 +3,7 @@
   "name": "复活之地",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 422,
   "last_update_chapter_id": 2625,
@@ -17,15 +17,30 @@
   "authors": "小川一水",
   "first_letter": "F",
   "subscribe_num": 59,
-  "redis_update_time": 1564261902,
+  "redis_update_time": 1564857300,
   "volume": [
     {
       "id": 422,
       "lnovel_id": 116,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917911,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 422,
+      "id": 422,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2625,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

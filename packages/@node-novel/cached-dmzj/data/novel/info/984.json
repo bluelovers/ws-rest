@@ -3,7 +3,7 @@
   "name": "太阳之塔",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 3492,
   "last_update_chapter_id": 20240,
@@ -16,16 +16,31 @@
   ],
   "authors": "森见登美彦",
   "first_letter": "T",
-  "subscribe_num": 708,
-  "redis_update_time": 1564298069,
+  "subscribe_num": 715,
+  "redis_update_time": 1564935726,
   "volume": [
     {
       "id": 3492,
       "lnovel_id": 984,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1298859655,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3492,
+      "id": 3492,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20240,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

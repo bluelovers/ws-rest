@@ -3,7 +3,7 @@
   "name": "东宫家的石像怪",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷\r",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 317,
   "last_update_chapter_id": 2025,
@@ -22,7 +22,7 @@
     {
       "id": 315,
       "lnovel_id": 80,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274917854,
       "sum_chapters": 3
@@ -30,7 +30,7 @@
     {
       "id": 316,
       "lnovel_id": 80,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274917854,
       "sum_chapters": 3
@@ -38,10 +38,51 @@
     {
       "id": 317,
       "lnovel_id": 80,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274917854,
       "sum_chapters": 3
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 315,
+      "id": 315,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2023,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 316,
+      "id": 316,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 2024,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 317,
+      "id": 317,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 2025,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

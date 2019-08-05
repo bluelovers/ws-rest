@@ -16,8 +16,8 @@
   ],
   "authors": "西尾维新",
   "first_letter": "T",
-  "subscribe_num": 1026,
-  "redis_update_time": 1564254943,
+  "subscribe_num": 1033,
+  "redis_update_time": 1564935975,
   "volume": [
     {
       "id": 4512,
@@ -25,7 +25,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1338951587,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4512,
+      "id": 4512,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 28747,
+          "chapter_name": "登场人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28748,
+          "chapter_name": "第一回——『唯一』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28749,
+          "chapter_name": "第二回——『二人』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28750,
+          "chapter_name": "第三回——『第三』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28751,
+          "chapter_name": "第四回——『四季』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28752,
+          "chapter_name": "第五回——『五五』",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28753,
+          "chapter_name": "最终回——『终落』",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "伊佐与雪",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷 温柔的夜晚\r",
+  "last_update_volume_name": "第一卷 温柔的夜晚",
   "last_update_chapter_name": "第一卷 温柔的夜晚 一卷全",
   "last_update_volume_id": 2043,
   "last_update_chapter_id": 20185,
@@ -17,15 +17,30 @@
   "authors": "友谷苍",
   "first_letter": "Y",
   "subscribe_num": 64,
-  "redis_update_time": 1564211977,
+  "redis_update_time": 1564928591,
   "volume": [
     {
       "id": 2043,
       "lnovel_id": 542,
-      "volume_name": "第一卷 温柔的夜晚\r",
+      "volume_name": "第一卷 温柔的夜晚",
       "volume_order": 10,
       "addtime": 1274918845,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2043,
+      "id": 2043,
+      "volume_name": "第一卷 温柔的夜晚",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 20185,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

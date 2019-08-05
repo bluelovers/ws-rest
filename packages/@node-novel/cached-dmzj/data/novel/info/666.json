@@ -3,7 +3,7 @@
   "name": "永远的艾塞莉娅",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "全年龄版 第三卷\r",
+  "last_update_volume_name": "全年龄版 第三卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2438,
   "last_update_chapter_id": 14141,
@@ -16,13 +16,13 @@
   ],
   "authors": "三田村半月",
   "first_letter": "Y",
-  "subscribe_num": 170,
-  "redis_update_time": 1564286864,
+  "subscribe_num": 172,
+  "redis_update_time": 1564924755,
   "volume": [
     {
       "id": 2436,
       "lnovel_id": 666,
-      "volume_name": "全年龄版 第一卷\r",
+      "volume_name": "全年龄版 第一卷",
       "volume_order": 10,
       "addtime": 1275481529,
       "sum_chapters": 3
@@ -30,7 +30,7 @@
     {
       "id": 2437,
       "lnovel_id": 666,
-      "volume_name": "全年龄版 第二卷\r",
+      "volume_name": "全年龄版 第二卷",
       "volume_order": 20,
       "addtime": 1275481529,
       "sum_chapters": 3
@@ -38,10 +38,51 @@
     {
       "id": 2438,
       "lnovel_id": 666,
-      "volume_name": "全年龄版 第三卷\r",
+      "volume_name": "全年龄版 第三卷",
       "volume_order": 30,
       "addtime": 1275481529,
       "sum_chapters": 3
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2436,
+      "id": 2436,
+      "volume_name": "全年龄版 第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14139,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2437,
+      "id": 2437,
+      "volume_name": "全年龄版 第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 14140,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2438,
+      "id": 2438,
+      "volume_name": "全年龄版 第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 14141,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

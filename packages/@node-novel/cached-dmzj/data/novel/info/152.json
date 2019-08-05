@@ -3,7 +3,7 @@
   "name": "高中女神",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 女神真难为\r",
+  "last_update_volume_name": "第一卷 女神真难为",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 557,
   "last_update_chapter_id": 3377,
@@ -16,16 +16,66 @@
   ],
   "authors": "ひかわ玲子",
   "first_letter": "G",
-  "subscribe_num": 93,
-  "redis_update_time": 1564280251,
+  "subscribe_num": 94,
+  "redis_update_time": 1564939352,
   "volume": [
     {
       "id": 557,
       "lnovel_id": 152,
-      "volume_name": "第一卷 女神真难为\r",
+      "volume_name": "第一卷 女神真难为",
       "volume_order": 10,
       "addtime": 1274917987,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 557,
+      "id": 557,
+      "volume_name": "第一卷 女神真难为",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3370,
+          "chapter_name": "登场人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 3371,
+          "chapter_name": "第一章 “责任能吃吗？”",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 3372,
+          "chapter_name": "第二章 “被爱让人难以消受？”",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 3373,
+          "chapter_name": "第三章 “您喜欢会痛的爱吗？”",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 3374,
+          "chapter_name": "第四章 “神也是会找人商量的?”",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 3375,
+          "chapter_name": "第五章 “这该不会是真的吧！？”",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 3376,
+          "chapter_name": "第六章 “……这一定是梦──”",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 3377,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

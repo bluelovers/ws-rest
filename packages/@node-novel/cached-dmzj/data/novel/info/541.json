@@ -12,20 +12,22 @@
   "hot_hits": 147053,
   "introduction": "高中一年级的冬天，父亲留下了一笔不得了的负债后失踪了。\n被逼入孤身一人的绝境的我的身边，\n突然出现赖在我身上的，是拥有神子之名的双子圣少女，艾丽（ELI）和蕾玛（LEMA）。\n再加上大天使伽佰丽，连幼女化的魔王也加进来么？\n不管是哪个都身背负债，而且竟然全说是因为我的关系。\n听起来，似乎是我前世做了些很不得了的事情，\n讨债人的魔掌不留任何喘息余地迫近了，我们作为临时家庭团结了起来，面对这一切\n超越了两千年的时光，总额超过了三亿的庞大负债，神魔乱入壮绝的毫无意义的战斗，现在，开始了！\n“Eli, Eli, Lema Sabachthani?耶稣如是说。”这是耶稣被钉十字架上的最后遗言，意思是：“我的主，我的主！您为什么舍弃了我？”",
   "types": [
-    "搞笑/后宫/奇幻"
+    "搞笑",
+    "后宫",
+    "奇幻"
   ],
   "authors": "杉井光",
   "first_letter": "Y",
-  "subscribe_num": 1494,
-  "redis_update_time": 1564248605,
+  "subscribe_num": 1497,
+  "redis_update_time": 1565020651,
   "volume": [
     {
       "id": 2041,
       "lnovel_id": 541,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918843,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2042,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918843,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3641,
@@ -41,7 +43,128 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1305512745,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2041,
+      "id": 2041,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12001,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2042,
+      "id": 2042,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12002,
+          "chapter_name": "神圣神",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 12003,
+          "chapter_name": "救世主",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 12004,
+          "chapter_name": "始教皇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 12005,
+          "chapter_name": "宗教学",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 12006,
+          "chapter_name": "经济战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 12007,
+          "chapter_name": "免罪符",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19924,
+          "chapter_name": "复仇战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19986,
+          "chapter_name": "8.战天使",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 19989,
+          "chapter_name": "断章 佐仓家的愚人节",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 19988,
+          "chapter_name": "后记",
+          "chapter_order": 91
+        }
+      ]
+    },
+    {
+      "volume_id": 3641,
+      "id": 3641,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 21318,
+          "chapter_name": "1 堕天使",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21326,
+          "chapter_name": "2 地狱变",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21320,
+          "chapter_name": "3 失乐园",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21321,
+          "chapter_name": "4 诈欺犯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21322,
+          "chapter_name": "5 大法庭",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21323,
+          "chapter_name": "6 十字架",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21324,
+          "chapter_name": "7 大团圆",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 21325,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

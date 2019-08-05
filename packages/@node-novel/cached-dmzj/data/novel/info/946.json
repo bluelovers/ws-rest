@@ -3,7 +3,7 @@
   "name": "有川夕菜的抵抗值",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "插图",
   "last_update_volume_id": 3353,
   "last_update_chapter_id": 19221,
@@ -16,16 +16,86 @@
   ],
   "authors": "时田唯",
   "first_letter": "Y",
-  "subscribe_num": 75,
-  "redis_update_time": 1564288295,
+  "subscribe_num": 80,
+  "redis_update_time": 1564993091,
   "volume": [
     {
       "id": 3353,
       "lnovel_id": 946,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1293072252,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3353,
+      "id": 3353,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 19210,
+          "chapter_name": "——起——",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19211,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19212,
+          "chapter_name": "幕间",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19213,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19214,
+          "chapter_name": "幕间二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19215,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19216,
+          "chapter_name": "幕间三",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19217,
+          "chapter_name": "第四章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 19218,
+          "chapter_name": "第五章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 19219,
+          "chapter_name": "——终——",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 19220,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 19221,
+          "chapter_name": "插图",
+          "chapter_order": 120
+        }
+      ]
     }
   ]
 }

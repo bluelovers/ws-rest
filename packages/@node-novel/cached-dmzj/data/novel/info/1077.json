@@ -12,20 +12,21 @@
   "hot_hits": 10003,
   "introduction": "暗藏阴谋的神秘组织、觉醒的超能力者，我们的现实世界，正在崩坏……\n『我想要过不平凡的人生！』\n你的请求，上天听到了……\n世界上真的有『超能力者』吗？这对身为平凡中学生的我而言，简直是难以置信的事啊！但、但、但，那个出现在我房间的裸体美少女，绝对不可能是幻觉吧？！\n什么？妳说这叫做『灵魂出窍』，是超能力的一种？还说妳和伙伴们正被一个叫做『绿屋』的神秘组织追捕，需要我的帮助？\n好吧……心中涌起了平常没有的胆量。就算真的被幽灵诱惑也无所谓，我的好奇心已经战胜一切了！可是，在看到她那奄奄一息的伙伴，还有两个拿枪冲进来的男子之后，我、我可以反悔吗？这种刺激的生活真的不适合我啊……",
   "types": [
-    "冒险/异能"
+    "冒险",
+    "异能"
   ],
   "authors": "青树佑夜",
   "first_letter": "S",
-  "subscribe_num": 45,
-  "redis_update_time": 1563511741,
+  "subscribe_num": 47,
+  "redis_update_time": 1564912291,
   "volume": [
     {
       "id": 3820,
       "lnovel_id": 1077,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1312177265,
-      "sum_chapters": 41
+      "sum_chapters": 12
     },
     {
       "id": 3956,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1317959560,
-      "sum_chapters": 41
+      "sum_chapters": 12
     },
     {
       "id": 3957,
@@ -41,7 +42,173 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1317959566,
-      "sum_chapters": 41
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3820,
+      "id": 3820,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 22872,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22873,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22874,
+          "chapter_name": "1 幽灵少女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22875,
+          "chapter_name": "2 亡者们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 22876,
+          "chapter_name": "3 三名超能力者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 22877,
+          "chapter_name": "4 超能力者大会战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 22878,
+          "chapter_name": "5 近乎神的少年",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 22879,
+          "chapter_name": "6 万分之一的奇迹",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 22880,
+          "chapter_name": "前言·再度登场",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 22881,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 3956,
+      "id": 3956,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 24099,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24100,
+          "chapter_name": "1 暴风雨前的宁静",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24101,
+          "chapter_name": "2 五名超能力者",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24102,
+          "chapter_name": "3 新的惨剧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24103,
+          "chapter_name": "4 逃亡者，驰翔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24104,
+          "chapter_name": "5 对战揭幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24105,
+          "chapter_name": "6 类别零",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24106,
+          "chapter_name": "7 觉醒",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24107,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 3957,
+      "id": 3957,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 24108,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24109,
+          "chapter_name": "1 老爸，回来了",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24110,
+          "chapter_name": "2 目标：类别零",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24111,
+          "chapter_name": "3 扭曲的时间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24112,
+          "chapter_name": "4 百百路树V.S猛丸",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24113,
+          "chapter_name": "5 守护类别零",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24114,
+          "chapter_name": "6 对战结果",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24115,
+          "chapter_name": "7 从『零』出发",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24116,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

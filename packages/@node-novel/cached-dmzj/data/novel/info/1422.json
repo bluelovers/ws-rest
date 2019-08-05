@@ -12,12 +12,14 @@
   "hot_hits": 37330,
   "introduction": "注：杂志连载小说，封面图暂缺\n皇历2017年。假面男「ZERO」所发动的大规模神圣布里塔尼亚反抗作战「黑色反叛」以失败告终。然而，其势力掀起了一股反超级大国的浪潮，受该作战的强烈影响，不只是过去与布里塔尼亚敌对的中华联邦以及E.U.这样的大国，另外受布里塔尼亚支配的各国也频繁发生恐怖袭击事件。在此背景之下，在世界各地均有其势力的恐怖组织「PEACEMARK」，与各国的恐怖组织以及类似京都这样的恐怖组织结盟，不断诱发恐怖袭击事件。奥尔菲斯·吉凡也是PEACEMARK组织内的一名恐怖分子。他和同伴Z·迪恩一同到达中东某国执行任务……。",
   "types": [
-    "科幻/机战/战争"
+    "科幻",
+    "机战",
+    "战争"
   ],
   "authors": "森田繁",
   "first_letter": "C",
-  "subscribe_num": 688,
-  "redis_update_time": 1564309851,
+  "subscribe_num": 691,
+  "redis_update_time": 1564934757,
   "volume": [
     {
       "id": 5216,
@@ -25,7 +27,72 @@
       "volume_name": "杂志连载",
       "volume_order": 10,
       "addtime": 1366361034,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 5216,
+      "id": 5216,
+      "volume_name": "杂志连载",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 34843,
+          "chapter_name": "第1话 「行动代号为奥兹」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34844,
+          "chapter_name": "第2话 「遥远的狙击」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34845,
+          "chapter_name": "第3话 「白炎对红莲」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34846,
+          "chapter_name": "第4话 「地图上没有的村子」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34847,
+          "chapter_name": "第5话 「圣彼得的街道」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34848,
+          "chapter_name": "第6话 「各自的黑暗」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34849,
+          "chapter_name": "第7话 「白色死神于苍穹起舞」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 34850,
+          "chapter_name": "第8话 「危险的游戏」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 34851,
+          "chapter_name": "第9话 「路标」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 34852,
+          "chapter_name": "第10话 「凶星、闪烁」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 35216,
+          "chapter_name": "第11话「赤与白之炎」",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

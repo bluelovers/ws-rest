@@ -1,9 +1,9 @@
 {
   "id": 440,
-  "name": "To　Love　出包王女",
+  "name": "To Love 出包王女",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1664,
   "last_update_chapter_id": 9659,
@@ -16,16 +16,56 @@
   ],
   "authors": "若月光",
   "first_letter": "T",
-  "subscribe_num": 3408,
-  "redis_update_time": 1564310874,
+  "subscribe_num": 3426,
+  "redis_update_time": 1565030092,
   "volume": [
     {
       "id": 1664,
       "lnovel_id": 440,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918605,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1664,
+      "id": 1664,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9654,
+          "chapter_name": "危险的闺房私语",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9655,
+          "chapter_name": "鲷鱼烧大作战",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9656,
+          "chapter_name": "风纪股长卖弄风骚？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9657,
+          "chapter_name": "高声赞扬护士女王吧！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9658,
+          "chapter_name": "宁静的午后时光",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9659,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

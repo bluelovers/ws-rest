@@ -3,7 +3,7 @@
   "name": "阪急电车",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 4036,
   "last_update_chapter_id": 24867,
@@ -16,16 +16,111 @@
   ],
   "authors": "有川浩",
   "first_letter": "B",
-  "subscribe_num": 343,
-  "redis_update_time": 1564292517,
+  "subscribe_num": 345,
+  "redis_update_time": 1564958196,
   "volume": [
     {
       "id": 4036,
       "lnovel_id": 1131,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1320634784,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4036,
+      "id": 4036,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 24851,
+          "chapter_name": "往西宫北口方向——宝塚站",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24852,
+          "chapter_name": "宝塚南口站",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24853,
+          "chapter_name": "逆濑川站",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24854,
+          "chapter_name": "小林站",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24855,
+          "chapter_name": "仁川站",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 24856,
+          "chapter_name": "甲东园站",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 24857,
+          "chapter_name": "门户厄神站",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 24858,
+          "chapter_name": "西宫北口站",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 24859,
+          "chapter_name": "往宝塚方向——西宫北口站",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 24860,
+          "chapter_name": "门户厄神站",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 24861,
+          "chapter_name": "甲东园站",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 24862,
+          "chapter_name": "仁川站",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 24863,
+          "chapter_name": "小林站",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 24864,
+          "chapter_name": "逆濑川站",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 24865,
+          "chapter_name": "宝塚南口站",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 24866,
+          "chapter_name": "接着回到——宝塚站",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 24867,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        }
+      ]
     }
   ]
 }

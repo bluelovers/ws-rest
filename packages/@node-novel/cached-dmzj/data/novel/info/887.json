@@ -3,7 +3,7 @@
   "name": "你们与虚人在星上共舞",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记 如风飞舞，如星眨眼",
   "last_update_volume_id": 3143,
   "last_update_chapter_id": 17664,
@@ -16,16 +16,66 @@
   ],
   "authors": "上远野浩平",
   "first_letter": "N",
-  "subscribe_num": 357,
-  "redis_update_time": 1564311321,
+  "subscribe_num": 364,
+  "redis_update_time": 1565002183,
   "volume": [
     {
       "id": 3143,
       "lnovel_id": 887,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1283660715,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3143,
+      "id": 3143,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17657,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17658,
+          "chapter_name": "1、世界为星",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17659,
+          "chapter_name": "2、星为虚伪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17660,
+          "chapter_name": "3、虚伪为敌",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17661,
+          "chapter_name": "4、敌为空洞",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17662,
+          "chapter_name": "5、空洞为人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17663,
+          "chapter_name": "6、人为世界",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 17664,
+          "chapter_name": "后记 如风飞舞，如星眨眼",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

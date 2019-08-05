@@ -3,7 +3,7 @@
   "name": "狂野历险 the Vth Vanguard",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 805,
   "last_update_chapter_id": 4573,
@@ -17,15 +17,30 @@
   "authors": "細江ひろみ",
   "first_letter": "K",
   "subscribe_num": 16,
-  "redis_update_time": 1564031732,
+  "redis_update_time": 1564505935,
   "volume": [
     {
       "id": 805,
       "lnovel_id": 222,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918119,
-      "sum_chapters": 13
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 805,
+      "id": 805,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4573,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -12,12 +12,14 @@
   "hot_hits": 49890,
   "introduction": "河蟹处理版！\n\n本书收录的作品全都是以Window版的Oasis原创冒险故事「祝福的钟声」为基础，再由各作者自由想象、解释改编而成。所以，书里并无任何有关「祝福的钟声」作品内容的破解公式。",
   "types": [
-    "魔法/冒险/后宫"
+    "魔法",
+    "冒险",
+    "后宫"
   ],
   "authors": "Oasis",
   "first_letter": "Z",
   "subscribe_num": 455,
-  "redis_update_time": 1564251434,
+  "redis_update_time": 1564954785,
   "volume": [
     {
       "id": 3785,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷 Festa della Carina",
       "volume_order": 10,
       "addtime": 1310960494,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3786,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 Festa della Anges",
       "volume_order": 20,
       "addtime": 1310960501,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4044,
@@ -41,15 +43,15 @@
       "volume_name": "第三卷 festa della chelsea",
       "volume_order": 30,
       "addtime": 1321237970,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 4770,
       "lnovel_id": 1064,
-      "volume_name": "第四卷 Festa della Minette ",
+      "volume_name": "第四卷 Festa della Minette",
       "volume_order": 40,
       "addtime": 1349943078,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 5177,
@@ -57,7 +59,154 @@
       "volume_name": "第五卷 Festa della Oasis",
       "volume_order": 50,
       "addtime": 1364871362,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3785,
+      "id": 3785,
+      "volume_name": "第一卷 Festa della Carina",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 22541,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22542,
+          "chapter_name": "雪中的宝石",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22543,
+          "chapter_name": "卡莉娜公主认真学习中！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22544,
+          "chapter_name": "莎尔萨与感冒特效药",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 3786,
+      "id": 3786,
+      "volume_name": "第二卷 Festa della Anges",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 22545,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 22546,
+          "chapter_name": "爱你在心口难开 \"Burattinaio\"",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 22547,
+          "chapter_name": "蒸气中的女孩私语＂famiglia＂",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 22548,
+          "chapter_name": "要不要吃点甜点＂printsienne＂",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 4044,
+      "id": 4044,
+      "volume_name": "第三卷 festa della chelsea",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 24929,
+          "chapter_name": "第一章 好想见到你",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24930,
+          "chapter_name": "第二章 雪莉的超完美娇妻教室",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24932,
+          "chapter_name": "第三章 神剑怪盗雀儿喜",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 4770,
+      "id": 4770,
+      "volume_name": "第四卷 Festa della Minette",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 31034,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31035,
+          "chapter_name": "少女、迷路的孩子和失物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31036,
+          "chapter_name": "希望你至少记得我",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 31037,
+          "chapter_name": "因梦想与希望而伟大",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 5177,
+      "id": 5177,
+      "volume_name": "第五卷 Festa della Oasis",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 34538,
+          "chapter_name": "序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 34539,
+          "chapter_name": "不如让她换上泳装",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 34540,
+          "chapter_name": "祝福的钟声为谁响起",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34541,
+          "chapter_name": "祝福的钟声为你响起",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34542,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34543,
+          "chapter_name": "后记 全五集综合版∫",
+          "chapter_order": 60
+        }
+      ]
     }
   ]
 }

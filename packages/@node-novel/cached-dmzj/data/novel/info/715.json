@@ -3,7 +3,7 @@
   "name": "斜屋犯罪",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "尾声",
   "last_update_volume_id": 2508,
   "last_update_chapter_id": 14340,
@@ -16,16 +16,66 @@
   ],
   "authors": "岛田庄司",
   "first_letter": "X",
-  "subscribe_num": 662,
-  "redis_update_time": 1564288190,
+  "subscribe_num": 666,
+  "redis_update_time": 1565018392,
   "volume": [
     {
       "id": 2508,
       "lnovel_id": 715,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481536,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2508,
+      "id": 2508,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14333,
+          "chapter_name": "出场人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 14334,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 14335,
+          "chapter_name": "第一幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 14336,
+          "chapter_name": "第二幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 14337,
+          "chapter_name": "第三幕",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 14338,
+          "chapter_name": "中场休息",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 14339,
+          "chapter_name": "终幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 14340,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

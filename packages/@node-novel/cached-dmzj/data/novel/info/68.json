@@ -3,7 +3,7 @@
   "name": "苍穹之战神",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "苍穹之战神\r",
+  "last_update_volume_name": "苍穹之战神",
   "last_update_chapter_name": "往未知的世界",
   "last_update_volume_id": 261,
   "last_update_chapter_id": 1537,
@@ -16,16 +16,36 @@
   ],
   "authors": "冲方丁",
   "first_letter": "C",
-  "subscribe_num": 283,
-  "redis_update_time": 1564303350,
+  "subscribe_num": 284,
+  "redis_update_time": 1565014567,
   "volume": [
     {
       "id": 261,
       "lnovel_id": 68,
-      "volume_name": "苍穹之战神\r",
+      "volume_name": "苍穹之战神",
       "volume_order": 10,
       "addtime": 1274917826,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 261,
+      "id": 261,
+      "volume_name": "苍穹之战神",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 1536,
+          "chapter_name": "杂音",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 1537,
+          "chapter_name": "往未知的世界",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

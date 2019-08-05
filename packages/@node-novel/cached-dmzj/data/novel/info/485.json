@@ -3,7 +3,7 @@
   "name": "我是她的第九顺位",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1830,
   "last_update_chapter_id": 10858,
@@ -16,16 +16,36 @@
   ],
   "authors": "佐野しなの",
   "first_letter": "W",
-  "subscribe_num": 435,
-  "redis_update_time": 1564298018,
+  "subscribe_num": 437,
+  "redis_update_time": 1565020068,
   "volume": [
     {
       "id": 1830,
       "lnovel_id": 485,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274918711,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1830,
+      "id": 1830,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10857,
+          "chapter_name": "正文",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10858,
+          "chapter_name": "后记",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

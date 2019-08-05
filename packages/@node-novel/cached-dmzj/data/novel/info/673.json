@@ -3,7 +3,7 @@
   "name": "东京少年",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2446,
   "last_update_chapter_id": 14227,
@@ -16,16 +16,31 @@
   ],
   "authors": "渡边睦月",
   "first_letter": "D",
-  "subscribe_num": 50,
-  "redis_update_time": 1564294819,
+  "subscribe_num": 51,
+  "redis_update_time": 1564986446,
   "volume": [
     {
       "id": 2446,
       "lnovel_id": 673,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481531,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2446,
+      "id": 2446,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14227,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

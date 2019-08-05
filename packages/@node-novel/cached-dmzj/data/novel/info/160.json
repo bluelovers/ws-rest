@@ -3,7 +3,7 @@
   "name": "荒野",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第3部\r",
+  "last_update_volume_name": "第3部",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 575,
   "last_update_chapter_id": 3410,
@@ -17,31 +17,72 @@
   "authors": "樱庭一树",
   "first_letter": "H",
   "subscribe_num": 1057,
-  "redis_update_time": 1564296093,
+  "redis_update_time": 1565021455,
   "volume": [
     {
       "id": 573,
       "lnovel_id": 160,
-      "volume_name": "第1部\r",
+      "volume_name": "第1部",
       "volume_order": 10,
       "addtime": 1274917995,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 574,
       "lnovel_id": 160,
-      "volume_name": "第2部\r",
+      "volume_name": "第2部",
       "volume_order": 20,
       "addtime": 1274917995,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 575,
       "lnovel_id": 160,
-      "volume_name": "第3部\r",
+      "volume_name": "第3部",
       "volume_order": 30,
       "addtime": 1274917995,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 573,
+      "id": 573,
+      "volume_name": "第1部",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3408,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 574,
+      "id": 574,
+      "volume_name": "第2部",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 3409,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 575,
+      "id": 575,
+      "volume_name": "第3部",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 3410,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "name": "幻影父亲",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 591,
   "last_update_chapter_id": 3461,
@@ -16,16 +16,31 @@
   ],
   "authors": "深泽美潮",
   "first_letter": "H",
-  "subscribe_num": 76,
-  "redis_update_time": 1564220909,
+  "subscribe_num": 77,
+  "redis_update_time": 1564924566,
   "volume": [
     {
       "id": 591,
       "lnovel_id": 167,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918005,
-      "sum_chapters": 5
+      "sum_chapters": 22
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 591,
+      "id": 591,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 3461,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

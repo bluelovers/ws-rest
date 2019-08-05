@@ -12,20 +12,21 @@
   "hot_hits": 493875,
   "introduction": "清梦骑士（スガム　ナイト），相貌、成绩、运动各方面都普通得不能再普通，15年间一直扮演着这样一个看上去绝对平凡的少年。不过，他这虚伪的人生，在那天一去不返。\n他被卷进了一群自称是<魔乖术师>的魔法使们的战斗中。\n在毫发之际被魔乖术师的少女救下的那夜，与那位少女，佑露米露美•修特雷恩贝鲁古的相遇，强烈地动摇着他曾经被封印的记忆。\n感知到黑暗世界的存在，自身某部分像是被唤醒一般，骑士毅然踏足这战场……<魔女们的狂宴>。等待着骑士的是天国，还是说是……。\n魔女乘着美丽的月色起舞，激动人心的魔幻剧开幕！",
   "types": [
-    "魔法/冒险"
+    "魔法",
+    "冒险"
   ],
   "authors": "八街步",
   "first_letter": "J",
-  "subscribe_num": 4008,
-  "redis_update_time": 1564310354,
+  "subscribe_num": 4013,
+  "redis_update_time": 1564974561,
   "volume": [
     {
       "id": 3645,
       "lnovel_id": 1033,
-      "volume_name": "第一卷 夜之继承者\r",
+      "volume_name": "第一卷 夜之继承者",
       "volume_order": 10,
       "addtime": 1305513496,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4181,
@@ -33,7 +34,7 @@
       "volume_name": "短篇",
       "volume_order": 20,
       "addtime": 1326352453,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4215,
@@ -41,7 +42,7 @@
       "volume_name": "第二卷 Fake Master 梦语者",
       "volume_order": 30,
       "addtime": 1328683639,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4443,
@@ -49,7 +50,7 @@
       "volume_name": "第三卷 Fool Jester 戏谑之愚者",
       "volume_order": 40,
       "addtime": 1335940956,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5311,
@@ -57,7 +58,7 @@
       "volume_name": "第四卷 The Party 牺牲狂者",
       "volume_order": 50,
       "addtime": 1370241177,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5351,
@@ -65,7 +66,7 @@
       "volume_name": "第五卷 Lunatic Ruler 征讨狂滥之人",
       "volume_order": 60,
       "addtime": 1372394558,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5422,
@@ -73,7 +74,7 @@
       "volume_name": "第六卷 Deadend Runner 走向灭亡之人",
       "volume_order": 70,
       "addtime": 1375669813,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5455,
@@ -81,7 +82,7 @@
       "volume_name": "第七卷 Girls Make Cry 为虚伪恸哭之人",
       "volume_order": 80,
       "addtime": 1376468573,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5505,
@@ -89,7 +90,7 @@
       "volume_name": "第八卷 Ability Zero 虚空未来",
       "volume_order": 90,
       "addtime": 1378455926,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 5584,
@@ -97,7 +98,399 @@
       "volume_name": "第九卷 SpiritsSuccessor 后继者们",
       "volume_order": 100,
       "addtime": 1381921395,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3645,
+      "id": 3645,
+      "volume_name": "第一卷 夜之继承者",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 21356,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21357,
+          "chapter_name": "第一章 魔宴之始",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21358,
+          "chapter_name": "第二章 八祖之祸家",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21359,
+          "chapter_name": "第三章 决战前夜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21360,
+          "chapter_name": "第四章 『Meister』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21361,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21362,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4181,
+      "id": 4181,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 26044,
+          "chapter_name": "短篇 Heart Teller～传达思念之人",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 4215,
+      "id": 4215,
+      "volume_name": "第二卷 Fake Master 梦语者",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 26297,
+          "chapter_name": "序章 诅咒的开端",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26351,
+          "chapter_name": "第一章 平稳的序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26497,
+          "chapter_name": "第二章 『惑思之千里眼』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 34927,
+          "chapter_name": "第三章 虚构与现实与虚构中的现实",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 34978,
+          "chapter_name": "第四章 决斗与觉醒",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 34979,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 34980,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 4443,
+      "id": 4443,
+      "volume_name": "第三卷 Fool Jester 戏谑之愚者",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 28185,
+          "chapter_name": "序 即将发狂的敌人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28309,
+          "chapter_name": "第一章 跳舞的愚者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28434,
+          "chapter_name": "第二章 愚者的小夜曲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28442,
+          "chapter_name": "第三章 互相往来的愚者们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28479,
+          "chapter_name": "第四章 飘落的愚者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28506,
+          "chapter_name": "终章 苏醒的愚者",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28608,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5311,
+      "id": 5311,
+      "volume_name": "第四卷 The Party 牺牲狂者",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 35742,
+          "chapter_name": "序章 旁观的人们",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 35743,
+          "chapter_name": "第一章 不速之客",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 35761,
+          "chapter_name": "第二章 各自的状况",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 35783,
+          "chapter_name": "第三章 应打倒之敌",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 35814,
+          "chapter_name": "Epilogue 奏响破灭的序曲",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 35815,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5351,
+      "id": 5351,
+      "volume_name": "第五卷 Lunatic Ruler 征讨狂滥之人",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 36144,
+          "chapter_name": "Prologue 其名之源",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36159,
+          "chapter_name": "第一章 狂敌再临",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36185,
+          "chapter_name": "第二章 道至星辰",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36218,
+          "chapter_name": "第三章 不实之梦",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36219,
+          "chapter_name": "第四章 逃出生天",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36220,
+          "chapter_name": "Epilogue 征讨狂澜之人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36221,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5422,
+      "id": 5422,
+      "volume_name": "第六卷 Deadend Runner 走向灭亡之人",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 36653,
+          "chapter_name": "Prologue 魔乖之源",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36767,
+          "chapter_name": "第一章 斗争加剧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36768,
+          "chapter_name": "第二章 异质且异样且异常的魔乖术师",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36800,
+          "chapter_name": "第三章 被称作『天才』的存在",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36801,
+          "chapter_name": "第四章 剑与祖父与天才和——",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36802,
+          "chapter_name": "Epilogue 谁才是更加弱小的一方",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 36803,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5455,
+      "id": 5455,
+      "volume_name": "第七卷 Girls Make Cry 为虚伪恸哭之人",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 36899,
+          "chapter_name": "第一章 日常崩坏",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 36900,
+          "chapter_name": "第二章 胜负已分？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 36909,
+          "chapter_name": "第三章 魔王觉醒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 36931,
+          "chapter_name": "第四章 天才哀歌",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 36932,
+          "chapter_name": "尾声 终焉开启",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 36933,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 5505,
+      "id": 5505,
+      "volume_name": "第八卷 Ability Zero 虚空未来",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 37391,
+          "chapter_name": "序章 至今为止与从今往后",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 37392,
+          "chapter_name": "第一章 绝端",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 37442,
+          "chapter_name": "第二章 师父与弟子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 37443,
+          "chapter_name": "第三章 魔宴的真相",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 37470,
+          "chapter_name": "第四章 源祖与始祖",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 37478,
+          "chapter_name": "Epilogue 真正的敌人是——",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 37479,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 5584,
+      "id": 5584,
+      "volume_name": "第九卷 SpiritsSuccessor 后继者们",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 38032,
+          "chapter_name": "Prologue 被囚禁的公主",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 38057,
+          "chapter_name": "第一章 祖父与孙子与樱",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 38075,
+          "chapter_name": "第二章 各自的思绪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 38100,
+          "chapter_name": "第三章 魔宴的结局",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 38101,
+          "chapter_name": "第四章 了断与毕业",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 38102,
+          "chapter_name": "Epilogue 降临于我与她之夜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 38103,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

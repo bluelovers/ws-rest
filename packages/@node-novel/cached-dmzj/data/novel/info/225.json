@@ -1,9 +1,9 @@
 {
   "id": 225,
-  "name": "狂野历险　the　4th　Detonator",
+  "name": "狂野历险 the 4th Detonator",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷\r",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "狂野历险 the 4th Detonator 下",
   "last_update_volume_id": 812,
   "last_update_chapter_id": 4580,
@@ -17,23 +17,51 @@
   "authors": "細江ひろみ",
   "first_letter": "K",
   "subscribe_num": 17,
-  "redis_update_time": 1564073101,
+  "redis_update_time": 1564632216,
   "volume": [
     {
       "id": 811,
       "lnovel_id": 225,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918122,
-      "sum_chapters": 11
+      "sum_chapters": 6
     },
     {
       "id": 812,
       "lnovel_id": 225,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918122,
-      "sum_chapters": 11
+      "sum_chapters": 6
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 811,
+      "id": 811,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4579,
+          "chapter_name": "狂野历险 the 4th Detonator 上",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 812,
+      "id": 812,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 4580,
+          "chapter_name": "狂野历险 the 4th Detonator 下",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

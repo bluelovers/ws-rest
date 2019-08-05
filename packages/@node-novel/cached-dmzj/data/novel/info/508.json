@@ -1,9 +1,9 @@
 {
   "id": 508,
-  "name": "幸运星　悠闲的日子",
+  "name": "幸运星 悠闲的日子",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 1916,
   "last_update_chapter_id": 11272,
@@ -16,16 +16,31 @@
   ],
   "authors": "待田堂子",
   "first_letter": "X",
-  "subscribe_num": 250,
-  "redis_update_time": 1564281334,
+  "subscribe_num": 259,
+  "redis_update_time": 1565003250,
   "volume": [
     {
       "id": 1916,
       "lnovel_id": 508,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918765,
-      "sum_chapters": 3
+      "sum_chapters": 11
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1916,
+      "id": 1916,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11272,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

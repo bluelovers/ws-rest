@@ -3,7 +3,7 @@
   "name": "阴月的箭蔟",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2464,
   "last_update_chapter_id": 14245,
@@ -17,15 +17,30 @@
   "authors": "时海结以",
   "first_letter": "Y",
   "subscribe_num": 63,
-  "redis_update_time": 1563958135,
+  "redis_update_time": 1564431261,
   "volume": [
     {
       "id": 2464,
       "lnovel_id": 682,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275481532,
-      "sum_chapters": 9
+      "sum_chapters": 30
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2464,
+      "id": 2464,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 14245,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

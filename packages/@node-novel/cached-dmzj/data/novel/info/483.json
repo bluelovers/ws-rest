@@ -3,7 +3,7 @@
   "name": "我的爱马很凶恶",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "我的爱马很凶恶\r",
+  "last_update_volume_name": "我的爱马很凶恶",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 1828,
   "last_update_chapter_id": 10850,
@@ -17,15 +17,35 @@
   "authors": "新井辉",
   "first_letter": "W",
   "subscribe_num": 413,
-  "redis_update_time": 1564298028,
+  "redis_update_time": 1565031156,
   "volume": [
     {
       "id": 1828,
       "lnovel_id": 483,
-      "volume_name": "我的爱马很凶恶\r",
+      "volume_name": "我的爱马很凶恶",
       "volume_order": 10,
       "addtime": 1274918709,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1828,
+      "id": 1828,
+      "volume_name": "我的爱马很凶恶",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10849,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10850,
+          "chapter_name": "后记",
+          "chapter_order": 20
+        }
+      ]
     }
   ]
 }

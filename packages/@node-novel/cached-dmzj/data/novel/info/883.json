@@ -16,16 +16,16 @@
   ],
   "authors": "西尾维新",
   "first_letter": "M",
-  "subscribe_num": 15292,
-  "redis_update_time": 1564312304,
+  "subscribe_num": 15356,
+  "redis_update_time": 1565006429,
   "volume": [
     {
       "id": 3132,
       "lnovel_id": 883,
-      "volume_name": "第一卷 黑\r",
+      "volume_name": "第一卷 黑",
       "volume_order": 10,
       "addtime": 1283077649,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3254,
@@ -33,7 +33,225 @@
       "volume_name": "第二卷 白",
       "volume_order": 20,
       "addtime": 1288591903,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3132,
+      "id": 3132,
+      "volume_name": "第一卷 黑",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17543,
+          "chapter_name": "001",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17544,
+          "chapter_name": "002",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17545,
+          "chapter_name": "003",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17546,
+          "chapter_name": "004",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17547,
+          "chapter_name": "005",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17548,
+          "chapter_name": "006",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17549,
+          "chapter_name": "007",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 17550,
+          "chapter_name": "008",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 17551,
+          "chapter_name": "009",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 17552,
+          "chapter_name": "010",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 17553,
+          "chapter_name": "011",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 17554,
+          "chapter_name": "012",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 17555,
+          "chapter_name": "013",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 17556,
+          "chapter_name": "插图",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 18444,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 3254,
+      "id": 3254,
+      "volume_name": "第二卷 白",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 18445,
+          "chapter_name": "001",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 18446,
+          "chapter_name": "002",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 18447,
+          "chapter_name": "003",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 18448,
+          "chapter_name": "004",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 18449,
+          "chapter_name": "005",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 18450,
+          "chapter_name": "006",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 18458,
+          "chapter_name": "007",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 18459,
+          "chapter_name": "009",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 18460,
+          "chapter_name": "010",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 18549,
+          "chapter_name": "011",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 18550,
+          "chapter_name": "012",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 18551,
+          "chapter_name": "014",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 18592,
+          "chapter_name": "015",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 18593,
+          "chapter_name": "016",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 18595,
+          "chapter_name": "017-018",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 18623,
+          "chapter_name": "019-021",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 18702,
+          "chapter_name": "022-024",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 18740,
+          "chapter_name": "025-026",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 18791,
+          "chapter_name": "027-054",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 18806,
+          "chapter_name": "055-057",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 18891,
+          "chapter_name": "058-060",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 18942,
+          "chapter_name": "061-063",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 18943,
+          "chapter_name": "064-065",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 18966,
+          "chapter_name": "066",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 18967,
+          "chapter_name": "后记",
+          "chapter_order": 250
+        }
+      ]
     }
   ]
 }

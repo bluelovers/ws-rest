@@ -16,16 +16,16 @@
   ],
   "authors": "藤咲あゆな",
   "first_letter": "C",
-  "subscribe_num": 289,
-  "redis_update_time": 1564147820,
+  "subscribe_num": 292,
+  "redis_update_time": 1564932613,
   "volume": [
     {
       "id": 4225,
       "lnovel_id": 1179,
-      "volume_name": "第一卷 我成为执事的理由\r",
+      "volume_name": "第一卷 我成为执事的理由",
       "volume_order": 10,
       "addtime": 1328853654,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 4287,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 比小说还奇特的派遣处",
       "volume_order": 20,
       "addtime": 1330500768,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 4439,
@@ -41,7 +41,183 @@
       "volume_name": "第三卷 千金小姐的执着",
       "volume_order": 30,
       "addtime": 1335598351,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4225,
+      "id": 4225,
+      "volume_name": "第一卷 我成为执事的理由",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 26387,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26388,
+          "chapter_name": "第一章 任性的王子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26389,
+          "chapter_name": "第二章 前往Butler System公司",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26390,
+          "chapter_name": "第三章 无家可归的生活",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26391,
+          "chapter_name": "第四章 研修开始",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26392,
+          "chapter_name": "第五章 前往主人家",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26393,
+          "chapter_name": "第六章 各不相同的解决方法",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26394,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 26395,
+          "chapter_name": "附录",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 26396,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 26397,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 4287,
+      "id": 4287,
+      "volume_name": "第二卷 比小说还奇特的派遣处",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 26904,
+          "chapter_name": "第一章 没落的王子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 26905,
+          "chapter_name": "第二章 实习中",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 26906,
+          "chapter_name": "第三章 奇怪的委托工作",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 26907,
+          "chapter_name": "第四章 轮流上阵的执事",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 26908,
+          "chapter_name": "第五章 最棒的瞬间及最糟糕的一晚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 26909,
+          "chapter_name": "第六章 天河迷惘中",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 26910,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 26911,
+          "chapter_name": "「私密」档案大公开",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 26912,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 4439,
+      "id": 4439,
+      "volume_name": "第三卷 千金小姐的执着",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 28161,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 28162,
+          "chapter_name": "第一章 窃听王子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 28163,
+          "chapter_name": "第二章 千金小姐与原执事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 28164,
+          "chapter_name": "第三章 指导者是机器人？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 28165,
+          "chapter_name": "第四章 任牲、善变、肆意妄为",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 28166,
+          "chapter_name": "第五章 郁闷的生日",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 28167,
+          "chapter_name": "第六章 恋情的走向",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 28168,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 28169,
+          "chapter_name": "「私密」档案大公开",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 28170,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
     }
   ]
 }

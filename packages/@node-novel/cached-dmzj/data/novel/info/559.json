@@ -17,23 +17,23 @@
   "authors": "神代创",
   "first_letter": "Y",
   "subscribe_num": 223,
-  "redis_update_time": 1564241882,
+  "redis_update_time": 1565004800,
   "volume": [
     {
       "id": 2092,
       "lnovel_id": 559,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918873,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 2093,
       "lnovel_id": 559,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918873,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3028,
@@ -41,7 +41,88 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1278907380,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2092,
+      "id": 2092,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 12264,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2093,
+      "id": 2093,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 12265,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3028,
+      "id": 3028,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 16858,
+          "chapter_name": "第三卷 勇者的归来 第一章 苏醒的巨影",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 16859,
+          "chapter_name": "第三卷 勇者的归来 第二章 作战开始",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 16860,
+          "chapter_name": "第三卷 勇者的归来 第三章 战士的羁绊",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 16861,
+          "chapter_name": "第三卷 勇者的归来 第四章 萨尔法出现",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 16862,
+          "chapter_name": "第三卷 勇者的归来 第五章 别离",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 16863,
+          "chapter_name": "第三卷 勇者的归来 最终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 16864,
+          "chapter_name": "第三卷 勇者的归来 番外篇 来自魔界的挑战?",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 16865,
+          "chapter_name": "第三卷 勇者的归来 后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 16866,
+          "chapter_name": "第三卷 勇者的归来 插图",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

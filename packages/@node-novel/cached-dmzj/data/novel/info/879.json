@@ -3,7 +3,7 @@
   "name": "残酷的处刑史",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第四章◎十七～十八世纪 巴黎的处决广场",
   "last_update_volume_id": 3113,
   "last_update_chapter_id": 17470,
@@ -16,16 +16,51 @@
   ],
   "authors": "桐生操",
   "first_letter": "C",
-  "subscribe_num": 1206,
-  "redis_update_time": 1564310140,
+  "subscribe_num": 1214,
+  "redis_update_time": 1565006809,
   "volume": [
     {
       "id": 3113,
       "lnovel_id": 879,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1282720712,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3113,
+      "id": 3113,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17466,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17467,
+          "chapter_name": "第一章◎古罗马帝国 皇帝的血腥飨宴",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17468,
+          "chapter_name": "第二章◎十四～十七世纪 残酷的女巫大审判",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17469,
+          "chapter_name": "第三章◎十五～十六世纪 伦敦塔的囚犯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17470,
+          "chapter_name": "第四章◎十七～十八世纪 巴黎的处决广场",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

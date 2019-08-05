@@ -10,22 +10,25 @@
   "last_update_time": 1306720291,
   "cover": "https://xs.dmzj.com/img/webpic/5/0258G.jpg",
   "hot_hits": 39842,
-  "introduction": "人类与魔族自古以来就持续上演着一场永无止境的正邪之争，而只会降生于人类世界的ＬＡＤＹ．ＫＥＹ则是决定这场大战的胜负关键。时至今日，一名手持退魔妖剑，身为虔诚基督教徒的少年，奉教皇敕命与魔族成员一同执行保护ＬＡＤＹ．ＫＥＹ的任务。只是他怎么也没料到，在短短三天当中，这项任务竟彻底改变了他的人生……\n\n",
+  "introduction": "人类与魔族自古以来就持续上演着一场永无止境的正邪之争，而只会降生于人类世界的ＬＡＤＹ．ＫＥＹ则是决定这场大战的胜负关键。时至今日，一名手持退魔妖剑，身为虔诚基督教徒的少年，奉教皇敕命与魔族成员一同执行保护ＬＡＤＹ．ＫＥＹ的任务。只是他怎么也没料到，在短短三天当中，这项任务竟彻底改变了他的人生……",
   "types": [
-    "冒险/奇幻/格斗/异界"
+    "冒险",
+    "奇幻",
+    "格斗",
+    "异界"
   ],
   "authors": "贵子润一郎",
   "first_letter": "L",
-  "subscribe_num": 277,
-  "redis_update_time": 1564299850,
+  "subscribe_num": 278,
+  "redis_update_time": 1564923942,
   "volume": [
     {
       "id": 900,
       "lnovel_id": 243,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918171,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 3360,
@@ -33,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1293429696,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 3676,
@@ -41,7 +44,113 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1306720266,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 900,
+      "id": 900,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5164,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3360,
+      "id": 3360,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 19279,
+          "chapter_name": "序章 在山丘的另一端",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 19280,
+          "chapter_name": "ACT1 红袍女郎",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 19281,
+          "chapter_name": "ACT2 一夜狂欢",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 19282,
+          "chapter_name": "ACT3 黑夜阴暗处",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 19283,
+          "chapter_name": "ACT4 彻夜燃烧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 19284,
+          "chapter_name": "ACT5 永恒之歌",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 19285,
+          "chapter_name": "终章 令我心动！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 19286,
+          "chapter_name": "第二卷 后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 3676,
+      "id": 3676,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 21622,
+          "chapter_name": "序章 沉眠的野兽",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21623,
+          "chapter_name": "ACT1 今晚为天使之夜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21624,
+          "chapter_name": "ACT2 偶然到访的客旅",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21625,
+          "chapter_name": "ACT3 混杂其中的红色",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21626,
+          "chapter_name": "ACT4 纠缠不清的黑色",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21627,
+          "chapter_name": "终章 自梦境重返现实",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21628,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

@@ -16,8 +16,8 @@
   ],
   "authors": "森见登美彦",
   "first_letter": "X",
-  "subscribe_num": 697,
-  "redis_update_time": 1564285727,
+  "subscribe_num": 700,
+  "redis_update_time": 1564966095,
   "volume": [
     {
       "id": 4321,
@@ -25,7 +25,52 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1331716043,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4321,
+      "id": 4321,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 27198,
+          "chapter_name": "名词释义",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 27199,
+          "chapter_name": "Chapter 01 宵山姐妹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 27200,
+          "chapter_name": "Chapter 02 宵山金鱼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 27201,
+          "chapter_name": "Chapter 03 宵山剧场",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 27202,
+          "chapter_name": "Chapter 04 宵山回廊",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 27203,
+          "chapter_name": "Chapter 05 宵山迷宫",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 27204,
+          "chapter_name": "Chapter 06 宵山万花筒",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

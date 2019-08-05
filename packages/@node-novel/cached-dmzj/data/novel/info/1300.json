@@ -12,12 +12,14 @@
   "hot_hits": 65218,
   "introduction": "高中生库拉，他身上一直依附着有弟控属性，且又有点小H的双胞胎姐姐。虽然希美平常形态下身材傲人，但是如果不持续吸食灵体的话就会变成幼女的形态。为了希美，库拉每天都要努力地寻找食饵。\n   他们过着虽然说不上普通，但还算平和的校园生活。某一天，在他们面前出现了前所未遇的强大灵体——“弃灵”。操纵“弃灵”的是何方神圣？其目的是什么？手机软件 “Peeping Tom”的秘密又是什么？接二连三掀起的事件破坏了两人平稳的日常——！？\n   能够破坏一切的“废龙”，拥有深厚羁绊的双胞胎姐弟。他们将会运用 “废龙”的能力，展开一段校园英雄式的行动！——",
   "types": [
-    "校园/神鬼/格斗"
+    "校园",
+    "神鬼",
+    "格斗"
   ],
   "authors": "鹰野新",
   "first_letter": "S",
-  "subscribe_num": 985,
-  "redis_update_time": 1564307881,
+  "subscribe_num": 990,
+  "redis_update_time": 1564939640,
   "volume": [
     {
       "id": 4726,
@@ -25,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1348645080,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 4727,
@@ -33,7 +35,105 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1348645088,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4726,
+      "id": 4726,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 30672,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 30673,
+          "chapter_name": "第一章 篠崎朔良",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 30674,
+          "chapter_name": "第二章 PeepingTom",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 30675,
+          "chapter_name": "第三章 另一个世界的人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 30732,
+          "chapter_name": "第四章 向虚妄的祈祷",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 30753,
+          "chapter_name": "第五章 约定",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 30804,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 30837,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 4727,
+      "id": 4727,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 30676,
+          "chapter_name": "第一章 厨房战争",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 31552,
+          "chapter_name": "第二章 家~Family~",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 31652,
+          "chapter_name": "第三章 意外事件的代价",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32107,
+          "chapter_name": "第四章 失踪与沉默",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32108,
+          "chapter_name": "第五章 比卖守斎槻",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32109,
+          "chapter_name": "第六章 觉悟，之后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32110,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32111,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
     }
   ]
 }

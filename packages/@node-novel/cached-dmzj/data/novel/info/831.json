@@ -17,15 +17,30 @@
   "authors": "赤川次郎",
   "first_letter": "S",
   "subscribe_num": 70,
-  "redis_update_time": 1564266599,
+  "redis_update_time": 1564948787,
   "volume": [
     {
       "id": 2929,
       "lnovel_id": 831,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1277352146,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2929,
+      "id": 2929,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 16506,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

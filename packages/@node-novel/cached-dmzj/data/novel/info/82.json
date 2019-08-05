@@ -3,7 +3,7 @@
   "name": "大剑Claymore",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "未来的通路\r",
+  "last_update_volume_name": "未来的通路",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 320,
   "last_update_chapter_id": 2029,
@@ -16,16 +16,31 @@
   ],
   "authors": "桃生圣史",
   "first_letter": "D",
-  "subscribe_num": 752,
-  "redis_update_time": 1564297743,
+  "subscribe_num": 762,
+  "redis_update_time": 1565012180,
   "volume": [
     {
       "id": 320,
       "lnovel_id": 82,
-      "volume_name": "未来的通路\r",
+      "volume_name": "未来的通路",
       "volume_order": 10,
       "addtime": 1274917856,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 320,
+      "id": 320,
+      "volume_name": "未来的通路",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2029,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

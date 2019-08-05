@@ -3,7 +3,7 @@
   "name": "Another MONSTER",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 3881,
   "last_update_chapter_id": 23376,
@@ -16,16 +16,51 @@
   ],
   "authors": "浦泽直树",
   "first_letter": "A",
-  "subscribe_num": 1129,
-  "redis_update_time": 1564311560,
+  "subscribe_num": 1137,
+  "redis_update_time": 1564950634,
   "volume": [
     {
       "id": 3881,
       "lnovel_id": 1094,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1314248671,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3881,
+      "id": 3881,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 23372,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23373,
+          "chapter_name": "第一部〔事件经过一九八六～一九八七年〕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23374,
+          "chapter_name": "第二部〔事情经过一九九七～一九九八年〕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23375,
+          "chapter_name": "终章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23376,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

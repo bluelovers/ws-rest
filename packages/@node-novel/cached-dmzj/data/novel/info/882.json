@@ -3,7 +3,7 @@
   "name": "东京八卦新闻",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第一卷 后记",
   "last_update_volume_id": 3131,
   "last_update_chapter_id": 17572,
@@ -17,15 +17,80 @@
   "authors": "水城正太郎",
   "first_letter": "D",
   "subscribe_num": 67,
-  "redis_update_time": 1564150446,
+  "redis_update_time": 1564972107,
   "volume": [
     {
       "id": 3131,
       "lnovel_id": 882,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1283077556,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3131,
+      "id": 3131,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 17533,
+          "chapter_name": "1章 深夜列车的尸体",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 17534,
+          "chapter_name": "2章 地下室的幽灵",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 17535,
+          "chapter_name": "3章 赛马场的怪物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 17536,
+          "chapter_name": "4章 阿美横的香具师",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 17537,
+          "chapter_name": "5章 杀人预告的信",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 17538,
+          "chapter_name": "6章 马戏团的惨剧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 17539,
+          "chapter_name": "7章 新宿的矮男人",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 17540,
+          "chapter_name": "8章 青山墓地的魔法阵",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 17541,
+          "chapter_name": "9章 东京的八卦新闻",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 17542,
+          "chapter_name": "10章 初次采用的记事",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 17572,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
     }
   ]
 }

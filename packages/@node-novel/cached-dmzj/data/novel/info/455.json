@@ -3,7 +3,7 @@
   "name": "听到涛声",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "特别番外篇 海边的里伽子\r",
+  "last_update_volume_name": "特别番外篇 海边的里伽子",
   "last_update_chapter_name": "番外篇 海边的里伽子",
   "last_update_volume_id": 1719,
   "last_update_chapter_id": 9924,
@@ -16,32 +16,128 @@
   ],
   "authors": "冰室冴子",
   "first_letter": "T",
-  "subscribe_num": 511,
-  "redis_update_time": 1564208226,
+  "subscribe_num": 520,
+  "redis_update_time": 1565032773,
   "volume": [
     {
       "id": 1717,
       "lnovel_id": 455,
-      "volume_name": "第一部\r",
+      "volume_name": "第一部",
       "volume_order": 10,
       "addtime": 1274918635,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1718,
       "lnovel_id": 455,
-      "volume_name": "第二部\r",
+      "volume_name": "第二部",
       "volume_order": 20,
       "addtime": 1274918635,
-      "sum_chapters": 5
+      "sum_chapters": 10
     },
     {
       "id": 1719,
       "lnovel_id": 455,
-      "volume_name": "特别番外篇 海边的里伽子\r",
+      "volume_name": "特别番外篇 海边的里伽子",
       "volume_order": 30,
       "addtime": 1274918635,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1717,
+      "id": 1717,
+      "volume_name": "第一部",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 9911,
+          "chapter_name": "第一章 尽是离愁",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9912,
+          "chapter_name": "第二章 男子汉",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9913,
+          "chapter_name": "第三章 里伽子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9914,
+          "chapter_name": "第四章 再见里伽子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9915,
+          "chapter_name": "第五章 温柔的夜晚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9916,
+          "chapter_name": "第六章 听到涛声",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 1718,
+      "id": 1718,
+      "volume_name": "第二部",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 9917,
+          "chapter_name": "第一章 夏末",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 9918,
+          "chapter_name": "第二章 心理康复",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 9919,
+          "chapter_name": "第三章 战争的理由",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 9920,
+          "chapter_name": "第四章 比外人还远",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 9921,
+          "chapter_name": "第五章 因为可怜所以可爱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 9922,
+          "chapter_name": "第六章 因为有爱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 9923,
+          "chapter_name": "最终回 听到涛声",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1719,
+      "id": 1719,
+      "volume_name": "特别番外篇 海边的里伽子",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 9924,
+          "chapter_name": "番外篇 海边的里伽子",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

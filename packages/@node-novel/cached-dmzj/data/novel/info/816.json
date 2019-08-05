@@ -3,7 +3,7 @@
   "name": "本格萌童话",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "后记",
   "last_update_volume_id": 2822,
   "last_update_chapter_id": 15886,
@@ -16,16 +16,96 @@
   ],
   "authors": "本田透",
   "first_letter": "B",
-  "subscribe_num": 301,
-  "redis_update_time": 1564308975,
+  "subscribe_num": 302,
+  "redis_update_time": 1564979178,
   "volume": [
     {
       "id": 2822,
       "lnovel_id": 816,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1276841356,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2822,
+      "id": 2822,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 15873,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 15874,
+          "chapter_name": "1 白雪公主",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 15875,
+          "chapter_name": "2 灰姑娘",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 15876,
+          "chapter_name": "3 兔子新娘",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 15877,
+          "chapter_name": "4 十二个猎人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 15878,
+          "chapter_name": "5 大野狼和七只小羊",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 15879,
+          "chapter_name": "6 小红帽",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 15880,
+          "chapter_name": "7 两兄妹",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 15881,
+          "chapter_name": "8 睡美人",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 15882,
+          "chapter_name": "9 糖果屋",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 15883,
+          "chapter_name": "10 十二兄弟",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 15884,
+          "chapter_name": "11 星星银币",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 15885,
+          "chapter_name": "12 熊皮人",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 15886,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        }
+      ]
     }
   ]
 }

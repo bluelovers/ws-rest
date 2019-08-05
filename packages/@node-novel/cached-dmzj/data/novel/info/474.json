@@ -12,12 +12,14 @@
   "hot_hits": 1261099,
   "introduction": "　　西尾维新作品，化物语的后续",
   "types": [
-    "神鬼/后宫/搞笑"
+    "神鬼",
+    "后宫",
+    "搞笑"
   ],
   "authors": "西尾维新",
   "first_letter": "W",
-  "subscribe_num": 21827,
-  "redis_update_time": 1564312621,
+  "subscribe_num": 21903,
+  "redis_update_time": 1565033625,
   "volume": [
     {
       "id": 1797,
@@ -25,7 +27,7 @@
       "volume_name": "伪物语（上）",
       "volume_order": 10,
       "addtime": 1274918686,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1798,
@@ -33,7 +35,7 @@
       "volume_name": "伪物语（下）",
       "volume_order": 20,
       "addtime": 1274918686,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 6615,
@@ -41,7 +43,98 @@
       "volume_name": "短篇",
       "volume_order": 30,
       "addtime": 1420629547,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1797,
+      "id": 1797,
+      "volume_name": "伪物语（上）",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 10455,
+          "chapter_name": "1－5章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10456,
+          "chapter_name": "6－10章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10457,
+          "chapter_name": "11－15章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10458,
+          "chapter_name": "16-22章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 10459,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 1798,
+      "id": 1798,
+      "volume_name": "伪物语（下）",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 10460,
+          "chapter_name": "1-5章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 10461,
+          "chapter_name": "6－10章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 10462,
+          "chapter_name": "11－13章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 10463,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 6615,
+      "id": 6615,
+      "volume_name": "短篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 47461,
+          "chapter_name": "黑仪与颈",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 47462,
+          "chapter_name": "火怜与拳脚",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 47463,
+          "chapter_name": "月火与永恒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 47464,
+          "chapter_name": "忍与屋",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

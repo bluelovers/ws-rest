@@ -3,7 +3,7 @@
   "name": "在暗夜中寻找羔羊",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第三卷\r",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 2235,
   "last_update_chapter_id": 13045,
@@ -17,31 +17,72 @@
   "authors": "穗史贺雅也",
   "first_letter": "Z",
   "subscribe_num": 146,
-  "redis_update_time": 1564068395,
+  "redis_update_time": 1564984185,
   "volume": [
     {
       "id": 2233,
       "lnovel_id": 598,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918957,
-      "sum_chapters": 13
+      "sum_chapters": 10
     },
     {
       "id": 2234,
       "lnovel_id": 598,
-      "volume_name": "第二卷\r",
+      "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918957,
-      "sum_chapters": 13
+      "sum_chapters": 10
     },
     {
       "id": 2235,
       "lnovel_id": 598,
-      "volume_name": "第三卷\r",
+      "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918957,
-      "sum_chapters": 13
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 2233,
+      "id": 2233,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 13043,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2234,
+      "id": 2234,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 13044,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 2235,
+      "id": 2235,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 13045,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

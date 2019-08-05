@@ -3,7 +3,7 @@
   "name": "小魔女与飞天狐",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷\r",
+  "last_update_volume_name": "第一卷",
   "last_update_chapter_name": "第一卷 后记",
   "last_update_volume_id": 3947,
   "last_update_chapter_id": 24444,
@@ -17,15 +17,50 @@
   "authors": "南井大介",
   "first_letter": "X",
   "subscribe_num": 109,
-  "redis_update_time": 1564309994,
+  "redis_update_time": 1564938062,
   "volume": [
     {
       "id": 3947,
       "lnovel_id": 1111,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1317277630,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3947,
+      "id": 3947,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 24029,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 24030,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 24031,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 24032,
+          "chapter_name": "终章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 24444,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

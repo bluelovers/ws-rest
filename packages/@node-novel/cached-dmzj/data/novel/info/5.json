@@ -3,7 +3,7 @@
   "name": "AIR晴空官方小说",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "AIR 青空下的传说\r",
+  "last_update_volume_name": "AIR 青空下的传说",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 36,
   "last_update_chapter_id": 200,
@@ -16,72 +16,433 @@
   ],
   "authors": "key",
   "first_letter": "A",
-  "subscribe_num": 1286,
-  "redis_update_time": 1564312295,
+  "subscribe_num": 1304,
+  "redis_update_time": 1565024772,
   "volume": [
     {
       "id": 29,
       "lnovel_id": 5,
-      "volume_name": "第一卷 千年后的夏日\r",
+      "volume_name": "第一卷 千年后的夏日",
       "volume_order": 10,
       "addtime": 1274917711,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 30,
       "lnovel_id": 5,
-      "volume_name": "第二卷 感觉到另一个自己\r",
+      "volume_name": "第二卷 感觉到另一个自己",
       "volume_order": 20,
       "addtime": 1274917711,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 31,
       "lnovel_id": 5,
-      "volume_name": "第三卷 托付于羽毛上的事物\r",
+      "volume_name": "第三卷 托付于羽毛上的事物",
       "volume_order": 30,
       "addtime": 1274917711,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 32,
       "lnovel_id": 5,
-      "volume_name": "第四卷 魔法的代价\r",
+      "volume_name": "第四卷 魔法的代价",
       "volume_order": 40,
       "addtime": 1274917711,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 33,
       "lnovel_id": 5,
-      "volume_name": "第五卷 无法展翅的羽翼\r",
+      "volume_name": "第五卷 无法展翅的羽翼",
       "volume_order": 50,
       "addtime": 1274917711,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 34,
       "lnovel_id": 5,
-      "volume_name": "第六卷 拯救飞翔的羽翼\r",
+      "volume_name": "第六卷 拯救飞翔的羽翼",
       "volume_order": 60,
       "addtime": 1274917711,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 35,
       "lnovel_id": 5,
-      "volume_name": "Air in Summer\r",
+      "volume_name": "Air in Summer",
       "volume_order": 70,
       "addtime": 1274917711,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 36,
       "lnovel_id": 5,
-      "volume_name": "AIR 青空下的传说\r",
+      "volume_name": "AIR 青空下的传说",
       "volume_order": 80,
       "addtime": 1274917711,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 29,
+      "id": 29,
+      "volume_name": "第一卷 千年后的夏日",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 142,
+          "chapter_name": "Section1【７月１７日(月)】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 143,
+          "chapter_name": "Section2【７月１８日（火）】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 144,
+          "chapter_name": "Section3【７月１９日(水)】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 145,
+          "chapter_name": "Section4 【７月２０日(木)】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 146,
+          "chapter_name": "Section5【７月２１日(金)】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 147,
+          "chapter_name": "Section6【７月２２日(土)】",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 30,
+      "id": 30,
+      "volume_name": "第二卷 感觉到另一个自己",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 148,
+          "chapter_name": "Section1 【７月２２日(土)】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 149,
+          "chapter_name": "Section2 【７月２３日(日)】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 150,
+          "chapter_name": "Section3 【７月２４日(月)】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 151,
+          "chapter_name": "Section4 【７月２５日(火)】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 152,
+          "chapter_name": "Section5 【７月２６日(水)】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 153,
+          "chapter_name": "Section6 【７月２７日(木)】",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 31,
+      "id": 31,
+      "volume_name": "第三卷 托付于羽毛上的事物",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 154,
+          "chapter_name": "Section 1 【７月２２日(土)】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 155,
+          "chapter_name": "Section 2 【７月２３日(日)】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 156,
+          "chapter_name": "Section 3 【７月２４日(月)】",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 32,
+      "id": 32,
+      "volume_name": "第四卷 魔法的代价",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 157,
+          "chapter_name": "Section 1 【７月２４日(月)】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 158,
+          "chapter_name": "Section 2 【７月２５日(火)】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 159,
+          "chapter_name": "Section 3 【７月２６日(水)】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 160,
+          "chapter_name": "Section 4 【７月２７日(木)】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 161,
+          "chapter_name": "Section 5 【７月２８日(金)】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 162,
+          "chapter_name": "Section 6 【７月２９日(土)】",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 163,
+          "chapter_name": "Section 7 【７月３０日(日)】",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 164,
+          "chapter_name": "Section 8 【７月３１日(月)】",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 165,
+          "chapter_name": "Section 9 【８月１日(火)】",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 166,
+          "chapter_name": "Section 10 【８月２日(水)】",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 167,
+          "chapter_name": "Section 11 【８月３日(水)】",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 168,
+          "chapter_name": "Section 12 【８月４日(木)】",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 169,
+          "chapter_name": "Last Section",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 33,
+      "id": 33,
+      "volume_name": "第五卷 无法展翅的羽翼",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 170,
+          "chapter_name": "Section 1 【７月２４日(月)】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 171,
+          "chapter_name": "Section 2 【７月２５日(火)】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 172,
+          "chapter_name": "Section 3 【７月２６日(水)】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 173,
+          "chapter_name": "Section 4 【７月２７日(木)】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 174,
+          "chapter_name": "Section 5 【７月２８日(金)】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 175,
+          "chapter_name": "Section 6 【７月２９日(土)】",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 176,
+          "chapter_name": "Section 7 【７月３０日(日)】",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 177,
+          "chapter_name": "Section 8 【７月３１日(月)】",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 178,
+          "chapter_name": "Section 9 【８月１日(火)】",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 179,
+          "chapter_name": "Section 10 【８月２日(水)】",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 180,
+          "chapter_name": "Section 11 【８月３日(木)",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 181,
+          "chapter_name": "Section 12 【８月４日(金)】",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 182,
+          "chapter_name": "Section 13 【８月５日(土)】",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 183,
+          "chapter_name": "Section 14 【８月６日(日)】",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 184,
+          "chapter_name": "Section 15 【８月７日(月)】",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 185,
+          "chapter_name": "Section 16 【８月８日(火)】",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 186,
+          "chapter_name": "Section 17 【８月９日(水)】",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 187,
+          "chapter_name": "Section 18 【８月１０日(木)】",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 188,
+          "chapter_name": "Section 19 【８月１１日(金)】",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 189,
+          "chapter_name": "Section 20 【８月１２日(土)】",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 190,
+          "chapter_name": "Section 21 【８月１３日(日)】",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 191,
+          "chapter_name": "Section 22 梦的苏醒",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 192,
+          "chapter_name": "Last Section",
+          "chapter_order": 230
+        }
+      ]
+    },
+    {
+      "volume_id": 34,
+      "id": 34,
+      "volume_name": "第六卷 拯救飞翔的羽翼",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 193,
+          "chapter_name": "Section 1 【８月７日(月)】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 194,
+          "chapter_name": "Section 2 【８月９日(水)】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 195,
+          "chapter_name": "Section 3 【８月１０日(木)】",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 35,
+      "id": 35,
+      "volume_name": "Air in Summer",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 196,
+          "chapter_name": "第一章 社殿/柳也",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 197,
+          "chapter_name": "第二章 山路/柳也",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 198,
+          "chapter_name": "第三章 灵山/柳也",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 199,
+          "chapter_name": "最终章 空梦/柳也",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 36,
+      "id": 36,
+      "volume_name": "AIR 青空下的传说",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 200,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

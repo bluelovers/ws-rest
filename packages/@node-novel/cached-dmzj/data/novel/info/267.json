@@ -16,8 +16,8 @@
   ],
   "authors": "藤代健",
   "first_letter": "L",
-  "subscribe_num": 510,
-  "redis_update_time": 1564279948,
+  "subscribe_num": 512,
+  "redis_update_time": 1565011791,
   "volume": [
     {
       "id": 979,
@@ -25,15 +25,15 @@
       "volume_name": "第一卷 仙女的神谕",
       "volume_order": 10,
       "addtime": 1274918213,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 980,
       "lnovel_id": 267,
-      "volume_name": "第二卷 倍感思念\r",
+      "volume_name": "第二卷 倍感思念",
       "volume_order": 20,
       "addtime": 1274918213,
-      "sum_chapters": 3
+      "sum_chapters": 10
     },
     {
       "id": 3527,
@@ -41,7 +41,113 @@
       "volume_name": "第三卷 穿越时空",
       "volume_order": 30,
       "addtime": 1299807934,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 979,
+      "id": 979,
+      "volume_name": "第一卷 仙女的神谕",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 5603,
+          "chapter_name": "目录",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 5604,
+          "chapter_name": "暴风雨前的宁静?",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 5605,
+          "chapter_name": "为夜晚所迷",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 5606,
+          "chapter_name": "月下公主",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 5607,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 5608,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 980,
+      "id": 980,
+      "volume_name": "第二卷 倍感思念",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 5609,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3527,
+      "id": 3527,
+      "volume_name": "第三卷 穿越时空",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 20450,
+          "chapter_name": "前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20451,
+          "chapter_name": "第一章 明日的少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20452,
+          "chapter_name": "第二章 缘日实行委员会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20453,
+          "chapter_name": "第三章 即在远方",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 20464,
+          "chapter_name": "第四章 笋子神，降临？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 20465,
+          "chapter_name": "第五章 来开PARTY",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 20466,
+          "chapter_name": "第六章 再见",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 20467,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 20468,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

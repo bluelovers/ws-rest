@@ -10,30 +10,31 @@
   "last_update_time": 1303366949,
   "cover": "https://xs.dmzj.com/img/webpic/5/0212B.jpg",
   "hot_hits": 120403,
-  "introduction": "迷雾弥漫一切、笼罩一切，吞噬一切。\n在命运的驱使下，哈里带着女儿雪莉乘车来到了那个神秘的小镇——寂静岭。\n从车祸所导致的昏迷中醒来后，他吃惊地发现女儿竟然失踪了。\n为了寻找女儿，哈里下车在这个被雾笼罩的陌生小镇四处搜寻起来。\n但在这里等待着他的，却是一个宛如地狱一般的噩梦……\n\n",
+  "introduction": "迷雾弥漫一切、笼罩一切，吞噬一切。\n在命运的驱使下，哈里带着女儿雪莉乘车来到了那个神秘的小镇——寂静岭。\n从车祸所导致的昏迷中醒来后，他吃惊地发现女儿竟然失踪了。\n为了寻找女儿，哈里下车在这个被雾笼罩的陌生小镇四处搜寻起来。\n但在这里等待着他的，却是一个宛如地狱一般的噩梦……",
   "types": [
-    "恐怖/科幻"
+    "恐怖",
+    "科幻"
   ],
   "authors": "山下定",
   "first_letter": "J",
-  "subscribe_num": 4279,
-  "redis_update_time": 1564310825,
+  "subscribe_num": 4311,
+  "redis_update_time": 1565029600,
   "volume": [
     {
       "id": 708,
       "lnovel_id": 198,
-      "volume_name": "寂静岭\r",
+      "volume_name": "寂静岭",
       "volume_order": 10,
       "addtime": 1274918065,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 709,
       "lnovel_id": 198,
-      "volume_name": "寂静岭2\r",
+      "volume_name": "寂静岭2",
       "volume_order": 20,
       "addtime": 1274918065,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 3574,
@@ -41,7 +42,63 @@
       "volume_name": "寂静岭3",
       "volume_order": 30,
       "addtime": 1302054745,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 708,
+      "id": 708,
+      "volume_name": "寂静岭",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 4027,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 709,
+      "id": 709,
+      "volume_name": "寂静岭2",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 4028,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 3574,
+      "id": 3574,
+      "volume_name": "寂静岭3",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 20839,
+          "chapter_name": "第一章 溢出的噩梦",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 20962,
+          "chapter_name": "第二章 甜蜜的家",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 20963,
+          "chapter_name": "第三章 潜伏着病人的地方",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 20964,
+          "chapter_name": "第四章 末世的教会",
+          "chapter_order": 40
+        }
+      ]
     }
   ]
 }

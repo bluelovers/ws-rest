@@ -12,20 +12,22 @@
   "hot_hits": 9237,
   "introduction": "　　顺应命运，以顺其自然的态度生活的少年里德＆正义感强烈的行动派少女法菈。这两位主角所展开的大冒险故事，就在充满丰沛自然的和平世界“因菲利雅”揭开了序幕。当里德和法菈抬头仰望以天空为界、和“因菲利雅”遥遥相对的另一个世界“榭蕾斯迪雅”之际，一道急速坠下的闪光正朝着他们而来。那道闪光的真面目是？一一Tales系列经典，藉由小说化再次呈现于您的眼前！",
   "types": [
-    "冒险/奇幻/异界"
+    "冒险",
+    "奇幻",
+    "异界"
   ],
   "authors": "矢岛さら",
   "first_letter": "T",
   "subscribe_num": 64,
-  "redis_update_time": 1564303231,
+  "redis_update_time": 1564912341,
   "volume": [
     {
       "id": 3644,
       "lnovel_id": 1032,
-      "volume_name": "第一卷 永远的阶梯\r",
+      "volume_name": "第一卷 永远的阶梯",
       "volume_order": 10,
       "addtime": 1305513246,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 3721,
@@ -33,7 +35,7 @@
       "volume_name": "第二卷 永远的阶梯",
       "volume_order": 20,
       "addtime": 1308018851,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 3915,
@@ -41,7 +43,148 @@
       "volume_name": "第三卷 永远的阶梯",
       "volume_order": 30,
       "addtime": 1315879756,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 3644,
+      "id": 3644,
+      "volume_name": "第一卷 永远的阶梯",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 21346,
+          "chapter_name": "人物介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21347,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21348,
+          "chapter_name": "序章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21349,
+          "chapter_name": "第一章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21350,
+          "chapter_name": "第二章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21351,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 21352,
+          "chapter_name": "第四章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 21353,
+          "chapter_name": "第五章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 21354,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 21355,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 3721,
+      "id": 3721,
+      "volume_name": "第二卷 永远的阶梯",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 21993,
+          "chapter_name": "第六章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 21994,
+          "chapter_name": "第七章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 21995,
+          "chapter_name": "第八章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 21996,
+          "chapter_name": "第九章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 21997,
+          "chapter_name": "第十章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 21998,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 3915,
+      "id": 3915,
+      "volume_name": "第三卷 永远的阶梯",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 23654,
+          "chapter_name": "第十一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 23655,
+          "chapter_name": "第十二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 23656,
+          "chapter_name": "第十三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 23657,
+          "chapter_name": "第十四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 23658,
+          "chapter_name": "第十五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 23659,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 23660,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
     }
   ]
 }

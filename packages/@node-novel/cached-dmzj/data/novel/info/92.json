@@ -3,7 +3,7 @@
   "name": "弹珠汽水",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第1卷\r",
+  "last_update_volume_name": "第1卷",
   "last_update_chapter_name": "一卷全",
   "last_update_volume_id": 344,
   "last_update_chapter_id": 2169,
@@ -17,15 +17,30 @@
   "authors": "鸿野贵光",
   "first_letter": "D",
   "subscribe_num": 74,
-  "redis_update_time": 1564270406,
+  "redis_update_time": 1564932811,
   "volume": [
     {
       "id": 344,
       "lnovel_id": 92,
-      "volume_name": "第1卷\r",
+      "volume_name": "第1卷",
       "volume_order": 10,
       "addtime": 1274917869,
-      "sum_chapters": 3
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 344,
+      "id": 344,
+      "volume_name": "第1卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 2169,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }

@@ -3,37 +3,115 @@
   "name": "旋风管家",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 小凪是使魔！？放手一搏吧☆征服世界\r",
+  "last_update_volume_name": "第二卷 小凪是使魔！？放手一搏吧☆征服世界",
   "last_update_chapter_name": "Epilogue（尾声）",
   "last_update_volume_id": 1919,
   "last_update_chapter_id": 11285,
   "last_update_time": 1274918767,
   "cover": "https://xs.dmzj.com/img/webpic/0/0542T.jpg",
   "hot_hits": 76622,
-  "introduction": "故事讲述了公立高中一年级生的绫崎飒，因其父母性格懒散，使得他不得不每天都打工养家。\n\n",
+  "introduction": "故事讲述了公立高中一年级生的绫崎飒，因其父母性格懒散，使得他不得不每天都打工养家。",
   "types": [
     "搞笑"
   ],
   "authors": "筑地俊彦",
   "first_letter": "X",
-  "subscribe_num": 1829,
-  "redis_update_time": 1564309432,
+  "subscribe_num": 1846,
+  "redis_update_time": 1565026886,
   "volume": [
     {
       "id": 1918,
       "lnovel_id": 510,
-      "volume_name": "第一卷\r",
+      "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918766,
-      "sum_chapters": 9
+      "sum_chapters": 10
     },
     {
       "id": 1919,
       "lnovel_id": 510,
-      "volume_name": "第二卷 小凪是使魔！？放手一搏吧☆征服世界\r",
+      "volume_name": "第二卷 小凪是使魔！？放手一搏吧☆征服世界",
       "volume_order": 20,
       "addtime": 1274918766,
-      "sum_chapters": 9
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 1918,
+      "id": 1918,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 11274,
+          "chapter_name": "开场白",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11275,
+          "chapter_name": "第一话 泼辣可爱的大小姐去上学",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11276,
+          "chapter_name": "第二话 流传下去吧，我的女仆装，小飒如是说",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11277,
+          "chapter_name": "第三话 一次让人沮丧的对决",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11278,
+          "chapter_name": "第四话 所谓雏菊的世界",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 11279,
+          "chapter_name": "第五话 营救大小姐计划",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 11280,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 1919,
+      "id": 1919,
+      "volume_name": "第二卷 小凪是使魔！？放手一搏吧☆征服世界",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 11281,
+          "chapter_name": "第一话 然后有人失踪了",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 11282,
+          "chapter_name": "第二话 失踪当时的服装是？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 11283,
+          "chapter_name": "第三话 妄想尽头的城市",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 11284,
+          "chapter_name": "第四话 小凪的名字",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 11285,
+          "chapter_name": "Epilogue（尾声）",
+          "chapter_order": 50
+        }
+      ]
     }
   ]
 }

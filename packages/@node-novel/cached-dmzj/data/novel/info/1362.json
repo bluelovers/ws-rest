@@ -12,12 +12,14 @@
   "hot_hits": 13948,
   "introduction": "新手摄影师——大泽玛利亚前往上海采访时，被卷进一起离奇案件。在危急存亡之际救了她一命的，竟然是多年来音讯全无的好友——迦南！迦南正在追捕恐怖组织「蛇」的首领，也就是她的死对头——阿尔法特。尽管她能透过「联觉」同时掌控各自独立的五种感官，发挥超越常人的战斗能力，阿尔法特的计划仍然顺利进行下去……改编自《428～被封锁的涩谷～》游戏之热门动画，小说版第一弹登场！",
   "types": [
-    "冒险/格斗/异能"
+    "冒险",
+    "格斗",
+    "异能"
   ],
   "authors": "杉原智則",
   "first_letter": "C",
-  "subscribe_num": 499,
-  "redis_update_time": 1564226652,
+  "subscribe_num": 503,
+  "redis_update_time": 1564956311,
   "volume": [
     {
       "id": 4948,
@@ -25,7 +27,62 @@
       "volume_name": "上卷",
       "volume_order": 10,
       "addtime": 1356579189,
-      "sum_chapters": 5
+      "sum_chapters": 10
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 4948,
+      "id": 4948,
+      "volume_name": "上卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 32631,
+          "chapter_name": "登场人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 32632,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 32633,
+          "chapter_name": "第一章 重逢之地",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 32634,
+          "chapter_name": "第二章 蛇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 32635,
+          "chapter_name": "第三章 追杀者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 32636,
+          "chapter_name": "第四章 被切断的线",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 32637,
+          "chapter_name": "第五章 旁徨",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 32638,
+          "chapter_name": "第六章 无神圣战之序幕",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 32639,
+          "chapter_name": "第七章 对峙",
+          "chapter_order": 90
+        }
+      ]
     }
   ]
 }

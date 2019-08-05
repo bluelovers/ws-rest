@@ -1,9 +1,9 @@
 {
   "id": 26,
-  "name": "Bad！Daddy　亲亲坏老爹",
+  "name": "Bad！Daddy 亲亲坏老爹",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第四卷\r",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "全一卷",
   "last_update_volume_id": 113,
   "last_update_chapter_id": 749,
@@ -17,39 +17,173 @@
   "authors": "野村美月",
   "first_letter": "B",
   "subscribe_num": 528,
-  "redis_update_time": 1564254363,
+  "redis_update_time": 1564921235,
   "volume": [
     {
       "id": 110,
       "lnovel_id": 26,
-      "volume_name": "第一卷 瞒着爸爸成为正义的伙伴\r",
+      "volume_name": "第一卷 瞒着爸爸成为正义的伙伴",
       "volume_order": 10,
       "addtime": 1274917751,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 111,
       "lnovel_id": 26,
-      "volume_name": "第二卷 爸爸大闹五月祭\r",
+      "volume_name": "第二卷 爸爸大闹五月祭",
       "volume_order": 20,
       "addtime": 1274917751,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 112,
       "lnovel_id": 26,
-      "volume_name": "03_爸爸的吻是草莓的滋味\r",
+      "volume_name": "03_爸爸的吻是草莓的滋味",
       "volume_order": 30,
       "addtime": 1274917751,
-      "sum_chapters": 3
+      "sum_chapters": 12
     },
     {
       "id": 113,
       "lnovel_id": 26,
-      "volume_name": "第四卷\r",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1274917751,
-      "sum_chapters": 3
+      "sum_chapters": 12
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 110,
+      "id": 110,
+      "volume_name": "第一卷 瞒着爸爸成为正义的伙伴",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 730,
+          "chapter_name": "第一话 美梦的爸爸是坏人？",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 731,
+          "chapter_name": "第二话 烦恼的国一生",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 732,
+          "chapter_name": "第三话 成为正义的伙伴",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 733,
+          "chapter_name": "第四话 爸爸被裁员？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 734,
+          "chapter_name": "第五话 目睹可疑人物",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 735,
+          "chapter_name": "第六话 那是美梦的爸爸！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 736,
+          "chapter_name": "第七话 让你吃到撑死为止！“爸爸！”",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 737,
+          "chapter_name": "终章 与爸爸相伴",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 738,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 111,
+      "id": 111,
+      "volume_name": "第二卷 爸爸大闹五月祭",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 739,
+          "chapter_name": "第一话 正义伙伴，拥有草莓标志的女孩",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 740,
+          "chapter_name": "第二话 突击！家庭访问",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 741,
+          "chapter_name": "第三话 激战！五月的女王对抗赛！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 742,
+          "chapter_name": "第四话 爸爸加油！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 743,
+          "chapter_name": "第五话 奇怪？为什么会如此在意",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 744,
+          "chapter_name": "第六话 五月祭的爱情争夺战？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 745,
+          "chapter_name": "第七话 给怪兽的甜点",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 746,
+          "chapter_name": "终章 女王乘上白马",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 747,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 112,
+      "id": 112,
+      "volume_name": "03_爸爸的吻是草莓的滋味",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 748,
+          "chapter_name": "一卷全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 113,
+      "id": 113,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 749,
+          "chapter_name": "全一卷",
+          "chapter_order": 10
+        }
+      ]
     }
   ]
 }
