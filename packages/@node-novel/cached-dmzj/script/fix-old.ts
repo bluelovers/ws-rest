@@ -8,23 +8,22 @@ import FastGlob from '@bluelovers/fast-glob/bluebird';
 import { array_unique_overwrite } from 'array-hyper-unique';
 import sortObject from 'sort-object-keys2';
 
-const file = path.join(__root, 'data', 'novel/recentUpdate.json');
-
-
-Bluebird
-	.resolve(fs.readJSON(file))
-	.then((data: IDmzjClientNovelRecentUpdateAll) => {
-
-		data.list = data.list.map(fixDmzjNovelInfo);
-
-		return fs.outputJSON(file, data, {
-			spaces: 2,
-		})
-	})
-;
-
 export default (async () =>
 {
+	const file = path.join(__root, 'data', 'novel/recentUpdate.json');
+
+	await Bluebird
+		.resolve(fs.readJSON(file))
+		.then((data: IDmzjClientNovelRecentUpdateAll) => {
+
+			data.list = data.list.map(fixDmzjNovelInfo);
+
+			return fs.outputJSON(file, data, {
+				spaces: 2,
+			})
+		})
+	;
+
 	await FastGlob.async([
 			'*.json',
 		], {
