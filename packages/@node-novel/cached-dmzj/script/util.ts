@@ -18,6 +18,7 @@ import { exportCache, IBaseCacheStore, importCache, processExitHook } from 'axio
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';
 import { console, consoleDebug } from 'restful-decorator/lib/util/debug';
 import { dotValue } from 'axios-util';
+import { getResponseUrl } from 'axios-util/lib/index';
 
 export { consoleDebug, console }
 
@@ -43,7 +44,7 @@ export async function getDmzjClient()
 
 					let currentRetryAttempt = dotValue(err, 'config.raxConfig.currentRetryAttempt');
 
-					consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`);
+					consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, getResponseUrl(err.response));
 				}
 
 			},
