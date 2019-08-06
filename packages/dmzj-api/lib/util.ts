@@ -48,9 +48,11 @@ export function fixDmzjNovelInfo<T extends IDmzjNovelInfo | IDmzjNovelInfoWithCh
 	{
 		data.zone = trimUnsafe(data.zone);
 
-		data.introduction = crlf(data.introduction)
+		data.introduction = removeZeroWidth(crlf(data.introduction))
 			.replace(/^\n+/, '')
 			.replace(/[\s　]+$/g, '')
+			.replace(/[\u00A0]/gu, ' ')
+			.replace(/^ {3,}/gm, '  ')
 		;
 
 		if (data.first_letter != null)
@@ -77,10 +79,27 @@ export function fixDmzjNovelInfo<T extends IDmzjNovelInfo | IDmzjNovelInfoWithCh
 	return data
 }
 
+const zeroWidthList = [
+	'\udb40\udd00',
+	'\u200c',
+	'\u200d',
+	'\u200b',
+	'\ufeff',
+	'\u200e',
+	'\u200f',
+] as const;
+
+export const zeroWidthRe = new RegExp(zeroWidthList.join('|'), 'ug');
+
+export function removeZeroWidth(input: string)
+{
+	return input.replace(zeroWidthRe, '')
+}
+
 export function trimUnsafe<T extends string>(input: T): T
 {
 	// @ts-ignore
-	return input
+	return removeZeroWidth(input)
 		.replace(/^\s+|\s+$/gu, '')
 		.replace(/\r|\n|[\u00A0]/gu, ' ')
 		.replace(/\s+/gu, ' ')

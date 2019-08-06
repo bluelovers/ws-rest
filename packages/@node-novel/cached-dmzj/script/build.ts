@@ -8,6 +8,7 @@ import Bluebird from 'bluebird-cancellation';
 	await lazyImport('./build/dmzj');
 	await lazyImport('./build/info');
 	await lazyImport('./build/tags');
+	await lazyImport('./build/info2');
 
 })();
 
