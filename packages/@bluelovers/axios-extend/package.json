@@ -1,6 +1,6 @@
 {
   "name": "@bluelovers/axios-extend",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "extend axios with a set of plugins",
   "keywords": [
     "axios",
@@ -36,15 +36,15 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
+    "@bluelovers/axios-util": "^1.0.3",
     "@types/bluebird": "*",
     "axios-cache-adapter": "*",
     "axios-cookiejar-support": "*",
-    "@bluelovers/axios-util": "^1.0.3",
     "bluebird": "*",
     "get-value": "^3.0.1",
     "lodash": "^4",
     "reflect-metadata-util": "^1.0.6",
-    "restful-decorator": "^1.0.18",
+    "restful-decorator": "^1.0.19",
     "retry-axios": "*",
     "ts-type": "^1.2.9",
     "typed-http-headers": "^1.0.2"
