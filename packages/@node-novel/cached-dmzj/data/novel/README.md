@@ -1,6 +1,6 @@
 
 - [info.pack.json](info.pack.json) - [info](info) 內所有檔案的集合
-- [recentUpdate.json](recentUpdate.json)
+- [recentUpdate.json](recentUpdate.json) - 簡易版的小說資訊列表(以ID做排序)
 
 ---
 
