@@ -21,6 +21,7 @@ export default (async () =>
 	let zone: string[] = [];
 	let titles: string[] = [];
 	let id_titles: Record<number, string> = {};
+	let id_authors: Record<string, Record<number, string>> = {};
 
 	await FastGlob.async([
 		'*.json',
@@ -41,6 +42,12 @@ export default (async () =>
 			titles.push(trimUnsafe(v.name));
 
 			id_titles[v.id] = trimUnsafe(v.name);
+
+
+
+			id_authors[trimUnsafe(v.authors)] = id_authors[trimUnsafe(v.authors)] || {};
+
+			id_authors[trimUnsafe(v.authors)][v.id] = trimUnsafe(v.name);
 
 		})
 	;
@@ -63,7 +70,10 @@ export default (async () =>
 		fs.outputJSON(path.join(__root, 'data', 'novel', `titles.json`), titles, {
 			spaces: 2,
 		}),
-		fs.outputJSON(path.join(__root, 'data', 'novel', `ids.json`), id_titles, {
+		fs.outputJSON(path.join(__root, 'data', 'novel', `id_titles.json`), id_titles, {
+			spaces: 2,
+		}),
+		fs.outputJSON(path.join(__root, 'data', 'novel', `id_authors.json`), id_authors, {
 			spaces: 2,
 		}),
 
