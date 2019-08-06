@@ -76,43 +76,34 @@ export default (async () =>
 				.resolve(data.list)
 				.map(async (v) => {
 
-					if (!taskList[v.id])
+					if (taskList[v.id] > v.last_update_time)
+					{
+						let _file = path.join(__root, 'data', 'novel/info', `${v.id}.json`);
+
+						let json = await fs.readJSON(_file).catch(e => null) as IDmzjNovelInfoWithChapters;
+
+						if (json && json.last_update_time == taskList[v.id])
+						{
+							Object
+								.keys(v)
+								.forEach((k) => {
+
+									if (k in json)
+									{
+										// @ts-ignore
+										v[k] = json[k];
+									}
+
+								})
+							;
+
+							return v;
+						}
+					}
+
+					if (!taskList[v.id] || taskList[v.id] != v.last_update_time)
 					{
 						taskList[v.id] = 0;
-					}
-					else if (taskList[v.id] && taskList[v.id] != v.last_update_time)
-					{
-
-						if (taskList[v.id] > v.last_update_time)
-						{
-							let _file = path.join(__root, 'data', 'novel/info', `${v.id}.json`);
-
-							let json = await fs.readJSON(_file) as IDmzjNovelInfoWithChapters;
-
-							if (json.last_update_time == taskList[v.id])
-							{
-								Object
-									.keys(v)
-									.forEach((k) => {
-
-										if (k in json)
-										{
-											// @ts-ignore
-											v[k] = json[k];
-										}
-
-									})
-								;
-							}
-							else
-							{
-								taskList[v.id] = 0;
-							}
-						}
-						else
-						{
-							taskList[v.id] = 0;
-						}
 					}
 
 					return v;
