@@ -29,6 +29,7 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "devDependencies": {
+    "@bluelovers/axios-util": "^1.0.2",
     "@bluelovers/fast-glob": "^3.0.4",
     "@git-lazy/diff-staged": "^1.0.3",
     "@git-lazy/util": "^1.0.5",
