@@ -15,7 +15,7 @@ import { IAxiosCacheAdapterOptions } from 'axios-cache-adapter';
 import setupCacheConfig, { mixinCacheConfig } from './cache';
 import { IAxiosAdapterWarpper } from './types';
 import { mixinDefaultConfig } from './config';
-import { isAxiosStatic } from 'axios-util';
+import { isAxiosStatic } from '@bluelovers/axios-util';
 export * from "./types";
 // @ts-ignore
 import unsetValue from 'unset-value';

@@ -19,7 +19,7 @@ import Bluebird from 'bluebird';
 import { IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import moment from 'moment';
 import { SymSelf } from 'restful-decorator/lib/helper/symbol';
-import { isResponseFromAxiosCache } from 'axios-util/lib/index';
+import { isResponseFromAxiosCache } from '@bluelovers/axios-util';
 
 export default (async () =>
 {

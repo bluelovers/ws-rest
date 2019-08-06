@@ -2,6 +2,16 @@
   "name": "@bluelovers/axios-extend",
   "version": "1.0.2",
   "description": "extend axios with a set of plugins",
+  "keywords": [
+    "axios",
+    "axios-plugin",
+    "cookie",
+    "cookiejar",
+    "cookies",
+    "plugin",
+    "retry",
+    "tough-cookie"
+  ],
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
@@ -25,20 +35,6 @@
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "keywords": [
-    "axios",
-    "cookie",
-    "cookiejar",
-    "cookies",
-    "axios-plugin",
-    "plugin",
-    "tough-cookie",
-    "axios",
-    "retry"
-  ],
   "dependencies": {
     "@types/bluebird": "*",
     "axios-cache-adapter": "*",
@@ -60,5 +56,8 @@
   "peerDependencies": {
     "axios": "*"
   },
-  "gitHead": "176792515c74e041079b3e3cae080c59df135368"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "3b2eb218dca1032d13fa505a7032ae5be1dfe1e7"
 }
