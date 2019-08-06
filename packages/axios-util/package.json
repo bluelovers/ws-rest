@@ -2,6 +2,10 @@
   "name": "axios-util",
   "version": "1.0.1",
   "description": "axios util",
+  "keywords": [
+    "axios",
+    "util"
+  ],
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
@@ -10,10 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/bluelovers/ws-rest.git"
   },
-  "keywords": [
-    "axios",
-    "util"
-  ],
   "license": "ISC",
   "author": "",
   "main": "lib/index.js",
@@ -22,7 +22,7 @@
     "lint": "npx eslint **/*.ts",
     "ncu": "npx yarn-tool ncu -u",
     "npm:publish": "npm publish",
-    "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
+    "prepublishOnly": "yarn run ncu && yarn run sort-package-json",
     "postpublish": "echo postpublish",
     "sort-package-json": "npx sort-package-json ./package.json",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -35,5 +35,6 @@
   },
   "devDependencies": {
     "@types/get-value": "^3.0.1"
-  }
+  },
+  "gitHead": "176792515c74e041079b3e3cae080c59df135368"
 }
