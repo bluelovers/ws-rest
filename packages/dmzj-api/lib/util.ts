@@ -50,8 +50,8 @@ export function fixDmzjNovelInfo<T extends IDmzjNovelInfo | IDmzjNovelInfoWithCh
 
 		data.introduction = removeZeroWidth(crlf(data.introduction))
 			.replace(/^\n+/, '')
-			.replace(/[\s　]+$/g, '')
 			.replace(/[\u00A0]/gu, ' ')
+			.replace(/[\s　]+$/g, '')
 			.replace(/^ {3,}/gm, '  ')
 		;
 
