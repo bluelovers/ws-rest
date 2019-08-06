@@ -4,14 +4,15 @@
 import { DmzjClient } from 'dmzj-api';
 import fs from 'fs-extra';
 import path from 'path';
-import { IDmzjNovelInfoRecentUpdateRow } from 'dmzj-api/lib/types';
+import { IDmzjNovelInfoRecentUpdateRow, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import { exportCache, importCache, processExitHook } from 'axios-cache-adapter-util';
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';
 import { IBaseCacheStore } from 'axios-cache-adapter-util';
 import Bluebird from 'bluebird';
 import { getDmzjClient, __root, console, consoleDebug } from '../util';
 
-export default (async () => {
+export default (async () =>
+{
 
 	const { api, saveCache } = await getDmzjClient();
 
@@ -35,9 +36,10 @@ export default (async () => {
 	}
 
 	await api.novelRecentUpdateAll(0, n, {
-		delay: 3000,
+			delay: 3000,
 		})
-		.then(data => {
+		.then(async (data) =>
+		{
 
 			if (data == null)
 			{
@@ -45,37 +47,84 @@ export default (async () => {
 			}
 			else if (novelList != null && (novelList.last_update_time != data.last_update_time || novelList.list.length != data.list.length))
 			{
-				let ls = (data.list || []).reduce((a, v: IDmzjNovelInfoRecentUpdateRow) => {
-					a[v.id] = v;
 
-					if (!taskList[v.id] || taskList[v.id] && taskList[v.id] != v.last_update_time)
+				let ls = await Bluebird
+					.resolve(data.list || [])
+					.reduce((a, v: IDmzjNovelInfoRecentUpdateRow) =>
 					{
-						taskList[v.id] = 0;
-					}
+						a[v.id] = v;
 
-					return a;
-				}, {} as Record<IDmzjNovelInfoRecentUpdateRow["id"], IDmzjNovelInfoRecentUpdateRow>);
+						return a;
+					}, {} as Record<IDmzjNovelInfoRecentUpdateRow["id"], IDmzjNovelInfoRecentUpdateRow>);
 
 				novelList.list
-					.forEach(v => {
-
-						if (!taskList[v.id] || taskList[v.id] && taskList[v.id] != v.last_update_time)
-						{
-							taskList[v.id] = 0;
-						}
-
+					.forEach(v =>
+					{
 						if (!(v.id in ls))
 						{
 							data.list.push(v)
 						}
-				});
+					})
+				;
 			}
 
 			return data;
 		})
-		.tap((data) => {
+		.tap(async (data) => {
 
-			data.list.sort((a: IDmzjNovelInfoRecentUpdateRow, b: IDmzjNovelInfoRecentUpdateRow) => {
+			data.list = await Bluebird
+				.resolve(data.list)
+				.map(async (v) => {
+
+					if (!taskList[v.id])
+					{
+						taskList[v.id] = 0;
+					}
+					else if (taskList[v.id] && taskList[v.id] != v.last_update_time)
+					{
+
+						if (taskList[v.id] > v.last_update_time)
+						{
+							let _file = path.join(__root, 'data', 'novel/info', `${v.id}.json`);
+
+							let json = await fs.readJSON(_file) as IDmzjNovelInfoWithChapters;
+
+							if (json.last_update_time == taskList[v.id])
+							{
+								Object
+									.keys(v)
+									.forEach((k) => {
+
+										if (k in json)
+										{
+											// @ts-ignore
+											v[k] = json[k];
+										}
+
+									})
+								;
+							}
+							else
+							{
+								taskList[v.id] = 0;
+							}
+						}
+						else
+						{
+							taskList[v.id] = 0;
+						}
+					}
+
+					return v;
+				})
+			;
+
+		})
+		.tap((data) =>
+		{
+
+			data.list.sort((a: IDmzjNovelInfoRecentUpdateRow, b: IDmzjNovelInfoRecentUpdateRow) =>
+			{
 				return b.id - a.id
 			});
 
