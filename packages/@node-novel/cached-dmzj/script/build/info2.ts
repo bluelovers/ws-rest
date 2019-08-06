@@ -22,26 +22,42 @@ export default (async () => {
 			let row = pick(v, [
 				'id',
 				'name',
-				'zone',
+				'authors',
+				//'zone',
 				'status',
 				'last_update_volume_name',
-				'last_update_chapter_name',
+				//'last_update_chapter_name',
 				'last_update_time',
-				'cover',
+				//'cover',
 				'introduction',
-				'types',
-				'authors',
+				//'types',
+
 			] as (keyof IDmzjNovelInfoWithChapters)[]);
+
+			row.introduction = row.introduction
+				.replace(/  +/g, ' ')
+				.replace(/　　+/g, '　')
+				.trim()
+			;
 
 			// @ts-ignore
 			row.volume_data = Object.values(v.chapters)
 				.map((volume) => {
+
+					let chapters = Object.values(volume.chapters)
+						.map(chapter => {
+							return chapter.chapter_name
+						})
+					;
+
+					if (chapters.length > 5)
+					{
+						chapters = [...chapters.slice(0, 2), '...', ...chapters.slice(-3)]
+					}
+
 					return {
 						volume_name: volume.volume_name,
-						chapters: Object.values(volume.chapters)
-							.map(chapter => {
-								return chapter.chapter_name
-							})
+						chapters,
 					}
 				})
 			;
@@ -55,7 +71,10 @@ export default (async () => {
 	;
 
 	await Bluebird.all([
-		fs.writeJSON(path.join(__root, 'test/temp/info2.json'), data, {
+		fs.writeJSON(path.join(__root, 'test/temp/info2.json'), data.filter(v => v.status != '已完结'), {
+			spaces: 2,
+		}),
+		fs.writeJSON(path.join(__root, 'test/temp/info3.json'), data.filter(v => v.status == '已完结'), {
 			spaces: 2,
 		}),
 		fs.writeJSON(path.join(__root, 'data', 'novel', `id_update.json`), id_update, {
