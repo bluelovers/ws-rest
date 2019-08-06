@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "lerna:prepublish": "lerna run --scope @node-novel/cached-dmzj build",
-    "lerna": "yarn run lerna:prepublish && lerna publish --yes",
+    "lerna": "yarn run lerna:prepublish && lerna publish --yes --cd-version",
     "ncu": "npx npm-check-updates -u",
     "sort-package-json": "npx \"sort-package-json\"",
     "test": "echo \"Error: no test specified\" && exit 1"
