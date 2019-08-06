@@ -11,17 +11,22 @@ import moment from 'moment';
 import FastGlob from '@bluelovers/fast-glob/bluebird';
 import { array_unique_overwrite } from 'array-hyper-unique';
 import { fixDmzjNovelTags, trimUnsafe } from 'dmzj-api/lib/util';
+import { defaultSortCallback, createSortCallback } from '@node-novel/sort';
+import sortObject from'sort-object-keys2';
+import { zhDictCompare, getCjkName } from '@novel-segment/util';
 
 export default (async () =>
 {
 	const { api, saveCache } = await getDmzjClient();
 
+	let ids: number[] = [];
 	let tags: string[] = [];
 	let authors: string[] = [];
 	let zone: string[] = [];
 	let titles: string[] = [];
 	let id_titles: Record<number, string> = {};
 	let id_authors: Record<string, Record<number, string>> = {};
+	let info_pack: Record<number, IDmzjNovelInfo> = {};
 
 	await FastGlob.async([
 		'*.json',
@@ -33,6 +38,10 @@ export default (async () =>
 
 			let v: IDmzjNovelInfo = await fs.readJSON(file);
 
+			info_pack[v.id] = v;
+
+			ids.push(v.id);
+
 			tags.push(...fixDmzjNovelTags(v.types));
 
 			authors.push(trimUnsafe(v.authors));
@@ -43,8 +52,6 @@ export default (async () =>
 
 			id_titles[v.id] = trimUnsafe(v.name);
 
-
-
 			id_authors[trimUnsafe(v.authors)] = id_authors[trimUnsafe(v.authors)] || {};
 
 			id_authors[trimUnsafe(v.authors)][v.id] = trimUnsafe(v.name);
@@ -52,10 +59,15 @@ export default (async () =>
 		})
 	;
 
-	array_unique_overwrite(tags).sort();
-	array_unique_overwrite(authors).sort();
-	array_unique_overwrite(zone).sort();
-	array_unique_overwrite(titles).sort();
+	array_unique_overwrite(tags).sort(_sortFn001);
+	array_unique_overwrite(authors).sort(_sortFn001);
+	array_unique_overwrite(zone).sort(_sortFn001);
+	array_unique_overwrite(titles).sort(_sortFn001);
+	ids.sort((a, b) => a - b);
+
+	id_authors = sortObject(id_authors, {
+		sort: _sortFn001,
+	});
 
 	await Bluebird.all([
 		fs.outputJSON(path.join(__root, 'data', 'novel', `tags.json`), tags, {
@@ -76,7 +88,17 @@ export default (async () =>
 		fs.outputJSON(path.join(__root, 'data', 'novel', `id_authors.json`), id_authors, {
 			spaces: 2,
 		}),
-
+		fs.outputJSON(path.join(__root, 'data', 'novel', `ids.json`), ids, {
+			spaces: 2,
+		}),
+		fs.outputJSON(path.join(__root, 'data', 'novel', `info.pack.json`), info_pack, {
+			spaces: 2,
+		}),
 	]);
 
 })();
+
+function _sortFn001(a: string, b: string)
+{
+	return zhDictCompare(getCjkName(a), getCjkName(b))
+}

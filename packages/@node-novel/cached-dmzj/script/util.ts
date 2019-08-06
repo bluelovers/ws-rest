@@ -33,7 +33,7 @@ export async function getDmzjClient()
 	{
 		api = new DmzjClient({
 			cache: {
-				maxAge: 24 * 60 * 60 * 1000,
+				maxAge: 12 * 60 * 60 * 1000,
 			},
 
 			raxConfig: {
