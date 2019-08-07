@@ -3,11 +3,11 @@
   "name": "说谎的男孩与坏掉的女孩",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "短篇 A New Translation",
-  "last_update_chapter_name": "episode3 ××的鼓动是××",
-  "last_update_volume_id": 5680,
-  "last_update_chapter_id": 38822,
-  "last_update_time": 1386154546,
+  "last_update_volume_name": "第十一卷 ××的彼方是爱情",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10271,
+  "last_update_chapter_id": 98674,
+  "last_update_time": 1565185165,
   "cover": "https://xs.dmzj.com/img/webpic/19/0403E.jpg",
   "hot_hits": 546354,
   "introduction": "　　御园麻由。\n　　她是我的同学，既聪明又漂亮，是对我来说是很重要的人。她现在就坐在我旁边，天真无邪地笑著。\n　　在客厅里面与麻由一起看着电视，节目正叙述着在这个平静安稳的城市里所发生的绑架案概要。绑架，在某种意义上来说是比杀人更恶质的犯罪行为。杀人只要本人死了事件就随之结束；但是绑架案件，即使被释放之後，事情也会一直持续下去。虽是已经扭曲的人生，却依然不得不持续下去，也无法加以修正。正常人是无法理解这件事的吧!\n　　啊，说到这个───\n　　下次有时间的话问问她好了。\n　　小麻，你为什麼要绑架那些孩子们呢?",
@@ -16,8 +16,8 @@
   ],
   "authors": "入间人间",
   "first_letter": "S",
-  "subscribe_num": 14441,
-  "redis_update_time": 1565034185,
+  "subscribe_num": 14821,
+  "redis_update_time": 1565205139,
   "volume": [
     {
       "id": 1406,
@@ -121,6 +121,14 @@
       "volume_name": "短篇 A New Translation",
       "volume_order": 130,
       "addtime": 1386154531,
+      "sum_chapters": 10
+    },
+    {
+      "id": 10271,
+      "lnovel_id": 380,
+      "volume_name": "第十一卷 ××的彼方是爱情",
+      "volume_order": 140,
+      "addtime": 1565184191,
       "sum_chapters": 10
     }
   ],
@@ -606,6 +614,49 @@
           "chapter_id": 38822,
           "chapter_name": "episode3 ××的鼓动是××",
           "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 10271,
+      "id": 10271,
+      "volume_name": "第十一卷 ××的彼方是爱情",
+      "volume_order": 140,
+      "chapters": [
+        {
+          "chapter_id": 98653,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98654,
+          "chapter_name": "第一章「Never」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98655,
+          "chapter_name": "第二章「Ever」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98656,
+          "chapter_name": "第三章「Remember」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98657,
+          "chapter_name": "第四章「Sister」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98658,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98674,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }
