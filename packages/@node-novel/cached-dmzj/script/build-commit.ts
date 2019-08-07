@@ -4,11 +4,15 @@
 
 import { gitDiffStagedDir, gitDiffStagedFile, gitDiffStaged } from '@git-lazy/diff-staged';
 import matchGlob from '@git-lazy/util/util/match';
-import { join } from 'path';
+import { join, parse as parsePath } from 'path';
 import { crossSpawnSync, SpawnSyncOptions, SpawnSyncReturns } from '@git-lazy/util/spawn/git';
 import { crossSpawnOutput } from '@git-lazy/util/spawn/util';
+import { readJSONSync } from 'fs-extra';
+import { __root } from './util';
+import { IDmzjClientNovelRecentUpdateAll } from 'dmzj-api/lib/types';
+import moment from 'moment';
 
-let ls1 = gitDiffStagedFile(join(__dirname, '../data'));
+let ls1 = gitDiffStagedFile(join(__root, 'data'));
 
 let ls2 = matchGlob(ls1, [
 	'**/*',
@@ -22,16 +26,50 @@ if (ls2.length)
 		'add',
 		'.',
 	], {
-		cwd: join(__dirname, '../data'),
+		cwd: join(__root, 'data'),
 		stdio: 'inherit',
 	});
+
+	let ls3 = matchGlob(ls1, [
+		'novel/info/*.json',
+	]);
+
+	let msg = '';
+
+	if (ls3.length)
+	{
+		console.dir(ls3);
+
+		let json = readJSONSync(join(__root, 'data/novel/recentUpdate.json')) as IDmzjClientNovelRecentUpdateAll;
+
+		let ids = ls3
+			.map(v => parsePath(v).name)
+		;
+
+		console.dir(ids);
+
+		msg = json.list.reduce((a, v) => {
+
+			let id = v.id.toString();
+
+			if (ids.includes(id))
+			{
+				a.push(`- ${id.padStart(4, '0')} ${v.name} ${moment.unix(v.last_update_time).format()} ${v.last_update_volume_name} ${v.last_update_chapter_name}`)
+			}
+
+			return a;
+		}, [`, novel x ${ls3.length}\n`] as string[]).join('\n')
+
+	}
+
+	//console.dir(`update cache${msg}`);
 
 	crossSpawnSync('git', [
 		'commit',
 		'-m',
-		`update cache`,
+		`update cache${msg}`,
 	], {
-		cwd: join(__dirname, '../data'),
+		cwd: join(__root, 'data'),
 		stdio: 'inherit',
 	});
 }
@@ -40,7 +78,7 @@ crossSpawnSync('git', [
 	'add',
 	'.',
 ], {
-	cwd: join(__dirname, '../test/temp'),
+	cwd: join(__root, 'test/temp'),
 	stdio: 'inherit',
 });
 
@@ -49,6 +87,6 @@ crossSpawnSync('git', [
 	'-m',
 	`update cache`,
 ], {
-	cwd: join(__dirname, '../test/temp'),
+	cwd: join(__root, 'test/temp'),
 	stdio: 'inherit',
 });
