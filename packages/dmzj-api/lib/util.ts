@@ -5,6 +5,9 @@ import { IDmzjNovelInfoWithChapters, IDmzjNovelInfo, IDmzjNovelInfoRecentUpdateR
 import cloneDeep from 'lodash/cloneDeep';
 import { array_unique } from 'array-hyper-unique';
 import { crlf } from 'crlf-normalize';
+import { removeZeroWidth } from 'zero-width';
+
+export { removeZeroWidth }
 
 export function buildVersion()
 {
@@ -77,23 +80,6 @@ export function fixDmzjNovelInfo<T extends IDmzjNovelInfo | IDmzjNovelInfoWithCh
 	}
 
 	return data
-}
-
-const zeroWidthList = [
-	'\udb40\udd00',
-	'\u200c',
-	'\u200d',
-	'\u200b',
-	'\ufeff',
-	'\u200e',
-	'\u200f',
-] as const;
-
-export const zeroWidthRe = new RegExp(zeroWidthList.join('|'), 'ug');
-
-export function removeZeroWidth(input: string)
-{
-	return input.replace(zeroWidthRe, '')
 }
 
 export function trimUnsafe<T extends string>(input: T): T
