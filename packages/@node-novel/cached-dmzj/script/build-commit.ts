@@ -38,7 +38,7 @@ if (ls2.length)
 
 	if (ls3.length)
 	{
-		console.dir(ls3);
+		//console.dir(ls3);
 
 		let json = readJSONSync(join(__root, 'data/novel/recentUpdate.json')) as IDmzjClientNovelRecentUpdateAll;
 
@@ -46,7 +46,7 @@ if (ls2.length)
 			.map(v => parsePath(v).name)
 		;
 
-		console.dir(ids);
+		//console.dir(ids);
 
 		msg = json.list.reduce((a, v) => {
 
