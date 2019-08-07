@@ -38,7 +38,7 @@ if (ls2.length)
 
 crossSpawnSync('git', [
 	'add',
-	'task001.json',
+	'.',
 ], {
 	cwd: join(__dirname, '../test/temp'),
 	stdio: 'inherit',
