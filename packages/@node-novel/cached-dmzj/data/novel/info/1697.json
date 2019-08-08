@@ -3,11 +3,11 @@
   "name": "安达与岛村",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 8547,
-  "last_update_chapter_id": 83246,
-  "last_update_time": 1519891270,
+  "last_update_volume_id": 10274,
+  "last_update_chapter_id": 98702,
+  "last_update_time": 1565263449,
   "cover": "https://xs.dmzj.com/img/webpic/28/adydc6890l.jpg",
   "hot_hits": 329040,
   "introduction": "高一女学生安达与岛村是好朋友，她们总是腻在一起聊天，偶尔打桌球，培育著名为友情的情感。<br>\n然而某天夜晚，安达梦见自己和岛村接吻，因此意识到了一份不一样的情感!?过着日常生活的女高中生──安达与岛村。这一天，彼此的关系稍微起了改变。",
@@ -17,8 +17,8 @@
   ],
   "authors": "入间人间",
   "first_letter": "A",
-  "subscribe_num": 20149,
-  "redis_update_time": 1564533670,
+  "subscribe_num": 20717,
+  "redis_update_time": 1565296933,
   "volume": [
     {
       "id": 6235,
@@ -74,6 +74,14 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1489069838,
+      "sum_chapters": 16
+    },
+    {
+      "id": 10274,
+      "lnovel_id": 1697,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1565262800,
       "sum_chapters": 16
     }
   ],
@@ -439,6 +447,64 @@
         },
         {
           "chapter_id": 83246,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10274,
+      "id": 10274,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 98693,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98694,
+          "chapter_name": "『远路』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98695,
+          "chapter_name": "『最初的旅行的片段①』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98696,
+          "chapter_name": "『日野与永藤』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98697,
+          "chapter_name": "『小社来访者』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98698,
+          "chapter_name": "『最初的旅行的片段②』",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98699,
+          "chapter_name": "『归路』",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98700,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98701,
+          "chapter_name": "animate特典",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98702,
           "chapter_name": "插画",
           "chapter_order": 100
         }
