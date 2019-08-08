@@ -30,6 +30,11 @@ if (ls2.length)
 		stdio: 'inherit',
 	});
 
+	ls1 = gitDiffStagedFile(join(__root, 'data'));
+	ls2 = matchGlob(ls1, [
+		'**/*',
+	]);
+
 	let ls3 = matchGlob(ls1, [
 		'novel/info/*.json',
 	]);
@@ -85,7 +90,7 @@ crossSpawnSync('git', [
 crossSpawnSync('git', [
 	'commit',
 	'-m',
-	`update cache`,
+	`update temp cache`,
 ], {
 	cwd: join(__root, 'test/temp'),
 	stdio: 'inherit',
