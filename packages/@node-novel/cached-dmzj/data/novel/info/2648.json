@@ -3,11 +3,11 @@
   "name": "魔弹之王与冻涟的雪姬",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10059,
-  "last_update_chapter_id": 95434,
-  "last_update_time": 1555420240,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 10282,
+  "last_update_chapter_id": 98792,
+  "last_update_time": 1565526305,
   "cover": "https://xs.dmzj.com/img/webpic/20/mdzwxj0416l.jpg",
   "hot_hits": 0,
   "introduction": "川口士新作《魔弹之王与冻涟的雪姬》，露利叶家的曾祖母四代都是战姬，负责管辖著在莱德梅里兹南部、墨吉涅王国北部的奥尔米兹公国。",
@@ -18,8 +18,8 @@
   ],
   "authors": "川口士",
   "first_letter": "M",
-  "subscribe_num": 10794,
-  "redis_update_time": 1564342481,
+  "subscribe_num": 11695,
+  "redis_update_time": 1565574608,
   "volume": [
     {
       "id": 10058,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555419634,
-      "sum_chapters": 8
+      "sum_chapters": 16
     },
     {
       "id": 10059,
@@ -35,7 +35,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1555419932,
-      "sum_chapters": 8
+      "sum_chapters": 16
+    },
+    {
+      "id": 10282,
+      "lnovel_id": 2648,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1565526175,
+      "sum_chapters": 16
     }
   ],
   "chapters": [
@@ -157,6 +165,54 @@
           "chapter_id": 95434,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10282,
+      "id": 10282,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 98785,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98786,
+          "chapter_name": "1 启航",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98787,
+          "chapter_name": "2 光华的耀姬",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98788,
+          "chapter_name": "3 混迷之岛",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98789,
+          "chapter_name": "4 共斗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98790,
+          "chapter_name": "5 多尼斯攻略战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98791,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98792,
+          "chapter_name": "后记",
+          "chapter_order": 80
         }
       ]
     }
