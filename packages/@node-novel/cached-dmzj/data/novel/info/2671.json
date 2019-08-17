@@ -3,11 +3,11 @@
   "name": "朋友的妹妹只喜欢烦我",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10127,
-  "last_update_chapter_id": 96318,
-  "last_update_time": 1558622916,
+  "last_update_volume_id": 10289,
+  "last_update_chapter_id": 98881,
+  "last_update_time": 1565946267,
   "cover": "https://xs.dmzj.com/img/webpic/26/yr0524l.jpg",
   "hot_hits": 0,
   "introduction": "闷绝至极的甜腻粘人青春恋爱喜剧！\n『自称F级』的三河ごーす与超人气插画家·トマリ联手，参战GA文库！\n不需要套近乎，无需女友，只有一个知心好友足以。舍弃青春之中一切『非效率』的我·大星明照的房间闯入了一个女孩。\n既不是妹妹，也不是朋友。是个烦人至极的缠人学妹。挚友的妹妹，小日向彩羽。\n「前辈，我们约会吧！……是不是觉得我会这么说呀？」\n活力无限的她占据我的睡床，若有若无的色诱，非常喜欢烦我。\n可是，为什么大家都向我投以羡慕的眼神？因为彩羽这妮子，对外是活泼又清纯的优等生形象，非常有人气。\n喂喂……那为什么只喜欢烦我啊。\n烦人JK(明明没有拜托过)向我靠近！闷绝至极的甜腻粘人青春恋爱喜剧！",
@@ -18,8 +18,8 @@
   ],
   "authors": "三河ごーすと",
   "first_letter": "P",
-  "subscribe_num": 21971,
-  "redis_update_time": 1564336016,
+  "subscribe_num": 23702,
+  "redis_update_time": 1566031800,
   "volume": [
     {
       "id": 10127,
@@ -27,7 +27,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1558619621,
-      "sum_chapters": 8
+      "sum_chapters": 24
+    },
+    {
+      "id": 10289,
+      "lnovel_id": 2671,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1565945235,
+      "sum_chapters": 24
     }
   ],
   "chapters": [
@@ -116,6 +124,104 @@
           "chapter_id": 96318,
           "chapter_name": "插画",
           "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 10289,
+      "id": 10289,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 98854,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98855,
+          "chapter_name": "……前情提要……",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98856,
+          "chapter_name": "序章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98857,
+          "chapter_name": "第1话 告白的女孩只在现实中冷淡",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98858,
+          "chapter_name": "第2话 我周围的家伙只对我搞怪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98859,
+          "chapter_name": "第3话 朋友的妹妹只在现实中温柔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98860,
+          "chapter_name": "第4话 当运动部的顾问最辛苦",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98861,
+          "chapter_name": "第5话 老师的妹妹唯独不擅长演技",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98862,
+          "chapter_name": "第6话 朋友的妹妹对任何人都清纯",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98863,
+          "chapter_name": "第7话 不易给假女友告白的答复",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 98864,
+          "chapter_name": "第8话 只有我对朋友的妹妹道歉",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 98865,
+          "chapter_name": "第9话 我们擅长戏剧部的特训",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 98866,
+          "chapter_name": "第10话 朋友的妹妹明显很烦人",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 98867,
+          "chapter_name": "第11话 只属于朋友的妹妹与我的世界",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 98868,
+          "chapter_name": "终章1 社长惯例",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 98869,
+          "chapter_name": "终章2 祝杯与礼拜",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 98870,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 98881,
+          "chapter_name": "插画",
+          "chapter_order": 180
         }
       ]
     }

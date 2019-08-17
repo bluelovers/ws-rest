@@ -3,11 +3,11 @@
   "name": "Re:Stage！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "文库版第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10115,
-  "last_update_chapter_id": 96146,
-  "last_update_time": 1558099455,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "17th stage！KiRaRe，接受结果",
+  "last_update_volume_id": 10288,
+  "last_update_chapter_id": 98852,
+  "last_update_time": 1565858787,
   "cover": "https://xs.dmzj.com/img/webpic/23/re0822l.jpg",
   "hot_hits": 17340,
   "introduction": "私立稀星学园高尾分校初中部，那是与有着表演系的本校不同的非常普通的学校。某一天，一名放弃了梦想的少女转入这所学校时，这个故事便开始了。少女的名字叫做式宫舞菜。她有着超人的歌舞感，因为某件事从本校转到了高尾分校。虽然打算在这里平凡度日，舞菜却遇上了谣舞蹈部这个濒临废部的社团。原本进行舞蹈活动的这个社团为了避免被废部打算展开偶像活动——\n舞菜与同伴们一起，再次踏上了自己一度放弃的梦想之路。",
@@ -17,8 +17,8 @@
   ],
   "authors": "team yoree.",
   "first_letter": "R",
-  "subscribe_num": 3185,
-  "redis_update_time": 1564342955,
+  "subscribe_num": 3453,
+  "redis_update_time": 1566031172,
   "volume": [
     {
       "id": 9641,
@@ -26,15 +26,23 @@
       "volume_name": "web版",
       "volume_order": 10,
       "addtime": 1534993010,
-      "sum_chapters": 8
+      "sum_chapters": 24
     },
     {
       "id": 10115,
       "lnovel_id": 2539,
-      "volume_name": "文库版第一卷",
+      "volume_name": "第一卷",
       "volume_order": 20,
       "addtime": 1558099079,
-      "sum_chapters": 8
+      "sum_chapters": 24
+    },
+    {
+      "id": 10288,
+      "lnovel_id": 2539,
+      "volume_name": "第二卷",
+      "volume_order": 30,
+      "addtime": 1565858605,
+      "sum_chapters": 24
     }
   ],
   "chapters": [
@@ -269,7 +277,7 @@
     {
       "volume_id": 10115,
       "id": 10115,
-      "volume_name": "文库版第一卷",
+      "volume_name": "第一卷",
       "volume_order": 20,
       "chapters": [
         {
@@ -341,6 +349,64 @@
           "chapter_id": 96146,
           "chapter_name": "后记",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 10288,
+      "id": 10288,
+      "volume_name": "第二卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 98843,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98844,
+          "chapter_name": "9th stage！纱由，与对战对手相遇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98845,
+          "chapter_name": "10th stage！纱由，与双亲诀别",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98846,
+          "chapter_name": "11th stage！纱由，与双亲和解",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98847,
+          "chapter_name": "12th stage！KiRaRe，潜入本校",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98848,
+          "chapter_name": "13th stage！KiRaRe，前往合宿",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98849,
+          "chapter_name": "14th stage！枫，诉说心境",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98850,
+          "chapter_name": "15th stage！珊瑚，再次登场",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 98851,
+          "chapter_name": "16th stage！舞菜，誓言获胜",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 98852,
+          "chapter_name": "17th stage！KiRaRe，接受结果",
+          "chapter_order": 100
         }
       ]
     }

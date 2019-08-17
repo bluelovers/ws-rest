@@ -1,13 +1,13 @@
 {
   "id": 2698,
-  "name": "就算15岁也是我的新娘！从交往0日结婚开始的书店战争",
+  "name": "就算15岁也是我的新娘！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10238,
-  "last_update_chapter_id": 98185,
-  "last_update_time": 1563539822,
+  "last_update_volume_name": "第二卷 即日同居开始的电子书革命",
+  "last_update_chapter_name": "四章 同居中的约会只能叫做外出",
+  "last_update_volume_id": 10287,
+  "last_update_chapter_id": 98842,
+  "last_update_time": 1565858491,
   "cover": "https://xs.dmzj.com/img/webpic/1/aj0719l.jpg",
   "hot_hits": 0,
   "introduction": "「愿意现在马上离开这里和我结婚吗?」\n在大型出版销售公司工作的火野坂贤一（27岁·普通职员）某天被初次见面的少女求婚了。对于这毫无常理的奇怪展开、他冷静的回答——「我知道了，结婚吧」\n诶？我刚才说了什么！？\n内心动摇的时候被少女·君坂亚里纱带回家中，贤一遇到更具冲击性的事态！\n「我是15岁的现役JC，法律上来讲是结不了婚的，放心吧！」\n「放心个鬼啊啊啊！」\n另一方面，贤一在工作上和人气JC·MARIA的连载企画、企画本创作进展顺利但……？\n「我是把大叔当恋爱对象也没关系啦～」\n被两个15岁折腾的日子开始了！？",
@@ -16,23 +16,31 @@
   ],
   "authors": "庵田定夏",
   "first_letter": "J",
-  "subscribe_num": 6075,
-  "redis_update_time": 1564311050,
+  "subscribe_num": 8025,
+  "redis_update_time": 1566031261,
   "volume": [
     {
       "id": 10238,
       "lnovel_id": 2698,
-      "volume_name": "第一卷",
+      "volume_name": "第一卷 从交往0日结婚开始的书店战争",
       "volume_order": 10,
       "addtime": 1563531699,
-      "sum_chapters": 9
+      "sum_chapters": 24
+    },
+    {
+      "id": 10287,
+      "lnovel_id": 2698,
+      "volume_name": "第二卷 即日同居开始的电子书革命",
+      "volume_order": 20,
+      "addtime": 1565781901,
+      "sum_chapters": 24
     }
   ],
   "chapters": [
     {
       "volume_id": 10238,
       "id": 10238,
-      "volume_name": "第一卷",
+      "volume_name": "第一卷 从交往0日结婚开始的书店战争",
       "volume_order": 10,
       "chapters": [
         {
@@ -99,6 +107,44 @@
           "chapter_id": 98185,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10287,
+      "id": 10287,
+      "volume_name": "第二卷 即日同居开始的电子书革命",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 98836,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98837,
+          "chapter_name": "序章 宣布伪装结婚的两人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98838,
+          "chapter_name": "一章 你说的是同居对吧？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98839,
+          "chapter_name": "二章 同居情侣的小爱好",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98840,
+          "chapter_name": "三章 于未婚妻与同居伴侣之间(非后宫)",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98842,
+          "chapter_name": "四章 同居中的约会只能叫做外出",
+          "chapter_order": 60
         }
       ]
     }
