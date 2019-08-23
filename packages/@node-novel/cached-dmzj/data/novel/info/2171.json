@@ -3,11 +3,11 @@
   "name": "龙王的工作！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第十卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10070,
-  "last_update_chapter_id": 95531,
-  "last_update_time": 1555847625,
+  "last_update_volume_name": "第十一卷",
+  "last_update_chapter_name": "第二谱",
+  "last_update_volume_id": 10299,
+  "last_update_chapter_id": 98991,
+  "last_update_time": 1566380722,
   "cover": "https://xs.dmzj.com/img/webpic/15/lwdgz565l.jpg",
   "hot_hits": 3950574,
   "introduction": "　玄关门一打开，眼前冒出了以为JS（小学女生）\n　　「我依照约定来了，请收我为徒弟！」\n　　年仅十六岁，便拥有将棋界最高头衔「龙王」的九头龙八一家里，出现了以为名叫雏鹤爱的小学三年级生，九岁。\n　　「什么？……徒弟？你在说什么？」\n　　「……您不记得了吗？」\n　　八一对自己答应过的事情完全没有印象，却展开了与小学生同居的生活。受到爱直率的热情影响，八一也逐渐取回险些丧失的热枕——\n　　《农林》作者白鸟士郎最新作品！迎来关西年轻棋士团体「西遊棋」负责监修，以最坚强的阵容送上将棋师徒喜剧，本世纪最热血的对局正式开始！！",
@@ -17,8 +17,8 @@
   ],
   "authors": "白鸟士郎",
   "first_letter": "L",
-  "subscribe_num": 107672,
-  "redis_update_time": 1564357087,
+  "subscribe_num": 112691,
+  "redis_update_time": 1566560863,
   "volume": [
     {
       "id": 8027,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1470916077,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 8382,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1483020822,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 8401,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1483880096,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 8402,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1483880103,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 8529,
@@ -58,7 +58,7 @@
       "volume_name": "短篇",
       "volume_order": 50,
       "addtime": 1488206879,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 8531,
@@ -66,7 +66,7 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1488379067,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 9207,
@@ -74,7 +74,7 @@
       "volume_name": "第六卷",
       "volume_order": 70,
       "addtime": 1518078606,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 9519,
@@ -82,7 +82,7 @@
       "volume_name": "第七卷",
       "volume_order": 80,
       "addtime": 1529743567,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 9520,
@@ -90,7 +90,7 @@
       "volume_name": "第八卷",
       "volume_order": 90,
       "addtime": 1529743622,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 9771,
@@ -98,7 +98,7 @@
       "volume_name": "第九卷",
       "volume_order": 100,
       "addtime": 1541515633,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 10070,
@@ -106,7 +106,15 @@
       "volume_name": "第十卷",
       "volume_order": 110,
       "addtime": 1555847129,
-      "sum_chapters": 8
+      "sum_chapters": 22
+    },
+    {
+      "id": 10299,
+      "lnovel_id": 2171,
+      "volume_name": "第十一卷",
+      "volume_order": 120,
+      "addtime": 1566380652,
+      "sum_chapters": 22
     }
   ],
   "chapters": [
@@ -740,6 +748,34 @@
           "chapter_id": 95531,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10299,
+      "id": 10299,
+      "volume_name": "第十一卷",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 98988,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98989,
+          "chapter_name": "第〇谱",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98990,
+          "chapter_name": "第一谱",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98991,
+          "chapter_name": "第二谱",
+          "chapter_order": 40
         }
       ]
     }

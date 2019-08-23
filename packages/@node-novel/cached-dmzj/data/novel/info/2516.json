@@ -3,11 +3,11 @@
   "name": "异世界悠闲农家",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9554,
-  "last_update_chapter_id": 87960,
-  "last_update_time": 1531145235,
+  "last_update_volume_id": 10300,
+  "last_update_chapter_id": 98999,
+  "last_update_time": 1566472741,
   "cover": "https://xs.dmzj.com/img/webpic/25/yx0709l.jpg",
   "hot_hits": 83809,
   "introduction": "和病魔斗争但最终死去的火乐，被神大人所复活，回复年轻及转移在异世界。为了第二次人生，享受悠闲的农家生活。",
@@ -17,8 +17,8 @@
   ],
   "authors": "内藤骑之介",
   "first_letter": "Y",
-  "subscribe_num": 10292,
-  "redis_update_time": 1564343251,
+  "subscribe_num": 11036,
+  "redis_update_time": 1566561723,
   "volume": [
     {
       "id": 9554,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1531144930,
-      "sum_chapters": 8
+      "sum_chapters": 22
+    },
+    {
+      "id": 10300,
+      "lnovel_id": 2516,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1566472521,
+      "sum_chapters": 22
     }
   ],
   "chapters": [
@@ -73,6 +81,54 @@
         },
         {
           "chapter_id": 87960,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10300,
+      "id": 10300,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 98992,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 98993,
+          "chapter_name": "序章 时光流逝",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 98994,
+          "chapter_name": "第一章 麻烦降临",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 98995,
+          "chapter_name": "第二章 悠闲的日常",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 98996,
+          "chapter_name": "第三章 武斗会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 98997,
+          "chapter_name": "终章 新的居民",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 98998,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 98999,
           "chapter_name": "插画",
           "chapter_order": 80
         }

@@ -3,11 +3,11 @@
   "name": "只要长得可爱，即使是变态你也喜欢吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "last_update_volume_name": "第六卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10104,
-  "last_update_chapter_id": 95973,
-  "last_update_time": 1557489729,
+  "last_update_volume_id": 10301,
+  "last_update_chapter_id": 99011,
+  "last_update_time": 1566473367,
   "cover": "https://xs.dmzj.com/img/webpic/0/bt1217l.jpg",
   "hot_hits": 944248,
   "introduction": "　　我，桐生慧辉某一天，收到一封寄件人不明的情书！根据当时状况研判，寄件人可能是我所参加的书法社相关人士们：波霸美女学姊、小狗般乖巧的学妹、走得很近的同班同学与仰慕哥哥的妹妹（这应该不可能），她们当中的某一个。老实说，不管是谁寄的都很好！但没想到当我意气风发地想打开来确认内容时，那封情书里不知为何，附了一条女孩子的小裤裤……不、不过这种事情怎样都好。总之，我得从这四人里找出谁是寄件人！等著吧，我未来的女朋友！！\n　　于是几天后，我将后悔莫及，发现那天只是空欢喜一场——",
@@ -17,8 +17,8 @@
   ],
   "authors": "花间灯",
   "first_letter": "Z",
-  "subscribe_num": 90513,
-  "redis_update_time": 1564346388,
+  "subscribe_num": 94890,
+  "redis_update_time": 1566560330,
   "volume": [
     {
       "id": 9134,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1513587944,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 9572,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1531915149,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 9801,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1543128839,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 9885,
@@ -50,7 +50,7 @@
       "volume_name": "短篇",
       "volume_order": 40,
       "addtime": 1546940994,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 10018,
@@ -58,7 +58,7 @@
       "volume_name": "第四卷",
       "volume_order": 50,
       "addtime": 1553009702,
-      "sum_chapters": 8
+      "sum_chapters": 22
     },
     {
       "id": 10104,
@@ -66,7 +66,15 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1557488299,
-      "sum_chapters": 8
+      "sum_chapters": 22
+    },
+    {
+      "id": 10301,
+      "lnovel_id": 2419,
+      "volume_name": "第六卷",
+      "volume_order": 70,
+      "addtime": 1566472773,
+      "sum_chapters": 22
     }
   ],
   "chapters": [
@@ -413,6 +421,74 @@
         },
         {
           "chapter_id": 95973,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10301,
+      "id": 10301,
+      "volume_name": "第六卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 99000,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99001,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99002,
+          "chapter_name": "第一章 这个书法社大有问题",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99003,
+          "chapter_name": "第二章 因此她真的不会打工",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99004,
+          "chapter_name": "第三章 工作浪女与恋爱变态",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99005,
+          "chapter_name": "第四章 擅长捉弄人的三谷同学",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99006,
+          "chapter_name": "第五章 放眼世间皆变态",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99007,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 99008,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 99009,
+          "chapter_name": "『盛夏轨迹❤』特典小册子合辑",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 99010,
+          "chapter_name": "电子版特典 关于床戏时要注意恐怖袭击这件事",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 99011,
           "chapter_name": "插画",
           "chapter_order": 120
         }
