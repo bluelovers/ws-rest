@@ -1,0 +1,66 @@
+{
+  "id": 2716,
+  "name": "light novel",
+  "zone": "日本",
+  "status": "连载中",
+  "last_update_volume_name": "第一卷",
+  "last_update_chapter_name": "chapter04 光之小说 (lightnovel)",
+  "last_update_volume_id": 10306,
+  "last_update_chapter_id": 99045,
+  "last_update_time": 1566733345,
+  "cover": "https://xs.dmzj.com/img/webpic/9/gz0825l.jpg",
+  "hot_hits": 0,
+  "introduction": "暂无简介",
+  "types": [
+    "冒险"
+  ],
+  "authors": "泷本龙彦",
+  "first_letter": "L",
+  "subscribe_num": 258,
+  "redis_update_time": 1566745230,
+  "volume": [
+    {
+      "id": 10306,
+      "lnovel_id": 2716,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "addtime": 1566733255,
+      "sum_chapters": 5
+    }
+  ],
+  "chapters": [
+    {
+      "volume_id": 10306,
+      "id": 10306,
+      "volume_name": "第一卷",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 99041,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99042,
+          "chapter_name": "chapter01 探索者的觉醒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99043,
+          "chapter_name": "chapter02 天使的降临",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99044,
+          "chapter_name": "chapter03 黑暗迷宫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99045,
+          "chapter_name": "chapter04 光之小说 (lightnovel)",
+          "chapter_order": 50
+        }
+      ]
+    }
+  ]
+}
