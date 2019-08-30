@@ -1,6 +1,6 @@
 {
   "name": "imgbb",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Imgbb's API v1 allows to upload pictures.",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "bluebird": "^3.5.5",
-    "restful-decorator": "^1.0.19",
+    "restful-decorator": "^1.0.20",
     "ts-type": "^1.2.9"
   },
   "gitHead": "3b2eb218dca1032d13fa505a7032ae5be1dfe1e7"
