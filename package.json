@@ -18,7 +18,9 @@
     "@bluelovers/tsconfig": "^1.0.3",
     "@types/fs-extra": "^7.0.0"
   },
-  "resolutions": {},
+  "resolutions": {
+    "axios": "< 0.19 && >= 0.18"
+  },
   "dependencies": {
     "@bluelovers/fast-glob": "^3.0.4",
     "@ts-type/package-dts": "^1.0.4",
