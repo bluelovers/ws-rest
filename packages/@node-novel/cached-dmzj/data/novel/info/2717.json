@@ -3,11 +3,11 @@
   "name": "靠著魔法药水在异世界活下去！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10308,
-  "last_update_chapter_id": 99067,
-  "last_update_time": 1566823225,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "转载信息",
+  "last_update_volume_id": 10311,
+  "last_update_chapter_id": 99174,
+  "last_update_time": 1567254294,
   "cover": "https://xs.dmzj.com/img/webpic/29/xm0826l.jpg",
   "hot_hits": 0,
   "introduction": "　　由于管理者调整世界扭曲的行动失败，长濑香失去了肉体，而且无法再回到原本的世界，只能转生至文明更为落后的世界。无法忍受自己被扔到那种地方的香提出要求，想要一种『可以自由做出任何效果药品』的能力，并更进一步取得道具箱、语言理解能力及稍微返老还童的身体。就这样，15岁的少女‧香使用自己创造的药品──魔法药水，以稳定的生活为目标展开冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "FUNA",
   "first_letter": "K",
-  "subscribe_num": 935,
-  "redis_update_time": 1566971227,
+  "subscribe_num": 2014,
+  "redis_update_time": 1567332421,
   "volume": [
     {
       "id": 10308,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1566822803,
-      "sum_chapters": 21
+      "sum_chapters": 24
+    },
+    {
+      "id": 10311,
+      "lnovel_id": 2717,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1567252984,
+      "sum_chapters": 24
     }
   ],
   "chapters": [
@@ -90,6 +98,104 @@
           "chapter_id": 99067,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10311,
+      "id": 10311,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 99174,
+          "chapter_name": "转载信息",
+          "chapter_order": 1
+        },
+        {
+          "chapter_id": 99154,
+          "chapter_name": "第八章 来访者们",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99155,
+          "chapter_name": "第九章 战争",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99156,
+          "chapter_name": "第十章 迎击",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99157,
+          "chapter_name": "第十一章 地狱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99158,
+          "chapter_name": "第十二章 西行之旅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99159,
+          "chapter_name": "第十三章 神剑",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99160,
+          "chapter_name": "第十四章 谈和会议",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99161,
+          "chapter_name": "第十五章 女神降临",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 99162,
+          "chapter_name": "第十六章 数年之后",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 99163,
+          "chapter_name": "第十七章 增殖",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 99164,
+          "chapter_name": "第十八章 布兰克特王国突破作战",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 99165,
+          "chapter_name": "第十九章 新天地",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 99166,
+          "chapter_name": "第二十章 增殖……呃、才不是！",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 99167,
+          "chapter_name": "附加之章 时光流逝……",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 99168,
+          "chapter_name": "加写番外 香的优雅生活",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 99169,
+          "chapter_name": "后记",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 99170,
+          "chapter_name": "插画",
+          "chapter_order": 170
         }
       ]
     }

@@ -3,11 +3,11 @@
   "name": "魔女之旅",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "last_update_volume_name": "番外 莉莉艾尔与祈祷之国",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10235,
-  "last_update_chapter_id": 98115,
-  "last_update_time": 1563373476,
+  "last_update_volume_id": 10310,
+  "last_update_chapter_id": 99123,
+  "last_update_time": 1567163308,
   "cover": "https://xs.dmzj.com/img/webpic/6/mv0523l.jpg",
   "hot_hits": 261620,
   "introduction": "　　「请别在意。我是旅人，得继续旅行才行。」\n　　某个地方有个正在旅行的魔女，她的名字是伊蕾娜。\n　　身为旅人，在很长很长的旅途中，她与形形色色的国家与人们邂逅。\n　　只允许魔法师入境的国家、最喜欢肌肉的壮汉、在死亡深渊等待恋人归来的青年、独自留守国家早已灭亡的公主，最后，还有她身为魔女的至今为止与从今以后。\n　　和莫名其妙、滑稽可笑的人们相遇，接触某人美丽的日常生活，魔女日复一日编制出相逢与离别的故事。",
@@ -17,8 +17,8 @@
   ],
   "authors": "白石定规",
   "first_letter": "M",
-  "subscribe_num": 25848,
-  "redis_update_time": 1564347640,
+  "subscribe_num": 29076,
+  "redis_update_time": 1567332730,
   "volume": [
     {
       "id": 8693,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1495555199,
-      "sum_chapters": 8
+      "sum_chapters": 24
     },
     {
       "id": 9223,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1518687682,
-      "sum_chapters": 8
+      "sum_chapters": 24
     },
     {
       "id": 9613,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1533618959,
-      "sum_chapters": 8
+      "sum_chapters": 24
     },
     {
       "id": 9863,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1546422547,
-      "sum_chapters": 8
+      "sum_chapters": 24
     },
     {
       "id": 10164,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1559996510,
-      "sum_chapters": 8
+      "sum_chapters": 24
     },
     {
       "id": 10235,
@@ -66,7 +66,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1563372842,
-      "sum_chapters": 8
+      "sum_chapters": 24
+    },
+    {
+      "id": 10310,
+      "lnovel_id": 2325,
+      "volume_name": "番外 莉莉艾尔与祈祷之国",
+      "volume_order": 70,
+      "addtime": 1567159151,
+      "sum_chapters": 24
     }
   ],
   "chapters": [
@@ -563,6 +571,69 @@
         },
         {
           "chapter_id": 98115,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10310,
+      "id": 10310,
+      "volume_name": "番外 莉莉艾尔与祈祷之国",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 99113,
+          "chapter_name": "PROLOGUE 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99114,
+          "chapter_name": "第一章 莉莉艾尔与戒祈之屋",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99115,
+          "chapter_name": "第二章 灰之魔女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99116,
+          "chapter_name": "第三章 绅士怪盗",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99117,
+          "chapter_name": "第四章 莉莉艾尔的日常",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99118,
+          "chapter_name": "第五章 面具少女",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99119,
+          "chapter_name": "第六章 梦魔的恋慕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99120,
+          "chapter_name": "第七章 公主的祈祷",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 99121,
+          "chapter_name": "EPILOGUE 结尾",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 99122,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 99123,
           "chapter_name": "插画",
           "chapter_order": 110
         }
