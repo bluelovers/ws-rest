@@ -3,11 +3,11 @@
   "name": "我的生存意义",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 水迷宫的heritage",
-  "last_update_chapter_name": "插图",
-  "last_update_volume_id": 7937,
-  "last_update_chapter_id": 63186,
-  "last_update_time": 1467030757,
+  "last_update_volume_name": "第五卷 都心楼的Desire",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10318,
+  "last_update_chapter_id": 99300,
+  "last_update_time": 1567753166,
   "cover": "https://xs.dmzj.com/img/webpic/15/wdscyy698979354l.jpg",
   "hot_hits": 77315,
   "introduction": "一但选择了某人，没被选上的人就必须牺牲。\n某日放学后，高中生斗和同时被两名要好的同学告白。究竟该选择谁才好，他的心里早有答案，然而，平稳的日常却在一夕之间崩坏。「看不见的墙」突然出现，学校被迫与外界隔离，学生们全困在「食人怪物」徘徊的校园内。「不愿失去任何珍视之人」斗和为此拚命奋战，但——\n紧凑悬疑、撼动灵魂的恐怖战争正式揭幕！！",
@@ -18,8 +18,8 @@
   ],
   "authors": "赤月驱矢",
   "first_letter": "W",
-  "subscribe_num": 3083,
-  "redis_update_time": 1564359027,
+  "subscribe_num": 4982,
+  "redis_update_time": 1568060779,
   "volume": [
     {
       "id": 7045,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷 放学后的struggle",
       "volume_order": 10,
       "addtime": 1437220347,
-      "sum_chapters": 8
+      "sum_chapters": 19
     },
     {
       "id": 7046,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷 放学后的resolute",
       "volume_order": 20,
       "addtime": 1437220347,
-      "sum_chapters": 8
+      "sum_chapters": 19
     },
     {
       "id": 7230,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷 水迷宫的demoniac",
       "volume_order": 30,
       "addtime": 1442758737,
-      "sum_chapters": 8
+      "sum_chapters": 19
     },
     {
       "id": 7937,
@@ -51,7 +51,15 @@
       "volume_name": "第四卷 水迷宫的heritage",
       "volume_order": 40,
       "addtime": 1467029987,
-      "sum_chapters": 8
+      "sum_chapters": 19
+    },
+    {
+      "id": 10318,
+      "lnovel_id": 1932,
+      "volume_name": "第五卷 都心楼的Desire",
+      "volume_order": 50,
+      "addtime": 1567752471,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -239,6 +247,69 @@
           "chapter_id": 63186,
           "chapter_name": "插图",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10318,
+      "id": 10318,
+      "volume_name": "第五卷 都心楼的Desire",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 99286,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99287,
+          "chapter_name": "第一章 那橘红 立下誓约",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99288,
+          "chapter_name": "第二章 那蓝白 吐露厌恶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99289,
+          "chapter_name": "第三章 那偶像 追求永远",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99290,
+          "chapter_name": "第四章 那利刃 似曾相识",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99291,
+          "chapter_name": "第五章 那英雄 褪去伪装",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99292,
+          "chapter_name": "第六章 那些少女犯下过错",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99293,
+          "chapter_name": "第七章 那都心楼陷入火海",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 99294,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 99295,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 99300,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

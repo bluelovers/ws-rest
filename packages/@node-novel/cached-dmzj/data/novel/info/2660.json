@@ -3,11 +3,11 @@
   "name": "自称F级的哥哥似乎要称霸以游戏分级的学园？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10098,
-  "last_update_chapter_id": 95896,
-  "last_update_time": 1557392117,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10319,
+  "last_update_chapter_id": 99311,
+  "last_update_time": 1567753968,
   "cover": "https://xs.dmzj.com/img/webpic/15/fji0509l.jpg",
   "hot_hits": 0,
   "introduction": "　　狮子王学园是聚集了学业、运动、家世……各种领域菁英的日本最顶尖明星学校。\n　　然而，那里实际上却是以游戏结果评价一切的，弱肉强食的学园。\n　　唯有绝对强者──「狮子」能够在这充满激烈竞争的世界存活下来。\n　　主角──碎城红莲虽然在暗地里留下在游戏中常胜不败的传说，\n　　却也想度过一帆风顺的平凡人生，於是他在入学考试中放水，获得自己想要的F级评价。\n　　不过在与由衷深爱哥哥的亲妹妹──碎城可怜重逢後，情况出现急遽变化。\n　　当学园的「恶意」威胁可怜时，红莲将发挥出他真正的实力──！",
@@ -16,8 +16,8 @@
   ],
   "authors": "三河ごーすと",
   "first_letter": "Z",
-  "subscribe_num": 7640,
-  "redis_update_time": 1564341541,
+  "subscribe_num": 11038,
+  "redis_update_time": 1568060265,
   "volume": [
     {
       "id": 10098,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557389429,
-      "sum_chapters": 8
+      "sum_chapters": 19
+    },
+    {
+      "id": 10319,
+      "lnovel_id": 2660,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1567752897,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -109,6 +117,84 @@
           "chapter_id": 95882,
           "chapter_name": "插画",
           "chapter_order": 301
+        }
+      ]
+    },
+    {
+      "volume_id": 10319,
+      "id": 10319,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 99297,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99298,
+          "chapter_name": "前情提要",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99299,
+          "chapter_name": "学生会选赌，开幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99301,
+          "chapter_name": "宝石鉴定游戏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99302,
+          "chapter_name": "反乌托邦游戏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99303,
+          "chapter_name": "桃贝居所的侵略者",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99304,
+          "chapter_name": "这么说很突然，不过我要跟姊姊结婚了～这样啊。要找手枪的话这里有喔～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99305,
+          "chapter_name": "假扑克",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 99306,
+          "chapter_name": "妹妹的一场由妹妹发起，且为了妹妹而展开的游戏",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 99307,
+          "chapter_name": "充满回忆的夏天与睡莲少女",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 99308,
+          "chapter_name": "碎城创造的怪物",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 99309,
+          "chapter_name": "身为兄长之人",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 99310,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 99311,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

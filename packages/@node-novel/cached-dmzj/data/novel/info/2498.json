@@ -3,11 +3,11 @@
   "name": "边境的老骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷 巴尔特•罗恩与王国太子",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9948,
-  "last_update_chapter_id": 93911,
-  "last_update_time": 1549979681,
+  "last_update_volume_id": 10323,
+  "last_update_chapter_id": 99371,
+  "last_update_time": 1568038167,
   "cover": "https://xs.dmzj.com/img/webpic/10/lq0530l.jpg",
   "hot_hits": 109321,
   "introduction": "　　老骑士巴尔特察觉自己时日无多，为了享受珍奇景色与大啖美食，他向侍奉多年的领主之家递出了辞呈。\n　　带著长年形影相随的一匹马，开始一场随心所欲的旅行。\n　　而他不知道──\n　　这场旅行将拉开崭新冒险的序幕。",
@@ -16,8 +16,8 @@
   ],
   "authors": "支援BIS",
   "first_letter": "B",
-  "subscribe_num": 10130,
-  "redis_update_time": 1564344105,
+  "subscribe_num": 10546,
+  "redis_update_time": 1568061494,
   "volume": [
     {
       "id": 9462,
@@ -25,15 +25,23 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1527687268,
-      "sum_chapters": 8
+      "sum_chapters": 19
     },
     {
       "id": 9948,
       "lnovel_id": 2498,
-      "volume_name": "第二卷",
+      "volume_name": "第二卷 新生之森",
       "volume_order": 20,
       "addtime": 1549979091,
-      "sum_chapters": 8
+      "sum_chapters": 19
+    },
+    {
+      "id": 10323,
+      "lnovel_id": 2498,
+      "volume_name": "第三卷 巴尔特•罗恩与王国太子",
+      "volume_order": 30,
+      "addtime": 1568035891,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -168,7 +176,7 @@
     {
       "volume_id": 9948,
       "id": 9948,
-      "volume_name": "第二卷",
+      "volume_name": "第二卷 新生之森",
       "volume_order": 20,
       "chapters": [
         {
@@ -270,6 +278,109 @@
           "chapter_id": 93911,
           "chapter_name": "插画",
           "chapter_order": 200
+        }
+      ]
+    },
+    {
+      "volume_id": 10323,
+      "id": 10323,
+      "volume_name": "第三卷 巴尔特•罗恩与王国太子",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 99353,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99354,
+          "chapter_name": "第五部 边境武术竞技会 第一章 重逢 泥炖牛肉",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99355,
+          "chapter_name": "第二章 武术竞技会开幕 顶级方糖",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99356,
+          "chapter_name": "三章 单手剑竞技示范比赛 马奶酒风味炙烧羔羊肉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99357,
+          "chapter_name": "第四章 细剑竞技对战 香格斯粉红葡萄酒",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99358,
+          "chapter_name": "第五章 综合竞技决赛 白角兽的大腿肉",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99359,
+          "chapter_name": "第六章 歌唱竞赛 久里葛黑茶",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99360,
+          "chapter_name": "第七章 骑士们的宴会 牛肋排与麦酒",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 99361,
+          "chapter_name": "第一章 哈林家 古吉风蒸蛋",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 99362,
+          "chapter_name": "第二章 哥顿大发雷霆 普伦道鲁咖",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 99363,
+          "chapter_name": "第一章 王都 温熏奇耶路古",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 99364,
+          "chapter_name": "第二章 狼人王之国 回锅炸伯特芋",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 99365,
+          "chapter_name": "第三章 巴尔特将军诞生 炭烤白肉",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 99366,
+          "chapter_name": "第四章 可露博斯堡垒战事 烤魔兽肉",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 99367,
+          "chapter_name": "第五章 剑匠湛达塔 山桃烧酒",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 99368,
+          "chapter_name": "第六章 狩猎人类的领主 辣味噌腌山鸡肉",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 99369,
+          "chapter_name": "第七章 继承王位 四种炸肉裹酱汁佐棒面包",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 99370,
+          "chapter_name": "后记",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 99371,
+          "chapter_name": "插画",
+          "chapter_order": 190
         }
       ]
     }
