@@ -3,13 +3,13 @@
   "name": "谁都可以暗中助攻讨伐魔王",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10097,
-  "last_update_chapter_id": 95877,
-  "last_update_time": 1557388886,
+  "last_update_volume_id": 10331,
+  "last_update_chapter_id": 99449,
+  "last_update_time": 1568462156,
   "cover": "https://xs.dmzj.com/img/",
-  "hot_hits": 0,
+  "hot_hits": 54365,
   "introduction": "　　如果说这是场试炼，那么神肯定是个残忍的虐待狂。\n　　为了打倒魔王，圣勇者藤堂直继被从异世界召唤而来。\n　　僧侣亚雷斯虽然接到了辅助他的命令，但在看到队伍成员时却感到一阵愕然。\n　　成员有只会使用火系魔法的魔导师莉蜜斯、刚转换流派的剑士阿丽雅，\n　　然后最关键的圣勇者却只愿意把清一色女性摆在身边，不停地做出鲁莽的举动……\n　　这样是要怎么打倒魔王啦！我又不是在收集奇人异士！\n　　此时，亚雷斯隐瞒自己的等级，开始暗中进行后援……\n　　这是一个由高等僧侣亚雷斯，引导圣勇者成为英雄的故事。",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "槻影",
   "first_letter": "S",
-  "subscribe_num": 2658,
-  "redis_update_time": 1564340656,
+  "subscribe_num": 3662,
+  "redis_update_time": 1568577967,
   "volume": [
     {
       "id": 10097,
@@ -27,7 +27,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557388264,
-      "sum_chapters": 8
+      "sum_chapters": 3
+    },
+    {
+      "id": 10331,
+      "lnovel_id": 2659,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1568461122,
+      "sum_chapters": 3
     }
   ],
   "chapters": [
@@ -94,6 +102,74 @@
         },
         {
           "chapter_id": 95877,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10331,
+      "id": 10331,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 99437,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99438,
+          "chapter_name": "第二部 Prologue 跌跌撞撞的英雄们",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99439,
+          "chapter_name": "第一报告 克服圣勇者的弱点",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99440,
+          "chapter_name": "第二报告 地下坟墓的怪物",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99441,
+          "chapter_name": "第三报告 关于歼灭鬼及其对策",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99442,
+          "chapter_name": "第四报告 克服不死系魔物的进度",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99443,
+          "chapter_name": "第五报告 在皮里夫辅助勇者的事情始末",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99444,
+          "chapter_name": "Epilogue 超越者的忧郁",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 99445,
+          "chapter_name": "第三部 Interlude 然而，人都会追求希望",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 99446,
+          "chapter_name": "Special story 爱蜜莉亚的活动报告日记②",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 99447,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 99449,
           "chapter_name": "插画",
           "chapter_order": 120
         }

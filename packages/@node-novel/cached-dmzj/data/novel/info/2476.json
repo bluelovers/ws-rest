@@ -3,13 +3,13 @@
   "name": "幻想世界的爱丽丝缇露",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "web版第七卷试看",
-  "last_update_chapter_name": "19",
-  "last_update_volume_id": 9507,
-  "last_update_chapter_id": 95116,
-  "last_update_time": 1554304329,
+  "last_update_volume_name": "web版第八卷试看",
+  "last_update_chapter_name": "8-3",
+  "last_update_volume_id": 10332,
+  "last_update_chapter_id": 99453,
+  "last_update_time": 1568473838,
   "cover": "https://xs.dmzj.com/img/webpic/9/hs0426l.jpg",
-  "hot_hits": 486973,
+  "hot_hits": 510684,
   "introduction": "不幸罹患在现实世界燃烧殆尽综合征的我，作为家里蹲的大学生而沉迷于网游中了。\n某一天，在网络上找到差不多的网游想要尝试一下而制作角色的时候，等到回过神来的时候自己自身就以自己制作的角色的身姿（作为美少女）转生到异世界啦……!",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "濑户悠一",
   "first_letter": "H",
-  "subscribe_num": 10370,
-  "redis_update_time": 1564343284,
+  "subscribe_num": 10943,
+  "redis_update_time": 1568579227,
   "volume": [
     {
       "id": 9378,
@@ -26,7 +26,7 @@
       "volume_name": "web版第一卷试看",
       "volume_order": 10,
       "addtime": 1524753733,
-      "sum_chapters": 8
+      "sum_chapters": 3
     },
     {
       "id": 9379,
@@ -34,7 +34,7 @@
       "volume_name": "web版第二卷试看",
       "volume_order": 20,
       "addtime": 1524754825,
-      "sum_chapters": 8
+      "sum_chapters": 3
     },
     {
       "id": 9385,
@@ -42,7 +42,7 @@
       "volume_name": "web版第三卷试看",
       "volume_order": 30,
       "addtime": 1524888334,
-      "sum_chapters": 8
+      "sum_chapters": 3
     },
     {
       "id": 9388,
@@ -50,7 +50,7 @@
       "volume_name": "web版第四卷试看",
       "volume_order": 40,
       "addtime": 1525086160,
-      "sum_chapters": 8
+      "sum_chapters": 3
     },
     {
       "id": 9401,
@@ -58,7 +58,7 @@
       "volume_name": "web版第五卷试看",
       "volume_order": 50,
       "addtime": 1525439366,
-      "sum_chapters": 8
+      "sum_chapters": 3
     },
     {
       "id": 9402,
@@ -66,7 +66,7 @@
       "volume_name": "web版第六卷试看",
       "volume_order": 60,
       "addtime": 1525440152,
-      "sum_chapters": 8
+      "sum_chapters": 3
     },
     {
       "id": 9507,
@@ -74,7 +74,15 @@
       "volume_name": "web版第七卷试看",
       "volume_order": 70,
       "addtime": 1529166188,
-      "sum_chapters": 8
+      "sum_chapters": 3
+    },
+    {
+      "id": 10332,
+      "lnovel_id": 2476,
+      "volume_name": "web版第八卷试看",
+      "volume_order": 80,
+      "addtime": 1568473782,
+      "sum_chapters": 3
     }
   ],
   "chapters": [
@@ -906,6 +914,34 @@
           "chapter_id": 95116,
           "chapter_name": "19",
           "chapter_order": 210
+        }
+      ]
+    },
+    {
+      "volume_id": 10332,
+      "id": 10332,
+      "volume_name": "web版第八卷试看",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 99450,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99451,
+          "chapter_name": "8-1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99452,
+          "chapter_name": "8-2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99453,
+          "chapter_name": "8-3",
+          "chapter_order": 40
         }
       ]
     }
