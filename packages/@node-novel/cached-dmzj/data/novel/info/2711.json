@@ -3,13 +3,13 @@
   "name": "圣剑学院的魔剑使",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10284,
-  "last_update_chapter_id": 98816,
-  "last_update_time": 1565535093,
+  "last_update_volume_id": 10381,
+  "last_update_chapter_id": 100102,
+  "last_update_time": 1571048214,
   "cover": "https://xs.dmzj.com/img/webpic/20/sjx0810l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 282124,
   "introduction": "外表是小孩，内心是魔王！？和姐姐们一起的剑与幻想的学院！\n最强的雷欧尼斯，为了准备近日要来临的决战而封印了自身的存在。\n但是，超过1000年后觉醒时，他竟然变回了10岁少年的模样！\n「为什么！？」「你为什么会被关在这里？已经没事了。姐姐会保护你」。\n雷欧尼斯被所属〈圣剑学院〉的美少女利瑟莉娅保护，对面目全副的世界感到愕然。\n未知的敌人〈Void〉、〈第〇七战术都市〉、形为武器的异能之力——〈圣剑〉。\n虽然对不熟悉的单词困惑，但他还是入学〈圣剑学院〉。\n在失去魔术的世界，最强魔王与美少女们编织的圣剑和魔剑的剑与幻想的学院就此开幕！",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "志瑞佑",
   "first_letter": "S",
-  "subscribe_num": 2243,
-  "redis_update_time": 1565574477,
+  "subscribe_num": 10900,
+  "redis_update_time": 1571603498,
   "volume": [
     {
       "id": 10284,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1565534525,
-      "sum_chapters": 16
+      "sum_chapters": 11
+    },
+    {
+      "id": 10381,
+      "lnovel_id": 2711,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1570966243,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -115,6 +123,84 @@
           "chapter_id": 98816,
           "chapter_name": "插画",
           "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 10381,
+      "id": 10381,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 100070,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100071,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100072,
+          "chapter_name": "第一章 眷属与魔王",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100073,
+          "chapter_name": "第二章 王女的来访",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100074,
+          "chapter_name": "第三章 许珀里翁",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100075,
+          "chapter_name": "第四章 晚会",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100076,
+          "chapter_name": "第五章 狂宴",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100077,
+          "chapter_name": "第六章 失落的王女",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100078,
+          "chapter_name": "第七章 两位王女",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 100079,
+          "chapter_name": "第八章 弑杀魔王的武器",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100080,
+          "chapter_name": "终章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 100081,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 100082,
+          "chapter_name": "电子书特典",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 100102,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

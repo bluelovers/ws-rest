@@ -3,13 +3,13 @@
   "name": "在轻松的异世界里组队搞事",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 女神与地下迷宫",
-  "last_update_chapter_name": "插画2",
-  "last_update_volume_id": 9849,
-  "last_update_chapter_id": 99025,
-  "last_update_time": 1566487008,
+  "last_update_volume_name": "第一卷 史莱姆是勇者的必经之路",
+  "last_update_chapter_name": "10.打不过的时候喊爸爸帮忙，不是自古以来的道理吗(下)？",
+  "last_update_volume_id": 10373,
+  "last_update_chapter_id": 99992,
+  "last_update_time": 1570545070,
   "cover": "https://xs.dmzj.com/img/webpic/10/gs0413l.jpg",
-  "hot_hits": 350190,
+  "hot_hits": 427759,
   "introduction": "(国轻)“大开后宫，走上巅峰”\n本该是这样的冒险生活，却因为得罪女神，被迫从乞丐开始，并以人类（猩猩）为种族开始第二人生。\n不仅如此，就连到了异世界后才发现，女神安排的同伴全是问题儿童。例如喜欢正面暗杀地十字刺客，喜欢物理魔法的精灵祭祀，以及……一个性格变化无常的女仆……",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "加米",
   "first_letter": "Z",
-  "subscribe_num": 14414,
-  "redis_update_time": 1566561745,
+  "subscribe_num": 15248,
+  "redis_update_time": 1571604926,
   "volume": [
     {
       "id": 9800,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 史莱姆是勇者的必经之路",
       "volume_order": 10,
       "addtime": 1543128065,
-      "sum_chapters": 22
+      "sum_chapters": 11
     },
     {
       "id": 9849,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷 女神与地下迷宫",
       "volume_order": 20,
       "addtime": 1545567170,
-      "sum_chapters": 22
+      "sum_chapters": 11
+    },
+    {
+      "id": 10373,
+      "lnovel_id": 2581,
+      "volume_name": "第一卷 史莱姆是勇者的必经之路（重置）",
+      "volume_order": 30,
+      "addtime": 1570544904,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -48,66 +56,6 @@
           "chapter_id": 91461,
           "chapter_name": "插画",
           "chapter_order": 1
-        },
-        {
-          "chapter_id": 94448,
-          "chapter_name": "序章",
-          "chapter_order": 2
-        },
-        {
-          "chapter_id": 94449,
-          "chapter_name": "01.勇者要从乞丐做起",
-          "chapter_order": 3
-        },
-        {
-          "chapter_id": 94450,
-          "chapter_name": "02.勇者还要从种族是人类（猩猩）做起",
-          "chapter_order": 4
-        },
-        {
-          "chapter_id": 94451,
-          "chapter_name": "03.好孩子是不能说脏话的",
-          "chapter_order": 5
-        },
-        {
-          "chapter_id": 94452,
-          "chapter_name": "04.奔跑是变强的开始",
-          "chapter_order": 6
-        },
-        {
-          "chapter_id": 94453,
-          "chapter_name": "05.开始的时候必定会倒下",
-          "chapter_order": 8
-        },
-        {
-          "chapter_id": 91454,
-          "chapter_name": "06.倒下后就重新振作吧！",
-          "chapter_order": 60
-        },
-        {
-          "chapter_id": 91455,
-          "chapter_name": "07.稍作歇息",
-          "chapter_order": 70
-        },
-        {
-          "chapter_id": 91965,
-          "chapter_name": "08.挑选武器吧",
-          "chapter_order": 77
-        },
-        {
-          "chapter_id": 91457,
-          "chapter_name": "09.独眼牛是同伴！",
-          "chapter_order": 90
-        },
-        {
-          "chapter_id": 91458,
-          "chapter_name": "10.打不过的时候喊爸爸帮忙，不是自古以来的道理吗？（上）",
-          "chapter_order": 100
-        },
-        {
-          "chapter_id": 91483,
-          "chapter_name": "10.打不过的时候喊爸爸帮忙，不是自古以来的道理吗？（下）",
-          "chapter_order": 110
         },
         {
           "chapter_id": 91631,
@@ -511,6 +459,69 @@
           "chapter_id": 95351,
           "chapter_name": "17.人生果然重复着磕磕绊绊",
           "chapter_order": 190
+        }
+      ]
+    },
+    {
+      "volume_id": 10373,
+      "id": 10373,
+      "volume_name": "第一卷 史莱姆是勇者的必经之路（重置）",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 99982,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99983,
+          "chapter_name": "01.勇者要从乞丐做起",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99984,
+          "chapter_name": "02.勇者还要从种族被人误会是猩猩做起",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99985,
+          "chapter_name": "03.好孩子是不能说脏话的",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99986,
+          "chapter_name": "04.奔跑是变强的开始",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99987,
+          "chapter_name": "05.开始的时候必定会倒下",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99988,
+          "chapter_name": "06.倒下后就重新振作吧！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99989,
+          "chapter_name": "07.稍作歇息",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 99990,
+          "chapter_name": "08.独眼牛是同伴！",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 99991,
+          "chapter_name": "09.打不过的时候喊爸爸帮忙，不是自古以来的道理吗？（上）",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 99992,
+          "chapter_name": "10.打不过的时候喊爸爸帮忙，不是自古以来的道理吗(下)？",
+          "chapter_order": 110
         }
       ]
     }

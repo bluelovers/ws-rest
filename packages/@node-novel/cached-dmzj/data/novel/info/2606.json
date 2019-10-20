@@ -3,21 +3,21 @@
   "name": "被学生胁迫这事儿是犯罪吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10183,
-  "last_update_chapter_id": 97251,
-  "last_update_time": 1561022792,
+  "last_update_volume_id": 10375,
+  "last_update_chapter_id": 100013,
+  "last_update_time": 1570615251,
   "cover": "https://xs.dmzj.com/img/webpic/22/fz1227l.jpg",
-  "hot_hits": 180828,
+  "hot_hits": 523614,
   "introduction": "在小初补习班上班的27岁补习班老师——天神。\n虽然长于指导小学生初中生，但对小孩子完全没有半点兴趣。\n一边锤炼着困于人生艰难的JD同事，一边带着股冷淡的氛围日复一日的工作。本应如此。\n然而——\n“老师，喜欢喜欢，最喜欢了……”\n某日，自己被负责的班级里的小学五年级女孩蹭蹭的样子被初中部的混蛋恶魔（14岁，JC）看到了……？\n“请为我上夜晚的个人课程——好吗，一流萝莉控老师？”\n没想到强制课外补习开始了！？\n由《变态王子与不笑猫》作者相乐总呈现的有着“必须要报警的年龄差”的恋爱喜剧！\n任何人都不知晓的小学生初中生的禁断“现实”就在书中——！？",
   "types": [
     "搞笑"
   ],
   "authors": "相乐总",
   "first_letter": "B",
-  "subscribe_num": 21884,
-  "redis_update_time": 1564342362,
+  "subscribe_num": 25620,
+  "redis_update_time": 1571604275,
   "volume": [
     {
       "id": 9859,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1545903357,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 9953,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1550142047,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 10080,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1556638015,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 10183,
@@ -49,7 +49,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1561022224,
-      "sum_chapters": 8
+      "sum_chapters": 11
+    },
+    {
+      "id": 10375,
+      "lnovel_id": 2606,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1570614973,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -297,6 +305,69 @@
           "chapter_id": 97251,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10375,
+      "id": 10375,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 100003,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100004,
+          "chapter_name": "序章 平家物语",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100005,
+          "chapter_name": "第一章 源氏物语",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100006,
+          "chapter_name": "第二章 东海道中膝栗毛",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100007,
+          "chapter_name": "第三章 Mother Goose",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100008,
+          "chapter_name": "第四章 老人与海",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100009,
+          "chapter_name": "第五章 雾气温泉杀人事件",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100010,
+          "chapter_name": "解说",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100011,
+          "chapter_name": "电子版特典 续·东海道中膝栗毛",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 100012,
+          "chapter_name": "特典 筒隐家之夜",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100013,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

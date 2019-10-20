@@ -3,13 +3,13 @@
   "name": "想要成为影之实力者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10086,
-  "last_update_chapter_id": 95720,
-  "last_update_time": 1556970476,
+  "last_update_volume_id": 10386,
+  "last_update_chapter_id": 100137,
+  "last_update_time": 1571132983,
   "cover": "https://xs.dmzj.com/img/webpic/3/sly0407l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 1460043,
   "introduction": "就像无论是谁年幼时都对英雄心怀憧憬那样，少年则是对影之实力者怀揣着向往。平时隐藏起实力扮演着平凡的龙套，在日常的背后则持续着狂气修行的他，伴随着异世界转身终于入手了最强的力量。\n扮演着影之实力者的少年、误会的部下们、以及被蹂躏的巨大黑暗组织……\n这是一个憧憬影之实力者的少年君临于异世界的阴暗面的故事，大概。",
   "types": [
     "穿越",
@@ -17,8 +17,8 @@
   ],
   "authors": "逢泽大介",
   "first_letter": "X",
-  "subscribe_num": 32928,
-  "redis_update_time": 1564342317,
+  "subscribe_num": 49088,
+  "redis_update_time": 1571603643,
   "volume": [
     {
       "id": 10039,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1554644045,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 10086,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1556970070,
-      "sum_chapters": 8
+      "sum_chapters": 11
+    },
+    {
+      "id": 10386,
+      "lnovel_id": 2640,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1571132581,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -174,6 +182,79 @@
         },
         {
           "chapter_id": 95720,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10386,
+      "id": 10386,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 100125,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100126,
+          "chapter_name": "【序章】秋假就去无法都市吧！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100127,
+          "chapter_name": "【一章】去无法都市狩猎盗贼吧！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100128,
+          "chapter_name": "【二章】突入『红之塔』！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100129,
+          "chapter_name": "【三章】以『血之女王』为目标吧！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100130,
+          "chapter_name": "【附章】年幼克蕾雅的弟弟观察日记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100131,
+          "chapter_name": "【四章】我将破坏一切、使其再生！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100132,
+          "chapter_name": "【五章】在三越商会和大商会联合斗争的背后制作假钞吧！",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100133,
+          "chapter_name": "【六章】让假钞流通起来吧！",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 100134,
+          "chapter_name": "【终章】以假钞破坏一切并使其再生之人！",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100135,
+          "chapter_name": "【补遗】",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 100136,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 100137,
           "chapter_name": "插画",
           "chapter_order": 130
         }
