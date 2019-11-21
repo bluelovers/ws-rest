@@ -1,6 +1,6 @@
 {
   "name": "axios-cache-adapter-util",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "axios-cache-adapter export/import json for save/load file",
   "keywords": [
     "axios",
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "bluebird": "^3.5.5",
-    "restful-decorator": "^1.0.20",
+    "restful-decorator": "^1.0.21",
     "ts-type": "^1.2.9",
     "typed-http-headers": "^1.0.2"
   },

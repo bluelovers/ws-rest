@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/cached-wenku8",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -30,10 +30,10 @@
     "access": "public"
   },
   "devDependencies": {
-    "axios-cache-adapter-util": "^1.0.17",
+    "axios-cache-adapter-util": "^1.0.18",
     "fs-extra": "^8.1.0",
-    "lazy-cookies": "^1.0.8",
-    "restful-decorator": "^1.0.20",
+    "lazy-cookies": "^1.0.9",
+    "restful-decorator": "^1.0.21",
     "upath2": "^2.1.3"
   }
 }
