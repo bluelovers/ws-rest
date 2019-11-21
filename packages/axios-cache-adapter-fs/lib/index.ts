@@ -144,7 +144,7 @@ export function defaultFilter<T extends ICacheStoreJsonRow = ICacheStoreJsonRow>
 {
 	const { status } = v.data;
 
-	return status != 500;
+	return status != 500 && status != 302;
 }
 
 export default {
