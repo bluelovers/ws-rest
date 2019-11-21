@@ -2,7 +2,7 @@
  * Created by user on 2019/6/10.
  */
 
-import toughCookie from 'tough-cookie';
+import toughCookie, { CookieJar, Store } from 'tough-cookie';
 import moment from 'moment';
 import { ITSRequireAtLeastOne, ITSPickExtra, ITSRequiredWith } from 'ts-type';
 import SymbolInspect from 'symbol.inspect';
@@ -83,6 +83,7 @@ export class LazyCookieJar extends toughCookie.CookieJar
 {
 	enableLooseMode?: boolean;
 	rejectPublicSuffixes?: boolean;
+	allowSpecialUseDomain?: boolean;
 	public store?: toughCookie.Store;
 
 	constructor(store?: any, options = {}, data = {}, url?: string | URL)
@@ -166,6 +167,62 @@ export class LazyCookieJar extends toughCookie.CookieJar
 		});
 
 		return cookies;
+	}
+
+	static deserialize(serialized: CookieJar.Serialized | string, store: Store, cb: (err: Error | null, object: CookieJar) => void): void;
+	static deserialize(serialized: CookieJar.Serialized | string, cb: (err: Error | null, object: CookieJar) => void): void;
+	static deserialize(...argv: any[]): void
+	{
+		let cb: Function;
+		if (argv.length !== 3)
+		{
+			cb = argv[1];
+		}
+		else if (argv.length)
+		{
+			cb = argv[argv.length - 1];
+		}
+
+		// @ts-ignore
+		CookieJar.deserialize(...argv, (err: Error | null, _jar: LazyCookieJar) => {
+
+			let jar = new this(_jar.store, _jar.rejectPublicSuffixes);
+
+			if (cb)
+			{
+				cb(this._copyCookieJar(_jar, jar));
+			}
+		})
+	}
+
+	static deserializeSync(serialized: CookieJar.Serialized | string, store?: Store)
+	{
+		let _jar = CookieJar.deserializeSync(serialized, store) as LazyCookieJar;
+
+		let jar = new this(_jar.store, _jar.rejectPublicSuffixes);
+		return this._copyCookieJar(_jar, jar);
+	}
+
+	static fromJSON(string: string)
+	{
+		return this.deserializeSync(string)
+	}
+
+	static createFrom(jarFrom: CookieJar | LazyCookieJar)
+	{
+		let _jar = jarFrom as LazyCookieJar;
+		let jar = new this(_jar.store, _jar.rejectPublicSuffixes);
+		return this._copyCookieJar(_jar, jar);
+	}
+
+	static _copyCookieJar(jarFrom: CookieJar | LazyCookieJar, jarTo: LazyCookieJar)
+	{
+		jarTo.store = (jarFrom as LazyCookieJar).store;
+		jarTo.rejectPublicSuffixes = (jarFrom as LazyCookieJar).rejectPublicSuffixes;
+		jarTo.enableLooseMode = (jarFrom as LazyCookieJar).enableLooseMode;
+		jarTo.allowSpecialUseDomain = (jarFrom as LazyCookieJar).allowSpecialUseDomain;
+
+		return jarTo;
 	}
 
 }
