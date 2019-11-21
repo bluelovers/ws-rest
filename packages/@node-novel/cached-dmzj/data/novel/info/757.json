@@ -3,21 +3,21 @@
   "name": "圆环少女Circletgirl",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 无依的制裁者",
+  "last_update_volume_name": "第六卷 太阳破碎之日",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 6080,
-  "last_update_chapter_id": 74769,
-  "last_update_time": 1493651013,
+  "last_update_volume_id": 10444,
+  "last_update_chapter_id": 100903,
+  "last_update_time": 1573813302,
   "cover": "https://xs.dmzj.com/img/webpic/11/yhsn.jpg",
-  "hot_hits": 49163,
+  "hot_hits": 51349,
   "introduction": "在几千个魔法世界之中，有一个被称之为“地狱”且极度遭到嫌恶的地方-----------------地球。其原因在于，只有在那里出生的人类，才拥有能将原属于自然要素之一的魔法现象消灭的恐怖能力。因犯罪而从原来的世界被流放到地球的少女魔导士鸦木梅洁尔，她所受的刑罚是必须在<地狱>里打倒100名的敌对魔导士。身为“円环大系”的使用者，将毅然面对这从未有人完成过的残酷使命。 　　灼热的魔法之战就此开幕！",
   "types": [
     "魔法"
   ],
   "authors": "长谷敏司",
   "first_letter": "Y",
-  "subscribe_num": 2210,
-  "redis_update_time": 1565011864,
+  "subscribe_num": 3087,
+  "redis_update_time": 1574306421,
   "volume": [
     {
       "id": 2601,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 巴比伦再临",
       "volume_order": 10,
       "addtime": 1275561491,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 4569,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 炼狱的虚神 上",
       "volume_order": 20,
       "addtime": 1342576925,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 5609,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 炼狱的虚神 下",
       "volume_order": 30,
       "addtime": 1383042717,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 6080,
@@ -49,7 +49,23 @@
       "volume_name": "第四卷 无依的制裁者",
       "volume_order": 40,
       "addtime": 1401797996,
-      "sum_chapters": 10
+      "sum_chapters": 8
+    },
+    {
+      "id": 10443,
+      "lnovel_id": 757,
+      "volume_name": "第五卷 魔导师的迷宫",
+      "volume_order": 50,
+      "addtime": 1573813077,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10444,
+      "lnovel_id": 757,
+      "volume_name": "第六卷 太阳破碎之日",
+      "volume_order": 60,
+      "addtime": 1573813198,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -187,6 +203,102 @@
           "chapter_id": 74769,
           "chapter_name": "后记",
           "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 10443,
+      "id": 10443,
+      "volume_name": "第五卷 魔导师的迷宫",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 100888,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100889,
+          "chapter_name": "─Intro─",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100890,
+          "chapter_name": "第一章 消灭国家的子弹／抹杀历史的子弹",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100891,
+          "chapter_name": "第二章 带枪的人类／持枪的魔导师",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100892,
+          "chapter_name": "─Interlude─ 迷宫的支配者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100893,
+          "chapter_name": "第三章 一击必中／一击灭杀",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100894,
+          "chapter_name": "─Outro─ 黎明前夕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100895,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10444,
+      "id": 10444,
+      "volume_name": "第六卷 太阳破碎之日",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 100896,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100897,
+          "chapter_name": "─Intro─ 四十八年前／八年前",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100898,
+          "chapter_name": "第一章 直到重逢之日",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100899,
+          "chapter_name": "第二章 Smoke on the water",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100900,
+          "chapter_name": "─Interlude─ 带来风暴的男人",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100901,
+          "chapter_name": "第三章 蜜蜂武藏之死",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100902,
+          "chapter_name": "─Outro─",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100903,
+          "chapter_name": "后记",
+          "chapter_order": 80
         }
       ]
     }

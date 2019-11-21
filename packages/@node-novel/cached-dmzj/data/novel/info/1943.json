@@ -3,13 +3,13 @@
   "name": "让人无法抱怨的爱情喜剧",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "Melonbooks特典",
-  "last_update_volume_id": 8718,
-  "last_update_chapter_id": 93955,
-  "last_update_time": 1550232194,
+  "last_update_volume_name": "第七卷",
+  "last_update_chapter_name": "After Story Phase1",
+  "last_update_volume_id": 10350,
+  "last_update_chapter_id": 99693,
+  "last_update_time": 1569494368,
   "cover": "https://xs.dmzj.com/img/webpic/22/rrwfbydaqxj97.jpg",
-  "hot_hits": 317647,
+  "hot_hits": 409452,
   "introduction": "自称活了一千年的神,神鸣泽世界，是拥有一头长银发赤眼的美少女。\n虽然看起来像不问世事，而且很年幼，但是非常爱饮酒。\n每天都在自己家里看书。\n而作为她的祭品的高中生桐岛勇树在与她第一次见面的时候十分不安且紧张地对她说，“和我结婚吧。”\n纯粹无暇的2个人的爱情喜剧就这样开始了。",
   "types": [
     "爱情",
@@ -17,8 +17,8 @@
   ],
   "authors": "铃木大辅",
   "first_letter": "R",
-  "subscribe_num": 30010,
-  "redis_update_time": 1564362867,
+  "subscribe_num": 33032,
+  "redis_update_time": 1574306680,
   "volume": [
     {
       "id": 7082,
@@ -66,6 +66,14 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1513954348,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10350,
+      "lnovel_id": 1943,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1569494294,
       "sum_chapters": 8
     }
   ],
@@ -409,6 +417,44 @@
         {
           "chapter_id": 81603,
           "chapter_name": "插画",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99688,
+          "chapter_name": "虎之穴特典",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 10350,
+      "id": 10350,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 99689,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99690,
+          "chapter_name": "Bonus Track Vol.1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99691,
+          "chapter_name": "Bonus Track Vol.2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99692,
+          "chapter_name": "Bonus Track Vol.3",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99693,
+          "chapter_name": "After Story Phase1",
           "chapter_order": 50
         }
       ]

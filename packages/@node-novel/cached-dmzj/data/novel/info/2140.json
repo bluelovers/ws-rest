@@ -3,13 +3,13 @@
   "name": "哥布林杀手",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "台版第八卷",
+  "last_update_volume_name": "外传 第一年2",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10134,
-  "last_update_chapter_id": 96414,
-  "last_update_time": 1558962244,
+  "last_update_volume_id": 10417,
+  "last_update_chapter_id": 100588,
+  "last_update_time": 1572602134,
   "cover": "https://xs.dmzj.com/img/webpic/1/gblss5683l.jpg",
-  "hot_hits": 9060751,
+  "hot_hits": 10175867,
   "introduction": "「我眼中只有哥布林。」\n这是一个只能杀死哥布林的男人祈祷自己成为「冒险者」的故事。\n「我无法拯救世界。我只能杀死哥布林。」\n据说，在边境的公会中，有一个男人，他是仅凭猎杀哥布林便将自己的名次提升至银（第三级）的稀有存在……\n一名成为冒险者的女神官初次组队，在她身陷险境时，出手相助的正是那名被称为「哥布林杀手」的男人。\n他不择手段、不惜一切代价，仅为剿灭哥布林。\n女神官为他所摆布，女接待员对他心怀感激，他青梅竹马的养牛妹在等待着他。\n就在那时，一名听闻了他的事迹的精灵少女出现，向他提出了委托——\n超人气网络作品终于成书！\n蝸牛くも和神奈月昇献上的黑暗幻想剧，开幕！",
   "types": [
     "魔法",
@@ -19,8 +19,8 @@
   ],
   "authors": "蜗牛くも",
   "first_letter": "G",
-  "subscribe_num": 209354,
-  "redis_update_time": 1564356774,
+  "subscribe_num": 219307,
+  "redis_update_time": 1574306552,
   "volume": [
     {
       "id": 7841,
@@ -140,6 +140,14 @@
       "volume_name": "短篇",
       "volume_order": 70,
       "addtime": 1550053972,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10417,
+      "lnovel_id": 2140,
+      "volume_name": "外传 第一年2",
+      "volume_order": 80,
+      "addtime": 1572601118,
       "sum_chapters": 8
     }
   ],
@@ -1281,6 +1289,89 @@
           "chapter_id": 93914,
           "chapter_name": "关于这个种族(人类)擅长的是投掷能力这件事",
           "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 10417,
+      "id": 10417,
+      "volume_name": "外传 第一年2",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 100574,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100575,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100576,
+          "chapter_name": "第1章『战争过后（After Session），影之源头（Scenario Hook）』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100577,
+          "chapter_name": "间章「不迈出步伐就什么都不会开始的故事」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100578,
+          "chapter_name": "第2章『一枚戒指，一盏灯』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100579,
+          "chapter_name": "间章「地图没画好所以还不能回去的故事」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100580,
+          "chapter_name": "第3章『孤电的术士』",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100581,
+          "chapter_name": "间章「柜台小姐烦恼的故事」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100582,
+          "chapter_name": "第4章『委托人（Johnson）与冒险者（Runner）的关系』",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 100583,
+          "chapter_name": "间章「爱面子也是冒险者的工作的故事」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100584,
+          "chapter_name": "第5章『她的原因（Scenario），他的原因（Scenario）』",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 100585,
+          "chapter_name": "间章「不会为了魔法道具该如何分配而起争执是件好事的故事」",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 100586,
+          "chapter_name": "第6章『支付报酬（After Session），下一场冒险（Scenario Hook）』",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 100587,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 100588,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }

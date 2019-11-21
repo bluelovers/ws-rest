@@ -3,13 +3,13 @@
   "name": "中古也要谈恋爱！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第九卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10207,
-  "last_update_chapter_id": 97630,
-  "last_update_time": 1561985549,
+  "last_update_volume_id": 10431,
+  "last_update_chapter_id": 100756,
+  "last_update_time": 1573307542,
   "cover": "https://xs.dmzj.com/img/webpic/1/zgyytla685l.jpg",
-  "hot_hits": 881887,
+  "hot_hits": 1310778,
   "introduction": "隐藏宅的高中生 新宫新一偶然地救了校内第一不良少女 绫女古都子。\n以此为契机，古都子对清一一见钟情，如同galgame一样脱胎换骨成为女主角级别的美少女！！\n然后，以明显是用恋爱游戏为模版的，强硬的攻势向清一逼近！",
   "types": [
     "爱情",
@@ -18,8 +18,8 @@
   ],
   "authors": "田尾典丈",
   "first_letter": "Z",
-  "subscribe_num": 67262,
-  "redis_update_time": 1564362451,
+  "subscribe_num": 71711,
+  "redis_update_time": 1574306656,
   "volume": [
     {
       "id": 7076,
@@ -75,6 +75,22 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1561984982,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10430,
+      "lnovel_id": 1941,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1573301221,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10431,
+      "lnovel_id": 1941,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "addtime": 1573301345,
       "sum_chapters": 8
     }
   ],
@@ -470,6 +486,127 @@
         },
         {
           "chapter_id": 97630,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10430,
+      "id": 10430,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 100736,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100737,
+          "chapter_name": "序言",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100738,
+          "chapter_name": "第一章 B计划！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100739,
+          "chapter_name": "第二章 暴露了吗？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100740,
+          "chapter_name": "第三章 想举行睡衣派对！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100741,
+          "chapter_name": "第四章 这是最棒的圣诞节礼物",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100742,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100743,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100755,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10431,
+      "id": 10431,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 100744,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100745,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100746,
+          "chapter_name": "第一章 才不是在祈祷",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100747,
+          "chapter_name": "幕间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100748,
+          "chapter_name": "第二章 圣地巡礼那回事啊",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100749,
+          "chapter_name": "幕间",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100750,
+          "chapter_name": "第三章 这是清一君搞的鬼吧～？",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100751,
+          "chapter_name": "幕间",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100752,
+          "chapter_name": "第四章 不当面传达给对方是不行的",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 100753,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100754,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 100756,
           "chapter_name": "插画",
           "chapter_order": 120
         }

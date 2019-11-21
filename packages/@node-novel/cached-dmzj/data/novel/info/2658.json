@@ -3,13 +3,13 @@
   "name": "魔法师塔塔",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "转载信息",
-  "last_update_volume_id": 10096,
-  "last_update_chapter_id": 95866,
-  "last_update_time": 1557388313,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10407,
+  "last_update_chapter_id": 100440,
+  "last_update_time": 1572171452,
   "cover": "https://xs.dmzj.com/img/webpic/19/tt0509l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 17884,
   "introduction": "　　2015年7月22日12点20分。\n　　自称异世界魔法师的谜样女性塔塔突然间出现在弘桥高中一年A班的教室。\n　　这正是有如童话「哈梅尔的吹笛人」的情节\n　　而有此名称的公立高中消失事件的开端。\n　　「我决定要实现这所学校中所有人的心愿。」\n　　如同魔法师的宣言，学校学生写在\n　　国中毕业纪念册上的「将来的梦想」全部实现。\n　　一切愿望全部实现的世界──\n　　最终造成超过两百人牺牲的求生旅程就此揭开序幕……",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "うーぱー",
   "first_letter": "M",
-  "subscribe_num": 1132,
-  "redis_update_time": 1564340734,
+  "subscribe_num": 1644,
+  "redis_update_time": 1574304616,
   "volume": [
     {
       "id": 10096,
@@ -26,6 +26,14 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557387526,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10407,
+      "lnovel_id": 2658,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1572170392,
       "sum_chapters": 8
     }
   ],
@@ -103,6 +111,79 @@
         },
         {
           "chapter_id": 95863,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10407,
+      "id": 10407,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 100413,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100414,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100415,
+          "chapter_name": "第一章：转移",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100416,
+          "chapter_name": "第二章：学生会执行部",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100417,
+          "chapter_name": "第三章：地底生活第一天",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100418,
+          "chapter_name": "第四章：恐怖馆",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100419,
+          "chapter_name": "第五章：据点化",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100420,
+          "chapter_name": "第六章：瓦尔古族",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100421,
+          "chapter_name": "第七章：崩塌",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 100422,
+          "chapter_name": "第八章：魔法师卡卡",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100423,
+          "chapter_name": "夜木秋的信",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 100424,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 100440,
           "chapter_name": "插画",
           "chapter_order": 130
         }

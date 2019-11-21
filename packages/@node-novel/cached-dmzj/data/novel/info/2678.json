@@ -3,21 +3,21 @@
   "name": "P.S.致对谎言微笑的你",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10156,
-  "last_update_chapter_id": 96679,
-  "last_update_time": 1559739590,
+  "last_update_volume_id": 10409,
+  "last_update_chapter_id": 100463,
+  "last_update_time": 1572270327,
   "cover": "https://xs.dmzj.com/img/webpic/16/zs0605l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 84554,
   "introduction": "　　第二学期第一天，过著空洞的每一天的我──筱山正树陷入混乱。\n　　一名只有我不认识的少女若无其事现身在教室。\n　　而且，在同学与老师眼中都堪称模范生的你其实是个双面人，\n　　还强迫我假装跟你交往，把我害惨了。\n　　然而，你亲手做了便当给我，陪我一起上下学。\n　　虽然是一段无法告诉别人的诡异关系，但我觉得那样的每一天比什么都快乐。\n　　可是我发现了，与本不该相遇的你一起度过的时间终究只是幻想。\n　　所以我决定让你──风间遥香消失。",
   "types": [
     "校园"
   ],
   "authors": "田边屋敷",
   "first_letter": "P",
-  "subscribe_num": 2921,
-  "redis_update_time": 1564335920,
+  "subscribe_num": 6720,
+  "redis_update_time": 1574304346,
   "volume": [
     {
       "id": 10155,
@@ -33,6 +33,14 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1559739286,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10409,
+      "lnovel_id": 2678,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1572268646,
       "sum_chapters": 8
     }
   ],
@@ -135,6 +143,54 @@
           "chapter_id": 96679,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10409,
+      "id": 10409,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 100446,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100447,
+          "chapter_name": "1•一如往常的生活",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100448,
+          "chapter_name": "2•不断反覆的今天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100449,
+          "chapter_name": "3•未知的过去与已知的过去",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100450,
+          "chapter_name": "4•所以我决定抹消",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100451,
+          "chapter_name": "5•致对谎言微笑的你",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100452,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100463,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

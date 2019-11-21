@@ -3,13 +3,13 @@
   "name": "飞翔吧！战机少女",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10009,
-  "last_update_chapter_id": 94678,
-  "last_update_time": 1552750114,
+  "last_update_volume_id": 10369,
+  "last_update_chapter_id": 99920,
+  "last_update_time": 1570269199,
   "cover": "https://xs.dmzj.com/img/webpic/10/fxbzjsn681l.jpg",
-  "hot_hits": 128692,
+  "hot_hits": 156810,
   "introduction": "　　突然出现在人类面前的神秘飞翔体「灾」。意味着灾厄的此一存在凭借异样的战斗力凌驾于所有的航空战力之上。\n　　为了对抗他们而开发出的，便是对现有机体进行特别调整以实现超水准高机动力，被称为「子体」的兵器。负责操控的则是名为「阿尼玛」的操纵机构。它——竟拥有少女的外表。\n　　因「灾」的缘故而失去驾驶员母亲的少年鸣谷慧，他遇见了闪耀鲜红光辉的瑞典制战斗机以及驾驶它的阿尼玛「格里芬」。\n　　身为人类最终兵器却动作不稳定的格里芬，还有一心向往天空的少女，两人漫长且炙热的故事就此展开。",
   "types": [
     "冒险",
@@ -19,8 +19,8 @@
   ],
   "authors": "夏海公司",
   "first_letter": "F",
-  "subscribe_num": 16210,
-  "redis_update_time": 1564357863,
+  "subscribe_num": 17107,
+  "redis_update_time": 1574305383,
   "volume": [
     {
       "id": 7579,
@@ -76,6 +76,14 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1552749577,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10369,
+      "lnovel_id": 2077,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1570268997,
       "sum_chapters": 8
     }
   ],
@@ -443,6 +451,54 @@
           "chapter_id": 94678,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10369,
+      "id": 10369,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 99913,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99914,
+          "chapter_name": "I",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99915,
+          "chapter_name": "II",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99916,
+          "chapter_name": "III",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99917,
+          "chapter_name": "IV",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99918,
+          "chapter_name": "epilogue",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99919,
+          "chapter_name": "in the mirror",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99920,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "死党角色很难当吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10172,
-  "last_update_chapter_id": 97015,
-  "last_update_time": 1560258683,
+  "last_update_volume_name": "第七卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 10412,
+  "last_update_chapter_id": 100573,
+  "last_update_time": 1572601704,
   "cover": "https://xs.dmzj.com/img/webpic/14/sd0914l.jpg",
-  "hot_hits": 1446097,
+  "hot_hits": 2024984,
   "introduction": "　　我的朋友火乃森龙牙，是「货真价实的主角」。\n　　首先，这家伙几乎从不提及自己的过去。\n　　其次，他常常跷课，回来的时候嘴角流血，制服变得破破烂烂（应该是去跟世界之敌战斗了吧）。\n　　此外，龙牙常常和美少女在一起。\n　　这种时候就轮到我出马了。\n　　「喂龙牙！你这家伙为什么会认识雪宫同学（美少女）！？」\n　　毕竟为龙牙热闹得莫名其妙的日常生活敲边鼓，就是「专业死党」\n　　──本人小林一郎的生存之道！\n　　王道故事中不可或缺的万能基友在此☆\n　　由Best Friend小林提供最强助攻的新感觉恋爱喜剧，爆诞！",
   "types": [
     "校园",
@@ -18,8 +18,8 @@
   ],
   "authors": "伊达康",
   "first_letter": "S",
-  "subscribe_num": 34816,
-  "redis_update_time": 1564346396,
+  "subscribe_num": 40962,
+  "redis_update_time": 1574306177,
   "volume": [
     {
       "id": 9236,
@@ -59,6 +59,30 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1560258169,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10354,
+      "lnovel_id": 2436,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1569765449,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10411,
+      "lnovel_id": 2436,
+      "volume_name": "第6.5卷",
+      "volume_order": 70,
+      "addtime": 1572270387,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10412,
+      "lnovel_id": 2436,
+      "volume_name": "第七卷",
+      "volume_order": 80,
+      "addtime": 1572343103,
       "sum_chapters": 8
     }
   ],
@@ -330,6 +354,155 @@
           "chapter_id": 97015,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10354,
+      "id": 10354,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 99737,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99738,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99739,
+          "chapter_name": "第一章 文化(祭)的休战协议",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99740,
+          "chapter_name": "第二章 宿主小姐欢迎光临",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99741,
+          "chapter_name": "第三章 祭典招来的异形们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99742,
+          "chapter_name": "第四章 使徒collection",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99743,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99744,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10411,
+      "id": 10411,
+      "volume_name": "第6.5卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 100464,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100561,
+          "chapter_name": "1-10",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100562,
+          "chapter_name": "11-20",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 100563,
+          "chapter_name": "31-40",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 100564,
+          "chapter_name": "41-50",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 100565,
+          "chapter_name": "51-54",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 100566,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 100475,
+          "chapter_name": "插画",
+          "chapter_order": 290
+        }
+      ]
+    },
+    {
+      "volume_id": 10412,
+      "id": 10412,
+      "volume_name": "第七卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 100473,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100567,
+          "chapter_name": "序章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100568,
+          "chapter_name": "第一章 小林，前往异界",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 100569,
+          "chapter_name": "第二章 寻找时空裂缝",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 100570,
+          "chapter_name": "第三章 被留下的浦岛一郎",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 100571,
+          "chapter_name": "第四章 全员集合大决战",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 100572,
+          "chapter_name": "尾声",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 100573,
+          "chapter_name": "后记",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 100482,
+          "chapter_name": "插画",
+          "chapter_order": 290
         }
       ]
     }

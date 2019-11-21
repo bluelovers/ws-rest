@@ -3,13 +3,13 @@
   "name": "堕天的狗神 -SLASHDOG-",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10056,
-  "last_update_chapter_id": 95375,
-  "last_update_time": 1555339187,
+  "last_update_volume_id": 10408,
+  "last_update_chapter_id": 100441,
+  "last_update_time": 1572171530,
   "cover": "https://xs.dmzj.com/img/webpic/25/dtg0414l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 16031,
   "introduction": "★《恶魔高校D×D》「刃狗」小队队长几濑鸢雄的起始！\n★故事发生在兵藤一诚转生成恶魔的数年之前的前传登场！\n高中生几濑鸢雄的日常生活产生了骤变。\n他的同学们因意外事故失踪，称作「虚蝉」的怪物也朝他袭击而来。\n就在鸢雄眼看就要一命呜呼之际，一名自称夏梅的美少女救了他──「要和我们联手吗？好拯救你的青梅竹马。」\n鸢雄从她给的蛋中，得到了能劈斩万物的最强小狗──「刃」，并且和美少女魔法师拉维尼雅、中二病少年瓦利等个性鲜明的同伴们，一起投身于对抗虚蝉的战斗，以夺回自己失去的事物──",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "石踏一荣",
   "first_letter": "D",
-  "subscribe_num": 2568,
-  "redis_update_time": 1564340023,
+  "subscribe_num": 3566,
+  "redis_update_time": 1574304606,
   "volume": [
     {
       "id": 10056,
@@ -26,6 +26,14 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555338801,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10408,
+      "lnovel_id": 2647,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1572170855,
       "sum_chapters": 8
     }
   ],
@@ -113,6 +121,94 @@
         },
         {
           "chapter_id": 95375,
+          "chapter_name": "插画",
+          "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 10408,
+      "id": 10408,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 100425,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100426,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100427,
+          "chapter_name": "第一章 重振／新生活",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100428,
+          "chapter_name": "第二章 训练／神器",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100429,
+          "chapter_name": "第三章 外出／接触",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100430,
+          "chapter_name": "第四章 青龙／朱雀",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100431,
+          "chapter_name": "第五章 四凶／第三人、第四只",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100432,
+          "chapter_name": "撒坦耶尔／巴拉基勒",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100433,
+          "chapter_name": "第六章 永远的冰姬／紫炎祭主的行刑台",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 100434,
+          "chapter_name": "第七章 夜天光的乱刃狗神 -Night Celestial Slash Dogs-",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100435,
+          "chapter_name": "断罪者／狂剑师徒",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 100436,
+          "chapter_name": "末章 同伴们／团结一致",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 100437,
+          "chapter_name": "禁手〈Balance Breaker〉的另一端",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 100438,
+          "chapter_name": "灾祸起源／走向无限",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 100439,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 100441,
           "chapter_name": "插画",
           "chapter_order": 160
         }

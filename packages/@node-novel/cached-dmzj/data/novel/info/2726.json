@@ -3,13 +3,13 @@
   "name": "我说你们也太喜欢我这个单身男了吧",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10335,
-  "last_update_chapter_id": 99477,
-  "last_update_time": 1568547857,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10420,
+  "last_update_chapter_id": 100634,
+  "last_update_time": 1572786387,
   "cover": "https://xs.dmzj.com/img/webpic/11/ds0915l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 312638,
   "introduction": "本人姬宫春一推崇单身至上主义，一心想要享受悠然自得的青春生活，却被学校偶像美咲华梨卷入了交友大作战的计划中。……一个人很寂寞？开什么玩笑！我可不会任凭你摆布！！",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "凪木エコ",
   "first_letter": "W",
-  "subscribe_num": 1802,
-  "redis_update_time": 1568578581,
+  "subscribe_num": 23032,
+  "redis_update_time": 1574305999,
   "volume": [
     {
       "id": 10335,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1568547540,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    },
+    {
+      "id": 10420,
+      "lnovel_id": 2726,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1572783159,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -79,6 +87,59 @@
         {
           "chapter_id": 99477,
           "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10420,
+      "id": 10420,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 100626,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100627,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100628,
+          "chapter_name": "第一章 羽鸟英玲奈想要成长",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100629,
+          "chapter_name": "第二章 洞之濑梦乃没法变得直率",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100630,
+          "chapter_name": "第三章 仓敷琉璃恋爱活动强化周",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100631,
+          "chapter_name": "第四章 美咲华梨和洞之濑梦乃仍要互相理解",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100632,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100633,
+          "chapter_name": "后记（摘要）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100634,
+          "chapter_name": "插画",
           "chapter_order": 90
         }
       ]

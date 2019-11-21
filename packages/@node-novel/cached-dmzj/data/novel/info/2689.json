@@ -3,21 +3,21 @@
   "name": "梦魔·危机",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10200,
-  "last_update_chapter_id": 97507,
-  "last_update_time": 1561722607,
+  "last_update_volume_id": 10439,
+  "last_update_chapter_id": 100872,
+  "last_update_time": 1573656627,
   "cover": "https://xs.dmzj.com/img/webpic/16/mmwj0628l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 16894,
   "introduction": "允许任何合法或不合法交易行为的假想空间「Money(game)Master」的最强Dealer·苏芳要与魅魔型的AI搭档·洁莉卡，他们的猎物是能够超越物理上限的作弊武器「终之魔法」与一名少女。\n「但是这样好喏？老爷您原本可以作为高中生就赚到十七亿日元啊。」\n「就算这样也还是这边的事情更优先。」\n  枪与车，再加上投资战争。在无论什么都可以被允许的究极VR犯罪都市里发生的「救助」是？\n  最强的Crime Action，开幕。",
   "types": [
     "科幻"
   ],
   "authors": "镰池和马",
   "first_letter": "M",
-  "subscribe_num": 1534,
-  "redis_update_time": 1564311953,
+  "subscribe_num": 3030,
+  "redis_update_time": 1574304288,
   "volume": [
     {
       "id": 10200,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1561722303,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    },
+    {
+      "id": 10439,
+      "lnovel_id": 2689,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1573648819,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -74,6 +82,59 @@
           "chapter_id": 97507,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10439,
+      "id": 10439,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 100846,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100847,
+          "chapter_name": "序章 001",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100848,
+          "chapter_name": "第四章 场外乱斗位于此处BGM#04“Team Play”",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100849,
+          "chapter_name": "第五章 夜间节目脱胎换骨 BGM#05“Killer Stunt”",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100850,
+          "chapter_name": "第六章 名为传说的少年们 BGM#06“Dead Shoot”",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100851,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100852,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100853,
+          "chapter_name": "？？？",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100872,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

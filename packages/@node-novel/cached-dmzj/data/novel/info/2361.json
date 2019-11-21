@@ -3,13 +3,13 @@
   "name": "转生成为魔剑",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10042,
-  "last_update_chapter_id": 95182,
-  "last_update_time": 1554731123,
+  "last_update_volume_id": 10447,
+  "last_update_chapter_id": 100965,
+  "last_update_time": 1573964000,
   "cover": "https://xs.dmzj.com/img/webpic/29/mj0802l.jpg",
-  "hot_hits": 136117,
+  "hot_hits": 200544,
   "introduction": "亲爹般的无机物和沉默寡言的猫耳少女，踏上了最少三年，最高无期的旅途。",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "棚架ユウ",
   "first_letter": "Z",
-  "subscribe_num": 26176,
-  "redis_update_time": 1564348755,
+  "subscribe_num": 28687,
+  "redis_update_time": 1574306277,
   "volume": [
     {
       "id": 8873,
@@ -35,6 +35,14 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1554730874,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10447,
+      "lnovel_id": 2361,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1573963554,
       "sum_chapters": 8
     }
   ],
@@ -152,6 +160,59 @@
           "chapter_id": 95182,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10447,
+      "id": 10447,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 100956,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100957,
+          "chapter_name": "第一章 猫咪散步遇骚动",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100958,
+          "chapter_name": "第二章 海洋食客",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100959,
+          "chapter_name": "第三章 逃狱与相遇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100960,
+          "chapter_name": "第四章 背叛与真相",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100961,
+          "chapter_name": "第五章 锡德兰海国国王",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100962,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100963,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100965,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

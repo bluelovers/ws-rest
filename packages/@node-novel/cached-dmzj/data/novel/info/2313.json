@@ -3,13 +3,13 @@
   "name": "废柴以魔王之姿闯荡异世界 有时作弊一下的悠哉旅程",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "last_update_volume_name": "第六卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10109,
-  "last_update_chapter_id": 96044,
-  "last_update_time": 1557840287,
+  "last_update_volume_id": 10434,
+  "last_update_chapter_id": 100790,
+  "last_update_time": 1573396268,
   "cover": "https://xs.dmzj.com/img/webpic/16/mwzz0421l.jpg",
-  "hot_hits": 817276,
+  "hot_hits": 1268523,
   "introduction": "在对战竞技游戏终止营运的当天，吉城单挑打赢大魔王，并获得外挂般的能力值。当他再次醒来，却发现自己不仅身处从未见过的地方，还变成身著中二装备，一副魔王模样，名叫凯冯──这个他自己所创造的游戏角色！而且在满腔疑惑的他面前，出现了吉城的分身角色──妖精种族的露耶……!?在跟她一起生活后，他得知自己是流传于这个世界中，神话等级的英雄！以魔王之姿自在又横行的悠哉旅程展开序幕！",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "蓝敦",
   "first_letter": "F",
-  "subscribe_num": 34117,
-  "redis_update_time": 1564349366,
+  "subscribe_num": 37498,
+  "redis_update_time": 1574305818,
   "volume": [
     {
       "id": 8624,
@@ -59,6 +59,14 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1557839922,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10434,
+      "lnovel_id": 2313,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1573395391,
       "sum_chapters": 8
     }
   ],
@@ -343,6 +351,59 @@
         },
         {
           "chapter_id": 96044,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10434,
+      "id": 10434,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 100781,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100782,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100783,
+          "chapter_name": "第一章 各自的启程",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100784,
+          "chapter_name": "第二章 革命都市的丰收节",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100785,
+          "chapter_name": "第三章 与主厨一起",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100786,
+          "chapter_name": "第四章 她只是期望自己是个正直的人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100787,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100788,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100790,
           "chapter_name": "插画",
           "chapter_order": 90
         }

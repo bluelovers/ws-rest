@@ -3,13 +3,13 @@
   "name": "我的勇者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "last_update_volume_name": "第七卷",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 8260,
-  "last_update_chapter_id": 99419,
-  "last_update_time": 1568368970,
+  "last_update_volume_id": 10370,
+  "last_update_chapter_id": 99937,
+  "last_update_time": 1570357281,
   "cover": "https://xs.dmzj.com/img/webpic/4/wdyz1106l.jpg",
-  "hot_hits": 190757,
+  "hot_hits": 223609,
   "introduction": "在得知哥哥病危而急忙赶往医院的途中，小学生三上彻被卡车给撞了出去。醒来后他却身在一个奇幻风的异世界，眼前有个诡异的浮游型毛球生物「路乌」，除了把他认定为主人，更道出小彻的身分竟是「勇者」！\n为了勇者的任务──让女神自沉眠中苏醒，小彻、路乌与沿途上所遇到的「自称」大魔导师等伙伴同行的旅途上，所等待着的会是什么？",
   "types": [
     "魔法",
@@ -19,8 +19,8 @@
   ],
   "authors": "葵せきな(葵关南)",
   "first_letter": "W",
-  "subscribe_num": 5858,
-  "redis_update_time": 1568412536,
+  "subscribe_num": 7936,
+  "redis_update_time": 1574305192,
   "volume": [
     {
       "id": 6097,
@@ -28,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1402499244,
-      "sum_chapters": 11
+      "sum_chapters": 8
     },
     {
       "id": 6546,
@@ -36,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1418558167,
-      "sum_chapters": 11
+      "sum_chapters": 8
     },
     {
       "id": 6869,
@@ -44,7 +44,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1431608958,
-      "sum_chapters": 11
+      "sum_chapters": 8
     },
     {
       "id": 7159,
@@ -52,7 +52,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1440416973,
-      "sum_chapters": 11
+      "sum_chapters": 8
     },
     {
       "id": 7944,
@@ -60,7 +60,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1467207967,
-      "sum_chapters": 11
+      "sum_chapters": 8
     },
     {
       "id": 8260,
@@ -68,7 +68,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1478425937,
-      "sum_chapters": 11
+      "sum_chapters": 8
+    },
+    {
+      "id": 10370,
+      "lnovel_id": 1658,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1570356623,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -457,6 +465,89 @@
           "chapter_id": 99419,
           "chapter_name": "后记",
           "chapter_order": 110
+        },
+        {
+          "chapter_id": 99936,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10370,
+      "id": 10370,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 99922,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99923,
+          "chapter_name": "序章 三上美雪1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99924,
+          "chapter_name": "第一章 诀别",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99925,
+          "chapter_name": "插曲 三上美雪2",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 99926,
+          "chapter_name": "第二章 崛起",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 99927,
+          "chapter_name": "插曲 三上美雪3",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 99928,
+          "chapter_name": "第三章 决心",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 99929,
+          "chapter_name": "插曲 三上美雪4",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 99930,
+          "chapter_name": "第四章 决战",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 99931,
+          "chapter_name": "插曲 三上美雪5",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 99932,
+          "chapter_name": "最终章 决胜",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 99933,
+          "chapter_name": "尾声 三上美雪6",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 99937,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 99935,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "Fairy Tale 幻想编年史～不懂察言观色的异世界生活～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
-  "last_update_chapter_name": "第九话",
-  "last_update_volume_id": 8858,
-  "last_update_chapter_id": 77822,
-  "last_update_time": 1500869453,
+  "last_update_volume_name": "第七卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10385,
+  "last_update_chapter_id": 100118,
+  "last_update_time": 1571051262,
   "cover": "https://xs.dmzj.com/img/webpic/19/fairytalehxbns567893l.jpg",
-  "hot_hits": 664515,
+  "hot_hits": 796365,
   "introduction": "废柴高中生东宏在游戏中是一名手艺高强的生产职人。某天他莫名掉进了和线上游戏『幻想编年史』相仿的异世界！意外与同班同学近藤春菜相遇后，从制作药水到贩卖咖哩面包，两人靠着高超的技能在异世界打天下！偶然救出遭人算计的艾莉丝公主之后，被卷入国家级阴谋的两人是否能够化险为夷呢？崭新的生产系奇幻轻小说即将揭幕！",
   "types": [
     "魔法",
@@ -20,8 +20,8 @@
   ],
   "authors": "埴轮星人",
   "first_letter": "F",
-  "subscribe_num": 13486,
-  "redis_update_time": 1564365984,
+  "subscribe_num": 15791,
+  "redis_update_time": 1574306227,
   "volume": [
     {
       "id": 6873,
@@ -69,6 +69,14 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1500869103,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10385,
+      "lnovel_id": 1877,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1571050350,
       "sum_chapters": 8
     }
   ],
@@ -483,6 +491,84 @@
           "chapter_id": 77822,
           "chapter_name": "第九话",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10385,
+      "id": 10385,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 100105,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100106,
+          "chapter_name": "前情提要",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100107,
+          "chapter_name": "达尔篇 第十话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100108,
+          "chapter_name": "达尔篇 第十一话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100109,
+          "chapter_name": "达尔篇 第十二话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100110,
+          "chapter_name": "达尔篇 第十三话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100111,
+          "chapter_name": "达尔篇 第十四话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100112,
+          "chapter_name": "达尔篇 第十五话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100113,
+          "chapter_name": "达尔篇 终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 100114,
+          "chapter_name": "达尔篇 后日谈之一",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100115,
+          "chapter_name": "达尔篇 后日谈之二",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 100116,
+          "chapter_name": "达尔篇 后日谈之三",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 100117,
+          "chapter_name": "达尔篇 真・终章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 100118,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

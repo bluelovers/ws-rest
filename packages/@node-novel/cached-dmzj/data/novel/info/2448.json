@@ -3,13 +3,13 @@
   "name": "与佐伯同学同住一个屋簷下 I'll have Sherbet！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9861,
-  "last_update_chapter_id": 92365,
-  "last_update_time": 1546068100,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 10398,
+  "last_update_chapter_id": 100314,
+  "last_update_time": 1571744926,
   "cover": "https://xs.dmzj.com/img/webpic/13/zb0311l.jpg",
-  "hot_hits": 592638,
+  "hot_hits": 718347,
   "introduction": "　　高中二年级的春天，我──弓月恭嗣原本预定开始一个人住，\n　　老天却开了一个玩笑，由于房仲的疏失，\n　　我必须与小我一岁的女生，佐伯贵理华同学同住一屋。\n　　对于这个总爱跟我拉近距离的女生，我进行着小小的长期抗战，\n　　却没想到她居然跟我念同一所高中！\n　　接下来的每一天无论是在学校还是家里，\n　　我整天被她搞得晕头转向──\n　　总是冷静处事的弓月同学，与高颜值却有点色色的佐伯同学，\n　　将上演一出同居＆校园恋爱喜剧！",
   "types": [
     "校园",
@@ -18,8 +18,8 @@
   ],
   "authors": "九曜",
   "first_letter": "Y",
-  "subscribe_num": 27284,
-  "redis_update_time": 1564345857,
+  "subscribe_num": 30137,
+  "redis_update_time": 1574306448,
   "volume": [
     {
       "id": 9273,
@@ -43,6 +43,14 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1546067409,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10398,
+      "lnovel_id": 2448,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1571744709,
       "sum_chapters": 8
     }
   ],
@@ -223,6 +231,54 @@
           "chapter_id": 92365,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10398,
+      "id": 10398,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 100307,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100308,
+          "chapter_name": "第一章「我不会再离开你了」她说",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100309,
+          "chapter_name": "插曲「你也不讨厌吧？」挚友说",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100310,
+          "chapter_name": "第二章「回家之后再继续吧？」她说",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100311,
+          "chapter_name": "插曲「今天到此为止」他说",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100312,
+          "chapter_name": "第三章「你愿意接受我吗……？」她说",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100313,
+          "chapter_name": "番外篇 两年后？贵理华小姐",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100314,
+          "chapter_name": "后记",
+          "chapter_order": 80
         }
       ]
     }

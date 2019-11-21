@@ -3,13 +3,13 @@
   "name": "爱好谜题的少女与被夺去的青春",
   "zone": "0",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 伪装的爱意",
+  "last_update_volume_name": "第四卷 揭明的真相",
   "last_update_chapter_name": "尾声",
-  "last_update_volume_id": 10034,
-  "last_update_chapter_id": 98506,
-  "last_update_time": 1564827650,
+  "last_update_volume_id": 10357,
+  "last_update_chapter_id": 100970,
+  "last_update_time": 1573985130,
   "cover": "https://xs.dmzj.com/img/webpic/8/m0411l.jpg",
-  "hot_hits": 59697,
+  "hot_hits": 136330,
   "introduction": "　　藤崎高中第一美少女，早伊原树里对恋爱没有兴趣。对友情也没有兴趣。当然，对社团活动也没有兴趣。她最情有独钟的是，隐藏于日常之中的谜团。众目睽睽之下被换掉的花束。全年级学生突然收到的告密邮件。教室内相隔两边的不可能的作弊。我的过去被揭露之时，「事件」的情况急转直下……。她和「我」共同编织而成，悲伤而微苦的青春推理小说。",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "瀬川コウ",
   "first_letter": "A",
-  "subscribe_num": 10169,
-  "redis_update_time": 1564923704,
+  "subscribe_num": 12500,
+  "redis_update_time": 1574305503,
   "volume": [
     {
       "id": 9355,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 被夺去的青春",
       "volume_order": 10,
       "addtime": 1523438246,
-      "sum_chapters": 1
+      "sum_chapters": 8
     },
     {
       "id": 9593,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 坏掉的正义",
       "volume_order": 20,
       "addtime": 1532772776,
-      "sum_chapters": 1
+      "sum_chapters": 8
     },
     {
       "id": 10034,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷 伪装的爱意",
       "volume_order": 30,
       "addtime": 1554120038,
-      "sum_chapters": 1
+      "sum_chapters": 8
+    },
+    {
+      "id": 10357,
+      "lnovel_id": 2470,
+      "volume_name": "第四卷 揭明的真相",
+      "volume_order": 40,
+      "addtime": 1569923336,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -222,6 +230,49 @@
           "chapter_id": 98506,
           "chapter_name": "尾声",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10357,
+      "id": 10357,
+      "volume_name": "第四卷 揭明的真相",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 99776,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 99777,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 99778,
+          "chapter_name": "第一章 她的真相",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 99779,
+          "chapter_name": "第二章 他的真相",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100968,
+          "chapter_name": "第三章「体质」的真相",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100969,
+          "chapter_name": "第四章 早伊原树里的真相",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100970,
+          "chapter_name": "尾声",
+          "chapter_order": 70
         }
       ]
     }

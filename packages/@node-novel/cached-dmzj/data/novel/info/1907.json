@@ -3,13 +3,13 @@
   "name": "机动防卫者Dowl Masters",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9731,
-  "last_update_chapter_id": 90340,
-  "last_update_time": 1539355519,
+  "last_update_volume_id": 10378,
+  "last_update_chapter_id": 100043,
+  "last_update_time": 1570704012,
   "cover": "https://xs.dmzj.com/img/webpic/16/jdfwz6878l.jpg",
-  "hot_hits": 37327,
+  "hot_hits": 43486,
   "introduction": "──「Dowl」。意即扩张驾驶员的「意念」，使之转换为物理层面战斗能力的人型机动兵器「TitanicDowl」的简称。\n新手DowlMaster早乙女苍生隶属于地球的贫穷都市机构「自治区」，与姊姊朱里一同迎战了横滨城邦军。\n正当要遭受强力的敌方机体使出致命一击的瞬间，苍生稀世罕见的超能力就此苏醒了，能力觉醒的他成为了「Exar」。\n以此为契机，苍生成为了Dowl的最强最新锐部队「索菲亚」的一员，前往宇宙。\n在宇宙中，与驾驶纯白专用机「珑月」的最强DowlMaster玲音之间命运的邂逅正等著他──",
   "types": [
     "科幻",
@@ -18,8 +18,8 @@
   ],
   "authors": "佐岛勤",
   "first_letter": "J",
-  "subscribe_num": 2862,
-  "redis_update_time": 1564354236,
+  "subscribe_num": 3720,
+  "redis_update_time": 1574303606,
   "volume": [
     {
       "id": 6970,
@@ -51,6 +51,14 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1539355338,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10378,
+      "lnovel_id": 1907,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1570702661,
       "sum_chapters": 8
     }
   ],
@@ -239,6 +247,54 @@
           "chapter_id": 90340,
           "chapter_name": "插画",
           "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 10378,
+      "id": 10378,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 100034,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100035,
+          "chapter_name": "〔1〕被舍弃的城镇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100036,
+          "chapter_name": "〔2〕恐怖女神的现身",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100037,
+          "chapter_name": "〔3〕世界的真相",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100038,
+          "chapter_name": "〔4〕决战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100039,
+          "chapter_name": "〔5〕细微的变革",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100040,
+          "chapter_name": "座谈会（后记）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100043,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

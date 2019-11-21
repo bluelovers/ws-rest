@@ -2,14 +2,14 @@
   "id": 2015,
   "name": "公爵千金的本领(公爵家千金大小姐的爱好)",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "status": "已完结",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10038,
-  "last_update_chapter_id": 95139,
-  "last_update_time": 1554558107,
+  "last_update_volume_id": 10448,
+  "last_update_chapter_id": 100981,
+  "last_update_time": 1574092073,
   "cover": "https://xs.dmzj.com/img/webpic/16/151124qianjinl.jpg",
-  "hot_hits": 5225065,
+  "hot_hits": 5743234,
   "introduction": "好痛！\n最初感觉到的是痛觉。\n凭借着疼痛感，从朦胧的感觉中醒来，取回了“自己”的意识。\n如果能再早一点醒来就好了！\n我在许多人面前被数名男子压制在地上，屈辱的匍匐着；这样的状况，即使不是我，只要是少女，谁都不想遇到吧！",
   "types": [
     "搞笑",
@@ -20,8 +20,8 @@
   ],
   "authors": "澪亚",
   "first_letter": "G",
-  "subscribe_num": 43487,
-  "redis_update_time": 1564361039,
+  "subscribe_num": 46264,
+  "redis_update_time": 1574305991,
   "volume": [
     {
       "id": 8644,
@@ -125,6 +125,14 @@
       "volume_name": "第四卷",
       "volume_order": 130,
       "addtime": 1554557872,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10448,
+      "lnovel_id": 2015,
+      "volume_name": "第五卷",
+      "volume_order": 140,
+      "addtime": 1574091582,
       "sum_chapters": 8
     }
   ],
@@ -1750,6 +1758,59 @@
           "chapter_id": 95139,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 10448,
+      "id": 10448,
+      "volume_name": "第五卷",
+      "volume_order": 140,
+      "chapters": [
+        {
+          "chapter_id": 100973,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100974,
+          "chapter_name": "二十二章 大小姐的母亲，很强",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100975,
+          "chapter_name": "二十三章 大小姐，惊慌不已",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100976,
+          "chapter_name": "二十四章 大小姐的责任",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100977,
+          "chapter_name": "二十五章 大小姐与战争",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100978,
+          "chapter_name": "二十六章 大小姐，做个了断",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100979,
+          "chapter_name": "终章 大小姐的幸福",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100980,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100981,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

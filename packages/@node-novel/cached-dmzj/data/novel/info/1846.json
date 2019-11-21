@@ -3,13 +3,13 @@
   "name": "金色的文字使(金色文字使 被四名勇者波及的独特外挂)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第十卷",
+  "last_update_volume_name": "第十二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10023,
-  "last_update_chapter_id": 94877,
-  "last_update_time": 1553612530,
+  "last_update_volume_id": 10433,
+  "last_update_chapter_id": 100791,
+  "last_update_time": 1573396326,
   "cover": "https://xs.dmzj.com/img/webpic/1/jsdwzs65.jpg",
-  "hot_hits": 2114811,
+  "hot_hits": 2327942,
   "introduction": "热爱美食与阅读的「独行侠」高中生丘村日色，和班上的四个现充同学一起闯入了异世界。\n受到希望他们以「勇者」身分拯救「人类国」的公主请托，现充们各个摩拳擦掌，此时，日色却发现自己获得的称号是――「遭受波及者」？\n既回不去原本的世界，又对兴致勃勃的勇者们一点兴趣也没有。\n可是，难得有机会来到异世界，日色也想好好体验这里的生活。\n为了体验更多未曾见识过的美食与书籍，日色从一连串文字中发现只属于自己的能力「文字魔法」，并且运用这份能力，踏上一个人的冒险旅程！\n即使来到异世界仍不改「独行侠」作风的日色还不知道，在不久的将来，自己将被称为英雄……",
   "types": [
     "冒险",
@@ -20,8 +20,8 @@
   ],
   "authors": "十本スイ",
   "first_letter": "J",
-  "subscribe_num": 31551,
-  "redis_update_time": 1564386087,
+  "subscribe_num": 33663,
+  "redis_update_time": 1574306728,
   "volume": [
     {
       "id": 6769,
@@ -109,6 +109,22 @@
       "volume_name": "第十卷",
       "volume_order": 110,
       "addtime": 1553612307,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10432,
+      "lnovel_id": 1846,
+      "volume_name": "第十一卷",
+      "volume_order": 120,
+      "addtime": 1573394915,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10433,
+      "lnovel_id": 1846,
+      "volume_name": "第十二卷",
+      "volume_order": 130,
+      "addtime": 1573395125,
       "sum_chapters": 8
     }
   ],
@@ -728,6 +744,122 @@
           "chapter_id": 94877,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10432,
+      "id": 10432,
+      "volume_name": "第十一卷",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 100763,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100764,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100765,
+          "chapter_name": "第一章 太赤缠",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100766,
+          "chapter_name": "第二章 初代魔王之核",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100767,
+          "chapter_name": "第三章 开始转动的世界",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100768,
+          "chapter_name": "第四章 伊蒂亚战争爆发",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100769,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100770,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100789,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10433,
+      "id": 10433,
+      "volume_name": "第十二卷",
+      "volume_order": 130,
+      "chapters": [
+        {
+          "chapter_id": 100771,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100772,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100773,
+          "chapter_name": "第一章 连结手环",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100774,
+          "chapter_name": "第二章 抢救作战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100775,
+          "chapter_name": "第三章 初代勇者的回想",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100776,
+          "chapter_name": "第四章 英豪们的战斗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100777,
+          "chapter_name": "第五章 文字使VS不死鸟",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100778,
+          "chapter_name": "尾声Ⅰ",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 100779,
+          "chapter_name": "尾声Ⅱ",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 100780,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 100791,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

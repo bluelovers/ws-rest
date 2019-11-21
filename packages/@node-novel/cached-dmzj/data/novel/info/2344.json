@@ -3,13 +3,13 @@
   "name": "末日时在做些什么？能再一次相见吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "异传 莉莉娅·阿斯普雷伊",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10065,
-  "last_update_chapter_id": 95541,
-  "last_update_time": 1556029468,
+  "last_update_volume_id": 10429,
+  "last_update_chapter_id": 100729,
+  "last_update_time": 1573208416,
   "cover": "https://xs.dmzj.com/img/webpic/27/mr06627.jpg",
-  "hot_hits": 395011,
+  "hot_hits": 544336,
   "introduction": "末日时在做什么?有没有空?可以来拯救吗?第二部。",
   "types": [
     "冒险",
@@ -18,8 +18,8 @@
   ],
   "authors": "枯野瑛",
   "first_letter": "M",
-  "subscribe_num": 70954,
-  "redis_update_time": 1564348440,
+  "subscribe_num": 76016,
+  "redis_update_time": 1574306346,
   "volume": [
     {
       "id": 8772,
@@ -83,6 +83,14 @@
       "volume_name": "第七卷",
       "volume_order": 80,
       "addtime": 1555678285,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10429,
+      "lnovel_id": 2344,
+      "volume_name": "异传 莉莉娅·阿斯普雷伊",
+      "volume_order": 90,
+      "addtime": 1573207944,
       "sum_chapters": 8
     }
   ],
@@ -431,6 +439,54 @@
         },
         {
           "chapter_id": 95541,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10429,
+      "id": 10429,
+      "volume_name": "异传 莉莉娅·阿斯普雷伊",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 100722,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 100723,
+          "chapter_name": "序章：『弱小者的勇武之战』-their inferiority complexes-",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 100724,
+          "chapter_name": "第一章『在阳光灿烂的这个世界里』-beautiful world-",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 100725,
+          "chapter_name": "第二章『于海上岛中的』-in the heart of the sea-",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 100726,
+          "chapter_name": "第三章『即使这种日子就此结束，也一定——A』 - senior's sword -",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 100727,
+          "chapter_name": "终章『损坏的怀表』 - indeterminate future -",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 100728,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 100729,
           "chapter_name": "插画",
           "chapter_order": 80
         }
