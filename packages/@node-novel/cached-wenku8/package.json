@@ -1,7 +1,7 @@
 {
   "name": "@node-novel/cached-wenku8",
   "version": "1.0.1",
-  "description": "",
+  "description": "cached wenku8 fake api like data",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
@@ -12,14 +12,17 @@
   },
   "license": "ISC",
   "author": "",
-  "main": "index.js",
+  "main": "data/novel/recentUpdate.json",
   "scripts": {
+    "build": "yarn run build:fix && yarn run build:cache && yarn run build:commit",
     "build:cache": "ts-node ./script/build",
+    "build:commit": "ts-node ./script/build-commit",
+    "build:fix": "echo build:fix",
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
     "ncu": "npx yarn-tool ncu -u",
     "npm:publish": "npm publish",
-    "prepublishOnly": "echo prepublishOnly",
+    "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run build",
     "postpublish": "echo postpublish",
     "sort-package-json": "npx sort-package-json package.json",
     "test": "test",
@@ -30,6 +33,8 @@
     "access": "public"
   },
   "devDependencies": {
+    "@git-lazy/diff-staged": "^1.0.3",
+    "@git-lazy/util": "^1.0.5",
     "axios-cache-adapter-util": "^1.0.18",
     "fs-extra": "^8.1.0",
     "lazy-cookies": "^1.0.9",

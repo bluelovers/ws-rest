@@ -11,6 +11,7 @@ import { IBaseCacheStore } from 'axios-cache-adapter-util';
 import Bluebird from 'bluebird';
 import { getApiClient, __root, console, consoleDebug } from '../util';
 import { ITSUnpackedPromiseLike } from 'ts-type';
+import { IWenku8RecentUpdateCache, IWenku8RecentUpdateRow } from 'wenku8-api/lib/types';
 
 export default (async () =>
 {
@@ -19,15 +20,17 @@ export default (async () =>
 	const file = path.join(__root, 'data', 'novel/recentUpdate.json');
 
 	let novelList = await (fs.readJSON(file)
-		.catch(e => null) as ReturnType<typeof api.articleToplist>)
+		.catch(e => null) as PromiseLike<IWenku8RecentUpdateCache>)
 	;
-
 
 	let page = 0;
 	let pageTo = 0;
-	let maxPage = 0;
+	let maxPage = novelList && novelList.end || 0;
 
-	let data = await api.articleToplist(++page);
+	let API_METHOD: 'articleToplist' | 'articleList' = 'articleToplist';
+	//API_METHOD = 'articleList';
+
+	let data = await api[API_METHOD](++page);
 	maxPage = data.end;
 
 	let pageFrom = data.page;
@@ -37,19 +40,21 @@ export default (async () =>
 
 	let ids = [] as string[];
 
-	let list: ITSUnpackedPromiseLike<ReturnType<typeof api.articleToplist>>["data"] = data.data.slice();
+	let list: IWenku8RecentUpdateCache["data"] = data.data.slice();
 
 	list.forEach(row => {
 		ids.push(row.id);
 	});
 
-	while (true)
+	let _do = true;
+
+	while (_do)
 	{
 		lastPage = page++;
 
 		consoleDebug.debug('page:', page);
 
-		let ret = await api.articleToplist(page)
+		let ret = await api[API_METHOD](page)
 			.tap(data => {
 
 				last_update_time = Math.max(last_update_time, data.last_update_time);
@@ -80,7 +85,14 @@ export default (async () =>
 				maxPage,
 			});
 
+			_do = false;
+
 			break;
+		}
+
+		if ((page - pageFrom) >= 5)
+		{
+			_do = false;
 		}
 
 	}
@@ -94,17 +106,19 @@ export default (async () =>
 			last_update_time = Math.max(last_update_time, row.last_update_time);
 
 			return list;
-		}, {} as Record<string, any>)
+		}, {} as Record<string, IWenku8RecentUpdateRow>)
 	;
 
-	let listNew = Object
+	let listNew: IWenku8RecentUpdateCache["data"] = Object
 		.values(dataNewList)
 		.sort((a, b) => {
-			return b.last_update_time - a.last_update_time
+			//return b.last_update_time - a.last_update_time
+			// @ts-ignore
+			return b.id - a.id
 		})
 	;
 
-	let dataNew = {
+	let dataNew: IWenku8RecentUpdateCache = {
 		from: pageFrom,
 		to: page,
 		end: maxPage,
