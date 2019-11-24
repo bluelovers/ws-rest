@@ -1,0 +1,119 @@
+import { __root, getApiClient, console, consoleDebug } from '../util';
+import fs, { readJSON } from 'fs-extra';
+import { IWenku8RecentUpdateCache } from 'wenku8-api/lib/types';
+import Bluebird from 'bluebird';
+import moment from 'moment';
+import path from 'upath2';
+
+const file = path.join(__root, 'data', 'novel/recentUpdate.json');
+const file1 = path.join(__root, 'test/temp', 'task001.json');
+const file_copyright_remove = path.join(__root, 'data/novel', 'copyright_remove.json');
+
+(async () =>
+{
+
+	const { api, saveCache } = await getApiClient();
+
+	api.cookiesRemoveTrack();
+
+	let listCache = await readJSON(file1)
+		.catch(e => ({} as Record<string, number>))
+	;
+
+	let novelList = await (fs.readJSON(file) as PromiseLike<IWenku8RecentUpdateCache>)
+	;
+
+	let _cache = {} as Record<'copyright_remove', Record<string, string>>;
+
+	_cache.copyright_remove = await fs.readJSON(file_copyright_remove).catch(e => {}) || {};
+
+	let index = 1;
+
+	await Bluebird
+		.resolve(novelList.data)
+		.mapSeries(async (row) =>
+		{
+			let { id, last_update_time } = row;
+
+			if (listCache[id] != last_update_time || listCache[id] == null)
+			{
+				let _file = path.join(__root, 'data', `novel/info/${id}.json`);
+
+				if (_cache.copyright_remove[id] && listCache[id] != null && fs.pathExistsSync(_file))
+				{
+					consoleDebug.info(`[SKIP]`, index, id, row.name, moment.unix(last_update_time).format());
+				}
+				else
+				{
+					consoleDebug.debug(index, id, row.name, moment.unix(last_update_time).format());
+				}
+
+				return api.bookInfoWithChapters(id)
+					.tap(async (data) =>
+					{
+
+						index++;
+
+						listCache[id] = Math.max(data.last_update_time, last_update_time, 0);
+
+						if (data.copyright_remove)
+						{
+							_cache.copyright_remove[id] = data.name;
+
+							consoleDebug.red(`[copyright remove]`, id, row.name, );
+						}
+
+						return Bluebird.all([
+							fs.outputJSON(_file, data, {
+								spaces: 2,
+							}),
+						])
+					})
+					.tap(async (r) => {
+
+						if ((index % 10) == 0)
+						{
+							await _saveDataCache();
+
+							api.cookiesRemoveTrack();
+						}
+
+						if ((index % 100) == 0)
+						{
+							await saveCache();
+						}
+
+					})
+					;
+			}
+		})
+		.catch(e => console.error(e))
+	;
+
+	await _saveDataCache();
+
+	await saveCache();
+
+	function _saveDataCache()
+	{
+		return Bluebird.all([
+			fs.outputJSON(file1, listCache, {
+				spaces: 2,
+			})
+				.then(e => {
+					consoleDebug.info(`outputJSON`, path.relative(__root, file1));
+					return e;
+				})
+			,
+			fs.outputJSON(file_copyright_remove, _cache.copyright_remove, {
+				spaces: 2,
+			})
+				.then(e => {
+					consoleDebug.info(`outputJSON`, path.relative(__root, file_copyright_remove));
+					return e;
+				})
+		]);
+	}
+
+})();
+

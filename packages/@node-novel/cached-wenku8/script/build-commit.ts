@@ -35,6 +35,14 @@ if (ls2.length)
 	]);
 
 	crossSpawnSync('git', [
+		'add',
+		'task001.json',
+	], {
+		cwd: join(__root, 'test/temp'),
+		stdio: 'inherit',
+	});
+
+	crossSpawnSync('git', [
 		'commit',
 		'-m',
 		`update cache`,

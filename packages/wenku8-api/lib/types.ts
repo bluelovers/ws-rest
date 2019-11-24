@@ -39,6 +39,10 @@ export interface IWenku8RecentUpdateRow extends IWenku8BookInfoMini
 export interface IWenku8RecentUpdateRowBook extends IWenku8RecentUpdateRow
 {
 	desc: string,
+	/**
+	 * 因版权问题xxxx
+	 */
+	copyright_remove?: boolean,
 }
 
 export interface IWenku8BookInfoMini

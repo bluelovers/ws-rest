@@ -3,7 +3,7 @@
  */
 
 import fs from 'fs-extra';
-import path from 'path';
+import path from 'upath2';
 import { IDmzjNovelInfoRecentUpdateRow, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import { exportCache, importCache, processExitHook } from 'axios-cache-adapter-util';
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';

@@ -317,7 +317,7 @@ export class Wenku8Client extends AbstractHttpClient
 			"publisher": undefined,
 			"status": undefined,
 			"cover": undefined,
-			"last_update_time": undefined,
+			"last_update_time": 0,
 			"last_update_chapter_name": undefined,
 			desc: undefined,
 		});
@@ -367,6 +367,13 @@ export class Wenku8Client extends AbstractHttpClient
 
 		}
 
+		let _cr = _content.find('.hottext:eq(0)');
+
+		if (_cr.length && /因版权问题|因版權問題/.test(_cr.text() || ''))
+		{
+			data.copyright_remove = true;
+		}
+
 		data.cover = _content.find('img:eq(0)').prop('src');
 		data.desc = trimUnsafe(_content.find('.hottext + br + span:eq(-1)').text() || '');
 
@@ -386,6 +393,23 @@ export class Wenku8Client extends AbstractHttpClient
 			}
 
 			data.last_update_chapter_name = trimUnsafe(_a2.text());
+		}
+
+		if (data.cid == null)
+		{
+			_a2 = $('#content > div > div > div a[href*="/novel/"]:eq(0)');
+
+			if (_a2.length)
+			{
+				let _m = _a2.prop('href')
+					.match(/\/novel\/(\d+)\/(\d+)\//)
+				;
+
+				if (_m)
+				{
+					data.cid = _m[1];
+				}
+			}
 		}
 
 		return data as any;
@@ -482,6 +506,12 @@ export class Wenku8Client extends AbstractHttpClient
 				}
 			})
 		;
+	}
+
+	cookiesRemoveTrack()
+	{
+		this._jar().deleteCookieSync('jieqiVisitId');
+		return this
 	}
 
 }

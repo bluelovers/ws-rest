@@ -6,4 +6,6 @@
 
 	await import('./build/toplist');
 
+	await import('./build/task001');
+
 })();

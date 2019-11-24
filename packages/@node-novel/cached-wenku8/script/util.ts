@@ -163,6 +163,8 @@ async function setupCacheFile(api: ApiClient, saveCacheFileBySelf?: boolean)
 	function saveCache()
 	{
 		{
+			api.cookiesRemoveTrack();
+
 			let json = api._serialize();
 
 			//consoleDebug.dir(json);
@@ -174,7 +176,7 @@ async function setupCacheFile(api: ApiClient, saveCacheFileBySelf?: boolean)
 
 		return exportCache(store, (json) => {
 			fs.outputJSONSync(cacheFile, json, {
-				spaces: 2,
+				//spaces: 2,
 			});
 
 			console.debug(`[Cache]`, Object.keys(json).length, `saved`, path.relative(path.join(__dirname, '..'), cacheFile));
