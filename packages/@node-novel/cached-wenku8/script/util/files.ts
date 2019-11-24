@@ -9,6 +9,20 @@ export const cacheFilePaths = {
 
 	copyrightRemove: path.join(__root, 'data/novel', 'copyright_remove.json'),
 
+	infoPack: path.join(__root, 'data', 'novel/info.pack.json'),
+
+	idAuthors: path.join(__root, 'data/novel', 'id_authors.json'),
+
+	idTitles: path.join(__root, 'data/novel', 'id_titles.json'),
+
+	idUpdate: path.join(__root, 'data/novel', 'id_update.json'),
+
+	ids: path.join(__root, 'data/novel', 'ids.json'),
+
+	titles: path.join(__root, 'data/novel', 'titles.json'),
+
+	authors: path.join(__root, 'data/novel', 'authors.json'),
+
 };
 
 export function cacheFileInfoPath(id: string | number)

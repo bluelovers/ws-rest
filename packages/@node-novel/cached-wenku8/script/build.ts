@@ -8,4 +8,8 @@
 
 	await import('./build/task001');
 
+	await import('./build/merge');
+
+	await import('./build/cache');
+
 })();

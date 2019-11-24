@@ -15,6 +15,8 @@ import { defaultSortCallback, createSortCallback } from '@node-novel/sort';
 import sortObject from'sort-object-keys2';
 import { zhDictCompare, getCjkName } from '@novel-segment/util';
 
+let _cache_map = {} as Record<string, string>;
+
 export default (async () =>
 {
 	const { api, saveCache } = await getDmzjClient();
@@ -100,5 +102,8 @@ export default (async () =>
 
 function _sortFn001(a: string, b: string)
 {
-	return zhDictCompare(getCjkName(a), getCjkName(b))
+	let aa = _cache_map[a] || (_cache_map[a] = getCjkName(a));
+	let bb = _cache_map[b] || (_cache_map[b] = getCjkName(b));
+
+	return zhDictCompare(aa, bb)
 }

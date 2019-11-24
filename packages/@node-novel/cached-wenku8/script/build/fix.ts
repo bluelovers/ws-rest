@@ -49,6 +49,20 @@ import { consoleDebug } from '../util';
 
 			max_last_update_time = Math.max(max_last_update_time, last_update_time);
 
+			if (last_update_chapter_name != info.last_update_chapter_name)
+			{
+				if (!info.last_update_chapter_name)
+				{
+					info.last_update_chapter_name = last_update_chapter_name;
+					_changed = true;
+				}
+
+				if (!last_update_chapter_name)
+				{
+					row.last_update_chapter_name = last_update_chapter_name;
+				}
+			}
+
 			if (_changed)
 			{
 				consoleDebug.info(`[fix]`, id, info.name);
