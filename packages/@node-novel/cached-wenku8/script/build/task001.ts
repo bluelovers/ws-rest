@@ -4,10 +4,11 @@ import { IWenku8RecentUpdateCache } from 'wenku8-api/lib/types';
 import Bluebird from 'bluebird';
 import moment from 'moment';
 import path from 'upath2';
+import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
 
-const file = path.join(__root, 'data', 'novel/recentUpdate.json');
-const file1 = path.join(__root, 'test/temp', 'task001.json');
-const file_copyright_remove = path.join(__root, 'data/novel', 'copyright_remove.json');
+const file = cacheFilePaths.recentUpdate;
+const file1 = cacheFilePaths.task001;
+const file_copyright_remove = cacheFilePaths.copyrightRemove;
 
 (async () =>
 {
@@ -37,7 +38,7 @@ const file_copyright_remove = path.join(__root, 'data/novel', 'copyright_remove.
 
 			if (listCache[id] != last_update_time || listCache[id] == null)
 			{
-				let _file = path.join(__root, 'data', `novel/info/${id}.json`);
+				let _file = cacheFileInfoPath(id);
 
 				if (_cache.copyright_remove[id] && listCache[id] != null && fs.pathExistsSync(_file))
 				{
@@ -60,7 +61,12 @@ const file_copyright_remove = path.join(__root, 'data/novel', 'copyright_remove.
 						{
 							_cache.copyright_remove[id] = data.name;
 
-							consoleDebug.red(`[copyright remove]`, id, row.name, );
+							consoleDebug.red.info(`[copyright remove]`, id, row.name, );
+						}
+
+						if (!data.last_update_time && listCache[id])
+						{
+							data.last_update_time = listCache[id];
 						}
 
 						return Bluebird.all([
