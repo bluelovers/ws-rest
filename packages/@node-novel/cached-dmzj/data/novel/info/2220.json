@@ -3,13 +3,13 @@
   "name": "Legend 魔兽师传说",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 8683,
-  "last_update_chapter_id": 75200,
-  "last_update_time": 1495209809,
+  "last_update_volume_name": "第五卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10453,
+  "last_update_chapter_id": 101051,
+  "last_update_time": 1574415851,
   "cover": "https://xs.dmzj.com/img/webpic/11/mss1031l.jpg",
-  "hot_hits": 317306,
+  "hot_hits": 359794,
   "introduction": "　　高中二年级的夏天，佐伯玲二因为事故而丧命。再次醒过来时，出现在他面前的是异世界的大魔术师·杰拜尔。「汝身上密藏着魔力。基于如此的才能，希望你继承吾之门派所创造出来的『魔兽术』。」答应这个请托的玲二——雷伊，便带着新的肉体、强力无比的魔法道具以及成为搭档的魔兽·赛特，在异世界·艾尔杰因开始了第二人生。这是少年在异世界刻划下全新「传说」的故事。",
   "types": [
     "冒险",
@@ -20,8 +20,8 @@
   ],
   "authors": "神无月红",
   "first_letter": "L",
-  "subscribe_num": 10530,
-  "redis_update_time": 1564357028,
+  "subscribe_num": 12413,
+  "redis_update_time": 1574579330,
   "volume": [
     {
       "id": 8242,
@@ -29,7 +29,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1477912954,
-      "sum_chapters": 8
+      "sum_chapters": 53
     },
     {
       "id": 8342,
@@ -37,7 +37,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1481116852,
-      "sum_chapters": 8
+      "sum_chapters": 53
     },
     {
       "id": 8572,
@@ -45,7 +45,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1490370672,
-      "sum_chapters": 8
+      "sum_chapters": 53
     },
     {
       "id": 8683,
@@ -53,7 +53,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1495209399,
-      "sum_chapters": 8
+      "sum_chapters": 53
+    },
+    {
+      "id": 10453,
+      "lnovel_id": 2220,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1574415370,
+      "sum_chapters": 53
     }
   ],
   "chapters": [
@@ -102,6 +110,11 @@
           "chapter_id": 68172,
           "chapter_name": "后记",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 101047,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     },
@@ -113,7 +126,7 @@
       "chapters": [
         {
           "chapter_id": 69609,
-          "chapter_name": "录入信息",
+          "chapter_name": "转载信息",
           "chapter_order": 10
         },
         {
@@ -150,6 +163,11 @@
           "chapter_id": 69616,
           "chapter_name": "后记",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 101048,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     },
@@ -161,7 +179,7 @@
       "chapters": [
         {
           "chapter_id": 73149,
-          "chapter_name": "录入信息",
+          "chapter_name": "转载信息",
           "chapter_order": 10
         },
         {
@@ -193,6 +211,11 @@
           "chapter_id": 73166,
           "chapter_name": "插画",
           "chapter_order": 70
+        },
+        {
+          "chapter_id": 101049,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     },
@@ -241,6 +264,69 @@
           "chapter_id": 75200,
           "chapter_name": "后记",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 101050,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10453,
+      "id": 10453,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 101038,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101039,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101040,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101041,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101042,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101043,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101044,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101045,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101046,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 101051,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

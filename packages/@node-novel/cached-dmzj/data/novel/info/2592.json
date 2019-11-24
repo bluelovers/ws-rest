@@ -3,13 +3,13 @@
   "name": "废柴勇者下克上",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9825,
-  "last_update_chapter_id": 91796,
-  "last_update_time": 1544147481,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "附录 勇者与神剑的一天",
+  "last_update_volume_id": 10455,
+  "last_update_chapter_id": 101061,
+  "last_update_time": 1574506454,
   "cover": "https://xs.dmzj.com/img/webpic/24/xiakeshang1207l.jpg",
-  "hot_hits": 118465,
+  "hot_hits": 158680,
   "introduction": "　　即将从王立士官学校毕业的库洛。\n　　某天，他突然听见只有被选上的勇者才能使用的神剑——\n　　圣光剑──王者之剑说话的声音！\n　　依据声音的主人──圣光剑精灵荷莉所说，\n　　由于打算毁灭世界的魔王即将复活，似乎必须尽早找出勇者，\n　　将圣光剑交给勇者才行。\n　　库洛以为只要完成把剑交到勇者手中的轻松任务，\n　　就能成为拯救世界的功臣而爽快地答应，踏上了寻找勇者的旅程。\n　　然而，问题儿童库洛配上性格恶劣的荷莉，两人的旅行简直多灾多难！再加上他们找到的勇者竟然是身为奴隶的小女孩——？\n　　究竟要如何带她回去呢……？\n　　〈用我把那孩子的主人砍成两半不就好了吗？〉",
   "types": [
     "搞笑",
@@ -17,8 +17,8 @@
   ],
   "authors": "藤川恵蔵",
   "first_letter": "F",
-  "subscribe_num": 9832,
-  "redis_update_time": 1564345172,
+  "subscribe_num": 11521,
+  "redis_update_time": 1574580044,
   "volume": [
     {
       "id": 9825,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1544147008,
-      "sum_chapters": 8
+      "sum_chapters": 53
+    },
+    {
+      "id": 10455,
+      "lnovel_id": 2592,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1574506089,
+      "sum_chapters": 53
     }
   ],
   "chapters": [
@@ -95,6 +103,59 @@
           "chapter_id": 91796,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10455,
+      "id": 10455,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 101053,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101054,
+          "chapter_name": "第一章 散落的愿望",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101055,
+          "chapter_name": "第二章 真空剑克鲁塔那",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101056,
+          "chapter_name": "第三章 天马剑拉姆莱伊",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101057,
+          "chapter_name": "第四章 讨伐叛乱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101058,
+          "chapter_name": "第五章 姐妹剑使们",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101059,
+          "chapter_name": "第六章 冥府剑塞库昂斯",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101060,
+          "chapter_name": "终章 贤者与愚者",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101061,
+          "chapter_name": "附录 勇者与神剑的一天",
+          "chapter_order": 90
         }
       ]
     }
