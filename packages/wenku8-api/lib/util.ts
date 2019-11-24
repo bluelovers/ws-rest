@@ -8,6 +8,8 @@ import iconv, { decode as _iconvDecode } from 'iconv-jschardet';
 import { CookieJar, Store } from 'tough-cookie';
 import { LazyCookieJar } from 'lazy-cookies';
 import { removeZeroWidth } from 'zero-width';
+import { crlf } from 'crlf-normalize';
+import { minifyHTML } from 'jsdom-extra/lib/html';
 
 export { removeZeroWidth }
 
@@ -36,9 +38,31 @@ export function deserializeCookieJar(serialized: CookieJar.Serialized | string, 
 export function trimUnsafe<T extends string>(input: T): T
 {
 	// @ts-ignore
-	return removeZeroWidth(input)
+	return removeZeroWidth(crlf(input))
 		.replace(/^\s+|\s+$/gu, '')
-		.replace(/\r|\n|[\u00A0]/gu, ' ')
-		.replace(/\s+/gu, ' ')
+		.replace(/[\u00A0]/gu, ' ')
+		.replace(/[\t ]+/gu, ' ')
 		.trim()
+}
+
+export function tryMinifyHTML(html: string, throwError?: boolean | ((html: string) => any))
+{
+	try
+	{
+		html = minifyHTML(html);
+
+		if (typeof throwError === 'function')
+		{
+			return throwError(html);
+		}
+	}
+	catch (e)
+	{
+		if (throwError === true)
+		{
+			throw e;
+		}
+	}
+
+	return html;
 }

@@ -24,12 +24,8 @@ export interface IWenku8RecentUpdateCache extends Omit<IWenku8RecentUpdate, 'pag
 	size: number,
 }
 
-export interface IWenku8RecentUpdateRow
+export interface IWenku8RecentUpdateRow extends IWenku8BookInfoMini
 {
-	id: string;
-	cid: string;
-	name: string;
-	authors: string,
 	/**
 	 * 出版商
 	 */
@@ -39,3 +35,44 @@ export interface IWenku8RecentUpdateRow
 	last_update_time: number;
 	last_update_chapter_name: string;
 }
+
+export interface IWenku8RecentUpdateRowBook extends IWenku8RecentUpdateRow
+{
+	desc: string,
+}
+
+export interface IWenku8BookInfoMini
+{
+	id: string;
+	cid: string;
+	name: string;
+	authors: string,
+}
+
+export interface IWenku8BookChapters extends IWenku8BookInfoMini
+{
+	chapters: IWenku8BookChaptersVol[],
+}
+
+export interface IWenku8BookChaptersVol
+{
+	volume_order: number,
+	volume_name: string,
+
+	chapters: IWenku8BookChaptersVolChapter[],
+}
+
+export interface IWenku8RecentUpdateRowBookWithChapters extends IWenku8RecentUpdateRowBook, Pick<IWenku8BookChapters, 'chapters'>
+{
+
+}
+
+export interface IWenku8BookChaptersVolChapter
+{
+	novel_id: string,
+	cid: string;
+	"chapter_id": string,
+	"chapter_name": string,
+	"chapter_order": number,
+}
+

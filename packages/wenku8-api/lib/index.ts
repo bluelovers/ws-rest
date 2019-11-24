@@ -22,24 +22,27 @@ import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';
 import { array_unique } from 'array-hyper-unique';
 import consoleDebug from 'restful-decorator/lib/util/debug';
-import { mergeAxiosErrorWithResponseData } from '../../restful-decorator/lib/wrap/error';
 import { ParamMapAuto } from 'restful-decorator/lib/decorators/body';
 import toughCookie, { CookieJar } from 'tough-cookie';
 import { fromURL, IFromUrlOptions, IJSDOM, createJSDOM } from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
-import { arrayBufferToString, sniffHTMLEncoding, iconvDecode, trimUnsafe } from './util';
+import { arrayBufferToString, sniffHTMLEncoding, iconvDecode, trimUnsafe, tryMinifyHTML } from './util';
 import moment from 'moment';
-import { IDmzjClientNovelRecentUpdateAll } from 'dmzj-api/lib/types';
+import {
+	IWenku8RecentUpdate,
+	IArticleToplistSortType,
+	IWenku8RecentUpdateWithSortType,
+	IWenku8RecentUpdateRow, IWenku8RecentUpdateRowBook, IWenku8BookChapters, IWenku8RecentUpdateRowBookWithChapters,
+} from './types';
+import { minifyHTML } from 'jsdom-extra/lib/html';
 
 /**
- * https://gist.github.com/bluelovers/5e9bfeecdbff431c62d5b50e7bdc3e48
- * https://github.com/guuguo/flutter_dmzj/blob/master/lib/api.dart
- * https://github.com/tkkcc/flutter_dmzj/blob/269cb0d642c710626fe7d755f0b27b12ab477cc6/lib/util/api.dart
+ * https://www.wenku8.net/index.php
  */
 @BaseUrl('https://www.wenku8.net')
 @Headers({
-	Referer: 'https://www.wenku8.net',
+	Referer: 'https://www.wenku8.net/index.php',
 })
 @CacheRequest({
 	cache: {
@@ -68,6 +71,11 @@ export class Wenku8Client extends AbstractHttpClient
 
 	@POST('login.php?do=submit&action=login')
 	@FormUrlencoded
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
 	@methodBuilder()
 	loginByForm(@ParamMapAuto({
 		action: 'login',
@@ -80,7 +88,7 @@ export class Wenku8Client extends AbstractHttpClient
 		jumpurl?: string,
 	}): IBluebird<boolean>
 	{
-		let jsdom = this._responseDataToJSDOM(this.$response.data);
+		let jsdom = this._responseDataToJSDOM(this.$response.data, this.$response);
 		return jsdom.document.title.includes('成功') as any;
 	}
 
@@ -96,28 +104,9 @@ export class Wenku8Client extends AbstractHttpClient
 		return this.$http.defaults.jar || getCookieJar(this)
 	}
 
-	/**
-	 * 轻小说最近更新
-	 */
-	@GET('modules/article/toplist.php')
-	@methodBuilder()
-	articleToplist(@ParamQuery('page', 1) page?: number,
-		@ParamQuery('sort', 'lastupdate') sortType?: string | 'lastupdate',
-	): IBluebird<{
-		page: number;
-		end: number;
-		last_update_time: number;
-		data: {
-			id: string;
-			cid: string;
-			name: string;
-			cover: string;
-			last_update_time: number;
-			last_update_chapter_name: string;
-		}[];
-	}>
+	protected _handleArticleList<T extends Partial<IWenku8RecentUpdate>, R = T & Pick<IWenku8RecentUpdate, 'end' | 'last_update_time' | 'data'>>(_this: this, retDataInit: T): R
 	{
-		let jsdom = this._responseDataToJSDOM(this.$returnValue);
+		let jsdom = _this._responseDataToJSDOM(_this.$returnValue, this.$response);
 
 		let $ = jsdom.$;
 
@@ -131,18 +120,11 @@ export class Wenku8Client extends AbstractHttpClient
 		// @ts-ignore
 		let pageEnd: number = $('#pagelink .last').text() | 0;
 
-		let ret = {
-			page,
+		let ret: T = {
+			...retDataInit,
 			end: pageEnd,
 			last_update_time: 0,
-			data: [] as {
-				id: string,
-				cid: string,
-				name: string,
-				cover: string,
-				last_update_time: number,
-				last_update_chapter_name: string,
-			}[]
+			data: []
 		};
 
 		let lastUpdateTime = 0;
@@ -162,6 +144,8 @@ export class Wenku8Client extends AbstractHttpClient
 				;
 
 				let title = _a.prop('tiptitle') || _a.prop('title');
+
+				title = trimUnsafe(title);
 
 				let _a2 = _this
 					.find('a[href*="/novel/"]:eq(0)')
@@ -185,6 +169,10 @@ export class Wenku8Client extends AbstractHttpClient
 				}
 				else
 				{
+					_a2 = _this
+						.find('a[href*="/book/"]:eq(0)')
+					;
+
 					let _m = _a2.prop('href').match(/book\/(\d+)\.htm/);
 
 					if (_m)
@@ -193,7 +181,9 @@ export class Wenku8Client extends AbstractHttpClient
 					}
 				}
 
-				let _m = _this.text().match(/(\d+\-\d+\-\d+)/);
+				let _text = _this.text();
+
+				let _m = _text.match(/(\d+\-\d+\-\d+)/);
 
 				let last_update_time: number;
 				if (_m)
@@ -203,12 +193,34 @@ export class Wenku8Client extends AbstractHttpClient
 					lastUpdateTime = Math.max(lastUpdateTime, last_update_time)
 				}
 
-				title = trimUnsafe(title);
+				let authors: string;
+
+				if (_m = _text.match(/作者\:([^\n]+)\/分/))
+				{
+					authors = trimUnsafe(_m[1]);
+				}
+
+				let status: string;
+
+				if (_m = _text.match(/\/(?:状|狀)(?:态|態):([^\n\s]+)/))
+				{
+					status = trimUnsafe(_m[1]);
+				}
+
+				let publisher: string;
+
+				if (_m = _text.match(/分(?:类|類)\:([^\n]+)\/(?:状|狀)/))
+				{
+					publisher = trimUnsafe(_m[1]);
+				}
 
 				ret.data.push({
 					id: nid,
 					cid,
 					name: title,
+					authors,
+					publisher,
+					status,
 					cover,
 					last_update_time,
 					last_update_chapter_name,
@@ -223,11 +235,50 @@ export class Wenku8Client extends AbstractHttpClient
 		return ret as any;
 	}
 
+	/**
+	 * 轻小说最近更新
+	 */
+	@GET('modules/article/toplist.php')
+	@methodBuilder()
+	articleToplist(@ParamQuery('page', 1) page?: number,
+		@ParamQuery('sort', 'lastupdate') sortType?: IArticleToplistSortType | 'lastupdate',
+	): IBluebird<IWenku8RecentUpdateWithSortType>
+	{
+		return this._handleArticleList<IWenku8RecentUpdateWithSortType>(this, {
+			page,
+			end: undefined,
+			last_update_time: 0,
+			sort: sortType,
+			data: []
+		}) as any
+	}
+
+	/**
+	 * 轻小说列表
+	 * 注意與轻小说最近更新不同，此列表可能會額外多出其他小說
+	 */
+	@GET('modules/article/articlelist.php')
+	@methodBuilder()
+	articleList(@ParamQuery('page', 1) page?: number, @ParamQuery('fullflag') fullflag?: number): IBluebird<IWenku8RecentUpdate>
+	{
+		return this._handleArticleList<IWenku8RecentUpdate>(this, {
+			page,
+			end: undefined,
+			last_update_time: 0,
+			data: []
+		}) as any
+	}
+
 	@GET('index.php')
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
 	@methodBuilder()
 	isLogin(): IBluebird<boolean>
 	{
-		let jsdom = this._responseDataToJSDOM(this.$returnValue);
+		let jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
 
 		return !!jsdom
 			.$('a[href="https://www.wenku8.net/logout.php"]')
@@ -239,9 +290,198 @@ export class Wenku8Client extends AbstractHttpClient
 		return iconvDecode(buf);
 	}
 
-	_responseDataToJSDOM(data: unknown)
+	_responseDataToJSDOM(data: unknown, response: this["$response"])
 	{
+		if (response && response.config && response.config.url)
+		{
+			return createJSDOM(this._decodeBuffer(data), {
+				url: response.config.url.toString(),
+			});
+		}
+
 		return createJSDOM(this._decodeBuffer(data));
+	}
+
+	@GET('book/{novel_id}.htm')
+	@methodBuilder()
+	bookInfo(@ParamPath('novel_id') novel_id: number | string): IBluebird<IWenku8RecentUpdateRowBook>
+	{
+		let jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+		const $ = jsdom.$;
+
+		let data: IWenku8RecentUpdateRowBook = ({
+			id: novel_id.toString(),
+			"cid": undefined,
+			"name": undefined,
+			"authors": undefined,
+			"publisher": undefined,
+			"status": undefined,
+			"cover": undefined,
+			"last_update_time": undefined,
+			"last_update_chapter_name": undefined,
+			desc: undefined,
+		});
+
+		data.name = trimUnsafe($('#content table:eq(0) table:eq(0) td > span > b').text());
+
+		$('#content table:eq(0) tr:not(table) td')
+			.each(function (i, elem)
+			{
+				let _this = $(this);
+
+				let _text = trimUnsafe(_this.text());
+
+				let _m = _text.match(/分(?:类|類)：([^\n]+)/);
+
+				if (_m)
+				{
+					data.publisher = trimUnsafe(_m[1])
+				}
+				else if (_m = _text.match(/作者：([^\n]+)/))
+				{
+					data.authors = trimUnsafe(_m[1])
+				}
+				else if (_m = _text.match(/(?:状|狀)(?:态|態)：([^\n]+)/))
+				{
+					data.status = trimUnsafe(_m[1])
+				}
+				else if (_m = _text.match(/更新：(\d+\-\d+\-\d+)/))
+				{
+					let last_update_time = moment(_m[1]).unix();
+					data.last_update_time = last_update_time;
+				}
+
+			})
+		;
+
+		let _content = $('#content > div > table:eq(1)');
+
+		try
+		{
+			tryMinifyHTML(_content.html(), (html) => {
+				_content.html(html);
+			});
+		}
+		catch (e)
+		{
+
+		}
+
+		data.cover = _content.find('img:eq(0)').prop('src');
+		data.desc = trimUnsafe(_content.find('.hottext + br + span:eq(-1)').text() || '');
+
+		let _a2 = _content
+			.find('a[href*="/novel/"]:eq(0)')
+		;
+
+		if (_a2.length)
+		{
+			let _m = _a2.prop('href')
+				.match(/\/novel\/(\d+)\/(\d+)\//)
+			;
+
+			if (_m)
+			{
+				data.cid = _m[1];
+			}
+
+			data.last_update_chapter_name = trimUnsafe(_a2.text());
+		}
+
+		return data as any;
+	}
+
+	@GET('novel/{cid}/{novel_id}/index.htm')
+	@methodBuilder()
+	bookChapters(@ParamPath('novel_id') novel_id: number | string, @ParamPath('cid') cid: number | string): IBluebird<IWenku8BookChapters>
+	{
+		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+		const $ = jsdom.$;
+
+		novel_id = novel_id.toString();
+		cid = cid.toString();
+
+		let name = trimUnsafe($('body > #title').text());
+		let authors = trimUnsafe($('#info').text().replace(/^[^：]+：/g, ''));
+
+		let data: IWenku8BookChapters = {
+			id: novel_id,
+			cid,
+			name,
+			authors,
+			chapters: [],
+		};
+
+		let volume_order = -1;
+		let chapter_order = 0;
+
+		let body = $('.css').find('td.vcss, td.ccss');
+
+		body
+			.each((i, elem) => {
+				let _this = $(elem);
+
+				if (_this.is('.vcss'))
+				{
+					volume_order++;
+
+					let volume_name = trimUnsafe(_this.text());
+
+					data.chapters[volume_order] = {
+						volume_name,
+						volume_order,
+						chapters: [],
+					};
+
+					chapter_order = 0;
+				}
+				else
+				{
+					let _a = _this.find('a:eq(0)');
+
+					if (_a.length)
+					{
+						let _m = _a
+							.prop('href')
+							.match(/(?:novel\/(\d+)\/(\d+)\/)?(\d+)\.htm/)
+						;
+
+						data.chapters[volume_order]
+							.chapters
+							.push({
+								novel_id: novel_id as string,
+								cid: cid as string,
+
+								chapter_id: _m[3],
+								chapter_name: trimUnsafe(_a.text()),
+
+								chapter_order,
+							})
+						;
+					}
+
+					chapter_order++;
+				}
+			})
+		;
+
+		return data as any;
+	}
+
+	bookInfoWithChapters(@ParamPath('novel_id') novel_id: number | string)
+	{
+		return this
+			.bookInfo(novel_id)
+			.then(async function (this: Wenku8Client, data)
+			{
+				let { chapters } = await this.bookChapters(data.id, data.cid);
+
+				return <IWenku8RecentUpdateRowBookWithChapters>{
+					...data,
+					chapters,
+				}
+			})
+		;
 	}
 
 }
