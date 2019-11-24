@@ -2,7 +2,7 @@
  * Created by user on 2019/6/10.
  */
 
-import toughCookie, { CookieJar, Store } from 'tough-cookie';
+import toughCookie, { CookieJar, Store, Cookie } from 'tough-cookie';
 import moment from 'moment';
 import { ITSRequireAtLeastOne, ITSPickExtra, ITSRequiredWith } from 'ts-type';
 import SymbolInspect from 'symbol.inspect';
@@ -121,11 +121,8 @@ export class LazyCookieJar extends toughCookie.CookieJar
 		return this;
 	}
 
-	setCookieSync(cookieOrString: ICookiesValue,
-		currentUrl?: string | URL,
-		options: toughCookie.CookieJar.SetCookieOptions = {},
-		...argv: any[]
-	)
+	_handleCookieOrString(cookieOrString: ICookiesValue,
+		currentUrl?: string | URL)
 	{
 		if (typeof cookieOrString == 'string')
 		{
@@ -148,8 +145,38 @@ export class LazyCookieJar extends toughCookie.CookieJar
 			currentUrl = currentUrl.toString();
 		}
 
+		return {
+			cookieOrString,
+			currentUrl,
+		}
+	}
+
+	setCookie(cookieOrString: ICookiesValue, currentUrl: string | URL, options: CookieJar.SetCookieOptions, cb: (err: Error | null, cookie: Cookie) => void): void;
+	setCookie(cookieOrString: ICookiesValue, currentUrl: string | URL, cb: (err: Error, cookie: Cookie) => void): void;
+	setCookie(cookieOrString: ICookiesValue, currentUrl?: any, ...argv: any[])
+	{
+		({ cookieOrString, currentUrl } = this._handleCookieOrString(cookieOrString, currentUrl));
+
+		// @ts-ignore
+		return super.setCookie(cookieOrString as toughCookie.Cookie, currentUrl as string, ...argv)
+	}
+
+
+	setCookieSync(cookieOrString: ICookiesValue,
+		currentUrl?: string | URL,
+		options: toughCookie.CookieJar.SetCookieOptions = {},
+		...argv: any[]
+	): void
+	{
+		({ cookieOrString, currentUrl } = this._handleCookieOrString(cookieOrString, currentUrl));
+
 		// @ts-ignore
 		return super.setCookieSync(cookieOrString as toughCookie.Cookie, currentUrl as string, options, ...argv)
+	}
+
+	deleteCookieSync(name: string)
+	{
+		return this.setCookieSync(`${name}=;expires=Thu, 01 Jan 1970 00:00:01 GMT;`);
 	}
 
 	static create(store?: any, options = {}, data = {}, url?: string | URL)
