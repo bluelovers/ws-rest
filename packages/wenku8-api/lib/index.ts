@@ -510,7 +510,9 @@ export class Wenku8Client extends AbstractHttpClient
 
 	cookiesRemoveTrack()
 	{
-		this._jar().deleteCookieSync('jieqiVisitId');
+		let _jar = this._jar();
+		_jar.deleteCookieSync('jieqiVisitId');
+
 		return this
 	}
 

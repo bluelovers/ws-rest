@@ -33,7 +33,7 @@ export interface IWenku8RecentUpdateRow extends IWenku8BookInfoMini
 	status: string,
 	cover: string;
 	last_update_time: number;
-	last_update_chapter_name: string;
+	last_update_chapter_name?: string;
 }
 
 export interface IWenku8RecentUpdateRowBook extends IWenku8RecentUpdateRow

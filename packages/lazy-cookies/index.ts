@@ -174,9 +174,25 @@ export class LazyCookieJar extends toughCookie.CookieJar
 		return super.setCookieSync(cookieOrString as toughCookie.Cookie, currentUrl as string, options, ...argv)
 	}
 
+	findCookieByKey(name: string)
+	{
+		return this.getAllCookies()
+			.filter(v => v.key === name)
+	}
+
 	deleteCookieSync(name: string)
 	{
-		return this.setCookieSync(`${name}=;expires=Thu, 01 Jan 1970 00:00:01 GMT;`);
+		let cs = this.findCookieByKey(name);
+
+		cs
+			.forEach(v => {
+				v.setMaxAge(-1);
+				v.expiryTime(0);
+				v.value = '';
+			})
+		;
+
+		return cs;
 	}
 
 	static create(store?: any, options = {}, data = {}, url?: string | URL)
