@@ -4,12 +4,17 @@
 
 (async () => {
 
-	await import('./build/toplist');
+	await lazyImport('./build/toplist');
 
-	await import('./build/task001');
+	await lazyImport('./build/task001');
 
-	await import('./build/merge');
+	await lazyImport('./build/merge');
 
-	await import('./build/cache');
+	await lazyImport('./build/cache');
 
 })();
+
+function lazyImport(name: string)
+{
+	return import(name).then(v => v.default)
+}
