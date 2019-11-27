@@ -12,6 +12,8 @@ export interface IWenku8RecentUpdate
 
 export type IArticleToplistSortType = 'lastupdate' | 'postdate' | 'anime' | 'allvisit';
 
+export type IArticleSearchType = 'articlename' | 'author';
+
 export interface IWenku8RecentUpdateWithSortType extends IWenku8RecentUpdate
 {
 	sort: IArticleToplistSortType,
@@ -80,3 +82,8 @@ export interface IWenku8BookChaptersVolChapter
 	"chapter_order": number,
 }
 
+export interface IWenku8SearchList extends IWenku8RecentUpdate
+{
+	searchtype: IArticleSearchType,
+	searchkey: string,
+}

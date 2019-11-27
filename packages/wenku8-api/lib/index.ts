@@ -14,7 +14,7 @@ import {
 	POST,
 	RequestConfigs,
 	TransformResponse,
-	CatchError, ParamQuery,
+	CatchError, ParamQuery, HandleParamMetadata,
 } from 'restful-decorator/lib/decorators';
 import { ICookiesValue, LazyCookieJar } from 'lazy-cookies';
 import { getCookieJar } from 'restful-decorator/lib/decorators/config/cookies';
@@ -33,9 +33,18 @@ import {
 	IWenku8RecentUpdate,
 	IArticleToplistSortType,
 	IWenku8RecentUpdateWithSortType,
-	IWenku8RecentUpdateRow, IWenku8RecentUpdateRowBook, IWenku8BookChapters, IWenku8RecentUpdateRowBookWithChapters,
+	IWenku8RecentUpdateRow,
+	IWenku8RecentUpdateRowBook,
+	IWenku8BookChapters,
+	IWenku8RecentUpdateRowBookWithChapters,
+	IArticleSearchType, IWenku8SearchList,
 } from './types';
 import { minifyHTML } from 'jsdom-extra/lib/html';
+import { buildVersion } from 'dmzj-api/lib/util';
+import iconv, { decode as _iconvDecode } from 'iconv-jschardet';
+import { encodeURIComponent as encodeURIComponentGBK } from './util/urlEncodeGBK';
+import { expand as expandUriTpl } from 'router-uri-convert/parser';
+import subobject from 'restful-decorator/lib/helper/subobject';
 
 /**
  * https://www.wenku8.net/index.php
@@ -116,6 +125,8 @@ export class Wenku8Client extends AbstractHttpClient
 		tds.filter(':empty').remove();
 
 		tds = $('#centerm #content .grid > tbody > tr > td > div');
+
+		//console.debug(jsdom.serialize());
 
 		// @ts-ignore
 		let pageEnd: number = $('#pagelink .last').text() | 0;
@@ -514,6 +525,53 @@ export class Wenku8Client extends AbstractHttpClient
 		_jar.deleteCookieSync('jieqiVisitId');
 
 		return this
+	}
+
+	//@POST('so.php')
+	@GET('modules/article/search.php?searchtype={searchtype}&searchkey={searchkey}&page={page}')
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
+	@methodBuilder({
+		autoRequest: false,
+	})
+	search(@ParamMapAuto({
+		searchtype: 'articlename',
+		page: 1,
+	}) searchData: {
+		'searchkey': string,
+		searchtype?: IArticleSearchType,
+		page?: number,
+	}): IBluebird<IWenku8SearchList>
+	{
+		let searchkey = searchData.searchkey;
+
+		let url = `modules/article/search.php?searchtype=${searchData.searchtype}&searchkey=${encodeURIComponentGBK(searchkey)}&page=${searchData.page}`;
+
+		let $requestConfig = {
+			...this.$requestConfig,
+			url,
+		};
+
+		return Bluebird
+			.resolve(this.$http($requestConfig))
+			.then(v => {
+				return this._handleArticleList<IWenku8SearchList>(subobject({
+					$requestConfig,
+					$returnValue: v.data,
+					$response: v.request,
+				}, this) as this, {
+					searchtype: searchData.searchtype,
+					searchkey,
+					page: searchData.page,
+					end: undefined,
+					last_update_time: 0,
+					data: []
+				})
+			})
+		;
 	}
 
 }
