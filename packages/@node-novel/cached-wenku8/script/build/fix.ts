@@ -23,7 +23,9 @@ import { consoleDebug } from '../util';
 
 			let _file = cacheFileInfoPath(id);
 
-			let info = await readJSON(_file) as IWenku8RecentUpdateRowBookWithChapters;
+			let info = await readJSON(_file).catch(e => null) as IWenku8RecentUpdateRowBookWithChapters;
+
+			if (info == null) return;
 
 			let _changed = false;
 
