@@ -79,23 +79,17 @@ export class Wenku8Client extends AbstractHttpClient
 
 	protected _constructor()
 	{
-		const jar = this._jar();
-
-		this.setCookieSync('jieqiUserCharset=gbk');
-
-		console.dir(jar.store, {
-			depth: 5,
-		});
+		this._setCookieSync('jieqiUserCharset=gbk');
 	}
 
-	setCookieSync(...argv: Parameters<LazyCookieJar["setCookieSync"]>)
+	_setCookieSync(...argv: Parameters<LazyCookieJar["setCookieSync"]>)
 	{
 		if (argv[1] == null)
 		{
 			argv[1] = this.$baseURL;
 		}
 
-		return this._jar().setCookieSync('jieqiUserCharset=gbk', this.$baseURL);
+		return this._jar().setCookieSync(...argv);
 	}
 
 	_serialize(jar?: CookieJar)
@@ -587,6 +581,11 @@ export class Wenku8Client extends AbstractHttpClient
 		return this
 	}
 
+	_encodeURIComponent(text: string): string
+	{
+		return encodeURIComponentGBK(text)
+	}
+
 	//@POST('so.php')
 	@GET('modules/article/search.php?searchtype={searchtype}&searchkey={searchkey}&page={page}')
 	@CacheRequest({
@@ -608,7 +607,7 @@ export class Wenku8Client extends AbstractHttpClient
 	{
 		let searchkey = searchData.searchkey;
 
-		let url = `modules/article/search.php?searchtype=${searchData.searchtype}&searchkey=${encodeURIComponentGBK(searchkey)}&page=${searchData.page}`;
+		let url = `modules/article/search.php?searchtype=${searchData.searchtype}&searchkey=${this._encodeURIComponent(searchkey)}&page=${searchData.page}`;
 
 		let $requestConfig = {
 			...this.$requestConfig,
