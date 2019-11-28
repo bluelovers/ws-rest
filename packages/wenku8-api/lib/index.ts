@@ -79,7 +79,11 @@ export class Wenku8Client extends AbstractHttpClient
 
 	protected _constructor()
 	{
-		this._setCookieSync('jieqiUserCharset=gbk');
+		this._setCookieSync({
+			key: 'jieqiUserCharset',
+			value: 'gbk',
+			expires: 3600 * 24,
+		});
 	}
 
 	_setCookieSync(...argv: Parameters<LazyCookieJar["setCookieSync"]>)
@@ -349,7 +353,7 @@ export class Wenku8Client extends AbstractHttpClient
 					cookieJar,
 				};
 
-				console.debug(`_responseDataToJSDOM`, $responseUrl);
+				//console.debug(`_responseDataToJSDOM`, $responseUrl);
 			}
 
 			if (config)
