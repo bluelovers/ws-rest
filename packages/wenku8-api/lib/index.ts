@@ -24,7 +24,7 @@ import { array_unique } from 'array-hyper-unique';
 import consoleDebug from 'restful-decorator/lib/util/debug';
 import { ParamMapAuto } from 'restful-decorator/lib/decorators/body';
 import toughCookie, { CookieJar } from 'tough-cookie';
-import { fromURL, IFromUrlOptions, IJSDOM, createJSDOM } from 'jsdom-extra';
+import { fromURL, IFromUrlOptions, IJSDOM, createJSDOM, IConstructorOptions as IJSDOMConstructorOptions } from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
 import { arrayBufferToString, sniffHTMLEncoding, iconvDecode, trimUnsafe, tryMinifyHTML } from './util';
@@ -41,10 +41,12 @@ import {
 } from './types';
 import { minifyHTML } from 'jsdom-extra/lib/html';
 import { buildVersion } from 'dmzj-api/lib/util';
-import iconv, { decode as _iconvDecode } from 'iconv-jschardet';
+import iconv, { decode as _iconvDecode, BufferFrom } from 'iconv-jschardet';
 import { encodeURIComponent as encodeURIComponentGBK } from './util/urlEncodeGBK';
 import { expand as expandUriTpl } from 'router-uri-convert/parser';
 import subobject from 'restful-decorator/lib/helper/subobject';
+import { getResponseUrl } from '@bluelovers/axios-util/lib';
+import { Buffer } from 'buffer';
 
 /**
  * https://www.wenku8.net/index.php
@@ -71,6 +73,29 @@ export class Wenku8Client extends AbstractHttpClient
 		}
 
 		super(defaults, ...argv);
+
+		this._constructor();
+	}
+
+	protected _constructor()
+	{
+		const jar = this._jar();
+
+		this.setCookieSync('jieqiUserCharset=gbk');
+
+		console.dir(jar.store, {
+			depth: 5,
+		});
+	}
+
+	setCookieSync(...argv: Parameters<LazyCookieJar["setCookieSync"]>)
+	{
+		if (argv[1] == null)
+		{
+			argv[1] = this.$baseURL;
+		}
+
+		return this._jar().setCookieSync('jieqiUserCharset=gbk', this.$baseURL);
 	}
 
 	_serialize(jar?: CookieJar)
@@ -298,22 +323,52 @@ export class Wenku8Client extends AbstractHttpClient
 
 	_decodeBuffer(buf: unknown | ArrayBuffer | Buffer)
 	{
-		return iconvDecode(buf);
+		return iconvDecode(Buffer.from(buf as any));
 	}
 
 	_responseDataToJSDOM(data: unknown, response: this["$response"])
 	{
-		if (response && response.config && response.config.url)
+		const html = this._decodeBuffer(data);
+
+		let config: IJSDOMConstructorOptions;
+
+		if (response)
 		{
-			return createJSDOM(this._decodeBuffer(data), {
-				url: response.config.url.toString(),
-			});
+			let $responseUrl = getResponseUrl(response);
+
+			if (!$responseUrl && response.config && response.config.url)
+			{
+				$responseUrl = response.config.url.toString()
+			}
+
+			let cookieJar: CookieJar;
+
+			if (response.config && response.config.jar && typeof response.config.jar === 'object')
+			{
+				cookieJar = response.config.jar;
+			}
+
+			if ($responseUrl || cookieJar)
+			{
+				config = {
+					url: $responseUrl,
+					cookieJar,
+				};
+
+				console.debug(`_responseDataToJSDOM`, $responseUrl);
+			}
+
+			if (config)
+			{
+				return createJSDOM(html, config);
+			}
 		}
 
-		return createJSDOM(this._decodeBuffer(data));
+		return createJSDOM(html);
 	}
 
-	@GET('book/{novel_id}.htm')
+	//@GET('book/{novel_id}.htm')
+	@GET('modules/article/articleinfo.php?id={novel_id}&charset=gbk')
 	@methodBuilder()
 	bookInfo(@ParamPath('novel_id') novel_id: number | string): IBluebird<IWenku8RecentUpdateRowBook>
 	{
@@ -420,6 +475,11 @@ export class Wenku8Client extends AbstractHttpClient
 				{
 					data.cid = _m[1];
 				}
+			}
+
+			if (data.cid == null)
+			{
+				throw new Error(`data.cid == null`)
 			}
 		}
 

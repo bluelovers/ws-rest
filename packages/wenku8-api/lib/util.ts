@@ -10,12 +10,13 @@ import { LazyCookieJar } from 'lazy-cookies';
 import { removeZeroWidth } from 'zero-width';
 import { crlf } from 'crlf-normalize';
 import { minifyHTML } from 'jsdom-extra/lib/html';
+import { Buffer } from 'buffer';
 
 export { removeZeroWidth }
 
 export function arrayBufferToString(buf: number[])
 {
-	return String.fromCharCode.apply(null, buf);
+	return Buffer.from(buf).toString();
 }
 
 export function sniffHTMLEncoding(buf: unknown | ArrayLike<number>, defaultEncoding = 'GBK'): string
