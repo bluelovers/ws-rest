@@ -3,21 +3,21 @@
   "name": "三角距离无限为零",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "终章",
-  "last_update_volume_id": 9956,
-  "last_update_chapter_id": 94248,
-  "last_update_time": 1551361808,
+  "last_update_volume_name": "短篇",
+  "last_update_chapter_name": "正确的三角开始方法（前日谈）",
+  "last_update_volume_id": 10464,
+  "last_update_chapter_id": 101173,
+  "last_update_time": 1574936196,
   "cover": "https://xs.dmzj.com/img/webpic/18/sj1225l.jpg",
-  "hot_hits": 117953,
+  "hot_hits": 167616,
   "introduction": "我与「她们」之间奇妙又扭曲的三角关系。那段距离无限接近，近乎为零——\n在人前会扮演「虚假自我」的我。这样的我喜欢上了无论何时都会贯彻自己，文静的转校生，水濑秋玻。然而，在她的里面还有一个——温柔又有些脱线的少女，水濑春珂。\n一人之中的两人……多重人格的「秋玻」与「春珂」。在知晓她们秘密之时，我们的关系不可思议地彼此交错——这是我与她与她编织的三角恋爱物语。",
   "types": [
     "校园"
   ],
   "authors": "岬鹭宫",
   "first_letter": "S",
-  "subscribe_num": 18198,
-  "redis_update_time": 1564341915,
+  "subscribe_num": 20185,
+  "redis_update_time": 1575008662,
   "volume": [
     {
       "id": 9852,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1545729080,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 9956,
@@ -33,7 +33,23 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1550309152,
-      "sum_chapters": 8
+      "sum_chapters": 10
+    },
+    {
+      "id": 10464,
+      "lnovel_id": 2601,
+      "volume_name": "短篇",
+      "volume_order": 22,
+      "addtime": 1574936032,
+      "sum_chapters": 10
+    },
+    {
+      "id": 10463,
+      "lnovel_id": 2601,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1574935620,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -145,6 +161,127 @@
           "chapter_id": 94248,
           "chapter_name": "终章",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10464,
+      "id": 10464,
+      "volume_name": "短篇",
+      "volume_order": 22,
+      "chapters": [
+        {
+          "chapter_id": 101164,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101165,
+          "chapter_name": "热中症（译注：即中暑）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101166,
+          "chapter_name": "二重人格的美食家",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101167,
+          "chapter_name": "Boys of Poolside",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101168,
+          "chapter_name": "Shape-up! Girls",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101169,
+          "chapter_name": "须藤的天空，读书感想的夏天",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101170,
+          "chapter_name": "读者和主人公和作家和编辑和教师的一个晚上",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101171,
+          "chapter_name": "夏天结束之日",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101172,
+          "chapter_name": "告白的练习",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 101173,
+          "chapter_name": "正确的三角开始方法（前日谈）",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10463,
+      "id": 10463,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 101153,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101154,
+          "chapter_name": "序章 跨上彩色铅笔 走吧向着地狱 去买点心",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101155,
+          "chapter_name": "第十二章【a Janus-Girl in♥】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101156,
+          "chapter_name": "第十三章【看不惯】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101157,
+          "chapter_name": "第十四章【Follow Me!!】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101158,
+          "chapter_name": "第十五章【想要伤害】",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101159,
+          "chapter_name": "第十六章【我们在平坦的舞台上生存下去】",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101160,
+          "chapter_name": "第十七章【起舞】",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101161,
+          "chapter_name": "间章【Blockbuster】",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 101162,
+          "chapter_name": "终章【Classmate】",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 101163,
+          "chapter_name": "后记",
+          "chapter_order": 110
         }
       ]
     }
