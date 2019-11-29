@@ -48,6 +48,7 @@ import subobject from 'restful-decorator/lib/helper/subobject';
 import { getResponseUrl } from '@bluelovers/axios-util/lib';
 import { Buffer } from 'buffer';
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
+import uniqBy from 'lodash/uniqBy';
 
 /**
  * https://www.wenku8.net/index.php
@@ -353,7 +354,7 @@ export class Wenku8Client extends AbstractHttpClient
 					from,
 					to,
 					last_update_time,
-					data: array_unique(data),
+					data: uniqBy(data, 'id'),
 				} as IUnpackedPromiseLikeReturnType<T> & {
 					from: number;
 					to: number;

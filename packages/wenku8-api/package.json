@@ -26,6 +26,7 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
+    "lodash": "^4.17.15",
     "bluebird": "^3.7.1",
     "buffer": "^5.4.3",
     "crlf-normalize": "^1.0.3",
