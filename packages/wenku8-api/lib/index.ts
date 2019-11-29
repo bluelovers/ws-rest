@@ -37,7 +37,7 @@ import {
 	IWenku8RecentUpdateRowBook,
 	IWenku8BookChapters,
 	IWenku8RecentUpdateRowBookWithChapters,
-	IArticleSearchType, IWenku8SearchList,
+	IArticleSearchType, IWenku8SearchList, IParametersSlice,
 } from './types';
 import { minifyHTML } from 'jsdom-extra/lib/html';
 import { buildVersion } from 'dmzj-api/lib/util';
@@ -47,6 +47,7 @@ import { expand as expandUriTpl } from 'router-uri-convert/parser';
 import subobject from 'restful-decorator/lib/helper/subobject';
 import { getResponseUrl } from '@bluelovers/axios-util/lib';
 import { Buffer } from 'buffer';
+import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 
 /**
  * https://www.wenku8.net/index.php
@@ -287,6 +288,80 @@ export class Wenku8Client extends AbstractHttpClient
 		}) as any
 	}
 
+	articleToplistAll(from: number, to: number = Infinity, options?: {
+		throwError?: boolean
+		delay?: number,
+	}, ...args: IParametersSlice<this["articleToplist"]>)
+	{
+		return this._handleArticleTopListAll(this.articleToplist, args, from ,to, options)
+	}
+
+	protected _handleArticleTopListAll<T extends (page: number, args: any) => any>(method: T, args: IParametersSlice<T>, from: number = 0, pageTo: number = Infinity, {
+		throwError,
+		delay,
+	}: {
+		throwError?: boolean
+		delay?: number,
+	} = {})
+	{
+		delay |= 0;
+
+		return (method as Wenku8Client["articleToplist"])
+			.call(this, from, ...args)
+			.then(async function (this: Wenku8Client, dataReturn)
+			{
+				const from: number = dataReturn.page;
+				let to: number = from;
+				let { last_update_time, data } = dataReturn;
+
+				throwError = !!throwError;
+
+				while (to < pageTo)
+				{
+					delay && await Bluebird.delay(delay);
+
+					let retP = (method as Wenku8Client["articleToplist"])
+						.call(this, to + 1, ...args)
+					;
+
+					let ret: IUnpackedPromiseLikeReturnType<Wenku8Client["articleToplist"]>;
+
+					if (throwError)
+					{
+						ret = await retP;
+					}
+					else
+					{
+						ret = await retP.catch(e => null);
+					}
+
+					if (ret != null && ret.page != from && ret.page != to)
+					{
+						to = ret.page;
+						last_update_time = Math.max(last_update_time, ret.last_update_time);
+
+						data.push(...ret.data);
+
+						continue;
+					}
+
+					break;
+				}
+
+				return {
+					...(dataReturn as Omit<IUnpackedPromiseLikeReturnType<T>, 'data'>),
+					from,
+					to,
+					last_update_time,
+					data: array_unique(data),
+				} as IUnpackedPromiseLikeReturnType<T> & {
+					from: number;
+					to: number;
+				}
+			})
+		;
+	}
+
 	/**
 	 * 轻小说列表
 	 * 注意與轻小说最近更新不同，此列表可能會額外多出其他小說
@@ -301,6 +376,14 @@ export class Wenku8Client extends AbstractHttpClient
 			last_update_time: 0,
 			data: []
 		}) as any
+	}
+
+	articleListAll(from: number, to: number = Infinity, options?: {
+		throwError?: boolean
+		delay?: number,
+	}, ...args: IParametersSlice<this["articleList"]>)
+	{
+		return this._handleArticleTopListAll(this.articleList, args, from ,to, options)
 	}
 
 	@GET('index.php')

@@ -87,3 +87,5 @@ export interface IWenku8SearchList extends IWenku8RecentUpdate
 	searchtype: IArticleSearchType,
 	searchkey: string,
 }
+
+export type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;
