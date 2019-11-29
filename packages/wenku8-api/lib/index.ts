@@ -15,6 +15,7 @@ import {
 	RequestConfigs,
 	TransformResponse,
 	CatchError, ParamQuery, HandleParamMetadata,
+	ParamMapAuto,
 } from 'restful-decorator/lib/decorators';
 import { ICookiesValue, LazyCookieJar } from 'lazy-cookies';
 import { getCookieJar } from 'restful-decorator/lib/decorators/config/cookies';
@@ -22,7 +23,6 @@ import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';
 import { array_unique } from 'array-hyper-unique';
 import consoleDebug from 'restful-decorator/lib/util/debug';
-import { ParamMapAuto } from 'restful-decorator/lib/decorators/body';
 import toughCookie, { CookieJar } from 'tough-cookie';
 import { fromURL, IFromUrlOptions, IJSDOM, createJSDOM, IConstructorOptions as IJSDOMConstructorOptions } from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
@@ -719,6 +719,102 @@ export class Wenku8Client extends AbstractHttpClient
 				})
 			})
 		;
+	}
+
+	/**
+	 *
+	 * @example ```
+	 * api.getChapter({
+			novel_id: 2555,
+			cid: 2,
+			chapter_id: 101191,
+		}, {
+			cb(data)
+			{
+
+				data.$elem.after(`(插圖${data.i})\n`);
+				data.$elem.remove();
+			},
+		})
+	 ```
+	 */
+	@GET('https://www.wenku8.net/novel/{cid}/{novel_id}/{chapter_id}.htm')
+	@methodBuilder()
+	getChapter(@ParamMapAuto() argv: {
+		novel_id: string | number,
+		cid: string | number,
+		chapter_id: string | number,
+	}, options: {
+		rawHtml?: boolean,
+		cb?(data: {
+			i: number,
+			$elem: JQuery<HTMLElement>,
+			$content: JQuery<HTMLElement>,
+			src: string,
+			imgs: string[],
+		}): void,
+	} = {}): IBluebird<{
+		novel_id: string;
+		cid: string;
+		chapter_id: string;
+		imgs: string[];
+		text: string;
+		html?: string;
+	}>
+	{
+		let jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+		const $ = jsdom.$;
+
+		let $content = $('#content');
+
+		$content.find('#contentdp').remove();
+		$content.find('#contentdp').remove();
+		$content.find('#contentdp').remove();
+
+		$content.html(tryMinifyHTML($content.html()).replace(/^(&nbsp;){4}/gm, ''));
+
+		let imgs = [] as string[];
+
+		const { cb } = options;
+
+		let html: string;
+
+		if (options.rawHtml)
+		{
+			html = $content.html();
+		}
+
+		$content
+			.find('img[src]')
+			.each((i, elem) => {
+				let $elem = $(elem);
+				let src = $elem.prop('src').trim();
+
+				imgs.push(src);
+
+				if (cb)
+				{
+					cb({
+						i,
+						$elem,
+						$content,
+						src,
+						imgs,
+					})
+				}
+			})
+		;
+
+		let text = $content.text();
+
+		return {
+			novel_id: argv.novel_id.toString(),
+			cid: argv.cid.toString(),
+			chapter_id: argv.chapter_id.toString(),
+			imgs,
+			text,
+			html,
+		} as any
 	}
 
 }
