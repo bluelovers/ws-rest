@@ -99,8 +99,8 @@ declare module 'axios'
 
 	interface AxiosResponse<T = any>
 	{
-		headers: AxiosResponse["headers"] | IHttpheaders;
-		request?: AxiosResponse["request"] | IAxiosResponseClientRequest;
+		headers: AxiosResponse<T>["headers"] | IHttpheaders;
+		request?: AxiosResponse<T>["request"] | IAxiosResponseClientRequest;
 	}
 
 	interface AxiosError<T = any>
