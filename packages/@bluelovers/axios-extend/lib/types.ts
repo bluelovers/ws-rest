@@ -13,6 +13,8 @@ import { ITSPartialPick, ITSUnpackedPromiseLike } from 'ts-type';
 import { RetryConfig as IAxiosRetryConfig } from 'retry-axios';
 import { IPropertyKey } from 'reflect-metadata-util';
 import { setupCache, IAxiosCacheAdapterOptions, ISetupCache } from 'axios-cache-adapter';
+import { FollowResponse } from 'follow-redirects';
+import { ITSOverwrite } from 'ts-type/lib/type/record';
 
 export type IBluebird<T> = Bluebird<T>
 export type IHttpheadersValues = string | number | boolean | string[];
@@ -47,12 +49,12 @@ export interface IAxiosAdapterWarpper
 
 export interface IAxiosResponseClientRequest extends Record<IPropertyKey, any>
 {
-	res?: {
-		responseUrl?: string,
-		redirects?: string[],
+	res?: ITSOverwrite<FollowResponse, {
+		responseUrl?: FollowResponse["responseUrl"],
+		redirects?: FollowResponse["redirects"],
 		headers?: IHttpheaders,
 		rawHeaders?: string[],
-	},
+	}>,
 	path?: string,
 	method?: string,
 	finished?: boolean,
