@@ -35,6 +35,11 @@ export function getResponseUrl(rp: AxiosResponse): string
 	return dotValue(rp, 'request.res.responseUrl')
 }
 
+export function getResponseRedirects(rp: AxiosResponse): string
+{
+	return dotValue(rp, 'request.res.redirects')
+}
+
 export function getAxiosErrorResponseData<T extends AxiosError>(err: T)
 {
 	return dotValue(err, 'response.data')

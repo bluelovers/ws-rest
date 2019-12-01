@@ -30,11 +30,11 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "get-value": "^3.0.1",
-    "unset-value": "^1.0.0"
+    "get-value": "^3.0.1"
   },
   "devDependencies": {
-    "@types/get-value": "^3.0.1"
+    "@types/get-value": "^3.0.1",
+    "unset-value": "^1.0.0"
   },
   "gitHead": "3b2eb218dca1032d13fa505a7032ae5be1dfe1e7"
 }
