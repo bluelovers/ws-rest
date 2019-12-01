@@ -3,13 +3,13 @@
   "name": "报告！哥哥和我要结婚了！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 好啦，把你的指围告诉我。",
+  "last_update_volume_name": "第三卷 好啦，先煮味噌汤给我吃。",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10247,
-  "last_update_chapter_id": 98283,
-  "last_update_time": 1564229096,
+  "last_update_volume_id": 10470,
+  "last_update_chapter_id": 101221,
+  "last_update_time": 1575218175,
   "cover": "https://xs.dmzj.com/img/webpic/7/gg0311l.jpg",
-  "hot_hits": 91741,
+  "hot_hits": 332215,
   "introduction": "　　亲妹妹喜欢哥哥，继妹也喜欢哥哥，乾妹妹（像妹妹一样的存在（年长））也喜欢哥哥。当然了，哥哥我喜欢所有妹妹。顺带一提，妹妹们也很喜欢彼此。原以为这样的四个人同住一个屋檐下（同一栋公寓），融洽地生活在一起，幸福的日子将会持续下去——然而……「哥哥，我喜欢你。」「慧哥…………我喜欢你。」「哥，我很喜欢你喔。不是兄妹之间的感情，而是视为一个异性的……」剧情急转直下破天荒！？我到底该选哪一个妹妹才好！？不对，我选不出来啊！！我要守住这个妹妹后宫！",
   "types": [
     "搞笑",
@@ -17,8 +17,8 @@
   ],
   "authors": "塀流通留",
   "first_letter": "B",
-  "subscribe_num": 20829,
-  "redis_update_time": 1564342583,
+  "subscribe_num": 25344,
+  "redis_update_time": 1575225474,
   "volume": [
     {
       "id": 9999,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 是喔，床已经铺好喽。",
       "volume_order": 10,
       "addtime": 1552308695,
-      "sum_chapters": 8
+      "sum_chapters": 18
     },
     {
       "id": 10247,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷 好啦，把你的指围告诉我。",
       "volume_order": 20,
       "addtime": 1564228338,
-      "sum_chapters": 8
+      "sum_chapters": 18
+    },
+    {
+      "id": 10470,
+      "lnovel_id": 2632,
+      "volume_name": "第三卷 好啦，先煮味噌汤给我吃。",
+      "volume_order": 30,
+      "addtime": 1575217703,
+      "sum_chapters": 18
     }
   ],
   "chapters": [
@@ -224,6 +232,104 @@
         },
         {
           "chapter_id": 98283,
+          "chapter_name": "插画",
+          "chapter_order": 180
+        }
+      ]
+    },
+    {
+      "volume_id": 10470,
+      "id": 10470,
+      "volume_name": "第三卷 好啦，先煮味噌汤给我吃。",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 101204,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101205,
+          "chapter_name": "晴天霹雳",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101206,
+          "chapter_name": "世界共通语言",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101207,
+          "chapter_name": "乐团",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101208,
+          "chapter_name": "愉快的暑假计画",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101209,
+          "chapter_name": "互比成绩（决斗）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101210,
+          "chapter_name": "星延",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101211,
+          "chapter_name": "暑假作业还是在三天内写完比较好",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101212,
+          "chapter_name": "在小木屋加油吧",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 101213,
+          "chapter_name": "服务读者页面（伪）",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 101214,
+          "chapter_name": "捕虫记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 101215,
+          "chapter_name": "河川",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 101216,
+          "chapter_name": "鬼故事",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 101217,
+          "chapter_name": "打扫",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 101218,
+          "chapter_name": "烟火",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 101219,
+          "chapter_name": "真•晴天霹雳",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 101220,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 101221,
           "chapter_name": "插画",
           "chapter_order": 180
         }
