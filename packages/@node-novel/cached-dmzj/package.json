@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/cached-dmzj",
-  "version": "1.1.33",
+  "version": "1.1.34",
   "description": "cached dmzj api data",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -30,7 +30,7 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "devDependencies": {
-    "@bluelovers/axios-util": "^1.0.4",
+    "@bluelovers/axios-util": "^1.0.5",
     "@bluelovers/fast-glob": "^3.0.4",
     "@git-lazy/diff-staged": "^1.0.3",
     "@git-lazy/util": "^1.0.5",
@@ -38,12 +38,12 @@
     "@novel-segment/util": "^1.0.8",
     "@types/lodash": "^4.14.149",
     "array-hyper-unique": "^1.1.0",
-    "axios-cache-adapter-util": "^1.0.21",
-    "dmzj-api": "^1.1.12",
+    "axios-cache-adapter-util": "^1.0.22",
+    "dmzj-api": "^1.1.13",
     "fs-extra": "^8.1.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
-    "restful-decorator": "^1.0.24",
+    "restful-decorator": "^1.0.25",
     "sort-object-keys2": "^1.1.0",
     "string-natural-compare": "^3.0.0",
     "uni-string": "^1.1.2",
