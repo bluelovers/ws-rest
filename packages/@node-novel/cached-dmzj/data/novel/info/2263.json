@@ -3,13 +3,13 @@
   "name": "逆转召唤～全校被召唤到连隐藏设定我都了若指掌的异世界～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10372,
-  "last_update_chapter_id": 99980,
-  "last_update_time": 1570531938,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 10476,
+  "last_update_chapter_id": 101298,
+  "last_update_time": 1575638055,
   "cover": "https://xs.dmzj.com/img/webpic/17/nzzh0108l.jpg",
-  "hot_hits": 184812,
+  "hot_hits": 227984,
   "introduction": "　　谷底翻身的净化作用！\n　　在班上饱受霸凌的主角·柏木凑日复一日地过着不知意义为何的生活。某天，他就读的高中整间被召唤到异世界。袭击校舍的怪物丶浮在天上的三个月亮丶出现在全校1500名学生手上的谜之徽章——这些现象和凑已故的祖父所创作的奇幻小说设定如出一辙。坐拥包括「隐藏设定」在内的异世界知识，与徽章带给他的特别才能——凑和人称【图书室圣女】的彩东栞里，以及其他个性丰富的女孩子们所组成的队伍，在学校校舍展开同居生活，并一同在这个异世界冒险——始自异世界召唤的人生逆转物语在此揭幕！",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "三河ごーすと",
   "first_letter": "N",
-  "subscribe_num": 10098,
-  "redis_update_time": 1574306187,
+  "subscribe_num": 12171,
+  "redis_update_time": 1575867780,
   "volume": [
     {
       "id": 8404,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1483885452,
-      "sum_chapters": 8
+      "sum_chapters": 5
     },
     {
       "id": 10372,
@@ -35,7 +35,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1570530220,
-      "sum_chapters": 8
+      "sum_chapters": 5
+    },
+    {
+      "id": 10476,
+      "lnovel_id": 2263,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1575636834,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -157,6 +165,59 @@
           "chapter_id": 99980,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10476,
+      "id": 10476,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 101290,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101291,
+          "chapter_name": "序章 遗传基因的信徒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101292,
+          "chapter_name": "第一章 黑死龙降临",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101293,
+          "chapter_name": "第二章 暗夜的袭击者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101294,
+          "chapter_name": "第三章 成长",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101295,
+          "chapter_name": "第四章 傀儡之王",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101296,
+          "chapter_name": "终章 育龙者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101297,
+          "chapter_name": "第二序章 夜半读书会",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101298,
+          "chapter_name": "后记",
+          "chapter_order": 90
         }
       ]
     }

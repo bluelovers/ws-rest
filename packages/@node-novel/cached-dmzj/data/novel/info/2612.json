@@ -3,13 +3,13 @@
   "name": "打倒女神勇者的下流手段",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 没有反应，似乎只是个圣女",
+  "last_update_volume_name": "第三卷 我可不是坏蛋邪神喔。",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10223,
-  "last_update_chapter_id": 97818,
-  "last_update_time": 1562844952,
+  "last_update_volume_id": 10478,
+  "last_update_chapter_id": 101391,
+  "last_update_time": 1575795181,
   "cover": "https://xs.dmzj.com/img/webpic/7/dd012l.jpg",
-  "hot_hits": 169301,
+  "hot_hits": 543257,
   "introduction": "突然被召唤到剑与魔法世界的外山真一，受到召唤主「苍蓝魔王」下跪恳求。魔王似乎只是为了可爱的女儿才会来到人界追求美食，没打算危害人类。尽管如此，杀掉也会复活的勇者们却每天来袭，让他很困扰。反正难得来到异世界，于是真一主动表示要负责击退勇者，但他的策略却都是连魔族也会吓一跳的阴招──！魔王参谋的勇者攻略记，登场！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "笹木さくま",
   "first_letter": "D",
-  "subscribe_num": 16663,
-  "redis_update_time": 1564342134,
+  "subscribe_num": 20761,
+  "redis_update_time": 1575867904,
   "volume": [
     {
       "id": 9895,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 噢！死不了的勇者实在有够烦。",
       "volume_order": 10,
       "addtime": 1547283750,
-      "sum_chapters": 8
+      "sum_chapters": 5
     },
     {
       "id": 10223,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷 没有反应，似乎只是个圣女",
       "volume_order": 20,
       "addtime": 1562844290,
-      "sum_chapters": 8
+      "sum_chapters": 5
+    },
+    {
+      "id": 10478,
+      "lnovel_id": 2612,
+      "volume_name": "第三卷 我可不是坏蛋邪神喔。",
+      "volume_order": 30,
+      "addtime": 1575792378,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -154,6 +162,64 @@
         },
         {
           "chapter_id": 97818,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10478,
+      "id": 10478,
+      "volume_name": "第三卷 我可不是坏蛋邪神喔。",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 101325,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101326,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101327,
+          "chapter_name": "第一章 一万又两千年前？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101328,
+          "chapter_name": "第二章 钻石级贿赂",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101329,
+          "chapter_name": "第三章 他和她的过去",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101330,
+          "chapter_name": "第四章 我才没有什么老公！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101331,
+          "chapter_name": "第五章 邪神降临",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101332,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101333,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 101391,
           "chapter_name": "插画",
           "chapter_order": 100
         }
