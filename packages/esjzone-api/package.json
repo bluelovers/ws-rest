@@ -36,5 +36,6 @@
     "test": "echo \"Warn: no test specified\"",
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
-  }
+  },
+  "gitHead": "300e783d85286a8c196a8390496357cb0ed8cab4"
 }
