@@ -1,0 +1,28 @@
+{
+  "name": "esjzone-api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-rest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-rest.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "coverage": "npx nyc yarn run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "npm:publish": "npm publish",
+    "postpublish_": "git commit -m \"publish new version\" .",
+    "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
+    "sort-package-json": "npx sort-package-json ./package.json",
+    "test": "echo \"Warn: no test specified\"",
+    "tsc:default": "tsc -p tsconfig.json",
+    "tsc:esm": "tsc -p tsconfig.esm.json"
+  }
+}
