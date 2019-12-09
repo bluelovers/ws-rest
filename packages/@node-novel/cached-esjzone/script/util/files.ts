@@ -7,8 +7,6 @@ export const cacheFilePaths = {
 
 	task001: path.join(__root, 'test/temp', 'task001.json'),
 
-	copyrightRemove: path.join(__root, 'data/novel', 'copyright_remove.json'),
-
 	infoPack: path.join(__root, 'data', 'novel/info.pack.json'),
 
 	idAuthors: path.join(__root, 'data/novel', 'id_authors.json'),

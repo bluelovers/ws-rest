@@ -22,7 +22,7 @@ import { getResponseUrl } from '@bluelovers/axios-util/lib/index';
 import { CookieJar } from 'tough-cookie';
 import { LazyCookieJar } from 'lazy-cookies';
 import { deserializeCookieJar } from 'esjzone-api/lib/util';
-import Wenku8Client from 'wenku8-api/lib/index';
+import ESJzoneClient from 'esjzone-api/lib/index';
 import localPassword from '../test/password.local';
 
 export { consoleDebug, console }

@@ -1,0 +1,1994 @@
+{
+  "id": "1543671826",
+  "name": "必勝迷宮運營方法",
+  "authors": "雪だるま",
+  "cover": "https://i.pinimg.com/564x/3e/fc/66/3efc66bed4bb8afcbb7b0b270a08e346.jpg",
+  "last_update_time": null,
+  "last_update_chapter_name": "305",
+  "desc": "日本青年, 鳥野和也受到女神委託到異世界負責經營新的迷宮在異世界用電腦在討論區, 問了一些關於史萊姆一擊必勝的方法然後招喚了史萊姆與哥布林, 並訓練它們, 提升它們的等級然後有5人的隊伍來到迷宮 (3名冒險者, 2名受到輕傷的女奴隸)冒險者想把2名女奴隸扔給哥布林去蹂躪可是迷宮主的和也, 反而先設法捕獲這5人再去聽他們2邊的說法結果竟然女奴隸是聖女的3公主, 及其女僕冒險者則是受到3公主的國家侵略, 導致家人死亡, 才會想要復仇後來兩方都放下恩怨3公主被護送回王都結果3公主去見2公主, 卻又被大臣誣陷謀害, 然後2位公主逃往迷宮那邊大臣在王都派出2000大軍追殺然後迷宮主的和也, 看破大臣的計謀, 預先派冒險者救了國王並要國王裝死, 放出假消息, 騙大臣回王都然後在迷宮用陷阱坑殺了將近400人, 並把1000人左右困在迷宮裡 最後順利在王都逮到大臣然後把2國導致交戰的原因, 推給魔王 (原本是聖國看不爽別國出聖女, 才設下使另2國交戰的圈套)然後要3公主裝死, 以便消除戰爭的導火線冒險者買了一群女奴隸回迷宮迷宮主的和也用DP點數, 在迷宮裡造了一間有露天澡堂的旅館, 就與一群女奴隸去一起洗了然後說出將委託這些女奴隸與3公主一起經營迷宮然後聖國的前聖女被追殺, 逃往迷宮",
+  "tags": [
+    "異世界",
+    "穿越",
+    "迷宮創造",
+    "陰謀論",
+    "殘酷描寫",
+    "奴隸",
+    "戰爭",
+    "討論區"
+  ],
+  "links": [
+    {
+      "name": "雪だるま",
+      "href": "https://www.esjzone.cc/tags/%E9%9B%AA%E3%81%A0%E3%82%8B%E3%81%BE/"
+    },
+    {
+      "href": "http://ncode.syosetu.com/n7891ca/"
+    },
+    {
+      "href": "https://www.futabasha.co.jp/booksdb/book/bookview/978-4-575-75042-3.html"
+    },
+    {
+      "name": "百度貼吧",
+      "href": "https://tieba.baidu.com/f?kw=%E5%BF%85%E8%83%9C%E8%BF%B7%E5%AE%AB%E8%BF%90%E8%90%A5%E6%96%B9%E6%B3%95"
+    },
+    {
+      "name": "真白萌",
+      "href": "https://masiro.moe/forum.php?mod=forumdisplay&fid=158"
+    },
+    {
+      "name": "線上漫畫",
+      "href": "http://www.dm5.com/manhua-bishengmigongdejingyingfangfa/"
+    }
+  ],
+  "chapters": [
+    {
+      "volume_name": "第一卷",
+      "volume_order": 0,
+      "chapters": [
+        {
+          "chapter_name": "序 1",
+          "chapter_order": 0,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77268.htm"
+        },
+        {
+          "chapter_name": "序 2",
+          "chapter_order": 1,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77269.htm"
+        },
+        {
+          "chapter_name": "序 3",
+          "chapter_order": 2,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77270.htm"
+        },
+        {
+          "chapter_name": "1",
+          "chapter_order": 3,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77271.htm"
+        },
+        {
+          "chapter_name": "2",
+          "chapter_order": 4,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77272.htm"
+        },
+        {
+          "chapter_name": "3",
+          "chapter_order": 5,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77273.htm"
+        },
+        {
+          "chapter_name": "4",
+          "chapter_order": 6,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77274.htm"
+        },
+        {
+          "chapter_name": "5",
+          "chapter_order": 7,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77275.htm"
+        },
+        {
+          "chapter_name": "6",
+          "chapter_order": 8,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77276.htm"
+        },
+        {
+          "chapter_name": "7",
+          "chapter_order": 9,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77277.htm"
+        },
+        {
+          "chapter_name": "8",
+          "chapter_order": 10,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77278.htm"
+        },
+        {
+          "chapter_name": "9",
+          "chapter_order": 11,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77279.htm"
+        },
+        {
+          "chapter_name": "10",
+          "chapter_order": 12,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77280.htm"
+        },
+        {
+          "chapter_name": "11",
+          "chapter_order": 13,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77281.htm"
+        },
+        {
+          "chapter_name": "12",
+          "chapter_order": 14,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77282.htm"
+        },
+        {
+          "chapter_name": "13",
+          "chapter_order": 15,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77283.htm"
+        },
+        {
+          "chapter_name": "14",
+          "chapter_order": 16,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77284.htm"
+        },
+        {
+          "chapter_name": "15",
+          "chapter_order": 17,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77285.htm"
+        },
+        {
+          "chapter_name": "16",
+          "chapter_order": 18,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77286.htm"
+        },
+        {
+          "chapter_name": "17",
+          "chapter_order": 19,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77287.htm"
+        },
+        {
+          "chapter_name": "18",
+          "chapter_order": 20,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77288.htm"
+        },
+        {
+          "chapter_name": "19",
+          "chapter_order": 21,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77289.htm"
+        },
+        {
+          "chapter_name": "20",
+          "chapter_order": 22,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77290.htm"
+        },
+        {
+          "chapter_name": "21",
+          "chapter_order": 23,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77291.htm"
+        },
+        {
+          "chapter_name": "22",
+          "chapter_order": 24,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77292.htm"
+        },
+        {
+          "chapter_name": "23",
+          "chapter_order": 25,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77293.htm"
+        },
+        {
+          "chapter_name": "24",
+          "chapter_order": 26,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77294.htm"
+        },
+        {
+          "chapter_name": "25",
+          "chapter_order": 27,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77295.htm"
+        },
+        {
+          "chapter_name": "26",
+          "chapter_order": 28,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77296.htm"
+        },
+        {
+          "chapter_name": "27",
+          "chapter_order": 29,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77297.htm"
+        },
+        {
+          "chapter_name": "28",
+          "chapter_order": 30,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77298.htm"
+        },
+        {
+          "chapter_name": "29",
+          "chapter_order": 31,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77299.htm"
+        },
+        {
+          "chapter_name": "番外",
+          "chapter_order": 32,
+          "chapter_link": "https://www.wenku8.net/novel/2/2137/77300.htm"
+        }
+      ]
+    },
+    {
+      "volume_name": "第二卷",
+      "volume_order": 1,
+      "chapters": [
+        {
+          "chapter_name": "第30(別把浪費當浪費)",
+          "chapter_order": 0,
+          "chapter_link": "http://tieba.baidu.com/p/4775826491"
+        },
+        {
+          "chapter_name": "第31",
+          "chapter_order": 1,
+          "chapter_link": "http://tieba.baidu.com/p/4982844917"
+        },
+        {
+          "chapter_name": "第32",
+          "chapter_order": 2,
+          "chapter_link": "http://tieba.baidu.com/p/4985977487"
+        },
+        {
+          "chapter_name": "第33(會議前半)",
+          "chapter_order": 3,
+          "chapter_link": "http://tieba.baidu.com/p/4859890667"
+        },
+        {
+          "chapter_name": "第34(會議後半)",
+          "chapter_order": 4,
+          "chapter_link": "http://tieba.baidu.com/p/4863700149"
+        },
+        {
+          "chapter_name": "第35(哈密瓜的心情)",
+          "chapter_order": 5,
+          "chapter_link": "http://tieba.baidu.com/p/4876815063"
+        },
+        {
+          "chapter_name": "第36(哈密瓜&兔子VS桃)",
+          "chapter_order": 6,
+          "chapter_link": "http://tieba.baidu.com/p/4877472540"
+        },
+        {
+          "chapter_name": "第37(個人房間的重要性)",
+          "chapter_order": 7,
+          "chapter_link": "http://tieba.baidu.com/p/4878699063"
+        },
+        {
+          "chapter_name": "第38(狼女也很活躍)",
+          "chapter_order": 8,
+          "chapter_link": "http://tieba.baidu.com/p/4879663315"
+        },
+        {
+          "chapter_name": "第39(職業聖女和只是聖女)",
+          "chapter_order": 9,
+          "chapter_link": "http://tieba.baidu.com/p/4879930055"
+        },
+        {
+          "chapter_name": "第40(自分勝手)",
+          "chapter_order": 10,
+          "chapter_link": "http://tieba.baidu.com/p/4880973671"
+        },
+        {
+          "chapter_name": "第41(白熱)",
+          "chapter_order": 11,
+          "chapter_link": "http://tieba.baidu.com/p/4883539540"
+        },
+        {
+          "chapter_name": "第42(狐狸和答案)",
+          "chapter_order": 12,
+          "chapter_link": "http://tieba.baidu.com/p/4884966279"
+        },
+        {
+          "chapter_name": "第43(明明很忙)",
+          "chapter_order": 13,
+          "chapter_link": "http://tieba.baidu.com/p/4886253383"
+        },
+        {
+          "chapter_name": "第44(分靈)",
+          "chapter_order": 14,
+          "chapter_link": "http://tieba.baidu.com/p/4887129569"
+        }
+      ]
+    },
+    {
+      "volume_name": "閑話　ダンジョンの日々　落とし穴",
+      "volume_order": 2,
+      "chapters": [
+        {
+          "chapter_name": "陷阱1(來做壽司吧！！)",
+          "chapter_order": 0,
+          "chapter_link": "http://tieba.baidu.com/p/4897067031"
+        },
+        {
+          "chapter_name": "陷阱2(溫泉的醍醐味)",
+          "chapter_order": 1,
+          "chapter_link": "http://tieba.baidu.com/p/4897244741"
+        }
+      ]
+    },
+    {
+      "volume_name": "ダンジョン出張",
+      "volume_order": 3,
+      "chapters": [
+        {
+          "chapter_name": "第45(人身事故？)",
+          "chapter_order": 0,
+          "chapter_link": "http://tieba.baidu.com/p/4950234755"
+        },
+        {
+          "chapter_name": "第46(妖精族的事情)",
+          "chapter_order": 1,
+          "chapter_link": "http://tieba.baidu.com/p/4952172197"
+        },
+        {
+          "chapter_name": "第47(四天王和糰子蟲改)",
+          "chapter_order": 2,
+          "chapter_link": "http://tieba.baidu.com/p/4954237573"
+        },
+        {
+          "chapter_name": "第48(冒險中斷)",
+          "chapter_order": 3,
+          "chapter_link": "http://tieba.baidu.com/p/4955097147"
+        },
+        {
+          "chapter_name": "第49(訓練相談)",
+          "chapter_order": 4,
+          "chapter_link": "http://tieba.baidu.com/p/4956119510"
+        },
+        {
+          "chapter_name": "第50(為了更美好的生活)",
+          "chapter_order": 5,
+          "chapter_link": "http://tieba.baidu.com/p/4960815157"
+        },
+        {
+          "chapter_name": "第51冒險者的新人",
+          "chapter_order": 6,
+          "chapter_link": "http://tieba.baidu.com/p/4961881964"
+        },
+        {
+          "chapter_name": "第52工作分派的問題",
+          "chapter_order": 7,
+          "chapter_link": "http://tieba.baidu.com/p/4963049303"
+        },
+        {
+          "chapter_name": "第53暴虐的魔王和史萊姆",
+          "chapter_order": 8,
+          "chapter_link": "http://tieba.baidu.com/p/4964307578"
+        },
+        {
+          "chapter_name": "第54魔王和孩子們",
+          "chapter_order": 9,
+          "chapter_link": "http://tieba.baidu.com/p/4965941834"
+        },
+        {
+          "chapter_name": "第55現狀說明會",
+          "chapter_order": 10,
+          "chapter_link": "http://tieba.baidu.com/p/4968261700"
+        },
+        {
+          "chapter_name": "第56強烈的違和感",
+          "chapter_order": 11,
+          "chapter_link": "http://tieba.baidu.com/p/4969601471"
+        },
+        {
+          "chapter_name": "第57公主成了我老婆",
+          "chapter_order": 12,
+          "chapter_link": "http://tieba.baidu.com/p/4972406007"
+        },
+        {
+          "chapter_name": "第58等級的認識",
+          "chapter_order": 13,
+          "chapter_link": "http://tieba.baidu.com/p/4973879432"
+        },
+        {
+          "chapter_name": "第59冒險者區起動",
+          "chapter_order": 14,
+          "chapter_link": "http://tieba.baidu.com/p/4975392566"
+        },
+        {
+          "chapter_name": "第60覺醒的聖女",
+          "chapter_order": 15,
+          "chapter_link": "http://tieba.baidu.com/p/4976832064"
+        },
+        {
+          "chapter_name": "第61迷宮製作開始(真)",
+          "chapter_order": 16,
+          "chapter_link": "http://tieba.baidu.com/p/4979024521"
+        },
+        {
+          "chapter_name": "第62",
+          "chapter_order": 17,
+          "chapter_link": "http://tieba.baidu.com/p/4979981096"
+        }
+      ]
+    },
+    {
+      "volume_name": "ダンジョン外交",
+      "volume_order": 4,
+      "chapters": [
+        {
+          "chapter_name": "第63說明會和介紹,之後是歡迎會.....?!",
+          "chapter_order": 0,
+          "chapter_link": "http://tieba.baidu.com/p/4987795834"
+        },
+        {
+          "chapter_name": "第64為了失去的東西",
+          "chapter_order": 1,
+          "chapter_link": "http://tieba.baidu.com/p/4989696912"
+        },
+        {
+          "chapter_name": "第65很了不起的人",
+          "chapter_order": 2,
+          "chapter_link": "http://tieba.baidu.com/p/4990679517"
+        },
+        {
+          "chapter_name": "第66能給我點錢嗎？",
+          "chapter_order": 3,
+          "chapter_link": "http://tieba.baidu.com/p/4992219472"
+        },
+        {
+          "chapter_name": "第67媳婦喜歡指揮作戰",
+          "chapter_order": 4,
+          "chapter_link": "http://tieba.baidu.com/p/4993839684"
+        }
+      ]
+    },
+    {
+      "volume_name": "陷阱:3http://tieba.baidu.com/p/4995214175",
+      "volume_order": 5,
+      "chapters": [
+        {
+          "chapter_name": "第68為了守護重要的地方",
+          "chapter_order": 0,
+          "chapter_link": "http://tieba.baidu.com/p/4996672084"
+        },
+        {
+          "chapter_name": "陷阱4",
+          "chapter_order": 1,
+          "chapter_link": "http://tieba.baidu.com/p/4998036418"
+        },
+        {
+          "chapter_name": "第69踩到地雷了",
+          "chapter_order": 2,
+          "chapter_link": "http://tieba.baidu.com/p/4999570798"
+        },
+        {
+          "chapter_name": "第70善後",
+          "chapter_order": 3,
+          "chapter_link": "http://tieba.baidu.com/p/5001496915"
+        },
+        {
+          "chapter_name": "陷阱5",
+          "chapter_order": 4,
+          "chapter_link": "http://tieba.baidu.com/p/5002557051"
+        }
+      ]
+    },
+    {
+      "volume_name": "ダンジョン運営本格始動",
+      "volume_order": 6,
+      "chapters": [
+        {
+          "chapter_name": "第71代表很忙",
+          "chapter_order": 0,
+          "chapter_link": "http://tieba.baidu.com/p/5004433309"
+        },
+        {
+          "chapter_name": "第72軍部的工作",
+          "chapter_order": 1,
+          "chapter_link": "http://tieba.baidu.com/p/5005236024"
+        },
+        {
+          "chapter_name": "第73反省的有效的利用",
+          "chapter_order": 2,
+          "chapter_link": "http://tieba.baidu.com/p/5007992521"
+        },
+        {
+          "chapter_name": "第74冒險者行會的方針",
+          "chapter_order": 3,
+          "chapter_link": "http://tieba.baidu.com/p/5008482410"
+        },
+        {
+          "chapter_name": "第75不要瞧不起汪汪!!",
+          "chapter_order": 4,
+          "chapter_link": "http://tieba.baidu.com/p/5011021287"
+        },
+        {
+          "chapter_name": "陷阱6",
+          "chapter_order": 5,
+          "chapter_link": "http://tieba.baidu.com/p/5012365760"
+        }
+      ]
+    },
+    {
+      "volume_name": "陷阱:7http://tieba.baidu.com/p/5015178728",
+      "volume_order": 7,
+      "chapters": [
+        {
+          "chapter_name": "第76 導致許多重傷者的原因",
+          "chapter_order": 0,
+          "chapter_link": "http://tieba.baidu.com/p/5015971440"
+        },
+        {
+          "chapter_name": "第77 決鬥",
+          "chapter_order": 1,
+          "chapter_link": "http://tieba.baidu.com/p/5018135927"
+        },
+        {
+          "chapter_name": "第78 被害擴大了",
+          "chapter_order": 2,
+          "chapter_link": "http://tieba.baidu.com/p/5018759393"
+        },
+        {
+          "chapter_name": "陷阱8",
+          "chapter_order": 3,
+          "chapter_link": "http://tieba.baidu.com/p/5019829143"
+        },
+        {
+          "chapter_name": "第79國王到訪",
+          "chapter_order": 4,
+          "chapter_link": "http://tieba.baidu.com/p/5021644438"
+        },
+        {
+          "chapter_name": "第80妻子們的會議",
+          "chapter_order": 5,
+          "chapter_link": "http://tieba.baidu.com/p/5024812183"
+        },
+        {
+          "chapter_name": "第81 無用神再登場",
+          "chapter_order": 6,
+          "chapter_link": "http://tieba.baidu.com/p/5026260131"
+        },
+        {
+          "chapter_name": "第82 神的使者",
+          "chapter_order": 7,
+          "chapter_link": "http://tieba.baidu.com/p/5027926487"
+        },
+        {
+          "chapter_name": "第83掘全力阻止",
+          "chapter_order": 8,
+          "chapter_link": "http://tieba.baidu.com/p/5029037868"
+        },
+        {
+          "chapter_name": "第84掘引發戰爭的理由",
+          "chapter_order": 9,
+          "chapter_link": "http://tieba.baidu.com/p/5031078550"
+        },
+        {
+          "chapter_name": "第85掘委託",
+          "chapter_order": 10,
+          "chapter_link": "http://tieba.baidu.com/p/5032693279"
+        },
+        {
+          "chapter_name": "陷阱9",
+          "chapter_order": 11,
+          "chapter_link": "http://tieba.baidu.com/p/5034434445"
+        },
+        {
+          "chapter_name": "陷阱10",
+          "chapter_order": 12,
+          "chapter_link": "http://tieba.baidu.com/p/5035996903"
+        },
+        {
+          "chapter_name": "陷阱11",
+          "chapter_order": 13,
+          "chapter_link": "http://tieba.baidu.com/p/5037132168"
+        },
+        {
+          "chapter_name": "第86掘晚酌",
+          "chapter_order": 14,
+          "chapter_link": "http://tieba.baidu.com/p/5038859464"
+        },
+        {
+          "chapter_name": "第87掘商談今後的計劃",
+          "chapter_order": 15,
+          "chapter_link": "http://tieba.baidu.com/p/5040494296"
+        },
+        {
+          "chapter_name": "第88掘迷宮評定結果",
+          "chapter_order": 16,
+          "chapter_link": "http://tieba.baidu.com/p/5042018358"
+        },
+        {
+          "chapter_name": "第89掘走吧，去交涉吧",
+          "chapter_order": 17,
+          "chapter_link": "http://tieba.baidu.com/p/5043758697"
+        }
+      ]
+    },
+    {
+      "volume_name": "ダンジョンと他國",
+      "volume_order": 8,
+      "chapters": [
+        {
+          "chapter_name": "第90掘堅固的國家",
+          "chapter_order": 0,
+          "chapter_link": "http://tieba.baidu.com/p/5045581929"
+        },
+        {
+          "chapter_name": "第91掘首先是問候",
+          "chapter_order": 1,
+          "chapter_link": "http://tieba.baidu.com/p/5047138839"
+        },
+        {
+          "chapter_name": "第92掘蓋爾茲的反應",
+          "chapter_order": 2,
+          "chapter_link": "http://tieba.baidu.com/p/5049469492"
+        },
+        {
+          "chapter_name": "第93掘 進入正題",
+          "chapter_order": 3,
+          "chapter_link": "http://tieba.baidu.com/p/5051060058"
+        },
+        {
+          "chapter_name": "第94掘 緊急會議",
+          "chapter_order": 4,
+          "chapter_link": "http://tieba.baidu.com/p/5052094154"
+        },
+        {
+          "chapter_name": "第95掘 重臣們給出的對策",
+          "chapter_order": 5,
+          "chapter_link": "http://tieba.baidu.com/p/5053751722"
+        },
+        {
+          "chapter_name": "陷阱12掘 在夏季的日子裡",
+          "chapter_order": 6,
+          "chapter_link": "http://tieba.baidu.com/p/5055178401"
+        },
+        {
+          "chapter_name": "陷阱13掘 土用丑日",
+          "chapter_order": 7,
+          "chapter_link": "http://tieba.baidu.com/p/5056890763"
+        },
+        {
+          "chapter_name": "第96掘 大臣們的反應和消遣",
+          "chapter_order": 8,
+          "chapter_link": "http://tieba.baidu.com/p/5058521809"
+        },
+        {
+          "chapter_name": "第97掘 非常識",
+          "chapter_order": 9,
+          "chapter_link": "http://tieba.baidu.com/p/5059336704"
+        },
+        {
+          "chapter_name": "第98掘 迷宮的記憶",
+          "chapter_order": 10,
+          "chapter_link": "http://tieba.baidu.com/p/5061066487"
+        },
+        {
+          "chapter_name": "第99掘 家族",
+          "chapter_order": 11,
+          "chapter_link": "http://tieba.baidu.com/p/5062177268"
+        },
+        {
+          "chapter_name": "第100掘 這是什麼啊？",
+          "chapter_order": 12,
+          "chapter_link": "http://tieba.baidu.com/p/5064063067"
+        },
+        {
+          "chapter_name": "陷阱14掘 妄想 心跳學園篇 第一回",
+          "chapter_order": 13,
+          "chapter_link": "http://tieba.baidu.com/p/5084041379"
+        },
+        {
+          "chapter_name": "one O one掘 今後怎麼辦？",
+          "chapter_order": 14,
+          "chapter_link": "http://tieba.baidu.com/p/5064886251"
+        },
+        {
+          "chapter_name": "陷阱15掘 盂蘭盆節 前篇",
+          "chapter_order": 15,
+          "chapter_link": "http://tieba.baidu.com/p/5084762971"
+        },
+        {
+          "chapter_name": "陷阱16掘 盂蘭盆節 後篇",
+          "chapter_order": 16,
+          "chapter_link": "http://tieba.baidu.com/p/5085650707"
+        },
+        {
+          "chapter_name": "第102掘 盾姬",
+          "chapter_order": 17,
+          "chapter_link": "http://tieba.baidu.com/p/5082639938"
+        }
+      ]
+    },
+    {
+      "volume_name": "ダンジョンと勇者",
+      "volume_order": 9,
+      "chapters": [
+        {
+          "chapter_name": "第103掘 維德",
+          "chapter_order": 0,
+          "chapter_link": "http://tieba.baidu.com/p/5087241454"
+        },
+        {
+          "chapter_name": "第104掘 勇者和傀儡",
+          "chapter_order": 1,
+          "chapter_link": "http://tieba.baidu.com/p/5088736183"
+        },
+        {
+          "chapter_name": "第105掘 祭典和傻瓜勇者",
+          "chapter_order": 2,
+          "chapter_link": "http://tieba.baidu.com/p/5089925849"
+        },
+        {
+          "chapter_name": "第106掘 某勇者的故事",
+          "chapter_order": 3,
+          "chapter_link": "http://tieba.baidu.com/p/5091903098"
+        },
+        {
+          "chapter_name": "第107掘 對不起",
+          "chapter_order": 4,
+          "chapter_link": "http://tieba.baidu.com/p/5093271103"
+        },
+        {
+          "chapter_name": "第108掘 情況說明和丈夫的故鄉",
+          "chapter_order": 5,
+          "chapter_link": "http://tieba.baidu.com/p/5094602933"
+        },
+        {
+          "chapter_name": "第109掘 祭典活動與居民們 前篇",
+          "chapter_order": 6,
+          "chapter_link": "http://tieba.baidu.com/p/5095717522"
+        },
+        {
+          "chapter_name": "第110掘 祭典活動與居民們 中篇",
+          "chapter_order": 7,
+          "chapter_link": "http://tieba.baidu.com/p/5096954694"
+        },
+        {
+          "chapter_name": "第111掘 祭典活動與居民們 後篇",
+          "chapter_order": 8,
+          "chapter_link": "http://tieba.baidu.com/p/5098262355"
+        },
+        {
+          "chapter_name": "第112掘 諸國會議",
+          "chapter_order": 9,
+          "chapter_link": "http://tieba.baidu.com/p/5099737522"
+        },
+        {
+          "chapter_name": "陷阱17掘 推薦的店",
+          "chapter_order": 10,
+          "chapter_link": "http://tieba.baidu.com/p/5101451304"
+        },
+        {
+          "chapter_name": "第113掘 魔王和勇者的故事",
+          "chapter_order": 11,
+          "chapter_link": "http://tieba.baidu.com/p/5103018979"
+        },
+        {
+          "chapter_name": "第114掘 好了，進入正題吧",
+          "chapter_order": 12,
+          "chapter_link": "http://tieba.baidu.com/p/5103931601"
+        },
+        {
+          "chapter_name": "第115掘 條條大路通羅馬",
+          "chapter_order": 13,
+          "chapter_link": "http://tieba.baidu.com/p/5105118428"
+        },
+        {
+          "chapter_name": "陷阱18掘 非法經費？",
+          "chapter_order": 14,
+          "chapter_link": "http://tieba.baidu.com/p/5106473165"
+        },
+        {
+          "chapter_name": "陷阱19掘 緊急會議和答案",
+          "chapter_order": 15,
+          "chapter_link": "http://tieba.baidu.com/p/5106610824"
+        },
+        {
+          "chapter_name": "陷阱20掘 妄想 心跳學園篇 第二回",
+          "chapter_order": 16,
+          "chapter_link": "https://tieba.baidu.com/p/5131992437"
+        },
+        {
+          "chapter_name": "第116掘 各國對勇者的應對",
+          "chapter_order": 17,
+          "chapter_link": "http://tieba.baidu.com/p/5109497619"
+        },
+        {
+          "chapter_name": "第117掘 噴了出來",
+          "chapter_order": 18,
+          "chapter_link": "http://tieba.baidu.com/p/5111586459"
+        },
+        {
+          "chapter_name": "第118掘 狀況把握",
+          "chapter_order": 19,
+          "chapter_link": "http://tieba.baidu.com/p/5112992039"
+        },
+        {
+          "chapter_name": "第119掘 給我一個選擇吧",
+          "chapter_order": 20,
+          "chapter_link": "http://tieba.baidu.com/p/5114408785"
+        },
+        {
+          "chapter_name": "第120掘 學校的工作",
+          "chapter_order": 21,
+          "chapter_link": "http://tieba.baidu.com/p/5115770031"
+        },
+        {
+          "chapter_name": "第121掘 壞掉的少女",
+          "chapter_order": 22,
+          "chapter_link": "http://tieba.baidu.com/p/5116904011"
+        },
+        {
+          "chapter_name": "第122掘 相談",
+          "chapter_order": 23,
+          "chapter_link": "http://tieba.baidu.com/p/5118609996"
+        },
+        {
+          "chapter_name": "第123掘 果然麻煩事全都趕一塊了",
+          "chapter_order": 24,
+          "chapter_link": "http://tieba.baidu.com/p/5120115886"
+        },
+        {
+          "chapter_name": "第124掘 在聽取了相關事情之後又噴了",
+          "chapter_order": 25,
+          "chapter_link": "http://tieba.baidu.com/p/5121919670"
+        },
+        {
+          "chapter_name": "第125掘 大概是我的錯",
+          "chapter_order": 26,
+          "chapter_link": "http://tieba.baidu.com/p/5123285646"
+        },
+        {
+          "chapter_name": "第126掘 敢欺負我妻子的傢伙，我絕不原諒",
+          "chapter_order": 27,
+          "chapter_link": "http://tieba.baidu.com/p/5124674738"
+        },
+        {
+          "chapter_name": "第127掘 大宣言",
+          "chapter_order": 28,
+          "chapter_link": "http://tieba.baidu.com/p/5125613375"
+        },
+        {
+          "chapter_name": "第128掘 說得的情況",
+          "chapter_order": 29,
+          "chapter_link": "http://tieba.baidu.com/p/5127149727"
+        },
+        {
+          "chapter_name": "第129掘 路線的確認",
+          "chapter_order": 30,
+          "chapter_link": "http://tieba.baidu.com/p/5129214538"
+        },
+        {
+          "chapter_name": "第130掘 作戰說明",
+          "chapter_order": 31,
+          "chapter_link": "http://tieba.baidu.com/p/5134085648"
+        },
+        {
+          "chapter_name": "第131掘 配置發表",
+          "chapter_order": 32,
+          "chapter_link": "http://tieba.baidu.com/p/5135443826"
+        },
+        {
+          "chapter_name": "陷阱21掘 兔姬的日常",
+          "chapter_order": 33,
+          "chapter_link": "http://tieba.baidu.com/p/5136481010"
+        },
+        {
+          "chapter_name": "第132掘 她所認定的勇者",
+          "chapter_order": 34,
+          "chapter_link": "http://tieba.baidu.com/p/5137886829"
+        },
+        {
+          "chapter_name": "第133掘 過程報告",
+          "chapter_order": 35,
+          "chapter_link": "http://tieba.baidu.com/p/5139575167"
+        },
+        {
+          "chapter_name": "第134掘 偷窺",
+          "chapter_order": 36,
+          "chapter_link": "http://tieba.baidu.com/p/5140522725"
+        },
+        {
+          "chapter_name": "第135掘 新娘是勇者",
+          "chapter_order": 37,
+          "chapter_link": "http://tieba.baidu.com/p/5142110190"
+        },
+        {
+          "chapter_name": "第136掘 如同贈品一般的進軍開始了",
+          "chapter_order": 38,
+          "chapter_link": "http://tieba.baidu.com/p/5145161209"
+        },
+        {
+          "chapter_name": "[美食陷阱注意]陷阱22掘 天氣越來越冷了",
+          "chapter_order": 39,
+          "chapter_link": "http://tieba.baidu.com/p/5147366734"
+        },
+        {
+          "chapter_name": "陷阱23掘 女僕小姐",
+          "chapter_order": 40,
+          "chapter_link": "https://tieba.baidu.com/p/5149591445"
+        },
+        {
+          "chapter_name": "第137掘 還剩1天",
+          "chapter_order": 41,
+          "chapter_link": "http://tieba.baidu.com/p/5150547165"
+        },
+        {
+          "chapter_name": "第138掘 變態是沒有明天的",
+          "chapter_order": 42,
+          "chapter_link": "http://tieba.baidu.com/p/5154380556"
+        },
+        {
+          "chapter_name": "第139掘 滑稽劇的準備",
+          "chapter_order": 43,
+          "chapter_link": "http://tieba.baidu.com/p/5155336688"
+        },
+        {
+          "chapter_name": "第140掘 關隘攻略",
+          "chapter_order": 44,
+          "chapter_link": "http://tieba.baidu.com/p/5157488750"
+        },
+        {
+          "chapter_name": "陷阱24掘 稍微休息一下用遊戲來當消遣",
+          "chapter_order": 45,
+          "chapter_link": "http://tieba.baidu.com/p/5158538610"
+        },
+        {
+          "chapter_name": "第141掘 魔王城攻略 前夜",
+          "chapter_order": 46,
+          "chapter_link": "http://tieba.baidu.com/p/5160085083"
+        },
+        {
+          "chapter_name": "第142掘 魔王城攻略 前篇",
+          "chapter_order": 47,
+          "chapter_link": "http://tieba.baidu.com/p/5162124229"
+        },
+        {
+          "chapter_name": "第143掘 魔王城攻略 中篇",
+          "chapter_order": 48,
+          "chapter_link": "http://tieba.baidu.com/p/5163913294"
+        },
+        {
+          "chapter_name": "橫穴1掘 很多的第一次",
+          "chapter_order": 49,
+          "chapter_link": "http://tieba.baidu.com/p/5166065149"
+        },
+        {
+          "chapter_name": "第144掘 魔王城攻略 後篇",
+          "chapter_order": 50,
+          "chapter_link": "http://tieba.baidu.com/p/5167310509"
+        },
+        {
+          "chapter_name": "陷阱25掘 又是平淡的一天",
+          "chapter_order": 51,
+          "chapter_link": "http://tieba.baidu.com/p/5168980284"
+        },
+        {
+          "chapter_name": "第145掘 詳細的說明",
+          "chapter_order": 52,
+          "chapter_link": "http://tieba.baidu.com/p/5170942112"
+        },
+        {
+          "chapter_name": "陷阱26掘 經典的外賣",
+          "chapter_order": 53,
+          "chapter_link": "http://tieba.baidu.com/p/5172644720"
+        },
+        {
+          "chapter_name": "第146掘 一點都不讓人省心的無用女神",
+          "chapter_order": 54,
+          "chapter_link": "http://tieba.baidu.com/p/5174553777"
+        },
+        {
+          "chapter_name": "第147掘 向妻子們說明情況並說服她們",
+          "chapter_order": 55,
+          "chapter_link": "http://tieba.baidu.com/p/5176459455"
+        },
+        {
+          "chapter_name": "第148掘 對於迷宮來說，所謂的勇者是？",
+          "chapter_order": 56,
+          "chapter_link": "http://tieba.baidu.com/p/5178492817"
+        }
+      ]
+    },
+    {
+      "volume_name": "ダンジョンと新大陸　序章",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_name": "第149掘 健康診斷、然後發現",
+          "chapter_order": 0,
+          "chapter_link": "https://tieba.baidu.com/p/5182779086"
+        },
+        {
+          "chapter_name": "第150掘 成員選出",
+          "chapter_order": 1,
+          "chapter_link": "https://tieba.baidu.com/p/5185858589"
+        },
+        {
+          "chapter_name": "第151掘 新大陸說明會",
+          "chapter_order": 2,
+          "chapter_link": "https://tieba.baidu.com/p/5187622297"
+        },
+        {
+          "chapter_name": "第152掘 跟預想的不一樣",
+          "chapter_order": 3,
+          "chapter_link": "https://tieba.baidu.com/p/5189947233"
+        },
+        {
+          "chapter_name": "第153掘 已經約定好了",
+          "chapter_order": 4,
+          "chapter_link": "https://tieba.baidu.com/p/5193228513"
+        },
+        {
+          "chapter_name": "第154掘 總之，該怎麼辦呢？",
+          "chapter_order": 5,
+          "chapter_link": "https://tieba.baidu.com/p/5199010250"
+        },
+        {
+          "chapter_name": "第155掘 哎呀，這就是魔物的現狀嗎？",
+          "chapter_order": 6,
+          "chapter_link": "https://tieba.baidu.com/p/5196707923"
+        },
+        {
+          "chapter_name": "第156掘 村的決斷與對策",
+          "chapter_order": 7,
+          "chapter_link": "https://tieba.baidu.com/p/5201059274"
+        },
+        {
+          "chapter_name": "第157掘 意想不到的命運的邂逅",
+          "chapter_order": 8,
+          "chapter_link": "https://tieba.baidu.com/p/5204887564"
+        },
+        {
+          "chapter_name": "第158掘 情報收集和魔劍姬",
+          "chapter_order": 9,
+          "chapter_link": "https://tieba.baidu.com/p/5206429603"
+        },
+        {
+          "chapter_name": "第159掘 真的要打嗎？我們當然沒異議啦",
+          "chapter_order": 10,
+          "chapter_link": "https://tieba.baidu.com/p/5208581084"
+        },
+        {
+          "chapter_name": "第160掘 魔劍姬和傭兵團？",
+          "chapter_order": 11,
+          "chapter_link": "https://tieba.baidu.com/p/5212369991"
+        },
+        {
+          "chapter_name": "第161掘 這是一場認真的戰鬥嗎？背後的實情",
+          "chapter_order": 12,
+          "chapter_link": "https://tieba.baidu.com/p/5214279800"
+        },
+        {
+          "chapter_name": "第162掘 交涉......前的騷動",
+          "chapter_order": 13,
+          "chapter_link": "https://tieba.baidu.com/p/5216338823"
+        },
+        {
+          "chapter_name": "第163掘 交涉和勝負",
+          "chapter_order": 14,
+          "chapter_link": "https://tieba.baidu.com/p/5218012825"
+        },
+        {
+          "chapter_name": "第164掘 逃脫、然後是和村子的交涉",
+          "chapter_order": 15,
+          "chapter_link": "https://tieba.baidu.com/p/5221951673"
+        },
+        {
+          "chapter_name": "第165掘 隔絕",
+          "chapter_order": 16,
+          "chapter_link": "https://tieba.baidu.com/p/5223788896"
+        },
+        {
+          "chapter_name": "陷阱27穴 新人歡迎會",
+          "chapter_order": 17,
+          "chapter_link": "http://tieba.baidu.com/p/5225525627"
+        },
+        {
+          "chapter_name": "第166掘 開始行動的人與不管怎樣都無所謂的人",
+          "chapter_order": 18,
+          "chapter_link": "https://tieba.baidu.com/p/5227229263"
+        },
+        {
+          "chapter_name": "第167掘 正忙著呢",
+          "chapter_order": 19,
+          "chapter_link": "https://tieba.baidu.com/p/5229917697"
+        },
+        {
+          "chapter_name": "第168掘 哥布林這種生物",
+          "chapter_order": 20,
+          "chapter_link": "https://tieba.baidu.com/p/5231140960"
+        },
+        {
+          "chapter_name": "第169掘 開戰前 前日",
+          "chapter_order": 21,
+          "chapter_link": "https://tieba.baidu.com/p/5233055684"
+        },
+        {
+          "chapter_name": "第170掘 60億對400萬",
+          "chapter_order": 22,
+          "chapter_link": "https://tieba.baidu.com/p/5236773797"
+        },
+        {
+          "chapter_name": "第171掘 親自出戰的理由",
+          "chapter_order": 23,
+          "chapter_link": "https://tieba.baidu.com/p/5238741912"
+        },
+        {
+          "chapter_name": "第172掘 魔劍和女性",
+          "chapter_order": 24,
+          "chapter_link": "https://tieba.baidu.com/p/5242238558"
+        },
+        {
+          "chapter_name": "第173掘 實驗交涉",
+          "chapter_order": 25,
+          "chapter_link": "https://tieba.baidu.com/p/5243824411"
+        },
+        {
+          "chapter_name": "第174掘 魔劍的秘密 序章",
+          "chapter_order": 26,
+          "chapter_link": "https://tieba.baidu.com/p/5245215394"
+        },
+        {
+          "chapter_name": "第175掘 魔劍的秘密 中章",
+          "chapter_order": 27,
+          "chapter_link": "https://tieba.baidu.com/p/5246770093"
+        },
+        {
+          "chapter_name": "第176掘 魔劍的秘密 終章？",
+          "chapter_order": 28,
+          "chapter_link": "https://tieba.baidu.com/p/5248015625"
+        },
+        {
+          "chapter_name": "第177掘 維德的近況與今後",
+          "chapter_order": 29,
+          "chapter_link": "https://tieba.baidu.com/p/5249921467"
+        },
+        {
+          "chapter_name": "第178掘 吉爾巴帝國的落日 序章",
+          "chapter_order": 30,
+          "chapter_link": "https://tieba.baidu.com/p/5250930180"
+        },
+        {
+          "chapter_name": "陷阱第28穴 在下雪的季節裡",
+          "chapter_order": 31,
+          "chapter_link": "https://tieba.baidu.com/p/5252334005"
+        },
+        {
+          "chapter_name": "第179掘 吉爾巴帝國的落日 王之章",
+          "chapter_order": 32,
+          "chapter_link": "https://tieba.baidu.com/p/5254393428"
+        },
+        {
+          "chapter_name": "第180掘 幹架之章",
+          "chapter_order": 33,
+          "chapter_link": "https://tieba.baidu.com/p/5255201134"
+        },
+        {
+          "chapter_name": "第181掘 吉爾巴帝國的落日 哥布林之章",
+          "chapter_order": 34,
+          "chapter_link": "https://tieba.baidu.com/p/5256803375"
+        },
+        {
+          "chapter_name": "陷阱29穴 寒冷的日子的......",
+          "chapter_order": 35,
+          "chapter_link": "https://tieba.baidu.com/p/5258637353"
+        },
+        {
+          "chapter_name": "第182掘 吉爾巴帝國的落日 意外的結果之章",
+          "chapter_order": 36,
+          "chapter_link": "https://tieba.baidu.com/p/5259961212"
+        },
+        {
+          "chapter_name": "陷阱30掘",
+          "chapter_order": 37,
+          "chapter_link": "https://tieba.baidu.com/p/5260949423"
+        },
+        {
+          "chapter_name": "第183掘 吉爾巴帝國的落日 撒餌之章",
+          "chapter_order": 38,
+          "chapter_link": "https://tieba.baidu.com/p/5262374336"
+        },
+        {
+          "chapter_name": "陷阱31掘 特別的年末和正月 前半",
+          "chapter_order": 39,
+          "chapter_link": "https://tieba.baidu.com/p/5263774338"
+        },
+        {
+          "chapter_name": "陷阱31掘（2） 特別的年末和正月 過年前",
+          "chapter_order": 40,
+          "chapter_link": "https://tieba.baidu.com/p/5265307244"
+        },
+        {
+          "chapter_name": "第184掘 吉爾巴帝國的落日 計劃之章",
+          "chapter_order": 41,
+          "chapter_link": "https://tieba.baidu.com/p/5266766149"
+        },
+        {
+          "chapter_name": "陷阱31掘（3） 特別的年末和正月 忙碌的除夕",
+          "chapter_order": 42,
+          "chapter_link": "https://tieba.baidu.com/p/5268214920"
+        },
+        {
+          "chapter_name": "第185掘 吉爾巴帝國的落日 笨蛋登場之章",
+          "chapter_order": 43,
+          "chapter_link": "https://tieba.baidu.com/p/5269745650"
+        },
+        {
+          "chapter_name": "第186掘 暗中活動？之章",
+          "chapter_order": 44,
+          "chapter_link": "https://tieba.baidu.com/p/5271188177"
+        },
+        {
+          "chapter_name": "第187掘 吉爾巴帝國的落日 終章",
+          "chapter_order": 45,
+          "chapter_link": "https://tieba.baidu.com/p/5274889731"
+        },
+        {
+          "chapter_name": "第188掘 調查到的東西",
+          "chapter_order": 46,
+          "chapter_link": "https://tieba.baidu.com/p/5276128573"
+        },
+        {
+          "chapter_name": "第189掘 魔劍和聖劍",
+          "chapter_order": 47,
+          "chapter_link": "https://tieba.baidu.com/p/5281190184"
+        },
+        {
+          "chapter_name": "陷阱32掘 新手的日常",
+          "chapter_order": 48,
+          "chapter_link": "https://tieba.baidu.com/p/5279646671"
+        }
+      ]
+    },
+    {
+      "volume_name": "新大陸編　魔剣と聖剣",
+      "volume_order": 11,
+      "chapters": [
+        {
+          "chapter_name": "第190掘 各隊的反應",
+          "chapter_order": 0,
+          "chapter_link": "https://tieba.baidu.com/p/5282871020"
+        },
+        {
+          "chapter_name": "第191掘 魔劍姐妹的待遇",
+          "chapter_order": 1,
+          "chapter_link": "https://tieba.baidu.com/p/5286485174"
+        },
+        {
+          "chapter_name": "第192掘 路上的差距",
+          "chapter_order": 2,
+          "chapter_link": "https://tieba.baidu.com/p/5288156886"
+        },
+        {
+          "chapter_name": "第193掘 合流和說明",
+          "chapter_order": 3,
+          "chapter_link": "https://tieba.baidu.com/p/5293493772"
+        },
+        {
+          "chapter_name": "陷阱33穴 維德的日常",
+          "chapter_order": 4,
+          "chapter_link": "https://tieba.baidu.com/p/5290041514"
+        },
+        {
+          "chapter_name": "第194掘 進攻目標的說明與攻略方法的擬定",
+          "chapter_order": 5,
+          "chapter_link": "https://tieba.baidu.com/p/5294531161"
+        },
+        {
+          "chapter_name": "第195掘 據點攻略作戰",
+          "chapter_order": 6,
+          "chapter_link": "https://tieba.baidu.com/p/5295941497"
+        },
+        {
+          "chapter_name": "第196掘 傳說還沒開始就已經終結了",
+          "chapter_order": 7,
+          "chapter_link": "https://tieba.baidu.com/p/5297559175"
+        },
+        {
+          "chapter_name": "陷阱34掘 甜甜的一日",
+          "chapter_order": 8,
+          "chapter_link": "https://tieba.baidu.com/p/5299033799"
+        },
+        {
+          "chapter_name": "第197掘 要塞攻略後的對話",
+          "chapter_order": 9,
+          "chapter_link": "https://tieba.baidu.com/p/5301021329"
+        },
+        {
+          "chapter_name": "第198掘 城市被託付的理由",
+          "chapter_order": 10,
+          "chapter_link": "https://tieba.baidu.com/p/5302229154"
+        },
+        {
+          "chapter_name": "第199掘 先談談吧",
+          "chapter_order": 11,
+          "chapter_link": "https://tieba.baidu.com/p/5303765128"
+        },
+        {
+          "chapter_name": "第200掘 敵人的動向",
+          "chapter_order": 12,
+          "chapter_link": "https://tieba.baidu.com/p/5305340212"
+        },
+        {
+          "chapter_name": "第201掘 開始行動的敵人和今天的晚飯",
+          "chapter_order": 13,
+          "chapter_link": "https://tieba.baidu.com/p/5307597289"
+        },
+        {
+          "chapter_name": "第202掘 佈局",
+          "chapter_order": 14,
+          "chapter_link": "https://tieba.baidu.com/p/5308515341"
+        },
+        {
+          "chapter_name": "第203掘 所謂王者的後宮是",
+          "chapter_order": 15,
+          "chapter_link": "https://tieba.baidu.com/p/5310598078"
+        },
+        {
+          "chapter_name": "第204掘 一切都準備好了？",
+          "chapter_order": 16,
+          "chapter_link": "https://tieba.baidu.com/p/5313501496"
+        },
+        {
+          "chapter_name": "第205掘 迫近的時候",
+          "chapter_order": 17,
+          "chapter_link": "https://tieba.baidu.com/p/5315174646"
+        },
+        {
+          "chapter_name": "第206掘 本職工作",
+          "chapter_order": 18,
+          "chapter_link": "https://tieba.baidu.com/p/5316932442"
+        },
+        {
+          "chapter_name": "第207掘 甦醒的過去是回歸之路的阻礙",
+          "chapter_order": 19,
+          "chapter_link": "https://tieba.baidu.com/p/5319042069"
+        },
+        {
+          "chapter_name": "第208掘 贈品們的決斷",
+          "chapter_order": 20,
+          "chapter_link": "https://tieba.baidu.com/p/5320255360"
+        },
+        {
+          "chapter_name": "209",
+          "chapter_order": 21,
+          "chapter_link": "https://tieba.baidu.com/p/5322003279"
+        },
+        {
+          "chapter_name": "陷阱35掘 魔物會議？",
+          "chapter_order": 22,
+          "chapter_link": "https://tieba.baidu.com/p/5324357970"
+        },
+        {
+          "chapter_name": "第210掘 吵鬧的人們",
+          "chapter_order": 23,
+          "chapter_link": "https://tieba.baidu.com/p/5325538540"
+        },
+        {
+          "chapter_name": "第211掘 無法忍受的時間",
+          "chapter_order": 24,
+          "chapter_link": "https://tieba.baidu.com/p/5327055417"
+        },
+        {
+          "chapter_name": "第212掘 櫻",
+          "chapter_order": 25,
+          "chapter_link": "https://tieba.baidu.com/p/5329242476"
+        },
+        {
+          "chapter_name": "第213掘 事情聽取",
+          "chapter_order": 26,
+          "chapter_link": "https://tieba.baidu.com/p/5331077055"
+        },
+        {
+          "chapter_name": "第214掘 被遺忘的人們",
+          "chapter_order": 27,
+          "chapter_link": "https://tieba.baidu.com/p/5332671541"
+        },
+        {
+          "chapter_name": "陷阱36掘 因為那裡是山 概要",
+          "chapter_order": 28,
+          "chapter_link": "https://tieba.baidu.com/p/5333846384"
+        },
+        {
+          "chapter_name": "陷阱37掘 那裡是女澡堂 聚集過來的人們",
+          "chapter_order": 29,
+          "chapter_link": "https://tieba.baidu.com/p/5335990036"
+        },
+        {
+          "chapter_name": "陷阱38掘 那裡是女澡堂 慶典開始",
+          "chapter_order": 30,
+          "chapter_link": "https://tieba.baidu.com/p/5340690539"
+        },
+        {
+          "chapter_name": "第215掘 周邊的動作",
+          "chapter_order": 31,
+          "chapter_link": "https://tieba.baidu.com/p/5340690539"
+        },
+        {
+          "chapter_name": "第216掘 野丫頭上前線",
+          "chapter_order": 32,
+          "chapter_link": "https://tieba.baidu.com/p/5344033212"
+        },
+        {
+          "chapter_name": "第217掘 行動起來的人們",
+          "chapter_order": 33,
+          "chapter_link": "https://tieba.baidu.com/p/5345653599"
+        },
+        {
+          "chapter_name": "第218掘 戰",
+          "chapter_order": 34,
+          "chapter_link": "https://tieba.baidu.com/p/5347413334"
+        },
+        {
+          "chapter_name": "第219掘 大軍的弱點",
+          "chapter_order": 35,
+          "chapter_link": "https://tieba.baidu.com/p/5349828721"
+        },
+        {
+          "chapter_name": "第220掘 各方報告",
+          "chapter_order": 36,
+          "chapter_link": "https://tieba.baidu.com/p/5352678507"
+        },
+        {
+          "chapter_name": "第221掘 意外的交涉",
+          "chapter_order": 37,
+          "chapter_link": "https://tieba.baidu.com/p/5355891812"
+        },
+        {
+          "chapter_name": "第222掘 裁決",
+          "chapter_order": 38,
+          "chapter_link": "https://tieba.baidu.com/p/5358325446"
+        },
+        {
+          "chapter_name": "第223掘 自家人的報告與會議",
+          "chapter_order": 39,
+          "chapter_link": "https://tieba.baidu.com/p/5361196953"
+        },
+        {
+          "chapter_name": "第224掘 今後的行動",
+          "chapter_order": 40,
+          "chapter_link": "https://tieba.baidu.com/p/5364265405"
+        },
+        {
+          "chapter_name": "第225掘 野丫頭的事",
+          "chapter_order": 41,
+          "chapter_link": "https://tieba.baidu.com/p/5367667189"
+        },
+        {
+          "chapter_name": "第226掘 友人",
+          "chapter_order": 42,
+          "chapter_link": "https://tieba.baidu.com/p/5370308409"
+        },
+        {
+          "chapter_name": "第227掘 未來的精打細算......",
+          "chapter_order": 43,
+          "chapter_link": "https://tieba.baidu.com/p/5371594180"
+        },
+        {
+          "chapter_name": "第228掘 各國的動向",
+          "chapter_order": 44,
+          "chapter_link": "https://tieba.baidu.com/p/5373708590"
+        },
+        {
+          "chapter_name": "第229掘 乙女",
+          "chapter_order": 45,
+          "chapter_link": "https://tieba.baidu.com/p/5376287149"
+        },
+        {
+          "chapter_name": "第230掘 俘虜的情報和神話的真相",
+          "chapter_order": 46,
+          "chapter_link": "https://tieba.baidu.com/p/5378840743"
+        },
+        {
+          "chapter_name": "第231掘 編成發表",
+          "chapter_order": 47,
+          "chapter_link": "https://tieba.baidu.com/p/5380364740"
+        },
+        {
+          "chapter_name": "第232掘 茶話與架起橋樑之子",
+          "chapter_order": 48,
+          "chapter_link": "https://tieba.baidu.com/p/5381967709"
+        },
+        {
+          "chapter_name": "第233掘 轉動的過去與不規則",
+          "chapter_order": 49,
+          "chapter_link": "https://tieba.baidu.com/p/5385827161"
+        },
+        {
+          "chapter_name": "陷阱38掘 那裡是女澡堂 慶典開始",
+          "chapter_order": 50,
+          "chapter_link": "https://tieba.baidu.com/p/5340690539"
+        },
+        {
+          "chapter_name": "第215掘 周邊的動作",
+          "chapter_order": 51,
+          "chapter_link": "https://tieba.baidu.com/p/5340690539"
+        },
+        {
+          "chapter_name": "第216掘 野丫頭上前線",
+          "chapter_order": 52,
+          "chapter_link": "https://tieba.baidu.com/p/5344033212"
+        },
+        {
+          "chapter_name": "第217掘 行動起來的人們",
+          "chapter_order": 53,
+          "chapter_link": "https://tieba.baidu.com/p/5345653599"
+        },
+        {
+          "chapter_name": "第218掘 戰",
+          "chapter_order": 54,
+          "chapter_link": "https://tieba.baidu.com/p/5347413334"
+        },
+        {
+          "chapter_name": "第219掘 大軍的弱點",
+          "chapter_order": 55,
+          "chapter_link": "https://tieba.baidu.com/p/5349828721"
+        },
+        {
+          "chapter_name": "第220掘 各方報告",
+          "chapter_order": 56,
+          "chapter_link": "https://tieba.baidu.com/p/5352678507"
+        },
+        {
+          "chapter_name": "第221掘 意外的交涉",
+          "chapter_order": 57,
+          "chapter_link": "https://tieba.baidu.com/p/5355891812"
+        },
+        {
+          "chapter_name": "第222掘 裁決",
+          "chapter_order": 58,
+          "chapter_link": "https://tieba.baidu.com/p/5358325446"
+        },
+        {
+          "chapter_name": "第223掘 自家人的報告與會議",
+          "chapter_order": 59,
+          "chapter_link": "https://tieba.baidu.com/p/5361196953"
+        },
+        {
+          "chapter_name": "第224掘 今後的行動",
+          "chapter_order": 60,
+          "chapter_link": "https://tieba.baidu.com/p/5364265405"
+        },
+        {
+          "chapter_name": "第225掘 野丫頭的事",
+          "chapter_order": 61,
+          "chapter_link": "https://tieba.baidu.com/p/5367667189"
+        },
+        {
+          "chapter_name": "第226掘 友人",
+          "chapter_order": 62,
+          "chapter_link": "https://tieba.baidu.com/p/5370308409"
+        },
+        {
+          "chapter_name": "第227掘 未來的精打細算......",
+          "chapter_order": 63,
+          "chapter_link": "https://tieba.baidu.com/p/5371594180"
+        },
+        {
+          "chapter_name": "第228掘 各國的動向",
+          "chapter_order": 64,
+          "chapter_link": "https://tieba.baidu.com/p/5373708590"
+        },
+        {
+          "chapter_name": "第229掘 乙女",
+          "chapter_order": 65,
+          "chapter_link": "https://tieba.baidu.com/p/5376287149"
+        },
+        {
+          "chapter_name": "第230掘 俘虜的情報和神話的真相",
+          "chapter_order": 66,
+          "chapter_link": "https://tieba.baidu.com/p/5378840743"
+        },
+        {
+          "chapter_name": "第231掘 編成發表",
+          "chapter_order": 67,
+          "chapter_link": "https://tieba.baidu.com/p/5380364740"
+        },
+        {
+          "chapter_name": "第232掘 茶話與架起橋樑之子",
+          "chapter_order": 68,
+          "chapter_link": "https://tieba.baidu.com/p/5381967709"
+        },
+        {
+          "chapter_name": "第233掘 轉動的過去與不規則",
+          "chapter_order": 69,
+          "chapter_link": "https://tieba.baidu.com/p/5385827161"
+        },
+        {
+          "chapter_name": "第234掘 伴隨著違反規則的行動",
+          "chapter_order": 70,
+          "chapter_link": "https://tieba.baidu.com/p/5440988316"
+        },
+        {
+          "chapter_name": "第235掘 太好了、終於到了！！",
+          "chapter_order": 71,
+          "chapter_link": "https://tieba.baidu.com/p/5461779735"
+        },
+        {
+          "chapter_name": "第236掘 吾身即是迷宮也",
+          "chapter_order": 72,
+          "chapter_link": "https://tieba.baidu.com/p/5464325280"
+        },
+        {
+          "chapter_name": "第237掘 寫作敵人，讀作路旁的石子（怎樣也好）",
+          "chapter_order": 73,
+          "chapter_link": "https://tieba.baidu.com/p/5483405298"
+        },
+        {
+          "chapter_name": "第238掘 艾娜利亞聖都襲撃事件！！",
+          "chapter_order": 74,
+          "chapter_link": "https://tieba.baidu.com/p/5504297608"
+        },
+        {
+          "chapter_name": "第239掘 事件的總結和今後的方針",
+          "chapter_order": 75,
+          "chapter_link": "https://tieba.baidu.com/p/5504310853"
+        },
+        {
+          "chapter_name": "第240掘 洩露",
+          "chapter_order": 76,
+          "chapter_link": "https://tieba.baidu.com/p/5506710398"
+        },
+        {
+          "chapter_name": "陷阱40掘 孩子和回憶",
+          "chapter_order": 77,
+          "chapter_link": "https://tieba.baidu.com/p/5504323896"
+        },
+        {
+          "chapter_name": "陷阱39掘 那裡是女澡堂",
+          "chapter_order": 78,
+          "chapter_link": "https://tieba.baidu.com/p/5384286664"
+        },
+        {
+          "chapter_name": "陷阱38掘 那裡是女澡堂 慶典開始",
+          "chapter_order": 79,
+          "chapter_link": "https://tieba.baidu.com/p/5337784422"
+        },
+        {
+          "chapter_name": "第241掘 聖女的其他願望",
+          "chapter_order": 80,
+          "chapter_link": "https://tieba.baidu.com/p/5517443403"
+        },
+        {
+          "chapter_name": "第242掘 收集情報到了地獄",
+          "chapter_order": 81,
+          "chapter_link": "https://tieba.baidu.com/p/5524968130"
+        },
+        {
+          "chapter_name": "第243掘 祭品與詭計",
+          "chapter_order": 82,
+          "chapter_link": "https://tieba.baidu.com/p/5527530007"
+        },
+        {
+          "chapter_name": "第244掘 學府篇　完",
+          "chapter_order": 83,
+          "chapter_link": "https://tieba.baidu.com/p/5532791052"
+        },
+        {
+          "chapter_name": "第245掘 射將先射馬　不用那樣，取下將的首級就行了",
+          "chapter_order": 84,
+          "chapter_link": "https://tieba.baidu.com/p/5536016949"
+        },
+        {
+          "chapter_name": "第246掘 所以說，沒用",
+          "chapter_order": 85,
+          "chapter_link": "https://tieba.baidu.com/p/5540498391"
+        },
+        {
+          "chapter_name": "第247掘 妨礙人家談戀愛的傢伙是……",
+          "chapter_order": 86,
+          "chapter_link": "https://tieba.baidu.com/p/5547576983"
+        },
+        {
+          "chapter_name": "第248掘 ＴＨＥ　ＨＥＲＯ",
+          "chapter_order": 87,
+          "chapter_link": "https://tieba.baidu.com/p/5550928716"
+        },
+        {
+          "chapter_name": "第249掘 開始冒險囉！！",
+          "chapter_order": 88,
+          "chapter_link": "https://tieba.baidu.com/p/5554159973"
+        },
+        {
+          "chapter_name": "第250掘 前輩的經驗談",
+          "chapter_order": 89,
+          "chapter_link": "https://tieba.baidu.com/p/5558317855"
+        },
+        {
+          "chapter_name": "第251掘 亂ＦＬＡＧ林立的美男子",
+          "chapter_order": 90,
+          "chapter_link": "https://tieba.baidu.com/p/5563993419"
+        },
+        {
+          "chapter_name": "第252掘 大魔法師上陣",
+          "chapter_order": 91,
+          "chapter_link": "https://tieba.baidu.com/p/5571866209"
+        },
+        {
+          "chapter_name": "第253掘 主人公的用途",
+          "chapter_order": 92,
+          "chapter_link": "https://tieba.baidu.com/p/5575665581"
+        },
+        {
+          "chapter_name": "第254掘 小時候，每一天都是冒險。",
+          "chapter_order": 93,
+          "chapter_link": "https://tieba.baidu.com/p/5581425227"
+        },
+        {
+          "chapter_name": "第255掘 女主人是書之森的魔女，然後回答。",
+          "chapter_order": 94,
+          "chapter_link": "https://tieba.baidu.com/p/5585514459"
+        },
+        {
+          "chapter_name": "第256掘 也許是討厭的真實？ 備用https//tieba.baidu.com/p/5611817109",
+          "chapter_order": 95,
+          "chapter_link": "https://tieba.baidu.com/p/5610650988"
+        },
+        {
+          "chapter_name": "第257堀反省會和調查結果和今後的動向",
+          "chapter_order": 96,
+          "chapter_link": "https://tieba.baidu.com/p/5668748450"
+        },
+        {
+          "chapter_name": "第258堀精彩的作戰",
+          "chapter_order": 97,
+          "chapter_link": "https://tieba.baidu.com/p/5670379812"
+        },
+        {
+          "chapter_name": "第259堀啟動的碎片們",
+          "chapter_order": 98,
+          "chapter_link": "https://tieba.baidu.com/p/5670942365"
+        },
+        {
+          "chapter_name": "第260堀布陣發表",
+          "chapter_order": 99,
+          "chapter_link": "https://tieba.baidu.com/p/5672453132"
+        },
+        {
+          "chapter_name": "261",
+          "chapter_order": 100,
+          "chapter_link": "http://tieba.baidu.com/p/5684035553"
+        },
+        {
+          "chapter_name": "262",
+          "chapter_order": 101,
+          "chapter_link": "http://tieba.baidu.com/p/5684878800"
+        },
+        {
+          "chapter_name": "263",
+          "chapter_order": 102,
+          "chapter_link": "http://tieba.baidu.com/p/5735853464"
+        },
+        {
+          "chapter_name": "264",
+          "chapter_order": 103,
+          "chapter_link": "http://tieba.baidu.com/p/5805987939"
+        },
+        {
+          "chapter_name": "265",
+          "chapter_order": 104,
+          "chapter_link": "http://tieba.baidu.com/p/5808927170"
+        },
+        {
+          "chapter_name": "266",
+          "chapter_order": 105,
+          "chapter_link": "https://tieba.baidu.com/p/6039247986"
+        }
+      ]
+    },
+    {
+      "volume_name": "267 暫缺",
+      "volume_order": 12,
+      "chapters": []
+    },
+    {
+      "volume_name": "268 暫缺",
+      "volume_order": 13,
+      "chapters": [
+        {
+          "chapter_name": "269",
+          "chapter_order": 0,
+          "chapter_link": "https://tieba.baidu.com/p/6039554721"
+        },
+        {
+          "chapter_name": "270",
+          "chapter_order": 1,
+          "chapter_link": "https://tieba.baidu.com/p/6041297398"
+        },
+        {
+          "chapter_name": "271",
+          "chapter_order": 2,
+          "chapter_link": "https://tieba.baidu.com/p/6043492554"
+        },
+        {
+          "chapter_name": "272",
+          "chapter_order": 3,
+          "chapter_link": "https://tieba.baidu.com/p/6044454560"
+        },
+        {
+          "chapter_name": "273",
+          "chapter_order": 4,
+          "chapter_link": "https://tieba.baidu.com/p/6045792676"
+        },
+        {
+          "chapter_name": "274",
+          "chapter_order": 5,
+          "chapter_link": "https://tieba.baidu.com/p/6047090489"
+        },
+        {
+          "chapter_name": "275",
+          "chapter_order": 6,
+          "chapter_link": "https://tieba.baidu.com/p/6048735326"
+        },
+        {
+          "chapter_name": "276",
+          "chapter_order": 7,
+          "chapter_link": "https://tieba.baidu.com/p/6048948781"
+        },
+        {
+          "chapter_name": "陷阱45堀",
+          "chapter_order": 8,
+          "chapter_link": "https://tieba.baidu.com/p/6049906640"
+        },
+        {
+          "chapter_name": "277",
+          "chapter_order": 9,
+          "chapter_link": "https://tieba.baidu.com/p/6052972504"
+        },
+        {
+          "chapter_name": "278",
+          "chapter_order": 10,
+          "chapter_link": "https://tieba.baidu.com/p/6055009188"
+        },
+        {
+          "chapter_name": "279",
+          "chapter_order": 11,
+          "chapter_link": "https://tieba.baidu.com/p/6056390168"
+        },
+        {
+          "chapter_name": "280",
+          "chapter_order": 12,
+          "chapter_link": "https://tieba.baidu.com/p/6062090523"
+        },
+        {
+          "chapter_name": "281",
+          "chapter_order": 13,
+          "chapter_link": "https://tieba.baidu.com/p/6064714776"
+        },
+        {
+          "chapter_name": "282",
+          "chapter_order": 14,
+          "chapter_link": "https://tieba.baidu.com/p/6066795931"
+        },
+        {
+          "chapter_name": "283",
+          "chapter_order": 15,
+          "chapter_link": "https://tieba.baidu.com/p/6067732136"
+        },
+        {
+          "chapter_name": "284",
+          "chapter_order": 16,
+          "chapter_link": "https://tieba.baidu.com/p/6068929516"
+        },
+        {
+          "chapter_name": "285",
+          "chapter_order": 17,
+          "chapter_link": "https://tieba.baidu.com/p/6069391356"
+        },
+        {
+          "chapter_name": "陷阱46堀",
+          "chapter_order": 18,
+          "chapter_link": "https://tieba.baidu.com/p/6071634948"
+        },
+        {
+          "chapter_name": "286",
+          "chapter_order": 19,
+          "chapter_link": "https://tieba.baidu.com/p/6072233613"
+        },
+        {
+          "chapter_name": "287",
+          "chapter_order": 20,
+          "chapter_link": "https://tieba.baidu.com/p/6079556397"
+        },
+        {
+          "chapter_name": "陷阱47堀",
+          "chapter_order": 21,
+          "chapter_link": "https://tieba.baidu.com/p/6083357417"
+        },
+        {
+          "chapter_name": "陷阱47堀",
+          "chapter_order": 22,
+          "chapter_link": "https://tieba.baidu.com/p/6089615664"
+        },
+        {
+          "chapter_name": "288",
+          "chapter_order": 23,
+          "chapter_link": "https://tieba.baidu.com/p/6092060933"
+        }
+      ]
+    },
+    {
+      "volume_name": "289",
+      "volume_order": 14,
+      "chapters": [
+        {
+          "chapter_name": "290",
+          "chapter_order": 0,
+          "chapter_link": "https://tieba.baidu.com/p/6097597856"
+        },
+        {
+          "chapter_name": "291",
+          "chapter_order": 1,
+          "chapter_link": "https://tieba.baidu.com/p/6098579519"
+        },
+        {
+          "chapter_name": "292",
+          "chapter_order": 2,
+          "chapter_link": "https://tieba.baidu.com/p/6111405431"
+        },
+        {
+          "chapter_name": "293",
+          "chapter_order": 3,
+          "chapter_link": "https://tieba.baidu.com/p/6115776776"
+        },
+        {
+          "chapter_name": "294",
+          "chapter_order": 4,
+          "chapter_link": "https://tieba.baidu.com/p/6117088402"
+        },
+        {
+          "chapter_name": "295",
+          "chapter_order": 5,
+          "chapter_link": "https://tieba.baidu.com/p/6118245234"
+        },
+        {
+          "chapter_name": "296",
+          "chapter_order": 6,
+          "chapter_link": "https://tieba.baidu.com/p/6118679240"
+        },
+        {
+          "chapter_name": "297",
+          "chapter_order": 7,
+          "chapter_link": "https://tieba.baidu.com/p/6119385027"
+        },
+        {
+          "chapter_name": "298",
+          "chapter_order": 8,
+          "chapter_link": "https://tieba.baidu.com/p/6119873263"
+        },
+        {
+          "chapter_name": "299",
+          "chapter_order": 9,
+          "chapter_link": "https://tieba.baidu.com/p/6120039530"
+        },
+        {
+          "chapter_name": "300",
+          "chapter_order": 10,
+          "chapter_link": "https://tieba.baidu.com/p/6121284590"
+        },
+        {
+          "chapter_name": "301",
+          "chapter_order": 11,
+          "chapter_link": "https://tieba.baidu.com/p/6121545266"
+        },
+        {
+          "chapter_name": "302",
+          "chapter_order": 12,
+          "chapter_link": "https://tieba.baidu.com/p/6128822527"
+        },
+        {
+          "chapter_name": "303",
+          "chapter_order": 13,
+          "chapter_link": "https://tieba.baidu.com/p/6128814103"
+        },
+        {
+          "chapter_name": "304",
+          "chapter_order": 14,
+          "chapter_link": "https://tieba.baidu.com/p/6128355810"
+        },
+        {
+          "chapter_name": "305",
+          "chapter_order": 15,
+          "chapter_link": "https://tieba.baidu.com/p/6131756694"
+        }
+      ]
+    }
+  ]
+}

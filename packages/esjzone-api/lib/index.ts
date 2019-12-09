@@ -404,10 +404,17 @@ export class ESJzoneClient extends AbstractHttpClient
 				{
 					data.authors = trimUnsafe(_m[1])
 				}
-				else if (_m = _text.match(/(\d+\-\d+\-\d+)/))
+				else if (_m = _text.match(/\b(\d{4}\-\d{1,2}\-\d{1,2})\b/))
 				{
-					let last_update_time = moment(_m[1]).unix();
-					data.last_update_time = last_update_time;
+					try
+					{
+						let last_update_time = moment(_m[1]).unix();
+						data.last_update_time = last_update_time;
+					}
+					catch (e)
+					{
+
+					}
 				}
 
 			})
