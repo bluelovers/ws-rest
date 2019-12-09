@@ -3,7 +3,7 @@
  */
 import fs, { readJSON, writeJSON } from 'fs-extra';
 import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
-import { IESJzoneRecentUpdateCache, IESJzoneRecentUpdateRowBookWithChapters } from 'esjzone-api/lib/types';
+import { IESJzoneRecentUpdateCache } from 'esjzone-api/lib/types';
 import Bluebird from 'bluebird';
 import { consoleDebug, getApiClient } from '../util';
 
@@ -33,8 +33,13 @@ import { consoleDebug, getApiClient } from '../util';
 		})
 	;
 
-	await writeJSON(cacheFilePaths.task001, listCache, {
-		spaces: 2,
-	});
+	await Bluebird.all([
+		writeJSON(cacheFilePaths.recentUpdateDay, recentUpdateDay, {
+			spaces: 2,
+		}),
+		writeJSON(cacheFilePaths.task001, listCache, {
+			spaces: 2,
+		}),
+	]);
 
 })();

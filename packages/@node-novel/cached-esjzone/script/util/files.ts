@@ -5,6 +5,8 @@ export const cacheFilePaths = {
 
 	recentUpdate: path.join(__root, 'data', 'novel/recentUpdate.json'),
 
+	recentUpdateDay: path.join(__root, 'data', 'novel/recentUpdateDay.json'),
+
 	task001: path.join(__root, 'test/temp', 'task001.json'),
 
 	infoPack: path.join(__root, 'data', 'novel/info.pack.json'),
@@ -20,6 +22,8 @@ export const cacheFilePaths = {
 	titles: path.join(__root, 'data/novel', 'titles.json'),
 
 	authors: path.join(__root, 'data/novel', 'authors.json'),
+
+	tags: path.join(__root, 'data/novel', 'tags.json'),
 
 };
 

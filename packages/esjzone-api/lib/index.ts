@@ -24,7 +24,13 @@ import Bluebird from 'bluebird';
 import { array_unique } from 'array-hyper-unique';
 import consoleDebug from 'restful-decorator/lib/util/debug';
 import toughCookie, { CookieJar } from 'tough-cookie';
-import { fromURL, IFromUrlOptions, IJSDOM, createJSDOM, IConstructorOptions as IJSDOMConstructorOptions } from 'jsdom-extra';
+import {
+	fromURL,
+	IFromUrlOptions,
+	IJSDOM,
+	createJSDOM,
+	IConstructorOptions as IJSDOMConstructorOptions,
+} from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
 import { arrayBufferToString, sniffHTMLEncoding, iconvDecode, trimUnsafe, tryMinifyHTML } from './util';
@@ -34,8 +40,7 @@ import {
 	IESJzoneRecentUpdateRow,
 	IESJzoneRecentUpdateRowBook,
 	IESJzoneBookChapters,
-	IESJzoneRecentUpdateRowBookWithChapters,
-	IParametersSlice,
+	IParametersSlice, IESJzoneRecentUpdateDay,
 } from './types';
 import { minifyHTML } from 'jsdom-extra/lib/html';
 import { buildVersion } from 'dmzj-api/lib/util';
@@ -114,7 +119,9 @@ export class ESJzoneClient extends AbstractHttpClient
 		return this.$http.defaults.jar || getCookieJar(this)
 	}
 
-	protected _handleArticleList<T extends Partial<IESJzoneRecentUpdate>, R = T & Pick<IESJzoneRecentUpdate, 'end' | 'last_update_time' | 'data'>>(_this: this, retDataInit: T): R
+	protected _handleArticleList<T extends Partial<IESJzoneRecentUpdate>, R = T & Pick<IESJzoneRecentUpdate, 'end' | 'last_update_time' | 'data'>>(_this: this,
+		retDataInit: T,
+	): R
 	{
 		const jsdom = _this._responseDataToJSDOM(_this.$returnValue, this.$response);
 		const $ = jsdom.$;
@@ -129,7 +136,8 @@ export class ESJzoneClient extends AbstractHttpClient
 		if (!pageEnd)
 		{
 			$('script')
-				.each((i, elem) => {
+				.each((i, elem) =>
+				{
 					let _this = $(elem);
 
 					let code = _this.text();
@@ -159,7 +167,7 @@ export class ESJzoneClient extends AbstractHttpClient
 			page: page2 || retDataInit.page,
 			end: pageEnd,
 			last_update_time: 0,
-			data: []
+			data: [],
 		};
 
 		let lastUpdateTime = 0;
@@ -214,19 +222,24 @@ export class ESJzoneClient extends AbstractHttpClient
 		return ret as any;
 	}
 
-	protected _handleArticleTopListAll<T extends (page?: number, args?: any) => any>(method: T, args: IParametersSlice<T>, from: number = 0, pageTo: number = Infinity, {
-		throwError,
-		delay,
-	}: {
-		throwError?: boolean
-		delay?: number,
-	} = {})
+	protected _handleArticleTopListAll<T extends (page?: number, args?: any) => any>(method: T,
+		args: IParametersSlice<T>,
+		from: number = 0,
+		pageTo: number = Infinity,
+		{
+			throwError,
+			delay,
+		}: {
+			throwError?: boolean
+			delay?: number,
+		} = {},
+	)
 	{
 		delay |= 0;
 
 		return (method as ESJzoneClient["articleList"])
 			.apply(this, [
-				from, ...args
+				from, ...args,
 			])
 			.then(async function (this: ESJzoneClient, dataReturn)
 			{
@@ -245,7 +258,7 @@ export class ESJzoneClient extends AbstractHttpClient
 
 					let retP = (method as ESJzoneClient["articleList"])
 						.apply(this, [
-							to + 1, ...args
+							to + 1, ...args,
 						])
 					;
 
@@ -283,7 +296,7 @@ export class ESJzoneClient extends AbstractHttpClient
 					to: number;
 				}
 			})
-		;
+			;
 	}
 
 	/**
@@ -298,7 +311,7 @@ export class ESJzoneClient extends AbstractHttpClient
 			page,
 			end: undefined,
 			last_update_time: 0,
-			data: []
+			data: [],
 		}) as any
 	}
 
@@ -307,7 +320,7 @@ export class ESJzoneClient extends AbstractHttpClient
 		delay?: number,
 	}, ...args: IParametersSlice<this["articleList"]>)
 	{
-		return this._handleArticleTopListAll(this.articleList, args, from ,to, options)
+		return this._handleArticleTopListAll(this.articleList, args, from, to, options)
 	}
 
 	/**
@@ -423,7 +436,8 @@ export class ESJzoneClient extends AbstractHttpClient
 		$('.product-detail .well ')
 			.find('.row a[href]')
 			.not('.btn, .form-group *')
-			.each((i, elem) => {
+			.each((i, elem) =>
+			{
 
 				let _this = $(elem);
 
@@ -444,7 +458,8 @@ export class ESJzoneClient extends AbstractHttpClient
 		;
 
 		$('.show-tag a[href*="tag"]')
-			.each((i, elem) => {
+			.each((i, elem) =>
+			{
 				let _this = $(elem);
 				let name = trimUnsafe(_this.text());
 
@@ -459,7 +474,8 @@ export class ESJzoneClient extends AbstractHttpClient
 
 		try
 		{
-			tryMinifyHTML(_content.html(), (html) => {
+			tryMinifyHTML(_content.html(), (html) =>
+			{
 				_content.html(html);
 			});
 		}
@@ -483,7 +499,8 @@ export class ESJzoneClient extends AbstractHttpClient
 		};
 
 		body
-			.each((i, elem) => {
+			.each((i, elem) =>
+			{
 				let _this = $(elem);
 
 				if (_this.is('.non'))
@@ -580,14 +597,15 @@ export class ESJzoneClient extends AbstractHttpClient
 	})
 	{
 		return this.$http({
-			...this.$requestConfig,
-			method: 'POST',
-			data: {
-				plxf: 'getTranslation',
-				"plxa[]": argv.code,
-			}
-		})
-			.then(v => {
+				...this.$requestConfig,
+				method: 'POST',
+				data: {
+					plxf: 'getTranslation',
+					"plxa[]": argv.code,
+				},
+			})
+			.then(v =>
+			{
 
 				let source = this
 					._decodeBuffer(v.data)
@@ -598,7 +616,7 @@ export class ESJzoneClient extends AbstractHttpClient
 
 				return JSON.parse(source) as string[]
 			})
-		;
+			;
 	}
 
 	/**
@@ -641,8 +659,9 @@ export class ESJzoneClient extends AbstractHttpClient
 	}>
 	{
 		return Bluebird.resolve()
-			.then(async () => {
-				let jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+			.then(async () =>
+			{
+				const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
 				const $ = jsdom.$;
 
 				let $content = $('.container .row:has(.forum-content)');
@@ -674,14 +693,16 @@ export class ESJzoneClient extends AbstractHttpClient
 					}
 
 					await this._getDecodeChapter({
-						novel_id: argv.novel_id,
-						chapter_id: argv.chapter_id,
-						code,
-					})
-						.then(a => {
+							novel_id: argv.novel_id,
+							chapter_id: argv.chapter_id,
+							code,
+						})
+						.then(a =>
+						{
 							let elems = $('.trans');
 
-							a.forEach((v, i) => {
+							a.forEach((v, i) =>
+							{
 								elems.eq(i).html(v);
 							});
 
@@ -723,7 +744,8 @@ export class ESJzoneClient extends AbstractHttpClient
 
 				$content
 					.find('img[src]')
-					.each((i, elem) => {
+					.each((i, elem) =>
+					{
 						let $elem = $(elem);
 						let src = $elem.prop('src').trim();
 
@@ -755,7 +777,97 @@ export class ESJzoneClient extends AbstractHttpClient
 					html,
 				} as any
 			})
+			;
+	}
+
+	@GET('update')
+	@methodBuilder()
+	recentUpdateDay(): IBluebird<IESJzoneRecentUpdateDay>
+	{
+		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+		const $ = jsdom.$;
+
+		let tabs = $('.container #showTab li a');
+		let divs = $('.container .tab-content > div[id]');
+
+		let last_update_time = 0;
+
+		let ret: IESJzoneRecentUpdateDay = {
+			days: 0,
+			size: 0,
+			last_update_time,
+			data: {},
+			summary: {},
+		};
+
+		const { data, summary } = ret;
+
+		tabs
+			.each((i, tab_elem) =>
+			{
+
+				let timestamp = moment($(tab_elem).text()).unix();
+				let div = divs.eq(i);
+
+				data[timestamp] = data[timestamp] || [];
+
+				last_update_time = Math.max(last_update_time, timestamp, 0);
+
+				div
+					.find('.thumbnail')
+					.each((i, elem) =>
+					{
+						let _this = $(elem);
+
+						let cover = _this
+							.find('.coverMask img:eq(0)')
+							.prop('src')
+						;
+
+						let _a = _this
+							.find('.caption .caption-txt a')
+							.eq(0)
+						;
+
+						let title = _a.text();
+
+						title = trimUnsafe(title);
+
+						let cid: string;
+						let nid: string;
+						let last_update_chapter_name: string;
+
+						let _m0 = (_a.prop('href') as string)
+							.match(/detail\/(\d+)/)
+						;
+
+						nid = _m0[1];
+						last_update_chapter_name = _this
+							.find('.caption .caption-date')
+							.eq(0)
+							.text() || undefined
+						;
+
+						data[timestamp].push({
+							id: nid,
+							name: title,
+							cover,
+							last_update_chapter_name,
+						});
+
+						summary[nid] = Math.max(timestamp, summary[nid] | 0);
+					})
+				;
+
+			})
 		;
+
+		ret.last_update_time = last_update_time;
+		ret.days = Object.keys(data).length;
+		ret.size = Object.keys(summary).length;
+
+
+		return ret as any;
 	}
 
 }

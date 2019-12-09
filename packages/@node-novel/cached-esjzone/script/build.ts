@@ -10,7 +10,7 @@
 
 	await lazyImport('./build/merge');
 
-	//await lazyImport('./build/cache');
+	await lazyImport('./build/cache');
 
 })();
 

@@ -1,7 +1,7 @@
 {
   "name": "@node-novel/cached-esjzone",
   "version": "1.0.0",
-  "description": "",
+  "description": "cached esjzone fake api like data",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
@@ -28,7 +28,7 @@
   "scripts": {
     "build": "yarn run build:fix && yarn run build:cache && yarn run build:commit",
     "build:cache": "ts-node ./script/build",
-    "build:commit": "echo build:commit",
+    "build:commit": "ts-node ./script/build-commit",
     "build:fix": "ts-node ./script/build/fix",
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",

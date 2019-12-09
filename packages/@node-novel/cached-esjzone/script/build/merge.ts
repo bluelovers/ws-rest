@@ -1,6 +1,6 @@
 import fs, { readJSON, writeJSON } from 'fs-extra';
 import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
-import { IESJzoneRecentUpdateCache, IESJzoneRecentUpdateRowBookWithChapters } from 'esjzone-api/lib/types';
+import { IESJzoneRecentUpdateCache, IESJzoneRecentUpdateRowBook } from 'esjzone-api/lib/types';
 import Bluebird from 'bluebird';
 import { consoleDebug, __root } from '../util';
 import FastGlob, { Options, EntryItem } from '@bluelovers/fast-glob/bluebird';
@@ -22,12 +22,12 @@ let _cache_map = {} as Record<string, string>;
 		})
 		.reduce(async (a, file) => {
 
-			let info = await readJSON(file) as IESJzoneRecentUpdateRowBookWithChapters;
+			let info = await readJSON(file) as IESJzoneRecentUpdateRowBook;
 
 			a[info.id] = info;
 
 			return a;
-		}, {} as Record<string, IESJzoneRecentUpdateRowBookWithChapters>)
+		}, {} as Record<string, IESJzoneRecentUpdateRowBook>)
 	;
 
 	await writeJSON(cacheFilePaths.infoPack, data, {

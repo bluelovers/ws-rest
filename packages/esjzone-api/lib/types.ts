@@ -10,6 +10,15 @@ export interface IESJzoneRecentUpdate
 	data: IESJzoneRecentUpdateRow[];
 }
 
+export interface IESJzoneRecentUpdateDay
+{
+	last_update_time: number;
+	data: Record<number, IESJzoneRecentUpdateRow[]>;
+	summary: Record<string, number>;
+	days: number,
+	size: number,
+}
+
 export interface IESJzoneRecentUpdateCache extends Omit<IESJzoneRecentUpdate, 'page'>
 {
 	from: number,
@@ -66,11 +75,6 @@ export interface IESJzoneBookChaptersVol
 	volume_name: string,
 
 	chapters: (IESJzoneBookChaptersVolChapter | IESJzoneBookChaptersVolChapterExternal)[],
-}
-
-export interface IESJzoneRecentUpdateRowBookWithChapters extends IESJzoneRecentUpdateRowBook, Pick<IESJzoneBookChapters, 'chapters'>
-{
-
 }
 
 export interface IESJzoneBookChaptersVolChapter
