@@ -1,5 +1,5 @@
 {
-  "name": "esjzone-api",
+  "name": "@node-novel/cached-esjzone",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
@@ -12,18 +12,18 @@
   },
   "license": "ISC",
   "author": "",
-  "main": "lib/index.js",
-  "dependencies": {
-    "bluebird": "^3.7.1",
-    "buffer": "^5.4.3",
-    "crlf-normalize": "^1.0.3",
-    "iconv-jschardet": "^1.1.3",
-    "jsdom-extra": "^1.3.4",
+  "main": "index.js",
+  "devDependencies": {
+    "@bluelovers/fast-glob": "^3.0.4",
+    "@git-lazy/diff-staged": "^1.0.3",
+    "@git-lazy/util": "^1.0.5",
+    "@novel-segment/util": "^1.0.9",
+    "axios-cache-adapter-util": "^1.0.22",
+    "fs-extra": "^8.1.0",
     "lazy-cookies": "^1.0.11",
-    "lodash": "^4.17.15",
-    "moment": "^2.24.0",
     "restful-decorator": "^1.0.25",
-    "tough-cookie": "^3.0.1"
+    "upath2": "^2.1.3",
+    "esjzone-api": "^1.0.0"
   },
   "scripts": {
     "coverage": "npx nyc yarn run test",
@@ -33,8 +33,11 @@
     "postpublish_": "git commit -m \"publish new version\" .",
     "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
     "sort-package-json": "npx sort-package-json ./package.json",
-    "test": "echo \"Warn: no test specified\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
