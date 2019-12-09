@@ -92,7 +92,7 @@ export default (async () =>
 
 		if ((page - pageFrom) >= 5)
 		{
-			//_do = false;
+			_do = false;
 		}
 
 	}
