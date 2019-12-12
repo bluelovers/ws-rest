@@ -1,4 +1,5 @@
 import { AbstractHttpClient } from 'restful-decorator/lib';
+import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib';
 import { AxiosRequestConfig } from 'restful-decorator/lib/types/axios';
 import {
 	BaseUrl,
@@ -27,7 +28,10 @@ import toughCookie, { CookieJar } from 'tough-cookie';
 import { fromURL, IFromUrlOptions, IJSDOM, createJSDOM, IConstructorOptions as IJSDOMConstructorOptions } from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
-import { arrayBufferToString, sniffHTMLEncoding, iconvDecode, trimUnsafe, tryMinifyHTML } from './util';
+import { arrayBufferToString, trimUnsafe, tryMinifyHTML } from './util';
+
+import { sniffHTMLEncoding, iconvDecode } from 'restful-decorator-plugin-jsdom/lib/util/gbk';
+
 import moment from 'moment';
 import {
 	IWenku8RecentUpdate,
@@ -39,9 +43,6 @@ import {
 	IWenku8RecentUpdateRowBookWithChapters,
 	IArticleSearchType, IWenku8SearchList, IParametersSlice,
 } from './types';
-import { minifyHTML } from 'jsdom-extra/lib/html';
-import { buildVersion } from 'dmzj-api/lib/util';
-import iconv, { decode as _iconvDecode, BufferFrom } from 'iconv-jschardet';
 import { encodeURIComponent as encodeURIComponentGBK } from './util/urlEncodeGBK';
 import { expand as expandUriTpl } from 'router-uri-convert/parser';
 import subobject from 'restful-decorator/lib/helper/subobject';
@@ -62,22 +63,8 @@ import uniqBy from 'lodash/uniqBy';
 		maxAge: 6 * 60 * 60 * 1000,
 	},
 })
-@RequestConfigs({
-	responseType: 'arraybuffer',
-})
-export class Wenku8Client extends AbstractHttpClient
+export class Wenku8Client extends AbstractHttpClientWithJSDom
 {
-	constructor(defaults?: AxiosRequestConfig, ...argv: any)
-	{
-		if (defaults && typeof defaults.jar === 'string')
-		{
-			defaults.jar = CookieJar.deserializeSync(defaults.jar)
-		}
-
-		super(defaults, ...argv);
-
-		this._constructor();
-	}
 
 	protected _constructor()
 	{
@@ -86,21 +73,6 @@ export class Wenku8Client extends AbstractHttpClient
 			value: 'gbk',
 			expires: 3600 * 24,
 		});
-	}
-
-	_setCookieSync(...argv: Parameters<LazyCookieJar["setCookieSync"]>)
-	{
-		if (argv[1] == null)
-		{
-			argv[1] = this.$baseURL;
-		}
-
-		return this._jar().setCookieSync(...argv);
-	}
-
-	_serialize(jar?: CookieJar)
-	{
-		return (jar || this._jar()).serializeSync()
 	}
 
 	@POST('login.php?do=submit&action=login')
@@ -130,12 +102,6 @@ export class Wenku8Client extends AbstractHttpClient
 	{
 		this._jar().setData(cookies_data || {});
 		return Bluebird.resolve(this)
-	}
-
-	_jar(): LazyCookieJar
-	{
-		// @ts-ignore
-		return this.$http.defaults.jar || getCookieJar(this)
 	}
 
 	protected _handleArticleList<T extends Partial<IWenku8RecentUpdate>, R = T & Pick<IWenku8RecentUpdate, 'end' | 'last_update_time' | 'data'>>(_this: this, retDataInit: T): R
@@ -401,52 +367,6 @@ export class Wenku8Client extends AbstractHttpClient
 		return !!jsdom
 			.$('a[href="https://www.wenku8.net/logout.php"]')
 			.length as any
-	}
-
-	_decodeBuffer(buf: unknown | ArrayBuffer | Buffer)
-	{
-		return iconvDecode(Buffer.from(buf as any));
-	}
-
-	_responseDataToJSDOM(data: unknown, response: this["$response"])
-	{
-		const html = this._decodeBuffer(data);
-
-		let config: IJSDOMConstructorOptions;
-
-		if (response)
-		{
-			let $responseUrl = getResponseUrl(response);
-
-			if (!$responseUrl && response.config && response.config.url)
-			{
-				$responseUrl = response.config.url.toString()
-			}
-
-			let cookieJar: CookieJar;
-
-			if (response.config && response.config.jar && typeof response.config.jar === 'object')
-			{
-				cookieJar = response.config.jar;
-			}
-
-			if ($responseUrl || cookieJar)
-			{
-				config = {
-					url: $responseUrl,
-					cookieJar,
-				};
-
-				//console.debug(`_responseDataToJSDOM`, $responseUrl);
-			}
-
-			if (config)
-			{
-				return createJSDOM(html, config);
-			}
-		}
-
-		return createJSDOM(html);
 	}
 
 	//@GET('book/{novel_id}.htm')
@@ -815,6 +735,11 @@ export class Wenku8Client extends AbstractHttpClient
 			text,
 			html,
 		} as any
+	}
+
+	_iconvDecode(buf: Buffer): string
+	{
+		return iconvDecode(buf);
 	}
 
 }

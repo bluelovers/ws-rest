@@ -128,6 +128,11 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 		return this._createJSDOM(html, config);
 	}
 
+	_encodeURIComponent(text: string): string
+	{
+		return encodeURIComponent(text)
+	}
+
 }
 
 export default AbstractHttpClientWithJSDom

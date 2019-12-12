@@ -1,4 +1,5 @@
 import { AbstractHttpClient } from 'restful-decorator/lib';
+import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib';
 import { AxiosRequestConfig } from 'restful-decorator/lib/types/axios';
 import {
 	BaseUrl,
@@ -33,7 +34,7 @@ import {
 } from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
-import { arrayBufferToString, sniffHTMLEncoding, iconvDecode, trimUnsafe, tryMinifyHTML } from './util';
+import { trimUnsafe, tryMinifyHTML } from './util';
 import moment from 'moment';
 import {
 	IESJzoneRecentUpdate,
@@ -42,13 +43,6 @@ import {
 	IESJzoneBookChapters,
 	IParametersSlice, IESJzoneRecentUpdateDay,
 } from './types';
-import { minifyHTML } from 'jsdom-extra/lib/html';
-import { buildVersion } from 'dmzj-api/lib/util';
-import iconv, { decode as _iconvDecode, BufferFrom } from 'iconv-jschardet';
-import { expand as expandUriTpl } from 'router-uri-convert/parser';
-import subobject from 'restful-decorator/lib/helper/subobject';
-import { getResponseUrl } from '@bluelovers/axios-util/lib';
-import { Buffer } from 'buffer';
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
 
@@ -64,60 +58,8 @@ import uniqBy from 'lodash/uniqBy';
 		maxAge: 6 * 60 * 60 * 1000,
 	},
 })
-@RequestConfigs({
-	responseType: 'arraybuffer',
-})
-export class ESJzoneClient extends AbstractHttpClient
+export class ESJzoneClient extends AbstractHttpClientWithJSDom
 {
-	constructor(defaults?: AxiosRequestConfig, ...argv: any)
-	{
-		if (defaults && typeof defaults.jar === 'string')
-		{
-			defaults.jar = CookieJar.deserializeSync(defaults.jar)
-		}
-
-		super(defaults, ...argv);
-
-		this._constructor();
-	}
-
-	protected _constructor()
-	{
-		/*
-		this._setCookieSync({
-			key: 'jieqiUserCharset',
-			value: 'gbk',
-			expires: 3600 * 24,
-		});
-		 */
-	}
-
-	_setCookieSync(...argv: Parameters<LazyCookieJar["setCookieSync"]>)
-	{
-		if (argv[1] == null)
-		{
-			argv[1] = this.$baseURL;
-		}
-
-		return this._jar().setCookieSync(...argv);
-	}
-
-	_serialize(jar?: CookieJar)
-	{
-		return (jar || this._jar()).serializeSync()
-	}
-
-	loginByCookies(cookies_data: ICookiesValue[])
-	{
-		this._jar().setData(cookies_data || {});
-		return Bluebird.resolve(this)
-	}
-
-	_jar(): LazyCookieJar
-	{
-		// @ts-ignore
-		return this.$http.defaults.jar || getCookieJar(this)
-	}
 
 	protected _handleArticleList<T extends Partial<IESJzoneRecentUpdate>, R = T & Pick<IESJzoneRecentUpdate, 'end' | 'last_update_time' | 'data'>>(_this: this,
 		retDataInit: T,
@@ -330,52 +272,6 @@ export class ESJzoneClient extends AbstractHttpClient
 	isLogin(): IBluebird<boolean>
 	{
 		return Bluebird.resolve(false)
-	}
-
-	_decodeBuffer(buf: unknown | ArrayBuffer | Buffer)
-	{
-		return iconvDecode(Buffer.from(buf as any));
-	}
-
-	_responseDataToJSDOM(data: unknown, response: this["$response"])
-	{
-		const html = this._decodeBuffer(data);
-
-		let config: IJSDOMConstructorOptions;
-
-		if (response)
-		{
-			let $responseUrl = getResponseUrl(response);
-
-			if (!$responseUrl && response.config && response.config.url)
-			{
-				$responseUrl = response.config.url.toString()
-			}
-
-			let cookieJar: CookieJar;
-
-			if (response.config && response.config.jar && typeof response.config.jar === 'object')
-			{
-				cookieJar = response.config.jar;
-			}
-
-			if ($responseUrl || cookieJar)
-			{
-				config = {
-					url: $responseUrl,
-					cookieJar,
-				};
-
-				//console.debug(`_responseDataToJSDOM`, $responseUrl);
-			}
-
-			if (config)
-			{
-				return createJSDOM(html, config);
-			}
-		}
-
-		return createJSDOM(html);
 	}
 
 	//@GET('book/{novel_id}.htm')
