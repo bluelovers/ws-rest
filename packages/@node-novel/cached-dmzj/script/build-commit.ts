@@ -2,10 +2,17 @@
  * Created by user on 2019/7/7.
  */
 
-import { gitDiffStagedDir, gitDiffStagedFile, gitDiffStaged } from '@git-lazy/diff-staged';
-import matchGlob from '@git-lazy/util/util/match';
+import {
+	gitDiffStagedDir,
+	gitDiffStagedFile,
+	gitDiffStaged,
+	matchGlob,
+	crossSpawnSync,
+	SpawnSyncOptions,
+	SpawnSyncReturns
+} from '@node-novel/site-cache-util/lib/git';
+
 import { join, parse as parsePath } from 'path';
-import { crossSpawnSync, SpawnSyncOptions, SpawnSyncReturns } from '@git-lazy/util/spawn/git';
 import { crossSpawnOutput } from '@git-lazy/util/spawn/util';
 import { readJSONSync } from 'fs-extra';
 import { __root } from './util';
