@@ -9,7 +9,7 @@ import { array_unique_overwrite } from 'array-hyper-unique';
 
 let _cache_map = {} as Record<string, string>;
 
-(async () =>
+export default (async () =>
 {
 
 	let recentUpdate = await readJSON(cacheFilePaths.recentUpdate) as IWenku8RecentUpdateCache;

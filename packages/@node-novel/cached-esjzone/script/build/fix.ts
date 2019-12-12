@@ -7,7 +7,7 @@ import { IESJzoneRecentUpdateCache } from 'esjzone-api/lib/types';
 import Bluebird from 'bluebird';
 import { consoleDebug, getApiClient } from '../util';
 
-(async () =>
+export default (async () =>
 {
 	const { api, saveCache } = await getApiClient();
 

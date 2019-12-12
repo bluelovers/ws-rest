@@ -10,7 +10,7 @@ import sortObject from'sort-object-keys2';
 
 let _cache_map = {} as Record<string, string>;
 
-(async () =>
+export default (async () =>
 {
 
 	let data = await FastGlob

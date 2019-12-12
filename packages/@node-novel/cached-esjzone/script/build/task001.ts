@@ -10,7 +10,7 @@ import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';
 const file = cacheFilePaths.recentUpdate;
 const file1 = cacheFilePaths.task001;
 
-(async () =>
+export default (async () =>
 {
 
 	const { api, saveCache } = await getApiClient();

@@ -7,7 +7,7 @@ import { IWenku8RecentUpdateCache, IWenku8RecentUpdateRowBookWithChapters } from
 import Bluebird from 'bluebird';
 import { consoleDebug } from '../util';
 
-(async () =>
+export default (async () =>
 {
 
 	let recentUpdate = await readJSON(cacheFilePaths.recentUpdate) as IWenku8RecentUpdateCache;
