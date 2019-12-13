@@ -3,13 +3,13 @@
   "name": "异世界超能魔术师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "第二十四话 召唤术师",
-  "last_update_volume_id": 8008,
-  "last_update_chapter_id": 64443,
-  "last_update_time": 1470221319,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10490,
+  "last_update_chapter_id": 101506,
+  "last_update_time": 1576231686,
   "cover": "https://xs.dmzj.com/img/webpic/9/ysjcnmss6586l.jpg",
-  "hot_hits": 425012,
+  "hot_hits": 479322,
   "introduction": "身为普通高中生的太一与凛突然消逝在一道光芒里。当反应过来的时候，俩人已经身处在剑与魔法的世界中。在历经怪物的袭击，好不容易全身而退后，听从冒险者建议的俩人踏上了前往公会之路。在公会里，俩人得知自己身怀令人无法置信的强大魔力。普通高中生就此摇身一变成为最强的超能魔术师。可以亲手演绎出如梦似幻般的超自然现象，能够操控超乎想象的惊人体能，由和平世界来到这块土地的太一与凛就此展开了他们俩专属的异世界冒险。本书为作者全面改写自身发表于日本著名小说网站「小说家になろう」的超人气异世界奇幻冒险作品，精彩程度保证提升300%！",
   "types": [
     "魔法",
@@ -19,8 +19,8 @@
   ],
   "authors": "内田健",
   "first_letter": "Y",
-  "subscribe_num": 15082,
-  "redis_update_time": 1564440433,
+  "subscribe_num": 16073,
+  "redis_update_time": 1576252085,
   "volume": [
     {
       "id": 6488,
@@ -28,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1416655909,
-      "sum_chapters": 30
+      "sum_chapters": 9
     },
     {
       "id": 7088,
@@ -36,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1438439320,
-      "sum_chapters": 30
+      "sum_chapters": 9
     },
     {
       "id": 8008,
@@ -44,7 +44,23 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1470221122,
-      "sum_chapters": 30
+      "sum_chapters": 9
+    },
+    {
+      "id": 10490,
+      "lnovel_id": 1770,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1576230620,
+      "sum_chapters": 9
+    },
+    {
+      "id": 10491,
+      "lnovel_id": 1770,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1576231095,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -209,6 +225,112 @@
           "chapter_id": 64443,
           "chapter_name": "第二十四话 召唤术师",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 10490,
+      "id": 10490,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 101488,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101489,
+          "chapter_name": "第七章 日常的另一面 第二十五话 前往王都",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101490,
+          "chapter_name": "第二十六话 皇女夏洛特",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101491,
+          "chapter_name": "第二十七话 谒见",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101492,
+          "chapter_name": "第二十八话 王都观光",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101493,
+          "chapter_name": "第八章 前哨战 第二十九话 王都防卫战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101494,
+          "chapter_name": "第三十话 告一段落",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101495,
+          "chapter_name": "附录 决战前夕",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101506,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10491,
+      "id": 10491,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 101496,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101497,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101498,
+          "chapter_name": "第九章 战前 第三十一话 一夜的沉淀",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101499,
+          "chapter_name": "第三十二话 沉默杀手",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101500,
+          "chapter_name": "第十章 麦沃尔特会战 第三十三话 战端既起",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101501,
+          "chapter_name": "第三十四话 中盘战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101502,
+          "chapter_name": "第三十五话 元素之灵•希尔菲德",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101503,
+          "chapter_name": "第三十六话 凌空激战",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101504,
+          "chapter_name": "尾声",
+          "chapter_order": 90
         }
       ]
     }

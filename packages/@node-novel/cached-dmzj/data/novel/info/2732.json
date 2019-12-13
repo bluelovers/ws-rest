@@ -3,13 +3,13 @@
   "name": "乙女游戏世界对路人角色很不友好",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "尾声",
-  "last_update_volume_id": 10345,
-  "last_update_chapter_id": 100387,
-  "last_update_time": 1572019250,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10485,
+  "last_update_chapter_id": 101447,
+  "last_update_time": 1576057554,
   "cover": "https://xs.dmzj.com/img/webpic/5/ynsj0922l.gif",
-  "hot_hits": 94422,
+  "hot_hits": 192752,
   "introduction": "从现代日本转生过去的世界——居然是女尊男卑的世界！？ 「利欧」作为男爵家的三男迎来第二次人生，但是没想到那居然是自己所知道的乙女游戏世界。 那是大地浮在天空上，飞船在天空中来往的幻想世界。 那是个有着名叫冒险者的存在，一切都令人兴奋不已的异世界。 但是，利欧无法好好去享受。 因为那是个女尊男卑很严重的世界，贵族的男性都要为了结婚而恶战苦斗的世界。 邪门歪道的自称路人角色的男主角到处捣乱的游戏系异世界幻想故事！",
   "types": [
     "穿越",
@@ -18,8 +18,8 @@
   ],
   "authors": "三岛与梦",
   "first_letter": "Y",
-  "subscribe_num": 11969,
-  "redis_update_time": 1574304825,
+  "subscribe_num": 13711,
+  "redis_update_time": 1576252471,
   "volume": [
     {
       "id": 10345,
@@ -27,7 +27,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1569126047,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10485,
+      "lnovel_id": 2732,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1576057133,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -121,6 +129,114 @@
           "chapter_id": 100280,
           "chapter_name": "插画",
           "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 10485,
+      "id": 10485,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 101428,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101429,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101430,
+          "chapter_name": "第一话：王妃大人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101431,
+          "chapter_name": "第二话：「爱的告白」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101432,
+          "chapter_name": "第三话：空中摩托竞赛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101433,
+          "chapter_name": "第四话：到手的软弱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101434,
+          "chapter_name": "第五话：讨伐空贼",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101435,
+          "chapter_name": "第六话 迁怒",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101436,
+          "chapter_name": "第七话：业（カルマ）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 101437,
+          "chapter_name": "第八话：公国",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 101438,
+          "chapter_name": "第九话：「笑」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 101439,
+          "chapter_name": "第十话：友情",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 101440,
+          "chapter_name": "第十一话「黑骑士」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 101441,
+          "chapter_name": "第十二话：「再战」",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 101442,
+          "chapter_name": "尾声",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 101443,
+          "chapter_name": "幕间「卢库西翁的报告之2」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 101444,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 101445,
+          "chapter_name": "短篇 玛丽艾奋斗传",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 101446,
+          "chapter_name": "特典 安洁的愿望",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 101447,
+          "chapter_name": "插画",
+          "chapter_order": 200
         }
       ]
     }

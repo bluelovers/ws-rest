@@ -3,13 +3,13 @@
   "name": "我们的重制人生",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9934,
-  "last_update_chapter_id": 93584,
-  "last_update_time": 1549120810,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 10488,
+  "last_update_chapter_id": 101477,
+  "last_update_time": 1576228992,
   "cover": "https://xs.dmzj.com/img/webpic/9/cz1109l.jpg",
-  "hot_hits": 120154,
+  "hot_hits": 154784,
   "introduction": "　　我是桥场恭也，一个前途黯淡的游戏总监。因公司破产、企划夭折而回到故乡老家。因为不想再看明星创作者们的亮眼表现，闷闷不乐地睡著之后再醒来，发现自己穿越时空回到十年前的大学刚入学时代！？考上了原本应该落榜的大学，迎接向往的艺大生活，甚至还过著男女四人一起分租的同居生活，玫瑰色的每一天就此展开！我的人生将从这里重新打造──与未来将会超有名（现在还不成气候）的创作者，一起度过的新生活就要开始！尽管如此自信满满地跨出第一步，事情却似乎没有那么顺利……",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "木绪なち",
   "first_letter": "W",
-  "subscribe_num": 9092,
-  "redis_update_time": 1564342619,
+  "subscribe_num": 10255,
+  "redis_update_time": 1576252374,
   "volume": [
     {
       "id": 9777,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1541753152,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 9934,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1549120504,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10488,
+      "lnovel_id": 2576,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1576228846,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -161,6 +169,54 @@
           "chapter_id": 93584,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10488,
+      "id": 10488,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 101470,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101471,
+          "chapter_name": "序章 我在灰尘与黑暗之中",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101472,
+          "chapter_name": "第一章 我们在一起制作游戏",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101473,
+          "chapter_name": "第二章 我们对感情感到困惑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101474,
+          "chapter_name": "第三章 我们依旧继续迷茫着",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101475,
+          "chapter_name": "第四章 我们一路追求着形态",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101476,
+          "chapter_name": "第五章 我们将会不断的前进",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101477,
+          "chapter_name": "后记",
+          "chapter_order": 80
         }
       ]
     }

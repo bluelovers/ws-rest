@@ -3,13 +3,13 @@
   "name": "被卷入了勇者召唤事件却发现异世界很和平",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10389,
-  "last_update_chapter_id": 100178,
-  "last_update_time": 1571310307,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "严肃前辈的房间",
+  "last_update_volume_id": 10486,
+  "last_update_chapter_id": 101479,
+  "last_update_time": 1576229736,
   "cover": "https://xs.dmzj.com/img/webpic/26/gp0414l.jpg",
-  "hot_hits": 581866,
+  "hot_hits": 770398,
   "introduction": "在和平的异世界，开始悠闲＆恩爱的生活！！\n\n从大学回家的路上，快人和等红灯的高中生们一起被传送到了异世界。\n看上去是被卷入了勇者召唤。这是要和魔王战斗的展开！？\n和快人的想像相反，勇者只是祭典的主角，\n回到原来的世界要到一年以后。决定在这一年里悠闲生活的快人，\n与带有不可思议的魅力的魔族少女克罗姆艾娜相遇了。\n此后，克罗姆艾娜一到夜晚就跑到快人的房间。她的真面目是……！？\n「成为小说家吧」首发，「晨星大赏」大赏获奖作品！！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "灯台",
   "first_letter": "B",
-  "subscribe_num": 25151,
-  "redis_update_time": 1571603898,
+  "subscribe_num": 27992,
+  "redis_update_time": 1576251578,
   "volume": [
     {
       "id": 10054,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555247692,
-      "sum_chapters": 11
+      "sum_chapters": 9
     },
     {
       "id": 10242,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1563714409,
-      "sum_chapters": 11
+      "sum_chapters": 9
     },
     {
       "id": 10389,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1571309558,
-      "sum_chapters": 11
+      "sum_chapters": 9
+    },
+    {
+      "id": 10486,
+      "lnovel_id": 2646,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1576143932,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -282,6 +290,74 @@
           "chapter_id": 100178,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10486,
+      "id": 10486,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 101449,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101450,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101451,
+          "chapter_name": "第一章 阿路克雷西亚帝国",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101452,
+          "chapter_name": "第二章 鞠躬尽瘁的女仆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101453,
+          "chapter_name": "第三章 恢复的力量",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101454,
+          "chapter_name": "第四章 战王来袭、幻王暗跃",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101455,
+          "chapter_name": "闲话 伊尔奈斯·无偿的爱",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101456,
+          "chapter_name": "第五章 专利的去向",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101457,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 101478,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 101479,
+          "chapter_name": "严肃前辈的房间 ～第四幕～",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 101459,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }
