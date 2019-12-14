@@ -10,6 +10,8 @@ import { crossSpawnOutput } from '@git-lazy/util/spawn/util';
 import { readJSONSync } from 'fs-extra';
 import { __root } from './util';
 import moment from 'moment';
+import { reportDiffStagedNovels } from '@node-novel/site-cache-util/lib/git';
+import { IWenku8RecentUpdateRowBookWithChapters } from 'wenku8-api/lib/types';
 
 let ls1 = gitDiffStagedFile(join(__root, 'data'));
 
@@ -17,37 +19,50 @@ let ls2 = matchGlob(ls1, [
 	'**/*',
 ]);
 
-if (ls2.length)
-{
-	console.dir(ls2);
+export default (async () => {
 
-	crossSpawnSync('git', [
-		'add',
-		'.',
-	], {
-		cwd: join(__root, 'data'),
-		stdio: 'inherit',
-	});
+	if (ls2.length)
+	{
+		console.dir(ls2);
 
-	ls1 = gitDiffStagedFile(join(__root, 'data'));
-	ls2 = matchGlob(ls1, [
-		'**/*',
-	]);
+		let msg = await reportDiffStagedNovels({
+			git_root: join(__root, 'data'),
+			callback(json: IWenku8RecentUpdateRowBookWithChapters, id: string)
+			{
+				return `- ${id.padStart(4, '0')} ${json.name} ${moment.unix(json.last_update_time)
+					.format()} ${json.last_update_chapter_name}`;
+			}
+		});
 
-	crossSpawnSync('git', [
-		'add',
-		'task001.json',
-	], {
-		cwd: join(__root, 'test/temp'),
-		stdio: 'inherit',
-	});
+		crossSpawnSync('git', [
+			'add',
+			'.',
+		], {
+			cwd: join(__root, 'data'),
+			stdio: 'inherit',
+		});
 
-	crossSpawnSync('git', [
-		'commit',
-		'-m',
-		`update cache`,
-	], {
-		cwd: join(__root, 'data'),
-		stdio: 'inherit',
-	});
-}
+		crossSpawnSync('git', [
+			'add',
+			'task001.json',
+		], {
+			cwd: join(__root, 'test/temp'),
+			stdio: 'inherit',
+		});
+
+		crossSpawnSync('git', [
+			'commit',
+			'-m',
+			`update cache${msg}`,
+		], {
+			cwd: join(__root, 'data'),
+			stdio: 'inherit',
+		});
+
+		if (msg)
+		{
+			console.log(msg)
+		}
+	}
+
+})();
