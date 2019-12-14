@@ -1,15 +1,15 @@
 {
   "id": 2512,
-  "name": "药屋少女的呢喃",
+  "name": "药师少女的独语(药屋少女的呢喃)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "二十八话 蜂蜜 其二",
-  "last_update_volume_id": 9531,
-  "last_update_chapter_id": 93081,
-  "last_update_time": 1547911312,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "终话",
+  "last_update_volume_id": 10493,
+  "last_update_chapter_id": 101562,
+  "last_update_time": 1576316735,
   "cover": "https://xs.dmzj.com/img/webpic/25/yw0630l.jpg",
-  "hot_hits": 123653,
+  "hot_hits": 144290,
   "introduction": "位于大陆中央的某大国，原在花街从事药师工作的少女「猫猫」，被卖进宫中成为下女。得知了皇帝的年幼御子们一一早夭的传闻，以自身的药学知识解开了早夭之谜、挽救了御子的性命，得到后宫统领者「壬氏」的赏识，成为皇妃身边的试毒者。在好奇心与求知欲的驱使下，药学狂人猫猫将宫中发生的悬疑事件接连解决。",
   "types": [
     "历史",
@@ -17,174 +17,320 @@
   ],
   "authors": "日向夏",
   "first_letter": "Y",
-  "subscribe_num": 18113,
-  "redis_update_time": 1564341788,
+  "subscribe_num": 19532,
+  "redis_update_time": 1576354643,
   "volume": [
     {
-      "id": 9531,
+      "id": 10492,
       "lnovel_id": 2512,
       "volume_name": "第一卷",
       "volume_order": 10,
-      "addtime": 1530321758,
-      "sum_chapters": 8
+      "addtime": 1576315992,
+      "sum_chapters": 7
+    },
+    {
+      "id": 10493,
+      "lnovel_id": 2512,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1576316434,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
     {
-      "volume_id": 9531,
-      "id": 9531,
+      "volume_id": 10492,
+      "id": 10492,
       "volume_name": "第一卷",
       "volume_order": 10,
       "chapters": [
         {
-          "chapter_id": 87607,
+          "chapter_id": 101507,
           "chapter_name": "转载信息",
           "chapter_order": 10
         },
         {
-          "chapter_id": 87609,
-          "chapter_name": "卷首",
-          "chapter_order": 11
-        },
-        {
-          "chapter_id": 87608,
+          "chapter_id": 101508,
           "chapter_name": "一话 猫猫",
           "chapter_order": 20
         },
         {
-          "chapter_id": 88940,
-          "chapter_name": "二话 两位妃子",
+          "chapter_id": 101509,
+          "chapter_name": "二话 两位嫔妃",
           "chapter_order": 30
         },
         {
-          "chapter_id": 87961,
+          "chapter_id": 101510,
           "chapter_name": "三话 壬氏",
           "chapter_order": 40
         },
         {
-          "chapter_id": 88941,
-          "chapter_name": "四话 仙女的笑容",
+          "chapter_id": 101511,
+          "chapter_name": "四话 天女的微笑",
           "chapter_order": 50
         },
         {
-          "chapter_id": 87962,
-          "chapter_name": "五话 个人房间",
+          "chapter_id": 101512,
+          "chapter_name": "五话 贴身侍女",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101513,
+          "chapter_name": "六话 试毒人",
           "chapter_order": 70
         },
         {
-          "chapter_id": 88320,
-          "chapter_name": "六话 试毒人",
+          "chapter_id": 101514,
+          "chapter_name": "七话 树枝",
           "chapter_order": 80
         },
         {
-          "chapter_id": 88213,
-          "chapter_name": "七话 枝",
+          "chapter_id": 101515,
+          "chapter_name": "八话 春药",
           "chapter_order": 90
         },
         {
-          "chapter_id": 88321,
-          "chapter_name": "八话 媚药",
+          "chapter_id": 101516,
+          "chapter_name": "九话 可可亚",
           "chapter_order": 100
         },
         {
-          "chapter_id": 88661,
-          "chapter_name": "九话 可可豆",
+          "chapter_id": 101517,
+          "chapter_name": "十话 幽灵作祟 上篇",
           "chapter_order": 110
         },
         {
-          "chapter_id": 88831,
-          "chapter_name": "十话 幽灵骚动 前篇",
+          "chapter_id": 101518,
+          "chapter_name": "十一话 幽灵作祟 下篇",
           "chapter_order": 120
         },
         {
-          "chapter_id": 88929,
-          "chapter_name": "十一话 幽灵骚动 后篇",
+          "chapter_id": 101519,
+          "chapter_name": "十二话 恫喝",
           "chapter_order": 130
         },
         {
-          "chapter_id": 88939,
-          "chapter_name": "十二话 恐吓",
+          "chapter_id": 101520,
+          "chapter_name": "十三话 照料病人",
           "chapter_order": 140
         },
         {
-          "chapter_id": 89047,
-          "chapter_name": "十三话 护理",
+          "chapter_id": 101521,
+          "chapter_name": "十四话 火焰",
           "chapter_order": 150
         },
         {
-          "chapter_id": 89210,
-          "chapter_name": "十四话 火焰",
+          "chapter_id": 101522,
+          "chapter_name": "十五话 暗中策划",
           "chapter_order": 160
         },
         {
-          "chapter_id": 89276,
-          "chapter_name": "十五话 阴谋",
+          "chapter_id": 101523,
+          "chapter_name": "十六话 游园会 其壹",
           "chapter_order": 170
         },
         {
-          "chapter_id": 89443,
-          "chapter_name": "十六话 游园会其一",
+          "chapter_id": 101524,
+          "chapter_name": "十七话 游园会 其贰",
           "chapter_order": 180
         },
         {
-          "chapter_id": 89444,
-          "chapter_name": "十七话 游园会 其二",
+          "chapter_id": 101525,
+          "chapter_name": "十八话 游园会 其参",
           "chapter_order": 190
         },
         {
-          "chapter_id": 89720,
-          "chapter_name": "十八话 游园会 其三",
+          "chapter_id": 101526,
+          "chapter_name": "十九话 节庆过后",
           "chapter_order": 200
         },
         {
-          "chapter_id": 89721,
-          "chapter_name": "十九话 游园会 后事",
+          "chapter_id": 101527,
+          "chapter_name": "二十话 手指",
           "chapter_order": 210
         },
         {
-          "chapter_id": 89988,
-          "chapter_name": "二十话 指纹",
+          "chapter_id": 101528,
+          "chapter_name": "二十一话 李白",
           "chapter_order": 220
         },
         {
-          "chapter_id": 90133,
-          "chapter_name": "二十一话 李白",
+          "chapter_id": 101529,
+          "chapter_name": "二十二话 返乡",
           "chapter_order": 230
         },
         {
-          "chapter_id": 91090,
-          "chapter_name": "二十二话 回家",
+          "chapter_id": 101530,
+          "chapter_name": "二十三话 麦秆",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 101531,
+          "chapter_name": "二十四话 误会",
           "chapter_order": 250
         },
         {
-          "chapter_id": 91091,
-          "chapter_name": "二十三话 麦秆",
+          "chapter_id": 101532,
+          "chapter_name": "二十五话 酒",
           "chapter_order": 260
         },
         {
-          "chapter_id": 91432,
-          "chapter_name": "二十四话 误解",
+          "chapter_id": 101533,
+          "chapter_name": "二十六话 自与他",
           "chapter_order": 270
         },
         {
-          "chapter_id": 91771,
-          "chapter_name": "二十五话 酒",
+          "chapter_id": 101534,
+          "chapter_name": "二十七话 蜂蜜 其壹",
           "chapter_order": 280
         },
         {
-          "chapter_id": 91985,
-          "chapter_name": "二十六话 自己和别人",
+          "chapter_id": 101535,
+          "chapter_name": "二十八话 蜂蜜 其贰",
           "chapter_order": 290
         },
         {
-          "chapter_id": 93080,
-          "chapter_name": "二十七话 蜂蜜 其一",
+          "chapter_id": 101536,
+          "chapter_name": "二十九话 蜂蜜 其参",
           "chapter_order": 300
         },
         {
-          "chapter_id": 93081,
-          "chapter_name": "二十八话 蜂蜜 其二",
+          "chapter_id": 101537,
+          "chapter_name": "三十话 阿多妃",
           "chapter_order": 310
+        },
+        {
+          "chapter_id": 101538,
+          "chapter_name": "三十一话 解雇",
+          "chapter_order": 320
+        },
+        {
+          "chapter_id": 101539,
+          "chapter_name": "终话 宦官与娼妓",
+          "chapter_order": 330
+        }
+      ]
+    },
+    {
+      "volume_id": 10493,
+      "id": 10493,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 101540,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101541,
+          "chapter_name": "序话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101542,
+          "chapter_name": "一话 外廷任职",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101543,
+          "chapter_name": "二话 菸管",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101544,
+          "chapter_name": "三话 后宫授课",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101545,
+          "chapter_name": "四话 鱼脍",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101546,
+          "chapter_name": "五话 铅",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101547,
+          "chapter_name": "六话 化妆",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101548,
+          "chapter_name": "七话 踏街",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 101549,
+          "chapter_name": "八话 梅毒",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 101550,
+          "chapter_name": "九话 罗汉",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 101551,
+          "chapter_name": "十话 翠苓",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 101552,
+          "chapter_name": "十一话 偶然或必然",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 101553,
+          "chapter_name": "十二话 中祀",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 101554,
+          "chapter_name": "十三话 曼陀罗花",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 101555,
+          "chapter_name": "十四话 高顺",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 101556,
+          "chapter_name": "十五话 重返后宫",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 101557,
+          "chapter_name": "十六话 纸",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 101558,
+          "chapter_name": "十七话 赎身计",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 101559,
+          "chapter_name": "十八话 青蔷薇",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 101560,
+          "chapter_name": "十九话 指甲花",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 101561,
+          "chapter_name": "二十话 凤仙花与酢浆草",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 101562,
+          "chapter_name": "终话",
+          "chapter_order": 230
         }
       ]
     }
