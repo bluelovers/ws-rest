@@ -44,14 +44,11 @@ export default (async () =>
 				{
 					consoleDebug.info(`[SKIP]`, index, id, row.name, moment.unix(last_update_time).format());
 				}
-				else
-				{
-					consoleDebug.debug(index, id, row.name, moment.unix(last_update_time).format());
-				}
 
 				return api.bookInfoWithChapters(id)
 					.tap(async (data) =>
 					{
+						consoleDebug.debug(index, id, row.name, moment.unix(last_update_time).format(), row.last_update_chapter_name);
 
 						index++;
 

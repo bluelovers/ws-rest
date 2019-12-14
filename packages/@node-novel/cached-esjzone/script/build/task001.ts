@@ -38,13 +38,9 @@ export default (async () =>
 			{
 				let _file = cacheFileInfoPath(id);
 
-				consoleDebug.debug(index, id, row.name, moment.unix(listCache[id]).format());
-
 				return api.bookInfo(id)
 					.tap(async (data) =>
 					{
-
-						index++;
 
 						listCache[id] = Math.max(data.last_update_time | 0, last_update_time | 0, 0);
 
@@ -52,6 +48,10 @@ export default (async () =>
 						{
 							data.last_update_time = listCache[id];
 						}
+
+						consoleDebug.info(index, id, row.name, moment.unix(listCache[id]).format(), data.last_update_chapter_name);
+
+						index++;
 
 						return Bluebird.all([
 							fs.outputJSON(_file, data, {

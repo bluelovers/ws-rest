@@ -13,19 +13,6 @@
   "license": "ISC",
   "author": "",
   "main": "index.js",
-  "devDependencies": {
-    "@bluelovers/fast-glob": "^3.0.4",
-    "@git-lazy/diff-staged": "^1.0.3",
-    "@git-lazy/util": "^1.0.5",
-    "@node-novel/site-cache-util": "^1.0.2",
-    "@novel-segment/util": "^1.0.9",
-    "axios-cache-adapter-util": "^1.0.22",
-    "esjzone-api": "^1.0.3",
-    "fs-extra": "^8.1.0",
-    "lazy-cookies": "^1.0.11",
-    "restful-decorator": "^1.0.25",
-    "upath2": "^2.1.3"
-  },
   "scripts": {
     "build": "yarn run build:fix && yarn run build:cache && yarn run build:commit",
     "build:cache": "ts-node ./script/build",
@@ -42,8 +29,21 @@
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
+  "devDependencies": {
+    "@bluelovers/fast-glob": "^3.0.4",
+    "@git-lazy/diff-staged": "^1.0.3",
+    "@git-lazy/util": "^1.0.5",
+    "@node-novel/site-cache-util": "^1.0.2",
+    "@novel-segment/util": "^1.0.9",
+    "axios-cache-adapter-util": "^1.0.22",
+    "esjzone-api": "^1.0.3",
+    "fs-extra": "^8.1.0",
+    "lazy-cookies": "^1.0.11",
+    "restful-decorator": "^1.0.25",
+    "upath2": "^2.1.3"
+  },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "300e783d85286a8c196a8390496357cb0ed8cab4"
+  "gitHead": "e87b1e54d5f52c382c145c803cd97c547b4637cd"
 }

@@ -16,7 +16,7 @@ import fs from 'fs-extra';
 import path from "upath2";
 import { exportCache, IBaseCacheStore, importCache, processExitHook } from 'axios-cache-adapter-util';
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';
-import { console, consoleDebug } from 'restful-decorator/lib/util/debug';
+import { console, consoleDebug } from '@node-novel/site-cache-util/lib';
 import { dotValue } from '@bluelovers/axios-util';
 import { getResponseUrl } from '@bluelovers/axios-util/lib/index';
 import { CookieJar } from 'tough-cookie';
