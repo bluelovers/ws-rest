@@ -23,3 +23,9 @@ export function trimUnsafe<T extends string>(input: T): T
 		.replace(/[\t ]+/gu, ' ')
 		.trim()
 }
+
+export function _checkLoginByJQuery($: JQueryStatic)
+{
+	return $('#hd .vwmy a[href="home"], #loginstatusid')
+		.length > 1
+}

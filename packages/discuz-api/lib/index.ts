@@ -34,7 +34,7 @@ import {
 } from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
-import { trimUnsafe } from './util';
+import { trimUnsafe, _checkLoginByJQuery } from './util';
 import moment from 'moment';
 import {
 	IParametersSlice, IDiscuzForumMini, IDiscuzForum, IDzParamForumdisplay,
@@ -70,6 +70,26 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	protected _constructor()
 	{
 		return super._constructor();
+	}
+
+	@POST('member.php?mod=logging&action=login&loginsubmit=yes&infloat=yes&lssubmit=yes')
+	@FormUrlencoded
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
+	@methodBuilder()
+	loginByForm(@ParamMapAuto({
+		cookietime: 315360000,
+	}) inputData: {
+		username: string,
+		password: string,
+		cookietime?: number,
+	}): IBluebird<boolean>
+	{
+		let jsdom = this._responseDataToJSDOM(this.$response.data, this.$response);
+		return _checkLoginByJQuery(jsdom.$) as any;
 	}
 
 	@GET('forum.php?mod=forumdisplay&fid={fid}')
@@ -130,13 +150,17 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		} as any
 	}
 
-	/**
-	 * @deprecated
-	 * @todo
-	 */
+	@GET('home.php?mod=space&do=pm')
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
+	@methodBuilder()
 	isLogin(): IBluebird<boolean>
 	{
-		return Bluebird.resolve(false)
+		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+		return Bluebird.resolve(_checkLoginByJQuery(jsdom.$))
 	}
 
 }
