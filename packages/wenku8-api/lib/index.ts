@@ -98,12 +98,6 @@ export class Wenku8Client extends AbstractHttpClientWithJSDom
 		return jsdom.document.title.includes('成功') as any;
 	}
 
-	loginByCookies(cookies_data: ICookiesValue[])
-	{
-		this._jar().setData(cookies_data || {});
-		return Bluebird.resolve(this)
-	}
-
 	protected _handleArticleList<T extends Partial<IWenku8RecentUpdate>, R = T & Pick<IWenku8RecentUpdate, 'end' | 'last_update_time' | 'data'>>(_this: this, retDataInit: T): R
 	{
 		let jsdom = _this._responseDataToJSDOM(_this.$returnValue, this.$response);

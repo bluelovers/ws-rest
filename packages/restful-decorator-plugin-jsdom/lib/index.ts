@@ -25,6 +25,7 @@ import {
 	CatchError, ParamQuery, HandleParamMetadata,
 	ParamMapAuto,
 } from 'restful-decorator/lib/decorators';
+import Bluebird from 'bluebird';
 
 @RequestConfigs({
 	responseType: 'arraybuffer',
@@ -49,6 +50,12 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 	protected _constructor()
 	{
 
+	}
+
+	loginByCookies(cookies_data: ICookiesValue[])
+	{
+		this._jar().setData(cookies_data || {});
+		return Bluebird.resolve(this)
 	}
 
 	_iconvDecode(buf: Buffer)
