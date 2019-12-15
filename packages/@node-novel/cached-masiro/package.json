@@ -1,0 +1,53 @@
+{
+  "name": "@node-novel/cached-masiro",
+  "version": "1.0.10",
+  "description": "cached esjzone fake api like data",
+  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-rest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-rest.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn run build:fix && yarn run build:cache && yarn run build:commit",
+    "build:cache": "ts-node ./script/build",
+    "build:commit": "ts-node ./script/build-commit",
+    "build:fix": "ts-node ./script/build/fix",
+    "coverage": "npx nyc yarn run test",
+    "lint": "npx eslint **/*.ts",
+    "ncu": "npx yarn-tool ncu -u",
+    "npm:publish": "npm publish",
+    "postpublish_": "git commit -m \"publish new version\" .",
+    "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run build",
+    "sort-package-json": "npx sort-package-json ./package.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc:default": "tsc -p tsconfig.json",
+    "tsc:esm": "tsc -p tsconfig.esm.json"
+  },
+  "devDependencies": {
+    "@bluelovers/fast-glob": "^3.0.4",
+    "@git-lazy/diff-staged": "^1.0.3",
+    "@git-lazy/util": "^1.0.5",
+    "@node-novel/site-cache-util": "^1.0.4",
+    "@novel-segment/util": "^1.0.9",
+    "axios-cache-adapter-util": "^1.0.22",
+    "esjzone-api": "^1.0.3",
+    "fs-extra": "^8.1.0",
+    "lazy-cookies": "^1.0.11",
+    "restful-decorator": "^1.0.25",
+    "upath2": "^2.1.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "e87b1e54d5f52c382c145c803cd97c547b4637cd",
+  "dependencies": {
+    "@novel-segment/util": "^1.0.9",
+    "string-natural-compare": "^3.0.0"
+  }
+}
