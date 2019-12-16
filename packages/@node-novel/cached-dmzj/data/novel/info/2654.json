@@ -4,20 +4,20 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "web版",
-  "last_update_chapter_name": "27.5",
+  "last_update_chapter_name": "31",
   "last_update_volume_id": 10076,
-  "last_update_chapter_id": 101462,
-  "last_update_time": 1576144476,
+  "last_update_chapter_id": 101586,
+  "last_update_time": 1576488940,
   "cover": "https://xs.dmzj.com/img/webpic/18/wn0426l.jpg",
-  "hot_hits": 114046,
+  "hot_hits": 121426,
   "introduction": "作为王女的最强魔术师蕾蒂希尔，在战争中死去，向着千年后的世界转生了。她因为没有魔力而被周围人认为是一个无能的大小姐，但对蕾蒂希尔来说是一个使用\"魔术\"的奇才。在这之后蕾蒂希尔在学园里看到了千年之后的\"魔术\"后感到了震惊——被那劣质的东西激怒！不能忍受的蕾蒂希尔用\"魔术\"震撼了学院，也被国王所知晓，蕾蒂希尔的\"魔术\"研究全部都化为梦成为泡影？！将和前世的伴侣相似的少年吉克和被冷落的大小姐米兰达蕾特一起卷入，重生后改变的王女殿下以自己的道路前进！超越常识的最强魔术谭，开幕！",
   "types": [
     "魔法"
   ],
   "authors": "ハツ桥皓",
   "first_letter": "W",
-  "subscribe_num": 14915,
-  "redis_update_time": 1576252273,
+  "subscribe_num": 15159,
+  "redis_update_time": 1576503210,
   "volume": [
     {
       "id": 10075,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1556199483,
-      "sum_chapters": 9
+      "sum_chapters": 40
     },
     {
       "id": 10076,
@@ -33,7 +33,7 @@
       "volume_name": "web版",
       "volume_order": 20,
       "addtime": 1556373352,
-      "sum_chapters": 9
+      "sum_chapters": 40
     }
   ],
   "chapters": [
@@ -43,6 +43,11 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "chapters": [
+        {
+          "chapter_id": 101585,
+          "chapter_name": "插画",
+          "chapter_order": 1
+        },
         {
           "chapter_id": 95560,
           "chapter_name": "转载信息",
@@ -117,14 +122,39 @@
           "chapter_order": 70
         },
         {
-          "chapter_id": 101461,
+          "chapter_id": 101580,
           "chapter_name": "24-26",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 101581,
+          "chapter_name": "27",
+          "chapter_order": 88
         },
         {
           "chapter_id": 101462,
           "chapter_name": "27.5",
           "chapter_order": 90
+        },
+        {
+          "chapter_id": 101582,
+          "chapter_name": "28",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 101583,
+          "chapter_name": "29",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 101584,
+          "chapter_name": "30",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 101586,
+          "chapter_name": "31",
+          "chapter_order": 130
         }
       ]
     }
