@@ -12,6 +12,7 @@ import { __root } from './util';
 import moment from 'moment';
 import { reportDiffStagedNovels } from '@node-novel/site-cache-util/lib/git';
 import { IESJzoneRecentUpdateRowBook } from 'esjzone-api/lib/types';
+import { IDiscuzForum } from 'discuz-api/lib/types';
 
 let ls1 = gitDiffStagedFile(join(__root, 'data'));
 
@@ -27,10 +28,14 @@ export default (async () => {
 
 		let msg = await reportDiffStagedNovels({
 			git_root: join(__root, 'data'),
-			callback(json: IESJzoneRecentUpdateRowBook, id: string)
+
+			pattern: [
+				'fid/*.json',
+			],
+
+			callback(json: IDiscuzForum, id: string)
 			{
-				return `- ${id.padStart(4, '0')} ${json.name} ${moment.unix(json.last_update_time)
-					.format()} ${json.last_update_chapter_name}`;
+				return `- ${id.padStart(4, '0')} ${json.forum_name}`;
 			}
 		});
 
