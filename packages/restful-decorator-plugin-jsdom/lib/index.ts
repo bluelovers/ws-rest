@@ -54,8 +54,13 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 
 	loginByCookies(cookies_data: ICookiesValue[])
 	{
+		return Bluebird.resolve(this.loginByCookiesSync(cookies_data))
+	}
+
+	loginByCookiesSync(cookies_data: ICookiesValue[])
+	{
 		this._jar().setData(cookies_data || {});
-		return Bluebird.resolve(this)
+		return this
 	}
 
 	_iconvDecode(buf: Buffer)

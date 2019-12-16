@@ -174,10 +174,29 @@ export class LazyCookieJar extends toughCookie.CookieJar
 		return super.setCookieSync(cookieOrString as toughCookie.Cookie, currentUrl as string, options, ...argv)
 	}
 
-	findCookieByKey(name: string)
+	findCookieByKey(key: string | RegExp | ((cookie: Cookie) => boolean))
 	{
+		let fn: ((cookie: Cookie) => boolean);
+
+		if (typeof key === 'string')
+		{
+			fn = (v => v.key === key);
+		}
+		else if (key instanceof RegExp)
+		{
+			fn = (v => key.test(v.key));
+		}
+		else if (typeof key === 'function')
+		{
+			fn = key;
+		}
+		else
+		{
+			throw new TypeError(`search key is not allow`)
+		}
+
 		return this.getAllCookies()
-			.filter(v => v.key === name)
+			.filter(fn)
 	}
 
 	deleteCookieSync(name: string)

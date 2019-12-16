@@ -22,7 +22,7 @@ import { getResponseUrl } from '@bluelovers/axios-util/lib/index';
 import { CookieJar } from 'tough-cookie';
 import { LazyCookieJar } from 'lazy-cookies';
 import ESJzoneClient from 'esjzone-api/lib/index';
-import localPassword from '../test/password.local';
+import localPassword, { DISABLE_LOGIN } from '../test/password.local';
 import { deserializeCookieJar } from 'restful-decorator-plugin-jsdom/lib/cookies';
 
 export { consoleDebug, console }
@@ -46,7 +46,7 @@ export async function getApiClient()
 			baseURL,
 
 			cache: {
-				maxAge: 12 * 60 * 60 * 1000,
+				maxAge: 24 * 60 * 60 * 1000,
 			},
 
 			raxConfig: {
@@ -105,16 +105,21 @@ export async function getApiClient()
 
 		if (!isLogin)
 		{
-			consoleDebug.debug(`目前為未登入狀態，嘗試使用帳號密碼登入`);
+			consoleDebug.info(`目前為未登入狀態，嘗試使用帳號密碼登入`);
 
-			/*
-			await api.loginByForm({
-					...localPassword,
-				})
-				// @ts-ignore
-				.then(r => console.dir(r))
-			;
-			 */
+			if (DISABLE_LOGIN)
+			{
+				consoleDebug.red.info(`[DISABLE_LOGIN] 選項已啟用，忽略使用帳密登入`);
+			}
+			else
+			{
+				await api.loginByForm({
+						...localPassword,
+					})
+					// @ts-ignore
+					.then(r => console.dir(r))
+				;
+			}
 		}
 
 		saveCache = await setupCacheFile(api);

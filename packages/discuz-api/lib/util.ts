@@ -26,6 +26,6 @@ export function trimUnsafe<T extends string>(input: T): T
 
 export function _checkLoginByJQuery($: JQueryStatic)
 {
-	return $('#hd .vwmy a[href="home"], #loginstatusid')
+	return $('.vwmy a[href*="uid="], #loginstatusid')
 		.length > 1
 }

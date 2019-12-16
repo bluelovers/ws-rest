@@ -37,13 +37,21 @@ import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract'
 import { trimUnsafe, _checkLoginByJQuery } from './util';
 import moment from 'moment';
 import {
-	IParametersSlice, IDiscuzForumMini, IDiscuzForum, IDzParamForumdisplay,
+	IParametersSlice,
+	IDiscuzForumMini,
+	IDiscuzForum,
+	IDzParamForumdisplay,
+	IDiscuzTaskList,
+	IDiscuzTaskRow,
+	IDzParamNoticeView,
 } from './types';
-import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
+import { IUnpackedPromiseLikeReturnType, IBluebirdAxiosResponse } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
 import tryMinifyHTML from 'restful-decorator-plugin-jsdom/lib/html';
 import { getConfig, setConfig } from 'restful-decorator/lib/decorators/config/util';
 import merge from 'restful-decorator/lib/util/merge';
+import LazyURLSearchParams from 'http-form-urlencoded';
+import LazyURL from 'lazy-url';
 
 @CacheRequest({
 	cache: {
@@ -89,7 +97,15 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	}): IBluebird<boolean>
 	{
 		let jsdom = this._responseDataToJSDOM(this.$response.data, this.$response);
-		return _checkLoginByJQuery(jsdom.$) as any;
+
+		let bool = _checkLoginByJQuery(jsdom.$);
+
+		if (!bool)
+		{
+			return Bluebird.reject(bool);
+		}
+
+		return bool as any;
 	}
 
 	@GET('forum.php?mod=forumdisplay&fid={fid}')
@@ -150,7 +166,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		} as any
 	}
 
-	@GET('home.php?mod=space&do=pm')
+	@GET('home.php?mod=space&do=notice&view=system')
 	@CacheRequest({
 		cache: {
 			maxAge: 0,
@@ -161,6 +177,99 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	{
 		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
 		return Bluebird.resolve(_checkLoginByJQuery(jsdom.$))
+	}
+
+	hasCookiesAuth()
+	{
+		return this._jar()
+			.findCookieByKey(/^.+_auth$/)
+			.length > 0
+		;
+	}
+
+	@GET('home.php?mod=task')
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
+	@methodBuilder()
+	taskList(): IBluebird<IDiscuzTaskList>
+	{
+		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+		const { $ } = jsdom;
+
+		let data: IDiscuzTaskList = {
+			disallow: [],
+			allow: [],
+		};
+
+		$('#ct .ptm:eq(0) > table')
+			.find('> tr, > tbody > tr')
+			.each((i, elem) => {
+
+				let _tr = $(elem);
+
+				let _a = _tr.find('h3:eq(0) a:eq(0)');
+
+				let task_name = _a.text();
+
+				let task_id = new LazyURL(_a.prop('href')).searchParams.get('id');
+
+				let task_desc = _tr
+					.find('p.xg2:eq(0)')
+					.text()
+					.replace(/^[\n\r]+/g, '')
+					.replace(/\s+$/g, '')
+				;
+
+				let task_credit = _tr
+					.find('> td:eq(-2)')
+					.text()
+					.replace(/^[\n\r]+/g, '')
+					.replace(/\s+$/g, '')
+				;
+
+				_a = _tr.find('> td:eq(-1) a[href*="do=apply"]').filter(`[href*="id=${task_id}"]`);
+
+				let obj: IDiscuzTaskRow = {
+					task_id,
+					task_name,
+					task_desc,
+					task_credit,
+				};
+
+				data[(_a.length ? 'allow' : 'disallow')]
+					.push(obj)
+				;
+			})
+		;
+
+		return data as any;
+	}
+
+	@GET('home.php?mod=task&do=apply&id={task_id}')
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
+	@methodBuilder()
+	taskApply(@ParamPath('task_id') task_id: number | string): IBluebirdAxiosResponse<unknown>
+	{
+		return
+	}
+
+	@GET('home.php?mod=space&do=notice&view={view}')
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
+	@methodBuilder()
+	noticeView(@ParamPath('view') view: IDzParamNoticeView): IBluebirdAxiosResponse<unknown>
+	{
+		return
 	}
 
 }

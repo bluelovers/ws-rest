@@ -12,6 +12,8 @@ export default (async () => {
 
 	//await lazyImport('./build/cache');
 
+	await lazyImport('./build/task_logined');
+
 })();
 
 function lazyImport(name: string)

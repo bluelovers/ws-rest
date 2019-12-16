@@ -22,3 +22,19 @@ export interface IDzParamForumdisplay
 	filter?: IDzParamForumdisplayFilter,
 	orderby?: IDzParamForumdisplayOrderby,
 }
+
+export interface IDiscuzTaskRow
+{
+	task_id: string,
+	task_name: string,
+	task_desc: string,
+	task_credit: string,
+}
+
+export interface IDiscuzTaskList
+{
+	disallow: IDiscuzTaskRow[],
+	allow: IDiscuzTaskRow[],
+}
+
+export type IDzParamNoticeView = 'system' | 'app' | 'interactive' | 'mypost';
