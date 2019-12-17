@@ -15,59 +15,10 @@ export function _checkLoginByJQuery($: JQueryStatic)
 
 export function _jqForumStickThreads($: JQueryStatic)
 {
-	let threads: IDiscuzForumThread[] = [];
-
-	$('#threadlisttableid tbody[id^="stickthread_"]')
-		.each((i, elem) => {
-
-			let _tr = $(elem);
-
-			let _a = _tr.find('th a.s.xst:eq(0)');
-
-			let subject = trimUnsafe(_a.text());
-
-			let tid = new LazyURL(_a.prop('href'))
-				.searchParams.get('tid') as any
-			;
-
-			let dateline = moment(_tr.find('.by:eq(0) em span span[title]').prop('title')).unix();
-
-			_a = _tr.find('.by:eq(0) cite a');
-
-			let authorid: string;
-			let author: string;
-
-			if (_a.length)
-			{
-				author = _a.text();
-				authorid = (new LazyURL(_a.prop('href')).searchParams.get('uid') as any)
-			}
-
-			_a = _tr.find('th a[href*="typeid="]').eq(0);
-
-			let typeid: string;
-
-			if (_a.length)
-			{
-				typeid = new LazyURL(_a.prop('href')).searchParams.get('typeid');
-			}
-
-			threads.push({
-				tid,
-				typeid,
-				subject,
-				dateline,
-				author,
-				authorid,
-			});
-
-		})
-	;
-
-	return threads;
+	return _jqForumThreads($, '#threadlisttableid tbody[id^="stickthread_"]').threads;
 }
 
-export function _jqForumThreads($: JQueryStatic)
+export function _jqForumThreads($: JQueryStatic, selector = '#threadlisttableid tbody[id^="normalthread_"]')
 {
 	let last_thread_time: number;
 	let last_thread_subject: string;
@@ -75,7 +26,7 @@ export function _jqForumThreads($: JQueryStatic)
 
 	let threads: IDiscuzForumThread[] = [];
 
-	$('#threadlisttableid tbody[id^="normalthread_"]')
+	$(selector)
 		.each((i, elem) => {
 
 			let _tr = $(elem);
@@ -88,7 +39,38 @@ export function _jqForumThreads($: JQueryStatic)
 				.searchParams.get('tid') as any
 			;
 
-			let dateline = moment(_tr.find('.by:eq(0) em span span[title]').prop('title')).unix();
+			let dateline: number;
+
+			_a = _tr.find('.by:eq(0) em span');
+
+			if (_a.length)
+			{
+				let title: string;
+
+				_a.each((i, elem) => {
+
+					let _a = $(elem);
+					let text = _a.text();
+
+					if (_a.is('[title]'))
+					{
+						title = _a.prop('title');
+					}
+					else if (/\d+-\d+-\d+/.test(text))
+					{
+						title = text;
+					}
+				});
+
+				if (/\d+-\d+-\d+/.test(title))
+				{
+					dateline = moment(title, 'YYYY-MM-DD').unix();
+				}
+				else
+				{
+					throw new TypeError(_tr.html())
+				}
+			}
 
 			if (last_thread_time == null)
 			{
