@@ -34,7 +34,7 @@ import {
 } from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
-import { trimUnsafe, _checkLoginByJQuery } from './util';
+import { trimUnsafe} from './util';
 import moment from 'moment';
 import {
 	IParametersSlice,
@@ -43,7 +43,7 @@ import {
 	IDzParamForumdisplay,
 	IDiscuzTaskList,
 	IDiscuzTaskRow,
-	IDzParamNoticeView,
+	IDzParamNoticeView, IDiscuzForumPickThreads,
 } from './types';
 import { IUnpackedPromiseLikeReturnType, IBluebirdAxiosResponse } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
@@ -52,6 +52,9 @@ import { getConfig, setConfig } from 'restful-decorator/lib/decorators/config/ut
 import merge from 'restful-decorator/lib/util/merge';
 import LazyURLSearchParams from 'http-form-urlencoded';
 import LazyURL from 'lazy-url';
+import { _checkLoginByJQuery, _jqForumThreads } from './util/jquery';
+import { ITSRequiredWith, ITSPickExtra } from 'ts-type';
+import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';
 
 @CacheRequest({
 	cache: {
@@ -110,16 +113,16 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 
 	@GET('forum.php?mod=forumdisplay&fid={fid}')
 	@methodBuilder()
-	forum(@ParamMapAuto(<Partial<IDzParamForumdisplay>>{
-		filter: 'lastpost',
-		orderby: 'lastpost',
+	forum(@ParamMapAuto(<ITSPickExtra<IDzParamForumdisplay, 'fid'>>{
+		filter: 'dateline',
+		orderby: 'dateline',
 	}) argv: IDzParamForumdisplay): IBluebird<IDiscuzForum>
 	{
 		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
 
 		const { $ } = jsdom;
 
-		let fid = argv.fid | 0;
+		let fid = String(argv.fid);
 
 		let forum_name = $(`#ct h1 a[href$="forum.php?mod=forumdisplay&fid=${fid}"]`).text();
 
@@ -150,7 +153,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 					forum_name = _a.text();
 				}
 
-				let fid = (_url.searchParams.get('fid') as any) | 0;
+				let fid = (_url.searchParams.get('fid') as any);
 
 				subforums.push({
 					fid,
@@ -159,11 +162,130 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 			})
 		;
 
-		return <IDiscuzForum>{
+		let thread_types: IDiscuzForum["thread_types"] = {};
+
+		$('#thread_types a[href*="typeid="]')
+			.each((i, elem) => {
+
+				let _a = $(elem);
+
+				let typeid = new LazyURL(_a.prop('href'))
+					.searchParams.get('typeid')
+				;
+
+				let name = _a.text();
+
+				thread_types[typeid] = name;
+
+			})
+		;
+
+		let { threads, last_thread_time, last_thread_subject } = _jqForumThreads($);
+
+		let pages: number;
+
+		let _a = $('#fd_page_top a.last[href*="page="]').eq(0);
+
+		if (!_a.length)
+		{
+			_a = $('#fd_page_top .pg a[href*="page="]')
+				.not('.nxt')
+				.eq(-1)
+			;
+		}
+
+		if (_a.length)
+		{
+			pages = (new LazyURL(_a.prop('href')).searchParams.get('page') as any) | 0;
+		}
+
+		let page = ($('#fd_page_top .pg :input[name="custompage"]').val() as any) | 0;
+
+		return ({
 			fid,
 			forum_name,
-			subforums
-		} as any
+
+			last_thread_time,
+			last_thread_subject,
+
+			pages,
+			page,
+
+			subforums,
+
+			thread_types,
+
+			threads,
+		} as IDiscuzForum) as any
+	}
+
+	forumThreads(argv: IDzParamForumdisplay, range: {
+		from?: number,
+		to?: number,
+		delay?: number,
+	} = {})
+	{
+		let { from = 1, to = Infinity, delay } = range;
+
+		from |= 0;
+		delay |= 0;
+
+		return this.forum({
+			...argv,
+			page: from,
+			})
+			.then(async function (this: DiscuzClient, forum)
+			{
+
+				if (forum.page != from)
+				{
+					throw new RangeError(`forum.page: ${forum.page} != from: ${from}`)
+				}
+
+				to = Math.min(to, forum.pages);
+
+				if (to < from)
+				{
+					throw new RangeError(`to: ${to} < from: ${from}`)
+				}
+
+				let pi = from;
+
+				let _not_cache: boolean;
+
+				_not_cache = delay > 0 && !isResponseFromAxiosCache(this.$response);
+
+				while (++pi < to)
+				{
+					if (_not_cache)
+					{
+						await Bluebird.delay(delay);
+					}
+
+					let data = await this.forum({
+						...argv,
+						page: pi,
+					})
+						.tap(function (this: DiscuzClient)
+						{
+							_not_cache = delay > 0 && !isResponseFromAxiosCache(this.$response);
+						})
+					;
+
+					forum.threads.push(...data.threads);
+				}
+
+				delete forum.page;
+
+				forum.threads = uniqBy(forum.threads, 'tid');
+
+				return <IDiscuzForumPickThreads>{
+					pageFrom: from,
+					pageTo: to,
+					...forum,
+				};
+			})
+		;
 	}
 
 	@GET('home.php?mod=space&do=notice&view=system')

@@ -4,23 +4,50 @@ export type IParametersSlice<T extends (...args: any) => any> = T extends (arg1:
 
 export interface IDiscuzForumMini
 {
-	fid: number;
+	fid: string;
 	forum_name: string;
 }
 
 export interface IDiscuzForum extends IDiscuzForumMini
 {
-	subforums: IDiscuzForumMini[]
+	last_thread_time: number;
+	last_thread_subject: string;
+
+	pages: number,
+	page: number,
+
+	thread_types: Record<string, string>,
+
+	subforums: IDiscuzForumMini[],
+
+	threads: IDiscuzForumThread[],
 }
 
-export type IDzParamForumdisplayFilter = 'lastpost' | string;
-export type IDzParamForumdisplayOrderby = 'lastpost' | string;
+export interface IDiscuzForumPickThreads extends Omit<IDiscuzForum, 'page'>
+{
+	pageFrom: number,
+	pageTo: number,
+}
+
+export interface IDiscuzForumThread
+{
+	tid: string,
+	typeid: string,
+	subject: string,
+	dateline: number,
+	author: string,
+	authorid: string,
+}
+
+export type IDzParamForumdisplayFilter = 'dateline' | 'lastpost' | string;
+export type IDzParamForumdisplayOrderby = 'dateline' | 'lastpost' | string;
 
 export interface IDzParamForumdisplay
 {
 	fid: number,
 	filter?: IDzParamForumdisplayFilter,
 	orderby?: IDzParamForumdisplayOrderby,
+	page?: number,
 }
 
 export interface IDiscuzTaskRow
