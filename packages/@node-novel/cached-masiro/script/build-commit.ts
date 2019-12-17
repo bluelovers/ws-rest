@@ -38,7 +38,7 @@ export default (async () => {
 			{
 				let thread_subject = _getForumLastThreadSubject(json).thread_subject_full;
 
-				return `- ${id.padStart(4, '0')} ${json.forum_name} ${moment(json.last_thread_time).format()} ${thread_subject}`;
+				return `- ${id.padStart(4, '0')} ${json.forum_name} ${moment.unix(json.last_thread_time).format()} ${thread_subject}`;
 			}
 		});
 
