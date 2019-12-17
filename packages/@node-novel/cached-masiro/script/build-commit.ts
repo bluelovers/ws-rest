@@ -15,6 +15,8 @@ import { IESJzoneRecentUpdateRowBook } from 'esjzone-api/lib/types';
 import { IDiscuzForum } from 'discuz-api/lib/types';
 import { _getForumLastThreadSubject } from 'discuz-api/lib/util';
 
+import packageJson from '../package.json';
+
 let ls1 = gitDiffStagedFile(join(__root, 'data'));
 
 let ls2 = matchGlob(ls1, [
@@ -22,6 +24,8 @@ let ls2 = matchGlob(ls1, [
 ]);
 
 export default (async () => {
+
+	const pkgLabel = `[${packageJson}] `;
 
 	if (ls2.length)
 	{
@@ -61,7 +65,7 @@ export default (async () => {
 		crossSpawnSync('git', [
 			'commit',
 			'-m',
-			`update cache${msg}`,
+			`${pkgLabel}update cache${msg}`,
 		], {
 			cwd: join(__root, 'data'),
 			stdio: 'inherit',

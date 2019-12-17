@@ -18,12 +18,15 @@ import { readJSONSync } from 'fs-extra';
 import { __root } from './util';
 import { IDmzjClientNovelRecentUpdateAll } from 'dmzj-api/lib/types';
 import moment from 'moment';
+import packageJson from '../package.json';
 
 let ls1 = gitDiffStagedFile(join(__root, 'data'));
 
 let ls2 = matchGlob(ls1, [
 	'**/*',
 ]);
+
+const pkgLabel = `[${packageJson}] `;
 
 if (ls2.length)
 {
@@ -79,7 +82,7 @@ if (ls2.length)
 	crossSpawnSync('git', [
 		'commit',
 		'-m',
-		`update cache${msg}`,
+		`${pkgLabel}update cache${msg}`,
 	], {
 		cwd: join(__root, 'data'),
 		stdio: 'inherit',
@@ -97,7 +100,7 @@ crossSpawnSync('git', [
 crossSpawnSync('git', [
 	'commit',
 	'-m',
-	`update temp cache`,
+	`${pkgLabel}update temp cache`,
 ], {
 	cwd: join(__root, 'test/temp'),
 	stdio: 'inherit',
