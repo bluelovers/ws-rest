@@ -9,13 +9,15 @@ import { consoleDebug } from '../util';
 import { zhDictCompare, getCjkName } from '@novel-segment/util';
 import sortObject from'sort-object-keys2';
 import { array_unique_overwrite } from 'array-hyper-unique';
+import { IDiscuzForumPickThreads } from 'discuz-api/lib/types';
+import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 
 let _cache_map = {} as Record<string, string>;
 
 (async () =>
 {
 
-	let infoPack = await readJSON(cacheFilePaths.infoPack) as Record<string, IESJzoneRecentUpdateRowBook>;
+	let infoPack = await readJSON(cacheFilePaths.infoPack) as Record<string, IDiscuzForumPickThreads>;
 
 	let idAuthors = {} as Record<string, Record<string, string>>;
 	let idUpdate = [] as string[];
@@ -30,27 +32,32 @@ let _cache_map = {} as Record<string, string>;
 
 		.each(async (row) => {
 
-			let { id, name, authors: rowAuthors } = row;
-
-			rowAuthors = String(rowAuthors);
-
-			idAuthors[rowAuthors] = idAuthors[rowAuthors] || {};
-			idAuthors[rowAuthors][id] = name;
+			let { fid: id, forum_name: name } = row;
 
 			ids.push(id);
 			titles.push(name);
-			authors.push(rowAuthors);
 
 			idTitles[id] = name;
 
-			tags.push(...row.tags);
+			row.threads.forEach(thread => {
+
+				if (thread.author != null)
+				{
+					authors.push(thread.author);
+
+					idAuthors[thread.author] = idAuthors[thread.author] || {};
+
+					idAuthors[thread.author][id] = name;
+				}
+
+			})
 
 		})
 		.then(data => data.sort((a, b) => {
-			return b.last_update_time - a.last_update_time;
+			return b.last_thread_time - a.last_thread_time;
 		}))
 		.each(row => {
-			let { id, name, authors } = row;
+			let { fid: id, forum_name: name } = row;
 
 			idUpdate.push(id);
 		})
@@ -64,33 +71,17 @@ let _cache_map = {} as Record<string, string>;
 	array_unique_overwrite(authors).sort(_sortFn001);
 	array_unique_overwrite(tags).sort(_sortFn001);
 
-	await writeJSON(cacheFilePaths.idAuthors, idAuthors, {
-		spaces: 2,
-	});
+	await outputJSONLazy(cacheFilePaths.idAuthors, idAuthors);
 
-	await writeJSON(cacheFilePaths.idUpdate, idUpdate, {
-		spaces: 2,
-	});
+	await outputJSONLazy(cacheFilePaths.idUpdate, idUpdate);
 
-	await writeJSON(cacheFilePaths.idTitles, idTitles, {
-		spaces: 2,
-	});
+	await outputJSONLazy(cacheFilePaths.idTitles, idTitles);
 
-	await writeJSON(cacheFilePaths.ids, ids, {
-		spaces: 2,
-	});
+	await outputJSONLazy(cacheFilePaths.ids, ids);
 
-	await writeJSON(cacheFilePaths.titles, titles, {
-		spaces: 2,
-	});
+	await outputJSONLazy(cacheFilePaths.titles, titles);
 
-	await writeJSON(cacheFilePaths.authors, authors, {
-		spaces: 2,
-	});
-
-	await writeJSON(cacheFilePaths.tags, tags, {
-		spaces: 2,
-	});
+	await outputJSONLazy(cacheFilePaths.authors, authors);
 
 })();
 

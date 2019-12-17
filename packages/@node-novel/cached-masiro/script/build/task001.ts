@@ -6,22 +6,17 @@ import moment from 'moment';
 import path from 'upath2';
 import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';
-
-const file = cacheFilePaths.recentUpdate;
-const file1 = cacheFilePaths.task001;
+import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
+import { IDiscuzForumThread } from 'discuz-api/lib/types';
+import { _getForumLastThreadSubject } from 'discuz-api/lib/util';
 
 export default (async () =>
 {
 
 	const { api, saveCache } = await getApiClient();
 
-	api.cookiesRemoveTrack();
-
-	let listCache = await readJSON(file1)
+	let listCache = await readJSON(cacheFilePaths.task001)
 		.catch(e => ({} as Record<string, number>))
-	;
-
-	let novelList = await (fs.readJSON(file) as PromiseLike<IESJzoneRecentUpdateCache>)
 	;
 
 	let index = 1;
@@ -29,34 +24,49 @@ export default (async () =>
 	let boolCache: boolean;
 
 	await Bluebird
-		.resolve(novelList.data)
+		.resolve(Object.entries(listCache) as [string, number][])
 		.mapSeries(async (row) =>
 		{
-			let { id, last_update_time } = row;
+			let [ fid, last_update_time ] = row;
 
-			if (listCache[id] == null)
+			if (listCache[fid] == null)
 			{
-				let _file = cacheFileInfoPath(id);
+				let _file = path.join(__root, 'data/fid', `${fid}.json`);
 
-				return api.bookInfo(id)
+				return api.forumThreads({
+						fid
+					})
 					.tap(async (data) =>
 					{
+						listCache[fid] = Math.max(data.last_thread_time | 0, last_update_time | 0, 0);
 
-						listCache[id] = Math.max(data.last_update_time | 0, last_update_time | 0, 0);
+						let thread_subject = _getForumLastThreadSubject(data).thread_subject_full;
 
-						if (!data.last_update_time && listCache[id])
+						if (data.last_thread_id)
 						{
-							data.last_update_time = listCache[id];
+							let thread: IDiscuzForumThread;
+
+							data.threads.some(v => {
+								if (v.tid == data.last_thread_id)
+								{
+									thread = v;
+
+									return true;
+								}
+							});
+
+							if (thread && thread.typeid)
+							{
+								thread_subject = data.thread_types[thread.typeid] + ' ' + thread_subject;
+							}
 						}
 
-						consoleDebug.info(index, id, row.name, moment.unix(listCache[id]).format(), data.last_update_chapter_name);
+						consoleDebug.info(index, fid, data.forum_name, moment.unix(listCache[fid]).format(), thread_subject, 'threads:', data.threads.length);
 
 						index++;
 
 						return Bluebird.all([
-							fs.outputJSON(_file, data, {
-								spaces: 2,
-							}),
+							outputJSONLazy(_file, data),
 						])
 					})
 					.tap(async function (r)
@@ -80,6 +90,8 @@ export default (async () =>
 								await saveCache();
 								boolCache = null;
 							}
+
+							await Bluebird.delay(3000);
 						}
 
 					})
@@ -101,11 +113,11 @@ export default (async () =>
 	function _saveDataCache()
 	{
 		return Bluebird.all([
-			fs.outputJSON(file1, listCache, {
+			outputJSONLazy(cacheFilePaths.task001, listCache, {
 				spaces: 2,
 			})
 				.then(e => {
-					consoleDebug.info(`outputJSON`, path.relative(__root, file1));
+					consoleDebug.info(`outputJSON`, path.relative(__root, cacheFilePaths.task001));
 					return e;
 				})
 			,

@@ -6,11 +6,11 @@ export default (async () => {
 
 	await lazyImport('./build/toplist');
 
-	//await lazyImport('./build/task001');
+	await lazyImport('./build/task001');
 
-	//await lazyImport('./build/merge');
+	await lazyImport('./build/merge');
 
-	//await lazyImport('./build/cache');
+	await lazyImport('./build/cache');
 
 	await lazyImport('./build/task_logined');
 

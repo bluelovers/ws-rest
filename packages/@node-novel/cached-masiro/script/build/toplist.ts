@@ -2,7 +2,7 @@
  * Created by user on 2019/7/7.
  */
 
-import fs, { WriteOptions as IJSONWriteOptions } from 'fs-extra';
+import fs, { WriteOptions as IJSONWriteOptions, readJSON } from 'fs-extra';
 import path from 'upath2';
 import { IDmzjNovelInfoRecentUpdateRow, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import { exportCache, importCache, processExitHook } from 'axios-cache-adapter-util';
@@ -14,15 +14,16 @@ import { ITSUnpackedPromiseLike } from 'ts-type';
 import { array_unique } from 'array-hyper-unique';
 // @ts-ignore
 import naturalCompare from "string-natural-compare";
+import { IDiscuzForum, IDzParamForumdisplay } from 'discuz-api/lib/types';
+import cacheFilePaths from '../util/files';
+import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 
 export default (async () =>
 {
 	const { api, saveCache } = await getApiClient();
 
-	const file = path.join(__root, 'data', 'novel/recentUpdate.json');
-
-	let novelList = await (fs.readJSON(file)
-		.catch(e => null))
+	let listCache = await readJSON(cacheFilePaths.task001)
+		.catch(e => ({} as Record<string, number>))
 	;
 
 	let outputJSONOptions: IJSONWriteOptions = {
@@ -44,9 +45,10 @@ export default (async () =>
 				});
 
 				return a;
-			}, [] as number[]);
+			}, [] as IDzParamForumdisplay["fid"][]);
 
 			fids.sort((a, b) => {
+				// @ts-ignore
 				return b - a
 			});
 
@@ -55,19 +57,60 @@ export default (async () =>
 			await _fn_forums(array_unique(fids))
 				.tap(async (ls2) => {
 
-					await fs.outputJSON(path.join(__root, 'data', `topforums.json`), ls.reduce((a, b) => {
+					await outputJSONLazy(path.join(__root, 'data', `topforums.json`), ls.reduce((a, b) => {
 
-						a[b.fid] = b;
+						let {
+							fid,
+							forum_name,
+							subforums,
+						} = b;
+
+						a[b.fid] = {
+							fid,
+							forum_name,
+							subforums,
+						};
 
 						return a
-					}, {} as any), outputJSONOptions);
+					}, {} as any));
 
-					await fs.outputJSON(path.join(__root, 'data', `subforums.json`), ls2.reduce((a, b) => {
+					await outputJSONLazy(path.join(__root, 'data', `subforums.json`), ls2.reduce((a, b) => {
 
-						a[b.fid] = b;
+						let {
+							fid,
+							forum_name,
+
+							last_thread_time,
+							last_thread_subject,
+							last_thread_id,
+
+							pages,
+
+							moderator,
+
+							forum_rules,
+
+							threads,
+						} = b;
+
+						a[b.fid] = {
+							fid,
+							forum_name,
+
+							last_thread_time,
+							last_thread_subject,
+							last_thread_id,
+
+							pages,
+							threads_length: threads.length,
+
+							moderator,
+
+							forum_rules,
+						};
 
 						return a
-					}, {} as any), outputJSONOptions);
+					}, {} as any));
 
 					ls.push(...ls2);
 
@@ -78,24 +121,45 @@ export default (async () =>
 		})
 	;
 
-	function _fn_forums(fids: number[])
+	function _fn_forums(fids: IDzParamForumdisplay["fid"][])
 	{
 		return Bluebird.resolve(fids)
 			.mapSeries(async (fid) => {
 
-				consoleDebug.debug(`[forum]`, fid);
+				consoleDebug.debug(`[forum]`, fid, listCache[fid]);
 
 				let data = await api.forum({
 					fid,
 				});
 
-				await fs.outputJSON(path.join(__root, 'data/fid', `${fid}.json`), data, outputJSONOptions);
+				let old = listCache[fid];
+
+				if (listCache[fid] == null)
+				{
+					listCache[fid] = null;
+				}
+
+				if (data.last_thread_time && data.last_thread_time != listCache[fid])
+				{
+					listCache[fid] = null;
+				}
+				else if (!data.last_thread_time && data.subforums.length)
+				{
+					listCache[fid] = null;
+				}
+
+				if (old !== listCache[fid])
+				{
+					consoleDebug.info(`[update]`, fid, data.forum_name);
+				}
+
+				//await fs.outputJSON(path.join(__root, 'data/fid', `${fid}.json`), data, outputJSONOptions);
 
 				return data
 			})
 		;
 	}
 
-	//await fs.outputJSON(file, dataNew, outputJSONOptions);
+	await outputJSONLazy(cacheFilePaths.task001, listCache);
 
 })();

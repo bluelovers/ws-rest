@@ -52,7 +52,7 @@ import { getConfig, setConfig } from 'restful-decorator/lib/decorators/config/ut
 import merge from 'restful-decorator/lib/util/merge';
 import LazyURLSearchParams from 'http-form-urlencoded';
 import LazyURL from 'lazy-url';
-import { _checkLoginByJQuery, _jqForumThreads } from './util/jquery';
+import { _checkLoginByJQuery, _jqForumThreads, _jqForumStickThreads, _jqForumThreadTypes } from './util/jquery';
 import { ITSRequiredWith, ITSPickExtra } from 'ts-type';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';
 
@@ -111,6 +111,9 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		return bool as any;
 	}
 
+	/**
+	 * 取得板塊資訊
+	 */
 	@GET('forum.php?mod=forumdisplay&fid={fid}')
 	@methodBuilder()
 	forum(@ParamMapAuto(<ITSPickExtra<IDzParamForumdisplay, 'fid'>>{
@@ -125,6 +128,8 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		let fid = String(argv.fid);
 
 		let forum_name = $(`#ct h1 a[href$="forum.php?mod=forumdisplay&fid=${fid}"]`).text();
+
+		forum_name = trimUnsafe(forum_name);
 
 		let subforum_area = $(`#wp #ct #subforum_${argv.fid}.bm_c`);
 
@@ -153,6 +158,8 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 					forum_name = _a.text();
 				}
 
+				forum_name = trimUnsafe(forum_name);
+
 				let fid = (_url.searchParams.get('fid') as any);
 
 				subforums.push({
@@ -162,27 +169,11 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 			})
 		;
 
-		let thread_types: IDiscuzForum["thread_types"] = {};
+		let thread_types = _jqForumThreadTypes($);
 
-		$('#thread_types a[href*="typeid="]')
-			.each((i, elem) => {
+		let { threads, last_thread_time, last_thread_subject, last_thread_id } = _jqForumThreads($);
 
-				let _a = $(elem);
-
-				let typeid = new LazyURL(_a.prop('href'))
-					.searchParams.get('typeid')
-				;
-
-				let name = _a.text();
-
-				thread_types[typeid] = name;
-
-			})
-		;
-
-		let { threads, last_thread_time, last_thread_subject } = _jqForumThreads($);
-
-		let pages: number;
+		let pages: number = 0;
 
 		let _a = $('#fd_page_top a.last[href*="page="]').eq(0);
 
@@ -201,24 +192,70 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 
 		let page = ($('#fd_page_top .pg :input[name="custompage"]').val() as any) | 0;
 
+		_a = $(`#forum_rules_${fid} > div`);
+
+		let forum_rules: string;
+
+		if (_a.length)
+		{
+			forum_rules = trimUnsafe(tryMinifyHTML(_a.html()));
+		}
+
+		let moderator: IDiscuzForum["moderator"] = {};
+
+		_a = $(`div:has(> #forum_rules_${fid}) > div:eq(0)`);
+
+		if (!_a.length)
+		{
+			_a = $(`.boardnav #ct .mn .bm .bm_c div`);
+		}
+
+		_a
+			.find('a[href*="username="]')
+			.each((i, elem) => {
+
+				let _a = $(elem);
+
+				let username = new LazyURL(_a.prop('href'))
+					.searchParams.get('username')
+				;
+
+				let name = _a.text();
+
+				moderator[username] = name;
+			})
+		;
+
+		let stickthread = _jqForumStickThreads($);
+
 		return ({
 			fid,
 			forum_name,
 
 			last_thread_time,
+			last_thread_id,
 			last_thread_subject,
 
 			pages,
 			page,
 
+			moderator,
+
+			forum_rules,
+
 			subforums,
 
 			thread_types,
+
+			stickthread,
 
 			threads,
 		} as IDiscuzForum) as any
 	}
 
+	/**
+	 * 取得板塊下指定範圍頁數的主題列表
+	 */
 	forumThreads(argv: IDzParamForumdisplay, range: {
 		from?: number,
 		to?: number,
@@ -236,48 +273,57 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 			})
 			.then(async function (this: DiscuzClient, forum)
 			{
-
-				if (forum.page != from)
-				{
-					throw new RangeError(`forum.page: ${forum.page} != from: ${from}`)
-				}
-
 				to = Math.min(to, forum.pages);
 
-				if (to < from)
+				if (forum.page > 0)
 				{
-					throw new RangeError(`to: ${to} < from: ${from}`)
-				}
-
-				let pi = from;
-
-				let _not_cache: boolean;
-
-				_not_cache = delay > 0 && !isResponseFromAxiosCache(this.$response);
-
-				while (++pi < to)
-				{
-					if (_not_cache)
+					if (forum.page != from)
 					{
-						await Bluebird.delay(delay);
+						throw new RangeError(`forum.page: ${forum.page} != from: ${from}`)
 					}
 
-					let data = await this.forum({
-						...argv,
-						page: pi,
-					})
-						.tap(function (this: DiscuzClient)
+					if (to < from)
+					{
+						throw new RangeError(`to: ${to} < from: ${from}`)
+					}
+
+					let pi = from;
+
+					let _not_cache: boolean;
+
+					_not_cache = delay > 0 && !isResponseFromAxiosCache(this.$response);
+
+					let _updated: boolean;
+
+					while (++pi <= to)
+					{
+						if (_not_cache)
 						{
-							_not_cache = delay > 0 && !isResponseFromAxiosCache(this.$response);
-						})
-					;
+							await Bluebird.delay(delay);
+						}
 
-					forum.threads.push(...data.threads);
+						let data = await this.forum({
+								...argv,
+								page: pi,
+							})
+							.tap(function (this: DiscuzClient)
+							{
+								_not_cache = delay > 0 && !isResponseFromAxiosCache(this.$response);
+							})
+						;
+
+						forum.threads.push(...data.threads);
+
+						_updated = true;
+					}
+
+					delete forum.page;
+
+					if (_updated)
+					{
+						forum.threads = uniqBy(forum.threads, 'tid');
+					}
 				}
-
-				delete forum.page;
-
-				forum.threads = uniqBy(forum.threads, 'tid');
 
 				return <IDiscuzForumPickThreads>{
 					pageFrom: from,

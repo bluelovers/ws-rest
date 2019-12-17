@@ -13,6 +13,7 @@ import moment from 'moment';
 import { reportDiffStagedNovels } from '@node-novel/site-cache-util/lib/git';
 import { IESJzoneRecentUpdateRowBook } from 'esjzone-api/lib/types';
 import { IDiscuzForum } from 'discuz-api/lib/types';
+import { _getForumLastThreadSubject } from 'discuz-api/lib/util';
 
 let ls1 = gitDiffStagedFile(join(__root, 'data'));
 
@@ -35,7 +36,9 @@ export default (async () => {
 
 			callback(json: IDiscuzForum, id: string)
 			{
-				return `- ${id.padStart(4, '0')} ${json.forum_name}`;
+				let thread_subject = _getForumLastThreadSubject(json).thread_subject_full;
+
+				return `- ${id.padStart(4, '0')} ${json.forum_name} ${moment(json.last_thread_time).format()} ${thread_subject}`;
 			}
 		});
 
@@ -47,13 +50,13 @@ export default (async () => {
 			stdio: 'inherit',
 		});
 
-//		crossSpawnSync('git', [
-//			'add',
-//			'task001.json',
-//		], {
-//			cwd: join(__root, 'test/temp'),
-//			stdio: 'inherit',
-//		});
+		crossSpawnSync('git', [
+			'add',
+			'task001.json',
+		], {
+			cwd: join(__root, 'test/temp'),
+			stdio: 'inherit',
+		});
 
 		crossSpawnSync('git', [
 			'commit',

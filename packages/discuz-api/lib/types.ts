@@ -11,14 +11,27 @@ export interface IDiscuzForumMini
 export interface IDiscuzForum extends IDiscuzForumMini
 {
 	last_thread_time: number;
+	last_thread_id: string;
 	last_thread_subject: string;
 
 	pages: number,
 	page: number,
 
-	thread_types: Record<string, string>,
+	/**
+	 * 版主
+	 */
+	moderator: Record<string, string>;
+
+	forum_rules: string,
 
 	subforums: IDiscuzForumMini[],
+
+	thread_types: Record<string, string>,
+
+	/**
+	 * 置頂
+	 */
+	stickthread: IDiscuzForumThread[],
 
 	threads: IDiscuzForumThread[],
 }
@@ -44,7 +57,7 @@ export type IDzParamForumdisplayOrderby = 'dateline' | 'lastpost' | string;
 
 export interface IDzParamForumdisplay
 {
-	fid: number,
+	fid: number | string,
 	filter?: IDzParamForumdisplayFilter,
 	orderby?: IDzParamForumdisplayOrderby,
 	page?: number,
@@ -60,7 +73,13 @@ export interface IDiscuzTaskRow
 
 export interface IDiscuzTaskList
 {
+	/**
+	 * 無法接取的任務
+	 */
 	disallow: IDiscuzTaskRow[],
+	/**
+	 * 可以接取的任務
+	 */
 	allow: IDiscuzTaskRow[],
 }
 
