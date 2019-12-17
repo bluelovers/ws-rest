@@ -93,9 +93,7 @@ export default (async () =>
 		fs.outputJSON(path.join(__root, 'data', 'novel', `ids.json`), ids, {
 			spaces: 2,
 		}),
-		fs.outputJSON(path.join(__root, 'data', 'novel', `info.pack.json`), info_pack, {
-			spaces: 2,
-		}),
+		fs.outputJSON(path.join(__root, 'data', 'novel', `info.pack.json`), info_pack),
 	]);
 
 })();

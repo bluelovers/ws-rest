@@ -17,22 +17,20 @@ export default (async () =>
 		.async<string>([
 			'*.json',
 		], {
-			cwd: path.join(__root, 'data', 'novel/info'),
+			cwd: path.join(__root, 'data', 'fid'),
 			absolute: true,
 		})
 		.reduce(async (a, file) => {
 
-			let info = await readJSON(file) as IESJzoneRecentUpdateRowBook;
+			let info = await readJSON(file);
 
-			a[info.id] = info;
+			a[info.fid] = info;
 
 			return a;
-		}, {} as Record<string, IESJzoneRecentUpdateRowBook>)
+		}, {} as Record<string, any>)
 	;
 
-	await writeJSON(cacheFilePaths.infoPack, data, {
-		spaces: 2,
-	});
+	await writeJSON(cacheFilePaths.infoPack, data);
 
 })();
 

@@ -30,9 +30,7 @@ export default (async () =>
 		}, {} as Record<string, IESJzoneRecentUpdateRowBook>)
 	;
 
-	await writeJSON(cacheFilePaths.infoPack, data, {
-		spaces: 2,
-	});
+	await writeJSON(cacheFilePaths.infoPack, data);
 
 })();
 
