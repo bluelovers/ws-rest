@@ -3,13 +3,13 @@
   "name": "绝对不愿工作的地下城主想要一直睡懒觉",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10107,
-  "last_update_chapter_id": 96061,
-  "last_update_time": 1557841197,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10498,
+  "last_update_chapter_id": 101686,
+  "last_update_time": 1576577269,
   "cover": "https://xs.dmzj.com/img/webpic/0/jd0513l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 59622,
   "introduction": "　　绝对不想工作的地下城城主想睡懒觉漫画 ，「不想工作啊。」\n　　被召唤到异世界的増田桂马这样说着。\n　　召唤他的是名为第695号地下城核心的金发萝莉，\n　　而他却当上了地下城城主。咦，可以睡懒觉而不工作吗？！\n　　……当然，异世界没有这种好事呢。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "鬼影スパナ",
   "first_letter": "J",
-  "subscribe_num": 4889,
-  "redis_update_time": 1564340279,
+  "subscribe_num": 5971,
+  "redis_update_time": 1576593600,
   "volume": [
     {
       "id": 10107,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557754227,
-      "sum_chapters": 8
+      "sum_chapters": 18
+    },
+    {
+      "id": 10498,
+      "lnovel_id": 2665,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1576576922,
+      "sum_chapters": 18
     }
   ],
   "chapters": [
@@ -80,6 +88,64 @@
           "chapter_id": 96023,
           "chapter_name": "插画",
           "chapter_order": 280
+        }
+      ]
+    },
+    {
+      "volume_id": 10498,
+      "id": 10498,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 101677,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101678,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101679,
+          "chapter_name": "第1章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101680,
+          "chapter_name": "第2章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101681,
+          "chapter_name": "第3章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101682,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101683,
+          "chapter_name": "EXEpisode/桂马的异世界料理教室",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101684,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101685,
+          "chapter_name": "外传 绝对想要结婚的地下城主一直爱着妻子～地下城国家建国记～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 101686,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
