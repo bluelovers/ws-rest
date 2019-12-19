@@ -26,7 +26,7 @@ let ls2 = matchGlob(ls1, [
 	'**/*',
 ]);
 
-const pkgLabel = `[${packageJson}] `;
+const pkgLabel = `[${packageJson.name}] `;
 
 if (ls2.length)
 {

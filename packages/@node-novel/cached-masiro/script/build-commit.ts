@@ -25,7 +25,7 @@ let ls2 = matchGlob(ls1, [
 
 export default (async () => {
 
-	const pkgLabel = `[${packageJson}] `;
+	const pkgLabel = `[${packageJson.name}] `;
 
 	if (ls2.length)
 	{
