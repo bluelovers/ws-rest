@@ -45,6 +45,7 @@ import {
 } from './types';
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
+import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
 
 /**
  * https://www.wenku8.net/index.php
@@ -676,11 +677,14 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 			;
 	}
 
+
 	@GET('update')
+	@ReturnValueToJSDOM
 	@methodBuilder()
 	recentUpdateDay(): IBluebird<IESJzoneRecentUpdateDay>
 	{
-		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+		//const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+		const jsdom = this.$returnValue as IJSDOM;
 		const $ = jsdom.$;
 
 		let tabs = $('.container #showTab li a');
