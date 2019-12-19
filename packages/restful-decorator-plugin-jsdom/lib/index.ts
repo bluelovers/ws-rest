@@ -27,6 +27,8 @@ import {
 } from 'restful-decorator/lib/decorators';
 import Bluebird from 'bluebird';
 
+export { IJSDOM }
+
 @RequestConfigs({
 	responseType: 'arraybuffer',
 })
