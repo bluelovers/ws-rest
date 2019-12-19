@@ -6,6 +6,7 @@ import { ITSRequireAtLeastOne, ITSMemberMethods, ITSKeyofMemberMethods } from 't
 import { IPropertyKey } from 'reflect-metadata-util';
 import Bluebird from 'bluebird';
 import { getCatchError } from './catch';
+import { getHookReturnValue } from './hook';
 
 export type IMemberMethods<T> = ITSMemberMethods<T>;
 
@@ -43,13 +44,20 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 				thisArgv = this;
 			}
 
-			let p: Bluebird<any>;
+			let p: Bluebird<any> = Bluebird.bind(thisArgv);
 
 			if (returnValue != null)
 			{
-				p = Bluebird
-					.bind(thisArgv)
+				let fnHookReturnValue = getHookReturnValue(target, propertyName);
+
+				if (fnHookReturnValue == null)
+				{
+					fnHookReturnValue = (data: any) => data;
+				}
+
+				p = p
 					.thenReturn(returnValue)
+					.then(fnHookReturnValue)
 					.then(async function (returnValue){
 
 						const ret = await method.apply(thisArgv, argv);
@@ -65,8 +73,7 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 			}
 			else
 			{
-				p = Bluebird
-					.bind(thisArgv)
+				p = p
 					.thenReturn(method.apply(thisArgv, argv))
 				;
 			}
