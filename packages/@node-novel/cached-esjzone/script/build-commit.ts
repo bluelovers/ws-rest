@@ -14,15 +14,23 @@ import { reportDiffStagedNovels } from '@node-novel/site-cache-util/lib/git';
 import { IESJzoneRecentUpdateRowBook } from 'esjzone-api/lib/types';
 import packageJson from '../package.json';
 
-let ls1 = gitDiffStagedFile(join(__root, 'data'));
-
-let ls2 = matchGlob(ls1, [
-	'**/*',
-]);
-
 export default (async () => {
 
 	const pkgLabel = `[${packageJson.name}] `;
+
+	crossSpawnSync('git', [
+		'add',
+		'.',
+	], {
+		cwd: join(__root, 'data'),
+		stdio: 'inherit',
+	});
+
+	let ls1 = gitDiffStagedFile(join(__root, 'data'));
+
+	let ls2 = matchGlob(ls1, [
+		'**/*',
+	]);
 
 	if (ls2.length)
 	{
@@ -35,14 +43,6 @@ export default (async () => {
 				return `- ${id.padStart(4, '0')} ${json.name} ${moment.unix(json.last_update_time)
 					.format()} ${json.last_update_chapter_name}`;
 			}
-		});
-
-		crossSpawnSync('git', [
-			'add',
-			'.',
-		], {
-			cwd: join(__root, 'data'),
-			stdio: 'inherit',
 		});
 
 		crossSpawnSync('git', [

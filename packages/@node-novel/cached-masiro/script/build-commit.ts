@@ -17,15 +17,23 @@ import { _getForumLastThreadSubject } from 'discuz-api/lib/util';
 
 import packageJson from '../package.json';
 
-let ls1 = gitDiffStagedFile(join(__root, 'data'));
-
-let ls2 = matchGlob(ls1, [
-	'**/*',
-]);
-
 export default (async () => {
 
 	const pkgLabel = `[${packageJson.name}] `;
+
+	crossSpawnSync('git', [
+		'add',
+		'.',
+	], {
+		cwd: join(__root, 'data'),
+		stdio: 'inherit',
+	});
+
+	let ls1 = gitDiffStagedFile(join(__root, 'data'));
+
+	let ls2 = matchGlob(ls1, [
+		'**/*',
+	]);
 
 	if (ls2.length)
 	{
@@ -44,14 +52,6 @@ export default (async () => {
 
 				return `- ${id.padStart(4, '0')} ${json.forum_name} ${moment.unix(json.last_thread_time).format()} ${thread_subject}`;
 			}
-		});
-
-		crossSpawnSync('git', [
-			'add',
-			'.',
-		], {
-			cwd: join(__root, 'data'),
-			stdio: 'inherit',
 		});
 
 		crossSpawnSync('git', [

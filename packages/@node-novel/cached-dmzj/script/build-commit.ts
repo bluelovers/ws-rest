@@ -20,25 +20,25 @@ import { IDmzjClientNovelRecentUpdateAll } from 'dmzj-api/lib/types';
 import moment from 'moment';
 import packageJson from '../package.json';
 
+const pkgLabel = `[${packageJson.name}] `;
+
+crossSpawnSync('git', [
+	'add',
+	'.',
+], {
+	cwd: join(__root, 'data'),
+	stdio: 'inherit',
+});
+
 let ls1 = gitDiffStagedFile(join(__root, 'data'));
 
 let ls2 = matchGlob(ls1, [
 	'**/*',
 ]);
 
-const pkgLabel = `[${packageJson.name}] `;
-
 if (ls2.length)
 {
 	console.dir(ls2);
-
-	crossSpawnSync('git', [
-		'add',
-		'.',
-	], {
-		cwd: join(__root, 'data'),
-		stdio: 'inherit',
-	});
 
 	ls1 = gitDiffStagedFile(join(__root, 'data'));
 	ls2 = matchGlob(ls1, [
