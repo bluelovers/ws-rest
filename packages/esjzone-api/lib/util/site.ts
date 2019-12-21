@@ -9,86 +9,129 @@ export enum EnumParseInputUrl
 {
 	UNKNOWN,
 	STRING,
+	NUMBER,
 	URL,
 	URLSEARCHPARAMS,
 }
 
-export function parseInputUrl<T extends string | number | URL | LazyURL | LazyURLSearchParams | URLSearchParams>(_input: T)
+export function _handleInputUrl<T extends string | number | URL | LazyURL | LazyURLSearchParams | URLSearchParams>(_input: T)
 {
 	if (typeof _input === 'number')
 	{
 		let value = _input.toString();
 
 		return {
-			type: EnumParseInputUrl.STRING,
+			type: EnumParseInputUrl.NUMBER as const,
 			_input,
 			value,
-		} as const
+		}
+	}
+	else if (typeof _input === 'string' && /^\d+$/.test(_input))
+	{
+		let value = _input.toString();
+
+		return {
+			type: EnumParseInputUrl.NUMBER as const,
+			_input,
+			value,
+		}
 	}
 	else if (typeof _input === 'string')
 	{
 		let value = _input.toString();
 
+		try
+		{
+			let u = new URL(value);
+
+			return {
+				type: EnumParseInputUrl.URL as const,
+				_input,
+				value: new LazyURL(u),
+			}
+		}
+		catch (e)
+		{
+
+		}
+
 		return {
-			type: EnumParseInputUrl.STRING,
+			type: EnumParseInputUrl.STRING as const,
 			_input,
 			value,
-		} as const
+		}
 	}
 	else if (_input instanceof LazyURL)
 	{
 		let value = _input;
 
 		return {
-			type: EnumParseInputUrl.URL,
+			type: EnumParseInputUrl.URL as const,
 			_input,
 			value,
-		} as const
+		}
 	}
 	else if (_input instanceof URL)
 	{
 		let value = new LazyURL(_input);
 
 		return {
-			type: EnumParseInputUrl.URL,
+			type: EnumParseInputUrl.URL as const,
 			_input,
 			value,
-		} as const
+		}
 	}
 	else if (_input instanceof LazyURLSearchParams)
 	{
 		let value = _input;
 
 		return {
-			type: EnumParseInputUrl.URLSEARCHPARAMS,
+			type: EnumParseInputUrl.URLSEARCHPARAMS as const,
 			_input,
 			value,
-		} as const
+		}
 	}
 	else if (_input instanceof URLSearchParams)
 	{
 		let value = new LazyURLSearchParams(_input);
 
 		return {
-			type: EnumParseInputUrl.URLSEARCHPARAMS,
+			type: EnumParseInputUrl.URLSEARCHPARAMS as const,
 			_input,
 			value,
-		} as const
+		}
 	}
 
 	let value = _input.toString();
 
+	if (/^\d+$/.test(value))
+	{
+		return {
+			type: EnumParseInputUrl.NUMBER as const,
+			_input,
+			value,
+		}
+	}
+
 	return {
-		type: EnumParseInputUrl.UNKNOWN,
+		type: EnumParseInputUrl.UNKNOWN as const,
 		_input,
 		value,
-	} as const
+	}
 }
 
-export function generateUrl<T extends string | number | URL | LazyURL>(input: T)
+export function parseUrl<T extends string | number | URL | LazyURL>(input: T)
 {
-	let data = parseInputUrl(input);
+	let data = _handleInputUrl(input);
 
+	let ret = {
+		...data,
+	};
 
+	switch (data.type)
+	{
 
+	}
+
+	return ret;
 }

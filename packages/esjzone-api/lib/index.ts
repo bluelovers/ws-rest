@@ -46,6 +46,8 @@ import {
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
+import { _handleInputUrl } from './util/site';
+import LazyURL from 'lazy-url';
 
 /**
  * https://www.wenku8.net/index.php
@@ -381,7 +383,13 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 		}
 
-		data.cover = _content.find('img.product-image').prop('src');
+		let cover = _content.find('img.product-image:not([src*="empty.jpg"])').prop('src');
+
+		if (cover)
+		{
+			data.cover = cover;
+		}
+
 		data.desc = trimUnsafe(_content.find('.book_description').text() || '');
 
 		let volume_order = 0;
@@ -429,7 +437,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 						let chapter_link = _a.prop('href');
 
 						let _m = chapter_link
-							.match(/esjzone\.cc\/forum\/(\d+)\/(\d+)\.ktml?/)
+							.match(/esjzone\.cc\/forum\/(\d+)\/(\d+)\.html?/)
 						;
 
 						let chapter_name = trimUnsafe(_a.text());
@@ -596,7 +604,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 						})
 						.then(a =>
 						{
-							let elems = $('.trans');
+							let elems = $('.trans, .t');
 
 							a.forEach((v, i) =>
 							{
