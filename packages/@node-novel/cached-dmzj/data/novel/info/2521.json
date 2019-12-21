@@ -3,13 +3,13 @@
   "name": "让笨蛋登上舞台吧！(为那个笨蛋也打上脚灯！)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 常败无胜的赌徒",
+  "last_update_volume_name": "第五卷 与白龙的盟约",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9806,
-  "last_update_chapter_id": 91581,
-  "last_update_time": 1543573155,
+  "last_update_volume_id": 10501,
+  "last_update_chapter_id": 101789,
+  "last_update_time": 1576841511,
   "cover": "https://xs.dmzj.com/img/webpic/12/bd0720l.jpg",
-  "hot_hits": 203899,
+  "hot_hits": 245699,
   "introduction": "达斯特外传",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "昼熊",
   "first_letter": "R",
-  "subscribe_num": 11408,
-  "redis_update_time": 1564340321,
+  "subscribe_num": 12774,
+  "redis_update_time": 1576961909,
   "volume": [
     {
       "id": 9575,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷 真是美好呢，重要配角",
       "volume_order": 10,
       "addtime": 1532091809,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 9576,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷 向着遥远后宫的那边",
       "volume_order": 20,
       "addtime": 1532092133,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 9659,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷 为心怀少女梦的公主献上满天繁星",
       "volume_order": 30,
       "addtime": 1535814881,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 9806,
@@ -51,7 +51,15 @@
       "volume_name": "第四卷 常败无胜的赌徒",
       "volume_order": 40,
       "addtime": 1543572468,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10501,
+      "lnovel_id": 2521,
+      "volume_name": "第五卷 与白龙的盟约",
+      "volume_order": 50,
+      "addtime": 1576836174,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -319,6 +327,49 @@
           "chapter_id": 91581,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10501,
+      "id": 10501,
+      "volume_name": "第五卷 与白龙的盟约",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 101728,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101729,
+          "chapter_name": "第一章 揭开舞台的幕后",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101730,
+          "chapter_name": "第二章 为那饥肠辘辘的幼女献上果腹",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101731,
+          "chapter_name": "第三章 与那头白龙的约定",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101732,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101733,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101789,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }
