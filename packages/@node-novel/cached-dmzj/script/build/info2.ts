@@ -1,10 +1,11 @@
-import fs from 'fs-extra';
+import fs, { writeJSON } from 'fs-extra';
 import path from "path";
 import Bluebird from 'bluebird';
 import { __root } from '../util';
 import sortObject from'sort-object-keys2';
 import { IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import { pick, sortBy } from'lodash';
+import cacheFilePaths from '../util/files';
 
 export default (async () => {
 
@@ -15,6 +16,8 @@ export default (async () => {
 	}).reverse();
 
 	let id_update: number[] = [];
+
+	let id_chapters = {} as Record<string, number>;
 
 	let data = await Bluebird.resolve(Object.entries(json2))
 		.reduce((a, [id, v]: [string, IDmzjNovelInfoWithChapters]) => {
@@ -62,6 +65,10 @@ export default (async () => {
 				})
 			;
 
+			id_chapters[row.id] = v.chapters.reduce((len, vol) => {
+				return len += vol.chapters.length;
+			}, 0);
+
 			a.push(row);
 
 			id_update.push(v.id);
@@ -78,6 +85,9 @@ export default (async () => {
 			spaces: 2,
 		}),
 		fs.writeJSON(path.join(__root, 'data', 'novel', `id_update.json`), id_update, {
+			spaces: 2,
+		}),
+		writeJSON(cacheFilePaths.idChapters, id_chapters, {
 			spaces: 2,
 		}),
 	]);

@@ -27,6 +27,8 @@ let _cache_map = {} as Record<string, string>;
 	let tags = [] as string[];
 	let idTitles = {} as Record<string, string>;
 
+	let id_chapters = {} as Record<string, number>;
+
 	await Bluebird
 		.resolve(Object.values(infoPack))
 
@@ -50,7 +52,9 @@ let _cache_map = {} as Record<string, string>;
 					idAuthors[thread.author][id] = name;
 				}
 
-			})
+			});
+
+			id_chapters[id] = row.threads.length;
 
 		})
 		.then(data => data.sort((a, b) => {
@@ -71,17 +75,15 @@ let _cache_map = {} as Record<string, string>;
 	array_unique_overwrite(authors).sort(_sortFn001);
 	array_unique_overwrite(tags).sort(_sortFn001);
 
-	await outputJSONLazy(cacheFilePaths.idAuthors, idAuthors);
-
-	await outputJSONLazy(cacheFilePaths.idUpdate, idUpdate);
-
-	await outputJSONLazy(cacheFilePaths.idTitles, idTitles);
-
-	await outputJSONLazy(cacheFilePaths.ids, ids);
-
-	await outputJSONLazy(cacheFilePaths.titles, titles);
-
-	await outputJSONLazy(cacheFilePaths.authors, authors);
+	await Bluebird.all([
+		outputJSONLazy(cacheFilePaths.idAuthors, idAuthors),
+		outputJSONLazy(cacheFilePaths.idUpdate, idUpdate),
+		outputJSONLazy(cacheFilePaths.idTitles, idTitles),
+		outputJSONLazy(cacheFilePaths.ids, ids),
+		outputJSONLazy(cacheFilePaths.titles, titles),
+		outputJSONLazy(cacheFilePaths.authors, authors),
+		outputJSONLazy(cacheFilePaths.idChapters, id_chapters),
+	]);
 
 })();
 

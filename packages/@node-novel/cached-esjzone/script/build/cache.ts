@@ -9,6 +9,7 @@ import { consoleDebug } from '../util';
 import { zhDictCompare, getCjkName } from '@novel-segment/util';
 import sortObject from'sort-object-keys2';
 import { array_unique_overwrite } from 'array-hyper-unique';
+import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 
 let _cache_map = {} as Record<string, string>;
 
@@ -24,6 +25,8 @@ let _cache_map = {} as Record<string, string>;
 	let authors = [] as string[];
 	let tags = [] as string[];
 	let idTitles = {} as Record<string, string>;
+
+	let id_chapters = {} as Record<string, number>;
 
 	await Bluebird
 		.resolve(Object.values(infoPack))
@@ -45,6 +48,10 @@ let _cache_map = {} as Record<string, string>;
 
 			tags.push(...row.tags);
 
+			id_chapters[id] = row.chapters.reduce((len, vol) => {
+				return len += vol.chapters.length;
+			}, 0)
+
 		})
 		.then(data => data.sort((a, b) => {
 			return b.last_update_time - a.last_update_time;
@@ -64,33 +71,16 @@ let _cache_map = {} as Record<string, string>;
 	array_unique_overwrite(authors).sort(_sortFn001);
 	array_unique_overwrite(tags).sort(_sortFn001);
 
-	await writeJSON(cacheFilePaths.idAuthors, idAuthors, {
-		spaces: 2,
-	});
-
-	await writeJSON(cacheFilePaths.idUpdate, idUpdate, {
-		spaces: 2,
-	});
-
-	await writeJSON(cacheFilePaths.idTitles, idTitles, {
-		spaces: 2,
-	});
-
-	await writeJSON(cacheFilePaths.ids, ids, {
-		spaces: 2,
-	});
-
-	await writeJSON(cacheFilePaths.titles, titles, {
-		spaces: 2,
-	});
-
-	await writeJSON(cacheFilePaths.authors, authors, {
-		spaces: 2,
-	});
-
-	await writeJSON(cacheFilePaths.tags, tags, {
-		spaces: 2,
-	});
+	await Bluebird.all([
+		outputJSONLazy(cacheFilePaths.idAuthors, idAuthors),
+		outputJSONLazy(cacheFilePaths.idUpdate, idUpdate),
+		outputJSONLazy(cacheFilePaths.idTitles, idTitles),
+		outputJSONLazy(cacheFilePaths.ids, ids),
+		outputJSONLazy(cacheFilePaths.titles, titles),
+		outputJSONLazy(cacheFilePaths.authors, authors),
+		outputJSONLazy(cacheFilePaths.idChapters, id_chapters),
+		outputJSONLazy(cacheFilePaths.tags, tags)
+	]);
 
 })();
 

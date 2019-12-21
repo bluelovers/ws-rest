@@ -17,6 +17,8 @@ export const cacheFilePaths = {
 
 	idUpdate: path.join(__root, 'data/novel', 'id_update.json'),
 
+	idChapters: path.join(__root, 'data/novel', 'id_chapters.json'),
+
 	ids: path.join(__root, 'data/novel', 'ids.json'),
 
 	titles: path.join(__root, 'data/novel', 'titles.json'),

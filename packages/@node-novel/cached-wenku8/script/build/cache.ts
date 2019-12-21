@@ -6,6 +6,7 @@ import { consoleDebug } from '../util';
 import { zhDictCompare, getCjkName } from '@novel-segment/util';
 import sortObject from'sort-object-keys2';
 import { array_unique_overwrite } from 'array-hyper-unique';
+import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 
 let _cache_map = {} as Record<string, string>;
 
@@ -21,6 +22,8 @@ export default (async () =>
 	let authors = [] as string[];
 	let idTitles = {} as Record<string, string>;
 	let copyrightRemove = {} as Record<string, string>;
+
+	let id_chapters = {} as Record<string, number>;
 
 	await Bluebird
 		.resolve(recentUpdate.data)
@@ -46,6 +49,10 @@ export default (async () =>
 			{
 				copyrightRemove[id] = name;
 			}
+
+			id_chapters[id] = info.chapters.reduce((len, vol) => {
+				return len += vol.chapters.length;
+			}, 0)
 
 		})
 		.then(data => data.sort((a, b) => {
@@ -90,6 +97,10 @@ export default (async () =>
 	});
 
 	await writeJSON(cacheFilePaths.copyrightRemove, copyrightRemove, {
+		spaces: 2,
+	});
+
+	await writeJSON(cacheFilePaths.idChapters, id_chapters, {
 		spaces: 2,
 	});
 
