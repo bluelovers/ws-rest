@@ -7,7 +7,7 @@ import { Buffer } from "buffer";
 import { iconvDecode } from './util/utf8';
 import { ICreateFnDecode } from './util';
 import { getCookieJar } from 'restful-decorator/lib/decorators/config/cookies';
-import { ICookiesValue, LazyCookieJar } from 'lazy-cookies';
+import { ICookiesValue, LazyCookieJar, ICookiesValueInput } from 'lazy-cookies';
 import {
 	BaseUrl,
 	BodyData,
@@ -54,14 +54,14 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 
 	}
 
-	loginByCookies(cookies_data: ICookiesValue[])
+	loginByCookies<T extends string>(cookies_data: ICookiesValueInput<T>)
 	{
 		return Bluebird.resolve(this.loginByCookiesSync(cookies_data))
 	}
 
-	loginByCookiesSync(cookies_data: ICookiesValue[])
+	loginByCookiesSync<T extends string>(cookies_data: ICookiesValueInput<T>)
 	{
-		this._jar().setData(cookies_data || {});
+		this._jar().setData(cookies_data || {} as any);
 		return this
 	}
 

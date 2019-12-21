@@ -18,7 +18,7 @@ import {
 	CatchError, ParamQuery, HandleParamMetadata,
 	ParamMapAuto,
 } from 'restful-decorator/lib/decorators';
-import { ICookiesValue, LazyCookieJar } from 'lazy-cookies';
+import { ICookiesValue, LazyCookieJar, ICookiesValueInput } from 'lazy-cookies';
 import { getCookieJar } from 'restful-decorator/lib/decorators/config/cookies';
 import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';
@@ -109,6 +109,24 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		}
 
 		return bool as any;
+	}
+
+	_getAuthCookies()
+	{
+		let ret = this._jar()
+			.findCookieByKey(/_(?:sid|saltkey|auth)$/, this.$baseURL)
+				.reduce((a, b) => {
+
+					let _m = /_(sid|saltkey|auth)$/.exec(b.key);
+
+					// @ts-ignore
+					a[_m[1]] = b;
+
+					return a;
+				}, {} as Record<'sid' | 'saltkey' | 'auth', toughCookie.Cookie>)
+			;
+
+		return ret;
 	}
 
 	/**
