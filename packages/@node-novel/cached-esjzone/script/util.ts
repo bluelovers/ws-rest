@@ -41,7 +41,7 @@ export async function getApiClient()
 	{
 		let setting = {
 			cache: {
-				maxAge: 12 * 60 * 60 * 1000,
+				maxAge: 6 * 60 * 60 * 1000,
 			},
 
 			raxConfig: {
