@@ -210,9 +210,9 @@ export class LazyCookieJar extends toughCookie.CookieJar
 			.filter(fn)
 	}
 
-	deleteCookieSync(name: string)
+	deleteCookieSync(key: string | RegExp | ((cookie: Cookie) => boolean), currentUrl?: string | URL)
 	{
-		let cs = this.findCookieByKey(name);
+		let cs = this.findCookieByKey(key, currentUrl);
 
 		cs
 			.forEach(v => {
