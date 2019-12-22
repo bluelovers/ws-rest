@@ -32,5 +32,9 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "restful-decorator-plugin-jsdom": "^1.0.5"
+  },
+  "devDependencies": {
+    "@node-novel/md-loader": "^1.0.4",
+    "node-novel-info": "^2.3.33"
   }
 }

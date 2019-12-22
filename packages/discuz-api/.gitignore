@@ -76,3 +76,5 @@ tsconfig.esm.json.tpl
 
 password.local.*
 /.eslintignore
+!/test/lib/
+!/test/script/
