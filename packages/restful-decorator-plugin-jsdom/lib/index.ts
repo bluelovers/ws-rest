@@ -61,7 +61,7 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 
 	loginByCookiesSync<T extends string>(cookies_data: ICookiesValueInput<T>)
 	{
-		this._jar().setData(cookies_data || {} as any);
+		this._jar().setData(cookies_data || {} as any, this.$baseURL);
 		return this
 	}
 
