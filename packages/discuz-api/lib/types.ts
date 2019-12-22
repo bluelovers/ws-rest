@@ -1,4 +1,6 @@
 import { ParamMapAuto } from 'restful-decorator/lib/decorators/body';
+import { ITSPickExtra } from 'ts-type';
+import { ITSRequiredPick, ITSPartialPick } from 'ts-type/lib/type/record';
 
 export type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;
 
@@ -50,6 +52,79 @@ export interface IDiscuzForumThread
 	dateline: number,
 	author: string,
 	authorid: string,
+}
+
+export type ITSPickExtra2<T, PK extends keyof T, RK extends Exclude<keyof T, PK> = Exclude<keyof T, PK>> =
+	ITSRequiredPick<T, RK>
+	& ITSPartialPick<T, PK>;
+
+export interface IDiscuzThread extends ITSPickExtra<IDiscuzForumThread, 'tid'>
+{
+	thread_options?: IDzParamThreadOptions,
+
+	pages: number,
+	page: number,
+
+	posts: IDiscuzPost[],
+
+	thread_attach?: IDiscuzPostAttachRecord,
+
+	post_pay?: {
+		exixts: boolean,
+	}
+}
+
+export interface IDiscuzThreadPickRange extends Omit<IDiscuzThread, 'page'>
+{
+	pageFrom: number,
+	pageTo: number,
+}
+
+export interface IDzParamThreadOptions
+{
+	authorid?: string,
+	page?: number,
+	extra?: string,
+	ordertype?: 1 | 0;
+}
+
+export interface IDzParamThreadOptions2 extends Omit<IDzParamThreadOptions, 'authorid'>
+{
+	tid: string | number,
+	authorid?: string | number,
+}
+
+export const SymDzPost = Symbol.for('post');
+
+export interface IDiscuzPostAttachItem
+{
+	aid: string,
+	file: string,
+}
+
+export interface IDiscuzPostAttachRecord
+{
+	img: IDiscuzPostAttachItem[],
+}
+
+export interface IDiscuzPost
+{
+	pid: string;
+	author?: string;
+	authorid?: string;
+
+	dateline?: number,
+	last_edit?: number,
+
+	[SymDzPost]?: JQuery<HTMLElement>;
+
+	postmessage?: string,
+
+	attach?: IDiscuzPostAttachRecord,
+
+	post_pay?: {
+		exixts: boolean,
+	}
 }
 
 export type IDzParamForumdisplayFilter = 'dateline' | 'lastpost' | string;

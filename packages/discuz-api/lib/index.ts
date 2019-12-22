@@ -34,7 +34,7 @@ import {
 } from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
-import { trimUnsafe} from './util';
+import { trimUnsafe } from './util';
 import moment from 'moment';
 import {
 	IParametersSlice,
@@ -43,7 +43,13 @@ import {
 	IDzParamForumdisplay,
 	IDiscuzTaskList,
 	IDiscuzTaskRow,
-	IDzParamNoticeView, IDiscuzForumPickThreads,
+	IDzParamNoticeView,
+	IDiscuzForumPickThreads,
+	IDiscuzThread,
+	IDzParamThreadOptions2,
+	IDzParamThreadOptions,
+	SymDzPost,
+	IDiscuzPost, IDiscuzThreadPickRange,
 } from './types';
 import { IUnpackedPromiseLikeReturnType, IBluebirdAxiosResponse } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
@@ -55,6 +61,8 @@ import LazyURL from 'lazy-url';
 import { _checkLoginByJQuery, _jqForumThreads, _jqForumStickThreads, _jqForumThreadTypes } from './util/jquery';
 import { ITSRequiredWith, ITSPickExtra } from 'ts-type';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';
+import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
+import crlf from 'crlf-normalize';
 
 @CacheRequest({
 	cache: {
@@ -115,16 +123,17 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	{
 		let ret = this._jar()
 			.findCookieByKey(/_(?:sid|saltkey|auth)$/, this.$baseURL)
-				.reduce((a, b) => {
+			.reduce((a, b) =>
+			{
 
-					let _m = /_(sid|saltkey|auth)$/.exec(b.key);
+				let _m = /_(sid|saltkey|auth)$/.exec(b.key);
 
-					// @ts-ignore
-					a[_m[1]] = b;
+				// @ts-ignore
+				a[_m[1]] = b;
 
-					return a;
-				}, {} as Record<'sid' | 'saltkey' | 'auth', toughCookie.Cookie>)
-			;
+				return a;
+			}, {} as Record<'sid' | 'saltkey' | 'auth', toughCookie.Cookie>)
+		;
 
 		return ret;
 	}
@@ -230,7 +239,8 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 
 		_a
 			.find('a[href*="username="]')
-			.each((i, elem) => {
+			.each((i, elem) =>
+			{
 
 				let _a = $(elem);
 
@@ -286,8 +296,8 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		delay |= 0;
 
 		return this.forum({
-			...argv,
-			page: from,
+				...argv,
+				page: from,
 			})
 			.then(async function (this: DiscuzClient, forum)
 			{
@@ -349,7 +359,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 					...forum,
 				};
 			})
-		;
+			;
 	}
 
 	@GET('home.php?mod=space&do=notice&view=system')
@@ -370,7 +380,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		return this._jar()
 			.findCookieByKey(/^.+_auth$/)
 			.length > 0
-		;
+			;
 	}
 
 	@GET('home.php?mod=task')
@@ -392,7 +402,8 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 
 		$('#ct .ptm:eq(0) > table')
 			.find('> tr, > tbody > tr')
-			.each((i, elem) => {
+			.each((i, elem) =>
+			{
 
 				let _tr = $(elem);
 
@@ -456,6 +467,365 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	noticeView(@ParamPath('view') view: IDzParamNoticeView): IBluebirdAxiosResponse<unknown>
 	{
 		return
+	}
+
+	@GET('forum.php?mod=viewthread&tid={tid}')
+	@ReturnValueToJSDOM
+	@methodBuilder()
+	thread(@ParamMapAuto(<IDzParamThreadOptions2>{
+		ordertype: 0,
+	}) thread_options2: IDzParamThreadOptions2): IBluebird<IDiscuzThread>
+	{
+		const jsdom = this.$returnValue as IJSDOM;
+		const { $ } = jsdom;
+
+		let thread_options = {
+			...thread_options2,
+		} as any as IDzParamThreadOptions;
+
+		// @ts-ignore
+		delete thread_options.tid;
+
+		if (!thread_options.extra)
+		{
+			delete thread_options.extra;
+		}
+
+		if (!thread_options.authorid == null)
+		{
+			delete thread_options.authorid;
+		}
+
+		if (!thread_options.ordertype)
+		{
+			delete thread_options.ordertype;
+		}
+
+		let tid = thread_options2.tid.toString();
+
+		let postlist = $('#ct #postlist');
+
+		let subject: string;
+
+		postlist.find('#thread_subject')
+			.each((i, elem) =>
+			{
+
+				let text = $(elem).text();
+
+				if (text != '')
+				{
+					text = trimUnsafe(text)
+
+					if (text != '')
+					{
+						subject = text;
+					}
+				}
+
+			})
+		;
+
+		let posts = [] as IDiscuzThread["posts"];
+		let thread_attach: IDiscuzThread["thread_attach"] = {} as any;
+
+		let pgt = $('#ct #pgt .pg');
+
+		let page = (pgt.find(':input[name="custompage"]').val() as any) | 0;
+		let pages: number;
+
+		let _a = pgt.find('a.last');
+		if (!_a.length)
+		{
+			_a = pgt.find('a + label').prev('a');
+		}
+
+		if (_a.length)
+		{
+			pages = (_a.text() as any) | 0;
+		}
+
+		let threadView: IDiscuzThread = {
+			tid,
+			subject,
+			author: undefined,
+			authorid: undefined,
+			thread_options,
+			pages,
+			page,
+			posts,
+			thread_attach,
+			post_pay: undefined,
+		};
+
+		if (page > 1)
+		{
+			let _a = $('#tath a[href*="uid="]')
+				.not(':has(img)')
+				.eq(0)
+			;
+
+			if (_a.length)
+			{
+				threadView.authorid = new LazyURL(_a.prop('href'))
+					.searchParams
+					.get('uid')
+				;
+
+				threadView.author = trimUnsafe(_a.text());
+			}
+		}
+
+		postlist
+			.find('> div[id^="post_"]')
+			.each((i, elem) =>
+			{
+
+				let post = $(elem);
+
+				let pid = (post.prop('id') as string)
+					.replace(/^post_/, '')
+				;
+
+				let author: string;
+				let authorid: string;
+
+				let _a = post.find(`#favatar${pid} .authi a[href*="uid="]:eq(0)`);
+
+				if (_a.length)
+				{
+					author = _a.text();
+
+					authorid = new LazyURL(_a.prop('href'))
+						.searchParams
+						.get('uid')
+				}
+
+				let _postmessage = post.find(`#postmessage_${pid}`);
+				let postmessage: string;
+
+				let last_edit: number;
+
+				let attach: IDiscuzPost["attach"];
+
+				let post_pay: IDiscuzPost["post_pay"];
+
+				if (post.find('.viewpay').length)
+				{
+					post_pay = {
+						exixts: true,
+					};
+
+					if (!threadView.post_pay)
+					{
+						threadView.post_pay = {
+							...post_pay,
+						}
+					}
+					else
+					{
+						threadView.post_pay.exixts = true;
+					}
+				}
+
+				if (_postmessage.length)
+				{
+					let pstatus = _postmessage
+						.find('> .pstatus:eq(0)')
+						.remove();
+					;
+
+					if (pstatus.length && pstatus.text().match(/(\d+-\d+-\d+(?:\s+\d+:\d+(?::\d+)?))/))
+					{
+						last_edit = moment(RegExp.$1, 'YYYY-MM-DD HH:mm:ss').unix();
+					}
+
+					_postmessage
+						.find('ignore_js_op:has(img[id^="aimg_"][aid])')
+						.each((i, elem) =>
+						{
+
+							let ignore_js_op = $(elem);
+
+							let item = ignore_js_op
+								.find('img[id^="aimg_"][aid]')
+							;
+
+							let aid = (item.prop('id') as string)
+								.replace(/^aimg_/, '')
+							;
+
+							let file = item.attr('file');
+
+							attach = attach || {} as any;
+							attach.img = attach.img || [];
+
+							attach.img.push({
+								aid,
+								file,
+							});
+
+							ignore_js_op.after(`(插圖aid_${aid})`);
+
+							ignore_js_op.remove();
+						})
+					;
+
+					if (attach && attach.img && attach.img.length)
+					{
+						thread_attach = thread_attach || {} as any;
+						thread_attach.img = thread_attach.img || [];
+
+						thread_attach.img.push(...attach.img);
+					}
+
+					postmessage = crlf(_postmessage.text())
+						.replace(/^\n+|\s+$/g, '')
+					;
+				}
+
+				let dateline: number;
+
+				let _authorposton = post
+					.find(`#authorposton${pid}`)
+				;
+
+				let _m = _authorposton
+					.text()
+					.match(/(\d+-\d+-\d+(?:\s+\d+:\d+(?::\d+)?))/)
+				;
+
+				if (_m)
+				{
+					dateline = moment(_m[1], 'YYYY-MM-DD HH:mm:ss').unix();
+				}
+
+				_a = _authorposton.find('[title]');
+
+				if (!dateline && _a.length)
+				{
+					dateline = moment(_a.attr('title'), 'YYYY-MM-DD HH:mm:ss').unix();
+				}
+
+				if (page == 1)
+				{
+					threadView.author = author;
+					threadView.authorid = authorid;
+				}
+
+				posts.push({
+					pid,
+					author,
+					authorid,
+
+					dateline,
+					last_edit,
+
+					[SymDzPost]: post,
+
+					postmessage,
+
+					attach,
+					post_pay,
+				})
+			})
+		;
+
+		thread_attach.img = uniqBy(thread_attach.img, 'aid');
+
+		threadView.thread_attach = thread_attach;
+
+		return threadView as any;
+	}
+
+	threadPosts(thread_options2: IDzParamThreadOptions2, range: {
+		from?: number;
+		to?: number;
+		delay?: number;
+	} = {}): IBluebird<IDiscuzThreadPickRange>
+	{
+		let { from = 1, to = Infinity, delay } = range;
+
+		from |= 0;
+
+		return this.thread({
+				...thread_options2,
+				page: from,
+			})
+			.then(async function (this: DiscuzClient, thread)
+			{
+				from = thread.page;
+				to = Math.min(to, thread.pages | 0);
+
+				if (thread.page > 0)
+				{
+					if (thread.page != from)
+					{
+						throw new RangeError(`forum.page: ${thread.page} != from: ${from}`)
+					}
+
+					if (to < from)
+					{
+						throw new RangeError(`to: ${to} < from: ${from}`)
+					}
+
+					let pi = from;
+
+					let _not_cache: boolean;
+
+					_not_cache = delay > 0 && !isResponseFromAxiosCache(this.$response);
+
+					let _updated: boolean;
+
+					while (++pi <= to)
+					{
+						if (_not_cache)
+						{
+							await Bluebird.delay(delay);
+						}
+
+						let data = await this.thread({
+								...thread_options2,
+								page: pi,
+							})
+							.tap(function (this: DiscuzClient)
+							{
+								_not_cache = delay > 0 && !isResponseFromAxiosCache(this.$response);
+							})
+						;
+
+						thread.posts.push(...data.posts);
+
+						if (data.thread_attach.img)
+						{
+							thread.thread_attach.img = thread.thread_attach.img || [];
+
+							thread.thread_attach.img.push(...data.thread_attach.img);
+						}
+
+						_updated = true;
+					}
+
+					delete thread.page;
+
+					if (_updated)
+					{
+						thread.posts = uniqBy(thread.posts, 'pid');
+
+						if (thread.thread_attach.img)
+						{
+							thread.thread_attach.img = uniqBy(thread.thread_attach.img, 'aid');
+						}
+					}
+				}
+
+				return <IDiscuzThreadPickRange>{
+					...thread,
+					pageFrom: from,
+					pageTo: to,
+				};
+			})
+			;
 	}
 
 }
