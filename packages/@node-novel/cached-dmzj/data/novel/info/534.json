@@ -2,22 +2,22 @@
   "id": 534,
   "name": "翼之归处",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第五卷 去往苍穹的尽头 上",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10243,
-  "last_update_chapter_id": 98420,
-  "last_update_time": 1564578265,
+  "status": "已完结",
+  "last_update_volume_name": "第五卷 去往苍穹的尽头 下",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 10508,
+  "last_update_chapter_id": 101832,
+  "last_update_time": 1577008167,
   "cover": "https://xs.dmzj.com/img/webpic/27/yzc0731l.jpg",
-  "hot_hits": 136837,
+  "hot_hits": 186226,
   "introduction": "　　帝国史官亚尔德拥有『过去视』的能力。体弱多病的他，梦想着能在新的就任地北岭过上朴素的隐居生活。可天不随人愿，不仅被政治一窍不通的北岭人弄得晕头转向，还被前来就任北岭太守的好胜皇女折腾得疲于奔命。然而，随着对于北岭的了解，亚尔德发现这里沉睡着帝国的秘密…由历史光阴编织而就的宏伟浪漫奇谭，正拉开帷幕——",
   "types": [
     "冒险"
   ],
   "authors": "妹尾由布子",
   "first_letter": "Y",
-  "subscribe_num": 4397,
-  "redis_update_time": 1565031191,
+  "subscribe_num": 5193,
+  "redis_update_time": 1577036951,
   "volume": [
     {
       "id": 2017,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 上",
       "volume_order": 10,
       "addtime": 1274918830,
-      "sum_chapters": 10
+      "sum_chapters": 5
     },
     {
       "id": 2018,
@@ -33,7 +33,7 @@
       "volume_name": "第一卷 下",
       "volume_order": 20,
       "addtime": 1274918830,
-      "sum_chapters": 10
+      "sum_chapters": 5
     },
     {
       "id": 3294,
@@ -41,7 +41,7 @@
       "volume_name": "第二卷 镜中天空 上",
       "volume_order": 30,
       "addtime": 1290481160,
-      "sum_chapters": 10
+      "sum_chapters": 5
     },
     {
       "id": 3514,
@@ -49,7 +49,7 @@
       "volume_name": "第二卷 镜中天空 下",
       "volume_order": 40,
       "addtime": 1299133624,
-      "sum_chapters": 10
+      "sum_chapters": 5
     },
     {
       "id": 3895,
@@ -57,7 +57,7 @@
       "volume_name": "第三卷 未颂的契约 上",
       "volume_order": 50,
       "addtime": 1314776479,
-      "sum_chapters": 10
+      "sum_chapters": 5
     },
     {
       "id": 4954,
@@ -65,7 +65,7 @@
       "volume_name": "第三卷 未颂的契约 下",
       "volume_order": 60,
       "addtime": 1356919902,
-      "sum_chapters": 10
+      "sum_chapters": 5
     },
     {
       "id": 5473,
@@ -73,7 +73,7 @@
       "volume_name": "第四卷 时之阶梯 上",
       "volume_order": 70,
       "addtime": 1377074353,
-      "sum_chapters": 10
+      "sum_chapters": 5
     },
     {
       "id": 6030,
@@ -81,7 +81,7 @@
       "volume_name": "第四卷 时之阶梯 下",
       "volume_order": 80,
       "addtime": 1400156157,
-      "sum_chapters": 10
+      "sum_chapters": 5
     },
     {
       "id": 10243,
@@ -89,7 +89,15 @@
       "volume_name": "第五卷 去往苍穹的尽头 上",
       "volume_order": 90,
       "addtime": 1563801548,
-      "sum_chapters": 10
+      "sum_chapters": 5
+    },
+    {
+      "id": 10508,
+      "lnovel_id": 534,
+      "volume_name": "第五卷 去往苍穹的尽头 下",
+      "volume_order": 100,
+      "addtime": 1577008105,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -342,6 +350,39 @@
           "chapter_id": 98420,
           "chapter_name": "插画",
           "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 10508,
+      "id": 10508,
+      "volume_name": "第五卷 去往苍穹的尽头 下",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 101828,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101829,
+          "chapter_name": "第四章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101830,
+          "chapter_name": "第五章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101831,
+          "chapter_name": "第六章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101832,
+          "chapter_name": "后记",
+          "chapter_order": 50
         }
       ]
     }
