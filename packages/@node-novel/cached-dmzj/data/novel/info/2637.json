@@ -3,21 +3,21 @@
   "name": "周末就要到来！啦啦啦终末论",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷 我们的16位元战争",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10028,
-  "last_update_chapter_id": 94973,
-  "last_update_time": 1553782773,
+  "last_update_volume_id": 10514,
+  "last_update_chapter_id": 101907,
+  "last_update_time": 1577180227,
   "cover": "https://xs.dmzj.com/img/webpic/4/zm0328l.gif",
-  "hot_hits": 0,
+  "hot_hits": 4296,
   "introduction": "★入间人间 × sasakure.UK，两大鬼才奇迹跨界合作！\n★将VOCALOID歌曲「啦啦啦终末论」系列音符创作的独特世界观，化为文字放大。\n末日实在太遥远了，根本无所谓。\n重要的是这个周末过后，下周与他再次共度的时光──\n文崎双叶谈了一场平凡的恋爱。对方是上学途中，只与她共度五分钟的男孩。但一封简讯，让日常生活有了一百八十度的转变。\n『哈啰，☆之子！祝你有个美好的「终末」。』\n黑夜熊熊燃烧，电子通讯设备大乱，世界乌烟瘴气。更重要的是，男孩不知消失到何方……在世界末日来临前，女孩传递的爱的旋律，能否送到男孩手上？",
   "types": [
     "爱情"
   ],
   "authors": "入间人间",
   "first_letter": "Z",
-  "subscribe_num": 1481,
-  "redis_update_time": 1564339373,
+  "subscribe_num": 1899,
+  "redis_update_time": 1577229759,
   "volume": [
     {
       "id": 10028,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1553782362,
-      "sum_chapters": 8
+      "sum_chapters": 10
+    },
+    {
+      "id": 10514,
+      "lnovel_id": 2637,
+      "volume_name": "第二卷 我们的16位元战争",
+      "volume_order": 20,
+      "addtime": 1577180038,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -124,6 +132,69 @@
           "chapter_id": 94973,
           "chapter_name": "插画",
           "chapter_order": 180
+        }
+      ]
+    },
+    {
+      "volume_id": 10514,
+      "id": 10514,
+      "volume_name": "第二卷 我们的16位元战争",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 101897,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 101898,
+          "chapter_name": "Prologue 在周末来临前！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 101899,
+          "chapter_name": "第一章 未成年的秩序",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 101900,
+          "chapter_name": "Interlude 菈菈与露娜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 101901,
+          "chapter_name": "第二章 长宽高",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 101902,
+          "chapter_name": "Interlude 机械之歌",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 101903,
+          "chapter_name": "第三章 亚尔特与自我",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 101904,
+          "chapter_name": "第四章 我们的16位元战争",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 101905,
+          "chapter_name": "Epilogue 乘上幽浮的背",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 101906,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 101907,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
