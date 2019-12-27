@@ -3,13 +3,13 @@
   "name": "靠废柴技能【状态异常】成为最强的我将蹂躏一切",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10356,
-  "last_update_chapter_id": 100103,
-  "last_update_time": 1571048317,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "特典小册子",
+  "last_update_volume_id": 10521,
+  "last_update_chapter_id": 102047,
+  "last_update_time": 1577355706,
   "cover": "https://xs.dmzj.com/img/webpic/11/zt0503l.jpg",
-  "hot_hits": 354313,
+  "hot_hits": 491599,
   "introduction": "　　有「背景人物」之称的高中生三森灯河，和同班同学一起被召唤到异世界。同学陆续获得A级、S级的勇者身分，却只有灯河一个人是最低等的E级。而且他取得的技能，是在这个世界被视为「废柴」的【状态异常】。灯河被女神薇希斯拋弃到生存机率零的遗迹后，尽管面临绝望的地狱处境，依旧善用自身技能蹂躏著魔物。在暗不见光的沉沦漆黑之中，灯河的心中只有一股意念──\n　　「等我活著回去──你就认命吧。」\n　　原本一心扮演背景人物的E级勇者，一路攀上绝对最强地位的逆袭故事，就此开幕！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "筱崎芳",
   "first_letter": "K",
-  "subscribe_num": 17955,
-  "redis_update_time": 1571604218,
+  "subscribe_num": 21438,
+  "redis_update_time": 1577406451,
   "volume": [
     {
       "id": 10085,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1556884579,
-      "sum_chapters": 11
+      "sum_chapters": 10
     },
     {
       "id": 10356,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1569847789,
-      "sum_chapters": 11
+      "sum_chapters": 10
+    },
+    {
+      "id": 10521,
+      "lnovel_id": 2656,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1577355425,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -196,6 +204,64 @@
           "chapter_id": 100103,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 10521,
+      "id": 10521,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 102038,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102039,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102040,
+          "chapter_name": "1. 王都蒙洛伊",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102041,
+          "chapter_name": "2. 豹人和少女",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102042,
+          "chapter_name": "3. 与苍蝇王同行",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102043,
+          "chapter_name": "4. 黑策～Missing～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 102044,
+          "chapter_name": "5. 晚安",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 102045,
+          "chapter_name": "末章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 102046,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 102047,
+          "chapter_name": "特典小册子",
+          "chapter_order": 100
         }
       ]
     }
