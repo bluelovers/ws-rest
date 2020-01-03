@@ -2,14 +2,14 @@
   "id": 1701,
   "name": "盗贼神技～在异世界盗取技能～",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "status": "已完结",
+  "last_update_volume_name": "第七卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10500,
-  "last_update_chapter_id": 101788,
-  "last_update_time": 1576841440,
+  "last_update_volume_id": 10525,
+  "last_update_chapter_id": 102124,
+  "last_update_time": 1577539692,
   "cover": "https://xs.dmzj.com/img/webpic/18/dzsj689881.jpg",
-  "hot_hits": 941724,
+  "hot_hits": 1006856,
   "introduction": "「太扯了吧！居然来了个隐藏技能！」<br>\n在现实世界因车祸死亡的主角吾妻诚二，死后决定转生到一个剑与魔法的异世界。习得了名叫「盗贼神技」的外挂技能，诚二降临到新天地。运用那个能盗取他人的实用技能──盗贼神技的力量，诚二一步步强化自身实力。之后与兽耳少女的崭新邂逅也为他带来了转机……!?<br>\n不光是魔物，还有街上的闹事者──时而连同伴的技能也夺取，诚二藉此为了保护重要的事物而一路过关斩将。透过「窃取技能」的行为来达成百分之百的自我，诚二的成长物语就此展开。",
   "types": [
     "魔法",
@@ -20,8 +20,8 @@
   ],
   "authors": "飞鸟けい",
   "first_letter": "D",
-  "subscribe_num": 13537,
-  "redis_update_time": 1576962060,
+  "subscribe_num": 14968,
+  "redis_update_time": 1578034769,
   "volume": [
     {
       "id": 6250,
@@ -29,7 +29,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1407414787,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 6881,
@@ -37,7 +37,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1431956433,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 7144,
@@ -45,7 +45,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1439913924,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 7380,
@@ -53,7 +53,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1449822354,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 10500,
@@ -61,7 +61,23 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1576835784,
-      "sum_chapters": 9
+      "sum_chapters": 7
+    },
+    {
+      "id": 10524,
+      "lnovel_id": 1701,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1577526083,
+      "sum_chapters": 7
+    },
+    {
+      "id": 10525,
+      "lnovel_id": 1701,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1577526165,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -232,6 +248,82 @@
           "chapter_id": 101788,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10524,
+      "id": 10524,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 102077,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102078,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102079,
+          "chapter_name": "第一章「年轻皇帝的挣扎」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102080,
+          "chapter_name": "番外篇「追求怀念的滋味」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102123,
+          "chapter_name": "插画",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 10525,
+      "id": 10525,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 102081,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102082,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102083,
+          "chapter_name": "第一章「七宗罪」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102084,
+          "chapter_name": "终章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102085,
+          "chapter_name": "另一篇终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102086,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 102124,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }
