@@ -3,13 +3,13 @@
   "name": "你与我最后的战场，亦或是世界起始的圣战",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "短篇",
-  "last_update_chapter_name": "19年11月短篇",
-  "last_update_volume_id": 9502,
-  "last_update_chapter_id": 101152,
-  "last_update_time": 1574935266,
+  "last_update_volume_name": "第八卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10523,
+  "last_update_chapter_id": 102072,
+  "last_update_time": 1577443274,
   "cover": "https://xs.dmzj.com/img/webpic/22/sz0803l.jpg",
-  "hot_hits": 1381705,
+  "hot_hits": 1477738,
   "introduction": "Alt hiz orza et yulis bis mihas xel,the laspha et delis fel mihas xel cs.\n这个伤痕累累的世界里既没有英雄也没有救世主。\nSera......So Sez lu teo fel nalis pah pheno lef xel.\n所以，我将化为魔女消灭帝国。\nSo aves cal pile.\n即将到来的天之杖。",
   "types": [
     "冒险",
@@ -18,8 +18,8 @@
   ],
   "authors": "细音启",
   "first_letter": "N",
-  "subscribe_num": 58256,
-  "redis_update_time": 1575180947,
+  "subscribe_num": 60072,
+  "redis_update_time": 1578033136,
   "volume": [
     {
       "id": 8874,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1501732801,
-      "sum_chapters": 57
+      "sum_chapters": 7
     },
     {
       "id": 9172,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1516277925,
-      "sum_chapters": 57
+      "sum_chapters": 7
     },
     {
       "id": 9408,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1525697907,
-      "sum_chapters": 57
+      "sum_chapters": 7
     },
     {
       "id": 9456,
@@ -51,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1527501952,
-      "sum_chapters": 57
+      "sum_chapters": 7
     },
     {
       "id": 9502,
@@ -59,7 +59,7 @@
       "volume_name": "短篇",
       "volume_order": 50,
       "addtime": 1528879151,
-      "sum_chapters": 57
+      "sum_chapters": 7
     },
     {
       "id": 9780,
@@ -67,7 +67,7 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1541894931,
-      "sum_chapters": 57
+      "sum_chapters": 7
     },
     {
       "id": 9877,
@@ -75,7 +75,7 @@
       "volume_name": "第六卷",
       "volume_order": 70,
       "addtime": 1546682242,
-      "sum_chapters": 57
+      "sum_chapters": 7
     },
     {
       "id": 10363,
@@ -83,7 +83,15 @@
       "volume_name": "第七卷",
       "volume_order": 80,
       "addtime": 1570094210,
-      "sum_chapters": 57
+      "sum_chapters": 7
+    },
+    {
+      "id": 10523,
+      "lnovel_id": 2362,
+      "volume_name": "第八卷",
+      "volume_order": 90,
+      "addtime": 1577440818,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -621,6 +629,74 @@
         },
         {
           "chapter_id": 100022,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10523,
+      "id": 10523,
+      "volume_name": "第八卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 102061,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102062,
+          "chapter_name": "Prologue【生而为人】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102063,
+          "chapter_name": "Chapter.1【终结狩猎魔女之夜——翌日早晨】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102064,
+          "chapter_name": "Intermission【继而世界开始转动——两天后】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102065,
+          "chapter_name": "Chapter.2【我所不知道的他】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102066,
+          "chapter_name": "Chapter.3【通往太阳之路】",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 102067,
+          "chapter_name": "Chapter.4【雪与太阳（Snow·the·Sun）】",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 102068,
+          "chapter_name": "Chapter.5【以掌声与喝彩来迎接】",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 102069,
+          "chapter_name": "Chapter.6【闪耀的晓之少女】",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 102070,
+          "chapter_name": "Epilogue.1【所以说为什么会这样啊！？】",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 102071,
+          "chapter_name": "Epilogue.2【此世最为强烈的愤怒】",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 102072,
           "chapter_name": "插画",
           "chapter_order": 120
         }

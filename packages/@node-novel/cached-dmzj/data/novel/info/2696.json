@@ -3,21 +3,21 @@
   "name": "获得超弱技能「地图化」的少年跟最强队伍一起挑战迷宫",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10233,
-  "last_update_chapter_id": 98060,
-  "last_update_time": 1563103813,
+  "last_update_volume_id": 10530,
+  "last_update_chapter_id": 102168,
+  "last_update_time": 1577787689,
   "cover": "https://xs.dmzj.com/img/webpic/10/dth0714l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 308000,
   "introduction": "15岁的诺特于「赠予仪式」里得到的技能是【地图化】──尽管稀有度很高，\n但比起其他技能却显得难以发挥，也就是常人口中的超弱技能。\n遭儿时玩伴舍弃、陷入失意深渊的诺特，就这么过著把身为冒险者赚来的薪水，\n全都拿去借酒浇愁的日子──这样的生活，在某天突然宣告结束。\n「我们需要拥有这个技能的你。」\n隶属于最强队伍『抵达者』的金恩提出邀请之后，\n诺特的命运就此彻底改变──这一次，我不会再放弃努力，\n必定会拚死挣扎到底。加入最强队伍的少年，\n一路成长、登上顶点的幻想巨作，就此揭开序幕！",
   "types": [
     "冒险"
   ],
   "authors": "鸭野うどん",
   "first_letter": "H",
-  "subscribe_num": 5572,
-  "redis_update_time": 1564311650,
+  "subscribe_num": 10503,
+  "redis_update_time": 1578033481,
   "volume": [
     {
       "id": 10233,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1563103495,
-      "sum_chapters": 9
+      "sum_chapters": 7
+    },
+    {
+      "id": 10530,
+      "lnovel_id": 2696,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1577787091,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -119,6 +127,94 @@
           "chapter_id": 98060,
           "chapter_name": "插画",
           "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 10530,
+      "id": 10530,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 102151,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102152,
+          "chapter_name": "「抵达者」的圣骑士",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102153,
+          "chapter_name": "接下来的修行",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102154,
+          "chapter_name": "瓢立夫海滩",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102155,
+          "chapter_name": "决斗！？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102156,
+          "chapter_name": "《隐密》与回避战技",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 102157,
+          "chapter_name": "修行和意料外的突发状",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 102158,
+          "chapter_name": "不可思议的夜之都",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 102159,
+          "chapter_name": "和平却不平静的日常生活",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 102160,
+          "chapter_name": "两人独处，绝望的开始",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 102161,
+          "chapter_name": "既相似又相反的两个人",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 102162,
+          "chapter_name": "两人独处的世界",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 102163,
+          "chapter_name": "追逐影子的人",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 102164,
+          "chapter_name": "当女孩遇见男孩",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 102165,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 102168,
+          "chapter_name": "插画",
+          "chapter_order": 160
         }
       ]
     }
