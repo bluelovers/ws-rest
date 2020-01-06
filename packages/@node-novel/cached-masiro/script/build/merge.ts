@@ -10,8 +10,9 @@ import sortObject from'sort-object-keys2';
 
 let _cache_map = {} as Record<string, string>;
 
-export default (async () =>
-{
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
+
+export default lazyRun(async () => {
 
 	let data = await FastGlob
 		.async<string>([
@@ -32,7 +33,9 @@ export default (async () =>
 
 	await writeJSON(cacheFilePaths.infoPack, data);
 
-})();
+}, {
+	pkgLabel: __filename
+});
 
 function _sortFn001(a: string, b: string)
 {

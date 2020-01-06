@@ -18,8 +18,10 @@ import { IDiscuzForum, IDzParamForumdisplay } from 'discuz-api/lib/types';
 import cacheFilePaths from '../util/files';
 import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 
-export default (async () =>
-{
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
+
+export default lazyRun(async () => {
+
 	const { api, saveCache } = await getApiClient();
 
 	let listCache = await readJSON(cacheFilePaths.task001)
@@ -162,4 +164,6 @@ export default (async () =>
 
 	await outputJSONLazy(cacheFilePaths.task001, listCache);
 
-})();
+}, {
+	pkgLabel: __filename
+});

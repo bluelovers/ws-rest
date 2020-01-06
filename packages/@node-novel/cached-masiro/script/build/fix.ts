@@ -6,11 +6,13 @@ import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
 import { IESJzoneRecentUpdateCache } from 'esjzone-api/lib/types';
 import Bluebird from 'bluebird';
 import { consoleDebug, getApiClient } from '../util';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
-export default (async () =>
-{
+export default lazyRun(async () => {
+
+
 	const { api, saveCache } = await getApiClient();
 
-
-
-})();
+}, {
+	pkgLabel: __filename
+});

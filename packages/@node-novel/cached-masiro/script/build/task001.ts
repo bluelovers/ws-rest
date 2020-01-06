@@ -10,8 +10,9 @@ import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 import { IDiscuzForumThread } from 'discuz-api/lib/types';
 import { _getForumLastThreadSubject } from 'discuz-api/lib/util';
 
-export default (async () =>
-{
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
+
+export default lazyRun(async () => {
 
 	const { api, saveCache } = await getApiClient();
 
@@ -124,5 +125,7 @@ export default (async () =>
 		]);
 	}
 
-})();
+}, {
+	pkgLabel: __filename
+});
 
