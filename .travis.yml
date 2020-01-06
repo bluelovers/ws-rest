@@ -25,5 +25,5 @@ before_script:
   - echo before_script
 
 script:
-  - yarn run lerna:prepublish
+  - travis_wait 30 yarn run lerna:prepublish
   - yarn run ci:push
