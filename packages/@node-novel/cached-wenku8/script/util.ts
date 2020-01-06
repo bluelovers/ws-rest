@@ -23,7 +23,8 @@ import { CookieJar } from 'tough-cookie';
 import { LazyCookieJar } from 'lazy-cookies';
 import { deserializeCookieJar } from 'wenku8-api/lib/util';
 import Wenku8Client from 'wenku8-api/lib/index';
-import localPassword from '../test/password.local';
+import { IPasswordLocal } from '@node-novel/site-cache-util/lib/types';
+import importPassword from '@node-novel/site-cache-util/lib/pass';
 
 export { consoleDebug, console }
 
@@ -101,6 +102,8 @@ export async function getApiClient()
 		if (!isLogin)
 		{
 			consoleDebug.debug(`目前為未登入狀態，嘗試使用帳號密碼登入`);
+
+			let { default: localPassword, DISABLE_LOGIN } = await importPassword('../test/password.local');
 
 			await api.loginByForm({
 					...localPassword,

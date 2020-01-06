@@ -22,6 +22,8 @@ import { getResponseUrl } from '@bluelovers/axios-util/lib/index';
 import { LazyCookieJar } from 'lazy-cookies';
 
 import { deserializeCookieJar } from 'restful-decorator-plugin-jsdom/lib/cookies';
+import { IPasswordLocal } from '@node-novel/site-cache-util/lib/types';
+import importPassword from '@node-novel/site-cache-util/lib/pass';
 
 export { consoleDebug, console }
 
@@ -104,17 +106,7 @@ export async function getApiClient()
 		if (!isLogin)
 		{
 
-			let { default: localPassword, DISABLE_LOGIN } = await import('../test/password.local')
-				.catch(e => {
-					return {} as any as {
-						DISABLE_LOGIN: boolean;
-						default: {
-							username: string;
-							password: string;
-						}
-					}
-				})
-			;
+			let { default: localPassword, DISABLE_LOGIN } = await importPassword('../test/password.local');
 
 			consoleDebug.info(`目前為未登入狀態，嘗試使用帳號密碼登入`);
 
