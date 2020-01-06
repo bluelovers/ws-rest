@@ -27,11 +27,15 @@ expect(toMoment(input).utcOffset(480).unix())
 	.to.deep.equal(input_timestamp)
 ;
 
+expect(toMoment(input).unix())
+	.to.deep.equal(input_timestamp)
+;
+
 expect(moment(input).utcOffset(480).unix())
 	.to.deep.equal(input_timestamp)
 ;
 
-expect(toMoment(input).unix())
+expect(moment(input).unix())
 	.to.deep.equal(input_timestamp)
 ;
 
