@@ -17,7 +17,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
       - name: install
-        run: yarn && npm i -g lerna
+        run: yarn run ci:install
       - name: run script
         run: yarn run lerna:prepublish
       - name: Push changes

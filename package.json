@@ -22,6 +22,7 @@
     "lerna": "yarn run lerna:prepublish && lerna publish --yes --cd-version patch",
     "lerna:prepublish": "lerna run --scope @node-novel/cached-* build",
     "ncu": "npx npm-check-updates -u",
+    "ci:install": "yarn && npm i -g lerna typescript ts-node",
     "sort-package-json": "npx \"sort-package-json\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

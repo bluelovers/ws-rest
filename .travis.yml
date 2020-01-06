@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+  - "node"
+
+cache:
+  yarn: true
+  directories:
+    - "node_modules"
+    - "packages/@node-novel/cached-dmzj/test/temp"
+    - "packages/@node-novel/cached-esjzone/test/temp"
+    - "packages/@node-novel/cached-masiro/test/temp"
+    - "packages/@node-novel/cached-wenku8/test/temp"
+
+before_install:
+  - yarn run ci:install
+
+install:
+  - echo install
+
+before_script:
+  - echo before_script
+
+script:
+  - yarn run lerna:prepublish
