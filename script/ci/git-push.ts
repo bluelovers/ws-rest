@@ -19,6 +19,8 @@ export default lazyRun(async () => {
 		repo: 'bluelovers/ws-rest',
 	});
 
+	//console.info(`remote:`, remote_repo);
+
 	crossSpawnSync('git', [
 		'push',
 		remote_repo,

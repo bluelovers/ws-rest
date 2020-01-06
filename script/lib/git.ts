@@ -17,7 +17,7 @@ export function buildGitRemote(options: {
 
 		if (options.pass)
 		{
-			auth += ':' + options.user;
+			auth += ':' + options.pass;
 		}
 
 		auth += '@';
