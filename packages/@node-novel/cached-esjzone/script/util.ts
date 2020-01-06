@@ -63,8 +63,6 @@ export async function getApiClient()
 
 		if (fs.existsSync(cookiesCacheFile))
 		{
-
-
 			consoleDebug.debug(`axios.cookies.json 已存在，嘗試載入內容`);
 
 			api = await fs.readJSON(cookiesCacheFile)
