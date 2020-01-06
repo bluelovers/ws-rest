@@ -22,3 +22,4 @@ before_script:
 
 script:
   - yarn run lerna:prepublish
+  - yarn run ci:push

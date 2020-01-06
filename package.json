@@ -23,6 +23,7 @@
     "lerna:prepublish": "lerna run --scope @node-novel/cached-* build",
     "ncu": "npx npm-check-updates -u",
     "ci:install": "yarn && npm i -g lerna typescript ts-node",
+    "ci:push": "ts-node ./script/ci/git-push",
     "sort-package-json": "npx \"sort-package-json\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
