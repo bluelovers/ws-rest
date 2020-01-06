@@ -1,0 +1,22 @@
+name: check update and publish
+
+on:
+  schedule:
+    - cron: '0 0/12 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 13
+      - name: setup git config
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+      - name: install
+        run: yarn
+      - name: run script
+        run: yarn run lerna
