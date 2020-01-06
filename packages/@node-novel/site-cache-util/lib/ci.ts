@@ -4,7 +4,7 @@
 
 export function isCi()
 {
-	return process.env.COMPUTERNAME === 'USER-2019'
+	return process.env.COMPUTERNAME !== 'USER-2019'
 }
 
 export default isCi

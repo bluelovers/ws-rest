@@ -126,7 +126,7 @@ export default (async () =>
 
 			let length = data.list.length;
 
-			console.dir({
+			consoleDebug.dir({
 				length,
 				add: length - old_len,
 			});
