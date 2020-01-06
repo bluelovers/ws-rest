@@ -1,4 +1,4 @@
-const GBKTable = new Array(65510);
+const GBKTable: string[] = new Array(65510);
 GBKTable[0x0000] = "00";
 GBKTable[0x0001] = "01";
 GBKTable[0x0002] = "02";
@@ -24068,7 +24068,7 @@ GBKTable[0xFFE3] = "A3FE";
 GBKTable[0xFFE4] = "A957";
 GBKTable[0xFFE5] = "A3A4";
 
-export function encodeURI (str)
+export function encodeURI (str: string)
 {
 	if (str != null)
 	{
@@ -24100,7 +24100,7 @@ export function encodeURI (str)
 	}
 }
 
-export function encodeURIComponent (str)
+export function encodeURIComponent (str: string)
 {
 	if (str != null)
 	{
@@ -24132,7 +24132,7 @@ export function encodeURIComponent (str)
 	}
 }
 
-export function number2str (d)
+export function number2str (d: number)
 {
 	let value = GBKTable[d];
 	if (value != null)
