@@ -17,7 +17,7 @@ import path from "upath2";
 import fs from 'fs-extra';
 import Bluebird from 'bluebird';
 import { IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
-import moment from 'moment';
+import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
 import { SymSelf } from 'restful-decorator/lib/helper/symbol';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';

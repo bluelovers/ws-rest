@@ -9,6 +9,7 @@ if (isCi())
 }
 
 import { console, consoleDebug } from 'restful-decorator/lib/util/debug';
+import './moment';
 
 export { path }
 export { console, consoleDebug }

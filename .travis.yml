@@ -22,7 +22,7 @@ install:
   - echo install
 
 before_script:
-  - echo before_script
+  - yarn run ci:test
 
 script:
   - travis_wait 30 yarn run lerna:prepublish

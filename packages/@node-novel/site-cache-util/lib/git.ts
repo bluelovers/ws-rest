@@ -12,7 +12,7 @@ export { crossSpawnSync, SpawnSyncOptions, SpawnSyncReturns }
 import { join, parse as parsePath } from 'path';
 import Bluebird from 'bluebird';
 import { readJSON } from 'fs-extra';
-import moment from 'moment';
+import { moment, toMoment, unixMoment } from './moment';
 import { ITSResolvable } from 'ts-type';
 
 export function filterGitDiffStagedFiles(options: {

@@ -2,7 +2,7 @@ import { __root, getApiClient, console, consoleDebug } from '../util';
 import fs, { readJSON } from 'fs-extra';
 import { IESJzoneRecentUpdateCache } from 'esjzone-api/lib/types';
 import Bluebird from 'bluebird';
-import moment from 'moment';
+import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
 import path from 'upath2';
 import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';

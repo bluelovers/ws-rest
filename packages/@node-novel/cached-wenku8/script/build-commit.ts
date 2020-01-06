@@ -9,7 +9,7 @@ import { crossSpawnSync, SpawnSyncOptions, SpawnSyncReturns } from '@git-lazy/ut
 import { crossSpawnOutput } from '@git-lazy/util/spawn/util';
 import { readJSONSync } from 'fs-extra';
 import { __root } from './util';
-import moment from 'moment';
+import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
 import { reportDiffStagedNovels } from '@node-novel/site-cache-util/lib/git';
 import { IWenku8RecentUpdateRowBookWithChapters } from 'wenku8-api/lib/types';
 import packageJson from '../package.json';

@@ -7,7 +7,7 @@ import path from "path";
 import fs from 'fs-extra';
 import Bluebird from 'bluebird';
 import { IDmzjNovelInfo, IDmzjNovelInfoRecentUpdateRow } from 'dmzj-api/lib/types';
-import moment from 'moment';
+import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
 import FastGlob from '@bluelovers/fast-glob/bluebird';
 import { array_unique_overwrite } from 'array-hyper-unique';
 import { fixDmzjNovelTags, trimUnsafe } from 'dmzj-api/lib/util';

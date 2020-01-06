@@ -4,7 +4,7 @@
   ],
   "command": {
     "publish": {
-      "ignoreChanges": ["**/test/**", "**/node_modules/**"],
+      "ignoreChanges": ["**/test/**", "**/node_modules/**", "**/yarn.lock"],
       "message": "chore(release): publish\n\n[skip ci]"
     }
   },

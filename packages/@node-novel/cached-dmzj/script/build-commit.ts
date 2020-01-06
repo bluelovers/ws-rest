@@ -17,7 +17,7 @@ import { crossSpawnOutput } from '@git-lazy/util/spawn/util';
 import { readJSONSync } from 'fs-extra';
 import { __root } from './util';
 import { IDmzjClientNovelRecentUpdateAll } from 'dmzj-api/lib/types';
-import moment from 'moment';
+import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
 import packageJson from '../package.json';
 import { skipCi } from '@node-novel/site-cache-util/lib/ci';
 import { console } from '@node-novel/site-cache-util/lib';
