@@ -6,10 +6,10 @@ import { pkgLabel } from './util/main';
 
 export default lazyRun(async () => {
 
-	await lazyImport('./build/dmzj');
-	await lazyImport('./build/info');
-	await lazyImport('./build/tags');
-	await lazyImport('./build/info2');
+	await lazyImport('./build/dmzj', require);
+	await lazyImport('./build/info', require);
+	await lazyImport('./build/tags', require);
+	await lazyImport('./build/info2', require);
 
 }, {
 	pkgLabel,

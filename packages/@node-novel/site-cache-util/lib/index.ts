@@ -30,10 +30,17 @@ if (isCi())
 	consoleDebug.chalkOptions = o2;
 }
 
-export function lazyImport<T = any>(name: string)
+export function lazyImport<T = any>(name: string, _require: typeof require)
 {
 	consoleDebug.debug(`lazyImport`, name);
-	return import(name).then(v => v.default as T)
+	return Bluebird.resolve()
+		.then(e => {
+			let target = _require.resolve(name);
+			consoleDebug.debug(target);
+			return import(target)
+		})
+		.then(v => v.default as T)
+	;
 }
 
 export function lazyRun<T>(cb: (...argv: any) => ITSResolvable<T>, options?: {
