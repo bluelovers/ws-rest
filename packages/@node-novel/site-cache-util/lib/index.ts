@@ -21,7 +21,17 @@ export function lazyImport<T = any>(name: string)
 	return import(name).then(v => v.default as T)
 }
 
-export function lazyRun<T>(cb: (...argv: any) => ITSResolvable<T>)
+export function lazyRun<T>(cb: (...argv: any) => ITSResolvable<T>, options?: {
+	pkgLabel: string,
+})
 {
+	let { pkgLabel } = options;
+
+	pkgLabel && consoleDebug.info(pkgLabel, 'start');
+
 	return Bluebird.resolve().then(cb)
+		.tap(async (v) => {
+			pkgLabel && consoleDebug.info(pkgLabel, 'end');
+		})
+	;
 }

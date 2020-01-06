@@ -2,7 +2,10 @@
  * Created by user on 2019/7/7.
  */
 
-export default (async () => {
+import { lazyImport, lazyRun } from '@node-novel/site-cache-util/lib/index';
+import { pkgLabel } from './util/main';
+
+export default lazyRun(async () => {
 
 	await lazyImport('./build/toplist');
 
@@ -14,9 +17,6 @@ export default (async () => {
 
 	await lazyImport('./build/task_logined');
 
-})();
-
-function lazyImport(name: string)
-{
-	return import(name).then(v => v.default)
-}
+}, {
+	pkgLabel,
+})

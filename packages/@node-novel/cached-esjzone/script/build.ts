@@ -1,8 +1,10 @@
 /**
  * Created by user on 2019/7/7.
  */
+import { lazyImport, lazyRun } from '@node-novel/site-cache-util/lib/index';
+import { pkgLabel } from './util/main';
 
-export default (async () => {
+export default lazyRun(async () => {
 
 	await lazyImport('./build/toplist');
 
@@ -12,9 +14,6 @@ export default (async () => {
 
 	await lazyImport('./build/cache');
 
-})();
-
-function lazyImport(name: string)
-{
-	return import(name).then(v => v.default)
-}
+}, {
+	pkgLabel,
+});

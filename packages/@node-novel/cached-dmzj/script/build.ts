@@ -1,18 +1,16 @@
 /**
  * Created by user on 2019/7/28.
  */
-import Bluebird from 'bluebird-cancellation';
+import { lazyImport, lazyRun } from '@node-novel/site-cache-util/lib/index';
+import { pkgLabel } from './util/main';
 
-(async () => {
+export default lazyRun(async () => {
 
 	await lazyImport('./build/dmzj');
 	await lazyImport('./build/info');
 	await lazyImport('./build/tags');
 	await lazyImport('./build/info2');
 
-})();
-
-function lazyImport(name: string)
-{
-	return import(name).then(v => v.default)
-}
+}, {
+	pkgLabel,
+})
