@@ -19,10 +19,8 @@ import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/ca
 import { console, consoleDebug } from '@node-novel/site-cache-util/lib';
 import { dotValue } from '@bluelovers/axios-util';
 import { getResponseUrl } from '@bluelovers/axios-util/lib/index';
-import { CookieJar } from 'tough-cookie';
 import { LazyCookieJar } from 'lazy-cookies';
-import ESJzoneClient from 'esjzone-api/lib/index';
-import localPassword, { DISABLE_LOGIN } from '../test/password.local';
+
 import { deserializeCookieJar } from 'restful-decorator-plugin-jsdom/lib/cookies';
 
 export { consoleDebug, console }
@@ -105,6 +103,13 @@ export async function getApiClient()
 
 		if (!isLogin)
 		{
+
+			let { default: localPassword, DISABLE_LOGIN } = await import('../test/password.local')
+				.catch(e => {
+					return {} as any as typeof import('../test/password.local')
+				})
+			;
+
 			consoleDebug.info(`目前為未登入狀態，嘗試使用帳號密碼登入`);
 
 			if (DISABLE_LOGIN)

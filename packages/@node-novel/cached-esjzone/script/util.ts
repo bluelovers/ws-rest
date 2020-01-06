@@ -19,11 +19,8 @@ import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/ca
 import { console, consoleDebug } from '@node-novel/site-cache-util/lib';
 import { dotValue } from '@bluelovers/axios-util';
 import { getResponseUrl } from '@bluelovers/axios-util/lib/index';
-import { CookieJar } from 'tough-cookie';
 import { LazyCookieJar } from 'lazy-cookies';
 import { deserializeCookieJar } from 'esjzone-api/lib/util';
-import ESJzoneClient from 'esjzone-api/lib/index';
-import localPassword from '../test/password.local';
 
 export { consoleDebug, console }
 
