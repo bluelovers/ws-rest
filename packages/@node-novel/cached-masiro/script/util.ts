@@ -109,7 +109,7 @@ export async function getApiClient()
 			let { default: localPassword, DISABLE_LOGIN } = await importPassword({
 				file: 'test/password.local',
 				__root,
-				envPrefix: 'masiro',
+				envPrefix: 'MASIRO',
 			});
 
 			consoleDebug.info(`目前為未登入狀態，嘗試使用帳號密碼登入`);

@@ -106,7 +106,7 @@ export async function getApiClient()
 			let { default: localPassword, DISABLE_LOGIN } = await importPassword({
 				file: 'test/password.local',
 				__root,
-				envPrefix: 'wenku8',
+				envPrefix: 'WENKU8',
 			});
 
 			if (DISABLE_LOGIN)
