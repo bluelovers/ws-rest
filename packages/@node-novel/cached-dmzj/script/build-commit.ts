@@ -21,8 +21,11 @@ import moment from 'moment';
 import packageJson from '../package.json';
 import { skipCi } from '@node-novel/site-cache-util/lib/ci';
 import { console } from '@node-novel/site-cache-util/lib';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
-const pkgLabel = `[${packageJson.name}] `;
+import { pkgLabel } from './util/main';
+
+export default lazyRun(async () => {
 
 crossSpawnSync('git', [
 	'add',
@@ -111,4 +114,8 @@ crossSpawnSync('git', [
 ], {
 	cwd: join(__root, 'test/temp'),
 	stdio: 'inherit',
+});
+
+}, {
+	pkgLabel: __filename,
 });

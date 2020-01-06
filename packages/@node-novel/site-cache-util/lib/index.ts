@@ -27,6 +27,11 @@ export function lazyRun<T>(cb: (...argv: any) => ITSResolvable<T>, options?: {
 {
 	let { pkgLabel } = options;
 
+	if (!pkgLabel)
+	{
+		pkgLabel = `[lazyRun]`;
+	}
+
 	pkgLabel && consoleDebug.info(pkgLabel, 'start');
 
 	return Bluebird.resolve().then(cb)

@@ -16,9 +16,10 @@ import packageJson from '../package.json';
 import { skipCi } from '@node-novel/site-cache-util/lib/ci';
 import { console } from '@node-novel/site-cache-util/lib';
 
-export default (async () => {
+import { pkgLabel } from './util/main';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
-	const pkgLabel = `[${packageJson.name}] `;
+export default lazyRun(async () => {
 
 	crossSpawnSync('git', [
 		'add',
@@ -70,5 +71,7 @@ export default (async () => {
 		}
 	}
 
-})();
+}, {
+	pkgLabel: __filename,
+});
 
