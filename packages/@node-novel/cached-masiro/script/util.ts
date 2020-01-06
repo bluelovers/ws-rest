@@ -106,7 +106,13 @@ export async function getApiClient()
 
 			let { default: localPassword, DISABLE_LOGIN } = await import('../test/password.local')
 				.catch(e => {
-					return {} as any as typeof import('../test/password.local')
+					return {} as any as {
+						DISABLE_LOGIN: boolean;
+						default: {
+							username: string;
+							password: string;
+						}
+					}
 				})
 			;
 
