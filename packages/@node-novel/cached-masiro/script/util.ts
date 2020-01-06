@@ -101,12 +101,16 @@ export async function getApiClient()
 		}
 
 		let isLogin = await api.isLogin();
-		consoleDebug.info('isLogin', isLogin);
+		console.info('isLogin', isLogin);
 
 		if (!isLogin)
 		{
 
-			let { default: localPassword, DISABLE_LOGIN } = await importPassword('test/password.local', __root);
+			let { default: localPassword, DISABLE_LOGIN } = await importPassword({
+				file: 'test/password.local',
+				__root,
+				envPrefix: 'masiro',
+			});
 
 			consoleDebug.info(`目前為未登入狀態，嘗試使用帳號密碼登入`);
 
@@ -122,6 +126,8 @@ export async function getApiClient()
 					// @ts-ignore
 					.then(r => console.dir(r))
 				;
+
+				console.info('isLogin', await api.isLogin());
 			}
 		}
 
