@@ -12,9 +12,10 @@ import Bluebird from 'bluebird';
 import { getApiClient, __root, console, consoleDebug } from '../util';
 import { ITSUnpackedPromiseLike } from 'ts-type';
 import { IWenku8RecentUpdateCache, IWenku8RecentUpdateRow } from 'wenku8-api/lib/types';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
-export default (async () =>
-{
+export default lazyRun(async () => {
+
 	const { api, saveCache } = await getApiClient();
 
 	const file = path.join(__root, 'data', 'novel/recentUpdate.json');
@@ -131,4 +132,6 @@ export default (async () =>
 		spaces: 2,
 	});
 
-})();
+}, {
+	pkgLabel: __filename
+});

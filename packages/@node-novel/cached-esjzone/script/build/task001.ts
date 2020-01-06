@@ -6,12 +6,12 @@ import moment from 'moment';
 import path from 'upath2';
 import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
 const file = cacheFilePaths.recentUpdate;
 const file1 = cacheFilePaths.task001;
 
-export default (async () =>
-{
+export default lazyRun(async () => {
 
 	const { api, saveCache } = await getApiClient();
 
@@ -112,5 +112,7 @@ export default (async () =>
 		]);
 	}
 
-})();
+}, {
+	pkgLabel: __filename
+});
 

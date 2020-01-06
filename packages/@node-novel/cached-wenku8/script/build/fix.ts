@@ -6,9 +6,9 @@ import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
 import { IWenku8RecentUpdateCache, IWenku8RecentUpdateRowBookWithChapters } from 'wenku8-api/lib/types';
 import Bluebird from 'bluebird';
 import { consoleDebug } from '../util';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
-export default (async () =>
-{
+export default lazyRun(async () => {
 
 	let recentUpdate = await readJSON(cacheFilePaths.recentUpdate) as IWenku8RecentUpdateCache;
 	let task001 = await readJSON(cacheFilePaths.task001) as Record<string, number>;
@@ -84,4 +84,6 @@ export default (async () =>
 		spaces: 2,
 	});
 
-})();
+}, {
+	pkgLabel: __filename
+});

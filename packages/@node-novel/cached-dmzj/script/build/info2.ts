@@ -6,8 +6,9 @@ import sortObject from'sort-object-keys2';
 import { IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import { pick, sortBy } from'lodash';
 import cacheFilePaths from '../util/files';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
-export default (async () => {
+export default lazyRun(async () => {
 
 	let json = await fs.readJSON(path.join(__root, 'data/novel/info.pack.json')) as Record<string, IDmzjNovelInfoWithChapters>;
 
@@ -92,4 +93,6 @@ export default (async () => {
 		}),
 	]);
 
-})();
+}, {
+	pkgLabel: __filename
+});

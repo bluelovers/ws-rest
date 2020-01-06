@@ -10,9 +10,9 @@ import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/ca
 import { IBaseCacheStore } from 'axios-cache-adapter-util';
 import Bluebird from 'bluebird';
 import { getDmzjClient, __root, console, consoleDebug } from '../util';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
-export default (async () =>
-{
+export default lazyRun(async () => {
 
 	const { api, saveCache } = await getDmzjClient();
 
@@ -142,4 +142,6 @@ export default (async () =>
 		})
 	;
 
-})();
+}, {
+	pkgLabel: __filename
+});

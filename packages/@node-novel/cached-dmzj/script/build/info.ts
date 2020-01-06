@@ -20,9 +20,10 @@ import { IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import moment from 'moment';
 import { SymSelf } from 'restful-decorator/lib/helper/symbol';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
-export default (async () =>
-{
+export default lazyRun(async () => {
+
 	const { api, saveCache } = await getDmzjClient();
 
 	const file = path.join(__root, 'data', 'novel/recentUpdate.json');
@@ -137,5 +138,7 @@ export default (async () =>
 		spaces: 2,
 	});
 
-})();
+}, {
+	pkgLabel: __filename
+});
 

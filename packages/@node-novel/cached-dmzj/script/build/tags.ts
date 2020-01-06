@@ -14,11 +14,12 @@ import { fixDmzjNovelTags, trimUnsafe } from 'dmzj-api/lib/util';
 import { defaultSortCallback, createSortCallback } from '@node-novel/sort';
 import sortObject from'sort-object-keys2';
 import { zhDictCompare, getCjkName } from '@novel-segment/util';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
 let _cache_map = {} as Record<string, string>;
 
-export default (async () =>
-{
+export default lazyRun(async () => {
+
 	const { api, saveCache } = await getDmzjClient();
 
 	let ids: number[] = [];
@@ -96,7 +97,9 @@ export default (async () =>
 		fs.outputJSON(path.join(__root, 'data', 'novel', `info.pack.json`), info_pack),
 	]);
 
-})();
+}, {
+	pkgLabel: __filename
+});
 
 function _sortFn001(a: string, b: string)
 {

@@ -7,11 +7,11 @@ import { zhDictCompare, getCjkName } from '@novel-segment/util';
 import sortObject from'sort-object-keys2';
 import { array_unique_overwrite } from 'array-hyper-unique';
 import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
 let _cache_map = {} as Record<string, string>;
 
-export default (async () =>
-{
+export default lazyRun(async () => {
 
 	let recentUpdate = await readJSON(cacheFilePaths.recentUpdate) as IWenku8RecentUpdateCache;
 
@@ -104,7 +104,9 @@ export default (async () =>
 		spaces: 2,
 	});
 
-})();
+}, {
+	pkgLabel: __filename
+});
 
 function _sortFn001(a: string, b: string)
 {

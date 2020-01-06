@@ -11,11 +11,11 @@ import sortObject from'sort-object-keys2';
 import { array_unique_overwrite } from 'array-hyper-unique';
 import { IDiscuzForumPickThreads } from 'discuz-api/lib/types';
 import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
+import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
 let _cache_map = {} as Record<string, string>;
 
-(async () =>
-{
+export default lazyRun(async () => {
 
 	let infoPack = await readJSON(cacheFilePaths.infoPack) as Record<string, IDiscuzForumPickThreads>;
 
@@ -85,7 +85,9 @@ let _cache_map = {} as Record<string, string>;
 		outputJSONLazy(cacheFilePaths.idChapters, id_chapters),
 	]);
 
-})();
+}, {
+	pkgLabel: __filename
+});
 
 function _sortFn001(a: string, b: string)
 {
