@@ -13,6 +13,8 @@ import moment from 'moment';
 import { reportDiffStagedNovels } from '@node-novel/site-cache-util/lib/git';
 import { IESJzoneRecentUpdateRowBook } from 'esjzone-api/lib/types';
 import packageJson from '../package.json';
+import { skipCi } from '@node-novel/site-cache-util/lib/ci';
+import { console } from '@node-novel/site-cache-util/lib';
 
 export default (async () => {
 
@@ -56,7 +58,7 @@ export default (async () => {
 		crossSpawnSync('git', [
 			'commit',
 			'-m',
-			`${pkgLabel}update cache${msg}`,
+			`${pkgLabel}update cache${msg}${skipCi()}`,
 		], {
 			cwd: join(__root, 'data'),
 			stdio: 'inherit',
@@ -64,7 +66,7 @@ export default (async () => {
 
 		if (msg)
 		{
-			console.log(msg)
+			console.success(msg)
 		}
 	}
 

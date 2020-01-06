@@ -19,6 +19,8 @@ import { __root } from './util';
 import { IDmzjClientNovelRecentUpdateAll } from 'dmzj-api/lib/types';
 import moment from 'moment';
 import packageJson from '../package.json';
+import { skipCi } from '@node-novel/site-cache-util/lib/ci';
+import { console } from '@node-novel/site-cache-util/lib';
 
 const pkgLabel = `[${packageJson.name}] `;
 
@@ -82,11 +84,16 @@ if (ls2.length)
 	crossSpawnSync('git', [
 		'commit',
 		'-m',
-		`${pkgLabel}update cache${msg}`,
+		`${pkgLabel}update cache${msg}${skipCi()}`,
 	], {
 		cwd: join(__root, 'data'),
 		stdio: 'inherit',
 	});
+
+	if (msg)
+	{
+		console.success(msg)
+	}
 }
 
 crossSpawnSync('git', [
@@ -100,7 +107,7 @@ crossSpawnSync('git', [
 crossSpawnSync('git', [
 	'commit',
 	'-m',
-	`${pkgLabel}update temp cache`,
+	`${pkgLabel}update temp cache${skipCi()}`,
 ], {
 	cwd: join(__root, 'test/temp'),
 	stdio: 'inherit',
