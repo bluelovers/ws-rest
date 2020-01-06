@@ -24,6 +24,7 @@ import { LazyCookieJar } from 'lazy-cookies';
 import { deserializeCookieJar } from 'restful-decorator-plugin-jsdom/lib/cookies';
 import { IPasswordLocal } from '@node-novel/site-cache-util/lib/types';
 import importPassword from '@node-novel/site-cache-util/lib/pass';
+import isCi from '@node-novel/site-cache-util/lib/ci';
 
 export { consoleDebug, console }
 
@@ -80,7 +81,7 @@ export async function getApiClient()
 				.then(_jar => {
 					if (_jar)
 					{
-						consoleDebug.debug(jar = _jar as LazyCookieJar);
+						!isCi() && consoleDebug.debug(jar = _jar as LazyCookieJar);
 
 						return new ApiClient({
 							...setting,

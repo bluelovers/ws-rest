@@ -12,11 +12,12 @@ consoleDebug.enabledColor = true;
 
 if (isCi())
 {
-	consoleDebug.enabled = false;
+	//consoleDebug.enabled = false;
 }
 
 export function lazyImport<T = any>(name: string)
 {
+	consoleDebug.debug(`lazyImport`, name);
 	return import(name).then(v => v.default as T)
 }
 

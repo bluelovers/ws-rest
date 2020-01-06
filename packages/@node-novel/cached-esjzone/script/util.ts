@@ -21,6 +21,7 @@ import { dotValue } from '@bluelovers/axios-util';
 import { getResponseUrl } from '@bluelovers/axios-util/lib/index';
 import { LazyCookieJar } from 'lazy-cookies';
 import { deserializeCookieJar } from 'esjzone-api/lib/util';
+import isCi from '@node-novel/site-cache-util/lib/ci';
 
 export { consoleDebug, console }
 
@@ -70,7 +71,7 @@ export async function getApiClient()
 				.then(_jar => {
 					if (_jar)
 					{
-						consoleDebug.debug(jar = _jar as LazyCookieJar);
+						!isCi() && consoleDebug.debug(jar = _jar as LazyCookieJar);
 
 						return new ApiClient({
 							...setting,
