@@ -106,7 +106,7 @@ export async function getApiClient()
 		if (!isLogin)
 		{
 
-			let { default: localPassword, DISABLE_LOGIN } = await importPassword('../test/password.local');
+			let { default: localPassword, DISABLE_LOGIN } = await importPassword('test/password.local', __root);
 
 			consoleDebug.info(`目前為未登入狀態，嘗試使用帳號密碼登入`);
 

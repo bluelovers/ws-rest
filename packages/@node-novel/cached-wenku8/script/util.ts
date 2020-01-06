@@ -103,7 +103,7 @@ export async function getApiClient()
 		{
 			consoleDebug.debug(`目前為未登入狀態，嘗試使用帳號密碼登入`);
 
-			let { default: localPassword, DISABLE_LOGIN } = await importPassword('../test/password.local');
+			let { default: localPassword, DISABLE_LOGIN } = await importPassword('test/password.local', __root);
 
 			await api.loginByForm({
 					...localPassword,
