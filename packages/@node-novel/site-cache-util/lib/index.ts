@@ -26,7 +26,7 @@ if (isCi())
 
 	let o2 = consoleDebug.chalkOptions || {};
 	o2.enabled = true;
-	o2.level = o2.level || 1;
+	o2.level = o2.level || 2;
 	consoleDebug.chalkOptions = o2;
 }
 
