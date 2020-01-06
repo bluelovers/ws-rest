@@ -33,5 +33,7 @@ export default lazyRun(async () =>
 
 	await api.noticeView('system');
 
+}, {
+	pkgLabel: __filename,
 });
 

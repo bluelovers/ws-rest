@@ -43,7 +43,7 @@ export function lazyImport<T = any>(name: string, _require: typeof require)
 	;
 }
 
-export function lazyRun<T>(cb: (...argv: any) => ITSResolvable<T>, options?: {
+export function lazyRun<T>(cb: (...argv: any) => ITSResolvable<T>, options: {
 	pkgLabel: string,
 })
 {
@@ -54,11 +54,11 @@ export function lazyRun<T>(cb: (...argv: any) => ITSResolvable<T>, options?: {
 		pkgLabel = `[lazyRun]`;
 	}
 
-	pkgLabel && consoleDebug.info(pkgLabel, 'start');
+	pkgLabel && consoleDebug.magenta.info(`[lazyRun:start]`, pkgLabel);
 
 	return Bluebird.resolve().then(cb)
 		.tap(async (v) => {
-			pkgLabel && consoleDebug.info(pkgLabel, 'end');
+			pkgLabel && consoleDebug.yellow.info(`[lazyRun:end]`,pkgLabel);
 		})
 	;
 }
