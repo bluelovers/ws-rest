@@ -22,11 +22,12 @@ import { expand } from 'router-uri-convert/parser';
 import { includesKey } from '../util/util';
 import { axios, IAxiosDefaultsHeaders } from '../types/axios';
 import { IPropertyKey } from 'reflect-metadata-util';
-import CookieJarSupport from '../decorators/config/cookies';
+import CookieJarSupport, { getCookieJar } from '../decorators/config/cookies';
 import { LazyCookieJar } from 'lazy-cookies';
 import { fixAxiosCombineURLs } from '../fix/axios';
 import parseRouterVars from 'router-uri-convert/parser';
 import lodash_defaults from 'lodash/defaults';
+import { CookieJar } from 'tough-cookie';
 
 export interface IAbstractHttpClientCache
 {
@@ -153,6 +154,26 @@ export class AbstractHttpClient
 	get $baseURL(): string
 	{
 		return this.$http.defaults.baseURL
+	}
+
+	_serialize(jar?: CookieJar)
+	{
+		return (jar || this._jar()).serializeSync()
+	}
+
+	_jar(): LazyCookieJar
+	{
+		return this.$jar || getCookieJar(this)
+	}
+
+	_setCookieSync(...argv: Parameters<LazyCookieJar["setCookieSync"]>)
+	{
+		if (argv[1] == null)
+		{
+			argv[1] = this.$baseURL;
+		}
+
+		return this._jar().setCookieSync(...argv);
 	}
 
 }

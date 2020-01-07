@@ -75,27 +75,6 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 		return this._iconvDecode(Buffer.from(buf as any));
 	}
 
-	_setCookieSync(...argv: Parameters<LazyCookieJar["setCookieSync"]>)
-	{
-		if (argv[1] == null)
-		{
-			argv[1] = this.$baseURL;
-		}
-
-		return this._jar().setCookieSync(...argv);
-	}
-
-	_serialize(jar?: CookieJar)
-	{
-		return (jar || this._jar()).serializeSync()
-	}
-
-	_jar(): LazyCookieJar
-	{
-		// @ts-ignore
-		return this.$http.defaults.jar || getCookieJar(this)
-	}
-
 	_createJSDOM(html: string | Buffer, config: IJSDOMConstructorOptions)
 	{
 		if (config)
