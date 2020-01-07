@@ -7,6 +7,7 @@ import { IESJzoneRecentUpdateCache, IESJzoneRecentUpdateDay, IESJzoneRecentUpdat
 import Bluebird from 'bluebird';
 import { consoleDebug, getApiClient } from '../util';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
+import orderBy from 'lodash/orderBy';
 
 export default lazyRun(async () =>
 {
@@ -42,9 +43,9 @@ export default lazyRun(async () =>
 						}
 
 						return a;
-					}, {} as Record<string | number, IESJzoneRecentUpdateRow>))
+					}, {} as Record<string | number, IESJzoneRecentUpdateRow>));
 
-					recentUpdateDay.data[t] = ls;
+					recentUpdateDay.data[t] = orderBy(ls, ["id"], ["asc"]);
 				}
 
 			})

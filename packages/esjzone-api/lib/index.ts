@@ -46,8 +46,9 @@ import {
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
-import { _handleInputUrl } from './util/site';
+import { _handleInputUrl, _fixCoverUrl } from './util/site';
 import LazyURL from 'lazy-url';
+import orderBy from 'lodash/orderBy';
 
 /**
  * https://www.wenku8.net/index.php
@@ -127,11 +128,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 					.prop('src')
 				;
 
-				let u = new LazyURL(cover);
-				if (/esjzone/.test(u.host) && u.pathname.includes('empty.jpg'))
-				{
-					cover = undefined;
-				}
+				cover = _fixCoverUrl(cover);
 
 				let _a = _this
 					.find('.caption .caption-txt a')
@@ -391,7 +388,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 		let cover = _content.find('img.product-image:not([src*="empty.jpg"])').prop('src');
 
-		if (cover)
+		if (cover = _fixCoverUrl(cover))
 		{
 			data.cover = cover;
 		}
@@ -738,6 +735,8 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 							.prop('src')
 						;
 
+						cover = _fixCoverUrl(cover);
+
 						let _a = _this
 							.find('.caption .caption-txt a')
 							.eq(0)
@@ -772,6 +771,8 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 						summary[nid] = Math.max(timestamp, summary[nid] | 0);
 					})
 				;
+
+				data[timestamp] = orderBy(data[timestamp], ["id"], ["asc"]);
 
 			})
 		;

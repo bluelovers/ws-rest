@@ -135,3 +135,19 @@ export function parseUrl<T extends string | number | URL | LazyURL>(input: T)
 
 	return ret;
 }
+
+export function _fixCoverUrl(cover: string | URL)
+{
+	if (!cover)
+	{
+		return;
+	}
+
+	let u = new LazyURL(cover);
+	if (/esjzone/.test(u.host) && u.pathname.includes('empty.jpg'))
+	{
+		return
+	}
+
+	return u.toRealString();
+}
