@@ -19,6 +19,8 @@ import cacheFilePaths from '../util/files';
 import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
+import { default as ApiClient } from 'discuz-api/lib';
+import { getResponseUrl, isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';
 
 export default lazyRun(async () => {
 
@@ -128,11 +130,19 @@ export default lazyRun(async () => {
 		return Bluebird.resolve(fids)
 			.mapSeries(async (fid) => {
 
-				consoleDebug.debug(`[forum]`, fid, listCache[fid]);
+				consoleDebug.gray.debug(`[forum:start]`, fid, listCache[fid]);
 
 				let data = await api.forum({
 					fid,
-				});
+				})
+					.finally(function (this: ApiClient)
+					{
+						if (!isResponseFromAxiosCache(this.$response))
+						{
+							consoleDebug.debug(`[forum:fetch]`, fid);
+						}
+					})
+				;
 
 				let old = listCache[fid];
 

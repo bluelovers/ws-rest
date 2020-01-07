@@ -3,7 +3,7 @@ import { ICreatePkgCachePath, ICreatePkgCachePathMap } from '../files';
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';
 import fs from 'fs-extra';
 import { consoleDebug, console } from '../index';
-import { exportCache, IBaseCacheStore, importCache, processExitHook } from 'axios-cache-adapter-util';
+import { exportCache, IBaseCacheStore, importCache, processExitHook, ICacheStoreJson } from 'axios-cache-adapter-util';
 
 export async function _setupCacheFile(opts: {
 	api: AbstractHttpClient,
@@ -25,10 +25,11 @@ export async function _setupCacheFile(opts: {
 		{
 			return {}
 		})
-		.then(async (json) =>
+		.then(async (json: ICacheStoreJson) =>
 		{
-
 			let len = await store.length();
+
+			consoleDebug.debug(__path.relative(cacheFile), 'length:', Object.keys(json).length);
 
 			await importCache(store, json, {
 				importFilter(k, v)
@@ -54,6 +55,8 @@ export async function _setupCacheFile(opts: {
 			console.magenta.log(`before: ${len}`, `after: ${len2}`);
 		})
 	;
+
+	let len = await store.length();
 
 	function saveCache()
 	{
@@ -84,7 +87,11 @@ export async function _setupCacheFile(opts: {
 				//spaces: 2,
 			});
 
-			console.magenta.debug(`[Cache]`, Object.keys(json).length, `saved`, __path.relative(cacheFile));
+			let len2 = Object.keys(json).length;
+
+			console.magenta.debug(`[Cache]`, len2, `saved`, __path.relative(cacheFile));
+
+			console.red.log(`before: ${len}`, `after: ${len2}`);
 
 		})
 	}
