@@ -51,6 +51,7 @@ export type ICreatePkgCachePath<T extends ICreatePkgCachePathMap, T2 extends Rec
 	cacheFilePaths: {
 
 		recentUpdate: string;
+		recentUpdateDay: string;
 
 		task001: string;
 		infoPack: string;
@@ -67,8 +68,13 @@ export type ICreatePkgCachePath<T extends ICreatePkgCachePathMap, T2 extends Rec
 
 		passwordLocalFile: string,
 
+		dirDataRoot: string,
+		dirTempRoot: string,
+
 	} & Record<keyof T, string>;
 	fn: {
+		cacheFileInfoPath(id: string | number): string
+	} & {
 		[P in keyof T2]: (...argv: Parameters<T2[P]>) => ReturnType<T2[P]>
 	};
 }
@@ -85,7 +91,9 @@ export function createPkgCachePath<T extends Record<string, string | [string, ..
 	let data = Object.assign(pkgData, {
 
 		cacheFilePaths: {
+
 			recentUpdate: join('data', 'novel/recentUpdate.json'),
+			recentUpdateDay: join('data', 'novel/recentUpdateDay.json'),
 
 			task001: join( 'test/temp', 'task001.json'),
 
@@ -105,10 +113,15 @@ export function createPkgCachePath<T extends Record<string, string | [string, ..
 
 			authors: join('data/novel', 'authors.json'),
 
+			tags: join('data/novel', 'tags.json'),
+
 			cookiesCacheFile: join('test/temp', 'axios.cookies.json'),
 			axiosCacheFile: join('test/temp', 'axios.cache.json'),
 
 			passwordLocalFile: join('test', 'password.local'),
+
+			dirDataRoot: join('data'),
+			dirTempRoot: join('test', 'temp'),
 
 			...Object.entries(map)
 				.reduce((a, [k, v]: [keyof T, string | [string, ...string[]]]) => {
@@ -127,6 +140,11 @@ export function createPkgCachePath<T extends Record<string, string | [string, ..
 		},
 
 		fn: {
+			cacheFileInfoPath(id: string | number)
+			{
+				return join('data', `novel/info/${id}.json`)
+			},
+
 			...Object.entries(options.fn)
 				.reduce((a, [k, v]) => {
 

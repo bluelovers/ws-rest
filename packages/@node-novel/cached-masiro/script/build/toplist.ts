@@ -152,7 +152,7 @@ export default lazyRun(async () => {
 
 				if (old !== listCache[fid])
 				{
-					consoleDebug.info(`[update]`, fid, data.forum_name);
+					consoleDebug.magenta.info(`[update]`, fid, data.forum_name);
 				}
 
 				//await fs.outputJSON(path.join(__root, 'data/fid', `${fid}.json`), data, outputJSONOptions);

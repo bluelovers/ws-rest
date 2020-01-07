@@ -27,11 +27,11 @@ import { IPasswordLocal } from '@node-novel/site-cache-util/lib/types';
 import importPassword from '@node-novel/site-cache-util/lib/pass';
 import isCi from '@node-novel/site-cache-util/lib/ci';
 
+export { consoleDebug, console }
+
 import { __root, cacheFilePaths, __path } from './util/files';
 import { _setupCacheFile, _getApiClient } from '@node-novel/site-cache-util/lib/client';
 export { __root };
-
-export { consoleDebug, console }
 
 let api: ApiClient;
 let saveCache: () => void;

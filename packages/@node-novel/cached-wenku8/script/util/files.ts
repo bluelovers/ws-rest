@@ -5,12 +5,6 @@ export const __path = createPkgCachePath(path.join(__dirname, '..', '..'), {
 	map: {
 		copyrightRemove: ['data/novel', 'copyright_remove.json'],
 	},
-	fn: {
-		cacheFileInfoPath(id: string | number)
-		{
-			return this.join('data', `novel/info/${id}.json`)
-		},
-	},
 });
 
 export const { cacheFilePaths, __root } = __path;
