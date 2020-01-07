@@ -24,6 +24,7 @@ import { console } from '@node-novel/site-cache-util/lib';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
 import { pkgLabel } from './util/main';
+import cacheFilePaths from './util/files';
 
 export default lazyRun(async () => {
 
@@ -60,7 +61,7 @@ if (ls2.length)
 	{
 		//console.dir(ls3);
 
-		let json = readJSONSync(join(__root, 'data/novel/recentUpdate.json')) as IDmzjClientNovelRecentUpdateAll;
+		let json = readJSONSync(cacheFilePaths.recentUpdate) as IDmzjClientNovelRecentUpdateAll;
 
 		let ids = ls3
 			.map(v => parsePath(v).name)

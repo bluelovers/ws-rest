@@ -13,12 +13,13 @@ import { getApiClient, __root, console, consoleDebug } from '../util';
 import { ITSUnpackedPromiseLike } from 'ts-type';
 import { IWenku8RecentUpdateCache, IWenku8RecentUpdateRow } from 'wenku8-api/lib/types';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
+import cacheFilePaths from '../util/files';
 
 export default lazyRun(async () => {
 
 	const { api, saveCache } = await getApiClient();
 
-	const file = path.join(__root, 'data', 'novel/recentUpdate.json');
+	const file = cacheFilePaths.recentUpdate;
 
 	let novelList = await (fs.readJSON(file)
 		.catch(e => null) as PromiseLike<IWenku8RecentUpdateCache>)
@@ -102,7 +103,12 @@ export default lazyRun(async () => {
 		.concat(list)
 		.reduce((list, row) => {
 
-			list[row.id] = row;
+			let old = list[row.id];
+
+			if (!old || row.last_update_time > old.last_update_time)
+			{
+				list[row.id] = row;
+			}
 
 			last_update_time = Math.max(last_update_time, row.last_update_time);
 

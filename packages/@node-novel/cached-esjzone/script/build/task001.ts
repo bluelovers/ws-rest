@@ -41,6 +41,12 @@ export default lazyRun(async () => {
 				return api.bookInfo(id)
 					.tap(async (data) =>
 					{
+						if (data.last_update_time < row.last_update_time)
+						{
+							consoleDebug.error(index, id, row.name, moment.unix(listCache[id]).format(), data.last_update_chapter_name);
+
+							return;
+						}
 
 						listCache[id] = Math.max(data.last_update_time | 0, last_update_time | 0, 0);
 

@@ -7,10 +7,11 @@ import { fixDmzjNovelInfo, fixDmzjNovelTags, trimUnsafe } from 'dmzj-api/lib/uti
 import FastGlob from '@bluelovers/fast-glob/bluebird';
 import { array_unique_overwrite } from 'array-hyper-unique';
 import sortObject from 'sort-object-keys2';
+import cacheFilePaths from './util/files';
 
 export default (async () =>
 {
-	const file = path.join(__root, 'data', 'novel/recentUpdate.json');
+	const file = cacheFilePaths.recentUpdate;
 
 	await Bluebird
 		.resolve(fs.readJSON(file))

@@ -21,13 +21,14 @@ import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/mo
 import { SymSelf } from 'restful-decorator/lib/helper/symbol';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
+import cacheFilePaths from '../util/files';
 
 export default lazyRun(async () => {
 
 	const { api, saveCache } = await getDmzjClient();
 
-	const file = path.join(__root, 'data', 'novel/recentUpdate.json');
-	const file2 = path.join(__root, 'test/temp', 'task001.json');
+	const file = cacheFilePaths.recentUpdate;
+	const file2 = cacheFilePaths.task001;
 
 	let novelList = await (fs.readJSON(file)
 		.catch(e => null) as ReturnType<typeof api.novelRecentUpdateAll>)
