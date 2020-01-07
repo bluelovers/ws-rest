@@ -34,6 +34,7 @@
     "bluebird": "^3.7.2",
     "env-bool": "^1.0.3",
     "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.27",
     "restful-decorator": "^1.0.30",
@@ -44,6 +45,7 @@
   },
   "gitHead": "d5846f911b060dcdfaf082c600a8fd3af0b8e006",
   "devDependencies": {
+    "@types/lodash": "^4.14.149",
     "@types/moment-timezone": "^0.5.12"
   }
 }

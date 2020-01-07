@@ -1,0 +1,155 @@
+import { AbstractHttpClient } from 'restful-decorator/lib';
+import { ICreatePkgCachePath, ICreatePkgCachePathMap } from '../files';
+import { LazyCookieJar } from 'lazy-cookies';
+import { getResponseUrl } from '@bluelovers/axios-util/lib/index';
+import { console, consoleDebug } from '..';
+import {
+	AxiosAdapter,
+	AxiosError,
+	AxiosInstance,
+	AxiosPromise,
+	AxiosRequestConfig,
+	AxiosResponse,
+	AxiosStatic,
+} from 'axios';
+import { dotValue } from '@bluelovers/axios-util';
+import fs from 'fs-extra';
+import { deserializeCookieJar } from 'restful-decorator-plugin-jsdom/lib/cookies';
+import isCi from '../ci';
+import importPassword from '../pass';
+import { defaultsDeep } from 'lodash';
+import { _setupCacheFile } from './save';
+import { ITSResolvable } from 'ts-type';
+
+export async function _getApiClient<T extends AbstractHttpClient>(opts: {
+	api: T,
+	ApiClient: {
+		new (...argv: any): T
+	},
+	jar: LazyCookieJar,
+	saveCache: () => void,
+	__path: ICreatePkgCachePath<ICreatePkgCachePathMap, any>,
+	apiOptions?: AxiosRequestConfig,
+	setupCacheFile?(api: T, saveCacheFileBySelf?: boolean): ITSResolvable<() => void>,
+	saveCacheFileBySelf?: boolean,
+	envPrefix: string,
+})
+{
+	let { api, jar, __path, saveCache, ApiClient, apiOptions, setupCacheFile, saveCacheFileBySelf } = opts;
+	const {__root, cacheFilePaths} = __path;
+
+
+	if (api == null)
+	{
+		let setting: AxiosRequestConfig = defaultsDeep(apiOptions, {
+			cache: {
+				maxAge: 12 * 60 * 60 * 1000,
+			},
+
+			raxConfig: {
+				retry: 1,
+				retryDelay: 1000,
+
+				onRetryAttempt: (err: AxiosError) => {
+
+					let currentRetryAttempt = dotValue(err, 'config.raxConfig.currentRetryAttempt');
+
+					consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, getResponseUrl(err.response));
+				}
+
+			},
+
+//			proxy: {
+//				host: '49.51.155.45',
+//				port: 8081,
+//			},
+
+		});
+
+		const cookiesCacheFile = cacheFilePaths.cookiesCacheFile;
+
+		if (fs.existsSync(cookiesCacheFile))
+		{
+			consoleDebug.debug(`axios.cookies.json 已存在，嘗試載入內容`);
+
+			api = await fs.readJSON(cookiesCacheFile)
+				.then(r => deserializeCookieJar(r))
+				.then(_jar => {
+					if (_jar)
+					{
+						!isCi() && consoleDebug.debug(jar = _jar as LazyCookieJar);
+
+						return new ApiClient({
+							...setting,
+							jar: _jar,
+						})
+					}
+				})
+				.catch(e => {
+					console.error(e);
+					return null;
+				})
+			;
+		}
+
+		if (!api)
+		{
+			api = new ApiClient(setting);
+		}
+
+		// @ts-ignore
+		if (typeof api.isLogin === 'function')
+		{
+			// @ts-ignore
+			let isLogin = await api.isLogin();
+			console.magenta.info('isLogin', isLogin);
+
+			// @ts-ignore
+			if (!isLogin && typeof api.loginByForm === 'function')
+			{
+				consoleDebug.gray.info(`目前為未登入狀態，嘗試使用帳號密碼登入`);
+
+				let { default: localPassword, DISABLE_LOGIN } = await importPassword({
+					file: cacheFilePaths.passwordLocalFile,
+					__root,
+					envPrefix: opts.envPrefix,
+				});
+
+				if (DISABLE_LOGIN)
+				{
+					consoleDebug.red.info(`[DISABLE_LOGIN] 選項已啟用，忽略使用帳密登入`);
+				}
+				else
+				{
+					// @ts-ignore
+					await api.loginByForm({
+							...localPassword,
+						})
+						// @ts-ignore
+						.then(r => console.dir(r))
+					;
+
+					// @ts-ignore
+					console.magenta.info('isLogin', await api.isLogin());
+				}
+			}
+		}
+
+		if (!setupCacheFile)
+		{
+			saveCache = await _setupCacheFile({
+				api,
+				saveCacheFileBySelf,
+				__path,
+			})
+		}
+		else
+		{
+			saveCache = await setupCacheFile(api);
+		}
+	}
+
+	return {
+		api, jar, saveCache,
+	}
+}
