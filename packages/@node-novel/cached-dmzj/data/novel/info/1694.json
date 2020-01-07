@@ -3,13 +3,13 @@
   "name": "话说当时我还不是主角",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 为何我的眼前冒出选项",
+  "last_update_volume_name": "第四卷 我试想了一下成为英雄的条件",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 7244,
-  "last_update_chapter_id": 53306,
-  "last_update_time": 1443362979,
-  "cover": "https://xs.dmzj.com/img/webpic/12/1680s46941641634315.jpg",
-  "hot_hits": 183868,
+  "last_update_volume_id": 10538,
+  "last_update_chapter_id": 102255,
+  "last_update_time": 1578389268,
+  "cover": "https://xs.dmzj.com/img/webpic/0/azr0107l.jpg",
+  "hot_hits": 192943,
   "introduction": "　　我叫作三柴直道，这本书的「主角」——应该不是我。\n　　在发生情书事件（第一次收到）之后，结果就发现青梅竹马一条爱澄竟然是魔术师！而且还突然有个妹妹跑来对我撒娇，学校的校花也贴了过来，我现在是犯桃花吗？\n　　爱澄、铃、麻乃各自述说了我的「真面目」，但她们三人所说的事实全都相互矛盾，而且我这种人才不会是那种特别与众不同的主角。\n　　「我只是个平凡的男高中生，还是个空窗期＝年龄的处男，不行吗！」「这么想的人只有你而已。」「你是说我失忆的时候体验过了是不是！」\n　　就这样，我偏离了『日常系』，展成了超·日常系学园的奇幻故事！",
   "types": [
     "爱情",
@@ -18,8 +18,8 @@
   ],
   "authors": "二阶堂纮嗣",
   "first_letter": "H",
-  "subscribe_num": 3225,
-  "redis_update_time": 1564534099,
+  "subscribe_num": 4467,
+  "redis_update_time": 1578405346,
   "volume": [
     {
       "id": 6225,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷 一条爱澄是第一女主角",
       "volume_order": 10,
       "addtime": 1406643197,
-      "sum_chapters": 16
+      "sum_chapters": 8
     },
     {
       "id": 6920,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷 不知为何女主角增加了",
       "volume_order": 20,
       "addtime": 1433084977,
-      "sum_chapters": 16
+      "sum_chapters": 8
     },
     {
       "id": 7244,
@@ -43,7 +43,15 @@
       "volume_name": "第三卷 为何我的眼前冒出选项",
       "volume_order": 30,
       "addtime": 1443362793,
-      "sum_chapters": 16
+      "sum_chapters": 8
+    },
+    {
+      "id": 10538,
+      "lnovel_id": 1694,
+      "volume_name": "第四卷 我试想了一下成为英雄的条件",
+      "volume_order": 40,
+      "addtime": 1578389165,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -248,6 +256,44 @@
           "chapter_id": 53306,
           "chapter_name": "后记",
           "chapter_order": 250
+        }
+      ]
+    },
+    {
+      "volume_id": 10538,
+      "id": 10538,
+      "volume_name": "第四卷 我试想了一下成为英雄的条件",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 102250,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102251,
+          "chapter_name": "第8话 最适合当女主角的她(们)",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102252,
+          "chapter_name": "第9话 改写/曙光",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102253,
+          "chapter_name": "第10话 话说当时我还是主角",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102254,
+          "chapter_name": "特别篇 话说当时我还不是公主",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102255,
+          "chapter_name": "后记",
+          "chapter_order": 60
         }
       ]
     }
