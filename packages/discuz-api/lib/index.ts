@@ -225,6 +225,11 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 
 		if (_a.length)
 		{
+			_a
+				.find('[data-cfemail]')
+				.removeAttr('data-cfemail')
+			;
+
 			forum_rules = trimUnsafe(tryMinifyHTML(_a.html()));
 		}
 
