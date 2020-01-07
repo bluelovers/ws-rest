@@ -127,6 +127,12 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 					.prop('src')
 				;
 
+				let u = new LazyURL(cover);
+				if (/esjzone/.test(u.host) && u.pathname.includes('empty.jpg'))
+				{
+					cover = undefined;
+				}
+
 				let _a = _this
 					.find('.caption .caption-txt a')
 					.eq(0)

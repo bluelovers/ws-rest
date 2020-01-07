@@ -72,3 +72,5 @@ coverage
 *.d.ts
 /tsconfig.tsbuildinfo
 !/yarn.lock
+axios.cache.json
+axios.cookies.json

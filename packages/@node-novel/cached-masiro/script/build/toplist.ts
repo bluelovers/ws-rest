@@ -151,7 +151,7 @@ export default lazyRun(async () => {
 					listCache[fid] = null;
 				}
 
-				if (data.last_thread_time && data.last_thread_time != listCache[fid])
+				if (data.last_thread_time && data.last_thread_time > listCache[fid])
 				{
 					listCache[fid] = null;
 				}
