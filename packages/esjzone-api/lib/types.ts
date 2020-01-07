@@ -13,7 +13,7 @@ export interface IESJzoneRecentUpdate
 export interface IESJzoneRecentUpdateDay
 {
 	last_update_time: number;
-	data: Record<number, IESJzoneRecentUpdateRow[]>;
+	data: Record<number | string, Omit<IESJzoneRecentUpdateRow, 'last_update_time'>[]>;
 	summary: Record<string, number>;
 	days: number,
 	size: number,
