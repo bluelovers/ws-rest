@@ -50,16 +50,29 @@ export function lazyRun<T>(cb: (...argv: any) => ITSResolvable<T>, options: {
 {
 	let { pkgLabel } = options;
 
-	if (!pkgLabel)
-	{
-		pkgLabel = `[lazyRun]`;
-	}
+	let bool = path.isAbsolute(pkgLabel);
 
-	pkgLabel && consoleDebug.magenta.info(`[lazyRun:start]`, pkgLabel);
+	if (bool)
+	{
+		consoleDebug.magenta.info(`[lazyRun:start]`, pkgLabel);
+	}
+	else
+	{
+		consoleDebug.black.bgGreenBright.info(`[lazyRun:start]`, pkgLabel);
+	}
 
 	return Bluebird.resolve().then(cb)
 		.tap(async (v) => {
-			pkgLabel && consoleDebug.yellow.info(`[lazyRun:end]`,pkgLabel);
+
+			if (bool)
+			{
+				consoleDebug.yellow.info(`[lazyRun:end]`,pkgLabel);
+			}
+			else
+			{
+				consoleDebug.black.bgYellowBright.info(`[lazyRun:end]`,pkgLabel);
+			}
+
 		})
 	;
 }
