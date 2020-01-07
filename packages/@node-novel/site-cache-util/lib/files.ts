@@ -85,7 +85,6 @@ export function createPkgCachePath<T extends Record<string, string | [string, ..
 } = {}): ICreatePkgCachePath<T, T2>
 {
 	const pkgData = createPkgPath(root);
-	const { map = {} as T } = options;
 	const { join, resolve } = pkgData;
 
 	let data = Object.assign(pkgData, {
@@ -123,7 +122,7 @@ export function createPkgCachePath<T extends Record<string, string | [string, ..
 			dirDataRoot: join('data'),
 			dirTempRoot: join('test', 'temp'),
 
-			...Object.entries(map)
+			...Object.entries(options.map || {} as T)
 				.reduce((a, [k, v]: [keyof T, string | [string, ...string[]]]) => {
 
 					if (typeof v === 'string')
@@ -145,7 +144,7 @@ export function createPkgCachePath<T extends Record<string, string | [string, ..
 				return join('data', `novel/info/${id}.json`)
 			},
 
-			...Object.entries(options.fn)
+			...Object.entries(options.fn || {} as T2)
 				.reduce((a, [k, v]) => {
 
 					// @ts-ignore

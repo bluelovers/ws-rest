@@ -66,6 +66,8 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 
 		});
 
+		//consoleDebug.dir(setting);
+
 		const cookiesCacheFile = cacheFilePaths.cookiesCacheFile;
 
 		if (fs.existsSync(cookiesCacheFile))
