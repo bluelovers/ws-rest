@@ -690,7 +690,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 
 	@GET('update')
-	@ReturnValueToJSDOM
+	@ReturnValueToJSDOM()
 	@methodBuilder()
 	recentUpdateDay(): IBluebird<IESJzoneRecentUpdateDay>
 	{

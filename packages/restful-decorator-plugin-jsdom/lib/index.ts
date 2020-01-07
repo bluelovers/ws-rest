@@ -1,6 +1,6 @@
 import { AbstractHttpClient } from 'restful-decorator/lib';
-import { IConstructorOptions as IJSDOMConstructorOptions } from 'jsdom-extra/lib/pack';
-import { getResponseUrl } from '@bluelovers/axios-util/lib';
+import { IConstructorOptions as IJSDOMConstructorOptions, VirtualConsole } from 'jsdom-extra/lib/pack';
+import dotValue, { getResponseUrl } from '@bluelovers/axios-util/lib';
 import { CookieJar } from 'tough-cookie';
 import { createJSDOM, IJSDOM } from 'jsdom-extra';
 import { Buffer } from "buffer";
@@ -26,6 +26,7 @@ import {
 	ParamMapAuto,
 } from 'restful-decorator/lib/decorators';
 import Bluebird from 'bluebird';
+import { defaultsDeep } from 'lodash';
 
 export { IJSDOM }
 
@@ -34,6 +35,7 @@ export { IJSDOM }
 })
 export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 {
+	virtualConsole: VirtualConsole;
 
 	constructor(...argv: ConstructorParameters<typeof AbstractHttpClient>)
 	{
@@ -45,6 +47,8 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 
 		// @ts-ignore
 		super(...argv);
+
+		this.virtualConsole = new VirtualConsole();
 
 		this._constructor()
 	}
@@ -85,11 +89,9 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 		return createJSDOM(html);
 	}
 
-	_responseDataToJSDOM(data: unknown, response: this["$response"])
+	_responseDataToJSDOM(data: unknown, response: this["$response"], jsdomOptions?: IJSDOMConstructorOptions)
 	{
 		const html = this._decodeBuffer(data);
-
-		let config: IJSDOMConstructorOptions;
 
 		if (response)
 		{
@@ -109,7 +111,8 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 
 			if ($responseUrl || cookieJar)
 			{
-				config = {
+				jsdomOptions = {
+					...jsdomOptions,
 					url: $responseUrl,
 					cookieJar,
 				};
@@ -118,7 +121,14 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 			}
 		}
 
-		return this._createJSDOM(html, config);
+		jsdomOptions = {
+			userAgent: dotValue(response, 'config.headers.User-Agent'),
+			referrer: dotValue(response, 'config.headers.Referer'),
+			virtualConsole: this.virtualConsole,
+			...jsdomOptions,
+		};
+
+		return this._createJSDOM(html, jsdomOptions);
 	}
 
 	_encodeURIComponent(text: string): string

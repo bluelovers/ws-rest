@@ -1,6 +1,9 @@
 import { ParamMapAuto } from 'restful-decorator/lib/decorators/body';
 import { ITSPickExtra } from 'ts-type';
 import { ITSRequiredPick, ITSPartialPick } from 'ts-type/lib/type/record';
+import {
+	IJSDOM,
+} from 'jsdom-extra';
 
 export type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;
 
@@ -159,3 +162,29 @@ export interface IDiscuzTaskList
 }
 
 export type IDzParamNoticeView = 'system' | 'app' | 'interactive' | 'mypost';
+
+export interface IDzWindow
+{
+
+	STATICURL: string;
+	STYLEID: string;
+	IMGDIR: string;
+	VERHASH: string;
+
+	cookiepre: string;
+	charset: string;
+
+	discuz_uid: string;
+	cookiedomain: string;
+	cookiepath: string;
+	creditnotice: string;
+	defaultstyle: string;
+
+	SITEURL: string;
+	JSPATH: string;
+	CSSPATH: string;
+	DYNAMICURL: string;
+
+}
+
+export type IJSDOM_WITH<T> = IJSDOM & T

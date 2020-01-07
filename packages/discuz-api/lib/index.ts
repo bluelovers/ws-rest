@@ -49,7 +49,7 @@ import {
 	IDzParamThreadOptions2,
 	IDzParamThreadOptions,
 	SymDzPost,
-	IDiscuzPost, IDiscuzThreadPickRange,
+	IDiscuzPost, IDiscuzThreadPickRange, IDzWindow, IJSDOM_WITH,
 } from './types';
 import { IUnpackedPromiseLikeReturnType, IBluebirdAxiosResponse } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
@@ -496,7 +496,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('forum.php?mod=viewthread&tid={tid}')
-	@ReturnValueToJSDOM
+	@ReturnValueToJSDOM()
 	@methodBuilder()
 	thread(@ParamMapAuto(<IDzParamThreadOptions2>{
 		ordertype: 0,
@@ -852,6 +852,32 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 				};
 			})
 			;
+	}
+
+	@GET('forum.php')
+	@ReturnValueToJSDOM({
+		runScripts: 'dangerously',
+	})
+	@methodBuilder()
+	jsInfo()
+	{
+		const jsdom = this.$returnValue as ReturnType<DiscuzClient["_createJSDOM"]>;
+
+		let { charset, cookiepre, SITEURL } = jsdom.window as IDzWindow;
+
+		return Bluebird.resolve({
+			var: {
+				charset, cookiepre, SITEURL,
+			},
+			jsdom,
+		});
+	}
+
+	_createJSDOM(html: string | Buffer, config: IJSDOMConstructorOptions): IJSDOM_WITH<{
+		window: IDzWindow,
+	}>
+	{
+		return super._createJSDOM(html, config) as any;
 	}
 
 }
