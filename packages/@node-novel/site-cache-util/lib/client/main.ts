@@ -70,6 +70,8 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 
 		const cookiesCacheFile = cacheFilePaths.cookiesCacheFile;
 
+		consoleDebug.debug(`cookiesCacheFile`, cookiesCacheFile);
+
 		if (fs.existsSync(cookiesCacheFile))
 		{
 			consoleDebug.debug(`axios.cookies.json 已存在，嘗試載入內容`);

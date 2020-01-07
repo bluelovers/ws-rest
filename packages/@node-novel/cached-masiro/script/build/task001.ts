@@ -4,7 +4,7 @@ import { IESJzoneRecentUpdateCache } from 'esjzone-api/lib/types';
 import Bluebird from 'bluebird';
 import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
 import path from 'upath2';
-import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
+import cacheFilePaths, { cacheFileInfoPath, __path } from '../util/files';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';
 import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 import { IDiscuzForumThread } from 'discuz-api/lib/types';
@@ -32,7 +32,7 @@ export default lazyRun(async () => {
 
 			if (listCache[fid] == null)
 			{
-				let _file = path.join(__root, 'data/fid', `${fid}.json`);
+				let _file = cacheFileInfoPath(fid);
 
 				return api.forumThreads({
 						fid
@@ -118,7 +118,7 @@ export default lazyRun(async () => {
 				spaces: 2,
 			})
 				.then(e => {
-					consoleDebug.info(`outputJSON`, path.relative(__root, cacheFilePaths.task001));
+					consoleDebug.info(`outputJSON`, __path.relative(cacheFilePaths.task001));
 					return e;
 				})
 			,

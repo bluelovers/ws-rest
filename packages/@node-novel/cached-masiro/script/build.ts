@@ -13,6 +13,8 @@ export default lazyRun(async () => {
 
 	await lazyImport('./build/merge', require);
 
+	await lazyImport('./build/merge002', require);
+
 	await lazyImport('./build/cache', require);
 
 	await lazyImport('./build/task_logined', require);

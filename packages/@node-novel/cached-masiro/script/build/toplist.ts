@@ -30,10 +30,6 @@ export default lazyRun(async () => {
 		.catch(e => ({} as Record<string, number>))
 	;
 
-	let outputJSONOptions: IJSONWriteOptions = {
-		spaces: 2,
-	};
-
 	await _fn_forums([
 		36,
 		162,
@@ -60,61 +56,6 @@ export default lazyRun(async () => {
 
 			await _fn_forums(array_unique(fids))
 				.tap(async (ls2) => {
-
-					await outputJSONLazy(path.join(__root, 'data', `topforums.json`), ls.reduce((a, b) => {
-
-						let {
-							fid,
-							forum_name,
-							subforums,
-						} = b;
-
-						a[b.fid] = {
-							fid,
-							forum_name,
-							subforums,
-						};
-
-						return a
-					}, {} as any));
-
-					await outputJSONLazy(path.join(__root, 'data', `subforums.json`), ls2.reduce((a, b) => {
-
-						let {
-							fid,
-							forum_name,
-
-							last_thread_time,
-							last_thread_subject,
-							last_thread_id,
-
-							pages,
-
-							moderator,
-
-							forum_rules,
-
-							threads,
-						} = b;
-
-						a[b.fid] = {
-							fid,
-							forum_name,
-
-							last_thread_time,
-							last_thread_subject,
-							last_thread_id,
-
-							pages,
-							threads_length: threads.length,
-
-							moderator,
-
-							forum_rules,
-						};
-
-						return a
-					}, {} as any));
 
 					ls.push(...ls2);
 

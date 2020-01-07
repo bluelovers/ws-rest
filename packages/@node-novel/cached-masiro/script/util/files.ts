@@ -4,6 +4,9 @@ import { createPkgPath, createPkgCachePath } from '@node-novel/site-cache-util/l
 export const __path = createPkgCachePath(path.join(__dirname, '..', '..'), {
 	map: {
 		infoPack: ['data', 'forum.pack.json'],
+		subforums: ['data', 'subforums.json'],
+		topforums: ['data', 'topforums.json'],
+		dirFid: ['data', 'fid'],
 	},
 	fn: {
 		cacheFileInfoPath(this, id: string | number)

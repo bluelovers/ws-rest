@@ -26,7 +26,7 @@ export function createPkgPath(__root: string)
 		},
 		join(...paths: [string, ...string[]])
 		{
-			return path.join(...paths)
+			return path.join(__root, ...paths)
 		},
 		resolve(...paths: [string, ...string[]])
 		{

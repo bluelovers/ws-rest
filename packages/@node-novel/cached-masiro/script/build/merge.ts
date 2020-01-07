@@ -8,8 +8,6 @@ import path from 'upath2';
 import { zhDictCompare, getCjkName } from '@novel-segment/util';
 import sortObject from'sort-object-keys2';
 
-let _cache_map = {} as Record<string, string>;
-
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
 export default lazyRun(async () => {
@@ -18,7 +16,7 @@ export default lazyRun(async () => {
 		.async<string>([
 			'*.json',
 		], {
-			cwd: path.join(__root, 'data', 'fid'),
+			cwd: cacheFilePaths.dirFid,
 			absolute: true,
 		})
 		.reduce(async (a, file) => {
@@ -36,11 +34,3 @@ export default lazyRun(async () => {
 }, {
 	pkgLabel: __filename
 });
-
-function _sortFn001(a: string, b: string)
-{
-	let aa = _cache_map[a] || (_cache_map[a] = getCjkName(a));
-	let bb = _cache_map[b] || (_cache_map[b] = getCjkName(b));
-
-	return zhDictCompare(aa, bb)
-}
