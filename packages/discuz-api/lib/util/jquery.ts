@@ -13,6 +13,22 @@ export function _checkLoginByJQuery($: JQueryStatic)
 		.length > 1
 }
 
+export function _checkLoginUsername($: JQueryStatic)
+{
+	if (_checkLoginByJQuery($))
+	{
+		let user = $('.vwmy a[href*="uid="]').text()
+			.replace(/^\s+|\s+$/g, '');
+
+		if (user.length)
+		{
+			return user
+		}
+	}
+
+	return
+}
+
 export function _jqForumStickThreads($: JQueryStatic)
 {
 	return _jqForumThreads($, '#threadlisttableid tbody[id^="stickthread_"]').threads;

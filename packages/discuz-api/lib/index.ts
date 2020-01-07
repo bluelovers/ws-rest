@@ -58,7 +58,13 @@ import { getConfig, setConfig } from 'restful-decorator/lib/decorators/config/ut
 import merge from 'restful-decorator/lib/util/merge';
 import LazyURLSearchParams from 'http-form-urlencoded';
 import LazyURL from 'lazy-url';
-import { _checkLoginByJQuery, _jqForumThreads, _jqForumStickThreads, _jqForumThreadTypes } from './util/jquery';
+import {
+	_checkLoginByJQuery,
+	_jqForumThreads,
+	_jqForumStickThreads,
+	_jqForumThreadTypes,
+	_checkLoginUsername,
+} from './util/jquery';
 import { ITSRequiredWith, ITSPickExtra } from 'ts-type';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
@@ -105,9 +111,16 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		username: string,
 		password: string,
 		cookietime?: number,
-	}): IBluebird<boolean>
+	}): IBluebird<boolean|string>
 	{
 		let jsdom = this._responseDataToJSDOM(this.$response.data, this.$response);
+
+		let username = _checkLoginUsername(jsdom.$);
+
+		if (username != null)
+		{
+			return Bluebird.resolve(username)
+		}
 
 		let bool = _checkLoginByJQuery(jsdom.$);
 
@@ -374,9 +387,17 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		},
 	})
 	@methodBuilder()
-	isLogin(): IBluebird<boolean>
+	isLogin(): IBluebird<boolean | string>
 	{
 		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+
+		let username = _checkLoginUsername(jsdom.$);
+
+		if (username != null)
+		{
+			return Bluebird.resolve(username)
+		}
+
 		return Bluebird.resolve(_checkLoginByJQuery(jsdom.$))
 	}
 
