@@ -55,13 +55,16 @@ export type ICreatePkgCachePath<T extends ICreatePkgCachePathMap, T2 extends Rec
 
 		task001: string;
 		infoPack: string;
+
 		idAuthors: string;
 		idTitles: string;
 		idUpdate: string;
 		idChapters: string;
+
 		ids: string;
 		titles: string;
 		authors: string;
+		tags: string;
 
 		cookiesCacheFile: string,
 		axiosCacheFile: string,

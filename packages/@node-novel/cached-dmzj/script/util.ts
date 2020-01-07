@@ -12,6 +12,7 @@ import {
 	AxiosStatic,
 } from 'axios';
 import { DmzjClient } from 'dmzj-api';
+import { DmzjClient as ApiClient } from 'dmzj-api';
 import fs from 'fs-extra';
 import path from "upath2";
 import { exportCache, IBaseCacheStore, importCache, processExitHook } from 'axios-cache-adapter-util';
@@ -19,44 +20,33 @@ import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/ca
 import { console, consoleDebug } from '@node-novel/site-cache-util/lib';
 import { dotValue } from '@bluelovers/axios-util';
 import { getResponseUrl } from '@bluelovers/axios-util/lib/index';
+import { LazyCookieJar } from 'lazy-cookies';
 
 export { consoleDebug, console }
 
-export const __root = path.join(__dirname, '..');
+import { __root, cacheFilePaths, __path } from './util/files';
+import { _setupCacheFile, _getApiClient } from '@node-novel/site-cache-util/lib/client';
+export { __root };
 
-let api: DmzjClient;
+let api: ApiClient;
 let saveCache: () => void;
+let jar: LazyCookieJar;
 
-export async function getDmzjClient()
+export async function getApiClient()
 {
-	if (api == null)
-	{
-		api = new DmzjClient({
+	({ api, saveCache, jar } = await _getApiClient({
+		api,
+		saveCache,
+		ApiClient,
+		__path,
+		jar,
+		envPrefix: 'DMZJ',
+		apiOptions: {
 			cache: {
-				maxAge: 12 * 60 * 60 * 1000,
+				maxAge: 18 * 60 * 60 * 1000,
 			},
-
-			raxConfig: {
-				retry: 1,
-				retryDelay: 1000,
-
-				onRetryAttempt: (err: AxiosError) => {
-
-					let currentRetryAttempt = dotValue(err, 'config.raxConfig.currentRetryAttempt');
-
-					consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, getResponseUrl(err.response));
-				}
-
-			},
-
-//			proxy: {
-//				host: '49.51.155.45',
-//				port: 8081,
-//			},
-
-		});
-		saveCache = await setupCacheFile(api);
-	}
+		}
+	}));
 
 	return {
 		api,
@@ -64,69 +54,7 @@ export async function getDmzjClient()
 	};
 }
 
-async function setupCacheFile(api: DmzjClient, saveCacheFileBySelf?: boolean)
-{
-	const store = getAxiosCacheAdapter(api).store as IBaseCacheStore;
-
-	const cacheFile = path.join(__root, 'test/temp', 'axios.cache.json');
-
-	const now = Date.now() + 3600;
-
-	await fs.readJSON(cacheFile)
-		.catch(e => {
-			return {}
-		})
-		.then(async (json) => {
-
-			let len = await store.length();
-
-			await importCache(store, json, {
-				importFilter(k, v)
-				{
-					if (now >= v.expires)
-					{
-						//v.expires = now;
-					}
-
-					let { status } = v.data;
-
-					if (status != 200)
-					{
-						consoleDebug.debug(`[importCache]`, String(status).padStart(3, '0'), k);
-					}
-
-					return v;
-				}
-			});
-
-			let len2 = await store.length();
-
-			console.log(`before: ${len}`, `after: ${len2}`);
-		})
-	;
-
-	function saveCache()
-	{
-		return exportCache(store, (json) => {
-			fs.outputJSONSync(cacheFile, json, {
-				spaces: 2,
-			});
-
-			console.debug(`[Cache]`, Object.keys(json).length, `saved`, path.relative(path.join(__dirname, '..'), cacheFile));
-
-		})
-	}
-
-	if (!saveCacheFileBySelf)
-	{
-		await processExitHook(() => {
-			console.debug(`processExitHook`);
-			return saveCache();
-		});
-	}
-
-	return saveCache
-}
+export { getApiClient as getDmzjClient }
 
 export function trim(input: string)
 {
