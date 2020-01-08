@@ -62,3 +62,4 @@ jest.config.js
 tsconfig.*.json
 tsconfig.esm.json.tpl
 password.local.*
+!yarn.lock
