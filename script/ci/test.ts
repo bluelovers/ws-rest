@@ -8,7 +8,7 @@ export default lazyRun(async () => {
 
 	await lazyImport('./test/chk-moment', require);
 
-	await lazyImport('./test/chk-github-actions', require);
+	await lazyImport('./test/chk-env', require);
 
 }, {
 	pkgLabel: __filename,
