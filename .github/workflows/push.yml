@@ -5,6 +5,7 @@ on:
     branches:
       - master
   schedule:
+# https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#scheduled-events-schedule
 #            ┌───────────── minute (0 - 59)
 #            │ ┌───────────── hour (0 - 23)
 #            │ │ ┌───────────── day of the month (1 - 31)
@@ -28,30 +29,34 @@ jobs:
       - name: Get yarn cache
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@master
+      - uses: actions/cache@v1
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-      - uses: actions/cache@master
+      - name: Get cached-dmzj
+        uses: actions/cache@v1
         with:
           path: packages/@node-novel/cached-dmzj/test/temp
           key: ${{ runner.os }}-cached-dmzj
-      - uses: actions/cache@master
+      - name: Get cached-esjzone
+        uses: actions/cache@v1
         with:
           path: packages/@node-novel/cached-esjzone/test/temp
           key: ${{ runner.os }}-cached-esjzone
-      - uses: actions/cache@master
+      - name: Get cached-masiro
+        uses: actions/cache@v1
         with:
           path: packages/@node-novel/cached-masiro/test/temp
           key: ${{ runner.os }}-cached-masiro
-      - uses: actions/cache@master
+      - name: Get cached-wenku8
+        uses: actions/cache@v1
         with:
           path: packages/@node-novel/cached-wenku8/test/temp
           key: ${{ runner.os }}-cached-wenku8
       - name: Cache Node.js modules
-        uses: actions/cache@master
+        uses: actions/cache@v1
         with:
           path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
           key: ${{ runner.OS }}-node-
