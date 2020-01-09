@@ -23,7 +23,7 @@
     "lerna": "yarn run prebuild:lockfile && yarn run lerna:prepublish && lerna publish --yes --cd-version patch",
     "lerna:prepublish": "yarn run ci:test && lerna run --scope @node-novel/cached-* build",
     "ncu": "npx npm-check-updates -u",
-    "ci:install": "yarn && yarn global add lerna typescript ts-node",
+    "ci:install": "yarn --frozen-lockfile && yarn global add lerna typescript ts-node",
     "ci:test": "ts-node ./script/ci/test",
     "ci:push": "ts-node ./script/ci/git-push",
     "sort-package-json": "npx \"sort-package-json\"",
