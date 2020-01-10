@@ -47,21 +47,21 @@ jobs:
         uses: bluelovers/github-actions-cache@2020011001
         with:
           path: packages/@node-novel/cached-esjzone/test/temp
-          key: ${{ runner.os }}-cached-esjzone-${{ GITHUB_SHA }}
+          key: ${{ runner.os }}-cached-esjzone-${GITHUB_SHA}
           restore-keys: |
             ${{ runner.os }}-cached-esjzone-
       - name: cached-masiro
         uses: bluelovers/github-actions-cache@2020011001
         with:
           path: packages/@node-novel/cached-masiro/test/temp
-          key: ${{ runner.os }}-cached-masiro-${{ GITHUB_SHA }}
+          key: ${{ runner.os }}-cached-masiro-${GITHUB_SHA}
           restore-keys: |
             ${{ runner.os }}-cached-masiro-
       - name: cached-wenku8
         uses: bluelovers/github-actions-cache@2020011001
         with:
           path: packages/@node-novel/cached-wenku8/test/temp
-          key: ${{ runner.os }}-cached-wenku8-${{ GITHUB_SHA }}
+          key: ${{ runner.os }}-cached-wenku8-${GITHUB_SHA}
           restore-keys: |
             ${{ runner.os }}-cached-wenku8-
       - name: setup git config
