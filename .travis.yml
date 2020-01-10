@@ -26,6 +26,6 @@ before_script:
   - yarn run ci:cache:list
 
 script:
-  - travis_wait 30 yarn run lerna:prepublish
+  - travis_wait 30 yarn run ci:build
   - yarn run ci:cache:list
   - yarn run ci:push

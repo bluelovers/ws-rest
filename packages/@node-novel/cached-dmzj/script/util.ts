@@ -43,7 +43,7 @@ export async function getApiClient()
 		envPrefix: 'DMZJ',
 		apiOptions: {
 			cache: {
-				maxAge: 18 * 60 * 60 * 1000,
+				maxAge: 25 * 60 * 60 * 1000,
 			},
 		}
 	}));

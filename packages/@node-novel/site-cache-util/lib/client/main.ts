@@ -41,9 +41,9 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 
 	if (api == null)
 	{
-		let setting: AxiosRequestConfig = defaultsDeep(apiOptions, {
+		let setting: AxiosRequestConfig = defaultsDeep(apiOptions || {}, {
 			cache: {
-				maxAge: 12 * 60 * 60 * 1000,
+				maxAge: 24 * 60 * 60 * 1000,
 			},
 
 			raxConfig: {
