@@ -36,6 +36,8 @@ let ls2 = ls.concat([
 	'GITHUB_WORKFLOW',
 	'GITHUB_WORKSPACE',
 
+	'GITHUB_CONTEXT',
+
 ]);
 
 ls2.forEach(k => {
