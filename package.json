@@ -25,6 +25,7 @@
     "ncu": "npx npm-check-updates -u",
     "ci:install": "yarn --frozen-lockfile && yarn global add lerna typescript ts-node cross-env",
     "ci:test": "ts-node ./script/ci/test",
+    "ci:build": "yarn run ci:test && yarn run lerna:prepublish",
     "ci:push": "ts-node ./script/ci/git-push",
     "sort-package-json": "npx \"sort-package-json\"",
     "test": "echo \"Error: no test specified\" && exit 1"
