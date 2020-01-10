@@ -41,9 +41,11 @@
   "devDependencies": {
     "@bluelovers/tsconfig": "^1.0.3",
     "@types/chai": "^4.2.7",
+    "@types/env-ci": "^3.1.0",
     "@types/fs-extra": "^7.0.0",
     "chai": "^4.2.0",
     "cross-env": "^6.0.3",
+    "env-ci": "^5.0.1",
     "filesize": "^6.0.1",
     "sync-lockfile": "^1.0.1"
   },
