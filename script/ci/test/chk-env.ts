@@ -15,6 +15,6 @@ console.log(`try check secrets exists`);
 
 ].forEach(k => {
 
-	console.log(k, k in process.env)
+	console.log(k, k in process.env, process.env[k] && process.env[k].length)
 
 });

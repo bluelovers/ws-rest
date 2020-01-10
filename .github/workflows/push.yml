@@ -67,9 +67,10 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-      - name: install
+      - name: install deps
         run: yarn run ci:install
-      - run: yarn run ci:test
+      - name: test ci env
+        run: cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} yarn run ci:test
 #      - name: run script
 #        run: yarn run lerna:prepublish
 #      - name: Push changes
