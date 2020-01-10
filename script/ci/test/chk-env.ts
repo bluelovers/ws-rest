@@ -4,7 +4,8 @@ import { assert, expect } from 'chai';
 
 console.log(`try check secrets exists`);
 
-[
+let ls = [
+
 	'GITHUB_ACTOR',
 	'GITHUB_TOKEN',
 
@@ -14,10 +15,21 @@ console.log(`try check secrets exists`);
 	'WENKU8_USER',
 	'WENKU8_PASS',
 
-].forEach(k => {
+];
+
+ls.concat([
+
+	'GITHUB_SHA',
+	'GITHUB_REF',
+
+]).forEach(k => {
 
 	console.log(k, k in process.env, process.env[k] && process.env[k].length)
 
 });
 
-assert('GITHUB_TOKEN' in process.env, `GITHUB_TOKEN not exists`);
+ls.forEach(k => {
+
+	assert((k in process.env) && process.env[k].length, `${k} not exists`);
+
+});
