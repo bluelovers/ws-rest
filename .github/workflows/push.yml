@@ -32,7 +32,7 @@ jobs:
       - name: echo yarn cache dir
         run: |
           echo ${{ steps.yarn-cache.outputs.dir }}
-          echo ${GITHUB_SHA}
+          echo ${{GITHUB_SHA}}
       - name: yarn cache
         uses: bluelovers/github-actions-cache@2020011001
         with:
