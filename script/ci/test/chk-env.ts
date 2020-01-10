@@ -38,6 +38,10 @@ let ls2 = ls.concat([
 
 	//'GITHUB_CONTEXT',
 
+	'ACTIONS_RUNNER_DEBUG',
+	'ACTIONS_STEP_DEBUG',
+
+
 ]);
 
 ls2.forEach(k => {
@@ -55,7 +59,7 @@ ls2.forEach(k => {
 });
 
 Object.keys(process.env)
-	.filter(k => /github|action|event|secret/i.test(k) && !ls2.includes(k))
+	.filter(k => /github|action|event|secret|Runner|Worker/i.test(k) && !ls2.includes(k))
 	.forEach((k) => {
 
 		let bool = k in process.env;
