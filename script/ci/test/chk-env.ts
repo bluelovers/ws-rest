@@ -1,5 +1,6 @@
 
 import { console } from '@node-novel/site-cache-util';
+import { assert, expect } from 'chai';
 
 console.log(`try check secrets exists`);
 
@@ -18,3 +19,5 @@ console.log(`try check secrets exists`);
 	console.log(k, k in process.env, process.env[k] && process.env[k].length)
 
 });
+
+assert('GITHUB_TOKEN' in process.env, `GITHUB_TOKEN not exists`);

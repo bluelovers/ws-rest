@@ -70,7 +70,7 @@ jobs:
       - name: install deps
         run: yarn run ci:install
       - name: test ci env
-        run: cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} yarn run ci:test
+        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} yarn run ci:test
 #      - name: run script
 #        run: yarn run lerna:prepublish
 #      - name: Push changes
