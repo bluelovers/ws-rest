@@ -64,14 +64,6 @@ jobs:
           key: ${{ runner.os }}-cached-wenku8-${{ hashFiles('packages/@node-novel/cached-wenku8/test/temp/*') }}
           restore-keys: |
             ${{ runner.os }}-cached-wenku8-
-      - name: Cache Node.js modules
-        uses: bluelovers/github-actions-cache@2020011001
-        with:
-          path: ~/.npm # npm cache files are stored in `~/.npm` on Linux/macOS
-          key: ${{ runner.OS }}-node-
-          restore-keys: |
-            ${{ runner.OS }}-node-
-            ${{ runner.OS }}-
       - name: setup git config
         run: |
           git config --local user.email "action@github.com"
@@ -80,9 +72,11 @@ jobs:
         run: yarn run ci:install
       - name: test ci env
         run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:test
-      - name: run script
-        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:build
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+#      - name: run script
+#        if: success()
+#        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:build
+#      - name: Push changes
+#        if: success()
+#        uses: ad-m/github-push-action@master
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
