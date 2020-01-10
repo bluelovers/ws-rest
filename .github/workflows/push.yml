@@ -41,35 +41,35 @@ jobs:
         uses: bluelovers/github-actions-cache@2020011001
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${GITHUB_SHA}
+          key: ${{ runner.os }}-yarn-${{ steps.id-cache.outputs.id }}
           restore-keys: |
             ${{ runner.os }}-yarn-
       - name: cached-dmzj
         uses: bluelovers/github-actions-cache@2020011001
         with:
           path: packages/@node-novel/cached-dmzj/test/temp
-          key: ${{ runner.os }}-cached-dmzj-${GITHUB_SHA}
+          key: ${{ runner.os }}-cached-dmzj-${{ steps.id-cache.outputs.id }}
           restore-keys: |
             ${{ runner.os }}-cached-dmzj-
       - name: cached-esjzone
         uses: bluelovers/github-actions-cache@2020011001
         with:
           path: packages/@node-novel/cached-esjzone/test/temp
-          key: ${{ runner.os }}-cached-esjzone-${GITHUB_SHA}
+          key: ${{ runner.os }}-cached-esjzone-${{ steps.id-cache.outputs.id }}
           restore-keys: |
             ${{ runner.os }}-cached-esjzone-
       - name: cached-masiro
         uses: bluelovers/github-actions-cache@2020011001
         with:
           path: packages/@node-novel/cached-masiro/test/temp
-          key: ${{ runner.os }}-cached-masiro-${GITHUB_SHA}
+          key: ${{ runner.os }}-cached-masiro-${{ steps.id-cache.outputs.id }}
           restore-keys: |
             ${{ runner.os }}-cached-masiro-
       - name: cached-wenku8
         uses: bluelovers/github-actions-cache@2020011001
         with:
           path: packages/@node-novel/cached-wenku8/test/temp
-          key: ${{ runner.os }}-cached-wenku8-${GITHUB_SHA}
+          key: ${{ runner.os }}-cached-wenku8-${{ steps.id-cache.outputs.id }}
           restore-keys: |
             ${{ runner.os }}-cached-wenku8-
       - name: setup git config
