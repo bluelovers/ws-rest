@@ -16,14 +16,19 @@ let ls = [
 
 ];
 
-ls.concat([
+let ls2 = ls.concat([
 
 	'GITHUB_SHA',
 	'GITHUB_REF',
 
 	'GITHUB_EVENT_NAME',
 
-]).forEach(k => {
+	'ACTIONS_CACHE_URL',
+	'ACTIONS_RUNTIME_URL',
+
+]);
+
+ls2.forEach(k => {
 
 	let bool = k in process.env;
 	let value = process.env[k];
@@ -36,6 +41,18 @@ ls.concat([
 	}
 
 });
+
+Object.keys(process.env)
+	.filter(k => /github|action|event|secret/i.test(k) && !ls2.includes(k))
+	.forEach((k) => {
+
+		let bool = k in process.env;
+		let value = process.env[k];
+
+		console.log(k, bool, bool && value.length);
+
+	})
+;
 
 ls.forEach(k => {
 
