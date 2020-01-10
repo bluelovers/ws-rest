@@ -12,4 +12,10 @@ export default lazyRun(async () => {
 
 }, {
 	pkgLabel: __filename,
-});
+})
+	.tapCatch(e => {
+		console.exception(e);
+
+		process.exit(1);
+	})
+;
