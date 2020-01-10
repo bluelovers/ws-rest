@@ -84,15 +84,15 @@ jobs:
           ACTIONS_CACHE_URL: ${{ secrets.ACTIONS_CACHE_URL }}
           ACTIONS_RUNTIME_URL: ${{ secrets.ACTIONS_RUNTIME_URL }}
         run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:test
-#      - name: ci:cache:list
-#        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:cache:list
-#      - name: run script
-#        if: success()
-#        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:build
-#      - name: ci:cache:list
-#        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:cache:list
-#      - name: Push changes
-#        if: success()
-#        uses: ad-m/github-push-action@master
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: ci:cache:list
+        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:cache:list
+      - name: run script
+        if: success()
+        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:build
+      - name: ci:cache:list
+        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:cache:list
+      - name: Push changes
+        if: success()
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
