@@ -80,9 +80,9 @@ jobs:
         run: yarn run ci:install
       - name: test ci env
         run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:test
-#      - name: run script
-#        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:build
-#      - name: Push changes
-#        uses: ad-m/github-push-action@master
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: run script
+        run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:build
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
