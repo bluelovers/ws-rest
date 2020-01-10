@@ -14,6 +14,8 @@ let ls = [
 	'WENKU8_USER',
 	'WENKU8_PASS',
 
+	'ACTIONS_RUNTIME_TOKEN',
+
 ];
 
 let ls2 = ls.concat([
@@ -40,7 +42,6 @@ let ls2 = ls.concat([
 
 	'ACTIONS_RUNNER_DEBUG',
 	'ACTIONS_STEP_DEBUG',
-
 
 ]);
 
