@@ -22,9 +22,19 @@ ls.concat([
 	'GITHUB_SHA',
 	'GITHUB_REF',
 
+	'GITHUB_EVENT_NAME',
+
 ]).forEach(k => {
 
-	console.log(k, k in process.env, process.env[k] && process.env[k].length)
+	let bool = k in process.env;
+	let value = process.env[k];
+
+	console.log(k, bool, bool && value.length);
+
+	if (bool && !ls.includes(k))
+	{
+		console.log(k, '=', value)
+	}
 
 });
 
