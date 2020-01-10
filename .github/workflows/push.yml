@@ -29,10 +29,14 @@ jobs:
       - name: get yarn cache dir
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: echo yarn cache dir
+      - name: set cache id
+        id: id-cache
+        run: echo "::set-output name=id::${GITHUB_SHA}"
+      - name: echo var
         run: |
           echo ${{ steps.yarn-cache.outputs.dir }}
-          echo ${{GITHUB_SHA}}
+          echo ${{ steps.id-cache.outputs.id }}
+          echo ${GITHUB_SHA}
       - name: yarn cache
         uses: bluelovers/github-actions-cache@2020011001
         with:
