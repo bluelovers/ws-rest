@@ -81,6 +81,8 @@ jobs:
       - name: test ci env
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
+          ACTIONS_CACHE_URL: ${ACTIONS_CACHE_URL}
+          ACTIONS_RUNTIME_URL: ${ACTIONS_RUNTIME_URL}
         run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:test
       - name: ci:cache:list
         run: yarn run cross-env GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MASIRO_USER=${{ secrets.MASIRO_USER }} MASIRO_PASS=${{ secrets.MASIRO_PASS }} WENKU8_USER=${{ secrets.WENKU8_USER }} WENKU8_PASS=${{ secrets.WENKU8_PASS }} yarn run ci:cache:list
