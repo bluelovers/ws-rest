@@ -14,6 +14,8 @@ export default lazyRun(async () => {
 
 	await lazyImport('./test/chk-env', require);
 
+	await lazyImport('./test/info-ci', require);
+
 }, {
 	pkgLabel: __filename,
 })
