@@ -1,7 +1,7 @@
 import { console } from '@node-novel/site-cache-util';
 import { assert, expect } from 'chai';
 import FastGlob from '@bluelovers/fast-glob/bluebird';
-import { lazyRun, path } from '@node-novel/site-cache-util/lib/index';
+import { lazyRun, path, console } from '@node-novel/site-cache-util/lib/index';
 import { __rootWs } from '../../project-root';
 
 export default lazyRun(async () => {
