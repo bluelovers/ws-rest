@@ -23,7 +23,9 @@ install:
 
 before_script:
   - yarn run ci:test
+  - yarn run ci:cache:list
 
 script:
   - travis_wait 30 yarn run lerna:prepublish
+  - yarn run ci:cache:list
   - yarn run ci:push
