@@ -10,6 +10,8 @@ export default lazyRun(async () => {
 
 	await lazyImport('./test/chk-cache', require);
 
+	await lazyImport('./test/try-cache', require);
+
 	await lazyImport('./test/chk-env', require);
 
 }, {
