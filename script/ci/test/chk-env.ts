@@ -1,4 +1,3 @@
-
 import { console } from '@node-novel/site-cache-util';
 import { assert, expect } from 'chai';
 
