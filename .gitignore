@@ -75,3 +75,5 @@ coverage
 axios.cache.json
 axios.cookies.json
 password.local.*
+**/test/temp/*
+!**/cached-*/test/temp/
