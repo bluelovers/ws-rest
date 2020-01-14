@@ -43,8 +43,16 @@ export default lazyRun(async () => {
 			git_root: join(__root, 'data'),
 			callback(json: IESJzoneRecentUpdateRowBook, id: string)
 			{
+				let c = 0;
+				let v = 0;
+
+				c = json.chapters.reduce((len, vol) => {
+					v++;
+					return len += vol.chapters.length;
+				}, 0);
+
 				return `- ${id.padStart(4, '0')} ${json.name} ${moment.unix(json.last_update_time)
-					.format()} ${json.last_update_chapter_name}`;
+					.format()} ${json.last_update_chapter_name} c:${c} v:${v}`;
 			}
 		});
 

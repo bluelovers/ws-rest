@@ -16,7 +16,7 @@ import { join, parse as parsePath } from 'path';
 import { crossSpawnOutput } from '@git-lazy/util/spawn/util';
 import { readJSONSync } from 'fs-extra';
 import { __root } from './util';
-import { IDmzjClientNovelRecentUpdateAll } from 'dmzj-api/lib/types';
+import { IDmzjClientNovelRecentUpdateAll, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
 import packageJson from '../package.json';
 import { skipCi } from '@node-novel/site-cache-util/lib/ci';
@@ -24,7 +24,7 @@ import { console } from '@node-novel/site-cache-util/lib';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 
 import { pkgLabel } from './util/main';
-import cacheFilePaths from './util/files';
+import cacheFilePaths, { cacheFileInfoPath } from './util/files';
 
 export default lazyRun(async () => {
 
@@ -75,7 +75,17 @@ if (ls2.length)
 
 			if (ids.includes(id))
 			{
-				a.push(`- ${id.padStart(4, '0')} ${v.name} ${moment.unix(v.last_update_time).format()} ${v.last_update_volume_name} ${v.last_update_chapter_name}`)
+				let json = readJSONSync(cacheFileInfoPath(id)) as IDmzjNovelInfoWithChapters;
+
+				let cs = 0;
+				let vs = 0;
+
+				cs = json.chapters.reduce((len, vol) => {
+					vs++;
+					return len += vol.chapters.length;
+				}, 0);
+
+				a.push(`- ${id.padStart(4, '0')} ${v.name} ${moment.unix(v.last_update_time).format()} ${v.last_update_volume_name} ${v.last_update_chapter_name} c:${cs} v:${vs}`)
 			}
 
 			return a;
