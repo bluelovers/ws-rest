@@ -3,21 +3,21 @@
   "name": "魔术学院第一名毕业的我成为冒险者，真有那么奇怪吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "特典小册子『威廉的毕业研究』",
-  "last_update_volume_id": 10190,
-  "last_update_chapter_id": 97370,
-  "last_update_time": 1561375041,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10548,
+  "last_update_chapter_id": 102350,
+  "last_update_time": 1578905088,
   "cover": "https://xs.dmzj.com/img/webpic/22/sx0624l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 131684,
   "introduction": "威廉身为魔术学院成绩第一的毕业生，拓展在他眼前的是收入优渥、工作稳定的康庄大道，然而他却选择充满自由与可能性的冒险者之路！只见他与盗贼、神官和剑客等三名少女一同组队，并凭藉远远凌驾新手冒险者水准的魔法能力，以及兼具谋略与实践性的战斗方式，轻松解决各种公会任务。不仅如此，他竟然还拥有超越魔术师等级的巫师称号……!?就连实力派冒险者少女都招架不住的超强魔术师冒险物语，在此开幕！",
   "types": [
     "冒险"
   ],
   "authors": "いかぽん",
   "first_letter": "M",
-  "subscribe_num": 5074,
-  "redis_update_time": 1564311957,
+  "subscribe_num": 7682,
+  "redis_update_time": 1578970956,
   "volume": [
     {
       "id": 10190,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1561374827,
-      "sum_chapters": 9
+      "sum_chapters": 5
+    },
+    {
+      "id": 10548,
+      "lnovel_id": 2687,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1578904267,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -88,6 +96,69 @@
         {
           "chapter_id": 97370,
           "chapter_name": "特典小册子『威廉的毕业研究』",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10548,
+      "id": 10548,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 102317,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102318,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102319,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102320,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102321,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102323,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 102324,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 102325,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 102326,
+          "chapter_name": "──精灵少女与潺潺洞窟──",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 102327,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 102350,
+          "chapter_name": "插画",
           "chapter_order": 110
         }
       ]

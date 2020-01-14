@@ -4,12 +4,12 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "终话",
+  "last_update_chapter_name": "插画",
   "last_update_volume_id": 10493,
-  "last_update_chapter_id": 101562,
-  "last_update_time": 1576316735,
+  "last_update_chapter_id": 102352,
+  "last_update_time": 1578905249,
   "cover": "https://xs.dmzj.com/img/webpic/25/yw0630l.jpg",
-  "hot_hits": 144290,
+  "hot_hits": 200778,
   "introduction": "位于大陆中央的某大国，原在花街从事药师工作的少女「猫猫」，被卖进宫中成为下女。得知了皇帝的年幼御子们一一早夭的传闻，以自身的药学知识解开了早夭之谜、挽救了御子的性命，得到后宫统领者「壬氏」的赏识，成为皇妃身边的试毒者。在好奇心与求知欲的驱使下，药学狂人猫猫将宫中发生的悬疑事件接连解决。",
   "types": [
     "历史",
@@ -17,8 +17,8 @@
   ],
   "authors": "日向夏",
   "first_letter": "Y",
-  "subscribe_num": 19532,
-  "redis_update_time": 1576354643,
+  "subscribe_num": 21163,
+  "redis_update_time": 1578969653,
   "volume": [
     {
       "id": 10492,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1576315992,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 10493,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1576316434,
-      "sum_chapters": 7
+      "sum_chapters": 5
+    },
+    {
+      "id": 10549,
+      "lnovel_id": 2512,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1578904479,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -208,6 +216,11 @@
           "chapter_id": 101539,
           "chapter_name": "终话 宦官与娼妓",
           "chapter_order": 330
+        },
+        {
+          "chapter_id": 102351,
+          "chapter_name": "插画",
+          "chapter_order": 340
         }
       ]
     },
@@ -331,6 +344,129 @@
           "chapter_id": 101562,
           "chapter_name": "终话",
           "chapter_order": 230
+        },
+        {
+          "chapter_id": 102352,
+          "chapter_name": "插画",
+          "chapter_order": 240
+        }
+      ]
+    },
+    {
+      "volume_id": 10549,
+      "id": 10549,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 102328,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102329,
+          "chapter_name": "序话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102330,
+          "chapter_name": "一话 书册",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102331,
+          "chapter_name": "二话 猫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102332,
+          "chapter_name": "三话 商队",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102333,
+          "chapter_name": "四话 精油",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 102334,
+          "chapter_name": "五话 冬人夏草 上篇",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 102335,
+          "chapter_name": "六话 冬人夏草 下篇",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 102336,
+          "chapter_name": "七话 镜子",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 102337,
+          "chapter_name": "八话 月精",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 102338,
+          "chapter_name": "九话 病坊",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 102339,
+          "chapter_name": "十话 三访水晶宫上篇",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 102340,
+          "chapter_name": "十一话 三访水晶宫 下篇",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 102341,
+          "chapter_name": "十二话 选定之庙",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 102342,
+          "chapter_name": "十三话 皇太后",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 102343,
+          "chapter_name": "十四话 先帝",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 102344,
+          "chapter_name": "十五话 怪谈",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 102345,
+          "chapter_name": "十六话 避暑山庄",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 102346,
+          "chapter_name": "十七话 游猎 上篇",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 102347,
+          "chapter_name": "十八话 游猎 中篇",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 102348,
+          "chapter_name": "十九话 游猎 下篇",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 102349,
+          "chapter_name": "终话",
+          "chapter_order": 220
         }
       ]
     }
