@@ -19,6 +19,7 @@ export default lazyRun(async () => {
 	let id_update: number[] = [];
 
 	let id_chapters = {} as Record<string, number>;
+	let idVolumes = {} as Record<string, number>;
 
 	let data = await Bluebird.resolve(Object.entries(json2))
 		.reduce((a, [id, v]: [string, IDmzjNovelInfoWithChapters]) => {
@@ -66,7 +67,10 @@ export default lazyRun(async () => {
 				})
 			;
 
+			idVolumes[row.id] = 0;
+
 			id_chapters[row.id] = v.chapters.reduce((len, vol) => {
+				idVolumes[row.id]++;
 				return len += vol.chapters.length;
 			}, 0);
 
@@ -89,6 +93,9 @@ export default lazyRun(async () => {
 			spaces: 2,
 		}),
 		writeJSON(cacheFilePaths.idChapters, id_chapters, {
+			spaces: 2,
+		}),
+		writeJSON(cacheFilePaths.idVolumes, idVolumes, {
 			spaces: 2,
 		}),
 	]);

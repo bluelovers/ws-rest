@@ -60,6 +60,7 @@ export type ICreatePkgCachePath<T extends ICreatePkgCachePathMap, T2 extends Rec
 		idTitles: string;
 		idUpdate: string;
 		idChapters: string;
+		idVolumes: string;
 
 		ids: string;
 		titles: string;
@@ -108,6 +109,8 @@ export function createPkgCachePath<T extends Record<string, string | [string, ..
 			idUpdate: join('data/novel', 'id_update.json'),
 
 			idChapters: join('data/novel', 'id_chapters.json'),
+
+			idVolumes: join('data/novel', 'id_volumes.json'),
 
 			ids: join('data/novel', 'ids.json'),
 

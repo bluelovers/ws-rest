@@ -24,6 +24,7 @@ export default lazyRun(async () => {
 	let copyrightRemove = {} as Record<string, string>;
 
 	let id_chapters = {} as Record<string, number>;
+	let idVolumes = {} as Record<string, number>;
 
 	await Bluebird
 		.resolve(recentUpdate.data)
@@ -50,7 +51,10 @@ export default lazyRun(async () => {
 				copyrightRemove[id] = name;
 			}
 
+			idVolumes[id] = 0;
+
 			id_chapters[id] = info.chapters.reduce((len, vol) => {
+				idVolumes[id]++;
 				return len += vol.chapters.length;
 			}, 0)
 
@@ -72,37 +76,45 @@ export default lazyRun(async () => {
 	array_unique_overwrite(titles).sort(_sortFn001);
 	array_unique_overwrite(authors).sort(_sortFn001);
 
-	await writeJSON(cacheFilePaths.idAuthors, idAuthors, {
-		spaces: 2,
-	});
+	await Bluebird.all([
 
-	await writeJSON(cacheFilePaths.idUpdate, idUpdate, {
-		spaces: 2,
-	});
+		writeJSON(cacheFilePaths.idAuthors, idAuthors, {
+			spaces: 2,
+		}),
 
-	await writeJSON(cacheFilePaths.idTitles, idTitles, {
-		spaces: 2,
-	});
+		writeJSON(cacheFilePaths.idUpdate, idUpdate, {
+			spaces: 2,
+		}),
 
-	await writeJSON(cacheFilePaths.ids, ids, {
-		spaces: 2,
-	});
+		writeJSON(cacheFilePaths.idTitles, idTitles, {
+			spaces: 2,
+		}),
 
-	await writeJSON(cacheFilePaths.titles, titles, {
-		spaces: 2,
-	});
+		writeJSON(cacheFilePaths.ids, ids, {
+			spaces: 2,
+		}),
 
-	await writeJSON(cacheFilePaths.authors, authors, {
-		spaces: 2,
-	});
+		writeJSON(cacheFilePaths.titles, titles, {
+			spaces: 2,
+		}),
 
-	await writeJSON(cacheFilePaths.copyrightRemove, copyrightRemove, {
-		spaces: 2,
-	});
+		writeJSON(cacheFilePaths.authors, authors, {
+			spaces: 2,
+		}),
 
-	await writeJSON(cacheFilePaths.idChapters, id_chapters, {
-		spaces: 2,
-	});
+		writeJSON(cacheFilePaths.copyrightRemove, copyrightRemove, {
+			spaces: 2,
+		}),
+
+		writeJSON(cacheFilePaths.idChapters, id_chapters, {
+			spaces: 2,
+		}),
+
+		writeJSON(cacheFilePaths.idVolumes, idVolumes, {
+			spaces: 2,
+		}),
+
+	]);
 
 }, {
 	pkgLabel: __filename

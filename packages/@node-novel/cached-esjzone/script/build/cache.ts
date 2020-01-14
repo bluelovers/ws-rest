@@ -27,6 +27,7 @@ export default lazyRun(async () => {
 	let idTitles = {} as Record<string, string>;
 
 	let id_chapters = {} as Record<string, number>;
+	let idVolumes = {} as Record<string, number>;
 
 	await Bluebird
 		.resolve(Object.values(infoPack))
@@ -48,7 +49,10 @@ export default lazyRun(async () => {
 
 			tags.push(...row.tags);
 
+			idVolumes[id] = 0;
+
 			id_chapters[id] = row.chapters.reduce((len, vol) => {
+				idVolumes[id]++;
 				return len += vol.chapters.length;
 			}, 0)
 
@@ -79,7 +83,8 @@ export default lazyRun(async () => {
 		outputJSONLazy(cacheFilePaths.titles, titles),
 		outputJSONLazy(cacheFilePaths.authors, authors),
 		outputJSONLazy(cacheFilePaths.idChapters, id_chapters),
-		outputJSONLazy(cacheFilePaths.tags, tags)
+		outputJSONLazy(cacheFilePaths.tags, tags),
+		outputJSONLazy(cacheFilePaths.idVolumes, idVolumes),
 	]);
 
 }, {
