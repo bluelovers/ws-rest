@@ -1,0 +1,25 @@
+name: login task
+
+on:
+  schedule:
+    - cron: '0 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 13
+      - name: install deps
+        run: yarn run ci:install
+      - name: test ci env
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MASIRO_USER: ${{ secrets.MASIRO_USER }}
+          MASIRO_PASS: ${{ secrets.MASIRO_PASS }}
+          WENKU8_USER: ${{ secrets.WENKU8_USER }}
+          WENKU8_PASS: ${{ secrets.WENKU8_PASS }}
+        run: yarn run ci:task

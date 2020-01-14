@@ -29,6 +29,7 @@
     "ci:push": "ts-node ./script/ci/git-push",
     "ci:cache:list": "ts-node ./script/ci/test/chk-cache",
     "sort-package-json": "npx \"sort-package-json\"",
+    "ci:task": "ts-node ./packages/@node-novel/cached-masiro/script/build/task_logined",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
