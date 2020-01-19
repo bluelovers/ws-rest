@@ -119,7 +119,11 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 					envPrefix: opts.envPrefix,
 				});
 
-				if (DISABLE_LOGIN)
+				if (localPassword)
+				{
+					consoleDebug.red.info(`帳密不存在`);
+				}
+				else if (DISABLE_LOGIN)
 				{
 					consoleDebug.red.info(`[DISABLE_LOGIN] 選項已啟用，忽略使用帳密登入`);
 				}

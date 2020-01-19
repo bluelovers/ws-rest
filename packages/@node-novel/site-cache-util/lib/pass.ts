@@ -11,7 +11,7 @@ export async function importPassword<T extends IPasswordLocal>(options: {
 	envPrefix?: string,
 }): Promise<T>
 {
-	let target = path.join(options.__root, options.file);
+	let target = path.resolve(options.__root, options.file);
 
 return import(target)
 	.catch(e => {
