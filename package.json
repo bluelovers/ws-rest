@@ -29,7 +29,7 @@
     "ci:push": "ts-node ./script/ci/git-push",
     "ci:cache:list": "ts-node ./script/ci/test/chk-cache",
     "sort-package-json": "npx \"sort-package-json\"",
-    "ci:task": "ts-node ./packages/@node-novel/cached-masiro/script/build/task_logined",
+    "ci:task": "ts-node ./script/task",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -47,6 +47,7 @@
     "chai": "^4.2.0",
     "cross-ci": "^1.6.0",
     "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
     "env-ci": "^5.0.1",
     "filesize": "^6.0.1",
     "sync-lockfile": "^1.0.1"

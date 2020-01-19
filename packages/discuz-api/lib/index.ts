@@ -381,6 +381,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('home.php?mod=space&do=notice&view=system')
+	@ReturnValueToJSDOM()
 	@CacheRequest({
 		cache: {
 			maxAge: 0,
@@ -389,7 +390,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	@methodBuilder()
 	isLogin(): IBluebird<boolean | string>
 	{
-		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+		const jsdom = this.$returnValue as IJSDOM;
 
 		let username = _checkLoginUsername(jsdom.$);
 
