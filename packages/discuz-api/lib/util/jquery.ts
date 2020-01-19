@@ -9,7 +9,7 @@ import { trimUnsafe } from '../util';
 
 export function _checkLoginByJQuery($: JQueryStatic)
 {
-	return $('.vwmy a[href*="uid="], #loginstatusid')
+	return $('.vwmy a[href*="uid"], #loginstatusid, a#myprompt')
 		.length > 1
 }
 
@@ -17,7 +17,7 @@ export function _checkLoginUsername($: JQueryStatic)
 {
 	if (_checkLoginByJQuery($))
 	{
-		let user = $('.vwmy a[href*="uid="]').text()
+		let user = $('.vwmy a[href*="uid"]').text()
 			.replace(/^\s+|\s+$/g, '');
 
 		if (user.length)
