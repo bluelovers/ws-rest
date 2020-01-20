@@ -19,11 +19,14 @@ export function getThreadsByFid<API extends DiscuzClient>(api: API, threadOption
 {
 	let cacheForum: IDiscuzForumPickThreads;
 	let cacheThreads: Record<string, IDiscuzForumThread>;
-	let oldExists: boolean;
 
 	return api.forumThreads(threadOptions, {
 		async next(cur: IDiscuzForum, forum: IDiscuzForum)
 		{
+			let oldExists: number;
+
+			//consoleDebug.debug('page:', cur.page);
+
 			if (typeof cacheForum === 'undefined')
 			{
 				cacheForum = await readJSON(cacheFileInfoPath(threadOptions.fid)).catch(e => null);
@@ -47,20 +50,51 @@ export function getThreadsByFid<API extends DiscuzClient>(api: API, threadOption
 				return true;
 			}
 
+			let i = 0;
+			let len = cur.threads.length;
+
 			let bool = !cur.threads.every(v => {
 
 				let old = cacheThreads[v.tid];
-
-				if (typeof old !== 'undefined')
-				{
-					oldExists = true;
-				}
-				else if (!oldExists)
-				{
-					return true;
-				}
+				let isNotExists = typeof old === 'undefined';
 
 				let bool = deepEql(v, old);
+
+				if (!bool)
+				{
+					if (typeof oldExists === 'undefined' && isNotExists)
+					{
+						i++;
+						bool = true;
+					}
+//					else if (oldExists)
+//					{
+//						oldExists++;
+//					}
+					else if (oldExists < 2)
+					{
+						oldExists = 2;
+					}
+				}
+//				else if (oldExists)
+//				{
+//					oldExists++
+//				}
+//				else if (typeof oldExists === 'undefined')
+//				{
+//					oldExists = 1;
+//				}
+				else if (!oldExists)
+				{
+					oldExists = 1;
+				}
+
+				if (!oldExists && !isNotExists)
+				{
+					oldExists = 0;
+				}
+
+				//console.log(bool, oldExists);
 
 //				if (!bool && typeof old !== 'undefined')
 //				{
@@ -74,9 +108,21 @@ export function getThreadsByFid<API extends DiscuzClient>(api: API, threadOption
 				return bool;
 			});
 
+			if (i === len)
+			{
+				bool = true;
+			}
+
 			if (!bool)
 			{
-				consoleDebug.debug(`fid: ${forum.fid} 沒有發現 threads 變化，略過檢查後續頁數 (${cur.page} / ${cur.pages})`);
+				if (i > 0)
+				{
+					consoleDebug.debug(`fid: ${forum.fid} 發現 threads 增加，但其他相同，略過檢查後續頁數 (${cur.page} / ${cur.pages})`);
+				}
+				else
+				{
+					consoleDebug.debug(`fid: ${forum.fid} 沒有發現 threads 變化，略過檢查後續頁數 (${cur.page} / ${cur.pages})`);
+				}
 
 				forum.threads = uniqBy(forum.threads.concat(cacheForum.threads), 'tid');
 			}
