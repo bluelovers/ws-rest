@@ -65,7 +65,7 @@ import {
 	_jqForumThreadTypes,
 	_checkLoginUsername,
 } from './util/jquery';
-import { ITSRequiredWith, ITSPickExtra } from 'ts-type';
+import { ITSRequiredWith, ITSPickExtra, ITSResolvable } from 'ts-type';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
 import crlf from 'crlf-normalize';
@@ -299,6 +299,11 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		} as IDiscuzForum) as any
 	}
 
+	forumThread(argv: ITSRequiredWith<IDzParamForumdisplay, 'page'>)
+	{
+		return this.forum(argv)
+	}
+
 	/**
 	 * 取得板塊下指定範圍頁數的主題列表
 	 */
@@ -306,9 +311,13 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		from?: number,
 		to?: number,
 		delay?: number,
+		/**
+		 * 允許中斷後續頁數抓取
+		 */
+		next?(cur: IDiscuzForum, forum: IDiscuzForum): ITSResolvable<boolean>,
 	} = {})
 	{
-		let { from = 1, to = Infinity, delay } = range;
+		let { from = 1, to = Infinity, delay, next } = range;
 
 		from |= 0;
 		delay |= 0;
@@ -340,15 +349,22 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 					_not_cache = delay > 0 && !isResponseFromAxiosCache(this.$response);
 
 					let _updated: boolean;
+					let data: IDiscuzForum = forum;
 
 					while (++pi <= to)
 					{
+						if (next && !await next(data, forum))
+						{
+							_updated = true;
+							break;
+						}
+
 						if (_not_cache)
 						{
 							await Bluebird.delay(delay);
 						}
 
-						let data = await this.forum({
+						data = await this.forum({
 								...argv,
 								page: pi,
 							})

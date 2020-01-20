@@ -50,7 +50,7 @@ export interface IDiscuzForumPickThreads extends Omit<IDiscuzForum, 'page'>
 export interface IDiscuzForumThread
 {
 	tid: string,
-	typeid: string,
+	typeid?: string,
 	subject: string,
 	dateline: number,
 	author: string,

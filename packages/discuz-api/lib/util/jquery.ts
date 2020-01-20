@@ -115,14 +115,21 @@ export function _jqForumThreads($: JQueryStatic, selector = '#threadlisttableid 
 				typeid = new LazyURL(_a.prop('href')).searchParams.get('typeid');
 			}
 
-			threads.push({
+			let thread: IDiscuzForumThread = {
 				tid,
 				typeid,
 				subject,
 				dateline,
 				author,
 				authorid,
-			});
+			};
+
+			if (typeof typeid === 'undefined')
+			{
+				delete thread.typeid;
+			}
+
+			threads.push(thread);
 
 		})
 	;

@@ -11,6 +11,7 @@ import { IDiscuzForumThread } from 'discuz-api/lib/types';
 import { _getForumLastThreadSubject } from 'discuz-api/lib/util';
 
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
+import getThreadsByFid from '../util/getThreads';
 
 export default lazyRun(async () => {
 
@@ -34,9 +35,11 @@ export default lazyRun(async () => {
 			{
 				let _file = cacheFileInfoPath(fid);
 
-				return api.forumThreads({
+				return getThreadsByFid(api, {
 						fid
-					})
+					}, {
+					cacheFileInfoPath,
+				})
 					.tap(async (data) =>
 					{
 						listCache[fid] = Math.max(data.last_thread_time | 0, last_update_time | 0, 0);
@@ -100,7 +103,7 @@ export default lazyRun(async () => {
 			}
 			else
 			{
-				//consoleDebug.gray.debug(`[SKIP]`, index, id, row.name, moment.unix(listCache[id]).format());
+				//consoleDebug.gray.debug(`[SKIP]`, fid, moment.unix(last_update_time).format());
 			}
 
 		})
