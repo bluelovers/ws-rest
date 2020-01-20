@@ -491,7 +491,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		},
 	})
 	@methodBuilder()
-	noticeView(@ParamPath('view') view: IDzParamNoticeView): IBluebirdAxiosResponse<unknown>
+	noticeView(@ParamPath<string, IDzParamNoticeView>('view', 'system') view: IDzParamNoticeView = 'system'): IBluebirdAxiosResponse<unknown>
 	{
 		return
 	}

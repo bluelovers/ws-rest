@@ -119,7 +119,7 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 					envPrefix: opts.envPrefix,
 				});
 
-				if (localPassword)
+				if (!localPassword)
 				{
 					consoleDebug.red.info(`帳密不存在`);
 				}

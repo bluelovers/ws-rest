@@ -21,11 +21,14 @@ export default lazyRun(async () => {
 
 	await Bluebird.resolve().tap(e => config()).catch(e => null);
 
+	consoleDebug.info(`執行 discuz 模組`);
+
 	await Bluebird.resolve(process.env.MY_HASHED_JSON)
 		.then<IMY_HASHED_JSON_ROW[]>((envValue) => {
 			return JSON.parse(Buffer.from(envValue, 'base64').toString()) || []
 		})
 		.catch(e => [] as IMY_HASHED_JSON_ROW[])
+		.tap(ls => consoleDebug.info(`list count:`, ls.length))
 		.each(async (options) => {
 
 			let { baseURL, cookies } = options;
