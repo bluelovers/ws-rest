@@ -80,6 +80,8 @@ export default lazyRun(async () => {
 				.catch(e => null)
 			;
 
+			await api.noticeView('app');
+
 		})
 	;
 
