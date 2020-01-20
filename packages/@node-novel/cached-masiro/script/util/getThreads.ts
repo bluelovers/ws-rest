@@ -62,14 +62,14 @@ export function getThreadsByFid<API extends DiscuzClient>(api: API, threadOption
 
 				let bool = deepEql(v, old);
 
-				if (!bool)
-				{
-					console.dir({
-						bool,
-						old,
-						v,
-					})
-				}
+//				if (!bool && typeof old !== 'undefined')
+//				{
+//					console.dir({
+//						bool,
+//						old,
+//						v,
+//					})
+//				}
 
 				return bool;
 			});
@@ -82,7 +82,7 @@ export function getThreadsByFid<API extends DiscuzClient>(api: API, threadOption
 			}
 			else
 			{
-				consoleDebug.debug(`fid: ${forum.fid} (${cur.page} / ${cur.pages})`);
+				//consoleDebug.debug(`fid: ${forum.fid} (${cur.page} / ${cur.pages})`);
 			}
 
 			return bool;
