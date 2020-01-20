@@ -29,7 +29,7 @@ export function getThreadsByFid<API extends DiscuzClient>(api: API, threadOption
 
 			if (typeof cacheForum === 'undefined')
 			{
-				cacheForum = await readJSON(cacheFileInfoPath(threadOptions.fid)).catch(e => null);
+				cacheForum = await readJSON(extraOptions.cacheFileInfoPath(threadOptions.fid)).catch(e => null);
 
 				if (cacheForum == null)
 				{
