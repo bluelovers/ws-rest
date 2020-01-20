@@ -70,7 +70,7 @@ export default lazyRun(async () => {
 						//console.dir(href);
 
 						await Bluebird.resolve(api.$http.get(href))
-							.tap(v => console.log(typeof v, v, v.toString()))
+							//.tap(v => console.log(typeof v, v, v.toString()))
 							.catch(e => null)
 						;
 
