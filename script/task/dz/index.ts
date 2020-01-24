@@ -33,6 +33,8 @@ export default lazyRun(async () => {
 
 			let { baseURL, cookies } = options;
 
+			console.dir(baseURL);
+
 			const api = new ApiClient({
 				baseURL,
 			});
@@ -57,6 +59,7 @@ export default lazyRun(async () => {
 			;
 
 			await api.isLogin()
+				.tap(bool => console.log(`isLogin`, !!bool))
 				.tap(async function (this: ApiClient) {
 					const jsdom = this.$returnValue as IJSDOM;
 					const { $ } = jsdom;
