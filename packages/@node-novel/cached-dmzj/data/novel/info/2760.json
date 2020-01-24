@@ -3,13 +3,13 @@
   "name": "人生代练",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 教师顶包",
-  "last_update_chapter_name": "末章 固有观念",
-  "last_update_volume_id": 10484,
-  "last_update_chapter_id": 102196,
-  "last_update_time": 1577877079,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "第四章 球技不佳的普通外科",
+  "last_update_volume_id": 10557,
+  "last_update_chapter_id": 102448,
+  "last_update_time": 1579613654,
   "cover": "https://xs.dmzj.com/img/webpic/23/dl1210l.jpg",
-  "hot_hits": 1999,
+  "hot_hits": 2669,
   "introduction": "（国轻）生活于这个社会必然不可能一帆风顺必定会遇到挫折，而那些大的让人迈不过去的人生困境困扰着人们于是产生了顶包师这一职业。\n只要支付足够的薪水，就能够代替你帮你度过这个人生困境，虽然原理各种不明但人生代练已经还是悄然兴起。\n白水芝因为学历问题找不到工作在疯狂投简历的情况下被一家名为北京顶包有限公司的公司录取试用，就在她本以为被骗时却意外邂逅了……",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "言出五味",
   "first_letter": "R",
-  "subscribe_num": 705,
-  "redis_update_time": 1578034132,
+  "subscribe_num": 835,
+  "redis_update_time": 1579823180,
   "volume": [
     {
       "id": 10484,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷 教师顶包",
       "volume_order": 10,
       "addtime": 1575983997,
-      "sum_chapters": 7
+      "sum_chapters": 9
+    },
+    {
+      "id": 10557,
+      "lnovel_id": 2760,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1579613590,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -75,6 +83,34 @@
           "chapter_id": 102196,
           "chapter_name": "末章 固有观念",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10557,
+      "id": 10557,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 102445,
+          "chapter_name": "第一章 北京大第四分院医生顶包",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102446,
+          "chapter_name": "第二章 内外科之争",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102447,
+          "chapter_name": "第三章 倒下的外科部长与突然到来的战地医生",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102448,
+          "chapter_name": "第四章 球技不佳的普通外科",
+          "chapter_order": 40
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "让笨蛋登上舞台吧！(为那个笨蛋也打上脚灯！)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷 与白龙的盟约",
+  "last_update_volume_name": "第六卷 为您献上骑士的誓言",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10501,
-  "last_update_chapter_id": 101789,
-  "last_update_time": 1576841511,
+  "last_update_volume_id": 10561,
+  "last_update_chapter_id": 102483,
+  "last_update_time": 1579689084,
   "cover": "https://xs.dmzj.com/img/webpic/12/bd0720l.jpg",
-  "hot_hits": 245699,
+  "hot_hits": 303175,
   "introduction": "达斯特外传",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "昼熊",
   "first_letter": "R",
-  "subscribe_num": 12774,
-  "redis_update_time": 1576961909,
+  "subscribe_num": 14881,
+  "redis_update_time": 1579824241,
   "volume": [
     {
       "id": 9575,
@@ -59,6 +59,14 @@
       "volume_name": "第五卷 与白龙的盟约",
       "volume_order": 50,
       "addtime": 1576836174,
+      "sum_chapters": 9
+    },
+    {
+      "id": 10561,
+      "lnovel_id": 2521,
+      "volume_name": "第六卷 为您献上骑士的誓言",
+      "volume_order": 60,
+      "addtime": 1579688815,
       "sum_chapters": 9
     }
   ],
@@ -370,6 +378,54 @@
           "chapter_id": 101789,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 10561,
+      "id": 10561,
+      "volume_name": "第六卷 为您献上骑士的誓言",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 102476,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102477,
+          "chapter_name": "第一章 那顽皮姬引发了骚动",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102478,
+          "chapter_name": "第二章 揭开那场出逃的真相",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102479,
+          "chapter_name": "第三章 兑现那个冒险的约定",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102480,
+          "chapter_name": "第四章 让那龙骑士做出了断",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102481,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 102482,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 102483,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }
