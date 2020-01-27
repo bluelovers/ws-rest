@@ -3,13 +3,13 @@
   "name": "看来我的身体天下无敌呢",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10534,
-  "last_update_chapter_id": 102225,
-  "last_update_time": 1577960445,
+  "last_update_volume_id": 10565,
+  "last_update_chapter_id": 102517,
+  "last_update_time": 1579942686,
   "cover": "https://xs.dmzj.com/img/webpic/20/st0423l.jpg",
-  "hot_hits": 58427,
+  "hot_hits": 155552,
   "introduction": "　　「大小姐又混乱到做出滑稽的事情了……」\n　　年幼夭折的病弱少女许下的愿望是──想要不会输给任何事物的身体。\n　　大概是那股思念成功上达天听吧，转生到异世界的少女得到了从攻击力、防御力乃至于魔力，各式各样的能力值全都MAX的完美肉体。\n　　不是吧，我要的不是这个啊！\n　　只想要普通的人生、对神不知轻重的行为深感困惑的少女，以公爵千金梅雅莉・雷葛利亚的身分，为了度过不起眼的第二人生，努力朝著错误的方向奋斗！",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "ちゃつふさ",
   "first_letter": "K",
-  "subscribe_num": 11363,
-  "redis_update_time": 1578033651,
+  "subscribe_num": 14510,
+  "redis_update_time": 1580084028,
   "volume": [
     {
       "id": 10073,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1556029940,
-      "sum_chapters": 7
+      "sum_chapters": 9
     },
     {
       "id": 10534,
@@ -35,7 +35,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1577960061,
-      "sum_chapters": 7
+      "sum_chapters": 9
+    },
+    {
+      "id": 10565,
+      "lnovel_id": 2652,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1579942301,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -142,6 +150,64 @@
           "chapter_id": 102225,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 10565,
+      "id": 10565,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 102507,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102508,
+          "chapter_name": "开幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102509,
+          "chapter_name": "第一章 学园篇长假其之一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102510,
+          "chapter_name": "第二章 学园篇长假其之二",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102511,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102512,
+          "chapter_name": "番外篇01 这样是不行的，伊莉莎白殿下。",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 102513,
+          "chapter_name": "番外篇02 肯子小姐是麻烦制造者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 102514,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 102515,
+          "chapter_name": "首刷限定附录！“出游骚动★8P特典小册子”",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 102517,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
