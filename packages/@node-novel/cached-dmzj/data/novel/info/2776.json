@@ -3,21 +3,21 @@
   "name": "道别的方法，我不愿知晓",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "尾声",
-  "last_update_volume_id": 10531,
-  "last_update_chapter_id": 102182,
-  "last_update_time": 1577873513,
+  "last_update_volume_id": 10573,
+  "last_update_chapter_id": 102619,
+  "last_update_time": 1580288990,
   "cover": "https://xs.dmzj.com/img/webpic/7/zy0101l.jpg",
-  "hot_hits": 746,
+  "hot_hits": 5404,
   "introduction": "　　故事开始了——在八月湛蓝的天空下。\n　　你获得了成为架见崎居民的权利——。高二的香屋步收到一封奇怪的信，上面写着从没听过的城镇。尽管内容可疑，但信封上的记号和两年前挚友最后留下的记号相同。Toma还活着？为寻找线索，香屋前往信中指定的公寓……\n　　战争。领土。能力者。与死亡和泪水比邻的青春。“架见崎”系列，就此开幕。",
   "types": [
     "侦探"
   ],
   "authors": "河野裕",
   "first_letter": "D",
-  "subscribe_num": 544,
-  "redis_update_time": 1577952052,
+  "subscribe_num": 2229,
+  "redis_update_time": 1580428153,
   "volume": [
     {
       "id": 10531,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1577873391,
-      "sum_chapters": 10
+      "sum_chapters": 27
+    },
+    {
+      "id": 10573,
+      "lnovel_id": 2776,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1580288812,
+      "sum_chapters": 27
     }
   ],
   "chapters": [
@@ -79,6 +87,54 @@
           "chapter_id": 102182,
           "chapter_name": "尾声",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10573,
+      "id": 10573,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 102612,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102613,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102614,
+          "chapter_name": "第一话 他的日子如时钟般一成不变",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102615,
+          "chapter_name": "第二话 混迹于所有人视线中的怪物",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102616,
+          "chapter_name": "第三话 给猫起名字需要觉悟",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102617,
+          "chapter_name": "第四话 这个公会就要毁了",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 102618,
+          "chapter_name": "第五话 夕阳下的笑脸只是错觉",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 102619,
+          "chapter_name": "尾声",
+          "chapter_order": 80
         }
       ]
     }

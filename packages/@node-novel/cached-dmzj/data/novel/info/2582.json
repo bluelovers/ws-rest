@@ -3,21 +3,21 @@
   "name": "天才王子的赤字国家振兴术",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9925,
-  "last_update_chapter_id": 93546,
-  "last_update_time": 1549003517,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "第三章 三名皇子",
+  "last_update_volume_id": 10572,
+  "last_update_chapter_id": 102611,
+  "last_update_time": 1580207107,
   "cover": "https://xs.dmzj.com/img/webpic/16/tiancai1120l.jpg",
-  "hot_hits": 276821,
+  "hot_hits": 458639,
   "introduction": "暂无简介",
   "types": [
     "战争"
   ],
   "authors": "鸟羽彻",
   "first_letter": "T",
-  "subscribe_num": 13407,
-  "redis_update_time": 1564344078,
+  "subscribe_num": 17506,
+  "redis_update_time": 1580428495,
   "volume": [
     {
       "id": 9804,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 对了，卖国吧",
       "volume_order": 10,
       "addtime": 1543400238,
-      "sum_chapters": 8
+      "sum_chapters": 27
     },
     {
       "id": 9830,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1544339273,
-      "sum_chapters": 8
+      "sum_chapters": 27
     },
     {
       "id": 9925,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1548691648,
-      "sum_chapters": 8
+      "sum_chapters": 27
+    },
+    {
+      "id": 10572,
+      "lnovel_id": 2582,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1580207054,
+      "sum_chapters": 27
     }
   ],
   "chapters": [
@@ -90,6 +98,11 @@
           "chapter_id": 91519,
           "chapter_name": "插画",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 102607,
+          "chapter_name": "夜游小记4P特典小册子",
+          "chapter_order": 90
         }
       ]
     },
@@ -201,6 +214,34 @@
           "chapter_id": 93546,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10572,
+      "id": 10572,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 102608,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102609,
+          "chapter_name": "第一章 对了，交给妹妹吧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102610,
+          "chapter_name": "第二章 芙兰亚的决意",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102611,
+          "chapter_name": "第三章 三名皇子",
+          "chapter_order": 40
         }
       ]
     }

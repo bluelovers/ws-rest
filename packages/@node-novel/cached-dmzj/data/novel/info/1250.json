@@ -3,13 +3,13 @@
   "name": "千之魔剑与盾之少女",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第十四卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10396,
-  "last_update_chapter_id": 101066,
-  "last_update_time": 1574522217,
+  "last_update_volume_name": "第十五卷",
+  "last_update_chapter_name": "第四章 轰鸣的天空",
+  "last_update_volume_id": 10571,
+  "last_update_chapter_id": 102603,
+  "last_update_time": 1580128258,
   "cover": "https://xs.dmzj.com/img/webpic/19/qzmjydzsn48l.jpg",
-  "hot_hits": 518426,
+  "hot_hits": 546520,
   "introduction": "　　这是人类的黑暗世纪。富庶丰饶的大陆被魔物占据，人类被迫迁居至漂浮海上的都市以及其他的小岛苟延残喘。年轻的勇者虽然牺牲自己封印了魔王，人类依然没有能力击退盘据大陆的魔物，收复沦陷已久的故土。一百多年之后，以「希望」为名的年轻魔剑使亚马洛克出现在漂浮于海上的某座都市，这个有点莽撞、有点迷糊却又正义感十足的年轻人带着一把会说话的魔剑，与同为魔剑使的少女爱莉西亚和炼成师少女菲尔组成冒险队伍，往返于都市与大陆之间。以打倒魔王为梦想的亚马洛克是否能够实现梦想，替人类带来全新的希望？",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "川口士",
   "first_letter": "Q",
-  "subscribe_num": 11102,
-  "redis_update_time": 1575224118,
+  "subscribe_num": 12852,
+  "redis_update_time": 1580429778,
   "volume": [
     {
       "id": 4499,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1338537045,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 4547,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1341798812,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 4587,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1343030851,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 4662,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1346226170,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 5531,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1379318809,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 5762,
@@ -66,7 +66,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1389700709,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 6341,
@@ -74,7 +74,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1411041124,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 6342,
@@ -82,7 +82,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1411041130,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 6399,
@@ -90,7 +90,7 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1413114198,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 6653,
@@ -98,7 +98,7 @@
       "volume_name": "第十卷",
       "volume_order": 100,
       "addtime": 1422191415,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 6665,
@@ -106,7 +106,7 @@
       "volume_name": "第十一卷",
       "volume_order": 110,
       "addtime": 1422616859,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 10182,
@@ -114,7 +114,7 @@
       "volume_name": "第十二卷",
       "volume_order": 120,
       "addtime": 1560951237,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 10326,
@@ -122,7 +122,7 @@
       "volume_name": "第十三卷",
       "volume_order": 130,
       "addtime": 1568213367,
-      "sum_chapters": 18
+      "sum_chapters": 27
     },
     {
       "id": 10396,
@@ -130,7 +130,15 @@
       "volume_name": "第十四卷",
       "volume_order": 140,
       "addtime": 1571718366,
-      "sum_chapters": 18
+      "sum_chapters": 27
+    },
+    {
+      "id": 10571,
+      "lnovel_id": 1250,
+      "volume_name": "第十五卷",
+      "volume_order": 150,
+      "addtime": 1580128160,
+      "sum_chapters": 27
     }
   ],
   "chapters": [
@@ -803,6 +811,44 @@
           "chapter_id": 101066,
           "chapter_name": "后记",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10571,
+      "id": 10571,
+      "volume_name": "第十五卷",
+      "volume_order": 150,
+      "chapters": [
+        {
+          "chapter_id": 102598,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102599,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102600,
+          "chapter_name": "第一章 覆盖的黑尘",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102601,
+          "chapter_name": "第二章 战斗的都市",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102602,
+          "chapter_name": "第三章 燃烧的灵魂",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102603,
+          "chapter_name": "第四章 轰鸣的天空",
+          "chapter_order": 60
         }
       ]
     }
