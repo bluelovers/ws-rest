@@ -3,13 +3,13 @@
   "name": "试行错误的异世界旅行记",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 起始之城",
-  "last_update_chapter_name": "EX-2",
-  "last_update_volume_id": 10581,
-  "last_update_chapter_id": 102763,
-  "last_update_time": 1580630807,
+  "last_update_volume_name": "第二卷 前往祭典的旅程",
+  "last_update_chapter_name": "闲话•艾娜",
+  "last_update_volume_id": 10585,
+  "last_update_chapter_id": 102901,
+  "last_update_time": 1581156086,
   "cover": "https://xs.dmzj.com/img/webpic/29/cz1219l.jpg",
-  "hot_hits": 37689,
+  "hot_hits": 54499,
   "introduction": "有一天，大学生御厨玲因异世界之神的疏忽而奄奄一息。\n  作为原因的神在治疗他的肉体期间，邀请御厨玲用代理身体去自己所管理的世界旅行，于是御厨玲作为REI踏上了旅途。\n  但是，那个世界是怪物肆虐的危险地带，年轻的代理肉体的Level只有1，当然，Status也都是1。因此他在赤手空拳的贫弱状态下败给了史莱姆，并成了史莱姆的盘中餐。\n  本该成为一线光明的《Trial&Error》作为能够【死亡回归】的力量，却是越使用就越会因为因果的叠加而带来灾难的缺陷品。\n  就像切削自己的灵魂一般不断地重新来过，玲为了和同伴们一起生存下去，以未来为目标，不断积累着自己的死亡——",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "取方右半",
   "first_letter": "S",
-  "subscribe_num": 1843,
-  "redis_update_time": 1580689148,
+  "subscribe_num": 2307,
+  "redis_update_time": 1581293414,
   "volume": [
     {
       "id": 10581,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷 起始之城",
       "volume_order": 10,
       "addtime": 1580630360,
-      "sum_chapters": 28
+      "sum_chapters": 37
+    },
+    {
+      "id": 10585,
+      "lnovel_id": 2784,
+      "volume_name": "第二卷 前往祭典的旅程",
+      "volume_order": 20,
+      "addtime": 1581070042,
+      "sum_chapters": 37
     }
   ],
   "chapters": [
@@ -175,6 +183,44 @@
           "chapter_id": 102763,
           "chapter_name": "EX-2",
           "chapter_order": 280
+        }
+      ]
+    },
+    {
+      "volume_id": 10585,
+      "id": 10585,
+      "volume_name": "第二卷 前往祭典的旅程",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 102824,
+          "chapter_name": "1 无人知晓的战斗",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 102825,
+          "chapter_name": "2 曾见过的那抹金色",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 102826,
+          "chapter_name": "3 新的助力",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 102827,
+          "chapter_name": "4 意想不到的契约",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 102828,
+          "chapter_name": "5『岩壁』的实力",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 102901,
+          "chapter_name": "闲话•艾娜",
+          "chapter_order": 60
         }
       ]
     }
