@@ -3,13 +3,13 @@
   "name": "乙女游戏世界对路人角色很不友好",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10485,
-  "last_update_chapter_id": 101447,
-  "last_update_time": 1576057554,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 10606,
+  "last_update_chapter_id": 103114,
+  "last_update_time": 1581584167,
   "cover": "https://xs.dmzj.com/img/webpic/5/ynsj0922l.gif",
-  "hot_hits": 192752,
+  "hot_hits": 472567,
   "introduction": "从现代日本转生过去的世界——居然是女尊男卑的世界！？ 「利欧」作为男爵家的三男迎来第二次人生，但是没想到那居然是自己所知道的乙女游戏世界。 那是大地浮在天空上，飞船在天空中来往的幻想世界。 那是个有着名叫冒险者的存在，一切都令人兴奋不已的异世界。 但是，利欧无法好好去享受。 因为那是个女尊男卑很严重的世界，贵族的男性都要为了结婚而恶战苦斗的世界。 邪门歪道的自称路人角色的男主角到处捣乱的游戏系异世界幻想故事！",
   "types": [
     "穿越",
@@ -18,8 +18,8 @@
   ],
   "authors": "三岛与梦",
   "first_letter": "Y",
-  "subscribe_num": 13711,
-  "redis_update_time": 1576252471,
+  "subscribe_num": 19026,
+  "redis_update_time": 1581639111,
   "volume": [
     {
       "id": 10345,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1569126047,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 10485,
@@ -35,7 +35,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1576057133,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    },
+    {
+      "id": 10606,
+      "lnovel_id": 2732,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1581583366,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -237,6 +245,99 @@
           "chapter_id": 101447,
           "chapter_name": "插画",
           "chapter_order": 200
+        }
+      ]
+    },
+    {
+      "volume_id": 10606,
+      "id": 10606,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 103098,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103099,
+          "chapter_name": "第01话「精灵之乡」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103100,
+          "chapter_name": "第02话「遗迹的秘密」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103101,
+          "chapter_name": "第03话「因缘」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103102,
+          "chapter_name": "第04话「背面」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103103,
+          "chapter_name": "第05话「假冒的圣女」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103104,
+          "chapter_name": "第06话「羁绊」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103105,
+          "chapter_name": "第07话「命运」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103106,
+          "chapter_name": "第08话「出阵」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 103107,
+          "chapter_name": "第09话「魔人」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 103108,
+          "chapter_name": "第10话「莉维亚的力量」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 103109,
+          "chapter_name": "第11话「爱的力量」",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 103110,
+          "chapter_name": "第12话「残酷的实事」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 103111,
+          "chapter_name": "第13话「游戏通关」",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 103112,
+          "chapter_name": "「尾声」",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 103113,
+          "chapter_name": "番外篇「露蒂与兰妲」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 103114,
+          "chapter_name": "后记",
+          "chapter_order": 170
         }
       ]
     }
