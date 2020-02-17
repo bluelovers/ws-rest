@@ -3,13 +3,13 @@
   "name": "谁是最强鉴定士？～吃饱喝足的异世界生活～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10591,
-  "last_update_chapter_id": 102899,
-  "last_update_time": 1581155907,
+  "last_update_volume_id": 10605,
+  "last_update_chapter_id": 103096,
+  "last_update_time": 1581582560,
   "cover": "https://xs.dmzj.com/img/webpic/18/zqjd0521l.jpg",
-  "hot_hits": 270130,
+  "hot_hits": 338570,
   "introduction": "　　钉宫悠利是突然被传送到异世界的高中男生，他在地下城中迷路的时候，《深红的山猫》的冒险者们保护了他。\n　　他被传送到异世界时获得了鉴定类的最强技能【神之瞳】，但他却一副无关紧要的样子！他的厨艺本来就很精湛，再加上原本便喜欢做一些繁琐家务，于是在秘密基地中，也乐得负责打理伙食，不但抓住周遭人的胃，还生产一些不存在于异世界的物品，尽其所能浪费自己的作弊能力！虽然每次做出各种「好事」都会被骂，不过他正慢步调地享受著异世界生活！！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "港濑つかさ",
   "first_letter": "S",
-  "subscribe_num": 7148,
-  "redis_update_time": 1581293190,
+  "subscribe_num": 8388,
+  "redis_update_time": 1581899253,
   "volume": [
     {
       "id": 10122,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1558448299,
-      "sum_chapters": 37
+      "sum_chapters": 12
     },
     {
       "id": 10125,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1558618485,
-      "sum_chapters": 37
+      "sum_chapters": 12
     },
     {
       "id": 10133,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1558878429,
-      "sum_chapters": 37
+      "sum_chapters": 12
     },
     {
       "id": 10591,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1581154258,
-      "sum_chapters": 37
+      "sum_chapters": 12
+    },
+    {
+      "id": 10605,
+      "lnovel_id": 2669,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1581578248,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -376,6 +384,79 @@
         },
         {
           "chapter_id": 102899,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10605,
+      "id": 10605,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 103084,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103085,
+          "chapter_name": "序章 用胡椒盐简单烹调美味的肉",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103086,
+          "chapter_name": "第一章 用剩油炒出粒粒分明的蛋炒饭",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103087,
+          "chapter_name": "闲聊一 改良精油？在家享受奢华入浴剂",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103088,
+          "chapter_name": "第二章 见习生组在此的理由",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103089,
+          "chapter_name": "闲聊二 轻而易举驱除害虫",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103090,
+          "chapter_name": "第三章 将超稀有药品送给所需之人",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103091,
+          "chapter_name": "闲聊三 小心食物相克！",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103092,
+          "chapter_name": "第四章 综合调味料真方便",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 103093,
+          "chapter_name": "尾声 日常×技能＝等级提升？",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 103094,
+          "chapter_name": "特别篇 在BBQ大会开心烧烤喜欢的食物",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 103095,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 103096,
           "chapter_name": "插画",
           "chapter_order": 130
         }

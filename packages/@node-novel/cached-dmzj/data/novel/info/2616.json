@@ -4,81 +4,91 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "Epilogue",
-  "last_update_volume_id": 9913,
-  "last_update_chapter_id": 93201,
-  "last_update_time": 1548126240,
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10607,
+  "last_update_chapter_id": 103377,
+  "last_update_time": 1581678506,
   "cover": "https://xs.dmzj.com/img/webpic/4/wenhao0122l.jpg",
-  "hot_hits": 7189,
+  "hot_hits": 25992,
   "introduction": "文豪野犬 剧场版特典2",
   "types": [
     "奇幻"
   ],
   "authors": "朝雾カフカ",
   "first_letter": "W",
-  "subscribe_num": 4121,
-  "redis_update_time": 1564335814,
+  "subscribe_num": 5982,
+  "redis_update_time": 1581897991,
   "volume": [
     {
-      "id": 9913,
+      "id": 10607,
       "lnovel_id": 2616,
       "volume_name": "第一卷",
       "volume_order": 10,
-      "addtime": 1548125926,
-      "sum_chapters": 8
+      "addtime": 1581677769,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
     {
-      "volume_id": 9913,
-      "id": 9913,
+      "volume_id": 10607,
+      "id": 10607,
       "volume_name": "第一卷",
       "volume_order": 10,
       "chapters": [
         {
-          "chapter_id": 93193,
+          "chapter_id": 103360,
           "chapter_name": "转载信息",
           "chapter_order": 10
         },
         {
-          "chapter_id": 93194,
+          "chapter_id": 103361,
           "chapter_name": "Prologue",
           "chapter_order": 20
         },
         {
-          "chapter_id": 93195,
+          "chapter_id": 103362,
           "chapter_name": "Phase.01",
           "chapter_order": 30
         },
         {
-          "chapter_id": 93196,
+          "chapter_id": 103363,
           "chapter_name": "Phase.02",
           "chapter_order": 40
         },
         {
-          "chapter_id": 93197,
+          "chapter_id": 103364,
           "chapter_name": "Phase.03",
           "chapter_order": 50
         },
         {
-          "chapter_id": 93198,
+          "chapter_id": 103365,
           "chapter_name": "Phase.xx",
           "chapter_order": 60
         },
         {
-          "chapter_id": 93199,
+          "chapter_id": 103366,
           "chapter_name": "Phase.04",
           "chapter_order": 70
         },
         {
-          "chapter_id": 93200,
+          "chapter_id": 103367,
           "chapter_name": "Phase.05",
           "chapter_order": 80
         },
         {
-          "chapter_id": 93201,
+          "chapter_id": 103368,
           "chapter_name": "Epilogue",
           "chapter_order": 90
+        },
+        {
+          "chapter_id": 103369,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 103377,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
