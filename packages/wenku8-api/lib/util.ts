@@ -14,28 +14,6 @@ import { Buffer } from 'buffer';
 
 export { removeZeroWidth }
 
-export function arrayBufferToString(buf: number[])
-{
-	return Buffer.from(buf).toString();
-}
-
-export function sniffHTMLEncoding(buf: unknown | ArrayLike<number>, defaultEncoding = 'GBK'): string
-{
-	return _sniffHTMLEncoding(buf, {
-		defaultEncoding,
-	});
-}
-
-export function iconvDecode(buf: unknown | ArrayLike<number>, defaultEncoding?: string)
-{
-	return _iconvDecode(buf, sniffHTMLEncoding(buf, defaultEncoding));
-}
-
-export function deserializeCookieJar(serialized: CookieJar.Serialized | string, store?: Store)
-{
-	return LazyCookieJar.deserializeSync(serialized, store)
-}
-
 export function trimUnsafe<T extends string>(input: T): T
 {
 	// @ts-ignore
@@ -46,24 +24,3 @@ export function trimUnsafe<T extends string>(input: T): T
 		.trim()
 }
 
-export function tryMinifyHTML(html: string, throwError?: boolean | ((html: string) => any))
-{
-	try
-	{
-		html = minifyHTML(html);
-
-		if (typeof throwError === 'function')
-		{
-			return throwError(html);
-		}
-	}
-	catch (e)
-	{
-		if (throwError === true)
-		{
-			throw e;
-		}
-	}
-
-	return html;
-}

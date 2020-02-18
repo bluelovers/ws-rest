@@ -28,7 +28,7 @@ import toughCookie, { CookieJar } from 'tough-cookie';
 import { fromURL, IFromUrlOptions, IJSDOM, createJSDOM, IConstructorOptions as IJSDOMConstructorOptions } from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
-import { arrayBufferToString, trimUnsafe, tryMinifyHTML } from './util';
+import { trimUnsafe } from './util';
 
 import { sniffHTMLEncoding, iconvDecode } from 'restful-decorator-plugin-jsdom/lib/util/gbk';
 
@@ -50,6 +50,7 @@ import { getResponseUrl } from '@bluelovers/axios-util/lib';
 import { Buffer } from 'buffer';
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
+import tryMinifyHTML from 'restful-decorator-plugin-jsdom/lib/html';
 
 /**
  * https://www.wenku8.net/index.php

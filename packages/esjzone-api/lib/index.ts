@@ -34,7 +34,7 @@ import {
 } from 'jsdom-extra';
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
-import { trimUnsafe, tryMinifyHTML } from './util';
+import { trimUnsafe } from './util';
 import moment from 'moment';
 import {
 	IESJzoneRecentUpdate,
@@ -49,6 +49,7 @@ import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorator
 import { _handleInputUrl, _fixCoverUrl } from './util/site';
 import LazyURL from 'lazy-url';
 import orderBy from 'lodash/orderBy';
+import tryMinifyHTML from 'restful-decorator-plugin-jsdom/lib/html';
 
 /**
  * https://www.wenku8.net/index.php
@@ -376,7 +377,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 		try
 		{
-			tryMinifyHTML(_content.html(), (html) =>
+			tryMinifyHTML(_content.html(), (html: string) =>
 			{
 				_content.html(html);
 			});
