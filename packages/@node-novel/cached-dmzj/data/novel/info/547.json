@@ -3,21 +3,21 @@
   "name": "英国奇异谭",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷 死者之灯火",
+  "last_update_volume_name": "第六卷 在圣夜里流淌的血",
   "last_update_chapter_name": "终章",
-  "last_update_volume_id": 8909,
-  "last_update_chapter_id": 78760,
-  "last_update_time": 1503148827,
+  "last_update_volume_id": 10616,
+  "last_update_chapter_id": 103518,
+  "last_update_time": 1582026561,
   "cover": "https://xs.dmzj.com/img/webpic/1/ygqyt.jpg",
-  "hot_hits": 18016,
+  "hot_hits": 18425,
   "introduction": "内容简介：爱上湖之精灵的青年杰克的灵魂，为了寻求新的肉体而在深夜彷徨。\n某个夏天的夜晚，男子住宿学校的学生们召开了怪谈大会，但是当讲到和湖中精灵有关的禁忌传说的时候，他们的周围却突然发生异变。\n一个学生在封闭的灵庙内失去了踪影，当时和他在一起的另一个学生也被恶灵附身。\n以建立在湖畔的全住宿制男子贵族学校为舞台，灵感少年悠里在诡异的事件中大显身手。\n\n转自 轻之国度",
   "types": [
     "神鬼"
   ],
   "authors": "篠原美季",
   "first_letter": "Y",
-  "subscribe_num": 497,
-  "redis_update_time": 1564988667,
+  "subscribe_num": 613,
+  "redis_update_time": 1582047563,
   "volume": [
     {
       "id": 2052,
@@ -25,7 +25,7 @@
       "volume_name": "英国妖异谭",
       "volume_order": 10,
       "addtime": 1274918850,
-      "sum_chapters": 10
+      "sum_chapters": 33
     },
     {
       "id": 2053,
@@ -33,7 +33,7 @@
       "volume_name": "叹息的肖像画",
       "volume_order": 20,
       "addtime": 1274918850,
-      "sum_chapters": 10
+      "sum_chapters": 33
     },
     {
       "id": 2054,
@@ -41,7 +41,7 @@
       "volume_name": "被困的独角兽",
       "volume_order": 30,
       "addtime": 1274918850,
-      "sum_chapters": 10
+      "sum_chapters": 33
     },
     {
       "id": 2055,
@@ -49,7 +49,7 @@
       "volume_name": "无尽的德鲁伊誓约",
       "volume_order": 40,
       "addtime": 1274918850,
-      "sum_chapters": 10
+      "sum_chapters": 33
     },
     {
       "id": 8909,
@@ -57,7 +57,15 @@
       "volume_name": "第五卷 死者之灯火",
       "volume_order": 50,
       "addtime": 1503148534,
-      "sum_chapters": 10
+      "sum_chapters": 33
+    },
+    {
+      "id": 10616,
+      "lnovel_id": 547,
+      "volume_name": "第六卷 在圣夜里流淌的血",
+      "volume_order": 60,
+      "addtime": 1582026402,
+      "sum_chapters": 33
     }
   ],
   "chapters": [
@@ -298,6 +306,54 @@
           "chapter_id": 78760,
           "chapter_name": "终章",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 10616,
+      "id": 10616,
+      "volume_name": "第六卷 在圣夜里流淌的血",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 103511,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103512,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103513,
+          "chapter_name": "第一章 Advent calendar（降临节日历）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103514,
+          "chapter_name": "第二章 圣诞节的由来",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103515,
+          "chapter_name": "第三章 圣尼可拉斯日",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103516,
+          "chapter_name": "第四章 无法送达的礼物",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103517,
+          "chapter_name": "第五章 圣诞节的狂躁",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103518,
+          "chapter_name": "终章",
+          "chapter_order": 80
         }
       ]
     }

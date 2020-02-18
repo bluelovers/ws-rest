@@ -3,13 +3,13 @@
   "name": "文豪野犬 BEAST—白之芥川、黑之敦—",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "剧场版特典1",
-  "last_update_chapter_name": "#3",
-  "last_update_volume_id": 9618,
-  "last_update_chapter_id": 88814,
-  "last_update_time": 1533796662,
+  "last_update_volume_name": "第一卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10608,
+  "last_update_chapter_id": 103378,
+  "last_update_time": 1581678609,
   "cover": "https://xs.dmzj.com/img/webpic/7/wh0809l.jpg",
-  "hot_hits": 11660,
+  "hot_hits": 38814,
   "introduction": "文豪野犬 剧场版特典",
   "types": [
     "奇幻",
@@ -17,49 +17,64 @@
   ],
   "authors": "朝雾カフカ",
   "first_letter": "W",
-  "subscribe_num": 4779,
-  "redis_update_time": 1564338386,
+  "subscribe_num": 6997,
+  "redis_update_time": 1582047011,
   "volume": [
     {
-      "id": 9618,
+      "id": 10608,
       "lnovel_id": 2531,
       "volume_name": "第一卷",
       "volume_order": 10,
-      "addtime": 1533796556,
-      "sum_chapters": 8
+      "addtime": 1581678043,
+      "sum_chapters": 33
     }
   ],
   "chapters": [
     {
-      "volume_id": 9618,
-      "id": 9618,
+      "volume_id": 10608,
+      "id": 10608,
       "volume_name": "第一卷",
       "volume_order": 10,
       "chapters": [
         {
-          "chapter_id": 88812,
+          "chapter_id": 103370,
           "chapter_name": "转载信息",
-          "chapter_order": 1
-        },
-        {
-          "chapter_id": 88810,
-          "chapter_name": "#0",
           "chapter_order": 10
         },
         {
-          "chapter_id": 88811,
-          "chapter_name": "#1",
+          "chapter_id": 103371,
+          "chapter_name": "#0",
           "chapter_order": 20
         },
         {
-          "chapter_id": 88813,
-          "chapter_name": "#2",
+          "chapter_id": 103372,
+          "chapter_name": "#1",
           "chapter_order": 30
         },
         {
-          "chapter_id": 88814,
-          "chapter_name": "#3",
+          "chapter_id": 103373,
+          "chapter_name": "#2",
           "chapter_order": 40
+        },
+        {
+          "chapter_id": 103374,
+          "chapter_name": "#3",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103375,
+          "chapter_name": "#4",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103376,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103378,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

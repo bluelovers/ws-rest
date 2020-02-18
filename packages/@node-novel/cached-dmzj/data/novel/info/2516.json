@@ -3,13 +3,13 @@
   "name": "异世界悠闲农家",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10300,
-  "last_update_chapter_id": 98999,
-  "last_update_time": 1566472741,
+  "last_update_volume_id": 10611,
+  "last_update_chapter_id": 103465,
+  "last_update_time": 1581761451,
   "cover": "https://xs.dmzj.com/img/webpic/25/yx0709l.jpg",
-  "hot_hits": 83809,
+  "hot_hits": 216685,
   "introduction": "和病魔斗争但最终死去的火乐，被神大人所复活，回复年轻及转移在异世界。为了第二次人生，享受悠闲的农家生活。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "内藤骑之介",
   "first_letter": "Y",
-  "subscribe_num": 11036,
-  "redis_update_time": 1566561723,
+  "subscribe_num": 14847,
+  "redis_update_time": 1582047332,
   "volume": [
     {
       "id": 9554,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1531144930,
-      "sum_chapters": 22
+      "sum_chapters": 33
     },
     {
       "id": 10300,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1566472521,
-      "sum_chapters": 22
+      "sum_chapters": 33
+    },
+    {
+      "id": 10611,
+      "lnovel_id": 2516,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1581753197,
+      "sum_chapters": 33
     }
   ],
   "chapters": [
@@ -129,6 +137,54 @@
         },
         {
           "chapter_id": 98999,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10611,
+      "id": 10611,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 103405,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103406,
+          "chapter_name": "序章 过度保护的葛莱姆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103407,
+          "chapter_name": "第一章 一年的结束与开始",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103408,
+          "chapter_name": "第二章 天使族与新的孩子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103409,
+          "chapter_name": "第三章 地鼠与死灵王",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103410,
+          "chapter_name": "终章 神殿",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103411,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103465,
           "chapter_name": "插画",
           "chapter_order": 80
         }
