@@ -3,13 +3,13 @@
   "name": "我的她是战争妖精",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
-  "last_update_chapter_name": "终章 震动",
-  "last_update_volume_id": 10554,
-  "last_update_chapter_id": 102416,
-  "last_update_time": 1579360287,
+  "last_update_volume_name": "第八卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10620,
+  "last_update_chapter_id": 103565,
+  "last_update_time": 1582096114,
   "cover": "https://xs.dmzj.com/img/webpic/11/bnyj0118l.jpg",
-  "hot_hits": 233355,
+  "hot_hits": 269486,
   "introduction": "由话题作品『文学少女』作者的妹妹执笔\n法米通近期最被看好的新作\n宫本伊织正面临危机。班上女同学牧岛皐月登门拜访，他却对楼上的状况在意得无以复加。好不容易送辠月离开之后，伊织前往二楼打开衣柜——里头是一名被五花大绑，宛如陶瓷娃娃般的美少女！\n「克莉丝是战争妖精。」\n就这样，伊织突然和克莉丝开始同居，还被卷入神秘的死斗……这名少女到底是什么身分！？\n两人将以奇妙的羁绊，踏上一段神秘的战争之旅！！",
   "types": [
     "冒险",
@@ -18,8 +18,8 @@
   ],
   "authors": "嬉野秋彦",
   "first_letter": "W",
-  "subscribe_num": 4308,
-  "redis_update_time": 1579447455,
+  "subscribe_num": 6336,
+  "redis_update_time": 1582142124,
   "volume": [
     {
       "id": 3890,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1314606792,
-      "sum_chapters": 6
+      "sum_chapters": 10
     },
     {
       "id": 4032,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1320633824,
-      "sum_chapters": 6
+      "sum_chapters": 10
     },
     {
       "id": 4168,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1325317916,
-      "sum_chapters": 6
+      "sum_chapters": 10
     },
     {
       "id": 4360,
@@ -51,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1332843019,
-      "sum_chapters": 6
+      "sum_chapters": 10
     },
     {
       "id": 4544,
@@ -59,7 +59,7 @@
       "volume_name": "小诗篇",
       "volume_order": 50,
       "addtime": 1341383622,
-      "sum_chapters": 6
+      "sum_chapters": 10
     },
     {
       "id": 4751,
@@ -67,7 +67,7 @@
       "volume_name": "第五卷",
       "volume_order": 60,
       "addtime": 1349050842,
-      "sum_chapters": 6
+      "sum_chapters": 10
     },
     {
       "id": 4982,
@@ -75,7 +75,7 @@
       "volume_name": "小诗篇2",
       "volume_order": 70,
       "addtime": 1358134171,
-      "sum_chapters": 6
+      "sum_chapters": 10
     },
     {
       "id": 5275,
@@ -83,7 +83,7 @@
       "volume_name": "第六卷",
       "volume_order": 80,
       "addtime": 1368696430,
-      "sum_chapters": 6
+      "sum_chapters": 10
     },
     {
       "id": 10554,
@@ -91,7 +91,15 @@
       "volume_name": "第七卷",
       "volume_order": 90,
       "addtime": 1579360168,
-      "sum_chapters": 6
+      "sum_chapters": 10
+    },
+    {
+      "id": 10620,
+      "lnovel_id": 1099,
+      "volume_name": "第八卷",
+      "volume_order": 100,
+      "addtime": 1582095285,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -514,6 +522,64 @@
           "chapter_id": 102416,
           "chapter_name": "终章 震动",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10620,
+      "id": 10620,
+      "volume_name": "第八卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 103556,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103557,
+          "chapter_name": "序章 强颜欢笑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103558,
+          "chapter_name": "第一章 你、化身为战鬼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103559,
+          "chapter_name": "第二章 诀别",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103560,
+          "chapter_name": "第三章 敬仰尊师",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103561,
+          "chapter_name": "第四章 谎言",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103562,
+          "chapter_name": "第五章 白手套的伊索德",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103563,
+          "chapter_name": "第六章 死之蛇",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103564,
+          "chapter_name": "终章 致我喜欢的伊织同学",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 103565,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
