@@ -21,7 +21,7 @@ import { dotValue } from '@bluelovers/axios-util';
 import { getResponseUrl } from '@bluelovers/axios-util/lib/index';
 import { CookieJar } from 'tough-cookie';
 import { LazyCookieJar } from 'lazy-cookies';
-import { deserializeCookieJar } from 'wenku8-api/lib/util';
+import { deserializeCookieJar } from 'restful-decorator-plugin-jsdom/lib/cookies';
 import Wenku8Client from 'wenku8-api/lib/index';
 import { IPasswordLocal } from '@node-novel/site-cache-util/lib/types';
 import importPassword from '@node-novel/site-cache-util/lib/pass';
