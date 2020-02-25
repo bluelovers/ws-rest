@@ -3,13 +3,13 @@
   "name": "创始魔法师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 语言的时代",
+  "last_update_volume_name": "第四卷 魔术的时代",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10147,
-  "last_update_chapter_id": 96561,
-  "last_update_time": 1559312555,
+  "last_update_volume_id": 10624,
+  "last_update_chapter_id": 103622,
+  "last_update_time": 1582283222,
   "cover": "https://xs.dmzj.com/img/webpic/29/smfs0531l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 317906,
   "introduction": "　　久远以前的神话时代中，曾经出现一位魔法师。\n　　他被称为「老师」，传授语言与文化，还教导了魔法。\n　　人们于是称他作──创始魔法师。\n　　虽然也不是那么了不起的存在啦──\n　　「所以我就叫你别喷火啊！」\n　　「对不起、对不起，但对我来说这只是在呼吸嘛。」\n　　转生成为龙的「我」，和精灵族少女尼娜一起，\n　　为了解开这个世界魔法的原理，决定建立一间魔法学校。\n　　在那里，「我」和第一个人类学生爱伊，\n　　有了命运般的邂逅──\n　　这是一头度过漫长生命的龙族魔法师，\n　　创造出魔法、国家以及历史的奇幻年代记。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "石之宫カント",
   "first_letter": "C",
-  "subscribe_num": 6917,
-  "redis_update_time": 1564334863,
+  "subscribe_num": 10608,
+  "redis_update_time": 1582622046,
   "volume": [
     {
       "id": 10146,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 名字的时代",
       "volume_order": 10,
       "addtime": 1559311650,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 10147,
@@ -34,7 +34,23 @@
       "volume_name": "第二卷 语言的时代",
       "volume_order": 20,
       "addtime": 1559311974,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10623,
+      "lnovel_id": 2675,
+      "volume_name": "第三卷 文字的时代",
+      "volume_order": 30,
+      "addtime": 1582282732,
+      "sum_chapters": 9
+    },
+    {
+      "id": 10624,
+      "lnovel_id": 2675,
+      "volume_name": "第四卷 魔术的时代",
+      "volume_order": 40,
+      "addtime": 1582282927,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -166,6 +182,137 @@
           "chapter_id": 96561,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10623,
+      "id": 10623,
+      "volume_name": "第三卷 文字的时代",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 103600,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103601,
+          "chapter_name": "龙历637年",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103602,
+          "chapter_name": "龙历640年",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103603,
+          "chapter_name": "龙历641年",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103604,
+          "chapter_name": "龙历646年",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103605,
+          "chapter_name": "龙历652年",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103606,
+          "chapter_name": "龙历677年",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103607,
+          "chapter_name": "龙历698年",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103608,
+          "chapter_name": "龙历726年",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 103609,
+          "chapter_name": "龙历737年",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 103610,
+          "chapter_name": "龙历850年",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 103611,
+          "chapter_name": "龙历872年",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 103612,
+          "chapter_name": "后记／Afterword",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 103621,
+          "chapter_name": "插画",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 10624,
+      "id": 10624,
+      "volume_name": "第四卷 魔术的时代",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 103613,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103614,
+          "chapter_name": "龙历900年",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103615,
+          "chapter_name": "龙历905年",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103616,
+          "chapter_name": "龙历908年",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103617,
+          "chapter_name": "龙历921年",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103618,
+          "chapter_name": "龙历965年",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103619,
+          "chapter_name": "龙历1000年",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103620,
+          "chapter_name": "后记／Afterword",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103622,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

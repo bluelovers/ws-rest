@@ -3,13 +3,13 @@
   "name": "靠废柴技能【状态异常】成为最强的我将蹂躏一切",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10521,
-  "last_update_chapter_id": 102049,
-  "last_update_time": 1577439901,
+  "last_update_volume_id": 10627,
+  "last_update_chapter_id": 103667,
+  "last_update_time": 1582365232,
   "cover": "https://xs.dmzj.com/img/webpic/11/zt0503l.jpg",
-  "hot_hits": 719984,
+  "hot_hits": 1012178,
   "introduction": "　　有「背景人物」之称的高中生三森灯河，和同班同学一起被召唤到异世界。同学陆续获得A级、S级的勇者身分，却只有灯河一个人是最低等的E级。而且他取得的技能，是在这个世界被视为「废柴」的【状态异常】。灯河被女神薇希斯拋弃到生存机率零的遗迹后，尽管面临绝望的地狱处境，依旧善用自身技能蹂躏著魔物。在暗不见光的沉沦漆黑之中，灯河的心中只有一股意念──\n　　「等我活著回去──你就认命吧。」\n　　原本一心扮演背景人物的E级勇者，一路攀上绝对最强地位的逆袭故事，就此开幕！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "筱崎芳",
   "first_letter": "K",
-  "subscribe_num": 23971,
-  "redis_update_time": 1578034082,
+  "subscribe_num": 27399,
+  "redis_update_time": 1582622583,
   "volume": [
     {
       "id": 10085,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1556884579,
-      "sum_chapters": 7
+      "sum_chapters": 9
     },
     {
       "id": 10356,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1569847789,
-      "sum_chapters": 7
+      "sum_chapters": 9
     },
     {
       "id": 10521,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1577355425,
-      "sum_chapters": 7
+      "sum_chapters": 9
+    },
+    {
+      "id": 10627,
+      "lnovel_id": 2656,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1582364981,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -267,6 +275,64 @@
           "chapter_id": 102049,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10627,
+      "id": 10627,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 103658,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103659,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103660,
+          "chapter_name": "第1章 金栖魔群带",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103661,
+          "chapter_name": "第2章 人面种",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103662,
+          "chapter_name": "第3章 之后仅需—",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103663,
+          "chapter_name": "第4章 前往极限尽头",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103664,
+          "chapter_name": "第5章 魔女的领域",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103665,
+          "chapter_name": "未章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103666,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 103667,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

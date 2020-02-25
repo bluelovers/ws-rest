@@ -3,13 +3,13 @@
   "name": "口是心非的冰室同学 从好感度100％开始的毒舌女子追求法",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10367,
-  "last_update_chapter_id": 99897,
-  "last_update_time": 1570184872,
+  "last_update_volume_id": 10626,
+  "last_update_chapter_id": 103680,
+  "last_update_time": 1582371427,
   "cover": "https://xs.dmzj.com/img/webpic/14/bs1017l.jpg",
-  "hot_hits": 267797,
+  "hot_hits": 379881,
   "introduction": "虽然是毫无缺点的优等生，但是确有着高压般毒舌系性格的学生会长·冰室凉叶。即使如此也一直爱慕着她的学生会副会长·田岛爱斗。有一天开始，爱斗突然发现自己竟然可以听到在她言语背后悄悄隐藏着的真正的心情！凉叶的真心话原来是——所有那些辛辣高压的态度竟然全是表面的掩饰，真正的自己已经完全被爱斗所迷倒了！知道凉叶和自己两情相悦之后十分开心的爱斗，觉得已经有答案的恋爱肯定是Happy Ending的简单游戏了吧！ 那么就立刻去表白一下......结果被拒绝了！？",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "广ノ祥人",
   "first_letter": "K",
-  "subscribe_num": 18165,
-  "redis_update_time": 1574306067,
+  "subscribe_num": 21305,
+  "redis_update_time": 1582622314,
   "volume": [
     {
       "id": 9740,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1539782568,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 10367,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1570184299,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10626,
+      "lnovel_id": 2565,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1582364323,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -144,6 +152,64 @@
         },
         {
           "chapter_id": 99897,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10626,
+      "id": 10626,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 103649,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103650,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103651,
+          "chapter_name": "第一章 冰室同学与砂城同学与恋爱的季节",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103652,
+          "chapter_name": "第二章 冰室同学与海与我爱你",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103653,
+          "chapter_name": "第三章 口是心非的冰室同学遭遇新苦难",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103654,
+          "chapter_name": "第四章 与口是心非的冰室同学一起迎向祭典结局",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103655,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103656,
+          "chapter_name": "后日谈",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103657,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 103680,
           "chapter_name": "插画",
           "chapter_order": 100
         }
