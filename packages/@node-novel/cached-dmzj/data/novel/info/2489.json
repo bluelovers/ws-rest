@@ -3,13 +3,13 @@
   "name": "恋爱至上都市的双骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9432,
-  "last_update_chapter_id": 91617,
-  "last_update_time": 1543738239,
+  "last_update_volume_id": 10635,
+  "last_update_chapter_id": 103770,
+  "last_update_time": 1582708913,
   "cover": "https://xs.dmzj.com/img/webpic/28/lc0518l.jpg",
-  "hot_hits": 72364,
+  "hot_hits": 104071,
   "introduction": "黑峰勇也：曾经拯救世界的‘双骑士’。虽然他经常被蓝叶折腾，但本人拥有凌驾于魔王的压倒性的强大。是恋爱初学者，跟蓝叶所进行的亲热训练让他感到苦恼。\n苍宫蓝叶：跟勇也一样，是拯救了世界的‘双骑士’。虽然常跟勇也吵架，但却很迷恋守护自己的勇也。这份感情却无法坦率地表达出来，总是采取自大的态度。",
   "types": [
     "爱情",
@@ -17,8 +17,8 @@
   ],
   "authors": "篠宫夕",
   "first_letter": "L",
-  "subscribe_num": 12494,
-  "redis_update_time": 1564343073,
+  "subscribe_num": 14371,
+  "redis_update_time": 1582848143,
   "volume": [
     {
       "id": 9432,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1526634803,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10635,
+      "lnovel_id": 2489,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1582704971,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -93,6 +101,74 @@
         },
         {
           "chapter_id": 91617,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10635,
+      "id": 10635,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 103757,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103758,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103759,
+          "chapter_name": "第一章 爱情总是突如其来",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103760,
+          "chapter_name": "第二章 恋爱祭",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103761,
+          "chapter_name": "第三章 恋爱争夺战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103762,
+          "chapter_name": "第四章 晒恩爱百万大挑战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103763,
+          "chapter_name": "第五章 情侣杀手",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103764,
+          "chapter_name": "第六章 开始反击",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103765,
+          "chapter_name": "第七章 世上最恩爱的双骑士",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 103766,
+          "chapter_name": "终章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 103767,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 103770,
           "chapter_name": "插画",
           "chapter_order": 120
         }

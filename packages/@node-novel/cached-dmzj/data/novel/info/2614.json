@@ -3,13 +3,13 @@
   "name": "世界最强后卫～迷宫国的新人探索者～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "特典小册子 少女们的作战会议",
-  "last_update_volume_id": 10546,
-  "last_update_chapter_id": 102311,
-  "last_update_time": 1578840536,
+  "last_update_volume_name": "第五卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10638,
+  "last_update_chapter_id": 103836,
+  "last_update_time": 1582792012,
   "cover": "https://xs.dmzj.com/img/webpic/10/hw0116l.jpg",
-  "hot_hits": 396320,
+  "hot_hits": 590129,
   "introduction": "　　身为前社畜的有人转生后担任起来路不明的职业『后卫』，但这原来是个能支援攻击与防御，还能补血的万能职业！在有人的身边也陆续聚集了转生前的美女上司（比他年纪还小）、充满谜团的亚人佣兵少女、身怀隐情的高等美少女剑士及个性鲜明的女性成员。不仅如此，『后卫』更拥有只要待在对方身后，就能让好感度直线上升的能力――！？\n　　最强的守护系辅助职业冒险物语，正式揭开序幕！",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "とーわ",
   "first_letter": "Z",
-  "subscribe_num": 17202,
-  "redis_update_time": 1578874577,
+  "subscribe_num": 20516,
+  "redis_update_time": 1582848569,
   "volume": [
     {
       "id": 9904,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1547632101,
-      "sum_chapters": 25
+      "sum_chapters": 9
     },
     {
       "id": 10258,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1564663236,
-      "sum_chapters": 25
+      "sum_chapters": 9
     },
     {
       "id": 10537,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1578303589,
-      "sum_chapters": 25
+      "sum_chapters": 9
     },
     {
       "id": 10546,
@@ -51,7 +51,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1578840358,
-      "sum_chapters": 25
+      "sum_chapters": 9
+    },
+    {
+      "id": 10638,
+      "lnovel_id": 2614,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1582776428,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -298,6 +306,64 @@
         {
           "chapter_id": 102311,
           "chapter_name": "特典小册子 少女们的作战会议",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10638,
+      "id": 10638,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 103817,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103818,
+          "chapter_name": "序章 白之孤独",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103819,
+          "chapter_name": "第一章 复活之人，归来之人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103820,
+          "chapter_name": "第二章 新的力量与同伴们的团聚",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103821,
+          "chapter_name": "第三章 探索者们的小憩",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103822,
+          "chapter_name": "第四章 等待契约者之物",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103823,
+          "chapter_name": "第五章 憧憬与悄悄接近的恶意",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103824,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103825,
+          "chapter_name": "特典小册子 夜晚的水上小屋～瑟拉妃娜与镜花与艾德琳～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 103836,
+          "chapter_name": "插画",
           "chapter_order": 100
         }
       ]
