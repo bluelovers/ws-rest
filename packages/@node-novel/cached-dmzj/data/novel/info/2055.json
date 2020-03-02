@@ -3,13 +3,13 @@
   "name": "伊奇西亚诺战物语 黑狼卿与天眼军师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷 kakuyomu版本",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 7467,
-  "last_update_chapter_id": 56141,
-  "last_update_time": 1452776451,
+  "last_update_volume_id": 10645,
+  "last_update_chapter_id": 103929,
+  "last_update_time": 1583139195,
   "cover": "https://xs.dmzj.com/img/webpic/13/yqxynzwy6468l.jpg",
-  "hot_hits": 44501,
+  "hot_hits": 49881,
   "introduction": "凤乃一真带来的崭新作品！ 现在，史上最强的武与智之间的较量将要拉开序幕！！\n\n被誉为阿利翁皇国最强的黑狼卿文森特，凭借其无人能敌的强悍令周围的一切闻风丧胆，他唯一能够放松下来的时候，只有隐藏容貌与镇上的普通少女米娅见面的时候。就在这样的日子里，帝国的不败军师——天眼之凤出现在守卫边境的文森特面前。文森特最终与头戴铁面，据说拥有天眼的可怕军师进行交战，但难以置信的是，他在交战中却发现他的真面目却是……！？两名拥有双重身份的最强人物所谱写的战略英雄谭，于此开幕！",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "凤乃一真",
   "first_letter": "Y",
-  "subscribe_num": 1384,
-  "redis_update_time": 1564358039,
+  "subscribe_num": 2039,
+  "redis_update_time": 1583181992,
   "volume": [
     {
       "id": 7467,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1452774756,
-      "sum_chapters": 8
+      "sum_chapters": 7
+    },
+    {
+      "id": 10645,
+      "lnovel_id": 2055,
+      "volume_name": "第二卷 kakuyomu版本",
+      "volume_order": 20,
+      "addtime": 1583138967,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -70,6 +78,84 @@
           "chapter_id": 56141,
           "chapter_name": "后记",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 10645,
+      "id": 10645,
+      "volume_name": "第二卷 kakuyomu版本",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 103916,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103917,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103918,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103919,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103920,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103921,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103922,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103923,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103924,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 103925,
+          "chapter_name": "第九章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 103926,
+          "chapter_name": "第十章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 103927,
+          "chapter_name": "第十一章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 103928,
+          "chapter_name": "第十二章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 103929,
+          "chapter_name": "后记",
+          "chapter_order": 140
         }
       ]
     }
