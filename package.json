@@ -29,8 +29,8 @@
     "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}"
   },
   "dependencies": {
-    "execall2": "^1.1.1",
-    "uri-template-lite": "^19.4.0"
+    "execall2": "^1.1.4",
+    "uri-template-lite": "^19.12.0"
   },
   "devDependencies": {
     "url-template": "^2.0.8"
