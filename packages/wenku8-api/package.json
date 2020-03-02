@@ -26,15 +26,15 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "bluebird": "^3.7.1",
+    "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.3",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "restful-decorator-plugin-jsdom": "^1.0.9"
   },
   "devDependencies": {
-    "@types/jquery": "^3.3.31",
-    "@types/jsdom": "^12.2.4"
+    "@types/jquery": "^3.3.33",
+    "@types/jsdom": "^16.1.0"
   },
   "gitHead": "09e39362d6c6af75eef25a81409c80a81374446b"
 }

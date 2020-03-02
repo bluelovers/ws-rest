@@ -34,10 +34,10 @@
     "test": "ts-node ./test/demo"
   },
   "dependencies": {
-    "bluebird": "^3.7.1",
+    "bluebird": "^3.7.2",
     "restful-decorator": "^1.0.32",
-    "ts-type": "^1.2.9",
-    "typed-http-headers": "^1.0.2"
+    "ts-type": "^1.2.13",
+    "typed-http-headers": "^1.0.5"
   },
   "devDependencies": {
     "fs-extra": "^8.1.0"

@@ -18,8 +18,8 @@
     "axios": "< 0.19 && >= 0.18",
     "axios-cache-adapter": "^2.5.0",
     "axios-cookiejar-support": "^0.5.1",
-    "bluebird": "^3.7.1",
-    "debug-color2": "^1.1.6",
+    "bluebird": "^3.7.2",
+    "debug-color2": "^1.1.7",
     "http-form-urlencoded": "^1.0.8",
     "lazy-cookies": "^1.0.14",
     "lazy-url": "^1.0.8",
@@ -31,14 +31,14 @@
     "router-uri-convert": "^1.0.12",
     "tough-cookie": "^3.0.1",
     "ts-enum-util": "^4.0.1",
-    "ts-type": "^1.2.9",
-    "typed-http-headers": "^1.0.2"
+    "ts-type": "^1.2.13",
+    "typed-http-headers": "^1.0.5"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.29",
     "@types/lodash": "^4.14.149",
     "@types/moment": "^2.13.0",
-    "@types/tough-cookie": "^2.3.5",
+    "@types/tough-cookie": "^2.3.6",
     "@types/url-parse": "^1.4.3"
   },
   "gitHead": "09e39362d6c6af75eef25a81409c80a81374446b"
