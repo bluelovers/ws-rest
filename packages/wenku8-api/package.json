@@ -20,7 +20,7 @@
     "npm:publish": "npm publish",
     "prepublishOnly": "echo prepublishOnly",
     "postpublish": "echo postpublish",
-    "sort-package-json": "npx sort-package-json ./package.json",
+    "sort-package-json": "npx yarn-tool sort",
     "test": "test",
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"

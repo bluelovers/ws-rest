@@ -18,7 +18,7 @@
     bluebird "^3"
     fast-glob "^3"
 
-"@bluelovers/tsconfig@^1.0.13", "@bluelovers/tsconfig@^1.0.18", "@bluelovers/tsconfig@^1.0.3":
+"@bluelovers/tsconfig@^1.0.13", "@bluelovers/tsconfig@^1.0.18":
   version "1.0.18"
   resolved "https://registry.npmjs.org/@bluelovers/tsconfig/-/tsconfig-1.0.18.tgz#3890492e9bc3021e76e6546e274dbef66e4e8b38"
   integrity sha512-4Sr1GuX31CV188UZyHx5MomtBz20xft0MJSTAZ0EJA6u32EvAJJVy2mxfVngGbdqglJCWf3T+Mvz6q1c7qUodg==
@@ -129,7 +129,7 @@
   resolved "https://registry.npmjs.org/@novel-segment/util/-/util-1.0.10.tgz#d5bd387da65151c2bcdbc7abcc74577d08417ff1"
   integrity sha512-30SiJEdgyvuYR2ee5UMNL+KxOmzQZIzSkt3HLx7EAkA8BSiOSu9T6dhFkCu+La8aPUK/dvh3+phY2+WODVVAig==
 
-"@ts-type/package-dts@^1.0.4", "@ts-type/package-dts@^1.0.6":
+"@ts-type/package-dts@^1.0.6":
   version "1.0.6"
   resolved "https://registry.npmjs.org/@ts-type/package-dts/-/package-dts-1.0.6.tgz#e4d4888dd596184ddb0756e1beb7c9b13d4313cd"
   integrity sha512-wjM97SZWahVgYrWKAskDn33SYkDudUDHmTNNOxNPQNcCCduDeic1tCAiNAXS6vWRs/R24HfU3hqt3O9rquluSQ==
@@ -139,7 +139,7 @@
   resolved "https://registry.npmjs.org/@types/bluebird/-/bluebird-3.5.30.tgz#ee034a0eeea8b84ed868b1aa60d690b08a6cfbc5"
   integrity sha512-8LhzvcjIoqoi1TghEkRMkbbmM+jhHnBokPGkJWjclMK+Ks0MxEBow3/p2/iFTZ+OIbJHQDSfpgdZEb+af3gfVw==
 
-"@types/chai@^4.2.7":
+"@types/chai@^4.2.10":
   version "4.2.10"
   resolved "https://registry.npmjs.org/@types/chai/-/chai-4.2.10.tgz#1122da40faabb81795580dc9f06c1e71e2ebbbe4"
   integrity sha512-TlWWgb21+0LdkuFqEqfmy7NEgfB/7Jjux15fWQAh3P93gbmXuwTM/vxEdzW89APIcI2BgKR48yjeAkdeH+4qvQ==
@@ -187,7 +187,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/fs-extra@*", "@types/fs-extra@^7.0.0", "@types/fs-extra@^8.1.0":
+"@types/fs-extra@*", "@types/fs-extra@^8.1.0":
   version "8.1.0"
   resolved "https://registry.npmjs.org/@types/fs-extra/-/fs-extra-8.1.0.tgz#1114834b53c3914806cd03b3304b37b3bd221a4d"
   integrity sha512-UoOfVEzAUpeSPmjm7h1uk5MH6KZma2z2O7a75onTGjnNvAvMVrPzPL/vBbT65iIGHWj6rokwfmYcmxmlSf2uwg==
@@ -897,12 +897,12 @@ cross-ci@^1.6.0:
   dependencies:
     env-ci "^2.1.0"
 
-cross-env@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.npmjs.org/cross-env/-/cross-env-6.0.3.tgz#4256b71e49b3a40637a0ce70768a6ef5c72ae941"
-  integrity sha512-+KqxF6LCvfhWvADcDPqo64yVIB31gv/jQulX2NGzKS/g3GEVz6/pt4wjHFtFWsHMddebWD/sDthJemzM4MaAag==
+cross-env@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/cross-env/-/cross-env-7.0.0.tgz#5a3b2ddce51ec713ea58f2fb79ce22e65b4f5479"
+  integrity sha512-rV6M9ldNgmwP7bx5u6rZsTbYidzwvrwIYZnT08hSGLcQCcggofgFW+sNe7IhA1SRauPS0QuLbbX+wdNtpqE5CQ==
   dependencies:
-    cross-spawn "^7.0.0"
+    cross-spawn "^7.0.1"
 
 cross-fetch@^3.0.4:
   version "3.0.4"
@@ -936,7 +936,7 @@ cross-spawn@^6.0.0:
     shebang-command "^1.2.0"
     which "^1.2.9"
 
-cross-spawn@^7, cross-spawn@^7.0.0:
+cross-spawn@^7, cross-spawn@^7.0.0, cross-spawn@^7.0.1:
   version "7.0.1"
   resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.1.tgz#0ab56286e0f7c24e153d04cc2aa027e43a9a5d14"
   integrity sha512-u7v4o84SwFpD32Z8IIcPZ6z1/ie24O6RU3RbtL5Y316l3KuHVPx9ItBgWQ6VlfAFnRnTtMUrsQ9MUUTuEZjogg==
@@ -1430,7 +1430,7 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
-filesize@^6.0.1:
+filesize@^6.1.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/filesize/-/filesize-6.1.0.tgz#e81bdaa780e2451d714d71c0d7a4f3238d37ad00"
   integrity sha512-LpCHtPQ3sFx67z+uh2HnSyWSLLu5Jxo21795uRDuar/EOuYWXib5EmPaGIBuSnRqH2IODiKA2k5re/K9OnN/Yg==

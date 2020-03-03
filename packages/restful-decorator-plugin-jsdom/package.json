@@ -20,7 +20,7 @@
     "npm:publish": "npm publish",
     "postpublish_": "git commit -m \"publish new version\" .",
     "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
-    "sort-package-json": "npx sort-package-json ./package.json",
+    "sort-package-json": "npx yarn-tool sort",
     "test": "echo \"Warn: no test specified\"",
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"

@@ -10,7 +10,7 @@
     "lint": "npx eslint lib/**/*.ts",
     "ncu": "npx yarn-tool ncu -u",
     "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
-    "sort-package-json": "npx sort-package-json ./package.json",
+    "sort-package-json": "npx yarn-tool sort",
     "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}"
   },
   "dependencies": {
