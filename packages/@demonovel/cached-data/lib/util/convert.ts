@@ -24,7 +24,7 @@ export function toRecord(list: IArrayCachedJSONRow)
 
 export function toArray(record: IRecordCachedJSONRow): IArrayCachedJSONRow
 {
-	let list = Object.values(record)
+	let list = Object.values(record) as IArrayCachedJSONRow
 
 	list = _handle(list);
 
