@@ -190,6 +190,7 @@ export function paramMetadataRequestConfig(_argv: {
 	const autoData: Record<string, unknown> = {};
 
 	Object.keys(paramMetadata)
+		// @ts-ignore
 		.forEach(function (key: IEnumRestClientMetadataParam | IEnumRestClientMetadataParamMap)
 		{
 			let arr: IParameter[];

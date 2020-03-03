@@ -200,7 +200,9 @@ export function _habdleParamInfo<T>(info: {
 	const { argv } = info;
 	const data = cloneDeep(info.paramMetadata) as IParamMetadata;
 
+	// @ts-ignore
 	return Object.keys(data)
+		// @ts-ignore
 		.reduce((ret: IParamMetadata, key: keyof IParamMetadata) =>
 		{
 			if (data[key] == null || (Array.isArray(data[key]) && !(data[key] as IParameter[]).length))
@@ -242,6 +244,7 @@ export function _habdleParamInfo<T>(info: {
 export function _ParamInfoToArgv<T extends any[]>(data: IParamMetadata, argv: T)
 {
 	return Object.keys(data)
+		// @ts-ignore
 		.reduce(function (argv, key: keyof IParamMetadata | keyof IParamMetadata2)
 		{
 
@@ -280,7 +283,7 @@ export function _ParamInfoToArgv<T extends any[]>(data: IParamMetadata, argv: T)
 			}
 
 			return argv;
-		}, argv.slice())
+		}, argv.slice()) as any as T
 		;
 }
 

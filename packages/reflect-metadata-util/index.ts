@@ -96,7 +96,7 @@ export interface IParameterDecorator<K extends IPropertyKey = IPropertyKey, T ex
 	(target: T, propertyKey: K, parameterIndex: number): void
 }
 
-export function buildParameterDecorator<K extends IPropertyKey = IPropertyKey, T extends object = object>(fn: IParameterDecorator<K, T>): IParameterDecorator
+export function buildParameterDecorator<K extends IPropertyKey = IPropertyKey, T extends object = object>(fn: IParameterDecorator<K, T>): IParameterDecorator<K, T>
 {
 	if (typeof fn !== 'function')
 	{
