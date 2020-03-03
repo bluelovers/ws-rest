@@ -53,6 +53,11 @@ export function getThreadsByFid<API extends DiscuzClient>(api: API, threadOption
 			let i = 0;
 			let len = cur.threads.length;
 
+			if (len && !cacheThreads)
+			{
+				return true
+			}
+
 			let bool = !cur.threads.every(v => {
 
 				let old = cacheThreads[v.tid];
