@@ -1,5 +1,6 @@
 import type { ISitesKeys as ISitesKeys1, ISitesSourcePack as ISitesSourcePack1 } from './lib/sites/types';
 import type { ISitesKeys as ISitesKeys2, ISitesSourcePack as ISitesSourcePack2 } from './lib/demonovel/types';
+import { EnumNovelStatus } from 'node-novel-info/lib/const';
 
 export enum EnumSiteID
 {
@@ -40,6 +41,9 @@ export interface ICachedJSONRowPlus extends ICachedJSONRow
 	pathMain_real: string;
 	titles: string[];
 	epub_basename: string;
+	illusts: string[];
+	publishers: string[];
+	status: EnumNovelStatus | number;
 }
 
 export interface IRecordCachedJSONRow extends Record<string, ICachedJSONRow | ICachedJSONRowPlus>

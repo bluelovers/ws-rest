@@ -71,6 +71,10 @@ export function build(source: INovelStatCache)
 
 						epub_basename: novel.cache.epub_basename,
 						pathMain_real: novel.pathMain,
+
+						illusts: info.illusts(),
+						publishers: info.publishers(),
+						status: info.status(),
 					};
 
 					return item
