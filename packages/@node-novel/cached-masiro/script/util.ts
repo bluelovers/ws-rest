@@ -44,6 +44,7 @@ export async function getApiClient()
 		api,
 		saveCache,
 		ApiClient,
+		// @ts-ignore
 		__path,
 		jar,
 		envPrefix: 'MASIRO',

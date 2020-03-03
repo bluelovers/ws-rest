@@ -254,7 +254,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 	 */
 	@GET('list/{page}.html')
 	@methodBuilder()
-	articleList(@ParamPath('page', 1) page?: number): IBluebird<IESJzoneRecentUpdate>
+	articleList(@ParamPath('page', 1) page?: number, ...argv: any[]): IBluebird<IESJzoneRecentUpdate>
 	{
 		return this._handleArticleList<IESJzoneRecentUpdate>(this, {
 			page,

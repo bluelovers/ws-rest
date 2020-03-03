@@ -96,7 +96,7 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 
 			if (wrapFn)
 			{
-				data = wrapFn.call(data.thisArgv, data);
+				data = wrapFn.call(data.thisArgv, data as any);
 
 				if (data.autoRequest == null)
 				{
@@ -106,7 +106,7 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 
 			if (old)
 			{
-				const { thisArgv = data.thisArgv, method = data.method, argv = data.argv } = old.call(oldThis, data) || data;
+				const { thisArgv = data.thisArgv, method = data.method, argv = data.argv } = old.call(oldThis, data as any) || data;
 
 				if (data.autoRequest == null)
 				{
@@ -167,7 +167,7 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 			};
 		});
 
-		return _methodBuilder<T>(handler);
+		return _methodBuilder<T>(handler as any);
 	};
 }
 
