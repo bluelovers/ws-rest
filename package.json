@@ -24,7 +24,7 @@
     "lerna": "yarn run prebuild:lockfile && yarn run lerna:prepublish && lerna publish --yes --cd-version patch && yarn run ci:cache:list",
     "lerna:prepublish": "lerna run --stream --scope @node-novel/cached-* build && lerna run --stream  --scope @demonovel/cached-data build",
     "ncu": "npx yarn-tool ncu -u",
-    "ci:install": "yarn --frozen-lockfile && yarn global add lerna typescript ts-node cross-env",
+    "ci:install": "yarn --frozen-lockfile && yarn global add lerna typescript@next ts-node cross-env",
     "ci:test": "ts-node ./script/ci/test",
     "ci:build": "yarn run ci:test && yarn run lerna:prepublish",
     "ci:push": "ts-node ./script/ci/git-push",
