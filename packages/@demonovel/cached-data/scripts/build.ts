@@ -11,9 +11,10 @@ import { join } from "path";
 import { __rootCacheBuild, __rootCache } from '../lib/__root';
 import stableStringify from "@wincent/stable-stringify";
 import { toArray, _handle, toRecord } from '../lib/util/convert';
-import { IArrayCachedJSONRow } from '../lib/types';
+import { IArrayCachedJSONRow } from '../types';
+import buildCached from '../lib/all/cache';
 
-fetchFileAll(false, {
+export default fetchFileAll(false, {
 	local: true,
 })
 	.then(data => {
@@ -32,6 +33,7 @@ fetchFileAll(false, {
 		return Bluebird.resolve(Object.keys(data))
 			.reduce((a, b) => {
 
+				// @ts-ignore
 				a.push(...Object.values(data[b]));
 
 				return a;
@@ -41,6 +43,8 @@ fetchFileAll(false, {
 				return Promise.all([
 					outputJSON(join(__rootCache, `pack`, `array.json`), list),
 					outputJSON(join(__rootCache, `pack`, `record.json`), toRecord(list)),
+
+					buildCached(list),
 				])
 			})
 		;
