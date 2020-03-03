@@ -1,4 +1,4 @@
-import { IArrayCachedJSONRow } from '../../types';
+import { IArrayCachedJSONRow } from '../../../types';
 import slugifyNovel from '../../util/slugify';
 import { doTitle } from '../util';
 import { array_unique_overwrite } from 'array-hyper-unique';

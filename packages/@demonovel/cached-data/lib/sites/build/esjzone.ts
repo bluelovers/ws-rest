@@ -2,7 +2,7 @@
  * Created by user on 2020/3/3.
  */
 
-import { EnumSiteID } from '../../types';
+import { EnumSiteID } from '../../../types';
 import { ISitesSourceType, ICachedJSONRowInput } from '../types';
 import { newTitle, newEntry } from './util';
 

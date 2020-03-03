@@ -34,7 +34,7 @@ export default lazyRun(async () => {
 		'-m',
 		`${pkgLabel} update cache ${skipCi()}`,
 	], {
-		cwd: join(__root, 'data'),
+		cwd: __root,
 		stdio: 'inherit',
 	});
 

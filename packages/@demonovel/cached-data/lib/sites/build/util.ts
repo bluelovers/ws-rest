@@ -5,7 +5,7 @@
 import { ISitesKeys, ICachedJSONRowInput, ISitesSourcePack, IEntryHandler } from '../types';
 import { newUUID, trim } from '../../util';
 import sortObjectKeys from 'sort-object-keys2';
-import { ICachedJSONRowPlus, IArrayCachedJSONRow, IRecordCachedJSONRow } from '../../types';
+import { ICachedJSONRowPlus, IArrayCachedJSONRow, IRecordCachedJSONRow } from '../../../types';
 import { toRecord } from '../../util/convert';
 
 export function newEntry<K extends ISitesKeys>(siteID: K, item: ICachedJSONRowInput)
@@ -97,7 +97,10 @@ export function handleEntries<K extends ISitesKeys>(siteID: K, source: ISitesSou
 
 			//item && console.log(siteID, item.id, item.title);
 
-			a.push(item)
+			if (item && item.title.length)
+			{
+				a.push(item)
+			}
 
 			return a
 		}, [] as IArrayCachedJSONRow)

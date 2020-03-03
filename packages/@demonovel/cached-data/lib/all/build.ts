@@ -1,4 +1,4 @@
-import { ISitesKeysAll, ISitesSourcePackAll, IRecordCachedJSONRow, IRecordSitesBuildAll } from '../types';
+import { ISitesKeysAll, ISitesSourcePackAll, IRecordCachedJSONRow, IRecordSitesBuildAll } from '../../types';
 import buildDemoNovel from '../demonovel/build';
 import buildSites, { buildCore } from '../sites/build';
 import Bluebird from 'bluebird';

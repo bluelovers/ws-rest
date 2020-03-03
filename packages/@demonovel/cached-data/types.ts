@@ -1,5 +1,5 @@
-import type { ISitesKeys as ISitesKeys1, ISitesSourcePack as ISitesSourcePack1 } from './sites/types';
-import type { ISitesKeys as ISitesKeys2, ISitesSourcePack as ISitesSourcePack2 } from './demonovel/types';
+import type { ISitesKeys as ISitesKeys1, ISitesSourcePack as ISitesSourcePack1 } from './lib/sites/types';
+import type { ISitesKeys as ISitesKeys2, ISitesSourcePack as ISitesSourcePack2 } from './lib/demonovel/types';
 
 export enum EnumSiteID
 {

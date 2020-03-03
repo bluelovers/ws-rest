@@ -1,6 +1,5 @@
 {
-  "name": "cached-data",
-  "private": true,
+  "name": "@demonovel/cached-data",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@demonovel/cached-data#readme",
@@ -15,6 +14,7 @@
   "author": "bluelovers",
   "main": "index.js",
   "scripts": {
+    "build": "ts-node ./scripts/build && ts-node ./scripts/build-commit",
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
     "ncu": "npx yarn-tool ncu -u",

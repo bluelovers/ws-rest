@@ -86,3 +86,5 @@ jest.config.js.map
 /report.*.json
 *.js.map
 /cache/source/
+!/index.d.ts
+!/index.js

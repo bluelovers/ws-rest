@@ -1,5 +1,5 @@
 import { ISitesKeys, ISitesSourcePack, IEntryHandler } from './types';
-import { IRecordCachedJSONRow, ICachedJSONRowPlus, EnumSiteID } from '../types';
+import { IRecordCachedJSONRow, ICachedJSONRowPlus, EnumSiteID } from '../../types';
 import { handleEntries } from './build/util';
 import Bluebird from 'bluebird';
 import buildEsjzone from './build/esjzone';

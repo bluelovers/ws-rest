@@ -11,6 +11,7 @@ const r7 = new zhRegExp(/(?:術|法|導)(?:师|士)/g);
 const r8 = new zhRegExp(/召唤(?:师|士)/g);
 const r9 = new zhRegExp(/暗杀者?|刺客|杀手/g);
 const r10 = new zhRegExp(/哥不林|哥布林/g);
+const r11 = new zhRegExp(/適合|適任|合格/g);
 
 const c3 = slugifyNovel('姫');
 const c4 = slugifyNovel('魔術');
@@ -20,6 +21,7 @@ const c7 = slugifyNovel('術师');
 const c8 = slugifyNovel('召唤师');
 const c9 = slugifyNovel('刺客');
 const c10 = slugifyNovel('哥不林');
+const c11 = slugifyNovel('適合');
 
 export function doTitle(title: string, list: string[])
 {
@@ -41,6 +43,7 @@ export function doTitle(title: string, list: string[])
 		.replace(r8, c8)
 		.replace(r9, c9)
 		.replace(r10, c10)
+		.replace(r11, c11)
 	;
 
 	if (title_new.length && title !== title_new)

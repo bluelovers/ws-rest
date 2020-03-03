@@ -1,4 +1,4 @@
-import { IArrayCachedJSONRow, IRecordCachedJSONRow } from '../types';
+import { IArrayCachedJSONRow, IRecordCachedJSONRow } from '../../types';
 
 export function _handle(list: IArrayCachedJSONRow)
 {
