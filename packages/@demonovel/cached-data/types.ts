@@ -46,7 +46,7 @@ export interface ICachedJSONRowPlus extends ICachedJSONRow
 	status: EnumNovelStatus | number;
 }
 
-export interface IRecordCachedJSONRow extends Record<string, ICachedJSONRow | ICachedJSONRowPlus>
+export interface IRecordCachedJSONRow extends Record<string, ICachedJSONRowPlus>
 {
 
 }
