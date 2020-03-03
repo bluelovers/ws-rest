@@ -3,21 +3,21 @@
   "name": "方舟九号 ARK NINE",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 死亡天使",
-  "last_update_chapter_name": "终章",
-  "last_update_volume_id": 7057,
-  "last_update_chapter_id": 51573,
-  "last_update_time": 1437573241,
+  "last_update_volume_name": "第二卷 源体的魔导士 上",
+  "last_update_chapter_name": "4章",
+  "last_update_volume_id": 10648,
+  "last_update_chapter_id": 103954,
+  "last_update_time": 1583226042,
   "cover": "https://xs.dmzj.com/img/webpic/18/fzjh64986.jpg",
-  "hot_hits": 5467,
+  "hot_hits": 5793,
   "introduction": "　　那一天，人类失去了半个世界——为阻挡「黑雾」的威胁而建造的巨大「高墙」划分地球，全世界有半数人口失去故乡。\n　　为收容变成难民的人们而建造的人工都市「方舟」，现在已经以国家的形式成为人们的新故乡。\n　　少数的日本人残存者之一，紫堂缘在第九号「方舟」经营侦探事务所。\n　　他善用各种枪炮武器，能使用发动全身之「气」的紫堂流忍术。\n　　某天，一桩追捕男性窃盗嫌疑犯的简单工作找上门来，但男人在缘面前揭露了自己的真正身分。\n　　面对悄声袭来的巨大阴谋和组织，缘真的有胜算吗！？",
   "types": [
     "科幻"
   ],
   "authors": "安井健太郎",
   "first_letter": "F",
-  "subscribe_num": 102,
-  "redis_update_time": 1564362607,
+  "subscribe_num": 326,
+  "redis_update_time": 1583259970,
   "volume": [
     {
       "id": 7057,
@@ -25,6 +25,14 @@
       "volume_name": "第一卷 死亡天使",
       "volume_order": 10,
       "addtime": 1437573241,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10648,
+      "lnovel_id": 1934,
+      "volume_name": "第二卷 源体的魔导士 上",
+      "volume_order": 20,
+      "addtime": 1583225959,
       "sum_chapters": 8
     }
   ],
@@ -63,6 +71,44 @@
         {
           "chapter_id": 51573,
           "chapter_name": "终章",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 10648,
+      "id": 10648,
+      "volume_name": "第二卷 源体的魔导士 上",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 103949,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103950,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103951,
+          "chapter_name": "1章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103952,
+          "chapter_name": "2章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103953,
+          "chapter_name": "3章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103954,
+          "chapter_name": "4章",
           "chapter_order": 60
         }
       ]
