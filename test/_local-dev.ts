@@ -52,7 +52,7 @@ export function relative(filename: string): string
 
 export function mochaAsync(fn: Function)
 {
-	return async (done) =>
+	return async (done: any) =>
 	{
 		try
 		{
