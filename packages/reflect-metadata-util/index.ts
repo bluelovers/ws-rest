@@ -67,6 +67,7 @@ export function getMetadataPropertyFirst<T extends any>(metadataKey: any, target
 
 	if (typeof ret !== 'undefined')
 	{
+		// @ts-ignore
 		return ret;
 	}
 
