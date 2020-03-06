@@ -55,6 +55,7 @@ export class A extends AbstractHttpClient
 
 		return info;
 	})
+	// @ts-ignore
 	@methodBuilder(function (this: A, data)
 	{
 		const { thisArgv, propertyName, requestConfig, bool, requestConfigNew } = data;
@@ -70,6 +71,7 @@ export class A extends AbstractHttpClient
 
 		console.dir(this === this.$parent);
 
+		// @ts-ignore
 		console.dir(this.$returnValue.request.res.responseUrl);
 
 		console.dir(this);

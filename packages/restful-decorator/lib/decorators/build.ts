@@ -56,8 +56,11 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 				}
 
 				p = p
+					// @ts-ignore
 					.thenReturn(returnValue)
+					// @ts-ignore
 					.then(fnHookReturnValue)
+					// @ts-ignore
 					.then(async function (returnValue){
 
 						const ret = await method.apply(thisArgv, argv);

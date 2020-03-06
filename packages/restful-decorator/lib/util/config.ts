@@ -25,6 +25,7 @@ export function _getSetting<T extends AxiosRequestConfig = AxiosRequestConfig>(t
 
 	if (baseURL != null)
 	{
+		// @ts-ignore
 		requestConfig.baseURL = urlNormalize(baseURL);
 	}
 

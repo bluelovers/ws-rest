@@ -33,7 +33,7 @@ export function SetCookies<T extends string>(data: ICookiesValueInput<T>, url?: 
 
 export function getCookieJar(target: any, propertyName?: IPropertyKey): LazyCookieJar
 {
-	let config = getMetadataLazy(SymConfig, target, propertyName);
+	let config = getMetadataLazy(SymConfig, target, propertyName) as AxiosRequestConfig;
 
 	if (!config || !config.jar)
 	{
@@ -45,7 +45,7 @@ export function getCookieJar(target: any, propertyName?: IPropertyKey): LazyCook
 		throw new ReferenceError(`axios-cookiejar-support not enable`)
 	}
 
-	return config.jar
+	return config.jar as any
 }
 
 export default CookieJarSupport
