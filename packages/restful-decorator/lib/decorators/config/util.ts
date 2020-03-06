@@ -7,12 +7,12 @@ import { getMemberMetadata, hasMemberMetadata, IPropertyKey, setMemberMetadata }
 
 export const SymConfig = Symbol(`config`);
 
-export function getConfig(target: any, propertyName?: IPropertyKey)
+export function getConfig<T extends any = any>(target: any, propertyName?: IPropertyKey): T
 {
-	return getMemberMetadata(SymConfig, target, propertyName) || {};
+	return getMemberMetadata(SymConfig, target, propertyName) || {} as T;
 }
 
-export function setConfig(value: object, target: any, propertyName?: IPropertyKey)
+export function setConfig<T extends any>(value: T, target: any, propertyName?: IPropertyKey)
 {
 	return setMemberMetadata(SymConfig, value, target, propertyName);
 }

@@ -722,6 +722,7 @@ export class GiteeV5Client extends AbstractHttpClient
 	}
 
 	@GET('repos/{owner}/{repo}/branches/{branch}')
+	// @ts-ignore
 	@HandleParamMetadata((info) =>
 	{
 

@@ -8,10 +8,11 @@ import { setupDevClient, __root } from '../lib/index';
 import LazyURL from 'lazy-url/lib';
 import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 import fs from 'fs-extra';
-import { mdconf, IMdconfMeta, array_unique } from 'node-novel-info';
+import { mdconf, IMdconfMeta } from 'node-novel-info';
 import { IDiscuzThread, IDiscuzThreadPickRange } from '../../lib/types';
 import Bluebird from 'bluebird';
 import { getResponseUrl } from '@bluelovers/axios-util/lib';
+import { array_unique_overwrite, array_unique } from 'array-hyper-unique';
 
 export default (async () =>
 {

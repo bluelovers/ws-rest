@@ -135,7 +135,7 @@ export function HandleParamMetadata<T extends any>(fn: ((info: {
 	argv: any[],
 }))
 {
-	return function (target: any, propertyKey: IPropertyKey, descriptor: TypedPropertyDescriptor<Function>)
+	return function (target: any, propertyKey: IPropertyKey, descriptor: TypedPropertyDescriptor<(...argv: any[]) => any>)
 	{
 		const oldMethod = descriptor.value;
 
@@ -301,8 +301,10 @@ function _paramBuilderMap(paramName: IEnumRestClientMetadataParamMap)
 
 			const data = getMemberMetadata(SymParamMap, target, propertyKey) || {};
 
+			// @ts-ignore
 			data[paramName] = data[paramName] || [];
 
+			// @ts-ignore
 			data[paramName].push(paramObj);
 
 			setMemberMetadata(SymParamMap, data, target, propertyKey);

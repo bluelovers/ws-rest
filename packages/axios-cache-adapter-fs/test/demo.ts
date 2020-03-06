@@ -21,11 +21,13 @@ import path from 'path';
 		})
 		.then(async (json) => {
 
-			let len = await cache.store.length();
+			// @ts-ignore
+			let len: number = await cache.store.length();
 
 			await importCache(cache.store, json);
 
-			let len2 = await cache.store.length();
+			// @ts-ignore
+			let len2: number = await cache.store.length();
 
 			console.log(`before: ${len}`, `after: ${len2}`);
 		})

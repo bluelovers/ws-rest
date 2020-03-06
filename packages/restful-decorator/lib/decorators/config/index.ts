@@ -57,8 +57,10 @@ export function TransformRequest(fn: ITSValueOrArray<AxiosTransformer>)
 	{
 		const config = getConfig(target, propertyName);
 
+		// @ts-ignore
 		if (config.transformRequest && !Array.isArray(config.transformRequest))
 		{
+			// @ts-ignore
 			config.transformRequest = [config.transformRequest];
 		}
 
@@ -67,8 +69,10 @@ export function TransformRequest(fn: ITSValueOrArray<AxiosTransformer>)
 			fn = [fn];
 		}
 
+		// @ts-ignore
 		config.transformRequest = config.transformRequest || [];
 
+		// @ts-ignore
 		config.transformRequest.push(...fn);
 
 		//console.dir(config.transformRequest);
