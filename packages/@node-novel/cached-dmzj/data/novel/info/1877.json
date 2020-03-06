@@ -3,13 +3,13 @@
   "name": "Fairy Tale 幻想编年史～不懂察言观色的异世界生活～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10385,
-  "last_update_chapter_id": 100118,
-  "last_update_time": 1571051262,
+  "last_update_volume_id": 10652,
+  "last_update_chapter_id": 104067,
+  "last_update_time": 1583392536,
   "cover": "https://xs.dmzj.com/img/webpic/19/fairytalehxbns567893l.jpg",
-  "hot_hits": 796365,
+  "hot_hits": 845494,
   "introduction": "废柴高中生东宏在游戏中是一名手艺高强的生产职人。某天他莫名掉进了和线上游戏『幻想编年史』相仿的异世界！意外与同班同学近藤春菜相遇后，从制作药水到贩卖咖哩面包，两人靠着高超的技能在异世界打天下！偶然救出遭人算计的艾莉丝公主之后，被卷入国家级阴谋的两人是否能够化险为夷呢？崭新的生产系奇幻轻小说即将揭幕！",
   "types": [
     "魔法",
@@ -20,8 +20,8 @@
   ],
   "authors": "埴轮星人",
   "first_letter": "F",
-  "subscribe_num": 15791,
-  "redis_update_time": 1574306227,
+  "subscribe_num": 17344,
+  "redis_update_time": 1583460072,
   "volume": [
     {
       "id": 6873,
@@ -29,7 +29,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1431698428,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 7952,
@@ -37,7 +37,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1467607827,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 7974,
@@ -45,7 +45,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1468563249,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 8142,
@@ -53,7 +53,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1473672420,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 8763,
@@ -61,7 +61,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1498224134,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 8858,
@@ -69,7 +69,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1500869103,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 10385,
@@ -77,7 +77,15 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1571050350,
-      "sum_chapters": 8
+      "sum_chapters": 10
+    },
+    {
+      "id": 10652,
+      "lnovel_id": 1877,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1583391775,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -569,6 +577,74 @@
           "chapter_id": 100118,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 10652,
+      "id": 10652,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 104046,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104047,
+          "chapter_name": "佛雷篇 序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104048,
+          "chapter_name": "佛雷篇 第一话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104049,
+          "chapter_name": "佛雷篇 第二话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104050,
+          "chapter_name": "佛雷篇 第三话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104051,
+          "chapter_name": "佛雷篇 第四话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104052,
+          "chapter_name": "佛雷篇 第五话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104053,
+          "chapter_name": "佛雷篇 第六话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104054,
+          "chapter_name": "佛雷篇 第七话",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104055,
+          "chapter_name": "佛雷篇 第八话",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 104056,
+          "chapter_name": "佛雷篇 第九话",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 104067,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }

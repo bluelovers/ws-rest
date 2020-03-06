@@ -3,13 +3,13 @@
   "name": "轻小说的快乐写法",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10406,
-  "last_update_chapter_id": 100442,
-  "last_update_time": 1572171612,
+  "last_update_volume_id": 10649,
+  "last_update_chapter_id": 103994,
+  "last_update_time": 1583319519,
   "cover": "https://xs.dmzj.com/img/webpic/4/0348H.jpg",
-  "hot_hits": 223839,
+  "hot_hits": 237879,
   "introduction": "　　主角与八云在因缘际会之下得知同班同学兼学园第一美少女流镝马剑实际上是新人轻小说作家。接着，担任责任编辑的表姊便命令他协助刚出道就陷入瓶颈的剑……",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "本田透",
   "first_letter": "Q",
-  "subscribe_num": 6384,
-  "redis_update_time": 1574305982,
+  "subscribe_num": 7390,
+  "redis_update_time": 1583458553,
   "volume": [
     {
       "id": 1220,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918347,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 1221,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1274918347,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 1222,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1274918347,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 4221,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1328755891,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 5118,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1362984433,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 8868,
@@ -66,7 +66,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1501411450,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 10406,
@@ -74,7 +74,15 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1572169865,
-      "sum_chapters": 8
+      "sum_chapters": 10
+    },
+    {
+      "id": 10649,
+      "lnovel_id": 329,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1583318565,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -366,6 +374,84 @@
           "chapter_id": 100442,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10649,
+      "id": 10649,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 103980,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 103981,
+          "chapter_name": "名侦探•流镝马剑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 103982,
+          "chapter_name": "名侦探•市古柚那",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 103983,
+          "chapter_name": "激斗 咖喱对决！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 103984,
+          "chapter_name": "轻小说的快乐写作法",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 103985,
+          "chapter_name": "夜晚水族馆的心动约会！？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 103986,
+          "chapter_name": "学园最强的少女「市古」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 103987,
+          "chapter_name": "剑，动画出道",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 103988,
+          "chapter_name": "我们今天开始变现充……",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 103989,
+          "chapter_name": "小百合的咖喱魔改道场",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 103990,
+          "chapter_name": "约克夏被降职为仓库管理！剑，停业危机！",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 103991,
+          "chapter_name": "骤雨",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 103992,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 103994,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

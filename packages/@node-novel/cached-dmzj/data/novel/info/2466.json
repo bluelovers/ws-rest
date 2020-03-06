@@ -3,13 +3,13 @@
   "name": "圣女魔力无所不能",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10137,
-  "last_update_chapter_id": 96444,
-  "last_update_time": 1558963201,
+  "last_update_volume_id": 10651,
+  "last_update_chapter_id": 104066,
+  "last_update_time": 1583392452,
   "cover": "https://xs.dmzj.com/img/webpic/27/sn0408l.jpg",
-  "hot_hits": 256059,
+  "hot_hits": 428628,
   "introduction": "工作狂加班回家竟然被异世界召唤成为圣女！？",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "橘由华",
   "first_letter": "S",
-  "subscribe_num": 13596,
-  "redis_update_time": 1564344857,
+  "subscribe_num": 16589,
+  "redis_update_time": 1583460003,
   "volume": [
     {
       "id": 9347,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1523169052,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 9605,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1533208588,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 10137,
@@ -43,7 +43,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1558962953,
-      "sum_chapters": 8
+      "sum_chapters": 10
+    },
+    {
+      "id": 10651,
+      "lnovel_id": 2466,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1583390968,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -253,6 +261,64 @@
           "chapter_id": 96444,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10651,
+      "id": 10651,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 104037,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104038,
+          "chapter_name": "第一幕 出发",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104039,
+          "chapter_name": "第二幕 难题",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104040,
+          "chapter_name": "幕后",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104041,
+          "chapter_name": "第三幕 实验",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104042,
+          "chapter_name": "第四幕 再战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104043,
+          "chapter_name": "第五幕 再生",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104044,
+          "chapter_name": "短篇故事集",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104045,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104066,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
