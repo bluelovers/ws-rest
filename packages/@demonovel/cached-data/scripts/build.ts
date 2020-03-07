@@ -24,7 +24,9 @@ export default fetchFileAll(false, {
 		return Bluebird.resolve(Object.keys(data))
 			.map(siteID => {
 
-				return outputJSON(join(__rootCacheBuild, `${siteID}.json`), data[siteID])
+				return outputJSON(join(__rootCacheBuild, `${siteID}.json`), data[siteID], {
+					spaces: 2,
+				})
 			})
 		;
 	})
@@ -41,8 +43,12 @@ export default fetchFileAll(false, {
 			.then(list => _handle(list))
 			.tap(list => {
 				return Promise.all([
-					outputJSON(join(__rootCache, `pack`, `array.json`), list),
-					outputJSON(join(__rootCache, `pack`, `record.json`), toRecord(list)),
+					outputJSON(join(__rootCache, `pack`, `array.json`), list, {
+						spaces: 2,
+					}),
+					outputJSON(join(__rootCache, `pack`, `record.json`), toRecord(list), {
+						spaces: 2,
+					}),
 
 					buildCached(list),
 				])

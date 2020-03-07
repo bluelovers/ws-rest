@@ -6,6 +6,7 @@ import { EnumSiteID } from '../../../types';
 import { ISitesSourceType, ICachedJSONRowInput } from '../types';
 import { newTitle, newEntry } from './util';
 import cheerio from "cheerio";
+import { createMomentBySeconds } from '../../util/moment';
 
 export function buildMasiro<K extends EnumSiteID.masiro>(siteID: K, id: string, data: ISitesSourceType[K])
 {
@@ -33,7 +34,7 @@ export function buildMasiro<K extends EnumSiteID.masiro>(siteID: K, id: string, 
 
 	}
 
-	item.updated = data.last_thread_time;
+	item.updated = data.last_thread_time && createMomentBySeconds(data.last_thread_time).valueOf() || 0;
 
 	if (data.threads[0])
 	{

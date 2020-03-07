@@ -5,6 +5,7 @@
 import { EnumSiteID } from '../../../types';
 import { ISitesSourceType, ICachedJSONRowInput } from '../types';
 import { newTitle, newEntry } from './util';
+import { createMomentBySeconds } from '../../util/moment';
 
 export function buildEsjzone<K extends EnumSiteID.esjzone>(siteID: K, id: string, data: ISitesSourceType[K])
 {
@@ -25,7 +26,7 @@ export function buildEsjzone<K extends EnumSiteID.esjzone>(siteID: K, id: string
 	}, 0);
 
 	item.content = data.desc;
-	item.updated = data.last_update_time;
+	item.updated = data.last_update_time && createMomentBySeconds(data.last_update_time).valueOf() || 0;
 	item.tags = data.tags;
 	item.cover = data.cover;
 

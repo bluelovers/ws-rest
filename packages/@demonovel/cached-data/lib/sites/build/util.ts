@@ -17,7 +17,7 @@ export function newEntry<K extends ISitesKeys>(siteID: K, item: ICachedJSONRowIn
 
 	item.siteID = siteID;
 
-	item.updated |= 0;
+	item.updated = item.updated || 0;
 
 	Object.entries(item)
 		.forEach(([k, v]) =>

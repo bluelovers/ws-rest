@@ -1,12 +1,6 @@
 # README.md
 
-    <description>
+> 將各個網站的小說資料統一成相同結構
 
-## install
-
-```bash
-yarn add <name>
-yarn-tool add <name>
-yt add <name>
-```
-
+- timestamp 統一為 milliseconds
+- 

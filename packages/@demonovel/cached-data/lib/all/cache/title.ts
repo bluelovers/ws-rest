@@ -79,7 +79,7 @@ export function buildCachedTitle(list: IArrayCachedJSONRow)
 	})
 
 	return outputJSON(join(__rootCache, 'preset', `titles.json`), out, {
-		//spaces: 2,
+		spaces: 2,
 	})
 }
 

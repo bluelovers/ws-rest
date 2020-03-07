@@ -1,10 +1,11 @@
-import { INovelStatCache, createFromJSON, createMoment } from '@node-novel/cache-loader';
+import { INovelStatCache, createFromJSON } from '@node-novel/cache-loader';
 import Bluebird from 'bluebird';
 import { siteID, IFilterNovelDataPlus } from './types';
 import NodeNovelInfo from 'node-novel-info/class';
 import dotValues2 from 'dot-values2/lib'
 import { newUUID, trim } from '../util';
 import { ICachedJSONRowPlus, IRecordCachedJSONRow } from '../../types';
+import { createMomentBySeconds, createMomentByMilliseconds } from '../util/moment';
 
 export function build(source: INovelStatCache)
 {
@@ -23,7 +24,7 @@ export function build(source: INovelStatCache)
 				{
 					let id = novel.pathMain_base + '/' + novel.novelID;
 
-					console.log(siteID, id);
+					//console.log(siteID, id);
 
 					let info = NodeNovelInfo.create(novel.mdconf);
 
@@ -50,7 +51,7 @@ export function build(source: INovelStatCache)
 
 					if (updated)
 					{
-						updated = createMoment(updated).unix()
+						updated = createMomentByMilliseconds(updated).valueOf();
 					}
 
 					let item: ICachedJSONRowPlus = {
