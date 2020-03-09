@@ -3,13 +3,13 @@
   "name": "鲤之洼学园系列",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 不学无术的侦探学园",
-  "last_update_chapter_name": "东川笃哉专访",
-  "last_update_volume_id": 4559,
-  "last_update_chapter_id": 29255,
-  "last_update_time": 1342073525,
+  "last_update_volume_name": "第二卷 杀意必定三度降临",
+  "last_update_chapter_name": "比赛结束",
+  "last_update_volume_id": 10655,
+  "last_update_chapter_id": 104092,
+  "last_update_time": 1583581442,
   "cover": "https://xs.dmzj.com/img/webpic/20/lzkxy.jpg",
-  "hot_hits": 12249,
+  "hot_hits": 12650,
   "introduction": "　　刚转学来到私立鲤之洼学园的赤坂通，原本打算参加文艺社，却糊里糊涂地被学长多摩川、八桥拐进连社办都没有的谜样社团——侦探社。\n　　就在三人于放学后在校园内四处闲晃，努力进行社团活动（聊天打屁、用扫帚打棒球）之际，竟发生了杀人事件！身分不明的死者陈尸于密室中，加上者姓名逗趣的刑警二人组、忽然失踪的校园偶像明星、几名可能涉嫌的老师……，案情变得越来越复杂。\n　　身为校园之光（？）的侦探社，有可能先于警察之前，破解在他们「地盘」发生的杀人案吗？",
   "types": [
     "侦探",
@@ -17,8 +17,8 @@
   ],
   "authors": "东川笃哉",
   "first_letter": "L",
-  "subscribe_num": 285,
-  "redis_update_time": 1564843705,
+  "subscribe_num": 433,
+  "redis_update_time": 1583712160,
   "volume": [
     {
       "id": 4559,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷 不学无术的侦探学园",
       "volume_order": 10,
       "addtime": 1342073525,
-      "sum_chapters": 12
+      "sum_chapters": 8
+    },
+    {
+      "id": 10655,
+      "lnovel_id": 1264,
+      "volume_name": "第二卷 杀意必定三度降临",
+      "volume_order": 20,
+      "addtime": 1583581356,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -69,6 +77,49 @@
         {
           "chapter_id": 29255,
           "chapter_name": "东川笃哉专访",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 10655,
+      "id": 10655,
+      "volume_name": "第二卷 杀意必定三度降临",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 104086,
+          "chapter_name": "比赛开始",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104087,
+          "chapter_name": "第一章 序盘战",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104088,
+          "chapter_name": "第二章 中盘战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104089,
+          "chapter_name": "第三章 幸运第七局",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104090,
+          "chapter_name": "第四章 终盘战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104091,
+          "chapter_name": "第五章 延长赛",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104092,
+          "chapter_name": "比赛结束",
           "chapter_order": 70
         }
       ]

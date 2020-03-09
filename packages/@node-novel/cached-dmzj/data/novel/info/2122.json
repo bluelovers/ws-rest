@@ -3,21 +3,21 @@
   "name": "乌贼川市系列",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 朝密室射击!",
-  "last_update_chapter_name": "第十八章 他们与她们的终章",
-  "last_update_volume_id": 7754,
-  "last_update_chapter_id": 103975,
-  "last_update_time": 1583318157,
+  "last_update_volume_name": "第八卷 要是没有侦探就好了",
+  "last_update_chapter_name": "酷似被害者的男人",
+  "last_update_volume_id": 10657,
+  "last_update_chapter_id": 104108,
+  "last_update_time": 1583581849,
   "cover": "https://xs.dmzj.com/img/webpic/7/wzcsxl8966l.jpg",
-  "hot_hits": 18381,
+  "hot_hits": 21950,
   "introduction": "就读乌贼川市大学的穷学生户村流平，在毕业前夕遭遇人生最大危机！\n为了现实放弃电影梦，却被女友由纪无情地拋弃……流平的学长为了替他打气，邀他到家里喝酒看片，晚上学长却在只有两人独处(还喝得烂醉)的屋子内，在浴室中遇刺身亡！？「上锁的房间内只有他和学长，没有其他人来过的迹象，警方一定会怀疑他是凶手！」带著宿醉逃离现场的流平，又听到另一件令人震惊的消息──他的前女友，昨晚在自家大楼被人刺杀后坠楼身亡？一夕之间成为两桩命案的头号嫌疑犯，流平只能寻求「那个侦探」的帮忙了……\n幽默本格推理的原点代表作，东川笃哉首部长篇作品在此登场！",
   "types": [
     "侦探"
   ],
   "authors": "东川笃哉",
   "first_letter": "W",
-  "subscribe_num": 1152,
-  "redis_update_time": 1583459467,
+  "subscribe_num": 1437,
+  "redis_update_time": 1583712801,
   "volume": [
     {
       "id": 7753,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 密室的钥匙借给你",
       "volume_order": 10,
       "addtime": 1461662835,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 7754,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 朝密室射击!",
       "volume_order": 20,
       "addtime": 1461662846,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 7755,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 完全犯罪需要几只猫?",
       "volume_order": 30,
       "addtime": 1461662879,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 7756,
@@ -49,23 +49,39 @@
       "volume_name": "第四卷 不适合交换杀人的夜晚",
       "volume_order": 40,
       "addtime": 1461662900,
-      "sum_chapters": 10
+      "sum_chapters": 8
+    },
+    {
+      "id": 10656,
+      "lnovel_id": 2122,
+      "volume_name": "第五卷 请勿在此丢弃尸体",
+      "volume_order": 44,
+      "addtime": 1583581601,
+      "sum_chapters": 8
     },
     {
       "id": 7757,
       "lnovel_id": 2122,
-      "volume_name": "第五卷 好想赶快成为名侦探",
+      "volume_name": "第六卷 好想赶快成为名侦探",
       "volume_order": 50,
       "addtime": 1461664014,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 7758,
       "lnovel_id": 2122,
-      "volume_name": "第六卷 我讨厌的侦探",
+      "volume_name": "第七卷 我讨厌的侦探",
       "volume_order": 60,
       "addtime": 1461664317,
-      "sum_chapters": 10
+      "sum_chapters": 8
+    },
+    {
+      "id": 10657,
+      "lnovel_id": 2122,
+      "volume_name": "第八卷 要是没有侦探就好了",
+      "volume_order": 70,
+      "addtime": 1583581779,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -307,9 +323,72 @@
       ]
     },
     {
+      "volume_id": 10656,
+      "id": 10656,
+      "volume_name": "第五卷 请勿在此丢弃尸体",
+      "volume_order": 44,
+      "chapters": [
+        {
+          "chapter_id": 104093,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104094,
+          "chapter_name": "第一章 尸体不好丢",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104095,
+          "chapter_name": "第二章 抵达新月山庄",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104096,
+          "chapter_name": "第三章 一股紧张的氛围",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104097,
+          "chapter_name": "第四章 漂流在溪河的尸体",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104098,
+          "chapter_name": "第五章 不在场证明",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104099,
+          "chapter_name": "第六章 众人的推理",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104100,
+          "chapter_name": "第七章 双雄对峙",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104101,
+          "chapter_name": "第八章 砂川警部揭露意外的事实",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104102,
+          "chapter_name": "第九章 凶手受罚",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 104103,
+          "chapter_name": "终章",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
       "volume_id": 7757,
       "id": 7757,
-      "volume_name": "第五卷 好想赶快成为名侦探",
+      "volume_name": "第六卷 好想赶快成为名侦探",
       "volume_order": 50,
       "chapters": [
         {
@@ -347,7 +426,7 @@
     {
       "volume_id": 7758,
       "id": 7758,
-      "volume_name": "第六卷 我讨厌的侦探",
+      "volume_name": "第七卷 我讨厌的侦探",
       "volume_order": 60,
       "chapters": [
         {
@@ -379,6 +458,39 @@
           "chapter_id": 60154,
           "chapter_name": "二〇四号房在燃烧吗？",
           "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 10657,
+      "id": 10657,
+      "volume_name": "第八卷 要是没有侦探就好了",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 104104,
+          "chapter_name": "仓持和哉的两个不在场证明",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104105,
+          "chapter_name": "吉祥物之死",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104106,
+          "chapter_name": "博士与机器人的偷天换日诡计",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104107,
+          "chapter_name": "某间密室的起始与终结",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104108,
+          "chapter_name": "酷似被害者的男人",
+          "chapter_order": 50
         }
       ]
     }

@@ -3,21 +3,21 @@
   "name": "恶之娘",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 绿之摇篮曲",
-  "last_update_chapter_name": "第二卷 绿之摇篮曲 附录",
-  "last_update_volume_id": 3554,
-  "last_update_chapter_id": 20677,
-  "last_update_time": 1301277620,
+  "last_update_volume_name": "第四卷 蓝之序曲",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 10661,
+  "last_update_chapter_id": 104136,
+  "last_update_time": 1583666568,
   "cover": "https://xs.dmzj.com/img/webpic/10/ezn.jpg",
-  "hot_hits": 200967,
+  "hot_hits": 206413,
   "introduction": "  内容简介：日本著名动画网站NICONICO超人气同人动画\n超级虚拟偶像·镜音双子\n三大悲剧之一「恶之系列」官方小说绝赞登场！！\n众望所归 原词曲作者·恶之P（mothy)氏亲自执笔！\n走向不同命运的悲情双子物语，现在拉开帷幕——\n\n转自 轻之国度",
   "types": [
     "其它"
   ],
   "authors": "恶之P（mothy）",
   "first_letter": "E",
-  "subscribe_num": 3099,
-  "redis_update_time": 1565002150,
+  "subscribe_num": 3814,
+  "redis_update_time": 1583713583,
   "volume": [
     {
       "id": 3267,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 黄之终曲",
       "volume_order": 10,
       "addtime": 1289195645,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 3554,
@@ -33,7 +33,23 @@
       "volume_name": "第二卷 绿之摇篮曲",
       "volume_order": 20,
       "addtime": 1300955122,
-      "sum_chapters": 10
+      "sum_chapters": 8
+    },
+    {
+      "id": 10660,
+      "lnovel_id": 924,
+      "volume_name": "第三卷 红之前奏曲",
+      "volume_order": 30,
+      "addtime": 1583666324,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10661,
+      "lnovel_id": 924,
+      "volume_name": "第四卷 蓝之序曲",
+      "volume_order": 40,
+      "addtime": 1583666451,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -135,6 +151,97 @@
           "chapter_id": 20677,
           "chapter_name": "附录",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10660,
+      "id": 10660,
+      "volume_name": "第三卷 红之前奏曲",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 104122,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104123,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104124,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104125,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104126,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104127,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104128,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104129,
+          "chapter_name": "解说",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10661,
+      "id": 10661,
+      "volume_name": "第四卷 蓝之序曲",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 104130,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104131,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104132,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104133,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104134,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104135,
+          "chapter_name": "终章 序曲之末",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104136,
+          "chapter_name": "后记",
+          "chapter_order": 70
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "29岁单身汉在异世界想自由生活却事与愿违！？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第九卷",
+  "last_update_volume_name": "第十卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10355,
-  "last_update_chapter_id": 99775,
-  "last_update_time": 1569899813,
+  "last_update_volume_id": 10665,
+  "last_update_chapter_id": 104196,
+  "last_update_time": 1583669353,
   "cover": "https://xs.dmzj.com/img/webpic/18/29sds1012l.jpg",
-  "hot_hits": 2044889,
+  "hot_hits": 2261517,
   "introduction": "某天，在没见过的世界醒来。今年三十岁的独身男三叶大志，他被谜之声所引导，作为冒险者生活。不久因与名叫玛露的冒险者少女相遇，大志被异世界的巨大的波涛所吞没——",
   "types": [
     "异界",
@@ -20,8 +20,8 @@
   ],
   "authors": "リュート",
   "first_letter": "2",
-  "subscribe_num": 50624,
-  "redis_update_time": 1574305437,
+  "subscribe_num": 53441,
+  "redis_update_time": 1583713798,
   "volume": [
     {
       "id": 8209,
@@ -93,6 +93,14 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1569847328,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10665,
+      "lnovel_id": 2211,
+      "volume_name": "第十卷",
+      "volume_order": 100,
+      "addtime": 1583668167,
       "sum_chapters": 8
     }
   ],
@@ -651,6 +659,64 @@
           "chapter_id": 99775,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10665,
+      "id": 10665,
+      "volume_name": "第十卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 104171,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104172,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104173,
+          "chapter_name": "第一话 ～迎接大量前奴隶们～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104174,
+          "chapter_name": "第二话 ～在戈培尔王国约会～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104175,
+          "chapter_name": "第三话 ～决定发布国是～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104176,
+          "chapter_name": "第四话 ～遭到变身英雄攻击～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104177,
+          "chapter_name": "第五话 ～获得赔偿，被迫负起责任～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104178,
+          "chapter_name": "闲话 ～黑发冒险者～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104179,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104196,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

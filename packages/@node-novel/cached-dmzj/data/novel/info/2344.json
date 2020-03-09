@@ -3,13 +3,13 @@
   "name": "末日时在做些什么？能再一次相见吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "异传 莉莉娅·阿斯普雷伊",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10429,
-  "last_update_chapter_id": 100729,
-  "last_update_time": 1573208416,
+  "last_update_volume_id": 10658,
+  "last_update_chapter_id": 104121,
+  "last_update_time": 1583582803,
   "cover": "https://xs.dmzj.com/img/webpic/27/mr06627.jpg",
-  "hot_hits": 544336,
+  "hot_hits": 634468,
   "introduction": "末日时在做什么?有没有空?可以来拯救吗?第二部。",
   "types": [
     "冒险",
@@ -18,8 +18,8 @@
   ],
   "authors": "枯野瑛",
   "first_letter": "M",
-  "subscribe_num": 76016,
-  "redis_update_time": 1574306346,
+  "subscribe_num": 82006,
+  "redis_update_time": 1583713397,
   "volume": [
     {
       "id": 8772,
@@ -91,6 +91,14 @@
       "volume_name": "异传 莉莉娅·阿斯普雷伊",
       "volume_order": 90,
       "addtime": 1573207944,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10658,
+      "lnovel_id": 2344,
+      "volume_name": "第八卷",
+      "volume_order": 100,
+      "addtime": 1583582085,
       "sum_chapters": 8
     }
   ],
@@ -236,6 +244,11 @@
           "chapter_id": 87711,
           "chapter_name": "插画",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 104109,
+          "chapter_name": "特典『战士之巅-on the top of the world-』",
+          "chapter_order": 90
         }
       ]
     },
@@ -487,6 +500,54 @@
         },
         {
           "chapter_id": 100729,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10658,
+      "id": 10658,
+      "volume_name": "第八卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 104110,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104111,
+          "chapter_name": "序章，『烟雨之夜，承前』-unmasked deadman-",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104112,
+          "chapter_name": "第一章，『残余的日子、与残留的人们』- singing in the rain –",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104113,
+          "chapter_name": "第二章：『滔滔不绝的死者，与他活着的理由』- heartless man -",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104114,
+          "chapter_name": "第三章：『向那些日子伸出手』- weight of the weird world -",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104115,
+          "chapter_name": "终章：『还能再见一面吗？』- starry dawn -",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104116,
+          "chapter_name": "后记/起码后记什么的——",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104121,
           "chapter_name": "插画",
           "chapter_order": 80
         }
