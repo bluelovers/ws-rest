@@ -4,6 +4,7 @@ import { join } from "path";
 import { __rootCache } from '../../__root';
 import Bluebird from 'bluebird';
 import { createMomentByMilliseconds as createMoment } from '../../util/moment';
+import { outputJSONWithIndent } from '../../util/fs';
 
 export function buildCachedByDate(list: IArrayCachedJSONRow)
 {
@@ -104,18 +105,10 @@ export function buildCachedByDate(list: IArrayCachedJSONRow)
 	;
 
 	return Bluebird.all([
-		outputJSON(join(__rootCache, 'preset', `date_days.json`), recordDays, {
-			spaces: 2,
-		}),
-		outputJSON(join(__rootCache, 'preset', `date_weeks.json`), recordWeeks, {
-			spaces: 2,
-		}),
-		outputJSON(join(__rootCache, 'preset', `date_months.json`), recordMonths, {
-			spaces: 2,
-		}),
-		outputJSON(join(__rootCache, 'preset', `date_undefined.json`), recordUndefined, {
-			spaces: 2,
-		}),
+		outputJSONWithIndent(join(__rootCache, 'preset', `date_days.json`), recordDays),
+		outputJSONWithIndent(join(__rootCache, 'preset', `date_weeks.json`), recordWeeks),
+		outputJSONWithIndent(join(__rootCache, 'preset', `date_months.json`), recordMonths),
+		outputJSONWithIndent(join(__rootCache, 'preset', `date_undefined.json`), recordUndefined),
 	])
 }
 

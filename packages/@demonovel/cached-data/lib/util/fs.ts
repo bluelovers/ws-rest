@@ -1,7 +1,7 @@
 /**
  * Created by user on 2020/3/2.
  */
-import { stat, readJSON } from 'fs-extra';
+import { stat, readJSON, outputJSON, WriteOptions } from 'fs-extra';
 import Bluebird from 'bluebird';
 
 export function readJSONWithFetch<T>(file: string, fetch: () => Promise<T>, force?: boolean): Bluebird<T>
@@ -26,4 +26,11 @@ export function readJSONWithFetch<T>(file: string, fetch: () => Promise<T>, forc
 		.catch(e => fetch())
 		.catch(e => readJSON(file))
 	;
+}
+
+export function outputJSONWithIndent(file: string, data: any, options: WriteOptions = {
+	spaces: 2,
+})
+{
+	return Bluebird.resolve(outputJSON(file, data, options))
 }

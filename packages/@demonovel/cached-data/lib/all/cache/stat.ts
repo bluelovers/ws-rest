@@ -2,6 +2,7 @@ import { IArrayCachedJSONRow } from '../../../types';
 import { outputJSON } from 'fs-extra';
 import { join } from "path";
 import { __rootCache } from '../../__root';
+import { outputJSONWithIndent } from '../../util/fs';
 
 export function buildCachedStat(list: IArrayCachedJSONRow)
 {
@@ -17,9 +18,7 @@ export function buildCachedStat(list: IArrayCachedJSONRow)
 		updated,
 	}
 
-	return outputJSON(join(__rootCache, `stat.json`), out, {
-		spaces: 2,
-	})
+	return outputJSONWithIndent(join(__rootCache, `stat.json`), out)
 }
 
 export default buildCachedStat

@@ -13,6 +13,7 @@ import stableStringify from "@wincent/stable-stringify";
 import { toArray, _handle, toRecord } from '../lib/util/convert';
 import { IArrayCachedJSONRow } from '../types';
 import buildCached from '../lib/all/cache';
+import { outputJSONWithIndent } from '../lib/util/fs';
 
 export default fetchFileAll(false, {
 	local: true,
@@ -24,9 +25,7 @@ export default fetchFileAll(false, {
 		return Bluebird.resolve(Object.keys(data))
 			.map(siteID => {
 
-				return outputJSON(join(__rootCacheBuild, `${siteID}.json`), data[siteID], {
-					spaces: 2,
-				})
+				return outputJSONWithIndent(join(__rootCacheBuild, `${siteID}.json`), data[siteID])
 			})
 		;
 	})
@@ -43,12 +42,8 @@ export default fetchFileAll(false, {
 			.then(list => _handle(list))
 			.tap(list => {
 				return Promise.all([
-					outputJSON(join(__rootCache, `pack`, `array.json`), list, {
-						spaces: 2,
-					}),
-					outputJSON(join(__rootCache, `pack`, `record.json`), toRecord(list), {
-						spaces: 2,
-					}),
+					outputJSONWithIndent(join(__rootCache, `pack`, `array.json`), list),
+					outputJSONWithIndent(join(__rootCache, `pack`, `record.json`), toRecord(list)),
 
 					buildCached(list),
 				])

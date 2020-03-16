@@ -6,6 +6,7 @@ import { zhDictCompare } from '@novel-segment/util';
 import { outputJSON } from 'fs-extra';
 import { join } from "path";
 import { __rootCache } from '../../__root';
+import { outputJSONWithIndent } from '../../util/fs';
 
 export function buildCachedTitle(list: IArrayCachedJSONRow)
 {
@@ -78,9 +79,7 @@ export function buildCachedTitle(list: IArrayCachedJSONRow)
 		return zhDictCompare(a[0], b[0])
 	})
 
-	return outputJSON(join(__rootCache, 'preset', `titles.json`), out, {
-		spaces: 2,
-	})
+	return outputJSONWithIndent(join(__rootCache, 'preset', `titles.json`), out)
 }
 
 export default buildCachedTitle
