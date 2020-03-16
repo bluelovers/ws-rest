@@ -28,7 +28,7 @@ export function readJSONWithFetch<T>(file: string, fetch: () => Promise<T>, forc
 	;
 }
 
-export function outputJSONWithIndent(file: string, data: any, options: WriteOptions = {
+export function outputJSONWithIndent<T = any>(file: string, data: T, options: WriteOptions = {
 	spaces: 2,
 })
 {

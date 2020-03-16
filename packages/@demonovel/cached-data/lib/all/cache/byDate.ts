@@ -1,4 +1,4 @@
-import { IArrayCachedJSONRow } from '../../../types';
+import { IArrayCachedJSONRow, IPresetDate } from '../../../types';
 import { outputJSON } from 'fs-extra';
 import { join } from "path";
 import { __rootCache } from '../../__root';
@@ -8,21 +8,13 @@ import { outputJSONWithIndent } from '../../util/fs';
 
 export function buildCachedByDate(list: IArrayCachedJSONRow)
 {
-	let recordDays: {
-		[Date: number]: string[],
-	} = {};
+	let recordDays: IPresetDate = {};
 
-	let recordWeeks: {
-		[Date: number]: string[],
-	} = {};
+	let recordWeeks: IPresetDate = {};
 
-	let recordMonths: {
-		[Date: number]: string[],
-	} = {};
+	let recordMonths: IPresetDate = {};
 
-	let recordUndefined: {
-		[Date: number]: string[],
-	} = {};
+	let recordUndefined: IPresetDate = {};
 
 	let len = {
 		days: 0,
@@ -105,10 +97,10 @@ export function buildCachedByDate(list: IArrayCachedJSONRow)
 	;
 
 	return Bluebird.all([
-		outputJSONWithIndent(join(__rootCache, 'preset', `date_days.json`), recordDays),
-		outputJSONWithIndent(join(__rootCache, 'preset', `date_weeks.json`), recordWeeks),
-		outputJSONWithIndent(join(__rootCache, 'preset', `date_months.json`), recordMonths),
-		outputJSONWithIndent(join(__rootCache, 'preset', `date_undefined.json`), recordUndefined),
+		outputJSONWithIndent<IPresetDate>(join(__rootCache, 'preset', `date_days.json`), recordDays),
+		outputJSONWithIndent<IPresetDate>(join(__rootCache, 'preset', `date_weeks.json`), recordWeeks),
+		outputJSONWithIndent<IPresetDate>(join(__rootCache, 'preset', `date_months.json`), recordMonths),
+		outputJSONWithIndent<IPresetDate>(join(__rootCache, 'preset', `date_undefined.json`), recordUndefined),
 	])
 }
 

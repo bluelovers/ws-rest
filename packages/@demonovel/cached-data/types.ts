@@ -57,3 +57,18 @@ export interface IRecordSitesBuildAll extends Record<ISitesKeysAll, IRecordCache
 {
 
 }
+
+export type IPresetTitlesRow = [string, string[]];
+export type IPresetTitles = IPresetTitlesRow[]
+
+export interface IPresetDate
+{
+	[Date: string]: string[],
+}
+
+export interface ICacheStat
+{
+	"timestamp": number,
+	"total": number,
+	"updated": number
+}

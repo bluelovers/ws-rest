@@ -1,4 +1,4 @@
-import { IArrayCachedJSONRow } from '../../../types';
+import { IArrayCachedJSONRow, ICacheStat } from '../../../types';
 import { outputJSON } from 'fs-extra';
 import { join } from "path";
 import { __rootCache } from '../../__root';
@@ -11,14 +11,13 @@ export function buildCachedStat(list: IArrayCachedJSONRow)
 	let firstEntry = list[0];
 	let updated = firstEntry.updated;
 
-	let out = {
+	let out: ICacheStat = {
 		timestamp: Date.now(),
 		total,
-		//firstEntry,
 		updated,
-	}
+	};
 
-	return outputJSONWithIndent(join(__rootCache, `stat.json`), out)
+	return outputJSONWithIndent<ICacheStat>(join(__rootCache, `stat.json`), out)
 }
 
 export default buildCachedStat

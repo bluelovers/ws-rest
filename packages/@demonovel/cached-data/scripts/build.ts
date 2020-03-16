@@ -11,7 +11,7 @@ import { join } from "path";
 import { __rootCacheBuild, __rootCache } from '../lib/__root';
 import stableStringify from "@wincent/stable-stringify";
 import { toArray, _handle, toRecord } from '../lib/util/convert';
-import { IArrayCachedJSONRow } from '../types';
+import { IArrayCachedJSONRow, IRecordCachedJSONRow } from '../types';
 import buildCached from '../lib/all/cache';
 import { outputJSONWithIndent } from '../lib/util/fs';
 
@@ -25,7 +25,7 @@ export default fetchFileAll(false, {
 		return Bluebird.resolve(Object.keys(data))
 			.map(siteID => {
 
-				return outputJSONWithIndent(join(__rootCacheBuild, `${siteID}.json`), data[siteID])
+				return outputJSONWithIndent<IRecordCachedJSONRow>(join(__rootCacheBuild, `${siteID}.json`), data[siteID])
 			})
 		;
 	})
@@ -42,8 +42,8 @@ export default fetchFileAll(false, {
 			.then(list => _handle(list))
 			.tap(list => {
 				return Promise.all([
-					outputJSONWithIndent(join(__rootCache, `pack`, `array.json`), list),
-					outputJSONWithIndent(join(__rootCache, `pack`, `record.json`), toRecord(list)),
+					outputJSONWithIndent<IArrayCachedJSONRow>(join(__rootCache, `pack`, `array.json`), list),
+					outputJSONWithIndent<IRecordCachedJSONRow>(join(__rootCache, `pack`, `record.json`), toRecord(list)),
 
 					buildCached(list),
 				])

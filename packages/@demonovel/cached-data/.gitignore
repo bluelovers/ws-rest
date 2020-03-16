@@ -88,3 +88,6 @@ jest.config.js.map
 /cache/source/
 !/index.d.ts
 !/index.js
+
+!/cache/**/*.js
+!/cache/**/*.d.ts

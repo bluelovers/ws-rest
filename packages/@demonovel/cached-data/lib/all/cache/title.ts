@@ -1,4 +1,4 @@
-import { IArrayCachedJSONRow } from '../../../types';
+import { IArrayCachedJSONRow, IPresetTitles } from '../../../types';
 import slugifyNovel from '../../util/slugify';
 import { doTitle } from '../util';
 import { array_unique_overwrite } from 'array-hyper-unique';
@@ -72,14 +72,14 @@ export function buildCachedTitle(list: IArrayCachedJSONRow)
 		.forEach(v => array_unique_overwrite(v).sort())
 	;
 
-	let out = Object.entries(titles);
+	let out: IPresetTitles = Object.entries(titles);
 
 	out = out.sort((a, b) =>
 	{
 		return zhDictCompare(a[0], b[0])
 	})
 
-	return outputJSONWithIndent(join(__rootCache, 'preset', `titles.json`), out)
+	return outputJSONWithIndent<IPresetTitles>(join(__rootCache, 'preset', `titles.json`), out)
 }
 
 export default buildCachedTitle
