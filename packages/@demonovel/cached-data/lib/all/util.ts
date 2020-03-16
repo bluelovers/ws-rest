@@ -1,27 +1,134 @@
 import zhRegExp from '../util/zhRegExp';
 import slugifyNovel from '../util/slugify';
 
-const r1 = new zhRegExp(/の|と/g);
-const r2 = new zhRegExp(/(妹|哥){2,}/g);
-const r3 = new zhRegExp(/公主|王女|姫/g);
-const r4 = new zhRegExp(/魔(?:術|法|導)/g);
-const r5 = new zhRegExp(/屬性|狀態/g);
-const r6 = new zhRegExp(/地下?城|迷宮|地牢/g);
-const r7 = new zhRegExp(/(?:術|法|導)(?:师|士)/g);
-const r8 = new zhRegExp(/召唤(?:师|士)/g);
-const r9 = new zhRegExp(/暗杀者?|刺客|杀手/g);
-const r10 = new zhRegExp(/哥不林|哥布林/g);
-const r11 = new zhRegExp(/適合|適任|合格/g);
+const r1 = new zhRegExp(/の|と/ug);
 
-const c3 = slugifyNovel('姫');
-const c4 = slugifyNovel('魔術');
-const c5 = slugifyNovel('屬性');
-const c6 = slugifyNovel('迷宮');
-const c7 = slugifyNovel('術师');
-const c8 = slugifyNovel('召唤师');
-const c9 = slugifyNovel('刺客');
-const c10 = slugifyNovel('哥不林');
-const c11 = slugifyNovel('適合');
+const reList02 = [
+	{
+		s: /(妹|哥|姐){2,}/ug,
+		r: '$1',
+	},
+	{
+		s: /公主|王女|姫/ug,
+		r: '姫',
+	},
+	{
+		s: /魔(?:術|法|導)/ug,
+		r: '魔術',
+	},
+	{
+		s: /屬性|狀態/ug,
+		r: '屬性',
+	},
+	{
+		s: /地下?城|迷宮|地下?牢|地洞|洞窟/ug,
+		r: '迷宮',
+	},
+	{
+		s: /(?:術|法|導)(?:师|士|使)/ug,
+		r: '術师',
+	},
+	{
+		s: /召唤(?:师|士)/ug,
+		r: '召唤师',
+	},
+	{
+		s: /暗杀者?|刺客|杀手/ug,
+		r: '刺客',
+	},
+	{
+		s: /哥不林|哥布林/ug,
+		r: '哥不林',
+	},
+	{
+		s: /適合|適任|合格|合適/ug,
+		r: '適合',
+	},
+	{
+		s: /千金|小姐|令娘|令孃/ug,
+		r: '千金',
+	},
+	{
+		s: /同級生?|同學/ug,
+		r: '同學',
+	},
+	{
+		s: /食尸鬼|喰种/ug,
+		r: '食尸鬼',
+	},
+	{
+		s: /猎人|遊俠/ug,
+		r: '猎人',
+	},
+	{
+		s: /学(?:园|院|校)|高校|教室/ug,
+		r: '學院',
+	},
+	{
+		s: /異世界/ug,
+		r: '異界',
+	},
+	{
+		s: /女主角?|女主?角/ug,
+		r: '女主角',
+	},
+	{
+		s: /妖精|精靈/ug,
+		r: '妖精',
+	},
+	{
+		s: /女神/ug,
+		r: '神',
+	},
+	{
+		s: /都市|城市|村莊?/ug,
+		r: '都市',
+	},
+	{
+		s: /乙女|美?少女|女性向|女孩子?|女子/ug,
+		r: '少女',
+	},
+	{
+		s: /社|部/ug,
+		r: '部',
+	},
+	{
+		s: /(?:萝|羅)莉|幼女/ug,
+		r: '萝莉',
+	},
+	{
+		s: /食堂|飯店|飯館|餐廳|餐館/ug,
+		r: '食堂',
+	},
+	{
+		s: /中二病?/ug,
+		r: '中二',
+	},
+	{
+		s: /円|原/ug,
+		r: '元',
+	},
+	{
+		s: /人外|怪物|魔物|怪獸/ug,
+		r: '魔物',
+	},
+].map(data => {
+	let { s, r } = data;
+
+	s = new zhRegExp(data.s);
+
+	if (!/^\$\d+$/.test(r))
+	{
+		r = slugifyNovel(r)
+	}
+
+	return {
+		s,
+		r,
+	}
+});
+
+//console.dir(reList02)
 
 export function doTitle(title: string, list: string[])
 {
@@ -33,17 +140,13 @@ export function doTitle(title: string, list: string[])
 		doTitle(title_new, list);
 	}
 
-	title_new = title
-		.replace(r2, '$1')
-		.replace(r3, c3)
-		.replace(r4, c4)
-		.replace(r5, c5)
-		.replace(r6, c6)
-		.replace(r7, c7)
-		.replace(r8, c8)
-		.replace(r9, c9)
-		.replace(r10, c10)
-		.replace(r11, c11)
+	title_new = reList02
+		.reduce((title_new, data) => {
+
+			return title_new
+				.replace(data.s, data.r)
+			;
+		}, title)
 	;
 
 	if (title_new.length && title !== title_new)
