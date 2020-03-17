@@ -3,13 +3,13 @@
   "name": "八男？别闹了！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第十五卷",
+  "last_update_volume_name": "第十六卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10544,
-  "last_update_chapter_id": 102429,
-  "last_update_time": 1579512376,
+  "last_update_volume_id": 10689,
+  "last_update_chapter_id": 104437,
+  "last_update_time": 1584366683,
   "cover": "https://xs.dmzj.com/img/webpic/28/bnbnl68786l.jpg",
-  "hot_hits": 6784922,
+  "hot_hits": 7307293,
   "introduction": "一宫信吾是个平凡的二十五岁上班族，某天早上一觉醒来，却发现自己换了一个截然不同的人生！\n他置身彷佛欧洲中世纪的魔法异世界，一个下级贵族的家庭里，并转生为五岁男孩。\n然而他并非从此过著养尊处优的日子，因身为贫穷贵族排行第八的儿子，不但无法继承家门和领地，连吃不吃得饱都成问题，还得学习魔法自力更生才行……",
   "types": [
     "魔法",
@@ -20,8 +20,8 @@
   ],
   "authors": "Y.A",
   "first_letter": "B",
-  "subscribe_num": 65970,
-  "redis_update_time": 1579877957,
+  "subscribe_num": 70194,
+  "redis_update_time": 1584469000,
   "volume": [
     {
       "id": 7130,
@@ -141,6 +141,14 @@
       "volume_name": "第十五卷",
       "volume_order": 150,
       "addtime": 1578740912,
+      "sum_chapters": 9
+    },
+    {
+      "id": 10689,
+      "lnovel_id": 1957,
+      "volume_name": "第十六卷",
+      "volume_order": 160,
+      "addtime": 1584362222,
       "sum_chapters": 9
     }
   ],
@@ -1242,6 +1250,104 @@
           "chapter_id": 102429,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10689,
+      "id": 10689,
+      "volume_name": "第十六卷",
+      "volume_order": 160,
+      "chapters": [
+        {
+          "chapter_id": 104419,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104420,
+          "chapter_name": "序章 导师来了",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104421,
+          "chapter_name": "第一话 出发",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104422,
+          "chapter_name": "第二话 吊车尾魔法使",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104423,
+          "chapter_name": "第三话 预备校学生生活",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104424,
+          "chapter_name": "第四话 在酒场",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104425,
+          "chapter_name": "第五话 伟大的魔法使",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104426,
+          "chapter_name": "第六话 毕业",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104427,
+          "chapter_name": "第七话『晓之黄昏』",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104428,
+          "chapter_name": "第八话 克里姆特之恋",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 104429,
+          "chapter_name": "第九话 搜索谜之巨大生物",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 104430,
+          "chapter_name": "第十话 寻找宠物",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 104431,
+          "chapter_name": "第十一话 美男美女药",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 104433,
+          "chapter_name": "第十二话 疯掉的魔法使达特·斯坦因",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 104434,
+          "chapter_name": "第十三话 暗杀作战正式开始",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 104435,
+          "chapter_name": "第十四话 新朋友",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 104436,
+          "chapter_name": "尾声 到最后，导师年轻时到底长什么样？",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 104437,
+          "chapter_name": "插画",
+          "chapter_order": 180
         }
       ]
     }

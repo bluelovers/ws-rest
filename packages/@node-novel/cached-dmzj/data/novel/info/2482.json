@@ -3,21 +3,21 @@
   "name": "百万王冠",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9415,
-  "last_update_chapter_id": 85816,
-  "last_update_time": 1525861422,
+  "last_update_volume_id": 10678,
+  "last_update_chapter_id": 104305,
+  "last_update_time": 1584010222,
   "cover": "https://xs.dmzj.com/img/webpic/24/bw0509l.jpg",
-  "hot_hits": 27992,
+  "hot_hits": 43638,
   "introduction": "新历307年，时值人类颓废的时代。\n300年前——人类文明迎来了毁灭。\n自地狱之窑出现的灾厄如风暴、如海啸、如雷雨，对世界的一切毫无差别地露出獠牙，甚至连星球的形态都发生扭曲。本应毫不例外也被毁灭的人类，在些许的勇气和奇迹之下得以生还。\n由于为了掌握和支配地球自然环境而制造的环境制御塔的暴走，人类失去了众多生存圈，被迫以都市国家的规模来活动。\n异常气候导致永久冻土解冻。地壳运动导致地盘下沉。星球深层内海喷发导致海域上升。在这个陆地几乎都已沉入海中的时代，人类一边依赖都市遗迹和古代的失落技术一边谨慎地维持生活。\n就在这种时代之中，代表日本诸岛的“极东都市国家联合”招进了一名青年。\n——他的名字是，东云一真。\n他为了寻找妹妹东云六华与母亲东云不知夜而回到日本，但逼于无奈要与因为星球环境变化而异常进化的怪物战斗。\n巨大的怪物，冲天的高塔，十二个王冠种。\n挑战超越人智的势力，Million Crown究竟是……！？\n人类再演的故事，就此开幕！\n——开辟吧，新时代！！",
   "types": [
     "冒险"
   ],
   "authors": "龙之湖太郎",
   "first_letter": "B",
-  "subscribe_num": 4593,
-  "redis_update_time": 1564345234,
+  "subscribe_num": 5858,
+  "redis_update_time": 1584468776,
   "volume": [
     {
       "id": 9415,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1525861165,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10678,
+      "lnovel_id": 2482,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1584009848,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -104,6 +112,64 @@
           "chapter_id": 85816,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 10678,
+      "id": 10678,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 104296,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104297,
+          "chapter_name": "海神传记序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104298,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104299,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104300,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104301,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104302,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104303,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104304,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104305,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

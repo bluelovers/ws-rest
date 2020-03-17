@@ -4,12 +4,12 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "第一章",
+  "last_update_chapter_name": "插画",
   "last_update_volume_id": 8672,
-  "last_update_chapter_id": 85898,
-  "last_update_time": 1526008954,
+  "last_update_chapter_id": 104265,
+  "last_update_time": 1583842609,
   "cover": "https://xs.dmzj.com/img/webpic/26/zrg0514l.jpg",
-  "hot_hits": 30161,
+  "hot_hits": 53289,
   "introduction": "暂无简介",
   "types": [
     "爱情",
@@ -17,8 +17,8 @@
   ],
   "authors": "岬鹭宫",
   "first_letter": "D",
-  "subscribe_num": 10185,
-  "redis_update_time": 1564342851,
+  "subscribe_num": 12678,
+  "redis_update_time": 1584468102,
   "volume": [
     {
       "id": 8672,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1494691880,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10672,
+      "lnovel_id": 2320,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "addtime": 1583841259,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -70,6 +78,29 @@
           "chapter_id": 85878,
           "chapter_name": "第六章 和你一起烦恼",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 104241,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104265,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10672,
+      "id": 10672,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 104240,
+          "chapter_name": "读者与主人公与两人的这时",
+          "chapter_order": 10
         }
       ]
     }

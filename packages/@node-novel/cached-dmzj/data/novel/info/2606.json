@@ -3,21 +3,21 @@
   "name": "被学生胁迫这事儿是犯罪吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "last_update_volume_name": "第六卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10375,
-  "last_update_chapter_id": 100013,
-  "last_update_time": 1570615251,
+  "last_update_volume_id": 10676,
+  "last_update_chapter_id": 104283,
+  "last_update_time": 1583925178,
   "cover": "https://xs.dmzj.com/img/webpic/22/fz1227l.jpg",
-  "hot_hits": 523614,
+  "hot_hits": 745451,
   "introduction": "在小初补习班上班的27岁补习班老师——天神。\n虽然长于指导小学生初中生，但对小孩子完全没有半点兴趣。\n一边锤炼着困于人生艰难的JD同事，一边带着股冷淡的氛围日复一日的工作。本应如此。\n然而——\n“老师，喜欢喜欢，最喜欢了……”\n某日，自己被负责的班级里的小学五年级女孩蹭蹭的样子被初中部的混蛋恶魔（14岁，JC）看到了……？\n“请为我上夜晚的个人课程——好吗，一流萝莉控老师？”\n没想到强制课外补习开始了！？\n由《变态王子与不笑猫》作者相乐总呈现的有着“必须要报警的年龄差”的恋爱喜剧！\n任何人都不知晓的小学生初中生的禁断“现实”就在书中——！？",
   "types": [
     "搞笑"
   ],
   "authors": "相乐总",
   "first_letter": "B",
-  "subscribe_num": 25620,
-  "redis_update_time": 1571604275,
+  "subscribe_num": 32258,
+  "redis_update_time": 1584467820,
   "volume": [
     {
       "id": 9859,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1545903357,
-      "sum_chapters": 11
+      "sum_chapters": 9
     },
     {
       "id": 9953,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1550142047,
-      "sum_chapters": 11
+      "sum_chapters": 9
     },
     {
       "id": 10080,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1556638015,
-      "sum_chapters": 11
+      "sum_chapters": 9
     },
     {
       "id": 10183,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1561022224,
-      "sum_chapters": 11
+      "sum_chapters": 9
     },
     {
       "id": 10375,
@@ -57,7 +57,15 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1570614973,
-      "sum_chapters": 11
+      "sum_chapters": 9
+    },
+    {
+      "id": 10676,
+      "lnovel_id": 2606,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1583924673,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -368,6 +376,74 @@
           "chapter_id": 100013,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10676,
+      "id": 10676,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 104272,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104273,
+          "chapter_name": "序章 得夏天者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104274,
+          "chapter_name": "第一章 和女大学生玩，然后——",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104275,
+          "chapter_name": "第二章 怪物妈妈的战略教义",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104276,
+          "chapter_name": "第三章 第一次特别讲座",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104277,
+          "chapter_name": "第四章 中庭橄榄球杯",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104278,
+          "chapter_name": "第五章 人生足别离",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104279,
+          "chapter_name": "第六章 什么都不知道",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104280,
+          "chapter_name": "第七章 局外人",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104281,
+          "chapter_name": "解说 志瑞祐",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 104282,
+          "chapter_name": "电子版特典短篇",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 104283,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }

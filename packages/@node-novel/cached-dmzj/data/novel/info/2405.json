@@ -3,13 +3,13 @@
   "name": "吹响吧！上低音号",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "决意的最终乐章 后篇",
-  "last_update_chapter_name": "终章",
-  "last_update_volume_id": 10224,
-  "last_update_chapter_id": 97817,
-  "last_update_time": 1562844819,
+  "last_update_volume_name": "波澜起伏的第二乐章 前篇",
+  "last_update_chapter_name": "第三章 说谎的渐速音",
+  "last_update_volume_id": 10688,
+  "last_update_chapter_id": 104418,
+  "last_update_time": 1584361382,
   "cover": "https://xs.dmzj.com/img/webpic/19/dy1125l.jpg",
-  "hot_hits": 52023,
+  "hot_hits": 194795,
   "introduction": "管乐大赛结束，久美子与队友都为金牌开心不已时，只有首席小号手丽奈万分不甘心的说出这句话。久美子一直在意丽奈的话，因此刻意选了北宇治高中就读。却在开学第一天，命运般地在管乐社再次遇见丽奈。\n在京阪宇治站不远处有座宇治桥，过桥后往左转，便可通到平等院。久美子很喜欢这条林立历史悠久的茶坊及日式点心店的街道，光是烘焙茶的香气乘著风飘来，就足以让久美子的心里舒坦。她也喜欢坐在宇治神社附近的堤防上，望著闪闪发光的正红色朝雾桥，感觉好极了。这片风景如同北宇治高中管乐社过去的光辉灿烂战绩，但，那已经是以前的事了。在新任老师的严厉指导下，大家再次专注于演奏上，而管乐社的问题也渐渐浮现……主动求辞的社员、一触即发的独奏争夺战、二年级与三年级间不可说出的往事，以及，久美子当时回答丽奈的那句话……\n在管乐社进军全国大赛之前，要先团结所有人的心！洋溢著华丽乐章、酸甜青春、波涛汹涌的高中生活即将迈开序章！",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "武田绫乃",
   "first_letter": "C",
-  "subscribe_num": 6880,
-  "redis_update_time": 1564345135,
+  "subscribe_num": 10916,
+  "redis_update_time": 1584468648,
   "volume": [
     {
       "id": 9090,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 欢迎加入北宇治高中管乐社",
       "volume_order": 10,
       "addtime": 1511600718,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 9943,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 最火热的夏天",
       "volume_order": 11,
       "addtime": 1549614619,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 9944,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 最大的危机",
       "volume_order": 12,
       "addtime": 1549614740,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 9267,
@@ -50,7 +50,15 @@
       "volume_name": "番外 北宇治吹奏部日志",
       "volume_order": 20,
       "addtime": 1520491220,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10688,
+      "lnovel_id": 2405,
+      "volume_name": "波澜起伏的第二乐章 前篇",
+      "volume_order": 22,
+      "addtime": 1584361287,
+      "sum_chapters": 9
     },
     {
       "id": 9516,
@@ -58,7 +66,7 @@
       "volume_name": "波澜的第二乐章 后篇",
       "volume_order": 29,
       "addtime": 1529596767,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 9423,
@@ -66,7 +74,7 @@
       "volume_name": "短篇集 北宇治吹奏部真实的故事",
       "volume_order": 30,
       "addtime": 1526038763,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 10224,
@@ -74,7 +82,7 @@
       "volume_name": "决意的最终乐章 后篇",
       "volume_order": 40,
       "addtime": 1562844665,
-      "sum_chapters": 8
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -227,6 +235,34 @@
           "chapter_id": 83390,
           "chapter_name": "后记",
           "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 10688,
+      "id": 10688,
+      "volume_name": "波澜起伏的第二乐章 前篇",
+      "volume_order": 22,
+      "chapters": [
+        {
+          "chapter_id": 104415,
+          "chapter_name": "前篇 前言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104416,
+          "chapter_name": "第一章 不安定的反复记号",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104417,
+          "chapter_name": "第二章 孤独的着重音",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104418,
+          "chapter_name": "第三章 说谎的渐速音",
+          "chapter_order": 40
         }
       ]
     },

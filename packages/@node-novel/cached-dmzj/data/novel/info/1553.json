@@ -3,13 +3,13 @@
   "name": "16:00的召唤魔法",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 5711,
-  "last_update_chapter_id": 39105,
-  "last_update_time": 1387461370,
-  "cover": "https://xs.dmzj.com/img/webpic/28/1600zhaohuanmofa.jpg",
-  "hot_hits": 33819,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10680,
+  "last_update_chapter_id": 104334,
+  "last_update_time": 1584099179,
+  "cover": "https://xs.dmzj.com/img/webpic/24/zhmf0313l.jpg",
+  "hot_hits": 47021,
   "introduction": "　　患有轻度中二病的弘树。某日，他的手机收到一封陌生的简讯。\n　　——求求你！救救我们。\n　　那是宛如玩笑一般，来自异世界的召唤魔法。召唤弘树的是『不具魔力』的天才魔法使——亚莉莎。\n　　「我想摸你、舔你、感觉你，更了解你！」\n　　化身为救世主与异世界的灾厄——维克堤玛战斗的弘树，以及轻咬脖子，舔吮脸颊，彻底活用了无感「研究」弘树的亚莉莎。身体密着型的幻想故事揭开了序幕！",
   "types": [
     "魔法",
@@ -20,8 +20,8 @@
   ],
   "authors": "木绪那智",
   "first_letter": "1",
-  "subscribe_num": 644,
-  "redis_update_time": 1564858423,
+  "subscribe_num": 2395,
+  "redis_update_time": 1584468844,
   "volume": [
     {
       "id": 5711,
@@ -29,7 +29,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1387461370,
-      "sum_chapters": 12
+      "sum_chapters": 9
+    },
+    {
+      "id": 10680,
+      "lnovel_id": 1553,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1584098512,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -82,6 +90,59 @@
         {
           "chapter_id": 39105,
           "chapter_name": "后记",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10680,
+      "id": 10680,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 104315,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104316,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104317,
+          "chapter_name": "第1章 温暖的餐桌",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104318,
+          "chapter_name": "第2章 携手同行",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104319,
+          "chapter_name": "第3章 雨天",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104320,
+          "chapter_name": "第4章 恶意集结",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104321,
+          "chapter_name": "第5章 抉择",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104322,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104334,
+          "chapter_name": "插画",
           "chapter_order": 90
         }
       ]
