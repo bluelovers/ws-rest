@@ -2,22 +2,22 @@
   "id": 2818,
   "name": "异裤星人大作战",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "status": "已完结",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10685,
-  "last_update_chapter_id": 104394,
-  "last_update_time": 1584274275,
+  "last_update_volume_id": 10692,
+  "last_update_chapter_id": 104499,
+  "last_update_time": 1584623163,
   "cover": "https://xs.dmzj.com/img/webpic/14/yk0315l.jpg",
-  "hot_hits": 3111,
+  "hot_hits": 7454,
   "introduction": "★本作荣获第9届MF文库J轻小说新人赏优秀赏！\n★以条纹内裤为主角的变态系（有点色色的）喜剧！\n当姬川响子在交通事故中陷入濒死状态时，被善良的宇宙生命体史崔普寄生而得救。\n响子向直接与她内心对话的史崔普，坦白道出自己正在寻找两周前离家出走的哥哥礼二。\n史崔普也坦诚自己失去了记忆，于是两人约定共同寻找彼此的「失物」。\n就在此时，响子的学校里发生了大量内裤消失的事件！\n响子和史崔普联手合作追查内裤小偷外星人──？",
   "types": [
     "校园"
   ],
   "authors": "为三",
   "first_letter": "Y",
-  "subscribe_num": 673,
-  "redis_update_time": 1584318176,
+  "subscribe_num": 1235,
+  "redis_update_time": 1584662720,
   "volume": [
     {
       "id": 10685,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1584262876,
-      "sum_chapters": 9
+      "sum_chapters": 7
+    },
+    {
+      "id": 10692,
+      "lnovel_id": 2818,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1584622492,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -79,6 +87,64 @@
           "chapter_id": 104394,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10692,
+      "id": 10692,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 104468,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104469,
+          "chapter_name": "第一章 内裤，进出",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104470,
+          "chapter_name": "第二章 内裤，问候",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104471,
+          "chapter_name": "第三章 内裤，对立",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104472,
+          "chapter_name": "第四章 内裤，钢铁",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104473,
+          "chapter_name": "第五章 内裤，特别",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104474,
+          "chapter_name": "第六章 内裤，爆发",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104475,
+          "chapter_name": "尾声 内裤，秋日",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104476,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104499,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
