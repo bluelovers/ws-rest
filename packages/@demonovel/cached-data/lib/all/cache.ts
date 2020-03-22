@@ -3,6 +3,7 @@ import buildCachedTitle from './cache/title';
 import Bluebird from 'bluebird';
 import buildCachedStat from './cache/stat';
 import buildCachedByDate from './cache/byDate';
+import buildCachedAuthors from './cache/author';
 
 export async function buildCached(list: IArrayCachedJSONRow)
 {
@@ -10,6 +11,7 @@ export async function buildCached(list: IArrayCachedJSONRow)
 		buildCachedTitle(list),
 		buildCachedStat(list),
 		buildCachedByDate(list),
+		buildCachedAuthors(list),
 	])
 }
 

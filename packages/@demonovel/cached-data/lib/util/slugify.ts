@@ -2,16 +2,28 @@ import { slugify } from 'cjk-conv/lib/zh/table/list';
 import removeZeroWidth from 'zero-width/lib';
 import { toHalfWidth } from 'str-util';
 
+export function slugifyNovel3(title: string)
+{
+	return removeZeroWidth(toHalfWidth(title))
+		.toLocaleLowerCase()
+		;
+}
+
+export function slugifyNovel2(title: string)
+{
+	return slugify(slugifyNovel3(title), true);
+}
+
 export function slugifyNovel(title: string)
 {
-	title = removeZeroWidth(toHalfWidth(title));
+	title = slugifyNovel3(title);
 
 	title = [
 		/\s+/g,
 		/[’'"]+/g,
-		/[\\\/\[\]{}()~「」【】、,…・。―〈〉『』—《》（），﹑]+/g,
+		/[\\\/\[\]{}()~「」【】、,…・。―〈〉『』—《》（），﹑／＼]+/g,
 		/[<>]+/g,
-		/[#.?!+·-]+/g,
+		/[#.?!+·-•]+/g,
 		/[◆◇■□★▼＊☆◊§～*↣＝=═\-－─—　 ※…⋯◯○~∞&%]+/g,
 		/[&=]+/g,
 		/[×:@]+/g,
