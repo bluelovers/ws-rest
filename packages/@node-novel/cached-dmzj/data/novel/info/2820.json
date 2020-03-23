@@ -3,13 +3,13 @@
   "name": "新世纪福音战士ANIMA",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10690,
-  "last_update_chapter_id": 104459,
-  "last_update_time": 1584532615,
+  "last_update_volume_id": 10702,
+  "last_update_chapter_id": 104637,
+  "last_update_time": 1584874703,
   "cover": "https://xs.dmzj.com/img/webpic/22/xsj0318l.jpg",
-  "hot_hits": 8488,
+  "hot_hits": 11421,
   "introduction": "★故事设定于「人类补完计画」未发生的三年后的世界……\n★《新世纪福音战士》机械设定山下 いくと亲自执笔，全新故事、机体充满魅力！\n这是「人类补完计画」遭到碇真嗣阻止的世界……\n昔日的特务机关NERV重新编组为「NERV JPN」，\n在总司令──葛城美里的领导下，已经十七岁的适任者防备使徒卷土重来。\n但是，扛起全球使徒侦测歼灭网的「四个」绫波零之一──\nNo.卡特尔突然失控。\n真嗣试图阻止她，却连同初号机被伽玛射线雷射轰穿而消失……\n从电视动画第二十四集产生分歧的另一个《新世纪福音战士》可能性的故事，\n经过十年后在此复苏。",
   "types": [
     "科幻",
@@ -17,8 +17,8 @@
   ],
   "authors": "山下いくと",
   "first_letter": "X",
-  "subscribe_num": 1723,
-  "redis_update_time": 1584662310,
+  "subscribe_num": 2085,
+  "redis_update_time": 1584923338,
   "volume": [
     {
       "id": 10690,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1584532149,
-      "sum_chapters": 7
+      "sum_chapters": 18
+    },
+    {
+      "id": 10702,
+      "lnovel_id": 2820,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1584872480,
+      "sum_chapters": 18
     }
   ],
   "chapters": [
@@ -70,6 +78,89 @@
           "chapter_id": 104459,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 10702,
+      "id": 10702,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 104598,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104599,
+          "chapter_name": "＃1海啸",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104600,
+          "chapter_name": "＃2最后的SEELE",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104601,
+          "chapter_name": "＃3扭曲的庭园",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104602,
+          "chapter_name": "＃4反抗者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104603,
+          "chapter_name": "＃5明日香于月影之中",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104604,
+          "chapter_name": "＃6盘旋的天之顶点",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104605,
+          "chapter_name": "＃7黑之思维",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104606,
+          "chapter_name": "＃8 Somewhere in Time",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104607,
+          "chapter_name": "＃9方舟",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 104608,
+          "chapter_name": "＃10于封锁之环内",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 104609,
+          "chapter_name": "＃11黑与紫",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 104610,
+          "chapter_name": "＃12间奏",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 104611,
+          "chapter_name": "＃13贰号机的呼唤声",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 104637,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "优雅贵族的休假指南",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10634,
-  "last_update_chapter_id": 103756,
-  "last_update_time": 1582619402,
+  "last_update_volume_id": 10696,
+  "last_update_chapter_id": 104531,
+  "last_update_time": 1584702995,
   "cover": "https://xs.dmzj.com/img/webpic/21/yygz0225l.jpg",
-  "hot_hits": 130,
+  "hot_hits": 22585,
   "introduction": "利瑟尔大人不见了！\n担任宰相的年轻贵族利瑟尔，某天正在跟属下谈话时，竟突然穿越到另一个名为「帕鲁特达」的异世界。虽然完全不知道该如何回到原来的世界，但利瑟尔本人却依然老神在在，并立刻决定把这趟穿越当作是放长假，全力展开观光加冒险！\n利瑟尔在街上四处打听情报时，偶然遇到了一个腰配长剑、浑身散发危险气息的黑衣男子劫尔。原来劫尔是全国知名的上级「冒险者」，专门接受委托来赚取金钱和名誉。\n利瑟尔决定聘雇劫尔担任他的专属「导游」兼保镳，靠著天生的聪明机智和折服人心的话术，利瑟尔的异世界假期，将会掀起什么样的波澜呢？",
   "types": [
     "穿越",
@@ -17,8 +17,8 @@
   ],
   "authors": "岬",
   "first_letter": "Y",
-  "subscribe_num": 32,
-  "redis_update_time": 1582622415,
+  "subscribe_num": 1901,
+  "redis_update_time": 1584923004,
   "volume": [
     {
       "id": 10634,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1582619125,
-      "sum_chapters": 9
+      "sum_chapters": 18
+    },
+    {
+      "id": 10696,
+      "lnovel_id": 2807,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1584699021,
+      "sum_chapters": 18
     }
   ],
   "chapters": [
@@ -80,6 +88,109 @@
           "chapter_id": 103756,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10696,
+      "id": 10696,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 104513,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104514,
+          "chapter_name": "第十六章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104515,
+          "chapter_name": "第十七章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104516,
+          "chapter_name": "第十八章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104517,
+          "chapter_name": "第十九章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104518,
+          "chapter_name": "第二十章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104519,
+          "chapter_name": "第二十一章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104520,
+          "chapter_name": "第二十二章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104521,
+          "chapter_name": "第二十三章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104522,
+          "chapter_name": "第二十四章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 104523,
+          "chapter_name": "第二十五章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 104524,
+          "chapter_name": "第二十六章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 104525,
+          "chapter_name": "第二十七章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 104526,
+          "chapter_name": "第二十八章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 104527,
+          "chapter_name": "第二十九章",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 104528,
+          "chapter_name": "街角的精工师如是说",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 104529,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 104530,
+          "chapter_name": "电子书特典——兴趣源源不绝的此时此刻",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 104531,
+          "chapter_name": "插画",
+          "chapter_order": 190
         }
       ]
     }
