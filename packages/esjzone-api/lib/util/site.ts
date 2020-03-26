@@ -151,3 +151,8 @@ export function _fixCoverUrl(cover: string | URL)
 
 	return u.toRealString();
 }
+
+export function _remove_ad($: JQueryStatic)
+{
+	$('p[class]:has(> script), script[src*=google], > .adsbygoogle').remove();
+}

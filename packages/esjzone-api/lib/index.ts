@@ -46,7 +46,7 @@ import {
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
-import { _handleInputUrl, _fixCoverUrl } from './util/site';
+import { _handleInputUrl, _fixCoverUrl, _remove_ad } from './util/site';
 import LazyURL from 'lazy-url';
 import orderBy from 'lodash/orderBy';
 import tryMinifyHTML from 'restful-decorator-plugin-jsdom/lib/html';
@@ -577,7 +577,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 				$content.html(tryMinifyHTML($content.html()));
 
-				$('p[class]:has(> script), .adsbygoogle').remove();
+				_remove_ad($);
 
 				const _decodeChapter = async () =>
 				{
@@ -634,7 +634,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 				await _decodeChapter();
 
-				$('p[class]:has(> script), .adsbygoogle').remove();
+				_remove_ad($);
 
 				$content = $('.container .forum-content');
 
