@@ -3,13 +3,13 @@
   "name": "没路用的魔兽炼磨师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9514,
-  "last_update_chapter_id": 87336,
-  "last_update_time": 1529490547,
+  "last_update_volume_id": 10708,
+  "last_update_chapter_id": 104694,
+  "last_update_time": 1585049293,
   "cover": "https://xs.dmzj.com/img/webpic/2/mlydmslms89l.jpg",
-  "hot_hits": 313992,
+  "hot_hits": 354663,
   "introduction": "由所授予的魔兽的纹章来决定优劣的世界。\n在让魔兽服从来进行战斗的『魔兽炼磨师』的育成学园『贝基奥姆』上学的雷茵是学园中唯一的史莱姆炼磨师。完全不在意周围的嘲笑，相信着搭档的佩姆佩姆，比任何人都要积攒着更多的努力。拘泥于那样的雷茵的学年3位的美少女龙炼磨师的艾露尼娅。兼备着纹章和美貌的完美的她之所以会拘泥于底层的雷茵，貌似过去的因缘是原因的样子……！？\n「那份不甘心我是不会忘记的！哪怕是亿分之一也好如果你这家伙赢了我的话无论是恋人也好还是别的什么也好我都会干脆利落的去做的！！」——无论是最弱还是最强都没有关系！对胜利的执念所决定的命运将会带来逆转剧！！",
   "types": [
     "魔法",
@@ -18,8 +18,8 @@
   ],
   "authors": "见波タクミ",
   "first_letter": "M",
-  "subscribe_num": 14718,
-  "redis_update_time": 1564358557,
+  "subscribe_num": 16359,
+  "redis_update_time": 1585267054,
   "volume": [
     {
       "id": 7559,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1455785989,
-      "sum_chapters": 8
+      "sum_chapters": 19
     },
     {
       "id": 8627,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1492870430,
-      "sum_chapters": 8
+      "sum_chapters": 19
     },
     {
       "id": 9424,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1526202964,
-      "sum_chapters": 8
+      "sum_chapters": 19
     },
     {
       "id": 9514,
@@ -51,7 +51,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1529490126,
-      "sum_chapters": 8
+      "sum_chapters": 19
+    },
+    {
+      "id": 10708,
+      "lnovel_id": 2070,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1585039470,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -272,6 +280,64 @@
         },
         {
           "chapter_id": 87336,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10708,
+      "id": 10708,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 104655,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104656,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104657,
+          "chapter_name": "第一章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104658,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104659,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104660,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104661,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104662,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104663,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104694,
           "chapter_name": "插画",
           "chapter_order": 100
         }

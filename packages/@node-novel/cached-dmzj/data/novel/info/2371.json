@@ -3,21 +3,21 @@
   "name": "少女妄想中",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 8905,
-  "last_update_chapter_id": 78710,
-  "last_update_time": 1502778034,
+  "last_update_volume_name": "短篇",
+  "last_update_chapter_name": "与那终将填满天空的蓝一同",
+  "last_update_volume_id": 10727,
+  "last_update_chapter_id": 104891,
+  "last_update_time": 1585231484,
   "cover": "https://xs.dmzj.com/img/webpic/13/wx0814l.jpg",
-  "hot_hits": 27028,
+  "hot_hits": 44515,
   "introduction": "　　「我想，这应该就是我的初恋吧！」\n　　我总是追著那个人的身后，「向往」著她。\n　　在梦中，我和在海边的那个女孩，度过了无可取代的美好时光。\n　　对于受过伤的那个人，无法传达的秘密心情。\n　　她是我最喜欢的人，而她，或许正喜欢著除了我之外的某个人吧……\n　　入间人间最新创作，发生在少女与少女之间，一段段无可奈何却令人怜惜的恋情。",
   "types": [
     "百合"
   ],
   "authors": "入间人间",
   "first_letter": "S",
-  "subscribe_num": 6308,
-  "redis_update_time": 1564347207,
+  "subscribe_num": 8596,
+  "redis_update_time": 1585266659,
   "volume": [
     {
       "id": 8905,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1502777873,
-      "sum_chapters": 8
+      "sum_chapters": 19
+    },
+    {
+      "id": 10727,
+      "lnovel_id": 2371,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "addtime": 1585231428,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -64,6 +72,34 @@
           "chapter_id": 78710,
           "chapter_name": "后记",
           "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 10727,
+      "id": 10727,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 104888,
+          "chapter_name": "各奔东西，自那之后",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104889,
+          "chapter_name": "2度",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104890,
+          "chapter_name": "始与终的循环往复",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104891,
+          "chapter_name": "与那终将填满天空的蓝一同",
+          "chapter_order": 40
         }
       ]
     }

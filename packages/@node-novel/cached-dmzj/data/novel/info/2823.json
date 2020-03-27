@@ -3,13 +3,13 @@
   "name": "异世界迷宫探索者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10697,
-  "last_update_chapter_id": 104544,
-  "last_update_time": 1584703846,
+  "last_update_volume_id": 10709,
+  "last_update_chapter_id": 104693,
+  "last_update_time": 1585049209,
   "cover": "https://xs.dmzj.com/img/webpic/1/gwmg0320l.jpg",
-  "hot_hits": 22580,
+  "hot_hits": 35549,
   "introduction": "有一天高中生武田顺平因为「神」的一时兴起被召唤到异世界，作为祭品被推入了凶恶的迷宫里。在生还率为零的怪物迷宫内，顺平做好了死的觉悟，但他想出了起死回生的妙计。找到通往迷宫活路的最弱迷宫，开始了对叛徒们的复仇。\n网上超人气的，从穷途末路中爬出来的幻想小说，期待已久的文库化！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "サカモト666",
   "first_letter": "Y",
-  "subscribe_num": 1969,
-  "redis_update_time": 1584923178,
+  "subscribe_num": 2318,
+  "redis_update_time": 1585267444,
   "volume": [
     {
       "id": 10697,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1584703184,
-      "sum_chapters": 18
+      "sum_chapters": 19
+    },
+    {
+      "id": 10709,
+      "lnovel_id": 2823,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1585045696,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -100,6 +108,64 @@
           "chapter_id": 104544,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10709,
+      "id": 10709,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 104664,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 104665,
+          "chapter_name": "序章 大贤者的忧郁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 104666,
+          "chapter_name": "第一章 因习之村和龙爪旅団",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 104667,
+          "chapter_name": "第二章 迷惑的森林和克拉肯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 104668,
+          "chapter_name": "第三章 觉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 104669,
+          "chapter_name": "第四章 石化的魔女与炎之龙",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 104670,
+          "chapter_name": "第五章 法拉利斯的雄牛",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 104671,
+          "chapter_name": "尾声 恶魔的右手",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 104672,
+          "chapter_name": "插话 纪子的复仇",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 104693,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
