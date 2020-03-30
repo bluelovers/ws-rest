@@ -3,13 +3,13 @@
   "name": "突西亚战记 十二骑士团的反叛军师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9646,
-  "last_update_chapter_id": 89221,
-  "last_update_time": 1535197894,
+  "last_update_volume_id": 10736,
+  "last_update_chapter_id": 105047,
+  "last_update_time": 1585484125,
   "cover": "https://xs.dmzj.com/img/webpic/13/qs0825l.jpg",
-  "hot_hits": 32706,
+  "hot_hits": 41228,
   "introduction": "　　号称西方大陆突西亚最强的格拉尼亚帝国〈黑天骑士团〉，身为其中一员的席昂遭到祖国出卖，家破人亡。誓言复仇的少年苦心求得了胜过「武」之力的「知」之力，并承袭军师亚特伦之名，决心向帝国复仇。而位在东部的耶路萨姆王国，眼下正面临帝国的威胁。是要抗战？还是求和？分裂为为两派的主张让王国陷入内乱危机。此时漂流到海边的席昂，遇见了侍奉抗战派代表人物萝洁丽安公主的女骑士赛莲，锡安在接受对方照料的同时，也隐瞒自己的身分，就此随行在赛莲身边，然而无人能预料到这次邂逅，正是日后撼动大陆史的「突西亚大战」序曲－－此刻，反扑的战记揭开幕帘！！",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "大黑尚人",
   "first_letter": "T",
-  "subscribe_num": 3383,
-  "redis_update_time": 1564343929,
+  "subscribe_num": 4118,
+  "redis_update_time": 1585527936,
   "volume": [
     {
       "id": 9646,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1535197522,
-      "sum_chapters": 8
+      "sum_chapters": 10
+    },
+    {
+      "id": 10736,
+      "lnovel_id": 2542,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1585477008,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -78,6 +86,59 @@
         },
         {
           "chapter_id": 89221,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10736,
+      "id": 10736,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 105004,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105005,
+          "chapter_name": "序章 回忆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105006,
+          "chapter_name": "第一章 逼近的战云",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105007,
+          "chapter_name": "第二章 城塞都市提里纳斯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105008,
+          "chapter_name": "第三章 吾妹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105009,
+          "chapter_name": "第四章 风与雷",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105010,
+          "chapter_name": "终章 前途辽远",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105011,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105047,
           "chapter_name": "插画",
           "chapter_order": 90
         }
