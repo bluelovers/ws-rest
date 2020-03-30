@@ -1,6 +1,6 @@
 {
   "name": "restful-decorator",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "description": "",
   "license": "ISC",
   "author": "",
@@ -14,14 +14,14 @@
     "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}"
   },
   "dependencies": {
-    "@bluelovers/axios-extend": "^1.0.20",
+    "@bluelovers/axios-extend": "^1.0.21",
     "axios": "< 0.19 && >= 0.18",
     "axios-cache-adapter": "^2.5.0",
     "axios-cookiejar-support": "^0.5.1",
     "bluebird": "^3.7.2",
     "debug-color2": "^1.1.7",
     "http-form-urlencoded": "^1.0.11",
-    "lazy-cookies": "^1.0.17",
+    "lazy-cookies": "^1.0.18",
     "lazy-url": "^1.0.8",
     "lodash": "^4.17.15",
     "lodash-decorators": "^6.0.1",
