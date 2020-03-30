@@ -25,9 +25,11 @@
     "@types/moment": "*",
     "@types/tough-cookie": "*",
     "crlf-normalize": "^1.0.3",
-    "moment": "*",
-    "tough-cookie": "*",
     "ts-type": "^1.2.13"
+  },
+  "peerDependencies": {
+    "moment": "*",
+    "tough-cookie": "*"
   },
   "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
 }
