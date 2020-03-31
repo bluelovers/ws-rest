@@ -4,6 +4,9 @@
 
 import { LazyURL } from 'lazy-url';
 import LazyURLSearchParams from 'http-form-urlencoded';
+import { trimUnsafe } from '../util';
+import { IESJzoneRecentUpdateRowBook } from '../types';
+import moment from 'moment';
 
 export enum EnumParseInputUrl
 {
@@ -155,4 +158,214 @@ export function _fixCoverUrl(cover: string | URL)
 export function _remove_ad($: JQueryStatic)
 {
 	$('p[class]:has(> script), script[src*=google], > .adsbygoogle').remove();
+}
+
+export function _getBookElemDesc($: JQueryStatic)
+{
+	return $('#details .description')
+}
+
+export function _getBookCover($: JQueryStatic)
+{
+	let _cover: string;
+	$('.container .product-gallery .gallery-item img[src]')
+		.toArray()
+		.some((elem) => {
+
+			let cover = _fixCoverUrl($(elem).prop('src'))
+
+			if (cover = _fixCoverUrl(cover))
+			{
+				return _cover = cover;
+			}
+		})
+	;
+
+	return _cover
+}
+
+export function _getBookTags($: JQueryStatic, tags: string[] = [])
+{
+	$('.widget-tags a.tag[href*="tag"]')
+		.each((i, elem) =>
+		{
+			let _this = $(elem);
+			let name = trimUnsafe(_this.text());
+
+			if (name)
+			{
+				tags.push(name);
+			}
+		})
+	;
+
+	$('.page-title .container .column h1')
+		.each((i, elem) =>
+		{
+			let _this = $(elem);
+			let name = trimUnsafe(_this.text());
+
+			if (name)
+			{
+				tags.push(name);
+			}
+		})
+	;
+
+	return tags
+}
+
+export function _getBookChapters($: JQueryStatic, _content: JQuery<HTMLElement>, data: Pick<IESJzoneRecentUpdateRowBook, 'chapters' | 'last_update_chapter_name' >)
+{
+	let volume_order = 0;
+	let chapter_order = 0;
+
+	let body = _content.find('#chapterList').find('p.non, a');
+
+	data.chapters[volume_order] = {
+		volume_name: null,
+		volume_order,
+		chapters: [],
+	};
+
+	body
+		.each((i, elem) =>
+		{
+			let _this = $(elem);
+
+			if (_this.is('.non'))
+			{
+				let volume_name = trimUnsafe(_this.text());
+
+				if (volume_name)
+				{
+					if (chapter_order || data.chapters[volume_order].volume_name != null)
+					{
+						volume_order++;
+					}
+
+					data.chapters[volume_order] = {
+						volume_name,
+						volume_order,
+						chapters: [],
+					};
+
+					chapter_order = 0;
+				}
+			}
+			else
+			{
+				let _a = _this;
+
+				if (_a.length)
+				{
+					let chapter_link = _a.prop('href');
+
+					let _m = chapter_link
+						.match(/esjzone\.cc\/forum\/(\d+)\/(\d+)\.html?/)
+					;
+
+					let chapter_name = trimUnsafe(_a.text());
+
+					if (_m)
+					{
+						data.chapters[volume_order]
+							.chapters
+							.push({
+								novel_id: _m[1],
+
+								chapter_id: _m[2],
+								chapter_name,
+
+								chapter_order,
+								chapter_link,
+							})
+						;
+					}
+					else
+					{
+						data.chapters[volume_order]
+							.chapters
+							.push({
+								chapter_name,
+								chapter_order,
+								chapter_link,
+							})
+						;
+					}
+
+					data.last_update_chapter_name = chapter_name;
+				}
+
+				chapter_order++;
+			}
+		})
+	;
+
+	return data
+}
+
+export function _getBookInfo($: JQueryStatic, data: Pick<IESJzoneRecentUpdateRowBook, 'name' | 'authors' | 'last_update_time' >)
+{
+	data.name = trimUnsafe($('.container .row:eq(0) h2:eq(0)').text());
+
+	$('.book-detail > li')
+		.each(function (i, elem)
+		{
+			let _this = $(this);
+
+			let _text = trimUnsafe(_this.text());
+
+			let _m: RegExpMatchArray;
+
+			if (_m = _text.match(/作者\s*[：:]\s*([^\n]+)/))
+			{
+				data.authors = trimUnsafe(_m[1])
+			}
+			else if (_m = _text.match(/\b(\d{4}\-\d{1,2}\-\d{1,2})\b/))
+			{
+				try
+				{
+					let last_update_time = moment(_m[1]).unix();
+					data.last_update_time = last_update_time;
+				}
+				catch (e)
+				{
+
+				}
+			}
+
+		})
+	;
+
+	return data
+}
+
+export function _getBookLinks($: JQueryStatic, links: IESJzoneRecentUpdateRowBook["links"] = [])
+{
+	$('.book-detail')
+		.find('a[href]')
+		.not('.btn, .form-group *')
+		.each((i, elem) =>
+		{
+
+			let _this = $(elem);
+
+			let name = trimUnsafe(_this.text());
+			let href = _this.prop('href') as string;
+
+			if (name === href)
+			{
+				name = undefined;
+			}
+
+			links.push({
+				name,
+				href,
+			})
+
+		})
+	;
+
+	return links
 }

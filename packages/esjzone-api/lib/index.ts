@@ -46,7 +46,15 @@ import {
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
-import { _handleInputUrl, _fixCoverUrl, _remove_ad } from './util/site';
+import {
+	_handleInputUrl,
+	_fixCoverUrl,
+	_remove_ad,
+	_getBookElemDesc,
+	_getBookTags,
+	_getBookCover,
+	_getBookChapters, _getBookLinks, _getBookInfo,
+} from './util/site';
 import LazyURL from 'lazy-url';
 import orderBy from 'lodash/orderBy';
 import tryMinifyHTML from 'restful-decorator-plugin-jsdom/lib/html';
@@ -305,181 +313,23 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 		});
 
-		data.name = trimUnsafe($('.container > .row:eq(0) h3:eq(0)').text());
+		let _content = $('.container')
 
-		$('.product-detail .well .nav-list > li')
-			.each(function (i, elem)
-			{
-				let _this = $(this);
+		_getBookInfo($, data);
 
-				let _text = trimUnsafe(_this.text());
+		_getBookLinks($, data.links);
 
-				let _m: RegExpMatchArray;
+		_getBookTags($, data.tags);
 
-				if (_m = _text.match(/作者\s*[：:]\s*([^\n]+)/))
-				{
-					data.authors = trimUnsafe(_m[1])
-				}
-				else if (_m = _text.match(/\b(\d{4}\-\d{1,2}\-\d{1,2})\b/))
-				{
-					try
-					{
-						let last_update_time = moment(_m[1]).unix();
-						data.last_update_time = last_update_time;
-					}
-					catch (e)
-					{
-
-					}
-				}
-
-			})
-		;
-
-		$('.product-detail .well ')
-			.find('.row a[href]')
-			.not('.btn, .form-group *')
-			.each((i, elem) =>
-			{
-
-				let _this = $(elem);
-
-				let name = trimUnsafe(_this.text());
-				let href = _this.prop('href') as string;
-
-				if (name === href)
-				{
-					name = undefined;
-				}
-
-				data.links.push({
-					name,
-					href,
-				})
-
-			})
-		;
-
-		$('.show-tag a[href*="tag"]')
-			.each((i, elem) =>
-			{
-				let _this = $(elem);
-				let name = trimUnsafe(_this.text());
-
-				if (name)
-				{
-					data.tags.push(name);
-				}
-			})
-		;
-
-		let _content = $('.product-detail:eq(0)');
-
-		try
-		{
-			tryMinifyHTML(_content.html(), (html: string) =>
-			{
-				_content.html(html);
-			});
-		}
-		catch (e)
-		{
-
-		}
-
-		let cover = _content.find('img.product-image:not([src*="empty.jpg"])').prop('src');
-
+		let cover = _getBookCover($)
 		if (cover = _fixCoverUrl(cover))
 		{
 			data.cover = cover;
 		}
 
-		data.desc = trimUnsafe(_content.find('.book_description').text() || '');
+		data.desc = trimUnsafe(_getBookElemDesc($).text() || '');
 
-		let volume_order = 0;
-		let chapter_order = 0;
-
-		let body = _content.find('#tab1 a[href], #tab1  .non');
-
-		data.chapters[volume_order] = {
-			volume_name: null,
-			volume_order,
-			chapters: [],
-		};
-
-		body
-			.each((i, elem) =>
-			{
-				let _this = $(elem);
-
-				if (_this.is('.non'))
-				{
-					let volume_name = trimUnsafe(_this.text());
-
-					if (volume_name)
-					{
-						if (chapter_order || data.chapters[volume_order].volume_name != null)
-						{
-							volume_order++;
-						}
-
-						data.chapters[volume_order] = {
-							volume_name,
-							volume_order,
-							chapters: [],
-						};
-
-						chapter_order = 0;
-					}
-				}
-				else
-				{
-					let _a = _this;
-
-					if (_a.length)
-					{
-						let chapter_link = _a.prop('href');
-
-						let _m = chapter_link
-							.match(/esjzone\.cc\/forum\/(\d+)\/(\d+)\.html?/)
-						;
-
-						let chapter_name = trimUnsafe(_a.text());
-
-						if (_m)
-						{
-							data.chapters[volume_order]
-								.chapters
-								.push({
-									novel_id: _m[1],
-
-									chapter_id: _m[2],
-									chapter_name,
-
-									chapter_order,
-									chapter_link,
-								})
-							;
-						}
-						else
-						{
-							data.chapters[volume_order]
-								.chapters
-								.push({
-									chapter_name,
-									chapter_order,
-									chapter_link,
-								})
-							;
-						}
-
-						data.last_update_chapter_name = chapter_name;
-					}
-
-					chapter_order++;
-				}
-			})
-		;
+		_getBookChapters($, _content, data);
 
 		return data as any;
 	}
@@ -689,7 +539,6 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 			;
 	}
 
-
 	@GET('update')
 	@ReturnValueToJSDOM()
 	@methodBuilder()
@@ -781,7 +630,6 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 		ret.last_update_time = last_update_time;
 		ret.days = Object.keys(data).length;
 		ret.size = Object.keys(summary).length;
-
 
 		return ret as any;
 	}
