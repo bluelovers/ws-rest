@@ -65,8 +65,6 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 		const jsdom = _this._responseDataToJSDOM(_this.$returnValue, this.$response);
 		const $ = jsdom.$;
 
-		let tds = $('.product-list-inline-small .thumbnail');
-
 		// @ts-ignore
 		let pageEnd: number = $('#page-selection [data-lp]:last').attr('data-lp') | 0;
 		// @ts-ignore
@@ -111,41 +109,45 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 		let lastUpdateTime = 0;
 
+		let tds = $('.container .shop-toolbar + .row > div');
+
 		tds
 			.each((i, elem) =>
 			{
 				let _this = $(elem);
 
 				let cover = _this
-					.find('.coverMask img:eq(0)')
+					.find('.card-img-tiles .main-img img:eq(0)')
 					.prop('src')
 				;
 
 				cover = _fixCoverUrl(cover);
 
 				let _a = _this
-					.find('.caption .caption-txt a')
+					.find('.card-body .card-title a')
 					.eq(0)
 				;
 
-				let title = _a.text();
-
-				title = trimUnsafe(title);
+				let title = trimUnsafe(_a.text());
 
 				let cid: string;
 				let nid: string;
 				let last_update_chapter_name: string;
 
-				let _m0 = (_a.prop('href') as string)
-					.match(/detail\/(\d+)/)
-				;
+				let _m0 = _parseSiteLink(_a.prop('href'))
 
-				nid = _m0[1];
+				nid = _m0.novel_id;
+
 				last_update_chapter_name = _this
-					.find('.caption .caption-date')
+					.find('.card-body .card-ep')
 					.eq(0)
 					.text() || undefined
 				;
+
+				if (last_update_chapter_name)
+				{
+					last_update_chapter_name = trimUnsafe(last_update_chapter_name)
+				}
 
 				ret.data.push({
 					id: nid,
