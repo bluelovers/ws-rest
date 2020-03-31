@@ -102,6 +102,10 @@ export interface IESJzoneChapter
 	text: string;
 	html?: string;
 
+	chapter_name?: string;
 	author?: string;
+	/**
+	 * unix timestamp
+	 */
 	dateline?: number;
 }

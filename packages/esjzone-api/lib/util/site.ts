@@ -421,7 +421,7 @@ export function _getChapterDomContent($: JQueryStatic)
 	return $('.container .forum-content')
 }
 
-export function _getChapterData($: JQueryStatic): Pick<IESJzoneChapter, 'author' | 'dateline'>
+export function _getChapterData($: JQueryStatic): Pick<IESJzoneChapter, 'author' | 'dateline' | 'chapter_name'>
 {
 	let $meta = $('.container .single-post-meta .column');
 
@@ -442,7 +442,10 @@ export function _getChapterData($: JQueryStatic): Pick<IESJzoneChapter, 'author'
 		}
 	}
 
+	let chapter_name = trimUnsafe($('.container .row .single-post-meta + h2').text());
+
 	return {
+		chapter_name,
 		author,
 		dateline,
 	}
