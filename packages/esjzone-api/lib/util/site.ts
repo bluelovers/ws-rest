@@ -5,7 +5,7 @@
 import { LazyURL } from 'lazy-url';
 import LazyURLSearchParams from 'http-form-urlencoded';
 import { trimUnsafe } from '../util';
-import { IESJzoneRecentUpdateRowBook } from '../types';
+import { IESJzoneRecentUpdateRowBook, IESJzoneChapter } from '../types';
 import moment from 'moment';
 
 export enum EnumParseInputUrl
@@ -170,7 +170,8 @@ export function _getBookCover($: JQueryStatic)
 	let _cover: string;
 	$('.container .product-gallery .gallery-item img[src]')
 		.toArray()
-		.some((elem) => {
+		.some((elem) =>
+		{
 
 			let cover = _fixCoverUrl($(elem).prop('src'))
 
@@ -215,7 +216,47 @@ export function _getBookTags($: JQueryStatic, tags: string[] = [])
 	return tags
 }
 
-export function _getBookChapters($: JQueryStatic, _content: JQuery<HTMLElement>, data: Pick<IESJzoneRecentUpdateRowBook, 'chapters' | 'last_update_chapter_name' >)
+export function _parseSiteLink(chapter_link: string): {
+	novel_id?: string,
+	chapter_id?: string,
+}
+{
+	let _m = chapter_link
+		.match(/esjzone\.cc\/forum\/(\d+)\/(\d+)\.html?/)
+	;
+
+	let novel_id: string;
+	let chapter_id: string;
+
+	if (_m)
+	{
+		novel_id = _m[1];
+		chapter_id = _m[2];
+
+		return {
+			novel_id,
+			chapter_id,
+		}
+	}
+
+	_m = chapter_link
+		.match(/esjzone\.cc\/detail\/(\d+)/)
+	;
+
+	if (_m)
+	{
+		novel_id = _m[1];
+
+		return {
+			novel_id,
+		}
+	}
+}
+
+export function _getBookChapters($: JQueryStatic,
+	_content: JQuery<HTMLElement>,
+	data: Pick<IESJzoneRecentUpdateRowBook, 'chapters' | 'last_update_chapter_name'>,
+)
 {
 	let volume_order = 0;
 	let chapter_order = 0;
@@ -261,9 +302,7 @@ export function _getBookChapters($: JQueryStatic, _content: JQuery<HTMLElement>,
 				{
 					let chapter_link = _a.prop('href');
 
-					let _m = chapter_link
-						.match(/esjzone\.cc\/forum\/(\d+)\/(\d+)\.html?/)
-					;
+					let _m = _parseSiteLink(chapter_link)
 
 					let chapter_name = trimUnsafe(_a.text());
 
@@ -272,9 +311,9 @@ export function _getBookChapters($: JQueryStatic, _content: JQuery<HTMLElement>,
 						data.chapters[volume_order]
 							.chapters
 							.push({
-								novel_id: _m[1],
+								novel_id: _m.novel_id,
+								chapter_id: _m.chapter_id,
 
-								chapter_id: _m[2],
 								chapter_name,
 
 								chapter_order,
@@ -305,7 +344,14 @@ export function _getBookChapters($: JQueryStatic, _content: JQuery<HTMLElement>,
 	return data
 }
 
-export function _getBookInfo($: JQueryStatic, data: Pick<IESJzoneRecentUpdateRowBook, 'name' | 'authors' | 'last_update_time' >)
+export function _matchDateString(_text: string)
+{
+	return _text.match(/\b(\d{4}\-\d{1,2}\-\d{1,2}\s+\d{1,2}:\d{1,2}:\d{1,2})\b/) || _text.match(/\b(\d{4}\-\d{1,2}\-\d{1,2})\b/)
+}
+
+export function _getBookInfo($: JQueryStatic,
+	data: Pick<IESJzoneRecentUpdateRowBook, 'name' | 'authors' | 'last_update_time'>,
+)
 {
 	data.name = trimUnsafe($('.container .row:eq(0) h2:eq(0)').text());
 
@@ -322,7 +368,7 @@ export function _getBookInfo($: JQueryStatic, data: Pick<IESJzoneRecentUpdateRow
 			{
 				data.authors = trimUnsafe(_m[1])
 			}
-			else if (_m = _text.match(/\b(\d{4}\-\d{1,2}\-\d{1,2})\b/))
+			else if (_m = _matchDateString(_text))
 			{
 				try
 				{
@@ -368,4 +414,36 @@ export function _getBookLinks($: JQueryStatic, links: IESJzoneRecentUpdateRowBoo
 	;
 
 	return links
+}
+
+export function _getChapterDomContent($: JQueryStatic)
+{
+	return $('.container .forum-content')
+}
+
+export function _getChapterData($: JQueryStatic): Pick<IESJzoneChapter, 'author' | 'dateline'>
+{
+	let $meta = $('.container .single-post-meta .column');
+
+	$meta.eq(0).find('span:eq(0)').remove();
+	$meta.eq(1).find('i:eq(0)').remove();
+
+	let author = trimUnsafe($meta.eq(0).text());
+	let dateline: number;
+
+	let _m = _matchDateString(trimUnsafe($meta.eq(1).text()));
+
+	if (_m)
+	{
+		let unix = moment(_m[1]).unix();
+		if (unix > 0)
+		{
+			dateline = unix
+		}
+	}
+
+	return {
+		author,
+		dateline,
+	}
 }

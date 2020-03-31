@@ -93,3 +93,15 @@ export interface IESJzoneBookChaptersVolChapterExternal extends Omit<IESJzoneBoo
 }
 
 export type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;
+
+export interface IESJzoneChapter
+{
+	novel_id: string;
+	chapter_id: string;
+	imgs: string[];
+	text: string;
+	html?: string;
+
+	author?: string;
+	dateline?: number;
+}

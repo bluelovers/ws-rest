@@ -1,63 +1,47 @@
-import { AbstractHttpClient } from 'restful-decorator/lib';
 import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib';
-import { AxiosRequestConfig } from 'restful-decorator/lib/types/axios';
 import {
 	BaseUrl,
-	BodyData,
 	CacheRequest,
 	FormUrlencoded,
 	GET,
 	Headers,
 	methodBuilder,
-	ParamData,
-	ParamMapData,
 	ParamPath,
 	POST,
-	RequestConfigs,
-	TransformResponse,
-	CatchError, ParamQuery, HandleParamMetadata,
 	ParamMapAuto,
 } from 'restful-decorator/lib/decorators';
-import { ICookiesValue, LazyCookieJar } from 'lazy-cookies';
-import { getCookieJar } from 'restful-decorator/lib/decorators/config/cookies';
 import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';
-import { array_unique } from 'array-hyper-unique';
-import consoleDebug from 'restful-decorator/lib/util/debug';
-import toughCookie, { CookieJar } from 'tough-cookie';
-import {
-	fromURL,
-	IFromUrlOptions,
-	IJSDOM,
-	createJSDOM,
-	IConstructorOptions as IJSDOMConstructorOptions,
-} from 'jsdom-extra';
-import { combineURLs } from 'restful-decorator/lib/fix/axios';
-import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
+import { IJSDOM } from 'jsdom-extra';
 import { trimUnsafe } from './util';
 import moment from 'moment';
 import {
 	IESJzoneRecentUpdate,
-	IESJzoneRecentUpdateRow,
 	IESJzoneRecentUpdateRowBook,
-	IESJzoneBookChapters,
-	IParametersSlice, IESJzoneRecentUpdateDay,
+	IParametersSlice,
+	IESJzoneRecentUpdateDay,
+	IESJzoneChapter,
 } from './types';
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
 import {
-	_handleInputUrl,
 	_fixCoverUrl,
 	_remove_ad,
 	_getBookElemDesc,
 	_getBookTags,
 	_getBookCover,
-	_getBookChapters, _getBookLinks, _getBookInfo,
+	_getBookChapters,
+	_getBookLinks,
+	_getBookInfo,
+	_getChapterDomContent,
+	_matchDateString,
+	_getChapterData,
+	_parseSiteLink,
 } from './util/site';
-import LazyURL from 'lazy-url';
 import orderBy from 'lodash/orderBy';
 import tryMinifyHTML from 'restful-decorator-plugin-jsdom/lib/html';
+import { _p_2_br } from 'restful-decorator-plugin-jsdom/lib/jquery';
 
 /**
  * https://www.wenku8.net/index.php
@@ -409,16 +393,10 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 			src: string,
 			imgs: string[],
 		}): void,
-	} = {}): IBluebird<{
-		novel_id: string;
-		chapter_id: string;
-		imgs: string[];
-		text: string;
-		html?: string;
-	}>
+	} = {}): IBluebird<IESJzoneChapter>
 	{
 		return Bluebird.resolve()
-			.then(async () =>
+			.then<IESJzoneChapter>(async () =>
 			{
 				const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
 				const $ = jsdom.$;
@@ -482,11 +460,11 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 					}
 				};
 
-				await _decodeChapter();
+				//await _decodeChapter();
 
 				_remove_ad($);
 
-				$content = $('.container .forum-content');
+				$content = _getChapterDomContent($)
 
 				_p_2_br($content.find('> p'), $);
 
@@ -528,13 +506,19 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 					.replace(/^\s+|\s+$/g, '')
 				;
 
+				let { author, dateline } = _getChapterData($)
+
 				return {
 					novel_id: argv.novel_id.toString(),
 					chapter_id: argv.chapter_id.toString(),
+
 					imgs,
 					text,
 					html,
-				} as any
+
+					author,
+					dateline,
+				}
 			})
 			;
 	}
@@ -600,11 +584,16 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 						let nid: string;
 						let last_update_chapter_name: string;
 
+						/*
 						let _m0 = (_a.prop('href') as string)
 							.match(/detail\/(\d+)/)
 						;
-
 						nid = _m0[1];
+						 */
+
+						let _m0 = _parseSiteLink(_a.prop('href'));
+						nid = _m0.novel_id;
+
 						last_update_chapter_name = _this
 							.find('.card-body .card-ep')
 							.eq(0)
@@ -638,6 +627,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 export default ESJzoneClient
 
+/*
 function _p_2_br(target: any, $: any)
 {
 	return $(target)
@@ -661,3 +651,4 @@ function _p_2_br(target: any, $: any)
 		})
 		;
 }
+*/

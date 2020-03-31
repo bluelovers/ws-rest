@@ -25,5 +25,3 @@ export function _p_2_br<T extends any = HTMLElement>(target: T, $: JQueryStatic)
 		})
 		;
 }
-
-export default _p_2_br
