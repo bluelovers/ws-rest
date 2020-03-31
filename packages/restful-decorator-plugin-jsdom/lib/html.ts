@@ -24,4 +24,18 @@ export function tryMinifyHTML(html: string, throwError?: boolean | ((html: strin
 	return html;
 }
 
+export function tryMinifyHTMLOfElem<T extends any = HTMLElement>(target: JQuery<T>)
+{
+	let html = target.html();
+
+	let html2 = tryMinifyHTML(html);
+
+	if (html2 !== html)
+	{
+		target.html(html)
+	}
+
+	return target;
+}
+
 export default tryMinifyHTML

@@ -40,7 +40,7 @@ import {
 	_parseSiteLink,
 } from './util/site';
 import orderBy from 'lodash/orderBy';
-import tryMinifyHTML from 'restful-decorator-plugin-jsdom/lib/html';
+import tryMinifyHTML, { tryMinifyHTMLOfElem } from 'restful-decorator-plugin-jsdom/lib/html';
 import { _p_2_br } from 'restful-decorator-plugin-jsdom/lib/jquery';
 
 /**
@@ -313,7 +313,11 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 			data.cover = cover;
 		}
 
-		data.desc = trimUnsafe(_getBookElemDesc($).text() || '');
+		let $desc = tryMinifyHTMLOfElem(_getBookElemDesc($));
+
+		_p_2_br($desc.find('p'), $, true);
+
+		data.desc = trimUnsafe($desc.text() || '');
 
 		_getBookChapters($, _content, data);
 
@@ -405,10 +409,11 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 				let $content = $('.container .row:has(.forum-content)');
 
-				$content.html(tryMinifyHTML($content.html()));
+				$content = tryMinifyHTMLOfElem($content);
 
 				_remove_ad($);
 
+				/*
 				const _decodeChapter = async () =>
 				{
 					let code: string;
@@ -464,7 +469,8 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 				//await _decodeChapter();
 
-				_remove_ad($);
+				//_remove_ad($);
+				 */
 
 				$content = _getChapterDomContent($)
 
