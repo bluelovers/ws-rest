@@ -699,8 +699,8 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 		const jsdom = this.$returnValue as IJSDOM;
 		const $ = jsdom.$;
 
-		let tabs = $('.container #showTab li a');
-		let divs = $('.container .tab-content > div[id]');
+		let tabs = $('.container .nav.nav-pills[role="tablist"] li a.nav-link');
+		let divs = $('.container .tab-content > div[id][role="tabpanel"]');
 
 		let last_update_time = 0;
 
@@ -726,20 +726,20 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 				last_update_time = Math.max(last_update_time, timestamp, 0);
 
 				div
-					.find('.thumbnail')
+					.find('> div')
 					.each((i, elem) =>
 					{
 						let _this = $(elem);
 
 						let cover = _this
-							.find('.coverMask img:eq(0)')
+							.find('.main-img img:eq(0)')
 							.prop('src')
 						;
 
 						cover = _fixCoverUrl(cover);
 
 						let _a = _this
-							.find('.caption .caption-txt a')
+							.find('.card-body .card-title a')
 							.eq(0)
 						;
 
@@ -757,7 +757,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 						nid = _m0[1];
 						last_update_chapter_name = _this
-							.find('.caption .caption-date')
+							.find('.card-body .card-ep')
 							.eq(0)
 							.text() || undefined
 						;
