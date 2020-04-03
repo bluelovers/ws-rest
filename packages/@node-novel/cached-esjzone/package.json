@@ -14,9 +14,10 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "build": "yarn run build:fix && yarn run build:cache && yarn run build:commit",
+    "build": "yarn run build:main && yarn run build:commit",
     "build:cache": "ts-node ./script/build",
     "build:commit": "ts-node ./script/build-commit",
+    "build:main": "yarn run build:fix && yarn run build:cache",
     "build:fix": "ts-node ./script/build/fix",
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",

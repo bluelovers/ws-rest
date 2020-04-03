@@ -109,7 +109,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 		let lastUpdateTime = 0;
 
-		let tds = $('.container .shop-toolbar + .row > div');
+		let tds = $('.container .shop-toolbar + .row > div:not(.hidden-sm-up)');
 
 		tds
 			.each((i, elem) =>
