@@ -112,6 +112,10 @@ const reList02 = [
 		s: /人外|怪物|魔物|怪獸/ug,
 		r: '魔物',
 	},
+	{
+		s: /(猪|豚)+/ug,
+		r: '猪',
+	},
 ].map(data => {
 	let { s, r } = data;
 
