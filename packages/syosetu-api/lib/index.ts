@@ -107,6 +107,8 @@ export class SyosetuClient extends AbstractHttpClientWithJSDom
 	ncodeInfo(ncode: string, novel18?: boolean): Promise<ISyosetuApiNcode<ISyosetuApiNcodeRawAll>>
 	ncodeInfo(ncode: string, novel18?: boolean)
 	{
+		novel18 = !!novel18;
+
 		return this.ncodeInfoRaw(ncode, novel18)
 			.then(data => {
 				return <ISyosetuApiNcode<typeof data>>{
@@ -118,6 +120,9 @@ export class SyosetuClient extends AbstractHttpClientWithJSDom
 					updated_at: parseDateStringToMoment(data.updated_at).valueOf(),
 
 					keyword: data.keyword.split(/\s+/),
+
+					novel18,
+					url: `https://${novel18 ? 'novel18' : 'ncode'}.syosetu.com/${data.ncode.toLowerCase()}/`,
 				}
 			})
 		;

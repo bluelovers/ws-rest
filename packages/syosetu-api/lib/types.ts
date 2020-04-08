@@ -187,6 +187,12 @@ export interface ISyosetuApiNcodeRawCore
 	updated_at: string;
 }
 
+export interface ISyosetuApiNcodeCore extends ISyosetuApiNcodeRawCore
+{
+	novel18: boolean,
+	url: string,
+}
+
 export type ISyosetuApiNcodeRawAll = ISyosetuApiNcodeRaw | ISyosetuApiNcode18Raw
 
 export interface ISyosetuApiNcode18Raw extends ISyosetuApiNcodeRawCore
@@ -222,7 +228,7 @@ export interface ISyosetuApiNcodeRaw extends ISyosetuApiNcodeRawCore
 	isr15: IBool;
 }
 
-export type ISyosetuApiNcode<T extends ISyosetuApiNcodeRawCore> = ITSOverwrite<T, {
+export type ISyosetuApiNcode<T extends ISyosetuApiNcodeRawCore = ISyosetuApiNcodeRawAll> = ITSOverwrite<T, {
 	/**
 	 * microseconds
 	 */
@@ -241,4 +247,7 @@ export type ISyosetuApiNcode<T extends ISyosetuApiNcodeRawCore> = ITSOverwrite<T
 	updated_at: number;
 
 	keyword: string[];
+
+	novel18: T extends ISyosetuApiNcode18Raw ? true : T extends ISyosetuApiNcodeRaw ? false : boolean,
+	url: string,
 }>
