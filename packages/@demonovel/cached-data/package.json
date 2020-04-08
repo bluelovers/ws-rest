@@ -29,7 +29,6 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "devDependencies": {
-    "@bluelovers/tsconfig": "^1.0.18",
     "@node-novel/cache-loader": "^1.0.15",
     "@node-novel/cached-dmzj": "^1.1.85",
     "@node-novel/cached-esjzone": "^1.0.55",
@@ -39,7 +38,6 @@
     "@types/cheerio": "^0.22.16",
     "@types/fs-extra": "^8.1.0",
     "@types/hash-sum": "^1.0.0",
-    "@types/node": "^13.7.7",
     "@types/uuid": "^7.0.0",
     "@wincent/stable-stringify": "^0.0.2",
     "array-hyper-unique": "^1.1.0",

@@ -16,12 +16,12 @@
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
-    "ncu": "npx yarn-tool ncu -u",
-    "npm:publish": "npm publish",
-    "postpublish_": "git commit -m \"publish new version\" .",
-    "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
-    "sort-package-json": "npx yarn-tool sort",
     "test": "echo \"Error: no test specified\"",
+    "npm:publish": "npm publish",
+    "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
+    "postpublish_": "git commit -m \"publish new version\" .",
+    "ncu": "npx yarn-tool ncu -u",
+    "sort-package-json": "npx yarn-tool sort",
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
@@ -30,10 +30,9 @@
     "@git-lazy/util": "^1.0.5",
     "@types/bluebird": "^3.5.30",
     "@types/fs-extra": "^8.1.0",
-    "@types/node": "^13.7.7",
     "bluebird": "^3.7.2",
     "env-bool": "^1.0.3",
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.28",
@@ -42,7 +41,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.149",
-    "@types/moment-timezone": "^0.5.12"
+    "@types/moment-timezone": "^0.5.13"
   },
   "publishConfig": {
     "access": "public"
