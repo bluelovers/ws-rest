@@ -1,7 +1,7 @@
 export enum EnumSyosetuApiURL
 {
-	novel = 'https://api.syosetu.com/novelapi/api/',
-	novel18 = 'https://api.syosetu.com/novel18api/api/',
+	novel = 'novelapi/api/',
+	novel18 = 'novel18api/api/',
 }
 
 export enum EnumSyosetuApiParamOrderBy

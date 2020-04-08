@@ -10,7 +10,9 @@ export type ISyosetuApiRaw001<T> = [
 	...T[],
 ]
 
-export interface ISyosetuApiParam
+export type ISyosetuApiParamOf = "-" | "t" | "n" | "u" | "w" | "s" | "bg" | "g" | "k" | "gf" | "gl" | "nt" | "e" | "ga" | "l" | "ti" | "i" | "ir" | "ibl" | "igl" | "izk" | "its" | "iti" | "p" | "gp" | "f" | "r" | "a" | "ah" | "sa" | "ka" | "nu" | "ua";
+
+export interface ISyosetuApiParams
 {
 	/**
 	 * int(1～5)
@@ -32,7 +34,7 @@ export interface ISyosetuApiParam
 	 * 複数項目を出力する場合は-で区切ってください。
 	 * 詳しくは出力の項目をご覧ください。
 	 */
-	of?: string,
+	of?: string | ISyosetuApiParamOf,
 	/**
 	 * int(1～500)
 	 *

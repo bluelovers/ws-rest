@@ -12,7 +12,7 @@ import { buildVersion } from 'dmzj-api/lib/util';
 import {
 	ISyosetuApiRaw001,
 	ISyosetuApiNcodeRaw,
-	ISyosetuApiParam,
+	ISyosetuApiParams,
 	ISyosetuApiNcode,
 	ISyosetuApiNcodeRawAll, ISyosetuApiNcode18Raw,
 } from './types';
@@ -32,17 +32,24 @@ import { parseDateStringToMoment } from './util/parseDate';
  * @see https://github.com/59naga/naroujs
  * @see https://github.com/ErgoFriend/yomoujs
  */
-@BaseUrl('https://syosetu.com/')
+@BaseUrl('https://api.syosetu.com/')
 @Headers({
 	Referer: 'https://syosetu.com/',
 })
 @CacheRequest({
 	cache: {
-		maxAge: 24 * 60 * 60 * 1000,
+		maxAge: 12 * 60 * 60 * 1000,
 	},
 })
 export class SyosetuClient extends AbstractHttpClientWithJSDom
 {
+
+	_syosetuApi<T>(apiPath: string, params: ISyosetuApiParams)
+	{
+		return this.$http.get<T>(apiPath, {
+			params,
+		})
+	}
 
 	/**
 	 * ncode api raw json
@@ -57,7 +64,7 @@ export class SyosetuClient extends AbstractHttpClientWithJSDom
 	@RequestConfigs({
 		responseType: 'json',
 	})
-	@BodyData<ISyosetuApiParam>({
+	@BodyData<ISyosetuApiParams>({
 		libtype: 2,
 		out: 'json',
 		lim: 1,
@@ -78,6 +85,13 @@ export class SyosetuClient extends AbstractHttpClientWithJSDom
 	})
 	ncodeInfoRaw(@ParamData('ncode') ncode: string, novel18?: boolean): Promise<ISyosetuApiNcodeRawAll>
 	{
+		const $returnValue = this.$returnValue as ISyosetuApiRaw001<ISyosetuApiNcodeRawAll>;
+
+		if ($returnValue[0].allcount === 0 || $returnValue[1] === void 0)
+		{
+			return Promise.reject(new RangeError(`Invalid ncode: ${ncode}, novel18: ${!!novel18}`))
+		}
+
 		// @ts-ignore
 		return this.$returnValue[1] as any
 	}

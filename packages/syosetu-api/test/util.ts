@@ -2,6 +2,7 @@ import { LazyCookieJar } from 'lazy-cookies';
 import { _getApiClient } from '@node-novel/site-cache-util/lib/client';
 import { __path } from './files';
 import ApiClient from '../lib/index';
+export { ApiClient }
 
 let api: ApiClient;
 let saveCache: () => void;
