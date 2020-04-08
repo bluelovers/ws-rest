@@ -16,12 +16,12 @@
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
-    "ncu": "npx yarn-tool ncu -u",
+    "test": "test",
     "npm:publish": "npm publish",
     "prepublishOnly": "echo prepublishOnly",
     "postpublish": "echo postpublish",
+    "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort",
-    "test": "test",
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
@@ -33,8 +33,8 @@
     "restful-decorator-plugin-jsdom": "^1.0.15"
   },
   "devDependencies": {
-    "@types/jquery": "^3.3.33",
-    "@types/jsdom": "^16.1.0"
+    "@types/jquery": "^3.3.34",
+    "@types/jsdom": "^16.2.0"
   },
   "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
 }

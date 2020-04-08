@@ -23,10 +23,10 @@
   "scripts": {
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",
-    "ncu": "npx yarn-tool ncu -u",
+    "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}",
     "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
-    "sort-package-json": "npx yarn-tool sort",
-    "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}"
+    "ncu": "npx yarn-tool ncu -u",
+    "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
     "execall2": "^1.1.4",

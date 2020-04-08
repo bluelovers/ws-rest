@@ -16,16 +16,16 @@
   "scripts": {
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",
-    "ncu": "npx yarn-tool ncu -u",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "npm run ncu && npm run sort-package-json",
-    "sort-package-json": "npx yarn-tool sort",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ncu": "npx yarn-tool ncu -u",
+    "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
     "@types/moment": "*",
     "@types/tough-cookie": "*",
     "crlf-normalize": "^1.0.3",
-    "ts-type": "^1.2.13"
+    "ts-type": "^1.2.15"
   },
   "peerDependencies": {
     "moment": "*",

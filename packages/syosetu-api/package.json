@@ -28,14 +28,14 @@
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
-  "devDependencies": {
-    "@types/bluebird": "^3.5.30"
-  },
   "dependencies": {
     "@node-novel/site-cache-util": "^1.0.22",
     "bluebird": "^3.7.2",
     "restful-decorator": "^1.0.36",
     "restful-decorator-plugin-jsdom": "^1.0.15",
     "ts-type": "^1.2.15"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.30"
   }
 }

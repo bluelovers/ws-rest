@@ -26,12 +26,12 @@
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
-    "ncu": "npx yarn-tool ncu -u",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "npm:publish": "npm publish",
     "prepublishOnly": "yarn run ncu && yarn run sort-package-json",
     "postpublish": "echo postpublish",
+    "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
@@ -45,8 +45,8 @@
     "get-value": "^3.0.1",
     "lodash": "^4",
     "reflect-metadata-util": "^1.0.8",
-    "retry-axios": "^2.1.1",
-    "ts-type": "^1.2.13",
+    "retry-axios": "^2.1.2",
+    "ts-type": "^1.2.15",
     "typed-http-headers": "^1.0.5"
   },
   "devDependencies": {

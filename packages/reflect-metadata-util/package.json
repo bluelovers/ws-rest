@@ -15,10 +15,10 @@
   "scripts": {
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",
-    "ncu": "npx yarn-tool ncu -u",
+    "test": "ts-node ./test/demo",
     "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
-    "sort-package-json": "npx yarn-tool sort",
-    "test": "ts-node ./test/demo"
+    "ncu": "npx yarn-tool ncu -u",
+    "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
     "reflect-metadata": "*"

@@ -8,10 +8,10 @@
   "scripts": {
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint lib/**/*.ts",
-    "ncu": "npx yarn-tool ncu -u",
+    "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}",
     "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
-    "sort-package-json": "npx yarn-tool sort",
-    "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}"
+    "ncu": "npx yarn-tool ncu -u",
+    "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
     "@bluelovers/axios-extend": "^1.0.21",
@@ -31,14 +31,14 @@
     "router-uri-convert": "^1.0.15",
     "tough-cookie": "^3.0.1",
     "ts-enum-util": "^4.0.1",
-    "ts-type": "^1.2.13",
+    "ts-type": "^1.2.15",
     "typed-http-headers": "^1.0.5"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.30",
     "@types/lodash": "^4.14.149",
     "@types/moment": "^2.13.0",
-    "@types/tough-cookie": "^2.3.6",
+    "@types/tough-cookie": "^4.0.0",
     "@types/url-parse": "^1.4.3"
   },
   "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
