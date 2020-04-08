@@ -1,6 +1,6 @@
 import SyosetuClient from './index';
 import { ParamData } from 'restful-decorator/lib/decorators/body';
-import { EnumSyosetuApiParamOrderBy, EnumSyosetuApiRawNovelNocgenre } from './util/const';
+import { EnumSyosetuApiParamOrderBy, EnumSyosetuApiRawNovelNocgenre, EnumSyosetuApiRawNovelGenre } from './util/const';
 import { ITSOverwrite } from 'ts-type/lib/type/record';
 
 export type ISyosetuApiRaw001<T> = [
@@ -56,43 +56,92 @@ export interface ISyosetuApiParams
 	order?: string | EnumSyosetuApiParamOrderBy,
 
 	libtype?: number | 2,
+
+
 }
 
 export type IBool = 0 | 1;
 
 export interface ISyosetuApiNcodeRawCore
 {
+	/**
+	 * 小説名
+	 */
 	title: string;
 	/**
 	 * "N5624CV"
 	 */
 	ncode: string;
+	/**
+	 * 作者名
+	 */
 	writer: string;
+	/**
+	 * 小説のあらすじ
+	 */
 	story: string;
 
-	gensaku: string;
+	/**
+	 * 現在未使用項目(常に空文字が返ります)
+	 */
+	gensaku: string | '';
 	/**
 	 * "R15 残酷な描写あり ガールズラブ 異世界転生 ハーレム ファンタジー 年上の女性 チート おねしょた ほのぼの コメディ TS 男主人公"
 	 */
 	keyword: string;
 	/**
+	 * 初回掲載日
 	 * "2015-08-22 15:33:32"
 	 */
 	general_firstup: string;
 	/**
+	 * 最終掲載日
 	 * "2020-03-21 15:13:00"
 	 */
 	general_lastup: string;
-	novel_type: number | 1;
+	/**
+	 * 連載の場合は1、短編の場合は2
+	 */
+	novel_type: number | 1 | 2;
+	/**
+	 * 短編小説と完結済小説は0となっています。連載中は1です。
+	 */
 	end: number | 1;
+	/**
+	 * 	全掲載部分数です。短編の場合は1です。
+	 */
 	general_all_no: number;
+	/**
+	 * 小説文字数です。スペースや改行は文字数としてカウントしません。
+	 */
 	length: number;
+	/**
+	 * 読了時間(分単位)です。読了時間は小説文字数÷500を切り上げした数値です。
+	 */
 	time: number;
+	/**
+	 * 長期連載停止中なら1、それ以外は0です。
+	 */
 	isstop: IBool;
+	/**
+	 * 登録必須キーワードに「ボーイズラブ」が含まれる場合は1、それ以外は0です。
+	 */
 	isbl: IBool;
+	/**
+	 * 登録必須キーワードに「ガールズラブ」が含まれる場合は1、それ以外は0です。
+	 */
 	isgl: IBool;
+	/**
+	 * 登録必須キーワードに「残酷な描写あり」が含まれる場合は1、それ以外は0です。
+	 */
 	iszankoku: IBool;
+	/**
+	 * 登録必須キーワードに「異世界転生」が含まれる場合は1、それ以外は0です。
+	 */
 	istensei: IBool;
+	/**
+	 * 登録必須キーワードに「異世界転移」が含まれる場合は1、それ以外は0です。
+	 */
 	istenni: IBool;
 	/**
 	 * 1はケータイのみ、
@@ -109,17 +158,31 @@ export interface ISyosetuApiNcodeRawCore
 	yearly_point: number;
 	fav_novel_cnt: number;
 	review_cnt: number;
+	/**
+	 * 感想数
+	 */
 	impression_cnt: number;
 	all_point: number;
+	/**
+	 * 評価者数
+	 */
 	all_hyoka_cnt: number;
+	/**
+	 * 挿絵の数
+	 */
 	sasie_cnt: number;
+	/**
+	 * 会話率
+	 */
 	kaiwaritu: number;
 	/**
+	 * 小説の更新日時
 	 * 2020-03-22 09:33:20
 	 */
 	novelupdated_at: string;
 	/**
 	 * 2020-04-08 05:07:05
+	 * 最終更新日時
 	 */
 	updated_at: string;
 }
@@ -128,21 +191,34 @@ export type ISyosetuApiNcodeRawAll = ISyosetuApiNcodeRaw | ISyosetuApiNcode18Raw
 
 export interface ISyosetuApiNcode18Raw extends ISyosetuApiNcodeRawCore
 {
+	/**
+	 * 掲載サイトを指定できます。ハイフン(-)記号で区切れば複数の掲載サイトを一括抽出できます。
+	 */
 	nocgenre: 1 | 2 | 3 | 4 | EnumSyosetuApiRawNovelNocgenre;
 
-	userid?: number;
-	biggenre?: number | 2;
-	genre?: number;
-	isr15?: IBool;
+	userid?: undefined;
+	biggenre?: undefined
+	genre?: undefined;
+
+	isr15?: undefined;
 }
 
 export interface ISyosetuApiNcodeRaw extends ISyosetuApiNcodeRawCore
 {
-	nocgenre?: 1 | 2 | 3 | 4 | EnumSyosetuApiRawNovelNocgenre;
+	nocgenre?: undefined;
 
 	userid: number;
+	/**
+	 * 大ジャンル指定
+	 */
 	biggenre: number | 2;
-	genre: number;
+	/**
+	 * ジャンル
+	 */
+	genre: number | EnumSyosetuApiRawNovelGenre;
+	/**
+	 * 登録必須キーワードに「R15」が含まれる場合は1、それ以外は0です。
+	 */
 	isr15: IBool;
 }
 
