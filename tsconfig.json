@@ -1,5 +1,5 @@
 {
-  "extends": "@bluelovers/tsconfig",
+  "extends": "@bluelovers/tsconfig/esm/mapfile.json",
   "compilerOptions": {
     "incremental": true,
     "preserveConstEnums": true,
