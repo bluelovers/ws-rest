@@ -12,10 +12,12 @@ export function CookieJarSupport(value: AxiosRequestConfig["jar"] | CookieJar)
 {
 	if (value === true)
 	{
+		// @ts-ignore
 		value = new LazyCookieJar();
 	}
 
 	return RequestConfigs({
+		// @ts-ignore
 		jar: value,
 		withCredentials: true,
 	})

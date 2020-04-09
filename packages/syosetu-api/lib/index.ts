@@ -1,4 +1,4 @@
-import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib';
+import AbstractHttpClientWithJSDom, { IJSDOM } from 'restful-decorator-plugin-jsdom/lib';
 import { BaseUrl } from 'restful-decorator/lib/decorators/http';
 import { Headers } from 'restful-decorator/lib/decorators/headers';
 import { CacheRequest } from 'restful-decorator/lib/decorators/config/cache';
@@ -6,7 +6,7 @@ import Bluebird from 'bluebird';
 import { GET } from 'restful-decorator/lib/decorators/method';
 import { methodBuilder } from 'restful-decorator/lib/wrap/abstract';
 import { RequestConfigs } from 'restful-decorator/lib/decorators/config';
-import { ParamPath, ParamData, BodyData } from 'restful-decorator/lib/decorators/body';
+import { ParamPath, ParamData, BodyData, ParamMapAuto } from 'restful-decorator/lib/decorators/body';
 import { EnumSyosetuApiURL } from './util/const';
 import { buildVersion } from 'dmzj-api/lib/util';
 import {
@@ -18,6 +18,8 @@ import {
 } from './types';
 import { moment } from '@node-novel/site-cache-util/lib/moment';
 import { parseDateStringToMoment } from './util/parseDate';
+import { buildLink } from './util/parseUrl';
+import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
 
 /**
  * @see https://syosetu.com/
@@ -43,6 +45,15 @@ import { parseDateStringToMoment } from './util/parseDate';
 })
 export class SyosetuClient extends AbstractHttpClientWithJSDom
 {
+
+	protected _constructor()
+	{
+		this._setCookieSync({
+			key: 'over18',
+			value: 'yes',
+			expires: 3600 * 24 * 360,
+		});
+	}
 
 	_syosetuApi<T>(apiPath: string, params: ISyosetuApiParams)
 	{
@@ -126,6 +137,48 @@ export class SyosetuClient extends AbstractHttpClientWithJSDom
 				}
 			})
 		;
+	}
+
+	@ReturnValueToJSDOM()
+	@methodBuilder(function (info) {
+
+		const data = info.argv[0];
+
+		let href = buildLink(data);
+
+		info.requestConfig.url = href;
+
+		return info;
+	}, {
+		autoRequest: true,
+	})
+	_getWebNovelRaw(argv: {
+		novel_r18?: boolean,
+		novel_id: string,
+		chapter_id: string | number,
+		protocol?: string,
+	})
+	{
+		return Promise.resolve(this.$returnValue as IJSDOM)
+	}
+
+	getChapter(argv: {
+		novel_r18?: boolean,
+		novel_id: string,
+		chapter_id: string | number,
+		protocol?: string,
+	}, options: {
+		rawHtml?: boolean,
+		cb?(data: {
+			i: number,
+			$elem: JQuery<HTMLElement>,
+			$content: JQuery<HTMLElement>,
+			src: string,
+			imgs: string[],
+		}): void,
+	} = {})
+	{
+		return this._getWebNovelRaw(argv)
 	}
 
 }

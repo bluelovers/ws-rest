@@ -42,6 +42,7 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 		let [ defaults ] = argv;
 		if (defaults && typeof defaults.jar === 'string')
 		{
+			// @ts-ignore
 			defaults.jar = CookieJar.deserializeSync(defaults.jar)
 		}
 
@@ -106,6 +107,7 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 
 			if (response.config && response.config.jar && typeof response.config.jar === 'object')
 			{
+				// @ts-ignore
 				cookieJar = response.config.jar;
 			}
 
