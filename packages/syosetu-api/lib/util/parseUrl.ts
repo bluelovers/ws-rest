@@ -1,4 +1,4 @@
-import { _handleInputUrl, EnumParseInputUrl } from '@node-novel/parse-url';
+import { _handleInputUrl, EnumParseInputUrl } from '@node-novel/parse-input-url';
 import { LazyURL } from 'lazy-url';
 import { validNcode } from './valid';
 

@@ -6,7 +6,7 @@ import { LazyURL } from 'lazy-url';
 import { trimUnsafe } from '../util';
 import { IESJzoneRecentUpdateRowBook, IESJzoneChapter } from '../types';
 import moment from 'moment';
-import { _handleInputUrl } from '@node-novel/parse-url';
+import { _handleInputUrl } from '@node-novel/parse-input-url';
 
 export function parseUrl<T extends string | number | URL | LazyURL>(input: T)
 {
