@@ -3,21 +3,21 @@
   "name": "迦勒底事件簿",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 Malice or Romance",
-  "last_update_chapter_name": "第一章",
-  "last_update_volume_id": 10755,
-  "last_update_chapter_id": 105234,
-  "last_update_time": 1586086769,
+  "last_update_volume_name": "第三卷 笼中少女",
+  "last_update_chapter_name": "10 后日谈",
+  "last_update_volume_id": 10760,
+  "last_update_chapter_id": 105332,
+  "last_update_time": 1586255108,
   "cover": "https://xs.dmzj.com/img/webpic/16/jldsj030l.jpg",
-  "hot_hits": 25413,
+  "hot_hits": 36027,
   "introduction": "被召唤而来的本格推理界中一骑当千、万夫不当的小说家们，将精巧大胆的逻辑剑戟在FGO世界炸裂开来! 《Fate/Grand Order》第一部小说合同志《迦勒底的事件簿》开幕!",
   "types": [
     "奇幻"
   ],
   "authors": "青崎有吾",
   "first_letter": "J",
-  "subscribe_num": 3932,
-  "redis_update_time": 1586133090,
+  "subscribe_num": 5042,
+  "redis_update_time": 1586475910,
   "volume": [
     {
       "id": 10742,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 暗黑犯罪天楼 曼哈顿",
       "volume_order": 10,
       "addtime": 1585569463,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 10755,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷 Malice or Romance",
       "volume_order": 20,
       "addtime": 1586086683,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    },
+    {
+      "id": 10760,
+      "lnovel_id": 2837,
+      "volume_name": "第三卷 笼中少女",
+      "volume_order": 30,
+      "addtime": 1586254852,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -70,6 +78,69 @@
           "chapter_id": 105234,
           "chapter_name": "第一章",
           "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 10760,
+      "id": 10760,
+      "volume_name": "第三卷 笼中少女",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 105322,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105323,
+          "chapter_name": "01 序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105324,
+          "chapter_name": "02 联络迦勒底",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105325,
+          "chapter_name": "03 审问村民（男）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105326,
+          "chapter_name": "04 伤痕夜话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105327,
+          "chapter_name": "05 调查开始——对峙",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105328,
+          "chapter_name": "06 前往神域",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105329,
+          "chapter_name": "07 神域",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105330,
+          "chapter_name": "08 圣杯回收",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105331,
+          "chapter_name": "09 下山",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 105332,
+          "chapter_name": "10 后日谈",
+          "chapter_order": 110
         }
       ]
     }
