@@ -23,9 +23,12 @@
   },
   "dependencies": {
     "@types/moment": "*",
-    "@types/tough-cookie": "*",
+    "@types/tough-cookie": "< 4",
     "crlf-normalize": "^1.0.3",
     "ts-type": "^1.2.15"
+  },
+  "devDependencies": {
+    "tough-cookie": "< 4"
   },
   "peerDependencies": {
     "moment": "*",
