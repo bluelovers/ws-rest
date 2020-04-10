@@ -3,13 +3,13 @@
   "name": "异世界迷宫探索者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10709,
-  "last_update_chapter_id": 104693,
-  "last_update_time": 1585049209,
+  "last_update_volume_id": 10756,
+  "last_update_chapter_id": 105300,
+  "last_update_time": 1586088969,
   "cover": "https://xs.dmzj.com/img/webpic/1/gwmg0320l.jpg",
-  "hot_hits": 35549,
+  "hot_hits": 48228,
   "introduction": "有一天高中生武田顺平因为「神」的一时兴起被召唤到异世界，作为祭品被推入了凶恶的迷宫里。在生还率为零的怪物迷宫内，顺平做好了死的觉悟，但他想出了起死回生的妙计。找到通往迷宫活路的最弱迷宫，开始了对叛徒们的复仇。\n网上超人气的，从穷途末路中爬出来的幻想小说，期待已久的文库化！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "サカモト666",
   "first_letter": "Y",
-  "subscribe_num": 2318,
-  "redis_update_time": 1585267444,
+  "subscribe_num": 2689,
+  "redis_update_time": 1586131650,
   "volume": [
     {
       "id": 10697,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1584703184,
-      "sum_chapters": 19
+      "sum_chapters": 9
     },
     {
       "id": 10709,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1585045696,
-      "sum_chapters": 19
+      "sum_chapters": 9
+    },
+    {
+      "id": 10756,
+      "lnovel_id": 2823,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1586087047,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -166,6 +174,69 @@
           "chapter_id": 104693,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10756,
+      "id": 10756,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 105235,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105236,
+          "chapter_name": "序章 遥远的记忆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105237,
+          "chapter_name": "第一章 到外面去",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105238,
+          "chapter_name": "第二章 一瞬间的强夺",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105239,
+          "chapter_name": "第三章 里公会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105240,
+          "chapter_name": "第四章 大贵族的ELF狩猎",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105241,
+          "chapter_name": "第五章 复仇的开始",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105242,
+          "chapter_name": "第六章 被鲜血染红的古代树森",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105243,
+          "chapter_name": "第七章 B级冒险者选拔考试",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105244,
+          "chapter_name": "第八章 龙种",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 105300,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

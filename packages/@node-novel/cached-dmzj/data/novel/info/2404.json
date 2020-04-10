@@ -3,13 +3,13 @@
   "name": "为何无人记得我的世界？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 堕天之翼",
+  "last_update_volume_name": "第三卷 众神之道",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10017,
-  "last_update_chapter_id": 102166,
-  "last_update_time": 1577787530,
+  "last_update_volume_id": 10758,
+  "last_update_chapter_id": 105316,
+  "last_update_time": 1586163930,
   "cover": "https://xs.dmzj.com/img/webpic/23/wdsj1124l.jpg",
-  "hot_hits": 271642,
+  "hot_hits": 345752,
   "introduction": "暂无简介",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "细音启",
   "first_letter": "W",
-  "subscribe_num": 36974,
-  "redis_update_time": 1578033095,
+  "subscribe_num": 40590,
+  "redis_update_time": 1586477655,
   "volume": [
     {
       "id": 9089,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 命运之剑",
       "volume_order": 10,
       "addtime": 1511522747,
-      "sum_chapters": 7
+      "sum_chapters": 12
     },
     {
       "id": 10017,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷 堕天之翼",
       "volume_order": 20,
       "addtime": 1552914888,
-      "sum_chapters": 7
+      "sum_chapters": 12
+    },
+    {
+      "id": 10758,
+      "lnovel_id": 2404,
+      "volume_name": "第三卷 众神之道",
+      "volume_order": 30,
+      "addtime": 1586163482,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -161,6 +169,69 @@
           "chapter_id": 102166,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10758,
+      "id": 10758,
+      "volume_name": "第三卷 众神之道",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 105306,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105307,
+          "chapter_name": "world.1 向南",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105308,
+          "chapter_name": "World.2 精灵之森，诸神之祠",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105309,
+          "chapter_name": "World.3 由伦人类反旗军",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105310,
+          "chapter_name": "Intermission",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105311,
+          "chapter_name": "World.4 这个世界的贤者",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105312,
+          "chapter_name": "World.5 墓地 命运沉眠之处。",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105313,
+          "chapter_name": "World.6 割裂世界之物",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105314,
+          "chapter_name": "Epilogue 兽王",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105315,
+          "chapter_name": "Continued 神明的预言",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 105316,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
