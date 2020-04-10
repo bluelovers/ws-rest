@@ -1,6 +1,6 @@
 {
   "name": "syosetu-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/syosetu-api#readme",
   "bugs": {
@@ -29,10 +29,10 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@node-novel/site-cache-util": "^1.0.23",
+    "@node-novel/site-cache-util": "^1.0.24",
     "bluebird": "^3.7.2",
-    "restful-decorator": "^1.0.37",
-    "restful-decorator-plugin-jsdom": "^1.0.16",
+    "restful-decorator": "^1.0.38",
+    "restful-decorator-plugin-jsdom": "^1.0.17",
     "ts-type": "^1.2.15"
   },
   "devDependencies": {
