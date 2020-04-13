@@ -3,13 +3,13 @@
   "name": "试行错误的异世界旅行记",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 前往祭典的旅程",
-  "last_update_chapter_name": "翻译后记",
-  "last_update_volume_id": 10585,
-  "last_update_chapter_id": 105127,
-  "last_update_time": 1585648982,
+  "last_update_volume_name": "第三卷 精灵祭",
+  "last_update_chapter_name": "3-2 精灵祭 第一天〈Ⅱ〉",
+  "last_update_volume_id": 10771,
+  "last_update_chapter_id": 105491,
+  "last_update_time": 1586696626,
   "cover": "https://xs.dmzj.com/img/webpic/29/cz1219l.jpg",
-  "hot_hits": 112562,
+  "hot_hits": 144012,
   "introduction": "有一天，大学生御厨玲因异世界之神的疏忽而奄奄一息。\n  作为原因的神在治疗他的肉体期间，邀请御厨玲用代理身体去自己所管理的世界旅行，于是御厨玲作为REI踏上了旅途。\n  但是，那个世界是怪物肆虐的危险地带，年轻的代理肉体的Level只有1，当然，Status也都是1。因此他在赤手空拳的贫弱状态下败给了史莱姆，并成了史莱姆的盘中餐。\n  本该成为一线光明的《Trial&Error》作为能够【死亡回归】的力量，却是越使用就越会因为因果的叠加而带来灾难的缺陷品。\n  就像切削自己的灵魂一般不断地重新来过，玲为了和同伴们一起生存下去，以未来为目标，不断积累着自己的死亡——",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "取方右半",
   "first_letter": "S",
-  "subscribe_num": 3520,
-  "redis_update_time": 1585676633,
+  "subscribe_num": 3976,
+  "redis_update_time": 1586737336,
   "volume": [
     {
       "id": 10581,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 起始之城",
       "volume_order": 10,
       "addtime": 1580630360,
-      "sum_chapters": 43
+      "sum_chapters": 26
     },
     {
       "id": 10585,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷 前往祭典的旅程",
       "volume_order": 20,
       "addtime": 1581070042,
-      "sum_chapters": 43
+      "sum_chapters": 26
+    },
+    {
+      "id": 10771,
+      "lnovel_id": 2784,
+      "volume_name": "第三卷 精灵祭",
+      "volume_order": 30,
+      "addtime": 1586696576,
+      "sum_chapters": 26
     }
   ],
   "chapters": [
@@ -406,6 +414,24 @@
           "chapter_id": 105127,
           "chapter_name": "翻译后记",
           "chapter_order": 560
+        }
+      ]
+    },
+    {
+      "volume_id": 10771,
+      "id": 10771,
+      "volume_name": "第三卷 精灵祭",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 105490,
+          "chapter_name": "3-1 精灵祭 第一天〈I〉",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105491,
+          "chapter_name": "3-2 精灵祭 第一天〈Ⅱ〉",
+          "chapter_order": 20
         }
       ]
     }
