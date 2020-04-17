@@ -3,21 +3,21 @@
   "name": "自称F级的哥哥似乎要称霸以游戏分级的学园？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10497,
-  "last_update_chapter_id": 101687,
-  "last_update_time": 1576577960,
+  "last_update_volume_id": 10778,
+  "last_update_chapter_id": 105574,
+  "last_update_time": 1587040474,
   "cover": "https://xs.dmzj.com/img/webpic/15/fji0509l.jpg",
-  "hot_hits": 277957,
+  "hot_hits": 525444,
   "introduction": "　　狮子王学园是聚集了学业、运动、家世……各种领域菁英的日本最顶尖明星学校。\n　　然而，那里实际上却是以游戏结果评价一切的，弱肉强食的学园。\n　　唯有绝对强者──「狮子」能够在这充满激烈竞争的世界存活下来。\n　　主角──碎城红莲虽然在暗地里留下在游戏中常胜不败的传说，\n　　却也想度过一帆风顺的平凡人生，於是他在入学考试中放水，获得自己想要的F级评价。\n　　不过在与由衷深爱哥哥的亲妹妹──碎城可怜重逢後，情况出现急遽变化。\n　　当学园的「恶意」威胁可怜时，红莲将发挥出他真正的实力──！",
   "types": [
     "校园"
   ],
   "authors": "三河ごーすと",
   "first_letter": "Z",
-  "subscribe_num": 14135,
-  "redis_update_time": 1576593938,
+  "subscribe_num": 19529,
+  "redis_update_time": 1587081745,
   "volume": [
     {
       "id": 10098,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557389429,
-      "sum_chapters": 18
+      "sum_chapters": 11
     },
     {
       "id": 10319,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1567752897,
-      "sum_chapters": 18
+      "sum_chapters": 11
     },
     {
       "id": 10497,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1576576646,
-      "sum_chapters": 18
+      "sum_chapters": 11
+    },
+    {
+      "id": 10778,
+      "lnovel_id": 2660,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1587039934,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -301,6 +309,119 @@
           "chapter_id": 101687,
           "chapter_name": "插画",
           "chapter_order": 180
+        }
+      ]
+    },
+    {
+      "volume_id": 10778,
+      "id": 10778,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 105554,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105555,
+          "chapter_name": "前情提要",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105556,
+          "chapter_name": "御岳原水叶的回想",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105557,
+          "chapter_name": "爱痴狂的狂战士─仙境之馆 16点44分─",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105558,
+          "chapter_name": "王子与圣女的战前谈判─镜之馆 16点44分─",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105559,
+          "chapter_name": "进化的空气哥哥",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105560,
+          "chapter_name": "决斗者飞镖─仙境之馆 16点55分─",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105561,
+          "chapter_name": "Dice of Doom─镜之馆 17点05分─",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105562,
+          "chapter_name": "御岳原水叶的真面目─仙境之馆 17点15分─",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105563,
+          "chapter_name": "插曲─镜之馆 17点25分─",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 105564,
+          "chapter_name": "散播绝望的漆黑圣女─镜之馆 17点23分─",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 105565,
+          "chapter_name": "对答案─仙境之馆 17点25分─",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 105566,
+          "chapter_name": "赢家与输家",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 105567,
+          "chapter_name": "来自禁忌「世界」的强攻",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 105568,
+          "chapter_name": "「哥哥」晨间阈下刺激",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 105569,
+          "chapter_name": "新学生会组阁",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 105570,
+          "chapter_name": "满月的夜晚，怪物的夜晚",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 105571,
+          "chapter_name": "ＳＳＲ碎城可怜「起床婚礼」",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 105572,
+          "chapter_name": "来自新「世界」的刺客",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 105573,
+          "chapter_name": "后记",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 105574,
+          "chapter_name": "插画",
+          "chapter_order": 210
         }
       ]
     }

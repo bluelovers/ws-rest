@@ -3,13 +3,13 @@
   "name": "我们的重制人生",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10536,
-  "last_update_chapter_id": 103392,
-  "last_update_time": 1581752826,
+  "last_update_volume_name": "第五卷 我们欠缺的",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10775,
+  "last_update_chapter_id": 105538,
+  "last_update_time": 1586872295,
   "cover": "https://xs.dmzj.com/img/webpic/9/cz1109l.jpg",
-  "hot_hits": 345220,
+  "hot_hits": 423700,
   "introduction": "　　我是桥场恭也，一个前途黯淡的游戏总监。因公司破产、企划夭折而回到故乡老家。因为不想再看明星创作者们的亮眼表现，闷闷不乐地睡著之后再醒来，发现自己穿越时空回到十年前的大学刚入学时代！？考上了原本应该落榜的大学，迎接向往的艺大生活，甚至还过著男女四人一起分租的同居生活，玫瑰色的每一天就此展开！我的人生将从这里重新打造──与未来将会超有名（现在还不成气候）的创作者，一起度过的新生活就要开始！尽管如此自信满满地跨出第一步，事情却似乎没有那么顺利……",
   "types": [
     "校园",
@@ -17,47 +17,55 @@
   ],
   "authors": "木绪なち",
   "first_letter": "W",
-  "subscribe_num": 16236,
-  "redis_update_time": 1582047199,
+  "subscribe_num": 18366,
+  "redis_update_time": 1587081633,
   "volume": [
     {
       "id": 9777,
       "lnovel_id": 2576,
-      "volume_name": "第一卷",
+      "volume_name": "第一卷 回到十年前成为创作者吧!",
       "volume_order": 10,
       "addtime": 1541753152,
-      "sum_chapters": 33
+      "sum_chapters": 11
     },
     {
       "id": 9934,
       "lnovel_id": 2576,
-      "volume_name": "第二卷",
+      "volume_name": "第二卷 回到十年前找回干劲吧!",
       "volume_order": 20,
       "addtime": 1549120504,
-      "sum_chapters": 33
+      "sum_chapters": 11
     },
     {
       "id": 10488,
       "lnovel_id": 2576,
-      "volume_name": "第三卷",
+      "volume_name": "第三卷 我们的再造",
       "volume_order": 30,
       "addtime": 1576228846,
-      "sum_chapters": 33
+      "sum_chapters": 11
     },
     {
       "id": 10536,
       "lnovel_id": 2576,
-      "volume_name": "第四卷",
+      "volume_name": "第四卷 一路顺风",
       "volume_order": 40,
       "addtime": 1578228835,
-      "sum_chapters": 33
+      "sum_chapters": 11
+    },
+    {
+      "id": 10775,
+      "lnovel_id": 2576,
+      "volume_name": "第五卷 我们欠缺的",
+      "volume_order": 50,
+      "addtime": 1586871790,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
     {
       "volume_id": 9777,
       "id": 9777,
-      "volume_name": "第一卷",
+      "volume_name": "第一卷 回到十年前成为创作者吧!",
       "volume_order": 10,
       "chapters": [
         {
@@ -125,7 +133,7 @@
     {
       "volume_id": 9934,
       "id": 9934,
-      "volume_name": "第二卷",
+      "volume_name": "第二卷 回到十年前找回干劲吧!",
       "volume_order": 20,
       "chapters": [
         {
@@ -183,7 +191,7 @@
     {
       "volume_id": 10488,
       "id": 10488,
-      "volume_name": "第三卷",
+      "volume_name": "第三卷 我们的再造",
       "volume_order": 30,
       "chapters": [
         {
@@ -231,7 +239,7 @@
     {
       "volume_id": 10536,
       "id": 10536,
-      "volume_name": "第四卷",
+      "volume_name": "第四卷 一路顺风",
       "volume_order": 40,
       "chapters": [
         {
@@ -278,6 +286,64 @@
           "chapter_id": 103392,
           "chapter_name": "后记",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10775,
+      "id": 10775,
+      "volume_name": "第五卷 我们欠缺的",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 105529,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105530,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105531,
+          "chapter_name": "第1章 我的谋划",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105532,
+          "chapter_name": "第2章 我的烦恼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105533,
+          "chapter_name": "第3章 我的破坏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105534,
+          "chapter_name": "第4章 我的行动",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105535,
+          "chapter_name": "第5章 我的思虑",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105536,
+          "chapter_name": "终章 我的决定",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105537,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105538,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

@@ -3,21 +3,21 @@
   "name": "关于学园的女神大人不知为何一直赖在我家这档事",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10613,
-  "last_update_chapter_id": 103769,
-  "last_update_time": 1582708822,
+  "last_update_volume_id": 10779,
+  "last_update_chapter_id": 105585,
+  "last_update_time": 1587045038,
   "cover": "https://xs.dmzj.com/img/webpic/0/ajxy0215l.jpg",
-  "hot_hits": 106554,
+  "hot_hits": 160545,
   "introduction": "元气美少女ＪＫ对你全心全意，「仅限放学后的同居生活」开始！\n过著自甘堕落生活的高中生－－常盘木翔和。\n某一天救了饿肚子的同学年治愈系美少女－－若宫凛，而以此为契机－－\n「我想要报恩！」\n她不论在学校还是打工的店里，都会跟著他身边！？\n爱照顾别人的凛，开始很有耐性地为因为打工而身陷危机的他教导课业、帮忙打扫房间、亲手做料理……不知不觉间，「仅限放学后的同居生活」开始了！\n「为什么总是要来找我？」\n然而就算这么问，凛也只会回答：\n「这只是我在多管闲事喔？」",
   "types": [
     "校园"
   ],
   "authors": "紫ユウ",
   "first_letter": "G",
-  "subscribe_num": 8305,
-  "redis_update_time": 1582848247,
+  "subscribe_num": 10836,
+  "redis_update_time": 1587081910,
   "volume": [
     {
       "id": 10613,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1581843453,
-      "sum_chapters": 9
+      "sum_chapters": 11
+    },
+    {
+      "id": 10779,
+      "lnovel_id": 2799,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1587044773,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -99,6 +107,69 @@
           "chapter_id": 103769,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10779,
+      "id": 10779,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 105575,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105576,
+          "chapter_name": "序章 凛的早晨惯例",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105577,
+          "chapter_name": "第一话 不知为何，现充们聚集在一起了",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105578,
+          "chapter_name": "第二话 不知为何，女神大人要借住在我家",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105579,
+          "chapter_name": "第三话 不知为何，女神大人的家人来了",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105580,
+          "chapter_name": "第四话 不知为何，要和现充们一起去游泳池",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105581,
+          "chapter_name": "第五话 不知为何，和女神大人的同居生活不会结束",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105582,
+          "chapter_name": "第六话 不知为何，要和女神大人一起去夏日祭典",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105583,
+          "chapter_name": "尾声 凛的觉悟与心情",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105584,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 105585,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

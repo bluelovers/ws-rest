@@ -3,13 +3,13 @@
   "name": "异世界迷宫探索者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10756,
-  "last_update_chapter_id": 105300,
-  "last_update_time": 1586088969,
+  "last_update_volume_id": 10777,
+  "last_update_chapter_id": 105548,
+  "last_update_time": 1586951348,
   "cover": "https://xs.dmzj.com/img/webpic/1/gwmg0320l.jpg",
-  "hot_hits": 48228,
+  "hot_hits": 99921,
   "introduction": "有一天高中生武田顺平因为「神」的一时兴起被召唤到异世界，作为祭品被推入了凶恶的迷宫里。在生还率为零的怪物迷宫内，顺平做好了死的觉悟，但他想出了起死回生的妙计。找到通往迷宫活路的最弱迷宫，开始了对叛徒们的复仇。\n网上超人气的，从穷途末路中爬出来的幻想小说，期待已久的文库化！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "サカモト666",
   "first_letter": "Y",
-  "subscribe_num": 2689,
-  "redis_update_time": 1586131650,
+  "subscribe_num": 3798,
+  "redis_update_time": 1587082094,
   "volume": [
     {
       "id": 10697,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1584703184,
-      "sum_chapters": 9
+      "sum_chapters": 11
     },
     {
       "id": 10709,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1585045696,
-      "sum_chapters": 9
+      "sum_chapters": 11
     },
     {
       "id": 10756,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1586087047,
-      "sum_chapters": 9
+      "sum_chapters": 11
+    },
+    {
+      "id": 10777,
+      "lnovel_id": 2823,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1586950746,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -237,6 +245,64 @@
           "chapter_id": 105300,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10777,
+      "id": 10777,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 105539,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105540,
+          "chapter_name": "龙与龙",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105541,
+          "chapter_name": "第一章 技能猎人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105542,
+          "chapter_name": "第二章 三次考试",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105543,
+          "chapter_name": "第三章 四次考试1",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105544,
+          "chapter_name": "第四章 四次考试2",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105545,
+          "chapter_name": "第五章 蜜月",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105546,
+          "chapter_name": "第六章 最终考试",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105547,
+          "chapter_name": "尾声 坂口姐妹",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105548,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
