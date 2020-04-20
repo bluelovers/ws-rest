@@ -3,21 +3,21 @@
   "name": "天才王子的赤字国家振兴术",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "last_update_volume_name": "第六卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10715,
-  "last_update_chapter_id": 104831,
-  "last_update_time": 1585204507,
+  "last_update_volume_id": 10782,
+  "last_update_chapter_id": 105662,
+  "last_update_time": 1587300861,
   "cover": "https://xs.dmzj.com/img/webpic/16/tiancai1120l.jpg",
-  "hot_hits": 556983,
+  "hot_hits": 642839,
   "introduction": "暂无简介",
   "types": [
     "战争"
   ],
   "authors": "鸟羽彻",
   "first_letter": "T",
-  "subscribe_num": 19541,
-  "redis_update_time": 1585267313,
+  "subscribe_num": 21311,
+  "redis_update_time": 1587341848,
   "volume": [
     {
       "id": 9804,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 对了，卖国吧",
       "volume_order": 10,
       "addtime": 1543400238,
-      "sum_chapters": 19
+      "sum_chapters": 6
     },
     {
       "id": 9830,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1544339273,
-      "sum_chapters": 19
+      "sum_chapters": 6
     },
     {
       "id": 9925,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1548691648,
-      "sum_chapters": 19
+      "sum_chapters": 6
     },
     {
       "id": 10572,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1580207054,
-      "sum_chapters": 19
+      "sum_chapters": 6
     },
     {
       "id": 10715,
@@ -57,7 +57,15 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1585194415,
-      "sum_chapters": 19
+      "sum_chapters": 6
+    },
+    {
+      "id": 10782,
+      "lnovel_id": 2582,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1587223977,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -296,6 +304,59 @@
         },
         {
           "chapter_id": 104831,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10782,
+      "id": 10782,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 105643,
+          "chapter_name": "转载信息",
+          "chapter_order": 1
+        },
+        {
+          "chapter_id": 105636,
+          "chapter_name": "第一章 对了，去南国吧",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105637,
+          "chapter_name": "第二章 出乎意料的事态/意想不到的邂逅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105638,
+          "chapter_name": "第三章 彩虹之冠",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105639,
+          "chapter_name": "第四章 神话的终焉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105640,
+          "chapter_name": "第五章 彩虹指向的结局",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105641,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105642,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105662,
           "chapter_name": "插画",
           "chapter_order": 80
         }

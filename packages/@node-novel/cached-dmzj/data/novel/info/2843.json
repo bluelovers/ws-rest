@@ -3,13 +3,13 @@
   "name": "和你恋爱什么，应该是不可能的",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10752,
-  "last_update_chapter_id": 105216,
-  "last_update_time": 1585902840,
+  "last_update_volume_id": 10784,
+  "last_update_chapter_id": 105661,
+  "last_update_time": 1587300676,
   "cover": "https://xs.dmzj.com/img/webpic/5/hnla0403l.jpg",
-  "hot_hits": 20658,
+  "hot_hits": 98437,
   "introduction": "在千叶县南总高中上学的饭岛靖贵是个平凡而不起眼的男生，在学习合宿之夜，帮助了遇到困难的同班同学北冈惠麻。从那以后，惠麻开始在学校外与靖贵交谈。但是靖贵并不擅长应对惠麻，不知道她为什么会在意自己。朴实的眼镜男和花哨的辣妹。本应绝对不可能的两人发生的交错的爱情故事。",
   "types": [
     "爱情",
@@ -17,8 +17,8 @@
   ],
   "authors": "筏田かつら",
   "first_letter": "H",
-  "subscribe_num": 2639,
-  "redis_update_time": 1585939628,
+  "subscribe_num": 7708,
+  "redis_update_time": 1587341353,
   "volume": [
     {
       "id": 10752,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1585902645,
-      "sum_chapters": 12
+      "sum_chapters": 6
+    },
+    {
+      "id": 10784,
+      "lnovel_id": 2843,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1587300454,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -100,6 +108,74 @@
           "chapter_id": 105216,
           "chapter_name": "后记",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10784,
+      "id": 10784,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 105650,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105651,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105652,
+          "chapter_name": "十八岁的决心",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105653,
+          "chapter_name": "别扭的人与止不住的眼泪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105654,
+          "chapter_name": "Crazy for you",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105655,
+          "chapter_name": "北风与太阳",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105656,
+          "chapter_name": "春日之光",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105657,
+          "chapter_name": "与你相遇",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105658,
+          "chapter_name": "纯情的Clumsy Boy（笨拙男孩）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105659,
+          "chapter_name": "Start From A Terminal",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 105660,
+          "chapter_name": "在绕远路的日子里，那些大量增加的东西",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 105661,
+          "chapter_name": "后记",
+          "chapter_order": 120
         }
       ]
     }
