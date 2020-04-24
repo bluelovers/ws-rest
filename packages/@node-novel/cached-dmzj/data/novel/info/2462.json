@@ -3,13 +3,13 @@
   "name": "派遣战斗员",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "短篇",
-  "last_update_chapter_name": "派遣战斗员虎穴特典",
-  "last_update_volume_id": 9957,
-  "last_update_chapter_id": 93994,
-  "last_update_time": 1550309578,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 10794,
+  "last_update_chapter_id": 105771,
+  "last_update_time": 1587640718,
   "cover": "https://xs.dmzj.com/img/webpic/17/zd0403l.jpg",
-  "hot_hits": 402112,
+  "hot_hits": 560810,
   "introduction": "《「为美好的世界献上祝福」晓なつめ 翘首以盼的新系列！故事讲述了在一家侵略了现代世界的公司上班的主人公，被派遣到异世界继续进行侵略的故事。\n  主人公·战斗员六号做了奢侈度过余生的美梦。然而……上司A「下次派你到行星」→六号「不是吧？」——不幸角色们所编织的新世界侵略战斗喜剧！",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "晓なつめ",
   "first_letter": "P",
-  "subscribe_num": 25073,
-  "redis_update_time": 1564345704,
+  "subscribe_num": 29487,
+  "redis_update_time": 1587686694,
   "volume": [
     {
       "id": 9339,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1522750831,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9540,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1530704205,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9957,
@@ -43,7 +43,15 @@
       "volume_name": "短篇",
       "volume_order": 30,
       "addtime": 1550309548,
-      "sum_chapters": 8
+      "sum_chapters": 6
+    },
+    {
+      "id": 10794,
+      "lnovel_id": 2462,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "addtime": 1587640254,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -198,6 +206,59 @@
           "chapter_id": 93994,
           "chapter_name": "派遣战斗员虎穴特典",
           "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 10794,
+      "id": 10794,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 105763,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105764,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105765,
+          "chapter_name": "第一章 不死怪物祭典",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105766,
+          "chapter_name": "第二章 开拓吧！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105767,
+          "chapter_name": "第三章 开张吧！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105768,
+          "chapter_name": "第四章 不死怪物大游行",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105769,
+          "chapter_name": "最终章 不死怪物之夜！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105770,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105771,
+          "chapter_name": "后记",
+          "chapter_order": 90
         }
       ]
     }

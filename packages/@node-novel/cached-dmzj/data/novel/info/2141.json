@@ -2,14 +2,14 @@
   "id": 2141,
   "name": "反恋主义同盟！",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第六卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 9365,
-  "last_update_chapter_id": 85034,
-  "last_update_time": 1523867171,
+  "status": "已完结",
+  "last_update_volume_name": "第七卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10788,
+  "last_update_chapter_id": 105747,
+  "last_update_time": 1587559327,
   "cover": "https://xs.dmzj.com/img/webpic/27/flzytm6569l.jpg",
-  "hot_hits": 236433,
+  "hot_hits": 289161,
   "introduction": "所有的恋爱都是幻想！？现充爆炸反恋爱喜剧！\n「放弃恋爱吧！所有的恋爱感情都是幻想！」\n雪花飘舞的平安夜，涩谷市区满街都是一对对情侣。受够了那种场面的平凡高中生·高砂，与一名高声作出那般让人大跌眼镜的演说的少女相遇了。\n「我们——反恋爱主义青年同盟部，否定一切恋爱感情！」\n她是同班的不起眼少女·领家薰。赞同她的演说的高砂抱负着「现充爆炸吧！」的情感，参加了以她为议长的“反恋爱主义青年同盟部”的活动。紧接着，与齐聚而来的伙伴们一起有条不紊地开展『情人节粉碎斗争』工作――!?\n「我们将要粉碎2月14日的情人节！」\n然后现在，那个日子终于到来了――!!",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "椎田十三",
   "first_letter": "F",
-  "subscribe_num": 13705,
-  "redis_update_time": 1564356486,
+  "subscribe_num": 16222,
+  "redis_update_time": 1587686258,
   "volume": [
     {
       "id": 7844,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1464432277,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 8055,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1471718875,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 8258,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1478353212,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 8551,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1489160303,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9136,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1513759747,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9365,
@@ -66,7 +66,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1523867136,
-      "sum_chapters": 8
+      "sum_chapters": 6
+    },
+    {
+      "id": 10788,
+      "lnovel_id": 2141,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1587468509,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -335,6 +343,49 @@
           "chapter_id": 85034,
           "chapter_name": "后记",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10788,
+      "id": 10788,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 105681,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105682,
+          "chapter_name": "第1章 理解大众引发之狂欢与革命性议会主义的可能性",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105683,
+          "chapter_name": "第2章 直接抗争之战术与僵局脱离",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105684,
+          "chapter_name": "第3章 幻想的构造与意义之场所力学",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105685,
+          "chapter_name": "第4章 自我矛盾的革命家",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105686,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105747,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }

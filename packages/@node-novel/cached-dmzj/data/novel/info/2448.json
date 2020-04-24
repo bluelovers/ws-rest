@@ -3,13 +3,13 @@
   "name": "与佐伯同学同住一个屋簷下 I'll have Sherbet！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10398,
-  "last_update_chapter_id": 100314,
-  "last_update_time": 1571744926,
+  "last_update_volume_name": "第五卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10795,
+  "last_update_chapter_id": 105778,
+  "last_update_time": 1587641628,
   "cover": "https://xs.dmzj.com/img/webpic/13/zb0311l.jpg",
-  "hot_hits": 718347,
+  "hot_hits": 816721,
   "introduction": "　　高中二年级的春天，我──弓月恭嗣原本预定开始一个人住，\n　　老天却开了一个玩笑，由于房仲的疏失，\n　　我必须与小我一岁的女生，佐伯贵理华同学同住一屋。\n　　对于这个总爱跟我拉近距离的女生，我进行着小小的长期抗战，\n　　却没想到她居然跟我念同一所高中！\n　　接下来的每一天无论是在学校还是家里，\n　　我整天被她搞得晕头转向──\n　　总是冷静处事的弓月同学，与高颜值却有点色色的佐伯同学，\n　　将上演一出同居＆校园恋爱喜剧！",
   "types": [
     "校园",
@@ -18,8 +18,8 @@
   ],
   "authors": "九曜",
   "first_letter": "Y",
-  "subscribe_num": 30137,
-  "redis_update_time": 1574306448,
+  "subscribe_num": 33017,
+  "redis_update_time": 1587687137,
   "volume": [
     {
       "id": 9273,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1520753811,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9274,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1520754139,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9861,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1546067409,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 10398,
@@ -51,7 +51,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1571744709,
-      "sum_chapters": 8
+      "sum_chapters": 6
+    },
+    {
+      "id": 10795,
+      "lnovel_id": 2448,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1587640751,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -279,6 +287,49 @@
           "chapter_id": 100314,
           "chapter_name": "后记",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10795,
+      "id": 10795,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 105772,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105773,
+          "chapter_name": "第一章「好像玩得太过火了」爱丽丝说",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105774,
+          "chapter_name": "第二章「恭恭」她这么叫我",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105775,
+          "chapter_name": "第三章「我喜欢你」我说",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105776,
+          "chapter_name": "番外篇 二月十四日，为了巧克力奔走的佐伯同学",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105777,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105778,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }
