@@ -1,6 +1,6 @@
 {
   "name": "esjzone-api",
-  "version": "1.0.22",
+  "version": "1.0.24",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -26,6 +26,7 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
+    "@node-novel/parse-input-url": "^1.0.1",
     "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.3",
     "lazy-url": "^1.0.8",
