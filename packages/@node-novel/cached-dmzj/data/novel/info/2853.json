@@ -3,21 +3,21 @@
   "name": "灿々SUN短篇合集",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "俩缺德的都市传说实验",
-  "last_update_chapter_name": "俩缺德的都市传说实验",
-  "last_update_volume_id": 10787,
-  "last_update_chapter_id": 105680,
-  "last_update_time": 1587468409,
+  "last_update_volume_name": "某PKK的受罪",
+  "last_update_chapter_name": "某PKK的受罪",
+  "last_update_volume_id": 10801,
+  "last_update_chapter_id": 105815,
+  "last_update_time": 1587815540,
   "cover": "https://xs.dmzj.com/img/webpic/20/hpmp0126l.jpg",
-  "hot_hits": 885,
+  "hot_hits": 3777,
   "introduction": "灿々SUN短篇合集",
   "types": [
     "其它"
   ],
   "authors": "灿々SUN",
   "first_letter": "C",
-  "subscribe_num": 182,
-  "redis_update_time": 1587686851,
+  "subscribe_num": 346,
+  "redis_update_time": 1587946920,
   "volume": [
     {
       "id": 10787,
@@ -25,7 +25,31 @@
       "volume_name": "俩缺德的都市传说实验",
       "volume_order": 10,
       "addtime": 1587468222,
-      "sum_chapters": 6
+      "sum_chapters": 9
+    },
+    {
+      "id": 10799,
+      "lnovel_id": 2853,
+      "volume_name": "更喜欢恶堕女主时该如何是好？",
+      "volume_order": 20,
+      "addtime": 1587815438,
+      "sum_chapters": 9
+    },
+    {
+      "id": 10800,
+      "lnovel_id": 2853,
+      "volume_name": "能令附身的幽灵主动逃掉的简单方法",
+      "volume_order": 30,
+      "addtime": 1587815485,
+      "sum_chapters": 9
+    },
+    {
+      "id": 10801,
+      "lnovel_id": 2853,
+      "volume_name": "某PKK的受罪",
+      "volume_order": 40,
+      "addtime": 1587815519,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -43,6 +67,60 @@
         {
           "chapter_id": 105680,
           "chapter_name": "俩缺德的都市传说实验",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 10799,
+      "id": 10799,
+      "volume_name": "更喜欢恶堕女主时该如何是好？",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 105810,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105811,
+          "chapter_name": "更喜欢恶堕女主时该如何是好？",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 10800,
+      "id": 10800,
+      "volume_name": "能令附身的幽灵主动逃掉的简单方法",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 105812,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105813,
+          "chapter_name": "能令附身的幽灵主动逃掉的简单方法",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 10801,
+      "id": 10801,
+      "volume_name": "某PKK的受罪",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 105814,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105815,
+          "chapter_name": "某PKK的受罪",
           "chapter_order": 20
         }
       ]
