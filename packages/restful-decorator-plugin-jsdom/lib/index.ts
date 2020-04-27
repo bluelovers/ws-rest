@@ -27,6 +27,7 @@ import {
 } from 'restful-decorator/lib/decorators';
 import Bluebird from 'bluebird';
 import { defaultsDeep } from 'lodash';
+import { ReturnValueToJSDOM } from './decorators/jsdom';
 
 export { IJSDOM }
 
@@ -136,6 +137,61 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 	_encodeURIComponent(text: string): string
 	{
 		return encodeURIComponent(text)
+	}
+
+	@GET('/cdn-cgi/trace')
+	@ReturnValueToJSDOM()
+	@methodBuilder()
+	async _plugin_cloudflare_trace()
+	{
+		const jsdom = this.$returnValue as ReturnType<AbstractHttpClientWithJSDom["_createJSDOM"]>;
+
+		const body = jsdom.$(':root').text();
+
+		let data = body
+			.split('\n')
+			.reduce((a, line) => {
+
+				let m = line.match(/^([^=]+)=(.*)\s*$/);
+				if (m)
+				{
+					// @ts-ignore
+					a[m[1]] = m[2]
+				}
+
+				return a
+			}, {} as {
+				/**
+				 * '12f313'
+				 */
+				fl: string,
+				/**
+				 * domain name
+				 */
+				h: string,
+				ip: string,
+				/**
+				 * '1587972669.851'
+				 */
+				ts: string,
+				visit_scheme: 'https' | string,
+				/**
+				 * 'axios/0.18.1'
+				 */
+				uag: string,
+				colo: 'LAX' | string,
+				http: 'http/1.1' | string,
+				loc: 'TW' | string,
+				tls: 'TLSv1.3' | string,
+				sni: 'plaintext' | string,
+				warp: 'off' | 'on' | string
+			})
+		;
+
+		return {
+			cloudflare: ('ip' in data),
+			data,
+		}
 	}
 
 }

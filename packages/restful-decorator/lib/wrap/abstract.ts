@@ -176,6 +176,14 @@ export class AbstractHttpClient
 		return this._jar().setCookieSync(...argv);
 	}
 
+	/**
+	 * run this api before start calling site api
+	 * this will not auto call, need run by self
+	 */
+	async _beforeStart()
+	{
+	}
+
 }
 
 export function paramMetadataRequestConfig(_argv: {

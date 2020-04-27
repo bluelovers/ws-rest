@@ -24,7 +24,7 @@ import { ITSResolvable } from 'ts-type';
 export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 	api: T,
 	ApiClient: {
-		new (...argv: any): T
+		new(...argv: any): T
 	},
 	jar: LazyCookieJar,
 	saveCache: () => void,
@@ -36,8 +36,7 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 })
 {
 	let { api, jar, __path, saveCache, ApiClient, apiOptions, setupCacheFile, saveCacheFileBySelf } = opts;
-	const {__root, cacheFilePaths} = __path;
-
+	const { __root, cacheFilePaths } = __path;
 
 	if (api == null)
 	{
@@ -50,12 +49,13 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 				retry: 1,
 				retryDelay: 1000,
 
-				onRetryAttempt: (err: AxiosError) => {
+				onRetryAttempt: (err: AxiosError) =>
+				{
 
 					let currentRetryAttempt = dotValue(err, 'config.raxConfig.currentRetryAttempt');
 
 					consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, getResponseUrl(err.response));
-				}
+				},
 
 			},
 
@@ -78,7 +78,8 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 
 			api = await fs.readJSON(cookiesCacheFile)
 				.then(r => deserializeCookieJar(r))
-				.then(_jar => {
+				.then(_jar =>
+				{
 					if (_jar)
 					{
 						!isCi() && consoleDebug.debug(jar = _jar as LazyCookieJar);
@@ -89,7 +90,8 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 						})
 					}
 				})
-				.catch(e => {
+				.catch(e =>
+				{
 					console.error(e);
 					return null;
 				})
@@ -101,11 +103,22 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 			api = new ApiClient(setting);
 		}
 
+		if (typeof api._beforeStart === 'function')
+		{
+			await api._beforeStart();
+		}
+
 		// @ts-ignore
 		if (typeof api.isLogin === 'function')
 		{
 			// @ts-ignore
-			let isLogin = await api.isLogin();
+			let isLogin = await api.isLogin()
+				.catch(e =>
+				{
+					console.error(`[isLogin]`, String(e))
+					return null;
+				})
+			;
 			console.magenta.info('isLogin', isLogin);
 
 			// @ts-ignore
@@ -134,11 +147,18 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 							...localPassword,
 						})
 						// @ts-ignore
-						.then(r => console.dir(r))
+						.then(async (r) => {
+							console.dir(r)
+							// @ts-ignore
+							console.magenta.info('isLogin', await api.isLogin());
+						})
+						// @ts-ignore
+						.catch(e =>
+						{
+							console.error(`[loginByForm]`, String(e))
+							return null;
+						})
 					;
-
-					// @ts-ignore
-					console.magenta.info('isLogin', await api.isLogin());
 				}
 			}
 		}
