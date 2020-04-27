@@ -897,6 +897,16 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		return super._createJSDOM(html, config) as any;
 	}
 
+	/*
+	_responseDataToJSDOM(data: unknown, response: this["$response"], jsdomOptions?: IJSDOMConstructorOptions)
+	{
+		jsdomOptions = jsdomOptions || {};
+		jsdomOptions.runScripts = 'dangerously';
+
+		return super._responseDataToJSDOM(data, response, jsdomOptions);
+	}
+	 */
+
 }
 
 export default DiscuzClient

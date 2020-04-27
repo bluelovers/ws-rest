@@ -194,6 +194,20 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 		}
 	}
 
+	/*
+	@GET('/')
+	@ReturnValueToJSDOM({
+		runScripts: 'dangerously',
+	})
+	@methodBuilder()
+	async _plugin_cloudflare_ddos()
+	{
+		const jsdom = this.$returnValue as ReturnType<AbstractHttpClientWithJSDom["_createJSDOM"]>;
+
+		console.log(jsdom.serialize())
+	}
+	 */
+
 }
 
 export default AbstractHttpClientWithJSDom
