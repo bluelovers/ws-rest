@@ -3,13 +3,13 @@
   "name": "加入年轻人敬而远之的黑魔法公司，没想到工作待遇好，社长和使魔也超可爱，太棒了！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10154,
-  "last_update_chapter_id": 96662,
-  "last_update_time": 1559738807,
+  "last_update_volume_id": 10808,
+  "last_update_chapter_id": 105934,
+  "last_update_time": 1588037830,
   "cover": "https://xs.dmzj.com/img/webpic/26/hm0704l.jpg",
-  "hot_hits": 185340,
+  "hot_hits": 441188,
   "introduction": "青年法兰兹就读于魔法学校，尽管毕业在即，却迟迟无法敲定就职公司，为此心急如焚。\n法兰兹抱着死马当活马医的心情，进入最不受年轻人欢迎的黑魔法公司就职——那是与白魔法大相径庭，素有「恶心(kimoi)、肮脏(kitanai)、危险(kiken)」之称的3K魔法业界。但实际上班后才发现，这家公司的职场环境已获得充分改善，即使是年轻员工也能在此舒适地工作。\n而且法兰兹和黑魔法的契合度绝佳，甚至一下就成功召唤出魅魔这种高级的使魔！\n他向嘲笑自己找不到工作的同学还以颜色，还得到如天使般的犬耳娘社长赏识，和温柔的精灵前辈一同乘着骨龙出差！\n可爱的使魔也随侍在侧，法兰兹悠哉快乐的社会人生活，就此揭开序幕。",
   "types": [
     "魔法",
@@ -17,8 +17,8 @@
   ],
   "authors": "森田季节",
   "first_letter": "J",
-  "subscribe_num": 26057,
-  "redis_update_time": 1564344536,
+  "subscribe_num": 30769,
+  "redis_update_time": 1588166873,
   "volume": [
     {
       "id": 9541,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1530705751,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9979,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1551535005,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 10047,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1554987329,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 10154,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1559738304,
-      "sum_chapters": 8
+      "sum_chapters": 6
+    },
+    {
+      "id": 10808,
+      "lnovel_id": 2514,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1588037366,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -301,6 +309,74 @@
         },
         {
           "chapter_id": 96662,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10808,
+      "id": 10808,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 105923,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105924,
+          "chapter_name": "第一话 法兰兹要面试",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105925,
+          "chapter_name": "第二话 前辈快被挖走了！？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105926,
+          "chapter_name": "第三话 大企业潜入作战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105927,
+          "chapter_name": "第四话 柯露妮娅的心病",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105928,
+          "chapter_name": "第五话 只属于法兰兹的魔法",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105929,
+          "chapter_name": "第六话 艾莉诺的新工作",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105930,
+          "chapter_name": "第七话 自缢沼泽亲水公园计画",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105931,
+          "chapter_name": "文库版限定特别短篇 弗菲丝坦雅亲手做的料理",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105932,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 105933,
+          "chapter_name": "「尾巴的魔性之力」特典小册子 凯璐凯璐社长的尾巴",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 105934,
           "chapter_name": "插画",
           "chapter_order": 120
         }

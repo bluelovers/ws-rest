@@ -3,13 +3,13 @@
   "name": "劣等眼的转生魔术师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 受虐的前勇者在未来世界从容生活",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10275,
-  "last_update_chapter_id": 98718,
-  "last_update_time": 1565264125,
+  "last_update_volume_id": 10807,
+  "last_update_chapter_id": 105935,
+  "last_update_time": 1588037908,
   "cover": "https://xs.dmzj.com/img/webpic/9/ldy0808l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 236115,
   "introduction": "　　最强转生魔术师在异世界开无双！\n　　在由天生眼睛颜色决定能力的世界，曾经有一名能力压倒群雄的天才魔术师。其名为亚伯。因为能力太强，亚伯甚至遭到同伴疏远。为了追求理想世界，他让灵魂转生到遥远的未来。\n　　但是，在未来世界，亚伯拥有的至高眼睛不知为何沦为『劣等眼』，并受人轻视！他被贵族少爷缠上，遭受莫须有的歧视。然而，在由于文明发达导致魔术师的能力显著衰退的未来世界中，亚伯拥有的『琥珀眼』却隐藏著超越人类能理解的非寻常力量！\n　　来自过去的最强英雄，自由自在地打破未来魔术师的常识！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "柑橘ゆすら",
   "first_letter": "L",
-  "subscribe_num": 1835,
-  "redis_update_time": 1565296959,
+  "subscribe_num": 9922,
+  "redis_update_time": 1588166858,
   "volume": [
     {
       "id": 10275,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷 受虐的前勇者在未来世界从容生活",
       "volume_order": 10,
       "addtime": 1565263758,
-      "sum_chapters": 16
+      "sum_chapters": 6
+    },
+    {
+      "id": 10807,
+      "lnovel_id": 2708,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1588037006,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -115,6 +123,89 @@
           "chapter_id": 98718,
           "chapter_name": "插画",
           "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 10807,
+      "id": 10807,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 105909,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105910,
+          "chapter_name": "序章 启程",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105911,
+          "chapter_name": "第一话 新生活",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105912,
+          "chapter_name": "第二话 艾默生的风评",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105913,
+          "chapter_name": "第三话 不速之客",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105914,
+          "chapter_name": "第四话 体育课",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105915,
+          "chapter_name": "第五话 菲蒂雅的烦恼",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105916,
+          "chapter_name": "第六话 王都观光",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105917,
+          "chapter_name": "第七话 吃可丽饼",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105918,
+          "chapter_name": "第八话 VS克罗诺斯干部",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 105919,
+          "chapter_name": "第九话 艾莉莎的初恋",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 105920,
+          "chapter_name": "附录短篇 最强魔术师，去卡拉OK",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 105921,
+          "chapter_name": "附录短篇2 莉莉斯与下雨的天空",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 105922,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 105935,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "支配异世界的技能掠夺者～从零开始建造奴隶后宫～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "last_update_volume_name": "第七卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10161,
-  "last_update_chapter_id": 96789,
-  "last_update_time": 1559910354,
+  "last_update_volume_id": 10809,
+  "last_update_chapter_id": 105947,
+  "last_update_time": 1588073743,
   "cover": "https://xs.dmzj.com/img/webpic/26/yjzp0309l.jpg",
-  "hot_hits": 827739,
+  "hot_hits": 1316830,
   "introduction": "　　把女人和技能全部抢过来吧──！！\n　　武术天才近卫悠斗被召唤到一个可以买卖奴隶的异世界。\n　　在那里，悠斗使用一种名为《能力掠夺》的作弊能力，在打倒魔物后，夺取其技能。他以建造一个有100位奴隶的后宫为目标，开始过起悠然自得的异世界生活。\n　　源自成为小说家吧网站，超人气奇幻故事揭开序幕！\n　──这个故事是描述，某个少年日后在异世界被称为《支配者》之前的冒险生活。",
   "types": [
     "异界",
@@ -19,8 +19,8 @@
   ],
   "authors": "柑橘ゆすら",
   "first_letter": "Z",
-  "subscribe_num": 26487,
-  "redis_update_time": 1564346433,
+  "subscribe_num": 30734,
+  "redis_update_time": 1588167329,
   "volume": [
     {
       "id": 9269,
@@ -28,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1520589391,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9429,
@@ -36,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1526469679,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9652,
@@ -44,7 +44,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1535555328,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9663,
@@ -52,7 +52,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1536065560,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 9907,
@@ -60,7 +60,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1547981359,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 10161,
@@ -68,7 +68,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1559909872,
-      "sum_chapters": 8
+      "sum_chapters": 6
+    },
+    {
+      "id": 10809,
+      "lnovel_id": 2445,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1588072508,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -470,6 +478,74 @@
         },
         {
           "chapter_id": 96789,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10809,
+      "id": 10809,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 105936,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105937,
+          "chapter_name": "序章 归来",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105938,
+          "chapter_name": "1.安全区",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105939,
+          "chapter_name": "2.英雄归来",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105940,
+          "chapter_name": "3.冒险者史琵可",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105941,
+          "chapter_name": "4.魔术师悠子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105942,
+          "chapter_name": "5.史琵可的决心",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105943,
+          "chapter_name": "6.两个罪人",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105944,
+          "chapter_name": "7.洞窟事件",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105945,
+          "chapter_name": "终章 奇妙的熟悉感",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 105946,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 105947,
           "chapter_name": "插画",
           "chapter_order": 120
         }

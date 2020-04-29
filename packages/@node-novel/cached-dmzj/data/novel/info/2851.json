@@ -3,13 +3,13 @@
   "name": "从奴隶开始的寻觅自我之旅",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "第二章 血离·龙境",
-  "last_update_volume_id": 10783,
-  "last_update_chapter_id": 105649,
-  "last_update_time": 1587225584,
+  "last_update_volume_name": "莱瑞安的图书馆",
+  "last_update_chapter_name": "关于龙境",
+  "last_update_volume_id": 10812,
+  "last_update_chapter_id": 105981,
+  "last_update_time": 1588162982,
   "cover": "https://xs.dmzj.com/img/webpic/12/hpmp0126l.jpg",
-  "hot_hits": 2454,
+  "hot_hits": 3589,
   "introduction": "（国轻）没有记忆，没有过往。连自己原本叫什么的都不知道的意识，融合到了龙境领地内的一名女性奴隶身上。\n他是谁，他不清楚，她以前是什么样的，她也不清楚。或许那位把她进贡给领主的商人知道些什么，而她接下来要踏上的便是寻找过去之旅。\n但在这之前，她发现降临的意识所会的语言并不是人类通用语言，而是巨龙语。\n而他也发现，这里的人并不说中文，而是说日语。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "言出五味",
   "first_letter": "C",
-  "subscribe_num": 606,
-  "redis_update_time": 1587340563,
+  "subscribe_num": 899,
+  "redis_update_time": 1588168018,
   "volume": [
     {
       "id": 10783,
@@ -26,6 +26,14 @@
       "volume_name": "第一卷 背弃的龙血",
       "volume_order": 10,
       "addtime": 1587225543,
+      "sum_chapters": 6
+    },
+    {
+      "id": 10812,
+      "lnovel_id": 2851,
+      "volume_name": "莱瑞安的图书馆",
+      "volume_order": 20,
+      "addtime": 1588162862,
       "sum_chapters": 6
     }
   ],
@@ -45,6 +53,59 @@
           "chapter_id": 105649,
           "chapter_name": "第二章 血离·龙境",
           "chapter_order": 20
+        },
+        {
+          "chapter_id": 105973,
+          "chapter_name": "第三章 认知偏差",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105974,
+          "chapter_name": "第四章 罗颖所想",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105975,
+          "chapter_name": "第五章 新的一天",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 10812,
+      "id": 10812,
+      "volume_name": "莱瑞安的图书馆",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 105977,
+          "chapter_name": "关于世界",
+          "chapter_order": 1
+        },
+        {
+          "chapter_id": 105976,
+          "chapter_name": "关于比斯特",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105978,
+          "chapter_name": "关于卡门斯",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105979,
+          "chapter_name": "关于寒霜冻土",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105980,
+          "chapter_name": "关于皮尔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105981,
+          "chapter_name": "关于龙境",
+          "chapter_order": 50
         }
       ]
     }
