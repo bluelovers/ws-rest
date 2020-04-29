@@ -15,7 +15,7 @@
         "*.test.*",
         ".gitrepo"
       ],
-      "message": "chore(release): publish",
+      "message": "chore(release): publish\n\n[skip ci]",
       "bump": "patch",
       "conventionalCommits": true,
       "conventionalGraduate": true
