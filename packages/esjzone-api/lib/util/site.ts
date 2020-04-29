@@ -7,6 +7,7 @@ import { trimUnsafe } from '../util';
 import { IESJzoneRecentUpdateRowBook, IESJzoneChapter } from '../types';
 import moment from 'moment';
 import { _handleInputUrl } from '@node-novel/parse-input-url';
+import { array_unique_overwrite } from 'array-hyper-unique';
 
 export function parseUrl<T extends string | number | URL | LazyURL>(input: T)
 {
@@ -98,6 +99,8 @@ export function _getBookTags($: JQueryStatic, tags: string[] = [])
 			}
 		})
 	;
+
+	array_unique_overwrite(tags);
 
 	return tags
 }
