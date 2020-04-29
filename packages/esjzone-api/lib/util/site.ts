@@ -53,7 +53,8 @@ export function _getBookElemDesc($: JQueryStatic)
 export function _getBookCover($: JQueryStatic)
 {
 	let _cover: string;
-	$('.container .product-gallery .gallery-item img[src]')
+	$('.container .product-gallery')
+		.find(`.gallery-item img[src], a img[src]`)
 		.toArray()
 		.some((elem) =>
 		{
