@@ -1,6 +1,6 @@
 {
   "name": "@demonovel/cached-data",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@demonovel/cached-data#readme",
   "bugs": {
@@ -31,7 +31,7 @@
   "devDependencies": {
     "@node-novel/cache-loader": "^1.0.15",
     "@node-novel/cached-dmzj": "^1.1.88",
-    "@node-novel/cached-esjzone": "^1.0.58",
+    "@node-novel/cached-esjzone": "^1.0.59",
     "@node-novel/cached-masiro": "^1.0.55",
     "@node-novel/cached-wenku8": "^1.0.63",
     "@types/bluebird": "^3.5.30",
@@ -48,7 +48,7 @@
     "discuz-api": "^1.0.22",
     "dmzj-api": "^1.1.26",
     "dot-values2": "^2.0.1",
-    "esjzone-api": "^1.0.25",
+    "esjzone-api": "^1.0.26",
     "fs-extra": "^9.0.0",
     "hash-sum": "^2.0.0",
     "node-novel-info": "^3.0.1",
