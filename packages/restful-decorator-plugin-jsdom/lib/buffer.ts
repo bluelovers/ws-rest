@@ -1,6 +1,3 @@
-import { Buffer } from "buffer";
+import arrayBufferToString from "@bluelovers/array-buffer-to-string";
 
-export function arrayBufferToString(buf: number[])
-{
-	return Buffer.from(buf).toString();
-}
+export { arrayBufferToString }

@@ -209,6 +209,13 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@bluelovers/array-buffer-to-string@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/@bluelovers/array-buffer-to-string/-/array-buffer-to-string-1.0.4.tgz#9fa6f0b9882882bcc8cff94040f158932ec1d2db"
+  integrity sha512-vG6WPkmB2o3HrKP5tjSPJdB/MjKjFBtqYVWzB8OJY4SnjHJiSC0IdHVz1PP//S9A4XI1VBqgmRV+12/VFnom0w==
+  dependencies:
+    iconv-jschardet "^2.0.4"
+
 "@bluelovers/fast-glob@^3.0.4":
   version "3.0.4"
   resolved "https://registry.npmjs.org/@bluelovers/fast-glob/-/fast-glob-3.0.4.tgz#6bb11e3e0274451a2b1362763e85fd50120f7ea3"
@@ -440,6 +447,26 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@jsdom-extra/html-util@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@jsdom-extra/html-util/-/html-util-1.0.3.tgz#386b43711d72c5f4fcee4ea107e83d249ba014c8"
+  integrity sha512-z6PdDDSKxT1r4G05ShL3+whhtp+qMhHz7OPkda6cWfI6Gw4wjiP+tYPC91iJdMcT5Q1hkiMCKAjYGTAl21FVig==
+  dependencies:
+    "@types/html-minifier" "^3.5.3"
+    html-encoding-sniffer "^2.0.1"
+    html-minifier "^4.0.0"
+    whatwg-encoding "^1.0.5"
+
+"@jsdom-extra/jsdom-to-query@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@jsdom-extra/jsdom-to-query/-/jsdom-to-query-1.0.3.tgz#a33c1c9880b1a93b93333c6f1c292753560db225"
+  integrity sha512-llK8FjhvZVded/TrzzSYafyj5LrF8JnH8IeIL8U4WsDCaoAjrFOdzv83Az8pIUEXyjbg9a09VWbQGjNzAsBxIQ==
+
+"@jsdom-extra/resource-loader@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@jsdom-extra/resource-loader/-/resource-loader-1.0.3.tgz#996d7b7e3a2c918c54ad3704d74df33ea5ad4d84"
+  integrity sha512-JoOyRxxwoocnz+yokJpmyYWn3Lpr4Z3Js07AEMvIgnCM+nrf2+4+F1+J4f4J0TrKO90V4Z+YyMUaitiXOTnr4g==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -578,6 +605,13 @@
   dependencies:
     "@types/node" "*"
 
+"@types/clean-css@*":
+  version "4.2.1"
+  resolved "https://registry.npmjs.org/@types/clean-css/-/clean-css-4.2.1.tgz#cb0134241ec5e6ede1b5344bc829668fd9871a8d"
+  integrity sha512-A1HQhQ0hkvqqByJMgg+Wiv9p9XdoYEzuwm11SVo1mX2/4PSdhjcrUlilJQoqLscIheC51t1D5g+EFWCXZ2VTQQ==
+  dependencies:
+    "@types/node" "*"
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.npmjs.org/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -646,6 +680,15 @@
   version "1.0.0"
   resolved "https://registry.npmjs.org/@types/hash-sum/-/hash-sum-1.0.0.tgz#838f4e8627887d42b162d05f3d96ca636c2bc504"
   integrity sha512-FdLBT93h3kcZ586Aee66HPCVJ6qvxVjBlDWNmxSGSbCZe9hTsjRKdSsl4y1T+3zfujxo9auykQMnFsfyHWD7wg==
+
+"@types/html-minifier@^3.5.3":
+  version "3.5.3"
+  resolved "https://registry.npmjs.org/@types/html-minifier/-/html-minifier-3.5.3.tgz#5276845138db2cebc54c789e0aaf87621a21e84f"
+  integrity sha512-j1P/4PcWVVCPEy5lofcHnQ6BtXz9tHGiFPWzqm7TtGuWZEfCHEP446HlkSNc9fQgNJaJZ6ewPtp2aaFla/Uerg==
+  dependencies:
+    "@types/clean-css" "*"
+    "@types/relateurl" "*"
+    "@types/uglify-js" "*"
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.1"
@@ -740,6 +783,11 @@
   resolved "https://registry.npmjs.org/@types/prettier/-/prettier-1.19.1.tgz#33509849f8e679e4add158959fdb086440e9553f"
   integrity sha512-5qOlnZscTn4xxM5MeGXAMOsIOIKIbh9e85zJWfBRVPlRMEVawzoPhINYbRGkBZCI8LxvBe7tJCdWiarA99OZfQ==
 
+"@types/relateurl@*":
+  version "0.2.28"
+  resolved "https://registry.npmjs.org/@types/relateurl/-/relateurl-0.2.28.tgz#6bda7db8653fa62643f5ee69e9f69c11a392e3a6"
+  integrity sha1-a9p9uGU/piZD9e5p6facEaOS46Y=
+
 "@types/sizzle@*":
   version "2.3.2"
   resolved "https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
@@ -754,6 +802,13 @@
   version "2.3.7"
   resolved "https://registry.npmjs.org/@types/tough-cookie/-/tough-cookie-2.3.7.tgz#979434b5900f9d710f5d4e15c466cadb8e9fdc47"
   integrity sha512-rMQbgMGxnLsdn8e9aPVyuN+zMQLrZ2QW8xlv7eWS1mydfGXN+tsTKffcIzd8rGCcLdmi3xvQw2MDaZI1bBNTaw==
+
+"@types/uglify-js@*":
+  version "3.9.0"
+  resolved "https://registry.npmjs.org/@types/uglify-js/-/uglify-js-3.9.0.tgz#4490a140ca82aa855ad68093829e7fd6ae94ea87"
+  integrity sha512-3ZcoyPYHVOCcLpnfZwD47KFLr8W/mpUcgjpf1M4Q78TMJIw7KMAHSjiCLJp1z3ZrBR9pTLbe191O0TldFK5zcw==
+  dependencies:
+    source-map "^0.6.1"
 
 "@types/url-parse@^1.4.3":
   version "1.4.3"
@@ -1219,10 +1274,10 @@ buffer-from@1.x, buffer-from@^1.0.0:
   resolved "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
 
-buffer@^5.5.0:
-  version "5.5.0"
-  resolved "https://registry.npmjs.org/buffer/-/buffer-5.5.0.tgz#9c3caa3d623c33dd1c7ef584b89b88bf9c9bc1ce"
-  integrity sha512-9FTEDjLjwoAkEwyMGDjYJQN2gfRgOKBKRfiglhvibGbpeeU/pQn1bJxQqm32OD/AIeEuHxU9roxXxg34Byp/Ww==
+buffer@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.npmjs.org/buffer/-/buffer-5.6.0.tgz#a31749dc7d81d84db08abf937b6b8c4033f62786"
+  integrity sha512-/gDYp/UtU0eA1ys8bOs9J6a+E/KWIY+DZ+Q2WESNUA0jFRsJOc0SNUO6xJ5SGA1xueg3NL65W6s+NY5l9cunuw==
   dependencies:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
@@ -2577,20 +2632,35 @@ human-signals@^1.1.1:
   resolved "https://registry.npmjs.org/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-iconv-jschardet@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npmjs.org/iconv-jschardet/-/iconv-jschardet-1.1.3.tgz#124e7c00cf3accaeb75cb6b70294242db14ac495"
-  integrity sha512-tkNpAW//VYxH84IO0fFH61fxzydjcxXbtmTAehUtK/naaRV2qMOQZcHr9Ez5Rp+6OE3v4ASIIL80PyowrWyxHA==
+iconv-html-sniffer@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/iconv-html-sniffer/-/iconv-html-sniffer-1.0.3.tgz#9d123c266a79a2324236a1135a8a0b00ff7962f9"
+  integrity sha512-cRCnAFHr/A+gAx7U2OxYFKe47cAQeTEyHZxiOBBaCUe5YS65XWQWlRkIhLefc3+P2lTXhI8gQEdejqQdowj/Fw==
+  dependencies:
+    html-encoding-sniffer "^2.0.1"
+    iconv-jschardet "^2.0.4"
+
+iconv-jschardet@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/iconv-jschardet/-/iconv-jschardet-2.0.4.tgz#2b5a468bf42c51f5c207ed2da65c7847e0fdf420"
+  integrity sha512-JrIASSyH9XIOlIVl/9zQuPxVt+eiKFzoinDXI1/MUAg9lCnOsRPNepcYLicE2jivo2qALvoSd91b6Dwrd27oUQ==
   dependencies:
     debug-color2 "^1"
     env-bool "^1.0.3"
-    iconv-lite "^0.4.24"
-    jschardet "^2.1.0"
+    iconv-lite "^0.5.1"
+    jschardet "^2.1.1"
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24:
+iconv-lite@0.4.24:
   version "0.4.24"
   resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3"
+
+iconv-lite@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.5.1.tgz#b2425d3c7b18f7219f2ca663d103bddb91718d64"
+  integrity sha512-ONHr16SQvKZNSqjQT9gy5z24Jw+uqfO02/ngBSBoqChZ+W8qXX7GPRa1RoUnzGADw8K63R1BXUMzarCVQBpY8Q==
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
@@ -3321,17 +3391,20 @@ jsbn@~0.1.0:
   resolved "https://registry.npmjs.org/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
-jschardet@^2.1.0:
+jschardet@^2.1.1:
   version "2.1.1"
   resolved "https://registry.npmjs.org/jschardet/-/jschardet-2.1.1.tgz#af6f8fd0b3b0f5d46a8fd9614a4fce490575c184"
   integrity sha512-pA5qG9Zwm8CBpGlK/lo2GE9jPxwqRgMV7Lzc/1iaPccw6v4Rhj8Zg2BTyrdmHmxlJojnbLupLeRnaPLsq03x6Q==
 
-jsdom-extra@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/jsdom-extra/-/jsdom-extra-3.0.2.tgz#c1d6965a3a04e90af19336cf788ab0bda0fddf8a"
-  integrity sha512-DW3vjwo271sFHCsGDISb1+GdqyK5Gi1m72ChSIiBea2c6XJRO3aa9KbaFiI1MDz1c8bYmF0cJ/HgxeNlx3x6sg==
+jsdom-extra@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.npmjs.org/jsdom-extra/-/jsdom-extra-3.0.5.tgz#938f9aa5e92fcb13b496182afccfc618c0d95150"
+  integrity sha512-W3r8weoWAC3OogcS1jZgvp+hpfGH3ZxsYYJMbg2eFskc3iA0Uh+HaVwJvja+FcmpwjY2jcqX4r1iIhNK8YxW6w==
   dependencies:
     "@bluelovers/request-promise" "^4.2.5"
+    "@jsdom-extra/html-util" "^1.0.3"
+    "@jsdom-extra/jsdom-to-query" "^1.0.3"
+    "@jsdom-extra/resource-loader" "^1.0.3"
     array-hyper-unique "^1.1.0"
     bluebird "^3.7.2"
     class-proxy "^1.1.2"
@@ -5139,7 +5212,7 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
-"tough-cookie@< 4", tough-cookie@^3.0.1:
+"tough-cookie@< 4", "tough-cookie@< 4.0.0 & >= 3.0.0", tough-cookie@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/tough-cookie/-/tough-cookie-3.0.1.tgz#9df4f57e739c26930a018184887f4adb7dca73b2"
   integrity sha512-yQyJ0u4pZsv9D4clxO69OEjLWYw+jbgspjTue4lTQZLfV0c5l1VmK2y1JK8E9ahdpltPOaAThPcp5nKPUgSnsg==

@@ -1,13 +1,4 @@
-import { createSniffHTMLEncoding, createIconvDecode } from '../util';
+export * from 'iconv-html-sniffer/encoding/gbk';
+import _ from 'iconv-html-sniffer/encoding/gbk';
 
-export const defaultEncoding = 'GBK';
-
-export const sniffHTMLEncoding = createSniffHTMLEncoding(defaultEncoding);
-
-export const iconvDecode = createIconvDecode(defaultEncoding, sniffHTMLEncoding);
-
-export default {
-	defaultEncoding,
-	sniffHTMLEncoding,
-	iconvDecode,
-}
+export default _

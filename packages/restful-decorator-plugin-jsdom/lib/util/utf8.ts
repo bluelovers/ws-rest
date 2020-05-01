@@ -1,17 +1,4 @@
-/**
- * Created by user on 2019/12/12.
- */
+export * from 'iconv-html-sniffer/encoding/utf8';
+import _ from 'iconv-html-sniffer/encoding/utf8';
 
-import { createSniffHTMLEncoding, createIconvDecode } from '../util';
-
-export const defaultEncoding = 'UTF8';
-
-export const sniffHTMLEncoding = createSniffHTMLEncoding(defaultEncoding);
-
-export const iconvDecode = createIconvDecode(defaultEncoding, sniffHTMLEncoding);
-
-export default {
-	defaultEncoding,
-	sniffHTMLEncoding,
-	iconvDecode,
-}
+export default _
