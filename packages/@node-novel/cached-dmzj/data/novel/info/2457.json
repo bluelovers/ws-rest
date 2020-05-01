@@ -1,23 +1,23 @@
 {
   "id": 2457,
-  "name": "由于世界魔物满载，因此想要随意过活",
+  "name": "既然世界变成怪物横行 那只好随心所欲生活下去",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "web版01-50话",
-  "last_update_chapter_name": "11.野兽的萌与狗的萌完全是不同的，从前有位伟人如此说过",
-  "last_update_volume_id": 9310,
-  "last_update_chapter_id": 84085,
-  "last_update_time": 1522069198,
-  "cover": "https://xs.dmzj.com/img/webpic/0/zw0325l.jpg",
-  "hot_hits": 357628,
-  "introduction": "从公司回家的路上，主人公撞死了大型的狗。\n这一瞬间，他脑海里响起一道声音。\n≪魔物已经讨伐，获得了经验值≫\n「诶？」\n世界一时之间发生改变。\n转变为有魔物出现，存在等级、技能以及人物状态，犹如游戏一般的世界。\n这是一篇讲述主人公在这种化为现代幻想世界中力求生存的冒险谭。",
+  "last_update_volume_name": "第一卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10819,
+  "last_update_chapter_id": 106094,
+  "last_update_time": 1588328414,
+  "cover": "https://xs.dmzj.com/img/webpic/11/gwmz0501l.jpg",
+  "hot_hits": 451366,
+  "introduction": "身为社畜的我在某天变成最强！\n在黑心企业上班的和人，某天深夜下班回家途中撞死了一只神秘的大狗。在这瞬间，和人的脑中响起一股声音。\n《———已获得经验值。Kudou Kazuto的LV提升至1。》\n《———在混沌神域中初次成功讨伐的结果已记录。》\n《已获得讨伐奖励。》\n《学会技能『早熟』。》\n「总觉得……好像游戏里面的通知……」\n隔天早上，映入和人眼里的是完全走样的街道，以及袭击着人们的怪物。世界在一夕之间全变了样！变成了存在技能与等级，类似状态值的神奇系统，简直有如走进游戏的世界里……！！\n究竟要如何在这种末日般的世界活下去呢！？",
   "types": [
     "冒险"
   ],
-  "authors": "よっしゃあっ",
-  "first_letter": "Y",
-  "subscribe_num": 5607,
-  "redis_update_time": 1564346334,
+  "authors": "よっしゃあっ!",
+  "first_letter": "J",
+  "subscribe_num": 7379,
+  "redis_update_time": 1588343212,
   "volume": [
     {
       "id": 9310,
@@ -25,7 +25,7 @@
       "volume_name": "web版01-50话",
       "volume_order": 10,
       "addtime": 1522059671,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 9311,
@@ -33,7 +33,15 @@
       "volume_name": "web版51-100话",
       "volume_order": 20,
       "addtime": 1522060758,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10819,
+      "lnovel_id": 2457,
+      "volume_name": "第一卷",
+      "volume_order": 30,
+      "addtime": 1588326715,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -465,6 +473,64 @@
           "chapter_id": 84082,
           "chapter_name": "81.我依然没有做好觉悟",
           "chapter_order": 320
+        }
+      ]
+    },
+    {
+      "volume_id": 10819,
+      "id": 10819,
+      "volume_name": "第一卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 106056,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106057,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106058,
+          "chapter_name": "第一章 世界骤变",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106059,
+          "chapter_name": "第二章 探索与邂逅",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106060,
+          "chapter_name": "第三章 新的伙伴与新的力量",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106061,
+          "chapter_name": "第四章 跨越咆吼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106062,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106063,
+          "chapter_name": "【全新短篇】她的真心",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106064,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106094,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "为何无人记得我的世界？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 众神之道",
+  "last_update_volume_name": "第四卷 神罚之兽",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10758,
-  "last_update_chapter_id": 105316,
-  "last_update_time": 1586163930,
+  "last_update_volume_id": 10818,
+  "last_update_chapter_id": 106054,
+  "last_update_time": 1588326262,
   "cover": "https://xs.dmzj.com/img/webpic/23/wdsj1124l.jpg",
-  "hot_hits": 345752,
+  "hot_hits": 362612,
   "introduction": "暂无简介",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "细音启",
   "first_letter": "W",
-  "subscribe_num": 40590,
-  "redis_update_time": 1586477655,
+  "subscribe_num": 41214,
+  "redis_update_time": 1588343255,
   "volume": [
     {
       "id": 9089,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 命运之剑",
       "volume_order": 10,
       "addtime": 1511522747,
-      "sum_chapters": 12
+      "sum_chapters": 9
     },
     {
       "id": 10017,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 堕天之翼",
       "volume_order": 20,
       "addtime": 1552914888,
-      "sum_chapters": 12
+      "sum_chapters": 9
     },
     {
       "id": 10758,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷 众神之道",
       "volume_order": 30,
       "addtime": 1586163482,
-      "sum_chapters": 12
+      "sum_chapters": 9
+    },
+    {
+      "id": 10818,
+      "lnovel_id": 2404,
+      "volume_name": "第四卷 神罚之兽",
+      "volume_order": 40,
+      "addtime": 1588325436,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -232,6 +240,64 @@
           "chapter_id": 105316,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10818,
+      "id": 10818,
+      "volume_name": "第四卷 神罚之兽",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 106042,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106043,
+          "chapter_name": "World.1 最后的联邦",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106044,
+          "chapter_name": "World.2 无主之地",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106045,
+          "chapter_name": "World.3 持有西德之名的人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106046,
+          "chapter_name": "World.4 獠牙之神兽-拉瑟耶",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106047,
+          "chapter_name": "World.5 Zero",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106048,
+          "chapter_name": "World.6 世界的共鸣为「钢」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106049,
+          "chapter_name": "Continued 过去·现代·未来的共鸣",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106050,
+          "chapter_name": "World.7 崩坏的西方休露兹联邦",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106054,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
