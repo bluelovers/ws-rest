@@ -3,21 +3,21 @@
   "name": "14岁与插画家",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10041,
-  "last_update_chapter_id": 95172,
-  "last_update_time": 1554730847,
+  "last_update_volume_id": 10814,
+  "last_update_chapter_id": 106002,
+  "last_update_time": 1588220281,
   "cover": "https://xs.dmzj.com/img/webpic/10/141217l.jpg",
-  "hot_hits": 94876,
+  "hot_hits": 133321,
   "introduction": "　　「轻小说的插画一本是三十万圆，税金、房租跟电脑的费用都是从这里支付。」\n　　走在特殊癖好业界最前端的职业插画家京桥悠斗，会把所有心力灌注在轻小说插画……尤其是肚脐上头。也许是物以类聚，他身边也尽是一些怪咖……最喜欢巨乳与酒的轻浮系资深插画家仓山锦。因为疯●作家们而每天不断操心，偶尔会吐出痛骂与黑血的编辑永井敬吾。对于自己被取了「跟踪狂吸引器」这个别名，总是充满笑容的爽朗美女插画家佐伯爱澄。然后，十四岁的角色扮演玩家乃木乃乃香，在活动结束之后跑来悠斗的房间，做出非常不得了的事情——！\n　　被理想、现实还有欲望耍得团团转，插画家们最真实的日常在此大公开！",
   "types": [
     "搞笑"
   ],
   "authors": "村崎幸也",
   "first_letter": "1",
-  "subscribe_num": 8569,
-  "redis_update_time": 1564342973,
+  "subscribe_num": 9792,
+  "redis_update_time": 1588292172,
   "volume": [
     {
       "id": 9132,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1513507900,
-      "sum_chapters": 8
+      "sum_chapters": 13
     },
     {
       "id": 9492,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1528455139,
-      "sum_chapters": 8
+      "sum_chapters": 13
     },
     {
       "id": 10041,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1554730474,
-      "sum_chapters": 8
+      "sum_chapters": 13
+    },
+    {
+      "id": 10814,
+      "lnovel_id": 2417,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1588219861,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -256,6 +264,79 @@
           "chapter_id": 95172,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 10814,
+      "id": 10814,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 105990,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 105991,
+          "chapter_name": "Episode 2.庆祝搬家",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 105992,
+          "chapter_name": "Episode 3.白砂妹妹",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 105993,
+          "chapter_name": "Episode 4.从两人的观点来看",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 105994,
+          "chapter_name": "Episode 5.冬COMI",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 105995,
+          "chapter_name": "Episode 6.冬COMI庆功宴",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 105996,
+          "chapter_name": "Extra.",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 105997,
+          "chapter_name": "Episode 7.各自的元旦",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 105998,
+          "chapter_name": "Episode 8.下雪的夜晚",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 105999,
+          "chapter_name": "Episode 9.两人的时间",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 106000,
+          "chapter_name": "Episode 10.热失控",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 106001,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 106002,
+          "chapter_name": "插画",
+          "chapter_order": 130
         }
       ]
     }
