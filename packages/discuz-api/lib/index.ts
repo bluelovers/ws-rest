@@ -426,6 +426,19 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 			;
 	}
 
+	taskList(): IBluebird<IDiscuzTaskList>
+	{
+		let self = this;
+		return this.taskListNew()
+			.then(async (taskList) => {
+				return {
+					...taskList,
+					doing: await self.taskListDoing(),
+				}
+			})
+		;
+	}
+
 	@GET('home.php?mod=task')
 	@CacheRequest({
 		cache: {
@@ -433,7 +446,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		},
 	})
 	@methodBuilder()
-	taskList(): IBluebird<IDiscuzTaskList>
+	taskListNew(): IBluebird<IDiscuzTaskList>
 	{
 		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
 		const { $ } = jsdom;
@@ -486,6 +499,21 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		;
 
 		return data as any;
+	}
+
+	@GET('home.php?mod=task&item=doing')
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
+	@methodBuilder()
+	taskListDoing(): IBluebird<IDiscuzTaskRow[]>
+	{
+		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
+		const { $ } = jsdom;
+
+		return [] as any
 	}
 
 	@GET('home.php?mod=task&do=apply&id={task_id}')

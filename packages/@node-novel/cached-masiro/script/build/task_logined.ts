@@ -19,7 +19,7 @@ export default lazyRun(async () =>
 
 			consoleDebug.dir(data);
 
-			return data.allow
+			return data.allow.concat(data.doing)
 		})
 		.mapSeries(task => {
 			return api

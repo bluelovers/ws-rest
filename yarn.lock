@@ -209,12 +209,12 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bluelovers/array-buffer-to-string@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/@bluelovers/array-buffer-to-string/-/array-buffer-to-string-1.0.4.tgz#9fa6f0b9882882bcc8cff94040f158932ec1d2db"
-  integrity sha512-vG6WPkmB2o3HrKP5tjSPJdB/MjKjFBtqYVWzB8OJY4SnjHJiSC0IdHVz1PP//S9A4XI1VBqgmRV+12/VFnom0w==
+"@bluelovers/array-buffer-to-string@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@bluelovers/array-buffer-to-string/-/array-buffer-to-string-1.0.5.tgz#dfc0cad237cd03b3d5734bf56134f5a4ba5ed7d7"
+  integrity sha512-zsLkYjU2x6+2ESkQBVNFoEH5GZxjitzNSTrwZY5rqWojy9wwIMxHljRocg9kkHCwaverwi0dZM6VJYua0vQ1Qw==
   dependencies:
-    iconv-jschardet "^2.0.4"
+    iconv-jschardet "^2.0.5"
 
 "@bluelovers/fast-glob@^3.0.4":
   version "3.0.4"
@@ -447,6 +447,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@jsdom-extra/cookie@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@jsdom-extra/cookie/-/cookie-1.0.1.tgz#4fec2fc34a0aa812a92d25172c6be2cd0a268b14"
+  integrity sha512-yMXOaZs2hNqIuU1U+yEm1hm9vcn3Irsad9mYYVSUgwVRif1QMWcZNnc2Nn57bA1A+hSXw5ZJMIt4m1W42ny6hw==
+
 "@jsdom-extra/html-util@^1.0.3":
   version "1.0.3"
   resolved "https://registry.npmjs.org/@jsdom-extra/html-util/-/html-util-1.0.3.tgz#386b43711d72c5f4fcee4ea107e83d249ba014c8"
@@ -466,6 +471,11 @@
   version "1.0.3"
   resolved "https://registry.npmjs.org/@jsdom-extra/resource-loader/-/resource-loader-1.0.3.tgz#996d7b7e3a2c918c54ad3704d74df33ea5ad4d84"
   integrity sha512-JoOyRxxwoocnz+yokJpmyYWn3Lpr4Z3Js07AEMvIgnCM+nrf2+4+F1+J4f4J0TrKO90V4Z+YyMUaitiXOTnr4g==
+
+"@jsdom-extra/virtual-console@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@jsdom-extra/virtual-console/-/virtual-console-1.0.1.tgz#1885b487b43bcf975eba40635d24de888ade0aea"
+  integrity sha512-YtEhIV5Wz/hwlvRsKGhnBJe3V78fVLWXc/PpgOESQm2e87tY4DxN20TdiPLgk7ZgtjKOIx/0+lN31PxwBZAFyw==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -2632,18 +2642,18 @@ human-signals@^1.1.1:
   resolved "https://registry.npmjs.org/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-iconv-html-sniffer@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/iconv-html-sniffer/-/iconv-html-sniffer-1.0.3.tgz#9d123c266a79a2324236a1135a8a0b00ff7962f9"
-  integrity sha512-cRCnAFHr/A+gAx7U2OxYFKe47cAQeTEyHZxiOBBaCUe5YS65XWQWlRkIhLefc3+P2lTXhI8gQEdejqQdowj/Fw==
+iconv-html-sniffer@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/iconv-html-sniffer/-/iconv-html-sniffer-1.0.4.tgz#c26f7e9429888d231ce54ebe5fa22f92c5184519"
+  integrity sha512-1mkUU0DQa6jwNqt6lfeBmVLgb3c33Nze4PBffF5FQJMNdjwKYlJzjqBd0fduYonXbIybNIr+U2VlhHaRDMl6dg==
   dependencies:
     html-encoding-sniffer "^2.0.1"
-    iconv-jschardet "^2.0.4"
+    iconv-jschardet "^2.0.5"
 
-iconv-jschardet@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.npmjs.org/iconv-jschardet/-/iconv-jschardet-2.0.4.tgz#2b5a468bf42c51f5c207ed2da65c7847e0fdf420"
-  integrity sha512-JrIASSyH9XIOlIVl/9zQuPxVt+eiKFzoinDXI1/MUAg9lCnOsRPNepcYLicE2jivo2qALvoSd91b6Dwrd27oUQ==
+iconv-jschardet@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.npmjs.org/iconv-jschardet/-/iconv-jschardet-2.0.5.tgz#c4a656bf8df541262174afcbec592d73a2f3ffa4"
+  integrity sha512-6eHlZnjfLVfvnLQ/oZJhG3J9FkyVyQhM27bpchzOZ6xFMiC9U8+/e1ex9PcO2F/sZ5LFNgR3f9R6IeoiTp29gQ==
   dependencies:
     debug-color2 "^1"
     env-bool "^1.0.3"
@@ -3396,15 +3406,17 @@ jschardet@^2.1.1:
   resolved "https://registry.npmjs.org/jschardet/-/jschardet-2.1.1.tgz#af6f8fd0b3b0f5d46a8fd9614a4fce490575c184"
   integrity sha512-pA5qG9Zwm8CBpGlK/lo2GE9jPxwqRgMV7Lzc/1iaPccw6v4Rhj8Zg2BTyrdmHmxlJojnbLupLeRnaPLsq03x6Q==
 
-jsdom-extra@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.npmjs.org/jsdom-extra/-/jsdom-extra-3.0.5.tgz#938f9aa5e92fcb13b496182afccfc618c0d95150"
-  integrity sha512-W3r8weoWAC3OogcS1jZgvp+hpfGH3ZxsYYJMbg2eFskc3iA0Uh+HaVwJvja+FcmpwjY2jcqX4r1iIhNK8YxW6w==
+jsdom-extra@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.npmjs.org/jsdom-extra/-/jsdom-extra-3.0.6.tgz#f9d9de076e55acb6b0649cbc4e3579f691e82ed2"
+  integrity sha512-CVA2VyLSQdYAj2nD7Vu9KvYg8E8lc+TLd4yvVxxF22ak6fSYGHHxp6KtInjC2Cc2vNabheai/JBKSnnqpgieQg==
   dependencies:
     "@bluelovers/request-promise" "^4.2.5"
+    "@jsdom-extra/cookie" "^1.0.1"
     "@jsdom-extra/html-util" "^1.0.3"
     "@jsdom-extra/jsdom-to-query" "^1.0.3"
     "@jsdom-extra/resource-loader" "^1.0.3"
+    "@jsdom-extra/virtual-console" "^1.0.1"
     array-hyper-unique "^1.1.0"
     bluebird "^3.7.2"
     class-proxy "^1.1.2"

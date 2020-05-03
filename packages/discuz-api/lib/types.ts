@@ -159,6 +159,11 @@ export interface IDiscuzTaskList
 	 * 可以接取的任務
 	 */
 	allow: IDiscuzTaskRow[],
+
+	/**
+	 * 进行中的任务
+	 */
+	doing?: IDiscuzTaskRow[],
 }
 
 export type IDzParamNoticeView = 'system' | 'app' | 'interactive' | 'mypost';
