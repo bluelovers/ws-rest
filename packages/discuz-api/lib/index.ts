@@ -49,7 +49,7 @@ import {
 	IDzParamThreadOptions2,
 	IDzParamThreadOptions,
 	SymDzPost,
-	IDiscuzPost, IDiscuzThreadPickRange, IDzWindow, IJSDOM_WITH,
+	IDiscuzPost, IDiscuzThreadPickRange, IDzWindow, IJSDOM_WITH, IDiscuzTaskRowDoing,
 } from './types';
 import { IUnpackedPromiseLikeReturnType, IBluebirdAxiosResponse } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
@@ -508,12 +508,82 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 		},
 	})
 	@methodBuilder()
-	taskListDoing(): IBluebird<IDiscuzTaskRow[]>
+	taskListDoing(): IBluebird<IDiscuzTaskList["doing"]>
 	{
 		const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
 		const { $ } = jsdom;
 
-		return [] as any
+		const taskList = [] as IDiscuzTaskList["doing"];
+
+		$('#ct .ptm:eq(0) > table')
+			.find('> tr, > tbody > tr')
+			.each((i, elem) =>
+			{
+
+				let _tr = $(elem);
+
+				let _a = _tr.find('h3:eq(0) a:eq(0)');
+
+				let task_name = _a.text();
+
+				let task_id = new LazyURL(_a.prop('href')).searchParams.get('id');
+
+				let task_desc = _tr
+					.find('p.xg2:eq(0)')
+					.text()
+					.replace(/^[\n\r]+/g, '')
+					.replace(/\s+$/g, '')
+				;
+
+				let task_credit = _tr
+					.find('> td:eq(-2)')
+					.text()
+					.replace(/^[\n\r]+/g, '')
+					.replace(/\s+$/g, '')
+				;
+
+				_a = _tr.find('> td:eq(-1) a[href*="do=apply"]').filter(`[href*="id=${task_id}"]`);
+
+				_a = _tr.find(`[href*="do=draw"]`);
+
+				let task_drawable = !_a.find(`img[src*="rewardless.gif"]`).length && _a.find(`img[src*="reward.gif"]`).length > 0
+				;
+
+				let obj: IDiscuzTaskRowDoing = {
+					task_id,
+					task_name,
+					task_desc,
+					task_credit,
+
+					task_percent: _tr.find('.pbg.mtm.mbm .xs0')
+						.find(`#csc_${task_id}`)
+						.text(),
+
+					task_drawable,
+				};
+
+				taskList
+					.push(obj)
+				;
+			})
+		;
+
+		return taskList as any
+	}
+
+	/**
+	 * auto apply new task list and draw it
+	 */
+	doAutoTaskList(cb?: (eventName: 'taskListNew' | 'taskApply' | 'taskListDoing' | 'taskDraw', data: any) => any)
+	{
+		return this.taskListNew()
+			.tap((ls) => cb?.('taskListNew', ls))
+			.then(ls => ls.allow)
+			.mapSeries(task => this.taskApply(task.task_id).tap((r) => cb?.('taskApply', r)))
+			.then(() => this.taskListDoing())
+			.tap((r) => cb?.('taskListDoing', r))
+			.mapSeries(task => task.task_drawable && this.taskDraw(task.task_id).tap((r) => cb?.('taskDraw', r)))
+		;
 	}
 
 	@GET('home.php?mod=task&do=apply&id={task_id}')
@@ -524,6 +594,30 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	})
 	@methodBuilder()
 	taskApply(@ParamPath('task_id') task_id: number | string): IBluebirdAxiosResponse<unknown>
+	{
+		return
+	}
+
+	@GET('home.php?mod=task&do=draw&id={task_id}')
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
+	@methodBuilder()
+	taskDraw(@ParamPath('task_id') task_id: number | string): IBluebirdAxiosResponse<unknown>
+	{
+		return
+	}
+
+	@GET('home.php?mod=task&do=delete&id={task_id}')
+	@CacheRequest({
+		cache: {
+			maxAge: 0,
+		},
+	})
+	@methodBuilder()
+	taskDelete(@ParamPath('task_id') task_id: number | string): IBluebirdAxiosResponse<unknown>
 	{
 		return
 	}

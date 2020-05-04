@@ -41,6 +41,13 @@ export default lazyRun(async () => {
 
 			api.loginByCookiesSync(cookies);
 
+			await api.doAutoTaskList(((eventName, data) => {
+
+				consoleDebug.log(`[${eventName}]`, data)
+
+			}));
+
+			/*
 			await api.taskList()
 				.then(data => {
 
@@ -56,6 +63,8 @@ export default lazyRun(async () => {
 						})
 						;
 				})
+
+			 */
 			;
 
 			await api.isLogin()

@@ -149,6 +149,12 @@ export interface IDiscuzTaskRow
 	task_credit: string,
 }
 
+export interface IDiscuzTaskRowDoing extends IDiscuzTaskRow
+{
+	task_percent: string,
+	task_drawable: boolean,
+}
+
 export interface IDiscuzTaskList
 {
 	/**
@@ -163,7 +169,7 @@ export interface IDiscuzTaskList
 	/**
 	 * 进行中的任务
 	 */
-	doing?: IDiscuzTaskRow[],
+	doing?: IDiscuzTaskRowDoing[],
 }
 
 export type IDzParamNoticeView = 'system' | 'app' | 'interactive' | 'mypost';

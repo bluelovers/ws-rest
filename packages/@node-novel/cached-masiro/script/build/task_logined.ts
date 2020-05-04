@@ -14,6 +14,13 @@ export default lazyRun(async () =>
 		return;
 	}
 
+	await api.doAutoTaskList(((eventName, data) => {
+
+		consoleDebug.log(`[${eventName}]`, data)
+
+	}));
+
+	/*
 	await api.taskList()
 		.then(data => {
 
@@ -30,6 +37,7 @@ export default lazyRun(async () =>
 				;
 		})
 	;
+	 */
 
 	await api.noticeView('system');
 
