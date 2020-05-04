@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.24](https://github.com/bluelovers/ws-rest/compare/discuz-api@1.0.23...discuz-api@1.0.24) (2020-05-04)
+
+
+### Features
+
+* auto apply new task list and draw it [skip ci] ([2478a77](https://github.com/bluelovers/ws-rest/commit/2478a77a8fe5947d80121d7ccad17466a2c48515))
+
+
+
+
+
 ## [1.0.23](https://github.com/bluelovers/ws-rest/compare/discuz-api@1.0.22...discuz-api@1.0.23) (2020-05-03)
 
 

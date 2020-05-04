@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.57](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-masiro@1.0.56...@node-novel/cached-masiro@1.0.57) (2020-05-04)
+
+
+### Features
+
+* auto apply new task list and draw it [skip ci] ([2478a77](https://github.com/bluelovers/ws-rest/commit/2478a77a8fe5947d80121d7ccad17466a2c48515))
+
+
+
+
+
 ## [1.0.56](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-masiro@1.0.55...@node-novel/cached-masiro@1.0.56) (2020-05-03)
 
 

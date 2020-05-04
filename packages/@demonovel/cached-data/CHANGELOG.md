@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.20](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.19...@demonovel/cached-data@1.0.20) (2020-05-04)
+
+**Note:** Version bump only for package @demonovel/cached-data
+
+
+
+
+
 ## [1.0.19](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.18...@demonovel/cached-data@1.0.19) (2020-05-03)
 
 **Note:** Version bump only for package @demonovel/cached-data
