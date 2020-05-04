@@ -1,0 +1,20 @@
+name: novel-opds-now
+
+on:
+  schedule:
+    - cron: '0 0 * * 3'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 14
+      - name: install deps
+        run: yarn run ci:install
+      - name: run script
+        env:
+          NOW_DEPLOY_HOOK: ${{ secrets.NOW_DEPLOY_HOOK }}
+        run: yarn run ci:task:novel-opds-now

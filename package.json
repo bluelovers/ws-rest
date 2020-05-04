@@ -20,18 +20,24 @@
     "packages/*"
   ],
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild:lockfile": "npx sync-lockfile .",
     "lerna": "yarn run prebuild:lockfile && yarn run lerna:prepublish && lerna publish --yes --cd-version patch && yarn run ci:cache:list",
     "lerna:prepublish": "lerna run --stream --scope @node-novel/cached-* build && lerna run --stream  --scope @demonovel/cached-data build",
-    "ncu": "npx yarn-tool ncu -u",
-    "ci:install": "yarn --frozen-lockfile && yarn global add lerna typescript@next ts-node cross-env",
-    "ci:test": "ts-node ./script/ci/test",
     "ci:build": "yarn run ci:test && yarn run lerna:prepublish",
-    "ci:push": "ts-node ./script/ci/git-push",
     "ci:cache:list": "ts-node ./script/ci/test/chk-cache",
-    "sort-package-json": "npx yarn-tool sort",
+    "ci:install": "yarn --frozen-lockfile && yarn global add lerna typescript@next ts-node cross-env",
+    "ci:push": "ts-node ./script/ci/git-push",
     "ci:task": "ts-node ./script/task",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ci:task:novel-opds-now": "ts-node ./script/task/novel-opds-now.ts",
+    "ci:test": "ts-node ./script/ci/test",
+    "ncu": "npx yarn-tool ncu -u",
+    "sort-package-json": "npx yarn-tool sort"
+  },
+  "resolutions": {
+    "@types/fs-extra": "*",
+    "@types/tough-cookie": "< 4",
+    "axios": "< 0.19 && >= 0.18"
   },
   "dependencies": {
     "@bluelovers/fast-glob": "^3.0.4",
@@ -57,10 +63,5 @@
     "jest-transform-stealthy-require": "^1.0.0",
     "sync-lockfile": "^1.0.1",
     "ts-jest": "^25.3.1"
-  },
-  "resolutions": {
-    "@types/tough-cookie": "< 4",
-    "@types/fs-extra": "*",
-    "axios": "< 0.19 && >= 0.18"
   }
 }
