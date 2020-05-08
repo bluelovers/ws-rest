@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/parse-input-url",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@node-novel/parse-input-url#readme",
   "bugs": {
@@ -32,7 +32,7 @@
     "access": "public"
   },
   "dependencies": {
-    "http-form-urlencoded": "^1.0.12",
+    "http-form-urlencoded": "^1.0.13",
     "lazy-url": "^1.0.8"
   }
 }

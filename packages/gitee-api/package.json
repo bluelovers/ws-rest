@@ -1,6 +1,6 @@
 {
   "name": "gitee-api",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -24,10 +24,10 @@
   "dependencies": {
     "deep-eql": "^4.0.0",
     "is-base64": "^1.1.0",
-    "lazy-cookies": "^1.0.20",
+    "lazy-cookies": "^1.0.21",
     "lazy-url": "^1.0.8",
     "lodash": "^4.17.15",
-    "restful-decorator": "^1.0.40"
+    "restful-decorator": "^1.0.41"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",

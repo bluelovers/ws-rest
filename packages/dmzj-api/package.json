@@ -1,6 +1,6 @@
 {
   "name": "dmzj-api",
-  "version": "1.1.27",
+  "version": "1.1.28",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -23,11 +23,11 @@
   },
   "dependencies": {
     "array-hyper-unique": "^1.1.0",
-    "axios-cache-adapter-util": "^1.0.36",
+    "axios-cache-adapter-util": "^1.0.37",
     "crlf-normalize": "^1.0.3",
-    "lazy-cookies": "^1.0.20",
+    "lazy-cookies": "^1.0.21",
     "lodash": "^4.17.15",
-    "restful-decorator": "^1.0.40",
+    "restful-decorator": "^1.0.41",
     "ts-type": "^1.2.16",
     "zero-width": "^1.0.5"
   },
