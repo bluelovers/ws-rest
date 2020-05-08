@@ -62,6 +62,14 @@ export interface IAxiosResponseClientRequest extends Record<IPropertyKey, any>
 	fromCache?: boolean,
 }
 
+declare module 'axios-cache-adapter'
+{
+	interface IAxiosCacheAdapterOptions
+	{
+		excludeFromCache?: boolean,
+	}
+}
+
 declare module 'axios'
 {
 
