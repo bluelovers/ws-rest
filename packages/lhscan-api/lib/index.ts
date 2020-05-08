@@ -31,7 +31,14 @@ import Bluebird from 'bluebird';
 // @ts-ignore
 import deepEql from 'deep-eql';
 import { IBluebirdAxiosResponse } from '@bluelovers/axios-extend/lib';
-import { ISearchSingle, ISearchSingleDataRowPlus, IMangaData, IMangaReadData } from './types';
+import {
+	ISearchSingle,
+	ISearchSingleDataRowPlus,
+	IMangaData,
+	IMangaReadData,
+	IMangaListOptions,
+	IMangaListRow, IMangaList,
+} from './types';
 import { parseMangaKey, parseReadUrl } from './site/parse';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
 import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib';
@@ -195,6 +202,65 @@ export class LHScanClient extends AbstractHttpClientWithJSDom
 			})
 			.then(response => arrayBufferToBuffer(response.data, 'binary', 'binary'))
 			;
+	}
+
+	@GET('manga-list.html')
+	@ReturnValueToJSDOM()
+	@methodBuilder()
+	mangaList(@ParamMapAuto<IMangaListOptions>({
+		listType: 'pagination',
+		sort: 'last_update',
+	}) query?: IMangaListOptions)
+	{
+		const jsdom = this.$returnValue as IJSDOM;
+		const { $ } = jsdom;
+
+		let list = [] as IMangaListRow[];
+
+		$('.container .row.top > .row-list')
+			.each((idx, elem) => {
+				let _this = $(elem);
+
+				let _a = _this.find('.media-heading a');
+
+				let id = _a.attr('onmouseenter').match(/show\((\d+)\)/)[1];
+
+				let id_key = parseMangaKey(_a.prop('href'))
+
+				let title = _a.text();
+
+				let genre: string[] = [];
+
+				_this.find('a[href*="manga-list-genre-"]')
+					.each((idx, elem) => {
+						let _this = $(elem);
+
+						genre.push(_this.text());
+					})
+				;
+
+				_a = _this.find('a[href^="read-"]');
+
+				let last_chapter = parseReadUrl(_a.prop('href'))
+
+				list.push({
+					id,
+					id_key,
+					title,
+					last_chapter,
+				})
+			})
+		;
+
+		let page = $('.pagination-wrap .pagination .active').text();
+		let page_max = $('.pagination-wrap .pagination li:eq(-2)').text();
+
+		return {
+			page,
+			page_max,
+			query,
+			list,
+		} as IMangaList as any as Bluebird<IMangaList>
 	}
 
 }

@@ -50,3 +50,37 @@ export interface IMangaReadData
 {
 	images: string[];
 }
+
+export type IMangaListOptionsSort = 'name' | 'views' | 'last_update';
+export type IMangaListOptionsSortType = 'ASC' | 'DESC';
+
+export interface IMangaListOptions
+{
+	listType?: 'pagination' | string;
+	page?: string | number;
+	artist?: string;
+	author?: string;
+	group?: string;
+	m_status?: string;
+	name?: string;
+	genre?: string;
+	ungenre?: string;
+	sort?: IMangaListOptionsSort;
+	sort_type?: IMangaListOptionsSortType;
+}
+
+export interface IMangaListRow
+{
+	id: string,
+	id_key: string,
+	title: string,
+	last_chapter: IMangaChapter,
+}
+
+export interface IMangaList
+{
+	page: string,
+	page_max: string,
+	query: IMangaListOptions,
+	list: IMangaListRow[],
+}
