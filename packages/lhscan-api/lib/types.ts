@@ -28,8 +28,25 @@ export interface ISearchSingleDataRow
 	onclick: string;
 }
 
-
 export interface ISearchSingleDataRowPlus extends ISearchSingleDataRow
 {
 	href: string,
+	path: string,
+	id_key: string,
+}
+
+export interface IMangaData
+{
+	chapters: IMangaChapter[];
+}
+
+export interface IMangaChapter
+{
+	id_key: string;
+	chapter_id: string;
+}
+
+export interface IMangaReadData
+{
+	images: string[];
 }

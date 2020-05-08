@@ -16,7 +16,7 @@ import {
 	POST,
 	PUT,
 	RequestConfigs,
-	TransformRequest,
+	TransformRequest, ParamPath, ParamMapPath,
 
 } from 'restful-decorator/lib/decorators';
 import { ITSPickExtra, ITSValueOrArray } from 'ts-type';
@@ -31,11 +31,19 @@ import Bluebird from 'bluebird';
 // @ts-ignore
 import deepEql from 'deep-eql';
 import { IBluebirdAxiosResponse } from '@bluelovers/axios-extend/lib';
-import { ISearchSingle, ISearchSingleDataRowPlus } from './types';
+import { ISearchSingle, ISearchSingleDataRowPlus, IMangaData, IMangaReadData } from './types';
+import { parseMangaKey, parseReadUrl } from './site/parse';
+import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
+import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib';
+import { IJSDOM } from 'jsdom-extra/lib/pack';
+import { arrayBufferToBuffer } from '@bluelovers/array-buffer-to-string';
+import { EnumMirrorSites } from './mirror';
+import { setValue } from 'dot-values2';
 
-@BaseUrl('https://lhscan.net')
+@BaseUrl(EnumMirrorSites.LOVEHEAVEN)
 @Headers({
 	'Accept': 'application/json',
+	Referer: EnumMirrorSites.LOVEHEAVEN,
 })
 @RequestConfigs({
 	responseType: 'json',
@@ -49,8 +57,22 @@ import { ISearchSingle, ISearchSingleDataRowPlus } from './types';
 /**
  * @link https://lhscan.net/app/manga/controllers/search.single.php?q=%E9%AA%91%E5%A3%AB%E9%AD%94
  */
-export class LHScanClient extends AbstractHttpClient
+export class LHScanClient extends AbstractHttpClientWithJSDom
 {
+
+	constructor(...argv: ConstructorParameters<typeof AbstractHttpClient>)
+	{
+		let [defaults = {}] = argv;
+
+		if (defaults.baseURL)
+		{
+			setValue(defaults, 'headers.Referer', defaults.baseURL);
+		}
+
+		argv[0] = defaults;
+
+		super(...argv);
+	}
 
 	@GET('app/manga/controllers/search.single.php')
 	@methodBuilder()
@@ -67,17 +89,25 @@ export class LHScanClient extends AbstractHttpClient
 	searchSingle(keyword: string)
 	{
 		return this._searchSingle(keyword)
-			.then(ret => {
-				return ret.map(topRow => {
-					let data = topRow.data.map(data => {
+			.then(ret =>
+			{
+				return ret.map(topRow =>
+				{
+					let data = topRow.data.map(data =>
+					{
 
 						let href = data.onclick.replace(/^window.location=['"](.+?)['"]/, '$1');
 
 						href = this.createURL(href).toString();
+						let path = this.createURL(href).pathname;
+
+						let id_key = parseMangaKey(path);
 
 						return <ISearchSingleDataRowPlus>{
 							...data,
 							href,
+							path,
+							id_key,
 						};
 					});
 					return {
@@ -86,6 +116,85 @@ export class LHScanClient extends AbstractHttpClient
 					};
 				})
 			})
+	}
+
+	@GET('manga-{id_key}.html')
+	@ReturnValueToJSDOM()
+	@methodBuilder()
+	manga(@ParamPath('id_key') id_key: string)
+	{
+		const jsdom = this.$returnValue as IJSDOM;
+		const { $ } = jsdom;
+
+		const chapters: IMangaData["chapters"] = [];
+
+		$('#tab-chapper a.chapter')
+			.each((idx, elem) =>
+			{
+				let _this = $(elem);
+
+				let href = _this.prop('href')
+
+				let { id_key, chapter_id } = parseReadUrl(href)
+
+				chapters.push({
+					id_key,
+					chapter_id,
+				})
+			})
+		;
+
+		const ret: IMangaData = {
+			chapters,
+		}
+
+		return ret as any as Bluebird<IMangaData>
+	}
+
+	@GET('read-{id_key}-chapter-{chapter_id}.html')
+	@ReturnValueToJSDOM()
+	@methodBuilder()
+	read(@ParamMapAuto() opts: {
+		id_key: string,
+		chapter_id: string | number,
+	})
+	{
+		const jsdom = this.$returnValue as IJSDOM;
+		const { $ } = jsdom;
+
+		const images: string[] = [];
+
+		$('.chapter-content img.chapter-img')
+			.each((idx, elem) =>
+			{
+
+				let _this = $(elem);
+				let src = _this.attr('data-src') || _this.prop('src');
+
+				src = src.replace(/\s+$/g, '');
+
+				images.push(src);
+			})
+		;
+
+		return {
+			images,
+		} as IMangaReadData as any as Bluebird<IMangaReadData>
+	}
+
+	fetchBuffer(url: string)
+	{
+		return this.$http.get(url, {
+				responseType: 'arraybuffer',
+				cache: {
+					maxAge: 0,
+					ignoreCache: true,
+					// @ts-ignore
+					excludeFromCache: true,
+				},
+			})
+			.then(response => arrayBufferToBuffer(response.data, 'binary', 'binary'))
+			;
 	}
 
 }

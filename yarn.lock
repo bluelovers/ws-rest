@@ -209,10 +209,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bluelovers/array-buffer-to-string@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/@bluelovers/array-buffer-to-string/-/array-buffer-to-string-1.0.5.tgz#dfc0cad237cd03b3d5734bf56134f5a4ba5ed7d7"
-  integrity sha512-zsLkYjU2x6+2ESkQBVNFoEH5GZxjitzNSTrwZY5rqWojy9wwIMxHljRocg9kkHCwaverwi0dZM6VJYua0vQ1Qw==
+"@bluelovers/array-buffer-to-string@^1.0.5", "@bluelovers/array-buffer-to-string@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/@bluelovers/array-buffer-to-string/-/array-buffer-to-string-1.0.6.tgz#ef659a5ee3eefb11c7c849f285d59b70b0bb9278"
+  integrity sha512-HNnt52ywZNDvtwu8tQUvl/H8/ojejV0nWoAgTpTopL0g0auV2I/S/Puw7ZF3hUWUOMFIF159zkoJMK2Dxp6mFw==
   dependencies:
     iconv-jschardet "^2.0.5"
 
@@ -1906,18 +1906,18 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-dot-values2@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/dot-values2/-/dot-values2-2.0.1.tgz#f8a0491af59c9d15c62cab76066bdd8342d9a612"
-  integrity sha512-Xh5DteT5VZhfOtuoz2ZEN/ZEqEYBdfUBAOpsD419d8IHeG1auxhwK3+GumfjtdyHt++fV5wwGhaVqRLshqU+ow==
+dot-values2@^2.0.1, dot-values2@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.npmjs.org/dot-values2/-/dot-values2-2.0.3.tgz#e415938294f19bf74447768cb421eb4942cc5d9c"
+  integrity sha512-carMnNvCBo6iX8NteZQJIhVN7b1/MDr0e4gpFmE8Huui+CMzbCqr40/F0wZqjOM8BQjmNNuzbSQf6+gXPKrsFA==
   dependencies:
     escape-split "^1.0.5"
     get-value "^3.0.1"
     has-value "^2.0.2"
     isobject "^4.0.0"
-    set-value "^3.0.1"
+    set-value "^3.0.2"
     split-string "^6.1.0"
-    ts-type "^1.2.13"
+    ts-type "^1.2.15"
 
 dotenv@*, dotenv@^8.2.0:
   version "8.2.0"
@@ -4805,10 +4805,10 @@ set-value@^2.0.0, set-value@^2.0.1:
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
 
-set-value@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/set-value/-/set-value-3.0.1.tgz#52c82af7653ba69eb1db92e81f5cdb32739b9e95"
-  integrity sha512-w6n3GUPYAWQj4ZyHWzD7K2FnFXHx9OTwJYbWg+6nXjG8sCLfs9DGv+KlqglKIIJx+ks7MlFuwFW2RBPb+8V+xg==
+set-value@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/set-value/-/set-value-3.0.2.tgz#74e8ecd023c33d0f77199d415409a40f21e61b90"
+  integrity sha512-npjkVoz+ank0zjlV9F47Fdbjfj/PfXyVhZvGALWsyIYU/qrMzpi6avjKW3/7KeSU2Df3I46BrN1xOI1+6vW0hA==
   dependencies:
     is-plain-object "^2.0.4"
 
