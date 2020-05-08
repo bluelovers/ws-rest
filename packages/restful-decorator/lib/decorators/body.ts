@@ -289,7 +289,7 @@ export function _ParamInfoToArgv<T extends any[]>(data: IParamMetadata, argv: T)
 
 function _paramBuilderMap(paramName: IEnumRestClientMetadataParamMap)
 {
-	return function <K extends string = string, V = any>(defaultValue?: V): IParameterDecorator
+	return function <V extends Record<any, any> = any, K extends any = keyof V>(defaultValue?: V): IParameterDecorator
 	{
 		return function (target: object, propertyKey: IPropertyKey, parameterIndex: number)
 		{
