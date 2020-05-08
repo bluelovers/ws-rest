@@ -30,7 +30,7 @@
     "ci:task": "ts-node ./script/task",
     "ci:task:novel-opds-now": "ts-node ./script/task/novel-opds-now.ts",
     "ci:test": "ts-node ./script/ci/test",
-    "ncu": "npx yarn-tool ncu -u",
+    "ncu": "npx yarn-tool ncu -u && yarn-tool ws exec yarn-tool ncu -- -u",
     "sort-package-json": "npx yarn-tool sort"
   },
   "resolutions": {
@@ -51,16 +51,16 @@
     "@types/env-ci": "^3.1.0",
     "@types/fs-extra": "^8.1.0",
     "@types/jest": "^25.2.1",
-    "@types/node": "^13.11.0",
+    "@types/node": "^13.13.5",
     "chai": "^4.2.0",
     "cross-ci": "^1.6.0",
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "env-ci": "^5.0.2",
     "filesize": "^6.1.0",
-    "jest": "^25.2.7",
+    "jest": "^26.0.1",
     "jest-transform-stealthy-require": "^1.0.0",
     "sync-lockfile": "^1.0.1",
-    "ts-jest": "^25.3.1"
+    "ts-jest": "^25.5.0"
   }
 }
