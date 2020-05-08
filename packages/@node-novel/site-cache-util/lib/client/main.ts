@@ -113,10 +113,10 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 		{
 			// @ts-ignore
 			let isLogin = await api.isLogin()
-				.catch(e =>
+				.catch((e: any) =>
 				{
 					console.error(`[isLogin]`, String(e))
-					return null;
+					return null as any;
 				})
 			;
 			console.magenta.info('isLogin', isLogin);

@@ -20,7 +20,6 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild:lockfile": "npx sync-lockfile .",
     "lerna": "yarn run prebuild:lockfile && yarn run lerna:prepublish && lerna publish --yes --cd-version patch && yarn run ci:cache:list",
     "lerna:prepublish": "lerna run --stream --scope @node-novel/cached-* build && lerna run --stream  --scope @demonovel/cached-data build",
