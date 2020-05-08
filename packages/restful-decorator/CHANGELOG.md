@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.40](https://github.com/bluelovers/ws-rest/compare/restful-decorator@1.0.39...restful-decorator@1.0.40) (2020-05-08)
+
+
+### Bug Fixes
+
+* type of maps ([df01813](https://github.com/bluelovers/ws-rest/commit/df01813473eb5f1f18a044696286a64ab166cefc))
+
+
+
+
+
 ## [1.0.39](https://github.com/bluelovers/ws-rest/compare/restful-decorator@1.0.38...restful-decorator@1.0.39) (2020-04-29)
 
 
