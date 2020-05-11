@@ -3,13 +3,13 @@
   "name": "怕痛的我，把防御力点满就对了",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "last_update_volume_name": "第六卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10588,
-  "last_update_chapter_id": 102896,
-  "last_update_time": 1581155669,
+  "last_update_volume_id": 10840,
+  "last_update_chapter_id": 106305,
+  "last_update_time": 1589022815,
   "cover": "https://xs.dmzj.com/img/webpic/28/pt1112l.jpg",
-  "hot_hits": 1568200,
+  "hot_hits": 4078944,
   "introduction": "　　梅普露缺乏一般游戏常识，把所有配点都灌到防御力（VIT）去了。\n　　动作缓慢，又不会用魔法，搞得连兔子都耍得她团团转。\n　　咦，可是完全不会痛耶……而且根本没受伤？\n　　全点防御力，使梅普露取得了特殊技能【绝对防御】，甚至附送一击必杀的反击技──？\n　　能使任何攻击打不出效果，以致命施毒技能蹂躏全场的「移动要塞型」新人，\n　　毫不觉得自己奇怪地出场走跳喽！",
   "types": [
     "科幻",
@@ -17,8 +17,8 @@
   ],
   "authors": "夕蜜柑",
   "first_letter": "P",
-  "subscribe_num": 40202,
-  "redis_update_time": 1581293735,
+  "subscribe_num": 92520,
+  "redis_update_time": 1589156491,
   "volume": [
     {
       "id": 9782,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1541995665,
-      "sum_chapters": 37
+      "sum_chapters": 9
     },
     {
       "id": 9938,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1549254995,
-      "sum_chapters": 37
+      "sum_chapters": 9
     },
     {
       "id": 10254,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1564402761,
-      "sum_chapters": 37
+      "sum_chapters": 9
     },
     {
       "id": 10445,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1573898993,
-      "sum_chapters": 37
+      "sum_chapters": 9
     },
     {
       "id": 10588,
@@ -58,7 +58,15 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1581152101,
-      "sum_chapters": 37
+      "sum_chapters": 9
+    },
+    {
+      "id": 10840,
+      "lnovel_id": 2577,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1589018519,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -484,6 +492,89 @@
           "chapter_id": 102896,
           "chapter_name": "插画",
           "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 10840,
+      "id": 10840,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 106285,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106286,
+          "chapter_name": "序章 防御特化与道具",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106287,
+          "chapter_name": "第一章 防御特化与雨伞",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106288,
+          "chapter_name": "第二章 防御特化与前进第六阶",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106289,
+          "chapter_name": "第三章 防御特化与鬼屋",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106290,
+          "chapter_name": "第四章 防御特化与延长战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106291,
+          "chapter_name": "第五章 防御特化与找鞋子",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106292,
+          "chapter_name": "第六章 防御特化与除灵",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106293,
+          "chapter_name": "第七章 防御特化与帮打",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106294,
+          "chapter_name": "第八章 防御特化与两名少女",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 106295,
+          "chapter_name": "第九章 防御特化与第七次活动",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 106296,
+          "chapter_name": "第十章 防御特化与高塔第一层",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 106297,
+          "chapter_name": "第十一章 防御特化与高塔第二层",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 106298,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 106305,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }

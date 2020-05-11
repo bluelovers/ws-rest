@@ -3,13 +3,13 @@
   "name": "为何无人记得我的世界？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 神罚之兽",
+  "last_update_volume_name": "第五卷 钢之墓地",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10818,
-  "last_update_chapter_id": 106054,
-  "last_update_time": 1588326262,
+  "last_update_volume_id": 10839,
+  "last_update_chapter_id": 106306,
+  "last_update_time": 1589022901,
   "cover": "https://xs.dmzj.com/img/webpic/23/wdsj1124l.jpg",
-  "hot_hits": 370933,
+  "hot_hits": 397301,
   "introduction": "暂无简介",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "细音启",
   "first_letter": "W",
-  "subscribe_num": 41406,
-  "redis_update_time": 1588550578,
+  "subscribe_num": 42141,
+  "redis_update_time": 1589155885,
   "volume": [
     {
       "id": 9089,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 命运之剑",
       "volume_order": 10,
       "addtime": 1511522747,
-      "sum_chapters": 23
+      "sum_chapters": 9
     },
     {
       "id": 10017,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 堕天之翼",
       "volume_order": 20,
       "addtime": 1552914888,
-      "sum_chapters": 23
+      "sum_chapters": 9
     },
     {
       "id": 10758,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 众神之道",
       "volume_order": 30,
       "addtime": 1586163482,
-      "sum_chapters": 23
+      "sum_chapters": 9
     },
     {
       "id": 10818,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷 神罚之兽",
       "volume_order": 40,
       "addtime": 1588325436,
-      "sum_chapters": 23
+      "sum_chapters": 9
+    },
+    {
+      "id": 10839,
+      "lnovel_id": 2404,
+      "volume_name": "第五卷 钢之墓地",
+      "volume_order": 50,
+      "addtime": 1589017975,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -298,6 +306,84 @@
           "chapter_id": 106054,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10839,
+      "id": 10839,
+      "volume_name": "第五卷 钢之墓地",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 106272,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106273,
+          "chapter_name": "Proogue 恶魔的交易",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106274,
+          "chapter_name": "World.1 逆·时针",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106275,
+          "chapter_name": "World.2 人与精灵与梦魔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106276,
+          "chapter_name": "World.3 祝福之子",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106277,
+          "chapter_name": "Word.4 人与钢铁与幻兽",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106278,
+          "chapter_name": "Intermission 预言之神们",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106279,
+          "chapter_name": "World.5 复活的恶魔",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106280,
+          "chapter_name": "World.6 钢之王",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106281,
+          "chapter_name": "World.7 世界所有种族之王的名字是——",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 106282,
+          "chapter_name": "Epilogue 三位英雄",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 106283,
+          "chapter_name": "Epilogue.2 为何无人记得我的世界？",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 106284,
+          "chapter_name": "电子书籍特典",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 106306,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

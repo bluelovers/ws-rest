@@ -2,14 +2,14 @@
   "id": 2470,
   "name": "爱好谜题的少女与被夺去的青春",
   "zone": "0",
-  "status": "连载中",
-  "last_update_volume_name": "第四卷 揭明的真相",
-  "last_update_chapter_name": "尾声",
-  "last_update_volume_id": 10357,
-  "last_update_chapter_id": 100970,
-  "last_update_time": 1573985130,
+  "status": "已完结",
+  "last_update_volume_name": "短篇集",
+  "last_update_chapter_name": "「爱好谜题的少女与夺去的青春」之脉络结构",
+  "last_update_volume_id": 10838,
+  "last_update_chapter_id": 106271,
+  "last_update_time": 1589017791,
   "cover": "https://xs.dmzj.com/img/webpic/8/m0411l.jpg",
-  "hot_hits": 136330,
+  "hot_hits": 170988,
   "introduction": "　　藤崎高中第一美少女，早伊原树里对恋爱没有兴趣。对友情也没有兴趣。当然，对社团活动也没有兴趣。她最情有独钟的是，隐藏于日常之中的谜团。众目睽睽之下被换掉的花束。全年级学生突然收到的告密邮件。教室内相隔两边的不可能的作弊。我的过去被揭露之时，「事件」的情况急转直下……。她和「我」共同编织而成，悲伤而微苦的青春推理小说。",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "瀬川コウ",
   "first_letter": "A",
-  "subscribe_num": 12500,
-  "redis_update_time": 1574305503,
+  "subscribe_num": 13680,
+  "redis_update_time": 1589156539,
   "volume": [
     {
       "id": 9355,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 被夺去的青春",
       "volume_order": 10,
       "addtime": 1523438246,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 9593,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 坏掉的正义",
       "volume_order": 20,
       "addtime": 1532772776,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 10034,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 伪装的爱意",
       "volume_order": 30,
       "addtime": 1554120038,
-      "sum_chapters": 8
+      "sum_chapters": 9
     },
     {
       "id": 10357,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷 揭明的真相",
       "volume_order": 40,
       "addtime": 1569923336,
-      "sum_chapters": 8
+      "sum_chapters": 9
+    },
+    {
+      "id": 10838,
+      "lnovel_id": 2470,
+      "volume_name": "短篇集",
+      "volume_order": 50,
+      "addtime": 1589017685,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -272,6 +280,49 @@
         {
           "chapter_id": 100970,
           "chapter_name": "尾声",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 10838,
+      "id": 10838,
+      "volume_name": "短篇集",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 106265,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106266,
+          "chapter_name": "矢斗春一的日常（平安夜短篇）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106267,
+          "chapter_name": "矢斗春一的日常2（第3卷发售纪念短篇）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106268,
+          "chapter_name": "矢斗春一的日常3（圣诞节短篇）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106269,
+          "chapter_name": "矢斗春一的日常4（第四卷开售纪念短篇）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106270,
+          "chapter_name": "爱好谜题的少女与一切结束之后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106271,
+          "chapter_name": "「爱好谜题的少女与夺去的青春」之脉络结构",
           "chapter_order": 70
         }
       ]

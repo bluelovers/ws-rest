@@ -3,13 +3,13 @@
   "name": "异世界迷宫探索者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10777,
-  "last_update_chapter_id": 105548,
-  "last_update_time": 1586951348,
+  "last_update_volume_id": 10835,
+  "last_update_chapter_id": 106245,
+  "last_update_time": 1588843953,
   "cover": "https://xs.dmzj.com/img/webpic/1/gwmg0320l.jpg",
-  "hot_hits": 99921,
+  "hot_hits": 163479,
   "introduction": "有一天高中生武田顺平因为「神」的一时兴起被召唤到异世界，作为祭品被推入了凶恶的迷宫里。在生还率为零的怪物迷宫内，顺平做好了死的觉悟，但他想出了起死回生的妙计。找到通往迷宫活路的最弱迷宫，开始了对叛徒们的复仇。\n网上超人气的，从穷途末路中爬出来的幻想小说，期待已久的文库化！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "サカモト666",
   "first_letter": "Y",
-  "subscribe_num": 3798,
-  "redis_update_time": 1587082094,
+  "subscribe_num": 4871,
+  "redis_update_time": 1589156887,
   "volume": [
     {
       "id": 10697,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1584703184,
-      "sum_chapters": 11
+      "sum_chapters": 9
     },
     {
       "id": 10709,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1585045696,
-      "sum_chapters": 11
+      "sum_chapters": 9
     },
     {
       "id": 10756,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1586087047,
-      "sum_chapters": 11
+      "sum_chapters": 9
     },
     {
       "id": 10777,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1586950746,
-      "sum_chapters": 11
+      "sum_chapters": 9
+    },
+    {
+      "id": 10835,
+      "lnovel_id": 2823,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1588843684,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -303,6 +311,79 @@
           "chapter_id": 105548,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10835,
+      "id": 10835,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 106233,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106234,
+          "chapter_name": "序章 顶上决战",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106235,
+          "chapter_name": "第一章 讨伐下众",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106236,
+          "chapter_name": "第二章 迷宫探索者１",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106237,
+          "chapter_name": "第三章 腐败的村子的传说",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106238,
+          "chapter_name": "第四章 迷宫探索者２",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106239,
+          "chapter_name": "第五章 妹妹的去向",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106240,
+          "chapter_name": "第六章 迷宫探索者３",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106241,
+          "chapter_name": "第七章 邂逅",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106242,
+          "chapter_name": "第八章 迷宫探索者４",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 106243,
+          "chapter_name": "第九章 复仇之机",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 106244,
+          "chapter_name": "尾声 最深部",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 106245,
+          "chapter_name": "插画",
+          "chapter_order": 130
         }
       ]
     }

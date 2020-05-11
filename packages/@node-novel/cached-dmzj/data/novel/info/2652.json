@@ -3,13 +3,13 @@
   "name": "看来我的身体天下无敌呢",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10565,
-  "last_update_chapter_id": 102517,
-  "last_update_time": 1579942686,
+  "last_update_volume_id": 10828,
+  "last_update_chapter_id": 106179,
+  "last_update_time": 1588601315,
   "cover": "https://xs.dmzj.com/img/webpic/20/st0423l.jpg",
-  "hot_hits": 155552,
+  "hot_hits": 314643,
   "introduction": "　　「大小姐又混乱到做出滑稽的事情了……」\n　　年幼夭折的病弱少女许下的愿望是──想要不会输给任何事物的身体。\n　　大概是那股思念成功上达天听吧，转生到异世界的少女得到了从攻击力、防御力乃至于魔力，各式各样的能力值全都MAX的完美肉体。\n　　不是吧，我要的不是这个啊！\n　　只想要普通的人生、对神不知轻重的行为深感困惑的少女，以公爵千金梅雅莉・雷葛利亚的身分，为了度过不起眼的第二人生，努力朝著错误的方向奋斗！",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "ちゃつふさ",
   "first_letter": "K",
-  "subscribe_num": 14510,
-  "redis_update_time": 1580084028,
+  "subscribe_num": 18743,
+  "redis_update_time": 1589155366,
   "volume": [
     {
       "id": 10073,
@@ -43,6 +43,14 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1579942301,
+      "sum_chapters": 9
+    },
+    {
+      "id": 10828,
+      "lnovel_id": 2652,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1588600401,
       "sum_chapters": 9
     }
   ],
@@ -208,6 +216,69 @@
           "chapter_id": 102517,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10828,
+      "id": 10828,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 106161,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106162,
+          "chapter_name": "第一章 学园篇王子TS事件其之一①",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106163,
+          "chapter_name": "第一章 学园篇王子TS事件其之一②",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106164,
+          "chapter_name": "第一章 学园篇王子TS事件其之一③",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106165,
+          "chapter_name": "第二章 学园篇王子TS事件其之二①",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106166,
+          "chapter_name": "第二章 学园篇王子TS事件其之二②",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106167,
+          "chapter_name": "终幕 黄金公主与海德拉的故事",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106168,
+          "chapter_name": "番外篇 两人的茶会",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106169,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106170,
+          "chapter_name": "首刷限定附录！「盛情款待★8P特典小册子」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 106179,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

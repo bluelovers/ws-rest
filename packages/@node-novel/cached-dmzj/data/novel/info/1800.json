@@ -3,13 +3,13 @@
   "name": "关于我转生后成为史莱姆的那件事",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "维鲁多拉的史莱姆观察日记～希望篇～",
-  "last_update_chapter_name": "◆逆袭之时◆",
-  "last_update_volume_id": 10754,
-  "last_update_chapter_id": 105223,
-  "last_update_time": 1585969476,
+  "last_update_volume_name": "第十六卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10829,
+  "last_update_chapter_id": 106180,
+  "last_update_time": 1588601462,
   "cover": "https://xs.dmzj.com/img/webpic/27/gywzshcwslmdnjs9l.jpg",
-  "hot_hits": 51152900,
+  "hot_hits": 52339294,
   "introduction": "一个LOLI身大叔心的史莱姆成神的故事。\n平安无事地度着日子的三上悟被路过的歹徒刺了后，37年的人生闭幕了……应该是这样的。但突然注意到，自己看不见也听不见……在这种状况中，他察觉到自己已经转生成了史莱姆的事实。一边对自己是最弱又最有名的史莱姆这件事感到不满的同时，一边享受着史莱姆生活的三上悟，与天灾级的怪兽“暴风竜ヴェルドラ”相遇后，自己的命运也因此开始启动——。在让ヴェルドラ给自己起名为“リムル”，并作为史莱姆在新的异世界中开始生活之时，却被卷入了哥布林和牙狼族的纷争中，而且不知不觉中作为怪兽们的主人君临天下……拥有能夺取对手能力的“捕食者”和知晓世界之理的“大贤者”——这两种特殊技能作为武器的最强的史莱姆传说，现在开始！",
   "types": [
     "魔法",
@@ -19,8 +19,8 @@
   ],
   "authors": "伏濑",
   "first_letter": "G",
-  "subscribe_num": 479434,
-  "redis_update_time": 1586132883,
+  "subscribe_num": 489942,
+  "redis_update_time": 1589156162,
   "volume": [
     {
       "id": 7487,
@@ -364,6 +364,14 @@
       "volume_name": "维鲁多拉的史莱姆观察日记～反击篇～",
       "volume_order": 140,
       "addtime": 1585900573,
+      "sum_chapters": 9
+    },
+    {
+      "id": 10829,
+      "lnovel_id": 1800,
+      "volume_name": "第十六卷",
+      "volume_order": 150,
+      "addtime": 1588600856,
       "sum_chapters": 9
     }
   ],
@@ -3319,6 +3327,54 @@
           "chapter_id": 105190,
           "chapter_name": "◆敬爱的恶魔◆",
           "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 10829,
+      "id": 10829,
+      "volume_name": "第十六卷",
+      "volume_order": 150,
+      "chapters": [
+        {
+          "chapter_id": 106172,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106173,
+          "chapter_name": "序章 秩序的崩坏",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106174,
+          "chapter_name": "第一章 背叛的始末",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106175,
+          "chapter_name": "第二章 个人面谈",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106176,
+          "chapter_name": "第三章 面向重建",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106177,
+          "chapter_name": "终章 奇伊·格里姆松",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106178,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106180,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

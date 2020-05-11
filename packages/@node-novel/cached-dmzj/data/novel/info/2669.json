@@ -3,13 +3,13 @@
   "name": "谁是最强鉴定士？～吃饱喝足的异世界生活～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "last_update_volume_name": "第七卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10621,
-  "last_update_chapter_id": 103580,
-  "last_update_time": 1582180209,
+  "last_update_volume_id": 10833,
+  "last_update_chapter_id": 106232,
+  "last_update_time": 1588764079,
   "cover": "https://xs.dmzj.com/img/webpic/18/zqjd0521l.jpg",
-  "hot_hits": 411825,
+  "hot_hits": 516685,
   "introduction": "　　钉宫悠利是突然被传送到异世界的高中男生，他在地下城中迷路的时候，《深红的山猫》的冒险者们保护了他。\n　　他被传送到异世界时获得了鉴定类的最强技能【神之瞳】，但他却一副无关紧要的样子！他的厨艺本来就很精湛，再加上原本便喜欢做一些繁琐家务，于是在秘密基地中，也乐得负责打理伙食，不但抓住周遭人的胃，还生产一些不存在于异世界的物品，尽其所能浪费自己的作弊能力！虽然每次做出各种「好事」都会被骂，不过他正慢步调地享受著异世界生活！！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "港濑つかさ",
   "first_letter": "S",
-  "subscribe_num": 9748,
-  "redis_update_time": 1582622364,
+  "subscribe_num": 12528,
+  "redis_update_time": 1589156149,
   "volume": [
     {
       "id": 10122,
@@ -66,6 +66,14 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1582179810,
+      "sum_chapters": 9
+    },
+    {
+      "id": 10833,
+      "lnovel_id": 2669,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1588760277,
       "sum_chapters": 9
     }
   ],
@@ -540,6 +548,64 @@
           "chapter_id": 103580,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10833,
+      "id": 10833,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 106213,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106214,
+          "chapter_name": "序章 向往地下城探索的悠利",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106215,
+          "chapter_name": "第一章 出发前往采集地下城！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106216,
+          "chapter_name": "闲聊一 杰克老师的搬运方法",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106217,
+          "chapter_name": "第二章 美味的手打乌龙面上桌啰",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106218,
+          "chapter_name": "第三章 再度来访丰收庭园！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106219,
+          "chapter_name": "尾声 建国庆典即将揭幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106220,
+          "chapter_name": "特别篇 享用手打乌龙面的各种方法",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106221,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106232,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
