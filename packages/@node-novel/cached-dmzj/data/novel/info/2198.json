@@ -3,13 +3,13 @@
   "name": "遗落的公主与圆桌骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷 皇帝的诞生",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 8898,
-  "last_update_chapter_id": 78647,
-  "last_update_time": 1502629023,
+  "last_update_volume_name": "第9.5卷 恋色缠绕的四行诗",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10847,
+  "last_update_chapter_id": 106371,
+  "last_update_time": 1589277375,
   "cover": "https://xs.dmzj.com/img/webpic/13/yldgz0916l.jpg",
-  "hot_hits": 85851,
+  "hot_hits": 98870,
   "introduction": "索鲁威尔国的第一公主・蕾蒂丝雅一直知道将来自己\"会成为女王\"——。结果从优秀的王兄们手中\"遗落\"下来的王位跌进蕾蒂手中，她得建立王的专属骑士团(圆桌骑士)，强硬地劝诱被评誉为男人中的男人的骑士・杜克。可是他说\"不希望自己被说成'遗落的公主'的情人\"而断言拒绝！！越来越想要他的蕾蒂会……！？",
   "types": [
     "爱情",
@@ -17,8 +17,8 @@
   ],
   "authors": "石田リンネ",
   "first_letter": "Y",
-  "subscribe_num": 4793,
-  "redis_update_time": 1564352258,
+  "subscribe_num": 6257,
+  "redis_update_time": 1589313125,
   "volume": [
     {
       "id": 8154,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1474040502,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 8156,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 女王的条件",
       "volume_order": 20,
       "addtime": 1474086236,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 8157,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 将军的忧郁",
       "volume_order": 30,
       "addtime": 1474087693,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 8158,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷 少年的选择",
       "volume_order": 40,
       "addtime": 1474095629,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 8161,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷 皇子的決心",
       "volume_order": 50,
       "addtime": 1474132480,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 8897,
@@ -66,7 +66,7 @@
       "volume_name": "第六卷 君主的责任",
       "volume_order": 60,
       "addtime": 1502628446,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 8898,
@@ -74,7 +74,31 @@
       "volume_name": "第七卷 皇帝的诞生",
       "volume_order": 70,
       "addtime": 1502628715,
-      "sum_chapters": 8
+      "sum_chapters": 11
+    },
+    {
+      "id": 10844,
+      "lnovel_id": 2198,
+      "volume_name": "第八卷 伯爵的王牌",
+      "volume_order": 80,
+      "addtime": 1589190345,
+      "sum_chapters": 11
+    },
+    {
+      "id": 10845,
+      "lnovel_id": 2198,
+      "volume_name": "第九卷 提督的商谈",
+      "volume_order": 90,
+      "addtime": 1589190657,
+      "sum_chapters": 11
+    },
+    {
+      "id": 10847,
+      "lnovel_id": 2198,
+      "volume_name": "第9.5卷 恋色缠绕的四行诗",
+      "volume_order": 100,
+      "addtime": 1589276206,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -406,6 +430,140 @@
           "chapter_id": 78647,
           "chapter_name": "后记",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10844,
+      "id": 10844,
+      "volume_name": "第八卷 伯爵的王牌",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 106328,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106329,
+          "chapter_name": "第一章 始于教会的少年 —红心—",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106330,
+          "chapter_name": "第二章 与骑士的赌赛 —黑桃—",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106331,
+          "chapter_name": "第三章 高贵的女仆 —草花—",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106332,
+          "chapter_name": "第四章 商人举办的宴会 —方片—",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106333,
+          "chapter_name": "Epilogue",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106334,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106342,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10845,
+      "id": 10845,
+      "volume_name": "第九卷 提督的商谈",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 106335,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106336,
+          "chapter_name": "第一章 苍蓝海上的邂逅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106337,
+          "chapter_name": "第二章 在深邃碧色的上与下",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106338,
+          "chapter_name": "第三章 琉璃色的忧郁",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106339,
+          "chapter_name": "第四章 青灰色的胜利女神",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106340,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106341,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106343,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10847,
+      "id": 10847,
+      "volume_name": "第9.5卷 恋色缠绕的四行诗",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 106366,
+          "chapter_name": "葡萄公主的恋爱未满",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106367,
+          "chapter_name": "北极星与恋爱的华尔兹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106368,
+          "chapter_name": "恋爱中的银狼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106369,
+          "chapter_name": "如果是我的恋爱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106370,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106371,
+          "chapter_name": "插画",
+          "chapter_order": 60
         }
       ]
     }
