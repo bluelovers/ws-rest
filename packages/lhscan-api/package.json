@@ -12,7 +12,8 @@
   },
   "license": "ISC",
   "author": "",
-  "main": "index.js",
+  "main": "lib/index",
+  "types": "lib/index.d.ts",
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",

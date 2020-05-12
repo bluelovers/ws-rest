@@ -28,11 +28,11 @@
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "http-form-urlencoded": "^1.0.13",
     "lazy-url": "^1.0.8"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

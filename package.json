@@ -31,7 +31,7 @@
     "ci:task:novel-opds-now": "ts-node ./script/task/novel-opds-now.ts",
     "ci:test": "ts-node ./script/ci/test",
     "ncu": "npx yarn-tool ncu -u && yarn-tool ws exec yarn-tool ncu -- -u",
-    "sort-package-json": "npx yarn-tool sort"
+    "sort-package-json": "npx yarn-tool sort && yarn-tool ws exec yarn-tool sort"
   },
   "resolutions": {
     "@types/fs-extra": "*",
