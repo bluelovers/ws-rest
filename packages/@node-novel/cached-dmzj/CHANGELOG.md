@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.93](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-dmzj@1.1.92...@node-novel/cached-dmzj@1.1.93) (2020-05-12)
+
+**Note:** Version bump only for package @node-novel/cached-dmzj
+
+
+
+
+
 ## [1.1.92](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-dmzj@1.1.91...@node-novel/cached-dmzj@1.1.92) (2020-05-08)
 
 **Note:** Version bump only for package @node-novel/cached-dmzj

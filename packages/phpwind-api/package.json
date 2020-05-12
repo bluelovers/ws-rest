@@ -1,6 +1,6 @@
 {
   "name": "phpwind-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/phpwind-api#readme",
   "bugs": {
@@ -37,6 +37,5 @@
     "lodash": "^4.17.15",
     "moment": "^2.25.3",
     "restful-decorator-plugin-jsdom": "^1.0.21"
-  },
-  "devDependencies": {}
+  }
 }
