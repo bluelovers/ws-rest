@@ -3,13 +3,13 @@
   "name": "异世界悠闲农家",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10611,
-  "last_update_chapter_id": 103465,
-  "last_update_time": 1581761451,
+  "last_update_volume_id": 10851,
+  "last_update_chapter_id": 106458,
+  "last_update_time": 1589366807,
   "cover": "https://xs.dmzj.com/img/webpic/25/yx0709l.jpg",
-  "hot_hits": 216685,
+  "hot_hits": 305058,
   "introduction": "和病魔斗争但最终死去的火乐，被神大人所复活，回复年轻及转移在异世界。为了第二次人生，享受悠闲的农家生活。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "内藤骑之介",
   "first_letter": "Y",
-  "subscribe_num": 14847,
-  "redis_update_time": 1582047332,
+  "subscribe_num": 16819,
+  "redis_update_time": 1589503285,
   "volume": [
     {
       "id": 9554,
@@ -42,6 +42,14 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1581753197,
+      "sum_chapters": 33
+    },
+    {
+      "id": 10851,
+      "lnovel_id": 2516,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1589362789,
       "sum_chapters": 33
     }
   ],
@@ -185,6 +193,54 @@
         },
         {
           "chapter_id": 103465,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10851,
+      "id": 10851,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 106437,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106438,
+          "chapter_name": "序章 马",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106439,
+          "chapter_name": "第一章 神与工作与春季",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106440,
+          "chapter_name": "第二章 移居组",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106441,
+          "chapter_name": "第三章 夏季与秋季与火一郎",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106442,
+          "chapter_name": "终章 冬季的准备与研究",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106443,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106458,
           "chapter_name": "插画",
           "chapter_order": 80
         }

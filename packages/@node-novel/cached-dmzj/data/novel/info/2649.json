@@ -3,13 +3,13 @@
   "name": "龙族娇妻爱撒娇",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10450,
-  "last_update_chapter_id": 101015,
-  "last_update_time": 1574158400,
+  "last_update_volume_id": 10850,
+  "last_update_chapter_id": 106457,
+  "last_update_time": 1589366664,
   "cover": "https://xs.dmzj.com/img/webpic/26/lz0417l.jpg",
-  "hot_hits": 77216,
+  "hot_hits": 119833,
   "introduction": "　　「勇海，跟我战斗，然后──娶我吧！」\n　　才走进校门一秒就对我发出挑战书，更正，是展开求婚，热情过头的少女──\n　　龙族女孩爱咪。这里是像她一样的魔物与人类的混血儿──\n　　亚人少女所就读的学园。种族：人类的我，结城勇海转学过来的原因，是据说因为我拥有解决亚人问题的力量，然而……\n　　「这个班上的所有人──都是小勇海的未婚妻！」\n　　僵尸女孩、史莱姆女孩还有爱咪，必须拯救的对象不仅是问题儿童，她们所有人都是祖先大人曾经许诺过的我的妻子？\n　　在教室及课外活动拯救引发问题的她们之后，爱咪却一副理所当然地打翻醋坛子，造成更大的问题！亚人后宫恋爱喜剧，在此悲惨登场！",
   "types": [
     "校园",
@@ -18,8 +18,8 @@
   ],
   "authors": "初美阳一",
   "first_letter": "L",
-  "subscribe_num": 10315,
-  "redis_update_time": 1574304662,
+  "subscribe_num": 12750,
+  "redis_update_time": 1589503298,
   "volume": [
     {
       "id": 10062,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555512213,
-      "sum_chapters": 8
+      "sum_chapters": 33
     },
     {
       "id": 10185,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1561290923,
-      "sum_chapters": 8
+      "sum_chapters": 33
     },
     {
       "id": 10450,
@@ -43,7 +43,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1574155908,
-      "sum_chapters": 8
+      "sum_chapters": 33
+    },
+    {
+      "id": 10850,
+      "lnovel_id": 2649,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1589361624,
+      "sum_chapters": 33
     }
   ],
   "chapters": [
@@ -228,6 +236,64 @@
           "chapter_id": 101015,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10850,
+      "id": 10850,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 106428,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106429,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106430,
+          "chapter_name": "第一章 骚动不断的旅行",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106431,
+          "chapter_name": "第二章 游乐园狂想曲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106432,
+          "chapter_name": "第三章 在白烟袅袅中混浴•温泉事件簿",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106433,
+          "chapter_name": "第四章 魔王•结城勇海与他的精灵青梅竹马",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106434,
+          "chapter_name": "第五章 以后也要永远在一起",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106435,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106436,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106457,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
