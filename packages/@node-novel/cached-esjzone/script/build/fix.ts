@@ -20,7 +20,7 @@ export default lazyRun(async () =>
 	}) as Record<string, number>;
 	let recentUpdateDayOld = await readJSON(cacheFilePaths.recentUpdateDay).catch(e => null) as IESJzoneRecentUpdateDay;
 
-	let recentUpdateDay = await api.recentUpdateDay();
+	let recentUpdateDay: IESJzoneRecentUpdateDay = await api.recentUpdateDay();
 	let ids: string[] = [];
 
 	if (recentUpdateDayOld && recentUpdateDayOld.data && recentUpdateDayOld.summary)
@@ -33,6 +33,7 @@ export default lazyRun(async () =>
 
 				if (old)
 				{
+					// @ts-ignore
 					let ls = list.concat(old);
 
 					ls = Object.values(ls.reduce((a, v) => {

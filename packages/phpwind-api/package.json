@@ -12,8 +12,7 @@
   },
   "license": "ISC",
   "author": "bluelovers",
-  "main": "lib/index",
-  "types": "lib/index.d.ts",
+  "main": "index",
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",

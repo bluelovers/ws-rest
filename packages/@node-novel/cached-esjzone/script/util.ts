@@ -2,7 +2,7 @@
  * Created by user on 2019/7/7.
  */
 
-import ApiClient from 'esjzone-api';
+import ApiClient from 'esjzone-api/lib/index';
 import { console, consoleDebug } from '@node-novel/site-cache-util/lib';
 import { LazyCookieJar } from 'lazy-cookies';
 
