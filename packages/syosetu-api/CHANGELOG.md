@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.8](https://github.com/bluelovers/ws-rest/compare/syosetu-api@1.0.7...syosetu-api@1.0.8) (2020-05-15)
+
+
+### Bug Fixes
+
+* type error ([f22e4e1](https://github.com/bluelovers/ws-rest/commit/f22e4e10b17b27a26188ed3c80e78bdf83425aec))
+
+
+
+
+
 ## [1.0.7](https://github.com/bluelovers/ws-rest/compare/syosetu-api@1.0.6...syosetu-api@1.0.7) (2020-05-12)
 
 

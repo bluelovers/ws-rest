@@ -1,6 +1,6 @@
 {
   "name": "@demonovel/cached-data",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@demonovel/cached-data#readme",
   "bugs": {
@@ -30,10 +30,10 @@
   },
   "devDependencies": {
     "@node-novel/cache-loader": "^1.0.15",
-    "@node-novel/cached-dmzj": "^1.1.93",
-    "@node-novel/cached-esjzone": "^1.0.64",
-    "@node-novel/cached-masiro": "^1.0.60",
-    "@node-novel/cached-wenku8": "^1.0.67",
+    "@node-novel/cached-dmzj": "^1.1.94",
+    "@node-novel/cached-esjzone": "^1.0.65",
+    "@node-novel/cached-masiro": "^1.0.61",
+    "@node-novel/cached-wenku8": "^1.0.68",
     "@types/bluebird": "^3.5.30",
     "@types/cheerio": "^0.22.18",
     "@types/fs-extra": "^8.1.0",
@@ -45,10 +45,10 @@
     "cheerio": "^1.0.0-rc.3",
     "cjk-conv": "^1.2.42",
     "cross-fetch": "^3.0.4",
-    "discuz-api": "^1.0.27",
-    "dmzj-api": "^1.1.29",
+    "discuz-api": "^1.0.28",
+    "dmzj-api": "^1.1.30",
     "dot-values2": "^2.0.3",
-    "esjzone-api": "^1.0.30",
+    "esjzone-api": "^1.0.31",
     "fs-extra": "^9.0.0",
     "hash-sum": "^2.0.0",
     "node-novel-info": "^3.0.1",
@@ -59,7 +59,7 @@
     "sort-object-keys2": "^2.0.1",
     "str-util": "^2.3.21",
     "uuid": "^8.0.0",
-    "wenku8-api": "^1.0.31",
+    "wenku8-api": "^1.0.32",
     "zero-width": "^1.0.5"
   },
   "publishConfig": {

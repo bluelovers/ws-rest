@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.30](https://github.com/bluelovers/ws-rest/compare/dmzj-api@1.1.29...dmzj-api@1.1.30) (2020-05-15)
+
+
+### Bug Fixes
+
+* type error ([f22e4e1](https://github.com/bluelovers/ws-rest/commit/f22e4e10b17b27a26188ed3c80e78bdf83425aec))
+
+
+
+
+
 ## [1.1.29](https://github.com/bluelovers/ws-rest/compare/dmzj-api@1.1.28...dmzj-api@1.1.29) (2020-05-12)
 
 

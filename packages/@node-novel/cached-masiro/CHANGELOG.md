@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.61](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-masiro@1.0.60...@node-novel/cached-masiro@1.0.61) (2020-05-15)
+
+**Note:** Version bump only for package @node-novel/cached-masiro
+
+
+
+
+
 ## [1.0.60](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-masiro@1.0.59...@node-novel/cached-masiro@1.0.60) (2020-05-12)
 
 **Note:** Version bump only for package @node-novel/cached-masiro
