@@ -3,21 +3,21 @@
   "name": "世界的中心、针山先生",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "第二卷 后记",
-  "last_update_volume_id": 3364,
-  "last_update_chapter_id": 22504,
-  "last_update_time": 1310615304,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10864,
+  "last_update_chapter_id": 106633,
+  "last_update_time": 1589805403,
   "cover": "https://xs.dmzj.com/img/webpic/29/0390L.jpg",
-  "hot_hits": 22463,
+  "hot_hits": 24554,
   "introduction": "　　以埼玉县所泽市为舞台发生的种种事件。斧男藏于床下的都市传说，突然冲破天花板飞舞降临的魔法少女，自称为勇者的居民们全部消失的孤岛，还有汇合了各种各样人们的悲剧的结局——\n　　这些事件里必然有一个人纠结其中。此人名叫针山真吉。一副让人讨厌不起来的脸，眼镜以外没什么特征的普通人。四人家庭之主。这样的他为什么每次都被卷入事件里？针山先生到底是什么人？还有，世界的中心到底有着什么——！？\n\n翻译 dying  hexuan.org",
   "types": [
     "都市"
   ],
   "authors": "成田良悟",
   "first_letter": "S",
-  "subscribe_num": 730,
-  "redis_update_time": 1564992109,
+  "subscribe_num": 1292,
+  "redis_update_time": 1590106151,
   "volume": [
     {
       "id": 1378,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918441,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 3364,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1293871949,
-      "sum_chapters": 10
+      "sum_chapters": 8
+    },
+    {
+      "id": 10864,
+      "lnovel_id": 367,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1589805067,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -104,6 +112,64 @@
         {
           "chapter_id": 22504,
           "chapter_name": "后记",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10864,
+      "id": 10864,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 106624,
+          "chapter_name": "【家访】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106625,
+          "chapter_name": "【三方面谈】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106626,
+          "chapter_name": "【主妇闲聊】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106627,
+          "chapter_name": "竹子公主会梦见传奇熊猫吗 前篇（题材【童话】）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106628,
+          "chapter_name": "竹子公主会梦见传奇熊猫吗 后篇（题材【童话】）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106629,
+          "chapter_name": "厂长梦中的机会（题材【追梦人】）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106630,
+          "chapter_name": "都市传说３～黑衣人阎魔帐～（题材【都市传说３】）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106631,
+          "chapter_name": "孩子的中心，针山君（题材【附记】）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106632,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106633,
+          "chapter_name": "插画",
           "chapter_order": 100
         }
       ]

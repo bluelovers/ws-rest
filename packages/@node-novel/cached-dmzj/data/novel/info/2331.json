@@ -2,14 +2,14 @@
   "id": 2331,
   "name": "人造生命体与美丽新世界",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "status": "已完结",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10192,
-  "last_update_chapter_id": 97398,
-  "last_update_time": 1561551683,
+  "last_update_volume_id": 10869,
+  "last_update_chapter_id": 106724,
+  "last_update_time": 1589974782,
   "cover": "https://xs.dmzj.com/img/webpic/3/rzsm0605l.jpg",
-  "hot_hits": 112762,
+  "hot_hits": 226671,
   "introduction": "　　在特里提斯教国中，卡利亚斯堪称首屈一指的实力派骑士。他和儿时玩伴费安娜一起在遗迹里发现了……一个小女孩！卡利亚斯决定保护拥有不可思议力量的少女·伊莉丝，他和费安娜也因此发展成假夫妻的关系！？\n　　随着教皇、骑士团团长以及村民们一一被卷入其中，与妻子和女儿携手探索世界的温馨「家族」慢活故事，就此展开！",
   "types": [
     "魔法",
@@ -17,8 +17,8 @@
   ],
   "authors": "绯月剃",
   "first_letter": "R",
-  "subscribe_num": 17546,
-  "redis_update_time": 1564347603,
+  "subscribe_num": 19591,
+  "redis_update_time": 1590106283,
   "volume": [
     {
       "id": 8722,
@@ -42,6 +42,14 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1561551104,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10869,
+      "lnovel_id": 2331,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1589973139,
       "sum_chapters": 8
     }
   ],
@@ -207,6 +215,69 @@
           "chapter_id": 97398,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10869,
+      "id": 10869,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 106677,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106678,
+          "chapter_name": "序章 教皇们的忧愁与哀愁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106679,
+          "chapter_name": "一章 未来与秘密",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106680,
+          "chapter_name": "间章 祝宴与野兽的觉醒",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106681,
+          "chapter_name": "二章 少年的战争与少女的故事",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106682,
+          "chapter_name": "三章 意外的访客与少女的样貌",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106683,
+          "chapter_name": "四章 以防卫为名的蹂躏战与龙的救赎",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106684,
+          "chapter_name": "终章一 新生命与美丽新世界",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106685,
+          "chapter_name": "终章二 然后，在新世界──",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106686,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 106724,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

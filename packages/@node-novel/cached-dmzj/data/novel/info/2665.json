@@ -3,13 +3,13 @@
   "name": "绝对不愿工作的地下城主想要一直睡懒觉",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10498,
-  "last_update_chapter_id": 101686,
-  "last_update_time": 1576577269,
+  "last_update_volume_id": 10866,
+  "last_update_chapter_id": 106674,
+  "last_update_time": 1589883490,
   "cover": "https://xs.dmzj.com/img/webpic/0/jd0513l.jpg",
-  "hot_hits": 59622,
+  "hot_hits": 163247,
   "introduction": "　　绝对不想工作的地下城城主想睡懒觉漫画 ，「不想工作啊。」\n　　被召唤到异世界的増田桂马这样说着。\n　　召唤他的是名为第695号地下城核心的金发萝莉，\n　　而他却当上了地下城城主。咦，可以睡懒觉而不工作吗？！\n　　……当然，异世界没有这种好事呢。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "鬼影スパナ",
   "first_letter": "J",
-  "subscribe_num": 5971,
-  "redis_update_time": 1576593600,
+  "subscribe_num": 9687,
+  "redis_update_time": 1590106092,
   "volume": [
     {
       "id": 10107,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557754227,
-      "sum_chapters": 18
+      "sum_chapters": 8
     },
     {
       "id": 10498,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1576576922,
-      "sum_chapters": 18
+      "sum_chapters": 8
+    },
+    {
+      "id": 10866,
+      "lnovel_id": 2665,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1589881042,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -146,6 +154,59 @@
           "chapter_id": 101686,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10866,
+      "id": 10866,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 106644,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106645,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106646,
+          "chapter_name": "第1章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106647,
+          "chapter_name": "第2章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106648,
+          "chapter_name": "第3章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106649,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106650,
+          "chapter_name": "EX Episode/人偶武道传激斗·Golem Fight！Ready GO！",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106651,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106674,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

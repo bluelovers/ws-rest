@@ -3,22 +3,22 @@
   "name": "转生王女和天才千金的魔法革命",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "web版",
-  "last_update_chapter_name": "13.晚会与您共舞",
-  "last_update_volume_id": 10451,
-  "last_update_chapter_id": 101579,
-  "last_update_time": 1576415254,
-  "cover": "https://xs.dmzj.com/img/webpic/7/mwdzczl1010l.jpg",
-  "hot_hits": 29058,
+  "last_update_volume_name": "第一卷",
+  "last_update_chapter_name": "转载信息",
+  "last_update_volume_id": 10865,
+  "last_update_chapter_id": 106643,
+  "last_update_time": 1589806072,
+  "cover": "https://xs.dmzj.com/img/webpic/22/zswn1230l.jpg",
+  "hot_hits": 129562,
   "introduction": "接下来将要述说的，是某个王国王女的故事。\n这是以憧憬魔法的王女恢复了前世的记忆为起始的故事。\n时而顽皮闹事，时而惹人心往，不断追求着魔法的魅力和真理。\n接下来，就是物语的开始。",
   "types": [
     "穿越",
     "百合"
   ],
-  "authors": "鸦ぴえる",
+  "authors": "鸦ぴえろ",
   "first_letter": "Z",
-  "subscribe_num": 3343,
-  "redis_update_time": 1576441415,
+  "subscribe_num": 10062,
+  "redis_update_time": 1590106459,
   "volume": [
     {
       "id": 10451,
@@ -26,7 +26,15 @@
       "volume_name": "web版",
       "volume_order": 10,
       "addtime": 1574234299,
-      "sum_chapters": 14
+      "sum_chapters": 8
+    },
+    {
+      "id": 10865,
+      "lnovel_id": 2752,
+      "volume_name": "第一卷",
+      "volume_order": 20,
+      "addtime": 1589805522,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -105,6 +113,64 @@
           "chapter_id": 101579,
           "chapter_name": "13.晚会与您共舞",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 10865,
+      "id": 10865,
+      "volume_name": "第一卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 106643,
+          "chapter_name": "转载信息",
+          "chapter_order": 1
+        },
+        {
+          "chapter_id": 106634,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106635,
+          "chapter_name": "第一章 转生王女不会突然停下",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106636,
+          "chapter_name": "第二章 转生王女的家庭访问",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106637,
+          "chapter_name": "第三章 转生王女的魔学讲座",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106638,
+          "chapter_name": "第四章 宛若心中描绘的彩虹",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106639,
+          "chapter_name": "第五章 转生王女依旧憧憬魔法",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106640,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106641,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106642,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }
