@@ -3,13 +3,13 @@
   "name": "佣兵团的伙房兵",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10731,
-  "last_update_chapter_id": 104976,
-  "last_update_time": 1585317729,
+  "last_update_volume_id": 10878,
+  "last_update_chapter_id": 106824,
+  "last_update_time": 1590226778,
   "cover": "https://xs.dmzj.com/img/webpic/13/ybt0327l.jpg",
-  "hot_hits": 19381,
+  "hot_hits": 62709,
   "introduction": "　　故事要从志愿成为厨师的青年.东朱里穿越到异世界的地方开始说起。捡到朱里的人是佣兵团的团长.刚古雷夫。在没有伙房兵的佣兵团中，朱里藉由展现料理的手艺逐渐提高自身的存在价值。虽然佣兵团的各队长们是群难以应付的人物，朱里仍是透过料理与他们相互理解。协助进行发明、聆听剑术的烦恼、成为恋情的推手……朱里一点一点地逐渐被佣兵团的伙伴们所认同。然而，朱里现在还不知道，自己本身将会作为英雄成为广受流传的存在一事。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "川井昂",
   "first_letter": "Y",
-  "subscribe_num": 1229,
-  "redis_update_time": 1585528063,
+  "subscribe_num": 2695,
+  "redis_update_time": 1590710011,
   "volume": [
     {
       "id": 10731,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1585316999,
-      "sum_chapters": 10
+      "sum_chapters": 13
+    },
+    {
+      "id": 10878,
+      "lnovel_id": 2833,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1590226314,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -95,6 +103,64 @@
           "chapter_id": 104976,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10878,
+      "id": 10878,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 106815,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106816,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106817,
+          "chapter_name": "第九话 傍晚与火上锅～朱里～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106818,
+          "chapter_name": "第十话 傍晚与火上锅～提克～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106819,
+          "chapter_name": "第十一话 赌博与猪排三明治～朱里～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106820,
+          "chapter_name": "第十二话 赌博与猪排三明治～浅仪～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106821,
+          "chapter_name": "闲谈 战争结束",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106822,
+          "chapter_name": "第十三话 庆功宴与麻婆豆腐～朱里～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106823,
+          "chapter_name": "第十四话 庆功宴与麻婆豆腐～缇比丝～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106824,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
