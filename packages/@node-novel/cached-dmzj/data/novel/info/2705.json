@@ -3,21 +3,21 @@
   "name": "幸存炼金术师的城市慢活记",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10632,
-  "last_update_chapter_id": 103737,
-  "last_update_time": 1582545220,
+  "last_update_volume_id": 10889,
+  "last_update_chapter_id": 106999,
+  "last_update_time": 1590469385,
   "cover": "https://xs.dmzj.com/img/webpic/4/mh0803l.jpg",
-  "hot_hits": 81859,
+  "hot_hits": 139387,
   "introduction": "　　在两百年后的世界，以自己的步调生活下去──\n　　安妲尔吉亚王国因「魔森林」的魔物暴动而灭亡。\n　　身为炼金术师的少女──玛莉艾拉虽然藉由「假死魔法阵」逃过一劫，\n　　却因为一点「粗心大意」而陷入漫长的睡眠，一觉醒来已是两百年后。\n　　──映入眼帘的，是炼金术师已经全数灭绝，魔药成为高级品的另一个世界。\n　　少女玛莉艾拉成了当地唯一一名炼金术师，\n　　她的愿望是悠闲且愉快地在这座城市里静静生活。\n　　温馨的慢活型奇幻故事，在此揭开序幕！",
   "types": [
     "魔法"
   ],
   "authors": "のの原兔太",
   "first_letter": "X",
-  "subscribe_num": 5067,
-  "redis_update_time": 1582621509,
+  "subscribe_num": 6921,
+  "redis_update_time": 1590971230,
   "volume": [
     {
       "id": 10264,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1564828835,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10265,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1564829442,
-      "sum_chapters": 9
+      "sum_chapters": 8
     },
     {
       "id": 10632,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1582544863,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    },
+    {
+      "id": 10889,
+      "lnovel_id": 2705,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1590468819,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -231,6 +239,74 @@
           "chapter_id": 103737,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10889,
+      "id": 10889,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 106987,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106988,
+          "chapter_name": "序章 于焦土萌芽",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106989,
+          "chapter_name": "第一章 开拓之路",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106990,
+          "chapter_name": "第二章 精灵神殿",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106991,
+          "chapter_name": "第三章 变迁的人们与城市",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106992,
+          "chapter_name": "第四章 炼金术师绑架事件",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106993,
+          "chapter_name": "第五章 受解放者",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106994,
+          "chapter_name": "第六章 真正的觉醒",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106995,
+          "chapter_name": "终章 王国的落日",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106996,
+          "chapter_name": "附章 归途",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 106997,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 106999,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }

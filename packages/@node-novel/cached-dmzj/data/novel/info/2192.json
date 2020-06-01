@@ -2,22 +2,22 @@
   "id": 2192,
   "name": "妖怪旅馆营业中",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第九卷 谨献给你的手作便当",
+  "status": "已完结",
+  "last_update_volume_name": "第十卷 让我们携手回天神屋",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10195,
-  "last_update_chapter_id": 97438,
-  "last_update_time": 1561634418,
+  "last_update_volume_id": 10877,
+  "last_update_chapter_id": 106814,
+  "last_update_time": 1590226269,
   "cover": "https://xs.dmzj.com/img/webpic/9/ygldyyz0907l.jpg",
-  "hot_hits": 443565,
+  "hot_hits": 542925,
   "introduction": "　　老字号旅馆「天神屋」，座落于妖魔鬼怪所栖息的世界──隐世。\n　　看得见妖怪的善良女大学生葵，不知不觉中养成做料理喂食妖怪的习惯。某天，葵在喂食妖怪时，突然被天神屋的「大老板」鬼神给抓走了。根据大老板所言，葵成了祖父欠下巨债的「担保品」，必须嫁入他们家。\n　　不愿从命的葵想出一计，她发下豪语──要在天神屋工作还债，没想到却引起妖怪们群情激愤……面对暴躁的土蜘蛛丶冷冰冰的雪女丶不知是敌是友的无脸女丶狸猫丶天狗，还有忽冷忽热的大老板鬼神，葵只能以美味料理与不认输的骨气收服他们！",
   "types": [
     "神鬼"
   ],
   "authors": "友麻碧",
   "first_letter": "Y",
-  "subscribe_num": 19675,
-  "redis_update_time": 1564356119,
+  "subscribe_num": 21197,
+  "redis_update_time": 1590972141,
   "volume": [
     {
       "id": 8125,
@@ -89,6 +89,14 @@
       "volume_name": "第九卷 谨献给你的手作便当",
       "volume_order": 90,
       "addtime": 1561634256,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10877,
+      "lnovel_id": 2192,
+      "volume_name": "第十卷 让我们携手回天神屋",
+      "volume_order": 100,
+      "addtime": 1590226103,
       "sum_chapters": 8
     }
   ],
@@ -782,6 +790,79 @@
           "chapter_id": 97438,
           "chapter_name": "后记",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10877,
+      "id": 10877,
+      "volume_name": "第十卷 让我们携手回天神屋",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 106802,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106803,
+          "chapter_name": "第一话 如虎添翼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106804,
+          "chapter_name": "第二话 晓与阿凉，插手天狗家务事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106805,
+          "chapter_name": "第三话 大湖串糕点屋妖都店",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106806,
+          "chapter_name": "第四话 迷宫牢狱",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106807,
+          "chapter_name": "第五话 意念之所向",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106808,
+          "chapter_name": "插曲 白夜，出席八叶夜行会",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 106809,
+          "chapter_name": "第六话 雷兽的失算",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 106810,
+          "chapter_name": "第七话 期盼已久的景色",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 106811,
+          "chapter_name": "第八话 早春（上）",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 106812,
+          "chapter_name": "第九话 早春（下）",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 106813,
+          "chapter_name": "第十话 回到属于我们的妖怪旅馆",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 106814,
+          "chapter_name": "后记",
+          "chapter_order": 130
         }
       ]
     }

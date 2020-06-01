@@ -3,13 +3,13 @@
   "name": "我喜欢的妹妹不是妹妹(我喜欢的是妹妹但不是妹妹)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10180,
-  "last_update_chapter_id": 97232,
-  "last_update_time": 1560866260,
+  "last_update_volume_id": 10896,
+  "last_update_chapter_id": 107087,
+  "last_update_time": 1590822957,
   "cover": "https://xs.dmzj.com/img/webpic/4/mm0720l.jpg",
-  "hot_hits": 1962411,
+  "hot_hits": 2310598,
   "introduction": "成绩优秀，还担任学生会长的完美优等生，初中三年级的妹妹永见凉花得了轻小说大赏！？而且小说的内容是“溺爱哥哥的妹妹的甜蜜恋爱物语”！？明明作为哥哥的我一直都很严厉的……进一步的，因为对轻小说和萌完全不懂的凉花的拜托，我代替她作为轻小说作家出道！？仅仅如此已经麻烦不已了被出版的小说还空前热销！我（妹妹）的粉丝的美少女们轻小说作家和画师集中了起来——凉花为了取材还对我说想要约会！不要搞错啊，我喜欢的是妹妹写的小说里的“妹妹”，不是眼前的“妹妹”啊。",
   "types": [
     "搞笑",
@@ -17,8 +17,8 @@
   ],
   "authors": "恵比须清司",
   "first_letter": "W",
-  "subscribe_num": 108885,
-  "redis_update_time": 1564347071,
+  "subscribe_num": 119987,
+  "redis_update_time": 1590971035,
   "volume": [
     {
       "id": 8869,
@@ -82,6 +82,22 @@
       "volume_name": "第七卷",
       "volume_order": 80,
       "addtime": 1560865939,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10895,
+      "lnovel_id": 2359,
+      "volume_name": "第7.5卷",
+      "volume_order": 90,
+      "addtime": 1590822455,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10896,
+      "lnovel_id": 2359,
+      "volume_name": "第八卷",
+      "volume_order": 100,
+      "addtime": 1590822631,
       "sum_chapters": 8
     }
   ],
@@ -465,6 +481,117 @@
         },
         {
           "chapter_id": 97232,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 10895,
+      "id": 10895,
+      "volume_name": "第7.5卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 107069,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107070,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107071,
+          "chapter_name": "永远野誓的甜蜜蜜指导",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107072,
+          "chapter_name": "跟永远野誓演练幸运色狼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107073,
+          "chapter_name": "跟永远野誓到秋叶原实习",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107074,
+          "chapter_name": "永远野誓的化身妹妹讲座",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107075,
+          "chapter_name": "永远野誓的最终告白指南",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107076,
+          "chapter_name": "尾声 永远野誓与对手再现",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107077,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107086,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10896,
+      "id": 10896,
+      "volume_name": "第八卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 107078,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107079,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107080,
+          "chapter_name": "第一章 出道当作家之路",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107081,
+          "chapter_name": "第二章 钻研爱情喜剧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107082,
+          "chapter_name": "第三章 不准逃避取材！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107083,
+          "chapter_name": "第四章 原点的妹妹",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107084,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107085,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107087,
           "chapter_name": "插画",
           "chapter_order": 90
         }

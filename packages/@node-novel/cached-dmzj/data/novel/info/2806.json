@@ -3,13 +3,13 @@
   "name": "公主殿下貌似大发雷霆",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷 精灵王的来访",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10630,
-  "last_update_chapter_id": 103718,
-  "last_update_time": 1582451791,
+  "last_update_volume_id": 10891,
+  "last_update_chapter_id": 107029,
+  "last_update_time": 1590661317,
   "cover": "https://xs.dmzj.com/img/webpic/12/wn0223l.jpg",
-  "hot_hits": 26211,
+  "hot_hits": 99547,
   "introduction": "　　身为公主，同时也是最强魔术师的蕾缇榭儿因为战争失去性命，转生到了千年以后的世界。虽然转生后的她由于缺乏魔力，身边的人都视她为无能大小姐，却因为能使用蕾缇榭儿的「魔术」而让人大吃一惊。后来蕾缇榭儿在学园里亲眼见到了千年后的「魔术」──却对魔术的粗糙简陋而大发雷霆！忍无可忍的蕾缇榭儿施放的「魔术」震撼了整间学园，最终甚至传进了国王耳中，蕾缇榭儿却因为热衷于魔术研究而对此浑然不觉──！？卷入和前世伴侣十分相似的少年吉克，以及吊车尾的大小姐米兰妲蕾特，转世的公主殿下在属于自己的道路上突飞猛进！脱离常识的最强魔术谭，于焉开幕！！",
   "types": [
     "魔法",
@@ -17,8 +17,8 @@
   ],
   "authors": "八ツ桥皓",
   "first_letter": "G",
-  "subscribe_num": 2132,
-  "redis_update_time": 1582622521,
+  "subscribe_num": 5446,
+  "redis_update_time": 1590971473,
   "volume": [
     {
       "id": 10630,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1582451449,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    },
+    {
+      "id": 10891,
+      "lnovel_id": 2806,
+      "volume_name": "第二卷 精灵王的来访",
+      "volume_order": 20,
+      "addtime": 1590660366,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -110,6 +118,79 @@
           "chapter_id": 103718,
           "chapter_name": "插画",
           "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 10891,
+      "id": 10891,
+      "volume_name": "第二卷 精灵王的来访",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 107007,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107008,
+          "chapter_name": "序章 身为国王，身为父亲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107009,
+          "chapter_name": "一章 谒见国王",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107010,
+          "chapter_name": "二章 探求者一族",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107011,
+          "chapter_name": "三章 社团「魔法同好会」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107012,
+          "chapter_name": "闲章 不可思议的拼图",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107013,
+          "chapter_name": "四章 太平之世的战争",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107014,
+          "chapter_name": "五章 时钟的记忆",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107015,
+          "chapter_name": "六章 西边的精灵王们",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107016,
+          "chapter_name": "七章 再访公爵家",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 107017,
+          "chapter_name": "终章 动乱的开始",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 107018,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 107029,
+          "chapter_name": "插画",
+          "chapter_order": 130
         }
       ]
     }

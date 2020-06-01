@@ -3,13 +3,13 @@
   "name": "遗落的公主与圆桌骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第十三卷 再起的大地",
+  "last_update_volume_name": "第十四卷 公主的假日",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10875,
-  "last_update_chapter_id": 106781,
-  "last_update_time": 1590056489,
+  "last_update_volume_id": 10882,
+  "last_update_chapter_id": 106870,
+  "last_update_time": 1590308952,
   "cover": "https://xs.dmzj.com/img/webpic/13/yldgz0916l.jpg",
-  "hot_hits": 117168,
+  "hot_hits": 127382,
   "introduction": "索鲁威尔国的第一公主・蕾蒂丝雅一直知道将来自己\"会成为女王\"——。结果从优秀的王兄们手中\"遗落\"下来的王位跌进蕾蒂手中，她得建立王的专属骑士团(圆桌骑士)，强硬地劝诱被评誉为男人中的男人的骑士・杜克。可是他说\"不希望自己被说成'遗落的公主'的情人\"而断言拒绝！！越来越想要他的蕾蒂会……！？",
   "types": [
     "爱情",
@@ -17,8 +17,8 @@
   ],
   "authors": "石田リンネ",
   "first_letter": "Y",
-  "subscribe_num": 7295,
-  "redis_update_time": 1590105803,
+  "subscribe_num": 7780,
+  "redis_update_time": 1590971964,
   "volume": [
     {
       "id": 8154,
@@ -130,6 +130,14 @@
       "volume_name": "第十三卷 再起的大地",
       "volume_order": 140,
       "addtime": 1590054933,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10882,
+      "lnovel_id": 2198,
+      "volume_name": "第十四卷 公主的假日",
+      "volume_order": 150,
+      "addtime": 1590308711,
       "sum_chapters": 8
     }
   ],
@@ -778,6 +786,49 @@
           "chapter_id": 106781,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10882,
+      "id": 10882,
+      "volume_name": "第十四卷 公主的假日",
+      "volume_order": 150,
+      "chapters": [
+        {
+          "chapter_id": 106864,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 106865,
+          "chapter_name": "第一章 饱含爱意的城下街",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 106866,
+          "chapter_name": "第二章 善意，如此美妙！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 106867,
+          "chapter_name": "第三章 无法被原谅的骑士",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 106868,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 106869,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 106870,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }

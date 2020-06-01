@@ -3,21 +3,21 @@
   "name": "闪偶大叔与幼女前辈",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9814,
-  "last_update_chapter_id": 91684,
-  "last_update_time": 1543829542,
+  "last_update_volume_id": 10892,
+  "last_update_chapter_id": 107028,
+  "last_update_time": 1590661250,
   "cover": "https://xs.dmzj.com/img/webpic/5/yn1101l.jpg",
-  "hot_hits": 78326,
+  "hot_hits": 108879,
   "introduction": "黑崎翔吾是一名把自己的热情投注在女童向偶像街机游戏《闪亮偶像》的高中生。\n　　就算被带著小孩的父母「另眼看待」，\n　　他还是努力在自己居住的地区抢下游戏排行冠军宝座，却要被突然出现的小学生新岛千鹤夺走。\n　　「居然在我的地盘撒野！」\n　　「你有什么意见吗？」\n　　在这乡下地区，只有在超市附设游戏场里设置了一台《闪亮偶像》机台，\n　　翔吾与千鹤为了争夺游戏权而彼此对立。而他们碰上了有史以来最大的考验。\n　　在这次的游戏活动中，「朋友」是掌握关键的要素……！？",
   "types": [
     "校园"
   ],
   "authors": "岩泽蓝",
   "first_letter": "S",
-  "subscribe_num": 6796,
-  "redis_update_time": 1564336344,
+  "subscribe_num": 8527,
+  "redis_update_time": 1590972108,
   "volume": [
     {
       "id": 9054,
@@ -33,6 +33,14 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1543828244,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10892,
+      "lnovel_id": 2394,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1590661008,
       "sum_chapters": 8
     }
   ],
@@ -145,6 +153,64 @@
           "chapter_id": 91684,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10892,
+      "id": 10892,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 107019,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107020,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107021,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107022,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107023,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107024,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107025,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107026,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107027,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107028,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

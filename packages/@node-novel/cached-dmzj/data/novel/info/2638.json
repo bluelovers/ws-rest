@@ -3,13 +3,13 @@
   "name": "自称恶役大小姐的婚约者观察记录",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10029,
-  "last_update_chapter_id": 94983,
-  "last_update_time": 1553783292,
+  "last_update_volume_id": 10897,
+  "last_update_chapter_id": 107104,
+  "last_update_time": 1590897290,
   "cover": "https://xs.dmzj.com/img/webpic/21/lr0328l.gif",
-  "hot_hits": 0,
+  "hot_hits": 90328,
   "introduction": "面前出现一个自称是恶役大小姐有趣的婚约者，这么有趣，观察观察她也是不错的乐趣呢~",
   "types": [
     "穿越",
@@ -17,8 +17,8 @@
   ],
   "authors": "しき",
   "first_letter": "Z",
-  "subscribe_num": 5654,
-  "redis_update_time": 1564342118,
+  "subscribe_num": 12069,
+  "redis_update_time": 1590971020,
   "volume": [
     {
       "id": 10029,
@@ -26,6 +26,14 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1553782947,
+      "sum_chapters": 8
+    },
+    {
+      "id": 10897,
+      "lnovel_id": 2638,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1590897018,
       "sum_chapters": 8
     }
   ],
@@ -85,6 +93,54 @@
           "chapter_id": 94983,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10897,
+      "id": 10897,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 107097,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107098,
+          "chapter_name": "一、芭提雅将要十六岁",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107099,
+          "chapter_name": "二、芭提雅十六岁",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107100,
+          "chapter_name": "三、芭提雅十七岁①",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107101,
+          "chapter_name": "四、芭提雅十七岁②",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107102,
+          "chapter_name": "五、芭提雅十九岁",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107103,
+          "chapter_name": "番外 芭提雅……的儿子五岁",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107104,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

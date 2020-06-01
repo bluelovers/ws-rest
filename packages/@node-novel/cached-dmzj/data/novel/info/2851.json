@@ -4,12 +4,12 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第一卷 背弃的龙血",
-  "last_update_chapter_name": "插画",
+  "last_update_chapter_name": "第十七章 必要的排除",
   "last_update_volume_id": 10783,
-  "last_update_chapter_id": 106896,
-  "last_update_time": 1590376099,
+  "last_update_chapter_id": 107093,
+  "last_update_time": 1590838227,
   "cover": "https://xs.dmzj.com/img/webpic/3/cnl0525l.jpg",
-  "hot_hits": 29241,
+  "hot_hits": 36253,
   "introduction": "（国轻）没有记忆，没有过往。连自己原本叫什么的都不知道的意识，融合到了龙境领地内的一名女性奴隶身上。\n他是谁，他不清楚，她以前是什么样的，她也不清楚。或许那位把她进贡给领主的商人知道些什么，而她接下来要踏上的便是寻找过去之旅。\n但在这之前，她发现降临的意识所会的语言并不是人类通用语言，而是巨龙语。\n而他也发现，这里的人并不说中文，而是说日语。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "言出五味",
   "first_letter": "C",
-  "subscribe_num": 2838,
-  "redis_update_time": 1590709744,
+  "subscribe_num": 3291,
+  "redis_update_time": 1590970125,
   "volume": [
     {
       "id": 10783,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 背弃的龙血",
       "volume_order": 10,
       "addtime": 1587225543,
-      "sum_chapters": 13
+      "sum_chapters": 8
     },
     {
       "id": 10812,
@@ -34,7 +34,7 @@
       "volume_name": "莱瑞安的图书馆",
       "volume_order": 20,
       "addtime": 1588162862,
-      "sum_chapters": 13
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -44,6 +44,11 @@
       "volume_name": "第一卷 背弃的龙血",
       "volume_order": 10,
       "chapters": [
+        {
+          "chapter_id": 106896,
+          "chapter_name": "插画",
+          "chapter_order": 1
+        },
         {
           "chapter_id": 105648,
           "chapter_name": "第一章 纠缠，交融",
@@ -110,9 +115,24 @@
           "chapter_order": 130
         },
         {
-          "chapter_id": 106896,
-          "chapter_name": "插画",
+          "chapter_id": 107090,
+          "chapter_name": "第十四章 倒下的剥削者",
           "chapter_order": 140
+        },
+        {
+          "chapter_id": 107091,
+          "chapter_name": "第十五章 平民们的揭竿而起",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 107092,
+          "chapter_name": "第十六章 龙禁",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 107093,
+          "chapter_name": "第十七章 必要的排除",
+          "chapter_order": 170
         }
       ]
     },
