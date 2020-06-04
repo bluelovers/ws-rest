@@ -3,13 +3,13 @@
   "name": "魔王学园的反叛者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10798,
-  "last_update_chapter_id": 105809,
-  "last_update_time": 1587730509,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10898,
+  "last_update_chapter_id": 107131,
+  "last_update_time": 1590981690,
   "cover": "https://xs.dmzj.com/img/webpic/1/mwxy0424l.jpg",
-  "hot_hits": 37164,
+  "hot_hits": 131934,
   "introduction": "身为「人类」的主人公目标竟然是「魔族」之王 击败最强的魔族，向魔族的顶端不断进发吧！！",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "久慈マサムネ",
   "first_letter": "M",
-  "subscribe_num": 4602,
-  "redis_update_time": 1587946398,
+  "subscribe_num": 10105,
+  "redis_update_time": 1591250954,
   "volume": [
     {
       "id": 10798,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1587730229,
-      "sum_chapters": 9
+      "sum_chapters": 13
+    },
+    {
+      "id": 10898,
+      "lnovel_id": 2856,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1590980890,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -84,6 +92,69 @@
         {
           "chapter_id": 105809,
           "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 107130,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10898,
+      "id": 10898,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 107120,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107121,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107122,
+          "chapter_name": "第一章 “恶魔”的魔王候补",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107123,
+          "chapter_name": "第二章 这就是雅的房间？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107124,
+          "chapter_name": "第三章 穿运动短裤的女主角们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107125,
+          "chapter_name": "第四章 魔王学园运动会！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107126,
+          "chapter_name": "第五章 “恶魔”VS“恋人”",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107127,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107128,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107131,
+          "chapter_name": "插画",
           "chapter_order": 100
         }
       ]

@@ -3,13 +3,13 @@
   "name": "自由人生～异世界万事通奋斗记～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10533,
-  "last_update_chapter_id": 102224,
-  "last_update_time": 1577960340,
+  "last_update_volume_id": 10899,
+  "last_update_chapter_id": 107148,
+  "last_update_time": 1591072882,
   "cover": "https://xs.dmzj.com/img/webpic/11/zy0414l.jpg",
-  "hot_hits": 175029,
+  "hot_hits": 404948,
   "introduction": "　　在异世界生活第三年的佐山贵大，\n　　是万事通「自由人生」的懒散店主。\n　　但他的真实身分其实是连神都能打倒的世界最强等级封顶者！\n　　生性懒惰却又无法放下有困难的人不管的贵大，\n　　又是惩治恶德官员，又是击倒传说级魔物拯救城镇，非常活跃！\n　　明明只想低调生活，却接二连三吸引了性格独特的女孩们？",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "気がつけば毛玉",
   "first_letter": "Z",
-  "subscribe_num": 9650,
-  "redis_update_time": 1578033687,
+  "subscribe_num": 13368,
+  "redis_update_time": 1591250206,
   "volume": [
     {
       "id": 10050,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555161471,
-      "sum_chapters": 7
+      "sum_chapters": 13
     },
     {
       "id": 10218,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1562587522,
-      "sum_chapters": 7
+      "sum_chapters": 13
     },
     {
       "id": 10533,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1577959821,
-      "sum_chapters": 7
+      "sum_chapters": 13
+    },
+    {
+      "id": 10899,
+      "lnovel_id": 2644,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1591072618,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -257,6 +265,64 @@
           "chapter_id": 102224,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10899,
+      "id": 10899,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 107139,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107140,
+          "chapter_name": "第一章 异世界转移篇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107141,
+          "chapter_name": "第二章 异世界流浪篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107142,
+          "chapter_name": "第三章 异世界归还篇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107143,
+          "chapter_name": "第四章 与优米尔的过去篇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107144,
+          "chapter_name": "第五章 两人的PVP篇",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107145,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107146,
+          "chapter_name": "尾声2",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107147,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107148,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
