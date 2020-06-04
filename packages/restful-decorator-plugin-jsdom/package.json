@@ -26,15 +26,15 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@bluelovers/array-buffer-to-string": "^1.0.6",
+    "@bluelovers/array-buffer-to-string": "^1.0.7",
     "@bluelovers/axios-util": "^1.0.9",
     "@jsdom-extra/html-util": "^1.0.3",
     "@types/jquery": "*",
     "@types/jsdom": "*",
     "buffer": "^5.6.0",
     "html-encoding-sniffer": "^2.0.1",
-    "iconv-html-sniffer": "^1.0.4",
-    "iconv-jschardet": "^2.0.5",
+    "iconv-html-sniffer": "^1.0.5",
+    "iconv-jschardet": "^2.0.6",
     "jsdom-extra": "^3.0.6",
     "lazy-cookies": "^1.0.21",
     "restful-decorator": "^1.0.41",

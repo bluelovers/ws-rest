@@ -22,21 +22,21 @@
     "debug-color2": "^1.1.7",
     "http-form-urlencoded": "^1.0.13",
     "lazy-cookies": "^1.0.21",
-    "lazy-url": "^1.0.8",
+    "lazy-url": "^1.0.10",
     "lodash": "^4.17.15",
     "lodash-decorators": "^6.0.1",
-    "moment": "^2.25.3",
+    "moment": "^2.26.0",
     "reflect-metadata": "^0.1.13",
     "reflect-metadata-util": "^1.0.9",
     "router-uri-convert": "^1.0.16",
     "tough-cookie": "< 4",
     "ts-enum-util": "^4.0.1",
-    "ts-type": "^1.2.16",
-    "typed-http-headers": "^1.0.5"
+    "ts-type": "^1.2.17",
+    "typed-http-headers": "^1.0.7"
   },
   "devDependencies": {
-    "@types/bluebird": "^3.5.30",
-    "@types/lodash": "^4.14.150",
+    "@types/bluebird": "^3.5.32",
+    "@types/lodash": "^4.14.155",
     "@types/moment": "^2.13.0",
     "@types/tough-cookie": "< 4",
     "@types/url-parse": "^1.4.3"
