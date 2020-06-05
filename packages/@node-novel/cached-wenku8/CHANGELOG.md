@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.69](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.68...@node-novel/cached-wenku8@1.0.69) (2020-06-05)
+
+**Note:** Version bump only for package @node-novel/cached-wenku8
+
+
+
+
+
 ## [1.0.68](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.67...@node-novel/cached-wenku8@1.0.68) (2020-05-15)
 
 **Note:** Version bump only for package @node-novel/cached-wenku8

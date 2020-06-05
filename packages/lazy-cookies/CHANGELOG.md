@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.22](https://github.com/bluelovers/ws-rest/compare/lazy-cookies@1.0.21...lazy-cookies@1.0.22) (2020-06-05)
+
+**Note:** Version bump only for package lazy-cookies
+
+
+
+
+
 ## [1.0.21](https://github.com/bluelovers/ws-rest/compare/lazy-cookies@1.0.20...lazy-cookies@1.0.21) (2020-05-08)
 
 **Note:** Version bump only for package lazy-cookies
