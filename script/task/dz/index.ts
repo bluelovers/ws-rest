@@ -36,6 +36,11 @@ export default lazyRun(async () => {
 
 			let { baseURL, cookies, siteType } = options;
 
+			if (/lightnovel/.test(baseURL))
+			{
+				return;
+			}
+
 			consoleDebug.info(siteType, baseURL);
 
 			const api = new (siteType === 'phpwind' ? PHPWindClient : ApiClient)({

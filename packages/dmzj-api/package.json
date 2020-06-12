@@ -22,14 +22,14 @@
     "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
-    "array-hyper-unique": "^1.1.0",
+    "array-hyper-unique": "^1.1.2",
     "axios-cache-adapter-util": "^1.0.38",
     "crlf-normalize": "^1.0.3",
     "lazy-cookies": "^1.0.22",
     "lodash": "^4.17.15",
     "restful-decorator": "^1.0.42",
-    "ts-type": "^1.2.17",
-    "zero-width": "^1.0.5"
+    "ts-type": "^1.2.23",
+    "zero-width": "^1.0.12"
   },
   "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
 }
