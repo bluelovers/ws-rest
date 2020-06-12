@@ -3,13 +3,13 @@
   "name": "堕天的狗神 -SLASHDOG-",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10408,
-  "last_update_chapter_id": 100441,
-  "last_update_time": 1572171530,
+  "last_update_volume_id": 10914,
+  "last_update_chapter_id": 107414,
+  "last_update_time": 1591791763,
   "cover": "https://xs.dmzj.com/img/webpic/25/dtg0414l.jpg",
-  "hot_hits": 16031,
+  "hot_hits": 33610,
   "introduction": "★《恶魔高校D×D》「刃狗」小队队长几濑鸢雄的起始！\n★故事发生在兵藤一诚转生成恶魔的数年之前的前传登场！\n高中生几濑鸢雄的日常生活产生了骤变。\n他的同学们因意外事故失踪，称作「虚蝉」的怪物也朝他袭击而来。\n就在鸢雄眼看就要一命呜呼之际，一名自称夏梅的美少女救了他──「要和我们联手吗？好拯救你的青梅竹马。」\n鸢雄从她给的蛋中，得到了能劈斩万物的最强小狗──「刃」，并且和美少女魔法师拉维尼雅、中二病少年瓦利等个性鲜明的同伴们，一起投身于对抗虚蝉的战斗，以夺回自己失去的事物──",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "石踏一荣",
   "first_letter": "D",
-  "subscribe_num": 3566,
-  "redis_update_time": 1574304606,
+  "subscribe_num": 4662,
+  "redis_update_time": 1591920259,
   "volume": [
     {
       "id": 10056,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555338801,
-      "sum_chapters": 8
+      "sum_chapters": 59
     },
     {
       "id": 10408,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1572170855,
-      "sum_chapters": 8
+      "sum_chapters": 59
+    },
+    {
+      "id": 10914,
+      "lnovel_id": 2647,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1591791090,
+      "sum_chapters": 59
     }
   ],
   "chapters": [
@@ -211,6 +219,74 @@
           "chapter_id": 100441,
           "chapter_name": "插画",
           "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 10914,
+      "id": 10914,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 107403,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107404,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107405,
+          "chapter_name": "第一章 新生活／特务",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107406,
+          "chapter_name": "隐神／妖怪",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107407,
+          "chapter_name": "第二章 灰色魔术师（Grau Zauberer）的理事／来自教会的袭击者（Exorsist）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107408,
+          "chapter_name": "第三章 五大宗家／奥之院",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107409,
+          "chapter_name": "第四章 狗神与朱雀／隐神与空亡",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107410,
+          "chapter_name": "末章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107411,
+          "chapter_name": "祸／羯磨",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107412,
+          "chapter_name": "百鬼黄叶／外法的巫女",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 107413,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 107414,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }

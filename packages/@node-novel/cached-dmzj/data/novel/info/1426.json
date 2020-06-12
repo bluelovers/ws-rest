@@ -3,13 +3,13 @@
   "name": "魔法少女育成计划",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 restart（后）",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 7653,
-  "last_update_chapter_id": 58858,
-  "last_update_time": 1459167411,
+  "last_update_volume_name": "第七卷 JOKERS",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10912,
+  "last_update_chapter_id": 107391,
+  "last_update_time": 1591679319,
   "cover": "https://xs.dmzj.com/img/webpic/27/mfsnycjh469l.jpg",
-  "hot_hits": 210654,
+  "hot_hits": 224424,
   "introduction": "大人气社交游戏“魔法少女育成计划”是一款以万里挑一的比例创造出真正魔法少女的奇迹的游戏。少女们有幸获得魔法的力量，享受起充实的每一天。可是某一天，运营商发出了一封写有“将增加过头的魔法少女减少到一半”这种单方面内容的通告，十六名魔法少女之间惨烈无情的生存竞赛就此拉开了序幕……\n第2回“这本轻小说真厉害”大奖·栗山千明奖得奖作家远藤浅蜊再次奉上的魔法惊险战斗故事！",
   "types": [
     "魔法",
@@ -18,8 +18,8 @@
   ],
   "authors": "远藤浅蜊",
   "first_letter": "M",
-  "subscribe_num": 9483,
-  "redis_update_time": 1576956245,
+  "subscribe_num": 10995,
+  "redis_update_time": 1591919894,
   "volume": [
     {
       "id": 5228,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1366882351,
-      "sum_chapters": 9
+      "sum_chapters": 59
     },
     {
       "id": 7414,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷 restart（前）",
       "volume_order": 20,
       "addtime": 1451118318,
-      "sum_chapters": 9
+      "sum_chapters": 59
     },
     {
       "id": 7653,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷 restart（后）",
       "volume_order": 30,
       "addtime": 1458980493,
-      "sum_chapters": 9
+      "sum_chapters": 59
     },
     {
       "id": 7652,
@@ -51,7 +51,39 @@
       "volume_name": "第四卷 episodes",
       "volume_order": 40,
       "addtime": 1458980474,
-      "sum_chapters": 9
+      "sum_chapters": 59
+    },
+    {
+      "id": 10909,
+      "lnovel_id": 1426,
+      "volume_name": "第五卷 limited 前",
+      "volume_order": 50,
+      "addtime": 1591675559,
+      "sum_chapters": 59
+    },
+    {
+      "id": 10910,
+      "lnovel_id": 1426,
+      "volume_name": "第六卷 limited 后",
+      "volume_order": 60,
+      "addtime": 1591675894,
+      "sum_chapters": 59
+    },
+    {
+      "id": 10911,
+      "lnovel_id": 1426,
+      "volume_name": "短篇",
+      "volume_order": 70,
+      "addtime": 1591676301,
+      "sum_chapters": 59
+    },
+    {
+      "id": 10912,
+      "lnovel_id": 1426,
+      "volume_name": "第七卷 JOKERS",
+      "volume_order": 80,
+      "addtime": 1591676352,
+      "sum_chapters": 59
     }
   ],
   "chapters": [
@@ -349,6 +381,208 @@
           "chapter_id": 58795,
           "chapter_name": "15.古兰迪儿的朋友",
           "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 10909,
+      "id": 10909,
+      "volume_name": "第五卷 limited 前",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 107340,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107341,
+          "chapter_name": "第一章 魔法少女部队成军",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107342,
+          "chapter_name": "第二章 沉醉于爱与爱心之中",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107343,
+          "chapter_name": "第三章 从地狱翩然降临的少女",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107344,
+          "chapter_name": "第四章 不成英雄便成偶像",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107345,
+          "chapter_name": "第五章 对决",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107346,
+          "chapter_name": "第六章 the beginning of the end",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107347,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10910,
+      "id": 10910,
+      "volume_name": "第六卷 limited 后",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 107348,
+          "chapter_name": "第七章 魔女们的一击",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107349,
+          "chapter_name": "第八章 降临",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107350,
+          "chapter_name": "第九章 与魔王在火焰中",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107351,
+          "chapter_name": "第十章 漫步彩虹之上",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107352,
+          "chapter_name": "第十一章 我的朋友",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107353,
+          "chapter_name": "第十二章 在你心中的魔法少女",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107354,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107390,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10911,
+      "id": 10911,
+      "volume_name": "短篇",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 107355,
+          "chapter_name": "白雪育成计划",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 10912,
+      "id": 10912,
+      "volume_name": "第七卷 JOKERS",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 107356,
+          "chapter_name": "插画",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107357,
+          "chapter_name": "魔法少女募集中",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107358,
+          "chapter_name": "序章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107359,
+          "chapter_name": "第一章 棱镜的对面",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107360,
+          "chapter_name": "幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107361,
+          "chapter_name": "第二章 全员集合",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107362,
+          "chapter_name": "幕间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107363,
+          "chapter_name": "第三章 与你相遇的奇迹",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107364,
+          "chapter_name": "幕间",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107365,
+          "chapter_name": "第四章 我就是犯人",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 107366,
+          "chapter_name": "幕间",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 107367,
+          "chapter_name": "第五章 Poker game",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 107368,
+          "chapter_name": "幕间",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 107369,
+          "chapter_name": "第六章 魔法少女猎人",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 107370,
+          "chapter_name": "尾声",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 107371,
+          "chapter_name": "后记",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 107391,
+          "chapter_name": "插画",
+          "chapter_order": 170
         }
       ]
     }
