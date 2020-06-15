@@ -3,13 +3,13 @@
   "name": "转生了的大圣女，拼死隐瞒自己身为圣女",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10915,
-  "last_update_chapter_id": 107447,
-  "last_update_time": 1591851126,
+  "last_update_volume_id": 10925,
+  "last_update_chapter_id": 107583,
+  "last_update_time": 1592111062,
   "cover": "https://xs.dmzj.com/img/webpic/14/zsdsn0611l.jpg",
-  "hot_hits": 24432,
+  "hot_hits": 78714,
   "introduction": "身为骑士家女儿，以骑士为目标的菲亚，临死时想起了自己曾为「大圣女」的前世。\n咦……咦？圣女不就是明明大幅弱体化，但因为频临灭绝，而被崇拜的职业嘛？\n而我能使用的圣女之力，却尽是已化为童话的「失落魔法」。\n说起来，在前世好像曾经被魔王的左右手威胁过『要是转生成圣女便杀了你』。\n要是使用这种力量，不就一下被揭穿是圣女，然后被杀掉嘛。\n……就是这样，我要贯彻初志当上骑士！我要安静活下去！\n虽然我这么想，可是却还是使用了拥有的力量了呢。因为，各种太方便了嘛……",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "十夜",
   "first_letter": "Z",
-  "subscribe_num": 1502,
-  "redis_update_time": 1591919755,
+  "subscribe_num": 2969,
+  "redis_update_time": 1592181211,
   "volume": [
     {
       "id": 10915,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1591850243,
-      "sum_chapters": 59
+      "sum_chapters": 63
+    },
+    {
+      "id": 10925,
+      "lnovel_id": 2881,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1592110603,
+      "sum_chapters": 63
     }
   ],
   "chapters": [
@@ -190,6 +198,104 @@
           "chapter_id": 107447,
           "chapter_name": "插画",
           "chapter_order": 310
+        }
+      ]
+    },
+    {
+      "volume_id": 10925,
+      "id": 10925,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 107566,
+          "chapter_name": "19 第四魔物骑士团 3",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107567,
+          "chapter_name": "20 骑士团长会议",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107568,
+          "chapter_name": "21 黑龙探索 1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107569,
+          "chapter_name": "【SIDE】黑龙萨比利亚",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107570,
+          "chapter_name": "22 黑龙探索 2",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107571,
+          "chapter_name": "23 黑龙探索后始末",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107572,
+          "chapter_name": "24 第六骑士团长主办查问会",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107573,
+          "chapter_name": "【SIDE】第六骑士团长萨加利",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107574,
+          "chapter_name": "【插话】缩小骑士团长会议",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107575,
+          "chapter_name": "【SIDE】第二骑士团长戴斯蒙",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 107576,
+          "chapter_name": "【SIDE】第一骑士团长西里尔",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 107577,
+          "chapter_name": "【插话】亚尔迪亚卡帝国的忧郁 ～Side Arteaga Empire～",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 107578,
+          "chapter_name": "菲亚，与黑龙萨比利亚确认「萨比利亚肃清名单」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 107579,
+          "chapter_name": "菲亚，向昆汀团长提供萨比利亚的鳞片",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 107580,
+          "chapter_name": "菲亚，与萨加利团长谈论成长",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 107581,
+          "chapter_name": "特别加笔「戴斯蒙宪兵司令官，宣布抽身与菲亚相关谍报活动」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 107582,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 107583,
+          "chapter_name": "插画",
+          "chapter_order": 180
         }
       ]
     }

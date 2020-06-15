@@ -3,21 +3,21 @@
   "name": "从被子弹击中的战场消失吧",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10766,
-  "last_update_chapter_id": 105434,
-  "last_update_time": 1586513500,
+  "last_update_volume_id": 10922,
+  "last_update_chapter_id": 107546,
+  "last_update_time": 1592038126,
   "cover": "https://xs.dmzj.com/img/webpic/20/zdzc0410l.jpg",
-  "hot_hits": 16440,
+  "hot_hits": 49292,
   "introduction": "　　机甲车四处横行、子弹魔法散落──东国与西国的战争已长达百年。东国的少年士兵雷鹰‧兰滋被逼到绝境，射出一枚陌生的子弹，杀死了敌方将校——剎那间，世界为之一变。战场被他熟悉的士官学校所取代，他甚至看到了理应死亡的同学。当雷鹰陷入困惑之时，制作了这颗子弹、名为艾亚的少女对他说：「这是恶魔的子弹，可以重新建构（reprogram）出被击中的人从一开始就不存在的世界。你想继续使用它吗？」面对毫无止境的战场，雷鹰做出的决定是——「我要用这子弹结束一切，改变一切。」\n　　击穿世界的规则，少年与少女的战斗即将开始——荣获第31届富士见Fantasia大奖的军事奇幻作品！",
   "types": [
     "奇幻"
   ],
   "authors": "上川景",
   "first_letter": "C",
-  "subscribe_num": 2387,
-  "redis_update_time": 1586736446,
+  "subscribe_num": 7025,
+  "redis_update_time": 1592180082,
   "volume": [
     {
       "id": 10766,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1586513189,
-      "sum_chapters": 26
+      "sum_chapters": 63
+    },
+    {
+      "id": 10922,
+      "lnovel_id": 2848,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1592035345,
+      "sum_chapters": 63
     }
   ],
   "chapters": [
@@ -104,6 +112,74 @@
           "chapter_id": 105434,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 10922,
+      "id": 10922,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 107535,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107536,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107537,
+          "chapter_name": "1、新的艾克赛利亚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107538,
+          "chapter_name": "2、争执",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107539,
+          "chapter_name": "3、所受的伤",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107540,
+          "chapter_name": "4、红色眼睛",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107541,
+          "chapter_name": "5、亡灵『蝶德莉姆』",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107542,
+          "chapter_name": "6、雪原攻防战",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107543,
+          "chapter_name": "7、vs蝶德莉姆",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107544,
+          "chapter_name": "8、那个世界是──",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 107545,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 107546,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }
