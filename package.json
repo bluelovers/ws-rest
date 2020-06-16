@@ -75,7 +75,6 @@
   "devDependencies": {
     "@bluelovers/tsconfig": "^1.0.19",
     "@node-novel/md-loader": "^1.0.9",
-    "@node-novel/site-cache-util": "^1.0.28",
     "@types/bluebird": "^3.5.32",
     "@types/chai": "^4.2.11",
     "@types/cheerio": "^0.22.18",
@@ -94,6 +93,7 @@
     "@types/tough-cookie": "^4",
     "@types/url-parse": "^1.4.3",
     "@types/uuid": "^8.0.0",
+    "bluebird-cancellation": "^1.0.14",
     "chai": "^4.2.0",
     "cross-ci": "^1.6.0",
     "cross-env": "^7.0.2",
@@ -101,8 +101,6 @@
     "env-ci": "^5.0.2",
     "jest": "^26.0.1",
     "jest-transform-stealthy-require": "^1.0.0",
-    "restful-decorator": "^1.0.42",
-    "restful-decorator-plugin-jsdom": "^1.0.22",
     "ts-jest": "^26.1.0",
     "ts-type": "^1.2.23"
   }
