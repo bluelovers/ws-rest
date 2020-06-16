@@ -25,7 +25,7 @@
     "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run build",
     "postpublish": "echo postpublish",
     "ncu": "npx yarn-tool ncu -u",
-    "sort-package-json": "npx sort-package-json package.json",
+    "sort-package-json": "npx yarn-tool sort",
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
