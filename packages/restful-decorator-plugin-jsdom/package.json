@@ -1,6 +1,6 @@
 {
   "name": "restful-decorator-plugin-jsdom",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@bluelovers/array-buffer-to-string": "^1.0.9",
-    "@bluelovers/axios-util": "^1.0.9",
+    "@bluelovers/axios-util": "^1.0.10",
     "@jsdom-extra/html-util": "^1.0.3",
     "@types/jquery": "*",
     "@types/jsdom": "*",
@@ -37,8 +37,8 @@
     "iconv-html-sniffer": "^1.0.7",
     "iconv-jschardet": "^2.0.8",
     "jsdom-extra": "^3.0.6",
-    "lazy-cookies": "^1.0.22",
-    "restful-decorator": "^1.0.42",
+    "lazy-cookies": "^1.0.23",
+    "restful-decorator": "^1.0.43",
     "tough-cookie": "< 4 & >= 3"
   },
   "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"

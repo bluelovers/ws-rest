@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/site-cache-util",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -36,10 +36,9 @@
     "lodash": "^4.17.15",
     "moment": "^2.26.0",
     "moment-timezone": "^0.5.31",
-    "restful-decorator": "^1.0.42",
+    "restful-decorator": "^1.0.43",
     "upath2": "^3.0.5"
   },
-  "devDependencies": {},
   "publishConfig": {
     "access": "public"
   },

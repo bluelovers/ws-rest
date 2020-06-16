@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/bluelovers/ws-rest/compare/phpwind-api@1.0.3...phpwind-api@1.0.4) (2020-06-16)
+
+
+### ♻️　Chores
+
+*  update deps ([9dd7c1f](https://github.com/bluelovers/ws-rest/commit/9dd7c1fc5b40ac28a6f928c89dbf36be1add89c6))
+
+
+
+
+
 ## [1.0.3](https://github.com/bluelovers/ws-rest/compare/phpwind-api@1.0.2...phpwind-api@1.0.3) (2020-06-05)
 
 **Note:** Version bump only for package phpwind-api

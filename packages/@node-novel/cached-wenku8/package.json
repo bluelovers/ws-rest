@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/cached-wenku8",
-  "version": "1.0.69",
+  "version": "1.0.70",
   "description": "cached wenku8 fake api like data",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -30,11 +30,11 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "devDependencies": {
-    "@node-novel/site-cache-util": "^1.0.28",
-    "axios-cache-adapter-util": "^1.0.38",
-    "lazy-cookies": "^1.0.22",
-    "restful-decorator": "^1.0.42",
-    "wenku8-api": "^1.0.33"
+    "@node-novel/site-cache-util": "^1.0.29",
+    "axios-cache-adapter-util": "^1.0.39",
+    "lazy-cookies": "^1.0.23",
+    "restful-decorator": "^1.0.43",
+    "wenku8-api": "^1.0.34"
   },
   "publishConfig": {
     "access": "public"
