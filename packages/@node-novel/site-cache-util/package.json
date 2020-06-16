@@ -26,8 +26,8 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@git-lazy/diff-staged": "^1.0.19",
-    "@git-lazy/util": "^1.0.20",
+    "@git-lazy/diff-staged": "^1.0.21",
+    "@git-lazy/util": "^1.0.21",
     "@types/bluebird": "^3.5.32",
     "@types/fs-extra": "^9.0.1",
     "bluebird": "^3.7.2",
@@ -39,10 +39,7 @@
     "restful-decorator": "^1.0.42",
     "upath2": "^3.0.5"
   },
-  "devDependencies": {
-    "@types/lodash": "^4.14.155",
-    "@types/moment-timezone": "^0.5.13"
-  },
+  "devDependencies": {},
   "publishConfig": {
     "access": "public"
   },

@@ -28,8 +28,13 @@
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@types/bluebird": "^3.5.32"
-  }
+  "dependencies": {
+    "@node-novel/parse-input-url": "^1.0.4",
+    "@node-novel/site-cache-util": "^1.0.28",
+    "lazy-url": "^1.0.10",
+    "restful-decorator": "^1.0.42",
+    "restful-decorator-plugin-jsdom": "^1.0.22",
+    "ts-type": "^1.2.23"
+  },
+  "devDependencies": {}
 }

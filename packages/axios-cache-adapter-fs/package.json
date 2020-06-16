@@ -34,7 +34,9 @@
     "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
+    "axios-cache-adapter-util": "^1.0.38",
     "bluebird": "^3.7.2",
+    "fs-extra": "^9.0.1",
     "restful-decorator": "^1.0.42",
     "ts-type": "^1.2.23",
     "typed-http-headers": "^1.0.7"

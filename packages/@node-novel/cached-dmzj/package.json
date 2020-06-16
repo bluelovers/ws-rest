@@ -31,23 +31,12 @@
   },
   "devDependencies": {
     "@bluelovers/axios-util": "^1.0.9",
-    "@bluelovers/fast-glob": "^3.0.4",
-    "@git-lazy/diff-staged": "^1.0.19",
-    "@git-lazy/util": "^1.0.20",
     "@node-novel/site-cache-util": "^1.0.28",
-    "@node-novel/sort": "^1.0.14",
-    "@novel-segment/util": "^1.0.29",
-    "@types/lodash": "^4.14.155",
-    "array-hyper-unique": "^1.1.2",
     "axios-cache-adapter-util": "^1.0.38",
     "dmzj-api": "^1.1.31",
-    "fs-extra": "^9.0.1",
-    "lodash": "^4.17.15",
-    "moment": "^2.26.0",
     "restful-decorator": "^1.0.42",
     "sort-object-keys2": "^2.0.3",
     "string-natural-compare": "^3.0.1",
-    "uni-string": "^1.1.9",
     "upath2": "^3.0.5"
   },
   "publishConfig": {

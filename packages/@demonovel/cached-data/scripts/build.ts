@@ -9,7 +9,6 @@ import build from '../lib/all/build';
 import { outputJSON, outputFile } from 'fs-extra';
 import { join } from "path";
 import { __rootCacheBuild, __rootCache } from '../lib/__root';
-import stableStringify from "@wincent/stable-stringify";
 import { toArray, _handle, toRecord } from '../lib/util/convert';
 import { IArrayCachedJSONRow, IRecordCachedJSONRow } from '../types';
 import buildCached from '../lib/all/cache';

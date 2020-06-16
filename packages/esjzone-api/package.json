@@ -26,14 +26,18 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
+    "@bluelovers/axios-extend": "^1.0.27",
     "@node-novel/parse-input-url": "^1.0.4",
     "array-hyper-unique": "^1.1.2",
     "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.3",
+    "jsdom-extra": "^3.0.6",
     "lazy-url": "^1.0.10",
     "lodash": "^4.17.15",
     "moment": "^2.26.0",
-    "restful-decorator-plugin-jsdom": "^1.0.22"
+    "restful-decorator": "^1.0.42",
+    "restful-decorator-plugin-jsdom": "^1.0.22",
+    "zero-width": "^1.0.12"
   },
   "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
 }

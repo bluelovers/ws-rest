@@ -19,7 +19,7 @@
     "axios-cache-adapter": "^2.5.0",
     "axios-cookiejar-support": "^1.0.0",
     "bluebird": "^3.7.2",
-    "debug-color2": "^1.2.2",
+    "debug-color2": "^1.2.3",
     "http-form-urlencoded": "^1.0.14",
     "lazy-cookies": "^1.0.22",
     "lazy-url": "^1.0.10",
@@ -29,11 +29,13 @@
     "reflect-metadata": "^0.1.13",
     "reflect-metadata-util": "^1.0.9",
     "router-uri-convert": "^1.0.17",
-    "tough-cookie": "< 4",
     "ts-enum-util": "^4.0.2",
     "ts-type": "^1.2.23",
     "typed-http-headers": "^1.0.7"
   },
   "devDependencies": {},
+  "peerDependencies": {
+    "tough-cookie": "*"
+  },
   "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
 }
