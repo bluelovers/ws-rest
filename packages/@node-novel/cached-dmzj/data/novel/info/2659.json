@@ -3,13 +3,13 @@
   "name": "谁都可以暗中助攻讨伐魔王",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10331,
-  "last_update_chapter_id": 99449,
-  "last_update_time": 1568462156,
+  "last_update_volume_id": 10933,
+  "last_update_chapter_id": 107682,
+  "last_update_time": 1592625407,
   "cover": "https://xs.dmzj.com/img/",
-  "hot_hits": 54365,
+  "hot_hits": 222297,
   "introduction": "　　如果说这是场试炼，那么神肯定是个残忍的虐待狂。\n　　为了打倒魔王，圣勇者藤堂直继被从异世界召唤而来。\n　　僧侣亚雷斯虽然接到了辅助他的命令，但在看到队伍成员时却感到一阵愕然。\n　　成员有只会使用火系魔法的魔导师莉蜜斯、刚转换流派的剑士阿丽雅，\n　　然后最关键的圣勇者却只愿意把清一色女性摆在身边，不停地做出鲁莽的举动……\n　　这样是要怎么打倒魔王啦！我又不是在收集奇人异士！\n　　此时，亚雷斯隐瞒自己的等级，开始暗中进行后援……\n　　这是一个由高等僧侣亚雷斯，引导圣勇者成为英雄的故事。",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "槻影",
   "first_letter": "S",
-  "subscribe_num": 3662,
-  "redis_update_time": 1568577967,
+  "subscribe_num": 7020,
+  "redis_update_time": 1592785695,
   "volume": [
     {
       "id": 10097,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557388264,
-      "sum_chapters": 3
+      "sum_chapters": 8
     },
     {
       "id": 10331,
@@ -35,7 +35,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1568461122,
-      "sum_chapters": 3
+      "sum_chapters": 8
+    },
+    {
+      "id": 10933,
+      "lnovel_id": 2659,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1592624607,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -170,6 +178,74 @@
         },
         {
           "chapter_id": 99449,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10933,
+      "id": 10933,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 107670,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107671,
+          "chapter_name": "第三部 Prologue 于是僧侣伤透了脑筋",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107672,
+          "chapter_name": "第一报告 新增成员的问题点及今后的计画",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107673,
+          "chapter_name": "第二报告 提升藤堂一行人的战力",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107674,
+          "chapter_name": "第三报告 改善新成员的弱点",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107675,
+          "chapter_name": "第四报告 发现痕迹及随之而来的作战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107676,
+          "chapter_name": "第五报告 调查巨魔像山谷的始末",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107677,
+          "chapter_name": "Epilogue 于是僧侣力求做到最好",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107678,
+          "chapter_name": "第四部 Interlude 我不会犯同样的错误",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107679,
+          "chapter_name": "Special story「史蒂芬☆超越颠峰的疯癫」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 107680,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 107682,
           "chapter_name": "插画",
           "chapter_order": 120
         }

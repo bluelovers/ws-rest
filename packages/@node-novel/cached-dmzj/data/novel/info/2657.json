@@ -3,13 +3,13 @@
   "name": "躺着也中枪的异世界召唤记",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10479,
-  "last_update_chapter_id": 101389,
-  "last_update_time": 1575794948,
+  "last_update_volume_id": 10931,
+  "last_update_chapter_id": 107655,
+  "last_update_time": 1592542289,
   "cover": "https://xs.dmzj.com/img/webpic/0/zq0506l.jpg",
-  "hot_hits": 44671,
+  "hot_hits": 100327,
   "introduction": "　　卷入异世界召唤的少年们，\n　　迎接他们的命运将会是──！？\n　　清醒过来时，他们发现自己已经身处在异世界之中。\n　　优斗、修、卓也以及和泉遇上客运车祸，\n　　就这么以勇者和受召唤牵连的朋友们身分在异世界展开生活。\n　　这四名阿宅对原本的世界没有任何留恋，在这个剑与魔法实际存在的世界里过得还算开心。\n　　他们历经和美少女家庭教师谈恋爱、参加异世界特有的校园活动，\n　　以及与朋友一同度过放学时间，每天都过得很充实。\n　　然而他们却拥有某种秘密。那是在平稳的日常生活中无法想像的事情……！？\n　　校园青春战斗奇幻故事，一场遭受牵连的异世界召唤物语即将展开！",
   "types": [
     "穿越",
@@ -17,8 +17,8 @@
   ],
   "authors": "结城ヒロ",
   "first_letter": "T",
-  "subscribe_num": 3383,
-  "redis_update_time": 1575867650,
+  "subscribe_num": 5358,
+  "redis_update_time": 1592784970,
   "volume": [
     {
       "id": 10090,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557131635,
-      "sum_chapters": 5
+      "sum_chapters": 8
     },
     {
       "id": 10479,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1575792597,
-      "sum_chapters": 5
+      "sum_chapters": 8
+    },
+    {
+      "id": 10931,
+      "lnovel_id": 2657,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1592542035,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -171,6 +179,64 @@
           "chapter_id": 101389,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10931,
+      "id": 10931,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 107646,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107647,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107648,
+          "chapter_name": "第一话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107649,
+          "chapter_name": "第二话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107650,
+          "chapter_name": "第三话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107651,
+          "chapter_name": "第四话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107652,
+          "chapter_name": "第五话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107653,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107654,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107655,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

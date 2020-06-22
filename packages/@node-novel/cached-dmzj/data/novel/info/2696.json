@@ -3,21 +3,21 @@
   "name": "获得超弱技能「地图化」的少年跟最强队伍一起挑战迷宫",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10530,
-  "last_update_chapter_id": 102168,
-  "last_update_time": 1577787689,
+  "last_update_volume_id": 10932,
+  "last_update_chapter_id": 107681,
+  "last_update_time": 1592625349,
   "cover": "https://xs.dmzj.com/img/webpic/10/dth0714l.jpg",
-  "hot_hits": 308000,
+  "hot_hits": 545606,
   "introduction": "15岁的诺特于「赠予仪式」里得到的技能是【地图化】──尽管稀有度很高，\n但比起其他技能却显得难以发挥，也就是常人口中的超弱技能。\n遭儿时玩伴舍弃、陷入失意深渊的诺特，就这么过著把身为冒险者赚来的薪水，\n全都拿去借酒浇愁的日子──这样的生活，在某天突然宣告结束。\n「我们需要拥有这个技能的你。」\n隶属于最强队伍『抵达者』的金恩提出邀请之后，\n诺特的命运就此彻底改变──这一次，我不会再放弃努力，\n必定会拚死挣扎到底。加入最强队伍的少年，\n一路成长、登上顶点的幻想巨作，就此揭开序幕！",
   "types": [
     "冒险"
   ],
   "authors": "鸭野うどん",
   "first_letter": "H",
-  "subscribe_num": 10503,
-  "redis_update_time": 1578033481,
+  "subscribe_num": 15832,
+  "redis_update_time": 1592785787,
   "volume": [
     {
       "id": 10233,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1563103495,
-      "sum_chapters": 7
+      "sum_chapters": 8
     },
     {
       "id": 10530,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1577787091,
-      "sum_chapters": 7
+      "sum_chapters": 8
+    },
+    {
+      "id": 10932,
+      "lnovel_id": 2696,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1592623855,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -215,6 +223,89 @@
           "chapter_id": 102168,
           "chapter_name": "插画",
           "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 10932,
+      "id": 10932,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 107656,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107657,
+          "chapter_name": "重启",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107658,
+          "chapter_name": "「幼女诱拐犯」VS「黑影」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107659,
+          "chapter_name": "摆在眼前的课题",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107660,
+          "chapter_name": "劝诱与跟踪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107661,
+          "chapter_name": "主角不为人知的过去",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107662,
+          "chapter_name": "在「抵达者」里的职责",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107663,
+          "chapter_name": "多灾多难",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107664,
+          "chapter_name": "复仇战",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107665,
+          "chapter_name": "插曲",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 107666,
+          "chapter_name": "反抗终结的选择",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 107667,
+          "chapter_name": "尾声＆序曲",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 107668,
+          "chapter_name": "中记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 107669,
+          "chapter_name": "外传◆是谁吃了布丁？",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 107681,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }
