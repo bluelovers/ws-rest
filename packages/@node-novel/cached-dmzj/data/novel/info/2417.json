@@ -3,21 +3,21 @@
   "name": "14岁与插画家",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10814,
-  "last_update_chapter_id": 106002,
-  "last_update_time": 1588220281,
+  "last_update_volume_name": "第五卷",
+  "last_update_chapter_name": "Episode 8.至福的岛烧酒",
+  "last_update_volume_id": 10944,
+  "last_update_chapter_id": 107820,
+  "last_update_time": 1593078277,
   "cover": "https://xs.dmzj.com/img/webpic/10/141217l.jpg",
-  "hot_hits": 149197,
+  "hot_hits": 180266,
   "introduction": "　　「轻小说的插画一本是三十万圆，税金、房租跟电脑的费用都是从这里支付。」\n　　走在特殊癖好业界最前端的职业插画家京桥悠斗，会把所有心力灌注在轻小说插画……尤其是肚脐上头。也许是物以类聚，他身边也尽是一些怪咖……最喜欢巨乳与酒的轻浮系资深插画家仓山锦。因为疯●作家们而每天不断操心，偶尔会吐出痛骂与黑血的编辑永井敬吾。对于自己被取了「跟踪狂吸引器」这个别名，总是充满笑容的爽朗美女插画家佐伯爱澄。然后，十四岁的角色扮演玩家乃木乃乃香，在活动结束之后跑来悠斗的房间，做出非常不得了的事情——！\n　　被理想、现实还有欲望耍得团团转，插画家们最真实的日常在此大公开！",
   "types": [
     "搞笑"
   ],
   "authors": "村崎幸也",
   "first_letter": "1",
-  "subscribe_num": 10261,
-  "redis_update_time": 1588551384,
+  "subscribe_num": 11385,
+  "redis_update_time": 1593129442,
   "volume": [
     {
       "id": 9132,
@@ -49,6 +49,14 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1588219861,
+      "sum_chapters": 23
+    },
+    {
+      "id": 10944,
+      "lnovel_id": 2417,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1592995990,
       "sum_chapters": 23
     }
   ],
@@ -337,6 +345,59 @@
           "chapter_id": 106002,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10944,
+      "id": 10944,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 107789,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107790,
+          "chapter_name": "Episode 1.是南国小岛耶！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107791,
+          "chapter_name": "Episode 2.这样那样的事于是",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107792,
+          "chapter_name": "Episode 3.明日叶与牛",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107793,
+          "chapter_name": "Episode 4.热烈欢迎！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107794,
+          "chapter_name": "Episode 5.夜晚的企划会议",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107795,
+          "chapter_name": "Episode 6.泳池边的秘密",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107796,
+          "chapter_name": "Episode 7.混浴露天温泉",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107820,
+          "chapter_name": "Episode 8.至福的岛烧酒",
+          "chapter_order": 90
         }
       ]
     }
