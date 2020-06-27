@@ -3,21 +3,21 @@
   "name": "魔术学院第一名毕业的我成为冒险者，真有那么奇怪吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10548,
-  "last_update_chapter_id": 102350,
-  "last_update_time": 1578905088,
+  "last_update_volume_id": 10951,
+  "last_update_chapter_id": 107887,
+  "last_update_time": 1593150473,
   "cover": "https://xs.dmzj.com/img/webpic/22/sx0624l.jpg",
-  "hot_hits": 131684,
+  "hot_hits": 273134,
   "introduction": "威廉身为魔术学院成绩第一的毕业生，拓展在他眼前的是收入优渥、工作稳定的康庄大道，然而他却选择充满自由与可能性的冒险者之路！只见他与盗贼、神官和剑客等三名少女一同组队，并凭藉远远凌驾新手冒险者水准的魔法能力，以及兼具谋略与实践性的战斗方式，轻松解决各种公会任务。不仅如此，他竟然还拥有超越魔术师等级的巫师称号……!?就连实力派冒险者少女都招架不住的超强魔术师冒险物语，在此开幕！",
   "types": [
     "冒险"
   ],
   "authors": "いかぽん",
   "first_letter": "M",
-  "subscribe_num": 7682,
-  "redis_update_time": 1578970956,
+  "subscribe_num": 12247,
+  "redis_update_time": 1593252351,
   "volume": [
     {
       "id": 10190,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1561374827,
-      "sum_chapters": 5
+      "sum_chapters": 9
     },
     {
       "id": 10548,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1578904267,
-      "sum_chapters": 5
+      "sum_chapters": 9
+    },
+    {
+      "id": 10951,
+      "lnovel_id": 2687,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1593150202,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -160,6 +168,64 @@
           "chapter_id": 102350,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 10951,
+      "id": 10951,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 107878,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107879,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107880,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107881,
+          "chapter_name": "中场休息（一）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107882,
+          "chapter_name": "中场休息（二）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107883,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107884,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107885,
+          "chapter_name": "深夜的秘密，真正的心愿",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107886,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107887,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
