@@ -152,6 +152,7 @@ export class LHScanClient extends AbstractHttpClientWithJSDom
 		;
 
 		const ret: IMangaData = {
+			id_key,
 			chapters,
 		}
 
@@ -185,6 +186,8 @@ export class LHScanClient extends AbstractHttpClientWithJSDom
 		;
 
 		return {
+			id_key: opts.id_key,
+			chapter_id: opts.chapter_id.toString(),
 			images,
 		} as IMangaReadData as any as Bluebird<IMangaReadData>
 	}

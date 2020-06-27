@@ -37,6 +37,7 @@ export interface ISearchSingleDataRowPlus extends ISearchSingleDataRow
 
 export interface IMangaData
 {
+	id_key: string;
 	chapters: IMangaChapter[];
 }
 
@@ -46,7 +47,7 @@ export interface IMangaChapter
 	chapter_id: string;
 }
 
-export interface IMangaReadData
+export interface IMangaReadData extends IMangaChapter
 {
 	images: string[];
 }
