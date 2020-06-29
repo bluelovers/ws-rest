@@ -3,13 +3,13 @@
   "name": "发誓复仇的白猫在龙王膝上贪睡懒觉",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "第18话 开始工作",
-  "last_update_volume_id": 8418,
-  "last_update_chapter_id": 79641,
-  "last_update_time": 1505641530,
+  "last_update_volume_name": "web版第二卷",
+  "last_update_chapter_name": "2-49宴会",
+  "last_update_volume_id": 10955,
+  "last_update_chapter_id": 107998,
+  "last_update_time": 1593351059,
   "cover": "https://xs.dmzj.com/img/webpic/27/bmlw0113l.jpg",
-  "hot_hits": 234117,
+  "hot_hits": 267526,
   "introduction": "因为被任性的青梅竹马彩梓亲近，森川瑠璃过着凄惨的生活。某日，受到那样的彩梓牵连的瑠璃被异世界召唤了。而且，由于阴谋被扔在了危险的森林……！？「绝对会活下去，向那些家伙报仇」可是，被亲切的魔法使切尔茜帮助，瑠璃饱享起了在异世界的生活。靠着因意想不到的事而得到的手镯的效果，瑠璃能够变身成白猫了。在寄住的龙王国被迫隐瞒了自己是人的她，眼下变得要以白猫的身姿度日了……。靠松软又毛茸茸的小小身姿要如何完成复仇呢！？アリアンローズ新人奖获奖作。　精灵与魔法的王道异世界幻想第一弹，就此登场！！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "クレハ",
   "first_letter": "F",
-  "subscribe_num": 11829,
-  "redis_update_time": 1564346780,
+  "subscribe_num": 14555,
+  "redis_update_time": 1593389649,
   "volume": [
     {
       "id": 8418,
@@ -26,7 +26,23 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1484311780,
-      "sum_chapters": 8
+      "sum_chapters": 49
+    },
+    {
+      "id": 10953,
+      "lnovel_id": 2267,
+      "volume_name": "web版第一卷",
+      "volume_order": 20,
+      "addtime": 1593266726,
+      "sum_chapters": 49
+    },
+    {
+      "id": 10955,
+      "lnovel_id": 2267,
+      "volume_name": "web版第二卷",
+      "volume_order": 30,
+      "addtime": 1593349947,
+      "sum_chapters": 49
     }
   ],
   "chapters": [
@@ -135,6 +151,482 @@
           "chapter_id": 79641,
           "chapter_name": "第18话 开始工作",
           "chapter_order": 200
+        }
+      ]
+    },
+    {
+      "volume_id": 10953,
+      "id": 10953,
+      "volume_name": "web版第一卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 107897,
+          "chapter_name": "1-1召唤",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107898,
+          "chapter_name": "1-2放逐",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107899,
+          "chapter_name": "1-3森之魔女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107900,
+          "chapter_name": "1-4精灵之力",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107901,
+          "chapter_name": "1-5时之精灵",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107902,
+          "chapter_name": "1-6到达市场",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107903,
+          "chapter_name": "1-7有说道的手镯",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107904,
+          "chapter_name": "1-8闲话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107905,
+          "chapter_name": "1-9邂逅",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107906,
+          "chapter_name": "1-10龙王",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 107907,
+          "chapter_name": "1-11府上访问",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 107908,
+          "chapter_name": "1-12受喜爱之子",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 107909,
+          "chapter_name": "1-13登城",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 107910,
+          "chapter_name": "1-14闲谈",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 107911,
+          "chapter_name": "1-15杰德",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 107912,
+          "chapter_name": "1-16探险",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 107913,
+          "chapter_name": "1-17败露了……",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 107914,
+          "chapter_name": "1-18空中飞翔的海天使",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 107915,
+          "chapter_name": "1-19闲聊",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 107916,
+          "chapter_name": "1-20可怕的传言",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 107917,
+          "chapter_name": "1-21会谈",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 107918,
+          "chapter_name": "1-22事实",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 107919,
+          "chapter_name": "1-23真相",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 107920,
+          "chapter_name": "1-24解开的误会",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 107921,
+          "chapter_name": "1-25好像被听到了",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 107922,
+          "chapter_name": "1-26注意到的事情",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 107923,
+          "chapter_name": "1-27归还",
+          "chapter_order": 270
+        },
+        {
+          "chapter_id": 107924,
+          "chapter_name": "1-28战争1",
+          "chapter_order": 280
+        },
+        {
+          "chapter_id": 107925,
+          "chapter_name": "1-29战争2",
+          "chapter_order": 290
+        },
+        {
+          "chapter_id": 107926,
+          "chapter_name": "1-30再会",
+          "chapter_order": 300
+        },
+        {
+          "chapter_id": 107927,
+          "chapter_name": "1-31说教",
+          "chapter_order": 310
+        },
+        {
+          "chapter_id": 107928,
+          "chapter_name": "1-32战胜的庆祝",
+          "chapter_order": 320
+        },
+        {
+          "chapter_id": 107929,
+          "chapter_name": "1-33试用期",
+          "chapter_order": 330
+        },
+        {
+          "chapter_id": 107930,
+          "chapter_name": "1-34杂谈",
+          "chapter_order": 340
+        },
+        {
+          "chapter_id": 107931,
+          "chapter_name": "1-35逃跑",
+          "chapter_order": 350
+        },
+        {
+          "chapter_id": 107932,
+          "chapter_name": "1-36离别",
+          "chapter_order": 360
+        },
+        {
+          "chapter_id": 107933,
+          "chapter_name": "1-37从天堂到地狱",
+          "chapter_order": 370
+        },
+        {
+          "chapter_id": 107934,
+          "chapter_name": "1-38龙心",
+          "chapter_order": 380
+        },
+        {
+          "chapter_id": 107935,
+          "chapter_name": "1-39转眼之间",
+          "chapter_order": 390
+        },
+        {
+          "chapter_id": 107936,
+          "chapter_name": "1-40信",
+          "chapter_order": 400
+        },
+        {
+          "chapter_id": 107937,
+          "chapter_name": "1-41尾声",
+          "chapter_order": 410
+        },
+        {
+          "chapter_id": 107938,
+          "chapter_name": "番外1 充满阳光的记忆",
+          "chapter_order": 420
+        },
+        {
+          "chapter_id": 107939,
+          "chapter_name": "番外2 在艾德雷兹的生活",
+          "chapter_order": 430
+        }
+      ]
+    },
+    {
+      "volume_id": 10955,
+      "id": 10955,
+      "volume_name": "web版第二卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 107950,
+          "chapter_name": "2-1开始的事件",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107951,
+          "chapter_name": "2-2莉迪亚和茶会",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107952,
+          "chapter_name": "2-3请求",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107953,
+          "chapter_name": "2-4购入房子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107954,
+          "chapter_name": "2-5在王都散步",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107955,
+          "chapter_name": "2-6瑟鲁兰达国的受喜爱之子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107956,
+          "chapter_name": "2-7闲话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107957,
+          "chapter_name": "2-8神光教",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107958,
+          "chapter_name": "2-9一触即发",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107959,
+          "chapter_name": "2-10水豚来袭",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 107960,
+          "chapter_name": "2-11忧郁",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 107961,
+          "chapter_name": "2-12兽王和受喜爱之子",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 107962,
+          "chapter_name": "2-13行商",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 107963,
+          "chapter_name": "2-14受喜爱之子的水平",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 107964,
+          "chapter_name": "2-15画肖像画",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 107965,
+          "chapter_name": "2-16小太郎震怒",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 107966,
+          "chapter_name": "2-17骚乱",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 107967,
+          "chapter_name": "2-18死神",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 107968,
+          "chapter_name": "2-19失踪",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 107969,
+          "chapter_name": "2-20袭击",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 107970,
+          "chapter_name": "2-21危机一发",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 107971,
+          "chapter_name": "2-22毁坏一半",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 107972,
+          "chapter_name": "2-23听取情况",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 107973,
+          "chapter_name": "2-24诺亚的理由",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 107974,
+          "chapter_name": "2-25去兽王国",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 107975,
+          "chapter_name": "2-26龙血",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 107976,
+          "chapter_name": "2-27恋爱的预感？",
+          "chapter_order": 270
+        },
+        {
+          "chapter_id": 107977,
+          "chapter_name": "2-28旅行路上",
+          "chapter_order": 280
+        },
+        {
+          "chapter_id": 107978,
+          "chapter_name": "2-29手镯",
+          "chapter_order": 290
+        },
+        {
+          "chapter_id": 107979,
+          "chapter_name": "2-30到达兽王国",
+          "chapter_order": 300
+        },
+        {
+          "chapter_id": 107980,
+          "chapter_name": "2-31第二天",
+          "chapter_order": 310
+        },
+        {
+          "chapter_id": 107981,
+          "chapter_name": "2-32误会",
+          "chapter_order": 320
+        },
+        {
+          "chapter_id": 107982,
+          "chapter_name": "2-33上街去吧",
+          "chapter_order": 330
+        },
+        {
+          "chapter_id": 107983,
+          "chapter_name": "2-34龙血的效果",
+          "chapter_order": 340
+        },
+        {
+          "chapter_id": 107984,
+          "chapter_name": "2-35传言",
+          "chapter_order": 350
+        },
+        {
+          "chapter_id": 107985,
+          "chapter_name": "2-36证言",
+          "chapter_order": 360
+        },
+        {
+          "chapter_id": 107986,
+          "chapter_name": "2-37死人的村庄",
+          "chapter_order": 370
+        },
+        {
+          "chapter_id": 107987,
+          "chapter_name": "2-39酒会",
+          "chapter_order": 380
+        },
+        {
+          "chapter_id": 107988,
+          "chapter_name": "2-39没有灵魂的身体",
+          "chapter_order": 390
+        },
+        {
+          "chapter_id": 107989,
+          "chapter_name": "2-40赛莱丝汀的想法",
+          "chapter_order": 400
+        },
+        {
+          "chapter_id": 107990,
+          "chapter_name": "2-41不检点",
+          "chapter_order": 410
+        },
+        {
+          "chapter_id": 107991,
+          "chapter_name": "2-42火之精灵",
+          "chapter_order": 420
+        },
+        {
+          "chapter_id": 107992,
+          "chapter_name": "2-43乌兰山",
+          "chapter_order": 430
+        },
+        {
+          "chapter_id": 107993,
+          "chapter_name": "2-44神光教的据点",
+          "chapter_order": 440
+        },
+        {
+          "chapter_id": 107994,
+          "chapter_name": "2-45消失的士兵",
+          "chapter_order": 450
+        },
+        {
+          "chapter_id": 107995,
+          "chapter_name": "2-46喷火",
+          "chapter_order": 460
+        },
+        {
+          "chapter_id": 107996,
+          "chapter_name": "2-47沉淀",
+          "chapter_order": 470
+        },
+        {
+          "chapter_id": 107997,
+          "chapter_name": "2-48事件的始末",
+          "chapter_order": 480
+        },
+        {
+          "chapter_id": 107998,
+          "chapter_name": "2-49宴会",
+          "chapter_order": 490
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "魔王学园的反叛者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10898,
-  "last_update_chapter_id": 107131,
-  "last_update_time": 1590981690,
+  "last_update_volume_id": 10954,
+  "last_update_chapter_id": 107949,
+  "last_update_time": 1593321532,
   "cover": "https://xs.dmzj.com/img/webpic/1/mwxy0424l.jpg",
-  "hot_hits": 138540,
+  "hot_hits": 200579,
   "introduction": "身为「人类」的主人公目标竟然是「魔族」之王 击败最强的魔族，向魔族的顶端不断进发吧！！",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "久慈マサムネ",
   "first_letter": "M",
-  "subscribe_num": 10259,
-  "redis_update_time": 1591374101,
+  "subscribe_num": 12738,
+  "redis_update_time": 1593390079,
   "volume": [
     {
       "id": 10798,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1587730229,
-      "sum_chapters": 8
+      "sum_chapters": 49
     },
     {
       "id": 10898,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1590980890,
-      "sum_chapters": 8
+      "sum_chapters": 49
+    },
+    {
+      "id": 10954,
+      "lnovel_id": 2856,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1593321043,
+      "sum_chapters": 49
     }
   ],
   "chapters": [
@@ -154,6 +162,64 @@
         },
         {
           "chapter_id": 107131,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 10954,
+      "id": 10954,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 107940,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 107941,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 107942,
+          "chapter_name": "第一章 魔族的同盟",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 107943,
+          "chapter_name": "第二章 某日突然，妹来到",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 107944,
+          "chapter_name": "第三章 假如死亡可以逆转",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 107945,
+          "chapter_name": "第四章 星与月的对决",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 107946,
+          "chapter_name": "第五章 死神",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 107947,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 107948,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 107949,
           "chapter_name": "插画",
           "chapter_order": 100
         }
