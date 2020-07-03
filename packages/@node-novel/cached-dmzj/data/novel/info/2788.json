@@ -3,13 +3,13 @@
   "name": "理想的女儿是世界最强，你也愿意宠爱吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "终章",
-  "last_update_volume_id": 10574,
-  "last_update_chapter_id": 102640,
-  "last_update_time": 1580290019,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 10962,
+  "last_update_chapter_id": 108107,
+  "last_update_time": 1593612627,
   "cover": "https://xs.dmzj.com/img/webpic/21/kazq0129l.jpg",
-  "hot_hits": 35637,
+  "hot_hits": 92740,
   "introduction": "白银冬真是救世主──但现在只是一名平凡的家庭主夫。\n人类再生机构「凰花」──那里是在与孢子兽之战中败北，\n被赶至地下的人类仅剩的最后生存圈，\n而在最底层的「学园都市」里，正培养著人们唯一的希望「魔法骑士」。\n冬真的女儿白银雪奈在测试中创下史上最高的能力值纪录，\n以最强的S级身分进入学园都市中菁英云集的「第一魔法骑士学园」就读。\n冬真为自己离开战场后静静守护至今的爱女成长之姿感动落泪，\n然而他却在某天接获一道极机密指令──\n「跟你女儿一起上学，这是特务指令」。\n世界最强的女儿与表面上是普通人的父亲，\n两人之间的动人羁绊与波澜万丈的故事即将展开！",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "三河ごーすと",
   "first_letter": "L",
-  "subscribe_num": 3710,
-  "redis_update_time": 1580429171,
+  "subscribe_num": 8475,
+  "redis_update_time": 1593734792,
   "volume": [
     {
       "id": 10574,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1580289787,
-      "sum_chapters": 27
+      "sum_chapters": 29
+    },
+    {
+      "id": 10962,
+      "lnovel_id": 2788,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1593609428,
+      "sum_chapters": 29
     }
   ],
   "chapters": [
@@ -125,6 +133,89 @@
           "chapter_id": 102640,
           "chapter_name": "终章",
           "chapter_order": 180
+        }
+      ]
+    },
+    {
+      "volume_id": 10962,
+      "id": 10962,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 108079,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108080,
+          "chapter_name": "「老废物」压制战",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108081,
+          "chapter_name": "无情的复仇者<Avenger>",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 108082,
+          "chapter_name": "回到该回去的地方",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 108083,
+          "chapter_name": "与圣女的茶会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 108084,
+          "chapter_name": "阅兵典礼和不平静的「日常」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 108085,
+          "chapter_name": "女仆骑士团长VS最强执事",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 108086,
+          "chapter_name": "洗涤生命",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 108087,
+          "chapter_name": "新生活开始了",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 108088,
+          "chapter_name": "太快到来的出征",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 108089,
+          "chapter_name": "阴谋的死城",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 108090,
+          "chapter_name": "第八○二战斗兵团",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 108091,
+          "chapter_name": "开始发作的剧毒",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 108092,
+          "chapter_name": "终章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 108107,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }

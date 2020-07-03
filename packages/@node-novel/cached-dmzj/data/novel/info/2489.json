@@ -3,13 +3,13 @@
   "name": "恋爱至上都市的双骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10635,
-  "last_update_chapter_id": 103770,
-  "last_update_time": 1582708913,
+  "last_update_volume_id": 10958,
+  "last_update_chapter_id": 108064,
+  "last_update_time": 1593492583,
   "cover": "https://xs.dmzj.com/img/webpic/28/lc0518l.jpg",
-  "hot_hits": 104071,
+  "hot_hits": 145107,
   "introduction": "黑峰勇也：曾经拯救世界的‘双骑士’。虽然他经常被蓝叶折腾，但本人拥有凌驾于魔王的压倒性的强大。是恋爱初学者，跟蓝叶所进行的亲热训练让他感到苦恼。\n苍宫蓝叶：跟勇也一样，是拯救了世界的‘双骑士’。虽然常跟勇也吵架，但却很迷恋守护自己的勇也。这份感情却无法坦率地表达出来，总是采取自大的态度。",
   "types": [
     "爱情",
@@ -17,8 +17,8 @@
   ],
   "authors": "篠宫夕",
   "first_letter": "L",
-  "subscribe_num": 14371,
-  "redis_update_time": 1582848143,
+  "subscribe_num": 16509,
+  "redis_update_time": 1593735309,
   "volume": [
     {
       "id": 9432,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1526634803,
-      "sum_chapters": 9
+      "sum_chapters": 29
     },
     {
       "id": 10635,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1582704971,
-      "sum_chapters": 9
+      "sum_chapters": 29
+    },
+    {
+      "id": 10958,
+      "lnovel_id": 2489,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1593489588,
+      "sum_chapters": 29
     }
   ],
   "chapters": [
@@ -171,6 +179,79 @@
           "chapter_id": 103770,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 10958,
+      "id": 10958,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 108016,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108017,
+          "chapter_name": "第一章 三骑士的日常",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108018,
+          "chapter_name": "第二章 恋战学园",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 108019,
+          "chapter_name": "第三章 晒恩爱×教学",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 108020,
+          "chapter_name": "第四章 邂逅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 108021,
+          "chapter_name": "第五章 恋战开始",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 108022,
+          "chapter_name": "第六章 告白1（苍宫蓝叶）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 108023,
+          "chapter_name": "第七章 英雄再诞",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 108024,
+          "chapter_name": "第八章 告白2（黑峰勇也）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 108025,
+          "chapter_name": "第九章 恋爱至上都市的双骑士（情侣）",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 108026,
+          "chapter_name": "终章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 108027,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 108064,
+          "chapter_name": "插画",
+          "chapter_order": 130
         }
       ]
     }

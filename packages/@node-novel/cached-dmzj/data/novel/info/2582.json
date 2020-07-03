@@ -3,21 +3,21 @@
   "name": "天才王子的赤字国家振兴术",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10572,
-  "last_update_chapter_id": 105792,
-  "last_update_time": 1587729468,
+  "last_update_volume_name": "第七卷",
+  "last_update_chapter_name": "尾声",
+  "last_update_volume_id": 10963,
+  "last_update_chapter_id": 108099,
+  "last_update_time": 1593610222,
   "cover": "https://xs.dmzj.com/img/webpic/16/tiancai1120l.jpg",
-  "hot_hits": 721528,
+  "hot_hits": 824554,
   "introduction": "暂无简介",
   "types": [
     "战争"
   ],
   "authors": "鸟羽彻",
   "first_letter": "T",
-  "subscribe_num": 22373,
-  "redis_update_time": 1587946409,
+  "subscribe_num": 23389,
+  "redis_update_time": 1593734000,
   "volume": [
     {
       "id": 9804,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 对了，卖国吧",
       "volume_order": 10,
       "addtime": 1543400238,
-      "sum_chapters": 9
+      "sum_chapters": 29
     },
     {
       "id": 9830,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1544339273,
-      "sum_chapters": 9
+      "sum_chapters": 29
     },
     {
       "id": 9925,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1548691648,
-      "sum_chapters": 9
+      "sum_chapters": 29
     },
     {
       "id": 10572,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1580207054,
-      "sum_chapters": 9
+      "sum_chapters": 29
     },
     {
       "id": 10715,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1585194415,
-      "sum_chapters": 9
+      "sum_chapters": 29
     },
     {
       "id": 10782,
@@ -65,7 +65,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1587223977,
-      "sum_chapters": 9
+      "sum_chapters": 29
+    },
+    {
+      "id": 10963,
+      "lnovel_id": 2582,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1593609872,
+      "sum_chapters": 29
     }
   ],
   "chapters": [
@@ -384,6 +392,49 @@
           "chapter_id": 105662,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10963,
+      "id": 10963,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 108093,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108094,
+          "chapter_name": "第一章 对了，叫来帝都吧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108095,
+          "chapter_name": "第二章 开始转动的历史之表里",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 108096,
+          "chapter_name": "第三章 必然的结局",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 108097,
+          "chapter_name": "第四章 谋略的漩涡",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 108098,
+          "chapter_name": "第五章 愿望",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 108099,
+          "chapter_name": "尾声",
+          "chapter_order": 70
         }
       ]
     }
