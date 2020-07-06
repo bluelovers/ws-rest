@@ -3,13 +3,13 @@
   "name": "药师少女的独语(药屋少女的呢喃)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10549,
-  "last_update_chapter_id": 102430,
-  "last_update_time": 1579512510,
+  "last_update_volume_id": 10970,
+  "last_update_chapter_id": 108244,
+  "last_update_time": 1593946778,
   "cover": "https://xs.dmzj.com/img/webpic/25/yw0630l.jpg",
-  "hot_hits": 246974,
+  "hot_hits": 344713,
   "introduction": "位于大陆中央的某大国，原在花街从事药师工作的少女「猫猫」，被卖进宫中成为下女。得知了皇帝的年幼御子们一一早夭的传闻，以自身的药学知识解开了早夭之谜、挽救了御子的性命，得到后宫统领者「壬氏」的赏识，成为皇妃身边的试毒者。在好奇心与求知欲的驱使下，药学狂人猫猫将宫中发生的悬疑事件接连解决。",
   "types": [
     "历史",
@@ -17,8 +17,8 @@
   ],
   "authors": "日向夏",
   "first_letter": "Y",
-  "subscribe_num": 21738,
-  "redis_update_time": 1579877947,
+  "subscribe_num": 24045,
+  "redis_update_time": 1593995875,
   "volume": [
     {
       "id": 10492,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1576315992,
-      "sum_chapters": 9
+      "sum_chapters": 2
     },
     {
       "id": 10493,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1576316434,
-      "sum_chapters": 9
+      "sum_chapters": 2
     },
     {
       "id": 10549,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1578904479,
-      "sum_chapters": 9
+      "sum_chapters": 2
+    },
+    {
+      "id": 10970,
+      "lnovel_id": 2512,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1593941402,
+      "sum_chapters": 2
     }
   ],
   "chapters": [
@@ -472,6 +480,139 @@
           "chapter_id": 102430,
           "chapter_name": "插画",
           "chapter_order": 230
+        }
+      ]
+    },
+    {
+      "volume_id": 10970,
+      "id": 10970,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 108213,
+          "chapter_name": "序话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108214,
+          "chapter_name": "一话 浴殿",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108215,
+          "chapter_name": "二话 赤羽",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 108216,
+          "chapter_name": "三话 翩舞幽魂",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 108217,
+          "chapter_name": "四话 传闻中的宦官",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 108218,
+          "chapter_name": "五话 冰糕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 108219,
+          "chapter_name": "六话 逆产儿",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 108220,
+          "chapter_name": "七话 毒瘤 上篇",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 108221,
+          "chapter_name": "八话 毒瘤 下篇",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 108222,
+          "chapter_name": "九话 狐狸相斗",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 108223,
+          "chapter_name": "十话 足迹",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 108224,
+          "chapter_name": "十一话 狐狸乡",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 108225,
+          "chapter_name": "十二话 酸浆",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 108226,
+          "chapter_name": "十三话 祭典",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 108227,
+          "chapter_name": "十四话 交易现场",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 108228,
+          "chapter_name": "十五话 城寨",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 108229,
+          "chapter_name": "十六话 罗半",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 108230,
+          "chapter_name": "十七话 虿盆",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 108231,
+          "chapter_name": "十八话 突火枪",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 108232,
+          "chapter_name": "十九话 行军",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 108233,
+          "chapter_name": "二十话 奇袭作战",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 108234,
+          "chapter_name": "二十一话 始末缘由",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 108235,
+          "chapter_name": "二十二话 狐妖惑人",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 108236,
+          "chapter_name": "终话",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 108244,
+          "chapter_name": "插画",
+          "chapter_order": 250
         }
       ]
     }
