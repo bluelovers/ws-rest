@@ -3,13 +3,13 @@
   "name": "全缉毒狂潮",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10726,
-  "last_update_chapter_id": 104887,
-  "last_update_time": 1585226799,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "第二章",
+  "last_update_volume_id": 10724,
+  "last_update_chapter_id": 108559,
+  "last_update_time": 1594650949,
   "cover": "https://xs.dmzj.com/img/webpic/6/823I.jpg",
-  "hot_hits": 228877,
+  "hot_hits": 256171,
   "introduction": "十五年前，太平洋上赫然出现了一个连接异世界的大门。对面的世界——塞玛尼世界拥有着与数百年前的地球类似的文明，现在，来自那个剑与魔法世界的少女骑士与地球的刑警组成了奇怪的组合，两人向着共同的目标，前进——!!",
   "types": [
     "冒险",
@@ -19,8 +19,8 @@
   ],
   "authors": "贺东招二",
   "first_letter": "Q",
-  "subscribe_num": 15700,
-  "redis_update_time": 1585565780,
+  "subscribe_num": 17899,
+  "redis_update_time": 1594945415,
   "volume": [
     {
       "id": 2615,
@@ -28,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1275561493,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 3871,
@@ -36,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1313722429,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 4145,
@@ -44,15 +44,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1324866058,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 10724,
       "lnovel_id": 765,
-      "volume_name": "第四卷 暂无",
+      "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1585226505,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 10725,
@@ -60,7 +60,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1585226510,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 10726,
@@ -68,7 +68,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1585226623,
-      "sum_chapters": 10
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -209,9 +209,25 @@
     {
       "volume_id": 10724,
       "id": 10724,
-      "volume_name": "第四卷 暂无",
+      "volume_name": "第四卷",
       "volume_order": 40,
-      "chapters": []
+      "chapters": [
+        {
+          "chapter_id": 108557,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108558,
+          "chapter_name": "Ep5：猫急跳墙 第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108559,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        }
+      ]
     },
     {
       "volume_id": 10725,

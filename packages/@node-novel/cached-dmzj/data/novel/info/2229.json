@@ -3,13 +3,13 @@
   "name": "从今天起我就是萝莉的小白脸！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9000,
-  "last_update_chapter_id": 79996,
-  "last_update_time": 1507720283,
+  "last_update_volume_id": 10987,
+  "last_update_chapter_id": 108601,
+  "last_update_time": 1594825025,
   "cover": "https://xs.dmzj.com/img/webpic/3/xbl1112l.jpg",
-  "hot_hits": 192295,
+  "hot_hits": 271927,
   "introduction": "我——天堂晴悠哉地决定成为漫画家。有一天，我感觉自己的人生已经圆满了。那是因为，凭借投资赚得盆满钵满富得流油的美少女小学生——二条藤花居然是我的大粉丝，而且还说要成为我的赞助者！藤花让我住在她的家里，基本上不愁吃不愁穿，而且还给我买来各种各样的漫画BD手办Cos服装等能够成为我创作资料的东西！虽说有了资料也不一定能画出漫画，但既然有了如此梦幻般的环境，我总有一天一定能够画出名垂千古的作品的。……嗯，我想，大概可以吧……？充满甜蜜与快乐的理想小白脸生活，正式开始！",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "晓雪",
   "first_letter": "C",
-  "subscribe_num": 21328,
-  "redis_update_time": 1564355767,
+  "subscribe_num": 25892,
+  "redis_update_time": 1594943463,
   "volume": [
     {
       "id": 8282,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1478947412,
-      "sum_chapters": 8
+      "sum_chapters": 14
     },
     {
       "id": 8582,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1490975811,
-      "sum_chapters": 8
+      "sum_chapters": 14
     },
     {
       "id": 8861,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1500998743,
-      "sum_chapters": 8
+      "sum_chapters": 14
     },
     {
       "id": 9000,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1507719623,
-      "sum_chapters": 8
+      "sum_chapters": 14
+    },
+    {
+      "id": 10987,
+      "lnovel_id": 2229,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1594824626,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -378,6 +386,89 @@
           "chapter_id": 79996,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 10987,
+      "id": 10987,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 108587,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108588,
+          "chapter_name": "可不能给警察叔叔抓到",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108589,
+          "chapter_name": "灰萝莉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 108590,
+          "chapter_name": "萝莉点心师",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 108591,
+          "chapter_name": "萝莉巨乳（伪）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 108592,
+          "chapter_name": "猜小白脸",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 108593,
+          "chapter_name": "跟黑发萝莉一同撑伞",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 108594,
+          "chapter_name": "跟傲娇萝莉一同撑伞",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 108595,
+          "chapter_name": "跟猫耳萝莉一同撑伞",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 108596,
+          "chapter_name": "萝莉AV",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 108597,
+          "chapter_name": "小白脸学校",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 108598,
+          "chapter_name": "小白脸牛郎",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 108599,
+          "chapter_name": "圣诞快萝",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 108600,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 108601,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }

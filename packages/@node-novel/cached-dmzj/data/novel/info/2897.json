@@ -3,13 +3,13 @@
   "name": "异世界冒险者传",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "三、旅程篇",
-  "last_update_chapter_name": "一章全",
-  "last_update_volume_id": 10980,
-  "last_update_chapter_id": 108534,
-  "last_update_time": 1594490938,
+  "last_update_volume_name": "四、海洛德灾厄篇(未完)",
+  "last_update_chapter_name": "四、海洛德灾厄篇(未完)",
+  "last_update_volume_id": 10984,
+  "last_update_chapter_id": 108571,
+  "last_update_time": 1594736735,
   "cover": "https://xs.dmzj.com/img/webpic/1/cz1219l.jpg",
-  "hot_hits": 6558,
+  "hot_hits": 11379,
   "introduction": "（国轻）在这里，存在一个名为\"伊甸园\"的世界\n\n8+1个人因召唤来到了这里......\n\n一位曾经来过这个世界的人，\n\n八位从没来过这个世界的人。\n\n突然必须面对责任与义务的人，\n\n以及曾经完成责任与义务的人。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "破内裤",
   "first_letter": "Y",
-  "subscribe_num": 631,
-  "redis_update_time": 1594599789,
+  "subscribe_num": 885,
+  "redis_update_time": 1594944741,
   "volume": [
     {
       "id": 10976,
@@ -26,7 +26,7 @@
       "volume_name": "设定篇",
       "volume_order": 10,
       "addtime": 1594292343,
-      "sum_chapters": 73
+      "sum_chapters": 14
     },
     {
       "id": 10977,
@@ -34,7 +34,7 @@
       "volume_name": "一、启程篇",
       "volume_order": 20,
       "addtime": 1594292386,
-      "sum_chapters": 73
+      "sum_chapters": 14
     },
     {
       "id": 10978,
@@ -42,7 +42,7 @@
       "volume_name": "二、哥布林魔神篇",
       "volume_order": 30,
       "addtime": 1594292422,
-      "sum_chapters": 73
+      "sum_chapters": 14
     },
     {
       "id": 10980,
@@ -50,7 +50,15 @@
       "volume_name": "三、旅程篇",
       "volume_order": 40,
       "addtime": 1594490904,
-      "sum_chapters": 73
+      "sum_chapters": 14
+    },
+    {
+      "id": 10984,
+      "lnovel_id": 2897,
+      "volume_name": "四、海洛德灾厄篇(未完)",
+      "volume_order": 50,
+      "addtime": 1594736697,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -107,6 +115,19 @@
         {
           "chapter_id": 108534,
           "chapter_name": "一章全",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 10984,
+      "id": 10984,
+      "volume_name": "四、海洛德灾厄篇(未完)",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 108571,
+          "chapter_name": "四、海洛德灾厄篇(未完)",
           "chapter_order": 10
         }
       ]
