@@ -3,11 +3,21 @@
  */
 import fs, { readJSON, writeJSON } from 'fs-extra';
 import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
-import { IESJzoneRecentUpdateCache, IESJzoneRecentUpdateDay, IESJzoneRecentUpdateRow } from 'esjzone-api/lib/types';
+import {
+	IESJzoneRecentUpdateCache,
+	IESJzoneRecentUpdateDay,
+	IESJzoneRecentUpdateRow,
+	IESJzoneRecentUpdateRowBook,
+} from 'esjzone-api/lib/types';
 import Bluebird from 'bluebird';
 import { consoleDebug, getApiClient } from '../util';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 import orderBy from 'lodash/orderBy';
+import FastGlob from '@bluelovers/fast-glob/bluebird';
+import { join } from 'path';
+import { dirname } from 'path';
+import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
+import { basename } from 'upath2';
 
 export default lazyRun(async () =>
 {
@@ -15,7 +25,8 @@ export default lazyRun(async () =>
 	const { api, saveCache } = await getApiClient();
 
 	let recentUpdate = await readJSON(cacheFilePaths.recentUpdate) as IESJzoneRecentUpdateCache;
-	let listCache = await readJSON(cacheFilePaths.task001).catch(e => {
+	let listCache = await readJSON(cacheFilePaths.task001).catch(e =>
+	{
 		return {}
 	}) as Record<string, number>;
 	let recentUpdateDayOld = await readJSON(cacheFilePaths.recentUpdateDay).catch(e => null) as IESJzoneRecentUpdateDay;
@@ -36,7 +47,8 @@ export default lazyRun(async () =>
 					// @ts-ignore
 					let ls = list.concat(old);
 
-					ls = Object.values(ls.reduce((a, v) => {
+					ls = Object.values(ls.reduce((a, v) =>
+					{
 
 						if (!a[v.id])
 						{
@@ -53,7 +65,8 @@ export default lazyRun(async () =>
 		;
 
 		recentUpdateDay.summary = Object.entries(recentUpdateDay.summary)
-			.reduce((a, [k, v]) => {
+			.reduce((a, [k, v]) =>
+			{
 
 				let old = recentUpdateDayOld.summary[k];
 
@@ -94,6 +107,39 @@ export default lazyRun(async () =>
 			spaces: 2,
 		}),
 	]);
+
+	await FastGlob.async([
+			'*.json',
+		], {
+			cwd: join(dirname(cacheFilePaths.infoPack), 'info'),
+			absolute: true,
+		})
+		.mapSeries(async (file) =>
+		{
+			let bool: boolean;
+
+			let row: IESJzoneRecentUpdateRowBook = await readJSON(file);
+
+			row.links?.forEach?.(item =>
+			{
+				if ('name' in item && !item.name?.length)
+				{
+					delete item.name;
+					bool = true;
+				}
+			})
+
+			if (bool)
+			{
+				consoleDebug.success(`fix`, basename(file), row.name);
+				return outputJSONLazy(file, row)
+			}
+			else
+			{
+				consoleDebug.gray.info(`checked`, basename(file), row.name);
+			}
+		})
+	;
 
 }, {
 	pkgLabel: __filename,

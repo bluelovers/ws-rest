@@ -43,6 +43,12 @@ export default lazyRun(async () => {
 
 			ids.push(id);
 			titles.push(name);
+
+			if (row.titles?.length > 0)
+			{
+				titles.push(...row.titles);
+			}
+
 			authors.push(rowAuthors);
 
 			idTitles[id] = name;

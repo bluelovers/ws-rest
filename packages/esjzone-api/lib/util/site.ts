@@ -304,7 +304,7 @@ export function _getBookLinks($: JQueryStatic, links: IESJzoneRecentUpdateRowBoo
 			let name = trimUnsafe(_this.text());
 			let href = _this.prop('href') as string;
 
-			if (name === href)
+			if (name === href || name === '')
 			{
 				name = undefined;
 			}
