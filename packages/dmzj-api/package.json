@@ -22,15 +22,15 @@
     "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
-    "array-hyper-unique": "^1.1.8",
+    "array-hyper-unique": "^1.1.9",
     "axios-cache-adapter-util": "^1.0.39",
     "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.5",
     "lazy-cookies": "^1.0.23",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "restful-decorator": "^1.0.43",
-    "ts-type": "^1.2.23",
-    "zero-width": "^1.0.14"
+    "ts-type": "^1.2.25",
+    "zero-width": "^1.0.15"
   },
   "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
 }
