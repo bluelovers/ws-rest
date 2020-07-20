@@ -77,9 +77,9 @@ export default lazyRun(async () => {
 		sort: _sortFn001,
 	});
 
-	array_unique_overwrite(titles).sort(_sortFn001);
-	array_unique_overwrite(authors).sort(_sortFn001);
-	array_unique_overwrite(tags).sort(_sortFn001);
+	titles = array_unique_overwrite(titles).sort(_sortFn001);
+	authors = array_unique_overwrite(authors).sort(_sortFn001);
+	tags = array_unique_overwrite(tags).sort(_sortFn001);
 
 	await Bluebird.all([
 		outputJSONLazy(cacheFilePaths.idAuthors, idAuthors),
@@ -99,8 +99,8 @@ pkgLabel: __filename
 
 function _sortFn001(a: string, b: string)
 {
-	let aa = _cache_map[a] || (_cache_map[a] = getCjkName(a));
-	let bb = _cache_map[b] || (_cache_map[b] = getCjkName(b));
+	let aa = _cache_map[a] ??= getCjkName(a);
+	let bb = _cache_map[b] ??= getCjkName(b);
 
 	return zhDictCompare(aa, bb)
 }
