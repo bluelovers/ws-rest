@@ -16,11 +16,11 @@
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "test:mocha": "npx mocha --require ts-node/register \"!(node_modules)/**/*.{test,spec}.{ts,tsx}\"",
     "build": "yarn run build:main && yarn run build:commit",
-    "build:main": "ts-node ./scripts/build",
     "build:commit": "ts-node ./scripts/build-commit",
+    "build:main": "ts-node ./scripts/build",
     "npm:publish": "npm publish",
     "prepublish:lockfile": "npx sync-lockfile .",
     "prepublishOnly_": "yarn run ncu && yarn run sort-package-json && yarn run test",
@@ -45,5 +45,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
+  "gitHead": "1686662cca11944ef3c5eb1b604986a5b99ec65e"
 }

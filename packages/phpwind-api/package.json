@@ -16,7 +16,7 @@
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "test:jest": "jest --coverage",
     "test:mocha": "npx mocha --require ts-node/register \"!(node_modules)/**/*.{test,spec}.{ts,tsx}\"",
     "npm:publish": "npm publish",
@@ -38,5 +38,6 @@
     "moment": "^2.27.0",
     "restful-decorator": "^1.0.44",
     "restful-decorator-plugin-jsdom": "^1.0.24"
-  }
+  },
+  "gitHead": "1686662cca11944ef3c5eb1b604986a5b99ec65e"
 }

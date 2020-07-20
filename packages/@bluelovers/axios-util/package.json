@@ -20,9 +20,9 @@
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "npm:publish": "npm publish",
-    "prepublishOnly": "yarn run ncu && yarn run sort-package-json",
+    "prepublishOnly_": "yarn run ncu && yarn run sort-package-json",
     "postpublish": "echo postpublish",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort",

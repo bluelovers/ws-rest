@@ -16,9 +16,8 @@
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "npm:publish": "npm publish",
-    "prepublishOnly": "yarn run ncu && yarn run sort-package-json",
     "postpublish": "echo \"publish new version\" .",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort",
@@ -34,5 +33,6 @@
     "lazy-url": "^1.0.10",
     "restful-decorator": "^1.0.44",
     "restful-decorator-plugin-jsdom": "^1.0.24"
-  }
+  },
+  "gitHead": "1686662cca11944ef3c5eb1b604986a5b99ec65e"
 }

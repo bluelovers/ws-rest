@@ -9,7 +9,7 @@
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint lib/**/*.ts",
     "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}",
-    "prepublishOnly": "npm run ncu && npm run sort-package-json && npm run test",
+    "prepublishOnly": "yarn run test",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort"
   },
@@ -36,5 +36,5 @@
   "peerDependencies": {
     "tough-cookie": "*"
   },
-  "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
+  "gitHead": "1686662cca11944ef3c5eb1b604986a5b99ec65e"
 }

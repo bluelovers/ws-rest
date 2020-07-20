@@ -16,8 +16,7 @@
   "scripts": {
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "npm run ncu && npm run sort-package-json",
+    "test": "echo \"Error: no test specified\"",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort"
   },
@@ -34,5 +33,5 @@
     "axios-oauth-client": "^1.3.0",
     "axios-token-interceptor": "^0.2.0"
   },
-  "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
+  "gitHead": "1686662cca11944ef3c5eb1b604986a5b99ec65e"
 }

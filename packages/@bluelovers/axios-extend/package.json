@@ -26,9 +26,9 @@
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "npm:publish": "npm publish",
-    "prepublishOnly": "yarn run ncu && yarn run sort-package-json",
+    "prepublishOnly_": "yarn run ncu && yarn run sort-package-json",
     "postpublish": "echo postpublish",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort",
@@ -58,5 +58,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
+  "gitHead": "1686662cca11944ef3c5eb1b604986a5b99ec65e"
 }

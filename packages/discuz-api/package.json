@@ -18,7 +18,7 @@
     "lint": "npx eslint **/*.ts",
     "test": "echo \"Warn: no test specified\"",
     "npm:publish": "npm publish",
-    "prepublishOnly": "yarn run ncu && yarn run sort-package-json && yarn run test",
+    "prepublishOnly_": "yarn run test",
     "postpublish_": "git commit -m \"publish new version\" .",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort",
@@ -38,5 +38,5 @@
     "ts-type": "^1.2.25",
     "zero-width": "^1.0.15"
   },
-  "gitHead": "ed8142a930d0f4caef56115130e092ec4adf2267"
+  "gitHead": "1686662cca11944ef3c5eb1b604986a5b99ec65e"
 }
