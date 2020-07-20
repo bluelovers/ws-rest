@@ -2,14 +2,14 @@
   "id": 2543,
   "name": "SAO刀剑神域外传 Clover’s regret",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "status": "已完结",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10418,
-  "last_update_chapter_id": 100596,
-  "last_update_time": 1572690013,
+  "last_update_volume_id": 10989,
+  "last_update_chapter_id": 108615,
+  "last_update_time": 1594988163,
   "cover": "https://xs.dmzj.com/img/webpic/29/dj0831l.jpg",
-  "hot_hits": 28310,
+  "hot_hits": 38817,
   "introduction": "战巫女那由他与忍者小历。在「飞鸟帝国」里成为好朋友的两名少女，也在这款游戏遇见了不可思议的法师矢凪。\n　　这名年老的僧侣表示要委托「侦探」「解谜」某个任务。而且提供的报酬高达一百万日币。\n　　两名少女虽然对这超乎常识的价格感到惊讶，但接受这奇妙委托的「侦探」也同样是一名相当奇怪的青年。把能力值点数全部灌在「运气」上──也就是战斗上最弱，但是稀有宝物掉宝率最强的诡异玩家……",
   "types": [
     "科幻",
@@ -17,8 +17,8 @@
   ],
   "authors": "渡濑草一郎",
   "first_letter": "D",
-  "subscribe_num": 7195,
-  "redis_update_time": 1574306354,
+  "subscribe_num": 8856,
+  "redis_update_time": 1595205430,
   "volume": [
     {
       "id": 9657,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1535714861,
-      "sum_chapters": 8
+      "sum_chapters": 7
     },
     {
       "id": 10418,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1572687459,
-      "sum_chapters": 8
+      "sum_chapters": 7
+    },
+    {
+      "id": 10989,
+      "lnovel_id": 2543,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1594987828,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -129,6 +137,54 @@
         },
         {
           "chapter_id": 100596,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 10989,
+      "id": 10989,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 108608,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108609,
+          "chapter_name": "一章 黑鬼灯的弓姬",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108610,
+          "chapter_name": "二章 病愈的狐狸和梅雨季过后的少女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 108611,
+          "chapter_name": "三章 七大不可思议·「学校（暂称）」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 108612,
+          "chapter_name": "四章 异界的铁路",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 108613,
+          "chapter_name": "终章 和影子牵起手",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 108614,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 108615,
           "chapter_name": "插画",
           "chapter_order": 80
         }
