@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.68](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.67...@node-novel/cached-esjzone@1.0.68) (2020-07-20)
+
+
+### 🐛　Bug Fixes
+
+* sort ([93ede41](https://github.com/bluelovers/ws-rest/commit/93ede41947f5174efbd64b10f86e0b6573f4b43c))
+* 過濾錯誤的連結 ([091a6b7](https://github.com/bluelovers/ws-rest/commit/091a6b7562b7483509612ca997b7d888ee470263))
+* 修正連結標題為空白 ([47de360](https://github.com/bluelovers/ws-rest/commit/47de36085d865b57bcc3bed593b96ee2acbf98d1))
+
+
+### ✨　Features
+
+* 保留被刪除的書籍資料 ([5344752](https://github.com/bluelovers/ws-rest/commit/53447528df1be5950beb9fb85c06055c361ad271))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-dmzj] update cache, novel x 6 ([1445620](https://github.com/bluelovers/ws-rest/commit/14456203dcfc79b5487ef14608b73ae9127f0b17))
+* [@node-novel/cached-esjzone] update cache, novel x 46 ([71ecd3e](https://github.com/bluelovers/ws-rest/commit/71ecd3e9849710865b7b5c91e0a16b43e4d61578))
+* [@node-novel/cached-esjzone] update cache, novel x 47 ([e8164c7](https://github.com/bluelovers/ws-rest/commit/e8164c76f04671950d65539b4cd4f779dee86ad7))
+* [@node-novel/cached-esjzone] update cache, novel x 43 ([54a50d3](https://github.com/bluelovers/ws-rest/commit/54a50d359cd7b462d3a1f05b6b516faad9b76c9c))
+* [@node-novel/cached-esjzone] update cache, novel x 41 ([ef34385](https://github.com/bluelovers/ws-rest/commit/ef343855c6a1ec9b23a09c57851fa055f8c8cfdf))
+* [@node-novel/cached-esjzone] update cache, novel x 49 ([143c2a0](https://github.com/bluelovers/ws-rest/commit/143c2a06b9de1aa3bd549289e0e73020840acad5))
+* [@node-novel/cached-esjzone] update cache, novel x 47 ([fd2eb01](https://github.com/bluelovers/ws-rest/commit/fd2eb01fa5681f15883b75c0979a9a1389ddf350))
+* [@node-novel/cached-esjzone] update cache, novel x 28 ([416e46e](https://github.com/bluelovers/ws-rest/commit/416e46e0026178cd25c904cbb2f17251d7d2496c))
+* [@node-novel/cached-esjzone] update cache, novel x 24 ([12058df](https://github.com/bluelovers/ws-rest/commit/12058df0de84fa89d334c24886b3d7e217ff2b7f))
+* [@node-novel/cached-esjzone] update cache, novel x 46 ([91e2b61](https://github.com/bluelovers/ws-rest/commit/91e2b61ed9cdf3b2c0ece2b81efc20b680bf071d))
+* [@node-novel/cached-esjzone] update cache, novel x 39 ([79c45e6](https://github.com/bluelovers/ws-rest/commit/79c45e6e28b444de936b13e342720a9aecca8ed5))
+* [@node-novel/cached-esjzone] update cache, novel x 34 ([567c487](https://github.com/bluelovers/ws-rest/commit/567c4878feb1d0bf6f203206421897c0c5047da7))
+* [@node-novel/cached-esjzone] update cache, novel x 2 ([4a2f888](https://github.com/bluelovers/ws-rest/commit/4a2f88822db673e981530deba4c0e3d62705c5ac))
+
+
+
+
+
 ## [1.0.67](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.66...@node-novel/cached-esjzone@1.0.67) (2020-06-16)
 
 

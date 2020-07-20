@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.34](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.33...esjzone-api@1.0.34) (2020-07-20)
+
+
+### 🐛　Bug Fixes
+
+* 過濾錯誤的連結 ([091a6b7](https://github.com/bluelovers/ws-rest/commit/091a6b7562b7483509612ca997b7d888ee470263))
+* 修正連結標題為空白 ([47de360](https://github.com/bluelovers/ws-rest/commit/47de36085d865b57bcc3bed593b96ee2acbf98d1))
+
+
+### ✨　Features
+
+* esj 增加檢測多個書名 ([00b8ac5](https://github.com/bluelovers/ws-rest/commit/00b8ac5c9dc6f18d99cffecb90cb191c5502313d))
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([3937c9f](https://github.com/bluelovers/ws-rest/commit/3937c9f90040c4804c841bcb40fbe90e9654a652))
+* **deps:** update deps ([0ebc4af](https://github.com/bluelovers/ws-rest/commit/0ebc4af0fd3c2fa7f74dfdaf32be84d657c4209c))
+
+
+
+
+
 ## [1.0.33](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.32...esjzone-api@1.0.33) (2020-06-16)
 
 

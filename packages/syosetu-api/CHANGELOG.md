@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.11](https://github.com/bluelovers/ws-rest/compare/syosetu-api@1.0.10...syosetu-api@1.0.11) (2020-07-20)
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([3937c9f](https://github.com/bluelovers/ws-rest/commit/3937c9f90040c4804c841bcb40fbe90e9654a652))
+
+
+
+
+
 ## [1.0.10](https://github.com/bluelovers/ws-rest/compare/syosetu-api@1.0.9...syosetu-api@1.0.10) (2020-06-16)
 
 

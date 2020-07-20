@@ -1,6 +1,6 @@
 {
   "name": "restful-decorator",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "description": "",
   "license": "ISC",
   "author": "",
@@ -14,21 +14,21 @@
     "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
-    "@bluelovers/axios-extend": "^1.0.28",
+    "@bluelovers/axios-extend": "^1.0.29",
     "axios": "< 0.19 && >= 0.18",
     "axios-cache-adapter": "^2.5.0",
     "axios-cookiejar-support": "^1.0.0",
     "bluebird": "^3.7.2",
     "debug-color2": "^1.2.3",
-    "http-form-urlencoded": "^1.0.15",
-    "lazy-cookies": "^1.0.23",
+    "http-form-urlencoded": "^1.0.16",
+    "lazy-cookies": "^1.0.24",
     "lazy-url": "^1.0.10",
     "lodash": "^4.17.19",
     "lodash-decorators": "^6.0.1",
     "moment": "^2.27.0",
     "reflect-metadata": "^0.1.13",
     "reflect-metadata-util": "^1.0.9",
-    "router-uri-convert": "^1.0.17",
+    "router-uri-convert": "^1.0.18",
     "ts-enum-util": "^4.0.2",
     "ts-type": "^1.2.25",
     "typed-http-headers": "^1.0.7"
