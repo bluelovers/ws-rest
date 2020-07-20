@@ -28,7 +28,7 @@
     "ci:push": "ts-node ./script/ci/git-push",
     "ci:task": "ts-node ./script/task",
     "ci:task:novel-opds-now": "ts-node ./script/task/novel-opds-now.ts",
-    "lerna": "yarn run prebuild:lockfile && yarn run lerna:prepublish && lerna publish --yes --cd-version patch && yarn run ci:cache:list",
+    "lerna": "yarn run lerna:prepublish && lerna publish --yes --bump patch && yarn run ci:cache:list",
     "lerna:prepublish": "lerna run --stream --scope @node-novel/cached-* build && lerna run --stream  --scope @demonovel/cached-data build",
     "prepare:fix-ws-links": "ynpx @yarn-tool/fix-ws-links",
     "ncu": "npx yarn-tool ncu -u && yarn-tool ws exec yarn-tool ncu -- -u",
