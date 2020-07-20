@@ -80,7 +80,7 @@ export function _getBookTags($: JQueryStatic, tags: string[] = [])
 			let _this = $(elem);
 			let name = trimUnsafe(_this.text());
 
-			if (name)
+			if (name.length)
 			{
 				tags.push(name);
 			}
@@ -93,7 +93,7 @@ export function _getBookTags($: JQueryStatic, tags: string[] = [])
 			let _this = $(elem);
 			let name = trimUnsafe(_this.text());
 
-			if (name)
+			if (name.length)
 			{
 				tags.push(name);
 			}
@@ -307,6 +307,11 @@ export function _getBookLinks($: JQueryStatic, links: IESJzoneRecentUpdateRowBoo
 			if (name === href || name === '')
 			{
 				name = undefined;
+			}
+
+			if (!href.length || href === 'https://www.esjzone.cc/tags//')
+			{
+				return;
 			}
 
 			links.push({

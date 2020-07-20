@@ -120,13 +120,22 @@ export default lazyRun(async () =>
 
 			let row: IESJzoneRecentUpdateRowBook = await readJSON(file);
 
-			row.links?.forEach?.(item =>
+			row.links = row.links?.filter?.(item =>
 			{
 				if ('name' in item && !item.name?.length)
 				{
 					delete item.name;
 					bool = true;
 				}
+
+				if (!item.href.length || item.href === 'https://www.esjzone.cc/tags//')
+				{
+					bool = true;
+
+					return false
+				}
+
+				return true;
 			})
 
 			if (bool)
