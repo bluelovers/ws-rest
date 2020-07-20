@@ -78,7 +78,9 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
       - name: install deps
-        run: yarn run ci:install
+        run: |
+          yarn run ci:install
+          yarn run ci:install:task:cache
       - name: test ci env
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}

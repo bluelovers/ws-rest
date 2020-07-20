@@ -22,7 +22,8 @@
   "scripts": {
     "prebuild:lockfile": "ynpx sync-lockfile",
     "ci:test": "ts-node ./script/ci/test",
-    "ci:install": "yarn --frozen-lockfile && yarn global add lerna typescript@next ts-node cross-env && yarn add regexp-cjk cjk-conv @novel-segment/util @node-novel/sort node-novel-info",
+    "ci:install": "yarn --frozen-lockfile && yarn global add lerna typescript@next ts-node cross-env",
+    "ci:install:task:cache": "yarn add -W regexp-cjk cjk-conv @novel-segment/util @node-novel/sort node-novel-info",
     "ci:build": "yarn run ci:test && yarn run lerna:prepublish",
     "ci:cache:list": "ts-node ./script/ci/test/chk-cache",
     "ci:push": "ts-node ./script/ci/git-push",
