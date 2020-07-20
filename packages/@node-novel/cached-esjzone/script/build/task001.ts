@@ -1,6 +1,6 @@
 import { __root, getApiClient, console, consoleDebug } from '../util';
 import fs, { readJSON } from 'fs-extra';
-import { IESJzoneRecentUpdateCache } from 'esjzone-api/lib/types';
+import { IESJzoneRecentUpdateCache, IESJzoneRecentUpdateRowBook } from 'esjzone-api/lib/types';
 import Bluebird from 'bluebird';
 import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
 import path from 'upath2';
@@ -41,6 +41,14 @@ export default lazyRun(async () => {
 				return api.bookInfo(id)
 					.tap(async (data) =>
 					{
+						let old: IESJzoneRecentUpdateRowBook = await readJSON(_file).catch(e => null);
+
+						if (!data.last_update_time && data.name === '' && old?.name)
+						{
+							// 保留被刪除的書籍資料
+							data = old;
+						}
+
 						if (data.last_update_time < row.last_update_time)
 						{
 							consoleDebug.error(index, id, row.name, moment.unix(listCache[id]).format(), data.last_update_chapter_name);
