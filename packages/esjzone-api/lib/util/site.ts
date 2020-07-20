@@ -239,7 +239,7 @@ export function _matchDateString(_text: string)
 }
 
 export function _getBookInfo($: JQueryStatic,
-	data: Pick<IESJzoneRecentUpdateRowBook, 'name' | 'authors' | 'last_update_time'>,
+	data: Pick<IESJzoneRecentUpdateRowBook, 'name' | 'titles' | 'authors' | 'last_update_time'>,
 )
 {
 	data.name = trimUnsafe($('.container .row:eq(0) h2:eq(0)').text());
@@ -257,6 +257,16 @@ export function _getBookInfo($: JQueryStatic,
 			{
 				data.authors = trimUnsafe(_m[1])
 			}
+			else if (_m = _text.match(/(?:书|書)名\s*[：:]\s*([^\n]+)/))
+			{
+				let title = trimUnsafe(_m[1]);
+
+				if (title.length > 0 && title !== data.name)
+				{
+					data.titles ??= [];
+					data.titles.push(trimUnsafe(_m[1]))
+				}
+			}
 			else if (_m = _matchDateString(_text))
 			{
 				try
@@ -272,6 +282,11 @@ export function _getBookInfo($: JQueryStatic,
 
 		})
 	;
+
+	if (data.titles?.length)
+	{
+		array_unique_overwrite(data.titles);
+	}
 
 	return data
 }

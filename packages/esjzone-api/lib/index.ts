@@ -286,6 +286,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 		let data: IESJzoneRecentUpdateRowBook = ({
 			id: novel_id.toString(),
 			"name": undefined,
+			"titles": undefined,
 			"authors": undefined,
 			"cover": undefined,
 			"last_update_time": 0,

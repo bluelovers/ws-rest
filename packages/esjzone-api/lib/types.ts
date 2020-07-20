@@ -61,6 +61,7 @@ export interface IESJzoneBookInfoMini
 {
 	id: string;
 	name: string;
+	titles?: string[];
 	authors: string,
 }
 

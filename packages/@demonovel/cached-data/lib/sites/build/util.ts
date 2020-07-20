@@ -7,12 +7,18 @@ import { newUUID, trim } from '../../util';
 import sortObjectKeys from 'sort-object-keys2';
 import { ICachedJSONRowPlus, IArrayCachedJSONRow, IRecordCachedJSONRow } from '../../../types';
 import { toRecord } from '../../util/convert';
+import { array_unique_overwrite } from 'array-hyper-unique';
 
 export function newEntry<K extends ISitesKeys>(siteID: K, item: ICachedJSONRowInput)
 {
 	if (!item.uuid)
 	{
 		item.uuid = newUUID(siteID, item.id);
+	}
+
+	if (item.titles?.length)
+	{
+		array_unique_overwrite(item.titles)
 	}
 
 	item.siteID = siteID;
@@ -55,6 +61,7 @@ export function newEntry<K extends ISitesKeys>(siteID: K, item: ICachedJSONRowIn
 			'uuid',
 			'id',
 			'title',
+			'titles',
 			'cover',
 			'authors',
 			'updated',

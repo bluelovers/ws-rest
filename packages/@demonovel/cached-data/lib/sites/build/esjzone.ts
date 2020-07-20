@@ -15,6 +15,12 @@ export function buildEsjzone<K extends EnumSiteID.esjzone>(siteID: K, id: string
 	item.novelID = id;
 
 	item.title = data.name;
+
+	if (data.titles?.length)
+	{
+		item.titles = [item.title].concat(data.titles)
+	}
+
 	item.authors = [data.authors];
 
 	item.chapters_num = data.chapters && data.chapters.reduce((i, v) =>
