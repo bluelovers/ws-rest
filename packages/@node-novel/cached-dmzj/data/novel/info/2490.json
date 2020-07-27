@@ -3,13 +3,13 @@
   "name": "转生英雄之女（重生英雄之女的英雄立志再度成为英雄）",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10442,
-  "last_update_chapter_id": 100887,
-  "last_update_time": 1573744079,
+  "last_update_volume_id": 11007,
+  "last_update_chapter_id": 108836,
+  "last_update_time": 1595684224,
   "cover": "https://xs.dmzj.com/img/webpic/13/zs0519l.jpg",
-  "hot_hits": 795439,
+  "hot_hits": 1049360,
   "introduction": "殒命的男性英雄·雷德，在转生后居然成为了之前同伴的勇者与圣女的女儿！？转生成婴儿却出于自尊拒绝授乳，结果成长为了体质虚弱的美幼女。即便如此，雷德还是打算凭借前世的经验和压倒性的血统，立志成为英雄！原英雄·现美幼女的成长的英雄谭！！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "镝木ハルカ",
   "first_letter": "C",
-  "subscribe_num": 25597,
-  "redis_update_time": 1574305215,
+  "subscribe_num": 31965,
+  "redis_update_time": 1595835646,
   "volume": [
     {
       "id": 9746,
@@ -26,7 +26,7 @@
       "volume_name": "web版",
       "volume_order": 1,
       "addtime": 1540303085,
-      "sum_chapters": 8
+      "sum_chapters": 37
     },
     {
       "id": 9434,
@@ -34,7 +34,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1526726955,
-      "sum_chapters": 8
+      "sum_chapters": 37
     },
     {
       "id": 10135,
@@ -42,7 +42,7 @@
       "volume_name": "第二卷",
       "volume_order": 30,
       "addtime": 1558962268,
-      "sum_chapters": 8
+      "sum_chapters": 37
     },
     {
       "id": 10442,
@@ -50,7 +50,15 @@
       "volume_name": "第三卷",
       "volume_order": 40,
       "addtime": 1573732270,
-      "sum_chapters": 8
+      "sum_chapters": 37
+    },
+    {
+      "id": 11007,
+      "lnovel_id": 2490,
+      "volume_name": "第四卷",
+      "volume_order": 50,
+      "addtime": 1595678955,
+      "sum_chapters": 37
     }
   ],
   "chapters": [
@@ -398,6 +406,69 @@
           "chapter_id": 100887,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11007,
+      "id": 11007,
+      "volume_name": "第四卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 108815,
+          "chapter_name": "序章 青年国王的忧郁",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108816,
+          "chapter_name": "第一章 神的赠礼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108817,
+          "chapter_name": "间章 伙伴们的相遇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 108818,
+          "chapter_name": "第二章 不速之客",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 108819,
+          "chapter_name": "第三章 校外教学的麻烦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 108820,
+          "chapter_name": "第四章 妮可的约会大作战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 108821,
+          "chapter_name": "第五章 国王绑架事件",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 108822,
+          "chapter_name": "终章 迷失的人们",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 108823,
+          "chapter_name": "第零章 英雄们的耐力赛",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 108824,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 108836,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

@@ -3,21 +3,21 @@
   "name": "千剑魔术剑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 无敌佣兵于安宁之森征讨强魔",
+  "last_update_volume_name": "第三卷 壮烈佣兵与隐匿的公主奔驰于森林",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10670,
-  "last_update_chapter_id": 104229,
-  "last_update_time": 1583733081,
+  "last_update_volume_id": 11008,
+  "last_update_chapter_id": 108837,
+  "last_update_time": 1595684324,
   "cover": "https://xs.dmzj.com/img/webpic/14/qj0309l.jpg",
-  "hot_hits": 70558,
+  "hot_hits": 97711,
   "introduction": "　　阿尔迪斯身怀历史上从未有纪录的魔术「剑魔术」。\n　　身为佣兵的他，某天接受委托的归途上遇见了在这世界上被视作「禁忌之子」的一对「双子」少女。\n　　阿尔迪斯藏匿身体衰弱的少女，并悄悄抚养两人。\n　　他为筹措生活费而接下的工作，\n　　内容是说服在马车干道上现身的谜样美女──\n　　然而那女人居然与阿尔迪斯同样懂得施展「无咏唱魔法」……！\n　　以无数刀剑劈开自身未来的最强佣兵谭，在此揭幕！",
   "types": [
     "冒险"
   ],
   "authors": "高光晶",
   "first_letter": "Q",
-  "subscribe_num": 4445,
-  "redis_update_time": 1584330569,
+  "subscribe_num": 5647,
+  "redis_update_time": 1595835195,
   "volume": [
     {
       "id": 10669,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 最强佣兵与禁忌双子一同追寻过去",
       "volume_order": 10,
       "addtime": 1583732661,
-      "sum_chapters": 9
+      "sum_chapters": 37
     },
     {
       "id": 10670,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷 无敌佣兵于安宁之森征讨强魔",
       "volume_order": 20,
       "addtime": 1583732795,
-      "sum_chapters": 9
+      "sum_chapters": 37
+    },
+    {
+      "id": 11008,
+      "lnovel_id": 2815,
+      "volume_name": "第三卷 壮烈佣兵与隐匿的公主奔驰于森林",
+      "volume_order": 30,
+      "addtime": 1595681406,
+      "sum_chapters": 37
     }
   ],
   "chapters": [
@@ -125,6 +133,44 @@
           "chapter_id": 104229,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11008,
+      "id": 11008,
+      "volume_name": "第三卷 壮烈佣兵与隐匿的公主奔驰于森林",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 108825,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108826,
+          "chapter_name": "第九章 男爵千金与侍女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108827,
+          "chapter_name": "第十章 遭囚的迷途公主",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 108828,
+          "chapter_name": "第十一章 伸出的手是为了谁",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 108829,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 108837,
+          "chapter_name": "插画",
+          "chapter_order": 60
         }
       ]
     }

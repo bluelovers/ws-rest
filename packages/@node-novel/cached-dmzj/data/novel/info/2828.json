@@ -3,13 +3,13 @@
   "name": "神童勇者的女仆都是漂亮大姐姐!",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10706,
-  "last_update_chapter_id": 104639,
-  "last_update_time": 1584876231,
+  "last_update_volume_id": 11001,
+  "last_update_chapter_id": 108764,
+  "last_update_time": 1595466507,
   "cover": "https://xs.dmzj.com/img/webpic/24/styz0322l.jpg",
-  "hot_hits": 8570,
+  "hot_hits": 156226,
   "introduction": "席恩是个曾被称颂为神童的勇者。\n他打倒了魔王，拯救了世界，却因为「魔王的诅咒」而遭逐出王都，被迫隐居在边境。\n这名拯救世界，却被世界忌讳的少年，从某一天开始便和四名女仆大姊姊住在一起。\n上战场万夫莫敌的席恩，如今却过着被年纪比他大的女仆们捉弄的日子。\n「你为什么睡在我床上啊！」\n「您怎么这么问？因为今天轮到我侍寝……」\n「哎呀，小席大人还真可爱！」\n「……我说你们，捉弄我也得适可而止啊！」\n太过强悍而遭迫害的神童勇者，以及有些奇特的侍女们，就这样在边境安稳地生活着。\n最强少年与大姐姐们相亲相爱的同居生活甜蜜上演！",
   "types": [
     "搞笑",
@@ -17,8 +17,8 @@
   ],
   "authors": "望公太",
   "first_letter": "S",
-  "subscribe_num": 1507,
-  "redis_update_time": 1584897749,
+  "subscribe_num": 11603,
+  "redis_update_time": 1595835160,
   "volume": [
     {
       "id": 10706,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1584874401,
-      "sum_chapters": 18
+      "sum_chapters": 37
+    },
+    {
+      "id": 11001,
+      "lnovel_id": 2828,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1595465571,
+      "sum_chapters": 37
     }
   ],
   "chapters": [
@@ -80,6 +88,64 @@
           "chapter_id": 104639,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11001,
+      "id": 11001,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 108743,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108744,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108745,
+          "chapter_name": "第一章 前任勇者身材矮小",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 108746,
+          "chapter_name": "第二章 前任勇者与撩人的大姐姐",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 108747,
+          "chapter_name": "第三章 前任勇者参加武斗大会",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 108748,
+          "chapter_name": "第四章 前任勇者与魔王重逢",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 108749,
+          "chapter_name": "第五章 前任勇者与恐怖份子战斗",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 108750,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 108751,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 108764,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

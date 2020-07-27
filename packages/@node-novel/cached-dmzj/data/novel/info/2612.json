@@ -3,13 +3,13 @@
   "name": "打倒女神勇者的下流手段",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 实在很抱歉，怪胎变多了。",
+  "last_update_volume_name": "第五卷 于是回归日常……",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10720,
-  "last_update_chapter_id": 104835,
-  "last_update_time": 1585204813,
+  "last_update_volume_id": 11010,
+  "last_update_chapter_id": 108859,
+  "last_update_time": 1595730688,
   "cover": "https://xs.dmzj.com/img/webpic/7/dd012l.jpg",
-  "hot_hits": 840694,
+  "hot_hits": 1116988,
   "introduction": "突然被召唤到剑与魔法世界的外山真一，受到召唤主「苍蓝魔王」下跪恳求。魔王似乎只是为了可爱的女儿才会来到人界追求美食，没打算危害人类。尽管如此，杀掉也会复活的勇者们却每天来袭，让他很困扰。反正难得来到异世界，于是真一主动表示要负责击退勇者，但他的策略却都是连魔族也会吓一跳的阴招──！魔王参谋的勇者攻略记，登场！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "笹木さくま",
   "first_letter": "D",
-  "subscribe_num": 25778,
-  "redis_update_time": 1585267423,
+  "subscribe_num": 30310,
+  "redis_update_time": 1595835364,
   "volume": [
     {
       "id": 9895,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 噢！死不了的勇者实在有够烦。",
       "volume_order": 10,
       "addtime": 1547283750,
-      "sum_chapters": 19
+      "sum_chapters": 37
     },
     {
       "id": 10223,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 没有反应，似乎只是个圣女",
       "volume_order": 20,
       "addtime": 1562844290,
-      "sum_chapters": 19
+      "sum_chapters": 37
     },
     {
       "id": 10478,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 我可不是坏蛋邪神喔。",
       "volume_order": 30,
       "addtime": 1575792378,
-      "sum_chapters": 19
+      "sum_chapters": 37
     },
     {
       "id": 10720,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷 实在很抱歉，怪胎变多了。",
       "volume_order": 40,
       "addtime": 1585202821,
-      "sum_chapters": 19
+      "sum_chapters": 37
+    },
+    {
+      "id": 11010,
+      "lnovel_id": 2612,
+      "volume_name": "第五卷 于是回归日常……",
+      "volume_order": 50,
+      "addtime": 1595730417,
+      "sum_chapters": 37
     }
   ],
   "chapters": [
@@ -293,6 +301,49 @@
           "chapter_id": 104835,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 11010,
+      "id": 11010,
+      "volume_name": "第五卷 于是回归日常……",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 108853,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 108854,
+          "chapter_name": "第一章 过去的锁炼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 108855,
+          "chapter_name": "第二章 回忆的碎片",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 108856,
+          "chapter_name": "第三章 神话终结日",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 108857,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 108858,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 108859,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }
