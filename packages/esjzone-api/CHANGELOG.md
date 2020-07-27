@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.36](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.35...esjzone-api@1.0.36) (2020-07-27)
+
+
+### 🐛　Bug Fixes
+
+* https://github.com/bluelovers/ws-rest/runs/912733038?check_suite_focus=true ([5013573](https://github.com/bluelovers/ws-rest/commit/5013573e9f30ecbeaa862ae9458a938013e7ec2c))
+
+
+
+
+
 ## [1.0.35](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.34...esjzone-api@1.0.35) (2020-07-20)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.42](https://github.com/bluelovers/ws-rest/compare/axios-cache-adapter-util@1.0.41...axios-cache-adapter-util@1.0.42) (2020-07-27)
+
+
+### ♻️　Chores
+
+* update deps ([d54fb5c](https://github.com/bluelovers/ws-rest/commit/d54fb5c59e826013ee28bb953bd0e6e98d4c572e))
+
+
+
+
+
 ## [1.0.41](https://github.com/bluelovers/ws-rest/compare/axios-cache-adapter-util@1.0.40...axios-cache-adapter-util@1.0.41) (2020-07-20)
 
 

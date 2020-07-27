@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.44](https://github.com/bluelovers/ws-rest/compare/gitee-api@1.0.43...gitee-api@1.0.44) (2020-07-27)
+
+
+### ♻️　Chores
+
+* update deps ([d54fb5c](https://github.com/bluelovers/ws-rest/commit/d54fb5c59e826013ee28bb953bd0e6e98d4c572e))
+
+
+
+
+
 ## [1.0.43](https://github.com/bluelovers/ws-rest/compare/gitee-api@1.0.42...gitee-api@1.0.43) (2020-07-20)
 
 
