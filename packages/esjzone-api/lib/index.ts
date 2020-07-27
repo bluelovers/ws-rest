@@ -229,7 +229,8 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 				}
 
 				return {
-					...(dataReturn as Omit<IUnpackedPromiseLikeReturnType<T>, 'data'>),
+					// @ts-ignore
+					...(dataReturn as any as Omit<IUnpackedPromiseLikeReturnType<T>, 'data'>),
 					from,
 					to,
 					last_update_time,
