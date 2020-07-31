@@ -311,7 +311,7 @@ export class Wenku8Client extends AbstractHttpClientWithJSDom
 				}
 
 				return {
-					...(dataReturn as Omit<IUnpackedPromiseLikeReturnType<T>, 'data'>),
+					...(dataReturn),
 					from,
 					to,
 					last_update_time,
