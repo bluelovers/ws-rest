@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.38](https://github.com/bluelovers/ws-rest/compare/wenku8-api@1.0.37...wenku8-api@1.0.38) (2020-07-31)
+
+
+### 🐛　Bug Fixes
+
+* may be a mistake because neither type sufficiently overlaps with the other ([7a7e0f9](https://github.com/bluelovers/ws-rest/commit/7a7e0f908f6cc0a32cfc2fdf963dcc765d19b562))
+
+
+### 🛠　Build System
+
+* add build file into git ([caf8ba5](https://github.com/bluelovers/ws-rest/commit/caf8ba5fc11fb02b76fa845cff137922378d6e46))
+
+
+
+
+
 ## [1.0.37](https://github.com/bluelovers/ws-rest/compare/wenku8-api@1.0.36...wenku8-api@1.0.37) (2020-07-27)
 
 **Note:** Version bump only for package wenku8-api

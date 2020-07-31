@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.27](https://github.com/bluelovers/ws-rest/compare/lazy-cookies@1.0.26...lazy-cookies@1.0.27) (2020-07-31)
+
+
+### 🛠　Build System
+
+* add build file into git ([caf8ba5](https://github.com/bluelovers/ws-rest/commit/caf8ba5fc11fb02b76fa845cff137922378d6e46))
+
+
+
+
+
 ## [1.0.26](https://github.com/bluelovers/ws-rest/compare/lazy-cookies@1.0.25...lazy-cookies@1.0.26) (2020-07-27)
 
 
