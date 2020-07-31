@@ -68,8 +68,8 @@ coverage
 !.gitlab
 .git
 
-*.js
-*.d.ts
+#*.js
+#*.d.ts
 /tsconfig.tsbuildinfo
 !/yarn.lock
 axios.cache.json
