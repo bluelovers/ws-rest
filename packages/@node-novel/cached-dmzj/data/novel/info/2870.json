@@ -3,21 +3,21 @@
   "name": "在流星雨中逝去的你",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10858,
-  "last_update_chapter_id": 106555,
-  "last_update_time": 1589546387,
+  "last_update_volume_id": 11025,
+  "last_update_chapter_id": 109049,
+  "last_update_time": 1596449569,
   "cover": "https://xs.dmzj.com/img/webpic/3/lxq0215l.jpg",
-  "hot_hits": 13594,
+  "hot_hits": 39437,
   "introduction": "二零二二年十二月十一日。那是我绝对忘不了的一天。这一天，轨道上的所有人造卫星坠落，纷纷在大气层化为光点消失。这个人称「全世界最美丽的恐怖行动」的现象有唯一的牺牲者……！为了拯救茧居少女天野河星乃，高中生平野大地挺身对抗命运。",
   "types": [
     "其它"
   ],
   "authors": "松山刚",
   "first_letter": "Z",
-  "subscribe_num": 1915,
-  "redis_update_time": 1589760898,
+  "subscribe_num": 4367,
+  "redis_update_time": 1596759613,
   "volume": [
     {
       "id": 10857,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1589541299,
-      "sum_chapters": 3
+      "sum_chapters": 21
     },
     {
       "id": 10858,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1589541452,
-      "sum_chapters": 3
+      "sum_chapters": 21
+    },
+    {
+      "id": 11025,
+      "lnovel_id": 2870,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1596448307,
+      "sum_chapters": 21
     }
   ],
   "chapters": [
@@ -145,6 +153,64 @@
           "chapter_id": 106555,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11025,
+      "id": 11025,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 108999,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 109000,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 109001,
+          "chapter_name": "第一章 BOT",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 109002,
+          "chapter_name": "第二章 E.T",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 109003,
+          "chapter_name": "第三章 瓦特佐伊",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 109004,
+          "chapter_name": "第四章 开战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 109005,
+          "chapter_name": "第五章 摩天楼的歌姬",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 109006,
+          "chapter_name": "终章 转学生",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 109007,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 109049,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

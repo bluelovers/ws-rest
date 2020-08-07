@@ -3,21 +3,21 @@
   "name": "公爵千金的家庭教师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 谦虚青年的破格魔法教学即将开始",
+  "last_update_volume_name": "第二卷 与最强剑姫创造新传说",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10868,
-  "last_update_chapter_id": 106675,
-  "last_update_time": 1589883602,
+  "last_update_volume_id": 11030,
+  "last_update_chapter_id": 109085,
+  "last_update_time": 1596683337,
   "cover": "https://xs.dmzj.com/img/webpic/9/gzdx0519l.jpg",
-  "hot_hits": 36745,
+  "hot_hits": 107567,
   "introduction": "　　「我还是第一次看到，有人能将浮游魔法使得如此收放自如。」\n　　「这一点也不难，只是大家都没尝试过罢了。」\n　　拥有当代社会无法衡量的超规格魔法技术，却保持谦虚态度生活的青年‧亚连，在恩师的委托下，以家庭教师的身分前去指导『用不了魔法』的公爵千金‧蒂娜。面对这名已被无数人放弃的少女，不打算死心的亚连所传授的课程是──\n　　「就我个人认为，魔法并不是人类以操控魔力的方式施放，而是向精灵借用力量罢了。」亚连的魔法课程内容颠覆了常识。在谆谆善诱后，亚连解开了封印在蒂娜身上的谜团，而这也是向世界掀起革命的师徒传说开端！",
   "types": [
     "魔法"
   ],
   "authors": "七野りく",
   "first_letter": "G",
-  "subscribe_num": 3484,
-  "redis_update_time": 1590105316,
+  "subscribe_num": 7329,
+  "redis_update_time": 1596759718,
   "volume": [
     {
       "id": 10868,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷 谦虚青年的破格魔法教学即将开始",
       "volume_order": 10,
       "addtime": 1589882918,
-      "sum_chapters": 8
+      "sum_chapters": 21
+    },
+    {
+      "id": 11030,
+      "lnovel_id": 2871,
+      "volume_name": "第二卷 与最强剑姫创造新传说",
+      "volume_order": 20,
+      "addtime": 1596682914,
+      "sum_chapters": 21
     }
   ],
   "chapters": [
@@ -84,6 +92,59 @@
           "chapter_id": 106675,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11030,
+      "id": 11030,
+      "volume_name": "第二卷 与最强剑姫创造新传说",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 109077,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 109078,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 109079,
+          "chapter_name": "第1章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 109080,
+          "chapter_name": "第2章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 109081,
+          "chapter_name": "第3章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 109082,
+          "chapter_name": "第4章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 109083,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 109084,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 109085,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }
