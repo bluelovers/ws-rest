@@ -3,21 +3,21 @@
   "name": "被死神抚养的少女怀抱漆黑之剑",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10314,
-  "last_update_chapter_id": 99708,
-  "last_update_time": 1569584720,
+  "last_update_volume_id": 11037,
+  "last_update_chapter_id": 109225,
+  "last_update_time": 1596881896,
   "cover": "https://xs.dmzj.com/img/webpic/18/sh1010l.jpg",
-  "hot_hits": 572115,
+  "hot_hits": 755537,
   "introduction": "——她是在战场上笑得天真烂漫的少女。\n银发飘扬、眼瞳乌黑的少女在战场上驰骋。少女名叫奥莉薇娅，脸上总是洋溢着纯真的笑容，手上则总是沾染无数敌人的鲜血。\n自称死神的存在将渊博的知识与高超的战斗技术烙印在了少女的身上。但在奥莉薇娅刚满十五岁的那一天，死神突然从她面前消失了。为了寻获线索，奥莉薇娅决定作为王国军队的志愿兵投身战火。\n时值光阴历九九八年。王国在一意称霸大陆的帝国面前苦战连连。缺乏常识的天真少女此时将作为王国军队“最强的棋子”踏入愈演愈烈的战场，迈上成为英雄的路途——！",
   "types": [
     "战争"
   ],
   "authors": "彩峰舞人",
   "first_letter": "B",
-  "subscribe_num": 41515,
-  "redis_update_time": 1574304782,
+  "subscribe_num": 46331,
+  "redis_update_time": 1597096065,
   "volume": [
     {
       "id": 9729,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1539146249,
-      "sum_chapters": 8
+      "sum_chapters": 14
     },
     {
       "id": 9831,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1544339417,
-      "sum_chapters": 8
+      "sum_chapters": 14
     },
     {
       "id": 10314,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1567608963,
-      "sum_chapters": 8
+      "sum_chapters": 14
+    },
+    {
+      "id": 11037,
+      "lnovel_id": 2559,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1596879855,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -236,6 +244,79 @@
           "chapter_id": 99708,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11037,
+      "id": 11037,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 109179,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 109180,
+          "chapter_name": "序章 南方之雄",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 109181,
+          "chapter_name": "第一章 于狮子之旗下",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 109182,
+          "chapter_name": "第二章 为谁而战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 109183,
+          "chapter_name": "幕间 爱丽丝狂骚曲",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 109184,
+          "chapter_name": "第三章 龙虎相争！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 109185,
+          "chapter_name": "第四章 初战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 109186,
+          "chapter_name": "第五章 维兰会战",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 109187,
+          "chapter_name": "第六章 虚伪的同盟",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 109188,
+          "chapter_name": "第七章 白亚之森",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 109189,
+          "chapter_name": "尾声 黎明之光",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 109190,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 109225,
+          "chapter_name": "插画",
+          "chapter_order": 130
         }
       ]
     }
