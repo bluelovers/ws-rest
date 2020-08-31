@@ -2,14 +2,14 @@
   "id": 2399,
   "name": "和神兽（我）们在一起的话说不定能变成世界最强哟？",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "status": "已完结",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10946,
-  "last_update_chapter_id": 107870,
-  "last_update_time": 1593083542,
+  "last_update_volume_id": 11082,
+  "last_update_chapter_id": 109867,
+  "last_update_time": 1598788005,
   "cover": "https://xs.dmzj.com/img/webpic/4/ss1109l.jpg",
-  "hot_hits": 416026,
+  "hot_hits": 461963,
   "introduction": "各种各样的职业者们争霸的世界『圣·艾斯皮里』。\n少年·狄欧斯，不知道为什么被选为了本来只有女性才能够成为的『神兽使（Summoner）』。\n在半信半疑之下试著进行了召唤——\n“请多指教呢，主人！……为什么是男人！？”\n出现了四位神兽少女！？\n拥有著像是作弊一样的力量的神兽们，对第一次出现的男性神兽使兴趣满满（❤），为了和狄欧斯变得要好而一起约会，一起洗澡，——\n“我的身体……就随你喜欢吧。”\n加深和既强大又可爱的她们的羁绊，向著决出世界最强者的异种武道大会的优胜的目标前进！\n和神兽酱们亲亲我我的冒险谭，开始了。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "福山阳士",
   "first_letter": "H",
-  "subscribe_num": 33940,
-  "redis_update_time": 1593129593,
+  "subscribe_num": 36616,
+  "redis_update_time": 1598832426,
   "volume": [
     {
       "id": 9065,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1510218333,
-      "sum_chapters": 23
+      "sum_chapters": 11
     },
     {
       "id": 9214,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1518344042,
-      "sum_chapters": 23
+      "sum_chapters": 11
     },
     {
       "id": 10510,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1577105349,
-      "sum_chapters": 23
+      "sum_chapters": 11
     },
     {
       "id": 10946,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1593077938,
-      "sum_chapters": 23
+      "sum_chapters": 11
+    },
+    {
+      "id": 11082,
+      "lnovel_id": 2399,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1598787055,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -261,6 +269,54 @@
         },
         {
           "chapter_id": 107870,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 11082,
+      "id": 11082,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 109823,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 109824,
+          "chapter_name": "第一章 要来照顾迷路的孩子喽",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 109826,
+          "chapter_name": "第二章 成为一名带著小孩的挑战者（Wanderer）喽",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 109827,
+          "chapter_name": "第三章 神明竟然就这样登场喽",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 109828,
+          "chapter_name": "第四章 目标是圆满大结局喔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 109829,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 109830,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 109867,
           "chapter_name": "插画",
           "chapter_order": 80
         }
