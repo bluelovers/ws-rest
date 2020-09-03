@@ -224,6 +224,18 @@ class LHScanClient extends lib_1.default {
             list,
         };
     }
+    author(author) {
+    }
+    mangaListByGenre(tag) {
+    }
+    mangaListByStatusOnGoing() {
+    }
+    mangaListByGroup(group, query) {
+        return this.mangaList({
+            ...query,
+            group,
+        });
+    }
 };
 __decorate([
     decorators_1.GET('app/manga/controllers/search.single.php'),
@@ -265,6 +277,38 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)
 ], LHScanClient.prototype, "mangaList", null);
+__decorate([
+    decorators_1.GET('manga-author-{author}.html')
+    // @ts-ignore
+    ,
+    jsdom_1.ReturnValueToJSDOM(),
+    decorators_1.methodBuilder(),
+    __param(0, decorators_1.ParamPath('author')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", void 0)
+], LHScanClient.prototype, "author", null);
+__decorate([
+    decorators_1.GET('manga-list-genre-{tag}.html')
+    // @ts-ignore
+    ,
+    jsdom_1.ReturnValueToJSDOM(),
+    decorators_1.methodBuilder(),
+    __param(0, decorators_1.ParamPath('tag')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", void 0)
+], LHScanClient.prototype, "mangaListByGenre", null);
+__decorate([
+    decorators_1.GET('manga-on-going.html')
+    // @ts-ignore
+    ,
+    jsdom_1.ReturnValueToJSDOM(),
+    decorators_1.methodBuilder(),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", void 0)
+], LHScanClient.prototype, "mangaListByStatusOnGoing", null);
 LHScanClient = __decorate([
     decorators_1.BaseUrl("https://loveheaven.net" /* LOVEHEAVEN */),
     decorators_1.Headers({

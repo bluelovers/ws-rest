@@ -391,6 +391,41 @@ export class LHScanClient extends AbstractHttpClientWithJSDom
 		} as IMangaList as any as Bluebird<IMangaList>
 	}
 
+	@GET('manga-author-{author}.html')
+	// @ts-ignore
+	@ReturnValueToJSDOM()
+	@methodBuilder()
+	author(@ParamPath('author') author: string)
+	{
+
+	}
+
+	@GET('manga-list-genre-{tag}.html')
+	// @ts-ignore
+	@ReturnValueToJSDOM()
+	@methodBuilder()
+	mangaListByGenre(@ParamPath('tag') tag: string)
+	{
+
+	}
+
+	@GET('manga-on-going.html')
+	// @ts-ignore
+	@ReturnValueToJSDOM()
+	@methodBuilder()
+	mangaListByStatusOnGoing()
+	{
+
+	}
+
+	mangaListByGroup(group: string, query?: IMangaListOptions)
+	{
+		return this.mangaList({
+			...query,
+			group,
+		})
+	}
+
 }
 
 export default LHScanClient
