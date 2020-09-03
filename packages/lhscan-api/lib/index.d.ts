@@ -13,6 +13,7 @@ export declare class LHScanClient extends AbstractHttpClientWithJSDom {
         data: ISearchSingleDataRowPlus[];
         header: import("./types").ISearchSingleHeader;
     }[]>;
+    protected _manga(id_key: string): Bluebird<IMangaData>;
     manga(id_key: string): Bluebird<IMangaData>;
     read(opts: {
         id_key: string;

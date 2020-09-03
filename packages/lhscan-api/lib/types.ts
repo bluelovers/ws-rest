@@ -38,6 +38,16 @@ export interface ISearchSingleDataRowPlus extends ISearchSingleDataRow
 export interface IMangaData
 {
 	id_key: string;
+
+	title: string,
+	other_names: string,
+
+	cover: string,
+
+	authors: string[],
+	tags: string[],
+	magazine: string[],
+
 	chapters: IMangaChapter[];
 }
 

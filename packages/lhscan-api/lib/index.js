@@ -65,9 +65,66 @@ class LHScanClient extends lib_1.default {
             });
         });
     }
-    manga(id_key) {
+    _manga(id_key) {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
+        let manga_info = $('.manga-info');
+        let _breadcrumb = $('.breadcrumb li[itemprop="itemListElement"]:eq(-1)');
+        let _a = _breadcrumb.find('a[itemscope][itemid]');
+        let title;
+        let cover;
+        if (/manga-.+-raw\.html$/.test(_a.attr('itemid'))) {
+            title = _a.find('[itemprop="name"]').text().trim();
+            cover = _a.find('[itemprop="image"]').prop('src');
+        }
+        if (!(title === null || title === void 0 ? void 0 : title.length)) {
+            throw new RangeError(`manga '${id_key}' not exists`);
+        }
+        let other_names;
+        let authors = [];
+        let tags = [];
+        let magazine = [];
+        manga_info.find('> li')
+            .each((index, element) => {
+            let _this = $(element);
+            let label = _this.find('b:eq(0)').text().trim();
+            let body = _this.clone().remove('b:eq(0)');
+            if (/Other names/i.test(label)) {
+                other_names = body.text().trim()
+                    .replace(/^\s*:\s*/, '');
+            }
+            else if (/Author/i.test(label)) {
+                body.find('small a')
+                    .each((i, elem) => {
+                    var _b, _c, _d;
+                    let link = $(elem).attr('href');
+                    let name = (_d = (_c = (_b = link.match(/manga-author-(.+)\.html/)) === null || _b === void 0 ? void 0 : _b[1]) === null || _c === void 0 ? void 0 : _c.trim) === null || _d === void 0 ? void 0 : _d.call(_c);
+                    if ((name === null || name === void 0 ? void 0 : name.length) > 0) {
+                        authors.push(name);
+                    }
+                });
+            }
+            else if (/GENRE/i.test(label)) {
+                body.find('small a')
+                    .each((i, elem) => {
+                    var _b, _c, _d;
+                    let link = $(elem).attr('href');
+                    let name = (_d = (_c = (_b = link.match(/manga-list-genre-(.+)\.html/)) === null || _b === void 0 ? void 0 : _b[1]) === null || _c === void 0 ? void 0 : _c.trim) === null || _d === void 0 ? void 0 : _d.call(_c);
+                    if ((name === null || name === void 0 ? void 0 : name.length) > 0) {
+                        tags.push(name);
+                    }
+                });
+            }
+            else if (/Magazine/i.test(label)) {
+                body.find('small a')
+                    .each((i, elem) => {
+                    let name = $(elem).text().trim();
+                    if ((name === null || name === void 0 ? void 0 : name.length) > 0) {
+                        magazine.push(name);
+                    }
+                });
+            }
+        });
         const chapters = [];
         $('#tab-chapper a.chapter')
             .each((idx, elem) => {
@@ -81,9 +138,27 @@ class LHScanClient extends lib_1.default {
         });
         const ret = {
             id_key,
+            title,
+            other_names,
+            cover,
+            authors,
+            tags,
+            magazine,
             chapters,
         };
         return ret;
+    }
+    manga(id_key) {
+        id_key = id_key
+            .replace(/\.html$/, '');
+        return this._manga(id_key)
+            .catch(RangeError, e => {
+            let id_key_new = id_key.replace(/^manga-/, '');
+            if (id_key_new !== id_key) {
+                return this._manga(id_key_new);
+            }
+            return Promise.reject(e);
+        });
     }
     read(opts) {
         const jsdom = this.$returnValue;
@@ -159,14 +234,16 @@ __decorate([
     __metadata("design:returntype", Object)
 ], LHScanClient.prototype, "_searchSingle", null);
 __decorate([
-    decorators_1.GET('manga-{id_key}.html'),
+    decorators_1.GET('manga-{id_key}.html')
+    // @ts-ignore
+    ,
     jsdom_1.ReturnValueToJSDOM(),
     decorators_1.methodBuilder(),
     __param(0, decorators_1.ParamPath('id_key')),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
-], LHScanClient.prototype, "manga", null);
+], LHScanClient.prototype, "_manga", null);
 __decorate([
     decorators_1.GET('read-{id_key}-chapter-{chapter_id}.html'),
     jsdom_1.ReturnValueToJSDOM(),

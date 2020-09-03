@@ -126,12 +126,107 @@ export class LHScanClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('manga-{id_key}.html')
+	// @ts-ignore
 	@ReturnValueToJSDOM()
 	@methodBuilder()
-	manga(@ParamPath('id_key') id_key: string)
+	protected _manga(@ParamPath('id_key') id_key: string)
 	{
 		const jsdom = this.$returnValue as IJSDOM;
 		const { $ } = jsdom;
+
+		let manga_info = $('.manga-info');
+
+		let _breadcrumb = $('.breadcrumb li[itemprop="itemListElement"]:eq(-1)');
+
+		let _a = _breadcrumb.find('a[itemscope][itemid]');
+		let title: string;
+		let cover: string;
+
+		if (/manga-.+-raw\.html$/.test(_a.attr('itemid')))
+		{
+
+			title = _a.find('[itemprop="name"]').text().trim();
+
+			cover = _a.find('[itemprop="image"]').prop('src');
+
+		}
+
+		if (!title?.length)
+		{
+			throw new RangeError(`manga '${id_key}' not exists`)
+		}
+
+		let other_names: string;
+		let authors: IMangaData["authors"] = [];
+		let tags: IMangaData["tags"] = [];
+		let magazine: IMangaData["magazine"] = [];
+
+		manga_info.find('> li')
+			.each((index, element) => {
+
+				let _this = $(element);
+
+				let label = _this.find('b:eq(0)').text().trim();
+				let body = _this.clone().remove('b:eq(0)');
+
+				if (/Other names/i.test(label))
+				{
+					other_names = body.text().trim()
+						.replace(/^\s*:\s*/, '')
+					;
+				}
+				else if (/Author/i.test(label))
+				{
+					body.find('small a')
+						.each((i, elem) => {
+
+							let link = $(elem).attr('href');
+
+							let name = link.match(/manga-author-(.+)\.html/)?.[1]?.trim?.();
+
+							if (name?.length > 0)
+							{
+								authors.push(name);
+							}
+
+						})
+					;
+				}
+				else if (/GENRE/i.test(label))
+				{
+					body.find('small a')
+						.each((i, elem) => {
+
+							let link = $(elem).attr('href');
+
+							let name = link.match(/manga-list-genre-(.+)\.html/)?.[1]?.trim?.();
+
+							if (name?.length > 0)
+							{
+								tags.push(name);
+							}
+
+						})
+					;
+				}
+				else if (/Magazine/i.test(label))
+				{
+					body.find('small a')
+						.each((i, elem) => {
+
+							let name = $(elem).text().trim();
+
+							if (name?.length > 0)
+							{
+								magazine.push(name);
+							}
+
+						})
+					;
+				}
+
+			})
+		;
 
 		const chapters: IMangaData["chapters"] = [];
 
@@ -153,10 +248,40 @@ export class LHScanClient extends AbstractHttpClientWithJSDom
 
 		const ret: IMangaData = {
 			id_key,
+
+			title,
+			other_names,
+
+			cover,
+
+			authors,
+			tags,
+			magazine,
+
 			chapters,
 		}
 
 		return ret as any as Bluebird<IMangaData>
+	}
+
+	manga(id_key: string): Bluebird<IMangaData>
+	{
+		id_key = id_key
+			.replace(/\.html$/, '')
+		;
+
+		return this._manga(id_key)
+			.catch(RangeError, e => {
+
+				let id_key_new = id_key.replace(/^manga-/, '');
+
+				if (id_key_new !== id_key)
+				{
+					return this._manga(id_key_new)
+				}
+
+				return Promise.reject(e)
+			})
 	}
 
 	@GET('read-{id_key}-chapter-{chapter_id}.html')
