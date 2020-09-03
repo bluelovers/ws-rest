@@ -3,13 +3,13 @@
   "name": "里亚德录大地",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10751,
-  "last_update_chapter_id": 105218,
-  "last_update_time": 1585904360,
+  "last_update_volume_id": 11092,
+  "last_update_chapter_id": 109962,
+  "last_update_time": 1599055426,
   "cover": "https://xs.dmzj.com/img/webpic/18/dd0403l.jpg",
-  "hot_hits": 8530,
+  "hot_hits": 59230,
   "introduction": "由于遭逢意外，身体只能依靠维生系统活着的少女「各务桂菜」\n只有在VRMMORPG「里亚德录」中可以自由活动。\n然而某一天，她因为维生系统停止而失去生命。\n但醒来时，她发现这里是自己玩过的「里亚德录」的世界……\n而且是两百年后的世界！\n她以高等精灵「葵娜」的身份调查这两百年间发生了什么事，同时和活在这世界的人们以及自己创造出来的非玩家角色们交流，然而——",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "Ceez",
   "first_letter": "L",
-  "subscribe_num": 872,
-  "redis_update_time": 1585939868,
+  "subscribe_num": 3593,
+  "redis_update_time": 1599103459,
   "volume": [
     {
       "id": 10751,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1585902424,
-      "sum_chapters": 12
+      "sum_chapters": 11
+    },
+    {
+      "id": 11092,
+      "lnovel_id": 2842,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1599054662,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -95,6 +103,69 @@
           "chapter_id": 105218,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11092,
+      "id": 11092,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 109952,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 109953,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 109954,
+          "chapter_name": "第一章 北国、孙子、不睦和蛋糕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 109955,
+          "chapter_name": "第二章 魔像、玩家、超越者的职责和守护者之塔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 109956,
+          "chapter_name": "第三章 桥、洗衣、公主和猎熊",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 109957,
+          "chapter_name": "第四章 重逢、怪兽、讨伐和线索",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 109958,
+          "chapter_name": "第五章 闯入者、决斗、瞬间移动和血缘",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 109959,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 109960,
+          "chapter_name": "特别短篇 新的每一天",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 109961,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 109962,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
