@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.75](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.74...@node-novel/cached-wenku8@1.0.75) (2020-09-03)
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-wenku8] update cache, novel x 1 ([1c74614](https://github.com/bluelovers/ws-rest/commit/1c74614abaf4da5db913ecdf2457a0a2e9e14680))
+* [@node-novel/cached-wenku8] update cache, novel x 8 ([cf8a048](https://github.com/bluelovers/ws-rest/commit/cf8a048b92638a12eefb2e4c7f981bca88656c83))
+* [@node-novel/cached-wenku8] update cache, novel x 13 ([a0e1beb](https://github.com/bluelovers/ws-rest/commit/a0e1beb743278302e4258e60f0bacfc16f89cb24))
+* [@node-novel/cached-wenku8] update cache, novel x 11 ([1f13522](https://github.com/bluelovers/ws-rest/commit/1f135226b4c73e18d6582b90c9c33205f86ac008))
+* [@node-novel/cached-wenku8] update cache, novel x 9 ([011080b](https://github.com/bluelovers/ws-rest/commit/011080b32e3be202e017d1d0fa0330ff74aaa247))
+* [@node-novel/cached-wenku8] update cache, novel x 8 ([265e893](https://github.com/bluelovers/ws-rest/commit/265e8937f7d2e255b008223825b5fa75466ca8ae))
+* [@node-novel/cached-wenku8] update cache, novel x 8 ([5181415](https://github.com/bluelovers/ws-rest/commit/5181415dfecd60ac37ffdaa5946747c6f5101825))
+* [@node-novel/cached-wenku8] update cache, novel x 5 ([aa10270](https://github.com/bluelovers/ws-rest/commit/aa102706d10cdd3840b011251b3fba4ed922b6eb))
+* [@node-novel/cached-wenku8] update cache, novel x 3 ([fd6ffab](https://github.com/bluelovers/ws-rest/commit/fd6ffab2dd27f1af37a4ab671203d3f71b8b9cc2))
+* [@node-novel/cached-wenku8] update cache, novel x 10 ([8eacd47](https://github.com/bluelovers/ws-rest/commit/8eacd47e58789b07b53a2c62d93c341b434d4650))
+* [@node-novel/cached-wenku8] update cache, novel x 9 ([4a1b7ad](https://github.com/bluelovers/ws-rest/commit/4a1b7ad8d52426ce93a98c12dc821a3741c0336b))
+* [@node-novel/cached-wenku8] update cache, novel x 15 ([5fe7adc](https://github.com/bluelovers/ws-rest/commit/5fe7adc3537c39c1b1ac571419230c2c27431167))
+
+
+
+
+
 ## [1.0.74](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.73...@node-novel/cached-wenku8@1.0.74) (2020-07-31)
 
 

@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.68](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-masiro@1.0.67...@node-novel/cached-masiro@1.0.68) (2020-09-03)
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-masiro] update cache, novel x 33 ([6902b1c](https://github.com/bluelovers/ws-rest/commit/6902b1c3e7b8230050d2f083c0ccc93b35b70ec1))
+* [@node-novel/cached-masiro] update cache, novel x 38 ([f110c1c](https://github.com/bluelovers/ws-rest/commit/f110c1cdae584304a92dc57c558f81ea4343f433))
+* [@node-novel/cached-masiro] update cache, novel x 41 ([2143147](https://github.com/bluelovers/ws-rest/commit/2143147ac646765313acb51d5c0b9df41b54e470))
+* [@node-novel/cached-masiro] update cache, novel x 37 ([883eae3](https://github.com/bluelovers/ws-rest/commit/883eae3b87ec4fddb5f3abefc0ad03dbc93adfa6))
+* [@node-novel/cached-masiro] update cache, novel x 38 ([a9243f1](https://github.com/bluelovers/ws-rest/commit/a9243f12b4662e083f40cab2720ff605307fa37c))
+* [@node-novel/cached-masiro] update cache, novel x 32 ([6d56a1a](https://github.com/bluelovers/ws-rest/commit/6d56a1afc1b92133556059d3fa640b6aec1998dd))
+* [@node-novel/cached-masiro] update cache, novel x 36 ([dd91ebc](https://github.com/bluelovers/ws-rest/commit/dd91ebc971c93273e0013ca09445d1799dca4d4f))
+* [@node-novel/cached-masiro] update cache, novel x 23 ([6d16f4b](https://github.com/bluelovers/ws-rest/commit/6d16f4b9bf101a857642342c31d5ac7cd8b23811))
+* [@node-novel/cached-masiro] update cache, novel x 35 ([7fe0c18](https://github.com/bluelovers/ws-rest/commit/7fe0c1895d91b1993ac599289484e3b3c551a5ef))
+* [@node-novel/cached-masiro] update cache, novel x 48 ([579fc45](https://github.com/bluelovers/ws-rest/commit/579fc45c1eea42a4de5b2c429e7e476cb60090b7))
+* [@node-novel/cached-masiro] update cache, novel x 47 ([b39d2ed](https://github.com/bluelovers/ws-rest/commit/b39d2edcaddd0b0e129ae25629ed4858c77dd099))
+
+
+
+
+
 ## [1.0.67](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-masiro@1.0.66...@node-novel/cached-masiro@1.0.67) (2020-07-31)
 
 

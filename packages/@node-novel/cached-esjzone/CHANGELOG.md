@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.72](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.71...@node-novel/cached-esjzone@1.0.72) (2020-09-03)
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-esjzone] update cache, novel x 45 ([9443ebf](https://github.com/bluelovers/ws-rest/commit/9443ebf448c86336fafd978f83035478ddf7c7aa))
+* [@node-novel/cached-esjzone] update cache, novel x 47 ([74794e6](https://github.com/bluelovers/ws-rest/commit/74794e6fdc06d487bc8721d16e99709ae61987cb))
+* [@node-novel/cached-esjzone] update cache, novel x 52 ([124d54b](https://github.com/bluelovers/ws-rest/commit/124d54bce77346b99a0d5097aa762e3ebb992f72))
+* [@node-novel/cached-esjzone] update cache, novel x 53 ([d65c619](https://github.com/bluelovers/ws-rest/commit/d65c6197be884d2c0e0fef04f36a707fff6faa16))
+* [@node-novel/cached-esjzone] update cache, novel x 58 ([4df7632](https://github.com/bluelovers/ws-rest/commit/4df7632bede6e7e193dffa4501123c3187b2ccb3))
+* [@node-novel/cached-esjzone] update cache, novel x 51 ([b1d09e8](https://github.com/bluelovers/ws-rest/commit/b1d09e8c66dfbd196c5e2770afa279474bb6f343)), closes [#comment-179539](https://github.com/bluelovers/ws-rest/issues/comment-179539)
+* [@node-novel/cached-esjzone] update cache, novel x 51 ([60e7e8c](https://github.com/bluelovers/ws-rest/commit/60e7e8cf57683cd2b588e87779a2d61b4607c36a))
+* [@node-novel/cached-esjzone] update cache, novel x 24 ([6436f32](https://github.com/bluelovers/ws-rest/commit/6436f327a527f6a47ec910e7f83e200f436e7f7f))
+* [@node-novel/cached-esjzone] update cache, novel x 48 ([10e42aa](https://github.com/bluelovers/ws-rest/commit/10e42aa44ad886a1412303a57369d274e9c27851))
+* [@node-novel/cached-esjzone] update cache, novel x 48 ([2f7ee59](https://github.com/bluelovers/ws-rest/commit/2f7ee59aeca80649012945ca96bfb81102401f24))
+* [@node-novel/cached-esjzone] update cache, novel x 38 ([55a920c](https://github.com/bluelovers/ws-rest/commit/55a920cdd54c8d7789c817a15abc5c12d623925f))
+
+
+
+
+
 ## [1.0.71](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.70...@node-novel/cached-esjzone@1.0.71) (2020-07-31)
 
 

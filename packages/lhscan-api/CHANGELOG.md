@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.15](https://github.com/bluelovers/ws-rest/compare/lhscan-api@1.0.14...lhscan-api@1.0.15) (2020-09-03)
+
+
+### ✨　Features
+
+* add lhscan-api methods ([dc50453](https://github.com/bluelovers/ws-rest/commit/dc50453a8478dc0434e8de559b022d77edf6385e))
+* add more lhscan-api manga meta ([0168636](https://github.com/bluelovers/ws-rest/commit/0168636017455cedd5850dac2832447101121acf))
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([bda88f7](https://github.com/bluelovers/ws-rest/commit/bda88f7b9dd10e80929deb623e3f4941655e7c5b))
+
+
+
+
+
 ## [1.0.14](https://github.com/bluelovers/ws-rest/compare/lhscan-api@1.0.13...lhscan-api@1.0.14) (2020-07-31)
 
 
