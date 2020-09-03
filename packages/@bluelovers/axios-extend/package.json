@@ -38,7 +38,7 @@
   "dependencies": {
     "@bluelovers/axios-util": "^1.0.12",
     "@types/bluebird": "*",
-    "@types/follow-redirects": "^1.8.0",
+    "@types/follow-redirects": "^1.13.0",
     "axios-cache-adapter": "*",
     "axios-cookiejar-support": "*",
     "bluebird": "*",
@@ -46,7 +46,7 @@
     "lodash": "^4",
     "reflect-metadata-util": "^1.0.11",
     "retry-axios": "^2.2.1",
-    "ts-type": "^1.2.29",
+    "ts-type": "^1.2.32",
     "typed-http-headers": "^1.0.7"
   },
   "devDependencies": {
