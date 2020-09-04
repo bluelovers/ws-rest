@@ -65,6 +65,13 @@ export interface IMangaReadData extends IMangaChapter
 export type IMangaListOptionsSort = 'name' | 'views' | 'last_update';
 export type IMangaListOptionsSortType = 'ASC' | 'DESC';
 
+export enum EnumMangaListStatus
+{
+	Complete = 1,
+	OnGoing = 2,
+	Pause = 3,
+}
+
 export interface IMangaListOptions
 {
 	listType?: 'pagination' | string;
@@ -72,7 +79,7 @@ export interface IMangaListOptions
 	artist?: string;
 	author?: string;
 	group?: string;
-	m_status?: string;
+	m_status?: EnumMangaListStatus;
 	name?: string;
 	genre?: string;
 	ungenre?: string;

@@ -37,7 +37,7 @@ import {
 	IMangaData,
 	IMangaReadData,
 	IMangaListOptions,
-	IMangaListRow, IMangaList,
+	IMangaListRow, IMangaList, EnumMangaListStatus,
 } from './types';
 import { parseMangaKey, parseReadUrl } from './site/parse';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
@@ -340,6 +340,11 @@ export class LHScanClient extends AbstractHttpClientWithJSDom
 		sort: 'last_update',
 	}) query?: IMangaListOptions)
 	{
+		return this._mangaList(query)
+	}
+
+	protected _mangaList(query?: IMangaListOptions)
+	{
 		const jsdom = this.$returnValue as IJSDOM;
 		const { $ } = jsdom;
 
@@ -391,31 +396,54 @@ export class LHScanClient extends AbstractHttpClientWithJSDom
 		} as IMangaList as any as Bluebird<IMangaList>
 	}
 
+	/*
 	@GET('manga-author-{author}.html')
 	// @ts-ignore
 	@ReturnValueToJSDOM()
 	@methodBuilder()
-	author(@ParamPath('author') author: string)
+	 */
+	author(author: string, query?: IMangaListOptions)
 	{
-
+		return this.mangaList({
+			...query,
+			author,
+		})
 	}
 
+	/*
 	@GET('manga-list-genre-{tag}.html')
 	// @ts-ignore
 	@ReturnValueToJSDOM()
 	@methodBuilder()
-	mangaListByGenre(@ParamPath('tag') tag: string)
+	 */
+	mangaListByGenre(tag: string | string[], query?: IMangaListOptions)
 	{
+		if (Array.isArray(tag))
+		{
+			tag = tag
+				.filter(v => v?.length)
+				.join(',')
+			;
+		}
 
+		return this.mangaList({
+			...query,
+			genre: tag,
+		})
 	}
 
+	/*
 	@GET('manga-on-going.html')
 	// @ts-ignore
 	@ReturnValueToJSDOM()
 	@methodBuilder()
-	mangaListByStatusOnGoing()
+	 */
+	mangaListByStatusOnGoing(query?: IMangaListOptions)
 	{
-
+		return this.mangaList({
+			...query,
+			m_status: EnumMangaListStatus.OnGoing,
+		})
 	}
 
 	mangaListByGroup(group: string, query?: IMangaListOptions)

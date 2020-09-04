@@ -21,9 +21,10 @@ export declare class LHScanClient extends AbstractHttpClientWithJSDom {
     }): Bluebird<IMangaReadData>;
     fetchBuffer(url: string): Promise<Buffer>;
     mangaList(query?: IMangaListOptions): Bluebird<IMangaList>;
-    author(author: string): void;
-    mangaListByGenre(tag: string): void;
-    mangaListByStatusOnGoing(): void;
+    protected _mangaList(query?: IMangaListOptions): Bluebird<IMangaList>;
+    author(author: string, query?: IMangaListOptions): Bluebird<IMangaList>;
+    mangaListByGenre(tag: string | string[], query?: IMangaListOptions): Bluebird<IMangaList>;
+    mangaListByStatusOnGoing(query?: IMangaListOptions): Bluebird<IMangaList>;
     mangaListByGroup(group: string, query?: IMangaListOptions): Bluebird<IMangaList>;
 }
 export default LHScanClient;
