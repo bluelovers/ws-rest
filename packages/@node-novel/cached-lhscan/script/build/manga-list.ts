@@ -124,6 +124,12 @@ export default lazyRun(async () =>
 
 				const id = row.id;
 
+				if (!row.id_key?.length)
+				{
+					consoleDebug.red.log(`[error]`, ret.page, '/', ret.page_max, id, row.title);
+					return;
+				}
+
 				let old = listCache[id];
 				let bool: boolean;
 				let last_update = old?.last_update;
@@ -144,7 +150,8 @@ export default lazyRun(async () =>
 				if (bool)
 				{
 					await api.mangaMetaPop(row.id)
-						.then(meta => {
+						.then(meta =>
+						{
 							row.last_update = meta.last_update;
 							row.other_names = meta.other_names;
 						})
@@ -153,7 +160,7 @@ export default lazyRun(async () =>
 
 				listCache[id] = row;
 			})
-		;
+			;
 	}
 
 	function _saveDataCache()

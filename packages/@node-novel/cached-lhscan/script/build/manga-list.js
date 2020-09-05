@@ -79,15 +79,19 @@ exports.default = index_1.lazyRun(async () => {
         index_1.console.log(ret.page, '/', ret.page_max, ret.list.length);
         return bluebird_1.default.resolve(ret.list)
             .each(async (row) => {
-            var _a, _b;
+            var _a, _b, _c;
             const id = row.id;
+            if (!((_a = row.id_key) === null || _a === void 0 ? void 0 : _a.length)) {
+                index_1.consoleDebug.red.log(`[error]`, ret.page, '/', ret.page_max, id, row.title);
+                return;
+            }
             let old = listCache[id];
             let bool;
             let last_update = old === null || old === void 0 ? void 0 : old.last_update;
             if (typeof old === 'undefined') {
                 bool = true;
             }
-            else if (((_a = row.last_chapter) === null || _a === void 0 ? void 0 : _a.chapter_id) !== ((_b = old === null || old === void 0 ? void 0 : old.last_chapter) === null || _b === void 0 ? void 0 : _b.chapter_id)) {
+            else if (((_b = row.last_chapter) === null || _b === void 0 ? void 0 : _b.chapter_id) !== ((_c = old === null || old === void 0 ? void 0 : old.last_chapter) === null || _c === void 0 ? void 0 : _c.chapter_id)) {
                 bool = true;
             }
             else if (last_update !== row.last_update) {

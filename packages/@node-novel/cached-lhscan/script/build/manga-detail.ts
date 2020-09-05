@@ -29,9 +29,17 @@ export default lazyRun(async () =>
 	let list = Object.values(listCache);
 
 	await Bluebird.resolve(list)
-		.mapSeries(async (row, index) => {
+		.mapSeries(async (row, index) =>
+		{
 
 			let { id, id_key, last_update } = row;
+
+			if (!id_key?.length)
+			{
+				consoleDebug.red.log(`[error]`, index, '/', list.length, id, id_key, row.title);
+				return;
+			}
+
 			let _file = cacheFileInfoPath(id);
 
 			consoleDebug.log(index, '/', list.length, id, id_key, row.title);
@@ -41,15 +49,20 @@ export default lazyRun(async () =>
 				id_key,
 			} as any;
 
-			let old = await readJSON(_file).catch(err => void 0)as typeof data;
+			let old = await readJSON(_file).catch(err => void 0) as typeof data;
 
 			if (last_update !== taskCache[id] || taskCache[id] === null || last_update !== old?.last_update)
 			{
+				console.grey.log(index, '/', list.length, id, id_key, row.title);
+
+				consoleDebug.debug(`[update]`, id, row.title, [last_update, taskCache[id], old?.last_update])
+
 				data = await Bluebird.props({
-					ret: api.manga(id_key),
-					meta: api.mangaMetaPop(row.id),
-				})
-					.then((result) => {
+						ret: api.manga(id_key),
+						meta: api.mangaMetaPop(row.id),
+					})
+					.then((result) =>
+					{
 
 						let { last_update } = result.meta
 
@@ -78,6 +91,10 @@ export default lazyRun(async () =>
 				{
 					await _saveDataCache();
 				}
+			}
+			else
+			{
+				console.grey.log(index, '/', list.length, id, id_key, row.title);
 			}
 
 		})

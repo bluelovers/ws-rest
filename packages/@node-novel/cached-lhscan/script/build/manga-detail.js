@@ -43,6 +43,10 @@ exports.default = index_1.lazyRun(async () => {
     await bluebird_1.default.resolve(list)
         .mapSeries(async (row, index) => {
         let { id, id_key, last_update } = row;
+        if (!(id_key === null || id_key === void 0 ? void 0 : id_key.length)) {
+            index_1.consoleDebug.red.log(`[error]`, index, '/', list.length, id, id_key, row.title);
+            return;
+        }
         let _file = files_1.cacheFileInfoPath(id);
         index_1.consoleDebug.log(index, '/', list.length, id, id_key, row.title);
         let data = {
@@ -51,6 +55,8 @@ exports.default = index_1.lazyRun(async () => {
         };
         let old = await fs_extra_1.readJSON(_file).catch(err => void 0);
         if (last_update !== taskCache[id] || taskCache[id] === null || last_update !== (old === null || old === void 0 ? void 0 : old.last_update)) {
+            index_1.console.grey.log(index, '/', list.length, id, id_key, row.title);
+            index_1.consoleDebug.debug(`[update]`, id, row.title, [last_update, taskCache[id], old === null || old === void 0 ? void 0 : old.last_update]);
             data = await bluebird_1.default.props({
                 ret: api.manga(id_key),
                 meta: api.mangaMetaPop(row.id),
@@ -74,6 +80,9 @@ exports.default = index_1.lazyRun(async () => {
             if ((++idx % 10) === 0) {
                 await _saveDataCache();
             }
+        }
+        else {
+            index_1.console.grey.log(index, '/', list.length, id, id_key, row.title);
         }
     });
     await _saveDataCache();
