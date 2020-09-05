@@ -24,6 +24,7 @@ const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const lib_1 = __importDefault(require("restful-decorator-plugin-jsdom/lib"));
 const array_buffer_to_string_1 = require("@bluelovers/array-buffer-to-string");
 const dot_values2_1 = require("dot-values2");
+const moment_1 = __importDefault(require("moment"));
 let LHScanClient = 
 /**
  * @link https://lhscan.net/app/manga/controllers/search.single.php?q=%E9%AA%91%E5%A3%AB%E9%AD%94
@@ -36,6 +37,12 @@ class LHScanClient extends lib_1.default {
         }
         argv[0] = defaults;
         super(...argv);
+    }
+    /**
+     * @FIXME _iconvDecode 會錯誤解碼 導致無法分析日文
+     */
+    _iconvDecode(buf) {
+        return buf.toString();
     }
     _searchSingle(keyword) {
         return null;
@@ -66,6 +73,69 @@ class LHScanClient extends lib_1.default {
             });
         });
     }
+    mangaMetaPop(id) {
+        const jsdom = this.$returnValue;
+        const { $ } = jsdom;
+        //console.dir(this.$response)
+        let title = $('.pop_title').text();
+        let cover = $('.img:eq(0)').prop('src');
+        let other_names;
+        let authors = [];
+        let tags = [];
+        let last_update;
+        //console.dir(jsdom.serialize())
+        //console.dir($('p').length)
+        $('p').each((index, elem) => {
+            let _this = $(elem);
+            let label = _this.find('strong:eq(0)').text().trim();
+            let body = _this.clone();
+            body.remove('strong:eq(0)');
+            if (/Other Name/i.test(label)) {
+                let text = body.text().trim()
+                    .replace(/^\s+|\s+$/g, '');
+                if (text.length && text !== 'Updating') {
+                    other_names = text;
+                }
+            }
+            else if (/Author/i.test(label)) {
+                let text = body.text().trim()
+                    .replace(/^\s+|\s+$/g, '');
+                if (text.length && text !== 'Updating') {
+                    authors = [text];
+                }
+            }
+            else if (/Genres/i.test(label)) {
+                let text = body.text().trim()
+                    .replace(/^\s+|\s+$/g, '')
+                    .split(',');
+                text.forEach(v => {
+                    var _b;
+                    v = (_b = v === null || v === void 0 ? void 0 : v.trim) === null || _b === void 0 ? void 0 : _b.call(v);
+                    if (v === null || v === void 0 ? void 0 : v.length) {
+                        tags.push(v);
+                    }
+                });
+            }
+            else if (/Last Update/i.test(label)) {
+                let text = body.text().trim()
+                    .replace(/^\s+|\s+$/g, '')
+                    .replace(/^Last\s*Update:\s*/i, '');
+                if (text.length && text !== 'Updating') {
+                    let timestamp = moment_1.default(text).valueOf();
+                    last_update = timestamp;
+                }
+            }
+        });
+        id = id.toString();
+        return {
+            id,
+            title,
+            other_names,
+            authors,
+            tags,
+            last_update,
+        };
+    }
     _manga(id_key) {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
@@ -74,11 +144,11 @@ class LHScanClient extends lib_1.default {
         let _a = _breadcrumb.find('a[itemscope][itemid]');
         let title;
         let cover;
-        if (/manga-.+-raw\.html$/.test(_a.attr('itemid'))) {
+        if (/manga-.+(?:-raw)?\.html$/.test(_a.attr('itemid'))) {
             title = _a.find('[itemprop="name"]').text().trim();
             cover = _a.find('[itemprop="image"]').prop('src');
         }
-        if (!(title === null || title === void 0 ? void 0 : title.length)) {
+        if (!(title === null || title === void 0 ? void 0 : title.length) || !$('.manga-info').length) {
             throw new RangeError(`manga '${id_key}' not exists`);
         }
         let other_names;
@@ -89,9 +159,11 @@ class LHScanClient extends lib_1.default {
             .each((index, element) => {
             let _this = $(element);
             let label = _this.find('b:eq(0)').text().trim();
-            let body = _this.clone().remove('b:eq(0)');
+            let body = _this.clone();
+            body.remove('b:eq(0)');
             if (/Other names/i.test(label)) {
                 other_names = body.text().trim()
+                    .replace(/^\s*Other\s*names:\s*/i, '')
                     .replace(/^\s*:\s*/, '');
             }
             else if (/Author/i.test(label)) {
@@ -145,6 +217,7 @@ class LHScanClient extends lib_1.default {
             authors,
             tags,
             magazine,
+            last_chapter: chapters[0],
             chapters,
         };
         return ret;
@@ -196,6 +269,8 @@ class LHScanClient extends lib_1.default {
     _mangaList(query) {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
+        let page = $('.pagination-wrap .pagination .active').text();
+        let page_max = $('.pagination-wrap .pagination li:eq(-2)').text();
         let list = [];
         $('.container .row.top > .row-list')
             .each((idx, elem) => {
@@ -211,7 +286,11 @@ class LHScanClient extends lib_1.default {
                 genre.push(_this.text());
             });
             _a = _this.find('a[href^="read-"]');
-            let last_chapter = parse_1.parseReadUrl(_a.prop('href'));
+            let last_chapter;
+            try {
+                last_chapter = parse_1.parseReadUrl(_a.prop('href'));
+            }
+            catch (e) { }
             list.push({
                 id,
                 id_key,
@@ -219,11 +298,9 @@ class LHScanClient extends lib_1.default {
                 last_chapter,
             });
         });
-        let page = $('.pagination-wrap .pagination .active').text();
-        let page_max = $('.pagination-wrap .pagination li:eq(-2)').text();
         return {
-            page,
-            page_max,
+            page: Number.parseInt(page),
+            page_max: Number.parseInt(page_max),
             query,
             list,
         };
@@ -284,6 +361,15 @@ __decorate([
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", Object)
 ], LHScanClient.prototype, "_searchSingle", null);
+__decorate([
+    decorators_1.GET('app/manga/controllers/cont.pop.php?action=pop&id={id}'),
+    jsdom_1.ReturnValueToJSDOM(),
+    decorators_1.methodBuilder(),
+    __param(0, decorators_1.ParamPath('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], LHScanClient.prototype, "mangaMetaPop", null);
 __decorate([
     decorators_1.GET('manga-{id_key}.html')
     // @ts-ignore

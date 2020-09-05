@@ -23,9 +23,12 @@ export interface ISearchSingleDataRowPlus extends ISearchSingleDataRow {
     path: string;
     id_key: string;
 }
-export interface IMangaData {
+export interface IMangaDataBase {
     id_key: string;
     title: string;
+    last_chapter?: IMangaChapter;
+}
+export interface IMangaData extends IMangaDataBase {
     other_names: string;
     cover: string;
     authors: string[];
@@ -60,15 +63,21 @@ export interface IMangaListOptions {
     sort?: IMangaListOptionsSort;
     sort_type?: IMangaListOptionsSortType;
 }
-export interface IMangaListRow {
+export interface IMangaListRow extends IMangaDataBase {
     id: string;
-    id_key: string;
-    title: string;
-    last_chapter: IMangaChapter;
 }
 export interface IMangaList {
-    page: string;
-    page_max: string;
+    page: number;
+    page_max: number;
     query: IMangaListOptions;
     list: IMangaListRow[];
 }
+export interface IMangaDataMetaPop extends Pick<IMangaData, 'title' | 'other_names' | 'authors' | 'tags'>, Pick<IMangaListRow, 'id'> {
+    last_update: number;
+}
+export interface IMangaListRowWithExtra extends IDataWithLastUpdate<IMangaListRow> {
+    other_names?: string;
+}
+export declare type IDataWithLastUpdate<T extends Record<any, any>, U extends Record<any, any> = {}> = T & {
+    last_update?: number;
+} & U;
