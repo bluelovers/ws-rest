@@ -195,7 +195,8 @@ export class LHScanClient extends AbstractHttpClientWithJSDom
 					.split(',')
 				;
 
-				text.forEach(v => {
+				text.forEach(v =>
+				{
 
 					v = v?.trim?.()
 
@@ -484,6 +485,11 @@ export class LHScanClient extends AbstractHttpClientWithJSDom
 				let id = _a.attr('onmouseenter').match(/show\((\d+)\)/)[1];
 
 				let id_key = parseMangaKey(_a.prop('href'))
+
+				if (!id_key?.length)
+				{
+					return;
+				}
 
 				let title = _a.text();
 

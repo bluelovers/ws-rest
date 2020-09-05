@@ -278,6 +278,9 @@ class LHScanClient extends lib_1.default {
             let _a = _this.find('.media-heading a');
             let id = _a.attr('onmouseenter').match(/show\((\d+)\)/)[1];
             let id_key = parse_1.parseMangaKey(_a.prop('href'));
+            if (!(id_key === null || id_key === void 0 ? void 0 : id_key.length)) {
+                return;
+            }
             let title = _a.text();
             let genre = [];
             _this.find('a[href*="manga-list-genre-"]')
