@@ -41,7 +41,7 @@ export declare class LazyCookieJar extends toughCookie.CookieJar {
     constructor(store?: any, options?: {}, data?: {}, url?: string | URL);
     setData<T extends string>(data: ICookiesValueInput<T>, url?: string | URL): this;
     _handleCookieOrString(cookieOrString: ICookiesValue, currentUrl?: string | URL): {
-        cookieOrString: toughCookie.Cookie | LazyCookie;
+        cookieOrString: LazyCookie | toughCookie.Cookie;
         currentUrl: string | URL;
     };
     setCookie(cookieOrString: ICookiesValue, currentUrl: string | URL, options: CookieJar.SetCookieOptions, cb: (err: Error | null, cookie: Cookie) => void): void;
