@@ -3,13 +3,13 @@
   "name": "我就是要玩TRPG！异端法庭闪边去",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 上 纯血的暗精灵",
+  "last_update_volume_name": "第二卷 下 反叛的暗精灵",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 8097,
-  "last_update_chapter_id": 66008,
-  "last_update_time": 1472836336,
+  "last_update_volume_id": 11096,
+  "last_update_chapter_id": 110004,
+  "last_update_time": 1599304852,
   "cover": "https://xs.dmzj.com/img/webpic/17/wjsywtrpg0903l.jpg",
-  "hot_hits": 24566,
+  "hot_hits": 27356,
   "introduction": "魔王级吸血鬼琉德蜜娜突然参选学生会长，居然是为了要将全校学生推入「T (table-talk)RPG」的坑？\n　　吸血鬼猎人刀仪野祇园为了要解决掉琉德蜜娜，而造访圣罗耀拉学院。然而在他潜入学生会室挥刀打算灭杀琉德蜜娜时，却飞到了异空间。\n　　原来，那里是热爱TRPG的琉德蜜娜，以其特殊能力所创造的「由TRPG规则支配的冒险世界」。开始吧，来体验这段奇迹般的冒险之旅！TRPG「跑团」小说骰子已被掷下！",
   "types": [
     "校园",
@@ -18,8 +18,8 @@
   ],
   "authors": "おかゆまさき",
   "first_letter": "W",
-  "subscribe_num": 1822,
-  "redis_update_time": 1564347935,
+  "subscribe_num": 2398,
+  "redis_update_time": 1599332781,
   "volume": [
     {
       "id": 8097,
@@ -27,7 +27,15 @@
       "volume_name": "第一卷 上 纯血的暗精灵",
       "volume_order": 10,
       "addtime": 1472834863,
-      "sum_chapters": 8
+      "sum_chapters": 23
+    },
+    {
+      "id": 11096,
+      "lnovel_id": 2186,
+      "volume_name": "第二卷 下 反叛的暗精灵",
+      "volume_order": 20,
+      "addtime": 1599304343,
+      "sum_chapters": 23
     }
   ],
   "chapters": [
@@ -81,6 +89,54 @@
           "chapter_id": 66008,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11096,
+      "id": 11096,
+      "volume_name": "第二卷 下 反叛的暗精灵",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 109991,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 109992,
+          "chapter_name": "第5章【第8天】那我反问你，有哪次启程是不新又不值得高兴的吗？／剧本5〈入团仪式完成了吗？〉",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 109993,
+          "chapter_name": "第6章【第11天】需要帮你砍头？包在我身上",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 109994,
+          "chapter_name": "第7章【第12天】两人结伴／剧本6〈最终剧本 龙的盟约〉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 109995,
+          "chapter_name": "第8章【第16天】莫名其妙的大失败",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 109996,
+          "chapter_name": "尾声【第17天】鸡鸣骑士团的作风；祇园的做法",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 109997,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 110004,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

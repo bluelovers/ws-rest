@@ -3,21 +3,21 @@
   "name": "究极初心者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 觉醒的妖精",
+  "last_update_volume_name": "第五卷 灵魂的革新",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10095,
-  "last_update_chapter_id": 95850,
-  "last_update_time": 1557311833,
+  "last_update_volume_id": 11094,
+  "last_update_chapter_id": 109989,
+  "last_update_time": 1599227650,
   "cover": "https://xs.dmzj.com/img/webpic/6/cxz1212l.jpg",
-  "hot_hits": 204511,
+  "hot_hits": 295859,
   "introduction": "「一旦等级达到99，将会有事情发生」伴随这样的传说，数位化MMORPG〈星界变革者〉瞬间攻占了世上所有玩家的心。\n在等级凌驾一切的游戏世界里，与仅有九位的玩家〈九大榜众〉平起平坐的剑士·壹野虽然是众玩家口中的〈登峰造极的初心者〉，等级却只有『1』。为达某样目的而只身攻略游戏的他就在某一天，与51级的樱进行决斗，而壹野虽然在最后漂亮拿下胜利……「我绝不允许有人作弊！」没想到却从此面临樱穷追不舍的监视!?",
   "types": [
     "科幻"
   ],
   "authors": "田尾典丈",
   "first_letter": "C",
-  "subscribe_num": 9391,
-  "redis_update_time": 1564347678,
+  "subscribe_num": 10595,
+  "redis_update_time": 1599333159,
   "volume": [
     {
       "id": 8355,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 等级1的最强剑士",
       "volume_order": 10,
       "addtime": 1481550930,
-      "sum_chapters": 8
+      "sum_chapters": 23
     },
     {
       "id": 8398,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 忧郁的巫师",
       "volume_order": 20,
       "addtime": 1483800756,
-      "sum_chapters": 8
+      "sum_chapters": 23
     },
     {
       "id": 8399,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 可疑的祭司",
       "volume_order": 30,
       "addtime": 1483801099,
-      "sum_chapters": 8
+      "sum_chapters": 23
     },
     {
       "id": 10095,
@@ -49,7 +49,15 @@
       "volume_name": "第四卷 觉醒的妖精",
       "volume_order": 40,
       "addtime": 1557311567,
-      "sum_chapters": 8
+      "sum_chapters": 23
+    },
+    {
+      "id": 11094,
+      "lnovel_id": 2246,
+      "volume_name": "第五卷 灵魂的革新",
+      "volume_order": 50,
+      "addtime": 1599226366,
+      "sum_chapters": 23
     }
   ],
   "chapters": [
@@ -245,6 +253,59 @@
         },
         {
           "chapter_id": 95850,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 11094,
+      "id": 11094,
+      "volume_name": "第五卷 灵魂的革新",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 109987,
+          "chapter_name": "转载信息",
+          "chapter_order": 1
+        },
+        {
+          "chapter_id": 109970,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 109971,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 109972,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 109973,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 109974,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 109975,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 109988,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 109989,
           "chapter_name": "插画",
           "chapter_order": 80
         }
