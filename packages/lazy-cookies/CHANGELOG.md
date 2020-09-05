@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.29](https://github.com/bluelovers/ws-rest/compare/lazy-cookies@1.0.28...lazy-cookies@1.0.29) (2020-09-05)
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([6511d60](https://github.com/bluelovers/ws-rest/commit/6511d604823c48f1b7f2e83b5a6ea203bd285492))
+
+
+
+
+
 ## [1.0.28](https://github.com/bluelovers/ws-rest/compare/lazy-cookies@1.0.27...lazy-cookies@1.0.28) (2020-09-03)
 
 

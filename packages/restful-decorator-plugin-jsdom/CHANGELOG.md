@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.29](https://github.com/bluelovers/ws-rest/compare/restful-decorator-plugin-jsdom@1.0.28...restful-decorator-plugin-jsdom@1.0.29) (2020-09-05)
+
+**Note:** Version bump only for package restful-decorator-plugin-jsdom
+
+
+
+
+
 ## [1.0.28](https://github.com/bluelovers/ws-rest/compare/restful-decorator-plugin-jsdom@1.0.27...restful-decorator-plugin-jsdom@1.0.28) (2020-09-03)
 
 

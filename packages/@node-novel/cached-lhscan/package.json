@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/cached-lhscan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@node-novel/cached-lhscan#readme",
   "bugs": {
@@ -31,8 +31,6 @@
     "ncu": "yarn-tool ncu -u",
     "sort-package-json": "yarn-tool sort"
   },
-  "dependencies": {},
-  "devDependencies": {},
   "peerDependencies": {
     "lhscan-api": "^1.0.15"
   },

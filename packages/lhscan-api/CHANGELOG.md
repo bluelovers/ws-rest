@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.16](https://github.com/bluelovers/ws-rest/compare/lhscan-api@1.0.15...lhscan-api@1.0.16) (2020-09-05)
+
+
+### 🐛　Bug Fixes
+
+* avoid id_key is empty ([92ad6df](https://github.com/bluelovers/ws-rest/commit/92ad6dfccd8e4049bbb5f92f3228ecea9115e9f6))
+
+
+### ✨　Features
+
+* update api ([fbbc01f](https://github.com/bluelovers/ws-rest/commit/fbbc01f87db736e38736390193cab603126cfa95))
+* update manga list api ([9ac1987](https://github.com/bluelovers/ws-rest/commit/9ac19870a294c3979865b3fe540a7e239c9550e0))
+
+
+
+
+
 ## [1.0.15](https://github.com/bluelovers/ws-rest/compare/lhscan-api@1.0.14...lhscan-api@1.0.15) (2020-09-03)
 
 
