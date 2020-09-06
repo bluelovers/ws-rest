@@ -827,13 +827,13 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@ts-type/package-dts@^1.0.43":
-  version "1.0.43"
-  resolved "https://registry.npmjs.org/@ts-type/package-dts/-/package-dts-1.0.43.tgz#64418355ae80eba2543add3c70c34a749403163d"
-  integrity sha512-wApEkCEXFzP3sAMb2TGU1YaR4WI6+sZ8ohVDPPVDR0Jl07pGk+64JgGjehIfBeRSR5+FKCvttLQ5vekSkXdA9A==
+"@ts-type/package-dts@^1.0.45":
+  version "1.0.45"
+  resolved "https://registry.npmjs.org/@ts-type/package-dts/-/package-dts-1.0.45.tgz#fa6f635863bc6abd398381a3fbf8d72f3b52720d"
+  integrity sha512-LUWIB0N3OkM1sebA2bhJ3yx5ZfOvAdVUDffjCjM4S0xCh5vtcTkveUU2xC2FeSC2l1Ov7Rty7KwP/NX0+jd11A==
   dependencies:
-    "@types/semver" "^7.3.1"
-    ts-type "^1.2.32"
+    "@types/semver" "^7.3.3"
+    ts-type "^1.2.34"
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.9"
@@ -1038,10 +1038,10 @@
   dependencies:
     moment "*"
 
-"@types/node@*", "@types/node@^14.6.3":
-  version "14.6.3"
-  resolved "https://registry.npmjs.org/@types/node/-/node-14.6.3.tgz#cc4f979548ca4d8e7b90bc0180052ab99ee64224"
-  integrity sha512-pC/hkcREG6YfDfui1FBmj8e20jFU5Exjw4NYDm8kEdrW+mOh0T1Zve8DWKnS7ZIZvgncrctcNCXF4Q2I+loyww==
+"@types/node@*", "@types/node@^14.6.4":
+  version "14.6.4"
+  resolved "https://registry.npmjs.org/@types/node/-/node-14.6.4.tgz#a145cc0bb14ef9c4777361b7bbafa5cf8e3acb5a"
+  integrity sha512-Wk7nG1JSaMfMpoMJDKUsWYugliB2Vy55pdjLpmLixeyMi7HizW2I/9QoxsPCkXl3dO+ZOVqPumKaDUv5zJu2uQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1063,12 +1063,10 @@
   resolved "https://registry.npmjs.org/@types/relateurl/-/relateurl-0.2.28.tgz#6bda7db8653fa62643f5ee69e9f69c11a392e3a6"
   integrity sha1-a9p9uGU/piZD9e5p6facEaOS46Y=
 
-"@types/semver@^7.3.1":
-  version "7.3.1"
-  resolved "https://registry.npmjs.org/@types/semver/-/semver-7.3.1.tgz#7a9a5d595b6d873f338c867dcef64df289468cfa"
-  integrity sha512-ooD/FJ8EuwlDKOI6D9HWxgIgJjMg2cuziXm/42npDC8y4NjxplBUn9loewZiBNCt44450lHAU0OSb51/UqXeag==
-  dependencies:
-    "@types/node" "*"
+"@types/semver@^7.3.3":
+  version "7.3.3"
+  resolved "https://registry.npmjs.org/@types/semver/-/semver-7.3.3.tgz#3ad6ed949e7487e7bda6f886b4a2434a2c3d7b1a"
+  integrity sha512-jQxClWFzv9IXdLdhSaTf16XI3NYe6zrEbckSpb5xhKfPbWgIyAY0AFyWWWfaiDcBuj3UHmMkCIwSRqpKMTZL2Q==
 
 "@types/sizzle@*":
   version "2.3.2"
@@ -5099,17 +5097,11 @@ ts-jest@^26.3.0:
     semver "7.x"
     yargs-parser "18.x"
 
-ts-toolbelt@^6.13.36:
-  version "6.15.5"
-  resolved "https://registry.npmjs.org/ts-toolbelt/-/ts-toolbelt-6.15.5.tgz#cb3b43ed725cb63644782c64fbcad7d8f28c0a83"
-  integrity sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==
-
-ts-type@^1.2.15, ts-type@^1.2.25, ts-type@^1.2.32:
-  version "1.2.32"
-  resolved "https://registry.npmjs.org/ts-type/-/ts-type-1.2.32.tgz#047df19a5724b3ace736e3fcc83322351cf8b722"
-  integrity sha512-2Tp/OXzX+VdsH0bNdUCdK4TzW2kAzJnduPMaI01/jAfZxTowmzZDouL0t51kPEG2ukMKQvxTJQ+e9OiVccTRfA==
+ts-type@^1.2.15, ts-type@^1.2.25, ts-type@^1.2.32, ts-type@^1.2.34:
+  version "1.2.34"
+  resolved "https://registry.npmjs.org/ts-type/-/ts-type-1.2.34.tgz#81eaf6b128c4553c2be89631008958a6143353a1"
+  integrity sha512-r70j8OzgJb16cJ9mpHzmIT286k8Gqik4aAckxDbFc4MyKwwfEeDrXfHt4tLpSNjvqyG51FJGnRt5le6OC4YH0Q==
   dependencies:
-    ts-toolbelt "^6.13.36"
     typedarray-dts "^1.0.0"
 
 tslib@^1.9.2:
