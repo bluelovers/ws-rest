@@ -4,12 +4,12 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第六卷",
-  "last_update_chapter_name": "插画",
+  "last_update_chapter_name": "Gamers特典",
   "last_update_volume_id": 10971,
-  "last_update_chapter_id": 108245,
-  "last_update_time": 1593946897,
+  "last_update_chapter_id": 110066,
+  "last_update_time": 1599483272,
   "cover": "https://xs.dmzj.com/img/webpic/14/yz02026l.jpg",
-  "hot_hits": 573471,
+  "hot_hits": 622701,
   "introduction": "★人气作品《约会大作战》外传小说，以时崎狂三为主角。\n★倾向硝烟火药味十足的杀戮战，但另一方面也呈现出狂三可爱的部分。\n「……我没有名字。一片空无。你叫什么名字？」「我的名字是时崎狂三。」\n失忆少女「空无」在所谓邻界之地清醒，邂逅了时崎狂三。\n她跟著狂三来到一所学校，里面聚集了一群被称为准精灵的少女。\n为了互相厮杀而齐聚一堂的十名少女，以及空空如也的校外人士少女。\n「我是狂三的同伴兼诱饵……诱饵吗！」「是啊，不想当诱饵的话，虏饵也行。」\n「不是一样的意思吗！」这是独树一格的时崎狂三另类故事。\n好了──开始我们的新战争吧。",
   "types": [
     "校园",
@@ -18,8 +18,8 @@
   ],
   "authors": "东出佑一郎",
   "first_letter": "Y",
-  "subscribe_num": 54418,
-  "redis_update_time": 1593996453,
+  "subscribe_num": 58707,
+  "redis_update_time": 1599675738,
   "volume": [
     {
       "id": 9246,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷 赤黑新章",
       "volume_order": 10,
       "addtime": 1519622872,
-      "sum_chapters": 2
+      "sum_chapters": 27
     },
     {
       "id": 9247,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1519707213,
-      "sum_chapters": 2
+      "sum_chapters": 27
     },
     {
       "id": 9573,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1531915996,
-      "sum_chapters": 2
+      "sum_chapters": 27
     },
     {
       "id": 9853,
@@ -51,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1545729270,
-      "sum_chapters": 2
+      "sum_chapters": 27
     },
     {
       "id": 10160,
@@ -59,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1559909348,
-      "sum_chapters": 2
+      "sum_chapters": 27
     },
     {
       "id": 10971,
@@ -67,7 +67,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1593946372,
-      "sum_chapters": 2
+      "sum_chapters": 27
     }
   ],
   "chapters": [
@@ -481,6 +481,11 @@
           "chapter_id": 108245,
           "chapter_name": "插画",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 110066,
+          "chapter_name": "Gamers特典",
+          "chapter_order": 90
         }
       ]
     }

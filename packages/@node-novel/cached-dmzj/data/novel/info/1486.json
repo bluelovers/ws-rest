@@ -3,21 +3,21 @@
   "name": "咖啡馆推理事件簿",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 令人心慌的咖啡香",
-  "last_update_chapter_name": "谢辞",
-  "last_update_volume_id": 6639,
-  "last_update_chapter_id": 47819,
-  "last_update_time": 1422018875,
+  "last_update_volume_name": "第五卷 愿这杯鸳鸯奶茶美味",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11101,
+  "last_update_chapter_id": 110077,
+  "last_update_time": 1599483679,
   "cover": "https://xs.dmzj.com/img/webpic/24/kafeiguantuilishijianbu.jpg",
-  "hot_hits": 82653,
+  "hot_hits": 101445,
   "introduction": "随著冰滴咖啡、越南白咖啡、阿拉比卡豆精品咖啡一一端上桌，咖啡师即将解答京都生活的谜团。然而，她不为人知的过去又有什么秘密？\n第一次喝了咖啡却没付钱的年轻人竟然成为咖啡店常客，他是什么来历？为何总是带来难题？\n继承京都咖啡店的年轻女孩遇见怀抱心机的男子\n一杯咖啡一个谜团「京都日常」X「咖啡推理」即将展开！",
   "types": [
     "侦探"
   ],
   "authors": "冈崎琢磨",
   "first_letter": "G",
-  "subscribe_num": 2810,
-  "redis_update_time": 1564918266,
+  "subscribe_num": 5563,
+  "redis_update_time": 1599675724,
   "volume": [
     {
       "id": 5439,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 下次见面时请让我品尝你煮的咖啡",
       "volume_order": 10,
       "addtime": 1375850001,
-      "sum_chapters": 12
+      "sum_chapters": 27
     },
     {
       "id": 6172,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 梦见咖啡欧蕾的女孩",
       "volume_order": 20,
       "addtime": 1405173756,
-      "sum_chapters": 12
+      "sum_chapters": 27
     },
     {
       "id": 6639,
@@ -41,7 +41,23 @@
       "volume_name": "第三卷 令人心慌的咖啡香",
       "volume_order": 30,
       "addtime": 1421670605,
-      "sum_chapters": 12
+      "sum_chapters": 27
+    },
+    {
+      "id": 11099,
+      "lnovel_id": 1486,
+      "volume_name": "第四卷 休息中·咖啡的五种风味",
+      "volume_order": 40,
+      "addtime": 1599387869,
+      "sum_chapters": 27
+    },
+    {
+      "id": 11101,
+      "lnovel_id": 1486,
+      "volume_name": "第五卷 愿这杯鸳鸯奶茶美味",
+      "volume_order": 50,
+      "addtime": 1599483319,
+      "sum_chapters": 27
     }
   ],
   "chapters": [
@@ -206,6 +222,112 @@
           "chapter_id": 47819,
           "chapter_name": "谢辞",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11099,
+      "id": 11099,
+      "volume_name": "第四卷 休息中·咖啡的五种风味",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 110024,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110025,
+          "chapter_name": "下午三点前的无趣情景",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110026,
+          "chapter_name": "巴列塔之恋",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110027,
+          "chapter_name": "消失的礼物飞镖",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110028,
+          "chapter_name": "可视化的原生艺术",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110029,
+          "chapter_name": "在塔列兰咖啡店的庭院里",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110030,
+          "chapter_name": "release / relief",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11101,
+      "id": 11101,
+      "volume_name": "第五卷 愿这杯鸳鸯奶茶美味",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 110067,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110068,
+          "chapter_name": "序章 大河川流不息的景色",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110069,
+          "chapter_name": "一 少女的短发为何富有魅力？",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110070,
+          "chapter_name": "二 于猿辻濡湿的袖子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110071,
+          "chapter_name": "三 World Coffee Tour’s End",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110072,
+          "chapter_name": "四 Coffee Doll ·raison d’etre",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110073,
+          "chapter_name": "五 大长篇迈向闭幕之地",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 110074,
+          "chapter_name": "六 漂浮于暴风雨夜晚的轻舟",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 110075,
+          "chapter_name": "终章 愿能将这杯鸳鸯奶茶做得美味",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 110076,
+          "chapter_name": "特别收录 这个苹果派不好吃啊",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 110077,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
