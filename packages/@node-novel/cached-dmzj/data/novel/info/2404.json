@@ -3,13 +3,13 @@
   "name": "为何无人记得我的世界？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷 天魔之梦",
+  "last_update_volume_name": "第七卷 祸之使徒",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11090,
-  "last_update_chapter_id": 109939,
-  "last_update_time": 1598876610,
+  "last_update_volume_id": 11107,
+  "last_update_chapter_id": 110165,
+  "last_update_time": 1599739416,
   "cover": "https://xs.dmzj.com/img/webpic/23/wdsj1124l.jpg",
-  "hot_hits": 508306,
+  "hot_hits": 522249,
   "introduction": "暂无简介",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "细音启",
   "first_letter": "W",
-  "subscribe_num": 45498,
-  "redis_update_time": 1599355404,
+  "subscribe_num": 45914,
+  "redis_update_time": 1599783803,
   "volume": [
     {
       "id": 9089,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 命运之剑",
       "volume_order": 10,
       "addtime": 1511522747,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 10017,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 堕天之翼",
       "volume_order": 20,
       "addtime": 1552914888,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 10758,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 众神之道",
       "volume_order": 30,
       "addtime": 1586163482,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 10818,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷 神罚之兽",
       "volume_order": 40,
       "addtime": 1588325436,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 10839,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷 钢之墓地",
       "volume_order": 50,
       "addtime": 1589017975,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 11090,
@@ -66,7 +66,15 @@
       "volume_name": "第六卷 天魔之梦",
       "volume_order": 60,
       "addtime": 1598876053,
-      "sum_chapters": 23
+      "sum_chapters": 14
+    },
+    {
+      "id": 11107,
+      "lnovel_id": 2404,
+      "volume_name": "第七卷 祸之使徒",
+      "volume_order": 70,
+      "addtime": 1599738261,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -460,6 +468,84 @@
           "chapter_id": 109939,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11107,
+      "id": 11107,
+      "volume_name": "第七卷 祸之使徒",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 110151,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110152,
+          "chapter_name": "Prologue 用和这个未来不同的方法",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110153,
+          "chapter_name": "World.1 在大战结束之地",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110154,
+          "chapter_name": "Intermission 你为何不记得我了",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110155,
+          "chapter_name": "World.2 净天之翼",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110156,
+          "chapter_name": "World.3 使徒",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110157,
+          "chapter_name": "Intermission 宛如那一天的——",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 110158,
+          "chapter_name": "World.4 这世界上最圣洁的——",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 110159,
+          "chapter_name": "World.0 落在地上的羽毛无法飞舞",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 110160,
+          "chapter_name": "World.5 神话之岛的神话",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 110161,
+          "chapter_name": "World.6 以世界种族的名义——",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 110162,
+          "chapter_name": "Epilogue 被厌恶的生命",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 110163,
+          "chapter_name": "电子书籍特典",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 110165,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

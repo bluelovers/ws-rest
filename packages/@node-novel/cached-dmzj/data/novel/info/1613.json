@@ -3,13 +3,13 @@
   "name": "转生!白之王国物语",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第八卷",
+  "last_update_volume_name": "第九卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11074,
-  "last_update_chapter_id": 109740,
-  "last_update_time": 1598531491,
+  "last_update_volume_id": 11106,
+  "last_update_chapter_id": 110164,
+  "last_update_time": 1599739254,
   "cover": "https://xs.dmzj.com/img/webpic/8/134905hs4jqkjjktqsosj5.jpg",
-  "hot_hits": 413061,
+  "hot_hits": 419107,
   "introduction": "性格消极、凡事容易死心的男人丧命之后，意外在异世界的雅尔多狄斯提尼亚王国复活。\n无处可去的他，受到贵族千金梅里艾菈相助。\n据她的说法，王国垮台的危机迫在眉睫，而能够拯救国家的，只有具备国王资格的他……",
   "types": [
     "魔法",
@@ -19,8 +19,8 @@
   ],
   "authors": "白泽戌亥",
   "first_letter": "Z",
-  "subscribe_num": 8782,
-  "redis_update_time": 1599355902,
+  "subscribe_num": 8958,
+  "redis_update_time": 1599783338,
   "volume": [
     {
       "id": 5944,
@@ -28,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1397742727,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 5945,
@@ -36,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1397742727,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 5946,
@@ -44,7 +44,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1397742727,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 5957,
@@ -52,7 +52,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1397921490,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 6133,
@@ -60,7 +60,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1403582017,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 10603,
@@ -68,7 +68,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1581502388,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 10604,
@@ -76,7 +76,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1581502663,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 11074,
@@ -84,7 +84,15 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1598530700,
-      "sum_chapters": 23
+      "sum_chapters": 14
+    },
+    {
+      "id": 11106,
+      "lnovel_id": 1613,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "addtime": 1599737985,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -434,6 +442,54 @@
           "chapter_id": 109740,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11106,
+      "id": 11106,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 110140,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110141,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110143,
+          "chapter_name": "第一章 剑与花",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110144,
+          "chapter_name": "第二章 花与花",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110145,
+          "chapter_name": "第三章 骑士学校的王妃候选人们",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110146,
+          "chapter_name": "第四章 剑与盾",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 110150,
+          "chapter_name": "第五章 魔神降临、[候补生总长 解雇决议案提出]",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 110164,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }
