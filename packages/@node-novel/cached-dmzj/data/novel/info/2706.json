@@ -3,13 +3,13 @@
   "name": "最终亚瑟王之战",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10575,
-  "last_update_chapter_id": 102660,
-  "last_update_time": 1580374764,
+  "last_update_volume_name": "第三卷 雪之少女与弒杀亚瑟之王",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11121,
+  "last_update_chapter_id": 110374,
+  "last_update_time": 1600264651,
   "cover": "https://xs.dmzj.com/img/webpic/24/ysw0804l.jpg",
-  "hot_hits": 53530,
+  "hot_hits": 79976,
   "introduction": "★高傲少年╳人渣女孩！继承亚瑟王之位的战争就此隆重开幕！\n高中生真神凛太郎因为与生俱来的才华，无论什么事都过度出类拔萃，过著空虚的人生。\n为了打发时间，故意加入被评为「最弱」的琉奈．阿尔托尔的阵营，参加为了拯救不久后的世界危机，要选拔出真正亚瑟王继承者的「亚瑟王继承战」，可是……\n「我的王者之剑……已经卖掉换钱了。」\n琉奈竟然是个当掉圣剑，还逼她召唤的「骑士」凯伊爵士玩角色扮演，利用对方打工赚钱的人渣！\n但是，面临绝望的危机时，琉奈展现出连凛太郎也不由得认同的强大力量──全新的亚瑟王传说在此开幕！",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "羊太郎",
   "first_letter": "Z",
-  "subscribe_num": 6067,
-  "redis_update_time": 1580429413,
+  "subscribe_num": 7438,
+  "redis_update_time": 1600388448,
   "volume": [
     {
       "id": 10268,
@@ -26,15 +26,23 @@
       "volume_name": "第一卷 人渣亚瑟与邪恶梅林",
       "volume_order": 10,
       "addtime": 1564924067,
-      "sum_chapters": 27
+      "sum_chapters": 4
     },
     {
       "id": 10575,
       "lnovel_id": 2706,
-      "volume_name": "第二卷",
+      "volume_name": "第二卷 圣女亚瑟与赤红幼女骑士",
       "volume_order": 20,
       "addtime": 1580374529,
-      "sum_chapters": 27
+      "sum_chapters": 4
+    },
+    {
+      "id": 11121,
+      "lnovel_id": 2706,
+      "volume_name": "第三卷 雪之少女与弒杀亚瑟之王",
+      "volume_order": 30,
+      "addtime": 1600260938,
+      "sum_chapters": 4
     }
   ],
   "chapters": [
@@ -104,7 +112,7 @@
     {
       "volume_id": 10575,
       "id": 10575,
-      "volume_name": "第二卷",
+      "volume_name": "第二卷 圣女亚瑟与赤红幼女骑士",
       "volume_order": 20,
       "chapters": [
         {
@@ -156,6 +164,64 @@
           "chapter_id": 102660,
           "chapter_name": "后记",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11121,
+      "id": 11121,
+      "volume_name": "第三卷 雪之少女与弒杀亚瑟之王",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 110326,
+          "chapter_name": "序章 某位「王」的故事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110328,
+          "chapter_name": "第一章 潜藏的黑暗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110329,
+          "chapter_name": "第二章 星空之下",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110330,
+          "chapter_name": "第三章 袭击",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110331,
+          "chapter_name": "第四章 过场 ～众人各自的想法～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110332,
+          "chapter_name": "第五章 众人的生死之战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 110333,
+          "chapter_name": "第六章 过去与未来",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 110334,
+          "chapter_name": "终章 崭新的开始",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 110335,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 110374,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
