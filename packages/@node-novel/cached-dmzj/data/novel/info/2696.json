@@ -3,21 +3,21 @@
   "name": "获得超弱技能「地图化」的少年跟最强队伍一起挑战迷宫",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10932,
-  "last_update_chapter_id": 107681,
-  "last_update_time": 1592625349,
+  "last_update_volume_id": 11129,
+  "last_update_chapter_id": 110447,
+  "last_update_time": 1600604842,
   "cover": "https://xs.dmzj.com/img/webpic/10/dth0714l.jpg",
-  "hot_hits": 545606,
+  "hot_hits": 673625,
   "introduction": "15岁的诺特于「赠予仪式」里得到的技能是【地图化】──尽管稀有度很高，\n但比起其他技能却显得难以发挥，也就是常人口中的超弱技能。\n遭儿时玩伴舍弃、陷入失意深渊的诺特，就这么过著把身为冒险者赚来的薪水，\n全都拿去借酒浇愁的日子──这样的生活，在某天突然宣告结束。\n「我们需要拥有这个技能的你。」\n隶属于最强队伍『抵达者』的金恩提出邀请之后，\n诺特的命运就此彻底改变──这一次，我不会再放弃努力，\n必定会拚死挣扎到底。加入最强队伍的少年，\n一路成长、登上顶点的幻想巨作，就此揭开序幕！",
   "types": [
     "冒险"
   ],
   "authors": "鸭野うどん",
   "first_letter": "H",
-  "subscribe_num": 15832,
-  "redis_update_time": 1592785787,
+  "subscribe_num": 18272,
+  "redis_update_time": 1600650350,
   "volume": [
     {
       "id": 10233,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1563103495,
-      "sum_chapters": 8
+      "sum_chapters": 39
     },
     {
       "id": 10530,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1577787091,
-      "sum_chapters": 8
+      "sum_chapters": 39
     },
     {
       "id": 10932,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1592623855,
-      "sum_chapters": 8
+      "sum_chapters": 39
+    },
+    {
+      "id": 11129,
+      "lnovel_id": 2696,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1600604424,
+      "sum_chapters": 39
     }
   ],
   "chapters": [
@@ -306,6 +314,84 @@
           "chapter_id": 107681,
           "chapter_name": "插画",
           "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 11129,
+      "id": 11129,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 110433,
+          "chapter_name": "尾声＆序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110434,
+          "chapter_name": "迷宫第二十一层",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110435,
+          "chapter_name": "丧失",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110436,
+          "chapter_name": "「抵达者」瓦解",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110437,
+          "chapter_name": "许下的承诺",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110438,
+          "chapter_name": "必定是平稳又幸福的日常",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110439,
+          "chapter_name": "雪中的街道",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 110440,
+          "chapter_name": "背叛与幸福的结束",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 110441,
+          "chapter_name": "交错的命运",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 110442,
+          "chapter_name": "两人的异常关系",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 110443,
+          "chapter_name": "清算过去",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 110444,
+          "chapter_name": "他与她的命运走向",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 110445,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 110447,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

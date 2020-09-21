@@ -3,13 +3,13 @@
   "name": "创始魔法师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 魔术的时代",
+  "last_update_volume_name": "第五卷 初始的时代",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10624,
-  "last_update_chapter_id": 103622,
-  "last_update_time": 1582283222,
+  "last_update_volume_id": 11128,
+  "last_update_chapter_id": 110446,
+  "last_update_time": 1600604747,
   "cover": "https://xs.dmzj.com/img/webpic/29/smfs0531l.jpg",
-  "hot_hits": 317906,
+  "hot_hits": 412580,
   "introduction": "　　久远以前的神话时代中，曾经出现一位魔法师。\n　　他被称为「老师」，传授语言与文化，还教导了魔法。\n　　人们于是称他作──创始魔法师。\n　　虽然也不是那么了不起的存在啦──\n　　「所以我就叫你别喷火啊！」\n　　「对不起、对不起，但对我来说这只是在呼吸嘛。」\n　　转生成为龙的「我」，和精灵族少女尼娜一起，\n　　为了解开这个世界魔法的原理，决定建立一间魔法学校。\n　　在那里，「我」和第一个人类学生爱伊，\n　　有了命运般的邂逅──\n　　这是一头度过漫长生命的龙族魔法师，\n　　创造出魔法、国家以及历史的奇幻年代记。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "石之宫カント",
   "first_letter": "C",
-  "subscribe_num": 10608,
-  "redis_update_time": 1582622046,
+  "subscribe_num": 13142,
+  "redis_update_time": 1600650650,
   "volume": [
     {
       "id": 10146,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 名字的时代",
       "volume_order": 10,
       "addtime": 1559311650,
-      "sum_chapters": 9
+      "sum_chapters": 39
     },
     {
       "id": 10147,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 语言的时代",
       "volume_order": 20,
       "addtime": 1559311974,
-      "sum_chapters": 9
+      "sum_chapters": 39
     },
     {
       "id": 10623,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 文字的时代",
       "volume_order": 30,
       "addtime": 1582282732,
-      "sum_chapters": 9
+      "sum_chapters": 39
     },
     {
       "id": 10624,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷 魔术的时代",
       "volume_order": 40,
       "addtime": 1582282927,
-      "sum_chapters": 9
+      "sum_chapters": 39
+    },
+    {
+      "id": 11128,
+      "lnovel_id": 2675,
+      "volume_name": "第五卷 初始的时代",
+      "volume_order": 50,
+      "addtime": 1600604207,
+      "sum_chapters": 39
     }
   ],
   "chapters": [
@@ -313,6 +321,69 @@
           "chapter_id": 103622,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11128,
+      "id": 11128,
+      "volume_name": "第五卷 初始的时代",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 110423,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110424,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110425,
+          "chapter_name": "龙历1080年",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110426,
+          "chapter_name": "龙历1150年",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110427,
+          "chapter_name": "龙历1160年",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110428,
+          "chapter_name": "龙历1180年",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110429,
+          "chapter_name": "龙历1255年",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 110430,
+          "chapter_name": "龙历1301年",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 110431,
+          "chapter_name": "龙历1350年",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 110432,
+          "chapter_name": "后记／Afterword",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 110446,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
