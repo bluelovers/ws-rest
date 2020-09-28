@@ -2,22 +2,22 @@
   "id": 2628,
   "name": "吞噬技能的英雄谭",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第二卷 在沙之迷宫和伙伴一起变强",
+  "status": "已完结",
+  "last_update_volume_name": "第三卷 在迷宫最深处赌命成为英雄",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10006,
-  "last_update_chapter_id": 94652,
-  "last_update_time": 1552749077,
+  "last_update_volume_id": 11144,
+  "last_update_chapter_id": 110639,
+  "last_update_time": 1601125772,
   "cover": "https://xs.dmzj.com/img/webpic/14/yx0306l.jpg",
-  "hot_hits": 73148,
+  "hot_hits": 121796,
   "introduction": "　　若是为了拯救你，我可以变得无限强大。\n　　充满梦想与希望的《加尔德尼亚七迷宫》。新手冒险者‧哈雷向往成为攻略迷宫一隅的英雄，来到冒险都市。虽然状态值低下，但是哈雷拥有超稀有技能，可以吞噬魔物的技能，并将之转化为自己的力量。哈雷在探索迷宫的回程途中，拯救了一位带著小猫的美少女。少女名叫希娜，自称无依无靠、孤单一人。和希娜成为朋友的哈雷，今后又有什么冒险在等著他呢！？凭藉著坚定强大的信念以及唯一仅有的技能为武器，朝著最强迈进的作弊成长英雄谭，开幕！",
   "types": [
     "冒险"
   ],
   "authors": "浅叶ルウイ",
   "first_letter": "T",
-  "subscribe_num": 7347,
-  "redis_update_time": 1564342766,
+  "subscribe_num": 9259,
+  "redis_update_time": 1601255786,
   "volume": [
     {
       "id": 9989,
@@ -33,6 +33,14 @@
       "volume_name": "第二卷 在沙之迷宫和伙伴一起变强",
       "volume_order": 20,
       "addtime": 1552658979,
+      "sum_chapters": 8
+    },
+    {
+      "id": 11144,
+      "lnovel_id": 2628,
+      "volume_name": "第三卷 在迷宫最深处赌命成为英雄",
+      "volume_order": 30,
+      "addtime": 1601122218,
       "sum_chapters": 8
     }
   ],
@@ -150,6 +158,59 @@
           "chapter_id": 94652,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11144,
+      "id": 11144,
+      "volume_name": "第三卷 在迷宫最深处赌命成为英雄",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 110626,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110627,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110628,
+          "chapter_name": "第一话 高级冒险者挑战攻略迷宫",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110629,
+          "chapter_name": "第二话 高级冒险者挑战攻略王宫",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110630,
+          "chapter_name": "第三话 高级冒险者挑战攻略少女",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110631,
+          "chapter_name": "第四话 高级冒险者再度挑战攻略迷宫",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110632,
+          "chapter_name": "终章 然后，成为英雄",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 110633,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 110639,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }
