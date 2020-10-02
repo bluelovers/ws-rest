@@ -3,21 +3,21 @@
   "name": "从毁婚开始的反派千金监狱慢活人生",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 上",
+  "last_update_volume_name": "第二卷 下",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11137,
-  "last_update_chapter_id": 110545,
-  "last_update_time": 1600852732,
+  "last_update_volume_id": 11151,
+  "last_update_chapter_id": 110853,
+  "last_update_time": 1601376653,
   "cover": "https://xs.dmzj.com/img/webpic/16/jyqj0923l.jpg",
-  "hot_hits": 30527,
+  "hot_hits": 56378,
   "introduction": "　　公爵千金蕾切尔被未婚夫艾略特王子以莫须有的罪为理由毁婚，并关进了地牢。\n　　这是情敌的阴谋，还是政敌的圈套……？\n　　然而，被关进近年无人使用的王宫地牢里……接下来的生活令蕾切尔略为兴奋了起来。\n　　没有艰辛严厉的王妃教育，也没有以分钟为单位的行程表，\n　　就算在大白天就开始酣睡也不会挨任何人的骂。\n　　能够随心所欲玩乐的愉快牢房生活正等待著蕾切尔。",
   "types": [
     "搞笑"
   ],
   "authors": "山崎响",
   "first_letter": "C",
-  "subscribe_num": 3003,
-  "redis_update_time": 1601255238,
+  "subscribe_num": 3834,
+  "redis_update_time": 1601597943,
   "volume": [
     {
       "id": 11137,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷 上",
       "volume_order": 10,
       "addtime": 1600852519,
-      "sum_chapters": 8
+      "sum_chapters": 10
+    },
+    {
+      "id": 11151,
+      "lnovel_id": 2942,
+      "volume_name": "第二卷 下",
+      "volume_order": 20,
+      "addtime": 1601376214,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -69,6 +77,39 @@
           "chapter_id": 110545,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11151,
+      "id": 11151,
+      "volume_name": "第二卷 下",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 110849,
+          "chapter_name": "第6章 永别了，赛克斯",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110850,
+          "chapter_name": "第7章 忧郁的王子殿下放不下心",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110851,
+          "chapter_name": "第8章 三流戏剧宣告落幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110852,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110853,
+          "chapter_name": "插画",
+          "chapter_order": 50
         }
       ]
     }
