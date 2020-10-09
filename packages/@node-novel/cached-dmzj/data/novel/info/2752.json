@@ -3,13 +3,13 @@
   "name": "转生王女和天才千金的魔法革命",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "转载信息",
-  "last_update_volume_id": 10865,
-  "last_update_chapter_id": 106643,
-  "last_update_time": 1589806072,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "第六章 为了谁的王冠",
+  "last_update_volume_id": 11155,
+  "last_update_chapter_id": 110925,
+  "last_update_time": 1601716853,
   "cover": "https://xs.dmzj.com/img/webpic/22/zswn1230l.jpg",
-  "hot_hits": 129562,
+  "hot_hits": 355658,
   "introduction": "接下来将要述说的，是某个王国王女的故事。\n这是以憧憬魔法的王女恢复了前世的记忆为起始的故事。\n时而顽皮闹事，时而惹人心往，不断追求着魔法的魅力和真理。\n接下来，就是物语的开始。",
   "types": [
     "穿越",
@@ -17,8 +17,8 @@
   ],
   "authors": "鸦ぴえろ",
   "first_letter": "Z",
-  "subscribe_num": 10062,
-  "redis_update_time": 1590106459,
+  "subscribe_num": 19632,
+  "redis_update_time": 1602203462,
   "volume": [
     {
       "id": 10451,
@@ -26,7 +26,7 @@
       "volume_name": "web版",
       "volume_order": 10,
       "addtime": 1574234299,
-      "sum_chapters": 8
+      "sum_chapters": 6
     },
     {
       "id": 10865,
@@ -34,7 +34,15 @@
       "volume_name": "第一卷",
       "volume_order": 20,
       "addtime": 1589805522,
-      "sum_chapters": 8
+      "sum_chapters": 6
+    },
+    {
+      "id": 11155,
+      "lnovel_id": 2752,
+      "volume_name": "第二卷",
+      "volume_order": 30,
+      "addtime": 1601716764,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -171,6 +179,49 @@
           "chapter_id": 106642,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11155,
+      "id": 11155,
+      "volume_name": "第二卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 110919,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110920,
+          "chapter_name": "第一章 片刻间的平稳",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110921,
+          "chapter_name": "第二章 命运的少女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110922,
+          "chapter_name": "第三章 传说中的怪物",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110923,
+          "chapter_name": "第四章 魔学的价值",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110924,
+          "chapter_name": "第五章 狂乱之夜到来",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110925,
+          "chapter_name": "第六章 为了谁的王冠",
+          "chapter_order": 70
         }
       ]
     }

@@ -2,14 +2,14 @@
   "id": 2501,
   "name": "LV999的村民",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "status": "已完结",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10618,
-  "last_update_chapter_id": 103567,
-  "last_update_time": 1582098656,
+  "last_update_volume_id": 11154,
+  "last_update_chapter_id": 110918,
+  "last_update_time": 1601645278,
   "cover": "https://xs.dmzj.com/img/webpic/6/990605l.jpg",
-  "hot_hits": 441426,
+  "hot_hits": 627326,
   "introduction": "　　在幻想世界「阿斯克利亚」中，每个诞生在这个世界的人都会被赋予该扮演的职业。\n　　王族、勇者、贤者、战士、武斗家、僧侣、魔法师──\n　　还有，只为了繁荣世界而存在最弱职业「村民」。\n　　没有战斗力的村民在这个怪物横行的世界只有依赖其他职业保护的份。\n　　然而，在平均等级只有十级的村民中，\n　　出现了一个到达等级上限999的异端。\n　　穷尽升等极致，已经找不到赚钱以外生存价值的村民「镜浩二」，\n　　此时遇见本该被人类讨伐的魔族少女「艾莉丝」。\n　　这场邂逅让镜找到自己新价值，\n　　并决心踏上对抗世界的险恶道路──",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "星月子猫",
   "first_letter": "L",
-  "subscribe_num": 33903,
-  "redis_update_time": 1582140819,
+  "subscribe_num": 39246,
+  "redis_update_time": 1602203426,
   "volume": [
     {
       "id": 9482,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1528193495,
-      "sum_chapters": 10
+      "sum_chapters": 6
     },
     {
       "id": 9700,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1537958797,
-      "sum_chapters": 10
+      "sum_chapters": 6
     },
     {
       "id": 10060,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1555510022,
-      "sum_chapters": 10
+      "sum_chapters": 6
     },
     {
       "id": 10232,
@@ -51,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1563102348,
-      "sum_chapters": 10
+      "sum_chapters": 6
     },
     {
       "id": 10351,
@@ -59,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1569494414,
-      "sum_chapters": 10
+      "sum_chapters": 6
     },
     {
       "id": 10618,
@@ -67,7 +67,23 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1582094641,
-      "sum_chapters": 10
+      "sum_chapters": 6
+    },
+    {
+      "id": 11153,
+      "lnovel_id": 2501,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1601637280,
+      "sum_chapters": 6
+    },
+    {
+      "id": 11154,
+      "lnovel_id": 2501,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1601637428,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -439,6 +455,112 @@
         },
         {
           "chapter_id": 103567,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11153,
+      "id": 11153,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 110897,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110898,
+          "chapter_name": "Chapter.0 序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110899,
+          "chapter_name": "Chapter.1 再一次",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110900,
+          "chapter_name": "Chapter.2 重复",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110901,
+          "chapter_name": "Chapter.3 坏结局",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110902,
+          "chapter_name": "Chapter.4 尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110903,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 110917,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 11154,
+      "id": 11154,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 110904,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 110905,
+          "chapter_name": "Chapter.0 序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 110906,
+          "chapter_name": "Chapter.1 绝对无法跨越的高墙",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 110907,
+          "chapter_name": "Chapter.2 只在那一瞬间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 110908,
+          "chapter_name": "Chapter.3 不断变化的存在",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 110909,
+          "chapter_name": "Chapter.4 LV999的村民",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 110910,
+          "chapter_name": "Chapter.5 尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 110911,
+          "chapter_name": "Chapter.6 激斗的婚礼！",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 110912,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 110918,
           "chapter_name": "插画",
           "chapter_order": 100
         }
