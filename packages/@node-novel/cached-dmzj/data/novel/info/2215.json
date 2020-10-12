@@ -3,13 +3,13 @@
   "name": "熊熊勇闯异世界",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第十卷",
+  "last_update_volume_name": "第十一卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10968,
-  "last_update_chapter_id": 108198,
-  "last_update_time": 1593867127,
+  "last_update_volume_id": 11166,
+  "last_update_chapter_id": 111152,
+  "last_update_time": 1602402749,
   "cover": "https://xs.dmzj.com/img/webpic/28/xxx1021l.jpg",
-  "hot_hits": 5586606,
+  "hot_hits": 6573061,
   "introduction": "　　请问您认为游戏比现实生活更好玩吗？─YES\n　　请问您在现实世界有重要的人吗？──NO\n　　……我，优奈在线上游戏中回答问卷，没想到却被送到了异世界（大概吧）。\n　　我是家里蹲资历有三年的老练游戏玩家。\n　　一开始穿在我身上的装备竟然是「熊熊套装」……\n　　这什么鬼啊──！\n　　可是又强又方便，那好吧。\n　　打倒野狼、驱除哥布林，我就来当个最强的熊熊冒险者吧。",
   "types": [
     "冒险",
@@ -18,8 +18,8 @@
   ],
   "authors": "くまなの",
   "first_letter": "X",
-  "subscribe_num": 35932,
-  "redis_update_time": 1593995591,
+  "subscribe_num": 44601,
+  "redis_update_time": 1602466096,
   "volume": [
     {
       "id": 8228,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1477042379,
-      "sum_chapters": 2
+      "sum_chapters": 45
     },
     {
       "id": 8349,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1481375767,
-      "sum_chapters": 2
+      "sum_chapters": 45
     },
     {
       "id": 8523,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1487949657,
-      "sum_chapters": 2
+      "sum_chapters": 45
     },
     {
       "id": 8711,
@@ -51,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1496070932,
-      "sum_chapters": 2
+      "sum_chapters": 45
     },
     {
       "id": 9139,
@@ -59,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1514040897,
-      "sum_chapters": 2
+      "sum_chapters": 45
     },
     {
       "id": 9397,
@@ -67,7 +67,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1525335835,
-      "sum_chapters": 2
+      "sum_chapters": 45
     },
     {
       "id": 9450,
@@ -75,7 +75,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1527332672,
-      "sum_chapters": 2
+      "sum_chapters": 45
     },
     {
       "id": 10114,
@@ -83,7 +83,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1558098464,
-      "sum_chapters": 2
+      "sum_chapters": 45
     },
     {
       "id": 10701,
@@ -91,7 +91,7 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1584871889,
-      "sum_chapters": 2
+      "sum_chapters": 45
     },
     {
       "id": 10968,
@@ -99,7 +99,23 @@
       "volume_name": "第十卷",
       "volume_order": 100,
       "addtime": 1593865727,
-      "sum_chapters": 2
+      "sum_chapters": 45
+    },
+    {
+      "id": 11165,
+      "lnovel_id": 2215,
+      "volume_name": "短篇",
+      "volume_order": 110,
+      "addtime": 1602401946,
+      "sum_chapters": 45
+    },
+    {
+      "id": 11166,
+      "lnovel_id": 2215,
+      "volume_name": "第十一卷",
+      "volume_order": 120,
+      "addtime": 1602402001,
+      "sum_chapters": 45
     }
   ],
   "chapters": [
@@ -1617,6 +1633,11 @@
           "chapter_id": 104640,
           "chapter_name": "插画",
           "chapter_order": 350
+        },
+        {
+          "chapter_id": 111116,
+          "chapter_name": "电子书特典【米兰妲与露依敏的相遇】",
+          "chapter_order": 360
         }
       ]
     },
@@ -1780,6 +1801,202 @@
           "chapter_id": 108198,
           "chapter_name": "插画",
           "chapter_order": 310
+        },
+        {
+          "chapter_id": 111115,
+          "chapter_name": "电子书特典【诺雅和妈妈的相处时光】",
+          "chapter_order": 320
+        }
+      ]
+    },
+    {
+      "volume_id": 11165,
+      "id": 11165,
+      "volume_name": "短篇",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 111117,
+          "chapter_name": "漫画1卷特典 优奈的故事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111118,
+          "chapter_name": "熊熊周边发售宣传篇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111119,
+          "chapter_name": "动画番宣短篇",
+          "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 11166,
+      "id": 11166,
+      "volume_name": "第十一卷",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 111120,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111121,
+          "chapter_name": "261 熊熊前往王都",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111122,
+          "chapter_name": "262 熊熊质问艾蕾罗拉小姐",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111123,
+          "chapter_name": "263 熊熊试吃",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111124,
+          "chapter_name": "264 熊熊让艾蕾罗拉小姐看绘本",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111125,
+          "chapter_name": "265 熊熊得知校庆的消息",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111126,
+          "chapter_name": "266 熊熊接到希雅的委托",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 111127,
+          "chapter_name": "267 熊熊不知道怎么回答芙萝拉公主的问题",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 111128,
+          "chapter_name": "268 熊熊去见诺雅",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 111129,
+          "chapter_name": "269 熊熊邀请菲娜和修莉参观校庆",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 111130,
+          "chapter_name": "270 熊熊讨论去王都的方法",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 111131,
+          "chapter_name": "271 熊熊得知神圣树的效果",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 111132,
+          "chapter_name": "272 熊熊朝王都出发",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 111133,
+          "chapter_name": "273 熊熊玩扑克牌",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 111134,
+          "chapter_name": "274 熊熊抵达王都",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 111135,
+          "chapter_name": "275 熊熊讨论今后的行程",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 111136,
+          "chapter_name": "276 熊熊在不知不觉间让人不幸",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 111137,
+          "chapter_name": "277 熊熊被熊熊围绕",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 111138,
+          "chapter_name": "278 熊熊玩弄诺雅的头发",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 111139,
+          "chapter_name": "279 熊熊见到公主殿下",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 111140,
+          "chapter_name": "280 熊熊帮忙宣传摊位",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 111141,
+          "chapter_name": "281 熊熊逛校庆",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 111142,
+          "chapter_name": "282 熊熊听见菲娜的批评",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 111143,
+          "chapter_name": "283 熊熊重新得知菲娜的肢解技术有多好",
+          "chapter_order": 240
+        },
+        {
+          "chapter_id": 111144,
+          "chapter_name": "284 熊熊发现自己没有时尚品味",
+          "chapter_order": 250
+        },
+        {
+          "chapter_id": 111145,
+          "chapter_name": "285 熊熊结束校庆第一天",
+          "chapter_order": 260
+        },
+        {
+          "chapter_id": 111146,
+          "chapter_name": "堤莉亚想见熊熊 其一",
+          "chapter_order": 270
+        },
+        {
+          "chapter_id": 111147,
+          "chapter_name": "堤莉亚想见熊熊 其二",
+          "chapter_order": 280
+        },
+        {
+          "chapter_id": 111148,
+          "chapter_name": "新人冒险者去海边 其一",
+          "chapter_order": 290
+        },
+        {
+          "chapter_id": 111149,
+          "chapter_name": "新人冒险者去海边 其二",
+          "chapter_order": 300
+        },
+        {
+          "chapter_id": 111150,
+          "chapter_name": "后记",
+          "chapter_order": 310
+        },
+        {
+          "chapter_id": 111152,
+          "chapter_name": "插画",
+          "chapter_order": 320
         }
       ]
     }
