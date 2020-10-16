@@ -3,13 +3,13 @@
   "name": "优雅贵族的休假指南",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10863,
-  "last_update_chapter_id": 106616,
-  "last_update_time": 1589712777,
+  "last_update_volume_id": 11170,
+  "last_update_chapter_id": 111234,
+  "last_update_time": 1602682704,
   "cover": "https://xs.dmzj.com/img/webpic/21/yygz0225l.jpg",
-  "hot_hits": 35315,
+  "hot_hits": 96346,
   "introduction": "利瑟尔大人不见了！\n担任宰相的年轻贵族利瑟尔，某天正在跟属下谈话时，竟突然穿越到另一个名为「帕鲁特达」的异世界。虽然完全不知道该如何回到原来的世界，但利瑟尔本人却依然老神在在，并立刻决定把这趟穿越当作是放长假，全力展开观光加冒险！\n利瑟尔在街上四处打听情报时，偶然遇到了一个腰配长剑、浑身散发危险气息的黑衣男子劫尔。原来劫尔是全国知名的上级「冒险者」，专门接受委托来赚取金钱和名誉。\n利瑟尔决定聘雇劫尔担任他的专属「导游」兼保镳，靠著天生的聪明机智和折服人心的话术，利瑟尔的异世界假期，将会掀起什么样的波澜呢？",
   "types": [
     "穿越",
@@ -17,8 +17,8 @@
   ],
   "authors": "岬",
   "first_letter": "Y",
-  "subscribe_num": 2654,
-  "redis_update_time": 1589760867,
+  "subscribe_num": 4752,
+  "redis_update_time": 1602808265,
   "volume": [
     {
       "id": 10634,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1582619125,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 10696,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1584699021,
-      "sum_chapters": 3
+      "sum_chapters": 16
     },
     {
       "id": 10863,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1589712396,
-      "sum_chapters": 3
+      "sum_chapters": 16
+    },
+    {
+      "id": 11170,
+      "lnovel_id": 2807,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1602681711,
+      "sum_chapters": 16
     }
   ],
   "chapters": [
@@ -307,6 +315,109 @@
           "chapter_id": 106616,
           "chapter_name": "插画",
           "chapter_order": 200
+        }
+      ]
+    },
+    {
+      "volume_id": 11170,
+      "id": 11170,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 111206,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111207,
+          "chapter_name": "45",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111208,
+          "chapter_name": "46",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111209,
+          "chapter_name": "47",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111210,
+          "chapter_name": "48",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111211,
+          "chapter_name": "49",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111212,
+          "chapter_name": "50",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 111213,
+          "chapter_name": "51",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 111214,
+          "chapter_name": "52",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 111215,
+          "chapter_name": "53",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 111216,
+          "chapter_name": "54",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 111217,
+          "chapter_name": "55",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 111218,
+          "chapter_name": "56",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 111219,
+          "chapter_name": "57",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 111220,
+          "chapter_name": "58",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 111221,
+          "chapter_name": "翡翠色的冀望",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 111222,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 111223,
+          "chapter_name": "电子书特典——早已习于论斤秤两",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 111234,
+          "chapter_name": "插画",
+          "chapter_order": 190
         }
       ]
     }

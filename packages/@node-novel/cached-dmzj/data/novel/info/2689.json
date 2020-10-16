@@ -3,21 +3,21 @@
   "name": "梦魔·危机",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10439,
-  "last_update_chapter_id": 100872,
-  "last_update_time": 1573656627,
+  "last_update_volume_id": 11171,
+  "last_update_chapter_id": 111233,
+  "last_update_time": 1602682644,
   "cover": "https://xs.dmzj.com/img/webpic/16/mmwj0628l.jpg",
-  "hot_hits": 16894,
+  "hot_hits": 31764,
   "introduction": "允许任何合法或不合法交易行为的假想空间「Money(game)Master」的最强Dealer·苏芳要与魅魔型的AI搭档·洁莉卡，他们的猎物是能够超越物理上限的作弊武器「终之魔法」与一名少女。\n「但是这样好喏？老爷您原本可以作为高中生就赚到十七亿日元啊。」\n「就算这样也还是这边的事情更优先。」\n  枪与车，再加上投资战争。在无论什么都可以被允许的究极VR犯罪都市里发生的「救助」是？\n  最强的Crime Action，开幕。",
   "types": [
     "科幻"
   ],
   "authors": "镰池和马",
   "first_letter": "M",
-  "subscribe_num": 3030,
-  "redis_update_time": 1574304288,
+  "subscribe_num": 4718,
+  "redis_update_time": 1602808156,
   "volume": [
     {
       "id": 10200,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1561722303,
-      "sum_chapters": 8
+      "sum_chapters": 16
     },
     {
       "id": 10439,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1573648819,
-      "sum_chapters": 8
+      "sum_chapters": 16
+    },
+    {
+      "id": 11171,
+      "lnovel_id": 2689,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1602682195,
+      "sum_chapters": 16
     }
   ],
   "chapters": [
@@ -135,6 +143,64 @@
           "chapter_id": 100872,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11171,
+      "id": 11171,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 111224,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111225,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111226,
+          "chapter_name": "第七章 甩卖生命的少女 BGM#07”Girl in Trash Can.”",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111227,
+          "chapter_name": "第八章 挑战PMC本部吧 BGM#08“Laser Art.”",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111228,
+          "chapter_name": "第九章 向你开枪的勇气 BGM#09“Fight a Duel.”",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111229,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111230,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 111231,
+          "chapter_name": "第十章 或是一种末日论 BGM#10“the End of the Money.”",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 111232,
+          "chapter_name": "后记二",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 111233,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
