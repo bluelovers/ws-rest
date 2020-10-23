@@ -3,13 +3,13 @@
   "name": "三角距离无限为零",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "插图",
-  "last_update_volume_id": 10472,
-  "last_update_chapter_id": 101240,
-  "last_update_time": 1575461363,
+  "last_update_volume_name": "第五卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11176,
+  "last_update_chapter_id": 111299,
+  "last_update_time": 1602928573,
   "cover": "https://xs.dmzj.com/img/webpic/18/sj1225l.jpg",
-  "hot_hits": 216425,
+  "hot_hits": 384427,
   "introduction": "我与「她们」之间奇妙又扭曲的三角关系。那段距离无限接近，近乎为零——\n在人前会扮演「虚假自我」的我。这样的我喜欢上了无论何时都会贯彻自己，文静的转校生，水濑秋玻。然而，在她的里面还有一个——温柔又有些脱线的少女，水濑春珂。\n一人之中的两人……多重人格的「秋玻」与「春珂」。在知晓她们秘密之时，我们的关系不可思议地彼此交错——这是我与她与她编织的三角恋爱物语。",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "岬鹭宫",
   "first_letter": "S",
-  "subscribe_num": 22100,
-  "redis_update_time": 1575867070,
+  "subscribe_num": 28816,
+  "redis_update_time": 1603412758,
   "volume": [
     {
       "id": 9852,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1545729080,
-      "sum_chapters": 5
+      "sum_chapters": 59
     },
     {
       "id": 9956,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1550309152,
-      "sum_chapters": 5
+      "sum_chapters": 59
     },
     {
       "id": 10464,
@@ -42,7 +42,7 @@
       "volume_name": "短篇",
       "volume_order": 22,
       "addtime": 1574936032,
-      "sum_chapters": 5
+      "sum_chapters": 59
     },
     {
       "id": 10463,
@@ -50,7 +50,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1574935620,
-      "sum_chapters": 5
+      "sum_chapters": 59
     },
     {
       "id": 10472,
@@ -58,7 +58,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1575460178,
-      "sum_chapters": 5
+      "sum_chapters": 59
+    },
+    {
+      "id": 11176,
+      "lnovel_id": 2601,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1602928241,
+      "sum_chapters": 59
     }
   ],
   "chapters": [
@@ -364,6 +372,19 @@
           "chapter_id": 101240,
           "chapter_name": "插图",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 11176,
+      "id": 11176,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 111299,
+          "chapter_name": "插画",
+          "chapter_order": 130
         }
       ]
     }

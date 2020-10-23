@@ -3,13 +3,13 @@
   "name": "异世界超商繁盛记",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9393,
-  "last_update_chapter_id": 85525,
-  "last_update_time": 1525254742,
+  "last_update_volume_id": 11182,
+  "last_update_chapter_id": 111479,
+  "last_update_time": 1603191311,
   "cover": "https://xs.dmzj.com/img/webpic/5/fsj1112l.jpg",
-  "hot_hits": 139317,
+  "hot_hits": 194196,
   "introduction": "　　在巷子里拐个弯，就来到了异世界。异世界✕精灵✕超商，而我就是店主。决定『放弃』充满压力的现实，「店主」因为一点突发状况误闯了异世界。异世界的人对我真好，我想要报恩！店主开了一家小型的商店，并且聘请了倒在路边的精灵少女做为店员——店内所贩售的商品都是现代文明的产物！包括砂糖丶咖啡丶电锯，还有塑胶袋，应有尽有，今天也不停卖了又卖，生意兴隆！上门的客人不只附近的『大婶』和小孩子，甚至还有矮人铁匠和传说的冒险者！？「异世界的C商店」今天同样充满了顾客的笑容！悠悠哉哉的乐活店主，今天也照自己的步调热烈营业中！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "新木伸",
   "first_letter": "Y",
-  "subscribe_num": 5190,
-  "redis_update_time": 1564347611,
+  "subscribe_num": 6505,
+  "redis_update_time": 1603412007,
   "volume": [
     {
       "id": 8287,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1478959284,
-      "sum_chapters": 8
+      "sum_chapters": 59
     },
     {
       "id": 9393,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1525253642,
-      "sum_chapters": 8
+      "sum_chapters": 59
+    },
+    {
+      "id": 11182,
+      "lnovel_id": 2231,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1603190640,
+      "sum_chapters": 59
     }
   ],
   "chapters": [
@@ -286,6 +294,124 @@
           "chapter_id": 85525,
           "chapter_name": "插画",
           "chapter_order": 240
+        }
+      ]
+    },
+    {
+      "volume_id": 11182,
+      "id": 11182,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 111458,
+          "chapter_name": "第42话「店主回来了」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111459,
+          "chapter_name": "第43话「图鉴无双」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111460,
+          "chapter_name": "第44话「大人吃的饭」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111461,
+          "chapter_name": "第45话「关于信赖」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111462,
+          "chapter_name": "第46话「淋浴无双」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111463,
+          "chapter_name": "第47话「存在壶里的钱」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111464,
+          "chapter_name": "第48话「辛香料无双」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 111465,
+          "chapter_name": "第49话「义大利面无双」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 111466,
+          "chapter_name": "第50话「化学调味料无双」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 111467,
+          "chapter_name": "第51话「占卜无双」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 111468,
+          "chapter_name": "第52话「禁止占卜」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 111469,
+          "chapter_name": "第53话「聘请工读生」",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 111470,
+          "chapter_name": "第54话「人生游戏」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 111471,
+          "chapter_name": "第55话「十二进位」",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 111472,
+          "chapter_name": "第56话「性骚扰」",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 111473,
+          "chapter_name": "第57话「禁止抽奖」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 111474,
+          "chapter_name": "第58话「诱拐」",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 111475,
+          "chapter_name": "第59话「美津希留下来过夜」",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 111476,
+          "chapter_name": "第60话「关于战争①」",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 111477,
+          "chapter_name": "第61话「关于战争②」",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 111478,
+          "chapter_name": "后记",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 111479,
+          "chapter_name": "插画",
+          "chapter_order": 220
         }
       ]
     }

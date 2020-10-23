@@ -3,21 +3,21 @@
   "name": "地狱幽暗亦无花",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 蛇噬之宿",
-  "last_update_chapter_name": "第三怪 杀子之父，或是终章",
-  "last_update_volume_id": 10918,
-  "last_update_chapter_id": 107490,
-  "last_update_time": 1591936871,
+  "last_update_volume_name": "第四卷 百鬼缭乱夜行列车",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 11185,
+  "last_update_chapter_id": 111519,
+  "last_update_time": 1603371421,
   "cover": "https://xs.dmzj.com/img/webpic/20/dyh0406l.jpg",
-  "hot_hits": 6769,
+  "hot_hits": 14982,
   "introduction": "究竟是案件引来了他们，还是他们引来了案件……\n\n无工作、无学籍又无处栖身的远野青儿有个祕密──他会把犯罪者看成妖怪。在穷途末路的状态下，青儿无意间踏进一栋洋房，在那里他意外结识一名拥有绝世美貌的和服少年西条皓，并成为皓「代客服务业」的助手。\n所谓的「代客服务」，是将毫无悔意的罪人送进地狱的「地狱代客服务」。逢魔时刻，隐藏罪行的罪人会不知不觉被引来这间屋子。他们都是逃过法律制裁或罪行没有被发现的罪人，但绝世美少年会将这些罪孽深重的人们，痛快地打入地狱！",
   "types": [
     "侦探"
   ],
   "authors": "路生よる",
   "first_letter": "D",
-  "subscribe_num": 1940,
-  "redis_update_time": 1592180748,
+  "subscribe_num": 3092,
+  "redis_update_time": 1603412665,
   "volume": [
     {
       "id": 10759,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1586168181,
-      "sum_chapters": 63
+      "sum_chapters": 59
     },
     {
       "id": 10917,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 活人偶之岛",
       "volume_order": 20,
       "addtime": 1591936700,
-      "sum_chapters": 63
+      "sum_chapters": 59
     },
     {
       "id": 10918,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷 蛇噬之宿",
       "volume_order": 30,
       "addtime": 1591936789,
-      "sum_chapters": 63
+      "sum_chapters": 59
+    },
+    {
+      "id": 11185,
+      "lnovel_id": 2846,
+      "volume_name": "第四卷 百鬼缭乱夜行列车",
+      "volume_order": 40,
+      "addtime": 1603371359,
+      "sum_chapters": 59
     }
   ],
   "chapters": [
@@ -130,6 +138,34 @@
         {
           "chapter_id": 107490,
           "chapter_name": "第三怪 杀子之父，或是终章",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 11185,
+      "id": 11185,
+      "volume_name": "第四卷 百鬼缭乱夜行列车",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 111516,
+          "chapter_name": "第一怪 野狂，或是序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111517,
+          "chapter_name": "第二怪 百鬼夜行",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111518,
+          "chapter_name": "第三怪 人，或是终章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111519,
+          "chapter_name": "后记",
           "chapter_order": 40
         }
       ]

@@ -3,13 +3,13 @@
   "name": "SAO刀剑神域外传 Gun Gale Online",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷 One Summer Day",
+  "last_update_volume_name": "第八卷 4th特攻强袭 中",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9470,
-  "last_update_chapter_id": 90757,
-  "last_update_time": 1540814164,
+  "last_update_volume_id": 11175,
+  "last_update_chapter_id": 111286,
+  "last_update_time": 1602928091,
   "cover": "https://xs.dmzj.com/img/webpic/2/djggo52689l.jpg",
-  "hot_hits": 597837,
+  "hot_hits": 641206,
   "introduction": "　　小比类卷香莲是身高183公分的女大学生。由于身高的自卑感作祟，让她在「现实世界」里无法顺利与人相处，但是VRMMO「GGO」改变了她──\n　　获得身高不到150公分的理想「小不点」角色后，香莲就穿著全身粉红色的战斗服，以玩家「莲」的身分驰骋于GGO世界里！\n　　这时有一名美女玩家「Pitohui」出现在她眼前。两人都是GGO内稀有的女性玩家，而且也意气相投──某一天，Pitohui询问莲是否愿意跟她一起参加最强枪手决定战「BoB」的小队混战版「Squad Jam（特攻强袭）」……\n　　由时雨泽惠一＆黑星红白所呈现的《Sword Art Online刀剑神域》外传登场！",
   "types": [
     "科幻",
@@ -17,8 +17,8 @@
   ],
   "authors": "时雨泽惠一",
   "first_letter": "S",
-  "subscribe_num": 40679,
-  "redis_update_time": 1564361370,
+  "subscribe_num": 44668,
+  "redis_update_time": 1603413569,
   "volume": [
     {
       "id": 7313,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 特攻强袭",
       "volume_order": 10,
       "addtime": 1446384777,
-      "sum_chapters": 8
+      "sum_chapters": 59
     },
     {
       "id": 7355,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 2nd特攻强袭〈上〉",
       "volume_order": 20,
       "addtime": 1448201669,
-      "sum_chapters": 8
+      "sum_chapters": 59
     },
     {
       "id": 9011,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 2nd特攻强袭〈下〉",
       "volume_order": 30,
       "addtime": 1508327988,
-      "sum_chapters": 8
+      "sum_chapters": 59
     },
     {
       "id": 9109,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷 3rd特攻强袭 背叛者的选择 上",
       "volume_order": 40,
       "addtime": 1512388646,
-      "sum_chapters": 8
+      "sum_chapters": 59
     },
     {
       "id": 9469,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷 3rd特攻强袭 背叛者的选择 下",
       "volume_order": 50,
       "addtime": 1527821802,
-      "sum_chapters": 8
+      "sum_chapters": 59
     },
     {
       "id": 9470,
@@ -66,15 +66,23 @@
       "volume_name": "第六卷 One Summer Day",
       "volume_order": 60,
       "addtime": 1527822953,
-      "sum_chapters": 8
+      "sum_chapters": 59
     },
     {
       "id": 9650,
       "lnovel_id": 2003,
-      "volume_name": "第七卷 4th Squad Jam 上",
+      "volume_name": "第七卷 4th特攻强袭 上",
       "volume_order": 70,
       "addtime": 1535368314,
-      "sum_chapters": 8
+      "sum_chapters": 59
+    },
+    {
+      "id": 11175,
+      "lnovel_id": 2003,
+      "volume_name": "第八卷 4th特攻强袭 中",
+      "volume_order": 80,
+      "addtime": 1602927846,
+      "sum_chapters": 59
     }
   ],
   "chapters": [
@@ -529,46 +537,94 @@
     {
       "volume_id": 9650,
       "id": 9650,
-      "volume_name": "第七卷 4th Squad Jam 上",
+      "volume_name": "第七卷 4th特攻强袭 上",
       "volume_order": 70,
       "chapters": [
         {
-          "chapter_id": 89260,
-          "chapter_name": "第一章 在SJ4开始前的各种事",
+          "chapter_id": 111272,
+          "chapter_name": "第一章「SJ4开始发生前的各种事情」",
           "chapter_order": 10
         },
         {
-          "chapter_id": 89261,
-          "chapter_name": "第二章 名为Fire的男人",
+          "chapter_id": 111273,
+          "chapter_name": "第二章「名为Fire的男人」",
           "chapter_order": 20
         },
         {
-          "chapter_id": 89262,
-          "chapter_name": "第三章 SJ4，开始",
+          "chapter_id": 111274,
+          "chapter_name": "第三章「SJ4正式开始」",
           "chapter_order": 30
         },
         {
-          "chapter_id": 89263,
-          "chapter_name": "第四章 特别规则发动",
+          "chapter_id": 111275,
+          "chapter_name": "第四章「特别规则发动」",
           "chapter_order": 40
         },
         {
-          "chapter_id": 89264,
-          "chapter_name": "第五章 此路不通",
+          "chapter_id": 111276,
+          "chapter_name": "第五章「通过吧」",
           "chapter_order": 50
         },
         {
-          "chapter_id": 89265,
-          "chapter_name": "第六章 背叛与信赖",
+          "chapter_id": 111277,
+          "chapter_name": "第六章「背叛与信赖」",
           "chapter_order": 60
         },
         {
-          "chapter_id": 89266,
-          "chapter_name": "后记 Gun Gale 日记 其之七",
+          "chapter_id": 111278,
+          "chapter_name": "后记Gun Gale日记 其之7",
           "chapter_order": 70
         },
         {
           "chapter_id": 89267,
+          "chapter_name": "插画",
+          "chapter_order": 111
+        }
+      ]
+    },
+    {
+      "volume_id": 11175,
+      "id": 11175,
+      "volume_name": "第八卷 4th特攻强袭 中",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 111279,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111280,
+          "chapter_name": "第七章「至今为止的其他人」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111281,
+          "chapter_name": "第八章「少女们的危机」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111282,
+          "chapter_name": "第九章「莲非常生气」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111283,
+          "chapter_name": "第十章「Dog fight」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111284,
+          "chapter_name": "第十一章「这场战斗就交给我」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111285,
+          "chapter_name": "后记Gun Gale日记 其之8",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 111286,
           "chapter_name": "插画",
           "chapter_order": 80
         }
