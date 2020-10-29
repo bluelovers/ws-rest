@@ -3,13 +3,13 @@
   "name": "为何无人记得我的世界？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第八卷 久远之魂",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11132,
-  "last_update_chapter_id": 110495,
-  "last_update_time": 1600680255,
+  "last_update_volume_name": "第九卷 你的世界",
+  "last_update_chapter_name": "电子书籍特典",
+  "last_update_volume_id": 11189,
+  "last_update_chapter_id": 111599,
+  "last_update_time": 1603600446,
   "cover": "https://xs.dmzj.com/img/webpic/23/wdsj1124l.jpg",
-  "hot_hits": 604583,
+  "hot_hits": 631686,
   "introduction": "暂无简介",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "细音启",
   "first_letter": "W",
-  "subscribe_num": 47919,
-  "redis_update_time": 1603413316,
+  "subscribe_num": 48458,
+  "redis_update_time": 1604001900,
   "volume": [
     {
       "id": 9089,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 命运之剑",
       "volume_order": 10,
       "addtime": 1511522747,
-      "sum_chapters": 59
+      "sum_chapters": 4
     },
     {
       "id": 10017,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 堕天之翼",
       "volume_order": 20,
       "addtime": 1552914888,
-      "sum_chapters": 59
+      "sum_chapters": 4
     },
     {
       "id": 10758,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 众神之道",
       "volume_order": 30,
       "addtime": 1586163482,
-      "sum_chapters": 59
+      "sum_chapters": 4
     },
     {
       "id": 10818,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷 神罚之兽",
       "volume_order": 40,
       "addtime": 1588325436,
-      "sum_chapters": 59
+      "sum_chapters": 4
     },
     {
       "id": 10839,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷 钢之墓地",
       "volume_order": 50,
       "addtime": 1589017975,
-      "sum_chapters": 59
+      "sum_chapters": 4
     },
     {
       "id": 11090,
@@ -66,7 +66,7 @@
       "volume_name": "第六卷 天魔之梦",
       "volume_order": 60,
       "addtime": 1598876053,
-      "sum_chapters": 59
+      "sum_chapters": 4
     },
     {
       "id": 11107,
@@ -74,7 +74,7 @@
       "volume_name": "第七卷 祸之使徒",
       "volume_order": 70,
       "addtime": 1599738261,
-      "sum_chapters": 59
+      "sum_chapters": 4
     },
     {
       "id": 11132,
@@ -82,7 +82,15 @@
       "volume_name": "第八卷 久远之魂",
       "volume_order": 80,
       "addtime": 1600679862,
-      "sum_chapters": 59
+      "sum_chapters": 4
+    },
+    {
+      "id": 11189,
+      "lnovel_id": 2404,
+      "volume_name": "第九卷 你的世界",
+      "volume_order": 90,
+      "addtime": 1603600194,
+      "sum_chapters": 4
     }
   ],
   "chapters": [
@@ -632,6 +640,69 @@
           "chapter_id": 110495,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 11189,
+      "id": 11189,
+      "volume_name": "第九卷 你的世界",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 111589,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111590,
+          "chapter_name": "Prologue 世界的中心——",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111591,
+          "chapter_name": "World.1 夺人心灵之物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111592,
+          "chapter_name": "World.2 这个世界上最美丽的",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111593,
+          "chapter_name": "World.3 人类所期望的将来",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111594,
+          "chapter_name": "World.4 悲哀的生命",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111595,
+          "chapter_name": "World.5 无穷无尽无用爱阿丝拉索拉卡",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 111596,
+          "chapter_name": "World.6 灵魂之归所",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 111597,
+          "chapter_name": "World.7 打破无限循环的世界轮回",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 111598,
+          "chapter_name": "Epilogue 你的世界",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 111599,
+          "chapter_name": "电子书籍特典",
+          "chapter_order": 110
         }
       ]
     }

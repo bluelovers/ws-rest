@@ -3,13 +3,13 @@
   "name": "持续狩猎史莱姆三百年，不知不觉就练到LV MAX(打了史莱姆300年)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10710,
-  "last_update_chapter_id": 104695,
-  "last_update_time": 1585049434,
+  "last_update_volume_id": 11188,
+  "last_update_chapter_id": 111601,
+  "last_update_time": 1603638872,
   "cover": "https://xs.dmzj.com/img/webpic/8/sl0902l.jpg",
-  "hot_hits": 620478,
+  "hot_hits": 769814,
   "introduction": "在日本的社畜时代，因工作而过劳死。由于厌倦了大量的工作，想要持续享受悠闲的时光，于是便作为长生不老的作为魔女转生了。实际上为了生活费此后一连三百年不间断的讨伐史莱姆，结果达到了99级。",
   "types": [
     "冒险",
@@ -19,8 +19,8 @@
   ],
   "authors": "森田季节",
   "first_letter": "D",
-  "subscribe_num": 35250,
-  "redis_update_time": 1585267209,
+  "subscribe_num": 40145,
+  "redis_update_time": 1604001294,
   "volume": [
     {
       "id": 9386,
@@ -28,7 +28,7 @@
       "volume_name": "漫画外传 做了1500年的公务员，屈服于魔王的淫威当上大臣了",
       "volume_order": 10,
       "addtime": 1524925860,
-      "sum_chapters": 19
+      "sum_chapters": 4
     },
     {
       "id": 9438,
@@ -36,7 +36,7 @@
       "volume_name": "漫画外传 精灵的饭",
       "volume_order": 20,
       "addtime": 1526807976,
-      "sum_chapters": 19
+      "sum_chapters": 4
     },
     {
       "id": 9581,
@@ -44,7 +44,7 @@
       "volume_name": "第一卷",
       "volume_order": 30,
       "addtime": 1532257206,
-      "sum_chapters": 19
+      "sum_chapters": 4
     },
     {
       "id": 9660,
@@ -52,7 +52,7 @@
       "volume_name": "第二卷",
       "volume_order": 40,
       "addtime": 1535898896,
-      "sum_chapters": 19
+      "sum_chapters": 4
     },
     {
       "id": 9927,
@@ -60,7 +60,7 @@
       "volume_name": "第三卷",
       "volume_order": 50,
       "addtime": 1548854174,
-      "sum_chapters": 19
+      "sum_chapters": 4
     },
     {
       "id": 10188,
@@ -68,7 +68,7 @@
       "volume_name": "第四卷",
       "volume_order": 60,
       "addtime": 1561373623,
-      "sum_chapters": 19
+      "sum_chapters": 4
     },
     {
       "id": 10595,
@@ -76,7 +76,7 @@
       "volume_name": "第五卷",
       "volume_order": 70,
       "addtime": 1581242024,
-      "sum_chapters": 19
+      "sum_chapters": 4
     },
     {
       "id": 10710,
@@ -84,7 +84,23 @@
       "volume_name": "第六卷",
       "volume_order": 80,
       "addtime": 1585045893,
-      "sum_chapters": 19
+      "sum_chapters": 4
+    },
+    {
+      "id": 11187,
+      "lnovel_id": 2478,
+      "volume_name": "第七卷",
+      "volume_order": 90,
+      "addtime": 1603552863,
+      "sum_chapters": 4
+    },
+    {
+      "id": 11188,
+      "lnovel_id": 2478,
+      "volume_name": "第八卷",
+      "volume_order": 100,
+      "addtime": 1603553222,
+      "sum_chapters": 4
     }
   ],
   "chapters": [
@@ -629,6 +645,162 @@
           "chapter_id": 104695,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 11187,
+      "id": 11187,
+      "volume_name": "第七卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 111564,
+          "chapter_name": "转载信息",
+          "chapter_order": 1
+        },
+        {
+          "chapter_id": 111561,
+          "chapter_name": "参加魔王的生日宴会",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111562,
+          "chapter_name": "在魔王恶作剧之下变成狐狸",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111563,
+          "chapter_name": "神明来了",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111565,
+          "chapter_name": "参加龙王战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111566,
+          "chapter_name": "来一场地方路线马车之旅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111567,
+          "chapter_name": "参加妖精展览会",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111568,
+          "chapter_name": "前往古代文明的遗迹",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 111569,
+          "chapter_name": "与恶灵陛下会面",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 111570,
+          "chapter_name": "恶灵陛下前来游玩",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 111571,
+          "chapter_name": "附录 穿上微风洋装",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 111572,
+          "chapter_name": "外传 持续当小公务员一千五百年，在魔王的力量下被迫担任大臣 透过农务省筹办旅行……不，是进修才对哪",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 111573,
+          "chapter_name": "假日与魔王约会哪",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 111574,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 111600,
+          "chapter_name": "插画",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 11188,
+      "id": 11188,
+      "volume_name": "第八卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 111575,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111576,
+          "chapter_name": "桑朵拉长大了",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111577,
+          "chapter_name": "前往魔族的游戏店",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111578,
+          "chapter_name": "神与妖精握手言和",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111579,
+          "chapter_name": "与传统悠久的神明战斗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111580,
+          "chapter_name": "与恶灵讲鬼故事",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111581,
+          "chapter_name": "前往无人岛",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 111582,
+          "chapter_name": "奇怪的人登门报恩",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 111583,
+          "chapter_name": "魔族开始直播",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 111584,
+          "chapter_name": "外传小说 精灵饭 如果有间新店与老得有风格的店，那么老店比较值得相信吧？",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 111585,
+          "chapter_name": "花别人的钱吃饭比较美味，这种说法有根据吗？",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 111586,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 111601,
+          "chapter_name": "插画",
+          "chapter_order": 130
         }
       ]
     }
