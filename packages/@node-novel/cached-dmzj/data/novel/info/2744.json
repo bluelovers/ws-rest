@@ -3,13 +3,13 @@
   "name": "虽然不确定你会不会喜欢我，但是我有自信爱上你",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10410,
-  "last_update_chapter_id": 100462,
-  "last_update_time": 1572270257,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 11205,
+  "last_update_chapter_id": 111831,
+  "last_update_time": 1604841917,
   "cover": "https://xs.dmzj.com/img/webpic/29/gf1028l.jpg",
-  "hot_hits": 18874,
+  "hot_hits": 35799,
   "introduction": "　　年龄差距？种族不同？只要有爱就都不是问题！\n　　倘若要把世上的人分成两类，由您来分的话，会分成什么跟什么呢？\n　　──「吸血鬼跟吸血鬼以外的吧。」\n　　──「不，我认为是『能不能遇见命中注定的那个人』。」\n　　神谷诚一郎，二十八岁。职业是猎犬──吸血鬼的猎杀者。某个夜晚，一名少女前来拜访他。\n　　绫濑真，十四岁。全世界绝无仅有的「天生的吸血鬼」。\n　　因为某位恩人的托付，诚一郎接纳了前来投靠自己的少女，两人就此展开同居生活──然而，他们也在不知不觉之中陷入了围绕著吸血鬼之谜，无法预料的事件漩涡。\n　　双方年龄相差十四岁，猎杀者与遭猎杀者的危险恋爱故事，揭开序幕！",
   "types": [
     "奇幻",
@@ -17,8 +17,8 @@
   ],
   "authors": "铃木大辅",
   "first_letter": "S",
-  "subscribe_num": 2897,
-  "redis_update_time": 1573385866,
+  "subscribe_num": 5425,
+  "redis_update_time": 1604883957,
   "volume": [
     {
       "id": 10410,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1572269610,
-      "sum_chapters": 12
+      "sum_chapters": 8
+    },
+    {
+      "id": 11205,
+      "lnovel_id": 2744,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1604841746,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -85,6 +93,49 @@
           "chapter_id": 100462,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11205,
+      "id": 11205,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 111825,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111826,
+          "chapter_name": "序",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111827,
+          "chapter_name": "第一话 First episode",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111828,
+          "chapter_name": "第二话 Second episode",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111829,
+          "chapter_name": "第三话 Third episode",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111830,
+          "chapter_name": "第四话 Fourth episode",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111831,
+          "chapter_name": "后记",
+          "chapter_order": 70
         }
       ]
     }
