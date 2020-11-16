@@ -4,12 +4,12 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "后记",
+  "last_update_chapter_name": "插画",
   "last_update_volume_id": 11208,
-  "last_update_chapter_id": 111856,
-  "last_update_time": 1604842736,
+  "last_update_chapter_id": 111862,
+  "last_update_time": 1604908816,
   "cover": "https://xs.dmzj.com/img/webpic/10/mdsj0817l.jpg",
-  "hot_hits": 41558,
+  "hot_hits": 56447,
   "introduction": "　　勇翔的目标是成为一流剑士。有一天，他被突然现身道场的神秘男子杀死，就这样转生到异世界！而两把爱刀也跟著勇翔一起转生，变成名叫阳奈和月华的魔导少女！？勇翔好不容易查明杀死自己的凶手是这个世界的魔法使，正决定要把人找出来当面解决时，却因为两位少女莫名的嫉妒──「绝对不准使用除了我们两个以外的刀！」只好放弃持剑战斗，进入魔法学校就读。但是，无法使用魔法的勇翔，只能一直接受阳奈和月华的照顾。最后演变成三个人同居！？在这种纷纷乱乱的状况下，勇翔能够为自己报仇吗！？",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "岩波零",
   "first_letter": "W",
-  "subscribe_num": 4142,
-  "redis_update_time": 1604883563,
+  "subscribe_num": 4890,
+  "redis_update_time": 1605488696,
   "volume": [
     {
       "id": 11054,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1597665934,
-      "sum_chapters": 8
+      "sum_chapters": 63
     },
     {
       "id": 11208,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1604842560,
-      "sum_chapters": 8
+      "sum_chapters": 63
     }
   ],
   "chapters": [
@@ -146,6 +146,11 @@
           "chapter_id": 111856,
           "chapter_name": "后记",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 111862,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

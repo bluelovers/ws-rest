@@ -3,13 +3,13 @@
   "name": "被卷入了勇者召唤事件却发现异世界很和平",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11024,
-  "last_update_chapter_id": 108998,
-  "last_update_time": 1596376489,
+  "last_update_volume_id": 11212,
+  "last_update_chapter_id": 111956,
+  "last_update_time": 1605106683,
   "cover": "https://xs.dmzj.com/img/webpic/26/gp0414l.jpg",
-  "hot_hits": 2604152,
+  "hot_hits": 3035151,
   "introduction": "在和平的异世界，开始悠闲＆恩爱的生活！！\n\n从大学回家的路上，快人和等红灯的高中生们一起被传送到了异世界。\n看上去是被卷入了勇者召唤。这是要和魔王战斗的展开！？\n和快人的想像相反，勇者只是祭典的主角，\n回到原来的世界要到一年以后。决定在这一年里悠闲生活的快人，\n与带有不可思议的魅力的魔族少女克罗姆艾娜相遇了。\n此后，克罗姆艾娜一到夜晚就跑到快人的房间。她的真面目是……！？\n「成为小说家吧」首发，「晨星大赏」大赏获奖作品！！",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "灯台",
   "first_letter": "B",
-  "subscribe_num": 44920,
-  "redis_update_time": 1597096518,
+  "subscribe_num": 47952,
+  "redis_update_time": 1605489500,
   "volume": [
     {
       "id": 10054,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555247692,
-      "sum_chapters": 14
+      "sum_chapters": 63
     },
     {
       "id": 10242,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1563714409,
-      "sum_chapters": 14
+      "sum_chapters": 63
     },
     {
       "id": 10389,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1571309558,
-      "sum_chapters": 14
+      "sum_chapters": 63
     },
     {
       "id": 10486,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1576143932,
-      "sum_chapters": 14
+      "sum_chapters": 63
     },
     {
       "id": 10722,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1585224671,
-      "sum_chapters": 14
+      "sum_chapters": 63
     },
     {
       "id": 10901,
@@ -66,7 +66,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1591243779,
-      "sum_chapters": 14
+      "sum_chapters": 63
     },
     {
       "id": 11024,
@@ -74,7 +74,15 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1596375820,
-      "sum_chapters": 14
+      "sum_chapters": 63
+    },
+    {
+      "id": 11212,
+      "lnovel_id": 2646,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1605106172,
+      "sum_chapters": 63
     }
   ],
   "chapters": [
@@ -606,6 +614,89 @@
           "chapter_id": 108998,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 11212,
+      "id": 11212,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 111942,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111943,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111944,
+          "chapter_name": "第一章 第二次的黎格佛雷西亚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111945,
+          "chapter_name": "第二章 齐格林德的心意",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111946,
+          "chapter_name": "第三章 不能使用自然魔法的森精",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111947,
+          "chapter_name": "闲话 六王·六王祭准备中",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111948,
+          "chapter_name": "第四章 六王祭的邀请函",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 111949,
+          "chapter_name": "闲话 六王祭·各种各样的反应",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 111950,
+          "chapter_name": "第五章 快人的弱点、露娜玛丽亚的秘密",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 111951,
+          "chapter_name": "闲话 卡拉薇·失去和获得之物",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 111952,
+          "chapter_name": "第六章 改变一切的人",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 111953,
+          "chapter_name": "终章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 111954,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 111955,
+          "chapter_name": "严肃前辈的房间 ～第八幕～",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 111956,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }

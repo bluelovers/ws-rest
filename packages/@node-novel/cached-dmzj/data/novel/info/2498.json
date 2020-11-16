@@ -3,21 +3,21 @@
   "name": "边境的老骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 巴尔特•罗恩与王国太子",
+  "last_update_volume_name": "第四卷 巴尔特•罗恩与不死将军",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10323,
-  "last_update_chapter_id": 99371,
-  "last_update_time": 1568038167,
+  "last_update_volume_id": 11210,
+  "last_update_chapter_id": 111939,
+  "last_update_time": 1605105554,
   "cover": "https://xs.dmzj.com/img/webpic/10/lq0530l.jpg",
-  "hot_hits": 109321,
+  "hot_hits": 310359,
   "introduction": "　　老骑士巴尔特察觉自己时日无多，为了享受珍奇景色与大啖美食，他向侍奉多年的领主之家递出了辞呈。\n　　带著长年形影相随的一匹马，开始一场随心所欲的旅行。\n　　而他不知道──\n　　这场旅行将拉开崭新冒险的序幕。",
   "types": [
     "冒险"
   ],
   "authors": "支援BIS",
   "first_letter": "B",
-  "subscribe_num": 10546,
-  "redis_update_time": 1568061494,
+  "subscribe_num": 16477,
+  "redis_update_time": 1605489335,
   "volume": [
     {
       "id": 9462,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1527687268,
-      "sum_chapters": 19
+      "sum_chapters": 63
     },
     {
       "id": 9948,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 新生之森",
       "volume_order": 20,
       "addtime": 1549979091,
-      "sum_chapters": 19
+      "sum_chapters": 63
     },
     {
       "id": 10323,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷 巴尔特•罗恩与王国太子",
       "volume_order": 30,
       "addtime": 1568035891,
-      "sum_chapters": 19
+      "sum_chapters": 63
+    },
+    {
+      "id": 11210,
+      "lnovel_id": 2498,
+      "volume_name": "第四卷 巴尔特•罗恩与不死将军",
+      "volume_order": 40,
+      "addtime": 1605000411,
+      "sum_chapters": 63
     }
   ],
   "chapters": [
@@ -381,6 +389,99 @@
           "chapter_id": 99371,
           "chapter_name": "插画",
           "chapter_order": 190
+        }
+      ]
+    },
+    {
+      "volume_id": 11210,
+      "id": 11210,
+      "volume_name": "第四卷 巴尔特•罗恩与不死将军",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 111892,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 111893,
+          "chapter_name": "第七部 第一次诸国战争 第一章 三国连军 油炸小牛脑",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 111894,
+          "chapter_name": "第二章 魔兽来袭 卡拉芋甜干",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 111895,
+          "chapter_name": "第三章 玛努诺的女王 沙虫杂炊",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 111896,
+          "chapter_name": "第四章 就任联军元帅 糖醋狮子蟹<卡萨·依巴姆>",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 111897,
+          "chapter_name": "第五章 山岳战 香蒸牛背肉",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 111898,
+          "chapter_name": "第六章 希鲁普利马路切之战 提勒由的汤药",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 111899,
+          "chapter_name": "第八部 第二次诸国战争 第一章 雅娜的手环 陶德家的土",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 111900,
+          "chapter_name": "第二章 伏萨里翁 河鱼与野菜清汤",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 111901,
+          "chapter_name": "第三章 朱露察卡成婚 水鸟派",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 111902,
+          "chapter_name": "第四章 季扬国王传说 奇伯兹",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 111903,
+          "chapter_name": "第五章 群雄齐聚 牛尾汤",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 111904,
+          "chapter_name": "第六章 帕戴山谷之战 百菜锅",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 111905,
+          "chapter_name": "外传 蕾莉亚的婚事 第一章 憎恶 布鲁多血冻",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 111906,
+          "chapter_name": "第二章 拉夫达悬崖之战 甘察碎糖",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 111907,
+          "chapter_name": "后记",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 111939,
+          "chapter_name": "插画",
+          "chapter_order": 170
         }
       ]
     }
