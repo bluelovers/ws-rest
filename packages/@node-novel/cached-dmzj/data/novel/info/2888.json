@@ -3,13 +3,13 @@
   "name": "明明已经从最强职业《龙骑士》转职成初级职业《运货人》，不知为何仍然备受勇者们的信赖",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10941,
-  "last_update_chapter_id": 107756,
-  "last_update_time": 1592800284,
+  "last_update_volume_id": 11235,
+  "last_update_chapter_id": 112273,
+  "last_update_time": 1605799591,
   "cover": "https://xs.dmzj.com/img/webpic/9/zqshr0622l.jpg",
-  "hot_hits": 41764,
+  "hot_hits": 70062,
   "introduction": "　　最强的《龙骑士》艾克塞尔，接受王家委托，作为勇者队伍的一员击败了魔王。之后因为某种误会而转职成为初级职业《送货员》，他改变心情离开战场，原本打算与搭档龙王巴榭莉雅一起处理运送员的工作，一面在世界四处旅行……然而不知为何，能力与技能比身为龙骑士时期更强。不只是公会与城镇居民，甚至还越来越受到勇者们倚赖！？史上最强的新手送货员与龙王少女，最速送上送货版奇幻故事！",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "天羽衣白一",
   "first_letter": "M",
-  "subscribe_num": 4774,
-  "redis_update_time": 1593130488,
+  "subscribe_num": 7772,
+  "redis_update_time": 1605832303,
   "volume": [
     {
       "id": 10941,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1592799908,
-      "sum_chapters": 23
+      "sum_chapters": 10
+    },
+    {
+      "id": 11235,
+      "lnovel_id": 2888,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1605799200,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -83,6 +91,64 @@
         },
         {
           "chapter_id": 107756,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11235,
+      "id": 11235,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 112263,
+          "chapter_name": "序章 ◆ 轻松旅行仍仔细完成运货人职责",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 112264,
+          "chapter_name": "第一章 ◆ 运货人的灵活进化",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 112265,
+          "chapter_name": "第二章 ◆ 在新城镇的新邂逅",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 112266,
+          "chapter_name": "第三章 ◆ 与同伴一起工作",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 112267,
+          "chapter_name": "第四章 ◆ 运货人扩张事业版图",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 112268,
+          "chapter_name": "第五章 ◆ 运货人进行调查",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 112269,
+          "chapter_name": "第六章 ◆ 前任龙骑士与从前伙伴发挥以往能力",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 112270,
+          "chapter_name": "终章 ◆ 穿越海风",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 112271,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 112273,
           "chapter_name": "插画",
           "chapter_order": 100
         }

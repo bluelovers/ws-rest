@@ -3,13 +3,13 @@
   "name": "魔王学园的反叛者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10954,
-  "last_update_chapter_id": 107949,
-  "last_update_time": 1593321532,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "尾声",
+  "last_update_volume_id": 11233,
+  "last_update_chapter_id": 112255,
+  "last_update_time": 1605704993,
   "cover": "https://xs.dmzj.com/img/webpic/1/mwxy0424l.jpg",
-  "hot_hits": 200579,
+  "hot_hits": 343219,
   "introduction": "身为「人类」的主人公目标竟然是「魔族」之王 击败最强的魔族，向魔族的顶端不断进发吧！！",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "久慈マサムネ",
   "first_letter": "M",
-  "subscribe_num": 12738,
-  "redis_update_time": 1593390079,
+  "subscribe_num": 18275,
+  "redis_update_time": 1605832279,
   "volume": [
     {
       "id": 10798,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1587730229,
-      "sum_chapters": 49
+      "sum_chapters": 10
     },
     {
       "id": 10898,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1590980890,
-      "sum_chapters": 49
+      "sum_chapters": 10
     },
     {
       "id": 10954,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1593321043,
-      "sum_chapters": 49
+      "sum_chapters": 10
+    },
+    {
+      "id": 11233,
+      "lnovel_id": 2856,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1605704785,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -222,6 +230,44 @@
           "chapter_id": 107949,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11233,
+      "id": 11233,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 112250,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 112251,
+          "chapter_name": "第一章 出发，夏季集训！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 112252,
+          "chapter_name": "第二章 度假地恋人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 112253,
+          "chapter_name": "第三章 特训中，捡到一群小豆柴",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 112254,
+          "chapter_name": "第四章 姐妹情",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 112255,
+          "chapter_name": "尾声",
+          "chapter_order": 60
         }
       ]
     }
