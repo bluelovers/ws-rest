@@ -3,13 +3,13 @@
   "name": "就算是有点色色的三姐妹，你也愿意娶回家吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10790,
-  "last_update_chapter_id": 105703,
-  "last_update_time": 1587470002,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11253,
+  "last_update_chapter_id": 112689,
+  "last_update_time": 1607091501,
   "cover": "https://xs.dmzj.com/img/webpic/1/sjm0421l.jpg",
-  "hot_hits": 43002,
+  "hot_hits": 176515,
   "introduction": "　　「和全学最受欢迎的三姐妹住在一起，把她们培育成候补名门新娘吧！」\n　　贫穷高中生的我，一条天真，从极度宠溺女儿的大企业总裁手中接下神秘的打工委托；没想到三姐妹全都有不可告人的兴趣！\n　　「收我为奴隶吧！」雪音小姐，就算你拿出绳子，我也不会绑你喔！\n　　「和我交换内裤吧？」月乃，你眼睛里出现爱心了喔？\n　　「啊哈★被学长看到人家只穿内衣的样子了！」花铃！把衣服穿好！\n　　三姐妹全都想找我发泄性欲……要是被她们的父亲知道这些事，我会被开除的……啊啊，我受不了了！既然如此，我要好好矫正你们的特殊性癖，让你们成为无可挑剔的完美新娘！\n　　同住同一个屋檐下，三倍可爱、三倍香艳的姐妹恋爱喜剧！",
   "types": [
     "搞笑",
@@ -17,8 +17,8 @@
   ],
   "authors": "浅冈旭",
   "first_letter": "J",
-  "subscribe_num": 6763,
-  "redis_update_time": 1587686938,
+  "subscribe_num": 24152,
+  "redis_update_time": 1607111210,
   "volume": [
     {
       "id": 10790,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1587469572,
-      "sum_chapters": 6
+      "sum_chapters": 9
+    },
+    {
+      "id": 11253,
+      "lnovel_id": 2854,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1607091015,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -79,6 +87,64 @@
         {
           "chapter_id": 105703,
           "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 112688,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11253,
+      "id": 11253,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 112680,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 112681,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 112682,
+          "chapter_name": "第一章 监视人是女仆小姐",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 112683,
+          "chapter_name": "第二章 有点色色的蜜月旅行",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 112684,
+          "chapter_name": "第三章 喜欢粉红色漫画吗？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 112685,
+          "chapter_name": "第四章 也有从脱衣展开的恋爱！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 112686,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 112687,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 112689,
+          "chapter_name": "插画",
           "chapter_order": 90
         }
       ]
