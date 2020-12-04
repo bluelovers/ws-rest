@@ -50,6 +50,7 @@ exports.default = index_1.lazyRun(async () => {
             'last_update_time',
             //'cover',
             'introduction',
+            //'types',
         ]);
         row.introduction = row.introduction
             .replace(/  +/g, ' ')

@@ -519,6 +519,9 @@ DmzjClient = __decorate([
     }),
     decorators_1.RequestConfigs({
         responseType: 'json',
+        //	data: {
+        //		...buildVersion(),
+        //	},
     }),
     decorators_1.CacheRequest({
         cache: {

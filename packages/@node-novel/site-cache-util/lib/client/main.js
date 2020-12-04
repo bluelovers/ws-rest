@@ -29,6 +29,10 @@ async function _getApiClient(opts) {
                     __1.consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, index_1.getResponseUrl(err.response));
                 },
             },
+            //			proxy: {
+            //				host: '49.51.155.45',
+            //				port: 8081,
+            //			},
         });
         //consoleDebug.dir(setting);
         const cookiesCacheFile = cacheFilePaths.cookiesCacheFile;
