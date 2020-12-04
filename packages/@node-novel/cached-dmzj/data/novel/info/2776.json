@@ -3,21 +3,21 @@
   "name": "道别的方法，我不愿知晓",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "尾声",
-  "last_update_volume_id": 10831,
-  "last_update_chapter_id": 106201,
-  "last_update_time": 1588679038,
+  "last_update_volume_id": 11237,
+  "last_update_chapter_id": 112311,
+  "last_update_time": 1606022085,
   "cover": "https://xs.dmzj.com/img/webpic/7/zy0101l.jpg",
-  "hot_hits": 14122,
+  "hot_hits": 34309,
   "introduction": "　　故事开始了——在八月湛蓝的天空下。\n　　你获得了成为架见崎居民的权利——。高二的香屋步收到一封奇怪的信，上面写着从没听过的城镇。尽管内容可疑，但信封上的记号和两年前挚友最后留下的记号相同。Toma还活着？为寻找线索，香屋前往信中指定的公寓……\n　　战争。领土。能力者。与死亡和泪水比邻的青春。“架见崎”系列，就此开幕。",
   "types": [
     "侦探"
   ],
   "authors": "河野裕",
   "first_letter": "D",
-  "subscribe_num": 3509,
-  "redis_update_time": 1589156588,
+  "subscribe_num": 6095,
+  "redis_update_time": 1607042103,
   "volume": [
     {
       "id": 10531,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1577873391,
-      "sum_chapters": 9
+      "sum_chapters": 19
     },
     {
       "id": 10573,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1580288812,
-      "sum_chapters": 9
+      "sum_chapters": 19
     },
     {
       "id": 10831,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1588678851,
-      "sum_chapters": 9
+      "sum_chapters": 19
+    },
+    {
+      "id": 11237,
+      "lnovel_id": 2776,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1605961556,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -95,6 +103,11 @@
           "chapter_id": 102182,
           "chapter_name": "尾声",
           "chapter_order": 90
+        },
+        {
+          "chapter_id": 112293,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     },
@@ -143,6 +156,11 @@
           "chapter_id": 102619,
           "chapter_name": "尾声",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 112294,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     },
@@ -194,6 +212,64 @@
         },
         {
           "chapter_id": 106201,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 112295,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11237,
+      "id": 11237,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 112296,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 112297,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 112298,
+          "chapter_name": "第一话 少年决定成为英雄",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 112299,
+          "chapter_name": "第二话 开战的宣言",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 112300,
+          "chapter_name": "第三话 我就是想要这样才会过来",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 112301,
+          "chapter_name": "第四话 他永远在和前提战斗",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 112302,
+          "chapter_name": "第五话 无论是谁总会在某处败北",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 112310,
+          "chapter_name": "第六话 她有很多朋友",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 112311,
           "chapter_name": "尾声",
           "chapter_order": 90
         }

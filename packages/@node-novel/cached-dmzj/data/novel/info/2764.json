@@ -3,21 +3,21 @@
   "name": "Hello，DEADLINE",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10502,
-  "last_update_chapter_id": 101792,
-  "last_update_time": 1576841784,
+  "last_update_volume_id": 11251,
+  "last_update_chapter_id": 112675,
+  "last_update_time": 1607005789,
   "cover": "https://xs.dmzj.com/img/webpic/20/hl1220l.jpg",
-  "hot_hits": 3784,
+  "hot_hits": 10163,
   "introduction": "位于歌颂和平的皇都中的禁忌地区──「外区」，\n自从七年前的「事件」后，遭到政府严密封锁。\n三名少年少女悄悄入侵这个区域。\n──追寻父母死亡真相的「寻死者」酒匂骧一。\n──因过度强烈的正义感而探查「外区」秘密的折野春风。\n──怀有杀人冲动，以短刀战斗的少女战部米菈。\n三人为了追寻各自的目标，潜入「外区」。\n当一名「理应不存在」的少女出现在他们面前时，故事的齿轮开始转动……",
   "types": [
     "侦探"
   ],
   "authors": "高坂はしやん",
   "first_letter": "H",
-  "subscribe_num": 895,
-  "redis_update_time": 1576916057,
+  "subscribe_num": 2005,
+  "redis_update_time": 1607042086,
   "volume": [
     {
       "id": 10502,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1576840332,
-      "sum_chapters": 24
+      "sum_chapters": 19
+    },
+    {
+      "id": 11251,
+      "lnovel_id": 2764,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1607003754,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -154,6 +162,109 @@
           "chapter_id": 101792,
           "chapter_name": "插画",
           "chapter_order": 240
+        }
+      ]
+    },
+    {
+      "volume_id": 11251,
+      "id": 11251,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 112644,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 112645,
+          "chapter_name": "序章 实力悬殊",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 112646,
+          "chapter_name": "side春风 实力悬殊",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 112647,
+          "chapter_name": "side日和 实力悬殊",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 112648,
+          "chapter_name": "第一章 不愉快的邂逅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 112649,
+          "chapter_name": "side日和 不愉快的邂逅",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 112650,
+          "chapter_name": "第二章 突然",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 112651,
+          "chapter_name": "side春风 突然",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 112652,
+          "chapter_name": "第三章 不确实地前进",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 112653,
+          "chapter_name": "昔日 七年前，■■■日和，皇都西十八号区演习场",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 112654,
+          "chapter_name": "第四章 星之海",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 112655,
+          "chapter_name": "side日和 星之海",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 112656,
+          "chapter_name": "第五章 讨厌的蓝色",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 112657,
+          "chapter_name": "第六章 月是残酷的夜之王",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 112658,
+          "chapter_name": "第七章 访客众多",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 112659,
+          "chapter_name": "side日和 访客众多",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 112660,
+          "chapter_name": "后日谈 隔天，酒匂酿一，自家",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 112661,
+          "chapter_name": "后记",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 112675,
+          "chapter_name": "插画",
+          "chapter_order": 190
         }
       ]
     }

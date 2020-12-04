@@ -3,13 +3,13 @@
   "name": "因想当冒险者而前往大都市的女儿已经升到了S级",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "web番外 父亲节",
-  "last_update_volume_id": 11140,
-  "last_update_chapter_id": 110607,
-  "last_update_time": 1601121030,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 11243,
+  "last_update_chapter_id": 112394,
+  "last_update_time": 1606223418,
   "cover": "https://xs.dmzj.com/img/webpic/15/sjmxz0925l.jpg",
-  "hot_hits": 49307,
+  "hot_hits": 182801,
   "introduction": "在老家的农村过着如冒险者一般的生活的贝尔格里夫，将在森林里捡到的女儿安洁琳养大，送她前往大都市。\n收到久违的女儿即将回乡的消息，但却迟迟不见女儿回来，担心与日俱增。\n另一方面，已成为公会最高级别『S级』的安洁琳，想要回到最爱的父亲身边，但是……\n「到底要到什么时候才能让我去见父亲啊……！」",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "门司柿家",
   "first_letter": "Y",
-  "subscribe_num": 3747,
-  "redis_update_time": 1605830221,
+  "subscribe_num": 6262,
+  "redis_update_time": 1607040795,
   "volume": [
     {
       "id": 11140,
@@ -26,7 +26,31 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1601026933,
-      "sum_chapters": 10
+      "sum_chapters": 19
+    },
+    {
+      "id": 11241,
+      "lnovel_id": 2943,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1606222130,
+      "sum_chapters": 19
+    },
+    {
+      "id": 11242,
+      "lnovel_id": 2943,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1606222808,
+      "sum_chapters": 19
+    },
+    {
+      "id": 11243,
+      "lnovel_id": 2943,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1606223165,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -130,6 +154,305 @@
           "chapter_id": 110607,
           "chapter_name": "web番外 父亲节",
           "chapter_order": 190
+        }
+      ]
+    },
+    {
+      "volume_id": 11241,
+      "id": 11241,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 112340,
+          "chapter_name": "第十三话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 112341,
+          "chapter_name": "第十四话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 112342,
+          "chapter_name": "第十五话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 112343,
+          "chapter_name": "第十六话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 112344,
+          "chapter_name": "第十七话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 112345,
+          "chapter_name": "第十八话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 112346,
+          "chapter_name": "第十九话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 112347,
+          "chapter_name": "第二十话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 112348,
+          "chapter_name": "第二十一话",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 112349,
+          "chapter_name": "第二十二话",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 112350,
+          "chapter_name": "第二十三话",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 112351,
+          "chapter_name": "第二十四话",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 112352,
+          "chapter_name": "第二十五话",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 112353,
+          "chapter_name": "第二十六话",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 112354,
+          "chapter_name": "第二十七话",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 112355,
+          "chapter_name": "番外篇 姐妹",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 112356,
+          "chapter_name": "特典 夜晚的灯火",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 112357,
+          "chapter_name": "后记",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 112358,
+          "chapter_name": "web番外 父亲节",
+          "chapter_order": 190
+        }
+      ]
+    },
+    {
+      "volume_id": 11242,
+      "id": 11242,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 112359,
+          "chapter_name": "第二十八话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 112360,
+          "chapter_name": "第二十九话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 112361,
+          "chapter_name": "第三十话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 112362,
+          "chapter_name": "第三十一话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 112363,
+          "chapter_name": "第三十二话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 112364,
+          "chapter_name": "第三十三话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 112365,
+          "chapter_name": "第三十四话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 112366,
+          "chapter_name": "第三十五话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 112367,
+          "chapter_name": "第三十六话",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 112368,
+          "chapter_name": "第三十七话",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 112369,
+          "chapter_name": "第三十八话",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 112370,
+          "chapter_name": "第三十九话",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 112371,
+          "chapter_name": "第四十话",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 112372,
+          "chapter_name": "第四十一话",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 112373,
+          "chapter_name": "第四十二话",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 112374,
+          "chapter_name": "番外篇 乡村的生活，都市的生活",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 112375,
+          "chapter_name": "特典 巨浪微波",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 112376,
+          "chapter_name": "后记",
+          "chapter_order": 180
+        }
+      ]
+    },
+    {
+      "volume_id": 11243,
+      "id": 11243,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 112377,
+          "chapter_name": "第四十三话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 112378,
+          "chapter_name": "第四十四话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 112379,
+          "chapter_name": "第四十五话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 112380,
+          "chapter_name": "第四十六话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 112381,
+          "chapter_name": "第四十七话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 112382,
+          "chapter_name": "第四十八话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 112383,
+          "chapter_name": "第四十九话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 112384,
+          "chapter_name": "第五十话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 112385,
+          "chapter_name": "第五十一话",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 112386,
+          "chapter_name": "第五十二话",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 112387,
+          "chapter_name": "第五十三话",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 112388,
+          "chapter_name": "第五十四话",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 112389,
+          "chapter_name": "第五十五话",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 112390,
+          "chapter_name": "第五十六话",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 112391,
+          "chapter_name": "第五十七话",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 112392,
+          "chapter_name": "番外篇 日积月累",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 112393,
+          "chapter_name": "特典 踏上旅途",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 112394,
+          "chapter_name": "后记",
+          "chapter_order": 180
         }
       ]
     }
