@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.48](https://github.com/bluelovers/ws-rest/compare/gitee-api@1.0.47...gitee-api@1.0.48) (2020-12-04)
+
+**Note:** Version bump only for package gitee-api
+
+
+
+
+
 ## [1.0.47](https://github.com/bluelovers/ws-rest/compare/gitee-api@1.0.46...gitee-api@1.0.47) (2020-09-05)
 
 

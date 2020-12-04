@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.46](https://github.com/bluelovers/ws-rest/compare/axios-cache-adapter-util@1.0.45...axios-cache-adapter-util@1.0.46) (2020-12-04)
+
+**Note:** Version bump only for package axios-cache-adapter-util
+
+
+
+
+
 ## [1.0.45](https://github.com/bluelovers/ws-rest/compare/axios-cache-adapter-util@1.0.44...axios-cache-adapter-util@1.0.45) (2020-09-05)
 
 

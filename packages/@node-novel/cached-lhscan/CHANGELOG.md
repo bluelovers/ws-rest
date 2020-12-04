@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-lhscan@1.0.1...@node-novel/cached-lhscan@1.0.2) (2020-12-04)
+
+
+### ♻️　Chores
+
+* update deps ([68d5a4c](https://github.com/bluelovers/ws-rest/commit/68d5a4c1b9799d3028b645310b58f452dd7f5c03))
+* unknown reason miss chapter ([8e20316](https://github.com/bluelovers/ws-rest/commit/8e20316f7a700eb6efe5a7e1b3b5918af9dd8ed8))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-lhscan] update cache 81 ([7a8465b](https://github.com/bluelovers/ws-rest/commit/7a8465bff30db585f7dcfd2630844fe2c0306321))
+* [@node-novel/cached-lhscan] update cache 61 ([b511f85](https://github.com/bluelovers/ws-rest/commit/b511f850797c57a215e50db9f6aeaa6cce6a8688))
+* [@node-novel/cached-lhscan] update cache 61 ([8bada0f](https://github.com/bluelovers/ws-rest/commit/8bada0f568e8089026e70d7a6cfbef484484a2ee))
+* [@node-novel/cached-lhscan] update cache 41 ([75b9849](https://github.com/bluelovers/ws-rest/commit/75b9849629263b9995caff3e6c0cafb3f60fe523))
+* [@node-novel/cached-lhscan] update cache 872 ([d6f265f](https://github.com/bluelovers/ws-rest/commit/d6f265fcb78c9d3ea3ca7d4e8dd70ada1f972caa))
+* [@node-novel/cached-lhscan] update cache 61 ([baa8e49](https://github.com/bluelovers/ws-rest/commit/baa8e49f4df6812c90f4b45ef4199441cacc668f))
+* [@node-novel/cached-lhscan] update cache 41 ([6e6d9c0](https://github.com/bluelovers/ws-rest/commit/6e6d9c08cdb3ff48651b81f261f894de436e63e1))
+* [@node-novel/cached-lhscan] update cache 61 ([ebf192f](https://github.com/bluelovers/ws-rest/commit/ebf192f4ab00cf3ef0d02ea0b4186fda30dbbddf))
+* [@node-novel/cached-lhscan] update cache 41 ([6ea8509](https://github.com/bluelovers/ws-rest/commit/6ea8509b94f9e9862152f49b3570a97cc0d9ebf6))
+* [@node-novel/cached-lhscan] update cache 61 ([e524605](https://github.com/bluelovers/ws-rest/commit/e524605182de52ac7e1bc442672c72eec201f2d0))
+* [@node-novel/cached-lhscan] update cache 41 ([eba860e](https://github.com/bluelovers/ws-rest/commit/eba860e05c8d0802f743874a28d4c72f8893f363))
+* [@node-novel/cached-lhscan] update cache 61 ([3485cb8](https://github.com/bluelovers/ws-rest/commit/3485cb80dd35a59d206516a72e5ce2711c8fab4d))
+* [@node-novel/cached-lhscan] update cache 41 ([5bad331](https://github.com/bluelovers/ws-rest/commit/5bad33136a56a69d4892ef0c848439b493cdc085))
+* [@node-novel/cached-lhscan] update cache 41 ([3b630e0](https://github.com/bluelovers/ws-rest/commit/3b630e0e67ae6c4a7e6e944533cd29dfd4192713))
+* [@node-novel/cached-lhscan] update cache 24 ([6c03d98](https://github.com/bluelovers/ws-rest/commit/6c03d982ee8c661af60f27deaa82398d53e49a45))
+* [@node-novel/cached-lhscan] update cache 41 ([ee171c1](https://github.com/bluelovers/ws-rest/commit/ee171c1e95ab9b6efbc005e0ce277e7808f4311e))
+* [@node-novel/cached-lhscan] update cache 61 ([dda2e54](https://github.com/bluelovers/ws-rest/commit/dda2e544e8c27444bd37cc1c79ff339ce9bc1941))
+* [@node-novel/cached-lhscan] update cache 25 ([129c0ae](https://github.com/bluelovers/ws-rest/commit/129c0aeb5c90a4771bae32738664d905f4bc22e2))
+* [@node-novel/cached-lhscan] update cache 21 ([1521994](https://github.com/bluelovers/ws-rest/commit/15219943bfbc10d94348e023658f9628418c11a9))
+
+
+
+
+
 ## 1.0.1 (2020-09-05)
 
 

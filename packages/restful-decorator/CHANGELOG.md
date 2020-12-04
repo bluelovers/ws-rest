@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.50](https://github.com/bluelovers/ws-rest/compare/restful-decorator@1.0.49...restful-decorator@1.0.50) (2020-12-04)
+
+
+### ♻️　Chores
+
+* update deps ([68d5a4c](https://github.com/bluelovers/ws-rest/commit/68d5a4c1b9799d3028b645310b58f452dd7f5c03))
+
+
+
+
+
 ## [1.0.49](https://github.com/bluelovers/ws-rest/compare/restful-decorator@1.0.48...restful-decorator@1.0.49) (2020-09-05)
 
 

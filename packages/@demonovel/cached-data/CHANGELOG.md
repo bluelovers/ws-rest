@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.33](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.32...@demonovel/cached-data@1.0.33) (2020-12-04)
+
+
+### 🔖　Miscellaneous
+
+* [@demonovel/cached-data] update cache ([b54f3e9](https://github.com/bluelovers/ws-rest/commit/b54f3e92b8ab53869b1d82b3d6ffed39f0a5a2fc))
+* [@demonovel/cached-data] update cache ([93a4f5a](https://github.com/bluelovers/ws-rest/commit/93a4f5a7a6591bed02802857a5ab08bff9638ce3))
+* [@demonovel/cached-data] update cache ([6c5444b](https://github.com/bluelovers/ws-rest/commit/6c5444b885776aed8bf809eec38f08e102519650))
+* [@demonovel/cached-data] update cache ([9ed90e5](https://github.com/bluelovers/ws-rest/commit/9ed90e501e2a9ced657ae5cdaa7221f96e20211c))
+* [@demonovel/cached-data] update cache ([6e5d81b](https://github.com/bluelovers/ws-rest/commit/6e5d81bfa56becc46d51a193c5be6b15ccbd0ad9))
+* [@demonovel/cached-data] update cache ([f1667ca](https://github.com/bluelovers/ws-rest/commit/f1667cad2d2631e167e29c413907fbd97d83447f))
+* [@demonovel/cached-data] update cache ([6fa3043](https://github.com/bluelovers/ws-rest/commit/6fa3043769c907a6ddabcaf5f8ea962ac6f72d43))
+* [@demonovel/cached-data] update cache ([a54abc5](https://github.com/bluelovers/ws-rest/commit/a54abc57ded2929a65babcd12ae9116d73b304f1))
+* [@demonovel/cached-data] update cache ([502ce56](https://github.com/bluelovers/ws-rest/commit/502ce5638a7b7cedafcba9f3cac42fad26455255))
+* [@demonovel/cached-data] update cache ([8d6a812](https://github.com/bluelovers/ws-rest/commit/8d6a8127c76f454a3e7bc1d1fe5a67058d8298b6))
+* [@demonovel/cached-data] update cache ([3d3154d](https://github.com/bluelovers/ws-rest/commit/3d3154d216b37c2f5161c634063edb121ecc68fb))
+* [@demonovel/cached-data] update cache ([9c3d88f](https://github.com/bluelovers/ws-rest/commit/9c3d88f4b519e97aececb92ee9d7a2079aa6c44a))
+* [@demonovel/cached-data] update cache ([4326476](https://github.com/bluelovers/ws-rest/commit/432647656e031ee9c7b32f62f3ae03a07567014b))
+* [@demonovel/cached-data] update cache ([ab2a7e0](https://github.com/bluelovers/ws-rest/commit/ab2a7e0bda1a2284c1efc4d035340c773cea0417))
+* [@demonovel/cached-data] update cache ([910632c](https://github.com/bluelovers/ws-rest/commit/910632cd9b4fdb8e5d10f170e74068e356b6a03c))
+* [@demonovel/cached-data] update cache ([bca9568](https://github.com/bluelovers/ws-rest/commit/bca95687054f606469bf39707f5ced37c7389185))
+* [@demonovel/cached-data] update cache ([d7f9c77](https://github.com/bluelovers/ws-rest/commit/d7f9c77b177798b5dcdb62613044521b6607e3b2))
+* [@demonovel/cached-data] update cache ([8624d76](https://github.com/bluelovers/ws-rest/commit/8624d767831bee73f35d539a1c9ba9e0a92d28ce))
+* [@demonovel/cached-data] update cache ([974d8f1](https://github.com/bluelovers/ws-rest/commit/974d8f11950ae390ca62efdbdbdc2f6c45695b20))
+* [@demonovel/cached-data] update cache ([aed4363](https://github.com/bluelovers/ws-rest/commit/aed4363ded6233569d982f2a10f824438440bc0e))
+* [@demonovel/cached-data] update cache ([334707f](https://github.com/bluelovers/ws-rest/commit/334707f6aee7929a9d219fc10a1c637a4514a209))
+* [@demonovel/cached-data] update cache ([ac73068](https://github.com/bluelovers/ws-rest/commit/ac730680dca825c97d59fb1354ed9fa93c3cc3b2))
+* [@demonovel/cached-data] update cache ([1c90918](https://github.com/bluelovers/ws-rest/commit/1c9091863aab2f94c91c57805360ab0314d6a003))
+* [@demonovel/cached-data] update cache ([ad0f6cf](https://github.com/bluelovers/ws-rest/commit/ad0f6cf458b6ca1189b55a875fc825bf6840e185))
+* [@demonovel/cached-data] update cache ([1b454a2](https://github.com/bluelovers/ws-rest/commit/1b454a22f9b55b83687d570596c240f10bb04ed7))
+* [@demonovel/cached-data] update cache ([88b3234](https://github.com/bluelovers/ws-rest/commit/88b32344386418daa57cb8f9fd9231d02fe6b2dd))
+
+
+
+
+
 ## [1.0.32](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.31...@demonovel/cached-data@1.0.32) (2020-09-05)
 
 
