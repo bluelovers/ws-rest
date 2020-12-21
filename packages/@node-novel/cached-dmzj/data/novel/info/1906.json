@@ -3,13 +3,13 @@
   "name": "告白预演系列",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷 星期五的早安",
+  "last_update_volume_name": "第八卷 坏心眼的相遇",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9199,
-  "last_update_chapter_id": 82675,
-  "last_update_time": 1517830120,
+  "last_update_volume_id": 11277,
+  "last_update_chapter_id": 113029,
+  "last_update_time": 1608203121,
   "cover": "https://xs.dmzj.com/img/webpic/10/gbyyxl6568l.jpg",
-  "hot_hits": 107754,
+  "hot_hits": 167219,
   "introduction": "在niconico动画网站中拥有超高人气，以青春酸甜摇滚曲闻名的创作团队HoneyWorks，其成名曲「告白预演」、「嫉妒的答复」、「初恋绘本」终于小说化！就读樱丘高中三年级的夏树，单恋着自己的青梅竹马、同时也是电影研究社社员的优。然而无法坦率的她，向优表示自己只是把他当作告白的「练习对象」。夏树掩饰真正心意的行动，却造成同为美术社的美樱和灯里的各种误会！她真的能够迎向「正式告白」的那一天吗？",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "藤谷灯子",
   "first_letter": "G",
-  "subscribe_num": 9103,
-  "redis_update_time": 1564363003,
+  "subscribe_num": 12744,
+  "redis_update_time": 1608513268,
   "volume": [
     {
       "id": 6969,
@@ -66,6 +66,22 @@
       "volume_name": "第六卷 星期五的早安",
       "volume_order": 60,
       "addtime": 1517650574,
+      "sum_chapters": 8
+    },
+    {
+      "id": 11273,
+      "lnovel_id": 1906,
+      "volume_name": "第七卷 心的主张",
+      "volume_order": 70,
+      "addtime": 1608032787,
+      "sum_chapters": 8
+    },
+    {
+      "id": 11277,
+      "lnovel_id": 1906,
+      "volume_name": "第八卷 坏心眼的相遇",
+      "volume_order": 80,
+      "addtime": 1608202725,
       "sum_chapters": 8
     }
   ],
@@ -420,6 +436,142 @@
           "chapter_id": 82675,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11273,
+      "id": 11273,
+      "volume_name": "第七卷 心的主张",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 112967,
+          "chapter_name": "introduction ～前奏曲～",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 112968,
+          "chapter_name": "Preparation1 ～准备1～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 112969,
+          "chapter_name": "Preparation2 ～准备2～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 112970,
+          "chapter_name": "Preparation3 ～准备3～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 112971,
+          "chapter_name": "Preparation4 ～准备4～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 112972,
+          "chapter_name": "Preparation5 ～准备5～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 112973,
+          "chapter_name": "Preparation6 ～准备6～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 112974,
+          "chapter_name": "Preparation7 ～准备7～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 112975,
+          "chapter_name": "Preparation8 ～准备8～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 112976,
+          "chapter_name": "Preparation9 ～准备9～",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 112977,
+          "chapter_name": "Preparation10 ～准备10～",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 112978,
+          "chapter_name": "epilogue ～终曲～",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 112983,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 11277,
+      "id": 11277,
+      "volume_name": "第八卷 坏心眼的相遇",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 113019,
+          "chapter_name": "introduction ～前奏曲～",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113020,
+          "chapter_name": "Word1 ～话语1～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113021,
+          "chapter_name": "Word2 ～话语2～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113022,
+          "chapter_name": "Word3 ～话语3～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113023,
+          "chapter_name": "Word4 ～话语4～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113024,
+          "chapter_name": "Word5 ～话语5～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 113025,
+          "chapter_name": "Word6 ～话语6～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 113026,
+          "chapter_name": "Word7 ～话语7～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 113027,
+          "chapter_name": "Word8 ～话语8～",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 113028,
+          "chapter_name": "epilogue ～终曲～",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 113029,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

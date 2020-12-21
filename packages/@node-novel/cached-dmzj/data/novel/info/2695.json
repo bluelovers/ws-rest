@@ -3,21 +3,21 @@
   "name": "你喜欢被可爱女生攻陷吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "特典小册子",
-  "last_update_volume_id": 10228,
-  "last_update_chapter_id": 98165,
-  "last_update_time": 1563527694,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11279,
+  "last_update_chapter_id": 113073,
+  "last_update_time": 1608471658,
   "cover": "https://xs.dmzj.com/img/webpic/21/kagl0713l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 319436,
   "introduction": "「北御门先生，这是游戏喔——如果爱上对方， 就会成为奴隶呢。」\n南条家掌控著日本黑社会。北御门帝落入南条家女儿——姬沙的陷阱里面'弱点也被掌握在对方手中。姬沙提议要玩一场「爱情游戏」，一旦喜欢上对方就要认输。\n帝未来将成为背负日本命运的政治家，且拥有未婚妻，必须与丑闻绝缘。\n他决定挑战这个赌上彼此将来的游戏,但姬沙的诱惑让帝数度差点失去理性。理所当然地，他喜欢上了姬沙。而姬沙亦是如此……\n废柴策略家的甜美爱情游戏就此揭关序幕！",
   "types": [
     "爱情"
   ],
   "authors": "天乃圣树",
   "first_letter": "N",
-  "subscribe_num": 13966,
-  "redis_update_time": 1564312053,
+  "subscribe_num": 28527,
+  "redis_update_time": 1608513382,
   "volume": [
     {
       "id": 10228,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1563016156,
-      "sum_chapters": 9
+      "sum_chapters": 8
+    },
+    {
+      "id": 11279,
+      "lnovel_id": 2695,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1608468655,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -84,6 +92,64 @@
           "chapter_id": 98114,
           "chapter_name": "插画",
           "chapter_order": 300
+        }
+      ]
+    },
+    {
+      "volume_id": 11279,
+      "id": 11279,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 113051,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113052,
+          "chapter_name": "第一章 挑战者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113053,
+          "chapter_name": "第二章 无仁义的美月",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113054,
+          "chapter_name": "间章 南条姊妹的健康体育实习",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113055,
+          "chapter_name": "第三章 恐怖的战斗",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113056,
+          "chapter_name": "第四章 出家",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 113057,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 113058,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 113059,
+          "chapter_name": "特典小册子「更衣室的攻防」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 113073,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
