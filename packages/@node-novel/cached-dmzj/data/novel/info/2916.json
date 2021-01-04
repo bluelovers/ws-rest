@@ -3,13 +3,13 @@
   "name": "奇幻探险者 转生为黄油的基友角色，凭借游戏知识自由地生活",
   "zone": "欧美",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11057,
-  "last_update_chapter_id": 109492,
-  "last_update_time": 1597749143,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "第十章 水守雪音的预言",
+  "last_update_volume_id": 11304,
+  "last_update_chapter_id": 113372,
+  "last_update_time": 1609758088,
   "cover": "https://xs.dmzj.com/img/webpic/6/qhtx0802l.jpg",
-  "hot_hits": 142179,
+  "hot_hits": 229207,
   "introduction": "我转生为传说级的美少女游戏『奇幻探险者』里拥有开挂技能的超受欢迎的主人公！……的身旁的笑呵呵的苦逼的基友角色。\n但因为我玩遍了这个游戏，拥有其知识，所以应该可以通过完美的周旋，来达成女主角们的满好感度的！\n而且我这个角色还拥有“这个世界最多的魔力量”这个隐藏挂和独一无二的特殊能力——\n「那我就放弃做个基友角色，自由自在地活下去吧！」\n凭借前世的游戏知识，完全攻略新的人生。这是自在地讴歌在工口游戏的世界的转生魔术学园谭。",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "入栖",
   "first_letter": "Q",
-  "subscribe_num": 4310,
-  "redis_update_time": 1599355177,
+  "subscribe_num": 7225,
+  "redis_update_time": 1609791982,
   "volume": [
     {
       "id": 11023,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1596374649,
-      "sum_chapters": 23
+      "sum_chapters": 255
     },
     {
       "id": 11057,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1597748665,
-      "sum_chapters": 23
+      "sum_chapters": 255
+    },
+    {
+      "id": 11304,
+      "lnovel_id": 2916,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1609757922,
+      "sum_chapters": 255
     }
   ],
   "chapters": [
@@ -181,6 +189,64 @@
           "chapter_id": 109492,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11304,
+      "id": 11304,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 113363,
+          "chapter_name": "第一章 水守雪音的纠葛",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113364,
+          "chapter_name": "第二章 那是粉红色的炸弹",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113365,
+          "chapter_name": "第三章 内裤迷宫",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113366,
+          "chapter_name": "第四章 准备",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113367,
+          "chapter_name": "第五章 各自的思绪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113368,
+          "chapter_name": "第六章 『三强』水守雪音",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 113369,
+          "chapter_name": "第七章 思念的形状",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 113370,
+          "chapter_name": "第八章 月读学园迷宫",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 113371,
+          "chapter_name": "第九章 『劣等生』泷音幸助",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 113372,
+          "chapter_name": "第十章 水守雪音的预言",
+          "chapter_order": 100
         }
       ]
     }
