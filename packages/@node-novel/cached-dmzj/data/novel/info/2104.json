@@ -3,13 +3,13 @@
   "name": "苍钢的冒渎者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 7684,
-  "last_update_chapter_id": 59259,
-  "last_update_time": 1460035553,
+  "last_update_volume_id": 11317,
+  "last_update_chapter_id": 113561,
+  "last_update_time": 1610543020,
   "cover": "https://xs.dmzj.com/img/webpic/12/cgdmdz6867l.jpg",
-  "hot_hits": 51128,
+  "hot_hits": 59316,
   "introduction": "转生到异世界的枪械迷少年行成带著银发少女塔莎一起在各地旅行。某天在偶然之下救了被献给土地神当祭品的女孩，结果竟然因此而成为该地的新神明!? 以枪械对抗奇幻世界怪物的爽快战斗正式登场!!",
   "types": [
     "冒险",
@@ -19,8 +19,8 @@
   ],
   "authors": "榊一郎",
   "first_letter": "C",
-  "subscribe_num": 2108,
-  "redis_update_time": 1564343622,
+  "subscribe_num": 3445,
+  "redis_update_time": 1610672351,
   "volume": [
     {
       "id": 7684,
@@ -28,7 +28,23 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1460035199,
-      "sum_chapters": 8
+      "sum_chapters": 39
+    },
+    {
+      "id": 11316,
+      "lnovel_id": 2104,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1610542866,
+      "sum_chapters": 39
+    },
+    {
+      "id": 11317,
+      "lnovel_id": 2104,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1610542948,
+      "sum_chapters": 39
     }
   ],
   "chapters": [
@@ -77,6 +93,82 @@
           "chapter_id": 59259,
           "chapter_name": "后记",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 11316,
+      "id": 11316,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 113550,
+          "chapter_name": "序章 萌生自尸骸的生命",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113551,
+          "chapter_name": "第一章 神死之后",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113552,
+          "chapter_name": "第二章 异境之神",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113553,
+          "chapter_name": "第三章 神的归还",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113554,
+          "chapter_name": "终章 神的使者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113555,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 11317,
+      "id": 11317,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 113556,
+          "chapter_name": "序章 亡国之声",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113557,
+          "chapter_name": "第一章 遍体鳞伤的不速之客",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113558,
+          "chapter_name": "第二章 暗云密布",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113559,
+          "chapter_name": "第三章 弱者的战斗",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113560,
+          "chapter_name": "终章 逐渐改变的神与神",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113561,
+          "chapter_name": "后记",
+          "chapter_order": 60
         }
       ]
     }
