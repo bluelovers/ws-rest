@@ -2,12 +2,7 @@ export declare const __path: import("@node-novel/site-cache-util/lib/files").ICr
     copyrightRemove: [string, string];
 }, Record<string, import("@node-novel/site-cache-util/lib/files").ICreatePkgCachePathFunction<import("@node-novel/site-cache-util/lib/files").ICreatePkgCachePath<{
     copyrightRemove: [string, string];
-}, Record<string, import("@node-novel/site-cache-util/lib/files").ICreatePkgCachePathFunction<{
-    readonly __root: string;
-    join(paths_0: string, ...paths_1: string[]): string;
-    resolve(paths_0: string, ...paths_1: string[]): string;
-    relative(paths_0: string): string;
-}>>>>>>;
+}, import("@node-novel/site-cache-util/lib/files").ICreatePkgCachePathFn>>>>;
 export declare const cacheFilePaths: {
     recentUpdate: string;
     recentUpdateDay: string;

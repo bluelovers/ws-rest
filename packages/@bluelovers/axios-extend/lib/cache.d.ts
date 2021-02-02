@@ -5,7 +5,7 @@ import { IAxiosCacheAdapterOptionsConfig } from './types';
 export { IAxiosCacheAdapterOptions, ISetupCache, IAxiosCacheAdapterOptionsConfig };
 export { setupCache };
 export declare function setupCacheConfig<T extends IAxiosCacheAdapterOptionsConfig | AxiosRequestConfig>(configInput: T): {
-    config: Pick<T, Exclude<keyof T, "cache">> & {
+    config: Omit<T, "cache"> & {
         adapter: AxiosAdapter;
     };
     cache: ISetupCache;

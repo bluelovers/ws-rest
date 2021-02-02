@@ -6,4 +6,4 @@ export declare function buildGitRemote(options: {
     pass?: string;
     host: string;
     repo: string;
-}): string;
+}): `https://${string}${string}/${string}.git`;
