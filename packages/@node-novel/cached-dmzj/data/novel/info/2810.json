@@ -3,21 +3,21 @@
   "name": "十二大战",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10641,
-  "last_update_chapter_id": 103859,
-  "last_update_time": 1582871859,
-  "cover": "https://xs.dmzj.com/img/webpic/24/srdz0228l.jpg",
-  "hot_hits": 4808,
+  "last_update_volume_name": "第二卷 十二大战对十二大战",
+  "last_update_chapter_name": "终战 水至清则无鱼",
+  "last_update_volume_id": 11307,
+  "last_update_chapter_id": 113417,
+  "last_update_time": 1610015023,
+  "cover": "https://xs.dmzj1.com/img/webpic/24/srdz0228l.jpg",
+  "hot_hits": 23637,
   "introduction": "　　史上最激烈的生存游戏，开战！\n　　代表「子」、「丑」、「寅」、「卯」、「辰」、「巳」、\n　　「午」、「未」、「申」、「酉」、「戌」、「亥」的十二名战士，\n　　必须在充斥阴谋诡计的的战场上互相杀戮，最终胜利者将能得到实现一个愿望的权利，\n　　存活下来的人会是……？",
   "types": [
     "格斗"
   ],
   "authors": "西尾维新",
   "first_letter": "S",
-  "subscribe_num": 888,
-  "redis_update_time": 1583108984,
+  "subscribe_num": 2747,
+  "redis_update_time": 1612302043,
   "volume": [
     {
       "id": 10641,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1582871620,
-      "sum_chapters": 18
+      "sum_chapters": 44
+    },
+    {
+      "id": 11307,
+      "lnovel_id": 2810,
+      "volume_name": "第二卷 十二大战对十二大战",
+      "volume_order": 20,
+      "addtime": 1610014637,
+      "sum_chapters": 44
     }
   ],
   "chapters": [
@@ -104,6 +112,79 @@
           "chapter_id": 103859,
           "chapter_name": "后记",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 11307,
+      "id": 11307,
+      "volume_name": "第二卷 十二大战对十二大战",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 113405,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113406,
+          "chapter_name": "第一战 歧路亡羊",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113407,
+          "chapter_name": "第二战 骑牛找马",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113408,
+          "chapter_name": "第三战 国士无双",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113409,
+          "chapter_name": "第四战 蟹挖洞必量己身",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113410,
+          "chapter_name": "第五战 狮子身中虫",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 113411,
+          "chapter_name": "第六战 少女心与秋空",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 113412,
+          "chapter_name": "第七战 天秤两端定分明",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 113413,
+          "chapter_name": "第八战 忌如蛇蝎",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 113414,
+          "chapter_name": "第九战 拉弓不射笑脸人",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 113415,
+          "chapter_name": "第十战 wear goat's horns",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 113416,
+          "chapter_name": "第十一战 秋阳急沉如吊瓶",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 113417,
+          "chapter_name": "终战 水至清则无鱼",
+          "chapter_order": 130
         }
       ]
     }

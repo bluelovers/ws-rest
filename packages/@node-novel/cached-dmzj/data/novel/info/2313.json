@@ -3,13 +3,13 @@
   "name": "废柴以魔王之姿闯荡异世界 有时作弊一下的悠哉旅程",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10908,
-  "last_update_chapter_id": 107331,
-  "last_update_time": 1591512436,
-  "cover": "https://xs.dmzj.com/img/webpic/16/mwzz0421l.jpg",
-  "hot_hits": 1478537,
+  "last_update_volume_id": 11343,
+  "last_update_chapter_id": 113939,
+  "last_update_time": 1612009765,
+  "cover": "https://xs.dmzj1.com/img/webpic/16/mwzz0421l.jpg",
+  "hot_hits": 1765894,
   "introduction": "在对战竞技游戏终止营运的当天，吉城单挑打赢大魔王，并获得外挂般的能力值。当他再次醒来，却发现自己不仅身处从未见过的地方，还变成身著中二装备，一副魔王模样，名叫凯冯──这个他自己所创造的游戏角色！而且在满腔疑惑的他面前，出现了吉城的分身角色──妖精种族的露耶……!?在跟她一起生活后，他得知自己是流传于这个世界中，神话等级的英雄！以魔王之姿自在又横行的悠哉旅程展开序幕！",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "蓝敦",
   "first_letter": "F",
-  "subscribe_num": 41297,
-  "redis_update_time": 1591575777,
+  "subscribe_num": 44890,
+  "redis_update_time": 1612303081,
   "volume": [
     {
       "id": 8624,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1492789187,
-      "sum_chapters": 23
+      "sum_chapters": 44
     },
     {
       "id": 9096,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1511867243,
-      "sum_chapters": 23
+      "sum_chapters": 44
     },
     {
       "id": 9558,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1531230411,
-      "sum_chapters": 23
+      "sum_chapters": 44
     },
     {
       "id": 9838,
@@ -51,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1544627695,
-      "sum_chapters": 23
+      "sum_chapters": 44
     },
     {
       "id": 10109,
@@ -59,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1557839922,
-      "sum_chapters": 23
+      "sum_chapters": 44
     },
     {
       "id": 10434,
@@ -67,7 +67,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1573395391,
-      "sum_chapters": 23
+      "sum_chapters": 44
     },
     {
       "id": 10908,
@@ -75,7 +75,15 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1591511982,
-      "sum_chapters": 23
+      "sum_chapters": 44
+    },
+    {
+      "id": 11343,
+      "lnovel_id": 2313,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1612008839,
+      "sum_chapters": 44
     }
   ],
   "chapters": [
@@ -467,6 +475,49 @@
           "chapter_id": 107331,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11343,
+      "id": 11343,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 113923,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113924,
+          "chapter_name": "第一章 白色忌子与黑色灾厄",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113925,
+          "chapter_name": "第二章 引导的黄金和与世隔绝的村子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113926,
+          "chapter_name": "第三章 被染成赤红的白发之村",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113927,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113928,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 113939,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }

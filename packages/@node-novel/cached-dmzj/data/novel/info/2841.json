@@ -3,13 +3,13 @@
   "name": "我的青梅竹马山吹同学",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷 行于文上的文学少女",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10747,
-  "last_update_chapter_id": 105177,
-  "last_update_time": 1585811289,
-  "cover": "https://xs.dmzj.com/img/webpic/18/yxrsc0402l.jpg",
-  "hot_hits": 16462,
+  "last_update_volume_id": 11334,
+  "last_update_chapter_id": 113820,
+  "last_update_time": 1611573194,
+  "cover": "https://xs.dmzj1.com/img/webpic/18/yxrsc0402l.jpg",
+  "hot_hits": 73524,
   "introduction": "“灯里，我会遵守约定的。”——这是青叶喜一郎在儿时同青梅竹马山吹灯里立下的约定，但现在一定只有青叶自己仍记得这件事了吧。自从“那时”以后，青叶和山吹彼此的关系便慢慢疏远，转眼两人又一起进入高中。然而和自认普通的青叶喜一郎不同，此时的山吹灯里已经出落得人见人爱，是一位大家公认的美少女，可是……\n——“现在我将降临诅咒于你！”\n随着“青春诅咒”的突然降临，她的存在竟然会被慢慢抹去？！而且为了解除诅咒还要接受各种“试炼”？！在这一生只有一次高中生涯里，两人再次相遇——少年少女的恋爱青春，就此拉开帷幕！",
   "types": [
     "爱情",
@@ -17,8 +17,8 @@
   ],
   "authors": "道草よもぎ",
   "first_letter": "W",
-  "subscribe_num": 2507,
-  "redis_update_time": 1585872927,
+  "subscribe_num": 7635,
+  "redis_update_time": 1612301960,
   "volume": [
     {
       "id": 10747,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1585810877,
-      "sum_chapters": 7
+      "sum_chapters": 44
+    },
+    {
+      "id": 11334,
+      "lnovel_id": 2841,
+      "volume_name": "第二卷 行于文上的文学少女",
+      "volume_order": 20,
+      "addtime": 1611572522,
+      "sum_chapters": 44
     }
   ],
   "chapters": [
@@ -70,6 +78,54 @@
           "chapter_id": 105177,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11334,
+      "id": 11334,
+      "volume_name": "第二卷 行于文上的文学少女",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 113803,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113804,
+          "chapter_name": "第一章 文学少女期待着理想邂逅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113805,
+          "chapter_name": "第二章 文学少女的一二烦恼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113806,
+          "chapter_name": "第三章 文学少女的初次游乐园约会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113807,
+          "chapter_name": "最终章 在这满是伪物的世界中",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113808,
+          "chapter_name": "附章 文学少女所见之梦",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 113809,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 113820,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

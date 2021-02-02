@@ -3,21 +3,21 @@
   "name": "天久鹰央的事件病历簿",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 死而复生的杀人魔",
+  "last_update_volume_name": "第五卷 魔弹的射手",
   "last_update_chapter_name": "终章",
-  "last_update_volume_id": 10836,
-  "last_update_chapter_id": 106252,
-  "last_update_time": 1588928614,
-  "cover": "https://xs.dmzj.com/img/webpic/0/tj0224l.jpg",
-  "hot_hits": 17567,
+  "last_update_volume_id": 11325,
+  "last_update_chapter_id": 113667,
+  "last_update_time": 1610965789,
+  "cover": "https://xs.dmzj1.com/img/webpic/0/tj0224l.jpg",
+  "hot_hits": 32619,
   "introduction": "曾为一名外科医的小鸟游优为了学习成为一名内科医，来到了天医会综合医院。在那里，他遇到了命中注定一般的人——天久鹰央。她不会察觉气氛，不擅与他人交流，却有着日本首屈一指的天才头脑。前来就诊的患者自称被外星人洗脑，牵扯出一个神秘的宗教团体，这时医院内却惊现命案！长篇医疗推理小说，描绘了鹰央与小鸟二人初次的相逢。",
   "types": [
     "侦探"
   ],
   "authors": "知念实希人",
   "first_letter": "T",
-  "subscribe_num": 3358,
-  "redis_update_time": 1589156099,
+  "subscribe_num": 4496,
+  "redis_update_time": 1612302198,
   "volume": [
     {
       "id": 9967,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 穹顶的死亡天使",
       "volume_order": 10,
       "addtime": 1551021089,
-      "sum_chapters": 9
+      "sum_chapters": 44
     },
     {
       "id": 10391,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 幻影手术室",
       "volume_order": 20,
       "addtime": 1571573742,
-      "sum_chapters": 9
+      "sum_chapters": 44
     },
     {
       "id": 10836,
@@ -41,7 +41,23 @@
       "volume_name": "第三卷 死而复生的杀人魔",
       "volume_order": 30,
       "addtime": 1588928513,
-      "sum_chapters": 9
+      "sum_chapters": 44
+    },
+    {
+      "id": 11324,
+      "lnovel_id": 2622,
+      "volume_name": "第四卷 火焰凶器",
+      "volume_order": 40,
+      "addtime": 1610803748,
+      "sum_chapters": 44
+    },
+    {
+      "id": 11325,
+      "lnovel_id": 2622,
+      "volume_name": "第五卷 魔弹的射手",
+      "volume_order": 50,
+      "addtime": 1610965670,
+      "sum_chapters": 44
     }
   ],
   "chapters": [
@@ -161,6 +177,92 @@
           "chapter_id": 106252,
           "chapter_name": "终章",
           "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 11324,
+      "id": 11324,
+      "volume_name": "第四卷 火焰凶器",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 113654,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113655,
+          "chapter_name": "第一章 被诅咒的坟墓",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113656,
+          "chapter_name": "第二章 红莲咒术师",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113657,
+          "chapter_name": "第三章 火焰的终幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113658,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 11325,
+      "id": 11325,
+      "volume_name": "第五卷 魔弹的射手",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 113659,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113660,
+          "chapter_name": "第一章 废弃医院的诅咒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113661,
+          "chapter_name": "幕间",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113662,
+          "chapter_name": "第二章 医院四楼的幽灵",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113663,
+          "chapter_name": "幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113664,
+          "chapter_name": "第三章 看不见的枪弹",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 113665,
+          "chapter_name": "幕间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 113666,
+          "chapter_name": "第四章 跨越空间的魔弹",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 113667,
+          "chapter_name": "终章",
+          "chapter_order": 90
         }
       ]
     }

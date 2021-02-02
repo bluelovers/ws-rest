@@ -3,13 +3,13 @@
   "name": "为所欲为的前勇者再度转生，开始强大而愉快的第二轮游戏（不自重前勇者强大又轻松的NEW GAME）",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10969,
-  "last_update_chapter_id": 108199,
-  "last_update_time": 1593867506,
-  "cover": "https://xs.dmzj.com/img/webpic/26/yy0210l.jpg",
-  "hot_hits": 608983,
+  "last_update_volume_id": 11309,
+  "last_update_chapter_id": 113454,
+  "last_update_time": 1610114632,
+  "cover": "https://xs.dmzj1.com/img/webpic/26/yy0210l.jpg",
+  "hot_hits": 850757,
   "introduction": "2周目游戏，要玩什么呢？ 我转生到了自己曾作为\"勇者\"拯救的异世界里。前回的转生目的是「打倒魔王」。但这回什么目的也没有。带着2周目勇者强到犯规的能力，我决定，随心所欲地生活下去。\n让世界最强贤者当自己的女仆，捡来奴隶少女进行「勇者式」能力提升训练。让盗贼少女改过自新，增加伙伴。豪华宅邸和最强装备想要什么就有什么。但我真正追求的，不是财富不是荣誉也不是美女。只有一点——活出自己！\n这次的人生中，我什么都不要再忍耐了！\n呀哈！ 不自重前勇者强大又轻松的NewGame！过激开幕！",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
   ],
   "authors": "新木伸",
   "first_letter": "B",
-  "subscribe_num": 34732,
-  "redis_update_time": 1593995409,
+  "subscribe_num": 40228,
+  "redis_update_time": 1612302179,
   "volume": [
     {
       "id": 9211,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1518257385,
-      "sum_chapters": 2
+      "sum_chapters": 44
     },
     {
       "id": 9749,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1540567252,
-      "sum_chapters": 2
+      "sum_chapters": 44
     },
     {
       "id": 10209,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1562248109,
-      "sum_chapters": 2
+      "sum_chapters": 44
     },
     {
       "id": 10969,
@@ -51,7 +51,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1593866625,
-      "sum_chapters": 2
+      "sum_chapters": 44
+    },
+    {
+      "id": 11309,
+      "lnovel_id": 2432,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1610113236,
+      "sum_chapters": 44
     }
   ],
   "chapters": [
@@ -239,6 +247,44 @@
           "chapter_id": 108199,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11309,
+      "id": 11309,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 113448,
+          "chapter_name": "第一章 魔大陆新兵训练营",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113449,
+          "chapter_name": "第二章 征服魔大陆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113450,
+          "chapter_name": "第三章 拯救城市吧！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113451,
+          "chapter_name": "第四章 勇者之道",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113452,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113454,
+          "chapter_name": "插画",
+          "chapter_order": 60
         }
       ]
     }

@@ -3,21 +3,21 @@
   "name": "NieR Automata",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "尼尔：自动人形 短话",
+  "last_update_volume_name": "第三卷 少年寄叶",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10639,
-  "last_update_chapter_id": 103835,
-  "last_update_time": 1582791911,
-  "cover": "https://xs.dmzj.com/img/webpic/6/nier0805l.jpg",
-  "hot_hits": 32696,
+  "last_update_volume_id": 11319,
+  "last_update_chapter_id": 113635,
+  "last_update_time": 1610712922,
+  "cover": "https://xs.dmzj1.com/img/webpic/6/nier0805l.jpg",
+  "hot_hits": 50741,
   "introduction": "　　当人造人以「人类的荣耀」为梦想时，\n　　机械生命体是否也正作著梦？\n　　西历五○一二年，来自外太空的外星人开始侵略地球，人类文明在外星人的兵器「机械生物」手下灭亡，幸存者前往月球寻求生路。\n　　西历五二○四年，设置在卫星轨道上的十二座基地派出人造人展开反攻，单单这一年就执行了十余次的大规模空降作战，不过并未对以量取胜的机械生物造成决定性的打击。\n　　在此之后，战况陷入长达数千年的胶著状态。为了打破现状，人类军著手研究、开发寄叶型人造人，做为对机械生物的决战兵器──",
   "types": [
     "科幻"
   ],
   "authors": "映岛巡",
   "first_letter": "N",
-  "subscribe_num": 9291,
-  "redis_update_time": 1582848375,
+  "subscribe_num": 11997,
+  "redis_update_time": 1612303038,
   "volume": [
     {
       "id": 8876,
@@ -25,23 +25,31 @@
       "volume_name": "黑盒特典：形态计划回忆录",
       "volume_order": 10,
       "addtime": 1501930085,
-      "sum_chapters": 9
+      "sum_chapters": 44
     },
     {
       "id": 9716,
       "lnovel_id": 2363,
-      "volume_name": "尼尔：自动人形 长话",
+      "volume_name": "第一卷 长话",
       "volume_order": 20,
       "addtime": 1538613145,
-      "sum_chapters": 9
+      "sum_chapters": 44
     },
     {
       "id": 10639,
       "lnovel_id": 2363,
-      "volume_name": "尼尔：自动人形 短话",
+      "volume_name": "第二卷 短话",
       "volume_order": 30,
       "addtime": 1582783366,
-      "sum_chapters": 9
+      "sum_chapters": 44
+    },
+    {
+      "id": 11319,
+      "lnovel_id": 2363,
+      "volume_name": "第三卷 少年寄叶",
+      "volume_order": 40,
+      "addtime": 1610711194,
+      "sum_chapters": 44
     }
   ],
   "chapters": [
@@ -126,7 +134,7 @@
     {
       "volume_id": 9716,
       "id": 9716,
-      "volume_name": "尼尔：自动人形 长话",
+      "volume_name": "第一卷 长话",
       "volume_order": 20,
       "chapters": [
         {
@@ -204,7 +212,7 @@
     {
       "volume_id": 10639,
       "id": 10639,
-      "volume_name": "尼尔：自动人形 短话",
+      "volume_name": "第二卷 短话",
       "volume_order": 30,
       "chapters": [
         {
@@ -256,6 +264,69 @@
           "chapter_id": 103835,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11319,
+      "id": 11319,
+      "volume_name": "第三卷 少年寄叶",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 113602,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 113603,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 113604,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 113605,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 113606,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 113607,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 113608,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 113609,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 113610,
+          "chapter_name": "Flashback",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 113611,
+          "chapter_name": "1194×年，寻宝之旅",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 113635,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
