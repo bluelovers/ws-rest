@@ -48,7 +48,8 @@ import subobject from 'restful-decorator/lib/helper/subobject';
  * https://github.com/guuguo/flutter_dmzj/blob/master/lib/api.dart
  * https://github.com/tkkcc/flutter_dmzj/blob/269cb0d642c710626fe7d755f0b27b12ab477cc6/lib/util/api.dart
  */
-@BaseUrl('http://v2.api.dmzj.com')
+//@BaseUrl('http://v2.api.dmzj.com')
+@BaseUrl('http://nnv3api.dmzj1.com')
 @Headers({
 	Referer: 'http://www.dmzj.com/',
 })

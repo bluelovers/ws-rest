@@ -30,6 +30,7 @@ const subobject_1 = __importDefault(require("restful-decorator/lib/helper/subobj
  * https://github.com/guuguo/flutter_dmzj/blob/master/lib/api.dart
  * https://github.com/tkkcc/flutter_dmzj/blob/269cb0d642c710626fe7d755f0b27b12ab477cc6/lib/util/api.dart
  */
+//@BaseUrl('http://v2.api.dmzj.com')
 let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
     constructor(defaults) {
         super(defaults);
@@ -498,7 +499,7 @@ __decorate([
     __metadata("design:returntype", Object)
 ], DmzjClient.prototype, "deviceBuilding", null);
 DmzjClient = __decorate([
-    decorators_1.BaseUrl('http://v2.api.dmzj.com'),
+    decorators_1.BaseUrl('http://nnv3api.dmzj1.com'),
     decorators_1.Headers({
         Referer: 'http://www.dmzj.com/',
     }),
