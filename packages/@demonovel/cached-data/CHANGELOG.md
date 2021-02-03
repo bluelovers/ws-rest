@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.34](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.33...@demonovel/cached-data@1.0.34) (2021-02-03)
+
+
+### 🔖　Miscellaneous
+
+* [@demonovel/cached-data] update cache ([a006932](https://github.com/bluelovers/ws-rest/commit/a006932a8a1c237ce40c0ae9cca41513110d10b4))
+* [@demonovel/cached-data] update cache ([da4cf81](https://github.com/bluelovers/ws-rest/commit/da4cf81bdca0d933242096fa8012b3a03e20ed6d))
+* [@demonovel/cached-data] update cache ([b360ada](https://github.com/bluelovers/ws-rest/commit/b360ada41d210b9fb5d3b13ddb98bf183732ab33))
+* [@demonovel/cached-data] update cache ([cd5b18b](https://github.com/bluelovers/ws-rest/commit/cd5b18b9f46371896ec4a239f80dd35fd9e80e3f))
+* [@demonovel/cached-data] update cache ([2290f12](https://github.com/bluelovers/ws-rest/commit/2290f12273feed1d60335057ce30088fc78b4a3e))
+* [@demonovel/cached-data] update cache ([6e693cf](https://github.com/bluelovers/ws-rest/commit/6e693cf52b31e77f764a6b3411b54c4c75f388bf))
+* [@demonovel/cached-data] update cache ([a65b59d](https://github.com/bluelovers/ws-rest/commit/a65b59d3ba548e34bc0f4331cfe104fe24c1e4f6))
+* [@demonovel/cached-data] update cache ([a51e19a](https://github.com/bluelovers/ws-rest/commit/a51e19a1062e2c4637a608f583f64dc2c1c25f52))
+* [@demonovel/cached-data] update cache ([baad9d4](https://github.com/bluelovers/ws-rest/commit/baad9d4dd46fca05d366f1e46098eccb40cb4940))
+* [@demonovel/cached-data] update cache ([f05a537](https://github.com/bluelovers/ws-rest/commit/f05a537eda2978c2e959a2d05ba9dadaa85b9ac9))
+* [@demonovel/cached-data] update cache ([e7e022c](https://github.com/bluelovers/ws-rest/commit/e7e022c2a03046ca355245e22c9845c2c0e74dc7))
+* [@demonovel/cached-data] update cache ([e0e8a00](https://github.com/bluelovers/ws-rest/commit/e0e8a0046636a6a3c7756fa4753ff1fc25c4bc4a))
+
+
+
+
+
 ## [1.0.33](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.32...@demonovel/cached-data@1.0.33) (2020-12-04)
 
 

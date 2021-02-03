@@ -1,6 +1,6 @@
 {
   "name": "@demonovel/cached-data",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@demonovel/cached-data#readme",
   "bugs": {
@@ -32,15 +32,15 @@
   },
   "devDependencies": {
     "@node-novel/cache-loader": "^1.0.32",
-    "@node-novel/cached-dmzj": "^1.1.103",
-    "@node-novel/cached-esjzone": "^1.0.74",
-    "@node-novel/cached-masiro": "^1.0.70",
-    "@node-novel/cached-wenku8": "^1.0.77",
-    "discuz-api": "^1.0.37",
-    "dmzj-api": "^1.1.39",
-    "esjzone-api": "^1.0.40",
-    "restful-decorator": "^1.0.50",
-    "wenku8-api": "^1.0.41"
+    "@node-novel/cached-dmzj": "^1.1.104",
+    "@node-novel/cached-esjzone": "^1.0.75",
+    "@node-novel/cached-masiro": "^1.0.71",
+    "@node-novel/cached-wenku8": "^1.0.78",
+    "discuz-api": "^1.0.38",
+    "dmzj-api": "^1.1.40",
+    "esjzone-api": "^1.0.41",
+    "restful-decorator": "^1.0.51",
+    "wenku8-api": "^1.0.42"
   },
   "publishConfig": {
     "access": "public"

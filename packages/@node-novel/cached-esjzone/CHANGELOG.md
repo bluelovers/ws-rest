@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.75](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.74...@node-novel/cached-esjzone@1.0.75) (2021-02-03)
+
+
+### ♻️　Chores
+
+* update typescript ([f4f122b](https://github.com/bluelovers/ws-rest/commit/f4f122b12d88ed74fe7ce6d8879e1c391719db11))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-esjzone] update cache ([fbf393e](https://github.com/bluelovers/ws-rest/commit/fbf393ef1734c323f04893b48d578590b0670f44))
+* Merge branch 'master' of https://github.com/bluelovers/ws-rest ([ef5456c](https://github.com/bluelovers/ws-rest/commit/ef5456c0b4831a64153bdc6a928f4e52d8c0ff5a))
+* [@node-novel/cached-esjzone] update cache, novel x 54 ([d3939df](https://github.com/bluelovers/ws-rest/commit/d3939dfef97b7db0cf08f249fac6d14e4d875728))
+* [@node-novel/cached-esjzone] update cache, novel x 115 ([23dd406](https://github.com/bluelovers/ws-rest/commit/23dd40644324745a4abd74a56c0d1e39a42d9367))
+* [@node-novel/cached-esjzone] update cache, novel x 81 ([d073889](https://github.com/bluelovers/ws-rest/commit/d0738891d59c71d2a7a71c881683828a39074edb))
+* [@node-novel/cached-esjzone] update cache, novel x 108 ([842d81f](https://github.com/bluelovers/ws-rest/commit/842d81f438b00da549cd4d1119a22e289dfedef1))
+* [@node-novel/cached-esjzone] update cache, novel x 106 ([04bbdc5](https://github.com/bluelovers/ws-rest/commit/04bbdc599b33cd887480f02f00f495c4e1ee2e1f))
+* [@node-novel/cached-esjzone] update cache, novel x 100 ([1711f0a](https://github.com/bluelovers/ws-rest/commit/1711f0a4d2ae8c4358183a2cc14057b2aec590bd))
+* [@node-novel/cached-esjzone] update cache, novel x 94 ([48e5da4](https://github.com/bluelovers/ws-rest/commit/48e5da4c044ea06a709f5798cb0e2533e2687d61)), closes [#5](https://github.com/bluelovers/ws-rest/issues/5) [#2](https://github.com/bluelovers/ws-rest/issues/2)
+* [@node-novel/cached-esjzone] update cache, novel x 85 ([1976eeb](https://github.com/bluelovers/ws-rest/commit/1976eebff1acc93f13107f7157db3c6efa501921))
+* [@node-novel/cached-esjzone] update cache, novel x 124 ([5a61609](https://github.com/bluelovers/ws-rest/commit/5a616099c899e68168f0846f186f6fd0bd320003))
+* [@node-novel/cached-esjzone] update cache, novel x 104 ([06db5d9](https://github.com/bluelovers/ws-rest/commit/06db5d9c9bc14f6fafbf7b3da9f527c0429f598d))
+* [@node-novel/cached-esjzone] update cache, novel x 89 ([dbea8d6](https://github.com/bluelovers/ws-rest/commit/dbea8d686973a2140373c4ba2289327f69bbe14c))
+* [@node-novel/cached-esjzone] update cache, novel x 108 ([c10f96a](https://github.com/bluelovers/ws-rest/commit/c10f96a3fb7459c0208bce7bc24f7ab0e10ebaa2))
+* [@node-novel/cached-esjzone] update cache, novel x 89 ([9eaa9bb](https://github.com/bluelovers/ws-rest/commit/9eaa9bbfce55e5772f0346c023995f8765d1fd4f)), closes [#4](https://github.com/bluelovers/ws-rest/issues/4)
+* [@node-novel/cached-esjzone] update cache, novel x 116 ([ed302d6](https://github.com/bluelovers/ws-rest/commit/ed302d64fd7a97722bd44436dd3b6778f7fef08e)), closes [#3](https://github.com/bluelovers/ws-rest/issues/3)
+* [@node-novel/cached-esjzone] update cache, novel x 91 ([6bf1c9c](https://github.com/bluelovers/ws-rest/commit/6bf1c9cb3d396b8b3a7dd114ba10ec633b041051))
+* [@node-novel/cached-esjzone] update cache, novel x 131 ([c4ba3fe](https://github.com/bluelovers/ws-rest/commit/c4ba3fe1f32aecccf4fea5f5b7ddc7c8171a5452)), closes [#102](https://github.com/bluelovers/ws-rest/issues/102)
+
+
+
+
+
 ## [1.0.74](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.73...@node-novel/cached-esjzone@1.0.74) (2020-12-04)
 
 

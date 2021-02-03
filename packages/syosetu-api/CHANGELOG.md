@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.18](https://github.com/bluelovers/ws-rest/compare/syosetu-api@1.0.17...syosetu-api@1.0.18) (2021-02-03)
+
+
+### ♻️　Chores
+
+* update typescript ([f4f122b](https://github.com/bluelovers/ws-rest/commit/f4f122b12d88ed74fe7ce6d8879e1c391719db11))
+
+
+
+
+
 ## [1.0.17](https://github.com/bluelovers/ws-rest/compare/syosetu-api@1.0.16...syosetu-api@1.0.17) (2020-12-04)
 
 **Note:** Version bump only for package syosetu-api

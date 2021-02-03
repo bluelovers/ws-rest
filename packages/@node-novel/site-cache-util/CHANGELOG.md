@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.37](https://github.com/bluelovers/ws-rest/compare/@node-novel/site-cache-util@1.0.36...@node-novel/site-cache-util@1.0.37) (2021-02-03)
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([20f73c6](https://github.com/bluelovers/ws-rest/commit/20f73c69e8b50221d303f200bd5d419092da3b00))
+
+
+
+
+
 ## [1.0.36](https://github.com/bluelovers/ws-rest/compare/@node-novel/site-cache-util@1.0.35...@node-novel/site-cache-util@1.0.36) (2020-12-04)
 
 

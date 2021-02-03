@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.40](https://github.com/bluelovers/ws-rest/compare/dmzj-api@1.1.39...dmzj-api@1.1.40) (2021-02-03)
+
+
+### 🐛　Bug Fixes
+
+* **dmzj:** {v2.api.dmzj.com -> nnv3api.dmzj1.com} by [@copyliu](https://github.com/copyliu) ([e083887](https://github.com/bluelovers/ws-rest/commit/e083887df2ad2a4a2ec0141845d969344c25096e))
+
+
+
+
+
 ## [1.1.39](https://github.com/bluelovers/ws-rest/compare/dmzj-api@1.1.38...dmzj-api@1.1.39) (2020-12-04)
 
 

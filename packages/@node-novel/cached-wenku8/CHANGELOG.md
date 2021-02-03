@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.78](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.77...@node-novel/cached-wenku8@1.0.78) (2021-02-03)
+
+
+### ♻️　Chores
+
+* update typescript ([f4f122b](https://github.com/bluelovers/ws-rest/commit/f4f122b12d88ed74fe7ce6d8879e1c391719db11))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-wenku8] update cache, novel x 3 ([62893c6](https://github.com/bluelovers/ws-rest/commit/62893c6ffed53709e49dc5f1e0f25828e0aa7435))
+* [@node-novel/cached-wenku8] update cache, novel x 62 ([267eeae](https://github.com/bluelovers/ws-rest/commit/267eeaedaa2941ffda5ff02aea837f800b689488))
+* [@node-novel/cached-wenku8] update cache, novel x 14 ([39c8dd7](https://github.com/bluelovers/ws-rest/commit/39c8dd731f73c7abe605b0074a630ea2f4eb3c0b))
+* [@node-novel/cached-wenku8] update cache, novel x 11 ([6bb3472](https://github.com/bluelovers/ws-rest/commit/6bb347245badf52011136883c870a14978775595))
+* [@node-novel/cached-wenku8] update cache, novel x 9 ([a6bd058](https://github.com/bluelovers/ws-rest/commit/a6bd058fca977140fccb31a973dc187a05c2c60a))
+* [@node-novel/cached-wenku8] update cache, novel x 9 ([30d490a](https://github.com/bluelovers/ws-rest/commit/30d490a96081539e7d5bb6bbef5c481328e32c96))
+* [@node-novel/cached-wenku8] update cache, novel x 16 ([8b184ce](https://github.com/bluelovers/ws-rest/commit/8b184cedc89442a2b51f1f460848e29db06b1ab9))
+* [@node-novel/cached-wenku8] update cache, novel x 10 ([b9c462c](https://github.com/bluelovers/ws-rest/commit/b9c462c9d011a41981efa11daea0125669f9f1ec))
+* [@node-novel/cached-wenku8] update cache, novel x 13 ([ef1a60a](https://github.com/bluelovers/ws-rest/commit/ef1a60a69ee2c7c2b88d3e3a1ec1be7794434cd8)), closes [#15](https://github.com/bluelovers/ws-rest/issues/15)
+
+
+
+
+
 ## [1.0.77](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.76...@node-novel/cached-wenku8@1.0.77) (2020-12-04)
 
 
