@@ -3,21 +3,21 @@
   "name": "咖啡馆推理事件簿",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷 愿这杯鸳鸯奶茶美味",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11101,
-  "last_update_chapter_id": 110077,
-  "last_update_time": 1599483679,
-  "cover": "https://xs.dmzj.com/img/webpic/24/kafeiguantuilishijianbu.jpg",
-  "hot_hits": 101445,
+  "last_update_volume_name": "第六卷 盛满咖啡杯的爱",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 11350,
+  "last_update_chapter_id": 114030,
+  "last_update_time": 1612357413,
+  "cover": "https://xs.dmzj1.com/img/webpic/24/kafeiguantuilishijianbu.jpg",
+  "hot_hits": 119518,
   "introduction": "随著冰滴咖啡、越南白咖啡、阿拉比卡豆精品咖啡一一端上桌，咖啡师即将解答京都生活的谜团。然而，她不为人知的过去又有什么秘密？\n第一次喝了咖啡却没付钱的年轻人竟然成为咖啡店常客，他是什么来历？为何总是带来难题？\n继承京都咖啡店的年轻女孩遇见怀抱心机的男子\n一杯咖啡一个谜团「京都日常」X「咖啡推理」即将展开！",
   "types": [
     "侦探"
   ],
   "authors": "冈崎琢磨",
   "first_letter": "G",
-  "subscribe_num": 5563,
-  "redis_update_time": 1599675724,
+  "subscribe_num": 7119,
+  "redis_update_time": 1612394815,
   "volume": [
     {
       "id": 5439,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 下次见面时请让我品尝你煮的咖啡",
       "volume_order": 10,
       "addtime": 1375850001,
-      "sum_chapters": 27
+      "sum_chapters": 2
     },
     {
       "id": 6172,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 梦见咖啡欧蕾的女孩",
       "volume_order": 20,
       "addtime": 1405173756,
-      "sum_chapters": 27
+      "sum_chapters": 2
     },
     {
       "id": 6639,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 令人心慌的咖啡香",
       "volume_order": 30,
       "addtime": 1421670605,
-      "sum_chapters": 27
+      "sum_chapters": 2
     },
     {
       "id": 11099,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷 休息中·咖啡的五种风味",
       "volume_order": 40,
       "addtime": 1599387869,
-      "sum_chapters": 27
+      "sum_chapters": 2
     },
     {
       "id": 11101,
@@ -57,7 +57,15 @@
       "volume_name": "第五卷 愿这杯鸳鸯奶茶美味",
       "volume_order": 50,
       "addtime": 1599483319,
-      "sum_chapters": 27
+      "sum_chapters": 2
+    },
+    {
+      "id": 11350,
+      "lnovel_id": 1486,
+      "volume_name": "第六卷 盛满咖啡杯的爱",
+      "volume_order": 60,
+      "addtime": 1612357298,
+      "sum_chapters": 2
     }
   ],
   "chapters": [
@@ -328,6 +336,54 @@
           "chapter_id": 110077,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 11350,
+      "id": 11350,
+      "volume_name": "第六卷 盛满咖啡杯的爱",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 114023,
+          "chapter_name": "序章 某个老人的余生",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114024,
+          "chapter_name": "第一章 摔破的咖啡杯之谜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114025,
+          "chapter_name": "第二章 追寻影子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114026,
+          "chapter_name": "第三章 失去踪影的早晨",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114027,
+          "chapter_name": "第四章 一切都真相大白",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 114028,
+          "chapter_name": "第五章 盛满咖啡杯的爱",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 114029,
+          "chapter_name": "终章 爱将继续传承下去",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 114030,
+          "chapter_name": "后记",
+          "chapter_order": 80
         }
       ]
     }
