@@ -16,6 +16,7 @@ import expect from 'expect';
 		.toThrow()
 	;
 
+	/*
 	await expect(api.ncodeInfoRaw('n1489eq'))
 		.resolves
 		.toHaveProperty('ncode', 'N1489EQ')
@@ -25,5 +26,6 @@ import expect from 'expect';
 		.rejects
 		.toThrow()
 	;
+	 */
 
 })();
