@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.42](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.41...esjzone-api@1.0.42) (2021-02-04)
+
+
+### 🔖　Miscellaneous
+
+* . ([8bd0959](https://github.com/bluelovers/ws-rest/commit/8bd0959c91aa2315276e6fd7c805c0c36373f595))
+
+
+
+
+
 ## [1.0.41](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.40...esjzone-api@1.0.41) (2021-02-03)
 
 **Note:** Version bump only for package esjzone-api

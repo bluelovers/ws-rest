@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.31](https://github.com/bluelovers/ws-rest/compare/lazy-cookies@1.0.30...lazy-cookies@1.0.31) (2021-02-04)
+
+
+### 🔖　Miscellaneous
+
+* . ([8bd0959](https://github.com/bluelovers/ws-rest/commit/8bd0959c91aa2315276e6fd7c805c0c36373f595))
+
+
+
+
+
 ## [1.0.30](https://github.com/bluelovers/ws-rest/compare/lazy-cookies@1.0.29...lazy-cookies@1.0.30) (2021-02-03)
 
 

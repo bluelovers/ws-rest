@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.39](https://github.com/bluelovers/ws-rest/compare/discuz-api@1.0.38...discuz-api@1.0.39) (2021-02-04)
+
+
+### 🔖　Miscellaneous
+
+* . ([8bd0959](https://github.com/bluelovers/ws-rest/commit/8bd0959c91aa2315276e6fd7c805c0c36373f595))
+
+
+
+
+
 ## [1.0.38](https://github.com/bluelovers/ws-rest/compare/discuz-api@1.0.37...discuz-api@1.0.38) (2021-02-03)
 
 **Note:** Version bump only for package discuz-api
