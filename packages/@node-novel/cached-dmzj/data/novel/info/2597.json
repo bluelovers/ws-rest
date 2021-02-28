@@ -3,13 +3,13 @@
   "name": "只有我能进入的隐藏迷宫～低调锻炼化身世界最强～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11026,
-  "last_update_chapter_id": 109050,
-  "last_update_time": 1596449676,
-  "cover": "https://xs.dmzj.com/img/webpic/26/yc1215l.jpg",
-  "hot_hits": 809105,
+  "last_update_volume_id": 11369,
+  "last_update_chapter_id": 114279,
+  "last_update_time": 1613380458,
+  "cover": "https://xs.dmzj1.com/img/webpic/26/yc1215l.jpg",
+  "hot_hits": 1818761,
   "introduction": "　　藏匿了大量稀有魔物和稀奇宝物的传说之地──隐藏迷宫。失业的贫穷贵族三男‧诺尔，幸运地开启了该座隐藏迷宫的入口。在隐藏迷宫中，诺尔学会了创作、赋予和编辑技能的能力。除此之外，使用这项技能时，竟然需要「吃好吃的食物」或是「与容貌出色的异性进行亲密接触」，以储存必要的点数……？「只有我能进入的隐藏迷宫，低调锻炼化身世界最强！」超人气奇幻故事不负期待，在追加新撰篇章后堂堂书籍化！",
   "types": [
     "冒险",
@@ -17,8 +17,8 @@
   ],
   "authors": "濑户メグル",
   "first_letter": "Z",
-  "subscribe_num": 21407,
-  "redis_update_time": 1597095762,
+  "subscribe_num": 46142,
+  "redis_update_time": 1614550284,
   "volume": [
     {
       "id": 9839,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1544868382,
-      "sum_chapters": 14
+      "sum_chapters": 12
     },
     {
       "id": 10780,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1587129723,
-      "sum_chapters": 14
+      "sum_chapters": 12
     },
     {
       "id": 11026,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1596448619,
-      "sum_chapters": 14
+      "sum_chapters": 12
+    },
+    {
+      "id": 11369,
+      "lnovel_id": 2597,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1613379737,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -587,6 +595,89 @@
           "chapter_id": 109050,
           "chapter_name": "插画",
           "chapter_order": 340
+        }
+      ]
+    },
+    {
+      "volume_id": 11369,
+      "id": 11369,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 114258,
+          "chapter_name": "1话 兄长来信",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114259,
+          "chapter_name": "2话 启程",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114260,
+          "chapter_name": "3话 旅程途中",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114261,
+          "chapter_name": "4话 石化女",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114262,
+          "chapter_name": "5话 教育之都•霍涅斯特",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 114263,
+          "chapter_name": "6话 将军与弓手",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 114264,
+          "chapter_name": "7话 想成为弓术高手",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 114265,
+          "chapter_name": "8话 英雄之村",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 114266,
+          "chapter_name": "9话 秘密的地下室",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 114267,
+          "chapter_name": "10话 战斗总是突如其来",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 114268,
+          "chapter_name": "11话 英雄遗留之物",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 114269,
+          "chapter_name": "12话 虚构的英雄",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 114270,
+          "chapter_name": "番外篇 奥莉薇的回忆",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 114271,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 114279,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }

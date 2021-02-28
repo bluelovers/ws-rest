@@ -3,13 +3,13 @@
   "name": "「阶梯岛」系列(消失吧，群青）",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第三卷 名为恋情的不洁之红",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9082,
-  "last_update_chapter_id": 81001,
-  "last_update_time": 1511083089,
-  "cover": "https://xs.dmzj.com/img/webpic/9/xsbqq65.jpg",
-  "hot_hits": 35031,
+  "last_update_volume_name": "第六卷 在你的世界里、澄碧响彻",
+  "last_update_chapter_name": "尾声",
+  "last_update_volume_id": 11380,
+  "last_update_chapter_id": 114410,
+  "last_update_time": 1613903290,
+  "cover": "https://xs.dmzj1.com/img/webpic/9/xsbqq65.jpg",
+  "hot_hits": 56764,
   "introduction": "失去的是何物？冲击心灵的青春悬疑小说\n11月9日上午6时42分，我和她重逢了。比任何人都要率真的、正确的、凛然的少女，真边由宇。不应发生的相遇让我的高中生活出现剧变。奇妙的岛屿，连续涂鸦事件，隐藏其中的谜题……我为何身处此地？她为何来到此处？快要被揭开的真相不断把残酷的现实推向我们的青春。“阶梯岛”系列、开幕。",
   "types": [
     "侦探",
@@ -17,8 +17,8 @@
   ],
   "authors": "河野裕",
   "first_letter": "J",
-  "subscribe_num": 5021,
-  "redis_update_time": 1564380815,
+  "subscribe_num": 7570,
+  "redis_update_time": 1614551062,
   "volume": [
     {
       "id": 6763,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 消失吧，群青",
       "volume_order": 10,
       "addtime": 1426421775,
-      "sum_chapters": 8
+      "sum_chapters": 12
     },
     {
       "id": 8936,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 即使那是片虚假的洁白",
       "volume_order": 20,
       "addtime": 1503925458,
-      "sum_chapters": 8
+      "sum_chapters": 12
     },
     {
       "id": 9082,
@@ -42,7 +42,31 @@
       "volume_name": "第三卷 名为恋情的不洁之红",
       "volume_order": 30,
       "addtime": 1511082926,
-      "sum_chapters": 8
+      "sum_chapters": 12
+    },
+    {
+      "id": 11374,
+      "lnovel_id": 1845,
+      "volume_name": "第四卷 凶器是毁坏之黑的呼喊",
+      "volume_order": 40,
+      "addtime": 1613649715,
+      "sum_chapters": 12
+    },
+    {
+      "id": 11375,
+      "lnovel_id": 1845,
+      "volume_name": "第五卷 夜空的诅咒是无色的",
+      "volume_order": 50,
+      "addtime": 1613742451,
+      "sum_chapters": 12
+    },
+    {
+      "id": 11380,
+      "lnovel_id": 1845,
+      "volume_name": "第六卷 在你的世界里、澄碧响彻",
+      "volume_order": 60,
+      "addtime": 1613903224,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -172,6 +196,105 @@
           "chapter_id": 81001,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11374,
+      "id": 11374,
+      "volume_name": "第四卷 凶器是毁坏之黑的呼喊",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 114337,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114338,
+          "chapter_name": "第一章 两颗星",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114339,
+          "chapter_name": "第二章 空白的颜色",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114340,
+          "chapter_name": "第三章 纯粹纯情而锐利的声音",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114341,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 11375,
+      "id": 11375,
+      "volume_name": "第五卷 夜空的诅咒是无色的",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 114344,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114345,
+          "chapter_name": "第一章 每当夜幕降临时烦恼吧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114346,
+          "chapter_name": "第二章 必须舍弃其中一方",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114347,
+          "chapter_name": "第三章 陷入如此深邃诅咒的世界",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114348,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 11380,
+      "id": 11380,
+      "volume_name": "第六卷 在你的世界里、澄碧响彻",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 114406,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114407,
+          "chapter_name": "第一章 她牵手绝望",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114408,
+          "chapter_name": "第二章 温柔魔女魔法的全部",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114409,
+          "chapter_name": "第三章 你找到失去的东西了吗？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114410,
+          "chapter_name": "尾声",
+          "chapter_order": 50
         }
       ]
     }

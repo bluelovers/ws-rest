@@ -3,13 +3,13 @@
   "name": "青梅竹马绝对不会输的恋爱喜剧",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10556,
-  "last_update_chapter_id": 102440,
-  "last_update_time": 1579513044,
-  "cover": "https://xs.dmzj.com/img/webpic/2/jd1013l.jpg",
-  "hot_hits": 220115,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11389,
+  "last_update_chapter_id": 114535,
+  "last_update_time": 1614434984,
+  "cover": "https://xs.dmzj1.com/img/webpic/2/jd1013l.jpg",
+  "hot_hits": 570188,
   "introduction": "青梅竹马志田黑羽好像喜欢我。她长得既萝莉又可爱，就住在我家隔壁。她性格开朗，在班里很受欢迎，而且她是喜欢照顾人的姐系，简直是无可挑剔的理想青梅竹马。\n……但是对我而言，还有初恋可知白草！她是美少女，是校园偶像，还是获得过芥见奖的现役女高中生作家！一般来说，我跟白草应该是不可能的，但在放学途中她面带笑容跟我说话，而且只对我露出过笑容！这压根就是有戏好吧！\n然而当我听说白草有了男朋友后，我的人生就急转直下。真想死。话说，她的男朋友为什么不是我！？明明她是我的初恋……。黑羽对失落消沉的我轻声耳语——既然如此痛苦，那就复仇吧？给她来一场最棒的复仇吧——。",
   "types": [
     "校园",
@@ -17,8 +17,8 @@
   ],
   "authors": "二丸修一",
   "first_letter": "Q",
-  "subscribe_num": 17637,
-  "redis_update_time": 1579878273,
+  "subscribe_num": 36851,
+  "redis_update_time": 1614549681,
   "volume": [
     {
       "id": 10384,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1571047514,
-      "sum_chapters": 9
+      "sum_chapters": 12
     },
     {
       "id": 10556,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1579512831,
-      "sum_chapters": 9
+      "sum_chapters": 12
+    },
+    {
+      "id": 11389,
+      "lnovel_id": 2739,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1614432419,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -131,6 +139,59 @@
           "chapter_id": 102440,
           "chapter_name": "后记",
           "chapter_order": 70
+        },
+        {
+          "chapter_id": 114534,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 11389,
+      "id": 11389,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 114496,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114497,
+          "chapter_name": "第一章 旅行开始前的准备",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114498,
+          "chapter_name": "第二章 夏天还没结束！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114499,
+          "chapter_name": "第三章 天堂SOS",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114500,
+          "chapter_name": "第四章 初恋之毒",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 114501,
+          "chapter_name": "结尾曲",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 114502,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 114535,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

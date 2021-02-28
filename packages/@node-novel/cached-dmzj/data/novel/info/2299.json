@@ -3,13 +3,13 @@
   "name": "异世界魔物培育家～带着外挂悠哉养成中～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10261,
-  "last_update_chapter_id": 98488,
-  "last_update_time": 1564755521,
-  "cover": "https://xs.dmzj.com/img/webpic/6/pyj0312l.jpg",
-  "hot_hits": 156811,
+  "last_update_volume_id": 11396,
+  "last_update_chapter_id": 114576,
+  "last_update_time": 1614519700,
+  "cover": "https://xs.dmzj1.com/img/webpic/6/pyj0312l.jpg",
+  "hot_hits": 648734,
   "introduction": "　　少年·风早宗太某一天遭到美之女神阿芙萝黛蒂送至异世界《亚德莱德》中，而且给予他的职业还是超级不受欢迎的「魔物使」！当宗太正因为不知该怎麽办而束手无策之际，发生了一件预料之外的BUG！\n　　「呜哇啊啊啊啊──！？等一下！骗人的吧！？为什麽！？」\n　　没想到！宗太居然能役使原本无法成为自己伙伴的女神阿芙萝黛蒂。\n　　因为获得女神而取得大量经验值的宗太，会就这么快乐地迈向自在的生活吗──！？",
   "types": [
     "异界",
@@ -17,8 +17,8 @@
   ],
   "authors": "柑橘ゆすら",
   "first_letter": "Y",
-  "subscribe_num": 12500,
-  "redis_update_time": 1564924055,
+  "subscribe_num": 21752,
+  "redis_update_time": 1614550653,
   "volume": [
     {
       "id": 8554,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1489326407,
-      "sum_chapters": 21
+      "sum_chapters": 12
     },
     {
       "id": 10260,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1564754516,
-      "sum_chapters": 21
+      "sum_chapters": 12
     },
     {
       "id": 10261,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1564755015,
-      "sum_chapters": 21
+      "sum_chapters": 12
+    },
+    {
+      "id": 11396,
+      "lnovel_id": 2299,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1614518517,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -277,6 +285,74 @@
           "chapter_id": 98488,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 11396,
+      "id": 11396,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 114563,
+          "chapter_name": "第1话 宗太，要融化了",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114564,
+          "chapter_name": "第2话 能兼顾工作及玩乐才是能干的男人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114565,
+          "chapter_name": "第3话 DX哥布林号",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114566,
+          "chapter_name": "第4话 最强的勇者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114567,
+          "chapter_name": "第5话 变身技能",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 114568,
+          "chapter_name": "第6话 来试做乾货吧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 114569,
+          "chapter_name": "第7话 童贞丧失SOS",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 114570,
+          "chapter_name": "第8话 VS黑剑士",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 114571,
+          "chapter_name": "终章 导入冷气",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 114572,
+          "chapter_name": "附加短篇 女神之谜",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 114573,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 114576,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }
