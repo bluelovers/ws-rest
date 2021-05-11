@@ -116,6 +116,7 @@ jobs:
           MASIRO_PASS: ${{ secrets.MASIRO_PASS }}
           WENKU8_USER: ${{ secrets.WENKU8_USER }}
           WENKU8_PASS: ${{ secrets.WENKU8_PASS }}
+          NODE_OPTIONS: --max_old_space_size=8192
         run: yarn run ci:cache:list
       - name: Push changes
         if: success()
