@@ -7,7 +7,7 @@ exports._getApiClient = void 0;
 const index_1 = require("@bluelovers/axios-util/lib/index");
 const __1 = require("..");
 const axios_util_1 = require("@bluelovers/axios-util");
-const fs_extra_1 = __importDefault(require("fs-extra"));
+const fs_extra_1 = require("fs-extra");
 const cookies_1 = require("restful-decorator-plugin-jsdom/lib/cookies");
 const ci_1 = __importDefault(require("../ci"));
 const pass_1 = __importDefault(require("../pass"));
@@ -37,9 +37,9 @@ async function _getApiClient(opts) {
         //consoleDebug.dir(setting);
         const cookiesCacheFile = cacheFilePaths.cookiesCacheFile;
         __1.consoleDebug.debug(`cookiesCacheFile`, cookiesCacheFile);
-        if (fs_extra_1.default.existsSync(cookiesCacheFile)) {
+        if (fs_extra_1.existsSync(cookiesCacheFile)) {
             __1.consoleDebug.debug(`axios.cookies.json 已存在，嘗試載入內容`);
-            api = await fs_extra_1.default.readJSON(cookiesCacheFile)
+            api = await fs_extra_1.readJSON(cookiesCacheFile)
                 .then(r => cookies_1.deserializeCookieJar(r))
                 .then(_jar => {
                 if (_jar) {

@@ -13,7 +13,7 @@ import {
 	AxiosStatic,
 } from 'axios';
 import { dotValue } from '@bluelovers/axios-util';
-import fs from 'fs-extra';
+import { existsSync, readJSON } from 'fs-extra';
 import { deserializeCookieJar } from 'restful-decorator-plugin-jsdom/lib/cookies';
 import isCi from '../ci';
 import importPassword from '../pass';
@@ -72,11 +72,11 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 
 		consoleDebug.debug(`cookiesCacheFile`, cookiesCacheFile);
 
-		if (fs.existsSync(cookiesCacheFile))
+		if (existsSync(cookiesCacheFile))
 		{
 			consoleDebug.debug(`axios.cookies.json 已存在，嘗試載入內容`);
 
-			api = await fs.readJSON(cookiesCacheFile)
+			api = await readJSON(cookiesCacheFile)
 				.then(r => deserializeCookieJar(r))
 				.then(_jar =>
 				{
