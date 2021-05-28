@@ -1,8 +1,9 @@
-import fs from 'fs-extra';
-import { exportCache, importCache, processExitHook } from 'axios-cache-adapter-util';
-import { IBaseCacheStore } from 'axios-cache-adapter-util';
-import consoleDebug from 'restful-decorator/lib/util/debug';
+import { outputJSONSync, readJSON } from 'fs-extra';
+import { exportCache, importCache, processExitHook } from './index';
+import { IBaseCacheStore } from './index';
+import { consoleDebug } from 'restful-decorator/lib/util/debug';
 import { ICacheStoreJsonItem, ICacheStoreJsonRow } from './index';
+import { freeGC } from 'free-gc';
 
 export async function setupCacheFile(options?: {
 	store: IBaseCacheStore | object,
@@ -14,7 +15,7 @@ export async function setupCacheFile(options?: {
 
 	const now = Date.now() + 3600;
 
-	await fs.readJSON(cacheFile)
+	await readJSON(cacheFile)
 		.catch(e => {
 			return {}
 		})
@@ -35,12 +36,16 @@ export async function setupCacheFile(options?: {
 		})
 	;
 
+	freeGC();
+
 	function saveCache()
 	{
 		return exportCache(store, (json) => {
-			fs.outputJSONSync(cacheFile, json, {
+			freeGC();
+			outputJSONSync(cacheFile, json, {
 				spaces: 2,
 			});
+			freeGC();
 
 			consoleDebug.debug(`[Cache]`, Object.keys(json).length, `saved`, cacheFile);
 

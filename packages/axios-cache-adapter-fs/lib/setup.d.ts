@@ -1,4 +1,4 @@
-import { IBaseCacheStore } from 'axios-cache-adapter-util';
+import { IBaseCacheStore } from './index';
 export declare function setupCacheFile(options?: {
     store: IBaseCacheStore | object;
     saveCacheFileBySelf?: boolean;

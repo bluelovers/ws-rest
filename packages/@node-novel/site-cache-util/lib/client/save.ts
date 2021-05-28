@@ -1,7 +1,7 @@
 import { AbstractHttpClient } from 'restful-decorator/lib';
 import { ICreatePkgCachePath, ICreatePkgCachePathMap } from '../files';
 import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/cache';
-import fs from 'fs-extra';
+import { readJSON, outputJSONSync } from 'fs-extra';
 import { consoleDebug, console } from '../index';
 import { exportCache, IBaseCacheStore, importCache, processExitHook, ICacheStoreJson } from 'axios-cache-adapter-util';
 
@@ -20,7 +20,7 @@ export async function _setupCacheFile(opts: {
 
 	const now = Date.now() + 3600;
 
-	await fs.readJSON(cacheFile)
+	await readJSON(cacheFile)
 		.catch(e =>
 		{
 			return {}
@@ -76,14 +76,14 @@ export async function _setupCacheFile(opts: {
 
 			//consoleDebug.dir(json);
 
-			fs.writeJSONSync(cacheFilePaths.cookiesCacheFile, json, {
+			outputJSONSync(cacheFilePaths.cookiesCacheFile, json, {
 				spaces: 2,
 			})
 		}
 
 		return exportCache(store, (json) =>
 		{
-			fs.outputJSONSync(cacheFile, json, {
+			outputJSONSync(cacheFile, json, {
 				//spaces: 2,
 			});
 

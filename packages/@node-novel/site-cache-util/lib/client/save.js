@@ -1,11 +1,8 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports._setupCacheFile = void 0;
 const cache_1 = require("restful-decorator/lib/decorators/config/cache");
-const fs_extra_1 = __importDefault(require("fs-extra"));
+const fs_extra_1 = require("fs-extra");
 const index_1 = require("../index");
 const axios_cache_adapter_util_1 = require("axios-cache-adapter-util");
 async function _setupCacheFile(opts) {
@@ -14,7 +11,7 @@ async function _setupCacheFile(opts) {
     const store = cache_1.getAxiosCacheAdapter(api).store;
     const cacheFile = cacheFilePaths.axiosCacheFile;
     const now = Date.now() + 3600;
-    await fs_extra_1.default.readJSON(cacheFile)
+    await fs_extra_1.readJSON(cacheFile)
         .catch(e => {
         return {};
     })
@@ -48,12 +45,12 @@ async function _setupCacheFile(opts) {
             // @ts-ignore
             let json = api._serialize();
             //consoleDebug.dir(json);
-            fs_extra_1.default.writeJSONSync(cacheFilePaths.cookiesCacheFile, json, {
+            fs_extra_1.outputJSONSync(cacheFilePaths.cookiesCacheFile, json, {
                 spaces: 2,
             });
         }
         return axios_cache_adapter_util_1.exportCache(store, (json) => {
-            fs_extra_1.default.outputJSONSync(cacheFile, json, {
+            fs_extra_1.outputJSONSync(cacheFile, json, {
             //spaces: 2,
             });
             let len2 = Object.keys(json).length;
