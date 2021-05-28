@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.49](https://github.com/bluelovers/ws-rest/compare/axios-cache-adapter-util@1.0.48...axios-cache-adapter-util@1.0.49) (2021-05-28)
+
+
+### ✨　Features
+
+* CacheStoreByMapLike ([5d3a0df](https://github.com/bluelovers/ws-rest/commit/5d3a0dfcb5227f0860fa8f977dc27aba30759101))
+
+
+### 📦　Code Refactoring
+
+* update fs import add use freeGC ([7de5939](https://github.com/bluelovers/ws-rest/commit/7de5939b262b2d415576f4ed4c17da57d3419fa9))
+
+
+### ♻️　Chores
+
+* update deps ([6243651](https://github.com/bluelovers/ws-rest/commit/6243651447df13ddfb9eb5316af30b849771e617))
+
+
+
+
+
 ## [1.0.48](https://github.com/bluelovers/ws-rest/compare/axios-cache-adapter-util@1.0.47...axios-cache-adapter-util@1.0.48) (2021-02-04)
 
 

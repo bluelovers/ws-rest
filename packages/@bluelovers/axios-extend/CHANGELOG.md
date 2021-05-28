@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.38](https://github.com/bluelovers/ws-rest/compare/@bluelovers/axios-extend@1.0.37...@bluelovers/axios-extend@1.0.38) (2021-05-28)
+
+
+### ✨　Features
+
+* use LRUCache ([92aa778](https://github.com/bluelovers/ws-rest/commit/92aa77815c012b89d911cdb1b7217be552ae36c8))
+
+
+### ♻️　Chores
+
+* update deps ([6243651](https://github.com/bluelovers/ws-rest/commit/6243651447df13ddfb9eb5316af30b849771e617))
+
+
+
+
+
 ## [1.0.37](https://github.com/bluelovers/ws-rest/compare/@bluelovers/axios-extend@1.0.36...@bluelovers/axios-extend@1.0.37) (2021-02-04)
 
 

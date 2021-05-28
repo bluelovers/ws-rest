@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.36](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.35...@demonovel/cached-data@1.0.36) (2021-05-28)
+
+
+### ♻️　Chores
+
+* update deps ([6243651](https://github.com/bluelovers/ws-rest/commit/6243651447df13ddfb9eb5316af30b849771e617))
+
+
+### 🔖　Miscellaneous
+
+* [@demonovel/cached-data] update cache ([d2fecaa](https://github.com/bluelovers/ws-rest/commit/d2fecaa6207457f19e00ded157561541cf60a0ca))
+* [@demonovel/cached-data] update cache ([4db8f76](https://github.com/bluelovers/ws-rest/commit/4db8f76c4b1c4248430ceaa140c4d22dfff3194d))
+* [@demonovel/cached-data] update cache ([5eb5828](https://github.com/bluelovers/ws-rest/commit/5eb582847333fb715a1d4129a01b4a33708f4192))
+* [@demonovel/cached-data] update cache ([b399dcb](https://github.com/bluelovers/ws-rest/commit/b399dcb90ce6023259d806f1db9535a077ce8ea7))
+* [@demonovel/cached-data] update cache ([e0da037](https://github.com/bluelovers/ws-rest/commit/e0da0370e654282d928740abb614fc063ea8e806))
+* [@demonovel/cached-data] update cache ([91ad10d](https://github.com/bluelovers/ws-rest/commit/91ad10dec339bf11066d11210c183b6169170fbc))
+* [@demonovel/cached-data] update cache ([46cf1d9](https://github.com/bluelovers/ws-rest/commit/46cf1d90fa598f6385c8caca878031b2449eacdf))
+* [@demonovel/cached-data] update cache ([8efed1b](https://github.com/bluelovers/ws-rest/commit/8efed1baaadc48c2751d1fa48e51bf4963078915))
+
+
+
+
+
 ## [1.0.35](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.34...@demonovel/cached-data@1.0.35) (2021-02-04)
 
 

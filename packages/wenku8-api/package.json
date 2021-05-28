@@ -1,6 +1,6 @@
 {
   "name": "wenku8-api",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -26,13 +26,13 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@bluelovers/axios-extend": "^1.0.37",
+    "@bluelovers/axios-extend": "^1.0.38",
     "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.5",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
-    "restful-decorator": "^1.0.52",
-    "restful-decorator-plugin-jsdom": "^1.0.32",
+    "restful-decorator": "^1.0.53",
+    "restful-decorator-plugin-jsdom": "^1.0.33",
     "zero-width": "^1.0.15"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"
