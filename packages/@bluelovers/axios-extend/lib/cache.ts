@@ -6,6 +6,8 @@ import { defaultsDeep } from 'lodash';
 import Bluebird from 'bluebird';
 import { ITSPartialPick } from 'ts-type';
 import { IAxiosCacheAdapterOptionsConfig } from './types';
+import { CacheStoreByMapLike } from 'axios-cache-adapter-util/lib/createCacheStoreByMapLike';
+import LRUCache from 'lru-cache2';
 
 export { IAxiosCacheAdapterOptions, ISetupCache, IAxiosCacheAdapterOptionsConfig }
 
@@ -14,6 +16,16 @@ export { setupCache }
 export function setupCacheConfig<T extends IAxiosCacheAdapterOptionsConfig | AxiosRequestConfig>(configInput: T)
 {
 	configInput = mixinCacheConfig(configInput);
+
+	configInput.cache.store ??= (() => {
+		const lru = new LRUCache({
+			max: 300,
+		});
+
+		const store = new CacheStoreByMapLike(lru as any)
+
+		return store;
+	})();
 
 	const cache = setupCache(configInput.cache);
 
