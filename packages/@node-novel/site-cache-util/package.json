@@ -26,17 +26,23 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
+    "@bluelovers/axios-util": "^1.0.12",
     "@git-lazy/diff-staged": "^1.0.26",
     "@git-lazy/util": "^1.0.25",
     "@types/bluebird": "^3",
     "@types/fs-extra": "^9",
+    "axios-cache-adapter-util": "^1.0.48",
     "bluebird": "^3.7.2",
     "env-bool": "^1.0.3",
     "fs-extra": "^10.0.0",
+    "lazy-cookies": "^1.0.31",
     "lodash": "^4.17.21",
+    "lru-cache2": "^6.0.6",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
     "restful-decorator": "^1.0.52",
+    "restful-decorator-plugin-jsdom": "^1.0.32",
+    "ts-type": "^1.2.34",
     "upath2": "^3.1.7"
   },
   "publishConfig": {
