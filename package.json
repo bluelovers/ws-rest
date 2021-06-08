@@ -31,7 +31,7 @@
     "ci:task:novel-opds-now": "ts-node ./script/task/novel-opds-now.ts",
     "lerna": "yarn run lerna:prepublish && lerna publish --yes --bump patch && yarn run ci:cache:list",
     "lerna:prepublish": "lerna run --stream --scope @node-novel/cached-* build && lerna run --stream  --scope @demonovel/cached-data build",
-    "lerna:prepublish:ci": "lerna run --stream --concurrency 2 --scope @node-novel/cached-* build --ignore @node-novel/cached-masiro --ignore @node-novel/cached-dmzj && lerna run --stream --concurrency 1 --scope @demonovel/cached-data build",
+    "lerna:prepublish:ci": "lerna run --stream --concurrency 2 --scope @node-novel/cached-* build --ignore @node-novel/cached-dmzj && lerna run --stream --concurrency 1 --scope @demonovel/cached-data build",
     "prepare:fix-ws-links": "ynpx @yarn-tool/fix-ws-links",
     "ncu": "npx yarn-tool ncu -u && yarn-tool ws exec yarn-tool ncu -- -u",
     "sort-package-json": "npx yarn-tool sort && yarn-tool ws exec yarn-tool sort"
