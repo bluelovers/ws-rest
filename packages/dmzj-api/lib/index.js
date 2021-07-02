@@ -1,9 +1,28 @@
 "use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
 };
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
@@ -25,6 +44,29 @@ const array_hyper_unique_1 = require("array-hyper-unique");
 const debug_1 = __importDefault(require("restful-decorator/lib/util/debug"));
 const symbol_1 = require("restful-decorator/lib/helper/symbol");
 const subobject_1 = __importDefault(require("restful-decorator/lib/helper/subobject"));
+const crypto = __importStar(require("crypto"));
+const protobuf = __importStar(require("protobufjs"));
+const rsa_key = "MIICXgIBAAKBgQCvJzUdZU5yHyHrOqEViTY95gejrLAxsdLhjKYKW1QqX+vlcJ7iNrLZoWTaEHDONeyM+1qpT821JrvUeHRCpixhBKjoTnVWnofV5NiDz46iLuU25C2UcZGN3STNYbW8+e3f66HrCS5GV6rLHxuRCWrjXPkXAAU3y2+CIhY0jJU7JwIDAQABAoGBAIs/6YtoSjiSpb3Ey+I6RyRo5/PpS98GV/i3gB5Fw6E4x2uO4NJJ2GELXgm7/mMDHgBrqQVoi8uUcsoVxaBjSm25737TGCueoR/oqsY7Qy540gylp4XAe9PPbDSmhDPSJYpersVjKzDAR/b9jy3WLKjAR6j7rSrv0ooHhj3oge1RAkEA4s1ZTb+u4KPfUACL9p/4GuHtMC4s1bmjQVxPPAHTp2mdCzk3p4lRKrz7YFJOt8245dD/6c0M8o4rcHuh6AgCKQJBAMWzrZwptbihKeR7DWlxCU8BO1kH+z6yw+PgaRrTSpII2un+heJXeEGdk0Oqr7Aos0hia4zqTXY1Rie24GDHHM8CQQC7yVjy5g4u06BXxkwdBLDR2VShOupGf/Ercfns7npHuEueel6Zajn5UAY2549j4oMATf9Gn0/kGVDgTo1s6AyZAkApc6PqA0DLxlbPRhGo0v99pid4YlkGa1rxM4M2Eakn911XBHuz2l0nfM98t5QAnngArEoakKHPMBpWh1yCTh03AkEAmcOddu2RrPGQ00q6IKx+9ysPx71+ecBgHoqymHL9vHmrr3ghu4shUdDxQfz/xA2Z8m/on78hBZbnD1CNPmPOxQ==";
+const txt_key = "IBAAKCAQEAsUAdKtXNt8cdrcTXLsaFKj9bSK1nEOAROGn2KJXlEVekcPssKUxSN8dsfba51kmHM";
+const key = crypto.createPrivateKey({
+    key: Buffer.from(rsa_key, "base64"),
+    format: "der",
+    type: "pkcs1",
+});
+const block_size = 1024 / 8;
+const root = protobuf.Root.fromJSON(require("./dmzjproto.json"));
+function decryptv4(key, input) {
+    const block_count = input.length;
+    const blocks = [];
+    let i = 0;
+    while (i < block_count) {
+        blocks.push(input.slice(i, i += block_size));
+    }
+    return Buffer.concat(blocks.map(p => crypto.privateDecrypt({
+        key: key,
+        padding: crypto.constants.RSA_PKCS1_PADDING
+    }, p)));
+}
 /**
  * https://gist.github.com/bluelovers/5e9bfeecdbff431c62d5b50e7bdc3e48
  * https://github.com/guuguo/flutter_dmzj/blob/master/lib/api.dart
@@ -219,7 +261,40 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
      */
     _novelInfo(novel_id) {
         //let data = arguments[0];
-        return null;
+        const buffer = Buffer.from(this.$response.data.toString(), "base64");
+        const decrypted = decryptv4(key, buffer);
+        const response_type = root.lookupType("NovelDetailResponse");
+        const result = response_type.decode(decrypted);
+        // console.log(result.toJSON())
+        const apiresult = {
+            id: result.Data.NovelId,
+            authors: result.Data.Authors,
+            cover: result.Data.Cover,
+            zone: result.Data.Zone,
+            hot_hits: result.Data.HotHits,
+            introduction: result.Data.Introduction,
+            last_update_time: +result.Data.LastUpdateTime,
+            last_update_chapter_id: result.Data.LastUpdateChapterId,
+            first_letter: result.Data.FirstLetter,
+            last_update_chapter_name: result.Data.LastUpdateChapterName,
+            last_update_volume_id: result.Data.LastUpdateVolumeId,
+            last_update_volume_name: result.Data.LastUpdateChapterName,
+            name: result.Data.Name,
+            status: result.Data.Status,
+            subscribe_num: result.Data.SubscribeNum,
+            types: result.Data.Types,
+            volume: result.Data.Volume.map((v) => {
+                return {
+                    id: v.VolumeId,
+                    lnovel_id: v.LnovelId,
+                    volume_name: v.VolumeName,
+                    volume_order: v.VolumeOrder,
+                    addtime: +v.Addtime,
+                    sum_chapters: v.SumChapters,
+                };
+            })
+        };
+        return bluebird_1.default.resolve(apiresult);
     }
     /**
      * 小说详情(非原始資料 而是 經過修正處理)
@@ -232,7 +307,26 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
      */
     novelChapter(novel_id) {
         //let data = arguments[0];
-        return null;
+        const buffer = Buffer.from(this.$response.data.toString(), "base64");
+        const decrypted = decryptv4(key, buffer);
+        const response_type = root.lookupType("NovelChapterResponse");
+        const result = response_type.decode(decrypted);
+        const apiresult = result.Data.map((v) => {
+            return {
+                id: v.VolumeId,
+                chapters: v.Chapters.map((c) => {
+                    return {
+                        chapter_id: c.ChapterId,
+                        chapter_name: c.ChapterName,
+                        chapter_order: c.ChapterOrder
+                    };
+                }),
+                volume_id: v.VolumeId,
+                volume_name: v.VolumeName,
+                volume_order: v.VolumeOrder
+            };
+        });
+        return bluebird_1.default.resolve(apiresult);
     }
     /**
      * 取得小說資料的同時一起取得章節列表
@@ -401,7 +495,7 @@ __decorate([
     __metadata("design:returntype", Object)
 ], DmzjClient.prototype, "_novelRecentUpdate", null);
 __decorate([
-    decorators_1.GET('novel/{novel_id}.json'),
+    decorators_1.GET('http://nnv4api.muwai.com/novel/detail/{novel_id}'),
     decorators_1.methodBuilder(),
     __param(0, decorators_1.ParamPath('novel_id')),
     __metadata("design:type", Function),
@@ -409,7 +503,7 @@ __decorate([
     __metadata("design:returntype", Object)
 ], DmzjClient.prototype, "_novelInfo", null);
 __decorate([
-    decorators_1.GET('novel/chapter/{novel_id}.json'),
+    decorators_1.GET('http://nnv4api.muwai.com/novel/chapter/{novel_id}'),
     decorators_1.methodBuilder(),
     __param(0, decorators_1.ParamPath('novel_id')),
     __metadata("design:type", Function),
@@ -499,7 +593,7 @@ __decorate([
     __metadata("design:returntype", Object)
 ], DmzjClient.prototype, "deviceBuilding", null);
 DmzjClient = __decorate([
-    decorators_1.BaseUrl('http://nnv3api.dmzj1.com'),
+    decorators_1.BaseUrl('https://nnv3api.muwai.com'),
     decorators_1.Headers({
         Referer: 'http://www.dmzj.com/',
     }),
