@@ -25,7 +25,7 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@bluelovers/array-buffer-to-string": "^1.0.13",
+    "@bluelovers/array-buffer-to-string": "^1.0.17",
     "@bluelovers/axios-util": "^1.0.12",
     "@jsdom-extra/html-util": "^1.0.4",
     "@types/jquery": "*",
@@ -33,12 +33,13 @@
     "bluebird": "^3.7.2",
     "buffer": "^6.0.3",
     "html-encoding-sniffer": "^2.0.1",
-    "iconv-html-sniffer": "^1.0.11",
-    "iconv-jschardet": "^2.0.12",
+    "iconv-html-sniffer": "^1.0.14",
+    "iconv-jschardet": "^2.0.16",
     "jsdom-extra": "^3.0.7",
     "lazy-cookies": "^1.0.32",
     "restful-decorator": "^1.0.53",
-    "tough-cookie": "< 4 & >= 3"
+    "tough-cookie": "< 4 & >= 3",
+    "tslib": "^2.3.0"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"
 }

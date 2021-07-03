@@ -3,6 +3,7 @@
 import { AbstractHttpClient } from 'restful-decorator/lib';
 import { IConstructorOptions as IJSDOMConstructorOptions, VirtualConsole } from 'jsdom-extra/lib/pack';
 import { IJSDOM } from 'jsdom-extra';
+import { Buffer } from "buffer";
 import { ICookiesValueInput } from 'lazy-cookies';
 import Bluebird from 'bluebird';
 export { IJSDOM };

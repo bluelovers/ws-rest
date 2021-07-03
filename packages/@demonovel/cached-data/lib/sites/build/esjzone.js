@@ -21,15 +21,15 @@ function buildEsjzone(siteID, id, data) {
         return i;
     }, 0);
     item.content = data.desc;
-    item.updated = data.last_update_time && moment_1.createMomentBySeconds(data.last_update_time).valueOf() || 0;
+    item.updated = data.last_update_time && (0, moment_1.createMomentBySeconds)(data.last_update_time).valueOf() || 0;
     item.tags = data.tags;
     item.cover = data.cover;
     if (data.chapters && data.chapters.length) {
         let vol = data.chapters[data.chapters.length - 1];
         let ch = vol.chapters[vol.chapters.length - 1];
-        item.last_update_name = util_1.newTitle(ch && ch.chapter_name, vol.volume_name);
+        item.last_update_name = (0, util_1.newTitle)(ch && ch.chapter_name, vol.volume_name);
     }
-    return util_1.newEntry(siteID, item);
+    return (0, util_1.newEntry)(siteID, item);
 }
 exports.buildEsjzone = buildEsjzone;
 exports.default = buildEsjzone;

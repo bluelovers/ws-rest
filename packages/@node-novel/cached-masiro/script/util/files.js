@@ -1,12 +1,10 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.cacheFileInfoPath = exports.__root = exports.cacheFilePaths = exports.__path = void 0;
-const path_1 = __importDefault(require("path"));
+const tslib_1 = require("tslib");
+const path_1 = (0, tslib_1.__importDefault)(require("path"));
 const files_1 = require("@node-novel/site-cache-util/lib/files");
-exports.__path = files_1.createPkgCachePath(path_1.default.join(__dirname, '..', '..'), {
+exports.__path = (0, files_1.createPkgCachePath)(path_1.default.join(__dirname, '..', '..'), {
     map: {
         infoPack: ['data', 'forum.pack.json'],
         subforums: ['data', 'subforums.json'],

@@ -4,12 +4,12 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 const index_1 = require("@node-novel/site-cache-util/lib/index");
-exports.default = index_1.lazyRun(async () => {
-    await index_1.lazyImport('./test/chk-moment', require);
-    await index_1.lazyImport('./test/chk-cache', require);
-    await index_1.lazyImport('./test/try-cache', require);
-    await index_1.lazyImport('./test/chk-env', require);
-    await index_1.lazyImport('./test/info-ci', require);
+exports.default = (0, index_1.lazyRun)(async () => {
+    await (0, index_1.lazyImport)('./test/chk-moment', require);
+    await (0, index_1.lazyImport)('./test/chk-cache', require);
+    await (0, index_1.lazyImport)('./test/try-cache', require);
+    await (0, index_1.lazyImport)('./test/chk-env', require);
+    await (0, index_1.lazyImport)('./test/info-ci', require);
 }, {
     pkgLabel: __filename,
 })

@@ -1,30 +1,16 @@
 "use strict";
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PHPWindClient = void 0;
+const tslib_1 = require("tslib");
 const cache_1 = require("restful-decorator/lib/decorators/config/cache");
-const lib_1 = __importDefault(require("restful-decorator-plugin-jsdom/lib"));
+const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib"));
 const method_1 = require("restful-decorator/lib/decorators/method");
 const form_1 = require("restful-decorator/lib/decorators/form");
 const abstract_1 = require("restful-decorator/lib/wrap/abstract");
 const body_1 = require("restful-decorator/lib/decorators/body");
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const _checkLogin_1 = require("./util/jquery/_checkLogin");
-const bluebird_1 = __importDefault(require("bluebird"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const _task_info_1 = require("./util/jquery/_task_info");
 /**
  * Created by user on 2020/5/13.
@@ -42,7 +28,7 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
         this._updateVerifyHash(jsdom);
-        let username = _checkLogin_1._checkLoginUsername(jsdom.$);
+        let username = (0, _checkLogin_1._checkLoginUsername)(jsdom.$);
         if (username != null) {
             return bluebird_1.default.resolve(username);
         }
@@ -57,11 +43,11 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
     isLogin() {
         const jsdom = this.$returnValue;
         this._updateVerifyHash(jsdom);
-        let username = _checkLogin_1._checkLoginUsername(jsdom.$);
+        let username = (0, _checkLogin_1._checkLoginUsername)(jsdom.$);
         if (username != null) {
             return bluebird_1.default.resolve(username);
         }
-        return bluebird_1.default.resolve(_checkLogin_1._checkLoginByJQuery(jsdom.$));
+        return bluebird_1.default.resolve((0, _checkLogin_1._checkLoginByJQuery)(jsdom.$));
     }
     _getAuthCookies() {
         let cr = /_(?:winduser)$/;
@@ -112,7 +98,7 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
             .find('.f_one')
             .each((i, elem) => {
             let _tr = $(elem);
-            let obj = _task_info_1._parseTaskInfo($, _tr);
+            let obj = (0, _task_info_1._parseTaskInfo)($, _tr);
             if (!obj) {
                 return;
             }
@@ -132,7 +118,7 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
             .find('.f_one')
             .each((i, elem) => {
             let _tr = $(elem);
-            let obj = _task_info_1._parseTaskInfo($, _tr);
+            let obj = (0, _task_info_1._parseTaskInfo)($, _tr);
             if (!obj) {
                 return;
             }
@@ -163,18 +149,18 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
             .mapSeries(task => task.task_drawable && this.taskDraw(task.task_id).tap((r) => cb === null || cb === void 0 ? void 0 : cb('taskDraw', r)));
     }
 };
-__decorate([
-    method_1.POST('login.php?submit=login'),
-    jsdom_1.ReturnValueToJSDOM(),
+(0, tslib_1.__decorate)([
+    (0, method_1.POST)('login.php?submit=login'),
+    (0, jsdom_1.ReturnValueToJSDOM)(),
     form_1.FormUrlencoded,
-    cache_1.CacheRequest({
+    (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 0,
         },
     })
     // @ts-ignore
     ,
-    abstract_1.methodBuilder(function (info) {
+    (0, abstract_1.methodBuilder)(function (info) {
         const inputData = info.argv[0];
         let data = info.requestConfig.data;
         data.cktime = inputData.cookietime || 31536000;
@@ -185,86 +171,88 @@ __decorate([
         data.forward = '';
         return info;
     }),
-    __param(0, body_1.ParamMapAuto({
+    (0, tslib_1.__param)(0, (0, body_1.ParamMapAuto)({
         cookietime: 315360000,
         lgt: 0,
     })),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Object)
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], PHPWindClient.prototype, "loginByForm", null);
-__decorate([
-    method_1.GET('message.php'),
-    jsdom_1.ReturnValueToJSDOM(),
-    cache_1.CacheRequest({
+(0, tslib_1.__decorate)([
+    (0, method_1.GET)('message.php'),
+    (0, jsdom_1.ReturnValueToJSDOM)(),
+    (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 0,
         },
     }),
-    abstract_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+    (0, abstract_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], PHPWindClient.prototype, "isLogin", null);
-__decorate([
-    method_1.GET('plugin.php?H_name-tasks.html'),
-    jsdom_1.ReturnValueToJSDOM(),
-    cache_1.CacheRequest({
+(0, tslib_1.__decorate)([
+    (0, method_1.GET)('plugin.php?H_name-tasks.html'),
+    (0, jsdom_1.ReturnValueToJSDOM)(),
+    (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 0,
         },
     }),
-    abstract_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+    (0, abstract_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], PHPWindClient.prototype, "taskListNew", null);
-__decorate([
-    method_1.GET('plugin.php?H_name-tasks-actions-newtasks.html'),
-    jsdom_1.ReturnValueToJSDOM(),
-    cache_1.CacheRequest({
+(0, tslib_1.__decorate)([
+    (0, method_1.GET)('plugin.php?H_name-tasks-actions-newtasks.html'),
+    (0, jsdom_1.ReturnValueToJSDOM)(),
+    (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 0,
         },
     }),
-    abstract_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+    (0, abstract_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], PHPWindClient.prototype, "taskListDoing", null);
-__decorate([
-    method_1.GET('plugin.php?H_name=tasks&action=ajax&actions=job&cid={task_id}&nowtime={nowtime}&verify={verify}'),
-    cache_1.CacheRequest({
+(0, tslib_1.__decorate)([
+    (0, method_1.GET)('plugin.php?H_name=tasks&action=ajax&actions=job&cid={task_id}&nowtime={nowtime}&verify={verify}'),
+    (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 0,
         },
     }),
-    abstract_1.methodBuilder(),
-    __param(0, body_1.ParamPath('task_id')), __param(1, body_1.ParamMapAuto()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
-    __metadata("design:returntype", Object)
+    (0, abstract_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, body_1.ParamPath)('task_id')),
+    (0, tslib_1.__param)(1, (0, body_1.ParamMapAuto)()),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], PHPWindClient.prototype, "taskApply", null);
-__decorate([
-    method_1.GET('plugin.php?H_name=tasks&action=ajax&actions=job2&cid={task_id}&nowtime={nowtime}&verify={verify}'),
-    cache_1.CacheRequest({
+(0, tslib_1.__decorate)([
+    (0, method_1.GET)('plugin.php?H_name=tasks&action=ajax&actions=job2&cid={task_id}&nowtime={nowtime}&verify={verify}'),
+    (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 0,
         },
     }),
-    abstract_1.methodBuilder(),
-    __param(0, body_1.ParamPath('task_id')), __param(1, body_1.ParamMapAuto()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
-    __metadata("design:returntype", Object)
+    (0, abstract_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, body_1.ParamPath)('task_id')),
+    (0, tslib_1.__param)(1, (0, body_1.ParamMapAuto)()),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], PHPWindClient.prototype, "taskDraw", null);
-PHPWindClient = __decorate([
-    cache_1.CacheRequest({
+PHPWindClient = (0, tslib_1.__decorate)([
+    (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
         },
     }),
-    __metadata("design:paramtypes", [Object])
+    (0, tslib_1.__metadata)("design:paramtypes", [Object])
 ], PHPWindClient);
 exports.PHPWindClient = PHPWindClient;
 exports.default = PHPWindClient;

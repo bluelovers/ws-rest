@@ -15,7 +15,7 @@ let api;
 let saveCache;
 let jar;
 async function getApiClient() {
-    ({ api, saveCache, jar } = await client_1._getApiClient({
+    ({ api, saveCache, jar } = await (0, client_1._getApiClient)({
         api,
         saveCache,
         ApiClient: wenku8_api_1.Wenku8Client,

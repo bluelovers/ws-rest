@@ -4,6 +4,7 @@ import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib';
 import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';
 import { IWenku8RecentUpdate, IArticleToplistSortType, IWenku8RecentUpdateWithSortType, IWenku8RecentUpdateRowBook, IWenku8BookChapters, IWenku8RecentUpdateRowBookWithChapters, IArticleSearchType, IWenku8SearchList, IParametersSlice } from './types';
+import { Buffer } from 'buffer';
 /**
  * https://www.wenku8.net/index.php
  */

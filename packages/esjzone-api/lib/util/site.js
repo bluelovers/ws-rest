@@ -2,18 +2,16 @@
 /**
  * Created by user on 2019/12/19.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports._getChapterData = exports._getChapterDomContent = exports._getBookLinks = exports._getBookInfo = exports._matchDateString = exports._getBookChapters = exports._parseSiteLink = exports._getBookTags = exports._getBookCover = exports._getBookElemDesc = exports._remove_ad = exports._fixCoverUrl = exports.parseUrl = void 0;
+const tslib_1 = require("tslib");
 const lazy_url_1 = require("lazy-url");
 const util_1 = require("../util");
-const moment_1 = __importDefault(require("moment"));
+const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
 const parse_input_url_1 = require("@node-novel/parse-input-url");
 const array_hyper_unique_1 = require("array-hyper-unique");
 function parseUrl(input) {
-    let data = parse_input_url_1._handleInputUrl(input);
+    let data = (0, parse_input_url_1._handleInputUrl)(input);
     let ret = {
         ...data,
     };
@@ -59,7 +57,7 @@ function _getBookTags($, tags = []) {
     $('.widget-tags a.tag[href*="tag"]')
         .each((i, elem) => {
         let _this = $(elem);
-        let name = util_1.trimUnsafe(_this.text());
+        let name = (0, util_1.trimUnsafe)(_this.text());
         if (name.length) {
             tags.push(name);
         }
@@ -67,12 +65,12 @@ function _getBookTags($, tags = []) {
     $('.page-title .container .column h1')
         .each((i, elem) => {
         let _this = $(elem);
-        let name = util_1.trimUnsafe(_this.text());
+        let name = (0, util_1.trimUnsafe)(_this.text());
         if (name.length) {
             tags.push(name);
         }
     });
-    array_hyper_unique_1.array_unique_overwrite(tags);
+    (0, array_hyper_unique_1.array_unique_overwrite)(tags);
     return tags;
 }
 exports._getBookTags = _getBookTags;
@@ -112,7 +110,7 @@ function _getBookChapters($, _content, data) {
         .each((i, elem) => {
         let _this = $(elem);
         if (_this.is('.non')) {
-            let volume_name = util_1.trimUnsafe(_this.text());
+            let volume_name = (0, util_1.trimUnsafe)(_this.text());
             if (volume_name) {
                 if (chapter_order || data.chapters[volume_order].volume_name != null) {
                     volume_order++;
@@ -130,7 +128,7 @@ function _getBookChapters($, _content, data) {
             if (_a.length) {
                 let chapter_link = _a.prop('href');
                 let _m = _parseSiteLink(chapter_link);
-                let chapter_name = util_1.trimUnsafe(_a.text());
+                let chapter_name = (0, util_1.trimUnsafe)(_a.text());
                 if (_m) {
                     data.chapters[volume_order]
                         .chapters
@@ -165,26 +163,26 @@ function _matchDateString(_text) {
 exports._matchDateString = _matchDateString;
 function _getBookInfo($, data) {
     var _b;
-    data.name = util_1.trimUnsafe($('.container .row:eq(0) h2:eq(0)').text());
+    data.name = (0, util_1.trimUnsafe)($('.container .row:eq(0) h2:eq(0)').text());
     $('.book-detail > li')
         .each(function (i, elem) {
         var _b;
         let _this = $(this);
-        let _text = util_1.trimUnsafe(_this.text());
+        let _text = (0, util_1.trimUnsafe)(_this.text());
         let _m;
         if (_m = _text.match(/作者\s*[：:]\s*([^\n]+)/)) {
-            data.authors = util_1.trimUnsafe(_m[1]);
+            data.authors = (0, util_1.trimUnsafe)(_m[1]);
         }
         else if (_m = _text.match(/(?:书|書)名\s*[：:]\s*([^\n]+)/)) {
-            let title = util_1.trimUnsafe(_m[1]);
+            let title = (0, util_1.trimUnsafe)(_m[1]);
             if (title.length > 0 && title !== data.name) {
                 (_b = data.titles) !== null && _b !== void 0 ? _b : (data.titles = []);
-                data.titles.push(util_1.trimUnsafe(_m[1]));
+                data.titles.push((0, util_1.trimUnsafe)(_m[1]));
             }
         }
         else if (_m = _matchDateString(_text)) {
             try {
-                let last_update_time = moment_1.default(_m[1]).unix();
+                let last_update_time = (0, moment_1.default)(_m[1]).unix();
                 data.last_update_time = last_update_time;
             }
             catch (e) {
@@ -192,7 +190,7 @@ function _getBookInfo($, data) {
         }
     });
     if ((_b = data.titles) === null || _b === void 0 ? void 0 : _b.length) {
-        array_hyper_unique_1.array_unique_overwrite(data.titles);
+        (0, array_hyper_unique_1.array_unique_overwrite)(data.titles);
     }
     return data;
 }
@@ -203,7 +201,7 @@ function _getBookLinks($, links = []) {
         .not('.btn, .form-group *')
         .each((i, elem) => {
         let _this = $(elem);
-        let name = util_1.trimUnsafe(_this.text());
+        let name = (0, util_1.trimUnsafe)(_this.text());
         let href = _this.prop('href');
         if (name === href || name === '') {
             name = undefined;
@@ -227,16 +225,16 @@ function _getChapterData($) {
     let $meta = $('.container .single-post-meta .column');
     $meta.eq(0).find('span:eq(0)').remove();
     $meta.eq(1).find('i:eq(0)').remove();
-    let author = util_1.trimUnsafe($meta.eq(0).text());
+    let author = (0, util_1.trimUnsafe)($meta.eq(0).text());
     let dateline;
-    let _m = _matchDateString(util_1.trimUnsafe($meta.eq(1).text()));
+    let _m = _matchDateString((0, util_1.trimUnsafe)($meta.eq(1).text()));
     if (_m) {
-        let unix = moment_1.default(_m[1]).unix();
+        let unix = (0, moment_1.default)(_m[1]).unix();
         if (unix > 0) {
             dateline = unix;
         }
     }
-    let chapter_name = util_1.trimUnsafe($('.container .row .single-post-meta + h2').text());
+    let chapter_name = (0, util_1.trimUnsafe)($('.container .row .single-post-meta + h2').text());
     return {
         chapter_name,
         author,

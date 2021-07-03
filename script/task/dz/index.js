@@ -2,18 +2,16 @@
 /**
  * Created by user on 2020/1/19.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const index_1 = __importDefault(require("discuz-api/lib/index"));
-const index_2 = __importDefault(require("phpwind-api/lib/index"));
-const bluebird_1 = __importDefault(require("bluebird"));
+const tslib_1 = require("tslib");
+const index_1 = (0, tslib_1.__importDefault)(require("discuz-api/lib/index"));
+const index_2 = (0, tslib_1.__importDefault)(require("phpwind-api/lib/index"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const dotenv_1 = require("dotenv");
 const util_1 = require("@node-novel/cached-masiro/script/util");
 const index_3 = require("@node-novel/site-cache-util/lib/index");
-exports.default = index_3.lazyRun(async () => {
-    await bluebird_1.default.resolve().tap(e => dotenv_1.config()).catch(e => null);
+exports.default = (0, index_3.lazyRun)(async () => {
+    await bluebird_1.default.resolve().tap(e => (0, dotenv_1.config)()).catch(e => null);
     //consoleDebug.info(`執行 discuz 模組`);
     await bluebird_1.default.resolve(process.env.MY_HASHED_JSON)
         .then((envValue) => {

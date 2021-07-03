@@ -8,13 +8,13 @@ const free_gc_1 = require("free-gc");
 async function setupCacheFile(options) {
     const { saveCacheFileBySelf, cacheFile, store } = options || {};
     const now = Date.now() + 3600;
-    await fs_extra_1.readJSON(cacheFile)
+    await (0, fs_extra_1.readJSON)(cacheFile)
         .catch(e => {
         return {};
     })
         .then(async (json) => {
         let len = await store.length();
-        await index_1.importCache(store, json, {
+        await (0, index_1.importCache)(store, json, {
             importFilter(k, v) {
                 return v;
             }
@@ -22,20 +22,20 @@ async function setupCacheFile(options) {
         let len2 = await store.length();
         debug_1.consoleDebug.log(`before: ${len}`, `after: ${len2}`);
     });
-    free_gc_1.freeGC();
+    (0, free_gc_1.freeGC)();
     function saveCache() {
-        return index_1.exportCache(store, (json) => {
-            free_gc_1.freeGC();
-            fs_extra_1.outputJSONSync(cacheFile, json, {
+        return (0, index_1.exportCache)(store, (json) => {
+            (0, free_gc_1.freeGC)();
+            (0, fs_extra_1.outputJSONSync)(cacheFile, json, {
                 spaces: 2,
             });
-            free_gc_1.freeGC();
+            (0, free_gc_1.freeGC)();
             debug_1.consoleDebug.debug(`[Cache]`, Object.keys(json).length, `saved`, cacheFile);
         });
     }
     saveCache.store = store;
     if (!saveCacheFileBySelf) {
-        await index_1.processExitHook(() => {
+        await (0, index_1.processExitHook)(() => {
             debug_1.consoleDebug.debug(`processExitHook`);
             return saveCache();
         });

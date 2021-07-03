@@ -1,12 +1,10 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.fetchCache = void 0;
+const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
-const cross_fetch_1 = __importDefault(require("cross-fetch"));
-const bluebird_1 = __importDefault(require("bluebird"));
+const cross_fetch_1 = (0, tslib_1.__importDefault)(require("cross-fetch"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 function fetchCache(url, file) {
     return bluebird_1.default.resolve()
         .then(e => {
@@ -21,7 +19,7 @@ function fetchCache(url, file) {
         })
         then(r => r.data)
          */
-        return cross_fetch_1.default(url, {
+        return (0, cross_fetch_1.default)(url, {
             // @ts-ignore
             timeout: 1000,
         })
@@ -34,7 +32,7 @@ function fetchCache(url, file) {
     })
         .timeout(5 * 1000)
         .then(async (data) => {
-        await fs_extra_1.outputJSON(file, data, {
+        await (0, fs_extra_1.outputJSON)(file, data, {
             spaces: 0,
         });
         return data;

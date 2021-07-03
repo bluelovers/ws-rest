@@ -1,41 +1,20 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
-    return result;
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
 const util_1 = require("../util");
-const fs_extra_1 = __importStar(require("fs-extra"));
-const bluebird_1 = __importDefault(require("bluebird"));
+const fs_extra_1 = (0, tslib_1.__importStar)(require("fs-extra"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const moment_1 = require("@node-novel/site-cache-util/lib/moment");
-const upath2_1 = __importDefault(require("upath2"));
-const files_1 = __importStar(require("../util/files"));
+const upath2_1 = (0, tslib_1.__importDefault)(require("upath2"));
+const files_1 = (0, tslib_1.__importStar)(require("../util/files"));
 const lib_1 = require("@bluelovers/axios-util/lib");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 const file = files_1.default.recentUpdate;
 const file1 = files_1.default.task001;
-exports.default = index_1.lazyRun(async () => {
-    const { api, saveCache } = await util_1.getApiClient();
+exports.default = (0, index_1.lazyRun)(async () => {
+    const { api, saveCache } = await (0, util_1.getApiClient)();
     api.cookiesRemoveTrack();
-    let listCache = await fs_extra_1.readJSON(file1)
+    let listCache = await (0, fs_extra_1.readJSON)(file1)
         .catch(e => ({}));
     let novelList = await fs_extra_1.default.readJSON(file);
     let index = 1;
@@ -45,10 +24,10 @@ exports.default = index_1.lazyRun(async () => {
         .mapSeries(async (row) => {
         let { id, last_update_time } = row;
         if (listCache[id] == null) {
-            let _file = files_1.cacheFileInfoPath(id);
+            let _file = (0, files_1.cacheFileInfoPath)(id);
             return api.bookInfo(id)
                 .tap(async (data) => {
-                let old = await fs_extra_1.readJSON(_file).catch(e => null);
+                let old = await (0, fs_extra_1.readJSON)(_file).catch(e => null);
                 if (!data.last_update_time && data.name === '' && (old === null || old === void 0 ? void 0 : old.name)) {
                     // 保留被刪除的書籍資料
                     data = old;
@@ -72,7 +51,7 @@ exports.default = index_1.lazyRun(async () => {
                 .tap(async function (r) {
                 if (boolCache != false) {
                     // @ts-ignore
-                    boolCache = lib_1.isResponseFromAxiosCache(this.$response);
+                    boolCache = (0, lib_1.isResponseFromAxiosCache)(this.$response);
                 }
                 if (!boolCache) {
                     if ((index % 10) == 0) {

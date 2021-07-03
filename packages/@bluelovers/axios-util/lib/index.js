@@ -1,12 +1,10 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getAxiosErrorResponseData = exports.getResponseRedirects = exports.getResponseUrl = exports.isResponseFromAxiosCache = exports.isAxiosError = exports.isAxiosStatic = exports.dotValue = void 0;
-const get_value_1 = __importDefault(require("get-value"));
+const tslib_1 = require("tslib");
+const get_value_1 = (0, tslib_1.__importDefault)(require("get-value"));
 function dotValue(...argv) {
-    return get_value_1.default(...argv);
+    return (0, get_value_1.default)(...argv);
 }
 exports.dotValue = dotValue;
 function isAxiosStatic(axios) {

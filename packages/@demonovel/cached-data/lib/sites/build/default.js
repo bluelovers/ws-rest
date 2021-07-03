@@ -15,14 +15,14 @@ function buildDefault(siteID, id, data) {
     item.authors = [data.authors];
     item.content = data.desc || data.introduction;
     item.tags = data.types;
-    item.updated = data.last_update_time && moment_1.createMomentBySeconds(data.last_update_time).valueOf() || 0;
+    item.updated = data.last_update_time && (0, moment_1.createMomentBySeconds)(data.last_update_time).valueOf() || 0;
     item.cover = data.cover;
-    item.last_update_name = util_1.newTitle(data.last_update_chapter_name, data.last_update_volume_name);
+    item.last_update_name = (0, util_1.newTitle)(data.last_update_chapter_name, data.last_update_volume_name);
     item.chapters_num = data.chapters && data.chapters.reduce((i, v) => {
         i += v.chapters.length;
         return i;
     }, 0);
-    return util_1.newEntry(siteID, item);
+    return (0, util_1.newEntry)(siteID, item);
 }
 exports.buildDefault = buildDefault;
 exports.default = buildDefault;

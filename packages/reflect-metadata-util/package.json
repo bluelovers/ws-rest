@@ -21,7 +21,8 @@
     "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
-    "reflect-metadata": "*"
+    "reflect-metadata": "*",
+    "tslib": "^2.3.0"
   },
   "peerDependencies": {
     "reflect-metadata": "*"

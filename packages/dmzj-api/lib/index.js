@@ -1,30 +1,16 @@
 "use strict";
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DmzjClient = void 0;
+const tslib_1 = require("tslib");
 const lib_1 = require("restful-decorator/lib");
 const decorators_1 = require("restful-decorator/lib/decorators");
 const cookies_1 = require("restful-decorator/lib/decorators/config/cookies");
-const bluebird_1 = __importDefault(require("bluebird"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const util_1 = require("./util");
 const array_hyper_unique_1 = require("array-hyper-unique");
-const debug_1 = __importDefault(require("restful-decorator/lib/util/debug"));
+const debug_1 = (0, tslib_1.__importDefault)(require("restful-decorator/lib/util/debug"));
 const symbol_1 = require("restful-decorator/lib/helper/symbol");
-const subobject_1 = __importDefault(require("restful-decorator/lib/helper/subobject"));
+const subobject_1 = (0, tslib_1.__importDefault)(require("restful-decorator/lib/helper/subobject"));
 /**
  * https://gist.github.com/bluelovers/5e9bfeecdbff431c62d5b50e7bdc3e48
  * https://github.com/guuguo/flutter_dmzj/blob/master/lib/api.dart
@@ -60,7 +46,7 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
      * 以 cookies 來登入
      */
     loginByCookies(cookies_data) {
-        const jar = cookies_1.getCookieJar(this);
+        const jar = (0, cookies_1.getCookieJar)(this);
         jar.setData(cookies_data || {});
         //consoleDebug.dir(jar);
         return bluebird_1.default.resolve(this);
@@ -188,7 +174,7 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
                 last = cur_ids;
                 i++;
             }
-            return array_hyper_unique_1.array_unique(list);
+            return (0, array_hyper_unique_1.array_unique)(list);
         })
             .then(list => {
             let last_update_time = list.reduce((a, b) => {
@@ -238,7 +224,7 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
      * 取得小說資料的同時一起取得章節列表
      */
     _novelInfoWithChapters(novel_id) {
-        let selfTop = subobject_1.default({}, this);
+        let selfTop = (0, subobject_1.default)({}, this);
         let self = selfTop;
         return bluebird_1.default.props({
             info: this.novelInfo(novel_id),
@@ -329,181 +315,183 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
         return;
     }
 };
-__decorate([
-    decorators_1.POST('https://user.dmzj.com/loginV2/m_confirm'),
-    decorators_1.methodBuilder(),
+(0, tslib_1.__decorate)([
+    (0, decorators_1.POST)('https://user.dmzj.com/loginV2/m_confirm'),
+    (0, decorators_1.methodBuilder)(),
     decorators_1.FormUrlencoded,
-    __param(0, decorators_1.ParamData('nickname')),
-    __param(1, decorators_1.ParamData('passwd')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, String]),
-    __metadata("design:returntype", Object)
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamData)('nickname')),
+    (0, tslib_1.__param)(1, (0, decorators_1.ParamData)('passwd')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [String, String]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "loginConfirm", null);
-__decorate([
-    decorators_1.POST('https://i.dmzj.com/subscribe'),
-    decorators_1.Headers({
+(0, tslib_1.__decorate)([
+    (0, decorators_1.POST)('https://i.dmzj.com/subscribe'),
+    (0, decorators_1.Headers)({
         Referer: 'https://i.dmzj.com/subscribe',
     }),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamMapData({
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapData)({
         page: 1,
         type_id: 4 /* NOVEL */,
         letter_id: 0,
         read_id: 1,
     })),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Object)
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "webSubscribe", null);
-__decorate([
-    decorators_1.GET('article/recommend/header.json'),
-    decorators_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('article/recommend/header.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "articleRecommendHeader", null);
-__decorate([
-    decorators_1.GET('article/category.json'),
-    decorators_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('article/category.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "articleCategory", null);
-__decorate([
-    decorators_1.GET('article/list/v2/{tag_id}/2/{page}.json'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('tag_id')), __param(1, decorators_1.ParamPath('page', 0)),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, Number]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('article/list/v2/{tag_id}/2/{page}.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('tag_id')),
+    (0, tslib_1.__param)(1, (0, decorators_1.ParamPath)('page', 0)),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number, Number]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "articleList", null);
-__decorate([
-    decorators_1.GET('article/show/v2/{object_id}.html'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('object_id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('article/show/v2/{object_id}.html'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('object_id')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "articleShow", null);
-__decorate([
-    decorators_1.GET('novel/recommend.json'),
-    decorators_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('novel/recommend.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "novelRecommend", null);
-__decorate([
-    decorators_1.GET('novel/recentUpdate/{page}.json'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('page', 0)),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, Number]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('novel/recentUpdate/{page}.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('page', 0)),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number, Number]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "_novelRecentUpdate", null);
-__decorate([
-    decorators_1.GET('novel/{novel_id}.json'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('novel_id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('novel/{novel_id}.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "_novelInfo", null);
-__decorate([
-    decorators_1.GET('novel/chapter/{novel_id}.json'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('novel_id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('novel/chapter/{novel_id}.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "novelChapter", null);
-__decorate([
-    decorators_1.GET('novel/download/{id}_{volume_id}_{chapter_id}.txt'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('id')),
-    __param(1, decorators_1.ParamPath('volume_id')),
-    __param(2, decorators_1.ParamPath('chapter_id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, Number, Number]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('novel/download/{id}_{volume_id}_{chapter_id}.txt'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('id')),
+    (0, tslib_1.__param)(1, (0, decorators_1.ParamPath)('volume_id')),
+    (0, tslib_1.__param)(2, (0, decorators_1.ParamPath)('chapter_id')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number, Number, Number]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "novelDownload", null);
-__decorate([
-    decorators_1.GET('1/category.json'),
-    decorators_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('1/category.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "novelCategory", null);
-__decorate([
-    decorators_1.GET('novel/filter.json'),
-    decorators_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('novel/filter.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "novelFilter", null);
-__decorate([
-    decorators_1.GET('novel/{cat_id}/{status_id}/{order_id}/{page}.json'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('cat_id')),
-    __param(1, decorators_1.ParamPath('status_id')),
-    __param(2, decorators_1.ParamPath('order_id')),
-    __param(3, decorators_1.ParamPath('page', 0)),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, Number, Number, Number]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('novel/{cat_id}/{status_id}/{order_id}/{page}.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('cat_id')),
+    (0, tslib_1.__param)(1, (0, decorators_1.ParamPath)('status_id')),
+    (0, tslib_1.__param)(2, (0, decorators_1.ParamPath)('order_id')),
+    (0, tslib_1.__param)(3, (0, decorators_1.ParamPath)('page', 0)),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number, Number, Number, Number]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "novelList", null);
-__decorate([
-    decorators_1.GET('search/show/{big_cat_id}/{keywords}/{page}.json'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('big_cat_id')),
-    __param(1, decorators_1.ParamPath('keywords')),
-    __param(2, decorators_1.ParamPath('page', 0)),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, String, Number]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('search/show/{big_cat_id}/{keywords}/{page}.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('big_cat_id')),
+    (0, tslib_1.__param)(1, (0, decorators_1.ParamPath)('keywords')),
+    (0, tslib_1.__param)(2, (0, decorators_1.ParamPath)('page', 0)),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number, String, Number]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "searchShow", null);
-__decorate([
-    decorators_1.GET('v3/recommend.json'),
-    decorators_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('v3/recommend.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "comicRecommend", null);
-__decorate([
-    decorators_1.GET('comic/{comic_id}.json'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('comic_id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('comic/{comic_id}.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('comic_id')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "comicDetail", null);
-__decorate([
-    decorators_1.GET('chapter/{comic_id}/{chapter_id}.json'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('comic_id')), __param(1, decorators_1.ParamPath('chapter_id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, Number]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('chapter/{comic_id}/{chapter_id}.json'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('comic_id')),
+    (0, tslib_1.__param)(1, (0, decorators_1.ParamPath)('chapter_id')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number, Number]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "comicContent", null);
-__decorate([
-    decorators_1.POST('device/building'),
-    decorators_1.methodBuilder(),
-    decorators_1.BodyData({
-        device: util_1.buildVersion().channel,
+(0, tslib_1.__decorate)([
+    (0, decorators_1.POST)('device/building'),
+    (0, decorators_1.methodBuilder)(),
+    (0, decorators_1.BodyData)({
+        device: (0, util_1.buildVersion)().channel,
     }),
-    __param(0, decorators_1.ParamMapData({
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapData)({
         user_id: 1,
         channel_id: 2,
     })),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Object)
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "deviceBuilding", null);
-DmzjClient = __decorate([
-    decorators_1.BaseUrl('http://nnv3api.dmzj1.com'),
-    decorators_1.Headers({
+DmzjClient = (0, tslib_1.__decorate)([
+    (0, decorators_1.BaseUrl)('http://nnv3api.dmzj1.com'),
+    (0, decorators_1.Headers)({
         Referer: 'http://www.dmzj.com/',
     }),
-    decorators_1.TransformResponse((data) => {
+    (0, decorators_1.TransformResponse)((data) => {
         if (typeof data === 'string') {
             try {
                 return JSON.parse(data);
@@ -518,18 +506,18 @@ DmzjClient = __decorate([
         }
         return data;
     }),
-    decorators_1.RequestConfigs({
+    (0, decorators_1.RequestConfigs)({
         responseType: 'json',
         //	data: {
         //		...buildVersion(),
         //	},
     }),
-    decorators_1.CacheRequest({
+    (0, decorators_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
         },
     }),
-    __metadata("design:paramtypes", [Object])
+    (0, tslib_1.__metadata)("design:paramtypes", [Object])
 ], DmzjClient);
 exports.DmzjClient = DmzjClient;
 exports.default = DmzjClient;

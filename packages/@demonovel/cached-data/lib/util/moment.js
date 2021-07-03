@@ -1,17 +1,15 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createMomentBySeconds = exports.createMomentByMilliseconds = exports._process = void 0;
-const moment_timezone_1 = __importDefault(require("moment-timezone"));
+const tslib_1 = require("tslib");
+const moment_timezone_1 = (0, tslib_1.__importDefault)(require("moment-timezone"));
 function _process(moment) {
     return moment
         .utcOffset(8);
 }
 exports._process = _process;
 function createMomentByMilliseconds(milliseconds) {
-    return _process(moment_timezone_1.default(milliseconds));
+    return _process((0, moment_timezone_1.default)(milliseconds));
 }
 exports.createMomentByMilliseconds = createMomentByMilliseconds;
 function createMomentBySeconds(unix) {

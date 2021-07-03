@@ -2,12 +2,10 @@
 /**
  * Created by user on 2019/6/10.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.expand = exports.parseRouterVars = void 0;
-const execall2_1 = __importDefault(require("execall2"));
+const tslib_1 = require("tslib");
+const execall2_1 = (0, tslib_1.__importDefault)(require("execall2"));
 // @ts-ignore
 const uri_template_lite_1 = require("uri-template-lite");
 /**
@@ -15,7 +13,7 @@ const uri_template_lite_1 = require("uri-template-lite");
  */
 const expandRe = /\{([#&+.\/;?]?)((?:[\w%.]+(\*|:\d+)?,?)+)\}/g;
 function parseRouterVars(url) {
-    return execall2_1.default(expandRe, url)
+    return (0, execall2_1.default)(expandRe, url)
         .map((row) => {
         return row.sub[1];
     });

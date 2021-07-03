@@ -25,14 +25,15 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@bluelovers/array-buffer-to-string": "^1.0.13",
+    "@bluelovers/array-buffer-to-string": "^1.0.17",
     "array-hyper-unique": "^1.1.9",
     "bluebird": "^3.7.2",
-    "dot-values2": "^2.0.3",
+    "dot-values2": "^2.0.5",
     "jsdom-extra": "^3.0.7",
     "lazy-url": "^1.0.10",
     "restful-decorator": "^1.0.53",
-    "restful-decorator-plugin-jsdom": "^1.0.33"
+    "restful-decorator-plugin-jsdom": "^1.0.33",
+    "tslib": "^2.3.0"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"
 }

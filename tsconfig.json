@@ -6,6 +6,8 @@
     "emitDeclarationOnly": false,
     "noImplicitAny": true,
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "noImplicitOverride": false
   }
 }

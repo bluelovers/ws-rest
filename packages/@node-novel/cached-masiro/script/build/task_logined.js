@@ -5,8 +5,8 @@ const index_1 = require("@node-novel/site-cache-util/lib/index");
 /**
  * Created by user on 2019/12/16.
  */
-exports.default = index_1.lazyRun(async () => {
-    const { api, saveCache } = await util_1.getApiClient();
+exports.default = (0, index_1.lazyRun)(async () => {
+    const { api, saveCache } = await (0, util_1.getApiClient)();
     if (!await api.hasCookiesAuth()) {
         return;
     }

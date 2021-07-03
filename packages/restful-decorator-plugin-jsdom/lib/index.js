@@ -1,46 +1,16 @@
 "use strict";
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
-    return result;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AbstractHttpClientWithJSDom = void 0;
+const tslib_1 = require("tslib");
 const lib_1 = require("restful-decorator/lib");
 const pack_1 = require("jsdom-extra/lib/pack");
-const lib_2 = __importStar(require("@bluelovers/axios-util/lib"));
+const lib_2 = (0, tslib_1.__importStar)(require("@bluelovers/axios-util/lib"));
 const tough_cookie_1 = require("tough-cookie");
 const jsdom_extra_1 = require("jsdom-extra");
 const buffer_1 = require("buffer");
 const utf8_1 = require("./util/utf8");
 const decorators_1 = require("restful-decorator/lib/decorators");
-const bluebird_1 = __importDefault(require("bluebird"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const jsdom_1 = require("./decorators/jsdom");
 let AbstractHttpClientWithJSDom = class AbstractHttpClientWithJSDom extends lib_1.AbstractHttpClient {
     constructor(...argv) {
@@ -64,21 +34,21 @@ let AbstractHttpClientWithJSDom = class AbstractHttpClientWithJSDom extends lib_
         return this;
     }
     _iconvDecode(buf) {
-        return utf8_1.iconvDecode(buf);
+        return (0, utf8_1.iconvDecode)(buf);
     }
     _decodeBuffer(buf) {
         return this._iconvDecode(buffer_1.Buffer.from(buf));
     }
     _createJSDOM(html, config) {
         if (config) {
-            return jsdom_extra_1.createJSDOM(html, config);
+            return (0, jsdom_extra_1.createJSDOM)(html, config);
         }
-        return jsdom_extra_1.createJSDOM(html);
+        return (0, jsdom_extra_1.createJSDOM)(html);
     }
     _responseDataToJSDOM(data, response, jsdomOptions) {
         const html = this._decodeBuffer(data);
         if (response) {
-            let $responseUrl = lib_2.getResponseUrl(response);
+            let $responseUrl = (0, lib_2.getResponseUrl)(response);
             if (!$responseUrl && response.config && response.config.url) {
                 $responseUrl = response.config.url.toString();
             }
@@ -97,8 +67,8 @@ let AbstractHttpClientWithJSDom = class AbstractHttpClientWithJSDom extends lib_
             }
         }
         jsdomOptions = {
-            userAgent: lib_2.default(response, 'config.headers.User-Agent'),
-            referrer: lib_2.default(response, 'config.headers.Referer'),
+            userAgent: (0, lib_2.default)(response, 'config.headers.User-Agent'),
+            referrer: (0, lib_2.default)(response, 'config.headers.Referer'),
             virtualConsole: this.virtualConsole,
             ...jsdomOptions,
         };
@@ -126,19 +96,19 @@ let AbstractHttpClientWithJSDom = class AbstractHttpClientWithJSDom extends lib_
         };
     }
 };
-__decorate([
-    decorators_1.GET('/cdn-cgi/trace'),
-    jsdom_1.ReturnValueToJSDOM(),
-    decorators_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Promise)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('/cdn-cgi/trace'),
+    (0, jsdom_1.ReturnValueToJSDOM)(),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Promise)
 ], AbstractHttpClientWithJSDom.prototype, "_plugin_cloudflare_trace", null);
-AbstractHttpClientWithJSDom = __decorate([
-    decorators_1.RequestConfigs({
+AbstractHttpClientWithJSDom = (0, tslib_1.__decorate)([
+    (0, decorators_1.RequestConfigs)({
         responseType: 'arraybuffer',
     }),
-    __metadata("design:paramtypes", [Object])
+    (0, tslib_1.__metadata)("design:paramtypes", [Object])
 ], AbstractHttpClientWithJSDom);
 exports.AbstractHttpClientWithJSDom = AbstractHttpClientWithJSDom;
 exports.default = AbstractHttpClientWithJSDom;

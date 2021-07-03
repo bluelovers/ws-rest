@@ -4,7 +4,7 @@ exports.ReturnValueToJSDOM = void 0;
 const hook_1 = require("restful-decorator/lib/decorators/hook");
 function ReturnValueToJSDOM(options) {
     return function ReturnValueToJSDOM(target, propertyName, descriptor) {
-        hook_1.setHookReturnValue(function () {
+        (0, hook_1.setHookReturnValue)(function () {
             return this.$returnValue = this._responseDataToJSDOM(this.$returnValue, this.$response, options);
         }, target, propertyName);
     };

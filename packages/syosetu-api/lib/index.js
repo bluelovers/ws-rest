@@ -1,22 +1,8 @@
 "use strict";
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SyosetuClient = void 0;
-const lib_1 = __importDefault(require("restful-decorator-plugin-jsdom/lib"));
+const tslib_1 = require("tslib");
+const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib"));
 const http_1 = require("restful-decorator/lib/decorators/http");
 const headers_1 = require("restful-decorator/lib/decorators/headers");
 const cache_1 = require("restful-decorator/lib/decorators/config/cache");
@@ -68,10 +54,10 @@ let SyosetuClient = class SyosetuClient extends lib_1.default {
             .then(data => {
             return {
                 ...data,
-                general_firstup: parseDate_1.parseDateStringToMoment(data.general_firstup).valueOf(),
-                general_lastup: parseDate_1.parseDateStringToMoment(data.general_lastup).valueOf(),
-                novelupdated_at: parseDate_1.parseDateStringToMoment(data.novelupdated_at).valueOf(),
-                updated_at: parseDate_1.parseDateStringToMoment(data.updated_at).valueOf(),
+                general_firstup: (0, parseDate_1.parseDateStringToMoment)(data.general_firstup).valueOf(),
+                general_lastup: (0, parseDate_1.parseDateStringToMoment)(data.general_lastup).valueOf(),
+                novelupdated_at: (0, parseDate_1.parseDateStringToMoment)(data.novelupdated_at).valueOf(),
+                updated_at: (0, parseDate_1.parseDateStringToMoment)(data.updated_at).valueOf(),
                 keyword: data.keyword.split(/\s+/),
                 novel18,
                 url: `https://${novel18 ? 'novel18' : 'ncode'}.syosetu.com/${data.ncode.toLowerCase()}/`,
@@ -85,19 +71,19 @@ let SyosetuClient = class SyosetuClient extends lib_1.default {
         return this._getWebNovelRaw(argv);
     }
 };
-__decorate([
-    method_1.GET(const_1.EnumSyosetuApiURL.novel),
-    config_1.RequestConfigs({
+(0, tslib_1.__decorate)([
+    (0, method_1.GET)(const_1.EnumSyosetuApiURL.novel),
+    (0, config_1.RequestConfigs)({
         responseType: 'json',
     }),
-    body_1.BodyData({
+    (0, body_1.BodyData)({
         libtype: 2,
         out: 'json',
         lim: 1,
     })
     // @ts-ignore
     ,
-    abstract_1.methodBuilder(function (info) {
+    (0, abstract_1.methodBuilder)(function (info) {
         const [, novel18] = info.argv;
         if (novel18) {
             info.requestConfig.url = const_1.EnumSyosetuApiURL.novel18;
@@ -106,31 +92,31 @@ __decorate([
     }, {
         autoRequest: true,
     }),
-    __param(0, body_1.ParamData('ncode')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, Boolean]),
-    __metadata("design:returntype", Promise)
+    (0, tslib_1.__param)(0, (0, body_1.ParamData)('ncode')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [String, Boolean]),
+    (0, tslib_1.__metadata)("design:returntype", Promise)
 ], SyosetuClient.prototype, "ncodeInfoRaw", null);
-__decorate([
-    jsdom_1.ReturnValueToJSDOM(),
-    abstract_1.methodBuilder(function (info) {
+(0, tslib_1.__decorate)([
+    (0, jsdom_1.ReturnValueToJSDOM)(),
+    (0, abstract_1.methodBuilder)(function (info) {
         const data = info.argv[0];
-        let href = parseUrl_1.buildLink(data);
+        let href = (0, parseUrl_1.buildLink)(data);
         info.requestConfig.url = href;
         return info;
     }, {
         autoRequest: true,
     }),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", void 0)
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", void 0)
 ], SyosetuClient.prototype, "_getWebNovelRaw", null);
-SyosetuClient = __decorate([
-    http_1.BaseUrl('https://api.syosetu.com/'),
-    headers_1.Headers({
+SyosetuClient = (0, tslib_1.__decorate)([
+    (0, http_1.BaseUrl)('https://api.syosetu.com/'),
+    (0, headers_1.Headers)({
         Referer: 'https://syosetu.com/',
     }),
-    cache_1.CacheRequest({
+    (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 12 * 60 * 60 * 1000,
         },

@@ -2,21 +2,19 @@
 /**
  * Created by user on 2019/7/7.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
-const bluebird_1 = __importDefault(require("bluebird"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const util_1 = require("../util");
 const array_hyper_unique_1 = require("array-hyper-unique");
-const files_1 = __importDefault(require("../util/files"));
+const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
 const fs_1 = require("@node-novel/site-cache-util/lib/fs");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 const lib_1 = require("@bluelovers/axios-util/lib");
-exports.default = index_1.lazyRun(async () => {
-    const { api, saveCache } = await util_1.getApiClient();
-    let listCache = await fs_extra_1.readJSON(files_1.default.task001)
+exports.default = (0, index_1.lazyRun)(async () => {
+    const { api, saveCache } = await (0, util_1.getApiClient)();
+    let listCache = await (0, fs_extra_1.readJSON)(files_1.default.task001)
         .catch(e => ({}));
     await _fn_forums([
         36,
@@ -41,7 +39,7 @@ exports.default = index_1.lazyRun(async () => {
             return b - a;
         });
         util_1.consoleDebug.debug(`[subforums]`, 'length:', fids.length);
-        await _fn_forums(array_hyper_unique_1.array_unique(fids))
+        await _fn_forums((0, array_hyper_unique_1.array_unique)(fids))
             .tap(async (ls2) => {
             ls.push(...ls2);
         });
@@ -55,7 +53,7 @@ exports.default = index_1.lazyRun(async () => {
                 fid,
             })
                 .finally(function () {
-                if (!lib_1.isResponseFromAxiosCache(this.$response)) {
+                if (!(0, lib_1.isResponseFromAxiosCache)(this.$response)) {
                     util_1.consoleDebug.debug(`[forum:fetch]`, fid);
                 }
             });
@@ -76,7 +74,7 @@ exports.default = index_1.lazyRun(async () => {
             return data;
         });
     }
-    await fs_1.outputJSONLazy(files_1.default.task001, listCache);
+    await (0, fs_1.outputJSONLazy)(files_1.default.task001, listCache);
 }, {
     pkgLabel: __filename
 });

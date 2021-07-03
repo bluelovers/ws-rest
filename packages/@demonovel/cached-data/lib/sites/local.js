@@ -1,21 +1,19 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.fetchFile = exports.fetch = void 0;
-const bluebird_1 = __importDefault(require("bluebird"));
+const tslib_1 = require("tslib");
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const util_1 = require("./util");
 const fs_extra_1 = require("fs-extra");
 function fetch(siteID) {
-    let { url, file, file2 } = util_1._handleOptions(siteID);
+    let { url, file, file2 } = (0, util_1._handleOptions)(siteID);
     return bluebird_1.default.resolve()
-        .then(v => fs_extra_1.copy(require.resolve(file2), file, {
+        .then(v => (0, fs_extra_1.copy)(require.resolve(file2), file, {
         dereference: true,
         overwrite: true,
         preserveTimestamps: true,
     }))
-        .then(v => fs_extra_1.readJSON(file));
+        .then(v => (0, fs_extra_1.readJSON)(file));
 }
 exports.fetch = fetch;
 function fetchFile(siteID, force) {

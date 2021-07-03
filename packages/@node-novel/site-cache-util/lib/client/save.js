@@ -8,17 +8,17 @@ const axios_cache_adapter_util_1 = require("axios-cache-adapter-util");
 async function _setupCacheFile(opts) {
     const { api, saveCacheFileBySelf, __path } = opts;
     const { cacheFilePaths } = __path;
-    const store = cache_1.getAxiosCacheAdapter(api).store;
+    const store = (0, cache_1.getAxiosCacheAdapter)(api).store;
     const cacheFile = cacheFilePaths.axiosCacheFile;
     const now = Date.now() + 3600;
-    await fs_extra_1.readJSON(cacheFile)
+    await (0, fs_extra_1.readJSON)(cacheFile)
         .catch(e => {
         return {};
     })
         .then(async (json) => {
         let len = await store.length();
         index_1.consoleDebug.debug(__path.relative(cacheFile), 'length:', Object.keys(json).length);
-        await axios_cache_adapter_util_1.importCache(store, json, {
+        await (0, axios_cache_adapter_util_1.importCache)(store, json, {
             importFilter(k, v) {
                 if (now >= v.expires) {
                     //v.expires = now;
@@ -45,12 +45,12 @@ async function _setupCacheFile(opts) {
             // @ts-ignore
             let json = api._serialize();
             //consoleDebug.dir(json);
-            fs_extra_1.outputJSONSync(cacheFilePaths.cookiesCacheFile, json, {
+            (0, fs_extra_1.outputJSONSync)(cacheFilePaths.cookiesCacheFile, json, {
                 spaces: 2,
             });
         }
-        return axios_cache_adapter_util_1.exportCache(store, (json) => {
-            fs_extra_1.outputJSONSync(cacheFile, json, {
+        return (0, axios_cache_adapter_util_1.exportCache)(store, (json) => {
+            (0, fs_extra_1.outputJSONSync)(cacheFile, json, {
             //spaces: 2,
             });
             let len2 = Object.keys(json).length;
@@ -59,7 +59,7 @@ async function _setupCacheFile(opts) {
         });
     }
     if (!saveCacheFileBySelf) {
-        await axios_cache_adapter_util_1.processExitHook(() => {
+        await (0, axios_cache_adapter_util_1.processExitHook)(() => {
             index_1.console.magenta.success(`processExitHook`);
             return saveCache();
         });

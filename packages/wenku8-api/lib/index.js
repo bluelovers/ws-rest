@@ -1,31 +1,17 @@
 "use strict";
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Wenku8Client = void 0;
-const lib_1 = __importDefault(require("restful-decorator-plugin-jsdom/lib"));
+const tslib_1 = require("tslib");
+const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib"));
 const decorators_1 = require("restful-decorator/lib/decorators");
-const bluebird_1 = __importDefault(require("bluebird"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const util_1 = require("./util");
 const gbk_1 = require("restful-decorator-plugin-jsdom/lib/util/gbk");
-const moment_1 = __importDefault(require("moment"));
+const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
 const urlEncodeGBK_1 = require("./util/urlEncodeGBK");
-const subobject_1 = __importDefault(require("restful-decorator/lib/helper/subobject"));
-const uniqBy_1 = __importDefault(require("lodash/uniqBy"));
-const html_1 = __importDefault(require("restful-decorator-plugin-jsdom/lib/html"));
+const subobject_1 = (0, tslib_1.__importDefault)(require("restful-decorator/lib/helper/subobject"));
+const uniqBy_1 = (0, tslib_1.__importDefault)(require("lodash/uniqBy"));
+const html_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib/html"));
 /**
  * https://www.wenku8.net/index.php
  */
@@ -67,7 +53,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
             let cover = _a.find('> img:eq(0)')
                 .prop('src');
             let title = _a.prop('tiptitle') || _a.prop('title');
-            title = util_1.trimUnsafe(title);
+            title = (0, util_1.trimUnsafe)(title);
             let _a2 = _this
                 .find('a[href*="/novel/"]:eq(0)');
             let cid;
@@ -79,7 +65,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
                     cid = _m[1];
                     nid = _m[2];
                 }
-                last_update_chapter_name = util_1.trimUnsafe(_a2.text());
+                last_update_chapter_name = (0, util_1.trimUnsafe)(_a2.text());
             }
             else {
                 _a2 = _this
@@ -93,20 +79,20 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
             let _m = _text.match(/(\d+\-\d+\-\d+)/);
             let last_update_time;
             if (_m) {
-                last_update_time = moment_1.default(_m[1]).unix();
+                last_update_time = (0, moment_1.default)(_m[1]).unix();
                 lastUpdateTime = Math.max(lastUpdateTime, last_update_time);
             }
             let authors;
             if (_m = _text.match(/作者\:([^\n]+)\/分/)) {
-                authors = util_1.trimUnsafe(_m[1]);
+                authors = (0, util_1.trimUnsafe)(_m[1]);
             }
             let status;
             if (_m = _text.match(/\/(?:状|狀)(?:态|態):([^\n\s]+)/)) {
-                status = util_1.trimUnsafe(_m[1]);
+                status = (0, util_1.trimUnsafe)(_m[1]);
             }
             let publisher;
             if (_m = _text.match(/分(?:类|類)\:([^\n]+)\/(?:状|狀)/)) {
-                publisher = util_1.trimUnsafe(_m[1]);
+                publisher = (0, util_1.trimUnsafe)(_m[1]);
             }
             ret.data.push({
                 id: nid,
@@ -172,7 +158,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
                 from,
                 to,
                 last_update_time,
-                data: uniqBy_1.default(data, 'id'),
+                data: (0, uniqBy_1.default)(data, 'id'),
             };
         });
     }
@@ -213,29 +199,29 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
             "last_update_chapter_name": undefined,
             desc: undefined,
         });
-        data.name = util_1.trimUnsafe($('#content table:eq(0) table:eq(0) td > span > b').text());
+        data.name = (0, util_1.trimUnsafe)($('#content table:eq(0) table:eq(0) td > span > b').text());
         $('#content table:eq(0) tr:not(table) td')
             .each(function (i, elem) {
             let _this = $(this);
-            let _text = util_1.trimUnsafe(_this.text());
+            let _text = (0, util_1.trimUnsafe)(_this.text());
             let _m = _text.match(/分(?:类|類)：([^\n]+)/);
             if (_m) {
-                data.publisher = util_1.trimUnsafe(_m[1]);
+                data.publisher = (0, util_1.trimUnsafe)(_m[1]);
             }
             else if (_m = _text.match(/作者：([^\n]+)/)) {
-                data.authors = util_1.trimUnsafe(_m[1]);
+                data.authors = (0, util_1.trimUnsafe)(_m[1]);
             }
             else if (_m = _text.match(/(?:状|狀)(?:态|態)：([^\n]+)/)) {
-                data.status = util_1.trimUnsafe(_m[1]);
+                data.status = (0, util_1.trimUnsafe)(_m[1]);
             }
             else if (_m = _text.match(/更新：(\d+\-\d+\-\d+)/)) {
-                let last_update_time = moment_1.default(_m[1]).unix();
+                let last_update_time = (0, moment_1.default)(_m[1]).unix();
                 data.last_update_time = last_update_time;
             }
         });
         let _content = $('#content > div > table:eq(1)');
         try {
-            html_1.default(_content.html(), (html) => {
+            (0, html_1.default)(_content.html(), (html) => {
                 _content.html(html);
             });
         }
@@ -246,7 +232,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
             data.copyright_remove = true;
         }
         data.cover = _content.find('img:eq(0)').prop('src');
-        data.desc = util_1.trimUnsafe(_content.find('.hottext + br + span:eq(-1)').text() || '');
+        data.desc = (0, util_1.trimUnsafe)(_content.find('.hottext + br + span:eq(-1)').text() || '');
         let _a2 = _content
             .find('a[href*="/novel/"]:eq(0)');
         if (_a2.length) {
@@ -255,7 +241,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
             if (_m) {
                 data.cid = _m[1];
             }
-            data.last_update_chapter_name = util_1.trimUnsafe(_a2.text());
+            data.last_update_chapter_name = (0, util_1.trimUnsafe)(_a2.text());
         }
         if (data.cid == null) {
             _a2 = $('#content > div > div > div a[href*="/novel/"]:eq(0)');
@@ -277,8 +263,8 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
         const $ = jsdom.$;
         novel_id = novel_id.toString();
         cid = cid.toString();
-        let name = util_1.trimUnsafe($('body > #title').text());
-        let authors = util_1.trimUnsafe($('#info').text().replace(/^[^：]+：/g, ''));
+        let name = (0, util_1.trimUnsafe)($('body > #title').text());
+        let authors = (0, util_1.trimUnsafe)($('#info').text().replace(/^[^：]+：/g, ''));
         let data = {
             id: novel_id,
             cid,
@@ -294,7 +280,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
             let _this = $(elem);
             if (_this.is('.vcss')) {
                 volume_order++;
-                let volume_name = util_1.trimUnsafe(_this.text());
+                let volume_name = (0, util_1.trimUnsafe)(_this.text());
                 data.chapters[volume_order] = {
                     volume_name,
                     volume_order,
@@ -314,7 +300,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
                         novel_id: novel_id,
                         cid: cid,
                         chapter_id: _m[3],
-                        chapter_name: util_1.trimUnsafe(_a.text()),
+                        chapter_name: (0, util_1.trimUnsafe)(_a.text()),
                         chapter_order,
                     });
                 }
@@ -340,7 +326,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
         return this;
     }
     _encodeURIComponent(text) {
-        return urlEncodeGBK_1.encodeURIComponent(text);
+        return (0, urlEncodeGBK_1.encodeURIComponent)(text);
     }
     //@POST('so.php')
     search(searchData) {
@@ -353,7 +339,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
         return bluebird_1.default
             .resolve(this.$http($requestConfig))
             .then(v => {
-            return this._handleArticleList(subobject_1.default({
+            return this._handleArticleList((0, subobject_1.default)({
                 $requestConfig,
                 $returnValue: v.data,
                 $response: v.request,
@@ -391,7 +377,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
         $content.find('#contentdp').remove();
         $content.find('#contentdp').remove();
         $content.find('#contentdp').remove();
-        $content.html(html_1.default($content.html()).replace(/^(&nbsp;){4}/gm, ''));
+        $content.html((0, html_1.default)($content.html()).replace(/^(&nbsp;){4}/gm, ''));
         let imgs = [];
         const { cb } = options;
         let html;
@@ -425,110 +411,112 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
         };
     }
     _iconvDecode(buf) {
-        return gbk_1.iconvDecode(buf);
+        return (0, gbk_1.iconvDecode)(buf);
     }
 };
-__decorate([
-    decorators_1.POST('login.php?do=submit&action=login'),
+(0, tslib_1.__decorate)([
+    (0, decorators_1.POST)('login.php?do=submit&action=login'),
     decorators_1.FormUrlencoded,
-    decorators_1.CacheRequest({
+    (0, decorators_1.CacheRequest)({
         cache: {
             maxAge: 0,
         },
     }),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamMapAuto({
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
         action: 'login',
         usecookie: 315360000,
         submit: true,
     })),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Object)
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], Wenku8Client.prototype, "loginByForm", null);
-__decorate([
-    decorators_1.GET('modules/article/toplist.php'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamQuery('page', 1)),
-    __param(1, decorators_1.ParamQuery('sort', 'lastupdate')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, String]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('modules/article/toplist.php'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamQuery)('page', 1)),
+    (0, tslib_1.__param)(1, (0, decorators_1.ParamQuery)('sort', 'lastupdate')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number, String]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], Wenku8Client.prototype, "articleToplist", null);
-__decorate([
-    decorators_1.GET('modules/article/articlelist.php'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamQuery('page', 1)), __param(1, decorators_1.ParamQuery('fullflag')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, Number]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('modules/article/articlelist.php'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamQuery)('page', 1)),
+    (0, tslib_1.__param)(1, (0, decorators_1.ParamQuery)('fullflag')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number, Number]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], Wenku8Client.prototype, "articleList", null);
-__decorate([
-    decorators_1.GET('index.php'),
-    decorators_1.CacheRequest({
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('index.php'),
+    (0, decorators_1.CacheRequest)({
         cache: {
             maxAge: 0,
         },
     }),
-    decorators_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], Wenku8Client.prototype, "isLogin", null);
-__decorate([
-    decorators_1.GET('modules/article/articleinfo.php?id={novel_id}&charset=gbk'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('novel_id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('modules/article/articleinfo.php?id={novel_id}&charset=gbk'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], Wenku8Client.prototype, "bookInfo", null);
-__decorate([
-    decorators_1.GET('novel/{cid}/{novel_id}/index.htm'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('novel_id')), __param(1, decorators_1.ParamPath('cid')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('novel/{cid}/{novel_id}/index.htm'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
+    (0, tslib_1.__param)(1, (0, decorators_1.ParamPath)('cid')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], Wenku8Client.prototype, "bookChapters", null);
-__decorate([
-    __param(0, decorators_1.ParamPath('novel_id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", void 0)
+(0, tslib_1.__decorate)([
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", void 0)
 ], Wenku8Client.prototype, "bookInfoWithChapters", null);
-__decorate([
-    decorators_1.GET('modules/article/search.php?searchtype={searchtype}&searchkey={searchkey}&page={page}'),
-    decorators_1.CacheRequest({
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('modules/article/search.php?searchtype={searchtype}&searchkey={searchkey}&page={page}'),
+    (0, decorators_1.CacheRequest)({
         cache: {
             maxAge: 0,
         },
     }),
-    decorators_1.methodBuilder({
+    (0, decorators_1.methodBuilder)({
         autoRequest: false,
     }),
-    __param(0, decorators_1.ParamMapAuto({
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
         searchtype: 'articlename',
         page: 1,
     })),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Object)
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], Wenku8Client.prototype, "search", null);
-__decorate([
-    decorators_1.GET('https://www.wenku8.net/novel/{cid}/{novel_id}/{chapter_id}.htm'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamMapAuto()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('https://www.wenku8.net/novel/{cid}/{novel_id}/{chapter_id}.htm'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], Wenku8Client.prototype, "getChapter", null);
-Wenku8Client = __decorate([
-    decorators_1.BaseUrl('https://www.wenku8.net'),
-    decorators_1.Headers({
+Wenku8Client = (0, tslib_1.__decorate)([
+    (0, decorators_1.BaseUrl)('https://www.wenku8.net'),
+    (0, decorators_1.Headers)({
         Referer: 'https://www.wenku8.net/index.php',
     }),
-    decorators_1.CacheRequest({
+    (0, decorators_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
         },

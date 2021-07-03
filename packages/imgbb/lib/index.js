@@ -1,24 +1,10 @@
 "use strict";
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ImgBB = void 0;
+const tslib_1 = require("tslib");
 const lib_1 = require("restful-decorator/lib");
 const decorators_1 = require("restful-decorator/lib/decorators");
-const bluebird_1 = __importDefault(require("bluebird"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const SymApiOptions = Symbol('options');
 let ImgBB = class ImgBB extends lib_1.AbstractHttpClient {
     constructor(options) {
@@ -45,10 +31,10 @@ let ImgBB = class ImgBB extends lib_1.AbstractHttpClient {
         return bluebird_1.default.resolve($returnValue);
     }
 };
-__decorate([
-    decorators_1.POST('1/upload'),
+(0, tslib_1.__decorate)([
+    (0, decorators_1.POST)('1/upload'),
     decorators_1.FormUrlencoded,
-    decorators_1.HandleParamMetadata((data) => {
+    (0, decorators_1.HandleParamMetadata)((data) => {
         const [argv] = data.argv;
         if (argv) {
             if (typeof argv.image !== 'string') {
@@ -63,27 +49,27 @@ __decorate([
         }
         return data;
     }),
-    decorators_1.methodBuilder(),
-    decorators_1.CatchError(function (e) {
+    (0, decorators_1.methodBuilder)(),
+    (0, decorators_1.CatchError)(function (e) {
         if (e.response.data && e.response.data.message) {
             return bluebird_1.default.reject(e.response.data);
         }
         return bluebird_1.default.reject(e);
     }),
-    __param(0, decorators_1.ParamMapAuto()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Object)
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], ImgBB.prototype, "upload", null);
-ImgBB = __decorate([
-    decorators_1.BaseUrl('https://api.imgbb.com/'),
-    decorators_1.Headers({
+ImgBB = (0, tslib_1.__decorate)([
+    (0, decorators_1.BaseUrl)('https://api.imgbb.com/'),
+    (0, decorators_1.Headers)({
         'Accept': 'application/json',
     }),
-    decorators_1.RequestConfigs({
+    (0, decorators_1.RequestConfigs)({
         responseType: 'json',
     }),
-    __metadata("design:paramtypes", [Object])
+    (0, tslib_1.__metadata)("design:paramtypes", [Object])
 ], ImgBB);
 exports.ImgBB = ImgBB;
 exports.default = ImgBB;

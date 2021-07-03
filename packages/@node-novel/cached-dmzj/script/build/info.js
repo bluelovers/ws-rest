@@ -2,21 +2,19 @@
 /**
  * Created by user on 2019/7/28.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
 const util_1 = require("../util");
-const upath2_1 = __importDefault(require("upath2"));
-const fs_extra_1 = __importDefault(require("fs-extra"));
-const bluebird_1 = __importDefault(require("bluebird"));
+const upath2_1 = (0, tslib_1.__importDefault)(require("upath2"));
+const fs_extra_1 = (0, tslib_1.__importDefault)(require("fs-extra"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const moment_1 = require("@node-novel/site-cache-util/lib/moment");
 const symbol_1 = require("restful-decorator/lib/helper/symbol");
 const axios_util_1 = require("@bluelovers/axios-util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
-const files_1 = __importDefault(require("../util/files"));
-exports.default = index_1.lazyRun(async () => {
-    const { api, saveCache } = await util_1.getDmzjClient();
+const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
+exports.default = (0, index_1.lazyRun)(async () => {
+    const { api, saveCache } = await (0, util_1.getDmzjClient)();
     const file = files_1.default.recentUpdate;
     const file2 = files_1.default.task001;
     let novelList = await fs_extra_1.default.readJSON(file)
@@ -41,15 +39,15 @@ exports.default = index_1.lazyRun(async () => {
                 return null;
             })
                 .tap(function (data) {
-                if (axios_util_1.isResponseFromAxiosCache(data[symbol_1.SymSelf].$response) || axios_util_1.isResponseFromAxiosCache(this.$response)) {
+                if ((0, axios_util_1.isResponseFromAxiosCache)(data[symbol_1.SymSelf].$response) || (0, axios_util_1.isResponseFromAxiosCache)(this.$response)) {
                     fromCache = true;
                 }
             });
             if (info && info.id == v.id) {
                 util_1.consoleDebug.success('[' + String(++jjj)
                     .padStart(4, '0') + '/' + String(length)
-                    .padStart(4, '0') + ']', v.id, util_1.trim(v.name), moment_1.moment.unix(v.last_update_time)
-                    .format(), util_1.trim(v.last_update_volume_name), util_1.trim(v.last_update_chapter_name));
+                    .padStart(4, '0') + ']', v.id, (0, util_1.trim)(v.name), moment_1.moment.unix(v.last_update_time)
+                    .format(), (0, util_1.trim)(v.last_update_volume_name), (0, util_1.trim)(v.last_update_chapter_name));
                 let _file = upath2_1.default.join(util_1.__root, 'data', 'novel/info', `${v.id}.json`);
                 await fs_extra_1.default.outputJSON(_file, info, {
                     spaces: 2,
@@ -77,8 +75,8 @@ exports.default = index_1.lazyRun(async () => {
     await bluebird_1.default
         .resolve(Object.entries(updatedList))
         .each(([novel_id, v]) => {
-        util_1.console.info(novel_id.toString().padStart(4, '0'), util_1.trim(v.name), moment_1.moment.unix(v.last_update_time)
-            .format(), util_1.trim(v.last_update_volume_name), util_1.trim(v.last_update_chapter_name));
+        util_1.console.info(novel_id.toString().padStart(4, '0'), (0, util_1.trim)(v.name), moment_1.moment.unix(v.last_update_time)
+            .format(), (0, util_1.trim)(v.last_update_volume_name), (0, util_1.trim)(v.last_update_chapter_name));
     })
         .tap(ls => {
         util_1.console.info(`本次總共更新`, ls.length);

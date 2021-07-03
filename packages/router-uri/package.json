@@ -29,7 +29,8 @@
     "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
-    "execall2": "^2.0.7",
+    "execall2": "^2.0.9",
+    "tslib": "^2.3.0",
     "uri-template-lite": "^20.5.0"
   },
   "devDependencies": {

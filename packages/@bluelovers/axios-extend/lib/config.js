@@ -11,7 +11,7 @@ function mixinDefaultConfig(config, axios, ...defaultOptions) {
     if (axios) {
         raxConfig.instance = axios;
     }
-    config = cache_1.mixinCacheConfig(lodash_1.defaultsDeep(config, ...defaultOptions, {
+    config = (0, cache_1.mixinCacheConfig)((0, lodash_1.defaultsDeep)(config, ...defaultOptions, {
         raxConfig,
     }));
     return config;

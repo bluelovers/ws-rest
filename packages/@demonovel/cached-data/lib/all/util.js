@@ -1,11 +1,9 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.doTitle = void 0;
-const zhRegExp_1 = __importDefault(require("../util/zhRegExp"));
-const slugify_1 = __importDefault(require("../util/slugify"));
+const tslib_1 = require("tslib");
+const zhRegExp_1 = (0, tslib_1.__importDefault)(require("../util/zhRegExp"));
+const slugify_1 = (0, tslib_1.__importDefault)(require("../util/slugify"));
 const r1 = new zhRegExp_1.default(/の|と/ug);
 const reList02 = [
     {
@@ -124,7 +122,7 @@ const reList02 = [
     let { s, r } = data;
     s = new zhRegExp_1.default(data.s);
     if (!/^\$\d+$/.test(r)) {
-        r = slugify_1.default(r);
+        r = (0, slugify_1.default)(r);
     }
     return {
         s,

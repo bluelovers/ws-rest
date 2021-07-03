@@ -1,30 +1,16 @@
 "use strict";
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ESJzoneClient = void 0;
-const lib_1 = __importDefault(require("restful-decorator-plugin-jsdom/lib"));
+const tslib_1 = require("tslib");
+const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib"));
 const decorators_1 = require("restful-decorator/lib/decorators");
-const bluebird_1 = __importDefault(require("bluebird"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const util_1 = require("./util");
-const moment_1 = __importDefault(require("moment"));
-const uniqBy_1 = __importDefault(require("lodash/uniqBy"));
+const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
+const uniqBy_1 = (0, tslib_1.__importDefault)(require("lodash/uniqBy"));
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const site_1 = require("./util/site");
-const orderBy_1 = __importDefault(require("lodash/orderBy"));
+const orderBy_1 = (0, tslib_1.__importDefault)(require("lodash/orderBy"));
 const html_1 = require("restful-decorator-plugin-jsdom/lib/html");
 const jquery_1 = require("restful-decorator-plugin-jsdom/lib/jquery");
 /**
@@ -70,22 +56,22 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
             let cover = _this
                 .find('.card-img-tiles .main-img img:eq(0)')
                 .prop('src');
-            cover = site_1._fixCoverUrl(cover);
+            cover = (0, site_1._fixCoverUrl)(cover);
             let _a = _this
                 .find('.card-body .card-title a')
                 .eq(0);
-            let title = util_1.trimUnsafe(_a.text());
+            let title = (0, util_1.trimUnsafe)(_a.text());
             let cid;
             let nid;
             let last_update_chapter_name;
-            let _m0 = site_1._parseSiteLink(_a.prop('href'));
+            let _m0 = (0, site_1._parseSiteLink)(_a.prop('href'));
             nid = _m0.novel_id;
             last_update_chapter_name = _this
                 .find('.card-body .card-ep')
                 .eq(0)
                 .text() || undefined;
             if (last_update_chapter_name) {
-                last_update_chapter_name = util_1.trimUnsafe(last_update_chapter_name);
+                last_update_chapter_name = (0, util_1.trimUnsafe)(last_update_chapter_name);
             }
             ret.data.push({
                 id: nid,
@@ -136,7 +122,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
                 from,
                 to,
                 last_update_time,
-                data: uniqBy_1.default(data, 'id'),
+                data: (0, uniqBy_1.default)(data, 'id'),
             };
         });
     }
@@ -180,17 +166,17 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
             chapters: [],
         });
         let _content = $('.container');
-        site_1._getBookInfo($, data);
-        site_1._getBookLinks($, data.links);
-        site_1._getBookTags($, data.tags);
-        let cover = site_1._getBookCover($);
-        if (cover = site_1._fixCoverUrl(cover)) {
+        (0, site_1._getBookInfo)($, data);
+        (0, site_1._getBookLinks)($, data.links);
+        (0, site_1._getBookTags)($, data.tags);
+        let cover = (0, site_1._getBookCover)($);
+        if (cover = (0, site_1._fixCoverUrl)(cover)) {
             data.cover = cover;
         }
-        let $desc = html_1.tryMinifyHTMLOfElem(site_1._getBookElemDesc($));
-        jquery_1._p_2_br($desc.find('p'), $, true);
-        data.desc = util_1.trimUnsafe($desc.text() || '');
-        site_1._getBookChapters($, _content, data);
+        let $desc = (0, html_1.tryMinifyHTMLOfElem)((0, site_1._getBookElemDesc)($));
+        (0, jquery_1._p_2_br)($desc.find('p'), $, true);
+        data.desc = (0, util_1.trimUnsafe)($desc.text() || '');
+        (0, site_1._getBookChapters)($, _content, data);
         return data;
     }
     cookiesRemoveTrack() {
@@ -241,8 +227,8 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
             const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
             const $ = jsdom.$;
             let $content = $('.container .row:has(.forum-content)');
-            $content = html_1.tryMinifyHTMLOfElem($content);
-            site_1._remove_ad($);
+            $content = (0, html_1.tryMinifyHTMLOfElem)($content);
+            (0, site_1._remove_ad)($);
             /*
             const _decodeChapter = async () =>
             {
@@ -301,8 +287,8 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
 
             //_remove_ad($);
              */
-            $content = site_1._getChapterDomContent($);
-            jquery_1._p_2_br($content.find('> p'), $);
+            $content = (0, site_1._getChapterDomContent)($);
+            (0, jquery_1._p_2_br)($content.find('> p'), $);
             let imgs = [];
             const { cb } = options;
             let html;
@@ -328,7 +314,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
             let text = $content
                 .text()
                 .replace(/^\s+|\s+$/g, '');
-            let { author, dateline } = site_1._getChapterData($);
+            let { author, dateline } = (0, site_1._getChapterData)($);
             return {
                 novel_id: argv.novel_id.toString(),
                 chapter_id: argv.chapter_id.toString(),
@@ -357,7 +343,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
         const { data, summary } = ret;
         tabs
             .each((i, tab_elem) => {
-            let timestamp = moment_1.default($(tab_elem).text()).unix();
+            let timestamp = (0, moment_1.default)($(tab_elem).text()).unix();
             let div = divs.eq(i);
             data[timestamp] = data[timestamp] || [];
             last_update_time = Math.max(last_update_time, timestamp, 0);
@@ -368,12 +354,12 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
                 let cover = _this
                     .find('.main-img img:eq(0)')
                     .prop('src');
-                cover = site_1._fixCoverUrl(cover);
+                cover = (0, site_1._fixCoverUrl)(cover);
                 let _a = _this
                     .find('.card-body .card-title a')
                     .eq(0);
                 let title = _a.text();
-                title = util_1.trimUnsafe(title);
+                title = (0, util_1.trimUnsafe)(title);
                 let cid;
                 let nid;
                 let last_update_chapter_name;
@@ -383,7 +369,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
                 ;
                 nid = _m0[1];
                  */
-                let _m0 = site_1._parseSiteLink(_a.prop('href'));
+                let _m0 = (0, site_1._parseSiteLink)(_a.prop('href'));
                 nid = _m0.novel_id;
                 last_update_chapter_name = _this
                     .find('.card-body .card-ep')
@@ -397,7 +383,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
                 });
                 summary[nid] = Math.max(timestamp, summary[nid] | 0);
             });
-            data[timestamp] = orderBy_1.default(data[timestamp], ["id"], ["asc"]);
+            data[timestamp] = (0, orderBy_1.default)(data[timestamp], ["id"], ["asc"]);
         });
         ret.last_update_time = last_update_time;
         ret.days = Object.keys(data).length;
@@ -405,55 +391,55 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
         return ret;
     }
 };
-__decorate([
-    decorators_1.GET('list/{page}.html'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('page', 1)),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number, Object]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('list/{page}.html'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('page', 1)),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number, Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], ESJzoneClient.prototype, "articleList", null);
-__decorate([
-    decorators_1.GET('detail/{novel_id}.html'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamPath('novel_id')),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('detail/{novel_id}.html'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], ESJzoneClient.prototype, "bookInfo", null);
-__decorate([
-    decorators_1.POST('forum/{novel_id}/{chapter_id}.html'),
+(0, tslib_1.__decorate)([
+    (0, decorators_1.POST)('forum/{novel_id}/{chapter_id}.html'),
     decorators_1.FormUrlencoded,
-    decorators_1.methodBuilder({
+    (0, decorators_1.methodBuilder)({
         autoRequest: false,
     }),
-    __param(0, decorators_1.ParamMapAuto()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object]),
-    __metadata("design:returntype", void 0)
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", void 0)
 ], ESJzoneClient.prototype, "_getDecodeChapter", null);
-__decorate([
-    decorators_1.GET('forum/{novel_id}/{chapter_id}.html'),
-    decorators_1.methodBuilder(),
-    __param(0, decorators_1.ParamMapAuto()),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('forum/{novel_id}/{chapter_id}.html'),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], ESJzoneClient.prototype, "getChapter", null);
-__decorate([
-    decorators_1.GET('update'),
-    jsdom_1.ReturnValueToJSDOM(),
-    decorators_1.methodBuilder(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('update'),
+    (0, jsdom_1.ReturnValueToJSDOM)(),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", Object)
 ], ESJzoneClient.prototype, "recentUpdateDay", null);
-ESJzoneClient = __decorate([
-    decorators_1.BaseUrl('https://www.esjzone.cc'),
-    decorators_1.Headers({
+ESJzoneClient = (0, tslib_1.__decorate)([
+    (0, decorators_1.BaseUrl)('https://www.esjzone.cc'),
+    (0, decorators_1.Headers)({
         Referer: 'https://www.esjzone.cc',
     }),
-    decorators_1.CacheRequest({
+    (0, decorators_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
         },

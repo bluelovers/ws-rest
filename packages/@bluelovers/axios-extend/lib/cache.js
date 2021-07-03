@@ -1,15 +1,13 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.mixinCacheConfig = exports.setupCacheConfig = exports.setupCache = void 0;
+const tslib_1 = require("tslib");
 const axios_cache_adapter_1 = require("axios-cache-adapter");
 Object.defineProperty(exports, "setupCache", { enumerable: true, get: function () { return axios_cache_adapter_1.setupCache; } });
 const lodash_1 = require("lodash");
-const bluebird_1 = __importDefault(require("bluebird"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const createCacheStoreByMapLike_1 = require("axios-cache-adapter-util/lib/createCacheStoreByMapLike");
-const lru_cache2_1 = __importDefault(require("lru-cache2"));
+const lru_cache2_1 = (0, tslib_1.__importDefault)(require("lru-cache2"));
 function setupCacheConfig(configInput) {
     var _a;
     var _b;
@@ -21,7 +19,7 @@ function setupCacheConfig(configInput) {
         const store = new createCacheStoreByMapLike_1.CacheStoreByMapLike(lru);
         return store;
     })());
-    const cache = axios_cache_adapter_1.setupCache(configInput.cache);
+    const cache = (0, axios_cache_adapter_1.setupCache)(configInput.cache);
     const config = {
         ...configInput,
         adapter: bluebird_1.default.method(cache.adapter),
@@ -36,7 +34,7 @@ function setupCacheConfig(configInput) {
 exports.setupCacheConfig = setupCacheConfig;
 function mixinCacheConfig(config) {
     if (config.cache != null && typeof config.cache === 'object') {
-        config.cache = lodash_1.defaultsDeep(config.cache, {
+        config.cache = (0, lodash_1.defaultsDeep)(config.cache, {
             exclude: {
                 filter(res) {
                     return res.status >= 500;

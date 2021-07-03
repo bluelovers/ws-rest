@@ -30,7 +30,8 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "get-value": "^3.0.1"
+    "get-value": "^3.0.1",
+    "tslib": "^2.3.0"
   },
   "publishConfig": {
     "access": "public"

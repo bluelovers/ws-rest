@@ -1,16 +1,14 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const fs_extra_1 = __importDefault(require("fs-extra"));
-const path_1 = __importDefault(require("path"));
-const bluebird_1 = __importDefault(require("bluebird"));
+const tslib_1 = require("tslib");
+const fs_extra_1 = (0, tslib_1.__importDefault)(require("fs-extra"));
+const path_1 = (0, tslib_1.__importDefault)(require("path"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const util_1 = require("../util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
-const files_1 = __importDefault(require("../util/files"));
-exports.default = index_1.lazyRun(async () => {
-    const { api, saveCache } = await util_1.getDmzjClient();
+const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
+exports.default = (0, index_1.lazyRun)(async () => {
+    const { api, saveCache } = await (0, util_1.getDmzjClient)();
     const file = files_1.default.recentUpdate;
     const file2 = files_1.default.task001;
     let novelList = await fs_extra_1.default.readJSON(file)

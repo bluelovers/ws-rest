@@ -1,13 +1,11 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getThreadsByFid = void 0;
+const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
 // @ts-ignore
-const deep_eql_1 = __importDefault(require("deep-eql"));
-const uniqBy_1 = __importDefault(require("lodash/uniqBy"));
+const deep_eql_1 = (0, tslib_1.__importDefault)(require("deep-eql"));
+const uniqBy_1 = (0, tslib_1.__importDefault)(require("lodash/uniqBy"));
 const util_1 = require("../util");
 function getThreadsByFid(api, threadOptions, extraOptions) {
     let cacheForum;
@@ -17,7 +15,7 @@ function getThreadsByFid(api, threadOptions, extraOptions) {
             let oldExists;
             //consoleDebug.debug('page:', cur.page);
             if (typeof cacheForum === 'undefined') {
-                cacheForum = await fs_extra_1.readJSON(extraOptions.cacheFileInfoPath(threadOptions.fid)).catch(e => null);
+                cacheForum = await (0, fs_extra_1.readJSON)(extraOptions.cacheFileInfoPath(threadOptions.fid)).catch(e => null);
                 if (cacheForum == null) {
                     cacheForum = null;
                 }
@@ -39,7 +37,7 @@ function getThreadsByFid(api, threadOptions, extraOptions) {
             let bool = !cur.threads.every(v => {
                 let old = cacheThreads[v.tid];
                 let isNotExists = typeof old === 'undefined';
-                let bool = deep_eql_1.default(v, old);
+                let bool = (0, deep_eql_1.default)(v, old);
                 if (!bool) {
                     if (typeof oldExists === 'undefined' && isNotExists) {
                         i++;
@@ -88,7 +86,7 @@ function getThreadsByFid(api, threadOptions, extraOptions) {
                 else {
                     util_1.consoleDebug.debug(`fid: ${forum.fid} 沒有發現 threads 變化，略過檢查後續頁數 (${cur.page} / ${cur.pages})`);
                 }
-                forum.threads = uniqBy_1.default(forum.threads.concat(cacheForum.threads), 'tid');
+                forum.threads = (0, uniqBy_1.default)(forum.threads.concat(cacheForum.threads), 'tid');
             }
             else {
                 //consoleDebug.debug(`fid: ${forum.fid} (${cur.page} / ${cur.pages})`);

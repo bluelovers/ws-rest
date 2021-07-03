@@ -2,12 +2,10 @@
 /**
  * Created by user on 2020/4/9.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports._handleInputUrl = exports.EnumParseInputUrl = void 0;
-const http_form_urlencoded_1 = __importDefault(require("http-form-urlencoded"));
+const tslib_1 = require("tslib");
+const http_form_urlencoded_1 = (0, tslib_1.__importDefault)(require("http-form-urlencoded"));
 const lazy_url_1 = require("lazy-url");
 var EnumParseInputUrl;
 (function (EnumParseInputUrl) {

@@ -1,11 +1,9 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports._jqForumThreadTypes = exports._jqForumThreads = exports._jqForumStickThreads = exports._checkLoginUsername = exports._checkLoginByJQuery = void 0;
-const moment_1 = __importDefault(require("moment"));
-const lazy_url_1 = __importDefault(require("lazy-url"));
+const tslib_1 = require("tslib");
+const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
+const lazy_url_1 = (0, tslib_1.__importDefault)(require("lazy-url"));
 const util_1 = require("../util");
 /**
  * Created by user on 2019/12/17.
@@ -39,7 +37,7 @@ function _jqForumThreads($, selector = '#threadlisttableid tbody[id^="normalthre
         .each((i, elem) => {
         let _tr = $(elem);
         let _a = _tr.find('th a.s.xst:eq(0)');
-        let subject = util_1.trimUnsafe(_a.text());
+        let subject = (0, util_1.trimUnsafe)(_a.text());
         let tid = new lazy_url_1.default(_a.prop('href'))
             .searchParams.get('tid');
         let dateline;
@@ -57,7 +55,7 @@ function _jqForumThreads($, selector = '#threadlisttableid tbody[id^="normalthre
                 }
             });
             if (/\d+-\d+-\d+/.test(title)) {
-                dateline = moment_1.default(title, 'YYYY-MM-DD').unix();
+                dateline = (0, moment_1.default)(title, 'YYYY-MM-DD').unix();
             }
             else {
                 throw new TypeError(_tr.html());
@@ -109,7 +107,7 @@ function _jqForumThreadTypes($) {
         _a.find('.num').remove();
         let typeid = new lazy_url_1.default(_a.prop('href'))
             .searchParams.get('typeid');
-        let name = util_1.trimUnsafe(_a.text());
+        let name = (0, util_1.trimUnsafe)(_a.text());
         thread_types[typeid] = name;
     });
     return thread_types;

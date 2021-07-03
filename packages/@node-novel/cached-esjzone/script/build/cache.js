@@ -1,19 +1,17 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
-const files_1 = __importDefault(require("../util/files"));
-const bluebird_1 = __importDefault(require("bluebird"));
+const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const util_1 = require("@novel-segment/util");
-const sort_object_keys2_1 = __importDefault(require("sort-object-keys2"));
+const sort_object_keys2_1 = (0, tslib_1.__importDefault)(require("sort-object-keys2"));
 const array_hyper_unique_1 = require("array-hyper-unique");
 const fs_1 = require("@node-novel/site-cache-util/lib/fs");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 let _cache_map = {};
-exports.default = index_1.lazyRun(async () => {
-    let infoPack = await fs_extra_1.readJSON(files_1.default.infoPack);
+exports.default = (0, index_1.lazyRun)(async () => {
+    let infoPack = await (0, fs_extra_1.readJSON)(files_1.default.infoPack);
     let idAuthors = {};
     let idUpdate = [];
     let ids = [];
@@ -52,30 +50,30 @@ exports.default = index_1.lazyRun(async () => {
         let { id, name, authors } = row;
         idUpdate.push(id);
     });
-    idAuthors = sort_object_keys2_1.default(idAuthors, {
+    idAuthors = (0, sort_object_keys2_1.default)(idAuthors, {
         sort: _sortFn001,
     });
-    titles = array_hyper_unique_1.array_unique_overwrite(titles).sort(_sortFn001);
-    authors = array_hyper_unique_1.array_unique_overwrite(authors).sort(_sortFn001);
-    tags = array_hyper_unique_1.array_unique_overwrite(tags).sort(_sortFn001);
+    titles = (0, array_hyper_unique_1.array_unique_overwrite)(titles).sort(_sortFn001);
+    authors = (0, array_hyper_unique_1.array_unique_overwrite)(authors).sort(_sortFn001);
+    tags = (0, array_hyper_unique_1.array_unique_overwrite)(tags).sort(_sortFn001);
     await bluebird_1.default.all([
-        fs_1.outputJSONLazy(files_1.default.idAuthors, idAuthors),
-        fs_1.outputJSONLazy(files_1.default.idUpdate, idUpdate),
-        fs_1.outputJSONLazy(files_1.default.idTitles, idTitles),
-        fs_1.outputJSONLazy(files_1.default.ids, ids),
-        fs_1.outputJSONLazy(files_1.default.titles, titles),
-        fs_1.outputJSONLazy(files_1.default.authors, authors),
-        fs_1.outputJSONLazy(files_1.default.idChapters, id_chapters),
-        fs_1.outputJSONLazy(files_1.default.tags, tags),
-        fs_1.outputJSONLazy(files_1.default.idVolumes, idVolumes),
+        (0, fs_1.outputJSONLazy)(files_1.default.idAuthors, idAuthors),
+        (0, fs_1.outputJSONLazy)(files_1.default.idUpdate, idUpdate),
+        (0, fs_1.outputJSONLazy)(files_1.default.idTitles, idTitles),
+        (0, fs_1.outputJSONLazy)(files_1.default.ids, ids),
+        (0, fs_1.outputJSONLazy)(files_1.default.titles, titles),
+        (0, fs_1.outputJSONLazy)(files_1.default.authors, authors),
+        (0, fs_1.outputJSONLazy)(files_1.default.idChapters, id_chapters),
+        (0, fs_1.outputJSONLazy)(files_1.default.tags, tags),
+        (0, fs_1.outputJSONLazy)(files_1.default.idVolumes, idVolumes),
     ]);
 }, {
     pkgLabel: __filename
 });
 function _sortFn001(a, b) {
     var _a, _b;
-    let aa = (_a = _cache_map[a]) !== null && _a !== void 0 ? _a : (_cache_map[a] = util_1.getCjkName(a));
-    let bb = (_b = _cache_map[b]) !== null && _b !== void 0 ? _b : (_cache_map[b] = util_1.getCjkName(b));
-    return util_1.zhDictCompare(aa, bb);
+    let aa = (_a = _cache_map[a]) !== null && _a !== void 0 ? _a : (_cache_map[a] = (0, util_1.getCjkName)(a));
+    let bb = (_b = _cache_map[b]) !== null && _b !== void 0 ? _b : (_cache_map[b] = (0, util_1.getCjkName)(b));
+    return (0, util_1.zhDictCompare)(aa, bb);
 }
 //# sourceMappingURL=cache.js.map

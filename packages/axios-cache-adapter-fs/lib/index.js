@@ -2,12 +2,10 @@
 /**
  * Created by user on 2019/6/11.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.defaultFilter = exports.processExitHook = exports.exportCache = exports.importCache = void 0;
-const bluebird_1 = __importDefault(require("bluebird"));
+const tslib_1 = require("tslib");
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 function importCache(store, json, options) {
     const { importFilter = defaultFilter } = options || {};
     return bluebird_1.default

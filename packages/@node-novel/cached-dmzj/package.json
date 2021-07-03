@@ -39,5 +39,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"
+  "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
 }

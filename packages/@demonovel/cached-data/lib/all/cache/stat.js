@@ -13,7 +13,7 @@ function buildCachedStat(list) {
         total,
         updated,
     };
-    return fs_1.outputJSONWithIndent(path_1.join(__root_1.__rootCache, `stat.json`), out);
+    return (0, fs_1.outputJSONWithIndent)((0, path_1.join)(__root_1.__rootCache, `stat.json`), out);
 }
 exports.buildCachedStat = buildCachedStat;
 exports.default = buildCachedStat;

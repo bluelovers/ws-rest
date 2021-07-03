@@ -45,6 +45,6 @@ Object.keys(process.env)
     site_cache_util_1.console.log(k, bool, bool && value.length);
 });
 ls.forEach(k => {
-    chai_1.assert((k in process.env) && process.env[k].length, `${k} not exists`);
+    (0, chai_1.assert)((k in process.env) && process.env[k].length, `${k} not exists`);
 });
 //# sourceMappingURL=chk-env.js.map

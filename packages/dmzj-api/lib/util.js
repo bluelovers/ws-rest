@@ -1,10 +1,8 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isDmzjNovelInfoFullWithChapters = exports.isDmzjNovelInfoFull = exports.trimUnsafe = exports.fixDmzjNovelInfo = exports.fixDmzjNovelTags = exports.buildVersion = exports.removeZeroWidth = void 0;
-const cloneDeep_1 = __importDefault(require("lodash/cloneDeep"));
+const tslib_1 = require("tslib");
+const cloneDeep_1 = (0, tslib_1.__importDefault)(require("lodash/cloneDeep"));
 const array_hyper_unique_1 = require("array-hyper-unique");
 const crlf_normalize_1 = require("crlf-normalize");
 const zero_width_1 = require("zero-width");
@@ -23,7 +21,7 @@ function fixDmzjNovelTags(tags) {
     if (typeof tags === 'string') {
         tags = [tags];
     }
-    return array_hyper_unique_1.array_unique(tags.reduce((a, b) => {
+    return (0, array_hyper_unique_1.array_unique)(tags.reduce((a, b) => {
         a.push(...b.split('/').map(trimUnsafe));
         return a;
     }, []));
@@ -33,7 +31,7 @@ exports.fixDmzjNovelTags = fixDmzjNovelTags;
  * 修正 dmzj 上面一些錯誤的資料
  */
 function fixDmzjNovelInfo(data) {
-    data = cloneDeep_1.default(data);
+    data = (0, cloneDeep_1.default)(data);
     data.name = trimUnsafe(data.name);
     data.authors = trimUnsafe(data.authors);
     data.status = trimUnsafe(data.status);
@@ -42,7 +40,7 @@ function fixDmzjNovelInfo(data) {
     data.types = fixDmzjNovelTags(data.types);
     if (isDmzjNovelInfoFull(data)) {
         data.zone = trimUnsafe(data.zone);
-        data.introduction = zero_width_1.removeZeroWidth(crlf_normalize_1.crlf(data.introduction))
+        data.introduction = (0, zero_width_1.removeZeroWidth)((0, crlf_normalize_1.crlf)(data.introduction))
             .replace(/^\n+/, '')
             .replace(/[\u00A0]/gu, ' ')
             .replace(/[\s　]+$/g, '')
@@ -67,7 +65,7 @@ function fixDmzjNovelInfo(data) {
 exports.fixDmzjNovelInfo = fixDmzjNovelInfo;
 function trimUnsafe(input) {
     // @ts-ignore
-    return zero_width_1.removeZeroWidth(input)
+    return (0, zero_width_1.removeZeroWidth)(input)
         .replace(/^\s+|\s+$/gu, '')
         .replace(/\r|\n|[\u00A0]/gu, ' ')
         .replace(/\s+/gu, ' ')

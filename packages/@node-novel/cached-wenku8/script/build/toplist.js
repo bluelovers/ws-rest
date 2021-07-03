@@ -2,16 +2,14 @@
 /**
  * Created by user on 2019/7/7.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const fs_extra_1 = __importDefault(require("fs-extra"));
+const tslib_1 = require("tslib");
+const fs_extra_1 = (0, tslib_1.__importDefault)(require("fs-extra"));
 const util_1 = require("../util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
-const files_1 = __importDefault(require("../util/files"));
-exports.default = index_1.lazyRun(async () => {
-    const { api, saveCache } = await util_1.getApiClient();
+const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
+exports.default = (0, index_1.lazyRun)(async () => {
+    const { api, saveCache } = await (0, util_1.getApiClient)();
     const file = files_1.default.recentUpdate;
     let novelList = await fs_extra_1.default.readJSON(file)
         .catch(e => null);

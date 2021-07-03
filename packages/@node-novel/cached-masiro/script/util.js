@@ -2,12 +2,10 @@
 /**
  * Created by user on 2019/7/7.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.trim = exports.getApiClient = exports.__root = exports.console = exports.consoleDebug = void 0;
-const lib_1 = __importDefault(require("discuz-api/lib"));
+const tslib_1 = require("tslib");
+const lib_1 = (0, tslib_1.__importDefault)(require("discuz-api/lib"));
 const lib_2 = require("@node-novel/site-cache-util/lib");
 Object.defineProperty(exports, "console", { enumerable: true, get: function () { return lib_2.console; } });
 Object.defineProperty(exports, "consoleDebug", { enumerable: true, get: function () { return lib_2.consoleDebug; } });
@@ -19,7 +17,7 @@ let saveCache;
 let jar;
 async function getApiClient() {
     let baseURL = 'https://masiro.moe/';
-    ({ api, saveCache, jar } = await client_1._getApiClient({
+    ({ api, saveCache, jar } = await (0, client_1._getApiClient)({
         api,
         saveCache,
         ApiClient: lib_1.default,

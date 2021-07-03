@@ -2,23 +2,21 @@
 /**
  * Created by user on 2019/7/28.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
 const util_1 = require("../util");
-const path_1 = __importDefault(require("path"));
-const fs_extra_1 = __importDefault(require("fs-extra"));
-const bluebird_1 = __importDefault(require("bluebird"));
-const bluebird_2 = __importDefault(require("@bluelovers/fast-glob/bluebird"));
+const path_1 = (0, tslib_1.__importDefault)(require("path"));
+const fs_extra_1 = (0, tslib_1.__importDefault)(require("fs-extra"));
+const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_2 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
 const array_hyper_unique_1 = require("array-hyper-unique");
 const util_2 = require("dmzj-api/lib/util");
-const sort_object_keys2_1 = __importDefault(require("sort-object-keys2"));
+const sort_object_keys2_1 = (0, tslib_1.__importDefault)(require("sort-object-keys2"));
 const util_3 = require("@novel-segment/util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 let _cache_map = {};
-exports.default = index_1.lazyRun(async () => {
-    const { api, saveCache } = await util_1.getDmzjClient();
+exports.default = (0, index_1.lazyRun)(async () => {
+    const { api, saveCache } = await (0, util_1.getDmzjClient)();
     let ids = [];
     let tags = [];
     let authors = [];
@@ -37,20 +35,20 @@ exports.default = index_1.lazyRun(async () => {
         let v = await fs_extra_1.default.readJSON(file);
         info_pack[v.id] = v;
         ids.push(v.id);
-        tags.push(...util_2.fixDmzjNovelTags(v.types));
-        authors.push(util_2.trimUnsafe(v.authors));
-        zone.push(util_2.trimUnsafe(v.zone));
-        titles.push(util_2.trimUnsafe(v.name));
-        id_titles[v.id] = util_2.trimUnsafe(v.name);
-        id_authors[util_2.trimUnsafe(v.authors)] = id_authors[util_2.trimUnsafe(v.authors)] || {};
-        id_authors[util_2.trimUnsafe(v.authors)][v.id] = util_2.trimUnsafe(v.name);
+        tags.push(...(0, util_2.fixDmzjNovelTags)(v.types));
+        authors.push((0, util_2.trimUnsafe)(v.authors));
+        zone.push((0, util_2.trimUnsafe)(v.zone));
+        titles.push((0, util_2.trimUnsafe)(v.name));
+        id_titles[v.id] = (0, util_2.trimUnsafe)(v.name);
+        id_authors[(0, util_2.trimUnsafe)(v.authors)] = id_authors[(0, util_2.trimUnsafe)(v.authors)] || {};
+        id_authors[(0, util_2.trimUnsafe)(v.authors)][v.id] = (0, util_2.trimUnsafe)(v.name);
     });
-    tags = array_hyper_unique_1.array_unique_overwrite(tags).sort(_sortFn001);
-    authors = array_hyper_unique_1.array_unique_overwrite(authors).sort(_sortFn001);
-    zone = array_hyper_unique_1.array_unique_overwrite(zone).sort(_sortFn001);
-    titles = array_hyper_unique_1.array_unique_overwrite(titles).sort(_sortFn001);
+    tags = (0, array_hyper_unique_1.array_unique_overwrite)(tags).sort(_sortFn001);
+    authors = (0, array_hyper_unique_1.array_unique_overwrite)(authors).sort(_sortFn001);
+    zone = (0, array_hyper_unique_1.array_unique_overwrite)(zone).sort(_sortFn001);
+    titles = (0, array_hyper_unique_1.array_unique_overwrite)(titles).sort(_sortFn001);
     ids = ids.sort((a, b) => a - b);
-    id_authors = sort_object_keys2_1.default(id_authors, {
+    id_authors = (0, sort_object_keys2_1.default)(id_authors, {
         sort: _sortFn001,
     });
     await bluebird_1.default.all([
@@ -82,8 +80,8 @@ exports.default = index_1.lazyRun(async () => {
 });
 function _sortFn001(a, b) {
     var _a, _b;
-    let aa = (_a = _cache_map[a]) !== null && _a !== void 0 ? _a : (_cache_map[a] = util_3.getCjkName(a));
-    let bb = (_b = _cache_map[b]) !== null && _b !== void 0 ? _b : (_cache_map[b] = util_3.getCjkName(b));
-    return util_3.zhDictCompare(aa, bb);
+    let aa = (_a = _cache_map[a]) !== null && _a !== void 0 ? _a : (_cache_map[a] = (0, util_3.getCjkName)(a));
+    let bb = (_b = _cache_map[b]) !== null && _b !== void 0 ? _b : (_cache_map[b] = (0, util_3.getCjkName)(b));
+    return (0, util_3.zhDictCompare)(aa, bb);
 }
 //# sourceMappingURL=tags.js.map

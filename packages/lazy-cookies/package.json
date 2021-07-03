@@ -24,7 +24,8 @@
     "@types/moment": "*",
     "@types/tough-cookie": "*",
     "crlf-normalize": "^1.0.5",
-    "ts-type": "^1.2.34"
+    "ts-type": "^1.2.35",
+    "tslib": "^2.3.0"
   },
   "peerDependencies": {
     "moment": "*",

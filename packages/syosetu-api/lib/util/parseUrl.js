@@ -5,7 +5,7 @@ const parse_input_url_1 = require("@node-novel/parse-input-url");
 const lazy_url_1 = require("lazy-url");
 const valid_1 = require("./valid");
 function parseUrlInfo(input) {
-    const data = parse_input_url_1._handleInputUrl(input);
+    const data = (0, parse_input_url_1._handleInputUrl)(input);
     let novel_r18;
     let novel_id;
     let chapter_id;
@@ -19,7 +19,7 @@ function parseUrlInfo(input) {
         //break;
         case parse_input_url_1.EnumParseInputUrl.STRING:
             value = value !== null && value !== void 0 ? value : data.value;
-            if (valid_1.validNcode(value)) {
+            if ((0, valid_1.validNcode)(value)) {
                 novel_id = value;
                 break;
             }

@@ -5,11 +5,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
  */
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 const main_1 = require("./util/main");
-exports.default = index_1.lazyRun(async () => {
-    await index_1.lazyImport('./build/toplist', require);
-    await index_1.lazyImport('./build/task001', require);
-    await index_1.lazyImport('./build/merge', require);
-    await index_1.lazyImport('./build/cache', require);
+exports.default = (0, index_1.lazyRun)(async () => {
+    await (0, index_1.lazyImport)('./build/toplist', require);
+    await (0, index_1.lazyImport)('./build/task001', require);
+    await (0, index_1.lazyImport)('./build/merge', require);
+    await (0, index_1.lazyImport)('./build/cache', require);
 }, {
     pkgLabel: main_1.pkgLabel,
 });

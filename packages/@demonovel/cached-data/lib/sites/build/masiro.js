@@ -2,13 +2,11 @@
 /**
  * Created by user on 2020/3/3.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.buildMasiro = void 0;
+const tslib_1 = require("tslib");
 const util_1 = require("./util");
-const cheerio_1 = __importDefault(require("cheerio"));
+const cheerio_1 = (0, tslib_1.__importDefault)(require("cheerio"));
 const moment_1 = require("../../util/moment");
 function buildMasiro(siteID, id, data) {
     if (data.subforums && data.subforums.length) {
@@ -25,12 +23,12 @@ function buildMasiro(siteID, id, data) {
     }
     catch (e) {
     }
-    item.updated = data.last_thread_time && moment_1.createMomentBySeconds(data.last_thread_time).valueOf() || 0;
+    item.updated = data.last_thread_time && (0, moment_1.createMomentBySeconds)(data.last_thread_time).valueOf() || 0;
     if (data.threads[0]) {
         let typeid = data.threads[0].typeid;
-        item.last_update_name = util_1.newTitle(data.threads[0].subject, data.thread_types && data.thread_types[typeid]);
+        item.last_update_name = (0, util_1.newTitle)(data.threads[0].subject, data.thread_types && data.thread_types[typeid]);
     }
-    return util_1.newEntry(siteID, item);
+    return (0, util_1.newEntry)(siteID, item);
 }
 exports.buildMasiro = buildMasiro;
 exports.default = buildMasiro;

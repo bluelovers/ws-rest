@@ -2,39 +2,18 @@
 /**
  * Created by user on 2019/6/10.
  */
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
-    return result;
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LazyCookieJar = exports.LazyCookie = void 0;
-const tough_cookie_1 = __importStar(require("tough-cookie"));
-const moment_1 = __importDefault(require("moment"));
+const tslib_1 = require("tslib");
+const tough_cookie_1 = (0, tslib_1.__importStar)(require("tough-cookie"));
+const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
 class LazyCookie extends tough_cookie_1.default.Cookie {
     constructor(prop = {}, ...argv) {
         if (!prop.expires || prop.expires === -1) {
-            prop.expires = moment_1.default().add(1, 'year');
+            prop.expires = (0, moment_1.default)().add(1, 'year');
         }
         else if (typeof prop.expires == 'number') {
-            prop.expires = moment_1.default().add(prop.expires, 's');
+            prop.expires = (0, moment_1.default)().add(prop.expires, 's');
         }
         for (let key in prop) {
             if (moment_1.default.isMoment(prop[key])) {

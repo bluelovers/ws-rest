@@ -2,22 +2,20 @@
 /**
  * Created by user on 2020/3/3.
  */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.handleEntries = exports.newTitle = exports.newEntry = void 0;
+const tslib_1 = require("tslib");
 const util_1 = require("../../util");
-const sort_object_keys2_1 = __importDefault(require("sort-object-keys2"));
+const sort_object_keys2_1 = (0, tslib_1.__importDefault)(require("sort-object-keys2"));
 const convert_1 = require("../../util/convert");
 const array_hyper_unique_1 = require("array-hyper-unique");
 function newEntry(siteID, item) {
     var _a;
     if (!item.uuid) {
-        item.uuid = util_1.newUUID(siteID, item.id);
+        item.uuid = (0, util_1.newUUID)(siteID, item.id);
     }
     if ((_a = item.titles) === null || _a === void 0 ? void 0 : _a.length) {
-        array_hyper_unique_1.array_unique_overwrite(item.titles);
+        (0, array_hyper_unique_1.array_unique_overwrite)(item.titles);
     }
     item.siteID = siteID;
     item.updated = item.updated || 0;
@@ -39,10 +37,10 @@ function newEntry(siteID, item) {
             && k !== 'novelID'
             && k !== 'id') {
             // @ts-ignore
-            item[k] = util_1.trim(v);
+            item[k] = (0, util_1.trim)(v);
         }
     });
-    return sort_object_keys2_1.default(item, {
+    return (0, sort_object_keys2_1.default)(item, {
         keys: [
             'siteID',
             'novelID',
@@ -87,7 +85,7 @@ function handleEntries(siteID, source, handler) {
         return a;
     }, [])
         .filter(Boolean);
-    return convert_1.toRecord(list);
+    return (0, convert_1.toRecord)(list);
 }
 exports.handleEntries = handleEntries;
 //# sourceMappingURL=util.js.map
