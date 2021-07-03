@@ -1,6 +1,6 @@
 {
   "name": "esjzone-api",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -26,8 +26,8 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@bluelovers/axios-extend": "^1.0.38",
-    "@node-novel/parse-input-url": "^1.0.12",
+    "@bluelovers/axios-extend": "^1.0.39",
+    "@node-novel/parse-input-url": "^1.0.13",
     "array-hyper-unique": "^1.1.9",
     "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.5",
@@ -35,8 +35,8 @@
     "lazy-url": "^1.0.10",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
-    "restful-decorator": "^1.0.53",
-    "restful-decorator-plugin-jsdom": "^1.0.33",
+    "restful-decorator": "^1.0.54",
+    "restful-decorator-plugin-jsdom": "^1.0.34",
     "tslib": "^2.3.0",
     "zero-width": "^1.0.15"
   },
