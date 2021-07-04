@@ -31,7 +31,8 @@ export default (async () =>
 			});
 
 			return data.list
-				.reduce((a, b) => {
+				.reduce((a, b) =>
+				{
 
 					a[b.id] = b;
 
@@ -50,19 +51,26 @@ export default (async () =>
 			cwd: path.join(__root, 'data', 'novel/info'),
 			absolute: true,
 		})
-		.each(async (file) => {
+		.each(async (file) =>
+		{
 
 			let v: IDmzjNovelInfoWithChapters = await readJSON(file).then(fixDmzjNovelInfo);
 
 			const { id, last_update_time } = v;
 
-			if (!taskList[id])
+			if (recentUpdate[id]?.last_update_time === last_update_time)
 			{
-				if (recentUpdate[id]?.last_update_time === last_update_time)
+				if (!taskList[id])
 				{
 					consoleDebug.debug(`taskList:update`, id, taskList[id], '=>', last_update_time, v.name)
 					taskList[id] = last_update_time
 				}
+
+				if (recentUpdate[id].last_update_volume_name !== v.last_update_volume_name)
+				{
+					v.last_update_volume_name = recentUpdate[id].last_update_volume_name
+				}
+
 			}
 
 			return writeJSON(file, v, {

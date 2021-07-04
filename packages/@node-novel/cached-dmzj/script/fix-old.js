@@ -36,10 +36,13 @@ exports.default = (async () => {
         var _a;
         let v = await (0, fs_extra_1.readJSON)(file).then(util_2.fixDmzjNovelInfo);
         const { id, last_update_time } = v;
-        if (!taskList[id]) {
-            if (((_a = recentUpdate[id]) === null || _a === void 0 ? void 0 : _a.last_update_time) === last_update_time) {
+        if (((_a = recentUpdate[id]) === null || _a === void 0 ? void 0 : _a.last_update_time) === last_update_time) {
+            if (!taskList[id]) {
                 util_1.consoleDebug.debug(`taskList:update`, id, taskList[id], '=>', last_update_time, v.name);
                 taskList[id] = last_update_time;
+            }
+            if (recentUpdate[id].last_update_volume_name !== v.last_update_volume_name) {
+                v.last_update_volume_name = recentUpdate[id].last_update_volume_name;
             }
         }
         return (0, fs_extra_1.writeJSON)(file, v, {
