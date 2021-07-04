@@ -95,6 +95,8 @@ export async function _setupCacheFile(opts: {
 
 			console.red.log(`before: ${len}`, `after: ${len2}`);
 
+			len = len2;
+
 		})
 	}
 

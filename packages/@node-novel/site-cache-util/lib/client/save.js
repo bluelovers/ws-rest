@@ -58,6 +58,7 @@ async function _setupCacheFile(opts) {
             let len2 = Object.keys(json).length;
             index_1.console.magenta.debug(`[Cache]`, len2, `saved`, __path.relative(cacheFile));
             index_1.console.red.log(`before: ${len}`, `after: ${len2}`);
+            len = len2;
         });
     }
     if (!saveCacheFileBySelf) {
