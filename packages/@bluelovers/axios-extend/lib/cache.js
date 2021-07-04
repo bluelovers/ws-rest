@@ -14,7 +14,7 @@ function setupCacheConfig(configInput) {
     configInput = mixinCacheConfig(configInput);
     (_a = (_b = configInput.cache).store) !== null && _a !== void 0 ? _a : (_b.store = (() => {
         const lru = new lru_cache2_1.default({
-            max: 300,
+            max: 500,
         });
         const store = new createCacheStoreByMapLike_1.CacheStoreByMapLike(lru);
         return store;

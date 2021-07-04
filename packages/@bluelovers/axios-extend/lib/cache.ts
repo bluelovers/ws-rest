@@ -19,7 +19,7 @@ export function setupCacheConfig<T extends IAxiosCacheAdapterOptionsConfig | Axi
 
 	configInput.cache.store ??= (() => {
 		const lru = new LRUCache({
-			max: 300,
+			max: 500,
 		});
 
 		const store = new CacheStoreByMapLike(lru as any)
