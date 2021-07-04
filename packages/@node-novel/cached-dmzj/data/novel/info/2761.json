@@ -3,13 +3,13 @@
   "name": "转生后的我成了英雄爸爸和精灵妈妈的女儿",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11139,
-  "last_update_chapter_id": 110604,
-  "last_update_time": 1601027567,
-  "cover": "https://xs.dmzj.com/img/webpic/16/fymj1212l.jpg",
-  "hot_hits": 120968,
+  "last_update_volume_id": 11416,
+  "last_update_chapter_id": 114882,
+  "last_update_time": 1615276217,
+  "cover": "http://xs.dmzj.com/img/webpic/16/fymj1212l.jpg",
+  "hot_hits": 164071,
   "introduction": "　　经历了埋首于研究工作的前世，转生后的我变成了元素精灵。\n　　爸爸以前是英雄，妈妈是精灵王，我也天生拥有作弊般的超强能力……\n　　我在爸爸、妈妈与许多精灵的溺爱下很快地长大，\n　　却在和爸爸造访人间的时候被国王盯上，全家人陷入危机？\n　　「我会确实地击溃你，做好心理准备吧！」\n　　精灵艾伦，运用前世的知识和精灵的力量，守护重要的家人！",
   "types": [
     "异界",
@@ -17,8 +17,7 @@
   ],
   "authors": "松浦",
   "first_letter": "Z",
-  "subscribe_num": 13452,
-  "redis_update_time": 1607636812,
+  "subscribe_num": 16035,
   "volume": [
     {
       "id": 10487,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1576145269,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11139,
@@ -34,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1601026573,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 11416,
+      "lnovel_id": 2761,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1615274033,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -131,6 +138,79 @@
           "chapter_id": 110604,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11416,
+      "id": 11416,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 114827,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114828,
+          "chapter_name": "第十话 宣告动荡的书信",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114829,
+          "chapter_name": "第十一话 汀巴尔王国学院",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114830,
+          "chapter_name": "第十二话 罗威尔的别名",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114831,
+          "chapter_name": "第十三话 精灵的恩惠",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 114832,
+          "chapter_name": "第十四话 学院长的儿子",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 114833,
+          "chapter_name": "第十五话 休姆",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 114834,
+          "chapter_name": "第十六话 救援作战",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 114835,
+          "chapter_name": "第十七话 虎之耳",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 114836,
+          "chapter_name": "第十八话 预兆",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 114837,
+          "chapter_name": "第十九话 潜藏在学院的东西",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 114838,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 114882,
+          "chapter_name": "插画",
+          "chapter_order": 130
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "只有我能进入的隐藏迷宫～低调锻炼化身世界最强～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11369,
-  "last_update_chapter_id": 114279,
-  "last_update_time": 1613380458,
-  "cover": "https://xs.dmzj1.com/img/webpic/26/yc1215l.jpg",
-  "hot_hits": 1818761,
+  "last_update_volume_id": 11459,
+  "last_update_chapter_id": 115449,
+  "last_update_time": 1616929064,
+  "cover": "http://xs.dmzj.com/img/webpic/26/yc1215l.jpg",
+  "hot_hits": 2031857,
   "introduction": "　　藏匿了大量稀有魔物和稀奇宝物的传说之地──隐藏迷宫。失业的贫穷贵族三男‧诺尔，幸运地开启了该座隐藏迷宫的入口。在隐藏迷宫中，诺尔学会了创作、赋予和编辑技能的能力。除此之外，使用这项技能时，竟然需要「吃好吃的食物」或是「与容貌出色的异性进行亲密接触」，以储存必要的点数……？「只有我能进入的隐藏迷宫，低调锻炼化身世界最强！」超人气奇幻故事不负期待，在追加新撰篇章后堂堂书籍化！",
   "types": [
     "冒险",
@@ -17,8 +17,7 @@
   ],
   "authors": "濑户メグル",
   "first_letter": "Z",
-  "subscribe_num": 46142,
-  "redis_update_time": 1614550284,
+  "subscribe_num": 51435,
   "volume": [
     {
       "id": 9839,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1544868382,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 10780,
@@ -34,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1587129723,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 11026,
@@ -42,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1596448619,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 11369,
@@ -50,7 +49,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1613379737,
-      "sum_chapters": 12
+      "sum_chapters": 15
+    },
+    {
+      "id": 11459,
+      "lnovel_id": 2597,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1616928480,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -678,6 +685,64 @@
           "chapter_id": 114279,
           "chapter_name": "插画",
           "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 11459,
+      "id": 11459,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 115440,
+          "chapter_name": "1话 只有我留下",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115441,
+          "chapter_name": "2话 名叫艾斯的男人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115442,
+          "chapter_name": "3话 善与恶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115443,
+          "chapter_name": "4话 我回来了！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115444,
+          "chapter_name": "5话 相亲与竞技场",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115445,
+          "chapter_name": "6话 小矮人与复制体",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115446,
+          "chapter_name": "7话 假奥莉薇",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115447,
+          "chapter_name": "番外篇 跨越悠久的时光",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115448,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 115449,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

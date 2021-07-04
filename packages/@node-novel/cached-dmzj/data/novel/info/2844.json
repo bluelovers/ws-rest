@@ -3,13 +3,13 @@
   "name": "创约 魔法禁书目录",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11222,
-  "last_update_chapter_id": 112110,
-  "last_update_time": 1605439944,
-  "cover": "https://xs.dmzj.com/img/webpic/13/cy0403l.jpg",
-  "hot_hits": 120684,
+  "last_update_volume_id": 11501,
+  "last_update_chapter_id": 116000,
+  "last_update_time": 1618832354,
+  "cover": "http://xs.dmzj.com/img/webpic/13/cy0403l.jpg",
+  "hot_hits": 176527,
   "introduction": "《魔法禁书目录》系列的第三部\n超越新约，开创新的时代！“创约”篇，开幕！！\n科学与魔法交错的世界。\n这里是进行超能力课程教学的学园都市。这座总人口里有八成为学生的城市，终于迎来了所有人都心跳不已的季节！\n圣诞平安夜。\n在城市欢快的喧闹声中，平凡的掉队少年上条当麻为了赶上这个节日，不得不忙于完成补习授课……。\n但是受到不幸体质的眷顾，寄住于宿舍的银发修女茵蒂克丝在与往常日子不同的节日氛围影响下，开启了全新的贪吃鬼技能！？\n在拼死阻止她的上条面前，出现了同样被气氛影响的御坂美琴！？、\n“创约”篇在此华丽开幕！！",
   "types": [
     "爱情",
@@ -19,8 +19,7 @@
   ],
   "authors": "镰池和马",
   "first_letter": "C",
-  "subscribe_num": 19142,
-  "redis_update_time": 1607635588,
+  "subscribe_num": 24376,
   "volume": [
     {
       "id": 10862,
@@ -28,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1589711764,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11221,
@@ -36,7 +35,7 @@
       "volume_name": "短篇",
       "volume_order": 20,
       "addtime": 1605438455,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11222,
@@ -44,7 +43,15 @@
       "volume_name": "第二卷",
       "volume_order": 30,
       "addtime": 1605438481,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 11501,
+      "lnovel_id": 2844,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "addtime": 1618830498,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -177,6 +184,79 @@
         },
         {
           "chapter_id": 112110,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 11501,
+      "id": 11501,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 115953,
+          "chapter_name": "序章 掀开巨石所见之景 OP.\"Hand_Cuffs\"",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115954,
+          "chapter_name": "第一章 被剜开的疮痂 City_Warfare.",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115955,
+          "chapter_name": "行间一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115956,
+          "chapter_name": "第二章 “暗部”Ghost,Android,and…",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115957,
+          "chapter_name": "行间二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115958,
+          "chapter_name": "第三章 学园都市最大的禁忌Safety_Zero,Control_Free.",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115959,
+          "chapter_name": "行间三",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115960,
+          "chapter_name": "第四章 魔王之子the_LIGHT.",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115961,
+          "chapter_name": "行间四",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 115962,
+          "chapter_name": "终章 新生之暗，其啼高远Over_the_C.Point,Now.",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 115963,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 115964,
+          "chapter_name": "？？？？？",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 116000,
           "chapter_name": "插画",
           "chapter_order": 130
         }

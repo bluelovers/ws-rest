@@ -3,13 +3,13 @@
   "name": "魔弹之王与冻涟的雪姬",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "特典小册子",
-  "last_update_volume_id": 10653,
-  "last_update_chapter_id": 113911,
-  "last_update_time": 1612008508,
-  "cover": "https://xs.dmzj1.com/img/webpic/20/mdzwxj0416l.jpg",
-  "hot_hits": 469555,
+  "last_update_volume_name": "插画",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11462,
+  "last_update_chapter_id": 115522,
+  "last_update_time": 1617118939,
+  "cover": "http://xs.dmzj.com/img/webpic/20/mdzwxj0416l.jpg",
+  "hot_hits": 515242,
   "introduction": "川口士新作《魔弹之王与冻涟的雪姬》，露利叶家的曾祖母四代都是战姬，负责管辖著在莱德梅里兹南部、墨吉涅王国北部的奥尔米兹公国。",
   "types": [
     "魔法",
@@ -18,8 +18,7 @@
   ],
   "authors": "川口士",
   "first_letter": "M",
-  "subscribe_num": 30523,
-  "redis_update_time": 1614550288,
+  "subscribe_num": 32009,
   "volume": [
     {
       "id": 10058,
@@ -27,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555419634,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 10059,
@@ -35,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1555419932,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 10282,
@@ -43,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1565526175,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 10653,
@@ -51,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1583392047,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 11002,
@@ -59,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1595465874,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 11298,
@@ -67,7 +66,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1609496287,
-      "sum_chapters": 12
+      "sum_chapters": 15
+    },
+    {
+      "id": 11462,
+      "lnovel_id": 2648,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1617117899,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -426,6 +433,59 @@
           "chapter_id": 113302,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11462,
+      "id": 11462,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 115496,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115497,
+          "chapter_name": "第一章 再起",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115498,
+          "chapter_name": "第二章 赤狼的红矢",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115499,
+          "chapter_name": "第三章 开始行动的人们",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115500,
+          "chapter_name": "第四章 妖婆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115501,
+          "chapter_name": "第五章 对决",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115502,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115503,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115522,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

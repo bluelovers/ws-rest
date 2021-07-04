@@ -3,21 +3,20 @@
   "name": "被虐的诺艾儿 Movement",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 falling down",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10663,
-  "last_update_chapter_id": 104194,
-  "last_update_time": 1583669154,
-  "cover": "https://xs.dmzj.com/img/webpic/8/bn1221l.jpg",
-  "hot_hits": 23240,
+  "last_update_volume_id": 11463,
+  "last_update_chapter_id": 115523,
+  "last_update_time": 1617119032,
+  "cover": "http://xs.dmzj.com/img/webpic/8/bn1221l.jpg",
+  "hot_hits": 51834,
   "introduction": "　　诺艾儿．切尔奎帝随时随地都必须位居第一。\n　　虽然以众所瞩目的名门千金之姿挑战钢琴比赛，诺艾儿却输给友人吉莉安，没能夺得冠军。\n　　失意的诺艾儿受到市长巴洛斯教唆，为了改变人生而召唤恶魔。\n　　「大恶魔卡隆应召唤仪式，在此现身。」\n　　作为实现愿望的「代价」，诺艾儿被夺去手脚才终于发现自己遭到市长欺骗。\n　　而漆黑的大恶魔卡隆也对自己被巴洛斯欺骗且利用一事感到愤怒。　　\n　　「救救我──」\n　　卡隆听取了在绝望深渊中濒临死亡的诺艾儿所许下的「第二个愿望」，建议她向巴洛斯复仇。\n　　对卡隆半信半疑的诺艾儿与他一起对抗巴洛斯，经历朋友受到威胁，自己也受伤的事件，她终于得知真相，\n　　并下定决心以名叫「被虐的诺艾儿」的「一介魔女」身分战斗到底──",
   "types": [
     "奇幻"
   ],
   "authors": "诸口正巳",
   "first_letter": "B",
-  "subscribe_num": 3513,
-  "redis_update_time": 1583712009,
+  "subscribe_num": 6581,
   "volume": [
     {
       "id": 10507,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1576922883,
-      "sum_chapters": 8
+      "sum_chapters": 15
     },
     {
       "id": 10663,
@@ -33,7 +32,15 @@
       "volume_name": "第二卷 falling down",
       "volume_order": 20,
       "addtime": 1583667541,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 11463,
+      "lnovel_id": 2769,
+      "volume_name": "第三卷 Family of “VERDE”",
+      "volume_order": 30,
+      "addtime": 1617118099,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -185,6 +192,69 @@
           "chapter_id": 104194,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 11463,
+      "id": 11463,
+      "volume_name": "第三卷 Family of “VERDE”",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 115504,
+          "chapter_name": "Passage 1 俘虏",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115505,
+          "chapter_name": "Passage 2 家族",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115506,
+          "chapter_name": "Passage 3 夺回",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115507,
+          "chapter_name": "Passage 4 堕天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115508,
+          "chapter_name": "Intermezzo",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115509,
+          "chapter_name": "Passage 5 赌场",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115510,
+          "chapter_name": "Passage 6 孤独",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115511,
+          "chapter_name": "Passage 7 命运",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115512,
+          "chapter_name": "The banks of the Acheron 3",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 115513,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 115523,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

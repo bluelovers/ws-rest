@@ -3,13 +3,13 @@
   "name": "好感度120%的北条同学似乎愿意为我做任何事……",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10936,
-  "last_update_chapter_id": 107720,
-  "last_update_time": 1592659131,
-  "cover": "https://xs.dmzj.com/img/webpic/22/hgd0620l.jpg",
-  "hot_hits": 55330,
+  "last_update_volume_id": 11552,
+  "last_update_chapter_id": 116697,
+  "last_update_time": 1621781240,
+  "cover": "http://xs.dmzj.com/img/webpic/22/hgd0620l.jpg",
+  "hot_hits": 227361,
   "introduction": "我能够看见『别人对我的好感度』。话虽如此，大多数人都是止于『点头之交』的40％左右，但是才貌双全的千金小姐转学生‧北条朱雀──对我的好感度居然高达120％!?\n在班上总是表现得很端庄的北条，在我面前却是无比主动!!她没事就跟我说「我只是想要握住你的手而已」，或是「我想要让你欣赏我的ＣＯＳＰＬＡＹ打扮」。即使我和班上的现充女孩成为好朋友，她也只是轻描淡写地说了一句：「你想和谁交朋友是你的自由。毕竟我深深地爱著你就好。」完全没把这当成一回事!!而且，面对我提出的『无理要求』，北条居然真的愿意听从!?甚至斩钉截铁地表示：「如果这就是你的愿望的话，我没有理由不听从。」和好感度突破极限的通通肯定系女孩，共谱甜蜜的学园爱情喜剧!!",
   "types": [
     "搞笑",
@@ -18,8 +18,7 @@
   ],
   "authors": "本田セカイ",
   "first_letter": "H",
-  "subscribe_num": 4939,
-  "redis_update_time": 1592786385,
+  "subscribe_num": 15571,
   "volume": [
     {
       "id": 10936,
@@ -27,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1592658744,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 11552,
+      "lnovel_id": 2882,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1621779940,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -96,6 +103,64 @@
           "chapter_id": 107720,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11552,
+      "id": 11552,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 116656,
+          "chapter_name": "班会时间 即使没有舞台，她们依然会翩翩起舞",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 116657,
+          "chapter_name": "第一堂课 创作漫画，就是他们贯彻顶天立地的生存之道的方式",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 116658,
+          "chapter_name": "第二堂课 屋漏偏逢连夜雨，船迟又遇打头风",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 116659,
+          "chapter_name": "第三堂课 在确立明确目标后，接下来就是恋爱的八卦话题",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 116660,
+          "chapter_name": "第四堂课 对至高无上的追求，才是创作故事的关键",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 116661,
+          "chapter_name": "第五堂课 想保住现代历史文学研究会，就必须在这场阵地战获胜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 116662,
+          "chapter_name": "第六堂课 带给她们幸福的人，自己也会跟著变幸福",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 116663,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 116664,
+          "chapter_name": "特典 北条朱雀想让龙田光COSPLAY",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 116697,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

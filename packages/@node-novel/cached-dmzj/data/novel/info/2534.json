@@ -3,13 +3,13 @@
   "name": "不是真正同伴的我被逐出了勇者队伍，因此决定在边境过上慢生活",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10803,
-  "last_update_chapter_id": 105873,
-  "last_update_time": 1587817051,
-  "cover": "https://xs.dmzj.com/img/webpic/13/bj0812l.jpg",
-  "hot_hits": 2297000,
+  "last_update_volume_id": 11427,
+  "last_update_chapter_id": 114951,
+  "last_update_time": 1615557506,
+  "cover": "http://xs.dmzj.com/img/webpic/13/bj0812l.jpg",
+  "hot_hits": 3176314,
   "introduction": "自魔王的侵略使人类陷入危机时，从人类中诞生了勇者为起端。在这个世界里，所有人都有着自己的职责，主人公有着守护勇者的「引导者」之加护的力量，但因某个理由而被赶出了勇者队伍。",
   "types": [
     "异界",
@@ -19,8 +19,7 @@
   ],
   "authors": "ざっぽん",
   "first_letter": "B",
-  "subscribe_num": 59320,
-  "redis_update_time": 1587946852,
+  "subscribe_num": 76866,
   "volume": [
     {
       "id": 9624,
@@ -28,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1534062332,
-      "sum_chapters": 9
+      "sum_chapters": 15
     },
     {
       "id": 9686,
@@ -36,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1537181241,
-      "sum_chapters": 9
+      "sum_chapters": 15
     },
     {
       "id": 10230,
@@ -44,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1563101807,
-      "sum_chapters": 9
+      "sum_chapters": 15
     },
     {
       "id": 10262,
@@ -52,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1564755782,
-      "sum_chapters": 9
+      "sum_chapters": 15
     },
     {
       "id": 10768,
@@ -60,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1586597916,
-      "sum_chapters": 9
+      "sum_chapters": 15
     },
     {
       "id": 10803,
@@ -68,7 +67,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1587816740,
-      "sum_chapters": 9
+      "sum_chapters": 15
+    },
+    {
+      "id": 11427,
+      "lnovel_id": 2534,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1615556940,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -455,6 +462,74 @@
         },
         {
           "chapter_id": 105873,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11427,
+      "id": 11427,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 114940,
+          "chapter_name": "Prologue 即便如此世界仍旧需要勇者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114941,
+          "chapter_name": "第一章 今天下雨，明天洗澡",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114942,
+          "chapter_name": "幕间 米斯菲亚的航海日志",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114943,
+          "chapter_name": "第二章 与莉琳拉拉的对决",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114944,
+          "chapter_name": "第三章 被揭露的秘密",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 114945,
+          "chapter_name": "幕间 少年与毒妇",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 114946,
+          "chapter_name": "第四章 佐尔坦丢脸的英雄们",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 114947,
+          "chapter_name": "第五章 无垢的毒妇",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 114948,
+          "chapter_name": "第六章 然后世界又多少和平了一些",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 114949,
+          "chapter_name": "Epilogue 来开始勇者的冒险吧",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 114950,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 114951,
           "chapter_name": "插画",
           "chapter_order": 120
         }

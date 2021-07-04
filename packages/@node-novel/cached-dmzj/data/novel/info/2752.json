@@ -3,13 +3,13 @@
   "name": "转生王女和天才千金的魔法革命",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11155,
-  "last_update_chapter_id": 111270,
-  "last_update_time": 1602826277,
-  "cover": "https://xs.dmzj.com/img/webpic/22/zswn1230l.jpg",
-  "hot_hits": 469879,
+  "last_update_volume_id": 11534,
+  "last_update_chapter_id": 116406,
+  "last_update_time": 1620487237,
+  "cover": "http://xs.dmzj.com/img/webpic/22/zswn1230l.jpg",
+  "hot_hits": 699157,
   "introduction": "接下来将要述说的，是某个王国王女的故事。\n这是以憧憬魔法的王女恢复了前世的记忆为起始的故事。\n时而顽皮闹事，时而惹人心往，不断追求着魔法的魅力和真理。\n接下来，就是物语的开始。",
   "types": [
     "穿越",
@@ -17,8 +17,7 @@
   ],
   "authors": "鸦ぴえろ",
   "first_letter": "Z",
-  "subscribe_num": 23237,
-  "redis_update_time": 1607636286,
+  "subscribe_num": 31569,
   "volume": [
     {
       "id": 10451,
@@ -26,7 +25,7 @@
       "volume_name": "web版",
       "volume_order": 10,
       "addtime": 1574234299,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10865,
@@ -34,7 +33,7 @@
       "volume_name": "第一卷",
       "volume_order": 20,
       "addtime": 1589805522,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11155,
@@ -42,7 +41,15 @@
       "volume_name": "第二卷",
       "volume_order": 30,
       "addtime": 1601716764,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 11534,
+      "lnovel_id": 2752,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "addtime": 1620486138,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -237,6 +244,84 @@
           "chapter_id": 111270,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11534,
+      "id": 11534,
+      "volume_name": "第三卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 116344,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 116345,
+          "chapter_name": "第一章 忧愁不散",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 116346,
+          "chapter_name": "第二章 私访城下町",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 116347,
+          "chapter_name": "第三章 母为女担忧",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 116348,
+          "chapter_name": "第四章 被提示的选项",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 116349,
+          "chapter_name": "第五章 精灵契约者的少女",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 116350,
+          "chapter_name": "第六章 不希望的决意",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 116351,
+          "chapter_name": "第七章 不愿直面之物",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 116352,
+          "chapter_name": "第八章 这个魔法是为了谁",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 116353,
+          "chapter_name": "第九章 假面脱落",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 116354,
+          "chapter_name": "第十章 为了自由的明天",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 116355,
+          "chapter_name": "第十一章 起始的魔法",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 116356,
+          "chapter_name": "尾声",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 116406,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

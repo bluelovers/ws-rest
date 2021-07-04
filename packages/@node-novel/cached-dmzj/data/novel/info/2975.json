@@ -3,13 +3,13 @@
   "name": "梅蒂亚转生物语",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 世上最邪恶的魔女",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11275,
-  "last_update_chapter_id": 113018,
-  "last_update_time": 1608126755,
-  "cover": "https://xs.dmzj1.com/img/webpic/22/zswy1216l.jpg",
-  "hot_hits": 35200,
+  "last_update_volume_id": 11578,
+  "last_update_chapter_id": 117005,
+  "last_update_time": 1622890626,
+  "cover": "http://xs.dmzj.com/img/webpic/22/zswy1216l.jpg",
+  "hot_hits": 60340,
   "introduction": "　　「梅蒂亚」，魔法真实存在的世界。\n　　身为「世上最邪恶魔女」后裔的贵族千金玛琪雅，在命运的邂逅中，买下了奴隶少年托尔，两人建立起亲密情谊。然而在流星雨之夜过后，托尔被选为守护者，必须效忠来自异世界的「救世主少女」。\n　　托尔的离去让玛琪雅大受打击，不过，只要前往位于王都的魔法学校就读，有机会再见到托尔一面。\n　　为了传达自身心意，玛琪雅考上最顶尖的魔法学府，怀抱著前世破碎的记忆踏上旅程……\n　　少女与少年并不知道，\n　　彼此的相遇，将会在未来彻底改写历史。\n　　──梅蒂亚转生物语，揭开序幕！",
   "types": [
     "魔法",
@@ -17,8 +17,7 @@
   ],
   "authors": "友麻碧",
   "first_letter": "M",
-  "subscribe_num": 3656,
-  "redis_update_time": 1614549506,
+  "subscribe_num": 5159,
   "volume": [
     {
       "id": 11275,
@@ -26,7 +25,15 @@
       "volume_name": "第一卷 世上最邪恶的魔女",
       "volume_order": 10,
       "addtime": 1608125724,
-      "sum_chapters": 12
+      "sum_chapters": 15
+    },
+    {
+      "id": 11578,
+      "lnovel_id": 2975,
+      "volume_name": "第二卷 世上最无惧的救世主",
+      "volume_order": 20,
+      "addtime": 1622882750,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -110,6 +117,74 @@
           "chapter_id": 113018,
           "chapter_name": "插画",
           "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 11578,
+      "id": 11578,
+      "volume_name": "第二卷 世上最无惧的救世主",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 116966,
+          "chapter_name": "第一话 最后一人",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 116967,
+          "chapter_name": "第二话 救世主的守护者们（上）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 116968,
+          "chapter_name": "第三话 救世主的守护者们（下）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 116969,
+          "chapter_name": "第四话 新学期与马铃薯专题研究",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 116970,
+          "chapter_name": "第五话 小丑事件",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 116971,
+          "chapter_name": "第六话 学园岛迷宫历险（上）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 116972,
+          "chapter_name": "第七话 学园岛迷宫历险（下）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 116973,
+          "chapter_name": "第八话 晚会上的少女们",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 116974,
+          "chapter_name": "第九话 蓝色真实",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 116975,
+          "chapter_name": "第十话 黄金之风吹拂",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 116976,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 117005,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }

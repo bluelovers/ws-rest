@@ -3,21 +3,20 @@
   "name": "声优广播的台前幕后",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 夕阳与安美放不下声优？",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11391,
-  "last_update_chapter_id": 114533,
-  "last_update_time": 1614434692,
-  "cover": "https://xs.dmzj1.com/img/webpic/13/sy0227l.jpg",
-  "hot_hits": 1965,
+  "last_update_volume_id": 11521,
+  "last_update_chapter_id": 116224,
+  "last_update_time": 1619786189,
+  "cover": "http://xs.dmzj.com/img/webpic/13/sy0227l.jpg",
+  "hot_hits": 37701,
   "introduction": "辣妹和土妹子在放学后是超清纯派的偶像声优!?\n　「夕阳和！」「安美的！」「「高中生广播！」」\n　　偶然就读同一所高中、亲近的声优组合将教师的气氛原样放送，舒心的广播节目要开始啦！\n　　但是，两位主播的素颜，是和偶像声优完全相反，相性最坏的辣妹×阴暗土妹!?\n　「……怎么这么耀眼。真是不同得让人惊讶啊『夕暮夕阳』，平时的阴暗去哪了？」\n　「……你才是，真希望你别再用那个看上去脑子不好使的外表发出『歌种安美』的可爱声音啊」\n　　表面亲近，背后是修罗场，录音结束后是互喷的风暴！绝对没法这这种家伙组合，但是播送不等人…！\n　　用专业的毅力欺骗世界吧！一暴露就结束的青春声优娱乐节目，NOW ON AIR!!",
   "types": [
     "校园"
   ],
   "authors": "二月公",
   "first_letter": "S",
-  "subscribe_num": 438,
-  "redis_update_time": 1614548948,
+  "subscribe_num": 3220,
   "volume": [
     {
       "id": 11390,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷 夕阳与安美藏不住真心",
       "volume_order": 10,
       "addtime": 1614433381,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 11391,
@@ -33,7 +32,23 @@
       "volume_name": "第二卷 夕阳与安美放不下声优？",
       "volume_order": 20,
       "addtime": 1614433588,
-      "sum_chapters": 12
+      "sum_chapters": 15
+    },
+    {
+      "id": 11401,
+      "lnovel_id": 3006,
+      "volume_name": "第三卷 夕阳与安美想要突破？",
+      "volume_order": 30,
+      "addtime": 1614768757,
+      "sum_chapters": 15
+    },
+    {
+      "id": 11521,
+      "lnovel_id": 3006,
+      "volume_name": "第四卷 夕阳与安美想要帮忙？",
+      "volume_order": 40,
+      "addtime": 1619785915,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -153,6 +168,117 @@
         },
         {
           "chapter_id": 114533,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11401,
+      "id": 11401,
+      "volume_name": "第三卷 夕阳与安美想要突破？",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 114682,
+          "chapter_name": "第34回～夕阳与安美与再会与～",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114683,
+          "chapter_name": "第35回～夕阳与安美与不开心与～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114684,
+          "chapter_name": "第36回～夕阳与安美与超级难题？～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114685,
+          "chapter_name": "第37回～夕阳与安美与圣诞～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114686,
+          "chapter_name": "第39回～夕阳与安美与合作活动？～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 114687,
+          "chapter_name": "第41回～夕阳与安美与芽来与乙女～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 114688,
+          "chapter_name": "第44回～夕阳与安美与录音与～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 114689,
+          "chapter_name": "第46回～夕阳与安美想要突破～",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 114690,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 114704,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11521,
+      "id": 11521,
+      "volume_name": "第四卷 夕阳与安美想要帮忙？",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 116216,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 116217,
+          "chapter_name": "第47回～夕阳与安美与休学旅行～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 116218,
+          "chapter_name": "第48回～夕阳与安美不在状态？～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 116219,
+          "chapter_name": "第49回～夕阳与安美与火锅派对～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 116220,
+          "chapter_name": "第50回～夕阳与安美与消失的前辈～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 116221,
+          "chapter_name": "第51回～夕阳与安美想要传达？～",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 116222,
+          "chapter_name": "第52回～夕阳与安美想要帮忙～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 116223,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 116224,
           "chapter_name": "插画",
           "chapter_order": 90
         }

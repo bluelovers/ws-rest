@@ -3,13 +3,13 @@
   "name": "圣女魔力无所不能",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10651,
-  "last_update_chapter_id": 104066,
-  "last_update_time": 1583392452,
-  "cover": "https://xs.dmzj.com/img/webpic/27/sn0408l.jpg",
-  "hot_hits": 428628,
+  "last_update_volume_id": 11598,
+  "last_update_chapter_id": 117300,
+  "last_update_time": 1624710915,
+  "cover": "http://xs.dmzj.com/img/webpic/27/sn0408l.jpg",
+  "hot_hits": 720224,
   "introduction": "工作狂加班回家竟然被异世界召唤成为圣女！？",
   "types": [
     "异界",
@@ -18,8 +18,7 @@
   ],
   "authors": "橘由华",
   "first_letter": "S",
-  "subscribe_num": 16589,
-  "redis_update_time": 1583460003,
+  "subscribe_num": 24744,
   "volume": [
     {
       "id": 9347,
@@ -27,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1523169052,
-      "sum_chapters": 10
+      "sum_chapters": 15
     },
     {
       "id": 9605,
@@ -35,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1533208588,
-      "sum_chapters": 10
+      "sum_chapters": 15
     },
     {
       "id": 10137,
@@ -43,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1558962953,
-      "sum_chapters": 10
+      "sum_chapters": 15
     },
     {
       "id": 10651,
@@ -51,7 +50,23 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1583390968,
-      "sum_chapters": 10
+      "sum_chapters": 15
+    },
+    {
+      "id": 11423,
+      "lnovel_id": 2466,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1615388275,
+      "sum_chapters": 15
+    },
+    {
+      "id": 11598,
+      "lnovel_id": 2466,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1624709911,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -319,6 +334,127 @@
           "chapter_id": 104066,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11423,
+      "id": 11423,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 114892,
+          "chapter_name": "第一幕 商会",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114893,
+          "chapter_name": "第二幕 舶来品",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114894,
+          "chapter_name": "幕后",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114895,
+          "chapter_name": "第三幕 外国料理",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114896,
+          "chapter_name": "第四幕 日本料理",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 114897,
+          "chapter_name": "幕后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 114898,
+          "chapter_name": "第五幕 亮相",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 114899,
+          "chapter_name": "全新加笔短篇 1",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 114900,
+          "chapter_name": "全新加笔短篇 2",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 114901,
+          "chapter_name": "全新加笔短篇 3",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 114902,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 114904,
+          "chapter_name": "插画",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11598,
+      "id": 11598,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 117279,
+          "chapter_name": "第一幕 来自外国的贵宾",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 117280,
+          "chapter_name": "第二幕 皇子殿下",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 117281,
+          "chapter_name": "幕后",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 117282,
+          "chapter_name": "第三幕 目的",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 117283,
+          "chapter_name": "第四幕 异常状态解除药水",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 117284,
+          "chapter_name": "第五幕 万能药",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 117285,
+          "chapter_name": "短篇故事集",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 117286,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 117300,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

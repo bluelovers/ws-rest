@@ -3,13 +3,13 @@
   "name": "就算是有点色色的三姐妹，你也愿意娶回家吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11253,
-  "last_update_chapter_id": 112689,
-  "last_update_time": 1607091501,
-  "cover": "https://xs.dmzj.com/img/webpic/1/sjm0421l.jpg",
-  "hot_hits": 228547,
+  "last_update_volume_id": 11496,
+  "last_update_chapter_id": 115893,
+  "last_update_time": 1618323669,
+  "cover": "http://xs.dmzj.com/img/webpic/1/sjm0421l.jpg",
+  "hot_hits": 372341,
   "introduction": "　　「和全学最受欢迎的三姐妹住在一起，把她们培育成候补名门新娘吧！」\n　　贫穷高中生的我，一条天真，从极度宠溺女儿的大企业总裁手中接下神秘的打工委托；没想到三姐妹全都有不可告人的兴趣！\n　　「收我为奴隶吧！」雪音小姐，就算你拿出绳子，我也不会绑你喔！\n　　「和我交换内裤吧？」月乃，你眼睛里出现爱心了喔？\n　　「啊哈★被学长看到人家只穿内衣的样子了！」花铃！把衣服穿好！\n　　三姐妹全都想找我发泄性欲……要是被她们的父亲知道这些事，我会被开除的……啊啊，我受不了了！既然如此，我要好好矫正你们的特殊性癖，让你们成为无可挑剔的完美新娘！\n　　同住同一个屋檐下，三倍可爱、三倍香艳的姐妹恋爱喜剧！",
   "types": [
     "搞笑",
@@ -17,8 +17,7 @@
   ],
   "authors": "浅冈旭",
   "first_letter": "J",
-  "subscribe_num": 26466,
-  "redis_update_time": 1607636394,
+  "subscribe_num": 32814,
   "volume": [
     {
       "id": 10790,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1587469572,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11253,
@@ -34,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1607091015,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 11496,
+      "lnovel_id": 2854,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1618315015,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -146,6 +153,54 @@
           "chapter_id": 112689,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11496,
+      "id": 11496,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 115886,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115887,
+          "chapter_name": "第一章 被虐狂总是来得措手不及",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115888,
+          "chapter_name": "第二章 学生会的秘密",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115889,
+          "chapter_name": "第三章 想要成为你的助力",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115890,
+          "chapter_name": "第四章 变态大集合的校庆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115891,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115892,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115893,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

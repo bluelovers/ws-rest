@@ -3,13 +3,13 @@
   "name": "连续按下一亿年按钮的我，回神时已变成最强",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 落第剑士的学院无双",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11218,
-  "last_update_chapter_id": 112049,
-  "last_update_time": 1605355056,
-  "cover": "https://xs.dmzj.com/img/webpic/23/yyn1113l.jpg",
-  "hot_hits": 42185,
+  "last_update_volume_id": 11565,
+  "last_update_chapter_id": 116819,
+  "last_update_time": 1622212486,
+  "cover": "http://xs.dmzj.com/img/webpic/23/yyn1113l.jpg",
+  "hot_hits": 75597,
   "introduction": "　　在剑术学院里，亚连‧罗得尔一直被同学们嘲笑为『落第剑士』。某天，他以退学为赌注，向同班同学──天才剑士德多列提出决斗的要求。正当亚连因没有任何胜算而感到绝望时，偶然得到了名为『一亿年按钮』的道具。那是──「按下后会困在时之世界一亿年」的诅咒按钮！？\n　　不过，亚连反过来利用这点，连续按下十几次按钮。在十几亿年的修练时间中，学到极限的剑技！之后，亚连不但以压倒性的力量战胜德多列，还在剑术大赛中创下优秀的成绩，并因此得到推荐，有机会进入剑术名校『千刃学院』！？\n　　得到最强力量的落第剑士，开始轰动天下！",
   "types": [
     "校园",
@@ -17,8 +17,7 @@
   ],
   "authors": "月岛秀一",
   "first_letter": "L",
-  "subscribe_num": 3317,
-  "redis_update_time": 1607635616,
+  "subscribe_num": 5767,
   "volume": [
     {
       "id": 11218,
@@ -26,7 +25,15 @@
       "volume_name": "第一卷 落第剑士的学院无双",
       "volume_order": 10,
       "addtime": 1605354759,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 11565,
+      "lnovel_id": 2960,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1622211022,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -85,6 +92,49 @@
           "chapter_id": 112049,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11565,
+      "id": 11565,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 116794,
+          "chapter_name": "一：魔剑士与黑之组织",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 116795,
+          "chapter_name": "二：复学与内乱",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 116796,
+          "chapter_name": "三：社团招生与奇妙的集团",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 116797,
+          "chapter_name": "四：夏季集训与相遇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 116798,
+          "chapter_name": "五：维斯堤利亚王国与亲卫队",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 116799,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 116819,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }

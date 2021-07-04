@@ -3,21 +3,20 @@
   "name": "赌博师不会祈祷",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10438,
-  "last_update_chapter_id": 103691,
-  "last_update_time": 1582450505,
-  "cover": "https://xs.dmzj.com/img/webpic/25/db04119l.jpg",
-  "hot_hits": 296319,
+  "last_update_volume_id": 11571,
+  "last_update_chapter_id": 116922,
+  "last_update_time": 1622464463,
+  "cover": "http://xs.dmzj.com/img/webpic/25/db04119l.jpg",
+  "hot_hits": 365002,
   "introduction": "心灵遭受过创伤的奴隶少女和孤独的赌博师。属于笨拙的两人的让人心疼又惹人怜爱的生活。\n  　十八世纪末，伦敦。\n　在赌场惨遭“失败”后，手头多了一大笔钱的年轻赌博师拉扎勒斯，迫于无奈买下了某个商品。\n——那是一名奴隶少女。\n　 嗓子被毒哑、失去声音、失去情感、无论怎么对待都绝不会反抗，仅仅是为了满足主人的性欲而被调教出来的少女。\n　 不能弃这样的丽拉于不顾的拉扎勒斯雇下她作为自己家的女仆，并且教给她各式各样的知识。最开始还不习惯触摸彼此，每次肌肤相接就会不知所措的的两个人也逐渐地心意相通、可是……——紧接而来的却是将两人分隔的悲剧。于是，一个男人，为了保护一名奴隶少女，毅然选择挑战这一生只有一次机会的重大赌局。",
   "types": [
     "爱情"
   ],
   "authors": "周藤莲",
   "first_letter": "D",
-  "subscribe_num": 22690,
-  "redis_update_time": 1582622675,
+  "subscribe_num": 25488,
   "volume": [
     {
       "id": 8615,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1492533900,
-      "sum_chapters": 9
+      "sum_chapters": 15
     },
     {
       "id": 9562,
@@ -33,7 +32,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1531498226,
-      "sum_chapters": 9
+      "sum_chapters": 15
     },
     {
       "id": 10110,
@@ -41,7 +40,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1557840534,
-      "sum_chapters": 9
+      "sum_chapters": 15
     },
     {
       "id": 10438,
@@ -49,7 +48,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1573553144,
-      "sum_chapters": 9
+      "sum_chapters": 15
+    },
+    {
+      "id": 11571,
+      "lnovel_id": 2311,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1622463741,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -257,6 +264,59 @@
           "chapter_id": 103691,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 11571,
+      "id": 11571,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 116901,
+          "chapter_name": "序 迄今为止",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 116902,
+          "chapter_name": "一 神明不掷骰子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 116903,
+          "chapter_name": "二 致命宣言",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 116904,
+          "chapter_name": "三 每个人都嘶喊为了爱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 116905,
+          "chapter_name": "四 自万众孤独中抽离",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 116906,
+          "chapter_name": "终 从今而后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 116907,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 116908,
+          "chapter_name": "无题",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 116922,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

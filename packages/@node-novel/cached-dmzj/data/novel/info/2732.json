@@ -3,13 +3,13 @@
   "name": "乙女游戏世界对路人角色很不友好",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11115,
-  "last_update_chapter_id": 110252,
-  "last_update_time": 1600008350,
-  "cover": "https://xs.dmzj.com/img/webpic/5/ynsj0922l.gif",
-  "hot_hits": 2700791,
+  "last_update_volume_id": 11507,
+  "last_update_chapter_id": 116342,
+  "last_update_time": 1620402562,
+  "cover": "http://xs.dmzj.com/img/webpic/5/ynsj0922l.gif",
+  "hot_hits": 3789838,
   "introduction": "从现代日本转生过去的世界——居然是女尊男卑的世界！？ 「利欧」作为男爵家的三男迎来第二次人生，但是没想到那居然是自己所知道的乙女游戏世界。 那是大地浮在天空上，飞船在天空中来往的幻想世界。 那是个有着名叫冒险者的存在，一切都令人兴奋不已的异世界。 但是，利欧无法好好去享受。 因为那是个女尊男卑很严重的世界，贵族的男性都要为了结婚而恶战苦斗的世界。 邪门歪道的自称路人角色的男主角到处捣乱的游戏系异世界幻想故事！",
   "types": [
     "穿越",
@@ -18,8 +18,7 @@
   ],
   "authors": "三岛与梦",
   "first_letter": "Y",
-  "subscribe_num": 41262,
-  "redis_update_time": 1607635622,
+  "subscribe_num": 50731,
   "volume": [
     {
       "id": 10345,
@@ -27,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1569126047,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10485,
@@ -35,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1576057133,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10606,
@@ -43,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1581583366,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10746,
@@ -51,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1585810219,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10762,
@@ -59,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1586320102,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11115,
@@ -67,7 +66,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1600004360,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 11507,
+      "lnovel_id": 2732,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1619260503,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -666,6 +673,109 @@
           "chapter_id": 110252,
           "chapter_name": "插画",
           "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 11507,
+      "id": 11507,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 116065,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 116066,
+          "chapter_name": "第01话「亲子」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 116067,
+          "chapter_name": "第02话「拉谢尔神圣王国」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 116068,
+          "chapter_name": "第03话「共和国的意地」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 116069,
+          "chapter_name": "第04话「大姐头」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 116070,
+          "chapter_name": "第05话「背叛者」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 116071,
+          "chapter_name": "第06话「革命」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 116072,
+          "chapter_name": "第07话「姐妹吵架」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 116073,
+          "chapter_name": "第08话「亲子的羁绊」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 116074,
+          "chapter_name": "第09话「黑幕」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 116076,
+          "chapter_name": "第10话「最危险的男人」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 116077,
+          "chapter_name": "第11话「Master」",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 116078,
+          "chapter_name": "第12话「骗子」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 116079,
+          "chapter_name": "第13话「报酬」",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 116080,
+          "chapter_name": "尾声",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 116081,
+          "chapter_name": "回忆「伊蒂亚尔的约定」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 116082,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 116083,
+          "chapter_name": "短篇 玛丽艾IF线 其5",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 116342,
+          "chapter_name": "插画",
+          "chapter_order": 190
         }
       ]
     }

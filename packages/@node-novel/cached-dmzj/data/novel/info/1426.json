@@ -3,13 +3,13 @@
   "name": "魔法少女育成计划",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷 JOKERS",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10912,
-  "last_update_chapter_id": 107391,
-  "last_update_time": 1591679319,
-  "cover": "https://xs.dmzj.com/img/webpic/27/mfsnycjh469l.jpg",
-  "hot_hits": 224424,
+  "last_update_volume_id": 11584,
+  "last_update_chapter_id": 117074,
+  "last_update_time": 1623593311,
+  "cover": "http://xs.dmzj.com/img/webpic/27/mfsnycjh469l.jpg",
+  "hot_hits": 258031,
   "introduction": "大人气社交游戏“魔法少女育成计划”是一款以万里挑一的比例创造出真正魔法少女的奇迹的游戏。少女们有幸获得魔法的力量，享受起充实的每一天。可是某一天，运营商发出了一封写有“将增加过头的魔法少女减少到一半”这种单方面内容的通告，十六名魔法少女之间惨烈无情的生存竞赛就此拉开了序幕……\n第2回“这本轻小说真厉害”大奖·栗山千明奖得奖作家远藤浅蜊再次奉上的魔法惊险战斗故事！",
   "types": [
     "魔法",
@@ -18,8 +18,7 @@
   ],
   "authors": "远藤浅蜊",
   "first_letter": "M",
-  "subscribe_num": 10995,
-  "redis_update_time": 1591919894,
+  "subscribe_num": 13133,
   "volume": [
     {
       "id": 5228,
@@ -27,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1366882351,
-      "sum_chapters": 59
+      "sum_chapters": 15
     },
     {
       "id": 7414,
@@ -35,7 +34,7 @@
       "volume_name": "第二卷 restart（前）",
       "volume_order": 20,
       "addtime": 1451118318,
-      "sum_chapters": 59
+      "sum_chapters": 15
     },
     {
       "id": 7653,
@@ -43,7 +42,7 @@
       "volume_name": "第三卷 restart（后）",
       "volume_order": 30,
       "addtime": 1458980493,
-      "sum_chapters": 59
+      "sum_chapters": 15
     },
     {
       "id": 7652,
@@ -51,7 +50,7 @@
       "volume_name": "第四卷 episodes",
       "volume_order": 40,
       "addtime": 1458980474,
-      "sum_chapters": 59
+      "sum_chapters": 15
     },
     {
       "id": 10909,
@@ -59,7 +58,7 @@
       "volume_name": "第五卷 limited 前",
       "volume_order": 50,
       "addtime": 1591675559,
-      "sum_chapters": 59
+      "sum_chapters": 15
     },
     {
       "id": 10910,
@@ -67,7 +66,7 @@
       "volume_name": "第六卷 limited 后",
       "volume_order": 60,
       "addtime": 1591675894,
-      "sum_chapters": 59
+      "sum_chapters": 15
     },
     {
       "id": 10911,
@@ -75,7 +74,7 @@
       "volume_name": "短篇",
       "volume_order": 70,
       "addtime": 1591676301,
-      "sum_chapters": 59
+      "sum_chapters": 15
     },
     {
       "id": 10912,
@@ -83,7 +82,15 @@
       "volume_name": "第七卷 JOKERS",
       "volume_order": 80,
       "addtime": 1591676352,
-      "sum_chapters": 59
+      "sum_chapters": 15
+    },
+    {
+      "id": 11584,
+      "lnovel_id": 1426,
+      "volume_name": "第八卷 ACES",
+      "volume_order": 90,
+      "addtime": 1623592473,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -583,6 +590,84 @@
           "chapter_id": 107391,
           "chapter_name": "插画",
           "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 11584,
+      "id": 11584,
+      "volume_name": "第八卷 ACES",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 117061,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 117062,
+          "chapter_name": "第一章 Hot Start",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 117063,
+          "chapter_name": "幕间",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 117064,
+          "chapter_name": "第二章 为夺取幸运",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 117065,
+          "chapter_name": "幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 117066,
+          "chapter_name": "第三章 在游乐园和我握手",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 117067,
+          "chapter_name": "幕间",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 117068,
+          "chapter_name": "第四章 跑过街道越过山岭",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 117069,
+          "chapter_name": "幕间",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 117070,
+          "chapter_name": "第五章 永别了我的朋友",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 117071,
+          "chapter_name": "幕间",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 117072,
+          "chapter_name": "终章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 117073,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 117074,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

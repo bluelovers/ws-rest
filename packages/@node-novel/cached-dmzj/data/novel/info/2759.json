@@ -3,13 +3,13 @@
   "name": "处刑少女的生存之道",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 于是，她将苏醒",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10483,
-  "last_update_chapter_id": 101412,
-  "last_update_time": 1575886162,
-  "cover": "https://xs.dmzj.com/img/webpic/25/cx1208l.jpg",
-  "hot_hits": 15082,
+  "last_update_volume_id": 11487,
+  "last_update_chapter_id": 115815,
+  "last_update_time": 1618149326,
+  "cover": "http://xs.dmzj.com/img/webpic/25/cx1208l.jpg",
+  "hot_hits": 87782,
   "introduction": "――这是，她为了杀她的故事。\n这个世界上，会有来自异世界日本的『迷途之人』。但是，由于过去迷途之人失控暴走，导致发生世界级的大灾害，因此只要看到他们就有必要杀掉。　\n而在其中，处刑人梅诺，与迷途之人的少女灯里邂逅。梅诺虽然毫不犹豫且冷静彻底地执行任务。然而，本应确实被杀害的灯里，不知为何却平静复活了。无计可施的梅诺，为了寻找杀害不死之身的方法，欺骗灯里与她一起踏上旅途……\n「梅诺酱～走吧！」\n「……好好。我知道了啦。」\n灯里很奇妙地，特别亲近梅诺，而这让梅诺开始心生些许动摇。\n――这是，她为了杀她的故事。",
   "types": [
     "异界",
@@ -18,8 +18,7 @@
   ],
   "authors": "佐藤真登",
   "first_letter": "C",
-  "subscribe_num": 2451,
-  "redis_update_time": 1576133507,
+  "subscribe_num": 10338,
   "volume": [
     {
       "id": 10483,
@@ -27,7 +26,23 @@
       "volume_name": "第一卷 于是，她将苏醒",
       "volume_order": 10,
       "addtime": 1575885768,
-      "sum_chapters": 6
+      "sum_chapters": 15
+    },
+    {
+      "id": 11486,
+      "lnovel_id": 2759,
+      "volume_name": "第二卷 白雾漫天",
+      "volume_order": 20,
+      "addtime": 1618147877,
+      "sum_chapters": 15
+    },
+    {
+      "id": 11487,
+      "lnovel_id": 2759,
+      "volume_name": "第三卷 铁砂之牢",
+      "volume_order": 30,
+      "addtime": 1618148132,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -96,6 +111,127 @@
           "chapter_id": 101412,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11486,
+      "id": 11486,
+      "volume_name": "第二卷 白雾漫天",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 115788,
+          "chapter_name": "Prologue 序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115789,
+          "chapter_name": "第一章 港镇利贝尔",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115790,
+          "chapter_name": "Interlude 幕间",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115791,
+          "chapter_name": "第二章 仍不知晓雾之去向",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115792,
+          "chapter_name": "Interlude 幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115793,
+          "chapter_name": "第三章 晚会上火光闪耀",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115794,
+          "chapter_name": "第四章 白露消散的少女",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115795,
+          "chapter_name": "第五章 鲜血染身的少女",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115796,
+          "chapter_name": "Epilogue 尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 115797,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 115814,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 11487,
+      "id": 11487,
+      "volume_name": "第三卷 铁砂之牢",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 115798,
+          "chapter_name": "Prologue 序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115799,
+          "chapter_name": "一章 背叛者之器",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115800,
+          "chapter_name": "二章 背叛者之瞳",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115801,
+          "chapter_name": "Interlude 幕间",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115802,
+          "chapter_name": "三章 背叛者之心脏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115803,
+          "chapter_name": "四章 背叛者之单臂",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115804,
+          "chapter_name": "五章 背叛者之教典",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115805,
+          "chapter_name": "Epilogue 终场",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115806,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 115815,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

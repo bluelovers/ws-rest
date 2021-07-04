@@ -3,21 +3,20 @@
   "name": "间谍教室",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 《忘我》安妮特",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11248,
-  "last_update_chapter_id": 112618,
-  "last_update_time": 1606822389,
-  "cover": "https://xs.dmzj.com/img/webpic/18/jdjs0911l.jpg",
-  "hot_hits": 56475,
+  "last_update_volume_id": 11550,
+  "last_update_chapter_id": 116655,
+  "last_update_time": 1621594923,
+  "cover": "http://xs.dmzj.com/img/webpic/18/jdjs0911l.jpg",
+  "hot_hits": 114648,
   "introduction": "『阳炎宫·共同生活守则』：\n七个人要同心协力生活。\n外出时要使出全力。\n用一切手段打倒我。\n——世界各国都在利用间谍进行影子战争。\n任务成功率100%，但性格有困难的精明间谍·克劳乌斯，创立了死亡率超过九成的“不可能任务”专门机关——灯。\n但是，被选出的成员是没有实践经验的七位少女。\n毒杀、陷阱、色诱——为了完成任务，少女们唯一留下的手段，就是用欺骗克劳乌斯的手段来战胜敌人。",
   "types": [
     "其它"
   ],
   "authors": "竹町",
   "first_letter": "J",
-  "subscribe_num": 4928,
-  "redis_update_time": 1607636055,
+  "subscribe_num": 9005,
   "volume": [
     {
       "id": 11239,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷《花园》莉莉",
       "volume_order": 10,
       "addtime": 1606144787,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11240,
@@ -33,7 +32,7 @@
       "volume_name": "第二卷《爱女》葛蕾缇",
       "volume_order": 20,
       "addtime": 1606145254,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11248,
@@ -41,7 +40,15 @@
       "volume_name": "第三卷 《忘我》安妮特",
       "volume_order": 30,
       "addtime": 1606822031,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 11550,
+      "lnovel_id": 2934,
+      "volume_name": "第四卷 《梦语》缇娅",
+      "volume_order": 40,
+      "addtime": 1621592811,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -231,6 +238,74 @@
           "chapter_id": 112618,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 11550,
+      "id": 11550,
+      "volume_name": "第四卷 《梦语》缇娅",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 116636,
+          "chapter_name": "序章 紫蚁①",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 116637,
+          "chapter_name": "第1章 集结",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 116638,
+          "chapter_name": "间章 紫蚁②",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 116639,
+          "chapter_name": "第2章 开战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 116640,
+          "chapter_name": "第3章 英雄",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 116641,
+          "chapter_name": "间章 紫蚁③",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 116642,
+          "chapter_name": "第4章 困境",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 116643,
+          "chapter_name": "间章 紫蚁④",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 116644,
+          "chapter_name": "第5章 支配与交涉",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 116645,
+          "chapter_name": "终章 Boss与毕业",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 116646,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 116655,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }

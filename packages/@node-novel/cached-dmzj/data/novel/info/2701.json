@@ -3,13 +3,13 @@
   "name": "乃木坂明日夏的秘密",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10664,
-  "last_update_chapter_id": 104195,
-  "last_update_time": 1583669297,
-  "cover": "https://xs.dmzj.com/img/webpic/12/nmbx0728l.jpg",
-  "hot_hits": 40042,
+  "last_update_volume_id": 11494,
+  "last_update_chapter_id": 115894,
+  "last_update_time": 1618323778,
+  "cover": "http://xs.dmzj.com/img/webpic/12/nmbx0728l.jpg",
+  "hot_hits": 81019,
   "introduction": "　　我的同班同学乃木坂明日夏是秀丽端庄，成绩优秀的学园顶尖偶像。\n　　她是动画、漫画研究会的社员，也精通秋叶原系方面的知识，\n　　不过她有个秘密……\n　　住宿集训、转蛋约会、再加上猜谜大会──！？\n　　明日夏想要与人称「白银星屑」，自小仰慕的姊姊看齐，\n　　而和我一同展开了充满秘密的日子。\n　　秘密的等级从C～SS，此外似乎还有在那之上的稀有类型。\n　　在收集齐全46个秘密之时，亲身经历这些冲击的我则是──\n　　「伪秋叶原系」的女主角和我这名「轻度爱好者」，\n　　谱出一段从奇妙关系展开的次世代秘密爱情喜剧！",
   "types": [
     "爱情",
@@ -17,8 +17,7 @@
   ],
   "authors": "五十岚雄策",
   "first_letter": "N",
-  "subscribe_num": 4642,
-  "redis_update_time": 1583713131,
+  "subscribe_num": 7991,
   "volume": [
     {
       "id": 10251,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1564316595,
-      "sum_chapters": 8
+      "sum_chapters": 15
     },
     {
       "id": 10664,
@@ -34,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1583667947,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 11494,
+      "lnovel_id": 2701,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1618313779,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -131,6 +138,44 @@
           "chapter_id": 104195,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 11494,
+      "id": 11494,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 115870,
+          "chapter_name": "第一话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115871,
+          "chapter_name": "第二话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115872,
+          "chapter_name": "第三话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115873,
+          "chapter_name": "尾声",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115874,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115894,
+          "chapter_name": "插画",
+          "chapter_order": 60
         }
       ]
     }

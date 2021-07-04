@@ -3,13 +3,13 @@
   "name": "被勇者队伍开除的驯兽师，邂逅最强种的猫耳少女",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10158,
-  "last_update_chapter_id": 96748,
-  "last_update_time": 1559791223,
-  "cover": "https://xs.dmzj.com/img/webpic/19/zqm0606l.jpg",
-  "hot_hits": 0,
+  "last_update_volume_id": 11556,
+  "last_update_chapter_id": 116706,
+  "last_update_time": 1621870378,
+  "cover": "http://xs.dmzj.com/img/webpic/19/zqm0606l.jpg",
+  "hot_hits": 354971,
   "introduction": "被开除的驯兽师，邂逅了猫耳萌妹",
   "types": [
     "冒险",
@@ -17,8 +17,7 @@
   ],
   "authors": "深山铃",
   "first_letter": "B",
-  "subscribe_num": 9727,
-  "redis_update_time": 1564335843,
+  "subscribe_num": 25863,
   "volume": [
     {
       "id": 10158,
@@ -26,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1559790686,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 11556,
+      "lnovel_id": 2679,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1621870064,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -100,6 +107,49 @@
           "chapter_id": 96748,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 11556,
+      "id": 11556,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 116700,
+          "chapter_name": "第一章 驯兽师VS·驯兽师",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 116701,
+          "chapter_name": "第二章 城中的黑暗面",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 116702,
+          "chapter_name": "第三章 堕落的骑士团",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 116703,
+          "chapter_name": "第四章 第五位最强种",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 116704,
+          "chapter_name": "第五章 决战",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 116705,
+          "chapter_name": "Epilogue 今后也要在一起",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 116706,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }

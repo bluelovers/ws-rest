@@ -3,13 +3,13 @@
   "name": "我那转生成魔导少女的双剑实在太优秀了",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11208,
-  "last_update_chapter_id": 111862,
-  "last_update_time": 1604908816,
-  "cover": "https://xs.dmzj.com/img/webpic/10/mdsj0817l.jpg",
-  "hot_hits": 62054,
+  "last_update_volume_id": 11436,
+  "last_update_chapter_id": 115066,
+  "last_update_time": 1615904551,
+  "cover": "http://xs.dmzj.com/img/webpic/10/mdsj0817l.jpg",
+  "hot_hits": 99415,
   "introduction": "　　勇翔的目标是成为一流剑士。有一天，他被突然现身道场的神秘男子杀死，就这样转生到异世界！而两把爱刀也跟著勇翔一起转生，变成名叫阳奈和月华的魔导少女！？勇翔好不容易查明杀死自己的凶手是这个世界的魔法使，正决定要把人找出来当面解决时，却因为两位少女莫名的嫉妒──「绝对不准使用除了我们两个以外的刀！」只好放弃持剑战斗，进入魔法学校就读。但是，无法使用魔法的勇翔，只能一直接受阳奈和月华的照顾。最后演变成三个人同居！？在这种纷纷乱乱的状况下，勇翔能够为自己报仇吗！？",
   "types": [
     "异界",
@@ -17,8 +17,7 @@
   ],
   "authors": "岩波零",
   "first_letter": "W",
-  "subscribe_num": 5141,
-  "redis_update_time": 1607634953,
+  "subscribe_num": 7510,
   "volume": [
     {
       "id": 11054,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1597665934,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11208,
@@ -34,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1604842560,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 11436,
+      "lnovel_id": 2923,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1615813354,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -149,6 +156,59 @@
         },
         {
           "chapter_id": 111862,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11436,
+      "id": 11436,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 115042,
+          "chapter_name": "第一章 魔斗会的场地实在太危险了",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115043,
+          "chapter_name": "第二章 魔法温泉的功效实在太特殊了",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115044,
+          "chapter_name": "第三章 这个世界的约会实在太独特了",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115045,
+          "chapter_name": "第四章 下一战的对手实在太强大了",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115046,
+          "chapter_name": "第五章 最终决战实在太突然了",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115047,
+          "chapter_name": "第六章 我的归来实在太突兀了",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115048,
+          "chapter_name": "终章 我的双剑实在太优秀了",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115049,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115066,
           "chapter_name": "插画",
           "chapter_order": 90
         }

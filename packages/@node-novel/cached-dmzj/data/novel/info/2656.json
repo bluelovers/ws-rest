@@ -3,13 +3,13 @@
   "name": "靠废柴技能【状态异常】成为最强的我将蹂躏一切",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11131,
-  "last_update_chapter_id": 110475,
-  "last_update_time": 1600664421,
-  "cover": "https://xs.dmzj.com/img/webpic/11/zt0503l.jpg",
-  "hot_hits": 2006716,
+  "last_update_volume_id": 11449,
+  "last_update_chapter_id": 115353,
+  "last_update_time": 1616502341,
+  "cover": "http://xs.dmzj.com/img/webpic/11/zt0503l.jpg",
+  "hot_hits": 2433820,
   "introduction": "　　有「背景人物」之称的高中生三森灯河，和同班同学一起被召唤到异世界。同学陆续获得A级、S级的勇者身分，却只有灯河一个人是最低等的E级。而且他取得的技能，是在这个世界被视为「废柴」的【状态异常】。灯河被女神薇希斯拋弃到生存机率零的遗迹后，尽管面临绝望的地狱处境，依旧善用自身技能蹂躏著魔物。在暗不见光的沉沦漆黑之中，灯河的心中只有一股意念──\n　　「等我活著回去──你就认命吧。」\n　　原本一心扮演背景人物的E级勇者，一路攀上绝对最强地位的逆袭故事，就此开幕！",
   "types": [
     "异界",
@@ -17,8 +17,7 @@
   ],
   "authors": "筱崎芳",
   "first_letter": "K",
-  "subscribe_num": 38703,
-  "redis_update_time": 1607635890,
+  "subscribe_num": 44502,
   "volume": [
     {
       "id": 10085,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1556884579,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10356,
@@ -34,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1569847789,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10521,
@@ -42,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1577355425,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10627,
@@ -50,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1582364981,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11131,
@@ -58,7 +57,15 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1600663585,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 11449,
+      "lnovel_id": 2656,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1616495930,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -449,6 +456,64 @@
           "chapter_id": 110475,
           "chapter_name": "插画",
           "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 11449,
+      "id": 11449,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 115314,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115315,
+          "chapter_name": "1.匿迹之人回归",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115316,
+          "chapter_name": "2.别离与启程",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115317,
+          "chapter_name": "3.Dark",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115318,
+          "chapter_name": "4.Bright",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115319,
+          "chapter_name": "5.弒杀一切的恶魔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115320,
+          "chapter_name": "末章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115321,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115322,
+          "chapter_name": "特典 战场浅葱，在学园内",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 115353,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

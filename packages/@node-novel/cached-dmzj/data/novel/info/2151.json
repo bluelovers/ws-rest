@@ -3,13 +3,13 @@
   "name": "动手建造迷宫吧",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 别宅在家里了，魔王大人！",
-  "last_update_chapter_name": "任务25【魔王前往帝国】",
-  "last_update_volume_id": 8845,
-  "last_update_chapter_id": 79262,
-  "last_update_time": 1504669631,
-  "cover": "https://xs.dmzj.com/img/webpic/27/dsjzmgb68934l.jpg",
-  "hot_hits": 218602,
+  "last_update_volume_name": "插画",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11473,
+  "last_update_chapter_id": 115640,
+  "last_update_time": 1617634333,
+  "cover": "http://xs.dmzj.com/img/webpic/27/dsjzmgb68934l.jpg",
+  "hot_hits": 297448,
   "introduction": "世界征服？ 哈……今时的魔王才不干!! 意识到的时候，我作为刚出生的魔王身在迷宫的玉座之间。在魔导书的引导下向着魔王道勇往直前……这样的才不去做，摸索平和的美食家生活。就像要粉碎那个细小的愿望那样，众多的敌人接连袭来。新时代的悠闲系迷宫魔王谭，终于开始筑造!!",
   "types": [
     "搞笑",
@@ -18,8 +18,7 @@
   ],
   "authors": "渡良濑ユウ",
   "first_letter": "D",
-  "subscribe_num": 7605,
-  "redis_update_time": 1564344468,
+  "subscribe_num": 9101,
   "volume": [
     {
       "id": 7891,
@@ -27,7 +26,7 @@
       "volume_name": "第一卷 别只顾着吃，上工吧！魔王大人！",
       "volume_order": 10,
       "addtime": 1465558290,
-      "sum_chapters": 8
+      "sum_chapters": 15
     },
     {
       "id": 8845,
@@ -35,7 +34,23 @@
       "volume_name": "第二卷 别宅在家里了，魔王大人！",
       "volume_order": 20,
       "addtime": 1500471315,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 11469,
+      "lnovel_id": 2151,
+      "volume_name": "第三卷 巩固防御啊，魔王大人！",
+      "volume_order": 30,
+      "addtime": 1617443916,
+      "sum_chapters": 15
+    },
+    {
+      "id": 11473,
+      "lnovel_id": 2151,
+      "volume_name": "第四卷 别再打了，来过幸福生活吧，魔王大人！",
+      "volume_order": 40,
+      "addtime": 1617629868,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -207,6 +222,222 @@
           "chapter_id": 79262,
           "chapter_name": "任务25【魔王前往帝国】",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11469,
+      "id": 11469,
+      "volume_name": "第三卷 巩固防御啊，魔王大人！",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 115567,
+          "chapter_name": "任务31「路易丝的烦恼」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115568,
+          "chapter_name": "任务32「魔法的使用方式」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115569,
+          "chapter_name": "任务33「魔王的传令」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115570,
+          "chapter_name": "任务34「魔王、前往安达鲁」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115571,
+          "chapter_name": "任务35「帝国皇帝」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115572,
+          "chapter_name": "任务36「魔王的外交」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115573,
+          "chapter_name": "任务37「第一个朋友」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115574,
+          "chapter_name": "任务38「矮人多敦」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115575,
+          "chapter_name": "任务39「依芙莉娜 VS 艾莉丝」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 115576,
+          "chapter_name": "任务40「到迷宫来玩吧」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 115577,
+          "chapter_name": "任务41「战斧丹的逃亡之旅」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 115578,
+          "chapter_name": "任务42「卡尔内亚公国」",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 115579,
+          "chapter_name": "幕间5「路易丝的危机」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 115580,
+          "chapter_name": "幕间6「皇帝的归国」",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 115581,
+          "chapter_name": "幕间7「剑圣归来」",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 115582,
+          "chapter_name": "任务43「变化」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 115583,
+          "chapter_name": "幕间8「丝兹莉的受难记」",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 115584,
+          "chapter_name": "任务44「东奔西走」",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 115585,
+          "chapter_name": "任务45「再见大食人魔」",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 115586,
+          "chapter_name": "幕间9「克拉斯来访」",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 115594,
+          "chapter_name": "插画",
+          "chapter_order": 210
+        }
+      ]
+    },
+    {
+      "volume_id": 11473,
+      "id": 11473,
+      "volume_name": "第四卷 别再打了，来过幸福生活吧，魔王大人！",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 115621,
+          "chapter_name": "任务46「路易丝的忧虑」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115622,
+          "chapter_name": "任务47「平安无恙」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115623,
+          "chapter_name": "任务48「剑圣启程」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115624,
+          "chapter_name": "任务49「食人魔首领的大军」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115625,
+          "chapter_name": "任务50「旁观的魔王」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115626,
+          "chapter_name": "任务51「剑圣的嗅觉」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115627,
+          "chapter_name": "任务52「三魔混战」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115628,
+          "chapter_name": "任务53「终极之剑」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115629,
+          "chapter_name": "任务54「新的部属」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 115630,
+          "chapter_name": "任务55「叛乱」",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 115631,
+          "chapter_name": "任务56「紧急通知」",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 115632,
+          "chapter_name": "任务57「基尔达兹的正义」",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 115633,
+          "chapter_name": "任务58「为了朋友」",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 115634,
+          "chapter_name": "任务59「前方等待的某物」",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 115635,
+          "chapter_name": "任务60「真正的敌人」",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 115636,
+          "chapter_name": "任务61「某人的掌心」",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 115637,
+          "chapter_name": "任务62「安息之路还很遥远」",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 115638,
+          "chapter_name": "后记",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 115640,
+          "chapter_name": "插画",
+          "chapter_order": 190
         }
       ]
     }

@@ -3,21 +3,20 @@
   "name": "最强出涸皇子的暗跃帝位争夺",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10360,
-  "last_update_chapter_id": 99811,
-  "last_update_time": 1570004927,
-  "cover": "https://xs.dmzj.com/img/webpic/4/ch1002l.jpg",
-  "hot_hits": 52989,
+  "last_update_volume_id": 11418,
+  "last_update_chapter_id": 114885,
+  "last_update_time": 1615276381,
+  "cover": "http://xs.dmzj.com/img/webpic/4/ch1002l.jpg",
+  "hot_hits": 186570,
   "introduction": "无能又无气魄的底层皇子・阿尔诺特。随心随意过着的他作为「被优秀的双胞胎弟弟吸走了所有优点的『出涸皇子』」被帝国众人轻视，但皇子们的帝位争夺变得激烈，面对危机迫近，他终于决意认真起来。\n「虽然我不想做皇帝，但也完全不想输了被杀啊」",
   "types": [
     "其它"
   ],
   "authors": "タンバ",
   "first_letter": "Z",
-  "subscribe_num": 4599,
-  "redis_update_time": 1571602159,
+  "subscribe_num": 11647,
   "volume": [
     {
       "id": 10360,
@@ -25,7 +24,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1570001598,
-      "sum_chapters": 11
+      "sum_chapters": 15
+    },
+    {
+      "id": 11418,
+      "lnovel_id": 2734,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1615274502,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -74,6 +81,44 @@
           "chapter_id": 99811,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 11418,
+      "id": 11418,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 114849,
+          "chapter_name": "第一章 帝都暗斗",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114850,
+          "chapter_name": "第二章 前往异国",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114851,
+          "chapter_name": "第三章 南部生乱",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114852,
+          "chapter_name": "第四章 讨伐海龙",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114853,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 114885,
+          "chapter_name": "插画",
+          "chapter_order": 60
         }
       ]
     }

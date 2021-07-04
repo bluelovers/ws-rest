@@ -3,13 +3,13 @@
   "name": "魔弹之王与圣泉的双纹剑",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10995,
-  "last_update_chapter_id": 108699,
-  "last_update_time": 1595213921,
-  "cover": "https://xs.dmzj.com/img/webpic/29/mdsw0720l.jpg",
-  "hot_hits": 3545,
+  "last_update_volume_id": 11406,
+  "last_update_chapter_id": 114753,
+  "last_update_time": 1614951273,
+  "cover": "http://xs.dmzj.com/img/webpic/29/mdsw0720l.jpg",
+  "hot_hits": 33820,
   "introduction": "〈魔弹之王VS魔弹之王〉堤格尔将面临前所未有的战争\n亚斯瓦尔王国由于发生了不明的政变而秩序大乱，并以大军侵略莱德梅里兹公国。日后将继承战姬的骑士莉姆，在莱德梅里兹公国君主.艾莲的指挥下，偕同客将堤格尔，倾尽全军之力挺身抵抗。\n在激战之中，两人与突然现身的飞龙交战，并且被飞龙抓住、带到亚斯瓦尔国内。在那里，堤格尔与莉姆从亚斯瓦尔公主.桂妮薇亚口中，得知了难以置信的事实：亚斯瓦尔王国的建国君王•亚特留斯──也就是三百年前的人物──竟然死而复生，并且在转眼之间掌握了整个国家。\n于是，两人决定协助桂妮薇亚。然而，堤格尔却面临了神秘男子的阻挠。他的弓箭实力在堤格尔之上，且称呼堤格尔为「当代之弓」──",
   "types": [
     "魔法",
@@ -17,8 +17,7 @@
   ],
   "authors": "濑尾つかさ",
   "first_letter": "M",
-  "subscribe_num": 748,
-  "redis_update_time": 1595236271,
+  "subscribe_num": 5205,
   "volume": [
     {
       "id": 10995,
@@ -26,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1595212767,
-      "sum_chapters": 9
+      "sum_chapters": 15
+    },
+    {
+      "id": 11406,
+      "lnovel_id": 2904,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1614949593,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -80,6 +87,64 @@
           "chapter_id": 108699,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11406,
+      "id": 11406,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 114719,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114720,
+          "chapter_name": "第1话 会战",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114721,
+          "chapter_name": "第2话 猫之王",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 114722,
+          "chapter_name": "第3话 莎夏与亚特留斯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 114723,
+          "chapter_name": "第4话 波鲁斯卿与加拉哈德卿",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 114724,
+          "chapter_name": "第5话 不伏之神的神殿",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 114725,
+          "chapter_name": "末章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 114726,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 114727,
+          "chapter_name": "特典小册子",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 114753,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

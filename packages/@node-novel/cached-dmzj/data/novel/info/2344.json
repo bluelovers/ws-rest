@@ -3,13 +3,13 @@
   "name": "末日时在做些什么？能再一次相见吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "异传 莉莉娅·阿斯普雷伊2",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11196,
-  "last_update_chapter_id": 111724,
-  "last_update_time": 1604053895,
-  "cover": "https://xs.dmzj.com/img/webpic/27/mr06627.jpg",
-  "hot_hits": 814562,
+  "last_update_volume_id": 11428,
+  "last_update_chapter_id": 115913,
+  "last_update_time": 1618578874,
+  "cover": "http://xs.dmzj.com/img/webpic/27/mr06627.jpg",
+  "hot_hits": 910811,
   "introduction": "末日时在做什么?有没有空?可以来拯救吗?第二部。",
   "types": [
     "冒险",
@@ -18,8 +18,7 @@
   ],
   "authors": "枯野瑛",
   "first_letter": "M",
-  "subscribe_num": 92489,
-  "redis_update_time": 1607637115,
+  "subscribe_num": 99205,
   "volume": [
     {
       "id": 8772,
@@ -27,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1498577537,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 8973,
@@ -35,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1505824130,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 8974,
@@ -43,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1505824650,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 9407,
@@ -51,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1525572856,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 9416,
@@ -59,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1525873572,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 9559,
@@ -67,7 +66,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1531318219,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 9699,
@@ -75,7 +74,7 @@
       "volume_name": "短篇",
       "volume_order": 70,
       "addtime": 1537889112,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10065,
@@ -83,7 +82,7 @@
       "volume_name": "第七卷",
       "volume_order": 80,
       "addtime": 1555678285,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10429,
@@ -91,7 +90,7 @@
       "volume_name": "异传 莉莉娅·阿斯普雷伊",
       "volume_order": 90,
       "addtime": 1573207944,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10658,
@@ -99,7 +98,7 @@
       "volume_name": "第八卷",
       "volume_order": 100,
       "addtime": 1583582085,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11196,
@@ -107,7 +106,15 @@
       "volume_name": "异传 莉莉娅·阿斯普雷伊2",
       "volume_order": 110,
       "addtime": 1604052590,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 11428,
+      "lnovel_id": 2344,
+      "volume_name": "第九卷",
+      "volume_order": 120,
+      "addtime": 1615633452,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -601,6 +608,44 @@
           "chapter_id": 111724,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11428,
+      "id": 11428,
+      "volume_name": "第九卷",
+      "volume_order": 120,
+      "chapters": [
+        {
+          "chapter_id": 114952,
+          "chapter_name": "序章：『在那之后的日子里』-today was tomorrow-",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 114953,
+          "chapter_name": "第一章:『青鹫之湖』-a stolen veil-",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 114954,
+          "chapter_name": "间章：『时光暂停后继续流动』-glints of lives-",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115901,
+          "chapter_name": "第二章：『新天平的左与右』 -where to go，what to be-",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115902,
+          "chapter_name": "间章：『在苦涩又温柔的梦中』-it will be a beautiful world-",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115913,
+          "chapter_name": "插画",
+          "chapter_order": 60
         }
       ]
     }

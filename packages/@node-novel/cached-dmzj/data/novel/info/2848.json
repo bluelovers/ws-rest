@@ -3,21 +3,20 @@
   "name": "从被子弹击中的战场消失吧",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10922,
-  "last_update_chapter_id": 107546,
-  "last_update_time": 1592038126,
-  "cover": "https://xs.dmzj.com/img/webpic/20/zdzc0410l.jpg",
-  "hot_hits": 49292,
+  "last_update_volume_id": 11458,
+  "last_update_chapter_id": 115450,
+  "last_update_time": 1616929857,
+  "cover": "http://xs.dmzj.com/img/webpic/20/zdzc0410l.jpg",
+  "hot_hits": 92435,
   "introduction": "　　机甲车四处横行、子弹魔法散落──东国与西国的战争已长达百年。东国的少年士兵雷鹰‧兰滋被逼到绝境，射出一枚陌生的子弹，杀死了敌方将校——剎那间，世界为之一变。战场被他熟悉的士官学校所取代，他甚至看到了理应死亡的同学。当雷鹰陷入困惑之时，制作了这颗子弹、名为艾亚的少女对他说：「这是恶魔的子弹，可以重新建构（reprogram）出被击中的人从一开始就不存在的世界。你想继续使用它吗？」面对毫无止境的战场，雷鹰做出的决定是——「我要用这子弹结束一切，改变一切。」\n　　击穿世界的规则，少年与少女的战斗即将开始——荣获第31届富士见Fantasia大奖的军事奇幻作品！",
   "types": [
     "奇幻"
   ],
   "authors": "上川景",
   "first_letter": "C",
-  "subscribe_num": 7025,
-  "redis_update_time": 1592180082,
+  "subscribe_num": 9956,
   "volume": [
     {
       "id": 10766,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1586513189,
-      "sum_chapters": 63
+      "sum_chapters": 15
     },
     {
       "id": 10922,
@@ -33,7 +32,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1592035345,
-      "sum_chapters": 63
+      "sum_chapters": 15
+    },
+    {
+      "id": 11458,
+      "lnovel_id": 2848,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1616927996,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -180,6 +187,59 @@
           "chapter_id": 107546,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11458,
+      "id": 11458,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 115432,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115433,
+          "chapter_name": "1、第二世代艾克赛利亚「尖刃型」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115434,
+          "chapter_name": "2、阿丝莉的战斗",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115435,
+          "chapter_name": "3、艾亚与阿丝莉在浴场",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115436,
+          "chapter_name": "4、不想知道的「真相」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115437,
+          "chapter_name": "5、劫火",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115438,
+          "chapter_name": "6、首都决战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115439,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115450,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "最强公会长的一周建国记",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10721,
-  "last_update_chapter_id": 104836,
-  "last_update_time": 1585204869,
-  "cover": "https://xs.dmzj.com/img/webpic/17/yzjg0326l.jpg",
-  "hot_hits": 13343,
+  "last_update_volume_id": 11553,
+  "last_update_chapter_id": 116698,
+  "last_update_time": 1621781306,
+  "cover": "http://xs.dmzj.com/img/webpic/17/yzjg0326l.jpg",
+  "hot_hits": 108298,
   "introduction": "　　柳濑莲人在玩线上VR游戏『圣殿英灵』时不小心睡著，醒来时发现他与自己所创的部下NPC，以及作为据点的城堡共同转移到异世界之中。\n　　在异世界中等待著他的是拥有自由意志的NPC，还有未知的辽阔景色。莲人对突如其来的剧变感到困惑不已，但依旧扮演著拥有压倒性力量的一城之主「莲」，与崇拜自己的伙伴们一同探索眼前的异世界。\n　　在假扮成冒险者进行调查时，他们无意间得知贵族图谋造反与邻国厉兵秣马的传闻。\n　　为了与不轨阴谋和未知威胁抗衡，亦为了仰慕崇拜自己的部下，莲决定于一周内建立一个国家――！\n　　「龙骑士之国・圣殿英灵，这就是我的国家的名字。」\n　　带著最强部下建造国家、挑战全世界的异世界奇幻之旅就此展开！",
   "types": [
     "异界",
@@ -17,8 +17,7 @@
   ],
   "authors": "井上みつる",
   "first_letter": "Z",
-  "subscribe_num": 1549,
-  "redis_update_time": 1585267816,
+  "subscribe_num": 5168,
   "volume": [
     {
       "id": 10721,
@@ -26,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1585203477,
-      "sum_chapters": 19
+      "sum_chapters": 15
+    },
+    {
+      "id": 11553,
+      "lnovel_id": 2831,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1621780271,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -90,6 +97,114 @@
           "chapter_id": 104836,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 11553,
+      "id": 11553,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 116665,
+          "chapter_name": "序章 建国宣言之后",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 116666,
+          "chapter_name": "第一章 打造王城",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 116667,
+          "chapter_name": "第二章 建设都市",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 116668,
+          "chapter_name": "第三章 地下街",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 116669,
+          "chapter_name": "闲话杂谈 瑟狄亚夜袭",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 116670,
+          "chapter_name": "第四章 来客",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 116671,
+          "chapter_name": "闲话杂谈 诸国动向",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 116672,
+          "chapter_name": "第五章 向国民宣告",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 116673,
+          "chapter_name": "第六章 王与王之间的对谈",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 116674,
+          "chapter_name": "第七章 格磊比归国",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 116675,
+          "chapter_name": "第八章 梅亚斯",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 116676,
+          "chapter_name": "第九章 梅亚斯的代表们",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 116677,
+          "chapter_name": "第十章 之后",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 116678,
+          "chapter_name": "闲话杂谈《唐恩修行的日子》",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 116679,
+          "chapter_name": "《安莉》",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 116680,
+          "chapter_name": "番外篇《布菈迪雅的兴趣》",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 116681,
+          "chapter_name": "《雷格烈特的肉》",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 116682,
+          "chapter_name": "《艾蕾诺雅的争宠计划》",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 116683,
+          "chapter_name": "后记",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 116698,
+          "chapter_name": "插画",
+          "chapter_order": 200
         }
       ]
     }

@@ -3,21 +3,20 @@
   "name": "义妹生活",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "插画",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11366,
-  "last_update_chapter_id": 114240,
-  "last_update_time": 1613130922,
-  "cover": "https://xs.dmzj1.com/img/webpic/19/ymsh0212l.jpg",
-  "hot_hits": 116305,
+  "last_update_volume_id": 11466,
+  "last_update_chapter_id": 115557,
+  "last_update_time": 1617361535,
+  "cover": "http://xs.dmzj.com/img/webpic/19/ymsh0212l.jpg",
+  "hot_hits": 353346,
   "introduction": "缩短距离，构筑关系的日常。\n高中生和美少女的同居生活。\n因为悲惨家庭环境，对男女关系持有封闭的价值观的二人约定对彼此不抱期待。\n渴望爱而努力，不懂撒娇的沙季和作为她的哥哥却感到迷茫的悠太。\n殊途同归的二人，渐渐相识相知……\n不知何时会亲情变质的故事……\n素昧平生的男女互相接近并彼此改变的恋爱物语。",
   "types": [
     "爱情"
   ],
   "authors": "三河ごーすと",
   "first_letter": "Y",
-  "subscribe_num": 9845,
-  "redis_update_time": 1614549128,
+  "subscribe_num": 18880,
   "volume": [
     {
       "id": 11366,
@@ -25,7 +24,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1613129974,
-      "sum_chapters": 12
+      "sum_chapters": 15
+    },
+    {
+      "id": 11466,
+      "lnovel_id": 2996,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1617360132,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -89,6 +96,74 @@
           "chapter_id": 114240,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 11466,
+      "id": 11466,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 115536,
+          "chapter_name": "●序曲",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 115537,
+          "chapter_name": "●7月16日（星期四）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 115538,
+          "chapter_name": "●7月17日（星期五）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 115539,
+          "chapter_name": "●7月18日（星期六）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 115540,
+          "chapter_name": "●7月19日（星期天）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 115541,
+          "chapter_name": "●7月20日（星期一）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 115542,
+          "chapter_name": "●7月21日（星期二）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 115543,
+          "chapter_name": "●7月22日（星期三）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 115544,
+          "chapter_name": "●终章 绫濑沙季的日记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 115545,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 115556,
+          "chapter_name": "电子书籍特典『削皮器』",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 115557,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }
