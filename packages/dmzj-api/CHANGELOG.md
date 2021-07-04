@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.44](https://github.com/bluelovers/ws-rest/compare/dmzj-api@1.1.43...dmzj-api@1.1.44) (2021-07-04)
+
+
+### ✨　Features
+
+* normalize output ([a6343a3](https://github.com/bluelovers/ws-rest/commit/a6343a36e48baedbb55981bf6d28e08fed7a4c47))
+
+
+### 📦　Code Refactoring
+
+* update dmzj v4 ([20260b7](https://github.com/bluelovers/ws-rest/commit/20260b7f323098108bc35fe7bf5fb99467ff5218))
+
+
+### 🛠　Build System
+
+* update files ([6266db8](https://github.com/bluelovers/ws-rest/commit/6266db8e97a7928730fb4e78427f2fa5e4a97037))
+
+
+### 🔖　Miscellaneous
+
+* Merge remote-tracking branch 'copyliu/dmzj-v4' into dev/dmzj-v4 ([dea89bd](https://github.com/bluelovers/ws-rest/commit/dea89bd086a07bc10241079066295ebe7ac17e7f))
+* dmzj-v4 ([e906210](https://github.com/bluelovers/ws-rest/commit/e9062100598dfe12a6be0a05508797e5daf3d14f))
+
+
+
+
+
 ## [1.1.43](https://github.com/bluelovers/ws-rest/compare/dmzj-api@1.1.42...dmzj-api@1.1.43) (2021-07-03)
 
 

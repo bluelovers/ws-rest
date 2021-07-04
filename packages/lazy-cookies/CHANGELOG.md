@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.34](https://github.com/bluelovers/ws-rest/compare/lazy-cookies@1.0.33...lazy-cookies@1.0.34) (2021-07-04)
+
+
+### ♻️　Chores
+
+* **deps:** update yarn.lock ([f31101a](https://github.com/bluelovers/ws-rest/commit/f31101a8fe8c6f7fd4eb09b7778502d1c6abc645))
+
+
+
+
+
 ## [1.0.33](https://github.com/bluelovers/ws-rest/compare/lazy-cookies@1.0.32...lazy-cookies@1.0.33) (2021-07-03)
 
 

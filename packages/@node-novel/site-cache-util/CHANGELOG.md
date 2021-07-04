@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.41](https://github.com/bluelovers/ws-rest/compare/@node-novel/site-cache-util@1.0.40...@node-novel/site-cache-util@1.0.41) (2021-07-04)
+
+
+### 🐛　Bug Fixes
+
+* 修正獨存 cache 時，沒有更新長度的問題 ([aa67ea5](https://github.com/bluelovers/ws-rest/commit/aa67ea5558035b1221cc3d372e01d37907f898e3))
+
+
+### ✨　Features
+
+* add freeGC ([03d2d93](https://github.com/bluelovers/ws-rest/commit/03d2d934f167b55d8ae16eb8c4604ec6fb7e31f1))
+
+
+
+
+
 ## [1.0.40](https://github.com/bluelovers/ws-rest/compare/@node-novel/site-cache-util@1.0.39...@node-novel/site-cache-util@1.0.40) (2021-07-03)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.40](https://github.com/bluelovers/ws-rest/compare/@bluelovers/axios-extend@1.0.39...@bluelovers/axios-extend@1.0.40) (2021-07-04)
+
+
+### ✨　Features
+
+* 調整緩存數量到 500 ([108e689](https://github.com/bluelovers/ws-rest/commit/108e6892b2b86f6cb90d2bece8aa5ad3fdef12a7))
+
+
+
+
+
 ## [1.0.39](https://github.com/bluelovers/ws-rest/compare/@bluelovers/axios-extend@1.0.38...@bluelovers/axios-extend@1.0.39) (2021-07-03)
 
 

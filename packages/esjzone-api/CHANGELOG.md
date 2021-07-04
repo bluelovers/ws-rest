@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.45](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.44...esjzone-api@1.0.45) (2021-07-04)
+
+
+### ♻️　Chores
+
+* **deps:** update yarn.lock ([f31101a](https://github.com/bluelovers/ws-rest/commit/f31101a8fe8c6f7fd4eb09b7778502d1c6abc645))
+
+
+
+
+
 ## [1.0.44](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.43...esjzone-api@1.0.44) (2021-07-03)
 
 

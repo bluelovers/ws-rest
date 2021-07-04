@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.79](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.78...@node-novel/cached-esjzone@1.0.79) (2021-07-04)
+
+
+### ✨　Features
+
+* add freeGC ([03d2d93](https://github.com/bluelovers/ws-rest/commit/03d2d934f167b55d8ae16eb8c4604ec6fb7e31f1))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-esjzone] update cache, novel x 34 ([61fbda1](https://github.com/bluelovers/ws-rest/commit/61fbda1abd299b3fb73f0a7e8201d62ddba0c2b1))
+* [@node-novel/cached-esjzone] update cache, novel x 13 ([57b3381](https://github.com/bluelovers/ws-rest/commit/57b3381036f24414920422098aef97feef6bdddb))
+
+
+
+
+
 ## [1.0.78](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.77...@node-novel/cached-esjzone@1.0.78) (2021-07-03)
 
 

@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.82](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.81...@node-novel/cached-wenku8@1.0.82) (2021-07-04)
+
+
+### ✨　Features
+
+* add freeGC ([03d2d93](https://github.com/bluelovers/ws-rest/commit/03d2d934f167b55d8ae16eb8c4604ec6fb7e31f1))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-wenku8] update cache, novel x 1 ([26d3f6b](https://github.com/bluelovers/ws-rest/commit/26d3f6b5455ca0375f1372c351fda29f3bcbbaaa))
+* [@node-novel/cached-wenku8] update cache, novel x 1 ([4f96dc0](https://github.com/bluelovers/ws-rest/commit/4f96dc0b25901d17693470f6f76b988ef22fa51f))
+
+
+
+
+
 ## [1.0.81](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.80...@node-novel/cached-wenku8@1.0.81) (2021-07-03)
 
 
