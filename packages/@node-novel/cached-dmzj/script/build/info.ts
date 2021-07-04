@@ -42,12 +42,16 @@ export default lazyRun(async () => {
 	const updatedList: Record<number, IDmzjNovelInfoWithChapters> = {};
 
 	let jjj = 0;
+	let delay_i = 0;
 
 	let _do = true;
 
 	await Bluebird
 		.resolve(novelList.list)
 		.filter(v => !taskList[v.id])
+		.tap(list => {
+			consoleDebug.info(`發現`, list.length, `個小說待處理`);
+		})
 		.mapSeries(async (v, index, length) =>
 		{
 
@@ -56,6 +60,8 @@ export default lazyRun(async () => {
 				freeGC();
 
 				let fromCache: boolean;
+
+				consoleDebug.debug(`novelInfoWithChapters`, v.id, v.name);
 
 				let info = await api.novelInfoWithChapters(v.id)
 					.catch((e: AxiosError) =>
@@ -81,7 +87,7 @@ export default lazyRun(async () => {
 
 				if (info && info.id == v.id)
 				{
-					consoleDebug.success('[' + String(++jjj)
+					(fromCache ? consoleDebug.gray : consoleDebug).success('[' + String(++jjj)
 						.padStart(4, '0') + '/' + String(length)
 						.padStart(4, '0') + ']', v.id, trim(v.name), moment.unix(v.last_update_time)
 						.format(), trim(v.last_update_volume_name), trim(v.last_update_chapter_name));
@@ -100,10 +106,15 @@ export default lazyRun(async () => {
 					{
 						if (!(index % 5))
 						{
-							saveCache();
+							await _saveCache();
+						}
+						else
+						{
+							await _saveCacheTaskList();
 						}
 
-						let delay = Math.min(10000 + Math.min(index, 15) * 1000 * Math.random(), 20 * 1000);
+						//let delay = Math.min(10000 + Math.min(index, 15) * 1000 * Math.random(), 20 * 1000);
+						let delay = Math.min(Math.min(++delay_i, 15) * 1000 * Math.random(), 5 * 1000);
 
 						consoleDebug.debug(`delay:`, delay);
 						await Bluebird.delay(delay);
@@ -138,9 +149,22 @@ export default lazyRun(async () => {
 		})
 	;
 
-	await fs.outputJSON(file2, taskList, {
-		spaces: 2,
-	});
+	await _saveCache();
+
+	function _saveCacheTaskList()
+	{
+		return outputJSON(file2, taskList, {
+			spaces: 2,
+		})
+	}
+
+	function _saveCache()
+	{
+		return Promise.all([
+			_saveCacheTaskList(),
+			saveCache(),
+		])
+	}
 
 }, {
 	pkgLabel: __filename
