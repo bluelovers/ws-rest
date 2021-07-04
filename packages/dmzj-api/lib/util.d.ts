@@ -19,3 +19,6 @@ export declare function fixDmzjNovelInfo<T extends IDmzjNovelInfo | IDmzjNovelIn
 export declare function trimUnsafe<T extends string>(input: T): T;
 export declare function isDmzjNovelInfoFull<T extends IDmzjNovelInfo | IDmzjNovelInfoWithChapters | IDmzjNovelInfoRecentUpdateRow>(data: T): data is Extract<IDmzjNovelInfo | IDmzjNovelInfoWithChapters, T>;
 export declare function isDmzjNovelInfoFullWithChapters<T extends IDmzjNovelInfo | IDmzjNovelInfoWithChapters | IDmzjNovelInfoRecentUpdateRow>(data: T): data is Extract<IDmzjNovelInfoWithChapters, T>;
+export declare function sortDmzjNovelInfoVolumes<T extends IDmzjNovelInfo["volume"] | IDmzjNovelInfoWithChapters["volume"]>(volumes: T): T;
+export declare function sortDmzjNovelInfoChapters<T extends IDmzjNovelInfoWithChapters["chapters"]>(chapters: T): T;
+export declare function sortDmzjNovelInfo<T extends IDmzjNovelInfo | IDmzjNovelInfoWithChapters | IDmzjNovelInfoRecentUpdateRow>(data: T): T;

@@ -3,7 +3,7 @@ import { AxiosRequestConfig } from 'restful-decorator/lib/types/axios';
 import { ICookiesValue } from 'lazy-cookies';
 import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';
-import { EnumDmzjAcgnBigCatID, EnumDmzjAcgnOrderID, EnumDmzjAcgnStatus, EnumDmzjAcgnStatusID, EnumNumberBoolean, EnumWebSubscribeTypeID, IDmzjArticleCategory, IDmzjClientCookies, IDmzjClientNovelRecentUpdateAll, IDmzjJson, IDmzjLoginConfirm, IDmzjNovelChapters, IDmzjNovelInfoWithChapters, IDmzjNovelInfo, IDmzjNovelInfoMini, IDmzjNovelInfoRecentUpdateRow } from './types';
+import { EnumDmzjAcgnBigCatID, EnumDmzjAcgnOrderID, EnumDmzjAcgnStatus, EnumDmzjAcgnStatusID, EnumNumberBoolean, EnumWebSubscribeTypeID, IDmzjArticleCategory, IDmzjClientCookies, IDmzjClientNovelRecentUpdateAll, IDmzjJson, IDmzjLoginConfirm, IDmzjNovelChapters, IDmzjNovelInfo, IDmzjNovelInfoMini, IDmzjNovelInfoRecentUpdateRow, IDmzjNovelInfoWithChapters } from './types';
 /**
  * https://gist.github.com/bluelovers/5e9bfeecdbff431c62d5b50e7bdc3e48
  * https://github.com/guuguo/flutter_dmzj/blob/master/lib/api.dart

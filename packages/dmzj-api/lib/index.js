@@ -11,12 +11,15 @@ const array_hyper_unique_1 = require("array-hyper-unique");
 const debug_1 = (0, tslib_1.__importDefault)(require("restful-decorator/lib/util/debug"));
 const symbol_1 = require("restful-decorator/lib/helper/symbol");
 const subobject_1 = (0, tslib_1.__importDefault)(require("restful-decorator/lib/helper/subobject"));
+const crypto_1 = require("./v4/crypto");
+const protobuf_1 = require("./v4/protobuf");
 /**
  * https://gist.github.com/bluelovers/5e9bfeecdbff431c62d5b50e7bdc3e48
  * https://github.com/guuguo/flutter_dmzj/blob/master/lib/api.dart
  * https://github.com/tkkcc/flutter_dmzj/blob/269cb0d642c710626fe7d755f0b27b12ab477cc6/lib/util/api.dart
  */
 //@BaseUrl('http://v2.api.dmzj.com')
+//@BaseUrl('http://nnv3api.dmzj1.com')
 let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
     constructor(defaults) {
         super(defaults);
@@ -203,9 +206,40 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
     /**
      * 小说详情
      */
+    //@GET('novel/{novel_id}.json')
     _novelInfo(novel_id) {
-        //let data = arguments[0];
-        return null;
+        const decrypted = (0, crypto_1.decryptBase64V4)(this.$response.data);
+        const result = (0, protobuf_1.lookupTypeNovelDetailResponse)().decode(decrypted);
+        // console.log(result.toJSON())
+        const apiresult = {
+            id: result.Data.NovelId,
+            name: result.Data.Name,
+            zone: result.Data.Zone,
+            status: result.Data.Status,
+            last_update_volume_name: result.Data.LastUpdateChapterName,
+            last_update_chapter_name: result.Data.LastUpdateChapterName,
+            last_update_volume_id: result.Data.LastUpdateVolumeId,
+            last_update_chapter_id: result.Data.LastUpdateChapterId,
+            last_update_time: +result.Data.LastUpdateTime,
+            cover: result.Data.Cover,
+            hot_hits: result.Data.HotHits,
+            introduction: result.Data.Introduction,
+            types: result.Data.Types,
+            authors: result.Data.Authors,
+            first_letter: result.Data.FirstLetter,
+            subscribe_num: result.Data.SubscribeNum,
+            volume: result.Data.Volume.map((v) => {
+                return {
+                    id: v.VolumeId,
+                    lnovel_id: v.LnovelId,
+                    volume_name: v.VolumeName,
+                    volume_order: v.VolumeOrder,
+                    addtime: +v.Addtime,
+                    sum_chapters: v.SumChapters,
+                };
+            }),
+        };
+        return apiresult;
     }
     /**
      * 小说详情(非原始資料 而是 經過修正處理)
@@ -217,8 +251,24 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
      * 小说卷列表
      */
     novelChapter(novel_id) {
-        //let data = arguments[0];
-        return null;
+        const decrypted = (0, crypto_1.decryptBase64V4)(this.$response.data);
+        const result = (0, protobuf_1.lookupTypeNovelChapterResponse)().decode(decrypted);
+        const apiresult = result.Data.map((v) => {
+            return {
+                volume_id: v.VolumeId,
+                id: v.VolumeId,
+                volume_name: v.VolumeName,
+                volume_order: v.VolumeOrder,
+                chapters: v.Chapters.map((c) => {
+                    return {
+                        chapter_id: c.ChapterId,
+                        chapter_name: c.ChapterName,
+                        chapter_order: c.ChapterOrder,
+                    };
+                }),
+            };
+        });
+        return (0, util_1.sortDmzjNovelInfoChapters)(apiresult);
     }
     /**
      * 取得小說資料的同時一起取得章節列表
@@ -388,7 +438,7 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
     (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "_novelRecentUpdate", null);
 (0, tslib_1.__decorate)([
-    (0, decorators_1.GET)('novel/{novel_id}.json'),
+    (0, decorators_1.GET)('http://nnv4api.muwai.com/novel/detail/{novel_id}'),
     (0, decorators_1.methodBuilder)(),
     (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
     (0, tslib_1.__metadata)("design:type", Function),
@@ -396,7 +446,7 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
     (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "_novelInfo", null);
 (0, tslib_1.__decorate)([
-    (0, decorators_1.GET)('novel/chapter/{novel_id}.json'),
+    (0, decorators_1.GET)('http://nnv4api.muwai.com/novel/chapter/{novel_id}'),
     (0, decorators_1.methodBuilder)(),
     (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
     (0, tslib_1.__metadata)("design:type", Function),
@@ -487,7 +537,7 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
     (0, tslib_1.__metadata)("design:returntype", Object)
 ], DmzjClient.prototype, "deviceBuilding", null);
 DmzjClient = (0, tslib_1.__decorate)([
-    (0, decorators_1.BaseUrl)('http://nnv3api.dmzj1.com'),
+    (0, decorators_1.BaseUrl)('https://nnv3api.muwai.com'),
     (0, decorators_1.Headers)({
         Referer: 'http://www.dmzj.com/',
     }),
