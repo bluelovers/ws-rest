@@ -38,10 +38,37 @@ import {
 	IDmzjNovelInfoMini,
 	IDmzjNovelInfoRecentUpdateRow,
 } from './types';
-import { array_unique } from 'array-hyper-unique';
+import {array_unique} from 'array-hyper-unique';
 import consoleDebug from 'restful-decorator/lib/util/debug';
-import { SymSelf } from 'restful-decorator/lib/helper/symbol';
+import {SymSelf} from 'restful-decorator/lib/helper/symbol';
 import subobject from 'restful-decorator/lib/helper/subobject';
+
+import * as crypto from "crypto";
+import * as protobuf from "protobufjs";
+
+const rsa_key = "MIICXgIBAAKBgQCvJzUdZU5yHyHrOqEViTY95gejrLAxsdLhjKYKW1QqX+vlcJ7iNrLZoWTaEHDONeyM+1qpT821JrvUeHRCpixhBKjoTnVWnofV5NiDz46iLuU25C2UcZGN3STNYbW8+e3f66HrCS5GV6rLHxuRCWrjXPkXAAU3y2+CIhY0jJU7JwIDAQABAoGBAIs/6YtoSjiSpb3Ey+I6RyRo5/PpS98GV/i3gB5Fw6E4x2uO4NJJ2GELXgm7/mMDHgBrqQVoi8uUcsoVxaBjSm25737TGCueoR/oqsY7Qy540gylp4XAe9PPbDSmhDPSJYpersVjKzDAR/b9jy3WLKjAR6j7rSrv0ooHhj3oge1RAkEA4s1ZTb+u4KPfUACL9p/4GuHtMC4s1bmjQVxPPAHTp2mdCzk3p4lRKrz7YFJOt8245dD/6c0M8o4rcHuh6AgCKQJBAMWzrZwptbihKeR7DWlxCU8BO1kH+z6yw+PgaRrTSpII2un+heJXeEGdk0Oqr7Aos0hia4zqTXY1Rie24GDHHM8CQQC7yVjy5g4u06BXxkwdBLDR2VShOupGf/Ercfns7npHuEueel6Zajn5UAY2549j4oMATf9Gn0/kGVDgTo1s6AyZAkApc6PqA0DLxlbPRhGo0v99pid4YlkGa1rxM4M2Eakn911XBHuz2l0nfM98t5QAnngArEoakKHPMBpWh1yCTh03AkEAmcOddu2RrPGQ00q6IKx+9ysPx71+ecBgHoqymHL9vHmrr3ghu4shUdDxQfz/xA2Z8m/on78hBZbnD1CNPmPOxQ==";
+const txt_key = "IBAAKCAQEAsUAdKtXNt8cdrcTXLsaFKj9bSK1nEOAROGn2KJXlEVekcPssKUxSN8dsfba51kmHM";
+const key = crypto.createPrivateKey({
+	key: Buffer.from(rsa_key, "base64"),
+	format: "der",
+	type: "pkcs1",
+});
+const block_size = 1024 / 8;
+const root = protobuf.Root.fromJSON(require("./dmzjproto.json"));
+
+function decryptv4(key: any, input: Buffer) {
+	const block_count = input.length;
+	const blocks = [];
+	let i = 0;
+	while (i < block_count) {
+		blocks.push(input.slice(i, i += block_size))
+	}
+	return Buffer.concat(blocks.map(p => crypto.privateDecrypt({
+		key: key,
+		padding: crypto.constants.RSA_PKCS1_PADDING
+	}, p)))
+
+}
 
 /**
  * https://gist.github.com/bluelovers/5e9bfeecdbff431c62d5b50e7bdc3e48
@@ -49,7 +76,7 @@ import subobject from 'restful-decorator/lib/helper/subobject';
  * https://github.com/tkkcc/flutter_dmzj/blob/269cb0d642c710626fe7d755f0b27b12ab477cc6/lib/util/api.dart
  */
 //@BaseUrl('http://v2.api.dmzj.com')
-@BaseUrl('http://nnv3api.dmzj1.com')
+@BaseUrl('https://nnv3api.muwai.com')
 @Headers({
 	Referer: 'http://www.dmzj.com/',
 })
@@ -436,12 +463,47 @@ export class DmzjClient extends AbstractHttpClient
 	/**
 	 * 小说详情
 	 */
-	@GET('novel/{novel_id}.json')
+	@GET('http://nnv4api.muwai.com/novel/detail/{novel_id}')
 	@methodBuilder()
-	_novelInfo(@ParamPath('novel_id') novel_id: number | string): IBluebird<IDmzjNovelInfo>
-	{
+	_novelInfo(@ParamPath('novel_id') novel_id: number | string): IBluebird<IDmzjNovelInfo> {
 		//let data = arguments[0];
-		return null;
+		const buffer = Buffer.from(this.$response.data.toString(), "base64");
+		const decrypted = decryptv4(
+			key, buffer);
+		const response_type = root.lookupType("NovelDetailResponse");
+		const result = <any>response_type.decode(decrypted)
+		// console.log(result.toJSON())
+
+		const apiresult = <IDmzjNovelInfo>{
+			id: result.Data.NovelId,
+			authors: result.Data.Authors,
+			cover: result.Data.Cover,
+			zone: result.Data.Zone,
+			hot_hits: result.Data.HotHits,
+			introduction: result.Data.Introduction,
+			last_update_time: +result.Data.LastUpdateTime,
+			last_update_chapter_id: result.Data.LastUpdateChapterId,
+			first_letter: result.Data.FirstLetter,
+			last_update_chapter_name: result.Data.LastUpdateChapterName,
+			last_update_volume_id: result.Data.LastUpdateVolumeId,
+			last_update_volume_name: result.Data.LastUpdateChapterName,
+			name: result.Data.Name,
+			status: result.Data.Status,
+			subscribe_num: result.Data.SubscribeNum,
+			types: result.Data.Types,
+			volume: result.Data.Volume.map((v: any) => {
+					return {
+						id: v.VolumeId,
+						lnovel_id: v.LnovelId,
+						volume_name: v.VolumeName,
+						volume_order: v.VolumeOrder,
+						addtime: +v.Addtime,
+						sum_chapters: v.SumChapters,
+					}
+				}
+			)
+		};
+		return Bluebird.resolve(apiresult);
 	}
 
 	/**
@@ -455,12 +517,30 @@ export class DmzjClient extends AbstractHttpClient
 	/**
 	 * 小说卷列表
 	 */
-	@GET('novel/chapter/{novel_id}.json')
+	@GET('http://nnv4api.muwai.com/novel/chapter/{novel_id}')
 	@methodBuilder()
-	novelChapter(@ParamPath('novel_id') novel_id: number | string): IBluebird<IDmzjNovelChapters[]>
-	{
+	novelChapter(@ParamPath('novel_id') novel_id: number | string): IBluebird<IDmzjNovelChapters[]> {
 		//let data = arguments[0];
-		return null;
+		const buffer = Buffer.from(this.$response.data.toString(), "base64");
+		const decrypted = decryptv4(key, buffer);
+		const response_type = root.lookupType("NovelChapterResponse");
+		const result = <any>response_type.decode(decrypted);
+		const apiresult = result.Data.map((v: any) => {
+			return <IDmzjNovelChapters>{
+				id: v.VolumeId,
+				chapters: v.Chapters.map((c: any) => {
+					return {
+						chapter_id: c.ChapterId,
+						chapter_name: c.ChapterName,
+						chapter_order: c.ChapterOrder
+					}
+				}),
+				volume_id: v.VolumeId,
+				volume_name: v.VolumeName,
+				volume_order: v.VolumeOrder
+			}
+		})
+		return Bluebird.resolve(apiresult);
 	}
 
 	/**
@@ -510,10 +590,9 @@ export class DmzjClient extends AbstractHttpClient
 	@GET('novel/download/{id}_{volume_id}_{chapter_id}.txt')
 	@methodBuilder()
 	novelDownload(@ParamPath('id') id: number,
-		@ParamPath('volume_id') volume_id: number,
-		@ParamPath('chapter_id') chapter_id: number,
-	): IBluebird<string>
-	{
+								@ParamPath('volume_id') volume_id: number,
+								@ParamPath('chapter_id') chapter_id: number,
+	): IBluebird<string> {
 		//let data = arguments[0];
 		return null;
 	}
