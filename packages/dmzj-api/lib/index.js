@@ -216,7 +216,7 @@ let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
             name: result.Data.Name,
             zone: result.Data.Zone,
             status: result.Data.Status,
-            last_update_volume_name: result.Data.LastUpdateChapterName,
+            last_update_volume_name: result.Data.LastUpdateVolumeName,
             last_update_chapter_name: result.Data.LastUpdateChapterName,
             last_update_volume_id: result.Data.LastUpdateVolumeId,
             last_update_chapter_id: result.Data.LastUpdateChapterId,
