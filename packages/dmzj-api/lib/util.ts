@@ -6,6 +6,7 @@ import cloneDeep from 'lodash/cloneDeep';
 import { array_unique } from 'array-hyper-unique';
 import { crlf } from 'crlf-normalize';
 import { removeZeroWidth } from 'zero-width';
+import sortObject from 'sort-object-keys2';
 
 export { removeZeroWidth }
 
@@ -13,7 +14,7 @@ export function buildVersion()
 {
 	return {
 		channel: "Android",
-		version: "2.7.003"
+		version: "2.7.003",
 	}
 }
 
@@ -27,7 +28,8 @@ export function fixDmzjNovelTags(tags: string | string[])
 		tags = [tags];
 	}
 
-	return array_unique(tags.reduce((a, b) => {
+	return array_unique(tags.reduce((a, b) =>
+	{
 		a.push(...b.split('/').map(trimUnsafe));
 		return a
 	}, [] as string[]))
@@ -63,23 +65,26 @@ export function fixDmzjNovelInfo<T extends IDmzjNovelInfo | IDmzjNovelInfoWithCh
 			data.first_letter = trimUnsafe(data.first_letter).toUpperCase();
 		}
 
-		data.volume.forEach(vol => {
+		data.volume.forEach(vol =>
+		{
 			vol.volume_name = trimUnsafe(vol.volume_name)
 		});
 	}
 
 	if (isDmzjNovelInfoFullWithChapters(data))
 	{
-		data.chapters.forEach(ch => {
+		data.chapters.forEach(ch =>
+		{
 			ch.volume_name = trimUnsafe(ch.volume_name);
 
-			ch.chapters.forEach(c => {
+			ch.chapters.forEach(c =>
+			{
 				c.chapter_name = trimUnsafe(c.chapter_name);
 			})
 		});
 	}
 
-	return data
+	return sortDmzjNovelInfo(data)
 }
 
 export function trimUnsafe<T extends string>(input: T): T
@@ -108,4 +113,97 @@ export function isDmzjNovelInfoFullWithChapters<T extends IDmzjNovelInfo | IDmzj
 	{
 		return true;
 	}
+}
+
+export function sortDmzjNovelInfoVolumes<T extends IDmzjNovelInfo["volume"] | IDmzjNovelInfoWithChapters["volume"]>(volumes: T)
+{
+	volumes.forEach(volume =>
+	{
+		sortObject(volume, {
+			keys: [
+				"id",
+				"lnovel_id",
+				"volume_name",
+				"volume_order",
+				"addtime",
+				"sum_chapters",
+			],
+			useSource: true,
+		})
+	})
+
+	return volumes
+}
+
+export function sortDmzjNovelInfoChapters<T extends IDmzjNovelInfoWithChapters["chapters"]>(chapters: T)
+{
+	chapters.forEach(chapter =>
+	{
+
+		sortObject(chapter, {
+			keys: [
+				"volume_id",
+				"id",
+				"volume_name",
+				"volume_order",
+				"chapters",
+			],
+			useSource: true,
+		});
+
+		chapter.chapters?.forEach?.(chapter =>
+		{
+			sortObject(chapter, {
+				keys: [
+					"chapter_id",
+					"chapter_name",
+					"chapter_order",
+				],
+				useSource: true,
+			})
+		});
+
+	})
+
+	return chapters
+}
+
+export function sortDmzjNovelInfo<T extends IDmzjNovelInfo | IDmzjNovelInfoWithChapters | IDmzjNovelInfoRecentUpdateRow>(data: T): T
+{
+	sortObject(data, {
+		keys: [
+			'id',
+			'name',
+			'zone',
+			'status',
+			'last_update_volume_name',
+			'last_update_chapter_name',
+			'last_update_volume_id',
+			'last_update_chapter_id',
+			'last_update_time',
+			'cover',
+			'hot_hits',
+			'introduction',
+			'types',
+			'authors',
+			'first_letter',
+			'subscribe_num',
+			'redis_update_time',
+			'volume',
+			'chapters',
+		],
+		useSource: true,
+	});
+
+	if ((data as IDmzjNovelInfo).volume?.length)
+	{
+		sortDmzjNovelInfoVolumes((data as IDmzjNovelInfo).volume)
+	}
+
+	if ((data as IDmzjNovelInfoWithChapters).chapters?.length)
+	{
+		sortDmzjNovelInfoChapters((data as IDmzjNovelInfoWithChapters).chapters)
+	}
+
+	return data
 }

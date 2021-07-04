@@ -19,7 +19,7 @@ import { ICookiesValue } from 'lazy-cookies';
 import { getCookieJar } from 'restful-decorator/lib/decorators/config/cookies';
 import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';
-import { buildVersion, fixDmzjNovelInfo } from './util';
+import { buildVersion, fixDmzjNovelInfo, sortDmzjNovelInfoChapters } from './util';
 import {
 	EnumDmzjAcgnBigCatID,
 	EnumDmzjAcgnOrderID,
@@ -523,7 +523,7 @@ export class DmzjClient extends AbstractHttpClient
 				}),
 			}
 		})
-		return Bluebird.resolve(apiresult);
+		return sortDmzjNovelInfoChapters(apiresult) as any;
 	}
 
 	/**
