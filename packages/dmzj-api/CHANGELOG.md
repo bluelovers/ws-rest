@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.45](https://github.com/bluelovers/ws-rest/compare/dmzj-api@1.1.44...dmzj-api@1.1.45) (2021-07-04)
+
+
+### 🐛　Bug Fixes
+
+* **dmzj:** 修正錯誤的 last_update_volume_name ([014ef8f](https://github.com/bluelovers/ws-rest/commit/014ef8f0cacf97ecb00098dbe5c57529a874164e))
+
+
+
+
+
 ## [1.1.44](https://github.com/bluelovers/ws-rest/compare/dmzj-api@1.1.43...dmzj-api@1.1.44) (2021-07-04)
 
 
