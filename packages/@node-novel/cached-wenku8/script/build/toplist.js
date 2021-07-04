@@ -8,6 +8,7 @@ const fs_extra_1 = (0, tslib_1.__importDefault)(require("fs-extra"));
 const util_1 = require("../util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
+const free_gc_1 = require("free-gc");
 exports.default = (0, index_1.lazyRun)(async () => {
     const { api, saveCache } = await (0, util_1.getApiClient)();
     const file = files_1.default.recentUpdate;
@@ -44,6 +45,7 @@ exports.default = (0, index_1.lazyRun)(async () => {
             });
         })
             .catch(e => null);
+        (0, free_gc_1.freeGC)();
         if (!ret || lastPage == page || page == maxPage) {
             util_1.console.dir({
                 ret,

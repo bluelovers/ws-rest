@@ -10,6 +10,7 @@ if (isCi())
 
 import { console, consoleDebug } from 'restful-decorator/lib/util/debug';
 import './moment';
+import { freeGC } from 'free-gc';
 
 export { path }
 export { console, consoleDebug }
@@ -33,6 +34,7 @@ if (isCi())
 
 export function lazyImport<T = any>(name: string, _require: typeof require)
 {
+	freeGC();
 	consoleDebug.debug(`lazyImport`, name);
 	return Bluebird.resolve()
 		.then(e => {
@@ -40,7 +42,10 @@ export function lazyImport<T = any>(name: string, _require: typeof require)
 			consoleDebug.debug(target);
 			return import(target)
 		})
-		.then(v => v.default as T)
+		.then(v => {
+			freeGC();
+			return v.default as T
+		})
 	;
 }
 
@@ -61,6 +66,8 @@ export function lazyRun<T>(cb: (...argv: any) => ITSResolvable<T>, options: {
 		consoleDebug.black.bgGreenBright.info(`[lazyRun:start]`, pkgLabel);
 	}
 
+	freeGC();
+
 	return Bluebird.resolve().then(cb)
 		.tap(async (v) => {
 
@@ -73,6 +80,7 @@ export function lazyRun<T>(cb: (...argv: any) => ITSResolvable<T>, options: {
 				consoleDebug.black.bgYellowBright.info(`[lazyRun:end]`,pkgLabel);
 			}
 
+			freeGC();
 		})
 	;
 }

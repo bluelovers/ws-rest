@@ -13,6 +13,7 @@ const debug_1 = require("restful-decorator/lib/util/debug");
 Object.defineProperty(exports, "console", { enumerable: true, get: function () { return debug_1.console; } });
 Object.defineProperty(exports, "consoleDebug", { enumerable: true, get: function () { return debug_1.consoleDebug; } });
 require("./moment");
+const free_gc_1 = require("free-gc");
 debug_1.console.enabledColor = true;
 debug_1.consoleDebug.enabledColor = true;
 if ((0, ci_1.default)()) {
@@ -26,6 +27,7 @@ if ((0, ci_1.default)()) {
     debug_1.consoleDebug.chalkOptions = o2;
 }
 function lazyImport(name, _require) {
+    (0, free_gc_1.freeGC)();
     debug_1.consoleDebug.debug(`lazyImport`, name);
     return bluebird_1.default.resolve()
         .then(e => {
@@ -33,7 +35,10 @@ function lazyImport(name, _require) {
         debug_1.consoleDebug.debug(target);
         return Promise.resolve().then(() => (0, tslib_1.__importStar)(require(target)));
     })
-        .then(v => v.default);
+        .then(v => {
+        (0, free_gc_1.freeGC)();
+        return v.default;
+    });
 }
 exports.lazyImport = lazyImport;
 function lazyRun(cb, options) {
@@ -45,6 +50,7 @@ function lazyRun(cb, options) {
     else {
         debug_1.consoleDebug.black.bgGreenBright.info(`[lazyRun:start]`, pkgLabel);
     }
+    (0, free_gc_1.freeGC)();
     return bluebird_1.default.resolve().then(cb)
         .tap(async (v) => {
         if (bool) {
@@ -53,6 +59,7 @@ function lazyRun(cb, options) {
         else {
             debug_1.consoleDebug.black.bgYellowBright.info(`[lazyRun:end]`, pkgLabel);
         }
+        (0, free_gc_1.freeGC)();
     });
 }
 exports.lazyRun = lazyRun;

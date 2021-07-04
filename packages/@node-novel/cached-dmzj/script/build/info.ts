@@ -14,7 +14,7 @@ import {
 import { DmzjClient } from 'dmzj-api';
 import { __root, console, consoleDebug, getDmzjClient, trim } from '../util';
 import path from "upath2";
-import fs from 'fs-extra';
+import { outputJSON, readJSON } from 'fs-extra';
 import Bluebird from 'bluebird';
 import { IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
@@ -22,6 +22,7 @@ import { SymSelf } from 'restful-decorator/lib/helper/symbol';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 import cacheFilePaths from '../util/files';
+import { freeGC } from 'free-gc';
 
 export default lazyRun(async () => {
 
@@ -30,11 +31,11 @@ export default lazyRun(async () => {
 	const file = cacheFilePaths.recentUpdate;
 	const file2 = cacheFilePaths.task001;
 
-	let novelList = await (fs.readJSON(file)
+	let novelList = await (readJSON(file)
 		.catch(e => null) as ReturnType<typeof api.novelRecentUpdateAll>)
 	;
 
-	const taskList: Record<number, number> = await (fs.readJSON(file2)
+	const taskList: Record<number, number> = await (readJSON(file2)
 		.catch(e => {})) || {}
 	;
 
@@ -52,6 +53,8 @@ export default lazyRun(async () => {
 
 			if (_do && !taskList[v.id])
 			{
+				freeGC();
+
 				let fromCache: boolean;
 
 				let info = await api.novelInfoWithChapters(v.id)
@@ -85,7 +88,7 @@ export default lazyRun(async () => {
 
 					let _file = path.join(__root, 'data', 'novel/info', `${v.id}.json`);
 
-					await fs.outputJSON(_file, info, {
+					await outputJSON(_file, info, {
 						spaces: 2,
 					});
 

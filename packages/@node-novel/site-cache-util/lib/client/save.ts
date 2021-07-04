@@ -4,6 +4,7 @@ import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/ca
 import { readJSON, outputJSONSync } from 'fs-extra';
 import { consoleDebug, console } from '../index';
 import { exportCache, IBaseCacheStore, importCache, processExitHook, ICacheStoreJson } from 'axios-cache-adapter-util';
+import { freeGC } from 'free-gc';
 
 export async function _setupCacheFile(opts: {
 	api: AbstractHttpClient,
@@ -60,6 +61,7 @@ export async function _setupCacheFile(opts: {
 
 	function saveCache()
 	{
+		freeGC();
 
 		// @ts-ignore
 		if (typeof api._serialize === 'function')
@@ -104,6 +106,8 @@ export async function _setupCacheFile(opts: {
 			return saveCache();
 		});
 	}
+
+	freeGC();
 
 	return saveCache
 }

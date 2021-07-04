@@ -11,6 +11,7 @@ const ci_1 = (0, tslib_1.__importDefault)(require("../ci"));
 const pass_1 = (0, tslib_1.__importDefault)(require("../pass"));
 const lodash_1 = require("lodash");
 const save_1 = require("./save");
+const free_gc_1 = require("free-gc");
 async function _getApiClient(opts) {
     let { api, jar, __path, saveCache, ApiClient, apiOptions, setupCacheFile, saveCacheFileBySelf } = opts;
     const { __root, cacheFilePaths } = __path;
@@ -23,6 +24,7 @@ async function _getApiClient(opts) {
                 retry: 1,
                 retryDelay: 1000,
                 onRetryAttempt: (err) => {
+                    (0, free_gc_1.freeGC)();
                     let currentRetryAttempt = (0, axios_util_1.dotValue)(err, 'config.raxConfig.currentRetryAttempt');
                     __1.consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, (0, index_1.getResponseUrl)(err.response));
                 },

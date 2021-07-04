@@ -14,6 +14,7 @@ import { ITSUnpackedPromiseLike } from 'ts-type';
 import { IWenku8RecentUpdateCache, IWenku8RecentUpdateRow } from 'wenku8-api/lib/types';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
 import cacheFilePaths from '../util/files';
+import { freeGC } from 'free-gc';
 
 export default lazyRun(async () => {
 
@@ -77,6 +78,8 @@ export default lazyRun(async () => {
 			})
 			.catch(e => null)
 		;
+
+		freeGC();
 
 		if (!ret || lastPage == page || page == maxPage)
 		{

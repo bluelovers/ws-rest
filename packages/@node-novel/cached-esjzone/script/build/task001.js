@@ -9,6 +9,7 @@ const upath2_1 = (0, tslib_1.__importDefault)(require("upath2"));
 const files_1 = (0, tslib_1.__importStar)(require("../util/files"));
 const lib_1 = require("@bluelovers/axios-util/lib");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
+const free_gc_1 = require("free-gc");
 const file = files_1.default.recentUpdate;
 const file1 = files_1.default.task001;
 exports.default = (0, index_1.lazyRun)(async () => {
@@ -25,6 +26,7 @@ exports.default = (0, index_1.lazyRun)(async () => {
         let { id, last_update_time } = row;
         if (listCache[id] == null) {
             let _file = (0, files_1.cacheFileInfoPath)(id);
+            (0, free_gc_1.freeGC)();
             return api.bookInfo(id)
                 .tap(async (data) => {
                 let old = await (0, fs_extra_1.readJSON)(_file).catch(e => null);

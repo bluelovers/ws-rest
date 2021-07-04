@@ -5,6 +5,7 @@ const cache_1 = require("restful-decorator/lib/decorators/config/cache");
 const fs_extra_1 = require("fs-extra");
 const index_1 = require("../index");
 const axios_cache_adapter_util_1 = require("axios-cache-adapter-util");
+const free_gc_1 = require("free-gc");
 async function _setupCacheFile(opts) {
     const { api, saveCacheFileBySelf, __path } = opts;
     const { cacheFilePaths } = __path;
@@ -35,6 +36,7 @@ async function _setupCacheFile(opts) {
     });
     let len = await store.length();
     function saveCache() {
+        (0, free_gc_1.freeGC)();
         // @ts-ignore
         if (typeof api._serialize === 'function') {
             // @ts-ignore
@@ -64,6 +66,7 @@ async function _setupCacheFile(opts) {
             return saveCache();
         });
     }
+    (0, free_gc_1.freeGC)();
     return saveCache;
 }
 exports._setupCacheFile = _setupCacheFile;

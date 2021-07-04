@@ -20,6 +20,7 @@ import importPassword from '../pass';
 import { defaultsDeep } from 'lodash';
 import { _setupCacheFile } from './save';
 import { ITSResolvable } from 'ts-type';
+import { freeGC } from 'free-gc';
 
 export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 	api: T,
@@ -51,6 +52,7 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 
 				onRetryAttempt: (err: AxiosError) =>
 				{
+					freeGC();
 
 					let currentRetryAttempt = dotValue(err, 'config.raxConfig.currentRetryAttempt');
 

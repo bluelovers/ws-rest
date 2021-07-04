@@ -1,11 +1,12 @@
 import { __root, getApiClient, console, consoleDebug } from '../util';
-import fs, { readJSON } from 'fs-extra';
+import { readJSON, pathExistsSync, outputJSON } from 'fs-extra';
 import { IWenku8RecentUpdateCache } from 'wenku8-api/lib/types';
 import Bluebird from 'bluebird';
 import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
 import path from 'upath2';
 import cacheFilePaths, { cacheFileInfoPath } from '../util/files';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
+import { freeGC } from 'free-gc';
 
 const file = cacheFilePaths.recentUpdate;
 const file1 = cacheFilePaths.task001;
@@ -21,12 +22,12 @@ export default lazyRun(async () => {
 		.catch(e => ({} as Record<string, number>))
 	;
 
-	let novelList = await (fs.readJSON(file) as PromiseLike<IWenku8RecentUpdateCache>)
+	let novelList = await (readJSON(file) as PromiseLike<IWenku8RecentUpdateCache>)
 	;
 
 	let _cache = {} as Record<'copyright_remove', Record<string, string>>;
 
-	_cache.copyright_remove = await fs.readJSON(file_copyright_remove).catch(e => {}) || {};
+	_cache.copyright_remove = await readJSON(file_copyright_remove).catch(e => {}) || {};
 
 	let index = 1;
 
@@ -40,10 +41,12 @@ export default lazyRun(async () => {
 			{
 				let _file = cacheFileInfoPath(id);
 
-				if (_cache.copyright_remove[id] && listCache[id] != null && fs.pathExistsSync(_file))
+				if (_cache.copyright_remove[id] && listCache[id] != null && pathExistsSync(_file))
 				{
 					consoleDebug.info(`[SKIP]`, index, id, row.name, moment.unix(last_update_time).format());
 				}
+
+				freeGC();
 
 				return api.bookInfoWithChapters(id)
 					.tap(async (data) =>
@@ -67,7 +70,7 @@ export default lazyRun(async () => {
 						}
 
 						return Bluebird.all([
-							fs.outputJSON(_file, data, {
+							outputJSON(_file, data, {
 								spaces: 2,
 							}),
 						])
@@ -100,7 +103,7 @@ export default lazyRun(async () => {
 	function _saveDataCache()
 	{
 		return Bluebird.all([
-			fs.outputJSON(file1, listCache, {
+			outputJSON(file1, listCache, {
 				spaces: 2,
 			})
 				.then(e => {
@@ -108,7 +111,7 @@ export default lazyRun(async () => {
 					return e;
 				})
 			,
-			fs.outputJSON(file_copyright_remove, _cache.copyright_remove, {
+			outputJSON(file_copyright_remove, _cache.copyright_remove, {
 				spaces: 2,
 			})
 				.then(e => {
