@@ -9,6 +9,9 @@ const files_1 = (0, tslib_1.__importStar)(require("../util/files"));
 const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const util_1 = require("../util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
+const path_1 = (0, tslib_1.__importDefault)(require("path"));
+const bluebird_2 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
+const zero_width_1 = require("zero-width");
 exports.default = (0, index_1.lazyRun)(async () => {
     let recentUpdate = await (0, fs_extra_1.readJSON)(files_1.default.recentUpdate);
     let task001 = await (0, fs_extra_1.readJSON)(files_1.default.task001);
@@ -48,6 +51,23 @@ exports.default = (0, index_1.lazyRun)(async () => {
         if (_changed) {
             util_1.consoleDebug.info(`[fix]`, id, info.name);
             await (0, fs_extra_1.writeJSON)(_file, info, {
+                spaces: 2,
+            });
+        }
+    });
+    await bluebird_2.default.async([
+        '*.json',
+    ], {
+        cwd: path_1.default.join(files_1.default.dirDataRoot, 'novel/info'),
+        absolute: true,
+    })
+        .each(async (file) => {
+        let novel = await (0, fs_extra_1.readJSON)(file);
+        let old = novel.desc;
+        novel.desc = (0, zero_width_1.trimWithZeroWidth)(old);
+        if (novel.desc !== old) {
+            console.log(`fix`, novel.id, novel.name);
+            return (0, fs_extra_1.writeJSON)(file, novel, {
                 spaces: 2,
             });
         }

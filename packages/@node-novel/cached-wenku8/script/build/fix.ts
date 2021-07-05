@@ -7,6 +7,9 @@ import { IWenku8RecentUpdateCache, IWenku8RecentUpdateRowBookWithChapters } from
 import Bluebird from 'bluebird';
 import { consoleDebug } from '../util';
 import { lazyRun } from '@node-novel/site-cache-util/lib/index';
+import path from 'path';
+import FastGlob from '@bluelovers/fast-glob/bluebird';
+import { trimWithZeroWidth } from 'zero-width';
 
 export default lazyRun(async () => {
 
@@ -70,6 +73,31 @@ export default lazyRun(async () => {
 				consoleDebug.info(`[fix]`, id, info.name);
 
 				await writeJSON(_file, info, {
+					spaces: 2,
+				})
+			}
+		})
+	;
+
+	await FastGlob.async([
+			'*.json',
+		], {
+			cwd: path.join(cacheFilePaths.dirDataRoot, 'novel/info'),
+			absolute: true,
+		})
+		.each(async (file) =>
+		{
+			let novel: IWenku8RecentUpdateRowBookWithChapters = await readJSON(file);
+
+			let old = novel.desc;
+
+			novel.desc = trimWithZeroWidth(old);
+
+			if (novel.desc !== old)
+			{
+				console.log(`fix`, novel.id, novel.name)
+
+				return writeJSON(file, novel, {
 					spaces: 2,
 				})
 			}
