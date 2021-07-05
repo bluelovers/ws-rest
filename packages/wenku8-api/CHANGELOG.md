@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.47](https://github.com/bluelovers/ws-rest/compare/wenku8-api@1.0.46...wenku8-api@1.0.47) (2021-07-05)
+
+
+### ♻️　Chores
+
+* update deps ([d584383](https://github.com/bluelovers/ws-rest/commit/d58438305e1a92d2f5cb598c14ae70081e8e850d))
+
+
+
+
+
 ## [1.0.46](https://github.com/bluelovers/ws-rest/compare/wenku8-api@1.0.45...wenku8-api@1.0.46) (2021-07-04)
 
 **Note:** Version bump only for package wenku8-api

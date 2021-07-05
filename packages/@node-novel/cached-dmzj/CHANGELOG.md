@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.110](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-dmzj@1.1.109...@node-novel/cached-dmzj@1.1.110) (2021-07-05)
+
+
+### 🐛　Bug Fixes
+
+* **dmzj:** 修正錯誤的 last_update_volume_name ([a2986a7](https://github.com/bluelovers/ws-rest/commit/a2986a7a2366c81a375b20d787a75c030f75e15f))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-dmzj] update temp cache ([baf842d](https://github.com/bluelovers/ws-rest/commit/baf842d854221a7df542613fd080f919f052eb30))
+* [@node-novel/cached-dmzj] update cache, novel x 141 ([e2a9065](https://github.com/bluelovers/ws-rest/commit/e2a906596d5421e742a8e2e1cfd3ebef35adba5b))
+* [@node-novel/cached-dmzj] update temp cache ([e450c31](https://github.com/bluelovers/ws-rest/commit/e450c317d5cb3b0a9044b4cf3338245090e5fcc2))
+
+
+
+
+
 ## [1.1.109](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-dmzj@1.1.108...@node-novel/cached-dmzj@1.1.109) (2021-07-04)
 
 **Note:** Version bump only for package @node-novel/cached-dmzj
