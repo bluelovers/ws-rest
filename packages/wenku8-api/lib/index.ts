@@ -29,6 +29,7 @@ import { fromURL, IFromUrlOptions, IJSDOM, createJSDOM, IConstructorOptions as I
 import { combineURLs } from 'restful-decorator/lib/fix/axios';
 import { paramMetadataRequestConfig } from 'restful-decorator/lib/wrap/abstract';
 import { trimUnsafe } from './util';
+import { removeZeroWidth } from 'zero-width';
 
 import { sniffHTMLEncoding, iconvDecode } from 'restful-decorator-plugin-jsdom/lib/util/gbk';
 
@@ -720,7 +721,7 @@ export class Wenku8Client extends AbstractHttpClientWithJSDom
 			})
 		;
 
-		let text = $content.text();
+		let text = removeZeroWidth($content.text());
 
 		return {
 			novel_id: argv.novel_id.toString(),

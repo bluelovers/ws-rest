@@ -6,6 +6,7 @@ const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsd
 const decorators_1 = require("restful-decorator/lib/decorators");
 const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const util_1 = require("./util");
+const zero_width_1 = require("zero-width");
 const gbk_1 = require("restful-decorator-plugin-jsdom/lib/util/gbk");
 const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
 const urlEncodeGBK_1 = require("./util/urlEncodeGBK");
@@ -400,7 +401,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
                 });
             }
         });
-        let text = $content.text();
+        let text = (0, zero_width_1.removeZeroWidth)($content.text());
         return {
             novel_id: argv.novel_id.toString(),
             cid: argv.cid.toString(),
