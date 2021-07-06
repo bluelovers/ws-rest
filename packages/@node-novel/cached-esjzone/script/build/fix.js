@@ -15,6 +15,7 @@ const path_1 = require("path");
 const path_2 = require("path");
 const fs_1 = require("@node-novel/site-cache-util/lib/fs");
 const upath2_1 = require("upath2");
+const site_1 = require("esjzone-api/lib/util/site");
 exports.default = (0, index_1.lazyRun)(async () => {
     const { api, saveCache } = await (0, util_1.getApiClient)();
     let recentUpdate = await (0, fs_extra_1.readJSON)(files_1.default.recentUpdate);
@@ -89,6 +90,9 @@ exports.default = (0, index_1.lazyRun)(async () => {
             }
             return true;
         });
+        if (row.cover !== (row.cover = (0, site_1._fixCoverUrl)(row.cover))) {
+            bool = true;
+        }
         if (bool) {
             util_1.consoleDebug.success(`fix`, (0, upath2_1.basename)(file), row.name);
             return (0, fs_1.outputJSONLazy)(file, row);

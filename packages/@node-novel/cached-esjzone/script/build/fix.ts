@@ -18,6 +18,7 @@ import { join } from 'path';
 import { dirname } from 'path';
 import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 import { basename } from 'upath2';
+import { _fixCoverUrl } from 'esjzone-api/lib/util/site';
 
 export default lazyRun(async () =>
 {
@@ -137,6 +138,11 @@ export default lazyRun(async () =>
 
 				return true;
 			})
+
+			if (row.cover !== (row.cover = _fixCoverUrl(row.cover)))
+			{
+				bool = true;
+			}
 
 			if (bool)
 			{
