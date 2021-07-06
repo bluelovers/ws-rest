@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.81](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.80...@node-novel/cached-esjzone@1.0.81) (2021-07-06)
+
+
+### 🐛　Bug Fixes
+
+* **esjzone:** esjzone 修正空白圖片判定 ([3872e5a](https://github.com/bluelovers/ws-rest/commit/3872e5a7057afbeea15b2ebec70e79da37b23a05))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-masiro] update cache, novel x 2 ([e6be88b](https://github.com/bluelovers/ws-rest/commit/e6be88bb437c19298d6e7e9c211dcdb043a52c63))
+
+
+
+
+
 ## [1.0.80](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.79...@node-novel/cached-esjzone@1.0.80) (2021-07-05)
 
 

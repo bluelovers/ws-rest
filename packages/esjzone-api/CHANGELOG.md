@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.47](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.46...esjzone-api@1.0.47) (2021-07-06)
+
+
+### 🐛　Bug Fixes
+
+* **esjzone:** esjzone 修正空白圖片判定 ([3872e5a](https://github.com/bluelovers/ws-rest/commit/3872e5a7057afbeea15b2ebec70e79da37b23a05))
+
+
+
+
+
 ## [1.0.46](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.45...esjzone-api@1.0.46) (2021-07-05)
 
 
