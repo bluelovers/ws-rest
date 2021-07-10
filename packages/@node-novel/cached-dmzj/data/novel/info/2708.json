@@ -3,13 +3,13 @@
   "name": "劣等眼的转生魔术师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10807,
-  "last_update_chapter_id": 105935,
-  "last_update_time": 1588037908,
-  "cover": "https://xs.dmzj.com/img/webpic/9/ldy0808l.jpg",
-  "hot_hits": 236115,
+  "last_update_volume_id": 11614,
+  "last_update_chapter_id": 117482,
+  "last_update_time": 1625585407,
+  "cover": "http://xs.dmzj.com/img/webpic/9/ldy0808l.jpg",
+  "hot_hits": 323409,
   "introduction": "　　最强转生魔术师在异世界开无双！\n　　在由天生眼睛颜色决定能力的世界，曾经有一名能力压倒群雄的天才魔术师。其名为亚伯。因为能力太强，亚伯甚至遭到同伴疏远。为了追求理想世界，他让灵魂转生到遥远的未来。\n　　但是，在未来世界，亚伯拥有的至高眼睛不知为何沦为『劣等眼』，并受人轻视！他被贵族少爷缠上，遭受莫须有的歧视。然而，在由于文明发达导致魔术师的能力显著衰退的未来世界中，亚伯拥有的『琥珀眼』却隐藏著超越人类能理解的非寻常力量！\n　　来自过去的最强英雄，自由自在地打破未来魔术师的常识！",
   "types": [
     "异界",
@@ -17,8 +17,7 @@
   ],
   "authors": "柑橘ゆすら",
   "first_letter": "L",
-  "subscribe_num": 9922,
-  "redis_update_time": 1588166858,
+  "subscribe_num": 13362,
   "volume": [
     {
       "id": 10275,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷 受虐的前勇者在未来世界从容生活",
       "volume_order": 10,
       "addtime": 1565263758,
-      "sum_chapters": 6
+      "sum_chapters": 12
     },
     {
       "id": 10807,
@@ -34,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1588037006,
-      "sum_chapters": 6
+      "sum_chapters": 12
+    },
+    {
+      "id": 11614,
+      "lnovel_id": 2708,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1625576463,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -206,6 +213,69 @@
           "chapter_id": 105935,
           "chapter_name": "插画",
           "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 11614,
+      "id": 11614,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 117470,
+          "chapter_name": "序章 在训练健身房发生的事",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 117471,
+          "chapter_name": "第一话 招生活动",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 117472,
+          "chapter_name": "第二话 古代魔术研究会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 117473,
+          "chapter_name": "第三话 禁忌的魔导书（阿卡西纪录）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 117474,
+          "chapter_name": "第四话 骑龙",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 117475,
+          "chapter_name": "第五话 兄弟对决",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 117476,
+          "chapter_name": "第六话 VS反魔术组织",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 117477,
+          "chapter_name": "第七话 事件的真相",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 117478,
+          "chapter_name": "第？话 某魔术师的追忆",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 117479,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 117482,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
