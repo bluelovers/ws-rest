@@ -1,6 +1,6 @@
 {
   "name": "@bluelovers/axios-extend",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "description": "extend axios with a set of plugins",
   "keywords": [
     "axios",
@@ -52,7 +52,7 @@
     "unset-value": "^2.0.0"
   },
   "devDependencies": {
-    "restful-decorator": "^1.0.56"
+    "restful-decorator": "^1.0.57"
   },
   "peerDependencies": {
     "axios": "< 0.19 >= 0.18"

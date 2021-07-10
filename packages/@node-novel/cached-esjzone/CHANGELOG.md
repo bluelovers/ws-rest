@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.85](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.84...@node-novel/cached-esjzone@1.0.85) (2021-07-10)
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-esjzone] update cache ([2d14ce0](https://github.com/bluelovers/ws-rest/commit/2d14ce0baffdf1cb60314795e9bdb2707b46e439))
+
+
+
+
+
 ## [1.0.84](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.83...@node-novel/cached-esjzone@1.0.84) (2021-07-10)
 
 

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.115](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-dmzj@1.1.114...@node-novel/cached-dmzj@1.1.115) (2021-07-10)
+
+
+### 🔖　Miscellaneous
+
+* . ([cf378e7](https://github.com/bluelovers/ws-rest/commit/cf378e7bd8144fbcf687c99f87f2b792a9155829))
+* [@node-novel/cached-dmzj] update temp cache ([05c810d](https://github.com/bluelovers/ws-rest/commit/05c810dde94c978bba951fc0fe19ef5b3ce7f4a4))
+* [@node-novel/cached-dmzj] update cache, novel x 1 ([a75b7d7](https://github.com/bluelovers/ws-rest/commit/a75b7d787c83e59ff48da5ae775f34deb3e86fa8))
+
+
+
+
+
 ## [1.1.114](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-dmzj@1.1.113...@node-novel/cached-dmzj@1.1.114) (2021-07-10)
 
 

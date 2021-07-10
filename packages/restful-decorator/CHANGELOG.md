@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.57](https://github.com/bluelovers/ws-rest/compare/restful-decorator@1.0.56...restful-decorator@1.0.57) (2021-07-10)
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([f7cabac](https://github.com/bluelovers/ws-rest/commit/f7cabac7543c9b7a9f871e493560ae88a62cf753))
+
+
+
+
+
 ## [1.0.56](https://github.com/bluelovers/ws-rest/compare/restful-decorator@1.0.55...restful-decorator@1.0.56) (2021-07-05)
 
 **Note:** Version bump only for package restful-decorator

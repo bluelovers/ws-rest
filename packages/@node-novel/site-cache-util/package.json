@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/site-cache-util",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -31,7 +31,7 @@
     "@git-lazy/util": "^1.0.26",
     "@types/bluebird": "^3",
     "@types/fs-extra": "^9",
-    "axios-cache-adapter-util": "^1.0.52",
+    "axios-cache-adapter-util": "^1.0.53",
     "bluebird": "^3.7.2",
     "env-bool": "^1.0.3",
     "free-gc": "^1.0.6",
@@ -41,8 +41,8 @@
     "lru-cache2": "^6.0.7",
     "moment": "^2.29.1",
     "moment-timezone": "^0.5.33",
-    "restful-decorator": "^1.0.56",
-    "restful-decorator-plugin-jsdom": "^1.0.36",
+    "restful-decorator": "^1.0.57",
+    "restful-decorator-plugin-jsdom": "^1.0.37",
     "ts-type": "^1.2.35",
     "tslib": "^2.3.0",
     "upath2": "^3.1.9"

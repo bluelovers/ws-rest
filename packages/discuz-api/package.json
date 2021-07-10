@@ -1,6 +1,6 @@
 {
   "name": "discuz-api",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -26,15 +26,15 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@bluelovers/axios-extend": "^1.0.41",
+    "@bluelovers/axios-extend": "^1.0.42",
     "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.6",
     "jsdom-extra": "^3.0.7",
     "lazy-url": "^1.0.10",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
-    "restful-decorator": "^1.0.56",
-    "restful-decorator-plugin-jsdom": "^1.0.36",
+    "restful-decorator": "^1.0.57",
+    "restful-decorator-plugin-jsdom": "^1.0.37",
     "ts-type": "^1.2.35",
     "tslib": "^2.3.0",
     "zero-width": "^1.0.16"

@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/cached-esjzone",
-  "version": "1.0.84",
+  "version": "1.0.85",
   "description": "cached esjzone fake api like data",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -31,11 +31,11 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "devDependencies": {
-    "@node-novel/site-cache-util": "^1.0.42",
-    "axios-cache-adapter-util": "^1.0.52",
-    "esjzone-api": "^1.0.50",
+    "@node-novel/site-cache-util": "^1.0.43",
+    "axios-cache-adapter-util": "^1.0.53",
+    "esjzone-api": "^1.0.51",
     "lazy-cookies": "^1.0.35",
-    "restful-decorator": "^1.0.56"
+    "restful-decorator": "^1.0.57"
   },
   "publishConfig": {
     "access": "public"
