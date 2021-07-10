@@ -13,8 +13,9 @@ import FastGlob from '@bluelovers/fast-glob/bluebird';
 import { array_unique_overwrite } from 'array-hyper-unique';
 import sortObject from 'sort-object-keys2';
 import cacheFilePaths from './util/files';
+import { lazyRun } from '@node-novel/site-cache-util/lib';
 
-export default (async () =>
+export default lazyRun(async () =>
 {
 	const file = cacheFilePaths.recentUpdate;
 	const file2 = cacheFilePaths.task001;
@@ -84,5 +85,7 @@ export default (async () =>
 		spaces: 2,
 	})
 
-})();
+}, {
+	pkgLabel: __filename,
+});
 

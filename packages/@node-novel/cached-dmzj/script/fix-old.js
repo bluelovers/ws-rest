@@ -8,7 +8,8 @@ const bluebird_cancellation_1 = (0, tslib_1.__importDefault)(require("bluebird-c
 const util_2 = require("dmzj-api/lib/util");
 const bluebird_1 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
 const files_1 = (0, tslib_1.__importDefault)(require("./util/files"));
-exports.default = (async () => {
+const lib_1 = require("@node-novel/site-cache-util/lib");
+exports.default = (0, lib_1.lazyRun)(async () => {
     const file = files_1.default.recentUpdate;
     const file2 = files_1.default.task001;
     const recentUpdate = await bluebird_cancellation_1.default
@@ -52,5 +53,7 @@ exports.default = (async () => {
     await (0, fs_extra_1.writeJSON)(file2, taskList, {
         spaces: 2,
     });
-})();
+}, {
+    pkgLabel: __filename,
+});
 //# sourceMappingURL=fix-old.js.map
