@@ -2342,10 +2342,10 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-filesize@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.npmjs.org/filesize/-/filesize-6.4.0.tgz#914f50471dd66fdca3cefe628bd0cde4ef769bcd"
-  integrity sha512-mjFIpOHC4jbfcTfoh4rkWpI31mF7viw9ikj/JyLoKzqlwG/YsefKfvYlYhdYdg/9mtK2z1AzgN/0LvVQ3zdlSQ==
+filesize@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/filesize/-/filesize-7.0.0.tgz#9d4b3ce384ec7731a9e68c64ee29fb4934ad657d"
+  integrity sha512-Wsstw+O1lZ9gVmOI1thyeQvODsaoId2qw14lCqIzUhoHKXX7T2hVpB7BR6SvgodMBgWccrx/y2eyV8L7tDmY6A==
 
 fill-range@^7.0.1:
   version "7.0.1"
@@ -2354,12 +2354,13 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-find-pkg-ws@^1.0.26:
-  version "1.0.26"
-  resolved "https://registry.npmjs.org/find-pkg-ws/-/find-pkg-ws-1.0.26.tgz#b372c933553edc88b310a0eb1dcc2a0da752f145"
-  integrity sha512-bjyk1zjWrbPje1hsmqBH9oOLSoDHnEHrEsJaZGuldoyWxgQwAum0sQcZgScOuRPBZbHxQ2E2pW9Ha5/vy17tRg==
+find-pkg-ws@^1.0.28:
+  version "1.0.28"
+  resolved "https://registry.npmjs.org/find-pkg-ws/-/find-pkg-ws-1.0.28.tgz#6dfbaa8ef02d18df6d3e09ea23f41fd75ba04f7d"
+  integrity sha512-XlrhcFvgpHLHgaD3+RUiWJbt8j6aGJusIzbuK2p8xYUEg7Fgb9IsapEtPzvbafbXTZSDJoMVDJRrXVe1dJkIqA==
   dependencies:
-    find-yarn-workspace-root2 "^1.2.29"
+    find-yarn-workspace-root2 "^1.2.31"
+    tslib "^2.3.0"
 
 find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
@@ -2377,14 +2378,15 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-find-yarn-workspace-root2@^1.2.29:
-  version "1.2.29"
-  resolved "https://registry.npmjs.org/find-yarn-workspace-root2/-/find-yarn-workspace-root2-1.2.29.tgz#49ae063e71461728ba552ba620e09d9c5bf8b3e3"
-  integrity sha512-ui5XUFK3ziJavBRSMXnjpln3kqorHFwlzG5zynq/uzxyZIgILdwpMGqYul5JDhIieD5b9+eSnM3jLys8oz/Zjg==
+find-yarn-workspace-root2@^1.2.31:
+  version "1.2.31"
+  resolved "https://registry.npmjs.org/find-yarn-workspace-root2/-/find-yarn-workspace-root2-1.2.31.tgz#62ae357711efcdf3ffbfaa9aa9078a3545c9cd9c"
+  integrity sha512-OmI4D/uWC8+fw4+ERcIzRmtOoBmJBk+eIIM9qZh5TtD/PLW5r98pwh6TCos04jv9erh1LAKiq4o+SGJCvRvOhQ==
   dependencies:
     micromatch "^4.0.4"
     pkg-dir "^5.0.0"
-    upath2 "^3.1.8"
+    tslib "^2.3.0"
+    upath2 "^3.1.9"
 
 follow-redirects@1.5.10:
   version "1.5.10"
@@ -4924,7 +4926,7 @@ unset-value@^2.0.0:
     has-value "^2.0.2"
     isobject "^4.0.0"
 
-upath2@^3.1.7, upath2@^3.1.8, upath2@^3.1.9:
+upath2@^3.1.7, upath2@^3.1.9:
   version "3.1.9"
   resolved "https://registry.npmjs.org/upath2/-/upath2-3.1.9.tgz#1125ea5f089fcc092781cd6b804e91590cf823c1"
   integrity sha512-gpW782bpsHD8Kq90jAXEmG0REJcZMRqjmRLThlMEyOu/ZeTPqZlEjQIcI5Jh3r6kogmdlMpoiS4u8dtxwYDW2Q==
@@ -5077,13 +5079,14 @@ word-wrap@~1.2.3:
   resolved "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-workspaces-config@^1.0.30:
-  version "1.0.30"
-  resolved "https://registry.npmjs.org/workspaces-config/-/workspaces-config-1.0.30.tgz#aa00abf42025c4949270b62877b141b575e4b23b"
-  integrity sha512-vXf8+cNlWC/CBUeKGeEq2nhX86Wt0fmefUZESdOaxgcVd1HBngCuoJckxPGRaY6IHBEibPC4seUXGXWfrcU36A==
+workspaces-config@^1.0.32:
+  version "1.0.32"
+  resolved "https://registry.npmjs.org/workspaces-config/-/workspaces-config-1.0.32.tgz#4302a5d2e809ebad97648077ca2875e5d50631c8"
+  integrity sha512-cBhPnmrkmp402DrJZPdUBG+Z0Q1Tqk4sbQIpv6xvv4QmQQXN+CarfYt2nE3bFSCytkJHfPo+o4U5kpxQ2Er89Q==
   dependencies:
-    find-pkg-ws "^1.0.26"
+    find-pkg-ws "^1.0.28"
     fs-extra "^10.0.0"
+    tslib "^2.3.0"
 
 wrap-ansi@^7.0.0:
   version "7.0.0"
