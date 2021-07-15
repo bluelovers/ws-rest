@@ -16,7 +16,6 @@
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
-    "test": "test",
     "npm:publish": "npm publish",
     "prepublishOnly": "echo prepublishOnly",
     "postpublish": "echo postpublish",

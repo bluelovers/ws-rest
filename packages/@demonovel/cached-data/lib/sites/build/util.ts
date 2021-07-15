@@ -5,9 +5,10 @@
 import { ISitesKeys, ICachedJSONRowInput, ISitesSourcePack, IEntryHandler } from '../types';
 import { newUUID, trim } from '../../util';
 import sortObjectKeys from 'sort-object-keys2';
-import { ICachedJSONRowPlus, IArrayCachedJSONRow, IRecordCachedJSONRow } from '../../../types';
+import { IArrayCachedJSONRow} from '../../../types';
 import { toRecord } from '../../util/convert';
 import { array_unique_overwrite } from 'array-hyper-unique';
+import { ICachedJSONRowPlus, IRecordCachedJSONRow } from '@demonovel/cached-data-types';
 
 export function newEntry<K extends ISitesKeys>(siteID: K, item: ICachedJSONRowInput)
 {

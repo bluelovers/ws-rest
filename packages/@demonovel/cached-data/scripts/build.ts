@@ -10,9 +10,10 @@ import { outputJSON, outputFile } from 'fs-extra';
 import { join } from "path";
 import { __rootCacheBuild, __rootCache } from '../lib/__root';
 import { toArray, _handle, toRecord } from '../lib/util/convert';
-import { IArrayCachedJSONRow, IRecordCachedJSONRow } from '../types';
+import { IArrayCachedJSONRow} from '../types';
 import buildCached from '../lib/all/cache';
 import { outputJSONWithIndent } from '../lib/util/fs';
+import { IRecordCachedJSONRow } from '@demonovel/cached-data-types';
 
 export default fetchFileAll(false, {
 	local: true,

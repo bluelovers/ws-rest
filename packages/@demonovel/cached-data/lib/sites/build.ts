@@ -1,10 +1,10 @@
 import { ISitesKeys, ISitesSourcePack, IEntryHandler } from './types';
-import { IRecordCachedJSONRow, ICachedJSONRowPlus, EnumSiteID } from '../../types';
 import { handleEntries } from './build/util';
 import Bluebird from 'bluebird';
 import buildEsjzone from './build/esjzone';
 import buildDefault from './build/default';
 import buildMasiro from './build/masiro';
+import { EnumSiteID, ICachedJSONRowPlus, IRecordCachedJSONRow } from '@demonovel/cached-data-types';
 
 export function buildCore<K extends ISitesKeys>(siteID: K, source: ISitesSourcePack)
 {

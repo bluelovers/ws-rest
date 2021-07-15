@@ -4,8 +4,8 @@ import { siteID, IFilterNovelDataPlus } from './types';
 import NodeNovelInfo from 'node-novel-info/class';
 import dotValues2 from 'dot-values2/lib'
 import { newUUID, trim } from '../util';
-import { ICachedJSONRowPlus, IRecordCachedJSONRow } from '../../types';
 import { createMomentBySeconds, createMomentByMilliseconds } from '../util/moment';
+import { ICachedJSONRowPlus, IRecordCachedJSONRow } from '@demonovel/cached-data-types';
 
 export function build(source: INovelStatCache)
 {

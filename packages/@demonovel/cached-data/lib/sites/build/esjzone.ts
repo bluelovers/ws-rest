@@ -2,10 +2,10 @@
  * Created by user on 2020/3/3.
  */
 
-import { EnumSiteID } from '../../../types';
 import { ISitesSourceType, ICachedJSONRowInput } from '../types';
 import { newTitle, newEntry } from './util';
 import { createMomentBySeconds } from '../../util/moment';
+import { EnumSiteID } from '@demonovel/cached-data-types';
 
 export function buildEsjzone<K extends EnumSiteID.esjzone>(siteID: K, id: string, data: ISitesSourceType[K])
 {

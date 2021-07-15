@@ -16,7 +16,6 @@
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
-    "test": "test",
     "build": "yarn run build:fix && yarn run build:cache && yarn run build:commit",
     "build:cache": "ts-node ./script/build",
     "build:commit": "ts-node ./script/build-commit",

@@ -3,7 +3,7 @@ import { IESJzoneRecentUpdateRowBook } from 'esjzone-api/lib/types';
 import { IDiscuzForumPickThreads } from 'discuz-api/lib/types';
 import { IWenku8RecentUpdateRowBookWithChapters } from 'wenku8-api/lib/types';
 import { ITSRequireAtLeastOne } from 'ts-type';
-import { ICachedJSONRowPlus } from '../../types';
+import { ICachedJSONRowPlus } from '@demonovel/cached-data-types';
 export declare const id_packs_map: {
     dmzj: string;
     esjzone: string;

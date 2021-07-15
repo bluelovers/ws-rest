@@ -1,8 +1,9 @@
-import { ISitesKeysAll, ISitesSourcePackAll, IRecordCachedJSONRow, IRecordSitesBuildAll } from '../../types';
+import { ISitesKeysAll, ISitesSourcePackAll, IRecordSitesBuildAll } from '../../types';
 import buildDemoNovel from '../demonovel/build';
 import buildSites, { buildCore } from '../sites/build';
 import Bluebird from 'bluebird';
 import { ISitesKeys } from '../sites/types';
+import { IRecordCachedJSONRow } from '@demonovel/cached-data-types';
 
 export function build(source: ISitesSourcePackAll)
 {

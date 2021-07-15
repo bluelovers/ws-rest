@@ -1,4 +1,5 @@
-import { IArrayCachedJSONRow, IRecordCachedJSONRow } from '../../types';
+import { IArrayCachedJSONRow} from '../../types';
+import { IRecordCachedJSONRow } from '@demonovel/cached-data-types';
 
 export function _handle(list: IArrayCachedJSONRow)
 {
