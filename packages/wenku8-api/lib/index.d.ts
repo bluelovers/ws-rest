@@ -97,5 +97,10 @@ export declare class Wenku8Client extends AbstractHttpClientWithJSDom {
         html?: string;
     }>;
     _iconvDecode(buf: Buffer): string;
+    /**
+     * @todo implement tag search
+     * @see https://www.wenku8.net/modules/article/tags.php
+     */
+    tags(): void;
 }
 export default Wenku8Client;

@@ -21,7 +21,7 @@ export function buildDefault<K extends EnumSiteID.dmzj>(siteID: K,
 	item.title = data.name;
 	item.authors = [data.authors];
 	item.content = data.desc || data.introduction;
-	item.tags = data.types;
+	item.tags = data.types || data.tags;
 	item.updated = data.last_update_time && createMomentBySeconds(data.last_update_time).valueOf() || 0;
 	item.cover = data.cover;
 

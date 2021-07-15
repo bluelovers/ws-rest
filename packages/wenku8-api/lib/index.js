@@ -198,6 +198,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
             "cover": undefined,
             "last_update_time": 0,
             "last_update_chapter_name": undefined,
+            "tags": undefined,
             desc: undefined,
         });
         data.name = (0, util_1.trimUnsafe)($('#content table:eq(0) table:eq(0) td > span > b').text());
@@ -255,6 +256,16 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
             }
             if (data.cid == null) {
                 throw new Error(`data.cid == null`);
+            }
+        }
+        let _tags = (0, util_1.trimUnsafe)(_content.find('.hottext:eq(0)').text() || '');
+        if (/^作品Tags：/.test(_tags)) {
+            data.tags = _tags
+                .replace(/^作品Tags：\s*/, '')
+                .split(/\s+/)
+                .filter(Boolean);
+            if (!data.tags.length) {
+                data.tags = void 0;
             }
         }
         return data;
@@ -414,6 +425,13 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
     _iconvDecode(buf) {
         return (0, gbk_1.iconvDecode)(buf);
     }
+    /**
+     * @todo implement tag search
+     * @see https://www.wenku8.net/modules/article/tags.php
+     */
+    tags() {
+        throw new Error('Not implemented');
+    }
 };
 (0, tslib_1.__decorate)([
     (0, decorators_1.POST)('login.php?do=submit&action=login'),
@@ -512,6 +530,12 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
     (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
     (0, tslib_1.__metadata)("design:returntype", Object)
 ], Wenku8Client.prototype, "getChapter", null);
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('/modules/article/tags.php'),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", []),
+    (0, tslib_1.__metadata)("design:returntype", void 0)
+], Wenku8Client.prototype, "tags", null);
 Wenku8Client = (0, tslib_1.__decorate)([
     (0, decorators_1.BaseUrl)('https://www.wenku8.net'),
     (0, decorators_1.Headers)({

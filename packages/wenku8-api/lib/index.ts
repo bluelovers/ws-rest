@@ -383,6 +383,7 @@ export class Wenku8Client extends AbstractHttpClientWithJSDom
 			"cover": undefined,
 			"last_update_time": 0,
 			"last_update_chapter_name": undefined,
+			"tags": undefined,
 			desc: undefined,
 		});
 
@@ -478,6 +479,22 @@ export class Wenku8Client extends AbstractHttpClientWithJSDom
 			if (data.cid == null)
 			{
 				throw new Error(`data.cid == null`)
+			}
+		}
+
+		let _tags = trimUnsafe(_content.find('.hottext:eq(0)').text() || '');
+
+		if (/^作品Tags：/.test(_tags))
+		{
+			data.tags = _tags
+				.replace(/^作品Tags：\s*/, '')
+				.split(/\s+/)
+				.filter(Boolean)
+			;
+
+			if (!data.tags.length)
+			{
+				data.tags = void 0;
 			}
 		}
 
@@ -736,6 +753,16 @@ export class Wenku8Client extends AbstractHttpClientWithJSDom
 	_iconvDecode(buf: Buffer): string
 	{
 		return iconvDecode(buf);
+	}
+
+	/**
+	 * @todo implement tag search
+	 * @see https://www.wenku8.net/modules/article/tags.php
+	 */
+	@GET('/modules/article/tags.php')
+	tags()
+	{
+		throw new Error('Not implemented');
 	}
 
 }
