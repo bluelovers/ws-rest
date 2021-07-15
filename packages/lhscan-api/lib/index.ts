@@ -47,7 +47,7 @@ import { arrayBufferToBuffer } from '@bluelovers/array-buffer-to-string';
 import { EnumMirrorSites } from './mirror';
 import { setValue } from 'dot-values2';
 import moment from 'moment';
-import { iconvDecode } from '../../restful-decorator-plugin-jsdom/lib/util/utf8';
+import { iconvDecode } from 'restful-decorator-plugin-jsdom/lib/util/utf8';
 
 @BaseUrl(EnumMirrorSites.LOVEHEAVEN)
 @Headers({
