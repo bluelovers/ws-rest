@@ -13,6 +13,8 @@
   "license": "ISC",
   "author": "",
   "main": "lib/index",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
@@ -38,7 +40,7 @@
     "jsdom-extra": "^3.0.7",
     "lazy-cookies": "^1.0.35",
     "restful-decorator": "^1.0.57",
-    "tough-cookie": "< 4 & >= 3",
+    "tough-cookie": "< 4 >= 3",
     "tslib": "^2.3.0"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"

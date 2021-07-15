@@ -1,8 +1,8 @@
 {
-  "name": "@demonovel/cached-data-types",
+  "name": "masiro-me-api",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@demonovel/cached-data-types#readme",
+  "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/masiro-me-api#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
   },
@@ -18,7 +18,7 @@
     "test": "echo \"Error: no test specified\"",
     "test:jest": "ynpx --quiet jest -- --coverage --passWithNoTests",
     "test:mocha": "ynpx --quiet -p ts-node -p mocha mocha -- --require ts-node/register \"!(node_modules)/**/*.{test,spec}.{ts,tsx}\"",
-    "preversion": "yarn run test",
+    "preversion": "yarn run prepublishOnly:check-bin && yarn run test",
     "prepublishOnly": "echo prepublishOnly",
     "prepublishOnly:check-bin": "ynpx --quiet @yarn-tool/check-pkg-bin",
     "prepublishOnly:update": "yarn run ncu && yarn run sort-package-json",
@@ -26,12 +26,16 @@
     "sort-package-json": "yarn-tool sort"
   },
   "dependencies": {
-    "node-novel-info": "^3.0.14",
-    "tslib": "^2.3.0"
+    "@demonovel/cached-data-types": "^1.0.0",
+    "bluebird": "^3.7.2",
+    "crlf-normalize": "^1.0.6",
+    "moment": "^2.29.1",
+    "regexp-cjk": "^3.3.94",
+    "restful-decorator-plugin-jsdom": "^1.0.37",
+    "ts-type": "^1.2.35",
+    "tslib": "^2.3.0",
+    "zero-width": "^1.0.16"
   },
   "devDependencies": {},
-  "peerDependencies": {},
-  "publishConfig": {
-    "access": "public"
-  }
+  "peerDependencies": {}
 }
