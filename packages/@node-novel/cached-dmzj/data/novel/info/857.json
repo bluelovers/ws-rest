@@ -3,21 +3,20 @@
   "name": "江神二郎系列",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 双头恶魔",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 6054,
-  "last_update_chapter_id": 42197,
-  "last_update_time": 1401256515,
-  "cover": "https://xs.dmzj.com/img/webpic/14/41TsQfsBOTL._SL500_AA240_.jpg",
-  "hot_hits": 23762,
+  "last_update_volume_name": "第四卷 女王国之城",
+  "last_update_chapter_name": "尾声",
+  "last_update_volume_id": 11637,
+  "last_update_chapter_id": 117804,
+  "last_update_time": 1626356199,
+  "cover": "http://xs.dmzj.com/img/webpic/14/41TsQfsBOTL._SL500_AA240_.jpg",
+  "hot_hits": 25895,
   "introduction": "临床犯罪学家火村英生和他的作家朋友有栖川有栖阴错阳差地来到了一个被称为“鸦岛”的地方。\n据说这里是只有乌鸦栖息的绝海孤岛，却住着一位与世隔绝的归隐作家。\n不久，以某位神秘富翁为首的一群人聚集而来，接着，在封闭的环境中，连续的杀人事件开始了……",
   "types": [
     "侦探"
   ],
   "authors": "有栖川有栖",
   "first_letter": "J",
-  "subscribe_num": 431,
-  "redis_update_time": 1565001571,
+  "subscribe_num": 740,
   "volume": [
     {
       "id": 4396,
@@ -41,6 +40,14 @@
       "volume_name": "第三卷 双头恶魔",
       "volume_order": 30,
       "addtime": 1401255895,
+      "sum_chapters": 10
+    },
+    {
+      "id": 11637,
+      "lnovel_id": 857,
+      "volume_name": "第四卷 女王国之城",
+      "volume_order": 40,
+      "addtime": 1626355957,
       "sum_chapters": 10
     }
   ],
@@ -246,6 +253,109 @@
           "chapter_id": 42197,
           "chapter_name": "后记",
           "chapter_order": 240
+        }
+      ]
+    },
+    {
+      "volume_id": 11637,
+      "id": 11637,
+      "volume_name": "第四卷 女王国之城",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 117786,
+          "chapter_name": "第一章 女王之所都",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 117787,
+          "chapter_name": "第二章 入境",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 117788,
+          "chapter_name": "第三章 村里的事件",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 117789,
+          "chapter_name": "第四章 天川之下",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 117790,
+          "chapter_name": "第五章 急转直下",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 117791,
+          "chapter_name": "第六章 某个天晴的午后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 117792,
+          "chapter_name": "第七章 培利哈",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 117793,
+          "chapter_name": "第八章 封闭的城堡",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 117794,
+          "chapter_name": "第九章 星舰",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 117795,
+          "chapter_name": "第十章 c栋之夜",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 117796,
+          "chapter_name": "第十一章 s&w",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 117797,
+          "chapter_name": "第十二章 自由",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 117798,
+          "chapter_name": "第十三章 混沌",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 117799,
+          "chapter_name": "第十四章 联合与离散",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 117800,
+          "chapter_name": "第十五章 可思议城堡里的爱丽丝",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 117801,
+          "chapter_name": "第十六章 讨论",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 117802,
+          "chapter_name": "第十七章 冲出黑暗",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 117803,
+          "chapter_name": "第十八章 秩序",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 117804,
+          "chapter_name": "尾声",
+          "chapter_order": 190
         }
       ]
     }
