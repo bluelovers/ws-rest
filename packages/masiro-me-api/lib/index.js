@@ -14,6 +14,7 @@ const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const form_1 = require("restful-decorator/lib/decorators/form");
 const _checkLogin_1 = require("./util/_checkLogin");
 const _getBookInfo_1 = require("./util/_getBookInfo");
+const _getBookChapters_1 = require("./util/_getBookChapters");
 let MasiroMeClient = class MasiroMeClient extends index_1.default {
     loginByForm(inputData) {
         const jsdom = this.$returnValue;
@@ -49,7 +50,9 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
         let book = (0, _getBookInfo_1._getBookInfo)($, novel_id);
-        return book;
+        let book_with_chapters = book;
+        book_with_chapters.chapters = (0, _getBookChapters_1._getBookChapters)($);
+        return book_with_chapters;
     }
 };
 (0, tslib_1.__decorate)([

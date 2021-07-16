@@ -4,3 +4,16 @@ import { ITSPartialPick } from 'ts-type/lib/type/record';
 export interface IMasiroMeBook extends Omit<ICachedJSONRow, 'siteID' | 'novelID' | 'uuid'>, ITSPartialPick<ICachedJSONRowPlus, 'status'> {
     translator?: string[];
 }
+export interface IMasiroMeChaptersParent {
+    volume_name: string;
+    volume_order: number;
+    chapters: IMasiroMeChaptersChild[];
+}
+export interface IMasiroMeChaptersChild {
+    chapter_id: string;
+    chapter_name: string;
+    chapter_order: number;
+}
+export interface IMasiroMeBookWithChapters extends IMasiroMeBook {
+    chapters: IMasiroMeChaptersParent[];
+}

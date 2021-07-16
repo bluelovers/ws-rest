@@ -3,7 +3,8 @@ import { trimUnsafe } from './trim';
 export function _getBookTags($: JQueryStatic, tags: string[] = [])
 {
 	$('.n-detail .tags a .label')
-		.each((index, elem) => {
+		.each((index, elem) =>
+		{
 
 			let s = trimUnsafe($(elem).text())
 
