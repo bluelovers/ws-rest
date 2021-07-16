@@ -8,7 +8,8 @@ const _getBookTags_1 = require("./_getBookTags");
 const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
 const regexp_cjk_1 = require("regexp-cjk");
 const _handleBookInfo_1 = require("./_handleBookInfo");
-function _getBookInfo($, novel_id) {
+const _getImgSrc_1 = require("./_getImgSrc");
+function _getBookInfo($, novel_id, baseURL) {
     novel_id = novel_id.toString();
     let authors = [];
     let _author = (0, trim_1.trimUnsafe)($('.n-detail .author').text());
@@ -25,7 +26,8 @@ function _getBookInfo($, novel_id) {
     let content = (0, trim_1.trimUnsafe)($('.content .brief').text())
         .replace(new regexp_cjk_1.zhRegExp(/^简介(?:：|:)\s*/), '');
     let title = (0, trim_1.trimUnsafe)($('.novel-title').text());
-    let cover = $('.content .with-border .has-img img.img').prop('src');
+    let _img = $('.content .with-border .has-img img.img');
+    let cover = (0, _getImgSrc_1._getImgSrc)(_img, baseURL);
     let last_update_name = (0, trim_1.trimUnsafe)($('.n-update .nw-a').text().replace(new regexp_cjk_1.zhRegExp(/^\s*最新(?:：|:)\s*/), ''));
     let book = {
         id: novel_id,

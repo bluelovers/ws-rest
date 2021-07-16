@@ -53,7 +53,7 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     bookInfo(novel_id) {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
-        let book = (0, _getBookInfo_1._getBookInfo)($, novel_id);
+        let book = (0, _getBookInfo_1._getBookInfo)($, novel_id, this.$baseURL);
         let book_with_chapters = book;
         book_with_chapters.chapters = (0, _getBookChapters_1._getBookChapters)($);
         return book_with_chapters;
@@ -66,7 +66,7 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     recentUpdate(page) {
         const json = this.$returnValue;
         const jsdom = this._responseDataToJSDOM('<meta charset="utf-8">' + json.html, this.$response);
-        return (0, _getRecentUpdate_1._getRecentUpdate)(jsdom.$, json);
+        return (0, _getRecentUpdate_1._getRecentUpdate)(jsdom.$, json, this.$baseURL);
     }
     recentUpdateAll(options) {
         let start = (options === null || options === void 0 ? void 0 : options.start) || 1;
@@ -75,9 +75,9 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
             let cur = start = data.page;
             const end = Math.max(Math.min((options === null || options === void 0 ? void 0 : options.end) || data.pages, data.pages), start, 1);
             let last;
-            while (cur < end && last !== cur) {
+            while (cur < end) {
                 let data2 = await this.recentUpdate(++cur);
-                if (data2.page === last || !data2.list.length) {
+                if (data2.page === last || cur !== data2.page || !data2.list.length) {
                     break;
                 }
                 data.list.push(...data2.list);
@@ -88,7 +88,7 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
             (0, array_hyper_unique_1.array_unique_overwrite)(data.list);
             let data3 = {
                 start,
-                end: last,
+                end: last !== null && last !== void 0 ? last : start,
                 pages: data.pages,
                 total: data.total,
                 list: data.list,

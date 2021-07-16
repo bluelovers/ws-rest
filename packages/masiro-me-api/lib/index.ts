@@ -130,7 +130,7 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		const jsdom = this.$returnValue as IJSDOM;
 		const { $ } = jsdom;
 
-		let book: IMasiroMeBook = _getBookInfo($, novel_id);
+		let book: IMasiroMeBook = _getBookInfo($, novel_id, this.$baseURL);
 
 		let book_with_chapters: IMasiroMeBookWithChapters = book as any;
 
@@ -170,7 +170,7 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		const json = this.$returnValue as IRawMasiroMeLoadMoreNovels;
 		const jsdom = this._responseDataToJSDOM('<meta charset="utf-8">' + json.html, this.$response);
 
-		return _getRecentUpdate(jsdom.$, json) as IMasiroMeRecentUpdate as any;
+		return _getRecentUpdate(jsdom.$, json, this.$baseURL) as IMasiroMeRecentUpdate as any;
 	}
 
 	recentUpdateAll(options?: {
@@ -188,11 +188,11 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 
 				let last: number;
 
-				while (cur < end && last !== cur)
+				while (cur < end)
 				{
 					let data2 = await this.recentUpdate(++cur)
 
-					if (data2.page === last || !data2.list.length)
+					if (data2.page === last || cur !== data2.page || !data2.list.length)
 					{
 						break;
 					}
@@ -209,7 +209,7 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 
 				let data3: IMasiroMeRecentUpdateAll = {
 					start,
-					end: last,
+					end: last ?? start,
 
 					pages: data.pages,
 					total: data.total,
