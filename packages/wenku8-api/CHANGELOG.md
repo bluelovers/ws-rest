@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.49](https://github.com/bluelovers/ws-rest/compare/wenku8-api@1.0.48...wenku8-api@1.0.49) (2021-07-16)
+
+
+### ✨　Features
+
+* **wenku8:** 支援抓取 wenku8 小說的 TAG ([a524d74](https://github.com/bluelovers/ws-rest/commit/a524d74db653f527b4c71db45644afeb4b05651b))
+
+
+### 📦　Code Refactoring
+
+* split @demonovel/cached-data-types ([0be928f](https://github.com/bluelovers/ws-rest/commit/0be928fa38a56edea3444718e4762ec8653f9552))
+
+
+
+
+
 ## [1.0.48](https://github.com/bluelovers/ws-rest/compare/wenku8-api@1.0.47...wenku8-api@1.0.48) (2021-07-10)
 
 **Note:** Version bump only for package wenku8-api

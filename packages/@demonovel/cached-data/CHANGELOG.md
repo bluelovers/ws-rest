@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.47](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.46...@demonovel/cached-data@1.0.47) (2021-07-16)
+
+
+### ✨　Features
+
+* **wenku8:** 支援抓取 wenku8 小說的 TAG ([a524d74](https://github.com/bluelovers/ws-rest/commit/a524d74db653f527b4c71db45644afeb4b05651b))
+
+
+### 📦　Code Refactoring
+
+* split @demonovel/cached-data-types ([0be928f](https://github.com/bluelovers/ws-rest/commit/0be928fa38a56edea3444718e4762ec8653f9552))
+
+
+### 🔖　Miscellaneous
+
+* [@demonovel/cached-data] update cache ([e694e6b](https://github.com/bluelovers/ws-rest/commit/e694e6bd2b2049ba7b28d1de8416502e81f1598d))
+* [@demonovel/cached-data] update cache ([40ba48b](https://github.com/bluelovers/ws-rest/commit/40ba48bb274ef3cc3cd1f1787c1f14677e4a1c01))
+* [@demonovel/cached-data] update cache ([ea934e1](https://github.com/bluelovers/ws-rest/commit/ea934e19b667add4d39a24fcfaab1bdae78ac3ec))
+
+
+
+
+
 ## [1.0.46](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.45...@demonovel/cached-data@1.0.46) (2021-07-11)
 
 

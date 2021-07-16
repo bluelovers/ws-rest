@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.25](https://github.com/bluelovers/ws-rest/compare/lhscan-api@1.0.24...lhscan-api@1.0.25) (2021-07-16)
+
+
+### 🔖　Miscellaneous
+
+* . ([9837416](https://github.com/bluelovers/ws-rest/commit/9837416fd994a17ab4db293f08cf6d2d50955162))
+
+
+
+
+
 ## [1.0.24](https://github.com/bluelovers/ws-rest/compare/lhscan-api@1.0.23...lhscan-api@1.0.24) (2021-07-10)
 
 
