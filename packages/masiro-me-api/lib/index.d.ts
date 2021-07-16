@@ -1,7 +1,8 @@
+/// <reference types="jquery" />
 import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib/index';
 import Bluebird from 'bluebird';
 import { Cookie } from 'tough-cookie';
-import { IMasiroMeBookWithChapters } from './types';
+import { IMasiroMeBookWithChapters, IMasiroMeChapter } from './types';
 export declare class MasiroMeClient extends AbstractHttpClientWithJSDom {
     loginByForm(inputData: {
         username: string;
@@ -18,5 +19,15 @@ export declare class MasiroMeClient extends AbstractHttpClientWithJSDom {
     checkLogin(): Bluebird<string>;
     _getAuthCookies(): Record<"laravel_session" | "remember_admin" | "XSRF-TOKEN", Cookie>;
     bookInfo(novel_id: number | string): Bluebird<IMasiroMeBookWithChapters>;
+    getChapter(chapter_id: string | number, options?: {
+        rawHtml?: boolean;
+        cb?(data: {
+            i: number;
+            $elem: JQuery<HTMLElement>;
+            $content: JQuery<HTMLElement>;
+            src: string;
+            imgs: string[];
+        }): void;
+    }): Bluebird<IMasiroMeChapter>;
 }
 export default MasiroMeClient;

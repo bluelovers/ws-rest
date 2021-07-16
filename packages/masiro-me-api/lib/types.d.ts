@@ -13,7 +13,20 @@ export interface IMasiroMeChaptersChild {
     chapter_id: string;
     chapter_name: string;
     chapter_order: number;
+    chapter_updated: number;
 }
 export interface IMasiroMeBookWithChapters extends IMasiroMeBook {
     chapters: IMasiroMeChaptersParent[];
+}
+export interface IMasiroMeChapter {
+    chapter_id: string;
+    imgs: string[];
+    text: string;
+    html?: string;
+    chapter_name?: string;
+    author?: string;
+    /**
+     * unix timestamp
+     */
+    dateline?: number;
 }

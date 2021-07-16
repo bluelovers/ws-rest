@@ -10,13 +10,14 @@ import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorator
 import { IJSDOM } from 'jsdom-extra/lib/pack';
 import { FormUrlencoded } from 'restful-decorator/lib/decorators/form';
 import { CookieJar, Cookie } from 'tough-cookie';
-import { IMasiroMeBook, IMasiroMeBookWithChapters } from './types';
+import { IMasiroMeBook, IMasiroMeBookWithChapters, IMasiroMeChapter } from './types';
 import { trimUnsafe } from './util/trim';
 import moment from 'moment';
 import { zhRegExp } from 'regexp-cjk';
 import { _checkLogin } from './util/_checkLogin';
 import { _getBookInfo } from './util/_getBookInfo';
 import { _getBookChapters } from './util/_getBookChapters';
+import { _getChapter } from './util/_getChapter';
 
 @BaseUrl('https://masiro.me')
 @Headers({
@@ -123,6 +124,27 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		book_with_chapters.chapters = _getBookChapters($);
 
 		return book_with_chapters as any
+	}
+
+	@GET('admin/novelReading?cid={chapter_id}')
+	@ReturnValueToJSDOM()
+	@methodBuilder()
+	getChapter(@ParamPath('chapter_id')
+		chapter_id: string | number, options: {
+		rawHtml?: boolean,
+		cb?(data: {
+			i: number,
+			$elem: JQuery<HTMLElement>,
+			$content: JQuery<HTMLElement>,
+			src: string,
+			imgs: string[],
+		}): void,
+	} = {}): Bluebird<IMasiroMeChapter>
+	{
+		const jsdom = this.$returnValue as IJSDOM;
+		const { $ } = jsdom;
+
+		return _getChapter($, chapter_id, options) as null
 	}
 
 }

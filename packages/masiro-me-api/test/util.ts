@@ -18,6 +18,11 @@ export async function getApiClient()
 		__path,
 		jar,
 		envPrefix: 'MASIRO_ME_API',
+		apiOptions: {
+			cache: {
+				maxAge: 6 * 60 * 60 * 1000,
+			},
+		}
 	}));
 
 	return {

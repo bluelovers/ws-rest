@@ -15,6 +15,7 @@ const form_1 = require("restful-decorator/lib/decorators/form");
 const _checkLogin_1 = require("./util/_checkLogin");
 const _getBookInfo_1 = require("./util/_getBookInfo");
 const _getBookChapters_1 = require("./util/_getBookChapters");
+const _getChapter_1 = require("./util/_getChapter");
 let MasiroMeClient = class MasiroMeClient extends index_1.default {
     loginByForm(inputData) {
         const jsdom = this.$returnValue;
@@ -53,6 +54,11 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         let book_with_chapters = book;
         book_with_chapters.chapters = (0, _getBookChapters_1._getBookChapters)($);
         return book_with_chapters;
+    }
+    getChapter(chapter_id, options = {}) {
+        const jsdom = this.$returnValue;
+        const { $ } = jsdom;
+        return (0, _getChapter_1._getChapter)($, chapter_id, options);
     }
 };
 (0, tslib_1.__decorate)([
@@ -103,6 +109,15 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     (0, tslib_1.__metadata)("design:paramtypes", [Object]),
     (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
 ], MasiroMeClient.prototype, "bookInfo", null);
+(0, tslib_1.__decorate)([
+    (0, method_1.GET)('admin/novelReading?cid={chapter_id}'),
+    (0, jsdom_1.ReturnValueToJSDOM)(),
+    (0, abstract_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, body_1.ParamPath)('chapter_id')),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
+    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+], MasiroMeClient.prototype, "getChapter", null);
 MasiroMeClient = (0, tslib_1.__decorate)([
     (0, http_1.BaseUrl)('https://masiro.me'),
     (0, headers_1.Headers)({

@@ -1,6 +1,7 @@
 import { trimUnsafe } from './trim';
 import { _parseSiteLink } from './_parseSiteLink';
 import { IMasiroMeBookWithChapters } from '../types';
+import moment from 'moment';
 
 export function _getBookChapters($: JQueryStatic)
 {
@@ -56,12 +57,21 @@ export function _getBookChapters($: JQueryStatic)
 					throw new Error(`failed to parse ${chapter_link} ／ ${chapter_name}`)
 				}
 
+				let chapter_updated: number;
+				let _date = trimUnsafe(_a.find('span:eq(-1)').text());
+
+				if (_date?.length)
+				{
+					chapter_updated = moment(_date).valueOf()
+				}
+
 				root[volume_order]
 					.chapters
 					.push({
 						chapter_id: _m.chapter_id,
 						chapter_name,
 						chapter_order,
+						chapter_updated,
 					})
 				;
 

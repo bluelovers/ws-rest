@@ -1,8 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports._getBookChapters = void 0;
+const tslib_1 = require("tslib");
 const trim_1 = require("./trim");
 const _parseSiteLink_1 = require("./_parseSiteLink");
+const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
 function _getBookChapters($) {
     let volume_order = 0;
     let chapter_order = 0;
@@ -38,12 +40,18 @@ function _getBookChapters($) {
             if (!(_m === null || _m === void 0 ? void 0 : _m.chapter_id)) {
                 throw new Error(`failed to parse ${chapter_link} ／ ${chapter_name}`);
             }
+            let chapter_updated;
+            let _date = (0, trim_1.trimUnsafe)(_a.find('span:eq(-1)').text());
+            if (_date === null || _date === void 0 ? void 0 : _date.length) {
+                chapter_updated = (0, moment_1.default)(_date).valueOf();
+            }
             root[volume_order]
                 .chapters
                 .push({
                 chapter_id: _m.chapter_id,
                 chapter_name,
                 chapter_order,
+                chapter_updated,
             });
             chapter_order++;
         }
