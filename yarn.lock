@@ -1144,10 +1144,10 @@
   dependencies:
     moment "*"
 
-"@types/node@*", "@types/node@>=13.7.0", "@types/node@^16.3.1":
-  version "16.3.1"
-  resolved "https://registry.npmjs.org/@types/node/-/node-16.3.1.tgz#24691fa2b0c3ec8c0d34bfcfd495edac5593ebb4"
-  integrity sha512-N87VuQi7HEeRJkhzovao/JviiqKjDKMVKxKMfUvSKw+MbkbW8R0nA3fi/MQhhlxV2fQ+2ReM+/Nt4efdrJx3zA==
+"@types/node@*", "@types/node@>=13.7.0", "@types/node@^16.3.2":
+  version "16.3.2"
+  resolved "https://registry.npmjs.org/@types/node/-/node-16.3.2.tgz#655432817f83b51ac869c2d51dd8305fb8342e16"
+  integrity sha512-jJs9ErFLP403I+hMLGnqDRWT0RYKSvArxuBVh2veudHV7ifEC1WAmjJADacZ7mRbA2nWgHtn8xyECMAot0SkAw==
 
 "@types/parse5@*":
   version "6.0.1"
@@ -2354,14 +2354,6 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-find-pkg-ws@^1.0.28:
-  version "1.0.28"
-  resolved "https://registry.npmjs.org/find-pkg-ws/-/find-pkg-ws-1.0.28.tgz#6dfbaa8ef02d18df6d3e09ea23f41fd75ba04f7d"
-  integrity sha512-XlrhcFvgpHLHgaD3+RUiWJbt8j6aGJusIzbuK2p8xYUEg7Fgb9IsapEtPzvbafbXTZSDJoMVDJRrXVe1dJkIqA==
-  dependencies:
-    find-yarn-workspace-root2 "^1.2.31"
-    tslib "^2.3.0"
-
 find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
@@ -2369,24 +2361,6 @@ find-up@^4.0.0, find-up@^4.1.0:
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
-
-find-up@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz#4c92819ecb7083561e4f4a240a86be5198f536fc"
-  integrity sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==
-  dependencies:
-    locate-path "^6.0.0"
-    path-exists "^4.0.0"
-
-find-yarn-workspace-root2@^1.2.31:
-  version "1.2.31"
-  resolved "https://registry.npmjs.org/find-yarn-workspace-root2/-/find-yarn-workspace-root2-1.2.31.tgz#62ae357711efcdf3ffbfaa9aa9078a3545c9cd9c"
-  integrity sha512-OmI4D/uWC8+fw4+ERcIzRmtOoBmJBk+eIIM9qZh5TtD/PLW5r98pwh6TCos04jv9erh1LAKiq4o+SGJCvRvOhQ==
-  dependencies:
-    micromatch "^4.0.4"
-    pkg-dir "^5.0.0"
-    tslib "^2.3.0"
-    upath2 "^3.1.9"
 
 follow-redirects@1.5.10:
   version "1.5.10"
@@ -3608,13 +3582,6 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-locate-path@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz#55321eb309febbc59c4801d931a72452a681d286"
-  integrity sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==
-  dependencies:
-    p-locate "^5.0.0"
-
 lock@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/lock/-/lock-1.1.0.tgz#53157499d1653b136ca66451071fca615703fa55"
@@ -3951,26 +3918,12 @@ p-limit@^2.2.0:
   dependencies:
     p-try "^2.0.0"
 
-p-limit@^3.0.2:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz#e1daccbe78d0d1388ca18c64fea38e3e57e3706b"
-  integrity sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==
-  dependencies:
-    yocto-queue "^0.1.0"
-
 p-locate@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz#a3428bb7088b3a60292f66919278b7c297ad4f07"
   integrity sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==
   dependencies:
     p-limit "^2.2.0"
-
-p-locate@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz#83c8315c6785005e3bd021839411c9e110e6d834"
-  integrity sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==
-  dependencies:
-    p-limit "^3.0.2"
 
 p-try@^2.0.0:
   version "2.2.0"
@@ -4073,13 +4026,6 @@ pkg-dir@^4.2.0:
   integrity sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==
   dependencies:
     find-up "^4.0.0"
-
-pkg-dir@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/pkg-dir/-/pkg-dir-5.0.0.tgz#a02d6aebe6ba133a928f74aec20bafdfe6b8e760"
-  integrity sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==
-  dependencies:
-    find-up "^5.0.0"
 
 prelude-ls@~1.1.2:
   version "1.1.2"
@@ -4747,7 +4693,7 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-"tough-cookie@< 4 & >= 3", tough-cookie@^3.0.1:
+"tough-cookie@< 4 >= 3", tough-cookie@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/tough-cookie/-/tough-cookie-3.0.1.tgz#9df4f57e739c26930a018184887f4adb7dca73b2"
   integrity sha512-yQyJ0u4pZsv9D4clxO69OEjLWYw+jbgspjTue4lTQZLfV0c5l1VmK2y1JK8E9ahdpltPOaAThPcp5nKPUgSnsg==
@@ -5079,15 +5025,6 @@ word-wrap@~1.2.3:
   resolved "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ==
 
-workspaces-config@^1.0.32:
-  version "1.0.32"
-  resolved "https://registry.npmjs.org/workspaces-config/-/workspaces-config-1.0.32.tgz#4302a5d2e809ebad97648077ca2875e5d50631c8"
-  integrity sha512-cBhPnmrkmp402DrJZPdUBG+Z0Q1Tqk4sbQIpv6xvv4QmQQXN+CarfYt2nE3bFSCytkJHfPo+o4U5kpxQ2Er89Q==
-  dependencies:
-    find-pkg-ws "^1.0.28"
-    fs-extra "^10.0.0"
-    tslib "^2.3.0"
-
 wrap-ansi@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
@@ -5154,11 +5091,6 @@ yargs@^16.0.3:
     string-width "^4.2.0"
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
-
-yocto-queue@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
-  integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
 zero-width@^1.0.16:
   version "1.0.16"
