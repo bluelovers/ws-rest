@@ -36,8 +36,7 @@ export interface IMasiroMeChapter
 
 	chapter_name?: string;
 	author?: string;
-	/**
-	 * unix timestamp
-	 */
 	dateline?: number;
+
+	extra_info?: any,
 }

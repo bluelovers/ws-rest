@@ -60,8 +60,6 @@ export function _getChapter($: JQueryStatic, chapter_id: string | number, option
 		.replace(/^\s+|\s+$/g, '')
 	;
 
-	let { author, dateline } = _getChapterData($);
-
 	return {
 		chapter_id: chapter_id.toString(),
 
@@ -69,7 +67,6 @@ export function _getChapter($: JQueryStatic, chapter_id: string | number, option
 		text,
 		html,
 
-		author,
-		dateline,
+		..._getChapterData($),
 	}
 }

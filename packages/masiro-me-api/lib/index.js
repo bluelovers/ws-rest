@@ -16,6 +16,7 @@ const _checkLogin_1 = require("./util/_checkLogin");
 const _getBookInfo_1 = require("./util/_getBookInfo");
 const _getBookChapters_1 = require("./util/_getBookChapters");
 const _getChapter_1 = require("./util/_getChapter");
+const index_2 = require("restful-decorator/lib/decorators/config/index");
 let MasiroMeClient = class MasiroMeClient extends index_1.default {
     loginByForm(inputData) {
         const jsdom = this.$returnValue;
@@ -63,9 +64,11 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
 };
 (0, tslib_1.__decorate)([
     (0, method_1.GET)('admin/auth/login'),
-    (0, cache_1.CacheRequest)({
-        // @ts-ignore
-        cache: false,
+    (0, index_2.RequestConfigs)({
+        cache: {
+            ignoreCache: true,
+            excludeFromCache: true,
+        }
     }),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, abstract_1.methodBuilder)(),
@@ -90,9 +93,11 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
 ], MasiroMeClient.prototype, "_loginByForm", null);
 (0, tslib_1.__decorate)([
     (0, method_1.GET)('/'),
-    (0, cache_1.CacheRequest)({
-        // @ts-ignore
-        cache: false,
+    (0, index_2.RequestConfigs)({
+        cache: {
+            ignoreCache: true,
+            excludeFromCache: true,
+        }
     }),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, abstract_1.methodBuilder)(),
@@ -126,6 +131,7 @@ MasiroMeClient = (0, tslib_1.__decorate)([
     (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
+            readHeaders: false,
         },
     })
 ], MasiroMeClient);

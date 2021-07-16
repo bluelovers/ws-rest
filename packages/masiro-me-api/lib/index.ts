@@ -18,6 +18,7 @@ import { _checkLogin } from './util/_checkLogin';
 import { _getBookInfo } from './util/_getBookInfo';
 import { _getBookChapters } from './util/_getBookChapters';
 import { _getChapter } from './util/_getChapter';
+import { RequestConfigs } from 'restful-decorator/lib/decorators/config/index';
 
 @BaseUrl('https://masiro.me')
 @Headers({
@@ -26,15 +27,18 @@ import { _getChapter } from './util/_getChapter';
 @CacheRequest({
 	cache: {
 		maxAge: 6 * 60 * 60 * 1000,
+		readHeaders: false,
 	},
 })
 export class MasiroMeClient extends AbstractHttpClientWithJSDom
 {
 
 	@GET('admin/auth/login')
-	@CacheRequest({
-		// @ts-ignore
-		cache: false,
+	@RequestConfigs({
+		cache: {
+			ignoreCache: true,
+			excludeFromCache: true,
+		}
 	})
 	@ReturnValueToJSDOM()
 	@methodBuilder()
@@ -82,9 +86,11 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('/')
-	@CacheRequest({
-		// @ts-ignore
-		cache: false,
+	@RequestConfigs({
+		cache: {
+			ignoreCache: true,
+			excludeFromCache: true,
+		}
 	})
 	@ReturnValueToJSDOM()
 	@methodBuilder()

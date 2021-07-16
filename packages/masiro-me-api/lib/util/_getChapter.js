@@ -34,14 +34,12 @@ function _getChapter($, chapter_id, options = {}) {
     let text = $content
         .text()
         .replace(/^\s+|\s+$/g, '');
-    let { author, dateline } = (0, _getChapterData_1._getChapterData)($);
     return {
         chapter_id: chapter_id.toString(),
         imgs,
         text,
         html,
-        author,
-        dateline,
+        ...(0, _getChapterData_1._getChapterData)($),
     };
 }
 exports._getChapter = _getChapter;
