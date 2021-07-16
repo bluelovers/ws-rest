@@ -12,14 +12,13 @@ const body_1 = require("restful-decorator/lib/decorators/body");
 const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const form_1 = require("restful-decorator/lib/decorators/form");
-const trim_1 = require("./util/trim");
-const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
-const regexp_cjk_1 = require("regexp-cjk");
+const _checkLogin_1 = require("./util/_checkLogin");
+const _getBookInfo_1 = require("./util/_getBookInfo");
 let MasiroMeClient = class MasiroMeClient extends index_1.default {
     loginByForm(inputData) {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
-        let u = this._checkLogin(jsdom);
+        let u = (0, _checkLogin_1._checkLogin)($);
         if (u === null || u === void 0 ? void 0 : u.length) {
             return u;
         }
@@ -32,17 +31,8 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     _loginByForm(inputData) {
         return this.checkLogin();
     }
-    _checkLogin(jsdom) {
-        const { $ } = jsdom;
-        let username = $('.main-header .user .dropdown-toggle span:eq(0)')
-            .text()
-            .replace(/^\s+|\s+$/g, '');
-        if (username === null || username === void 0 ? void 0 : username.length) {
-            return username;
-        }
-    }
     checkLogin() {
-        return this._checkLogin(this.$returnValue);
+        return (0, _checkLogin_1._checkLogin)(this.$returnValue.$);
     }
     _getAuthCookies() {
         return this._jar()
@@ -58,41 +48,7 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     bookInfo(novel_id) {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
-        let author = (0, trim_1.trimUnsafe)($('.n-detail .author').text());
-        let translator;
-        $('.n-detail .n-translator a')
-            .each((index, elem) => {
-            let s = (0, trim_1.trimUnsafe)($(elem).text());
-            if (s.length) {
-                translator !== null && translator !== void 0 ? translator : (translator = []);
-                translator.push(s);
-            }
-        });
-        let tags;
-        $('.n-detail .tags a .label')
-            .each((index, elem) => {
-            let s = (0, trim_1.trimUnsafe)($(elem).text());
-            if (s.length) {
-                tags !== null && tags !== void 0 ? tags : (tags = []);
-                tags.push(s);
-            }
-        });
-        let _date = (0, trim_1.trimUnsafe)($('.n-detail .n-update .s-font').text());
-        let updated;
-        if (_date === null || _date === void 0 ? void 0 : _date.length) {
-            updated = (0, moment_1.default)(_date).valueOf();
-        }
-        let content = (0, trim_1.trimUnsafe)($('.content .brief').text())
-            .replace(new regexp_cjk_1.zhRegExp(/^简介(?:：|:)\s*/), '');
-        let book = {
-            id: novel_id,
-            title: (0, trim_1.trimUnsafe)($('.novel-title').text()),
-            authors: author.length ? [author] : void 0,
-            translator,
-            tags,
-            updated,
-            content: content.length ? content : void 0,
-        };
+        let book = (0, _getBookInfo_1._getBookInfo)($, novel_id);
         return book;
     }
 };

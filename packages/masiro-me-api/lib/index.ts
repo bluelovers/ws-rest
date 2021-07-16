@@ -14,6 +14,8 @@ import { IMasiroMeBook } from './types';
 import { trimUnsafe } from './util/trim';
 import moment from 'moment';
 import { zhRegExp } from 'regexp-cjk';
+import { _checkLogin } from './util/_checkLogin';
+import { _getBookInfo } from './util/_getBookInfo';
 
 @BaseUrl('https://masiro.me')
 @Headers({
@@ -43,7 +45,7 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		const jsdom = this.$returnValue as IJSDOM;
 		const { $ } = jsdom;
 
-		let u = this._checkLogin(jsdom);
+		let u = _checkLogin($);
 
 		if (u?.length)
 		{
@@ -77,21 +79,6 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		return this.checkLogin()
 	}
 
-	protected _checkLogin(jsdom: IJSDOM): string
-	{
-		const { $ } = jsdom;
-
-		let username = $('.main-header .user .dropdown-toggle span:eq(0)')
-			.text()
-			.replace(/^\s+|\s+$/g, '')
-		;
-
-		if (username?.length)
-		{
-			return username
-		}
-	}
-
 	@GET('/')
 	@CacheRequest({
 		// @ts-ignore
@@ -101,7 +88,7 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 	@methodBuilder()
 	checkLogin(): Bluebird<string>
 	{
-		return this._checkLogin(this.$returnValue as IJSDOM) as any
+		return _checkLogin((this.$returnValue as IJSDOM).$) as any
 	}
 
 	_getAuthCookies()
@@ -128,59 +115,7 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		const jsdom = this.$returnValue as IJSDOM;
 		const { $ } = jsdom;
 
-		let author = trimUnsafe($('.n-detail .author').text());
-
-		let translator: string[];
-
-		$('.n-detail .n-translator a')
-			.each((index, elem) => {
-
-				let s = trimUnsafe($(elem).text())
-
-				if (s.length)
-				{
-					translator ??= [];
-					translator.push(s)
-				}
-			})
-		;
-
-		let tags: string[];
-
-		$('.n-detail .tags a .label')
-			.each((index, elem) => {
-
-				let s = trimUnsafe($(elem).text())
-
-				if (s.length)
-				{
-					tags ??= [];
-					tags.push(s)
-				}
-			})
-		;
-
-		let _date = trimUnsafe($('.n-detail .n-update .s-font').text());
-		let updated: number;
-
-		if (_date?.length)
-		{
-			updated = moment(_date).valueOf()
-		}
-
-		let content = trimUnsafe($('.content .brief').text())
-			.replace(new zhRegExp(/^简介(?:：|:)\s*/), '')
-		;
-
-		let book: IMasiroMeBook = {
-			id: novel_id as string,
-			title: trimUnsafe($('.novel-title').text()),
-			authors: author.length ? [author] : void 0,
-			translator,
-			tags,
-			updated,
-			content: content.length ? content : void 0,
-		}
+		let book: IMasiroMeBook = _getBookInfo($, novel_id);
 
 		return book as any
 	}
