@@ -6,7 +6,7 @@ import moment from 'moment';
 import { zhRegExp } from 'regexp-cjk';
 import { _handleBookInfo } from './_handleBookInfo';
 
-export function _getBookInfo($: JQueryStatic, novel_id: number | string)
+export function _getBookInfo($: JQueryStatic, novel_id: number | string): IMasiroMeBook
 {
 	novel_id = novel_id.toString();
 
@@ -36,13 +36,19 @@ export function _getBookInfo($: JQueryStatic, novel_id: number | string)
 
 	let title = trimUnsafe($('.novel-title').text());
 
+	let cover = $('.content .with-border .has-img img.img').prop('src');
+
+	let last_update_name = trimUnsafe($('.n-update .nw-a').text().replace(new zhRegExp(/^\s*最新(?:：|:)\s*/), ''));
+
 	let book: IMasiroMeBook = {
 		id: novel_id,
 		title,
+		cover,
 		authors,
 		translator,
 		tags,
 		updated,
+		last_update_name,
 		content,
 	}
 

@@ -4,21 +4,27 @@ import { CacheRequest } from 'restful-decorator/lib/decorators/config/cache';
 import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib/index';
 import { GET, POST } from 'restful-decorator/lib/decorators/method';
 import { methodBuilder } from 'restful-decorator/lib/wrap/abstract';
-import { ParamData, ParamMapAuto, ParamPath } from 'restful-decorator/lib/decorators/body';
+import { ParamMapAuto, ParamPath } from 'restful-decorator/lib/decorators/body';
 import Bluebird from 'bluebird';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
 import { IJSDOM } from 'jsdom-extra/lib/pack';
 import { FormUrlencoded } from 'restful-decorator/lib/decorators/form';
-import { CookieJar, Cookie } from 'tough-cookie';
-import { IMasiroMeBook, IMasiroMeBookWithChapters, IMasiroMeChapter } from './types';
-import { trimUnsafe } from './util/trim';
-import moment from 'moment';
-import { zhRegExp } from 'regexp-cjk';
+import { Cookie } from 'tough-cookie';
+import {
+	IMasiroMeBook,
+	IMasiroMeBookWithChapters,
+	IMasiroMeChapter,
+	IMasiroMeRecentUpdate,
+	IMasiroMeRecentUpdateAll,
+	IRawMasiroMeLoadMoreNovels,
+} from './types';
 import { _checkLogin } from './util/_checkLogin';
 import { _getBookInfo } from './util/_getBookInfo';
 import { _getBookChapters } from './util/_getBookChapters';
 import { _getChapter } from './util/_getChapter';
 import { RequestConfigs } from 'restful-decorator/lib/decorators/config/index';
+import { _getRecentUpdate } from './util/_getRecentUpdate';
+import { array_unique_overwrite } from 'array-hyper-unique';
 
 @BaseUrl('https://masiro.me')
 @Headers({
@@ -36,9 +42,10 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 	@GET('admin/auth/login')
 	@RequestConfigs({
 		cache: {
+			maxAge: 0,
 			ignoreCache: true,
 			excludeFromCache: true,
-		}
+		},
 	})
 	@ReturnValueToJSDOM()
 	@methodBuilder()
@@ -85,12 +92,12 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		return this.checkLogin()
 	}
 
-	@GET('/')
+	@POST('/')
 	@RequestConfigs({
 		cache: {
 			ignoreCache: true,
 			excludeFromCache: true,
-		}
+		},
 	})
 	@ReturnValueToJSDOM()
 	@methodBuilder()
@@ -151,6 +158,68 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		const { $ } = jsdom;
 
 		return _getChapter($, chapter_id, options) as null
+	}
+
+	@GET('admin/loadMoreNovels?page={page}&order=1')
+	@RequestConfigs({
+		responseType: 'json',
+	})
+	@methodBuilder()
+	recentUpdate(@ParamPath('page', 1) page?: number): Bluebird<IMasiroMeRecentUpdate>
+	{
+		const json = this.$returnValue as IRawMasiroMeLoadMoreNovels;
+		const jsdom = this._responseDataToJSDOM('<meta charset="utf-8">' + json.html, this.$response);
+
+		return _getRecentUpdate(jsdom.$, json) as IMasiroMeRecentUpdate as any;
+	}
+
+	recentUpdateAll(options?: {
+		start?: number,
+		end?: number,
+	})
+	{
+		let start = options?.start || 1;
+
+		return this.recentUpdate(start)
+			.then(async (data) =>
+			{
+				let cur = start = data.page;
+				const end = Math.max(Math.min(options?.end || data.pages, data.pages), start, 1);
+
+				let last: number;
+
+				while (cur < end && last !== cur)
+				{
+					let data2 = await this.recentUpdate(++cur)
+
+					if (data2.page === last || !data2.list.length)
+					{
+						break;
+					}
+
+					data.list.push(...data2.list);
+
+					data.pages = data2.pages;
+					data.total = data2.total;
+
+					last = cur;
+				}
+
+				array_unique_overwrite(data.list);
+
+				let data3: IMasiroMeRecentUpdateAll = {
+					start,
+					end: last,
+
+					pages: data.pages,
+					total: data.total,
+
+					list: data.list,
+				}
+
+				return data3
+			})
+			;
 	}
 
 }

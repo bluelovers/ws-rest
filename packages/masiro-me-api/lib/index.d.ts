@@ -2,7 +2,7 @@
 import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib/index';
 import Bluebird from 'bluebird';
 import { Cookie } from 'tough-cookie';
-import { IMasiroMeBookWithChapters, IMasiroMeChapter } from './types';
+import { IMasiroMeBookWithChapters, IMasiroMeChapter, IMasiroMeRecentUpdate, IMasiroMeRecentUpdateAll } from './types';
 export declare class MasiroMeClient extends AbstractHttpClientWithJSDom {
     loginByForm(inputData: {
         username: string;
@@ -29,5 +29,10 @@ export declare class MasiroMeClient extends AbstractHttpClientWithJSDom {
             imgs: string[];
         }): void;
     }): Bluebird<IMasiroMeChapter>;
+    recentUpdate(page?: number): Bluebird<IMasiroMeRecentUpdate>;
+    recentUpdateAll(options?: {
+        start?: number;
+        end?: number;
+    }): Bluebird<IMasiroMeRecentUpdateAll>;
 }
 export default MasiroMeClient;

@@ -1,2 +1,3 @@
 /// <reference types="jquery" />
-export declare function _getBookChapters($: JQueryStatic): import("../types").IMasiroMeChaptersParent[];
+import { IMasiroMeChaptersParent } from '../types';
+export declare function _getBookChapters($: JQueryStatic): IMasiroMeChaptersParent[];

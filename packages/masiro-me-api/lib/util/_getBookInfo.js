@@ -25,13 +25,17 @@ function _getBookInfo($, novel_id) {
     let content = (0, trim_1.trimUnsafe)($('.content .brief').text())
         .replace(new regexp_cjk_1.zhRegExp(/^简介(?:：|:)\s*/), '');
     let title = (0, trim_1.trimUnsafe)($('.novel-title').text());
+    let cover = $('.content .with-border .has-img img.img').prop('src');
+    let last_update_name = (0, trim_1.trimUnsafe)($('.n-update .nw-a').text().replace(new regexp_cjk_1.zhRegExp(/^\s*最新(?:：|:)\s*/), ''));
     let book = {
         id: novel_id,
         title,
+        cover,
         authors,
         translator,
         tags,
         updated,
+        last_update_name,
         content,
     };
     (0, _handleBookInfo_1._handleBookInfo)(book);

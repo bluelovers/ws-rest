@@ -1,6 +1,6 @@
 import { trimUnsafe } from './trim';
 import { _parseSiteLink } from './_parseSiteLink';
-import { IMasiroMeBookWithChapters } from '../types';
+import { IMasiroMeBookWithChapters, IMasiroMeChaptersParent } from '../types';
 import moment from 'moment';
 
 export function _getBookChapters($: JQueryStatic)
