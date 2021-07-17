@@ -10,6 +10,7 @@ const util_1 = require("../util");
 const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
 const parse_input_url_1 = require("@node-novel/parse-input-url");
 const array_hyper_unique_1 = require("array-hyper-unique");
+const const_1 = require("./const");
 function parseUrl(input) {
     let data = (0, parse_input_url_1._handleInputUrl)(input);
     let ret = {
@@ -167,18 +168,25 @@ function _getBookInfo($, data) {
     data.name = (0, util_1.trimUnsafe)($('.container .row:eq(0) h2:eq(0)').text());
     $('.book-detail > li')
         .each(function (i, elem) {
-        var _b;
+        var _b, _c;
         let _this = $(this);
         let _text = (0, util_1.trimUnsafe)(_this.text());
         let _m;
-        if (_m = _text.match(/作者\s*[：:]\s*([^\n]+)/)) {
+        if (_m = _text.match(const_1.reAuthors)) {
             data.authors = (0, util_1.trimUnsafe)(_m[1]);
         }
-        else if (_m = _text.match(/(?:书|書)名\s*[：:]\s*([^\n]+)/)) {
+        else if (_m = _text.match(const_1.reTitle)) {
             let title = (0, util_1.trimUnsafe)(_m[1]);
             if (title.length > 0 && title !== data.name) {
                 (_b = data.titles) !== null && _b !== void 0 ? _b : (data.titles = []);
                 data.titles.push((0, util_1.trimUnsafe)(_m[1]));
+            }
+        }
+        else if (_m = _text.match(const_1.reType)) {
+            let _s = (0, util_1.trimUnsafe)(_m[1]);
+            if (_s.length) {
+                (_c = data.tags) !== null && _c !== void 0 ? _c : (data.tags = []);
+                data.tags.push(_s);
             }
         }
         else if (_m = _matchDateString(_text)) {

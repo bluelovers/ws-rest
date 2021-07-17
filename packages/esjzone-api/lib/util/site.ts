@@ -8,6 +8,7 @@ import { IESJzoneRecentUpdateRowBook, IESJzoneChapter } from '../types';
 import moment from 'moment';
 import { _handleInputUrl } from '@node-novel/parse-input-url';
 import { array_unique_overwrite } from 'array-hyper-unique';
+import { reAuthors, reTitle, reType } from './const';
 
 export function parseUrl<T extends string | number | URL | LazyURL>(input: T)
 {
@@ -242,8 +243,8 @@ export function _matchDateString(_text: string)
 }
 
 export function _getBookInfo($: JQueryStatic,
-	data: Pick<IESJzoneRecentUpdateRowBook, 'name' | 'titles' | 'authors' | 'last_update_time'>,
-)
+	data: Pick<IESJzoneRecentUpdateRowBook, 'name' | 'titles' | 'authors' | 'last_update_time' | 'tags'>,
+): Pick<IESJzoneRecentUpdateRowBook, 'name' | 'titles' | 'authors' | 'last_update_time' | 'tags'>
 {
 	data.name = trimUnsafe($('.container .row:eq(0) h2:eq(0)').text());
 
@@ -256,11 +257,11 @@ export function _getBookInfo($: JQueryStatic,
 
 			let _m: RegExpMatchArray;
 
-			if (_m = _text.match(/作者\s*[：:]\s*([^\n]+)/))
+			if (_m = _text.match(reAuthors))
 			{
 				data.authors = trimUnsafe(_m[1])
 			}
-			else if (_m = _text.match(/(?:书|書)名\s*[：:]\s*([^\n]+)/))
+			else if (_m = _text.match(reTitle))
 			{
 				let title = trimUnsafe(_m[1]);
 
@@ -268,6 +269,16 @@ export function _getBookInfo($: JQueryStatic,
 				{
 					data.titles ??= [];
 					data.titles.push(trimUnsafe(_m[1]))
+				}
+			}
+			else if (_m = _text.match(reType))
+			{
+				let _s = trimUnsafe(_m[1])
+
+				if (_s.length)
+				{
+					data.tags ??= [];
+					data.tags.push(_s)
 				}
 			}
 			else if (_m = _matchDateString(_text))
