@@ -29,6 +29,11 @@ function _getBookInfo($, novel_id, baseURL) {
     let _img = $('.content .with-border .has-img img.img');
     let cover = (0, _getImgSrc_1._getImgSrc)(_img, baseURL);
     let last_update_name = (0, trim_1.trimUnsafe)($('.n-update .nw-a').text().replace(new regexp_cjk_1.zhRegExp(/^\s*最新(?:：|:)\s*/), ''));
+    let status_text = (0, trim_1.trimUnsafe)($('.n-status').text().replace(new regexp_cjk_1.zhRegExp(/^\s*状态(?:：|:)\s*/), ''));
+    if (status_text === null || status_text === void 0 ? void 0 : status_text.length) {
+        tags !== null && tags !== void 0 ? tags : (tags = []);
+        tags.push(status_text);
+    }
     let book = {
         id: novel_id,
         title,
@@ -37,6 +42,7 @@ function _getBookInfo($, novel_id, baseURL) {
         translator,
         tags,
         updated,
+        status_text,
         last_update_name,
         content,
     };

@@ -42,6 +42,14 @@ export function _getBookInfo($: JQueryStatic, novel_id: number | string, baseURL
 
 	let last_update_name = trimUnsafe($('.n-update .nw-a').text().replace(new zhRegExp(/^\s*最新(?:：|:)\s*/), ''));
 
+	let status_text = trimUnsafe($('.n-status').text().replace(new zhRegExp(/^\s*状态(?:：|:)\s*/), ''));
+
+	if (status_text?.length)
+	{
+		tags ??= [];
+		tags.push(status_text);
+	}
+
 	let book: IMasiroMeBook = {
 		id: novel_id,
 		title,
@@ -50,6 +58,7 @@ export function _getBookInfo($: JQueryStatic, novel_id: number | string, baseURL
 		translator,
 		tags,
 		updated,
+		status_text,
 		last_update_name,
 		content,
 	}

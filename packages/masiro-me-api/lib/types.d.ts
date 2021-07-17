@@ -5,6 +5,7 @@ export interface IMasiroMeBookMini extends Omit<ICachedJSONRow, 'siteID' | 'nove
     translator?: string[];
 }
 export interface IMasiroMeBook extends IMasiroMeBookMini, Pick<ICachedJSONRow, 'updated' | 'content'>, ITSPartialPick<ICachedJSONRowPlus, 'status'> {
+    status_text?: string;
 }
 export interface IMasiroMeChaptersParent {
     volume_name: string;

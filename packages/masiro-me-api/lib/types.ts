@@ -9,7 +9,7 @@ export interface IMasiroMeBookMini extends Omit<ICachedJSONRow, 'siteID' | 'nove
 
 export interface IMasiroMeBook extends IMasiroMeBookMini, Pick<ICachedJSONRow, 'updated' | 'content'>, ITSPartialPick<ICachedJSONRowPlus, 'status'>
 {
-
+	status_text?: string,
 }
 
 export interface IMasiroMeChaptersParent

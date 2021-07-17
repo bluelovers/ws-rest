@@ -15,24 +15,12 @@ export function _handleBookInfo<T extends IMasiroMeBook | IMasiroMeBookMini>(boo
 	Object.entries(book)
 		.forEach(([key, value]) =>
 		{
-			if (Array.isArray(value) && !value.length)
+			if (value === null || (typeof value === 'string'|| Array.isArray(value)) && !value.length)
 			{
 				book[key as keyof T] = void 0;
 			}
 		})
 	;
-
-	// @ts-ignore
-	if (!book.content?.length)
-	{
-		// @ts-ignore
-		book.content = void 0;
-	}
-
-	if (!book.last_update_name?.length)
-	{
-		book.last_update_name = void 0;
-	}
 
 	if (book.cover?.length)
 	{
@@ -41,8 +29,7 @@ export function _handleBookInfo<T extends IMasiroMeBook | IMasiroMeBookMini>(boo
 			book.cover = void 0;
 		}
 	}
-
-	if (!book.cover?.length)
+	else if (!book.cover?.length)
 	{
 		book.cover = void 0;
 	}
