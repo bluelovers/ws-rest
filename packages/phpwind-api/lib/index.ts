@@ -12,6 +12,7 @@ import { CookieJar, Cookie } from 'tough-cookie';
 import { IPHPWindTaskList, IPHPWindTaskRow, IPHPWindTaskRowDoing } from './types';
 import { IBluebirdAxiosResponse } from '@bluelovers/axios-extend/lib';
 import { _parseTaskInfo } from './util/jquery/_task_info';
+import { RequestConfigs } from 'restful-decorator/lib/decorators/config';
 
 /**
  * Created by user on 2020/5/13.
@@ -20,6 +21,9 @@ import { _parseTaskInfo } from './util/jquery/_task_info';
 @CacheRequest({
 	cache: {
 		maxAge: 6 * 60 * 60 * 1000,
+		exclude: {
+			query: false,
+		}
 	},
 })
 export class PHPWindClient extends AbstractHttpClientWithJSDom
@@ -47,7 +51,7 @@ export class PHPWindClient extends AbstractHttpClientWithJSDom
 	@POST('login.php?submit=login')
 	@ReturnValueToJSDOM()
 	@FormUrlencoded
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -106,7 +110,7 @@ export class PHPWindClient extends AbstractHttpClientWithJSDom
 
 	@GET('message.php')
 	@ReturnValueToJSDOM()
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -186,7 +190,7 @@ export class PHPWindClient extends AbstractHttpClientWithJSDom
 
 	@GET('plugin.php?H_name-tasks.html')
 	@ReturnValueToJSDOM()
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -231,7 +235,7 @@ export class PHPWindClient extends AbstractHttpClientWithJSDom
 
 	@GET('plugin.php?H_name-tasks-actions-newtasks.html')
 	@ReturnValueToJSDOM()
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -269,7 +273,7 @@ export class PHPWindClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('plugin.php?H_name=tasks&action=ajax&actions=job&cid={task_id}&nowtime={nowtime}&verify={verify}')
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -287,7 +291,7 @@ export class PHPWindClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('plugin.php?H_name=tasks&action=ajax&actions=job2&cid={task_id}&nowtime={nowtime}&verify={verify}')
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},

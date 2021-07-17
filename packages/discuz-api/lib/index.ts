@@ -73,6 +73,9 @@ import crlf from 'crlf-normalize';
 @CacheRequest({
 	cache: {
 		maxAge: 6 * 60 * 60 * 1000,
+		exclude: {
+			query: false,
+		}
 	},
 })
 export class DiscuzClient extends AbstractHttpClientWithJSDom
@@ -99,7 +102,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 
 	@POST('member.php?mod=logging&action=login&loginsubmit=yes&infloat=yes&lssubmit=yes')
 	@FormUrlencoded
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -398,7 +401,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 
 	@GET('home.php?mod=space&do=notice&view=system')
 	@ReturnValueToJSDOM()
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -440,7 +443,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('home.php?mod=task')
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -502,7 +505,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('home.php?mod=task&item=doing')
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -587,7 +590,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('home.php?mod=task&do=apply&id={task_id}')
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -599,7 +602,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('home.php?mod=task&do=draw&id={task_id}')
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -611,7 +614,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('home.php?mod=task&do=delete&id={task_id}')
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},
@@ -623,7 +626,7 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 	}
 
 	@GET('home.php?mod=space&do=notice&view={view}')
-	@CacheRequest({
+	@RequestConfigs({
 		cache: {
 			maxAge: 0,
 		},

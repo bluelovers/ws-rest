@@ -550,7 +550,7 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
 (0, tslib_1.__decorate)([
     (0, decorators_1.POST)('member.php?mod=logging&action=login&loginsubmit=yes&infloat=yes&lssubmit=yes'),
     decorators_1.FormUrlencoded,
-    (0, decorators_1.CacheRequest)({
+    (0, decorators_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -577,7 +577,7 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
 (0, tslib_1.__decorate)([
     (0, decorators_1.GET)('home.php?mod=space&do=notice&view=system'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
-    (0, decorators_1.CacheRequest)({
+    (0, decorators_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -589,7 +589,7 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
 ], DiscuzClient.prototype, "isLogin", null);
 (0, tslib_1.__decorate)([
     (0, decorators_1.GET)('home.php?mod=task'),
-    (0, decorators_1.CacheRequest)({
+    (0, decorators_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -601,7 +601,7 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
 ], DiscuzClient.prototype, "taskListNew", null);
 (0, tslib_1.__decorate)([
     (0, decorators_1.GET)('home.php?mod=task&item=doing'),
-    (0, decorators_1.CacheRequest)({
+    (0, decorators_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -613,7 +613,7 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
 ], DiscuzClient.prototype, "taskListDoing", null);
 (0, tslib_1.__decorate)([
     (0, decorators_1.GET)('home.php?mod=task&do=apply&id={task_id}'),
-    (0, decorators_1.CacheRequest)({
+    (0, decorators_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -626,7 +626,7 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
 ], DiscuzClient.prototype, "taskApply", null);
 (0, tslib_1.__decorate)([
     (0, decorators_1.GET)('home.php?mod=task&do=draw&id={task_id}'),
-    (0, decorators_1.CacheRequest)({
+    (0, decorators_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -639,7 +639,7 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
 ], DiscuzClient.prototype, "taskDraw", null);
 (0, tslib_1.__decorate)([
     (0, decorators_1.GET)('home.php?mod=task&do=delete&id={task_id}'),
-    (0, decorators_1.CacheRequest)({
+    (0, decorators_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -652,7 +652,7 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
 ], DiscuzClient.prototype, "taskDelete", null);
 (0, tslib_1.__decorate)([
     (0, decorators_1.GET)('home.php?mod=space&do=notice&view={view}'),
-    (0, decorators_1.CacheRequest)({
+    (0, decorators_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -688,6 +688,9 @@ DiscuzClient = (0, tslib_1.__decorate)([
     (0, decorators_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
+            exclude: {
+                query: false,
+            }
         },
     }),
     (0, tslib_1.__metadata)("design:paramtypes", [Object])

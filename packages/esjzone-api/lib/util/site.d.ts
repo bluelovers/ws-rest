@@ -44,7 +44,7 @@ export declare function _parseSiteLink(chapter_link: string): {
 };
 export declare function _getBookChapters($: JQueryStatic, _content: JQuery<HTMLElement>, data: Pick<IESJzoneRecentUpdateRowBook, 'chapters' | 'last_update_chapter_name'>): Pick<IESJzoneRecentUpdateRowBook, "chapters" | "last_update_chapter_name">;
 export declare function _matchDateString(_text: string): RegExpMatchArray;
-export declare function _getBookInfo($: JQueryStatic, data: Pick<IESJzoneRecentUpdateRowBook, 'name' | 'titles' | 'authors' | 'last_update_time'>): Pick<IESJzoneRecentUpdateRowBook, "last_update_time" | "name" | "authors" | "titles">;
+export declare function _getBookInfo($: JQueryStatic, data: Pick<IESJzoneRecentUpdateRowBook, 'name' | 'titles' | 'authors' | 'last_update_time'>): Pick<IESJzoneRecentUpdateRowBook, "name" | "last_update_time" | "authors" | "titles">;
 export declare function _getBookLinks($: JQueryStatic, links?: IESJzoneRecentUpdateRowBook["links"]): import("../types").IESJzoneLinkExternal[];
 export declare function _getChapterDomContent($: JQueryStatic): JQuery<HTMLElement>;
 export declare function _getChapterData($: JQueryStatic): Pick<IESJzoneChapter, 'author' | 'dateline' | 'chapter_name'>;

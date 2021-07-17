@@ -12,6 +12,7 @@ const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const _checkLogin_1 = require("./util/jquery/_checkLogin");
 const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const _task_info_1 = require("./util/jquery/_task_info");
+const config_1 = require("restful-decorator/lib/decorators/config");
 /**
  * Created by user on 2020/5/13.
  */
@@ -153,7 +154,7 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
     (0, method_1.POST)('login.php?submit=login'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     form_1.FormUrlencoded,
-    (0, cache_1.CacheRequest)({
+    (0, config_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -182,7 +183,7 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
 (0, tslib_1.__decorate)([
     (0, method_1.GET)('message.php'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
-    (0, cache_1.CacheRequest)({
+    (0, config_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -195,7 +196,7 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
 (0, tslib_1.__decorate)([
     (0, method_1.GET)('plugin.php?H_name-tasks.html'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
-    (0, cache_1.CacheRequest)({
+    (0, config_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -208,7 +209,7 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
 (0, tslib_1.__decorate)([
     (0, method_1.GET)('plugin.php?H_name-tasks-actions-newtasks.html'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
-    (0, cache_1.CacheRequest)({
+    (0, config_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -220,7 +221,7 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
 ], PHPWindClient.prototype, "taskListDoing", null);
 (0, tslib_1.__decorate)([
     (0, method_1.GET)('plugin.php?H_name=tasks&action=ajax&actions=job&cid={task_id}&nowtime={nowtime}&verify={verify}'),
-    (0, cache_1.CacheRequest)({
+    (0, config_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -234,7 +235,7 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
 ], PHPWindClient.prototype, "taskApply", null);
 (0, tslib_1.__decorate)([
     (0, method_1.GET)('plugin.php?H_name=tasks&action=ajax&actions=job2&cid={task_id}&nowtime={nowtime}&verify={verify}'),
-    (0, cache_1.CacheRequest)({
+    (0, config_1.RequestConfigs)({
         cache: {
             maxAge: 0,
         },
@@ -250,6 +251,9 @@ PHPWindClient = (0, tslib_1.__decorate)([
     (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
+            exclude: {
+                query: false,
+            }
         },
     }),
     (0, tslib_1.__metadata)("design:paramtypes", [Object])
