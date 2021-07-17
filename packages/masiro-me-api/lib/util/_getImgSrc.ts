@@ -3,5 +3,15 @@ export function _getImgSrc(_img: JQuery<HTMLImageElement> | JQuery<HTMLElement>,
 {
 	let src = _img.prop('lay-src') || _img.prop('src') || _img.attr('lay-src') || _img.attr('src');
 
-	return new URL(src, baseURL).href
+	return _handleImgURL(new URL(src, baseURL)).href
+}
+
+export function _handleImgURL(url: URL)
+{
+	if (url.hostname.includes('masiro'))
+	{
+		url.searchParams.delete('quality');
+	}
+
+	return url
 }
