@@ -6,11 +6,12 @@ const _parseSiteLink_1 = require("./_parseSiteLink");
 const regexp_cjk_1 = require("regexp-cjk");
 const _handleBookInfo_1 = require("./_handleBookInfo");
 const _getImgSrc_1 = require("./_getImgSrc");
-function _getRecentUpdate($, json, baseURL) {
+function _getRecentUpdate($, json, baseURL, extra) {
     let data = {
         page: parseInt(json.page),
         pages: json.pages,
         total: json.total,
+        extra,
         list: [],
     };
     $('.layui-card').each((i, elem) => {

@@ -41,6 +41,7 @@ interface IMasiroMeRecentUpdateBase {
     pages: number;
     total: number;
     list: IMasiroMeBookMini[];
+    extra: IMasiroMeRecentUpdateOptions;
 }
 export interface IMasiroMeRecentUpdate extends IMasiroMeRecentUpdateBase {
     page: number;
@@ -48,5 +49,10 @@ export interface IMasiroMeRecentUpdate extends IMasiroMeRecentUpdateBase {
 export interface IMasiroMeRecentUpdateAll extends IMasiroMeRecentUpdateBase {
     start: number;
     end: number;
+}
+export interface IMasiroMeRecentUpdateOptions {
+    order?: number | 1 | 2;
+    tag?: string;
+    status?: 0 | 1;
 }
 export {};

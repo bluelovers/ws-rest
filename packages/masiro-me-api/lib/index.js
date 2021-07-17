@@ -63,20 +63,20 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         const { $ } = jsdom;
         return (0, _getChapter_1._getChapter)($, chapter_id, options);
     }
-    recentUpdate(page) {
+    recentUpdate(page, extra) {
         const json = this.$returnValue;
         const jsdom = this._responseDataToJSDOM('<meta charset="utf-8">' + json.html, this.$response);
-        return (0, _getRecentUpdate_1._getRecentUpdate)(jsdom.$, json, this.$baseURL);
+        return (0, _getRecentUpdate_1._getRecentUpdate)(jsdom.$, json, this.$baseURL, extra);
     }
-    recentUpdateAll(options) {
+    recentUpdateAll(options, extra) {
         let start = (options === null || options === void 0 ? void 0 : options.start) || 1;
-        return this.recentUpdate(start)
+        return this.recentUpdate(start, extra)
             .then(async (data) => {
             let cur = start = data.page;
             const end = Math.max(Math.min((options === null || options === void 0 ? void 0 : options.end) || data.pages, data.pages), start, 1);
             let last;
             while (cur < end) {
-                let data2 = await this.recentUpdate(++cur);
+                let data2 = await this.recentUpdate(++cur, extra);
                 if (data2.page === last || cur !== data2.page || !data2.list.length) {
                     break;
                 }
@@ -86,14 +86,14 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
                 last = cur;
             }
             (0, array_hyper_unique_1.array_unique_overwrite)(data.list);
-            let data3 = {
+            return {
                 start,
                 end: last !== null && last !== void 0 ? last : start,
                 pages: data.pages,
                 total: data.total,
+                extra,
                 list: data.list,
             };
-            return data3;
         });
     }
 };
@@ -160,14 +160,17 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
 ], MasiroMeClient.prototype, "getChapter", null);
 (0, tslib_1.__decorate)([
-    (0, method_1.GET)('admin/loadMoreNovels?page={page}&order=1'),
+    (0, method_1.GET)('admin/loadMoreNovels?page={page}&order={order}'),
     (0, index_2.RequestConfigs)({
         responseType: 'json',
     }),
     (0, abstract_1.methodBuilder)(),
     (0, tslib_1.__param)(0, (0, body_1.ParamPath)('page', 1)),
+    (0, tslib_1.__param)(1, (0, body_1.ParamMapAuto)({
+        order: 1,
+    })),
     (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Number]),
+    (0, tslib_1.__metadata)("design:paramtypes", [Number, Object]),
     (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
 ], MasiroMeClient.prototype, "recentUpdate", null);
 MasiroMeClient = (0, tslib_1.__decorate)([

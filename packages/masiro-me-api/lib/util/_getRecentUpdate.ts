@@ -1,16 +1,23 @@
-import { IMasiroMeBookMini, IMasiroMeRecentUpdate, IRawMasiroMeLoadMoreNovels } from '../types';
+import {
+	IMasiroMeBookMini,
+	IMasiroMeRecentUpdate,
+	IMasiroMeRecentUpdateOptions,
+	IRawMasiroMeLoadMoreNovels,
+} from '../types';
 import { trimUnsafe } from './trim';
 import { _parseSiteLink } from './_parseSiteLink';
 import { zhRegExp } from 'regexp-cjk';
 import { _handleBookInfo } from './_handleBookInfo';
 import { _getImgSrc } from './_getImgSrc';
 
-export function _getRecentUpdate($: JQueryStatic, json: Pick<IRawMasiroMeLoadMoreNovels, 'page' | 'pages' | 'total'>, baseURL?: string)
+export function _getRecentUpdate($: JQueryStatic, json: Pick<IRawMasiroMeLoadMoreNovels, 'page' | 'pages' | 'total'>, baseURL: string, extra: IMasiroMeRecentUpdateOptions)
 {
 	let data: IMasiroMeRecentUpdate = {
 		page: parseInt(json.page),
 		pages: json.pages,
 		total: json.total,
+
+		extra,
 
 		list: [] as IMasiroMeBookMini[],
 	};

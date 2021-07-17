@@ -15,7 +15,7 @@ import {
 	IMasiroMeBookWithChapters,
 	IMasiroMeChapter,
 	IMasiroMeRecentUpdate,
-	IMasiroMeRecentUpdateAll,
+	IMasiroMeRecentUpdateAll, IMasiroMeRecentUpdateOptions,
 	IRawMasiroMeLoadMoreNovels,
 } from './types';
 import { _checkLogin } from './util/_checkLogin';
@@ -160,27 +160,29 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		return _getChapter($, chapter_id, options) as null
 	}
 
-	@GET('admin/loadMoreNovels?page={page}&order=1')
+	@GET('admin/loadMoreNovels?page={page}&order={order}')
 	@RequestConfigs({
 		responseType: 'json',
 	})
 	@methodBuilder()
-	recentUpdate(@ParamPath('page', 1) page?: number): Bluebird<IMasiroMeRecentUpdate>
+	recentUpdate(@ParamPath('page', 1) page?: number, @ParamMapAuto({
+		order: 1,
+	}) extra?: IMasiroMeRecentUpdateOptions): Bluebird<IMasiroMeRecentUpdate>
 	{
 		const json = this.$returnValue as IRawMasiroMeLoadMoreNovels;
 		const jsdom = this._responseDataToJSDOM('<meta charset="utf-8">' + json.html, this.$response);
 
-		return _getRecentUpdate(jsdom.$, json, this.$baseURL) as IMasiroMeRecentUpdate as any;
+		return _getRecentUpdate(jsdom.$, json, this.$baseURL, extra) as IMasiroMeRecentUpdate as any;
 	}
 
 	recentUpdateAll(options?: {
 		start?: number,
 		end?: number,
-	})
+	}, extra?: IMasiroMeRecentUpdateOptions)
 	{
 		let start = options?.start || 1;
 
-		return this.recentUpdate(start)
+		return this.recentUpdate(start, extra)
 			.then(async (data) =>
 			{
 				let cur = start = data.page;
@@ -190,7 +192,7 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 
 				while (cur < end)
 				{
-					let data2 = await this.recentUpdate(++cur)
+					let data2 = await this.recentUpdate(++cur, extra)
 
 					if (data2.page === last || cur !== data2.page || !data2.list.length)
 					{
@@ -207,17 +209,17 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 
 				array_unique_overwrite(data.list);
 
-				let data3: IMasiroMeRecentUpdateAll = {
+				return <IMasiroMeRecentUpdateAll>{
 					start,
 					end: last ?? start,
 
 					pages: data.pages,
 					total: data.total,
 
+					extra,
+
 					list: data.list,
 				}
-
-				return data3
 			})
 			;
 	}
