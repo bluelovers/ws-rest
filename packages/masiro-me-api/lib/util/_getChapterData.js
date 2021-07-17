@@ -9,10 +9,12 @@ function _getChapterData($) {
     let memo = (0, trim_1.trimUnsafe)($('.translator-memo').text());
     let data;
     if (info.length) {
+        data !== null && data !== void 0 ? data : (data = {});
         (_a = data.extra_info) !== null && _a !== void 0 ? _a : (data.extra_info = {});
         data.extra_info.info = info;
     }
     if (memo.length) {
+        data !== null && data !== void 0 ? data : (data = {});
         (_b = data.extra_info) !== null && _b !== void 0 ? _b : (data.extra_info = {});
         data.extra_info.memo = memo;
     }

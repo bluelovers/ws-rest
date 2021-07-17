@@ -12,12 +12,14 @@ export function _getChapterData($: JQueryStatic)
 
 	if (info.length)
 	{
+		data ??= {};
 		data.extra_info ??= {};
 		data.extra_info.info = info;
 	}
 
 	if (memo.length)
 	{
+		data ??= {};
 		data.extra_info ??= {};
 		data.extra_info.memo = memo;
 	}

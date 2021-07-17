@@ -182,6 +182,10 @@ MasiroMeClient = (0, tslib_1.__decorate)([
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
             readHeaders: false,
+            //debug: true,
+            exclude: {
+                query: false,
+            }
         },
     })
 ], MasiroMeClient);

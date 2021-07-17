@@ -34,6 +34,10 @@ import { array_unique_overwrite } from 'array-hyper-unique';
 	cache: {
 		maxAge: 6 * 60 * 60 * 1000,
 		readHeaders: false,
+		//debug: true,
+		exclude: {
+			query: false,
+		}
 	},
 })
 export class MasiroMeClient extends AbstractHttpClientWithJSDom
