@@ -8,6 +8,7 @@ const lodash_1 = require("lodash");
 const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const createCacheStoreByMapLike_1 = require("axios-cache-adapter-util/lib/createCacheStoreByMapLike");
 const lru_cache2_1 = (0, tslib_1.__importDefault)(require("lru-cache2"));
+const key_1 = require("axios-cache-adapter-util/lib/util/key");
 function setupCacheConfig(configInput) {
     var _a;
     var _b;
@@ -39,7 +40,8 @@ function mixinCacheConfig(config) {
                 filter(res) {
                     return res.status >= 500;
                 }
-            }
+            },
+            key: key_1.defaultAxiosCacheAdapterKeyFixed,
         });
     }
     return config;

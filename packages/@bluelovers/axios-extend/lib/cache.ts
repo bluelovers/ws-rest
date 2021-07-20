@@ -8,6 +8,7 @@ import { ITSPartialPick } from 'ts-type';
 import { IAxiosCacheAdapterOptionsConfig } from './types';
 import { CacheStoreByMapLike } from 'axios-cache-adapter-util/lib/createCacheStoreByMapLike';
 import LRUCache from 'lru-cache2';
+import { defaultAxiosCacheAdapterKeyFixed } from 'axios-cache-adapter-util/lib/util/key';
 
 export { IAxiosCacheAdapterOptions, ISetupCache, IAxiosCacheAdapterOptionsConfig }
 
@@ -54,7 +55,8 @@ export function mixinCacheConfig<T extends IAxiosCacheAdapterOptionsConfig>(conf
 				{
 					return res.status >= 500;
 				}
-			}
+			},
+			key: defaultAxiosCacheAdapterKeyFixed,
 		})
 	}
 

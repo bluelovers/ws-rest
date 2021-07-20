@@ -24,6 +24,8 @@
   "license": "ISC",
   "author": "",
   "main": "./lib/index",
+  "types": "./lib/index.d.ts",
+  "typings": "./lib/index.d.ts",
   "scripts": {
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",
@@ -37,12 +39,15 @@
     "bluebird": "^3.7.2",
     "free-gc": "^1.0.6",
     "fs-extra": "^10.0.0",
+    "lazy-url": "^1.0.12",
+    "md5": "^2.3.0",
     "restful-decorator": "^1.0.57",
     "ts-type": "^1.2.39",
     "tslib": "^2.3.0",
     "typed-http-headers": "^1.0.7"
   },
   "devDependencies": {
+    "@types/md5": "^2.3.1",
     "fs-extra": "^10.0.0",
     "lru-cache2": "^6.0.7"
   },
