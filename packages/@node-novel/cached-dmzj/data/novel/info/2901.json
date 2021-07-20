@@ -3,21 +3,20 @@
   "name": "乐园杂音 Paradise NoiSe",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10993,
-  "last_update_chapter_id": 108665,
-  "last_update_time": 1595156706,
-  "cover": "https://xs.dmzj.com/img/webpic/8/lyzy0718l.jpg",
-  "hot_hits": 6270,
+  "last_update_volume_id": 11640,
+  "last_update_chapter_id": 118132,
+  "last_update_time": 1626789146,
+  "cover": "http://xs.dmzj.com/img/webpic/8/lyzy0718l.jpg",
+  "hot_hits": 60632,
   "introduction": "把心血来潮穿着女装的演奏视频传到网上后，我作为神秘女高中生网络乐手（然而是男的）一跃成名。\n可这个秘密被音乐老师华园美沙绪发现，为了封口只得听凭她使唤……\n“性格别扭的天才钢琴手，凛子”\n“花道的公主鼓手，诗月”\n“不上学的座敷童子主唱，朱音”\n通过华园老师，我结识了三名少女，本该无色无味的高中生活也因此不断增添喧闹、烦恼与色彩。\n日常与恋爱、青春和乐队相伴的boy meets girls！",
   "types": [
     "校园"
   ],
   "authors": "杉井光",
   "first_letter": "L",
-  "subscribe_num": 891,
-  "redis_update_time": 1595204630,
+  "subscribe_num": 7005,
   "volume": [
     {
       "id": 10993,
@@ -25,7 +24,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1595156424,
-      "sum_chapters": 7
+      "sum_chapters": 37
+    },
+    {
+      "id": 11640,
+      "lnovel_id": 2901,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1626434412,
+      "sum_chapters": 37
     }
   ],
   "chapters": [
@@ -94,6 +101,64 @@
           "chapter_id": 108665,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11640,
+      "id": 11640,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 117826,
+          "chapter_name": "1 协奏曲憧憬",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 117827,
+          "chapter_name": "2 掌中乐团",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 117828,
+          "chapter_name": "3 克利奥帕特拉之梦",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 117829,
+          "chapter_name": "4 至爱红宝石",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 117830,
+          "chapter_name": "5 爱是武勇，爱是自由",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 118015,
+          "chapter_name": "6 七十亿分之一",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 118016,
+          "chapter_name": "7 孤独燃烧的海",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 118017,
+          "chapter_name": "8 黎明将你带来",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 118018,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 118132,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
