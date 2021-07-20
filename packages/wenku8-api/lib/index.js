@@ -544,6 +544,9 @@ Wenku8Client = (0, tslib_1.__decorate)([
     (0, decorators_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
+            exclude: {
+                query: false,
+            }
         },
     })
 ], Wenku8Client);

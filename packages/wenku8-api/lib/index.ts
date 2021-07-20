@@ -63,6 +63,9 @@ import tryMinifyHTML from 'restful-decorator-plugin-jsdom/lib/html';
 @CacheRequest({
 	cache: {
 		maxAge: 6 * 60 * 60 * 1000,
+		exclude: {
+			query: false,
+		}
 	},
 })
 export class Wenku8Client extends AbstractHttpClientWithJSDom
