@@ -27,7 +27,7 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@bluelovers/array-buffer-to-string": "^1.0.18",
+    "@bluelovers/array-buffer-to-string": "^1.0.20",
     "@bluelovers/axios-util": "^1.0.13",
     "@jsdom-extra/html-util": "^1.0.4",
     "@types/jquery": "*",
