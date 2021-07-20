@@ -1,4 +1,4 @@
-name: check update and publish
+name: ci:build:1 dmzj
 
 on:
   push:
@@ -117,6 +117,13 @@ jobs:
           WENKU8_USER: ${{ secrets.WENKU8_USER }}
           WENKU8_PASS: ${{ secrets.WENKU8_PASS }}
         run: yarn run ci:cache:list
+      - name: Merge
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git fetch origin master
+          git merge origin/master --ff-only
       - name: Push changes
         if: success()
         uses: ad-m/github-push-action@master
