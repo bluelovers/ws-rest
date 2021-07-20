@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.88](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.87...@node-novel/cached-esjzone@1.0.88) (2021-07-20)
+
+
+### 🛠　Build System
+
+* { prepublishOnly => preversion } ([066a436](https://github.com/bluelovers/ws-rest/commit/066a436fe76af13484a2cad9ae331c127972945c))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-esjzone] update cache, novel x 1 ([65679f6](https://github.com/bluelovers/ws-rest/commit/65679f6b3637dc0a8c6421dcc7fac30cd5351752))
+* [@node-novel/cached-esjzone] update cache, novel x 1 ([0e02007](https://github.com/bluelovers/ws-rest/commit/0e020071c384c97aeadfe0f96d787f894c069138))
+* [@node-novel/cached-esjzone] update cache, novel x 173 ([b64b074](https://github.com/bluelovers/ws-rest/commit/b64b07473b1182ef68f557fbcdd0badc9a713f53))
+* [@node-novel/cached-esjzone] update cache, novel x 111 ([0a6b4b2](https://github.com/bluelovers/ws-rest/commit/0a6b4b240eeaee94591f577415608ec76de5a261))
+
+
+
+
+
 ## [1.0.87](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.86...@node-novel/cached-esjzone@1.0.87) (2021-07-16)
 
 

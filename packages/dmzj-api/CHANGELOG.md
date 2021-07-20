@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.48](https://github.com/bluelovers/ws-rest/compare/dmzj-api@1.1.47...dmzj-api@1.1.48) (2021-07-20)
+
+
+### ♻️　Chores
+
+* update deps ([68986ce](https://github.com/bluelovers/ws-rest/commit/68986ce8de13196e16245bb1e7f2d0d93ad17382))
+
+
+
+
+
 ## [1.1.47](https://github.com/bluelovers/ws-rest/compare/dmzj-api@1.1.46...dmzj-api@1.1.47) (2021-07-10)
 
 

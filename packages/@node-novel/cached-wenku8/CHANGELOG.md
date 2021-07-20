@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.91](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.90...@node-novel/cached-wenku8@1.0.91) (2021-07-20)
+
+
+### 🛠　Build System
+
+* { prepublishOnly => preversion } ([066a436](https://github.com/bluelovers/ws-rest/commit/066a436fe76af13484a2cad9ae331c127972945c))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-wenku8] update cache, novel x 16 ([7cae706](https://github.com/bluelovers/ws-rest/commit/7cae706a50844db39350bc1dd6b534e4a3ff6e5b))
+* [@node-novel/cached-wenku8] update cache, novel x 8 ([365b099](https://github.com/bluelovers/ws-rest/commit/365b099b88704c53d4677c6762e2621f957a9123))
+
+
+
+
+
 ## [1.0.90](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.89...@node-novel/cached-wenku8@1.0.90) (2021-07-16)
 
 

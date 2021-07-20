@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.25](https://github.com/bluelovers/ws-rest/compare/router-uri-convert@1.0.24...router-uri-convert@1.0.25) (2021-07-20)
+
+
+### 🛠　Build System
+
+* { prepublishOnly => preversion } ([066a436](https://github.com/bluelovers/ws-rest/commit/066a436fe76af13484a2cad9ae331c127972945c))
+
+
+
+
+
 ## [1.0.24](https://github.com/bluelovers/ws-rest/compare/router-uri-convert@1.0.23...router-uri-convert@1.0.24) (2021-07-10)
 
 

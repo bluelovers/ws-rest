@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.10](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-lhscan@1.0.9...@node-novel/cached-lhscan@1.0.10) (2021-07-20)
+
+
+### ♻️　Chores
+
+* update deps ([68986ce](https://github.com/bluelovers/ws-rest/commit/68986ce8de13196e16245bb1e7f2d0d93ad17382))
+
+
+
+
+
 ## [1.0.9](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-lhscan@1.0.8...@node-novel/cached-lhscan@1.0.9) (2021-07-11)
 
 

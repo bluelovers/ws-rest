@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/parse-input-url",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@node-novel/parse-input-url#readme",
   "bugs": {
@@ -29,7 +29,7 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "http-form-urlencoded": "^1.0.22",
+    "http-form-urlencoded": "^1.0.23",
     "lazy-url": "^1.0.12",
     "tslib": "^2.3.0"
   },

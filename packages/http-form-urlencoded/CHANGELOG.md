@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.23](https://github.com/bluelovers/ws-rest/compare/http-form-urlencoded@1.0.22...http-form-urlencoded@1.0.23) (2021-07-20)
+
+
+### 🛠　Build System
+
+* { prepublishOnly => preversion } ([066a436](https://github.com/bluelovers/ws-rest/commit/066a436fe76af13484a2cad9ae331c127972945c))
+
+
+### ♻️　Chores
+
+* update deps ([68986ce](https://github.com/bluelovers/ws-rest/commit/68986ce8de13196e16245bb1e7f2d0d93ad17382))
+
+
+
+
+
 ## [1.0.22](https://github.com/bluelovers/ws-rest/compare/http-form-urlencoded@1.0.21...http-form-urlencoded@1.0.22) (2021-07-03)
 
 

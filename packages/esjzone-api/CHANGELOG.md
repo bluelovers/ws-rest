@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.53](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.52...esjzone-api@1.0.53) (2021-07-20)
+
+
+### 🐛　Bug Fixes
+
+* replace `@CacheRequest` to `@RequestConfigs` ([41e12f4](https://github.com/bluelovers/ws-rest/commit/41e12f4bfc1e2efa9e33f8f30020f78e242c812c))
+
+
+### ✨　Features
+
+* **esjzone:** 抓取小說類型（原創或日輕...etc） ([65adf7c](https://github.com/bluelovers/ws-rest/commit/65adf7ca4e9acc1c74e9618ecf4e7e19fd802275))
+
+
+### ♻️　Chores
+
+* update deps ([68986ce](https://github.com/bluelovers/ws-rest/commit/68986ce8de13196e16245bb1e7f2d0d93ad17382))
+
+
+
+
+
 ## [1.0.52](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.51...esjzone-api@1.0.52) (2021-07-16)
 
 **Note:** Version bump only for package esjzone-api

@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.54](https://github.com/bluelovers/ws-rest/compare/axios-cache-adapter-util@1.0.53...axios-cache-adapter-util@1.0.54) (2021-07-20)
+
+
+### 🐛　Bug Fixes
+
+* use `defaultAxiosCacheAdapterKeyFixed` ([8df465d](https://github.com/bluelovers/ws-rest/commit/8df465d05c1616dac2a7cd06f29e7efab0328a19))
+
+
+### 🛠　Build System
+
+* { prepublishOnly => preversion } ([066a436](https://github.com/bluelovers/ws-rest/commit/066a436fe76af13484a2cad9ae331c127972945c))
+
+
+### ♻️　Chores
+
+* update deps ([68986ce](https://github.com/bluelovers/ws-rest/commit/68986ce8de13196e16245bb1e7f2d0d93ad17382))
+
+
+
+
+
 ## [1.0.53](https://github.com/bluelovers/ws-rest/compare/axios-cache-adapter-util@1.0.52...axios-cache-adapter-util@1.0.53) (2021-07-10)
 
 **Note:** Version bump only for package axios-cache-adapter-util

@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.43](https://github.com/bluelovers/ws-rest/compare/@bluelovers/axios-extend@1.0.42...@bluelovers/axios-extend@1.0.43) (2021-07-20)
+
+
+### 🐛　Bug Fixes
+
+* use `defaultAxiosCacheAdapterKeyFixed` ([8df465d](https://github.com/bluelovers/ws-rest/commit/8df465d05c1616dac2a7cd06f29e7efab0328a19))
+
+
+### ♻️　Chores
+
+* update deps ([68986ce](https://github.com/bluelovers/ws-rest/commit/68986ce8de13196e16245bb1e7f2d0d93ad17382))
+
+
+
+
+
 ## [1.0.42](https://github.com/bluelovers/ws-rest/compare/@bluelovers/axios-extend@1.0.41...@bluelovers/axios-extend@1.0.42) (2021-07-10)
 
 
