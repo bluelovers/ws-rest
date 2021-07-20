@@ -17,10 +17,12 @@
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
     "test": "echo \"Error: no test specified\"",
-    "build": "yarn run build:fix && yarn run build:cache && yarn run build:commit",
+    "prebuild": "yarn run build:fix",
+    "build": "yarn run build:cache",
     "build:cache": "ts-node ./script/build",
     "build:commit": "ts-node ./script/build-commit",
     "build:fix": "ts-node ./script/build/fix",
+    "postbuild": "yarn run build:fix && yarn run build:commit",
     "npm:publish": "npm publish",
     "preversion": "yarn run test",
     "prepublishOnly": "echo prepublishOnly",
@@ -29,6 +31,9 @@
     "sort-package-json": "npx yarn-tool sort",
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
     "@node-novel/site-cache-util": "^1.0.44",
@@ -40,8 +45,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "0f35c47bb8e9551733530bf348c3ed022c04471f",
-  "dependencies": {
-    "tslib": "^2.3.0"
-  }
+  "gitHead": "0f35c47bb8e9551733530bf348c3ed022c04471f"
 }
