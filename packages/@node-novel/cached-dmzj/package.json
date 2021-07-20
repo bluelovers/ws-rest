@@ -17,17 +17,22 @@
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
     "test": "echo \"Error: no test specified\"",
-    "build": "yarn run build:fix && yarn run build:cache && yarn run build:commit",
+    "prebuild": "yarn run build:fix",
+    "build": "yarn run build:cache",
     "build:cache": "ts-node ./script/build",
     "build:commit": "ts-node ./script/build-commit",
     "build:fix": "ts-node ./script/fix-old",
+    "postbuild": "yarn run build:fix && yarn run build:commit",
     "npm:publish": "npm publish",
-    "prepublishOnly": "yarn run build",
+    "preversion": "yarn run build",
     "postpublish": "echo postpublish",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort",
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
     "@bluelovers/axios-util": "^1.0.13",
@@ -39,8 +44,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "0f35c47bb8e9551733530bf348c3ed022c04471f",
-  "dependencies": {
-    "tslib": "^2.3.0"
-  }
+  "gitHead": "0f35c47bb8e9551733530bf348c3ed022c04471f"
 }

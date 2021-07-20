@@ -28,7 +28,7 @@
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",
     "test": "ts-node ./test/demo",
-    "prepublishOnly": "yarn run test",
+    "preversion": "yarn run test",
     "postpublish": "echo postpublish",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort"

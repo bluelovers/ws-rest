@@ -9,7 +9,7 @@
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint lib/**/*.ts",
     "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}",
-    "prepublishOnly": "yarn run test",
+    "preversion": "yarn run test",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort"
   },

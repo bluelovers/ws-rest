@@ -21,7 +21,7 @@
     "build:commit": "ts-node ./script/build-commit",
     "build:fix": "ts-node ./script/build/fix",
     "npm:publish": "npm publish",
-    "prepublishOnly": "yarn run build",
+    "preversion": "yarn run build",
     "postpublish": "echo postpublish",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort",
