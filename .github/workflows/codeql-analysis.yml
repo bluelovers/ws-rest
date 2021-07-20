@@ -13,6 +13,7 @@ jobs:
   analyse:
     name: Analyse
     runs-on: ubuntu-latest
+    if: "0"
 
     steps:
     - name: Checkout repository

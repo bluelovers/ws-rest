@@ -122,8 +122,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git fetch origin master
-          git merge origin/master --ff-only
+          git pull --ff
       - name: Push changes
         if: success()
         uses: ad-m/github-push-action@master
