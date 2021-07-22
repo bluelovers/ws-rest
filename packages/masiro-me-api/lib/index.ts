@@ -53,7 +53,7 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 	})
 	@ReturnValueToJSDOM()
 	@methodBuilder()
-	loginByForm(@ParamMapAuto() inputData: {
+	loginByForm(inputData: {
 		username: string,
 		password: string,
 		activationcode?: string,

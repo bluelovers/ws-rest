@@ -108,7 +108,6 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     }),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, abstract_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, body_1.ParamMapAuto)()),
     (0, tslib_1.__metadata)("design:type", Function),
     (0, tslib_1.__metadata)("design:paramtypes", [Object]),
     (0, tslib_1.__metadata)("design:returntype", void 0)
