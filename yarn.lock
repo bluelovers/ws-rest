@@ -4796,10 +4796,10 @@ ts-jest@^27.0.3:
     semver "7.x"
     yargs-parser "20.x"
 
-ts-type-predicates@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/ts-type-predicates/-/ts-type-predicates-1.0.3.tgz#f98a648148f9df2907bae08d9b53d48a15411375"
-  integrity sha512-AqU0UFcydDyS/WTFN86I6WmzLZCHXI56XIu6ztoUdDu4+SMr5Wx/3t4aCnd4ElmACF5fV2soYS3qt96MNUpBOw==
+ts-type-predicates@^1.0.3, ts-type-predicates@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/ts-type-predicates/-/ts-type-predicates-1.0.4.tgz#d708d07b1d1a9d53d6bf56341aa00565c27b5f4d"
+  integrity sha512-y+k50I87iSq0OVOOnhMhPemDVXZlDj83sj9LdzVlsacsC58nykK9XKdYhsViCxGI89gZlUe2aGN3U3IKFIZ2MQ==
 
 ts-type@^1.2.34, ts-type@^1.2.35, ts-type@^1.2.39:
   version "1.2.39"

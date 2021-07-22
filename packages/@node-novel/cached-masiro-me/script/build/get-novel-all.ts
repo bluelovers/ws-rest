@@ -27,6 +27,8 @@ export default lazyRun(async () =>
 
 	let boolCache: boolean = null;
 
+	const date_now = Date.now();
+
 	await Bluebird
 		.resolve(recentUpdateList.list)
 		.mapSeries(async (row, index, length) =>
@@ -50,7 +52,7 @@ export default lazyRun(async () =>
 					{
 						consoleDebug.warn(printIndexLabel(index + 1, length), id, `不存在或沒有權限`);
 
-						cacheTask001[id] ||= Date.now();
+						cacheTask001[id] ||= date_now;
 
 						return;
 					}
@@ -58,7 +60,7 @@ export default lazyRun(async () =>
 					consoleDebug.info(printIndexLabel(index + 1, length), id, novel.title, moment(novel.updated)
 						.format(), novel.last_update_name);
 
-					cacheTask001[id] = novel.updated;
+					cacheTask001[id] = novel.updated || date_now;
 
 					return outputJSONLazy(_file, novel)
 				})

@@ -20,6 +20,7 @@ exports.default = (0, index_1.lazyRun)(async () => {
     let cacheTask001 = await (0, fs_extra_1.readJSON)(file_task001)
         .catch(e => ({}));
     let boolCache = null;
+    const date_now = Date.now();
     await bluebird_1.default
         .resolve(recentUpdateList.list)
         .mapSeries(async (row, index, length) => {
@@ -35,12 +36,12 @@ exports.default = (0, index_1.lazyRun)(async () => {
             .tap(novel => {
             if (!novel) {
                 index_1.consoleDebug.warn((0, util_2.printIndexLabel)(index + 1, length), id, `不存在或沒有權限`);
-                cacheTask001[id] || (cacheTask001[id] = Date.now());
+                cacheTask001[id] || (cacheTask001[id] = date_now);
                 return;
             }
             index_1.consoleDebug.info((0, util_2.printIndexLabel)(index + 1, length), id, novel.title, (0, moment_1.moment)(novel.updated)
                 .format(), novel.last_update_name);
-            cacheTask001[id] = novel.updated;
+            cacheTask001[id] = novel.updated || date_now;
             return (0, fs_1.outputJSONLazy)(_file, novel);
         })
             .tap(async function () {

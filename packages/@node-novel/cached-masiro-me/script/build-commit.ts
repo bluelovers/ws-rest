@@ -55,7 +55,7 @@ export default lazyRun(async () => {
 					}, 0);
 				}
 
-				return `- ${id.padStart(4, '0')} ${json.title} ${moment.unix(json.updated)
+				return `- ${id.padStart(4, '0')} ${json.title} ${moment(json.updated)
 					.format()} ${json.last_update_name} c:${c} v:${v}`;
 			}
 		});

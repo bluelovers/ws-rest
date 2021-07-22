@@ -41,7 +41,7 @@ exports.default = (0, index_1.lazyRun)(async () => {
                         return len + vol.chapters.length;
                     }, 0);
                 }
-                return `- ${id.padStart(4, '0')} ${json.title} ${moment_1.moment.unix(json.updated)
+                return `- ${id.padStart(4, '0')} ${json.title} ${(0, moment_1.moment)(json.updated)
                     .format()} ${json.last_update_name} c:${c} v:${v}`;
             }
         });
