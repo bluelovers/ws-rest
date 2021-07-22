@@ -51,7 +51,7 @@ export default lazyRun(async () =>
 						{
 							let old = cache.get(novel.id);
 
-							if (old.last_update_name?.length && novel.last_update_name !== old.last_update_name)
+							if ((old.last_update_name?.length || novel.last_update_name?.length) && novel.last_update_name !== old.last_update_name)
 							{
 								cacheTask001[novel.id] = 0;
 							}

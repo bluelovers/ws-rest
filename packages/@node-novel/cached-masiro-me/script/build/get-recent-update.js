@@ -31,10 +31,10 @@ exports.default = (0, index_1.lazyRun)(async () => {
             let cache = new Map();
             let list = recentUpdateList.list.concat(data.list)
                 .filter(novel => {
-                var _a;
+                var _a, _b;
                 if (cache.has(novel.id)) {
                     let old = cache.get(novel.id);
-                    if (((_a = old.last_update_name) === null || _a === void 0 ? void 0 : _a.length) && novel.last_update_name !== old.last_update_name) {
+                    if ((((_a = old.last_update_name) === null || _a === void 0 ? void 0 : _a.length) || ((_b = novel.last_update_name) === null || _b === void 0 ? void 0 : _b.length)) && novel.last_update_name !== old.last_update_name) {
                         cacheTask001[novel.id] = 0;
                     }
                     return false;
