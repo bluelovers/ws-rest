@@ -123,7 +123,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git reset --hard
-          git pull origin master -v --progress --ff
+          git pull origin master -v --progress --rebase --ff
       - name: Push changes
         if: success()
         uses: ad-m/github-push-action@master
@@ -135,3 +135,5 @@ jobs:
         uses: Ilshidur/action-discord@master
 #        with:
 #          args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
+      - name: echo
+        run: echo ${github.event.action}
