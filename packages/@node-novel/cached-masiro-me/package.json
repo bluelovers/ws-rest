@@ -1,0 +1,38 @@
+{
+  "name": "@node-novel/cached-masiro-me",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@node-novel/cached-masiro-me#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-rest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-rest.git"
+  },
+  "license": "ISC",
+  "author": "bluelovers",
+  "main": "package.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "prebuild": "yarn run build:fix",
+    "build": "yarn run build:main",
+    "build:cache": "ts-node ./script/build",
+    "build:commit": "ts-node ./script/build-commit",
+    "build:fix": "ts-node ./script/build/fix",
+    "postbuild": "yarn run build:fix  && yarn run build:commit",
+    "preversion": "yarn run test",
+    "ncu": "yarn-tool ncu -u",
+    "sort-package-json": "yarn-tool sort"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "masiro-me-api": "^1.0.2"
+  },
+  "peerDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
