@@ -96,9 +96,10 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		return this.checkLogin()
 	}
 
-	@POST('/')
+	@GET('/')
 	@RequestConfigs({
 		cache: {
+			maxAge: 0,
 			ignoreCache: true,
 			excludeFromCache: true,
 		},
@@ -108,6 +109,11 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 	checkLogin(): Bluebird<string>
 	{
 		return _checkLogin((this.$returnValue as IJSDOM).$) as any
+	}
+
+	isLogin()
+	{
+		return this.checkLogin()
 	}
 
 	_getAuthCookies()

@@ -9,8 +9,6 @@ let jar: LazyCookieJar;
 
 export async function getApiClient()
 {
-	const baseURL = 'https://loveheaven.net/';
-
 	({ api, saveCache, jar } = await _getApiClient({
 		api,
 		saveCache,

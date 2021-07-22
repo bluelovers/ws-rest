@@ -39,6 +39,9 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     checkLogin() {
         return (0, _checkLogin_1._checkLogin)(this.$returnValue.$);
     }
+    isLogin() {
+        return this.checkLogin();
+    }
     _getAuthCookies() {
         return this._jar()
             .findCookieByKey(/laravel_session|remember_|XSRF-TOKEN/, this.$baseURL)
@@ -127,9 +130,10 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     (0, tslib_1.__metadata)("design:returntype", void 0)
 ], MasiroMeClient.prototype, "_loginByForm", null);
 (0, tslib_1.__decorate)([
-    (0, method_1.POST)('/'),
+    (0, method_1.GET)('/'),
     (0, index_2.RequestConfigs)({
         cache: {
+            maxAge: 0,
             ignoreCache: true,
             excludeFromCache: true,
         },

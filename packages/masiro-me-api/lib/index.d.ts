@@ -17,6 +17,7 @@ export declare class MasiroMeClient extends AbstractHttpClientWithJSDom {
         _token: string;
     }): Bluebird<string>;
     checkLogin(): Bluebird<string>;
+    isLogin(): Bluebird<string>;
     _getAuthCookies(): Record<"laravel_session" | "remember_admin" | "XSRF-TOKEN", Cookie>;
     bookInfo(novel_id: number | string): Bluebird<IMasiroMeBookWithChapters>;
     getChapter(chapter_id: string | number, options?: {
