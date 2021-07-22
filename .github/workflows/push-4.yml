@@ -1,4 +1,4 @@
-name: ci:build:5 masiro
+name: ci:build:4 masiro
 
 on:
   push:
@@ -108,7 +108,7 @@ jobs:
           WENKU8_USER: ${{ secrets.WENKU8_USER }}
           WENKU8_PASS: ${{ secrets.WENKU8_PASS }}
           NODE_OPTIONS: --max_old_space_size=8192
-        run: yarn run ci:build:5
+        run: yarn run ci:build:4
       - name: ci:cache:list
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

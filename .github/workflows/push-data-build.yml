@@ -1,4 +1,4 @@
-name: ci:build:4 cached-data
+name: ci:build:data-build cached-data
 
 on:
   schedule:
@@ -106,7 +106,7 @@ jobs:
           WENKU8_USER: ${{ secrets.WENKU8_USER }}
           WENKU8_PASS: ${{ secrets.WENKU8_PASS }}
           NODE_OPTIONS: --max_old_space_size=8192
-        run: yarn run ci:build:4
+        run: yarn run ci:build:data-build
       - name: ci:cache:list
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
