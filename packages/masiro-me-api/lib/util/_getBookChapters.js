@@ -6,6 +6,7 @@ const trim_1 = require("./trim");
 const _parseSiteLink_1 = require("./_parseSiteLink");
 const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
 function _getBookChapters($) {
+    var _b;
     let volume_order = 0;
     let chapter_order = 0;
     const root = [];
@@ -56,6 +57,9 @@ function _getBookChapters($) {
             chapter_order++;
         }
     });
+    if (!root.length || root.length === 1 && !((_b = root[0].chapters) === null || _b === void 0 ? void 0 : _b.length)) {
+        return null;
+    }
     return root;
 }
 exports._getBookChapters = _getBookChapters;

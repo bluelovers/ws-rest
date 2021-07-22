@@ -81,5 +81,10 @@ export function _getBookChapters($: JQueryStatic)
 		})
 	;
 
+	if (!root.length || root.length === 1 && !root[0].chapters?.length)
+	{
+		return null
+	}
+
 	return root
 }
