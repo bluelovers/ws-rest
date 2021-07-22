@@ -1,8 +1,12 @@
-import { IMasiroMeBook, IMasiroMeBookMini } from '../types';
+import { IMasiroMeBook, IMasiroMeBookMini, IMasiroMeBookWithChapters } from '../types';
 import { trimUnsafe } from './trim';
+import { isBookWithChapters } from './asserts';
+import { typePredicates } from 'ts-type-predicates';
 
 export function _handleBookInfo<T extends IMasiroMeBook | IMasiroMeBookMini>(book: T)
 {
+	typePredicates<IMasiroMeBookWithChapters>(book);
+
 	if (book.tags?.length)
 	{
 		book.tags = book.tags
@@ -15,7 +19,7 @@ export function _handleBookInfo<T extends IMasiroMeBook | IMasiroMeBookMini>(boo
 	Object.entries(book)
 		.forEach(([key, value]) =>
 		{
-			if (value === null || (typeof value === 'string'|| Array.isArray(value)) && !value.length)
+			if (value === null || (typeof value === 'string' || Array.isArray(value)) && !value.length)
 			{
 				book[key as keyof T] = void 0;
 			}
@@ -32,6 +36,29 @@ export function _handleBookInfo<T extends IMasiroMeBook | IMasiroMeBookMini>(boo
 	else if (!book.cover?.length)
 	{
 		book.cover = void 0;
+	}
+
+	if (isBookWithChapters(book))
+	{
+		if (!book.updated && book.chapters.length)
+		{
+			let timestamp = 0;
+			book.chapters.forEach((vol) =>
+			{
+				vol.chapters.forEach((ch) =>
+				{
+
+					timestamp = Math.max(ch.chapter_updated, timestamp)
+
+				})
+			});
+
+			if (timestamp)
+			{
+				book.updated = timestamp
+			}
+
+		}
 	}
 
 	return book;

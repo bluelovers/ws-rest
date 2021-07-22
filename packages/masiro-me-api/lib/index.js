@@ -19,6 +19,7 @@ const _getChapter_1 = require("./util/_getChapter");
 const index_2 = require("restful-decorator/lib/decorators/config/index");
 const _getRecentUpdate_1 = require("./util/_getRecentUpdate");
 const array_hyper_unique_1 = require("array-hyper-unique");
+const _handleBookInfo_1 = require("./util/_handleBookInfo");
 let MasiroMeClient = class MasiroMeClient extends index_1.default {
     loginByForm(inputData) {
         const jsdom = this.$returnValue;
@@ -62,6 +63,7 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         }
         let book_with_chapters = book;
         book_with_chapters.chapters = (0, _getBookChapters_1._getBookChapters)($);
+        (0, _handleBookInfo_1._handleBookInfo)(book_with_chapters);
         return book_with_chapters;
     }
     getChapter(chapter_id, options = {}) {

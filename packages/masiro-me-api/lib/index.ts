@@ -27,6 +27,7 @@ import { _getChapter } from './util/_getChapter';
 import { RequestConfigs } from 'restful-decorator/lib/decorators/config/index';
 import { _getRecentUpdate } from './util/_getRecentUpdate';
 import { array_unique_overwrite } from 'array-hyper-unique';
+import { _handleBookInfo } from './util/_handleBookInfo';
 
 @BaseUrl('https://masiro.me')
 @Headers({
@@ -152,6 +153,8 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		let book_with_chapters: IMasiroMeBookWithChapters = book as any;
 
 		book_with_chapters.chapters = _getBookChapters($);
+
+		_handleBookInfo(book_with_chapters);
 
 		return book_with_chapters as any
 	}
