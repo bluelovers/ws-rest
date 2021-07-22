@@ -58,7 +58,7 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         const { $ } = jsdom;
         let book = (0, _getBookInfo_1._getBookInfo)($, novel_id, this.$baseURL);
         if (!book) {
-            return null;
+            return Promise.reject(new Error(`'${novel_id}' 不存在或已刪除`));
         }
         let book_with_chapters = book;
         book_with_chapters.chapters = (0, _getBookChapters_1._getBookChapters)($);

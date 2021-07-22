@@ -8,6 +8,10 @@ export default lazyRun(async () => {
 
 	await lazyImport('./build/get-recent-update', require);
 
+	await lazyImport('./build/get-novel-all', require);
+
+	await lazyImport('./build/build-cache', require);
+
 }, {
 	pkgLabel,
 });

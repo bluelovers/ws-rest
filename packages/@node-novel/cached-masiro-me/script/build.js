@@ -7,6 +7,8 @@ const index_1 = require("@node-novel/site-cache-util/lib/index");
 const main_1 = require("./util/main");
 exports.default = (0, index_1.lazyRun)(async () => {
     await (0, index_1.lazyImport)('./build/get-recent-update', require);
+    await (0, index_1.lazyImport)('./build/get-novel-all', require);
+    await (0, index_1.lazyImport)('./build/build-cache', require);
 }, {
     pkgLabel: main_1.pkgLabel,
 });

@@ -58,7 +58,7 @@ function _getBookChapters($) {
         }
     });
     if (!root.length || root.length === 1 && !((_b = root[0].chapters) === null || _b === void 0 ? void 0 : _b.length)) {
-        return null;
+        return [];
     }
     return root;
 }

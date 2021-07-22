@@ -16,10 +16,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "prebuild": "yarn run build:fix",
-    "build": "yarn run build:main",
+    "build": "yarn run build:cache",
     "build:cache": "ts-node ./script/build",
     "build:commit": "ts-node ./script/build-commit",
-    "build:fix": "ts-node ./script/build/fix",
+    "build:fix": "ts-node ./script/build-fix",
+    "build:main": "yarn run build:fix && yarn run build:cache",
     "postbuild": "yarn run build:fix  && yarn run build:commit",
     "preversion": "yarn run test",
     "ncu": "yarn-tool ncu -u",

@@ -34,8 +34,8 @@ exports.default = (0, index_1.lazyRun)(async () => {
         absolute: true,
     })
         .mapSeries(async (_file, index, length) => {
-        var _a, _b, _c, _d, _e;
-        var _f;
+        var _a, _b, _c, _d, _e, _f;
+        var _g;
         const novel = await (0, fs_extra_1.readJSON)(_file);
         const { id, title } = novel;
         if (!title) {
@@ -49,14 +49,17 @@ exports.default = (0, index_1.lazyRun)(async () => {
         let author = (_d = (_c = novel.authors) === null || _c === void 0 ? void 0 : _c[0]) !== null && _d !== void 0 ? _d : '';
         _cacheMap.idTitles[id] = title;
         if (typeof author === 'string') {
-            (_e = (_f = _cacheMap.idAuthors)[author]) !== null && _e !== void 0 ? _e : (_f[author] = {});
+            (_e = (_g = _cacheMap.idAuthors)[author]) !== null && _e !== void 0 ? _e : (_g[author] = {});
             _cacheMap.idAuthors[author][id] = title;
         }
         _cacheMap.idVolumes[id] = 0;
-        _cacheMap.idChapters[id] = novel.chapters.reduce((len, vol) => {
-            _cacheMap.idVolumes[id]++;
-            return len + vol.chapters.length;
-        }, 0);
+        _cacheMap.idChapters[id] = 0;
+        if ((_f = novel.chapters) === null || _f === void 0 ? void 0 : _f.length) {
+            _cacheMap.idChapters[id] = novel.chapters.reduce((len, vol) => {
+                _cacheMap.idVolumes[id]++;
+                return len + vol.chapters.length;
+            }, 0);
+        }
         _cacheMap.idUpdate[id] = novel.updated;
         return novel;
     });

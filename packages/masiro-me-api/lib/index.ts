@@ -146,7 +146,7 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 
 		if (!book)
 		{
-			return null
+			return Promise.reject(new Error(`'${novel_id}' 不存在或已刪除`)) as any
 		}
 
 		let book_with_chapters: IMasiroMeBookWithChapters = book as any;

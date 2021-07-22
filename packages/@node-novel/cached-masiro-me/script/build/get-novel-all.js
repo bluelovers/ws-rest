@@ -31,13 +31,14 @@ exports.default = (0, index_1.lazyRun)(async () => {
             return;
         }
         await api.bookInfo(id)
+            .catchReturn(null)
             .tap(novel => {
             if (!novel) {
-                index_1.consoleDebug.warn((0, util_2.printIndexLabel)(index, length), id, `不存在或沒有權限`);
+                index_1.consoleDebug.warn((0, util_2.printIndexLabel)(index + 1, length), id, `不存在或沒有權限`);
                 cacheTask001[id] || (cacheTask001[id] = Date.now());
                 return;
             }
-            index_1.consoleDebug.info((0, util_2.printIndexLabel)(index, length), id, novel.title, (0, moment_1.moment)(novel.updated)
+            index_1.consoleDebug.info((0, util_2.printIndexLabel)(index + 1, length), id, novel.title, (0, moment_1.moment)(novel.updated)
                 .format(), novel.last_update_name);
             cacheTask001[id] = novel.updated;
             return (0, fs_1.outputJSONLazy)(_file, novel);

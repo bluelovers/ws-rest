@@ -74,11 +74,15 @@ export default lazyRun(async () =>
 			}
 
 			_cacheMap.idVolumes[id] = 0;
+			_cacheMap.idChapters[id] = 0;
 
-			_cacheMap.idChapters[id] = novel.chapters.reduce((len, vol) => {
-				_cacheMap.idVolumes[id]++;
-				return len + vol.chapters.length;
-			}, 0);
+			if (novel.chapters?.length)
+			{
+				_cacheMap.idChapters[id] = novel.chapters.reduce((len, vol) => {
+					_cacheMap.idVolumes[id]++;
+					return len + vol.chapters.length;
+				}, 0);
+			}
 
 			_cacheMap.idUpdate[id] = novel.updated;
 

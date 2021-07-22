@@ -32,14 +32,17 @@ exports.default = (0, index_1.lazyRun)(async () => {
         let msg = await (0, git_2.reportDiffStagedNovels)({
             git_root: (0, path_1.join)(util_1.__root, 'data'),
             callback(json, id) {
+                var _a;
                 let c = 0;
                 let v = 0;
-                c = json.chapters.reduce((len, vol) => {
-                    v++;
-                    return len += vol.chapters.length;
-                }, 0);
-                return `- ${id.padStart(4, '0')} ${json.name} ${moment_1.moment.unix(json.last_update_time)
-                    .format()} ${json.last_update_chapter_name} c:${c} v:${v}`;
+                if ((_a = json.chapters) === null || _a === void 0 ? void 0 : _a.length) {
+                    c = json.chapters.reduce((len, vol) => {
+                        v++;
+                        return len + vol.chapters.length;
+                    }, 0);
+                }
+                return `- ${id.padStart(4, '0')} ${json.title} ${moment_1.moment.unix(json.updated)
+                    .format()} ${json.last_update_name} c:${c} v:${v}`;
             }
         });
         (0, git_1.crossSpawnSync)('git', [

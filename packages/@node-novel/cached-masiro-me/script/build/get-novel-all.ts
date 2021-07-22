@@ -43,18 +43,19 @@ export default lazyRun(async () =>
 			}
 
 			await api.bookInfo(id)
+				.catchReturn(null as null)
 				.tap(novel =>
 				{
 					if (!novel)
 					{
-						consoleDebug.warn(printIndexLabel(index, length), id, `不存在或沒有權限`);
+						consoleDebug.warn(printIndexLabel(index + 1, length), id, `不存在或沒有權限`);
 
 						cacheTask001[id] ||= Date.now();
 
 						return;
 					}
 
-					consoleDebug.info(printIndexLabel(index, length), id, novel.title, moment(novel.updated)
+					consoleDebug.info(printIndexLabel(index + 1, length), id, novel.title, moment(novel.updated)
 						.format(), novel.last_update_name);
 
 					cacheTask001[id] = novel.updated;
