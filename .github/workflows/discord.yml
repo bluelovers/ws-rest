@@ -14,3 +14,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
+      - name: echo
+        run: |
+          echo ${{github.event.action}}
+          echo ${{GITHUB_EVENT_NAME}}
