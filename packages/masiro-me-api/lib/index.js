@@ -57,6 +57,9 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
         let book = (0, _getBookInfo_1._getBookInfo)($, novel_id, this.$baseURL);
+        if (!book) {
+            return null;
+        }
         let book_with_chapters = book;
         book_with_chapters.chapters = (0, _getBookChapters_1._getBookChapters)($);
         return book_with_chapters;
@@ -75,12 +78,17 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         let start = (options === null || options === void 0 ? void 0 : options.start) || 1;
         return this.recentUpdate(start, extra)
             .then(async (data) => {
+            var _a, _b;
             let cur = start = data.page;
             const end = Math.max(Math.min((options === null || options === void 0 ? void 0 : options.end) || data.pages, data.pages), start, 1);
             let last;
+            const filter = (_a = options === null || options === void 0 ? void 0 : options.filter) !== null && _a !== void 0 ? _a : (() => false);
             while (cur < end) {
                 let data2 = await this.recentUpdate(++cur, extra);
                 if (data2.page === last || cur !== data2.page || !data2.list.length) {
+                    break;
+                }
+                if ((_b = (await filter(data2, data.list))) !== null && _b !== void 0 ? _b : false) {
                     break;
                 }
                 data.list.push(...data2.list);

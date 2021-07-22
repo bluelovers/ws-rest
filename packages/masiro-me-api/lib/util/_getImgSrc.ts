@@ -3,7 +3,10 @@ export function _getImgSrc(_img: JQuery<HTMLImageElement> | JQuery<HTMLElement>,
 {
 	let src = _img.prop('lay-src') || _img.prop('src') || _img.attr('lay-src') || _img.attr('src');
 
-	return _handleImgURL(new URL(src, baseURL)).href
+	if (src?.length)
+	{
+		return _handleImgURL(new URL(src, baseURL)).href
+	}
 }
 
 export function _handleImgURL(url: URL)

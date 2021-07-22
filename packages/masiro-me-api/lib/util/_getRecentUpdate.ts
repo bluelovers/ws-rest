@@ -9,6 +9,7 @@ import { _parseSiteLink } from './_parseSiteLink';
 import { zhRegExp } from 'regexp-cjk';
 import { _handleBookInfo } from './_handleBookInfo';
 import { _getImgSrc } from './_getImgSrc';
+import { reAuthors, reLastUpdateName } from './const';
 
 export function _getRecentUpdate($: JQueryStatic, json: Pick<IRawMasiroMeLoadMoreNovels, 'page' | 'pages' | 'total'>, baseURL: string, extra: IMasiroMeRecentUpdateOptions)
 {
@@ -36,7 +37,7 @@ export function _getRecentUpdate($: JQueryStatic, json: Pick<IRawMasiroMeLoadMor
 		let _n_info = _this.find('.n-info');
 
 		let authors: string[] = [];
-		let _author = trimUnsafe(_n_info.find('.author').text().replace(new zhRegExp(/^\s*作者(?:：|:)\s*/), ''));
+		let _author = trimUnsafe(_n_info.find('.author').text().replace(reAuthors, ''));
 
 		if (_author.length)
 		{
@@ -72,7 +73,7 @@ export function _getRecentUpdate($: JQueryStatic, json: Pick<IRawMasiroMeLoadMor
 		let _img = _this.find('img.n-img');
 		let cover = _getImgSrc(_img, baseURL);
 
-		let last_update_name = trimUnsafe(_this.find('.new_up').text().replace(new zhRegExp(/^\s*最新(?:：|:)\s*/), ''));
+		let last_update_name = trimUnsafe(_this.find('.new_up').text().replace(reLastUpdateName, ''));
 
 		data.list.push(_handleBookInfo({
 			id: _m.novel_id,

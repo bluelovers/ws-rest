@@ -6,13 +6,19 @@ import moment from 'moment';
 import { zhRegExp } from 'regexp-cjk';
 import { _handleBookInfo } from './_handleBookInfo';
 import { _getImgSrc } from './_getImgSrc';
+import { re404, reAuthors, reDesc, reLastUpdateName, reStates } from './const';
 
 export function _getBookInfo($: JQueryStatic, novel_id: number | string, baseURL?: string): IMasiroMeBook
 {
 	novel_id = novel_id.toString();
 
+	if (re404.test(trimUnsafe($('#app .content').text())))
+	{
+		return null
+	}
+
 	let authors: string[] = [];
-	let _author = trimUnsafe($('.n-detail .author').text());
+	let _author = trimUnsafe($('.n-detail .author').text().replace(reAuthors, ''));
 
 	if (_author.length)
 	{
@@ -32,7 +38,7 @@ export function _getBookInfo($: JQueryStatic, novel_id: number | string, baseURL
 	}
 
 	let content = trimUnsafe($('.content .brief').text())
-		.replace(new zhRegExp(/^简介(?:：|:)\s*/), '')
+		.replace(reDesc, '')
 	;
 
 	let title = trimUnsafe($('.novel-title').text());
@@ -40,9 +46,9 @@ export function _getBookInfo($: JQueryStatic, novel_id: number | string, baseURL
 	let _img = $('.content .with-border .has-img img.img');
 	let cover = _getImgSrc(_img, baseURL);
 
-	let last_update_name = trimUnsafe($('.n-update .nw-a').text().replace(new zhRegExp(/^\s*最新(?:：|:)\s*/), ''));
+	let last_update_name = trimUnsafe($('.n-update .nw-a').text().replace(reLastUpdateName, ''));
 
-	let status_text = trimUnsafe($('.n-status').text().replace(new zhRegExp(/^\s*状态(?:：|:)\s*/), ''));
+	let status_text = trimUnsafe($('.n-status').text().replace(reStates, ''));
 
 	if (status_text?.length)
 	{

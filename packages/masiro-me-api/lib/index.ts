@@ -15,7 +15,9 @@ import {
 	IMasiroMeBookWithChapters,
 	IMasiroMeChapter,
 	IMasiroMeRecentUpdate,
-	IMasiroMeRecentUpdateAll, IMasiroMeRecentUpdateOptions,
+	IMasiroMeRecentUpdateAll,
+	IMasiroMeRecentUpdateAllOptions,
+	IMasiroMeRecentUpdateOptions,
 	IRawMasiroMeLoadMoreNovels,
 } from './types';
 import { _checkLogin } from './util/_checkLogin';
@@ -142,6 +144,11 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 
 		let book: IMasiroMeBook = _getBookInfo($, novel_id, this.$baseURL);
 
+		if (!book)
+		{
+			return null
+		}
+
 		let book_with_chapters: IMasiroMeBookWithChapters = book as any;
 
 		book_with_chapters.chapters = _getBookChapters($);
@@ -185,10 +192,7 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		return _getRecentUpdate(jsdom.$, json, this.$baseURL, extra) as IMasiroMeRecentUpdate as any;
 	}
 
-	recentUpdateAll(options?: {
-		start?: number,
-		end?: number,
-	}, extra?: IMasiroMeRecentUpdateOptions)
+	recentUpdateAll(options?: IMasiroMeRecentUpdateAllOptions, extra?: IMasiroMeRecentUpdateOptions)
 	{
 		let start = options?.start || 1;
 
@@ -200,11 +204,18 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 
 				let last: number;
 
+				const filter = options?.filter ?? (() => false);
+
 				while (cur < end)
 				{
-					let data2 = await this.recentUpdate(++cur, extra)
+					let data2 = await this.recentUpdate(++cur, extra);
 
 					if (data2.page === last || cur !== data2.page || !data2.list.length)
+					{
+						break;
+					}
+
+					if ((await filter(data2, data.list)) ?? false)
 					{
 						break;
 					}

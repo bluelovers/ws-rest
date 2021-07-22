@@ -1,5 +1,6 @@
 import { ICachedJSONRow } from '@demonovel/cached-data-types';
 import { ICachedJSONRowPlus } from '@demonovel/cached-data-types/index';
+import { ITSResolvable } from 'ts-type/lib/generic';
 import { ITSPartialPick } from 'ts-type/lib/type/record';
 
 export interface IMasiroMeBookMini extends Omit<ICachedJSONRow, 'siteID' | 'novelID' | 'uuid' | 'updated' | 'content'>
@@ -80,4 +81,11 @@ export interface IMasiroMeRecentUpdateOptions
 	order?: number | 1 | 2,
 	tag?: string,
 	status?: 0 | 1,
+}
+export interface IMasiroMeRecentUpdateAllOptions
+{
+	start?: number,
+	end?: number,
+
+	filter?(curPageData: IMasiroMeRecentUpdate, allDataList: IMasiroMeBookMini[]): ITSResolvable<boolean>
 }
