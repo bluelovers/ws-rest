@@ -136,5 +136,5 @@ jobs:
       - name: echo
         run: |
           echo ${{github.event.action}}
-          echo ${{GITHUB_EVENT_NAME}}
+
 

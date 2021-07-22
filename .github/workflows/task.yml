@@ -25,4 +25,4 @@ jobs:
           MY_HASHED_JSON: ${{ secrets.MY_HASHED_JSON }}
         run: yarn run ci:task
       - name: echo
-        run: echo ${github.event.action}
+        run: echo ${{github.event.action}}
