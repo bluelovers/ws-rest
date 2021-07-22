@@ -2,6 +2,7 @@ import md5 from 'md5'
 import { serializeQuery } from 'axios-cache-adapter'
 import { LazyURL } from 'lazy-url'
 import { AxiosRequestConfig } from 'axios';
+import { ITSPickExtra, ITSRequiredPick } from 'ts-type/lib/type/record';
 
 declare module 'axios-cache-adapter'
 {
@@ -21,7 +22,7 @@ export function defaultAxiosCacheAdapterKeyFixed(req: AxiosRequestConfig)
 	return req.data ? key + md5(req.data) : key
 }
 
-export function axiosCacheAdapterKeyExtra(cb: (req: Partial<AxiosRequestConfig>) => Pick<AxiosRequestConfig, 'url' | 'baseURL' | 'data' | 'params'>)
+export function axiosCacheAdapterKeyExtra(cb: (req: AxiosRequestConfig) => ITSPickExtra<AxiosRequestConfig, 'url', 'params' | 'data' | 'baseURL'>)
 {
 	return (req: AxiosRequestConfig) => {
 		return defaultAxiosCacheAdapterKeyFixed(cb(req))

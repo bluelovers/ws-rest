@@ -1,4 +1,5 @@
 import { AxiosRequestConfig } from 'axios';
+import { ITSPickExtra } from 'ts-type/lib/type/record';
 declare module 'axios-cache-adapter' {
     function serializeQuery(req: Pick<AxiosRequestConfig, 'params'>): string;
 }
@@ -9,4 +10,4 @@ declare module 'axios-cache-adapter' {
  * @see https://github.com/RasCarlito/axios-cache-adapter/pull/250
  */
 export declare function defaultAxiosCacheAdapterKeyFixed(req: AxiosRequestConfig): string;
-export declare function axiosCacheAdapterKeyExtra(cb: (req: Partial<AxiosRequestConfig>) => Pick<AxiosRequestConfig, 'url' | 'baseURL' | 'data' | 'params'>): (req: AxiosRequestConfig) => string;
+export declare function axiosCacheAdapterKeyExtra(cb: (req: AxiosRequestConfig) => ITSPickExtra<AxiosRequestConfig, 'url', 'params' | 'data' | 'baseURL'>): (req: AxiosRequestConfig) => string;

@@ -136,4 +136,6 @@ jobs:
 #        with:
 #          args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
       - name: echo
-        run: echo ${github.event.action}
+        run: |
+          echo ${{github.event.action}}
+          echo ${{GITHUB_EVENT_NAME}}
