@@ -2,7 +2,8 @@ name: novel-opds-now
 
 on:
   schedule:
-    - cron: '0 0 * * 5'
+    - cron: '0 16 * * 0'
+    - cron: '0 16 * * 5'
 
 jobs:
   build:

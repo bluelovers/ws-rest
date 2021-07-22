@@ -15,8 +15,8 @@ on:
 #            │ │ │ │ │
 #            │ │ │ │ │
 #            * * * * *
-    - cron: '0 0 * * 2'
-
+    - cron: '0 2 * * 2'
+    - cron: '0 2 * * 6'
 jobs:
   build:
     runs-on: ubuntu-latest
