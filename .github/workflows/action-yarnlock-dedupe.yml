@@ -7,6 +7,12 @@ on:
       - main
       - next
       - canary
+  pull_request:
+    branches:
+      - master
+      - main
+      - next
+      - canary
 
 jobs:
   build:
