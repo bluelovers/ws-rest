@@ -35,7 +35,9 @@ exports.default = (0, lib_1.lazyRun)(async () => {
     })
         .each(async (file) => {
         var _a;
-        let v = await (0, fs_extra_1.readJSON)(file).then(util_2.fixDmzjNovelInfo);
+        const old = await (0, fs_extra_1.readJSON)(file);
+        let oldJSON = JSON.stringify(old);
+        let v = (0, util_2.fixDmzjNovelInfo)(old);
         const { id, last_update_time } = v;
         if (((_a = recentUpdate[id]) === null || _a === void 0 ? void 0 : _a.last_update_time) === last_update_time) {
             if (!taskList[id]) {
@@ -45,6 +47,9 @@ exports.default = (0, lib_1.lazyRun)(async () => {
             if (recentUpdate[id].last_update_volume_name !== v.last_update_volume_name) {
                 v.last_update_volume_name = recentUpdate[id].last_update_volume_name;
             }
+        }
+        if (oldJSON === JSON.stringify(v)) {
+            return;
         }
         return (0, fs_extra_1.writeJSON)(file, v, {
             spaces: 2,

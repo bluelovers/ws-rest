@@ -54,8 +54,11 @@ export default lazyRun(async () =>
 		})
 		.each(async (file) =>
 		{
+			const old = await readJSON(file);
 
-			let v: IDmzjNovelInfoWithChapters = await readJSON(file).then(fixDmzjNovelInfo);
+			let oldJSON = JSON.stringify(old);
+
+			let v: IDmzjNovelInfoWithChapters = fixDmzjNovelInfo(old);
 
 			const { id, last_update_time } = v;
 
@@ -72,6 +75,11 @@ export default lazyRun(async () =>
 					v.last_update_volume_name = recentUpdate[id].last_update_volume_name
 				}
 
+			}
+
+			if (oldJSON === JSON.stringify(v))
+			{
+				return;
 			}
 
 			return writeJSON(file, v, {
