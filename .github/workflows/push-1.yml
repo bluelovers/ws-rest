@@ -129,12 +129,14 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: echo
+        run: |
+          echo ${{github.event_name}}
       - name: Discord notification
+        if: "!contains(github.event_name, 'schedule')"
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
 #        with:
 #          args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
-      - name: echo
-        run: |
-          echo ${{github.event.action}}
+

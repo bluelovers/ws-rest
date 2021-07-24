@@ -16,5 +16,5 @@ jobs:
         uses: Ilshidur/action-discord@master
       - name: echo
         run: |
-          echo ${{github.event.action}}
+          echo ${{github.event_name}}
 
