@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
         with:
-          node-version: 14
+          node-version: 16
       - name: install deps
         run: yarn run ci:install
       - name: run script
