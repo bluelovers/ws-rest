@@ -3,20 +3,20 @@
   "name": "最强出涸皇子的暗跃帝位争夺",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11418,
-  "last_update_chapter_id": 114885,
-  "last_update_time": 1615276381,
+  "last_update_volume_id": 11675,
+  "last_update_chapter_id": 118255,
+  "last_update_time": 1627233532,
   "cover": "http://xs.dmzj.com/img/webpic/4/ch1002l.jpg",
-  "hot_hits": 186570,
+  "hot_hits": 186642,
   "introduction": "无能又无气魄的底层皇子・阿尔诺特。随心随意过着的他作为「被优秀的双胞胎弟弟吸走了所有优点的『出涸皇子』」被帝国众人轻视，但皇子们的帝位争夺变得激烈，面对危机迫近，他终于决意认真起来。\n「虽然我不想做皇帝，但也完全不想输了被杀啊」",
   "types": [
     "其它"
   ],
   "authors": "タンバ",
   "first_letter": "Z",
-  "subscribe_num": 11649,
+  "subscribe_num": 11785,
   "volume": [
     {
       "id": 10360,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1570001598,
-      "sum_chapters": 10
+      "sum_chapters": 9
     },
     {
       "id": 11418,
@@ -32,7 +32,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1615274502,
-      "sum_chapters": 10
+      "sum_chapters": 9
+    },
+    {
+      "id": 11675,
+      "lnovel_id": 2734,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1627231609,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -117,6 +125,44 @@
         },
         {
           "chapter_id": 114885,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 11675,
+      "id": 11675,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 118239,
+          "chapter_name": "第一章 流民问题",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 118240,
+          "chapter_name": "第二章 莱茵费尔特公爵",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 118241,
+          "chapter_name": "第三章 黑暗蠢动",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 118242,
+          "chapter_name": "第四章 各自的意念",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118243,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 118255,
           "chapter_name": "插画",
           "chapter_order": 60
         }
