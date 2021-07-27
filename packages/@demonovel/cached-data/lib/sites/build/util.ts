@@ -70,6 +70,7 @@ export function newEntry<K extends ISitesKeys>(siteID: K, item: ICachedJSONRowIn
 			'titles',
 			'cover',
 			'authors',
+			'translator',
 			'updated',
 			'chapters_num',
 			'last_update_name',

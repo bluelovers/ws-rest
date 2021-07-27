@@ -2,8 +2,10 @@ import { IMasiroMeBook, IMasiroMeBookMini, IMasiroMeBookWithChapters } from '../
 import { trimUnsafe } from './trim';
 import { isBookWithChapters } from './asserts';
 import { typePredicates } from 'ts-type-predicates';
+import sortObjectKeys from 'sort-object-keys2';
+import { _sortBookFields } from './_sortBookFields';
 
-export function _handleBookInfo<T extends IMasiroMeBook | IMasiroMeBookMini>(book: T)
+export function _handleBookInfo<T extends IMasiroMeBook | IMasiroMeBookMini>(book: T): T
 {
 	typePredicates<IMasiroMeBookWithChapters>(book);
 
@@ -68,5 +70,5 @@ export function _handleBookInfo<T extends IMasiroMeBook | IMasiroMeBookMini>(boo
 		book.chapters_num = chapters_num;
 	}
 
-	return book;
+	return _sortBookFields(book);
 }

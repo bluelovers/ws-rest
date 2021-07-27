@@ -4,6 +4,7 @@ exports._handleBookInfo = void 0;
 const trim_1 = require("./trim");
 const asserts_1 = require("./asserts");
 const ts_type_predicates_1 = require("ts-type-predicates");
+const _sortBookFields_1 = require("./_sortBookFields");
 function _handleBookInfo(book) {
     var _a, _b, _c;
     (0, ts_type_predicates_1.typePredicates)(book);
@@ -44,7 +45,7 @@ function _handleBookInfo(book) {
         }
         book.chapters_num = chapters_num;
     }
-    return book;
+    return (0, _sortBookFields_1._sortBookFields)(book);
 }
 exports._handleBookInfo = _handleBookInfo;
 //# sourceMappingURL=_handleBookInfo.js.map

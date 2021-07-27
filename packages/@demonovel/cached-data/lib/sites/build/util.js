@@ -54,6 +54,7 @@ function newEntry(siteID, item) {
             'titles',
             'cover',
             'authors',
+            'translator',
             'updated',
             'chapters_num',
             'last_update_name',
