@@ -43,7 +43,7 @@ function newEntry(siteID, item) {
     });
     (0, chai_1.expect)(item).to.have.property('novelID').an('string').lengthOf.at.least(1);
     (0, chai_1.expect)(item).to.have.property('id').an('string').lengthOf.at.least(1);
-    (0, chai_1.expect)(item).to.have.property('chapters_num').an('number');
+    //expect(item).to.have.property('chapters_num').an('number');
     return (0, sort_object_keys2_1.default)(item, {
         keys: [
             'siteID',
