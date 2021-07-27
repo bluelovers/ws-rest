@@ -10,5 +10,6 @@ export declare function _handleOptions<K extends ISitesKeys>(siteID: K): {
         esjzone: string;
         masiro: string;
         wenku8: string;
+        masiro_me: string;
     }[K];
 };

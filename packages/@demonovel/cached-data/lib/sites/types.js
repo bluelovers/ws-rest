@@ -6,6 +6,7 @@ exports.id_packs_map = {
     esjzone: '@node-novel/cached-esjzone/data/novel/info.pack.json',
     masiro: '@node-novel/cached-masiro/data/forum.pack.json',
     wenku8: '@node-novel/cached-wenku8/data/novel/info.pack.json',
+    masiro_me: '@node-novel/cached-masiro-me/data/novel/info.pack.json',
 };
 exports.BASE_URL_GITHUB = 'https://github.com/bluelovers/ws-rest/raw/master/packages/';
 //# sourceMappingURL=types.js.map

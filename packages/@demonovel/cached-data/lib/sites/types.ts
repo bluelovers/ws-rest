@@ -4,12 +4,15 @@ import { IDiscuzForumPickThreads } from 'discuz-api/lib/types';
 import { IWenku8RecentUpdateRowBookWithChapters } from 'wenku8-api/lib/types';
 import { ITSRequireAtLeastOne } from 'ts-type';
 import { ICachedJSONRow, ICachedJSONRowPlus } from '@demonovel/cached-data-types';
+import { IMasiroMeBookWithChapters } from 'masiro-me-api/lib/types';
 
 export const id_packs_map = {
 	dmzj: '@node-novel/cached-dmzj/data/novel/info.pack.json',
 	esjzone: '@node-novel/cached-esjzone/data/novel/info.pack.json',
 	masiro: '@node-novel/cached-masiro/data/forum.pack.json',
 	wenku8: '@node-novel/cached-wenku8/data/novel/info.pack.json',
+
+	masiro_me: '@node-novel/cached-masiro-me/data/novel/info.pack.json',
 };
 
 export type ISitesKeys = keyof typeof id_packs_map;
@@ -20,6 +23,8 @@ export interface ISitesSourceType
 	esjzone:IESJzoneRecentUpdateRowBook,
 	masiro: IDiscuzForumPickThreads,
 	wenku8: IWenku8RecentUpdateRowBookWithChapters,
+
+	masiro_me: IMasiroMeBookWithChapters,
 }
 
 export interface ISitesSourcePack
@@ -28,6 +33,8 @@ export interface ISitesSourcePack
 	esjzone: Record<string, IESJzoneRecentUpdateRowBook>,
 	masiro: Record<string, IDiscuzForumPickThreads>,
 	wenku8: Record<string, IWenku8RecentUpdateRowBookWithChapters>,
+
+	masiro_me: Record<string, IMasiroMeBookWithChapters>,
 }
 
 export const BASE_URL_GITHUB = 'https://github.com/bluelovers/ws-rest/raw/master/packages/';

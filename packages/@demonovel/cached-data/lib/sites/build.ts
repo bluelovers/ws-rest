@@ -5,6 +5,7 @@ import buildEsjzone from './build/esjzone';
 import buildDefault from './build/default';
 import buildMasiro from './build/masiro';
 import { EnumSiteID, ICachedJSONRowPlus, IRecordCachedJSONRow } from '@demonovel/cached-data-types';
+import { buildMasiroMe } from './build/masiro_me';
 
 export function buildCore<K extends ISitesKeys>(siteID: K, source: ISitesSourcePack)
 {
@@ -20,6 +21,9 @@ export function buildCore<K extends ISitesKeys>(siteID: K, source: ISitesSourceP
 			break;
 		case 'masiro':
 			fn = buildMasiro
+			break;
+		case 'masiro_me':
+			fn = buildMasiroMe
 			break;
 	}
 

@@ -8,5 +8,6 @@ var EnumSiteID;
     EnumSiteID["demonovel"] = "demonovel";
     EnumSiteID["masiro"] = "masiro";
     EnumSiteID["wenku8"] = "wenku8";
+    EnumSiteID["masiro_me"] = "masiro_me";
 })(EnumSiteID = exports.EnumSiteID || (exports.EnumSiteID = {}));
 //# sourceMappingURL=index.js.map

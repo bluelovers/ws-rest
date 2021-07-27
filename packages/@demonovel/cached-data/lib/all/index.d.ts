@@ -9,4 +9,5 @@ export default function fetchFileAll(force?: boolean, opts?: IFetchParams): Blue
     esjzone: Record<string, import("esjzone-api/lib/types").IESJzoneRecentUpdateRowBook>;
     masiro: Record<string, import("discuz-api/lib/types").IDiscuzForumPickThreads>;
     wenku8: Record<string, import("wenku8-api/lib/types").IWenku8RecentUpdateRowBookWithChapters>;
+    masiro_me: Record<string, import("masiro-me-api/lib/types").IMasiroMeBookWithChapters>;
 }>;

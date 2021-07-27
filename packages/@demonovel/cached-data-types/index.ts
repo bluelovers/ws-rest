@@ -7,6 +7,7 @@ export enum EnumSiteID
 	'demonovel' = 'demonovel',
 	'masiro' = 'masiro',
 	'wenku8' = 'wenku8',
+	'masiro_me' = 'masiro_me',
 }
 
 export interface ICachedJSONRow
