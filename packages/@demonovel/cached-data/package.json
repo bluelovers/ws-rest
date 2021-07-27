@@ -30,12 +30,20 @@
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
+  "dependencies": {
+    "@demonovel/cached-data-types": "^1.0.1",
+    "@lazy-cjk/zh-slugify": "^1.0.71",
+    "chai": "^4.3.4",
+    "regexp-cjk-with-plugin-enabled": "^1.0.1",
+    "tslib": "^2.3.0"
+  },
   "devDependencies": {
     "@node-novel/cache-loader": "^1.0.35",
     "@node-novel/cached-dmzj": "^1.1.118",
     "@node-novel/cached-esjzone": "^1.0.88",
     "@node-novel/cached-masiro": "^1.0.82",
     "@node-novel/cached-wenku8": "^1.0.91",
+    "@types/chai": "^4.2.21",
     "discuz-api": "^1.0.46",
     "dmzj-api": "^1.1.48",
     "esjzone-api": "^1.0.53",
@@ -45,9 +53,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "0f35c47bb8e9551733530bf348c3ed022c04471f",
-  "dependencies": {
-    "@demonovel/cached-data-types": "^1.0.1",
-    "tslib": "^2.3.0"
-  }
+  "gitHead": "0f35c47bb8e9551733530bf348c3ed022c04471f"
 }

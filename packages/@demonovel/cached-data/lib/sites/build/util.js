@@ -9,6 +9,7 @@ const util_1 = require("../../util");
 const sort_object_keys2_1 = (0, tslib_1.__importDefault)(require("sort-object-keys2"));
 const convert_1 = require("../../util/convert");
 const array_hyper_unique_1 = require("array-hyper-unique");
+const chai_1 = require("chai");
 function newEntry(siteID, item) {
     var _a;
     if (!item.uuid) {
@@ -40,6 +41,9 @@ function newEntry(siteID, item) {
             item[k] = (0, util_1.trim)(v);
         }
     });
+    (0, chai_1.expect)(item).to.have.property('novelID').an('string').lengthOf.at.least(1);
+    (0, chai_1.expect)(item).to.have.property('id').an('string').lengthOf.at.least(1);
+    (0, chai_1.expect)(item).to.have.property('chapters_num').an('number');
     return (0, sort_object_keys2_1.default)(item, {
         keys: [
             'siteID',

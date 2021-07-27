@@ -9,6 +9,7 @@ import { IArrayCachedJSONRow} from '../../../types';
 import { toRecord } from '../../util/convert';
 import { array_unique_overwrite } from 'array-hyper-unique';
 import { ICachedJSONRowPlus, IRecordCachedJSONRow } from '@demonovel/cached-data-types';
+import { expect } from 'chai';
 
 export function newEntry<K extends ISitesKeys>(siteID: K, item: ICachedJSONRowInput)
 {
@@ -54,6 +55,10 @@ export function newEntry<K extends ISitesKeys>(siteID: K, item: ICachedJSONRowIn
 			}
 		})
 	;
+
+	expect(item).to.have.property('novelID').an('string').lengthOf.at.least(1);
+	expect(item).to.have.property('id').an('string').lengthOf.at.least(1);
+	expect(item).to.have.property('chapters_num').an('number');
 
 	return sortObjectKeys(item, {
 		keys: [
