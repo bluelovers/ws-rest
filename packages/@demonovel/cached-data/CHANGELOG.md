@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.49](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.48...@demonovel/cached-data@1.0.49) (2021-07-27)
+
+
+### 🐛　Bug Fixes
+
+* remove `chapters_num` check ([0611e15](https://github.com/bluelovers/ws-rest/commit/0611e1564474307ea3c5af9f8cd7a3d541c19369))
+
+
+### ✨　Features
+
+* add masiro_me ([709204f](https://github.com/bluelovers/ws-rest/commit/709204f718247ed152e19c284dc39e736b2e30f3))
+* valid newEntry ([1d4cc2e](https://github.com/bluelovers/ws-rest/commit/1d4cc2e69f7f1025a56db55ae48324abea777471))
+* **masiro:** sort book fields ([c2fa153](https://github.com/bluelovers/ws-rest/commit/c2fa1538bbf8e13e8e944479ee55fc9a1a7e8141))
+
+
+### 📦　Code Refactoring
+
+* import direct module ([15374b9](https://github.com/bluelovers/ws-rest/commit/15374b989388353cff847a6e2048c76439000d68))
+
+
+### 🔖　Miscellaneous
+
+* [@demonovel/cached-data] update cache ([d73a412](https://github.com/bluelovers/ws-rest/commit/d73a412a601c9aaa8b02ea2c41396cd78305fbdd))
+* [@node-novel/cached-masiro-me] update cache, novel x 347 ([f42c983](https://github.com/bluelovers/ws-rest/commit/f42c983dc6df14d676a5a17b1f267e14bfd75855)), closes [#13](https://github.com/bluelovers/ws-rest/issues/13)
+* [@demonovel/cached-data] update cache ([23fae1f](https://github.com/bluelovers/ws-rest/commit/23fae1f6180e9eb893bf18c6273442b311028571))
+* [@demonovel/cached-data] update cache ([485d347](https://github.com/bluelovers/ws-rest/commit/485d347d141887d3738f803b7993a17f40236e7d))
+
+
+
+
+
 ## [1.0.48](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data@1.0.47...@demonovel/cached-data@1.0.48) (2021-07-20)
 
 

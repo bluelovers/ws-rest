@@ -1,6 +1,6 @@
 {
   "name": "@node-novel/cached-masiro",
-  "version": "1.0.82",
+  "version": "1.0.83",
   "description": "cached masiro.moe fake api like data",
   "homepage": "https://github.com/bluelovers/ws-rest#readme",
   "bugs": {
@@ -36,11 +36,11 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@node-novel/site-cache-util": "^1.0.45",
-    "axios-cache-adapter-util": "^1.0.54",
-    "discuz-api": "^1.0.46",
+    "@node-novel/site-cache-util": "^1.0.46",
+    "axios-cache-adapter-util": "^1.0.55",
+    "discuz-api": "^1.0.47",
     "lazy-cookies": "^1.0.36",
-    "restful-decorator": "^1.0.58"
+    "restful-decorator": "^1.0.59"
   },
   "publishConfig": {
     "access": "public"

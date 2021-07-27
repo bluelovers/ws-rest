@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.83](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-masiro@1.0.82...@node-novel/cached-masiro@1.0.83) (2021-07-27)
+
+
+### 🐛　Bug Fixes
+
+* ignore `/script` when publish ([8e24eba](https://github.com/bluelovers/ws-rest/commit/8e24eba40ac22be8bee4762a81369793858d30e5))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-masiro] update cache, novel x 2 ([c1c0417](https://github.com/bluelovers/ws-rest/commit/c1c04174c30d13dae944370d30db9cb6da5cfea9))
+* [@node-novel/cached-masiro] update cache, novel x 1 ([1775b06](https://github.com/bluelovers/ws-rest/commit/1775b06f564b31e77028e446d9a8ffa844b83e6b))
+
+
+
+
+
 ## [1.0.82](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-masiro@1.0.81...@node-novel/cached-masiro@1.0.82) (2021-07-20)
 
 

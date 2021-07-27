@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/bluelovers/ws-rest/compare/masiro-me-api@1.0.2...masiro-me-api@1.0.3) (2021-07-27)
+
+
+### 🐛　Bug Fixes
+
+* add book.chapters_num ([21fcf07](https://github.com/bluelovers/ws-rest/commit/21fcf071d33438679bb2b0b7fdc9d059fa10e192))
+* status code 419 ([1e64959](https://github.com/bluelovers/ws-rest/commit/1e6495943ef6db739889996f76d5aca7abe0b085))
+* remove `@ParamMapAuto` from `loginByForm` ([877cae9](https://github.com/bluelovers/ws-rest/commit/877cae90747cb1889f3d2931eda2e406e8be5317))
+* **masiro:** 404 ([1021bf0](https://github.com/bluelovers/ws-rest/commit/1021bf0ef17e8eedf2184acdc8237969e49bffec))
+* **masiro:** 當小說不存在或者已刪除時 回傳 null , 防止封面不存在 ([29d392e](https://github.com/bluelovers/ws-rest/commit/29d392e5fb8d7ac9bed4926eb45ece83610ed9d3))
+* **masiro:** 防止章節為空 ([b50d124](https://github.com/bluelovers/ws-rest/commit/b50d124069c8518d596e02cdf4fe18df1d5a32e9))
+
+
+### ✨　Features
+
+* **masiro:** sort book fields ([c2fa153](https://github.com/bluelovers/ws-rest/commit/c2fa1538bbf8e13e8e944479ee55fc9a1a7e8141))
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([5dcebef](https://github.com/bluelovers/ws-rest/commit/5dcebefde4da483c41f12a8b5972c54cc3e56a3c))
+
+
+### 🔖　Miscellaneous
+
+* . ([05cc608](https://github.com/bluelovers/ws-rest/commit/05cc6085e3e02726e761dee62d4d847b48f0ca4f))
+* [@node-novel/cached-masiro-me] update cache, novel x 26 ([cf42683](https://github.com/bluelovers/ws-rest/commit/cf42683fb5c02d06f9ad448ff63e710d45da5947))
+
+
+
+
+
 ## [1.0.2](https://github.com/bluelovers/ws-rest/compare/masiro-me-api@1.0.1...masiro-me-api@1.0.2) (2021-07-20)
 
 

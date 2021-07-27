@@ -1,6 +1,6 @@
 {
   "name": "masiro-me-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/masiro-me-api#readme",
   "bugs": {
@@ -26,7 +26,7 @@
     "sort-package-json": "yarn-tool sort"
   },
   "dependencies": {
-    "@demonovel/cached-data-types": "^1.0.1",
+    "@demonovel/cached-data-types": "^1.0.2",
     "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.6",
     "moment": "^2.29.1",

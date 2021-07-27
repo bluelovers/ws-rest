@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/bluelovers/ws-rest/compare/@demonovel/cached-data-types@1.0.1...@demonovel/cached-data-types@1.0.2) (2021-07-27)
+
+
+### ✨　Features
+
+* add masiro_me ([709204f](https://github.com/bluelovers/ws-rest/commit/709204f718247ed152e19c284dc39e736b2e30f3))
+
+
+
+
+
 ## 1.0.1 (2021-07-16)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "phpwind-api",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/phpwind-api#readme",
   "bugs": {
@@ -30,13 +30,13 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@bluelovers/axios-extend": "^1.0.43",
+    "@bluelovers/axios-extend": "^1.0.44",
     "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.6",
     "lazy-url": "^1.0.12",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
-    "restful-decorator": "^1.0.58",
+    "restful-decorator": "^1.0.59",
     "restful-decorator-plugin-jsdom": "^1.0.39",
     "tslib": "^2.3.0"
   },
