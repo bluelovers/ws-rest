@@ -26,6 +26,7 @@ exports.default = (0, index_1.lazyRun)(async () => {
         idTitles: {},
         idChapters: {},
         idVolumes: {},
+        infoPack: {},
     };
     await bluebird_1.default.async([
         '*.json',
@@ -39,9 +40,10 @@ exports.default = (0, index_1.lazyRun)(async () => {
         const novel = await (0, fs_extra_1.readJSON)(_file);
         const { id, title } = novel;
         if (!title) {
-            console.warn(`${id} 不存在或者已刪除`, novel);
+            console.warn(`${id} 不存在或者已刪除`, novel, (0, path_1.basename)(_file));
             return;
         }
+        _cacheMap.infoPack[novel.id] = novel;
         ((_a = novel.authors) === null || _a === void 0 ? void 0 : _a.length) && _cacheMap.authors.push(...novel.authors);
         _cacheMap.ids.push(novel.id);
         ((_b = novel.tags) === null || _b === void 0 ? void 0 : _b.length) && _cacheMap.tags.push(...novel.tags);

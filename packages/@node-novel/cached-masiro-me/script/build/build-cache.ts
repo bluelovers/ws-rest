@@ -5,7 +5,7 @@ import { readJSON, pathExists } from 'fs-extra';
 import { IMasiroMeBookMini, IMasiroMeBookWithChapters, IMasiroMeRecentUpdateAll } from 'masiro-me-api/lib/types';
 import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 import Bluebird from 'bluebird';
-import { dirname, join, relative } from 'path';
+import { basename, dirname, join, relative } from 'path';
 import { freeGC } from 'free-gc';
 import { moment } from '@node-novel/site-cache-util/lib/moment';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util/lib/index';
@@ -37,6 +37,8 @@ export default lazyRun(async () =>
 
 		idChapters: {} as Record<string, number>,
 		idVolumes: {} as Record<string, number>,
+
+		infoPack: {} as Record<string, IMasiroMeBookWithChapters>,
 	}
 
 	await FastGlob.async([
@@ -53,10 +55,12 @@ export default lazyRun(async () =>
 
 			if (!title)
 			{
-				console.warn(`${id} 不存在或者已刪除`, novel)
+				console.warn(`${id} 不存在或者已刪除`, novel, basename(_file))
 
 				return;
 			}
+
+			_cacheMap.infoPack[novel.id] = novel;
 
 			novel.authors?.length && _cacheMap.authors.push(...novel.authors);
 			_cacheMap.ids.push(novel.id);
