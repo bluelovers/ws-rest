@@ -40,9 +40,12 @@ export function _handleBookInfo<T extends IMasiroMeBook | IMasiroMeBookMini>(boo
 
 	if (isBookWithChapters(book))
 	{
-		if (!book.updated && book.chapters.length)
+		let timestamp = 0;
+		let chapters_num = 0;
+
+		if (book.chapters.length)
 		{
-			let timestamp = 0;
+
 			book.chapters.forEach((vol) =>
 			{
 				vol.chapters.forEach((ch) =>
@@ -50,15 +53,19 @@ export function _handleBookInfo<T extends IMasiroMeBook | IMasiroMeBookMini>(boo
 
 					timestamp = Math.max(ch.chapter_updated, timestamp)
 
+					chapters_num++;
+
 				})
 			});
 
-			if (timestamp)
-			{
-				book.updated = timestamp
-			}
-
 		}
+
+		if (!book.updated && timestamp)
+		{
+			book.updated = timestamp
+		}
+
+		book.chapters_num = chapters_num;
 	}
 
 	return book;
