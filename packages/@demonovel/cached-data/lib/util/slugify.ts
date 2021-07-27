@@ -1,4 +1,4 @@
-import { slugify } from 'cjk-conv/lib/zh/table/list';
+import { slugify } from '@lazy-cjk/zh-slugify';
 import removeZeroWidth from 'zero-width/lib';
 import { toHalfWidth } from 'str-util';
 
