@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.47](https://github.com/bluelovers/ws-rest/compare/imgbb@1.0.46...imgbb@1.0.47) (2021-07-28)
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([3c01105](https://github.com/bluelovers/ws-rest/commit/3c01105179de17269ab952191689ddc5721c64e8))
+
+
+
+
+
 ## [1.0.46](https://github.com/bluelovers/ws-rest/compare/imgbb@1.0.45...imgbb@1.0.46) (2021-07-20)
 
 

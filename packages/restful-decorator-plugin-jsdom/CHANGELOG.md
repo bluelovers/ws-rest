@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.40](https://github.com/bluelovers/ws-rest/compare/restful-decorator-plugin-jsdom@1.0.39...restful-decorator-plugin-jsdom@1.0.40) (2021-07-28)
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([3c01105](https://github.com/bluelovers/ws-rest/commit/3c01105179de17269ab952191689ddc5721c64e8))
+
+
+
+
+
 ## [1.0.39](https://github.com/bluelovers/ws-rest/compare/restful-decorator-plugin-jsdom@1.0.38...restful-decorator-plugin-jsdom@1.0.39) (2021-07-20)
 
 

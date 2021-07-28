@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.15](https://github.com/bluelovers/ws-rest/compare/@node-novel/parse-input-url@1.0.14...@node-novel/parse-input-url@1.0.15) (2021-07-28)
+
+
+### 🐛　Bug Fixes
+
+* 修正 _handleInputUrl 當 `type` = `EnumParseInputUrl.NUMBER` 時 `value` 的類型錯誤問題 ([fcf455b](https://github.com/bluelovers/ws-rest/commit/fcf455b632ac8ae06116d31facef900f8419cf89))
+
+
+### 📦　Code Refactoring
+
+* split type ([db073a9](https://github.com/bluelovers/ws-rest/commit/db073a90ab6982f800465fae10f39354eeb8ba9b))
+* fix type ([881678e](https://github.com/bluelovers/ws-rest/commit/881678e022aa89d766a7b4bf3a244e9b284d75e5))
+
+
+
+
+
 ## [1.0.14](https://github.com/bluelovers/ws-rest/compare/@node-novel/parse-input-url@1.0.13...@node-novel/parse-input-url@1.0.14) (2021-07-20)
 
 

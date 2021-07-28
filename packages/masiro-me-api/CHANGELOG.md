@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/bluelovers/ws-rest/compare/masiro-me-api@1.0.3...masiro-me-api@1.0.4) (2021-07-28)
+
+
+### ✨　Features
+
+* **masiro:** add _buildURLByParseUrlInfo ([5a841c5](https://github.com/bluelovers/ws-rest/commit/5a841c53d5f39cae87dbcb01f0a09492577f2e16))
+* **masiro:** 支援檢測 masiro.me 網址 ([a330179](https://github.com/bluelovers/ws-rest/commit/a330179c5da291e30d95b105011a8fa2c2dc531c))
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([3c01105](https://github.com/bluelovers/ws-rest/commit/3c01105179de17269ab952191689ddc5721c64e8))
+* **deps:** add `@node-novel/parse-input-url` ([bcbe59d](https://github.com/bluelovers/ws-rest/commit/bcbe59d0f361a2f77a6d75c1066dfd0dcd6cdb77))
+
+
+
+
+
 ## [1.0.3](https://github.com/bluelovers/ws-rest/compare/masiro-me-api@1.0.2...masiro-me-api@1.0.3) (2021-07-27)
 
 

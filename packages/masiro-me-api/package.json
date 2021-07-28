@@ -1,6 +1,6 @@
 {
   "name": "masiro-me-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/masiro-me-api#readme",
   "bugs": {
@@ -27,12 +27,12 @@
   },
   "dependencies": {
     "@demonovel/cached-data-types": "^1.0.2",
-    "@node-novel/parse-input-url": "^1.0.14",
+    "@node-novel/parse-input-url": "^1.0.15",
     "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.6",
     "moment": "^2.29.1",
     "regexp-cjk": "^3.3.96",
-    "restful-decorator-plugin-jsdom": "^1.0.39",
+    "restful-decorator-plugin-jsdom": "^1.0.40",
     "sort-object-keys2": "^2.0.3",
     "ts-type": "^1.2.39",
     "ts-type-predicates": "^1.0.5",
