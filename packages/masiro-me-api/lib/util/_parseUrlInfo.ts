@@ -1,5 +1,6 @@
 import { _handleInputUrl, EnumParseInputUrl } from '@node-novel/parse-input-url';
 import { LazyURL } from 'lazy-url';
+import { IAllowedInput } from '@node-novel/parse-input-url';
 
 /**
  * 支援
@@ -13,7 +14,7 @@ import { LazyURL } from 'lazy-url';
  * - post_id=
  * - user_id=
  */
-export function _parseUrlInfo<T extends string | number | URL | LazyURL>(input: T)
+export function _parseUrlInfo<T extends IAllowedInput>(input: T)
 {
 	const data = _handleInputUrl(input);
 
@@ -117,3 +118,32 @@ export function _parseUrlInfo<T extends string | number | URL | LazyURL>(input: 
 		_input: data._input,
 	}
 }
+
+export type IReturnTypeParseUrlInfo = ReturnType<typeof _parseUrlInfo>
+
+export function _buildURLByParseUrlInfo(input: Partial<IReturnTypeParseUrlInfo>, baseURL?: string)
+{
+	baseURL ??= 'https://masiro.me';
+
+	if (input.novel_id)
+	{
+		return `${baseURL}/admin/novelView?novel_id=${input.novel_id}`
+	}
+	else if (input.chapter_id)
+	{
+		return `${baseURL}/admin/novelReading?cid=${input.chapter_id}`
+	}
+	else if (input.forum_id)
+	{
+		return `${baseURL}/admin/forum?forum_id=${input.forum_id}`
+	}
+	else if (input.post_id)
+	{
+		return `${baseURL}/admin/post?post_id=${input.post_id}`
+	}
+	else if (input.user_id)
+	{
+		return `${baseURL}/admin/userCenterShow?user_id=${input.user_id}`
+	}
+}
+

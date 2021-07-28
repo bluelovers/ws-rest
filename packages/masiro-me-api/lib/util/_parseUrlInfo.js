@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._parseUrlInfo = void 0;
+exports._buildURLByParseUrlInfo = exports._parseUrlInfo = void 0;
 const parse_input_url_1 = require("@node-novel/parse-input-url");
 /**
  * 支援
@@ -86,4 +86,23 @@ function _parseUrlInfo(input) {
     };
 }
 exports._parseUrlInfo = _parseUrlInfo;
+function _buildURLByParseUrlInfo(input, baseURL) {
+    baseURL !== null && baseURL !== void 0 ? baseURL : (baseURL = 'https://masiro.me');
+    if (input.novel_id) {
+        return `${baseURL}/admin/novelView?novel_id=${input.novel_id}`;
+    }
+    else if (input.chapter_id) {
+        return `${baseURL}/admin/novelReading?cid=${input.chapter_id}`;
+    }
+    else if (input.forum_id) {
+        return `${baseURL}/admin/forum?forum_id=${input.forum_id}`;
+    }
+    else if (input.post_id) {
+        return `${baseURL}/admin/post?post_id=${input.post_id}`;
+    }
+    else if (input.user_id) {
+        return `${baseURL}/admin/userCenterShow?user_id=${input.user_id}`;
+    }
+}
+exports._buildURLByParseUrlInfo = _buildURLByParseUrlInfo;
 //# sourceMappingURL=_parseUrlInfo.js.map

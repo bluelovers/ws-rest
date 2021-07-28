@@ -1,4 +1,5 @@
 import { LazyURL } from 'lazy-url';
+import { IAllowedInput } from '@node-novel/parse-input-url';
 /**
  * 支援
  * - https://masi.ro/n378
@@ -11,7 +12,7 @@ import { LazyURL } from 'lazy-url';
  * - post_id=
  * - user_id=
  */
-export declare function _parseUrlInfo<T extends string | number | URL | LazyURL>(input: T): {
+export declare function _parseUrlInfo<T extends IAllowedInput>(input: T): {
     novel_id: string;
     chapter_id: string;
     forum_id: string;
@@ -20,3 +21,5 @@ export declare function _parseUrlInfo<T extends string | number | URL | LazyURL>
     value: string;
     _input: T | (T & string) | (T & LazyURL) | (T & URL) | (T & import("http-form-urlencoded").LazyURLSearchParams) | (T & URLSearchParams);
 };
+export declare type IReturnTypeParseUrlInfo = ReturnType<typeof _parseUrlInfo>;
+export declare function _buildURLByParseUrlInfo(input: Partial<IReturnTypeParseUrlInfo>, baseURL?: string): string;
