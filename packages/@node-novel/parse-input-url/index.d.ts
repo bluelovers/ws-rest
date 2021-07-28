@@ -10,7 +10,8 @@ export declare enum EnumParseInputUrl {
     URL = 3,
     URLSEARCHPARAMS = 4
 }
-export declare function _handleInputUrl<T extends string | number | URL | LazyURL | LazyURLSearchParams | URLSearchParams>(_input: T): {
+export declare type IAllowedInput = string | number | URL | LazyURL | LazyURLSearchParams | URLSearchParams;
+export declare function _handleInputUrl<T extends IAllowedInput>(_input: T): {
     type: EnumParseInputUrl.URL;
     _input: T & string;
     value: LazyURL;
@@ -35,3 +36,4 @@ export declare function _handleInputUrl<T extends string | number | URL | LazyUR
     _input: T;
     value: string;
 };
+export default _handleInputUrl;

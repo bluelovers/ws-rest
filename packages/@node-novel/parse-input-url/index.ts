@@ -14,7 +14,9 @@ export enum EnumParseInputUrl
 	URLSEARCHPARAMS,
 }
 
-export function _handleInputUrl<T extends string | number | URL | LazyURL | LazyURLSearchParams | URLSearchParams>(_input: T)
+export type IAllowedInput = string | number | URL | LazyURL | LazyURLSearchParams | URLSearchParams;
+
+export function _handleInputUrl<T extends IAllowedInput>(_input: T)
 {
 	if (typeof _input === 'number' || typeof _input === 'string' && /^\d+$/.test(_input))
 	{
@@ -89,3 +91,5 @@ export function _handleInputUrl<T extends string | number | URL | LazyURL | Lazy
 		value,
 	}
 }
+
+export default _handleInputUrl

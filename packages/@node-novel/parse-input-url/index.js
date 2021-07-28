@@ -73,4 +73,5 @@ function _handleInputUrl(_input) {
     };
 }
 exports._handleInputUrl = _handleInputUrl;
+exports.default = _handleInputUrl;
 //# sourceMappingURL=index.js.map
