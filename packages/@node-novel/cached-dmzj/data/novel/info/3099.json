@@ -3,13 +3,13 @@
   "name": "文豪Stray Dogs(文豪猎犬)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 55Minutes",
+  "last_update_volume_name": "外传 绫辻行人VS京极夏彦",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11682,
-  "last_update_chapter_id": 118321,
-  "last_update_time": 1627380632,
+  "last_update_volume_id": 11684,
+  "last_update_chapter_id": 118341,
+  "last_update_time": 1627484873,
   "cover": "http://xs.dmzj.com/img/webpic/4/whsd0726l.jpg",
-  "hot_hits": 56,
+  "hot_hits": 72,
   "introduction": "个性耿直、理想主义者的国木田独步，是专门处理不能交付军方或警察之危险委托的「武装侦探社」一员。\n这样的他，却陷入了不得不与可疑的新人，自杀惯犯?太宰治搭档的窘境。\n两人在调查奇怪的鬼屋事件期间，发现有多人失踪。\n而且还受到与侦探社敌对的黑帮分子?芥川龙之介的袭击……!?\n孽缘就此展开！\n在黑暗势力蠢蠢欲动的横滨，「特殊能力」对决开幕！ ！",
   "types": [
     "冒险",
@@ -17,7 +17,7 @@
   ],
   "authors": "朝雾卡夫卡",
   "first_letter": "W",
-  "subscribe_num": 553,
+  "subscribe_num": 828,
   "volume": [
     {
       "id": 11677,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 太宰治的入社试验",
       "volume_order": 10,
       "addtime": 1627238166,
-      "sum_chapters": 6
+      "sum_chapters": 39
     },
     {
       "id": 11678,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 太宰治的黑帮时代",
       "volume_order": 20,
       "addtime": 1627238855,
-      "sum_chapters": 6
+      "sum_chapters": 39
     },
     {
       "id": 11681,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 侦探社设立秘话",
       "volume_order": 30,
       "addtime": 1627306951,
-      "sum_chapters": 6
+      "sum_chapters": 39
     },
     {
       "id": 11682,
@@ -49,7 +49,15 @@
       "volume_name": "第四卷 55Minutes",
       "volume_order": 40,
       "addtime": 1627380135,
-      "sum_chapters": 6
+      "sum_chapters": 39
+    },
+    {
+      "id": 11684,
+      "lnovel_id": 3099,
+      "volume_name": "外传 绫辻行人VS京极夏彦",
+      "volume_order": 50,
+      "addtime": 1627484103,
+      "sum_chapters": 39
     }
   ],
   "chapters": [
@@ -242,6 +250,69 @@
           "chapter_id": 118321,
           "chapter_name": "插画",
           "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 11684,
+      "id": 11684,
+      "volume_name": "外传 绫辻行人VS京极夏彦",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 118324,
+          "chapter_name": "序幕 泷灵王瀑布",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 118325,
+          "chapter_name": "第一幕 山间的旧礼拜堂·正午·晴天",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 118326,
+          "chapter_name": "第二幕 异能特务科机密据点前·早晨·晴天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 118327,
+          "chapter_name": "第三幕 湿地区域·过午·阴天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118328,
+          "chapter_name": "间幕 无间无光逢魔之时",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 118329,
+          "chapter_name": "第四幕 司法省本馆·早晨·晴天",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 118330,
+          "chapter_name": "第五幕 客运电车内·上午·阴天",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 118331,
+          "chapter_name": "第六幕 异能特务课机密据点·早晨·睛天",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 118332,
+          "chapter_name": "终幕 绫辻侦探事务所·早晨·晴空万里",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 118333,
+          "chapter_name": "为文库版而作的后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 118341,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
