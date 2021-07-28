@@ -33,9 +33,9 @@ export declare function _handleInputUrl<T extends string | number | URL | LazyUR
 } | {
     type: EnumParseInputUrl.NUMBER;
     _input: T;
-    value: any;
+    value: string;
 } | {
     type: EnumParseInputUrl.UNKNOWN;
     _input: T;
-    value: any;
+    value: string;
 };

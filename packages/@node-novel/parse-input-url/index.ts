@@ -16,19 +16,9 @@ export enum EnumParseInputUrl
 
 export function _handleInputUrl<T extends string | number | URL | LazyURL | LazyURLSearchParams | URLSearchParams>(_input: T)
 {
-	if (typeof _input === 'number')
+	if (typeof _input === 'number' || typeof _input === 'string' && /^\d+$/.test(_input))
 	{
-		let value = _input.toString();
-
-		return {
-			type: EnumParseInputUrl.NUMBER as const,
-			_input,
-			value,
-		}
-	}
-	else if (typeof _input === 'string' && /^\d+$/.test(_input))
-	{
-		let value = _input.toString();
+		let value: string = _input.toString();
 
 		return {
 			type: EnumParseInputUrl.NUMBER as const,
@@ -102,7 +92,7 @@ export function _handleInputUrl<T extends string | number | URL | LazyURL | Lazy
 		}
 	}
 
-	let value = _input.toString();
+	let value: string = String(_input);
 
 	if (/^\d+$/.test(value))
 	{

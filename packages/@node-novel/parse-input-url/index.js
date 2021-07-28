@@ -16,15 +16,7 @@ var EnumParseInputUrl;
     EnumParseInputUrl[EnumParseInputUrl["URLSEARCHPARAMS"] = 4] = "URLSEARCHPARAMS";
 })(EnumParseInputUrl = exports.EnumParseInputUrl || (exports.EnumParseInputUrl = {}));
 function _handleInputUrl(_input) {
-    if (typeof _input === 'number') {
-        let value = _input.toString();
-        return {
-            type: EnumParseInputUrl.NUMBER,
-            _input,
-            value,
-        };
-    }
-    else if (typeof _input === 'string' && /^\d+$/.test(_input)) {
+    if (typeof _input === 'number' || typeof _input === 'string' && /^\d+$/.test(_input)) {
         let value = _input.toString();
         return {
             type: EnumParseInputUrl.NUMBER,
@@ -82,7 +74,7 @@ function _handleInputUrl(_input) {
             value,
         };
     }
-    let value = _input.toString();
+    let value = String(_input);
     if (/^\d+$/.test(value)) {
         return {
             type: EnumParseInputUrl.NUMBER,
