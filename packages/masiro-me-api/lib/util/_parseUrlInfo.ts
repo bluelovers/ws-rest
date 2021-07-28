@@ -1,6 +1,4 @@
-import { _handleInputUrl, EnumParseInputUrl } from '@node-novel/parse-input-url';
-import { LazyURL } from 'lazy-url';
-import { IAllowedInput } from '@node-novel/parse-input-url';
+import { _handleInputUrl, EnumParseInputUrl, IAllowedInput } from '@node-novel/parse-input-url';
 
 /**
  * 支援

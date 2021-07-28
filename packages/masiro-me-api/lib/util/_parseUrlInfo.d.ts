@@ -1,4 +1,3 @@
-import { LazyURL } from 'lazy-url';
 import { IAllowedInput } from '@node-novel/parse-input-url';
 /**
  * 支援
@@ -19,7 +18,7 @@ export declare function _parseUrlInfo<T extends IAllowedInput>(input: T): {
     post_id: string;
     user_id: string;
     value: string;
-    _input: T | (T & string) | (T & LazyURL) | (T & URL) | (T & import("http-form-urlencoded").LazyURLSearchParams) | (T & URLSearchParams);
+    _input: T | (T & string) | (T & import("lazy-url").LazyURL) | (T & URL) | (T & import("http-form-urlencoded").LazyURLSearchParams) | (T & URLSearchParams);
 };
 export declare type IReturnTypeParseUrlInfo = ReturnType<typeof _parseUrlInfo>;
 export declare function _buildURLByParseUrlInfo(input: Partial<IReturnTypeParseUrlInfo>, baseURL?: string): string;
