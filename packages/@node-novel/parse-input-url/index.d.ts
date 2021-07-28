@@ -20,15 +20,11 @@ export declare function _handleInputUrl<T extends string | number | URL | LazyUR
     value: string;
 } | {
     type: EnumParseInputUrl.URL;
-    _input: T & URL;
+    _input: (T & LazyURL) | (T & URL);
     value: LazyURL;
 } | {
     type: EnumParseInputUrl.URLSEARCHPARAMS;
-    _input: T & LazyURLSearchParams;
-    value: T & LazyURLSearchParams;
-} | {
-    type: EnumParseInputUrl.URLSEARCHPARAMS;
-    _input: T & URLSearchParams;
+    _input: (T & LazyURLSearchParams) | (T & URLSearchParams);
     value: LazyURLSearchParams;
 } | {
     type: EnumParseInputUrl.NUMBER;

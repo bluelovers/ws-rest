@@ -42,31 +42,15 @@ function _handleInputUrl(_input) {
             value,
         };
     }
-    else if (_input instanceof lazy_url_1.LazyURL) {
-        let value = _input;
+    else if (_input instanceof lazy_url_1.LazyURL || _input instanceof URL) {
+        let value = _input instanceof lazy_url_1.LazyURL ? _input : new lazy_url_1.LazyURL(_input);
         return {
             type: EnumParseInputUrl.URL,
-            _input,
+            _input: _input,
             value,
         };
     }
-    else if (_input instanceof URL) {
-        let value = new lazy_url_1.LazyURL(_input);
-        return {
-            type: EnumParseInputUrl.URL,
-            _input,
-            value,
-        };
-    }
-    else if (_input instanceof http_form_urlencoded_1.default) {
-        let value = _input;
-        return {
-            type: EnumParseInputUrl.URLSEARCHPARAMS,
-            _input,
-            value,
-        };
-    }
-    else if (_input instanceof URLSearchParams) {
+    else if (_input instanceof http_form_urlencoded_1.default || _input instanceof URLSearchParams) {
         let value = new http_form_urlencoded_1.default(_input);
         return {
             type: EnumParseInputUrl.URLSEARCHPARAMS,

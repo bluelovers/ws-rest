@@ -51,37 +51,17 @@ export function _handleInputUrl<T extends string | number | URL | LazyURL | Lazy
 			value,
 		}
 	}
-	else if (_input instanceof LazyURL)
+	else if (_input instanceof LazyURL || _input instanceof URL)
 	{
-		let value = _input;
+		let value = _input instanceof LazyURL ? _input : new LazyURL(_input);
 
 		return {
 			type: EnumParseInputUrl.URL as const,
-			_input,
+			_input: _input as (T & LazyURL) | (T & URL),
 			value,
 		}
 	}
-	else if (_input instanceof URL)
-	{
-		let value = new LazyURL(_input);
-
-		return {
-			type: EnumParseInputUrl.URL as const,
-			_input,
-			value,
-		}
-	}
-	else if (_input instanceof LazyURLSearchParams)
-	{
-		let value = _input;
-
-		return {
-			type: EnumParseInputUrl.URLSEARCHPARAMS as const,
-			_input,
-			value,
-		}
-	}
-	else if (_input instanceof URLSearchParams)
+	else if (_input instanceof LazyURLSearchParams || _input instanceof URLSearchParams)
 	{
 		let value = new LazyURLSearchParams(_input);
 
