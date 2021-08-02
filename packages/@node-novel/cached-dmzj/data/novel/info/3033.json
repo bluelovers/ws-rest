@@ -3,20 +3,20 @@
   "name": "我的幸福婚约",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 11613,
-  "last_update_chapter_id": 117469,
-  "last_update_time": 1625576431,
+  "last_update_volume_id": 11693,
+  "last_update_chapter_id": 118430,
+  "last_update_time": 1627734362,
   "cover": "http://xs.dmzj.com/img/webpic/4/wdxfjh0330l.jpg",
-  "hot_hits": 13814,
+  "hot_hits": 13827,
   "introduction": "　　出生名门望族的斋森美世，因生母过世得早，自幼便在继母与继妹的欺凌下长大。\n　　在家人要求下，她嫁给传闻中极为冷酷无情的年轻军人，久堂清霞──据说让众多未婚妻选不到三天就逃走、恶名昭彰的男人。\n　　怀抱可能被抽刀砍杀的觉悟踏进久堂家大门后，出现在美世眼前的，是一名发色、肤色和眼珠的颜色都很浅的美男子。\n　　初次见面就遭到冷言冷语对待的美世，在无法回娘家的情况下，每天努力下厨准备饭菜，希望能逐渐打开清霞的心房……",
   "types": [
     "爱情"
   ],
   "authors": "颚木あくみ",
   "first_letter": "W",
-  "subscribe_num": 3120,
+  "subscribe_num": 3304,
   "volume": [
     {
       "id": 11464,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1617118609,
-      "sum_chapters": 37
+      "sum_chapters": 13
     },
     {
       "id": 11613,
@@ -32,7 +32,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1625576308,
-      "sum_chapters": 37
+      "sum_chapters": 13
+    },
+    {
+      "id": 11693,
+      "lnovel_id": 3033,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1627734246,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -129,6 +137,59 @@
           "chapter_id": 117469,
           "chapter_name": "后记",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 11693,
+      "id": 11693,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 118422,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 118423,
+          "chapter_name": "第一章 公公的邀请",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 118424,
+          "chapter_name": "第二章 摇晃的车厢与羞涩的心",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 118425,
+          "chapter_name": "第三章 和婆婆面对面",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118426,
+          "chapter_name": "第四章 萦绕交错的思绪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 118427,
+          "chapter_name": "第五章 逼近之物为何",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 118428,
+          "chapter_name": "第六章 待春天来临后",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 118429,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 118430,
+          "chapter_name": "后记",
+          "chapter_order": 90
         }
       ]
     }
