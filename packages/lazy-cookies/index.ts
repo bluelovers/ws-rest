@@ -73,7 +73,9 @@ export interface IToughCookieProperties
 	lastAccessed?: Date;
 }
 
-export type ICookiesValue = string | toughCookie.Cookie | ILazyCookiePropertiesInput | LazyCookie
+export type ICookiesInstance = toughCookie.Cookie | LazyCookie
+
+export type ICookiesValue = string | ILazyCookiePropertiesInput | ICookiesInstance
 
 export type ICookiesValueRecord<T extends string> = Record<string | T, ICookiesValue>
 
@@ -97,7 +99,7 @@ export class LazyCookieJar extends toughCookie.CookieJar
 	{
 		url = (url || '').toString();
 
-		data = data as Record<string, ICookiesValue>;
+		data = data as ICookiesValueRecord<T>
 
 		for (let key in data)
 		{
@@ -122,7 +124,10 @@ export class LazyCookieJar extends toughCookie.CookieJar
 	}
 
 	_handleCookieOrString(cookieOrString: ICookiesValue,
-		currentUrl?: string | URL)
+		currentUrl?: string | URL): {
+		cookieOrString: ICookiesInstance;
+		currentUrl?: string;
+	}
 	{
 		if (typeof cookieOrString == 'string')
 		{
@@ -147,6 +152,7 @@ export class LazyCookieJar extends toughCookie.CookieJar
 
 		return {
 			cookieOrString,
+			// @ts-ignore
 			currentUrl,
 		}
 	}
@@ -234,7 +240,7 @@ export class LazyCookieJar extends toughCookie.CookieJar
 	{
 		let cookies: toughCookie.Cookie[];
 
-		this.store.getAllCookies(function (err, cookie)
+		this.store.getAllCookies((err, cookie) =>
 		{
 			cookies = cookie;
 		});

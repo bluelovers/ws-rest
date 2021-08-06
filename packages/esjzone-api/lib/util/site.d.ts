@@ -14,24 +14,20 @@ export declare function parseUrl<T extends string | number | URL | LazyURL>(inpu
     value: string;
 } | {
     type: import("@node-novel/parse-input-url").EnumParseInputUrl.URL;
-    _input: T & URL;
+    _input: (T & LazyURL) | (T & URL);
     value: LazyURL;
 } | {
     type: import("@node-novel/parse-input-url").EnumParseInputUrl.URLSEARCHPARAMS;
-    _input: T & import("http-form-urlencoded").LazyURLSearchParams;
-    value: T & import("http-form-urlencoded").LazyURLSearchParams;
-} | {
-    type: import("@node-novel/parse-input-url").EnumParseInputUrl.URLSEARCHPARAMS;
-    _input: T & URLSearchParams;
+    _input: (T & import("http-form-urlencoded").LazyURLSearchParams) | (T & URLSearchParams);
     value: import("http-form-urlencoded").LazyURLSearchParams;
 } | {
     type: import("@node-novel/parse-input-url").EnumParseInputUrl.NUMBER;
     _input: T;
-    value: any;
+    value: string;
 } | {
     type: import("@node-novel/parse-input-url").EnumParseInputUrl.UNKNOWN;
     _input: T;
-    value: any;
+    value: string;
 };
 export declare function _fixCoverUrl(cover: string | URL): string;
 export declare function _remove_ad($: JQueryStatic): void;

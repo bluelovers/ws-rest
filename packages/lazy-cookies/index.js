@@ -69,6 +69,7 @@ class LazyCookieJar extends tough_cookie_1.default.CookieJar {
         }
         return {
             cookieOrString,
+            // @ts-ignore
             currentUrl,
         };
     }
@@ -121,7 +122,7 @@ class LazyCookieJar extends tough_cookie_1.default.CookieJar {
     }
     getAllCookies() {
         let cookies;
-        this.store.getAllCookies(function (err, cookie) {
+        this.store.getAllCookies((err, cookie) => {
             cookies = cookie;
         });
         return cookies;

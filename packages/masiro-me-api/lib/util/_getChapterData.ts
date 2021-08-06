@@ -1,7 +1,7 @@
 import { trimUnsafe } from './trim';
 import { IMasiroMeChapter } from '../types';
 
-export function _getChapterData($: JQueryStatic)
+export function _getChapterData($: JQueryStatic): Pick<IMasiroMeChapter, 'author' | 'dateline' | 'extra_info'>
 {
 	$('.translator-info').find('.smallThumb, :input, #smallThumb').remove();
 

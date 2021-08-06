@@ -30,7 +30,8 @@ export interface IToughCookieProperties {
     pathIsDefault?: boolean;
     lastAccessed?: Date;
 }
-export declare type ICookiesValue = string | toughCookie.Cookie | ILazyCookiePropertiesInput | LazyCookie;
+export declare type ICookiesInstance = toughCookie.Cookie | LazyCookie;
+export declare type ICookiesValue = string | ILazyCookiePropertiesInput | ICookiesInstance;
 export declare type ICookiesValueRecord<T extends string> = Record<string | T, ICookiesValue>;
 export declare type ICookiesValueInput<T extends string> = ICookiesValueRecord<T> | ICookiesValue[];
 export declare class LazyCookieJar extends toughCookie.CookieJar {
@@ -41,8 +42,8 @@ export declare class LazyCookieJar extends toughCookie.CookieJar {
     constructor(store?: any, options?: {}, data?: {}, url?: string | URL);
     setData<T extends string>(data: ICookiesValueInput<T>, url?: string | URL): this;
     _handleCookieOrString(cookieOrString: ICookiesValue, currentUrl?: string | URL): {
-        cookieOrString: LazyCookie | toughCookie.Cookie;
-        currentUrl: string | URL;
+        cookieOrString: ICookiesInstance;
+        currentUrl?: string;
     };
     setCookie(cookieOrString: ICookiesValue, currentUrl: string | URL, options: CookieJar.SetCookieOptions, cb: (err: Error | null, cookie: Cookie) => void): void;
     setCookie(cookieOrString: ICookiesValue, currentUrl: string | URL, cb: (err: Error, cookie: Cookie) => void): void;
