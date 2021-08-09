@@ -3,13 +3,13 @@
   "name": "魔法少女育成计划",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第八卷 ACES",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11584,
-  "last_update_chapter_id": 117074,
-  "last_update_time": 1623593311,
+  "last_update_volume_name": "番外 16人的日常",
+  "last_update_chapter_name": "专访泳泳",
+  "last_update_volume_id": 11702,
+  "last_update_chapter_id": 118531,
+  "last_update_time": 1627986999,
   "cover": "http://xs.dmzj.com/img/webpic/27/mfsnycjh469l.jpg",
-  "hot_hits": 258031,
+  "hot_hits": 258166,
   "introduction": "大人气社交游戏“魔法少女育成计划”是一款以万里挑一的比例创造出真正魔法少女的奇迹的游戏。少女们有幸获得魔法的力量，享受起充实的每一天。可是某一天，运营商发出了一封写有“将增加过头的魔法少女减少到一半”这种单方面内容的通告，十六名魔法少女之间惨烈无情的生存竞赛就此拉开了序幕……\n第2回“这本轻小说真厉害”大奖·栗山千明奖得奖作家远藤浅蜊再次奉上的魔法惊险战斗故事！",
   "types": [
     "魔法",
@@ -18,7 +18,7 @@
   ],
   "authors": "远藤浅蜊",
   "first_letter": "M",
-  "subscribe_num": 13133,
+  "subscribe_num": 13577,
   "volume": [
     {
       "id": 5228,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1366882351,
-      "sum_chapters": 15
+      "sum_chapters": 11
     },
     {
       "id": 7414,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 restart（前）",
       "volume_order": 20,
       "addtime": 1451118318,
-      "sum_chapters": 15
+      "sum_chapters": 11
     },
     {
       "id": 7653,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 restart（后）",
       "volume_order": 30,
       "addtime": 1458980493,
-      "sum_chapters": 15
+      "sum_chapters": 11
     },
     {
       "id": 7652,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷 episodes",
       "volume_order": 40,
       "addtime": 1458980474,
-      "sum_chapters": 15
+      "sum_chapters": 11
     },
     {
       "id": 10909,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷 limited 前",
       "volume_order": 50,
       "addtime": 1591675559,
-      "sum_chapters": 15
+      "sum_chapters": 11
     },
     {
       "id": 10910,
@@ -66,7 +66,7 @@
       "volume_name": "第六卷 limited 后",
       "volume_order": 60,
       "addtime": 1591675894,
-      "sum_chapters": 15
+      "sum_chapters": 11
     },
     {
       "id": 10911,
@@ -74,7 +74,7 @@
       "volume_name": "短篇",
       "volume_order": 70,
       "addtime": 1591676301,
-      "sum_chapters": 15
+      "sum_chapters": 11
     },
     {
       "id": 10912,
@@ -82,7 +82,7 @@
       "volume_name": "第七卷 JOKERS",
       "volume_order": 80,
       "addtime": 1591676352,
-      "sum_chapters": 15
+      "sum_chapters": 11
     },
     {
       "id": 11584,
@@ -90,7 +90,15 @@
       "volume_name": "第八卷 ACES",
       "volume_order": 90,
       "addtime": 1623592473,
-      "sum_chapters": 15
+      "sum_chapters": 11
+    },
+    {
+      "id": 11702,
+      "lnovel_id": 1426,
+      "volume_name": "番外 16人的日常",
+      "volume_order": 100,
+      "addtime": 1627986791,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -668,6 +676,69 @@
           "chapter_id": 117074,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 11702,
+      "id": 11702,
+      "volume_name": "番外 16人的日常",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 118521,
+          "chapter_name": "女骑士孤独的战斗剪辑版",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 118522,
+          "chapter_name": "最高速的最高速度",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 118523,
+          "chapter_name": "魔法少女的约定",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 118524,
+          "chapter_name": "职业黑道天使",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118525,
+          "chapter_name": "成为伟大领袖的烦恼（暂缺）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 118526,
+          "chapter_name": "社团的王子大人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 118527,
+          "chapter_name": "动画化的条件",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 118528,
+          "chapter_name": "GUNS OR ROSES?",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 118529,
+          "chapter_name": "爱丽丝梦游哈德格尔",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 118530,
+          "chapter_name": "偶尔会有这种事",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 118531,
+          "chapter_name": "专访泳泳",
+          "chapter_order": 110
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "我们的重制人生 ver.β",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 11254,
-  "last_update_chapter_id": 112697,
-  "last_update_time": 1607171421,
-  "cover": "https://xs.dmzj.com/img/webpic/4/czrs1031l.jpg",
-  "hot_hits": 21671,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11701,
+  "last_update_chapter_id": 118520,
+  "last_update_time": 1627900658,
+  "cover": "http://xs.dmzj.com/img/webpic/4/czrs1031l.jpg",
+  "hot_hits": 38714,
   "introduction": "────没有回到过去也是青春────\n期盼已久的『重制人生』外传企划启动！！\n我桥场恭也，是个微不足道的游戏总监。因公司倒闭、企划冻结而回到老家，睡醒后发现自己不知为何回到了十年前……怎么可能啊。在重重巧合之下，我被游戏大厂《Succeed Soft》相中，分配到第十三开发部门。那里虽然冠有开发的头衔，实际上却是处理社内杂务的支持部门。在这同僚性格奇特的部门当中，我偶然发现到一迭废弃的企划书。虽然是项因实行难度过高而被遗弃的企划，里头却蕴藏着满满的可能性──。「其实，我很喜欢哦……好想做游戏呀。」「我们来想办法吧。想方法完成它……」现在，青春物语再次从这里开始！",
   "types": [
     "校园",
@@ -17,8 +17,7 @@
   ],
   "authors": "木绪なち",
   "first_letter": "W",
-  "subscribe_num": 2068,
-  "redis_update_time": 1607635470,
+  "subscribe_num": 9105,
   "volume": [
     {
       "id": 11198,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1604154358,
-      "sum_chapters": 68
+      "sum_chapters": 11
     },
     {
       "id": 11254,
@@ -34,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1607170347,
-      "sum_chapters": 68
+      "sum_chapters": 11
+    },
+    {
+      "id": 11701,
+      "lnovel_id": 2959,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1627900205,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -135,6 +142,59 @@
         {
           "chapter_id": 112697,
           "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 118519,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11701,
+      "id": 11701,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 118511,
+          "chapter_name": "序章 过上了新的生活",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 118512,
+          "chapter_name": "第1章 我们面前",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 118513,
+          "chapter_name": "第2章 试炼、转机",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 118514,
+          "chapter_name": "第3章 山的那边",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118515,
+          "chapter_name": "第4章 意料之外",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 118516,
+          "chapter_name": "终章 我的选择",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 118517,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 118520,
+          "chapter_name": "插画",
           "chapter_order": 80
         }
       ]
