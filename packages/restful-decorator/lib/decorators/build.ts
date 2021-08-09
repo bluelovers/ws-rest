@@ -7,6 +7,7 @@ import { IPropertyKey } from 'reflect-metadata-util';
 import Bluebird from 'bluebird';
 import { getCatchError } from './catch';
 import { getHookReturnValue } from './hook';
+import { IMethodBuilderOptions } from '../wrap/decorators/build';
 
 export type IMemberMethods<T> = ITSMemberMethods<T>;
 
@@ -18,7 +19,7 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 	{
 		const oldMethod = descriptor.value;
 
-		handler = handler || ((data) =>
+		handler ||= ((data) =>
 		{
 			return data;
 		});
@@ -31,6 +32,7 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 				argv = oldArgv,
 				method = oldMethod,
 				returnValue,
+				builderOptions,
 			} = handler.call(this, {
 				target,
 				propertyName,
@@ -65,7 +67,7 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 
 						const ret = await method.apply(thisArgv, argv);
 
-						if (ret != null)
+						if (builderOptions.disableFallbackReturnValue || typeof ret !== 'undefined' && ret !== null)
 						{
 							return ret;
 						}
@@ -108,7 +110,9 @@ export interface IHandleDescriptorParameters<T extends object, P extends IMember
 	thisArgv: Partial<T>;
 	method: IMemberMethods<T>[P];
 	argv: any[];
-	returnValue?: PromiseLike<any>
+	returnValue?: PromiseLike<any>;
+
+	builderOptions?: IMethodBuilderOptions<T, any>;
 }
 
 export type IHandleDescriptorReturn<T extends object, P extends IMemberMethodsKeys<T>> = ITSRequireAtLeastOne<Partial<IHandleDescriptorParameters<T, P>>, 'thisArgv' | 'method' | 'argv' | 'returnValue'>;

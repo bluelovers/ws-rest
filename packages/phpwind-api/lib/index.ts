@@ -71,6 +71,8 @@ export class PHPWindClient extends AbstractHttpClientWithJSDom
 		data.forward = '';
 
 		return info;
+	}, {
+		disableFallbackReturnValue: true,
 	})
 	loginByForm(@ParamMapAuto({
 		cookietime: 315360000,

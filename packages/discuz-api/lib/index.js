@@ -555,7 +555,9 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
             maxAge: 0,
         },
     }),
-    (0, decorators_1.methodBuilder)(),
+    (0, decorators_1.methodBuilder)({
+        disableFallbackReturnValue: true,
+    }),
     (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
         cookietime: 315360000,
     })),

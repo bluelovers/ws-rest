@@ -441,7 +441,9 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
             maxAge: 0,
         },
     }),
-    (0, decorators_1.methodBuilder)(),
+    (0, decorators_1.methodBuilder)({
+        disableFallbackReturnValue: true,
+    }),
     (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
         action: 'login',
         usecookie: 315360000,

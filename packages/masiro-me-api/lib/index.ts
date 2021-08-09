@@ -55,7 +55,9 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		},
 	})
 	@ReturnValueToJSDOM()
-	@methodBuilder()
+	@methodBuilder({
+		disableFallbackReturnValue: true,
+	})
 	loginByForm(inputData: {
 		username: string,
 		password: string,
@@ -85,7 +87,9 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		Referer: 'https://masiro.me/admin/auth/login',
 	})
 	@FormUrlencoded
-	@methodBuilder()
+	@methodBuilder({
+		disableFallbackReturnValue: true,
+	})
 	protected _loginByForm(@ParamMapAuto({
 		remember: 1,
 	}) inputData: {
@@ -108,7 +112,9 @@ export class MasiroMeClient extends AbstractHttpClientWithJSDom
 		},
 	})
 	@ReturnValueToJSDOM()
-	@methodBuilder()
+	@methodBuilder({
+		disableFallbackReturnValue: true,
+	})
 	checkLogin(): Bluebird<string>
 	{
 		return _checkLogin((this.$returnValue as IJSDOM).$) as any

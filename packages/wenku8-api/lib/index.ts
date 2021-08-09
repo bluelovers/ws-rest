@@ -87,7 +87,9 @@ export class Wenku8Client extends AbstractHttpClientWithJSDom
 			maxAge: 0,
 		},
 	})
-	@methodBuilder()
+	@methodBuilder({
+		disableFallbackReturnValue: true,
+	})
 	loginByForm(@ParamMapAuto({
 		action: 'login',
 		usecookie: 315360000,

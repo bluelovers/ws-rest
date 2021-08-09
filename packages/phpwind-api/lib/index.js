@@ -171,6 +171,8 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
         data.pwpwd = inputData.password;
         data.forward = '';
         return info;
+    }, {
+        disableFallbackReturnValue: true,
     }),
     (0, tslib_1.__param)(0, (0, body_1.ParamMapAuto)({
         cookietime: 315360000,

@@ -120,7 +120,9 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         },
     }),
     (0, jsdom_1.ReturnValueToJSDOM)(),
-    (0, abstract_1.methodBuilder)(),
+    (0, abstract_1.methodBuilder)({
+        disableFallbackReturnValue: true,
+    }),
     (0, tslib_1.__metadata)("design:type", Function),
     (0, tslib_1.__metadata)("design:paramtypes", [Object]),
     (0, tslib_1.__metadata)("design:returntype", void 0)
@@ -131,7 +133,9 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         Referer: 'https://masiro.me/admin/auth/login',
     }),
     form_1.FormUrlencoded,
-    (0, abstract_1.methodBuilder)(),
+    (0, abstract_1.methodBuilder)({
+        disableFallbackReturnValue: true,
+    }),
     (0, tslib_1.__param)(0, (0, body_1.ParamMapAuto)({
         remember: 1,
     })),
@@ -149,7 +153,9 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         },
     }),
     (0, jsdom_1.ReturnValueToJSDOM)(),
-    (0, abstract_1.methodBuilder)(),
+    (0, abstract_1.methodBuilder)({
+        disableFallbackReturnValue: true,
+    }),
     (0, tslib_1.__metadata)("design:type", Function),
     (0, tslib_1.__metadata)("design:paramtypes", []),
     (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)

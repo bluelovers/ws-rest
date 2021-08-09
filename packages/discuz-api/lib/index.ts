@@ -107,7 +107,9 @@ export class DiscuzClient extends AbstractHttpClientWithJSDom
 			maxAge: 0,
 		},
 	})
-	@methodBuilder()
+	@methodBuilder({
+		disableFallbackReturnValue: true,
+	})
 	loginByForm(@ParamMapAuto({
 		cookietime: 315360000,
 	}) inputData: {

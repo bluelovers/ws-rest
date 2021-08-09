@@ -21,6 +21,7 @@ export interface IMethodBuilderCache
 	paramMetadata: IParamMetadata,
 	autoRequest?: boolean,
 	requested?: boolean,
+	disableFallbackReturnValue?: boolean,
 }
 
 export interface IMethodBuilderOptions<T extends object, R>
@@ -36,6 +37,11 @@ export interface IMethodBuilderOptions<T extends object, R>
 	 * @default true
 	 */
 	returnData?: boolean;
+
+	/**
+	 * 禁用當 returnValue == null 時回傳未處理的原始 value
+	 */
+	disableFallbackReturnValue?: boolean,
 }
 
 /**
@@ -59,16 +65,13 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 			} as IMethodBuilderOptions<T, R>
 		}
 
-		builderOptions = builderOptions || {} as IMethodBuilderOptions<T, R>;
+		builderOptions ||= {} as IMethodBuilderOptions<T, R>;
 
-		if (builderOptions.autoRequest == null)
-		{
-			builderOptions.autoRequest = true;
-		}
+		builderOptions.autoRequest ??= true;
 
-		if (builderOptions.returnData == null && builderOptions.autoRequest)
+		if (builderOptions.autoRequest)
 		{
-			builderOptions.returnData = true;
+			builderOptions.returnData ??= true;
 		}
 
 		if (builderOptions.handler)
@@ -76,12 +79,12 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 			handler = builderOptions.handler
 		}
 
-		if (handler && typeof handler != 'function')
+		if (handler && typeof handler !== 'function')
 		{
 			throw new TypeError(`typeof handler != 'function'`)
 		}
 
-		let { autoRequest } = builderOptions;
+		let { autoRequest, disableFallbackReturnValue } = builderOptions;
 
 		const old = handler as IHandleDescriptor3<T, R & IMethodBuilderCache>;
 
@@ -89,29 +92,23 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 		{
 			const oldThis = data.thisArgv;
 
-			if (data.autoRequest == null)
-			{
-				data.autoRequest = autoRequest;
-			}
+			data.autoRequest ??= autoRequest;
+			data.disableFallbackReturnValue ??= disableFallbackReturnValue;
 
 			if (wrapFn)
 			{
 				data = wrapFn.call(data.thisArgv, data as any);
 
-				if (data.autoRequest == null)
-				{
-					data.autoRequest = autoRequest;
-				}
+				data.autoRequest ??= autoRequest;
+				data.disableFallbackReturnValue ??= disableFallbackReturnValue;
 			}
 
 			if (old)
 			{
 				const { thisArgv = data.thisArgv, method = data.method, argv = data.argv } = old.call(oldThis, data as any) || data;
 
-				if (data.autoRequest == null)
-				{
-					data.autoRequest = autoRequest;
-				}
+				data.autoRequest ??= autoRequest;
+				data.disableFallbackReturnValue ??= disableFallbackReturnValue;
 
 				data = {
 					...data,
@@ -122,6 +119,8 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 			}
 
 			(builderOptions as IMethodBuilderOptions<T, R>).autoRequest = data.autoRequest;
+
+			(builderOptions as IMethodBuilderOptions<T, R>).disableFallbackReturnValue = data.disableFallbackReturnValue;
 
 			if (data.autoRequest && !data.requested)
 			{
@@ -142,7 +141,7 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 							data.thisArgv.$response = ret;
 
 							// @ts-ignore
-							if (ret && ret.request && ret.request.res && ret.request.res.responseUrl)
+							if (ret?.request?.res?.responseUrl)
 							{
 								// @ts-ignore
 								data.thisArgv.$responseUrl = ret.request.res.responseUrl;
