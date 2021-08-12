@@ -18,7 +18,7 @@ import { join } from 'path';
 import { dirname } from 'path';
 import { outputJSONLazy } from '@node-novel/site-cache-util/lib/fs';
 import { basename } from 'upath2';
-import { _fixCoverUrl } from 'esjzone-api/lib/util/site';
+import { _fixCoverUrl } from 'esjzone-api/lib/util/_fixCoverUrl';
 
 export default lazyRun(async () =>
 {
