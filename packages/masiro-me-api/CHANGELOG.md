@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.5](https://github.com/bluelovers/ws-rest/compare/masiro-me-api@1.0.4...masiro-me-api@1.0.5) (2021-08-12)
+
+
+### 🐛　Bug Fixes
+
+* **typescript:** update type ([4a5314c](https://github.com/bluelovers/ws-rest/commit/4a5314c4aeb1edaf16ddb0cd242361bec9f714ca))
+
+
+### ✨　Features
+
+* `[@method](https://github.com/method)Builder` add new option `disableFallbackReturnValue` ([72efc18](https://github.com/bluelovers/ws-rest/commit/72efc185609497962ba448b0afa46ae462b3c85d))
+* **esj:** 支援使用密碼 ([0d1e3fd](https://github.com/bluelovers/ws-rest/commit/0d1e3fd4033f3c6d9bf5bfc6aea90a1c2afbdf22))
+
+
+### 📦　Code Refactoring
+
+* update utils ([2efac74](https://github.com/bluelovers/ws-rest/commit/2efac74660f0ce673d7deddd354ce12aba84d85b))
+
+
+
+
+
 ## [1.0.4](https://github.com/bluelovers/ws-rest/compare/masiro-me-api@1.0.3...masiro-me-api@1.0.4) (2021-07-28)
 
 

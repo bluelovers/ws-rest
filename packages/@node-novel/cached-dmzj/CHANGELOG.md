@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.121](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-dmzj@1.1.120...@node-novel/cached-dmzj@1.1.121) (2021-08-12)
+
+
+### ✨　Features
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug ([c0801ff](https://github.com/bluelovers/ws-rest/commit/c0801ff1d842065f590434214286bccbf0a4f3de))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-dmzj] update temp cache ([2fd7a53](https://github.com/bluelovers/ws-rest/commit/2fd7a53c15fa4821cf80983dc89b89d7ea1ed815))
+* [@node-novel/cached-dmzj] update cache, novel x 1 ([66b05a0](https://github.com/bluelovers/ws-rest/commit/66b05a056b0ec90719da07f286df1d0f7ee2914a))
+* [@node-novel/cached-dmzj] update temp cache ([0321683](https://github.com/bluelovers/ws-rest/commit/0321683a8ba2cba1a1778a919235392e6a11abc2))
+* [@node-novel/cached-dmzj] update cache, novel x 14 ([1401112](https://github.com/bluelovers/ws-rest/commit/14011126e3108ccd2a1de355f8c52324dd9afec1))
+* [@node-novel/cached-dmzj] update temp cache ([2d3d9d2](https://github.com/bluelovers/ws-rest/commit/2d3d9d2d29c9589964206eb85a3611409bcb4c58))
+* [@node-novel/cached-dmzj] update cache, novel x 18 ([8c16a8b](https://github.com/bluelovers/ws-rest/commit/8c16a8b3061a5bb971decd81d98e7af1183e8532))
+* [@node-novel/cached-dmzj] update temp cache ([105bccb](https://github.com/bluelovers/ws-rest/commit/105bccb1279aaefbbc07ca1e1891dc3468f2b713))
+* [@node-novel/cached-dmzj] update cache, novel x 11 ([612c1c7](https://github.com/bluelovers/ws-rest/commit/612c1c71f4bc843789cc1d5807501c2a46c12c5b))
+
+
+### BREAKING CHANGE
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug
+
+
+
+
+
 ## [1.1.120](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-dmzj@1.1.119...@node-novel/cached-dmzj@1.1.120) (2021-07-28)
 
 

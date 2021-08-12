@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.23](https://github.com/bluelovers/ws-rest/compare/phpwind-api@1.0.22...phpwind-api@1.0.23) (2021-08-12)
+
+
+### ✨　Features
+
+* `[@method](https://github.com/method)Builder` add new option `disableFallbackReturnValue` ([72efc18](https://github.com/bluelovers/ws-rest/commit/72efc185609497962ba448b0afa46ae462b3c85d))
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug ([c0801ff](https://github.com/bluelovers/ws-rest/commit/c0801ff1d842065f590434214286bccbf0a4f3de))
+
+
+### BREAKING CHANGE
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug
+
+
+
+
+
 ## [1.0.22](https://github.com/bluelovers/ws-rest/compare/phpwind-api@1.0.21...phpwind-api@1.0.22) (2021-07-28)
 
 **Note:** Version bump only for package phpwind-api

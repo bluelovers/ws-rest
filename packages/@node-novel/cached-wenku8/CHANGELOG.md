@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.94](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.93...@node-novel/cached-wenku8@1.0.94) (2021-08-12)
+
+
+### ✨　Features
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug ([c0801ff](https://github.com/bluelovers/ws-rest/commit/c0801ff1d842065f590434214286bccbf0a4f3de))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-wenku8] update cache, novel x 35 ([cd067f2](https://github.com/bluelovers/ws-rest/commit/cd067f24d749fa84fbb6c94b5d1960b28b371de4))
+* [@node-novel/cached-wenku8] update cache, novel x 30 ([1fe50cd](https://github.com/bluelovers/ws-rest/commit/1fe50cdb62fde5c4f05ec232f0a599f31a3858e2))
+* [@node-novel/cached-wenku8] update cache, novel x 25 ([36f1127](https://github.com/bluelovers/ws-rest/commit/36f112773c41421e1d58f9c166383ab8d2916e07))
+
+
+### BREAKING CHANGE
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug
+
+
+
+
+
 ## [1.0.93](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-wenku8@1.0.92...@node-novel/cached-wenku8@1.0.93) (2021-07-28)
 
 

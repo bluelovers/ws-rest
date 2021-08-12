@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.61](https://github.com/bluelovers/ws-rest/compare/restful-decorator@1.0.60...restful-decorator@1.0.61) (2021-08-12)
+
+
+### ✨　Features
+
+* 支援在各種狀況下取得 `responseUrl` ([4343fea](https://github.com/bluelovers/ws-rest/commit/4343fea02b590697c09fc2efc32aefc9f28895c8))
+* `[@method](https://github.com/method)Builder` add new option `disableFallbackReturnValue` ([72efc18](https://github.com/bluelovers/ws-rest/commit/72efc185609497962ba448b0afa46ae462b3c85d))
+
+
+
+
+
 ## [1.0.60](https://github.com/bluelovers/ws-rest/compare/restful-decorator@1.0.59...restful-decorator@1.0.60) (2021-07-28)
 
 **Note:** Version bump only for package restful-decorator

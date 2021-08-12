@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.46](https://github.com/bluelovers/ws-rest/compare/@bluelovers/axios-extend@1.0.45...@bluelovers/axios-extend@1.0.46) (2021-08-12)
+
+
+### ✨　Features
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug ([c0801ff](https://github.com/bluelovers/ws-rest/commit/c0801ff1d842065f590434214286bccbf0a4f3de))
+
+
+### BREAKING CHANGE
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug
+
+
+
+
+
 ## [1.0.45](https://github.com/bluelovers/ws-rest/compare/@bluelovers/axios-extend@1.0.44...@bluelovers/axios-extend@1.0.45) (2021-07-28)
 
 **Note:** Version bump only for package @bluelovers/axios-extend

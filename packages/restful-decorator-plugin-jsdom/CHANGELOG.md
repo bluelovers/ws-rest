@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.41](https://github.com/bluelovers/ws-rest/compare/restful-decorator-plugin-jsdom@1.0.40...restful-decorator-plugin-jsdom@1.0.41) (2021-08-12)
+
+
+### ✨　Features
+
+* 支援在各種狀況下取得 `responseUrl` ([4343fea](https://github.com/bluelovers/ws-rest/commit/4343fea02b590697c09fc2efc32aefc9f28895c8))
+
+
+
+
+
 ## [1.0.40](https://github.com/bluelovers/ws-rest/compare/restful-decorator-plugin-jsdom@1.0.39...restful-decorator-plugin-jsdom@1.0.40) (2021-07-28)
 
 

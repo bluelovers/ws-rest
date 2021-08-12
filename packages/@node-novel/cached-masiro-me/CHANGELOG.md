@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-masiro-me@1.0.2...@node-novel/cached-masiro-me@1.0.3) (2021-08-12)
+
+
+### ✨　Features
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug ([c0801ff](https://github.com/bluelovers/ws-rest/commit/c0801ff1d842065f590434214286bccbf0a4f3de))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-masiro-me] update cache, novel x 136 ([6f6bee5](https://github.com/bluelovers/ws-rest/commit/6f6bee5b73bde43cff9fcdc483111bb50445a3d7))
+
+
+### BREAKING CHANGE
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug
+
+
+
+
+
 ## [1.0.2](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-masiro-me@1.0.1...@node-novel/cached-masiro-me@1.0.2) (2021-07-28)
 
 

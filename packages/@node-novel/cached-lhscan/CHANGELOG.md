@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.12](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-lhscan@1.0.11...@node-novel/cached-lhscan@1.0.12) (2021-08-12)
+
+
+### ✨　Features
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug ([c0801ff](https://github.com/bluelovers/ws-rest/commit/c0801ff1d842065f590434214286bccbf0a4f3de))
+
+
+### ♻️　Chores
+
+* **deps:** update deps ([dc3f34a](https://github.com/bluelovers/ws-rest/commit/dc3f34a655b0cc01f45c934602637a866c206874))
+
+
+### BREAKING CHANGE
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug
+
+
+
+
+
 ## [1.0.11](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-lhscan@1.0.10...@node-novel/cached-lhscan@1.0.11) (2021-07-27)
 
 

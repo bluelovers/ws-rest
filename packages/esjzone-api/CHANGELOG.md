@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.56](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.55...esjzone-api@1.0.56) (2021-08-12)
+
+
+### 🐛　Bug Fixes
+
+* **typescript:** update type ([4a5314c](https://github.com/bluelovers/ws-rest/commit/4a5314c4aeb1edaf16ddb0cd242361bec9f714ca))
+
+
+### ✨　Features
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug ([c0801ff](https://github.com/bluelovers/ws-rest/commit/c0801ff1d842065f590434214286bccbf0a4f3de))
+* **esj:** 支援使用密碼 ([3b48a2a](https://github.com/bluelovers/ws-rest/commit/3b48a2a52b667b553e57b14c980cc118e3b9c5c0))
+
+
+### 📦　Code Refactoring
+
+* code splitting ([8c4c082](https://github.com/bluelovers/ws-rest/commit/8c4c0820cda6a9751d65b92c473f3d4ae9ac3d85))
+
+
+### BREAKING CHANGE
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug
+
+
+
+
+
 ## [1.0.55](https://github.com/bluelovers/ws-rest/compare/esjzone-api@1.0.54...esjzone-api@1.0.55) (2021-07-28)
 
 **Note:** Version bump only for package esjzone-api

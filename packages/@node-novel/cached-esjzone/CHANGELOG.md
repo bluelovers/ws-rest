@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.91](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.90...@node-novel/cached-esjzone@1.0.91) (2021-08-12)
+
+
+### ✨　Features
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug ([c0801ff](https://github.com/bluelovers/ws-rest/commit/c0801ff1d842065f590434214286bccbf0a4f3de))
+* **esj:** 支援使用密碼 ([0d1e3fd](https://github.com/bluelovers/ws-rest/commit/0d1e3fd4033f3c6d9bf5bfc6aea90a1c2afbdf22))
+
+
+### 🔖　Miscellaneous
+
+* [@node-novel/cached-esjzone] update cache, novel x 128 ([818aa94](https://github.com/bluelovers/ws-rest/commit/818aa949e1b870ea21b04dc993bfb867036f5c4d))
+* [@node-novel/cached-esjzone] update cache, novel x 148 ([1f22ec9](https://github.com/bluelovers/ws-rest/commit/1f22ec9ca94f891c347abb982c3f3c565c0f5f2e))
+* [@node-novel/cached-esjzone] update cache, novel x 157 ([41724a5](https://github.com/bluelovers/ws-rest/commit/41724a51bd35216c4c4cf026162650bfcfd054c5))
+* [@node-novel/cached-esjzone] update cache, novel x 157 ([3b06781](https://github.com/bluelovers/ws-rest/commit/3b06781645cec1376d5da34ed9b720ba5eba9d9a))
+* [@node-novel/cached-esjzone] update cache, novel x 111 ([11fdd4f](https://github.com/bluelovers/ws-rest/commit/11fdd4f9d6e6d4cc3147ee97f6dc48e9453cd1b8))
+
+
+### BREAKING CHANGE
+
+* **deps:** update `axios` to `^0.21.1`, maybe will has unknown bug
+
+
+
+
+
 ## [1.0.90](https://github.com/bluelovers/ws-rest/compare/@node-novel/cached-esjzone@1.0.89...@node-novel/cached-esjzone@1.0.90) (2021-07-28)
 
 
