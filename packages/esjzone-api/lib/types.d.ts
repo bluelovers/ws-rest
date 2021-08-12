@@ -1,6 +1,7 @@
 /**
  * Created by user on 2019/11/24.
  */
+/// <reference types="jquery" />
 export interface IESJzoneRecentUpdate {
     page: number;
     end: number;
@@ -65,17 +66,60 @@ export interface IESJzoneBookChaptersVolChapterExternal extends Omit<IESJzoneBoo
     "novel_id"?: never;
 }
 export declare type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;
-export interface IESJzoneChapter {
+export interface IESJzoneChapterBase {
     novel_id: string;
     chapter_id: string;
-    imgs: string[];
-    text: string;
-    html?: string;
     chapter_name?: string;
     author?: string;
     /**
      * unix timestamp
      */
     dateline?: number;
+    locked: boolean;
+}
+export interface IESJzoneChapterLocked extends IESJzoneChapterBase {
+    locked: true;
+    imgs: undefined;
+    text: undefined;
+    html?: undefined;
+}
+export interface IESJzoneChapter extends IESJzoneChapterBase {
+    locked: false;
+    imgs: string[];
+    text: string;
+    html?: string;
+}
+export interface IESJzoneFrom {
+    /**
+     * chapter_id
+     */
+    rid: string | number;
+    tid: string | number;
+    /**
+     * novel_id
+     */
+    code: string | number;
+    token: string;
+}
+export interface IESJzoneChapterByPasswordForm extends Omit<IESJzoneFrom, 'tid'> {
+    pw: string;
+}
+export interface IESJzoneChapterFromPasswordReturnRaw {
+    status: number | 200;
+    msg: string;
+    url: string;
+    s: number | 2000;
+    html: string;
+}
+export interface IESJzoneChapterOptions {
+    rawHtml?: boolean;
+    cb?(data: {
+        i: number;
+        $elem: JQuery<HTMLElement>;
+        $content: JQuery<HTMLElement>;
+        src: string;
+        imgs: string[];
+    }): void;
+    form?: Partial<IESJzoneChapterByPasswordForm>;
 }
 export {};

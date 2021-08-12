@@ -9,6 +9,7 @@ import {
 	ParamPath,
 	POST,
 	ParamMapAuto,
+	RequestConfigs,
 } from 'restful-decorator/lib/decorators';
 import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';
@@ -21,6 +22,10 @@ import {
 	IParametersSlice,
 	IESJzoneRecentUpdateDay,
 	IESJzoneChapter,
+	IESJzoneChapterFromPasswordReturnRaw,
+	IESJzoneChapterByPasswordForm,
+	IESJzoneChapterOptions,
+	IESJzoneChapterLocked,
 } from './types';
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
@@ -40,6 +45,14 @@ import { _getBookCover } from './util/_getBookCover';
 import { _getBookElemDesc } from './util/_getBookElemDesc';
 import { _remove_ad } from './util/_remove_ad';
 import { _fixCoverUrl } from './util/_fixCoverUrl';
+import {
+	_parseSiteLinkChapterFromPasswordReturn,
+
+} from './util/_parseChapterFromPasswordReturn';
+import { ParamMapPath } from 'restful-decorator/lib/decorators/body';
+import { _checkChapterLock } from './util/_checkChapterLock';
+import { _handleChapterContent, _handleChapterContentRoot } from './util/_handleChapterContent';
+import { CookieJar } from 'tough-cookie';
 
 /**
  * https://www.wenku8.net/index.php
@@ -370,6 +383,99 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 
 	/**
 	 *
+	 * @param {IESJzoneChapterByPasswordForm} data
+	 * @returns {Bluebird<IJSDOM>}
+	 */
+	@POST('inc/forum_pw.php')
+	@FormUrlencoded
+	@RequestConfigs({
+		responseType: 'json',
+	})
+	@methodBuilder()
+	_queryChapterByPassword(@ParamMapAuto() data: IESJzoneChapterByPasswordForm): Bluebird<IJSDOM>
+	{
+		const json = this.$returnValue as IESJzoneChapterFromPasswordReturnRaw;
+
+		let jsdom = _parseSiteLinkChapterFromPasswordReturn(this, json).jsdom
+
+		if (!jsdom)
+		{
+			let e = new Error(`Invalid password: ${data.pw}`);
+
+			// @ts-ignore
+			e.response = this.$response;
+
+			throw e
+		}
+
+		return jsdom as any
+	}
+
+	/**
+	 * @see https://www.esjzone.cc/forum/1604843935/100652.html
+	 */
+	_getChapterByPassword(argv: {
+		novel_id: string | number,
+		chapter_id: string | number,
+		password?: string,
+	}, jsdom?: IJSDOM, data?: Partial<IESJzoneChapterByPasswordForm>)
+	{
+		return Bluebird.resolve()
+			.then(async () =>
+			{
+				if (typeof jsdom === 'undefined' || jsdom === null)
+				{
+					jsdom = await this._getChapter(argv).then(m => m.$returnValue)
+				}
+
+				let $ = jsdom.$;
+
+				let _check = _checkChapterLock($)
+
+				if (_check.locked)
+				{
+					data ??= {};
+
+					data.code = argv.novel_id;
+					data.rid = argv.chapter_id;
+					data.pw = argv.password ?? data.pw;
+
+					data.token ||= _check.form.token;
+
+					if (data.pw?.length)
+					{
+						this._setCookieSync({
+							key: 'pw_record',
+							value: data.rid as string,
+						});
+						this._setCookieSync({
+							key: 'last_visit_post',
+							value: data.rid as string,
+						});
+
+						jsdom = await this._queryChapterByPassword(data as IESJzoneChapterByPasswordForm)
+					}
+				}
+
+				return jsdom
+			})
+	}
+
+	@GET('forum/{novel_id}/{chapter_id}.html')
+	@ReturnValueToJSDOM()
+	@methodBuilder()
+	_getChapter(@ParamMapPath() argv: {
+		novel_id: string | number,
+		chapter_id: string | number,
+	}): Bluebird<Omit<ESJzoneClient, '$returnValue'> & {
+		$returnValue: IJSDOM
+	}>
+	{
+		return this as any
+	}
+
+	/**
+	 *
 	 * @example ```
 	 * api.getChapter({
 			novel_id: 2555,
@@ -385,134 +491,20 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 		})
 	 ```
 	 */
-	@GET('forum/{novel_id}/{chapter_id}.html')
-	@methodBuilder()
-	getChapter(@ParamMapAuto() argv: {
+	getChapter(argv: {
 		novel_id: string | number,
 		chapter_id: string | number,
-	}, options: {
-		rawHtml?: boolean,
-		cb?(data: {
-			i: number,
-			$elem: JQuery<HTMLElement>,
-			$content: JQuery<HTMLElement>,
-			src: string,
-			imgs: string[],
-		}): void,
-	} = {}): IBluebird<IESJzoneChapter>
+		password?: string,
+	}, options: IESJzoneChapterOptions = {})
 	{
-		return Bluebird.resolve()
-			.then<IESJzoneChapter>(async () =>
+		return this._getChapter(argv)
+			.then<IESJzoneChapterLocked | IESJzoneChapter>(async (api) =>
 			{
-				const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
-				const $ = jsdom.$;
+				let $ = api.$returnValue.$;
 
-				let $content = $('.container .row:has(.forum-content)');
+				_handleChapterContentRoot($, argv, options);
 
-				$content = tryMinifyHTMLOfElem($content);
-
-				_remove_ad($);
-
-				/*
-				const _decodeChapter = async () =>
-				{
-					let code: string;
-
-					if (!code)
-					{
-						code = _getCode(jsdom.serialize());
-					}
-
-					if (!code)
-					{
-						$('script')
-							.each((i, elem) =>
-							{
-
-								let html = $(elem).text();
-
-								code = _getCode(html);
-							})
-						;
-					}
-
-					await this._getDecodeChapter({
-							novel_id: argv.novel_id,
-							chapter_id: argv.chapter_id,
-							code,
-						})
-						.then(a =>
-						{
-							let elems = $('.trans, .t');
-
-							a.forEach((v, i) =>
-							{
-								elems.eq(i).html(v);
-							});
-
-							return a;
-						})
-					;
-
-					function _getCode(html: string): string
-					{
-						let m = html
-							.match(/getTranslation\(['"]([^\'"]+)['"]/i)
-						;
-
-						if (m)
-						{
-							return m[1];
-						}
-					}
-				};
-
-				//await _decodeChapter();
-
-				//_remove_ad($);
-				 */
-
-				$content = _getChapterDomContent($)
-
-				_p_2_br($content.find('> p'), $);
-
-				let imgs = [] as string[];
-
-				const { cb } = options;
-
-				let html: string;
-
-				if (options.rawHtml)
-				{
-					html = $content.html();
-				}
-
-				$content
-					.find('img[src]')
-					.each((i, elem) =>
-					{
-						let $elem = $(elem);
-						let src = $elem.prop('src').trim();
-
-						imgs.push(src);
-
-						if (cb)
-						{
-							cb({
-								i,
-								$elem,
-								$content,
-								src,
-								imgs,
-							})
-						}
-					})
-				;
-
-				let text = $content
-					.text()
-					.replace(/^\s+|\s+$/g, '')
-				;
+				let jsdom2 = await this._getChapterByPassword(argv, api.$returnValue);
 
 				let { author, dateline } = _getChapterData($)
 
@@ -520,9 +512,7 @@ export class ESJzoneClient extends AbstractHttpClientWithJSDom
 					novel_id: argv.novel_id.toString(),
 					chapter_id: argv.chapter_id.toString(),
 
-					imgs,
-					text,
-					html,
+					..._handleChapterContent(jsdom2.$, argv, options),
 
 					author,
 					dateline,

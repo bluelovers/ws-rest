@@ -13,7 +13,6 @@ const orderBy_1 = (0, tslib_1.__importDefault)(require("lodash/orderBy"));
 const html_1 = require("restful-decorator-plugin-jsdom/lib/html");
 const jquery_1 = require("restful-decorator-plugin-jsdom/lib/jquery");
 const _getChapterData_1 = require("./util/_getChapterData");
-const _getChapterDomContent_1 = require("./util/_getChapterDomContent");
 const _getBookLinks_1 = require("./util/_getBookLinks");
 const _getBookInfo_1 = require("./util/_getBookInfo");
 const _getBookChapters_1 = require("./util/_getBookChapters");
@@ -21,8 +20,11 @@ const _parseSiteLink_1 = require("./util/_parseSiteLink");
 const _getBookTags_1 = require("./util/_getBookTags");
 const _getBookCover_1 = require("./util/_getBookCover");
 const _getBookElemDesc_1 = require("./util/_getBookElemDesc");
-const _remove_ad_1 = require("./util/_remove_ad");
 const _fixCoverUrl_1 = require("./util/_fixCoverUrl");
+const _parseChapterFromPasswordReturn_1 = require("./util/_parseChapterFromPasswordReturn");
+const body_1 = require("restful-decorator/lib/decorators/body");
+const _checkChapterLock_1 = require("./util/_checkChapterLock");
+const _handleChapterContent_1 = require("./util/_handleChapterContent");
 /**
  * https://www.wenku8.net/index.php
  */
@@ -216,6 +218,58 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
     }
     /**
      *
+     * @param {IESJzoneChapterByPasswordForm} data
+     * @returns {Bluebird<IJSDOM>}
+     */
+    _queryChapterByPassword(data) {
+        const json = this.$returnValue;
+        let jsdom = (0, _parseChapterFromPasswordReturn_1._parseSiteLinkChapterFromPasswordReturn)(this, json).jsdom;
+        if (!jsdom) {
+            let e = new Error(`Invalid password: ${data.pw}`);
+            // @ts-ignore
+            e.response = this.$response;
+            throw e;
+        }
+        return jsdom;
+    }
+    /**
+     * @see https://www.esjzone.cc/forum/1604843935/100652.html
+     */
+    _getChapterByPassword(argv, jsdom, data) {
+        return bluebird_1.default.resolve()
+            .then(async () => {
+            var _b, _c;
+            if (typeof jsdom === 'undefined' || jsdom === null) {
+                jsdom = await this._getChapter(argv).then(m => m.$returnValue);
+            }
+            let $ = jsdom.$;
+            let _check = (0, _checkChapterLock_1._checkChapterLock)($);
+            if (_check.locked) {
+                data !== null && data !== void 0 ? data : (data = {});
+                data.code = argv.novel_id;
+                data.rid = argv.chapter_id;
+                data.pw = (_b = argv.password) !== null && _b !== void 0 ? _b : data.pw;
+                data.token || (data.token = _check.form.token);
+                if ((_c = data.pw) === null || _c === void 0 ? void 0 : _c.length) {
+                    this._setCookieSync({
+                        key: 'pw_record',
+                        value: data.rid,
+                    });
+                    this._setCookieSync({
+                        key: 'last_visit_post',
+                        value: data.rid,
+                    });
+                    jsdom = await this._queryChapterByPassword(data);
+                }
+            }
+            return jsdom;
+        });
+    }
+    _getChapter(argv) {
+        return this;
+    }
+    /**
+     *
      * @example ```
      * api.getChapter({
             novel_id: 2555,
@@ -232,105 +286,16 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
      ```
      */
     getChapter(argv, options = {}) {
-        return bluebird_1.default.resolve()
-            .then(async () => {
-            const jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
-            const $ = jsdom.$;
-            let $content = $('.container .row:has(.forum-content)');
-            $content = (0, html_1.tryMinifyHTMLOfElem)($content);
-            (0, _remove_ad_1._remove_ad)($);
-            /*
-            const _decodeChapter = async () =>
-            {
-                let code: string;
-
-                if (!code)
-                {
-                    code = _getCode(jsdom.serialize());
-                }
-
-                if (!code)
-                {
-                    $('script')
-                        .each((i, elem) =>
-                        {
-
-                            let html = $(elem).text();
-
-                            code = _getCode(html);
-                        })
-                    ;
-                }
-
-                await this._getDecodeChapter({
-                        novel_id: argv.novel_id,
-                        chapter_id: argv.chapter_id,
-                        code,
-                    })
-                    .then(a =>
-                    {
-                        let elems = $('.trans, .t');
-
-                        a.forEach((v, i) =>
-                        {
-                            elems.eq(i).html(v);
-                        });
-
-                        return a;
-                    })
-                ;
-
-                function _getCode(html: string): string
-                {
-                    let m = html
-                        .match(/getTranslation\(['"]([^\'"]+)['"]/i)
-                    ;
-
-                    if (m)
-                    {
-                        return m[1];
-                    }
-                }
-            };
-
-            //await _decodeChapter();
-
-            //_remove_ad($);
-             */
-            $content = (0, _getChapterDomContent_1._getChapterDomContent)($);
-            (0, jquery_1._p_2_br)($content.find('> p'), $);
-            let imgs = [];
-            const { cb } = options;
-            let html;
-            if (options.rawHtml) {
-                html = $content.html();
-            }
-            $content
-                .find('img[src]')
-                .each((i, elem) => {
-                let $elem = $(elem);
-                let src = $elem.prop('src').trim();
-                imgs.push(src);
-                if (cb) {
-                    cb({
-                        i,
-                        $elem,
-                        $content,
-                        src,
-                        imgs,
-                    });
-                }
-            });
-            let text = $content
-                .text()
-                .replace(/^\s+|\s+$/g, '');
+        return this._getChapter(argv)
+            .then(async (api) => {
+            let $ = api.$returnValue.$;
+            (0, _handleChapterContent_1._handleChapterContentRoot)($, argv, options);
+            let jsdom2 = await this._getChapterByPassword(argv, api.$returnValue);
             let { author, dateline } = (0, _getChapterData_1._getChapterData)($);
             return {
                 novel_id: argv.novel_id.toString(),
                 chapter_id: argv.chapter_id.toString(),
-                imgs,
-                text,
-                html,
+                ...(0, _handleChapterContent_1._handleChapterContent)(jsdom2.$, argv, options),
                 author,
                 dateline,
             };
@@ -429,13 +394,26 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
     (0, tslib_1.__metadata)("design:returntype", void 0)
 ], ESJzoneClient.prototype, "_getDecodeChapter", null);
 (0, tslib_1.__decorate)([
-    (0, decorators_1.GET)('forum/{novel_id}/{chapter_id}.html'),
+    (0, decorators_1.POST)('inc/forum_pw.php'),
+    decorators_1.FormUrlencoded,
+    (0, decorators_1.RequestConfigs)({
+        responseType: 'json',
+    }),
     (0, decorators_1.methodBuilder)(),
     (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
     (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
-], ESJzoneClient.prototype, "getChapter", null);
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+], ESJzoneClient.prototype, "_queryChapterByPassword", null);
+(0, tslib_1.__decorate)([
+    (0, decorators_1.GET)('forum/{novel_id}/{chapter_id}.html'),
+    (0, jsdom_1.ReturnValueToJSDOM)(),
+    (0, decorators_1.methodBuilder)(),
+    (0, tslib_1.__param)(0, (0, body_1.ParamMapPath)()),
+    (0, tslib_1.__metadata)("design:type", Function),
+    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
+    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+], ESJzoneClient.prototype, "_getChapter", null);
 (0, tslib_1.__decorate)([
     (0, decorators_1.GET)('update'),
     (0, jsdom_1.ReturnValueToJSDOM)(),

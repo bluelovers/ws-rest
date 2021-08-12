@@ -1,8 +1,8 @@
-/// <reference types="jquery" />
 import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib';
 import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';
-import { IESJzoneRecentUpdate, IESJzoneRecentUpdateRowBook, IParametersSlice, IESJzoneRecentUpdateDay, IESJzoneChapter } from './types';
+import { IJSDOM } from 'jsdom-extra';
+import { IESJzoneRecentUpdate, IESJzoneRecentUpdateRowBook, IParametersSlice, IESJzoneRecentUpdateDay, IESJzoneChapter, IESJzoneChapterByPasswordForm, IESJzoneChapterOptions, IESJzoneChapterLocked } from './types';
 /**
  * https://www.wenku8.net/index.php
  */
@@ -41,6 +41,26 @@ export declare class ESJzoneClient extends AbstractHttpClientWithJSDom {
     }): Promise<string[]>;
     /**
      *
+     * @param {IESJzoneChapterByPasswordForm} data
+     * @returns {Bluebird<IJSDOM>}
+     */
+    _queryChapterByPassword(data: IESJzoneChapterByPasswordForm): Bluebird<IJSDOM>;
+    /**
+     * @see https://www.esjzone.cc/forum/1604843935/100652.html
+     */
+    _getChapterByPassword(argv: {
+        novel_id: string | number;
+        chapter_id: string | number;
+        password?: string;
+    }, jsdom?: IJSDOM, data?: Partial<IESJzoneChapterByPasswordForm>): Bluebird<IJSDOM>;
+    _getChapter(argv: {
+        novel_id: string | number;
+        chapter_id: string | number;
+    }): Bluebird<Omit<ESJzoneClient, '$returnValue'> & {
+        $returnValue: IJSDOM;
+    }>;
+    /**
+     *
      * @example ```
      * api.getChapter({
             novel_id: 2555,
@@ -59,16 +79,8 @@ export declare class ESJzoneClient extends AbstractHttpClientWithJSDom {
     getChapter(argv: {
         novel_id: string | number;
         chapter_id: string | number;
-    }, options?: {
-        rawHtml?: boolean;
-        cb?(data: {
-            i: number;
-            $elem: JQuery<HTMLElement>;
-            $content: JQuery<HTMLElement>;
-            src: string;
-            imgs: string[];
-        }): void;
-    }): IBluebird<IESJzoneChapter>;
+        password?: string;
+    }, options?: IESJzoneChapterOptions): Bluebird<IESJzoneChapterLocked | IESJzoneChapter>;
     recentUpdateDay(): IBluebird<IESJzoneRecentUpdateDay>;
 }
 export default ESJzoneClient;
