@@ -25,23 +25,21 @@ import {
 import { IUnpackedPromiseLikeReturnType } from '@bluelovers/axios-extend/lib';
 import uniqBy from 'lodash/uniqBy';
 import { ReturnValueToJSDOM } from 'restful-decorator-plugin-jsdom/lib/decorators/jsdom';
-import {
-	_fixCoverUrl,
-	_remove_ad,
-	_getBookElemDesc,
-	_getBookTags,
-	_getBookCover,
-	_getBookChapters,
-	_getBookLinks,
-	_getBookInfo,
-	_getChapterDomContent,
-	_matchDateString,
-	_getChapterData,
-	_parseSiteLink,
-} from './util/site';
 import orderBy from 'lodash/orderBy';
 import tryMinifyHTML, { tryMinifyHTMLOfElem } from 'restful-decorator-plugin-jsdom/lib/html';
 import { _p_2_br } from 'restful-decorator-plugin-jsdom/lib/jquery';
+import { _getChapterData } from './util/_getChapterData';
+import { _getChapterDomContent } from './util/_getChapterDomContent';
+import { _getBookLinks } from './util/_getBookLinks';
+import { _getBookInfo } from './util/_getBookInfo';
+import { _matchDateString } from './util/_matchDateString';
+import { _getBookChapters } from './util/_getBookChapters';
+import { _parseSiteLink } from './util/_parseSiteLink';
+import { _getBookTags } from './util/_getBookTags';
+import { _getBookCover } from './util/_getBookCover';
+import { _getBookElemDesc } from './util/_getBookElemDesc';
+import { _remove_ad } from './util/_remove_ad';
+import { _fixCoverUrl } from './util/_fixCoverUrl';
 
 /**
  * https://www.wenku8.net/index.php

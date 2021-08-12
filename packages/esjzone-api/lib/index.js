@@ -9,10 +9,20 @@ const util_1 = require("./util");
 const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
 const uniqBy_1 = (0, tslib_1.__importDefault)(require("lodash/uniqBy"));
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
-const site_1 = require("./util/site");
 const orderBy_1 = (0, tslib_1.__importDefault)(require("lodash/orderBy"));
 const html_1 = require("restful-decorator-plugin-jsdom/lib/html");
 const jquery_1 = require("restful-decorator-plugin-jsdom/lib/jquery");
+const _getChapterData_1 = require("./util/_getChapterData");
+const _getChapterDomContent_1 = require("./util/_getChapterDomContent");
+const _getBookLinks_1 = require("./util/_getBookLinks");
+const _getBookInfo_1 = require("./util/_getBookInfo");
+const _getBookChapters_1 = require("./util/_getBookChapters");
+const _parseSiteLink_1 = require("./util/_parseSiteLink");
+const _getBookTags_1 = require("./util/_getBookTags");
+const _getBookCover_1 = require("./util/_getBookCover");
+const _getBookElemDesc_1 = require("./util/_getBookElemDesc");
+const _remove_ad_1 = require("./util/_remove_ad");
+const _fixCoverUrl_1 = require("./util/_fixCoverUrl");
 /**
  * https://www.wenku8.net/index.php
  */
@@ -56,7 +66,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
             let cover = _this
                 .find('.card-img-tiles .main-img img:eq(0)')
                 .prop('src');
-            cover = (0, site_1._fixCoverUrl)(cover);
+            cover = (0, _fixCoverUrl_1._fixCoverUrl)(cover);
             let _a = _this
                 .find('.card-body .card-title a')
                 .eq(0);
@@ -64,7 +74,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
             let cid;
             let nid;
             let last_update_chapter_name;
-            let _m0 = (0, site_1._parseSiteLink)(_a.prop('href'));
+            let _m0 = (0, _parseSiteLink_1._parseSiteLink)(_a.prop('href'));
             nid = _m0.novel_id;
             last_update_chapter_name = _this
                 .find('.card-body .card-ep')
@@ -166,17 +176,17 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
             chapters: [],
         });
         let _content = $('.container');
-        (0, site_1._getBookInfo)($, data);
-        (0, site_1._getBookLinks)($, data.links);
-        (0, site_1._getBookTags)($, data.tags);
-        let cover = (0, site_1._getBookCover)($);
-        if (cover = (0, site_1._fixCoverUrl)(cover)) {
+        (0, _getBookInfo_1._getBookInfo)($, data);
+        (0, _getBookLinks_1._getBookLinks)($, data.links);
+        (0, _getBookTags_1._getBookTags)($, data.tags);
+        let cover = (0, _getBookCover_1._getBookCover)($);
+        if (cover = (0, _fixCoverUrl_1._fixCoverUrl)(cover)) {
             data.cover = cover;
         }
-        let $desc = (0, html_1.tryMinifyHTMLOfElem)((0, site_1._getBookElemDesc)($));
+        let $desc = (0, html_1.tryMinifyHTMLOfElem)((0, _getBookElemDesc_1._getBookElemDesc)($));
         (0, jquery_1._p_2_br)($desc.find('p'), $, true);
         data.desc = (0, util_1.trimUnsafe)($desc.text() || '');
-        (0, site_1._getBookChapters)($, _content, data);
+        (0, _getBookChapters_1._getBookChapters)($, _content, data);
         return data;
     }
     cookiesRemoveTrack() {
@@ -228,7 +238,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
             const $ = jsdom.$;
             let $content = $('.container .row:has(.forum-content)');
             $content = (0, html_1.tryMinifyHTMLOfElem)($content);
-            (0, site_1._remove_ad)($);
+            (0, _remove_ad_1._remove_ad)($);
             /*
             const _decodeChapter = async () =>
             {
@@ -287,7 +297,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
 
             //_remove_ad($);
              */
-            $content = (0, site_1._getChapterDomContent)($);
+            $content = (0, _getChapterDomContent_1._getChapterDomContent)($);
             (0, jquery_1._p_2_br)($content.find('> p'), $);
             let imgs = [];
             const { cb } = options;
@@ -314,7 +324,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
             let text = $content
                 .text()
                 .replace(/^\s+|\s+$/g, '');
-            let { author, dateline } = (0, site_1._getChapterData)($);
+            let { author, dateline } = (0, _getChapterData_1._getChapterData)($);
             return {
                 novel_id: argv.novel_id.toString(),
                 chapter_id: argv.chapter_id.toString(),
@@ -354,7 +364,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
                 let cover = _this
                     .find('.main-img img:eq(0)')
                     .prop('src');
-                cover = (0, site_1._fixCoverUrl)(cover);
+                cover = (0, _fixCoverUrl_1._fixCoverUrl)(cover);
                 let _a = _this
                     .find('.card-body .card-title a')
                     .eq(0);
@@ -369,7 +379,7 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
                 ;
                 nid = _m0[1];
                  */
-                let _m0 = (0, site_1._parseSiteLink)(_a.prop('href'));
+                let _m0 = (0, _parseSiteLink_1._parseSiteLink)(_a.prop('href'));
                 nid = _m0.novel_id;
                 last_update_chapter_name = _this
                     .find('.card-body .card-ep')
