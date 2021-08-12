@@ -57,7 +57,7 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 
 					let currentRetryAttempt = dotValue(err, 'config.raxConfig.currentRetryAttempt');
 
-					consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, resultToURL(err.response, {
+					consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, resultToURL(err?.response, {
 						ignoreError: true,
 					})?.href);
 				},

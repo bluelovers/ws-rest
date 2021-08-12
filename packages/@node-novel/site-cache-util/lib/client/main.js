@@ -27,7 +27,7 @@ async function _getApiClient(opts) {
                     var _a;
                     (0, free_gc_1.freeGC)();
                     let currentRetryAttempt = (0, axios_util_1.dotValue)(err, 'config.raxConfig.currentRetryAttempt');
-                    __1.consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, (_a = (0, get_http_result_url_1.resultToURL)(err.response, {
+                    __1.consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, (_a = (0, get_http_result_url_1.resultToURL)(err === null || err === void 0 ? void 0 : err.response, {
                         ignoreError: true,
                     })) === null || _a === void 0 ? void 0 : _a.href);
                 },
