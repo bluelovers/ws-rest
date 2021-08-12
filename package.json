@@ -61,7 +61,7 @@
   "resolutions": {
     "@types/fs-extra": "*",
     "@types/tough-cookie": "< 4",
-    "axios": "< 0.19 >= 0.18"
+    "axios": "^0.21.1"
   },
   "dependencies": {
     "@bluelovers/fast-glob": "^3.0.4",
@@ -71,7 +71,7 @@
     "@novel-segment/util": "^1.0.44",
     "@ts-type/package-dts": "^1.0.50",
     "array-hyper-unique": "^1.1.10",
-    "axios": "< 0.19 >= 0.18",
+    "axios": "^0.21.1",
     "bluebird": "^3.7.2",
     "cheerio": "^1.0.0-rc.10",
     "cjk-conv": "^1.2.130",
@@ -109,13 +109,13 @@
     "@types/fs-extra": "^9.0.12",
     "@types/get-value": "^3.0.2",
     "@types/hash-sum": "^1.0.0",
-    "@types/jest": "^26.0.24",
+    "@types/jest": "^27.0.0",
     "@types/jquery": "^3.5.6",
     "@types/jsdom": "^16.2.13",
     "@types/lodash": "^4.14.172",
     "@types/moment": "^2.13.0",
     "@types/moment-timezone": "^0.5.30",
-    "@types/node": "^16.4.13",
+    "@types/node": "^16.6.0",
     "@types/tough-cookie": "< 4",
     "@types/url-parse": "^1.4.3",
     "@types/uuid": "^8.3.1",
@@ -129,6 +129,6 @@
     "jest-transform-stealthy-require": "^1.0.0",
     "ts-jest": "^27.0.4",
     "ts-type": "^1.2.39",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.1"
   }
 }

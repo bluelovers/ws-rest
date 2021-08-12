@@ -16,7 +16,7 @@ import { ISyosetuApiNcodeRaw, ISyosetuApiParams, ISyosetuApiNcode, ISyosetuApiNc
  */
 export declare class SyosetuClient extends AbstractHttpClientWithJSDom {
     protected _constructor(): void;
-    _syosetuApi<T>(apiPath: string, params: ISyosetuApiParams): import("axios").AxiosPromise<T>;
+    _syosetuApi<T>(apiPath: string, params: ISyosetuApiParams): Promise<import("axios").AxiosResponse<T>>;
     /**
      * ncode api raw json
      *

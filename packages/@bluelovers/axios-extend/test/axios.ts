@@ -13,4 +13,5 @@ extendAxios(Axios)
 	.axios
 	.get("http://v2.api.dmzj.com1/novel/2700.json")
 	.then(r => console.dir(r))
+	.catch(r => console.error(r))
 ;
