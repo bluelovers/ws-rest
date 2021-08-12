@@ -5,11 +5,11 @@ import {
 	IRawMasiroMeLoadMoreNovels,
 } from '../types';
 import { trimUnsafe } from './trim';
-import { _parseSiteLink } from './_parseSiteLink';
 import { zhRegExp } from 'regexp-cjk';
 import { _handleBookInfo } from './_handleBookInfo';
 import { _getImgSrc } from './_getImgSrc';
 import { reAuthors, reLastUpdateName } from './const';
+import { _parseUrlInfo } from './_parseUrlInfo';
 
 export function _getRecentUpdate($: JQueryStatic, json: Pick<IRawMasiroMeLoadMoreNovels, 'page' | 'pages' | 'total'>, baseURL: string, extra: IMasiroMeRecentUpdateOptions)
 {
@@ -32,7 +32,7 @@ export function _getRecentUpdate($: JQueryStatic, json: Pick<IRawMasiroMeLoadMor
 		let _a = _this.find('a:has(.layui-card-header)');
 		let novel_link = _a.prop('href');
 
-		let _m = _parseSiteLink(novel_link);
+		let _m = _parseUrlInfo(novel_link);
 
 		let _n_info = _this.find('.n-info');
 

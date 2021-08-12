@@ -1,5 +1,4 @@
 import { IMasiroMeBook, IMasiroMeBookMini, IMasiroMeBookWithChapters } from '../types';
-import { typePredicates } from 'ts-type-predicates';
 import sortObjectKeys from 'sort-object-keys2';
 
 export function _sortBookFields<T extends IMasiroMeBook | IMasiroMeBookMini>(book: T)

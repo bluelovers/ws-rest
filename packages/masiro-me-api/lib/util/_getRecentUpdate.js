@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports._getRecentUpdate = void 0;
 const trim_1 = require("./trim");
-const _parseSiteLink_1 = require("./_parseSiteLink");
 const _handleBookInfo_1 = require("./_handleBookInfo");
 const _getImgSrc_1 = require("./_getImgSrc");
 const const_1 = require("./const");
+const _parseUrlInfo_1 = require("./_parseUrlInfo");
 function _getRecentUpdate($, json, baseURL, extra) {
     let data = {
         page: parseInt(json.page),
@@ -19,7 +19,7 @@ function _getRecentUpdate($, json, baseURL, extra) {
         let title = (0, trim_1.trimUnsafe)(_this.find('.layui-card-header').text());
         let _a = _this.find('a:has(.layui-card-header)');
         let novel_link = _a.prop('href');
-        let _m = (0, _parseSiteLink_1._parseSiteLink)(novel_link);
+        let _m = (0, _parseUrlInfo_1._parseUrlInfo)(novel_link);
         let _n_info = _this.find('.n-info');
         let authors = [];
         let _author = (0, trim_1.trimUnsafe)(_n_info.find('.author').text().replace(const_1.reAuthors, ''));

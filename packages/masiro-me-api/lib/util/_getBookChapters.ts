@@ -1,7 +1,7 @@
 import { trimUnsafe } from './trim';
-import { _parseSiteLink } from './_parseSiteLink';
 import { IMasiroMeBookWithChapters, IMasiroMeChaptersParent } from '../types';
 import moment from 'moment';
+import { _parseUrlInfo } from './_parseUrlInfo';
 
 export function _getBookChapters($: JQueryStatic)
 {
@@ -48,7 +48,7 @@ export function _getBookChapters($: JQueryStatic)
 				let _a = _this.parent('a:eq(0)');
 
 				let chapter_link = _a.prop('href');
-				let _m = _parseSiteLink(chapter_link);
+				let _m = _parseUrlInfo(chapter_link);
 
 				let chapter_name = trimUnsafe(_a.find('span:eq(0)').text());
 

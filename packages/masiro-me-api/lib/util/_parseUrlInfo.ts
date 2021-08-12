@@ -1,4 +1,5 @@
 import { _handleInputUrl, EnumParseInputUrl, IAllowedInput } from '@node-novel/parse-input-url';
+import { ITSRequireAtLeastOne } from 'ts-type';
 
 /**
  * 支援
@@ -119,7 +120,7 @@ export function _parseUrlInfo<T extends IAllowedInput>(input: T)
 
 export type IReturnTypeParseUrlInfo = ReturnType<typeof _parseUrlInfo>
 
-export function _buildURLByParseUrlInfo(input: Partial<IReturnTypeParseUrlInfo>, baseURL?: string)
+export function _buildURLByParseUrlInfo(input: ITSRequireAtLeastOne<IReturnTypeParseUrlInfo, Exclude<keyof IReturnTypeParseUrlInfo, 'value' | '_input'>>, baseURL?: string)
 {
 	baseURL ??= 'https://masiro.me';
 

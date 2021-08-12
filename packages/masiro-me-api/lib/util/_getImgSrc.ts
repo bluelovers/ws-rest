@@ -1,3 +1,4 @@
+import { betterQualityURL } from 'img-better-quality-url';
 
 export function _getImgSrc(_img: JQuery<HTMLImageElement> | JQuery<HTMLElement>, baseURL?: string): string
 {
@@ -11,10 +12,5 @@ export function _getImgSrc(_img: JQuery<HTMLImageElement> | JQuery<HTMLElement>,
 
 export function _handleImgURL(url: URL)
 {
-	if (url.hostname.includes('masiro'))
-	{
-		url.searchParams.delete('quality');
-	}
-
-	return url
+	return betterQualityURL(url).url
 }

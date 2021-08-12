@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports._getBookChapters = void 0;
 const tslib_1 = require("tslib");
 const trim_1 = require("./trim");
-const _parseSiteLink_1 = require("./_parseSiteLink");
 const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
+const _parseUrlInfo_1 = require("./_parseUrlInfo");
 function _getBookChapters($) {
     var _b;
     let volume_order = 0;
@@ -36,7 +36,7 @@ function _getBookChapters($) {
         else {
             let _a = _this.parent('a:eq(0)');
             let chapter_link = _a.prop('href');
-            let _m = (0, _parseSiteLink_1._parseSiteLink)(chapter_link);
+            let _m = (0, _parseUrlInfo_1._parseUrlInfo)(chapter_link);
             let chapter_name = (0, trim_1.trimUnsafe)(_a.find('span:eq(0)').text());
             if (!(_m === null || _m === void 0 ? void 0 : _m.chapter_id)) {
                 throw new Error(`failed to parse ${chapter_link} ／ ${chapter_name}`);
