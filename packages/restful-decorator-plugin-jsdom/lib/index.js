@@ -4,7 +4,7 @@ exports.AbstractHttpClientWithJSDom = void 0;
 const tslib_1 = require("tslib");
 const lib_1 = require("restful-decorator/lib");
 const pack_1 = require("jsdom-extra/lib/pack");
-const lib_2 = (0, tslib_1.__importStar)(require("@bluelovers/axios-util/lib"));
+const lib_2 = (0, tslib_1.__importDefault)(require("@bluelovers/axios-util/lib"));
 const tough_cookie_1 = require("tough-cookie");
 const jsdom_extra_1 = require("jsdom-extra");
 const buffer_1 = require("buffer");
@@ -12,6 +12,8 @@ const utf8_1 = require("./util/utf8");
 const decorators_1 = require("restful-decorator/lib/decorators");
 const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
 const jsdom_1 = require("./decorators/jsdom");
+const get_http_result_url_1 = require("get-http-result-url");
+const lazy_url_1 = (0, tslib_1.__importDefault)(require("lazy-url"));
 let AbstractHttpClientWithJSDom = class AbstractHttpClientWithJSDom extends lib_1.AbstractHttpClient {
     constructor(...argv) {
         let [defaults] = argv;
@@ -46,14 +48,17 @@ let AbstractHttpClientWithJSDom = class AbstractHttpClientWithJSDom extends lib_
         return (0, jsdom_extra_1.createJSDOM)(html);
     }
     _responseDataToJSDOM(data, response, jsdomOptions) {
+        var _a, _b, _c;
         const html = this._decodeBuffer(data);
         if (response) {
-            let $responseUrl = (0, lib_2.getResponseUrl)(response);
-            if (!$responseUrl && response.config && response.config.url) {
-                $responseUrl = response.config.url.toString();
+            let $responseUrl = (_a = (0, get_http_result_url_1.resultToURL)(response, {
+                ignoreError: true,
+            })) === null || _a === void 0 ? void 0 : _a.href;
+            if (!$responseUrl && ((_b = response.config) === null || _b === void 0 ? void 0 : _b.url)) {
+                $responseUrl = new lazy_url_1.default(response.config.url, response.config.baseURL).href;
             }
             let cookieJar;
-            if (response.config && response.config.jar && typeof response.config.jar === 'object') {
+            if (((_c = response.config) === null || _c === void 0 ? void 0 : _c.jar) && typeof response.config.jar === 'object') {
                 // @ts-ignore
                 cookieJar = response.config.jar;
             }

@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports._getApiClient = void 0;
 const tslib_1 = require("tslib");
-const index_1 = require("@bluelovers/axios-util/lib/index");
 const __1 = require("..");
 const axios_util_1 = require("@bluelovers/axios-util");
 const fs_extra_1 = require("fs-extra");
@@ -12,6 +11,7 @@ const pass_1 = (0, tslib_1.__importDefault)(require("../pass"));
 const lodash_1 = require("lodash");
 const save_1 = require("./save");
 const free_gc_1 = require("free-gc");
+const get_http_result_url_1 = require("get-http-result-url");
 async function _getApiClient(opts) {
     let { api, jar, __path, saveCache, ApiClient, apiOptions, setupCacheFile, saveCacheFileBySelf } = opts;
     const { __root, cacheFilePaths } = __path;
@@ -24,9 +24,12 @@ async function _getApiClient(opts) {
                 retry: 1,
                 retryDelay: 1000,
                 onRetryAttempt: (err) => {
+                    var _a;
                     (0, free_gc_1.freeGC)();
                     let currentRetryAttempt = (0, axios_util_1.dotValue)(err, 'config.raxConfig.currentRetryAttempt');
-                    __1.consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, (0, index_1.getResponseUrl)(err.response));
+                    __1.consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, (_a = (0, get_http_result_url_1.resultToURL)(err.response, {
+                        ignoreError: true,
+                    })) === null || _a === void 0 ? void 0 : _a.href);
                 },
             },
             //			proxy: {

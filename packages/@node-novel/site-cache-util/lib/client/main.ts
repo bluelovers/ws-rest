@@ -21,6 +21,7 @@ import { defaultsDeep } from 'lodash';
 import { _setupCacheFile } from './save';
 import { ITSResolvable } from 'ts-type';
 import { freeGC } from 'free-gc';
+import { resultToURL } from 'get-http-result-url';
 
 export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 	api: T,
@@ -56,7 +57,9 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 
 					let currentRetryAttempt = dotValue(err, 'config.raxConfig.currentRetryAttempt');
 
-					consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, getResponseUrl(err.response));
+					consoleDebug.debug(`Retry attempt #${currentRetryAttempt}`, resultToURL(err.response, {
+						ignoreError: true,
+					})?.href);
 				},
 
 			},
@@ -149,7 +152,8 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 							...localPassword,
 						})
 						// @ts-ignore
-						.then(async (r) => {
+						.then(async (r) =>
+						{
 							console.dir(r)
 							// @ts-ignore
 							console.magenta.info('isLogin', await api.isLogin());

@@ -12,6 +12,7 @@ import { AbstractHttpClient } from '../abstract';
 import { AxiosRequestConfig } from 'axios';
 import { IParamMetadata } from '../../decorators/body';
 import Bluebird from 'bluebird';
+import { resultToURL } from 'get-http-result-url';
 
 export interface IMethodBuilderCache
 {
@@ -140,12 +141,18 @@ export function createMethodBuilder<T extends AbstractHttpClient, R = {}>(wrapFn
 
 							data.thisArgv.$response = ret;
 
+							/*
 							// @ts-ignore
 							if (ret?.request?.res?.responseUrl)
 							{
 								// @ts-ignore
 								data.thisArgv.$responseUrl = ret.request.res.responseUrl;
 							}
+							 */
+
+							data.thisArgv.$responseUrl = resultToURL(ret, {
+								ignoreError: true,
+							})?.href ?? data.thisArgv.$responseUrl;
 
 							if ((builderOptions as IMethodBuilderOptions<T, R>).returnData)
 							{

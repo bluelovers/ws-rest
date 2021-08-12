@@ -28,6 +28,8 @@ import {
 import Bluebird from 'bluebird';
 import { defaultsDeep } from 'lodash';
 import { ReturnValueToJSDOM } from './decorators/jsdom';
+import { resultToURL } from 'get-http-result-url';
+import LazyURL from 'lazy-url';
 
 export { IJSDOM }
 
@@ -97,16 +99,18 @@ export abstract class AbstractHttpClientWithJSDom extends AbstractHttpClient
 
 		if (response)
 		{
-			let $responseUrl = getResponseUrl(response);
+			let $responseUrl = resultToURL(response, {
+				ignoreError: true,
+			})?.href;
 
-			if (!$responseUrl && response.config && response.config.url)
+			if (!$responseUrl && response.config?.url)
 			{
-				$responseUrl = response.config.url.toString()
+				$responseUrl = new LazyURL(response.config.url, response.config.baseURL).href
 			}
 
 			let cookieJar: CookieJar;
 
-			if (response.config && response.config.jar && typeof response.config.jar === 'object')
+			if (response.config?.jar && typeof response.config.jar === 'object')
 			{
 				// @ts-ignore
 				cookieJar = response.config.jar;
