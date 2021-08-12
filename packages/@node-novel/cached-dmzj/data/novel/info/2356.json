@@ -2,22 +2,21 @@
   "id": 2356,
   "name": "记忆使者",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "4th. Episode : First and Last Contact",
-  "last_update_volume_id": 8848,
-  "last_update_chapter_id": 77731,
-  "last_update_time": 1500735480,
-  "cover": "https://xs.dmzj.com/img/webpic/12/jy0722l.jpg",
-  "hot_hits": 1671,
+  "status": "已完结",
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "Last Episode:Confession",
+  "last_update_volume_id": 11728,
+  "last_update_chapter_id": 118790,
+  "last_update_time": 1628766684,
+  "cover": "http://xs.dmzj.com/img/webpic/12/jy0722l.jpg",
+  "hot_hits": 2127,
   "introduction": "　　大学生辽一爱慕罹患严重夜路恐惧症的学姊杏子，辽一耐性陪伴著她，希望能疗愈杏子的恐惧症，然而，杏子却将希望放在都市传说「记忆使者」──传说中，记忆使者能帮人消除想遗忘的记忆。\n　　某一天，杏子竟能自己走夜路回家，看似治愈恐惧症的她，却将辽一的事忘得一乾二净。\n　　开始追寻真相的辽一，发现青梅竹马的邻居玩伴真希似乎也失落了一段重要的记忆；此外，就连他自己的脑中也出现不可思议的空白断层。\n　　究竟「记忆使者」是不可见人的脑外科手术？\n　　抑或是传说中能「吃掉」记忆的怪人？\n　　辽一努力追查的同时，却战栗地发现记忆使者早就潜伏在他身边，虎视眈眈……",
   "types": [
     "校园"
   ],
   "authors": "织守きょうや",
   "first_letter": "J",
-  "subscribe_num": 1848,
-  "redis_update_time": 1564339911,
+  "subscribe_num": 2145,
   "volume": [
     {
       "id": 8848,
@@ -25,7 +24,23 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1500734988,
-      "sum_chapters": 8
+      "sum_chapters": 1
+    },
+    {
+      "id": 11725,
+      "lnovel_id": 2356,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1628679653,
+      "sum_chapters": 1
+    },
+    {
+      "id": 11728,
+      "lnovel_id": 2356,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1628766632,
+      "sum_chapters": 1
     }
   ],
   "chapters": [
@@ -79,6 +94,39 @@
           "chapter_id": 77731,
           "chapter_name": "4th. Episode : First and Last Contact",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11725,
+      "id": 11725,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 118762,
+          "chapter_name": "Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 118763,
+          "chapter_name": "1st. Episode : Gimme Shelter",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 118764,
+          "chapter_name": "at present 1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 118765,
+          "chapter_name": "2nd. Episode : Twin Star",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118766,
+          "chapter_name": "at present 2",
+          "chapter_order": 50
         }
       ]
     }

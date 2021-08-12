@@ -3,13 +3,13 @@
   "name": "欢迎光临魔女馆",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插图",
-  "last_update_volume_id": 6070,
-  "last_update_chapter_id": 42346,
-  "last_update_time": 1401627596,
-  "cover": "https://xs.dmzj.com/img/webpic/0/s8945527hyld.jpg",
-  "hot_hits": 4808,
+  "last_update_volume_name": "第三卷 魔女馆与月亮占卜师",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11720,
+  "last_update_chapter_id": 118759,
+  "last_update_time": 1628604803,
+  "cover": "http://xs.dmzj.com/img/webpic/0/s8945527hyld.jpg",
+  "hot_hits": 4876,
   "introduction": "　　货真价实的魔女现身眼前，你能抵挡成为魔法师的诱惑吗？\n　　亚卡莉是渴望成为魔法师的六年级小学生，某日，爸爸的古董店里，来了一幢精致的娃娃屋和两个古董娃娃，没想到他们竟是真正的魔法师！魔女伊莎贝拉以学习魔法为饵，诱惑亚卡莉替她解除身上的封印。伊莎贝拉真正的企图是什么？亚卡莉会如愿成为魔法师吗？\n　　亚卡莉与死党三人组，即将展开一连串大冒险！",
   "types": [
     "冒险",
@@ -17,8 +17,7 @@
   ],
   "authors": "九十九蓉子",
   "first_letter": "H",
-  "subscribe_num": 46,
-  "redis_update_time": 1564505492,
+  "subscribe_num": 184,
   "volume": [
     {
       "id": 6070,
@@ -26,7 +25,23 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1401627596,
-      "sum_chapters": 16
+      "sum_chapters": 10
+    },
+    {
+      "id": 11719,
+      "lnovel_id": 1651,
+      "volume_name": "第二卷 魔女馆与秘密频道",
+      "volume_order": 20,
+      "addtime": 1628593538,
+      "sum_chapters": 10
+    },
+    {
+      "id": 11720,
+      "lnovel_id": 1651,
+      "volume_name": "第三卷 魔女馆与月亮占卜师",
+      "volume_order": 30,
+      "addtime": 1628593889,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -125,6 +140,207 @@
           "chapter_id": 42346,
           "chapter_name": "插图",
           "chapter_order": 180
+        }
+      ]
+    },
+    {
+      "volume_id": 11719,
+      "id": 11719,
+      "volume_name": "第二卷 魔女馆与秘密频道",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 118696,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 118697,
+          "chapter_name": "1 魔女馆里有台电视机",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 118698,
+          "chapter_name": "2 天才导演来了！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 118699,
+          "chapter_name": "3 超人气天才偶像三日月玛莉亚",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118700,
+          "chapter_name": "4 正式开拍！",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 118701,
+          "chapter_name": "5 搭豪华直升机去电视台！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 118702,
+          "chapter_name": "6 富士山电视台是个奇妙世界",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 118703,
+          "chapter_name": "7 天才导演米开耶鲁的真面目",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 118704,
+          "chapter_name": "8 米开耶鲁乐园就在我们心中",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 118705,
+          "chapter_name": "9 糟了！新月坠子……",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 118706,
+          "chapter_name": "10 潜入米开耶鲁乐园吧！",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 118707,
+          "chapter_name": "11 前往内心深处，出发吧！",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 118708,
+          "chapter_name": "12 哈美恩的天才魔笛手",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 118709,
+          "chapter_name": "13 金斧头、银斧头，还是……？",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 118710,
+          "chapter_name": "14 奥兹国的魔法使不得",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 118711,
+          "chapter_name": "15 与天才点心大厨的厨艺对决",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 118712,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 11720,
+      "id": 11720,
+      "volume_name": "第三卷 魔女馆与月亮占卜师",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 118713,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 118714,
+          "chapter_name": "1 向灵符许愿",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 118715,
+          "chapter_name": "2 天狗山月子神殿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 118716,
+          "chapter_name": "3 月子公主现身",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118717,
+          "chapter_name": "4 摸米开耶鲁的头三下的话……。",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 118718,
+          "chapter_name": "5 月子公主招神",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 118719,
+          "chapter_name": "6 宇宙神秘波动能量安全精确开发简单修行",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 118720,
+          "chapter_name": "7 恐怖而黑暗的死后世界巡礼",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 118721,
+          "chapter_name": "8 高空弹跳是修行的总结",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 118722,
+          "chapter_name": "9 糟了！太阳变暗了……。",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 118723,
+          "chapter_name": "10 月子公主的真面目是……。",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 118724,
+          "chapter_name": "11 寻找天照大神",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 118725,
+          "chapter_name": "12 从天狗山闯入神话世界",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 118726,
+          "chapter_name": "13 小白免真辛苦",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 118727,
+          "chapter_name": "14 与八头巨蛇对决",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 118728,
+          "chapter_name": "15 天之岩洞大骚动",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 118729,
+          "chapter_name": "16 供品是月见汤圆",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 118730,
+          "chapter_name": "终章 月亮彩虹",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 118731,
+          "chapter_name": "后记",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 118759,
+          "chapter_name": "插画",
+          "chapter_order": 200
         }
       ]
     }
