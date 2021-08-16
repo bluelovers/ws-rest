@@ -3,13 +3,13 @@
   "name": "圣剑学院的魔剑使",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
-  "last_update_chapter_name": "Book☆Walker 限定SS",
-  "last_update_volume_id": 11718,
-  "last_update_chapter_id": 118761,
-  "last_update_time": 1628679598,
+  "last_update_volume_name": "第七卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11740,
+  "last_update_chapter_id": 118928,
+  "last_update_time": 1629032122,
   "cover": "http://xs.dmzj.com/img/webpic/29/smj0210l.jpg",
-  "hot_hits": 1126699,
+  "hot_hits": 1127372,
   "introduction": "外表是小孩，内心是魔王！？和姐姐们一起的剑与幻想的学院！\n最强的雷欧尼斯，为了准备近日要来临的决战而封印了自身的存在。\n但是，超过1000年后觉醒时，他竟然变回了10岁少年的模样！\n「为什么！？」「你为什么会被关在这里？已经没事了。姐姐会保护你」。\n雷欧尼斯被所属〈圣剑学院〉的美少女利瑟莉娅保护，对面目全副的世界感到愕然。\n未知的敌人〈Void〉、〈第〇七战术都市〉、形为武器的异能之力——〈圣剑〉。\n虽然对不熟悉的单词困惑，但他还是入学〈圣剑学院〉。\n在失去魔术的世界，最强魔王与美少女们编织的圣剑和魔剑的剑与幻想的学院就此开幕！",
   "types": [
     "校园",
@@ -17,7 +17,7 @@
   ],
   "authors": "志瑞佑",
   "first_letter": "S",
-  "subscribe_num": 31754,
+  "subscribe_num": 32797,
   "volume": [
     {
       "id": 10284,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1565534525,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 10381,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1570966243,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 10598,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1581327389,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11710,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1628430724,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11718,
@@ -57,7 +57,23 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1628593272,
-      "sum_chapters": 10
+      "sum_chapters": 11
+    },
+    {
+      "id": 11727,
+      "lnovel_id": 2711,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1628766325,
+      "sum_chapters": 11
+    },
+    {
+      "id": 11740,
+      "lnovel_id": 2711,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1629030753,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -466,6 +482,124 @@
           "chapter_id": 118776,
           "chapter_name": "第二章 剑鬼众",
           "chapter_order": 30
+        },
+        {
+          "chapter_id": 118777,
+          "chapter_name": "第三章 缇瑟拉的生日宴会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118778,
+          "chapter_name": "第四章 魔王城的入侵者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 118779,
+          "chapter_name": "第五章 魔王，探访樱兰",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 118780,
+          "chapter_name": "第六章 双神",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 118781,
+          "chapter_name": "第七章 封神祀",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 118782,
+          "chapter_name": "第八章 刹罗",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 118783,
+          "chapter_name": "第九章 最强的剑圣",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 118784,
+          "chapter_name": "第十章 圣剑觉醒",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 118785,
+          "chapter_name": "终章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 118786,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 118831,
+          "chapter_name": "插画",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 11740,
+      "id": 11740,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 118892,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 118893,
+          "chapter_name": "第一章 魔眼的少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 118894,
+          "chapter_name": "第二章 帝都〈卡美洛〉",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 118895,
+          "chapter_name": "第三章 强化集训",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118896,
+          "chapter_name": "第四章 暴风雨的预兆",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 118897,
+          "chapter_name": "第五章 暴龙来袭",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 118898,
+          "chapter_name": "第六章 艾尔菲涅的委托",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 118899,
+          "chapter_name": "离开〈影之王国〉，外面的暴雨已经停歇，覆盖天空的灰色雨云业已消散。 〈中央庭园〉的街区还在响着尖锐的警报，都市依旧保持着战斗模式。 「……真是个给人惹麻烦的家伙。」 雷欧尼斯拍打着上衣的灰尘，暗暗叹气道。 ──这时，怀里的通信终端响了起来。 『……君──雷欧君，你在哪里？快回答──』 「啊，瑟莉娅小姐──我没事。」 『雷欧君……』 随着雷欧尼斯的回应，那边传来了安心般的声音。 『真是的，我担心死你了！』",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 118900,
+          "chapter_name": "第八章 魔王会战",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 118901,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 118928,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

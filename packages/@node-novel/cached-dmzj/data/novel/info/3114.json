@@ -2,14 +2,14 @@
   "id": 3114,
   "name": "风神秘抄",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第一卷 上",
-  "last_update_chapter_name": "第五章 逃亡",
-  "last_update_volume_id": 11716,
-  "last_update_chapter_id": 118670,
-  "last_update_time": 1628505066,
+  "status": "已完结",
+  "last_update_volume_name": "第二卷 下",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 11736,
+  "last_update_chapter_id": 118860,
+  "last_update_time": 1628942577,
   "cover": "http://xs.dmzj.com/img/webpic/27/fs0809l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 2,
   "introduction": "　　平安末期的平治之乱，生于武士之家的少年草十郎，遇见为死者镇魂而舞的少女系世。\n　　草十郎深深为其舞技着迷，当场吹起横笛。\n　　舞与笛的初次邂逅，让光辉灿烂的花雨纷飞。\n　　而唯有系世真正了解，这舞笛的交会将产生强大的力量，足以让逝者往生，还能改变生者的命运。\n　　少年与少女携手追寻生存之道时，他们的力量也引来有心人士的觊觎。\n　　两人的命运掀起巨大的波涛……\n　　架构于真实历史中的浪漫神话，乱世中，拥有超凡技艺的少年和少女携手追寻生命的意义。",
   "types": [
     "爱情",
@@ -18,7 +18,7 @@
   ],
   "authors": "荻原规子",
   "first_letter": "F",
-  "subscribe_num": 146,
+  "subscribe_num": 210,
   "volume": [
     {
       "id": 11716,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷 上",
       "volume_order": 10,
       "addtime": 1628504989,
-      "sum_chapters": 10
+      "sum_chapters": 11
+    },
+    {
+      "id": 11736,
+      "lnovel_id": 3114,
+      "volume_name": "第二卷 下",
+      "volume_order": 20,
+      "addtime": 1628942510,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -59,6 +67,39 @@
         {
           "chapter_id": 118670,
           "chapter_name": "第五章 逃亡",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 11736,
+      "id": 11736,
+      "volume_name": "第二卷 下",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 118856,
+          "chapter_name": "第六章 神隐",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 118857,
+          "chapter_name": "第三部 鸟王 第七章 坏笛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 118858,
+          "chapter_name": "第八章 鸟彦王还乡",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 118859,
+          "chapter_name": "第九章 再生",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 118860,
+          "chapter_name": "后记",
           "chapter_order": 50
         }
       ]
