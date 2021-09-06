@@ -3,13 +3,13 @@
   "name": "我的女友是老师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "last_update_volume_name": "第六卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11581,
-  "last_update_chapter_id": 117037,
-  "last_update_time": 1623069059,
+  "last_update_volume_id": 11752,
+  "last_update_chapter_id": 119058,
+  "last_update_time": 1629552292,
   "cover": "http://xs.dmzj.com/img/webpic/18/wls0822l.jpg",
-  "hot_hits": 543554,
+  "hot_hits": 558054,
   "introduction": "　　我要把你从『普通的学生』培养成『爱上我的学生』……！\n　　我•彩木慎过去受到心灵创伤，因此无法信赖『老师』这种身分的人。某一天放学后，校内最受欢迎的美女老师・藤城真香找我过去。「我──喜欢你。」……她竟突然跟我告白！？「我会不择手段地接近你，直到你开口说爱我。」接下来，她在放学后找我过去，声称要教我功课，却强迫我跟她一起看成人影片、与我过度肢体接触、还带我去约会，导致我愈来愈在意她……？\n　　可是，老师跟学生交往会很不妙吧？绝对不能两情相悦（！？）的禁忌爱情喜剧，开始上课！",
   "types": [
     "校园",
@@ -18,7 +18,7 @@
   ],
   "authors": "镜游",
   "first_letter": "W",
-  "subscribe_num": 36374,
+  "subscribe_num": 37316,
   "volume": [
     {
       "id": 10302,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1566473542,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 10940,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1592799259,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11199,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1604222384,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11417,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1615274271,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11581,
@@ -58,7 +58,15 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1623067896,
-      "sum_chapters": 10
+      "sum_chapters": 11
+    },
+    {
+      "id": 11752,
+      "lnovel_id": 2715,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1629549597,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -337,6 +345,59 @@
         },
         {
           "chapter_id": 117037,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11752,
+      "id": 11752,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 119018,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119019,
+          "chapter_name": "①真香老师的热血教育？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119020,
+          "chapter_name": "②真香老师重启运动会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119021,
+          "chapter_name": "③真香老师想使用大人的武器",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119022,
+          "chapter_name": "④女友老师也要暗中活跃",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 119023,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 119024,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 119025,
+          "chapter_name": "纯白特典8P小册子",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 119058,
           "chapter_name": "插画",
           "chapter_order": 90
         }

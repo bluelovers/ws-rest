@@ -3,13 +3,13 @@
   "name": "和非常可爱的我交往吧！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11755,
-  "last_update_chapter_id": 119059,
-  "last_update_time": 1629552386,
+  "last_update_volume_id": 11763,
+  "last_update_chapter_id": 119183,
+  "last_update_time": 1629810267,
   "cover": "http://xs.dmzj.com/img/webpic/2/hwjw0821l.jpg",
-  "hot_hits": 10666,
+  "hot_hits": 83919,
   "introduction": "我接受了班级红人结朱的告白。这是「为了解决现充组的三角关系而假扮情侣」的故事！在教室里装乖的结朱只让我看到的一面是，自恋情结全开的烦人言行……本该是这样的——。",
   "types": [
     "爱情",
@@ -17,7 +17,7 @@
   ],
   "authors": "三上こた",
   "first_letter": "H",
-  "subscribe_num": 1542,
+  "subscribe_num": 4968,
   "volume": [
     {
       "id": 11755,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1629551946,
-      "sum_chapters": 10
+      "sum_chapters": 11
+    },
+    {
+      "id": 11763,
+      "lnovel_id": 3124,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1629806735,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -79,6 +87,74 @@
           "chapter_id": 119059,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11763,
+      "id": 11763,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 119131,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119132,
+          "chapter_name": "一章 对我的可爱献上感激！",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119133,
+          "chapter_name": "曾几何时 1",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119134,
+          "chapter_name": "二章 名为想要和我在一起的顾虑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119135,
+          "chapter_name": "曾几何时 2",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 119136,
+          "chapter_name": "三章 我只为我的存在感到自豪就行了！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 119137,
+          "chapter_name": "曾几何时 3",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 119138,
+          "chapter_name": "四章 虽然不是不行，但希望你能说出口。",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 119139,
+          "chapter_name": "全新的二人。",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 119140,
+          "chapter_name": "尾声 我的可爱是无法收回的！",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 119141,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 119183,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }
