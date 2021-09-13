@@ -3,13 +3,13 @@
   "name": "和非常可爱的我交往吧！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11763,
-  "last_update_chapter_id": 119183,
-  "last_update_time": 1629810267,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "三章 …………你会过得快乐吗？",
+  "last_update_volume_id": 11794,
+  "last_update_chapter_id": 119580,
+  "last_update_time": 1631098138,
   "cover": "http://xs.dmzj.com/img/webpic/2/hwjw0821l.jpg",
-  "hot_hits": 83919,
+  "hot_hits": 100688,
   "introduction": "我接受了班级红人结朱的告白。这是「为了解决现充组的三角关系而假扮情侣」的故事！在教室里装乖的结朱只让我看到的一面是，自恋情结全开的烦人言行……本该是这样的——。",
   "types": [
     "爱情",
@@ -17,7 +17,7 @@
   ],
   "authors": "三上こた",
   "first_letter": "H",
-  "subscribe_num": 4968,
+  "subscribe_num": 5945,
   "volume": [
     {
       "id": 11755,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1629551946,
-      "sum_chapters": 11
+      "sum_chapters": 4
     },
     {
       "id": 11763,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1629806735,
-      "sum_chapters": 11
+      "sum_chapters": 4
+    },
+    {
+      "id": 11794,
+      "lnovel_id": 3124,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1631098084,
+      "sum_chapters": 4
     }
   ],
   "chapters": [
@@ -155,6 +163,34 @@
           "chapter_id": 119183,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11794,
+      "id": 11794,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 119577,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119578,
+          "chapter_name": "一章 但是最爱结朱酱的情感是真心的吧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119579,
+          "chapter_name": "二章 能够疼爱像我这么可爱的女孩子，不如说是一种奖励吧",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119580,
+          "chapter_name": "三章 …………你会过得快乐吗？",
+          "chapter_order": 40
         }
       ]
     }
