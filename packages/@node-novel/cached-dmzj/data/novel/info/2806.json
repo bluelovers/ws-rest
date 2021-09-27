@@ -3,13 +3,13 @@
   "name": "公主殿下貌似大发雷霆",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 暗中活跃的阴影",
+  "last_update_volume_name": "第四卷 交错的记忆",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11484,
-  "last_update_chapter_id": 115786,
-  "last_update_time": 1617956053,
+  "last_update_volume_id": 11796,
+  "last_update_chapter_id": 119621,
+  "last_update_time": 1631189627,
   "cover": "http://xs.dmzj.com/img/webpic/12/wn0223l.jpg",
-  "hot_hits": 237007,
+  "hot_hits": 246453,
   "introduction": "　　身为公主，同时也是最强魔术师的蕾缇榭儿因为战争失去性命，转生到了千年以后的世界。虽然转生后的她由于缺乏魔力，身边的人都视她为无能大小姐，却因为能使用蕾缇榭儿的「魔术」而让人大吃一惊。后来蕾缇榭儿在学园里亲眼见到了千年后的「魔术」──却对魔术的粗糙简陋而大发雷霆！忍无可忍的蕾缇榭儿施放的「魔术」震撼了整间学园，最终甚至传进了国王耳中，蕾缇榭儿却因为热衷于魔术研究而对此浑然不觉──！？卷入和前世伴侣十分相似的少年吉克，以及吊车尾的大小姐米兰妲蕾特，转世的公主殿下在属于自己的道路上突飞猛进！脱离常识的最强魔术谭，于焉开幕！！",
   "types": [
     "魔法",
@@ -17,7 +17,7 @@
   ],
   "authors": "八ツ桥皓",
   "first_letter": "G",
-  "subscribe_num": 10304,
+  "subscribe_num": 11259,
   "volume": [
     {
       "id": 10630,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 转生公主与古老之力",
       "volume_order": 10,
       "addtime": 1582451449,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 10891,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 精灵王的来访",
       "volume_order": 20,
       "addtime": 1590660366,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11484,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷 暗中活跃的阴影",
       "volume_order": 30,
       "addtime": 1617955314,
-      "sum_chapters": 10
+      "sum_chapters": 11
+    },
+    {
+      "id": 11796,
+      "lnovel_id": 2806,
+      "volume_name": "第四卷 交错的记忆",
+      "volume_order": 40,
+      "addtime": 1631188628,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -274,6 +282,84 @@
         },
         {
           "chapter_id": 115786,
+          "chapter_name": "插画",
+          "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 11796,
+      "id": 11796,
+      "volume_name": "第四卷 交错的记忆",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 119591,
+          "chapter_name": "序章 精灵会议",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119592,
+          "chapter_name": "一章 于尼尔温王立图书馆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119593,
+          "chapter_name": "二章 圣路克雷兹亚的回忆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119594,
+          "chapter_name": "闲章 王家之心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119595,
+          "chapter_name": "三章 菲利亚雷奇斯公爵领",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 119596,
+          "chapter_name": "闲章 追上她的人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 119597,
+          "chapter_name": "四章 在交错的愤怒前方",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 119598,
+          "chapter_name": "闲章 我的罪",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 119599,
+          "chapter_name": "五章 黑之炎",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 119600,
+          "chapter_name": "六章 朵萝赛露",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 119601,
+          "chapter_name": "七章 叛乱的终结与后话",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 119602,
+          "chapter_name": "终章 在红色星星守望的世界",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 119603,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 119621,
           "chapter_name": "插画",
           "chapter_order": 140
         }

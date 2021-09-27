@@ -3,13 +3,13 @@
   "name": "异世界悠闲农家",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "last_update_volume_name": "第七卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11479,
-  "last_update_chapter_id": 115719,
-  "last_update_time": 1617813975,
+  "last_update_volume_id": 11765,
+  "last_update_chapter_id": 119181,
+  "last_update_time": 1629810145,
   "cover": "http://xs.dmzj.com/img/webpic/25/yx0709l.jpg",
-  "hot_hits": 617619,
+  "hot_hits": 660544,
   "introduction": "和病魔斗争但最终死去的火乐，被神大人所复活，回复年轻及转移在异世界。为了第二次人生，享受悠闲的农家生活。",
   "types": [
     "异界",
@@ -17,7 +17,7 @@
   ],
   "authors": "内藤骑之介",
   "first_letter": "Y",
-  "subscribe_num": 21893,
+  "subscribe_num": 22738,
   "volume": [
     {
       "id": 9554,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1531144930,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 10300,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1566472521,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 10611,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1581753197,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 10851,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1589362789,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11112,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1599907259,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11479,
@@ -65,7 +65,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1617800593,
-      "sum_chapters": 10
+      "sum_chapters": 11
+    },
+    {
+      "id": 11765,
+      "lnovel_id": 2516,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1629807122,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -347,6 +355,49 @@
         },
         {
           "chapter_id": 115719,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11765,
+      "id": 11765,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 119150,
+          "chapter_name": "序章 希望",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119151,
+          "chapter_name": "第一章 「五号村」与剑圣",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119152,
+          "chapter_name": "第二章 秋冬的样子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119153,
+          "chapter_name": "第三章 春天与虾与胜负",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119154,
+          "chapter_name": "终章 「五号村」的产业发展计画",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 119155,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 119181,
           "chapter_name": "插画",
           "chapter_order": 70
         }

@@ -3,21 +3,20 @@
   "name": "Genocide Online",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 极恶千金的集团游戏",
+  "last_update_volume_name": "第三卷 极恶千金的混沌冲突",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10919,
-  "last_update_chapter_id": 107549,
-  "last_update_time": 1592038354,
-  "cover": "https://xs.dmzj.com/img/webpic/25/go0609l.jpg",
-  "hot_hits": 70534,
+  "last_update_volume_id": 11797,
+  "last_update_chapter_id": 119622,
+  "last_update_time": 1631189747,
+  "cover": "http://xs.dmzj.com/img/webpic/25/go0609l.jpg",
+  "hot_hits": 137744,
   "introduction": "要注意那个可怜的少女\"杀人鬼\"——\n一条玲奈虽然出生于名门望族，却被父亲疏远，并且从孩提时代起一直无自觉地在内心里孕育着恶意。随着曾经作为唯一的防波堤的最爱的母亲离世，她预见到自己的异常性终会爆发出来，于是她决定投身VRMMO游戏的架空世界里，贯彻恶役来解放一直压抑住的自己。按照自己的想法，如愿以偿地展开屠杀【玩耍】，一切都是为了内心的安宁。有着纯粹心灵的屠杀者・丽奈，将恐慌带来虚拟的乐园，并将它涂成地狱绘图！",
   "types": [
     "科幻"
   ],
   "authors": "たけのこ",
   "first_letter": "G",
-  "subscribe_num": 4333,
-  "redis_update_time": 1592179917,
+  "subscribe_num": 7353,
   "volume": [
     {
       "id": 10913,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷 极恶千金的玩游戏日记",
       "volume_order": 10,
       "addtime": 1591677345,
-      "sum_chapters": 63
+      "sum_chapters": 11
     },
     {
       "id": 10919,
@@ -33,7 +32,15 @@
       "volume_name": "第二卷 极恶千金的集团游戏",
       "volume_order": 20,
       "addtime": 1592031108,
-      "sum_chapters": 63
+      "sum_chapters": 11
+    },
+    {
+      "id": 11797,
+      "lnovel_id": 2880,
+      "volume_name": "第三卷 极恶千金的混沌冲突",
+      "volume_order": 30,
+      "addtime": 1631188839,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -235,6 +242,69 @@
           "chapter_id": 107549,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 11797,
+      "id": 11797,
+      "volume_name": "第三卷 极恶千金的混沌冲突",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 119604,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119605,
+          "chapter_name": "第一章 能和我成为朋友吗？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119606,
+          "chapter_name": "第二章 善恶攻守逆转",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119607,
+          "chapter_name": "幕间 官方揭示板 其1",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119608,
+          "chapter_name": "第三章 新朋友",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 119609,
+          "chapter_name": "第四章 不是人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 119610,
+          "chapter_name": "第五章 威能游戏",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 119611,
+          "chapter_name": "幕间 官方揭示板 其2",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 119612,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 119613,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 119622,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "紫罗兰永恒花园",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "裁缝铺与自动手记人偶",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11522,
-  "last_update_chapter_id": 116231,
-  "last_update_time": 1619799002,
+  "last_update_volume_name": "ever after",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 11766,
+  "last_update_chapter_id": 119161,
+  "last_update_time": 1629807378,
   "cover": "http://xs.dmzj.com/img/webpic/19/zll0106l.jpg",
-  "hot_hits": 677336,
+  "hot_hits": 682838,
   "introduction": "「自动手记人偶」的诞生，是遥远过去的事情。\n活版印刷的权威奥兰德博士，为了失明的小说家妻子·茉莉，而发明了即使看不见也能记录文字的机械。小巧可爱的人偶一般的机械。博士将妻子的思念和心愿注入其中，称其为「自动手记人偶」。\n之后，「自动手记人偶」成为众多人们的支柱，得到了普及。现在，这个名字成为了代替无法书写的人们和想要传达思念的人们，汲取他们的心情，以言语的形式传达，从事这样的职业的女性们的代称。\n这是，生于时代转换期的一位少女，薇尔莉特·伊芙加登以自动手记人偶的身份，连接人与人心灵的故事——京都动画大赏首部大赏受赏作\n「若是客人您有所期望的话，我可以去往任何地方。我是，自动手记人偶服务，薇尔莉特·伊芙加登。」",
   "types": [
     "爱情",
@@ -17,7 +17,7 @@
   ],
   "authors": "晓佳奈",
   "first_letter": "Z",
-  "subscribe_num": 72238,
+  "subscribe_num": 73535,
   "volume": [
     {
       "id": 9158,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1515244612,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 9159,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1515244870,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 10597,
@@ -41,7 +41,7 @@
       "volume_name": "外传",
       "volume_order": 30,
       "addtime": 1581327056,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11141,
@@ -49,7 +49,7 @@
       "volume_name": "If",
       "volume_order": 40,
       "addtime": 1601030944,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11522,
@@ -57,7 +57,15 @@
       "volume_name": "裁缝铺与自动手记人偶",
       "volume_order": 50,
       "addtime": 1619798910,
-      "sum_chapters": 10
+      "sum_chapters": 11
+    },
+    {
+      "id": 11766,
+      "lnovel_id": 2424,
+      "volume_name": "ever after",
+      "volume_order": 60,
+      "addtime": 1629807290,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -258,6 +266,39 @@
           "chapter_id": 116231,
           "chapter_name": "插画",
           "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 11766,
+      "id": 11766,
+      "volume_name": "ever after",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 119157,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119158,
+          "chapter_name": "第1章【蔷薇与自动手记人偶】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119159,
+          "chapter_name": "第4章【亲爱的你与自动手记人偶】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119160,
+          "chapter_name": "第5章【追梦人与自动手记人偶】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119161,
+          "chapter_name": "后记",
+          "chapter_order": 50
         }
       ]
     }

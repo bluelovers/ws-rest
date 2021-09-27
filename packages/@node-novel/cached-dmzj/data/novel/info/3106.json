@@ -1,15 +1,15 @@
 {
   "id": 3106,
-  "name": "经验丰富的你和经验为零的我交往的故事",
+  "name": "位于恋爱光谱极端的我们(经验丰富的你和经验为零的我交往的故事)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11697,
-  "last_update_chapter_id": 118473,
-  "last_update_time": 1627737537,
+  "last_update_volume_id": 11823,
+  "last_update_chapter_id": 119916,
+  "last_update_time": 1632154752,
   "cover": "http://xs.dmzj.com/img/webpic/14/jyff0731l.jpg",
-  "hot_hits": 249,
+  "hot_hits": 4033,
   "introduction": "「我，我喜欢你!」「诶？你是铃木!?」。\n阴气十足的高中生·加岛龙斗，以惩罚游戏为契机向学校最上位&憧憬的白河月爱告白。\n两人以意料之外的「那、反正我现在单身」为由开始交往，龙斗偷听到月爱被足球部的阳角帅哥告白，月爱把刚刚交往的龙斗理所当然地带进了自己的房间。\n交往的朋友也好，玩的游戏也好，一切都不一样的两个人，每天都被这种反差所惊讶，开始互相接受，然后开始心灵相通。\n读了一定会有美妙心情的爱情故事开始了!",
   "types": [
     "校园",
@@ -17,7 +17,7 @@
   ],
   "authors": "长冈マキ子",
   "first_letter": "J",
-  "subscribe_num": 1542,
+  "subscribe_num": 3669,
   "volume": [
     {
       "id": 11697,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1627737051,
-      "sum_chapters": 13
+      "sum_chapters": 11
+    },
+    {
+      "id": 11823,
+      "lnovel_id": 3106,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1632153695,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -97,6 +105,79 @@
         },
         {
           "chapter_id": 118473,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 11823,
+      "id": 11823,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 119875,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119876,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119877,
+          "chapter_name": "第1.5章 黑濑海爱的秘密日记",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119878,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119879,
+          "chapter_name": "第2.5章 黑濑海爱的秘密日记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 119880,
+          "chapter_name": "第三章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 119881,
+          "chapter_name": "第3.5章 月爱和笑琉的电话粥",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 119882,
+          "chapter_name": "第四章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 119883,
+          "chapter_name": "第4.5章 黑濑海爱的秘密日记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 119884,
+          "chapter_name": "第五章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 119885,
+          "chapter_name": "第5.5章 月爱和笑琉的电话粥",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 119886,
+          "chapter_name": "尾声",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 119916,
           "chapter_name": "插画",
           "chapter_order": 130
         }

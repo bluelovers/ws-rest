@@ -3,13 +3,13 @@
   "name": "好歹把猪肝热一下啊！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11110,
-  "last_update_chapter_id": 110195,
-  "last_update_time": 1599835349,
-  "cover": "https://xs.dmzj.com/img/webpic/29/zgjr0911l.jpg",
-  "hot_hits": 31523,
+  "last_update_volume_id": 11825,
+  "last_update_chapter_id": 119917,
+  "last_update_time": 1632154900,
+  "cover": "http://xs.dmzj.com/img/webpic/29/zgjr0911l.jpg",
+  "hot_hits": 43693,
   "introduction": "我是个吃了生猪肝后失去意识、冷不防的宅男。本以为转生到了异世界，没想到却变成了猪！\n帮助在猪圈里滚动的我的，是能读懂人心的少女婕丝。\n布希 好可爱！ 如果是猪的视线的话，从裙子的下摆开始就很纯白……。\n“那个，能听到心的声音……”\n糟了！ 欲望泄漏了！\n“如果是您想要的，只要一点点就好了”\n诶，喂……！ ？\n就像野兽一样，接受了我的欲望（有点退缩的感觉），被纯真的少女照顾的生活。嗯，做猪也不错吧？\n这就是我们这些丑八怪的大冒险……对吧，婕丝，为什么你会被盯上性命呢？\n来吧，既没有魔法也没有技能的猪啊，用智慧，机智和嗅觉来拯救被困在残酷命运中的少女吧！",
   "types": [
     "异界",
@@ -17,8 +17,7 @@
   ],
   "authors": "逆井卓马",
   "first_letter": "H",
-  "subscribe_num": 4524,
-  "redis_update_time": 1607634794,
+  "subscribe_num": 6506,
   "volume": [
     {
       "id": 11110,
@@ -26,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1599833036,
-      "sum_chapters": 68
+      "sum_chapters": 11
+    },
+    {
+      "id": 11825,
+      "lnovel_id": 2933,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1632154054,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -75,6 +82,74 @@
           "chapter_id": 110195,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 11825,
+      "id": 11825,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 119894,
+          "chapter_name": "断一章 重要的事情",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119895,
+          "chapter_name": "第一章 好奇心也该适可而止",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119896,
+          "chapter_name": "断二章 重要的人物",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119897,
+          "chapter_name": "第二章 绝对别错失机会",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119898,
+          "chapter_name": "断三章 重要的时刻",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 119899,
+          "chapter_name": "第三章 人生不晓得会发生什么事",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 119900,
+          "chapter_name": "断四章 重要的东西",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 119901,
+          "chapter_name": "第四章 心意要趁早表达出来",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 119902,
+          "chapter_name": "断五章 重要的……",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 119903,
+          "chapter_name": "第五章 失忆故事中的恋情不会实现",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 119904,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 119917,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }

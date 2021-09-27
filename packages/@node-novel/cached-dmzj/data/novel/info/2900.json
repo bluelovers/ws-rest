@@ -3,13 +3,13 @@
   "name": "弹珠汽水瓶里的千岁同学",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "Animate特典《我们的单挑》",
-  "last_update_volume_id": 11371,
-  "last_update_chapter_id": 119017,
-  "last_update_time": 1629476820,
+  "last_update_volume_name": "短篇集册子",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11822,
+  "last_update_chapter_id": 119869,
+  "last_update_time": 1631941528,
   "cover": "http://xs.dmzj.com/img/webpic/13/dzqs0718l.jpg",
-  "hot_hits": 324921,
+  "hot_hits": 341183,
   "introduction": "　　「五班的千岁朔是乱玩女人的渣男」──就算在学校匿名网站备受攻击，依然君临藤志高中阶级制度顶层的现充，千岁朔。他身边总是围绕著外表内在都很优秀的一群朋友，像是公主气场满点的正宫位‧柊夕湖、努力的后天型现充‧内田优空，以及活力十足的篮球社主将‧青海阳……朔和朋友们在新班级里的快乐日子才开始没多久，便有人拜托朔帮助一位把自己关在家里的学生。本书是他的现充后宫传，还是──？宣告新时代来临的「现充视角」青春爱情故事，在此堂堂开幕！！",
   "types": [
     "校园",
@@ -17,7 +17,7 @@
   ],
   "authors": "裕梦",
   "first_letter": "D",
-  "subscribe_num": 19498,
+  "subscribe_num": 20819,
   "volume": [
     {
       "id": 10992,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1595079110,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11258,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1607253558,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11259,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1607253817,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 11371,
@@ -49,15 +49,23 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1613481631,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
-      "id": 11748,
+      "id": 11821,
       "lnovel_id": 2900,
-      "volume_name": "短篇",
+      "volume_name": "第五卷",
       "volume_order": 50,
-      "addtime": 1629379908,
-      "sum_chapters": 10
+      "addtime": 1631940469,
+      "sum_chapters": 11
+    },
+    {
+      "id": 11822,
+      "lnovel_id": 2900,
+      "volume_name": "短篇集册子",
+      "volume_order": 60,
+      "addtime": 1631940630,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -299,25 +307,148 @@
       ]
     },
     {
-      "volume_id": 11748,
-      "id": 11748,
-      "volume_name": "短篇",
+      "volume_id": 11821,
+      "id": 11821,
+      "volume_name": "第五卷",
       "volume_order": 50,
       "chapters": [
         {
-          "chapter_id": 118995,
-          "chapter_name": "漫画第一卷特典《比如说第一个呼唤的名字》",
+          "chapter_id": 119844,
+          "chapter_name": "序章 我的特别",
           "chapter_order": 10
         },
         {
-          "chapter_id": 118996,
-          "chapter_name": "漫画第一卷特典《窗外》",
+          "chapter_id": 119845,
+          "chapter_name": "一章 暑假的日历",
           "chapter_order": 20
         },
         {
-          "chapter_id": 118997,
-          "chapter_name": "漫画第二卷特典《屋外》",
+          "chapter_id": 119846,
+          "chapter_name": "二章 夏夜烟火",
           "chapter_order": 30
+        },
+        {
+          "chapter_id": 119847,
+          "chapter_name": "三章 海浪对面的分隔线",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119848,
+          "chapter_name": "四章 夕暮之湖",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 119849,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 119868,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11822,
+      "id": 11822,
+      "volume_name": "短篇集册子",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 119850,
+          "chapter_name": "比如说第一个呼唤的名字（漫画第1集连动特典／优空）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119851,
+          "chapter_name": "窗外（收录于漫画第1集／优空）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119852,
+          "chapter_name": "屋外（收录于漫画第2集／夕湖）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119853,
+          "chapter_name": "雨啊雨啊，下吧下吧（Melonbooks轻小说祭／优空）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119854,
+          "chapter_name": "延向远方的影子（Melonbooks青春祭／明日风）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 119855,
+          "chapter_name": "一如往常的拿铁，一如往常的焙茶拿铁（第2集虎之穴特典／优空）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 119856,
+          "chapter_name": "两人的放学后男友（第2集animate特典／悠月×阳）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 119857,
+          "chapter_name": "也许是，朋友喜欢的人（Melonbooks轻小说祭／阳）",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 119858,
+          "chapter_name": "秘密的蓝与蓝（第2集GAMERS特典／夕湖）",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 119859,
+          "chapter_name": "期望的永远，下次见（第3集animate特典／夕湖×优空）",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 119860,
+          "chapter_name": "想解开领带的日子（第3集GAMERS特典／阳）",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 119861,
+          "chapter_name": "想得却得不到，总是只能观望（第3集虎之穴特典／夕湖）",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 119862,
+          "chapter_name": "洗发精与棒球帽（第3集BOOKWALKER特典／悠月）",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 119863,
+          "chapter_name": "想与你共赏的蓝月（Melonbooks轻小说祭／明日风）",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 119864,
+          "chapter_name": "谎言是夏日的开始（第4集虎之穴特典／夕湖×阳）",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 119865,
+          "chapter_name": "学姊与学弟的距离（第4集GAMERS特典／明日风×阳）",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 119866,
+          "chapter_name": "我们的单挑（第4集animate特典／悠月）",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 119867,
+          "chapter_name": "深夜前的月亮与破晓前的太阳",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 119869,
+          "chapter_name": "插画",
+          "chapter_order": 190
         }
       ]
     }

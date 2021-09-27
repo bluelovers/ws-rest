@@ -3,21 +3,20 @@
   "name": "京都寺町三条商店街的福尔摩斯",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 真赝事件簿",
-  "last_update_chapter_name": "终章『迷惘与顿悟』",
-  "last_update_volume_id": 9922,
-  "last_update_chapter_id": 93336,
-  "last_update_time": 1548406694,
-  "cover": "https://xs.dmzj.com/img/webpic/23/jd0125l.jpg",
-  "hot_hits": 7579,
+  "last_update_volume_name": "第四卷 神秘的茶会",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 11815,
+  "last_update_chapter_id": 119791,
+  "last_update_time": 1631720158,
+  "cover": "http://xs.dmzj.com/img/webpic/23/jd0125l.jpg",
+  "hot_hits": 10840,
   "introduction": "　　京都寺町的三条商店街里，\n　　静静伫立着一间古董店「藏」。\n　　女高中生真城葵在因缘巧合之下，\n　　结识了该古董店老板的儿子——家头清贵，并开始在店里打工。\n　　清贵待人谦和有礼，直觉却敏锐得惊人，\n　　素有「寺町福尔摩斯」之称。\n　　葵和清贵一起接受各种与客人带来的古董品有关的委托，\n　　但——\n　　以古都为舞台的轻推理杰作！",
   "types": [
     "侦探"
   ],
   "authors": "望月麻衣",
   "first_letter": "J",
-  "subscribe_num": 2145,
-  "redis_update_time": 1564339383,
+  "subscribe_num": 2924,
   "volume": [
     {
       "id": 9921,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1548403863,
-      "sum_chapters": 8
+      "sum_chapters": 11
     },
     {
       "id": 9922,
@@ -33,7 +32,23 @@
       "volume_name": "第二卷 真赝事件簿",
       "volume_order": 20,
       "addtime": 1548404254,
-      "sum_chapters": 8
+      "sum_chapters": 11
+    },
+    {
+      "id": 11814,
+      "lnovel_id": 2618,
+      "volume_name": "第三卷 隐于浮世绘的思慕",
+      "volume_order": 30,
+      "addtime": 1631634596,
+      "sum_chapters": 11
+    },
+    {
+      "id": 11815,
+      "lnovel_id": 2618,
+      "volume_name": "第四卷 神秘的茶会",
+      "volume_order": 40,
+      "addtime": 1631720092,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -125,6 +140,67 @@
           "chapter_id": 93336,
           "chapter_name": "终章『迷惘与顿悟』",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11814,
+      "id": 11814,
+      "volume_name": "第三卷 隐于浮世绘的思慕",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 119782,
+          "chapter_name": "序章『暗恋』",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119783,
+          "chapter_name": "第一章『歌舞伎美人的恋慕』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119784,
+          "chapter_name": "第二章『圣诞夜之泪与不在场证明的瓦解』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119785,
+          "chapter_name": "第三章『祇园钟声』",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 11815,
+      "id": 11815,
+      "volume_name": "第四卷 神秘的茶会",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 119787,
+          "chapter_name": "序章『一年之初』",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119788,
+          "chapter_name": "第一章『陶瓷娃娃之泪』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119789,
+          "chapter_name": "第二章『情人节的晚宴』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119790,
+          "chapter_name": "第三章『继承人的条件』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 119791,
+          "chapter_name": "后记",
+          "chapter_order": 50
         }
       ]
     }

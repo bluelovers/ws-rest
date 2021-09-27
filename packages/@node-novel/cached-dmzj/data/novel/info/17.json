@@ -3,21 +3,20 @@
   "name": "拔刀狂想曲",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第2卷 刀侠战姬言想录",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 3092,
-  "last_update_chapter_id": 82673,
-  "last_update_time": 1517829846,
-  "cover": "https://xs.dmzj.com/img/webpic/7/0018O.jpg",
-  "hot_hits": 231356,
+  "last_update_volume_name": "第三卷 刀侠战姬飞恋录",
+  "last_update_chapter_name": "二 日常",
+  "last_update_volume_id": 11787,
+  "last_update_chapter_id": 119460,
+  "last_update_time": 1630935191,
+  "cover": "http://xs.dmzj.com/img/webpic/7/0018O.jpg",
+  "hot_hits": 270157,
   "introduction": "平凡的高中生木之崎朋转学进入了火群棚学园。上学的当天，他遇见了战斗中的金发美少女光(ヒカル)。尚且一头雾水的木之崎就这样被卷入了战斗之中。随之，少女光(ヒカル)命令他“拔刀”。这意味着成为一名アンシーズ——将自己的“男性”作为武器，从而获得强大力量的，但作为代价身体将化身为女性。。。",
   "types": [
     "其它"
   ],
   "authors": "宫沢周",
   "first_letter": "B",
-  "subscribe_num": 13377,
-  "redis_update_time": 1565033832,
+  "subscribe_num": 17919,
   "volume": [
     {
       "id": 65,
@@ -25,7 +24,7 @@
       "volume_name": "第1卷 刀侠战姬血风录",
       "volume_order": 10,
       "addtime": 1274917729,
-      "sum_chapters": 10
+      "sum_chapters": 11
     },
     {
       "id": 3092,
@@ -33,7 +32,15 @@
       "volume_name": "第2卷 刀侠战姬言想录",
       "volume_order": 20,
       "addtime": 1281664740,
-      "sum_chapters": 10
+      "sum_chapters": 11
+    },
+    {
+      "id": 11787,
+      "lnovel_id": 17,
+      "volume_name": "第三卷 刀侠战姬飞恋录",
+      "volume_order": 30,
+      "addtime": 1630935142,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -145,6 +152,34 @@
           "chapter_id": 82673,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 11787,
+      "id": 11787,
+      "volume_name": "第三卷 刀侠战姬飞恋录",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 119457,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 119458,
+          "chapter_name": "一 感情",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 119459,
+          "chapter_name": "幕间一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 119460,
+          "chapter_name": "二 日常",
+          "chapter_order": 40
         }
       ]
     }
