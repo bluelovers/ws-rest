@@ -3,21 +3,20 @@
   "name": "天久鹰央的推理病历表",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 密室偏执狂",
+  "last_update_volume_name": "第四卷 悲恋综合征(syndrome)",
   "last_update_chapter_name": "终章",
-  "last_update_volume_id": 10064,
-  "last_update_chapter_id": 95478,
-  "last_update_time": 1555678242,
-  "cover": "https://xs.dmzj.com/img/webpic/26/tjyydtlblb3578l.jpg",
-  "hot_hits": 10688,
+  "last_update_volume_id": 11848,
+  "last_update_chapter_id": 120199,
+  "last_update_time": 1633871833,
+  "cover": "http://xs.dmzj.com/img/webpic/26/tjyydtlblb3578l.jpg",
+  "hot_hits": 28103,
   "introduction": "　　统括诊断部——这是天医会综合医院所设立的特别部门，\n　　被各个科别判定为“难以诊断”的患者都会被送到这里来。\n　　坚持自己看到了河童的少年、\n　　因为看到鬼火而害怕不已的护理师、\n　　发现自己突然怀孕而万分激动的女高中生……\n　　在这些看似不可思议的“事件”背后，\n　　其实隐藏着意想不到的“疾病”……？\n　　山思路清晰、傅学多闻的\n　　天才女翔师·天久鹰央来解开所有谜团\n　　新型态医学推理故事登场！",
   "types": [
     "侦探"
   ],
   "authors": "知念实希人",
   "first_letter": "T",
-  "subscribe_num": 2847,
-  "redis_update_time": 1564353314,
+  "subscribe_num": 3638,
   "volume": [
     {
       "id": 7711,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1460634831,
-      "sum_chapters": 8
+      "sum_chapters": 1
     },
     {
       "id": 10055,
@@ -33,7 +32,7 @@
       "volume_name": "第二卷 魅影病房",
       "volume_order": 20,
       "addtime": 1555338503,
-      "sum_chapters": 8
+      "sum_chapters": 1
     },
     {
       "id": 10064,
@@ -41,7 +40,15 @@
       "volume_name": "第三卷 密室偏执狂",
       "volume_order": 30,
       "addtime": 1555678154,
-      "sum_chapters": 8
+      "sum_chapters": 1
+    },
+    {
+      "id": 11848,
+      "lnovel_id": 2109,
+      "volume_name": "第四卷 悲恋综合征(syndrome)",
+      "volume_order": 40,
+      "addtime": 1633871766,
+      "sum_chapters": 1
     }
   ],
   "chapters": [
@@ -166,6 +173,39 @@
           "chapter_id": 95478,
           "chapter_name": "终章",
           "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 11848,
+      "id": 11848,
+      "volume_name": "第四卷 悲恋综合征(syndrome)",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 120195,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 120196,
+          "chapter_name": "第一章 迷了路的诅咒",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 120197,
+          "chapter_name": "第二章 宝物长眠于垃圾堆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 120198,
+          "chapter_name": "第三章 瞬间移动的女人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 120199,
+          "chapter_name": "终章",
+          "chapter_order": 50
         }
       ]
     }
