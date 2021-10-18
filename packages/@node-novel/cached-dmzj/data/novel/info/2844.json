@@ -3,13 +3,13 @@
   "name": "创约 魔法禁书目录",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11501,
-  "last_update_chapter_id": 116000,
-  "last_update_time": 1618832354,
+  "last_update_volume_id": 11864,
+  "last_update_chapter_id": 120373,
+  "last_update_time": 1634393371,
   "cover": "http://xs.dmzj.com/img/webpic/13/cy0403l.jpg",
-  "hot_hits": 176529,
+  "hot_hits": 179406,
   "introduction": "《魔法禁书目录》系列的第三部\n超越新约，开创新的时代！“创约”篇，开幕！！\n科学与魔法交错的世界。\n这里是进行超能力课程教学的学园都市。这座总人口里有八成为学生的城市，终于迎来了所有人都心跳不已的季节！\n圣诞平安夜。\n在城市欢快的喧闹声中，平凡的掉队少年上条当麻为了赶上这个节日，不得不忙于完成补习授课……。\n但是受到不幸体质的眷顾，寄住于宿舍的银发修女茵蒂克丝在与往常日子不同的节日氛围影响下，开启了全新的贪吃鬼技能！？\n在拼死阻止她的上条面前，出现了同样被气氛影响的御坂美琴！？、\n“创约”篇在此华丽开幕！！",
   "types": [
     "爱情",
@@ -19,7 +19,7 @@
   ],
   "authors": "镰池和马",
   "first_letter": "C",
-  "subscribe_num": 24404,
+  "subscribe_num": 26044,
   "volume": [
     {
       "id": 10862,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1589711764,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 11221,
@@ -35,7 +35,7 @@
       "volume_name": "短篇",
       "volume_order": 20,
       "addtime": 1605438455,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 11222,
@@ -43,7 +43,7 @@
       "volume_name": "第二卷",
       "volume_order": 30,
       "addtime": 1605438481,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 11501,
@@ -51,7 +51,15 @@
       "volume_name": "第三卷",
       "volume_order": 40,
       "addtime": 1618830498,
-      "sum_chapters": 10
+      "sum_chapters": 8
+    },
+    {
+      "id": 11864,
+      "lnovel_id": 2844,
+      "volume_name": "第四卷",
+      "volume_order": 50,
+      "addtime": 1634391587,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -257,6 +265,79 @@
         },
         {
           "chapter_id": 116000,
+          "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 11864,
+      "id": 11864,
+      "volume_name": "第四卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 120356,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 120357,
+          "chapter_name": "序章 落入夹缝之中的绘本 Magic_Side,Open.",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 120358,
+          "chapter_name": "第一章 洛杉矶全人口，消失 26_the_West_Coast_Warfare.",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 120359,
+          "chapter_name": "行间一",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 120360,
+          "chapter_name": "第二章 可疑者唯有一人 Los_Angeles.",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 120361,
+          "chapter_name": "行间二",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 120362,
+          "chapter_name": "第三章 反击开始 Boy_not_“DARK”.",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 120363,
+          "chapter_name": "行间三",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 120364,
+          "chapter_name": "第四章 二选一的外侧 Duel_Against_R∴C∴O∴(for_Save_Mother).",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 120365,
+          "chapter_name": "终章 那个「人类」已然归来 Science_Side,Interrupt.",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 120366,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 120367,
+          "chapter_name": "结",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 120373,
           "chapter_name": "插画",
           "chapter_order": 130
         }

@@ -3,20 +3,20 @@
   "name": "人类的时代结束了，但肚子还是会饿吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11703,
-  "last_update_chapter_id": 118538,
-  "last_update_time": 1627987660,
+  "last_update_volume_id": 11859,
+  "last_update_chapter_id": 120354,
+  "last_update_time": 1634224390,
   "cover": "http://xs.dmzj.com/img/webpic/29/rljs0803l.jpg",
-  "hot_hits": 129,
+  "hot_hits": 1153,
   "introduction": "荒废后的24世纪的东京，大街小巷满满都是合成粮食与电子药物，暴力团伙争斗不停……但就算这样，果然还是会肚子饿的。如果对每日的战斗感到疲惫的话，就去奇迹的食堂——《伽蓝堂》吧！\n负责厨房的是有着「食之博物馆」称号的，流露出天使的微笑的少女宇迦。而担任猎人兼服务员的，则是能管束住不法之徒的，表情可怕的奔放女孩莉可。\n二人今天也在寻找未知的食材，上窜下跳地大闹着。为了「好吃！」的笑容的话，从食人的龙，到吃掉就会即死的毒蘑菇，甚至还有被抛弃的战车！？什么都可以美味地，并且要好地开吃！\n莉可和宇迦风味绝佳的日常，还请各位慢用。",
   "types": [
     "冒险"
   ],
   "authors": "新八角",
   "first_letter": "R",
-  "subscribe_num": 1763,
+  "subscribe_num": 2379,
   "volume": [
     {
       "id": 11703,
@@ -24,7 +24,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1627987423,
-      "sum_chapters": 11
+      "sum_chapters": 8
+    },
+    {
+      "id": 11859,
+      "lnovel_id": 3110,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1634221564,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -66,6 +74,49 @@
         },
         {
           "chapter_id": 118538,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11859,
+      "id": 11859,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 120309,
+          "chapter_name": "【音频记录】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 120310,
+          "chapter_name": "【第一话 星之记忆在凝胶之中】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 120311,
+          "chapter_name": "【第二话 Milky Trip Submarine】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 120312,
+          "chapter_name": "【第三话 追寻失去的时（与食）】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 120313,
+          "chapter_name": "【第四话 回忆，我开动了】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 120314,
+          "chapter_name": "【第五话 莉可和宇迦最初的一餐】",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 120354,
           "chapter_name": "插画",
           "chapter_order": 70
         }

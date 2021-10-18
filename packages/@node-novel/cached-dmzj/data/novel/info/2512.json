@@ -3,13 +3,13 @@
   "name": "药师少女的独语(药屋少女的呢喃)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第八卷",
+  "last_update_volume_name": "第九卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11688,
-  "last_update_chapter_id": 118391,
-  "last_update_time": 1627556120,
+  "last_update_volume_id": 11856,
+  "last_update_chapter_id": 120301,
+  "last_update_time": 1634138562,
   "cover": "http://xs.dmzj.com/img/webpic/25/yw0630l.jpg",
-  "hot_hits": 787145,
+  "hot_hits": 806813,
   "introduction": "位于大陆中央的某大国，原在花街从事药师工作的少女「猫猫」，被卖进宫中成为下女。得知了皇帝的年幼御子们一一早夭的传闻，以自身的药学知识解开了早夭之谜、挽救了御子的性命，得到后宫统领者「壬氏」的赏识，成为皇妃身边的试毒者。在好奇心与求知欲的驱使下，药学狂人猫猫将宫中发生的悬疑事件接连解决。",
   "types": [
     "历史",
@@ -17,7 +17,7 @@
   ],
   "authors": "日向夏",
   "first_letter": "Y",
-  "subscribe_num": 30696,
+  "subscribe_num": 31193,
   "volume": [
     {
       "id": 10492,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1576315992,
-      "sum_chapters": 13
+      "sum_chapters": 8
     },
     {
       "id": 10493,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1576316434,
-      "sum_chapters": 13
+      "sum_chapters": 8
     },
     {
       "id": 10549,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1578904479,
-      "sum_chapters": 13
+      "sum_chapters": 8
     },
     {
       "id": 10970,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1593941402,
-      "sum_chapters": 13
+      "sum_chapters": 8
     },
     {
       "id": 11047,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1597203729,
-      "sum_chapters": 13
+      "sum_chapters": 8
     },
     {
       "id": 11104,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1599644245,
-      "sum_chapters": 13
+      "sum_chapters": 8
     },
     {
       "id": 11337,
@@ -73,7 +73,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1611659998,
-      "sum_chapters": 13
+      "sum_chapters": 8
     },
     {
       "id": 11688,
@@ -81,7 +81,15 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1627554862,
-      "sum_chapters": 13
+      "sum_chapters": 8
+    },
+    {
+      "id": 11856,
+      "lnovel_id": 2512,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "addtime": 1634136667,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -1131,6 +1139,129 @@
           "chapter_id": 118391,
           "chapter_name": "插画",
           "chapter_order": 240
+        }
+      ]
+    },
+    {
+      "volume_id": 11856,
+      "id": 11856,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 120266,
+          "chapter_name": "序话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 120267,
+          "chapter_name": "一话 姚儿的请求",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 120268,
+          "chapter_name": "二话 离宫",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 120269,
+          "chapter_name": "三话 华陀之书 前篇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 120270,
+          "chapter_name": "四话 华陀之书 中篇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 120271,
+          "chapter_name": "五话 华陀之书 后篇",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 120272,
+          "chapter_name": "六话 西行之约",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 120273,
+          "chapter_name": "七话 禁忌",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 120274,
+          "chapter_name": "八话 秘密讲堂",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 120275,
+          "chapter_name": "九话 告发",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 120276,
+          "chapter_name": "十话 实技训练",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 120277,
+          "chapter_name": "十一话 解剖",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 120278,
+          "chapter_name": "十二话 数字的秘密",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 120279,
+          "chapter_name": "十三话 玉莺这个男人",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 120280,
+          "chapter_name": "十四话 选拔",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 120281,
+          "chapter_name": "十五话 旅途准备",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 120282,
+          "chapter_name": "十六话 船旅",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 120283,
+          "chapter_name": "十七话 雀",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 120284,
+          "chapter_name": "十八话 亚南的宴席",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 120285,
+          "chapter_name": "十九话 消失的庸医",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 120286,
+          "chapter_name": "二十话 拍墙",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 120287,
+          "chapter_name": "终话",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 120301,
+          "chapter_name": "插画",
+          "chapter_order": 230
         }
       ]
     }
