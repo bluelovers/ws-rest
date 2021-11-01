@@ -3,13 +3,13 @@
   "name": "世界最强后卫～迷宫国的新人探索者～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "last_update_volume_name": "第七卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10930,
-  "last_update_chapter_id": 107645,
-  "last_update_time": 1592541936,
-  "cover": "https://xs.dmzj.com/img/webpic/10/hw0116l.jpg",
-  "hot_hits": 815927,
+  "last_update_volume_id": 11881,
+  "last_update_chapter_id": 120606,
+  "last_update_time": 1635164962,
+  "cover": "http://xs.dmzj.com/img/webpic/10/hw0116l.jpg",
+  "hot_hits": 991615,
   "introduction": "　　身为前社畜的有人转生后担任起来路不明的职业『后卫』，但这原来是个能支援攻击与防御，还能补血的万能职业！在有人的身边也陆续聚集了转生前的美女上司（比他年纪还小）、充满谜团的亚人佣兵少女、身怀隐情的高等美少女剑士及个性鲜明的女性成员。不仅如此，『后卫』更拥有只要待在对方身后，就能让好感度直线上升的能力――！？\n　　最强的守护系辅助职业冒险物语，正式揭开序幕！",
   "types": [
     "异界",
@@ -18,8 +18,7 @@
   ],
   "authors": "とーわ",
   "first_letter": "Z",
-  "subscribe_num": 24056,
-  "redis_update_time": 1592786029,
+  "subscribe_num": 28569,
   "volume": [
     {
       "id": 9904,
@@ -27,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1547632101,
-      "sum_chapters": 8
+      "sum_chapters": 12
     },
     {
       "id": 10258,
@@ -35,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1564663236,
-      "sum_chapters": 8
+      "sum_chapters": 12
     },
     {
       "id": 10537,
@@ -43,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1578303589,
-      "sum_chapters": 8
+      "sum_chapters": 12
     },
     {
       "id": 10546,
@@ -51,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1578840358,
-      "sum_chapters": 8
+      "sum_chapters": 12
     },
     {
       "id": 10638,
@@ -59,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1582776428,
-      "sum_chapters": 8
+      "sum_chapters": 12
     },
     {
       "id": 10930,
@@ -67,7 +66,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1592541585,
-      "sum_chapters": 8
+      "sum_chapters": 12
+    },
+    {
+      "id": 11881,
+      "lnovel_id": 2614,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1635164667,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -429,6 +436,64 @@
         },
         {
           "chapter_id": 107645,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11881,
+      "id": 11881,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 120597,
+          "chapter_name": "序章 自炎天撤退，然后尽释前嫌",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 120598,
+          "chapter_name": "第一章 全新的邂逅，以及再度行动",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 120599,
+          "chapter_name": "第二章 探索报告与技能会议",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 120600,
+          "chapter_name": "第三章 五号区的迷宫与迷宫的居民",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 120601,
+          "chapter_name": "第四章 晴朗水岸，花朵绽放",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 120602,
+          "chapter_name": "第五章 契约者的试炼",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 120603,
+          "chapter_name": "加笔番外 瑟瑞丝的梦境治疗",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 120604,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 120605,
+          "chapter_name": "特典小册子 撑伞的大小姐与其随从",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 120606,
           "chapter_name": "插画",
           "chapter_order": 100
         }
