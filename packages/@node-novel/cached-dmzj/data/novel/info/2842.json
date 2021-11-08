@@ -3,13 +3,13 @@
   "name": "里亚德录大地",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11460,
-  "last_update_chapter_id": 115485,
-  "last_update_time": 1617034793,
+  "last_update_volume_id": 11894,
+  "last_update_chapter_id": 120795,
+  "last_update_time": 1636041707,
   "cover": "http://xs.dmzj.com/img/webpic/18/dd0403l.jpg",
-  "hot_hits": 210253,
+  "hot_hits": 229282,
   "introduction": "由于遭逢意外，身体只能依靠维生系统活着的少女「各务桂菜」\n只有在VRMMORPG「里亚德录」中可以自由活动。\n然而某一天，她因为维生系统停止而失去生命。\n但醒来时，她发现这里是自己玩过的「里亚德录」的世界……\n而且是两百年后的世界！\n她以高等精灵「葵娜」的身份调查这两百年间发生了什么事，同时和活在这世界的人们以及自己创造出来的非玩家角色们交流，然而——",
   "types": [
     "异界",
@@ -17,7 +17,7 @@
   ],
   "authors": "Ceez",
   "first_letter": "L",
-  "subscribe_num": 7617,
+  "subscribe_num": 8408,
   "volume": [
     {
       "id": 10751,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1585902424,
-      "sum_chapters": 10
+      "sum_chapters": 12
     },
     {
       "id": 11092,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1599054662,
-      "sum_chapters": 10
+      "sum_chapters": 12
     },
     {
       "id": 11460,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1617032304,
-      "sum_chapters": 10
+      "sum_chapters": 12
+    },
+    {
+      "id": 11894,
+      "lnovel_id": 2842,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1636040026,
+      "sum_chapters": 12
     }
   ],
   "chapters": [
@@ -229,6 +237,64 @@
         },
         {
           "chapter_id": 115485,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11894,
+      "id": 11894,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 120785,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 120786,
+          "chapter_name": "第一章 村庄的日常、补给、旅途和危险的黑影",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 120787,
+          "chapter_name": "第二章 阴谋、委托调查、搭讪应对法和两个女儿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 120788,
+          "chapter_name": "第三章 恶魔、传唤、楼塔和计画",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 120789,
+          "chapter_name": "第四章 准备、慰劳会、祭典和笨蛋",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 120790,
+          "chapter_name": "第五章 报复、钓鱼、归程和机密",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 120791,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 120792,
+          "chapter_name": "特别短篇 公主的体验",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 120793,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 120795,
           "chapter_name": "插画",
           "chapter_order": 100
         }
