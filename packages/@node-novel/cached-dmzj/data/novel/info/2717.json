@@ -3,13 +3,13 @@
   "name": "靠着魔法药水在异世界活下去！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "插图",
-  "last_update_volume_id": 10315,
-  "last_update_chapter_id": 99247,
-  "last_update_time": 1567610406,
-  "cover": "https://xs.dmzj.com/img/webpic/29/xm0826l.jpg",
-  "hot_hits": 0,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 11911,
+  "last_update_chapter_id": 120988,
+  "last_update_time": 1636816808,
+  "cover": "http://xs.dmzj.com/img/webpic/29/xm0826l.jpg",
+  "hot_hits": 179449,
   "introduction": "　　由于管理者调整世界扭曲的行动失败，长濑香失去了肉体，而且无法再回到原本的世界，只能转生至文明更为落后的世界。无法忍受自己被扔到那种地方的香提出要求，想要一种『可以自由做出任何效果药品』的能力，并更进一步取得道具箱、语言理解能力及稍微返老还童的身体。就这样，15岁的少女‧香使用自己创造的药品──魔法药水，以稳定的生活为目标展开冒险",
   "types": [
     "异界",
@@ -17,8 +17,7 @@
   ],
   "authors": "FUNA",
   "first_letter": "K",
-  "subscribe_num": 3050,
-  "redis_update_time": 1567709615,
+  "subscribe_num": 7188,
   "volume": [
     {
       "id": 10308,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1566822803,
-      "sum_chapters": 22
+      "sum_chapters": 4
     },
     {
       "id": 10311,
@@ -34,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1567252984,
-      "sum_chapters": 22
+      "sum_chapters": 4
     },
     {
       "id": 10315,
@@ -42,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1567609249,
-      "sum_chapters": 22
+      "sum_chapters": 4
+    },
+    {
+      "id": 11911,
+      "lnovel_id": 2717,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1636816675,
+      "sum_chapters": 4
     }
   ],
   "chapters": [
@@ -272,6 +279,59 @@
           "chapter_id": 99247,
           "chapter_name": "插图",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 11911,
+      "id": 11911,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 120980,
+          "chapter_name": "第二十九章 海滨之城",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 120981,
+          "chapter_name": "第三十章 那个人的现状……",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 120982,
+          "chapter_name": "第三十一章 贝利司卡斯",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 120983,
+          "chapter_name": "第三十二章 工作",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 120984,
+          "chapter_name": "第三十三章 复仇的弹道",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 120985,
+          "chapter_name": "第三十四章 温泉",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 120986,
+          "chapter_name": "第三十五章 笼城战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 120987,
+          "chapter_name": "加写番外 罗兰德的忧郁",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 120988,
+          "chapter_name": "后记",
+          "chapter_order": 90
         }
       ]
     }
