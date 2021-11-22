@@ -3,20 +3,20 @@
   "name": "乐园杂音 Paradise NoiSe",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11640,
-  "last_update_chapter_id": 118132,
-  "last_update_time": 1626789146,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "5 昨日与明日的反复（refrain）",
+  "last_update_volume_id": 11922,
+  "last_update_chapter_id": 121094,
+  "last_update_time": 1637413962,
   "cover": "http://xs.dmzj.com/img/webpic/8/lyzy0718l.jpg",
-  "hot_hits": 60683,
+  "hot_hits": 71330,
   "introduction": "把心血来潮穿着女装的演奏视频传到网上后，我作为神秘女高中生网络乐手（然而是男的）一跃成名。\n可这个秘密被音乐老师华园美沙绪发现，为了封口只得听凭她使唤……\n“性格别扭的天才钢琴手，凛子”\n“花道的公主鼓手，诗月”\n“不上学的座敷童子主唱，朱音”\n通过华园老师，我结识了三名少女，本该无色无味的高中生活也因此不断增添喧闹、烦恼与色彩。\n日常与恋爱、青春和乐队相伴的boy meets girls！",
   "types": [
     "校园"
   ],
   "authors": "杉井光",
   "first_letter": "L",
-  "subscribe_num": 7104,
+  "subscribe_num": 7944,
   "volume": [
     {
       "id": 10993,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1595156424,
-      "sum_chapters": 9
+      "sum_chapters": 19
     },
     {
       "id": 11640,
@@ -32,7 +32,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1626434412,
-      "sum_chapters": 9
+      "sum_chapters": 19
+    },
+    {
+      "id": 11922,
+      "lnovel_id": 2901,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1637413895,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -159,6 +167,39 @@
           "chapter_id": 118132,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11922,
+      "id": 11922,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 121090,
+          "chapter_name": "1 触及水底的丝线",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 121091,
+          "chapter_name": "2 即便那是虚假的爱恋",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 121092,
+          "chapter_name": "3 沙漠中鸣响的钟",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 121093,
+          "chapter_name": "4 离去的芳醇黄金（Mellow Gold）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 121094,
+          "chapter_name": "5 昨日与明日的反复（refrain）",
+          "chapter_order": 50
         }
       ]
     }
