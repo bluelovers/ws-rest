@@ -3,13 +3,13 @@
   "name": "异世界悠闲农家",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11765,
-  "last_update_chapter_id": 119181,
-  "last_update_time": 1629810145,
+  "last_update_volume_id": 11928,
+  "last_update_chapter_id": 121198,
+  "last_update_time": 1637932479,
   "cover": "http://xs.dmzj.com/img/webpic/25/yx0709l.jpg",
-  "hot_hits": 660544,
+  "hot_hits": 685288,
   "introduction": "和病魔斗争但最终死去的火乐，被神大人所复活，回复年轻及转移在异世界。为了第二次人生，享受悠闲的农家生活。",
   "types": [
     "异界",
@@ -17,7 +17,7 @@
   ],
   "authors": "内藤骑之介",
   "first_letter": "Y",
-  "subscribe_num": 22738,
+  "subscribe_num": 23379,
   "volume": [
     {
       "id": 9554,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1531144930,
-      "sum_chapters": 11
+      "sum_chapters": 1
     },
     {
       "id": 10300,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1566472521,
-      "sum_chapters": 11
+      "sum_chapters": 1
     },
     {
       "id": 10611,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1581753197,
-      "sum_chapters": 11
+      "sum_chapters": 1
     },
     {
       "id": 10851,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1589362789,
-      "sum_chapters": 11
+      "sum_chapters": 1
     },
     {
       "id": 11112,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1599907259,
-      "sum_chapters": 11
+      "sum_chapters": 1
     },
     {
       "id": 11479,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1617800593,
-      "sum_chapters": 11
+      "sum_chapters": 1
     },
     {
       "id": 11765,
@@ -73,7 +73,15 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1629807122,
-      "sum_chapters": 11
+      "sum_chapters": 1
+    },
+    {
+      "id": 11928,
+      "lnovel_id": 2516,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1637853223,
+      "sum_chapters": 1
     }
   ],
   "chapters": [
@@ -398,6 +406,49 @@
         },
         {
           "chapter_id": 119181,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 11928,
+      "id": 11928,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 121161,
+          "chapter_name": "序章 贪睡女王",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 121162,
+          "chapter_name": "第一章 令人费心的雏鸟",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 121163,
+          "chapter_name": "第二章 女王来访",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 121164,
+          "chapter_name": "第三章 男孩们踏上旅途",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 121165,
+          "chapter_name": "终章 学园的变化",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 121166,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 121198,
           "chapter_name": "插画",
           "chapter_order": 70
         }

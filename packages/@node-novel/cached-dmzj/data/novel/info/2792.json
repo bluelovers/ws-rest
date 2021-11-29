@@ -3,21 +3,20 @@
   "name": "零之大贤者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 重返年轻的最强贤者隐瞒身分再次成名",
-  "last_update_chapter_name": "电子版短篇",
-  "last_update_volume_id": 10584,
-  "last_update_chapter_id": 102846,
-  "last_update_time": 1581151906,
-  "cover": "https://xs.dmzj.com/img/webpic/14/dxz0206l.jpg",
-  "hot_hits": 48362,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11926,
+  "last_update_chapter_id": 121151,
+  "last_update_time": 1637677432,
+  "cover": "http://xs.dmzj.com/img/webpic/14/dxz0206l.jpg",
+  "hot_hits": 106989,
   "introduction": "　　已至壮年的英雄──‘大贤者’齐格飞，遭得力助手吉尔伯德以诡计剥夺地位和名誉，甚至被夺走了力量。\n　　他因冤狱被流放至《不归森林》，在命运指引下遇见濒临死亡的吸血鬼少女。他牺牲自己，将鲜血献给少女后──竟然变成一名吸血鬼，身体返老还童成少年模样！\n　　齐格飞取回无穷魔力，还获得吸血鬼的特殊能力，在化名为‘杰洛’后，与亲手拯救的少女同行，誓言向吉尔伯德复仇。“真可惜，管你是十是百，在无限的力量面前都毫无意义。”终结大战的英雄，即将从‘零’崛起！！\n　　重返年轻的最强贤者成名冒险传说，正式揭幕！",
   "types": [
     "冒险"
   ],
   "authors": "夏海ユウ",
   "first_letter": "L",
-  "subscribe_num": 3672,
-  "redis_update_time": 1581294161,
+  "subscribe_num": 6768,
   "volume": [
     {
       "id": 10584,
@@ -25,7 +24,15 @@
       "volume_name": "第一卷 重返年轻的最强贤者隐瞒身分再次成名",
       "volume_order": 10,
       "addtime": 1580979525,
-      "sum_chapters": 37
+      "sum_chapters": 1
+    },
+    {
+      "id": 11926,
+      "lnovel_id": 2792,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1637672043,
+      "sum_chapters": 1
     }
   ],
   "chapters": [
@@ -89,6 +96,59 @@
           "chapter_id": 102846,
           "chapter_name": "电子版短篇",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 11926,
+      "id": 11926,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 121142,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 121143,
+          "chapter_name": "第一章 小偷男孩",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 121144,
+          "chapter_name": "第二章 各自的过往",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 121145,
+          "chapter_name": "第三章 拯救",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 121146,
+          "chapter_name": "第四章 父亲与女儿",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 121147,
+          "chapter_name": "第五章 坦白",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 121148,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 121149,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 121151,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }
