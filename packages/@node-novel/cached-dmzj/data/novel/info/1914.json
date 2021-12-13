@@ -3,13 +3,13 @@
   "name": "NOeSIS虚假的记忆物语",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 千夜之章 后编",
-  "last_update_chapter_name": "插图",
-  "last_update_volume_id": 8005,
-  "last_update_chapter_id": 64323,
-  "last_update_time": 1469710334,
-  "cover": "https://xs.dmzj.com/img/webpic/6/noesisxjdjywy6586.jpg",
-  "hot_hits": 28197,
+  "last_update_volume_name": "第四卷 忧姬之章",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 11952,
+  "last_update_chapter_id": 121457,
+  "last_update_time": 1639322433,
+  "cover": "http://xs.dmzj.com/img/webpic/6/noesisxjdjywy6586.jpg",
+  "hot_hits": 31406,
   "introduction": "她只要凝视着对方的眼瞳，便能获取其记忆。有一位青梅竹马，她将两具遍涂赤红的恐怖人偶、视作双亲，过着怪异的每一天。有一位病弱的妹妹，她仅凭微笑就能操纵人心。而我们的主人公，邂逅了这些似有缺憾的少女们，其后，被卷入了一连串的奇异事件。那就如同在用指尖细数着遥远往昔的…...",
   "types": [
     "校园",
@@ -17,8 +17,7 @@
   ],
   "authors": "cutlass",
   "first_letter": "N",
-  "subscribe_num": 1574,
-  "redis_update_time": 1564324536,
+  "subscribe_num": 2054,
   "volume": [
     {
       "id": 6995,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷 千夜之章 前编",
       "volume_order": 10,
       "addtime": 1435144422,
-      "sum_chapters": 8
+      "sum_chapters": 18
     },
     {
       "id": 8005,
@@ -34,7 +33,23 @@
       "volume_name": "第二卷 千夜之章 后编",
       "volume_order": 20,
       "addtime": 1469708251,
-      "sum_chapters": 8
+      "sum_chapters": 18
+    },
+    {
+      "id": 11951,
+      "lnovel_id": 1914,
+      "volume_name": "第三卷 小夜美之章",
+      "volume_order": 30,
+      "addtime": 1639320989,
+      "sum_chapters": 18
+    },
+    {
+      "id": 11952,
+      "lnovel_id": 1914,
+      "volume_name": "第四卷 忧姬之章",
+      "volume_order": 40,
+      "addtime": 1639321671,
+      "sum_chapters": 18
     }
   ],
   "chapters": [
@@ -186,6 +201,117 @@
           "chapter_id": 64323,
           "chapter_name": "插图",
           "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 11951,
+      "id": 11951,
+      "volume_name": "第三卷 小夜美之章",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 121422,
+          "chapter_name": "引子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 121423,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 121424,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 121425,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 121426,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 121427,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 121428,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 121429,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 121430,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 121456,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 11952,
+      "id": 11952,
+      "volume_name": "第四卷 忧姬之章",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 121431,
+          "chapter_name": "引子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 121432,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 121433,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 121434,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 121435,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 121436,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 121437,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 121438,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 121457,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }
