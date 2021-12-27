@@ -3,13 +3,13 @@
   "name": "圣女魔力无所不能",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
+  "last_update_volume_name": "第七卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11598,
-  "last_update_chapter_id": 117300,
-  "last_update_time": 1624710915,
+  "last_update_volume_id": 11971,
+  "last_update_chapter_id": 121753,
+  "last_update_time": 1640528543,
   "cover": "http://xs.dmzj.com/img/webpic/27/sn0408l.jpg",
-  "hot_hits": 720225,
+  "hot_hits": 727558,
   "introduction": "工作狂加班回家竟然被异世界召唤成为圣女！？",
   "types": [
     "异界",
@@ -18,7 +18,7 @@
   ],
   "authors": "橘由华",
   "first_letter": "S",
-  "subscribe_num": 24784,
+  "subscribe_num": 25565,
   "volume": [
     {
       "id": 9347,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1523169052,
-      "sum_chapters": 10
+      "sum_chapters": 7
     },
     {
       "id": 9605,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1533208588,
-      "sum_chapters": 10
+      "sum_chapters": 7
     },
     {
       "id": 10137,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1558962953,
-      "sum_chapters": 10
+      "sum_chapters": 7
     },
     {
       "id": 10651,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1583390968,
-      "sum_chapters": 10
+      "sum_chapters": 7
     },
     {
       "id": 11423,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1615388275,
-      "sum_chapters": 10
+      "sum_chapters": 7
     },
     {
       "id": 11598,
@@ -66,7 +66,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1624709911,
-      "sum_chapters": 10
+      "sum_chapters": 7
+    },
+    {
+      "id": 11971,
+      "lnovel_id": 2466,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1640527914,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -453,6 +461,59 @@
         },
         {
           "chapter_id": 117300,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 11971,
+      "id": 11971,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 121745,
+          "chapter_name": "第一幕 出发",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 121746,
+          "chapter_name": "幕后",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 121747,
+          "chapter_name": "第二幕 社交",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 121748,
+          "chapter_name": "第三幕 美食祭",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 121749,
+          "chapter_name": "第四幕 祭典过后",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 121750,
+          "chapter_name": "第五幕 霍克领",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 121751,
+          "chapter_name": "第六幕 不死的魔物",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 121752,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 121753,
           "chapter_name": "插画",
           "chapter_order": 90
         }
