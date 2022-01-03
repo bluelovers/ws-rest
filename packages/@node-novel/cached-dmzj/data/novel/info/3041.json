@@ -3,13 +3,13 @@
   "name": "TRPG玩家在异世界打造最强角色",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 献给亨德森的福音",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11481,
-  "last_update_chapter_id": 115735,
-  "last_update_time": 1617857287,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 11979,
+  "last_update_chapter_id": 121843,
+  "last_update_time": 1641134021,
   "cover": "http://xs.dmzj.com/img/webpic/13/trpg0408l.jpg",
-  "hot_hits": 54814,
+  "hot_hits": 61768,
   "introduction": "　　「规则屁孩」──就是只要在规则上说得通，甚至会试著把神干掉的怪人。前世曾是「规则屁孩」的少年．埃里希，活用自己转生到异世界时被赋予的「打造角色」能力，试图让自己成为理想的超强角色。他一边陪莫名挑逗的青梅竹马胡闹，一边照顾有恋兄情结的妹妹，同时也不忘绞尽脑汁去钻研利用规则的方法，在费心分配熟练度的同时也持续摸索爆强的连锁效果。然而状况（团务）发生变化的速度却超乎想像，导致埃里希即将为保护珍爱的人面对挑战……！？\n　　远远跳脱亨德森指标的规则屁孩大冒险，在此揭幕！",
   "types": [
     "异界",
@@ -17,7 +17,7 @@
   ],
   "authors": "Schuld",
   "first_letter": "T",
-  "subscribe_num": 3037,
+  "subscribe_num": 3612,
   "volume": [
     {
       "id": 11481,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷 献给亨德森的福音",
       "volume_order": 10,
       "addtime": 1617856621,
-      "sum_chapters": 15
+      "sum_chapters": 9
+    },
+    {
+      "id": 11979,
+      "lnovel_id": 3041,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1641133713,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
@@ -114,6 +122,79 @@
           "chapter_id": 115735,
           "chapter_name": "插画",
           "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 11979,
+      "id": 11979,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 121831,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 121832,
+          "chapter_name": "少年期 十二岁的春天 一",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 121833,
+          "chapter_name": "少年期 十二岁的春天 二",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 121834,
+          "chapter_name": "少年期 十二岁的春天 三",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 121835,
+          "chapter_name": "亨德森指标0.1",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 121836,
+          "chapter_name": "少年期 十二岁的春天 四",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 121837,
+          "chapter_name": "少年期 十二岁的春天 五",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 121838,
+          "chapter_name": "少年期 十二岁的晚春 一",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 121839,
+          "chapter_name": "少年期 十二岁的晚春 二",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 121840,
+          "chapter_name": "少年期 十二岁的晚春 三",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 121841,
+          "chapter_name": "终章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 121842,
+          "chapter_name": "亨德森指标1.0 Ver0.2",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 121843,
+          "chapter_name": "后记",
+          "chapter_order": 130
         }
       ]
     }
