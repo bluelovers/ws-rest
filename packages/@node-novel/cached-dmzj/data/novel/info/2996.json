@@ -3,20 +3,20 @@
   "name": "义妹生活",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "特典 闻得雨声",
-  "last_update_volume_id": 11466,
-  "last_update_chapter_id": 117952,
-  "last_update_time": 1626613844,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12039,
+  "last_update_chapter_id": 122604,
+  "last_update_time": 1644414032,
   "cover": "http://xs.dmzj.com/img/webpic/19/ymsh0212l.jpg",
-  "hot_hits": 354337,
+  "hot_hits": 484935,
   "introduction": "缩短距离，构筑关系的日常。\n高中生和美少女的同居生活。\n因为悲惨家庭环境，对男女关系持有封闭的价值观的二人约定对彼此不抱期待。\n渴望爱而努力，不懂撒娇的沙季和作为她的哥哥却感到迷茫的悠太。\n殊途同归的二人，渐渐相识相知……\n不知何时会亲情变质的故事……\n素昧平生的男女互相接近并彼此改变的恋爱物语。",
   "types": [
     "爱情"
   ],
   "authors": "三河ごーすと",
   "first_letter": "Y",
-  "subscribe_num": 20260,
+  "subscribe_num": 27710,
   "volume": [
     {
       "id": 11366,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1613129974,
-      "sum_chapters": 9
+      "sum_chapters": 17
     },
     {
       "id": 11466,
@@ -32,7 +32,23 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1617360132,
-      "sum_chapters": 9
+      "sum_chapters": 17
+    },
+    {
+      "id": 12038,
+      "lnovel_id": 2996,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1644412831,
+      "sum_chapters": 17
+    },
+    {
+      "id": 12039,
+      "lnovel_id": 2996,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1644412897,
+      "sum_chapters": 17
     }
   ],
   "chapters": [
@@ -169,6 +185,122 @@
           "chapter_id": 117952,
           "chapter_name": "特典 闻得雨声",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 12038,
+      "id": 12038,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 122579,
+          "chapter_name": "日记",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 122580,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 122581,
+          "chapter_name": "8月22日 星期六",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 122582,
+          "chapter_name": "8月23日 星期日",
+          "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 12039,
+      "id": 12039,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 122583,
+          "chapter_name": "序章 浅村悠太",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 122584,
+          "chapter_name": "9月3日(星期四)浅村悠太",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 122585,
+          "chapter_name": "9月3日(星期四)绫濑沙季",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 122586,
+          "chapter_name": "9月4日(星期五)浅村悠太",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 122587,
+          "chapter_name": "9月4日(星期五)绫濑沙季",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 122588,
+          "chapter_name": "9月24日(星期四)浅村悠太",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 122589,
+          "chapter_name": "9月24日(星期四)绫濑沙季",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 122590,
+          "chapter_name": "9月25日(星期五)浅村悠太",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 122591,
+          "chapter_name": "9月25日(星期五)绫濑沙季",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 122592,
+          "chapter_name": "9月26日(星期六)绫濑沙季",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 122593,
+          "chapter_name": "9月26日(星期六)浅村悠太",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 122594,
+          "chapter_name": "9月27日(星期日)浅村悠太",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 122595,
+          "chapter_name": "9月27日(星期日)绫濑沙季",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 122596,
+          "chapter_name": "9月28日(星期一)浅村悠太",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 122597,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 122604,
+          "chapter_name": "插画",
+          "chapter_order": 160
         }
       ]
     }

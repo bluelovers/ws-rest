@@ -3,13 +3,13 @@
   "name": "魔弹之王与冻涟的雪姬",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
-  "last_update_chapter_name": "虎之穴特典",
-  "last_update_volume_id": 11298,
-  "last_update_chapter_id": 120003,
-  "last_update_time": 1633100288,
+  "last_update_volume_name": "第八卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12020,
+  "last_update_chapter_id": 122343,
+  "last_update_time": 1643632224,
   "cover": "http://xs.dmzj.com/img/webpic/20/mdzwxj0416l.jpg",
-  "hot_hits": 517449,
+  "hot_hits": 532136,
   "introduction": "川口士新作《魔弹之王与冻涟的雪姬》，露利叶家的曾祖母四代都是战姬，负责管辖著在莱德梅里兹南部、墨吉涅王国北部的奥尔米兹公国。",
   "types": [
     "魔法",
@@ -18,7 +18,7 @@
   ],
   "authors": "川口士",
   "first_letter": "M",
-  "subscribe_num": 32540,
+  "subscribe_num": 33256,
   "volume": [
     {
       "id": 10058,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1555419634,
-      "sum_chapters": 8
+      "sum_chapters": 17
     },
     {
       "id": 10059,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1555419932,
-      "sum_chapters": 8
+      "sum_chapters": 17
     },
     {
       "id": 10282,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1565526175,
-      "sum_chapters": 8
+      "sum_chapters": 17
     },
     {
       "id": 10653,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1583392047,
-      "sum_chapters": 8
+      "sum_chapters": 17
     },
     {
       "id": 11002,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1595465874,
-      "sum_chapters": 8
+      "sum_chapters": 17
     },
     {
       "id": 11298,
@@ -66,7 +66,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1609496287,
-      "sum_chapters": 8
+      "sum_chapters": 17
     },
     {
       "id": 11462,
@@ -74,7 +74,15 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1617117899,
-      "sum_chapters": 8
+      "sum_chapters": 17
+    },
+    {
+      "id": 12020,
+      "lnovel_id": 2648,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1643630234,
+      "sum_chapters": 17
     }
   ],
   "chapters": [
@@ -529,6 +537,59 @@
         },
         {
           "chapter_id": 115522,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12020,
+      "id": 12020,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 122332,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 122333,
+          "chapter_name": "第1章 策动",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 122334,
+          "chapter_name": "第2章 黑龙旗迎着战风飘扬",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 122335,
+          "chapter_name": "第3章 不顺",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 122336,
+          "chapter_name": "第4章 伸来之手",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 122337,
+          "chapter_name": "第5章 死路",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 122338,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 122339,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 122343,
           "chapter_name": "插画",
           "chapter_order": 90
         }

@@ -3,13 +3,13 @@
   "name": "Legend 魔兽师传说",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第九卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10825,
-  "last_update_chapter_id": 106128,
-  "last_update_time": 1588423006,
-  "cover": "https://xs.dmzj.com/img/webpic/11/mss1031l.jpg",
-  "hot_hits": 507809,
+  "last_update_volume_id": 12031,
+  "last_update_chapter_id": 122536,
+  "last_update_time": 1644051853,
+  "cover": "http://xs.dmzj.com/img/webpic/11/mss1031l.jpg",
+  "hot_hits": 691466,
   "introduction": "　　高中二年级的夏天，佐伯玲二因为事故而丧命。再次醒过来时，出现在他面前的是异世界的大魔术师·杰拜尔。「汝身上密藏着魔力。基于如此的才能，希望你继承吾之门派所创造出来的『魔兽术』。」答应这个请托的玲二——雷伊，便带着新的肉体、强力无比的魔法道具以及成为搭档的魔兽·赛特，在异世界·艾尔杰因开始了第二人生。这是少年在异世界刻划下全新「传说」的故事。",
   "types": [
     "冒险",
@@ -20,8 +20,7 @@
   ],
   "authors": "神无月红",
   "first_letter": "L",
-  "subscribe_num": 14957,
-  "redis_update_time": 1588550677,
+  "subscribe_num": 17291,
   "volume": [
     {
       "id": 8242,
@@ -29,7 +28,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1477912954,
-      "sum_chapters": 23
+      "sum_chapters": 17
     },
     {
       "id": 8342,
@@ -37,7 +36,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1481116852,
-      "sum_chapters": 23
+      "sum_chapters": 17
     },
     {
       "id": 8572,
@@ -45,7 +44,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1490370672,
-      "sum_chapters": 23
+      "sum_chapters": 17
     },
     {
       "id": 8683,
@@ -53,7 +52,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1495209399,
-      "sum_chapters": 23
+      "sum_chapters": 17
     },
     {
       "id": 10453,
@@ -61,7 +60,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1574415370,
-      "sum_chapters": 23
+      "sum_chapters": 17
     },
     {
       "id": 10824,
@@ -69,7 +68,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1588422217,
-      "sum_chapters": 23
+      "sum_chapters": 17
     },
     {
       "id": 10825,
@@ -77,7 +76,23 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1588422578,
-      "sum_chapters": 23
+      "sum_chapters": 17
+    },
+    {
+      "id": 12030,
+      "lnovel_id": 2220,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1643978379,
+      "sum_chapters": 17
+    },
+    {
+      "id": 12031,
+      "lnovel_id": 2220,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "addtime": 1643978507,
+      "sum_chapters": 17
     }
   ],
   "chapters": [
@@ -444,6 +459,112 @@
           "chapter_id": 106128,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12030,
+      "id": 12030,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 122494,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 122495,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 122496,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 122497,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 122498,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 122499,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 122500,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 122501,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 122502,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 122535,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 12031,
+      "id": 12031,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 122503,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 122504,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 122505,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 122506,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 122507,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 122508,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 122509,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 122536,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }
