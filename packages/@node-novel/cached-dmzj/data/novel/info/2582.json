@@ -3,20 +3,20 @@
   "name": "天才王子的赤字国家振兴术",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第十卷",
+  "last_update_volume_name": "第十一卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11811,
-  "last_update_chapter_id": 119803,
-  "last_update_time": 1631721807,
+  "last_update_volume_id": 12080,
+  "last_update_chapter_id": 123114,
+  "last_update_time": 1646392442,
   "cover": "http://xs.dmzj.com/img/webpic/16/tiancai1120l.jpg",
-  "hot_hits": 1389628,
+  "hot_hits": 1855947,
   "introduction": "暂无简介",
   "types": [
     "战争"
   ],
   "authors": "鸟羽彻",
   "first_letter": "T",
-  "subscribe_num": 33701,
+  "subscribe_num": 44742,
   "volume": [
     {
       "id": 9804,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷 对了，卖国吧",
       "volume_order": 10,
       "addtime": 1543400238,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 9830,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1544339273,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 9925,
@@ -40,7 +40,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1548691648,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 10572,
@@ -48,7 +48,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1580207054,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 10715,
@@ -56,7 +56,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1585194415,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 10782,
@@ -64,7 +64,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1587223977,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 10963,
@@ -72,7 +72,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1593609872,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 11265,
@@ -80,7 +80,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1607695374,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 11541,
@@ -88,7 +88,7 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1620791589,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 11811,
@@ -96,7 +96,15 @@
       "volume_name": "第十卷",
       "volume_order": 100,
       "addtime": 1631631578,
-      "sum_chapters": 11
+      "sum_chapters": 7
+    },
+    {
+      "id": 12080,
+      "lnovel_id": 2582,
+      "volume_name": "第十一卷",
+      "volume_order": 110,
+      "addtime": 1646390661,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -612,6 +620,59 @@
           "chapter_id": 119803,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12080,
+      "id": 12080,
+      "volume_name": "第十一卷",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 123062,
+          "chapter_name": "第一章 对了，当女帝吧",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 123063,
+          "chapter_name": "第二章 骰子已经掷出",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 123064,
+          "chapter_name": "第三章 斯特兰格",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 123065,
+          "chapter_name": "第四章 古莲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 123066,
+          "chapter_name": "第五章 维恩",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 123067,
+          "chapter_name": "第六章 露薇尔米娜",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 123068,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 123069,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 123114,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

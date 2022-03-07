@@ -3,20 +3,20 @@
   "name": "死老百姓靠抽卡也能翻转人生",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11674,
-  "last_update_chapter_id": 118257,
-  "last_update_time": 1627233760,
+  "last_update_volume_id": 12076,
+  "last_update_chapter_id": 123044,
+  "last_update_time": 1646390131,
   "cover": "http://xs.dmzj.com/img/webpic/14/ckrs1228l.jpg",
-  "hot_hits": 12628,
+  "hot_hits": 17302,
   "introduction": "　　女神给予人类的卡牌之力决定一切的时代──劳工高槻秋人抱持著荒唐的野心，有一天要成为争夺世界霸权的卡牌大师之一，获得全世界的强力战斗卡去参战。\n　　然后他赌上人生，去抽决定命运的「重体力劳动卡池」──\n　　就在人生的梦想和希望都跟大量抽卡券一起化为泡沫的终极运气考验后，秋人抽中了一张卡牌。\n　　「呀喝～～主人！我正是金钱特化秘书，秘书卡中的秘书卡！名叫凯萝尔～～☆」\n　　让全世界的强者们为之震撼，某个卡牌迷与贪婪秘书的最强战斗动作故事在此揭幕！",
   "types": [
     "奇幻"
   ],
   "authors": "川田两悟",
   "first_letter": "S",
-  "subscribe_num": 2519,
+  "subscribe_num": 3589,
   "volume": [
     {
       "id": 11293,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1609334231,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 11674,
@@ -32,7 +32,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1627231454,
-      "sum_chapters": 9
+      "sum_chapters": 7
+    },
+    {
+      "id": 12076,
+      "lnovel_id": 2982,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1646316503,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -114,6 +122,44 @@
           "chapter_id": 118257,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12076,
+      "id": 12076,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 123009,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 123010,
+          "chapter_name": "FIRST DRAW 新的同伴",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 123011,
+          "chapter_name": "SECOND DRAW 奋战的卡牌们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 123012,
+          "chapter_name": "THIRD DRAW 团队战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 123013,
+          "chapter_name": "FINAL DRAW 挑战者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 123044,
+          "chapter_name": "插画",
+          "chapter_order": 60
         }
       ]
     }

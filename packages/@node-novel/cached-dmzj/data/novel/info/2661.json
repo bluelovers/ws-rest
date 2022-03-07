@@ -3,21 +3,20 @@
   "name": "食锈末世录",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 都市生命体「东京」",
+  "last_update_volume_name": "第四卷 业花帝冠·花束之剑",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10975,
-  "last_update_chapter_id": 108525,
-  "last_update_time": 1594294660,
-  "cover": "https://xs.dmzj.com/img/webpic/11/st0509l.jpg",
-  "hot_hits": 60172,
+  "last_update_volume_id": 12079,
+  "last_update_chapter_id": 123115,
+  "last_update_time": 1646392690,
+  "cover": "http://xs.dmzj.com/img/webpic/11/st0509l.jpg",
+  "hot_hits": 89298,
   "introduction": "　　穿梭于能够锈蚀一切，使人类陷入死亡威胁的「锈蚀风」中，\n　　迅猛粗暴的「蕈菇守护者」赤星毕斯可。\n　　他为了拯救师父，而踏上寻找灵药蕈菇「食锈」的旅程。\n　　毕斯可带著搭档──美貌的少年医师美禄，\n　　投身波澜万丈的冒险中。\n　　他们行经宽广的埼玉铁沙漠、\n　　由毁灭文明的防卫兵器残骸架构而成的城镇、\n　　大章鱼盘据的废弃地下铁路线──\n　　严苛路途中面临的各种威胁，都以美禄的灵机一动，\n　　与毕斯可的必中蕈菇箭一举贯穿！\n　　但旅途的前方却有邪恶县知事的奸计等著他们──",
   "types": [
     "冒险"
   ],
   "authors": "瘤久保慎司",
   "first_letter": "S",
-  "subscribe_num": 6714,
-  "redis_update_time": 1594339094,
+  "subscribe_num": 8023,
   "volume": [
     {
       "id": 10099,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1557465237,
-      "sum_chapters": 27
+      "sum_chapters": 7
     },
     {
       "id": 10473,
@@ -33,7 +32,7 @@
       "volume_name": "第二卷 血迫！超仙力克尔辛哈",
       "volume_order": 20,
       "addtime": 1575462417,
-      "sum_chapters": 27
+      "sum_chapters": 7
     },
     {
       "id": 10975,
@@ -41,7 +40,15 @@
       "volume_name": "第三卷 都市生命体「东京」",
       "volume_order": 30,
       "addtime": 1594288594,
-      "sum_chapters": 27
+      "sum_chapters": 7
+    },
+    {
+      "id": 12079,
+      "lnovel_id": 2661,
+      "volume_name": "第四卷 业花帝冠·花束之剑",
+      "volume_order": 40,
+      "addtime": 1646390255,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -426,6 +433,99 @@
           "chapter_id": 108525,
           "chapter_name": "插画",
           "chapter_order": 270
+        }
+      ]
+    },
+    {
+      "volume_id": 12079,
+      "id": 12079,
+      "volume_name": "第四卷 业花帝冠·花束之剑",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 123046,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 123047,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 123048,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 123049,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 123050,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 123051,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 123052,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 123053,
+          "chapter_name": "第七章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 123054,
+          "chapter_name": "第八章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 123055,
+          "chapter_name": "第九章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 123056,
+          "chapter_name": "第十章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 123057,
+          "chapter_name": "第十一章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 123058,
+          "chapter_name": "第十二章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 123059,
+          "chapter_name": "第十三章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 123060,
+          "chapter_name": "第十四章",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 123061,
+          "chapter_name": "后记",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 123115,
+          "chapter_name": "插画",
+          "chapter_order": 170
         }
       ]
     }

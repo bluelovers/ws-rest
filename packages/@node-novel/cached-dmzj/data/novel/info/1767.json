@@ -3,13 +3,13 @@
   "name": "未踏召唤 bloodsign",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第九卷",
+  "last_update_volume_name": "第十卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11780,
-  "last_update_chapter_id": 119352,
-  "last_update_time": 1630336799,
+  "last_update_volume_id": 12077,
+  "last_update_chapter_id": 123043,
+  "last_update_time": 1646389916,
   "cover": "http://xs.dmzj.com/img/webpic/20/wtzh658698l.jpg",
-  "hot_hits": 770842,
+  "hot_hits": 786734,
   "introduction": "“可恶，没想到会在这里听见诅咒之言。”\n  就连「潜伏于诸神之上者」都能自由呼唤的召唤仪式，有一位在驱使这种仪式的最新锐召唤师中也拥有一流实力的少年。\n「不杀王<Alice(with)rabbit>」，城山恭介。\n  这位最强的少年召唤师所抱有的致命弱点仅有一个。\n  来自少女的「诅咒之言」。\n  救救我——\n  接受了面临生死之危的冥乃河彼岸之言，恭介纵身于召唤师三大势力正激烈战斗着的街道之中！",
   "types": [
     "魔法",
@@ -18,7 +18,7 @@
   ],
   "authors": "镰池和马",
   "first_letter": "W",
-  "subscribe_num": 36416,
+  "subscribe_num": 37434,
   "volume": [
     {
       "id": 6473,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1416151000,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 6874,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1431774401,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 7243,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1443285837,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 8021,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1470833540,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 8504,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1486994093,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 9018,
@@ -66,7 +66,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1508752579,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 9019,
@@ -74,7 +74,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1508752700,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 9796,
@@ -82,7 +82,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1542770168,
-      "sum_chapters": 11
+      "sum_chapters": 7
     },
     {
       "id": 11780,
@@ -90,7 +90,15 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1630335617,
-      "sum_chapters": 11
+      "sum_chapters": 7
+    },
+    {
+      "id": 12077,
+      "lnovel_id": 1767,
+      "volume_name": "第十卷",
+      "volume_order": 100,
+      "addtime": 1646316662,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -661,6 +669,69 @@
         },
         {
           "chapter_id": 119352,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 12077,
+      "id": 12077,
+      "volume_name": "第十卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 123014,
+          "chapter_name": "OpeningX-00",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 123015,
+          "chapter_name": "OpeningX-01：打开世界末日之路",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 123016,
+          "chapter_name": "OpeningX-02：死亡之舞",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 123017,
+          "chapter_name": "Stage 01：跨越七个行星和十二个星座",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 123018,
+          "chapter_name": "Stage 02：此乃最终的抉择",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 123019,
+          "chapter_name": "Stage 03：真正的敌人与我们同在",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 123020,
+          "chapter_name": "Stage 04：未踏召唤：//blood sign",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 123021,
+          "chapter_name": "Ending X-01：谁坐在女王的王座之上？",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 123022,
+          "chapter_name": "Ending X-02：觉醒的时代已经到来",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 123023,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 123043,
           "chapter_name": "插画",
           "chapter_order": 110
         }
