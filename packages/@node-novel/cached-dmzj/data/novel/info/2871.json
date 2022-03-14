@@ -3,20 +3,20 @@
   "name": "公爵千金的家庭教师",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "后记 插图 第四卷 暑假期间与冰火的公主殿下拯救王国",
+  "last_update_volume_name": "第五卷 雷狼的妹君与王国动乱",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12086,
-  "last_update_chapter_id": 123154,
-  "last_update_time": 1646396464,
+  "last_update_volume_id": 12095,
+  "last_update_chapter_id": 123249,
+  "last_update_time": 1646916077,
   "cover": "http://xs.dmzj.com/img/webpic/9/gzdx0519l.jpg",
-  "hot_hits": 383120,
+  "hot_hits": 428164,
   "introduction": "　　「我还是第一次看到，有人能将浮游魔法使得如此收放自如。」\n　　「这一点也不难，只是大家都没尝试过罢了。」\n　　拥有当代社会无法衡量的超规格魔法技术，却保持谦虚态度生活的青年‧亚连，在恩师的委托下，以家庭教师的身分前去指导『用不了魔法』的公爵千金‧蒂娜。面对这名已被无数人放弃的少女，不打算死心的亚连所传授的课程是──\n　　「就我个人认为，魔法并不是人类以操控魔力的方式施放，而是向精灵借用力量罢了。」亚连的魔法课程内容颠覆了常识。在谆谆善诱后，亚连解开了封印在蒂娜身上的谜团，而这也是向世界掀起革命的师徒传说开端！",
   "types": [
     "魔法"
   ],
   "authors": "七野りく",
   "first_letter": "G",
-  "subscribe_num": 17614,
+  "subscribe_num": 18472,
   "volume": [
     {
       "id": 10868,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷 谦虚青年的破格魔法教学即将开始",
       "volume_order": 10,
       "addtime": 1589882918,
-      "sum_chapters": 7
+      "sum_chapters": 10
     },
     {
       "id": 11030,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷 与最强剑姫创造新传说",
       "volume_order": 20,
       "addtime": 1596682914,
-      "sum_chapters": 7
+      "sum_chapters": 10
     },
     {
       "id": 11625,
@@ -40,15 +40,23 @@
       "volume_name": "第三卷 以魔法革命指引迷茫圣女",
       "volume_order": 30,
       "addtime": 1626004888,
-      "sum_chapters": 7
+      "sum_chapters": 10
     },
     {
       "id": 12086,
       "lnovel_id": 2871,
-      "volume_name": "后记 插图 第四卷 暑假期间与冰火的公主殿下拯救王国",
+      "volume_name": "第四卷 暑假期间与冰火的公主殿下拯救王国",
       "volume_order": 40,
       "addtime": 1646393804,
-      "sum_chapters": 7
+      "sum_chapters": 10
+    },
+    {
+      "id": 12095,
+      "lnovel_id": 2871,
+      "volume_name": "第五卷 雷狼的妹君与王国动乱",
+      "volume_order": 50,
+      "addtime": 1646914842,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -214,7 +222,7 @@
     {
       "volume_id": 12086,
       "id": 12086,
-      "volume_name": "后记 插图 第四卷 暑假期间与冰火的公主殿下拯救王国",
+      "volume_name": "第四卷 暑假期间与冰火的公主殿下拯救王国",
       "volume_order": 40,
       "chapters": [
         {
@@ -249,6 +257,49 @@
         },
         {
           "chapter_id": 123154,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12095,
+      "id": 12095,
+      "volume_name": "第五卷 雷狼的妹君与王国动乱",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 123227,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 123228,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 123229,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 123230,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 123231,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 123232,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 123249,
           "chapter_name": "插画",
           "chapter_order": 70
         }
