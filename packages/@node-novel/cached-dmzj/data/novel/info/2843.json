@@ -2,14 +2,14 @@
   "id": 2843,
   "name": "和你恋爱什么，应该是不可能的",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "status": "已完结",
+  "last_update_volume_name": "短篇集 课外补习仍未结束",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10784,
-  "last_update_chapter_id": 105661,
-  "last_update_time": 1587300676,
-  "cover": "https://xs.dmzj.com/img/webpic/5/hnla0403l.jpg",
-  "hot_hits": 98437,
+  "last_update_volume_id": 12107,
+  "last_update_chapter_id": 123378,
+  "last_update_time": 1647688445,
+  "cover": "http://xs.dmzj.com/img/webpic/5/hnla0403l.jpg",
+  "hot_hits": 466745,
   "introduction": "在千叶县南总高中上学的饭岛靖贵是个平凡而不起眼的男生，在学习合宿之夜，帮助了遇到困难的同班同学北冈惠麻。从那以后，惠麻开始在学校外与靖贵交谈。但是靖贵并不擅长应对惠麻，不知道她为什么会在意自己。朴实的眼镜男和花哨的辣妹。本应绝对不可能的两人发生的交错的爱情故事。",
   "types": [
     "爱情",
@@ -17,8 +17,7 @@
   ],
   "authors": "筏田かつら",
   "first_letter": "H",
-  "subscribe_num": 7708,
-  "redis_update_time": 1587341353,
+  "subscribe_num": 23896,
   "volume": [
     {
       "id": 10752,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1585902645,
-      "sum_chapters": 6
+      "sum_chapters": 23
     },
     {
       "id": 10784,
@@ -34,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1587300454,
-      "sum_chapters": 6
+      "sum_chapters": 23
+    },
+    {
+      "id": 12107,
+      "lnovel_id": 2843,
+      "volume_name": "短篇集 课外补习仍未结束",
+      "volume_order": 30,
+      "addtime": 1647688050,
+      "sum_chapters": 23
     }
   ],
   "chapters": [
@@ -174,6 +181,74 @@
         },
         {
           "chapter_id": 105661,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 12107,
+      "id": 12107,
+      "volume_name": "短篇集 课外补习仍未结束",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 123367,
+          "chapter_name": "（原）三年F组学号39号 吉田由希的证言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 123368,
+          "chapter_name": "Walk Through the Rain",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 123369,
+          "chapter_name": "制服Destiny",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 123370,
+          "chapter_name": "饭岛家的姐弟",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 123371,
+          "chapter_name": "Zipper",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 123372,
+          "chapter_name": "Yes，Emma OK？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 123373,
+          "chapter_name": "我无法恋爱",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 123374,
+          "chapter_name": "因为她还在房间里等待",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 123375,
+          "chapter_name": "LEICA",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 123376,
+          "chapter_name": "Nothing Matters",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 123377,
+          "chapter_name": "美味的嫉妒",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 123378,
           "chapter_name": "后记",
           "chapter_order": 120
         }
