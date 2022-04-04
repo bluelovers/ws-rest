@@ -3,21 +3,20 @@
   "name": "既然世界变成怪物横行 那只好随心所欲生活下去",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10819,
-  "last_update_chapter_id": 106094,
-  "last_update_time": 1588328414,
-  "cover": "https://xs.dmzj.com/img/webpic/11/gwmz0501l.jpg",
-  "hot_hits": 489861,
+  "last_update_volume_id": 12126,
+  "last_update_chapter_id": 123712,
+  "last_update_time": 1648563319,
+  "cover": "http://xs.dmzj.com/img/webpic/11/gwmz0501l.jpg",
+  "hot_hits": 572605,
   "introduction": "身为社畜的我在某天变成最强！\n在黑心企业上班的和人，某天深夜下班回家途中撞死了一只神秘的大狗。在这瞬间，和人的脑中响起一股声音。\n《———已获得经验值。Kudou Kazuto的LV提升至1。》\n《———在混沌神域中初次成功讨伐的结果已记录。》\n《已获得讨伐奖励。》\n《学会技能『早熟』。》\n「总觉得……好像游戏里面的通知……」\n隔天早上，映入和人眼里的是完全走样的街道，以及袭击着人们的怪物。世界在一夕之间全变了样！变成了存在技能与等级，类似状态值的神奇系统，简直有如走进游戏的世界里……！！\n究竟要如何在这种末日般的世界活下去呢！？",
   "types": [
     "冒险"
   ],
   "authors": "よっしゃあっ!",
   "first_letter": "J",
-  "subscribe_num": 8968,
-  "redis_update_time": 1588550795,
+  "subscribe_num": 12774,
   "volume": [
     {
       "id": 9310,
@@ -25,7 +24,7 @@
       "volume_name": "web版01-50话",
       "volume_order": 10,
       "addtime": 1522059671,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 9311,
@@ -33,7 +32,7 @@
       "volume_name": "web版51-100话",
       "volume_order": 20,
       "addtime": 1522060758,
-      "sum_chapters": 23
+      "sum_chapters": 14
     },
     {
       "id": 10819,
@@ -41,7 +40,15 @@
       "volume_name": "第一卷",
       "volume_order": 30,
       "addtime": 1588326715,
-      "sum_chapters": 23
+      "sum_chapters": 14
+    },
+    {
+      "id": 12126,
+      "lnovel_id": 2457,
+      "volume_name": "第二卷",
+      "volume_order": 40,
+      "addtime": 1648476296,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -531,6 +538,79 @@
           "chapter_id": 106094,
           "chapter_name": "插画",
           "chapter_order": 100
+        },
+        {
+          "chapter_id": 123666,
+          "chapter_name": "特典 某间拉面店内的经历",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 12126,
+      "id": 12126,
+      "volume_name": "第二卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 123667,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 123668,
+          "chapter_name": "第一章 第四天的开始",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 123669,
+          "chapter_name": "【串场1】各自的动向",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 123670,
+          "chapter_name": "第二章 前进市中心",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 123671,
+          "chapter_name": "【串场2】于学生会办公室",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 123672,
+          "chapter_name": "第三章 追击野兽",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 123673,
+          "chapter_name": "第四章 满身泥泞的殊死战",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 123674,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 123675,
+          "chapter_name": "【全新短篇】她的决心",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 123676,
+          "chapter_name": "？？？",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 123677,
+          "chapter_name": "后记",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 123712,
+          "chapter_name": "插画",
+          "chapter_order": 120
         }
       ]
     }

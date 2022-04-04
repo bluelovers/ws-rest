@@ -3,13 +3,13 @@
   "name": "不是真正同伴的我被逐出了勇者队伍，因此决定在边境过上慢生活",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "短篇",
-  "last_update_chapter_name": "漫画第三卷附录 难喝的酒与离开的原因",
-  "last_update_volume_id": 11750,
-  "last_update_chapter_id": 119010,
-  "last_update_time": 1629476633,
+  "last_update_volume_name": "第八卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12123,
+  "last_update_chapter_id": 123710,
+  "last_update_time": 1648563040,
   "cover": "http://xs.dmzj.com/img/webpic/13/bj0812l.jpg",
-  "hot_hits": 3232234,
+  "hot_hits": 3541553,
   "introduction": "自魔王的侵略使人类陷入危机时，从人类中诞生了勇者为起端。在这个世界里，所有人都有着自己的职责，主人公有着守护勇者的「引导者」之加护的力量，但因某个理由而被赶出了勇者队伍。",
   "types": [
     "异界",
@@ -19,7 +19,7 @@
   ],
   "authors": "ざっぽん",
   "first_letter": "B",
-  "subscribe_num": 79020,
+  "subscribe_num": 96344,
   "volume": [
     {
       "id": 9624,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1534062332,
-      "sum_chapters": 11
+      "sum_chapters": 14
     },
     {
       "id": 9686,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1537181241,
-      "sum_chapters": 11
+      "sum_chapters": 14
     },
     {
       "id": 10230,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1563101807,
-      "sum_chapters": 11
+      "sum_chapters": 14
     },
     {
       "id": 10262,
@@ -51,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1564755782,
-      "sum_chapters": 11
+      "sum_chapters": 14
     },
     {
       "id": 10768,
@@ -59,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1586597916,
-      "sum_chapters": 11
+      "sum_chapters": 14
     },
     {
       "id": 10803,
@@ -67,7 +67,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1587816740,
-      "sum_chapters": 11
+      "sum_chapters": 14
     },
     {
       "id": 11427,
@@ -75,7 +75,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1615556940,
-      "sum_chapters": 11
+      "sum_chapters": 14
     },
     {
       "id": 11750,
@@ -83,7 +83,15 @@
       "volume_name": "短篇",
       "volume_order": 80,
       "addtime": 1629476591,
-      "sum_chapters": 11
+      "sum_chapters": 14
+    },
+    {
+      "id": 12123,
+      "lnovel_id": 2534,
+      "volume_name": "第八卷",
+      "volume_order": 90,
+      "addtime": 1648475528,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -563,6 +571,64 @@
           "chapter_id": 119010,
           "chapter_name": "漫画第三卷附录 难喝的酒与离开的原因",
           "chapter_order": 30
+        }
+      ]
+    },
+    {
+      "volume_id": 12123,
+      "id": 12123,
+      "volume_name": "第八卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 123635,
+          "chapter_name": "序章 神如是说",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 123636,
+          "chapter_name": "第一章 将慢生活传达出去吧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 123637,
+          "chapter_name": "幕间 勇者讨伐邪恶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 123638,
+          "chapter_name": "第二章 长假",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 123639,
+          "chapter_name": "第三章 一切皆是为了加护",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 123640,
+          "chapter_name": "第四章 好意与恶意",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 123641,
+          "chapter_name": "第五章 勇者的试炼",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 123642,
+          "chapter_name": "尾声 引导勇者之人",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 123643,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 123710,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

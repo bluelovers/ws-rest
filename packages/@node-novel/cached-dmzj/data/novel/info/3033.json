@@ -3,20 +3,20 @@
   "name": "我的幸福婚约",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 11978,
-  "last_update_chapter_id": 121830,
-  "last_update_time": 1641133656,
+  "last_update_volume_id": 12125,
+  "last_update_chapter_id": 123665,
+  "last_update_time": 1648476143,
   "cover": "http://xs.dmzj.com/img/webpic/4/wdxfjh0330l.jpg",
-  "hot_hits": 15962,
+  "hot_hits": 26198,
   "introduction": "　　出生名门望族的斋森美世，因生母过世得早，自幼便在继母与继妹的欺凌下长大。\n　　在家人要求下，她嫁给传闻中极为冷酷无情的年轻军人，久堂清霞──据说让众多未婚妻选不到三天就逃走、恶名昭彰的男人。\n　　怀抱可能被抽刀砍杀的觉悟踏进久堂家大门后，出现在美世眼前的，是一名发色、肤色和眼珠的颜色都很浅的美男子。\n　　初次见面就遭到冷言冷语对待的美世，在无法回娘家的情况下，每天努力下厨准备饭菜，希望能逐渐打开清霞的心房……",
   "types": [
     "爱情"
   ],
   "authors": "颚木あくみ",
   "first_letter": "W",
-  "subscribe_num": 3786,
+  "subscribe_num": 4616,
   "volume": [
     {
       "id": 11464,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1617118609,
-      "sum_chapters": 9
+      "sum_chapters": 14
     },
     {
       "id": 11613,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1625576308,
-      "sum_chapters": 9
+      "sum_chapters": 14
     },
     {
       "id": 11693,
@@ -40,7 +40,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1627734246,
-      "sum_chapters": 9
+      "sum_chapters": 14
     },
     {
       "id": 11978,
@@ -48,7 +48,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1641133466,
-      "sum_chapters": 9
+      "sum_chapters": 14
+    },
+    {
+      "id": 12125,
+      "lnovel_id": 3033,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1648475987,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -251,6 +259,49 @@
           "chapter_id": 121830,
           "chapter_name": "后记",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12125,
+      "id": 12125,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 123659,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 123660,
+          "chapter_name": "第一章 新的一年与不安的心",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 123661,
+          "chapter_name": "第二章 在宫殿里静不下心的日子",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 123662,
+          "chapter_name": "第三章 夜晚",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 123663,
+          "chapter_name": "第四章 存在于梦中的过往",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 123664,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 123665,
+          "chapter_name": "后记",
+          "chapter_order": 70
         }
       ]
     }
