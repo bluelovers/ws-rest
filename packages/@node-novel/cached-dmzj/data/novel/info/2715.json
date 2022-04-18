@@ -2,14 +2,14 @@
   "id": 2715,
   "name": "我的女友是老师",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第八卷",
+  "status": "已完结",
+  "last_update_volume_name": "第九卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11994,
-  "last_update_chapter_id": 122044,
-  "last_update_time": 1642151906,
+  "last_update_volume_id": 12146,
+  "last_update_chapter_id": 123918,
+  "last_update_time": 1650014157,
   "cover": "http://xs.dmzj.com/img/webpic/18/wls0822l.jpg",
-  "hot_hits": 594112,
+  "hot_hits": 636349,
   "introduction": "　　我要把你从『普通的学生』培养成『爱上我的学生』……！\n　　我•彩木慎过去受到心灵创伤，因此无法信赖『老师』这种身分的人。某一天放学后，校内最受欢迎的美女老师・藤城真香找我过去。「我──喜欢你。」……她竟突然跟我告白！？「我会不择手段地接近你，直到你开口说爱我。」接下来，她在放学后找我过去，声称要教我功课，却强迫我跟她一起看成人影片、与我过度肢体接触、还带我去约会，导致我愈来愈在意她……？\n　　可是，老师跟学生交往会很不妙吧？绝对不能两情相悦（！？）的禁忌爱情喜剧，开始上课！",
   "types": [
     "校园",
@@ -18,7 +18,7 @@
   ],
   "authors": "镜游",
   "first_letter": "W",
-  "subscribe_num": 40097,
+  "subscribe_num": 42056,
   "volume": [
     {
       "id": 10302,
@@ -82,6 +82,14 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1641995966,
+      "sum_chapters": 12
+    },
+    {
+      "id": 12146,
+      "lnovel_id": 2715,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "addtime": 1649855414,
       "sum_chapters": 12
     }
   ],
@@ -532,6 +540,59 @@
           "chapter_id": 122044,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 12146,
+      "id": 12146,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 123889,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 123890,
+          "chapter_name": "①与真香老师的最后一次春天",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 123891,
+          "chapter_name": "②真香老师的毕业考",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 123892,
+          "chapter_name": "③真香老师在等待回答",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 123893,
+          "chapter_name": "④再见，我的女友老师",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 123894,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 123895,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 123896,
+          "chapter_name": "「木棉花开时」8P小册子",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 123918,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }
