@@ -3,13 +3,13 @@
   "name": "转生成为魔剑",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10447,
-  "last_update_chapter_id": 100965,
-  "last_update_time": 1573964000,
-  "cover": "https://xs.dmzj.com/img/webpic/29/mj0802l.jpg",
-  "hot_hits": 200544,
+  "last_update_volume_id": 12193,
+  "last_update_chapter_id": 124598,
+  "last_update_time": 1651850418,
+  "cover": "http://xs.dmzj.com/img/webpic/29/mj0802l.jpg",
+  "hot_hits": 366690,
   "introduction": "亲爹般的无机物和沉默寡言的猫耳少女，踏上了最少三年，最高无期的旅途。",
   "types": [
     "异界",
@@ -18,8 +18,7 @@
   ],
   "authors": "棚架ユウ",
   "first_letter": "Z",
-  "subscribe_num": 28687,
-  "redis_update_time": 1574306277,
+  "subscribe_num": 36000,
   "volume": [
     {
       "id": 8873,
@@ -27,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1501661665,
-      "sum_chapters": 8
+      "sum_chapters": 15
     },
     {
       "id": 10042,
@@ -35,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1554730874,
-      "sum_chapters": 8
+      "sum_chapters": 15
     },
     {
       "id": 10447,
@@ -43,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1573963554,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 12193,
+      "lnovel_id": 2361,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1651848484,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -211,6 +218,59 @@
         },
         {
           "chapter_id": 100965,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12193,
+      "id": 12193,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 124542,
+          "chapter_name": "第一章 料理公会与比赛",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124543,
+          "chapter_name": "第二章 水晶牢笼",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124544,
+          "chapter_name": "第三章 月宴祭之夜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124545,
+          "chapter_name": "第四章 蠢蠢欲动者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124546,
+          "chapter_name": "第五章 邪人变异",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124547,
+          "chapter_name": "第六章 贪欲之炼金术师",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124548,
+          "chapter_name": "第七章 邪恶之主",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124549,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 124598,
           "chapter_name": "插画",
           "chapter_order": 90
         }

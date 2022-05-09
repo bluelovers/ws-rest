@@ -3,13 +3,13 @@
   "name": "勇者无犬子",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10529,
-  "last_update_chapter_id": 102167,
-  "last_update_time": 1577787605,
-  "cover": "https://xs.dmzj.com/img/webpic/4/yz0629l.jpg",
-  "hot_hits": 154916,
+  "last_update_volume_id": 12182,
+  "last_update_chapter_id": 124418,
+  "last_update_time": 1651246088,
+  "cover": "http://xs.dmzj.com/img/webpic/4/yz0629l.jpg",
+  "hot_hits": 190548,
   "introduction": "　　这一天，位于所泽的一般家庭──剑崎家的客厅弥漫着一股紧张气氛。\n　　一名谜样金发美少女蒂雅娜出现在家中客厅，\n　　身穿宛如异世界骑士装扮的她说道：「身为使者，我前来召唤救世的勇者──英雄·剑崎。」\n　　……咦，英雄不就是我老爸吗！\n　　还以为游戏情节降临在我这个平凡高中生剑崎康雄身上，\n　　没想到老爸竟是勇者，年轻时还拯救过异世界！\n　　蒂雅娜甚至用崇拜的眼神看着我这个「勇者的儿子」……\n　　在拯救异世界之前，家庭和平就面临大危机！我的日常生活到底会变成什么样子？",
   "types": [
     "搞笑",
@@ -17,8 +17,7 @@
   ],
   "authors": "和原聪司",
   "first_letter": "Y",
-  "subscribe_num": 8869,
-  "redis_update_time": 1578034513,
+  "subscribe_num": 9751,
   "volume": [
     {
       "id": 9530,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1530276605,
-      "sum_chapters": 7
+      "sum_chapters": 15
     },
     {
       "id": 9848,
@@ -34,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1545485389,
-      "sum_chapters": 7
+      "sum_chapters": 15
     },
     {
       "id": 10529,
@@ -42,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1577786534,
-      "sum_chapters": 7
+      "sum_chapters": 15
+    },
+    {
+      "id": 12182,
+      "lnovel_id": 2511,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1651245109,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -192,6 +199,49 @@
           "chapter_id": 102167,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12182,
+      "id": 12182,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 124398,
+          "chapter_name": "一章 回首过去的人们",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124399,
+          "chapter_name": "二章 常伴你身边",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124400,
+          "chapter_name": "三章 勇者的千金与伙伴们",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124401,
+          "chapter_name": "四章 「两人」的「心意」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124402,
+          "chapter_name": "终章 盖世英雄的孩子们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124403,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124418,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }

@@ -3,20 +3,20 @@
   "name": "你喜欢被可爱女生攻陷吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11279,
-  "last_update_chapter_id": 113073,
-  "last_update_time": 1608471658,
+  "last_update_volume_id": 12176,
+  "last_update_chapter_id": 124351,
+  "last_update_time": 1651157282,
   "cover": "http://xs.dmzj.com/img/webpic/21/kagl0713l.jpg",
-  "hot_hits": 409683,
+  "hot_hits": 434271,
   "introduction": "「北御门先生，这是游戏喔——如果爱上对方， 就会成为奴隶呢。」\n南条家掌控著日本黑社会。北御门帝落入南条家女儿——姬沙的陷阱里面'弱点也被掌握在对方手中。姬沙提议要玩一场「爱情游戏」，一旦喜欢上对方就要认输。\n帝未来将成为背负日本命运的政治家，且拥有未婚妻，必须与丑闻绝缘。\n他决定挑战这个赌上彼此将来的游戏,但姬沙的诱惑让帝数度差点失去理性。理所当然地，他喜欢上了姬沙。而姬沙亦是如此……\n废柴策略家的甜美爱情游戏就此揭关序幕！",
   "types": [
     "爱情"
   ],
   "authors": "天乃圣树",
   "first_letter": "N",
-  "subscribe_num": 32738,
+  "subscribe_num": 34035,
   "volume": [
     {
       "id": 10228,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1563016156,
-      "sum_chapters": 10
+      "sum_chapters": 15
     },
     {
       "id": 11279,
@@ -32,7 +32,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1608468655,
-      "sum_chapters": 10
+      "sum_chapters": 15
+    },
+    {
+      "id": 12176,
+      "lnovel_id": 2695,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1651156766,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -149,6 +157,54 @@
           "chapter_id": 113073,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 12176,
+      "id": 12176,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 124343,
+          "chapter_name": "序章 PROLOGUE",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124344,
+          "chapter_name": "第一章 第一次联手作战",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124345,
+          "chapter_name": "第二章 间谍少女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124346,
+          "chapter_name": "第三章 怀柔",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124347,
+          "chapter_name": "第四章 拍照",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124348,
+          "chapter_name": "终章 EPILOGUE",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124349,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124351,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

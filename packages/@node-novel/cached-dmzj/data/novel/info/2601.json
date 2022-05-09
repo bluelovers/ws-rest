@@ -3,13 +3,13 @@
   "name": "三角距离无限为零",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "last_update_volume_name": "第六卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11176,
-  "last_update_chapter_id": 111299,
-  "last_update_time": 1602928573,
-  "cover": "https://xs.dmzj.com/img/webpic/18/sj1225l.jpg",
-  "hot_hits": 403915,
+  "last_update_volume_id": 12174,
+  "last_update_chapter_id": 124350,
+  "last_update_time": 1651157150,
+  "cover": "http://xs.dmzj.com/img/webpic/18/sj1225l.jpg",
+  "hot_hits": 493254,
   "introduction": "我与「她们」之间奇妙又扭曲的三角关系。那段距离无限接近，近乎为零——\n在人前会扮演「虚假自我」的我。这样的我喜欢上了无论何时都会贯彻自己，文静的转校生，水濑秋玻。然而，在她的里面还有一个——温柔又有些脱线的少女，水濑春珂。\n一人之中的两人……多重人格的「秋玻」与「春珂」。在知晓她们秘密之时，我们的关系不可思议地彼此交错——这是我与她与她编织的三角恋爱物语。",
   "types": [
     "校园",
@@ -17,8 +17,7 @@
   ],
   "authors": "岬鹭宫",
   "first_letter": "S",
-  "subscribe_num": 29667,
-  "redis_update_time": 1607633172,
+  "subscribe_num": 33798,
   "volume": [
     {
       "id": 9852,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1545729080,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 9956,
@@ -34,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1550309152,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10464,
@@ -42,7 +41,7 @@
       "volume_name": "短篇",
       "volume_order": 22,
       "addtime": 1574936032,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10463,
@@ -50,7 +49,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1574935620,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 10472,
@@ -58,7 +57,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1575460178,
-      "sum_chapters": 68
+      "sum_chapters": 15
     },
     {
       "id": 11176,
@@ -66,7 +65,15 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1602928241,
-      "sum_chapters": 68
+      "sum_chapters": 15
+    },
+    {
+      "id": 12174,
+      "lnovel_id": 2601,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1651156444,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -382,9 +389,122 @@
       "volume_order": 50,
       "chapters": [
         {
+          "chapter_id": 124312,
+          "chapter_name": "序章 You Need Me♡",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 124313,
+          "chapter_name": "第二十四章 Yer (YEAH!) Love-Comedy",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 124314,
+          "chapter_name": "第二十五章 停滞不前是一种罪过",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 124315,
+          "chapter_name": "第二十六章 侦探助手",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 124316,
+          "chapter_name": "第二十七章 乳房的起伏",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 124317,
+          "chapter_name": "第二十八章 不正经的教育讲座",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 124318,
+          "chapter_name": "幕间 环状线上的世界史",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 124319,
+          "chapter_name": "尾声 揭幕",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 124320,
+          "chapter_name": "后记",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 124321,
+          "chapter_name": "附录章节 99×100",
+          "chapter_order": 230
+        },
+        {
+          "chapter_id": 124322,
+          "chapter_name": "Melonbooks特典",
+          "chapter_order": 240
+        },
+        {
           "chapter_id": 111299,
           "chapter_name": "插画",
-          "chapter_order": 130
+          "chapter_order": 2230
+        }
+      ]
+    },
+    {
+      "volume_id": 12174,
+      "id": 12174,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 124323,
+          "chapter_name": "序章 想变可爱",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124324,
+          "chapter_name": "第二十九章 千回百转终有尽",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124325,
+          "chapter_name": "第三十章 放学后小夜曲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124326,
+          "chapter_name": "第三十一章 included in your life",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124327,
+          "chapter_name": "第三十二章 若是写出一首像是Raspberry的歌曲",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124328,
+          "chapter_name": "第三十三章 我变了",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124329,
+          "chapter_name": "第三十四章 橡实",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124330,
+          "chapter_name": "尾声 I'll See You In My Dreams",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 124331,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 124350,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

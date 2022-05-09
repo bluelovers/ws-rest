@@ -3,13 +3,13 @@
   "name": "万事包办退魔士的还债计划",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 缚魂少女",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 7257,
-  "last_update_chapter_id": 53443,
-  "last_update_time": 1443691891,
-  "cover": "https://xs.dmzj.com/img/webpic/29/wsbbtmsdhzjh465.jpg",
-  "hot_hits": 38265,
+  "last_update_volume_name": "第三卷 穿越时空的重逢",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12192,
+  "last_update_chapter_id": 124541,
+  "last_update_time": 1651765900,
+  "cover": "http://xs.dmzj.com/img/webpic/29/wsbbtmsdhzjh465.jpg",
+  "hot_hits": 44465,
   "introduction": "「恭喜你！今后我将用一辈子的时间，好好地榨出你所有的利用价值。」\n追傩狗朗被退魔名门「神堂家」逐出家门后，回到过去曾经居住的家中，没想到在那里等待自己的居然是青梅竹马九十九砌，以及高达一百亿圆的庞大债务。由于狗朗已经被逐出家门，无法再以退魔士的身分接受任何委托，于是他听从砌的建议，转行成立「专门接受死者委托的万事包办事务所」，然而找上门的案子，却尽是一些死者们生前难以解决的牵挂，而且每个委托都相当古怪棘手。更糟糕的是，神堂家的后进退魔士——神堂葛，竟然还在后头穷追不舍！？\n退魔士少年与暴君少女共同谱出的还债喜剧故事，在此揭开序幕！",
   "types": [
     "魔法",
@@ -17,8 +17,7 @@
   ],
   "authors": "SOW",
   "first_letter": "W",
-  "subscribe_num": 680,
-  "redis_update_time": 1564346297,
+  "subscribe_num": 1327,
   "volume": [
     {
       "id": 6846,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷 100亿的契约书",
       "volume_order": 10,
       "addtime": 1430478531,
-      "sum_chapters": 8
+      "sum_chapters": 15
     },
     {
       "id": 7257,
@@ -34,7 +33,15 @@
       "volume_name": "第二卷 缚魂少女",
       "volume_order": 20,
       "addtime": 1443691860,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 12192,
+      "lnovel_id": 1871,
+      "volume_name": "第三卷 穿越时空的重逢",
+      "volume_order": 30,
+      "addtime": 1651764744,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -116,6 +123,64 @@
           "chapter_id": 53443,
           "chapter_name": "后记",
           "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 12192,
+      "id": 12192,
+      "volume_name": "第三卷 穿越时空的重逢",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 124528,
+          "chapter_name": "前情提要",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124529,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124530,
+          "chapter_name": "命令8「back to the father」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124531,
+          "chapter_name": "命令9「那个男人，走上旁门左道之路」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124532,
+          "chapter_name": "命令10「old girl」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124533,
+          "chapter_name": "命令11「说不出口的答覆」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124534,
+          "chapter_name": "命令12「rotation」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124535,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 124536,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 124541,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }

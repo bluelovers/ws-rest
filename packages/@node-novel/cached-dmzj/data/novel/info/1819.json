@@ -3,13 +3,13 @@
   "name": "新世纪学园战区",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 6674,
-  "last_update_chapter_id": 47997,
-  "last_update_time": 1422795894,
-  "cover": "https://xs.dmzj.com/img/webpic/4/xsjxyzq563.jpg",
-  "hot_hits": 52964,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12171,
+  "last_update_chapter_id": 124296,
+  "last_update_time": 1650986361,
+  "cover": "http://xs.dmzj.com/img/webpic/4/xsjxyzq563.jpg",
+  "hot_hits": 57047,
   "introduction": "「加入我这一组吧，玖式。」\n玖式修的青梅竹马，同时也是被称为学园最强魔法师的璃理佳涅伊突然邀请他加入同一组，\n并帮忙寻找能一起突破试验的独特伙伴。\n玖式就这样遇上了一个人孤零零的灵能力式神使者雾生文香、与试验毫无关系的普通科学生主城晃，\n又在某天遇见一位逃进学园的吸血鬼后裔雷蒂。\n身怀异能的少年少女们，在这个结合魔法、灵能力、超能力和科学的新世纪学园战区中，\n命运的齿轮开始转动。",
   "types": [
     "校园",
@@ -17,8 +17,7 @@
   ],
   "authors": "来生直纪",
   "first_letter": "X",
-  "subscribe_num": 841,
-  "redis_update_time": 1564389178,
+  "subscribe_num": 1539,
   "volume": [
     {
       "id": 6674,
@@ -26,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1422795894,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 12171,
+      "lnovel_id": 1819,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1650982631,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -70,6 +77,54 @@
           "chapter_id": 47997,
           "chapter_name": "后记",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12171,
+      "id": 12171,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 124274,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124275,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124276,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124277,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124278,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124279,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124280,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124296,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }
