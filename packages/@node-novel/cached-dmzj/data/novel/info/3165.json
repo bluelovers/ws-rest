@@ -2,21 +2,21 @@
   "id": 3165,
   "name": "疯狂厨房",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "status": "已完结",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11903,
-  "last_update_chapter_id": 120918,
-  "last_update_time": 1636127050,
+  "last_update_volume_id": 12230,
+  "last_update_chapter_id": 125033,
+  "last_update_time": 1653836296,
   "cover": "http://xs.dmzj.com/img/webpic/20/fkcf1105l.jpg",
-  "hot_hits": 2102,
+  "hot_hits": 7802,
   "introduction": "★品尝最棒的料理吧！传说级厨房喜剧登场！\n★比任何人热爱料理，比任何人饥饿的男人隆重钜献！\n「焚身厨房」是间开在商业区的洋食店。天才厨师日野洋二身为店老板背负著两种业障：一是想让客人吃自己做的饭，二是想自己吃自己做的饭，为此他无视点餐与监禁什么都来。但是客人们也不会乖乖听话，不良上班族、抢东西吃的员工──把他们牵扯进去、破坏餐饮业常识的骚动接连爆发！\n出自网路讨论区的传说级料理喜剧，意外登场！",
   "types": [
     "搞笑"
   ],
   "authors": "荻原数马",
   "first_letter": "F",
-  "subscribe_num": 171,
+  "subscribe_num": 520,
   "volume": [
     {
       "id": 11903,
@@ -24,7 +24,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1636122616,
-      "sum_chapters": 12
+      "sum_chapters": 13
+    },
+    {
+      "id": 12230,
+      "lnovel_id": 3165,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1653834010,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -143,6 +151,84 @@
           "chapter_id": 120918,
           "chapter_name": "插画",
           "chapter_order": 220
+        }
+      ]
+    },
+    {
+      "volume_id": 12230,
+      "id": 12230,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 124942,
+          "chapter_name": "第一话 味噌鲭鱼套餐",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124943,
+          "chapter_name": "第二话 炊饭",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124944,
+          "chapter_name": "第三话 咖啡厅的拿坡里义大利面",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124945,
+          "chapter_name": "第四话 白饭的配菜",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124946,
+          "chapter_name": "第五话 综合炸物套餐",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124947,
+          "chapter_name": "第六话 咖啡",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124948,
+          "chapter_name": "第七话 炸猪排盖饭",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124949,
+          "chapter_name": "第八话 大蒜饺子",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 124950,
+          "chapter_name": "第九话 照烧鸡肉",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 124951,
+          "chapter_name": "第十话 酥炸鸡柳",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 124952,
+          "chapter_name": "第十一话 炸牡蛎",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 124953,
+          "chapter_name": "第十二话 炸猪排咖哩",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 124954,
+          "chapter_name": "尾声",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 125033,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

@@ -4,12 +4,12 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插画",
+  "last_update_chapter_name": "安达与岛村联动－不安定的完美",
   "last_update_volume_id": 12155,
-  "last_update_chapter_id": 124013,
-  "last_update_time": 1650204732,
+  "last_update_chapter_id": 124941,
+  "last_update_time": 1653833379,
   "cover": "http://xs.dmzj.com/img/webpic/4/cljw0417l.jpg",
-  "hot_hits": 1215,
+  "hot_hits": 20332,
   "introduction": "寄住在我家的，是隔壁班的女生。有一天突然和母亲两个人来到家里，我不明白她在想什么，可是她的脸真的很好看……令人不爽。我本想着互不干涉，但你晚上偶尔是去哪里？\n从以前开始，母亲和我所住的家和同居人就不断地变化。这次的家里有同一个学校的女生。她会给我做饭，一起分担家务，她还会担心晚上出去的我。但是，就算你问我晚上去哪儿了，我该如何回答呢。我只是去见认识的人而已。\n某一日突然开始同居的两位女高中生，平淡而又脆弱的故事。",
   "types": [
     "校园",
@@ -17,7 +17,7 @@
   ],
   "authors": "入间人间",
   "first_letter": "W",
-  "subscribe_num": 386,
+  "subscribe_num": 3027,
   "volume": [
     {
       "id": 12155,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1650194765,
-      "sum_chapters": 12
+      "sum_chapters": 13
+    },
+    {
+      "id": 12227,
+      "lnovel_id": 3236,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1653660832,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -64,6 +72,84 @@
           "chapter_id": 124013,
           "chapter_name": "插画",
           "chapter_order": 60
+        },
+        {
+          "chapter_id": 124935,
+          "chapter_name": "Animate特典",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124936,
+          "chapter_name": "虎穴特典",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 124937,
+          "chapter_name": "Gamers特典",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 124938,
+          "chapter_name": "Melonbooks特典",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 124939,
+          "chapter_name": "Melonbooks特典 安达与岛村联动",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 124940,
+          "chapter_name": "安达与岛村联动",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 124941,
+          "chapter_name": "安达与岛村联动－不安定的完美",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 12227,
+      "id": 12227,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 124910,
+          "chapter_name": "『障』",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124911,
+          "chapter_name": "『地狱女子会』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124912,
+          "chapter_name": "『那片花海』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124913,
+          "chapter_name": "『星高空夜』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124914,
+          "chapter_name": "『地狱恶女』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124915,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124934,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }

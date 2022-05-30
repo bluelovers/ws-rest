@@ -3,13 +3,13 @@
   "name": "ReLIFE重返17",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "第十七章",
-  "last_update_volume_id": 12152,
-  "last_update_chapter_id": 123984,
-  "last_update_time": 1650193487,
+  "last_update_volume_name": "第五卷",
+  "last_update_chapter_name": "第二十章",
+  "last_update_volume_id": 12234,
+  "last_update_chapter_id": 125013,
+  "last_update_time": 1653835316,
   "cover": "http://xs.dmzj.com/img/webpic/8/relife0415l.jpg",
-  "hot_hits": 3724,
+  "hot_hits": 8276,
   "introduction": "　　大学重考两次，研究所毕业后找到工作，却做了三个月就辞职。\n　　不仅之后的求职屡屡碰壁，也没女友相伴，眼看著一事无成的27岁无业青年海崎新太。\n　　某天，有个自称「夜明了」的人物现身，要求他协助一项实验，并递给他一颗胶囊。\n　　到了隔天早上，他居然在镜中看到了恢复成高中生外貌的自己……",
   "types": [
     "爱情",
@@ -17,7 +17,7 @@
   ],
   "authors": "莳田阳平",
   "first_letter": "R",
-  "subscribe_num": 1152,
+  "subscribe_num": 1916,
   "volume": [
     {
       "id": 12151,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1650022258,
-      "sum_chapters": 12
+      "sum_chapters": 13
     },
     {
       "id": 12152,
@@ -33,7 +33,31 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1650022477,
-      "sum_chapters": 12
+      "sum_chapters": 13
+    },
+    {
+      "id": 12232,
+      "lnovel_id": 3233,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1653834619,
+      "sum_chapters": 13
+    },
+    {
+      "id": 12233,
+      "lnovel_id": 3233,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1653834884,
+      "sum_chapters": 13
+    },
+    {
+      "id": 12234,
+      "lnovel_id": 3233,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1653835067,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -225,6 +249,300 @@
           "chapter_id": 123984,
           "chapter_name": "第十七章",
           "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 12232,
+      "id": 12232,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 124960,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124961,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124962,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124963,
+          "chapter_name": "第二章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124964,
+          "chapter_name": "第三章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124965,
+          "chapter_name": "第四章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124966,
+          "chapter_name": "第五章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124967,
+          "chapter_name": "第六章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 124968,
+          "chapter_name": "第七章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 124969,
+          "chapter_name": "第八章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 124970,
+          "chapter_name": "第九章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 124971,
+          "chapter_name": "第十章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 124972,
+          "chapter_name": "第十一章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 124973,
+          "chapter_name": "第十二章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 124974,
+          "chapter_name": "第十三章",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 124975,
+          "chapter_name": "第十四章",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 124976,
+          "chapter_name": "第十五章",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 124977,
+          "chapter_name": "第十六章",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 124978,
+          "chapter_name": "第十七章",
+          "chapter_order": 190
+        }
+      ]
+    },
+    {
+      "volume_id": 12233,
+      "id": 12233,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 124979,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124980,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124981,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124982,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124983,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124984,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124985,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124986,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 124987,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 124988,
+          "chapter_name": "第十章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 124989,
+          "chapter_name": "第十一章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 124990,
+          "chapter_name": "第十二章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 124991,
+          "chapter_name": "第十三章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 124992,
+          "chapter_name": "第十四章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 124993,
+          "chapter_name": "第十五章",
+          "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 12234,
+      "id": 12234,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 124994,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124995,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124996,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124997,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124998,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124999,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125000,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125001,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 125002,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 125003,
+          "chapter_name": "第十章",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 125004,
+          "chapter_name": "第十一章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 125005,
+          "chapter_name": "第十二章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 125006,
+          "chapter_name": "第十三章",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 125007,
+          "chapter_name": "第十四章",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 125008,
+          "chapter_name": "第十五章",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 125009,
+          "chapter_name": "第十六章",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 125010,
+          "chapter_name": "第十七章",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 125011,
+          "chapter_name": "第十八章",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 125012,
+          "chapter_name": "第十九章",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 125013,
+          "chapter_name": "第二十章",
+          "chapter_order": 200
         }
       ]
     }

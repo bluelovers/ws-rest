@@ -2,21 +2,21 @@
   "id": 3032,
   "name": "厄里斯的圣杯",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "status": "已完结",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11461,
-  "last_update_chapter_id": 115484,
-  "last_update_time": 1617034693,
+  "last_update_volume_id": 12223,
+  "last_update_chapter_id": 124904,
+  "last_update_time": 1653408124,
   "cover": "http://xs.dmzj.com/img/webpic/19/sb0330l.jpg",
-  "hot_hits": 11657,
+  "hot_hits": 19392,
   "introduction": "　　「听好了，康斯坦丝．葛莱尔。你就算花费一生时间，也必须让我的复仇成功！」\n　　只有诚实勉强算是优点的平凡子爵千金康妮，在某一次宴会上被抢走未婚夫，还被诬陷是窃盗犯，因而陷入走投无路的绝境。\n　　就在这种情况下，10年前被处刑的绝代恶女史嘉蕾．卡斯提奥的亡灵出现在她眼前！过去曾经以其绝世美貌、高贵血统，以及压倒性的出众气质而被赞誉为社交界至宝的史嘉蕾，附身在康妮身上之后没两三下子就逆转局势，让康妮得以逃出险境。但是，康妮须要付出的代价，却是帮忙史嘉蕾复仇！？\n　　刚开始是因为利害一致而合作的两人，在不断击溃贵族社会各种暗中恶意和阴谋的过程中建立了情谊，成长为真正的搭档，最后踏上跟过去一直持续至今的巨大阴谋针锋相对的道路……！",
   "types": [
     "冒险"
   ],
   "authors": "常磐くじら",
   "first_letter": "E",
-  "subscribe_num": 2073,
+  "subscribe_num": 2807,
   "volume": [
     {
       "id": 11461,
@@ -24,7 +24,23 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1617033864,
-      "sum_chapters": 15
+      "sum_chapters": 13
+    },
+    {
+      "id": 12222,
+      "lnovel_id": 3032,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1653404809,
+      "sum_chapters": 13
+    },
+    {
+      "id": 12223,
+      "lnovel_id": 3032,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1653405025,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -98,6 +114,147 @@
           "chapter_id": 115484,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 12222,
+      "id": 12222,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 124843,
+          "chapter_name": "幕间 苏珊娜",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124844,
+          "chapter_name": "第一章 骗子与受骗者",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124845,
+          "chapter_name": "第二章 火种",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124846,
+          "chapter_name": "幕间 桑与尤拉莉雅",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124847,
+          "chapter_name": "第三章 女神的指示",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124848,
+          "chapter_name": "回想 莉莉•奥拉明德",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124849,
+          "chapter_name": "第四章 未来的命运",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124850,
+          "chapter_name": "回想 恩斯特•埃迪拜多",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 124851,
+          "chapter_name": "新撰短篇小说 死神改变的理由",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 124852,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 124903,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 12223,
+      "id": 12223,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 124853,
+          "chapter_name": "第一章 邂逅",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124854,
+          "chapter_name": "第二章 浮现的真相",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124855,
+          "chapter_name": "幕间 开始行动的黑影",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124856,
+          "chapter_name": "第三章 为了未来",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124857,
+          "chapter_name": "幕间 苏珊娜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124858,
+          "chapter_name": "第四章 反抗命运的人们",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124859,
+          "chapter_name": "回想 塞丝与希西",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 124860,
+          "chapter_name": "第五章 公开处死",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 124861,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 124862,
+          "chapter_name": "再续小宫殿",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 124863,
+          "chapter_name": "新撰短篇小说 苏珊娜与萨尔瓦多",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 124864,
+          "chapter_name": "新撰短篇小说 花开灿烂的人们",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 124865,
+          "chapter_name": "后记",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 124904,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }

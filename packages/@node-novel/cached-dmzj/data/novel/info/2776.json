@@ -3,20 +3,20 @@
   "name": "道别的方法，我不愿知晓",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11549,
-  "last_update_chapter_id": 116778,
-  "last_update_time": 1622033231,
+  "last_update_volume_name": "第六卷",
+  "last_update_chapter_name": "尾声",
+  "last_update_volume_id": 12220,
+  "last_update_chapter_id": 124827,
+  "last_update_time": 1653404273,
   "cover": "http://xs.dmzj.com/img/webpic/7/zy0101l.jpg",
-  "hot_hits": 68414,
+  "hot_hits": 73894,
   "introduction": "　　故事开始了——在八月湛蓝的天空下。\n　　你获得了成为架见崎居民的权利——。高二的香屋步收到一封奇怪的信，上面写着从没听过的城镇。尽管内容可疑，但信封上的记号和两年前挚友最后留下的记号相同。Toma还活着？为寻找线索，香屋前往信中指定的公寓……\n　　战争。领土。能力者。与死亡和泪水比邻的青春。“架见崎”系列，就此开幕。",
   "types": [
     "侦探"
   ],
   "authors": "河野裕",
   "first_letter": "D",
-  "subscribe_num": 10398,
+  "subscribe_num": 10946,
   "volume": [
     {
       "id": 10531,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1577873391,
-      "sum_chapters": 10
+      "sum_chapters": 13
     },
     {
       "id": 10573,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1580288812,
-      "sum_chapters": 10
+      "sum_chapters": 13
     },
     {
       "id": 10831,
@@ -40,7 +40,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1588678851,
-      "sum_chapters": 10
+      "sum_chapters": 13
     },
     {
       "id": 11237,
@@ -48,7 +48,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1605961556,
-      "sum_chapters": 10
+      "sum_chapters": 13
     },
     {
       "id": 11549,
@@ -56,7 +56,15 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1621592632,
-      "sum_chapters": 10
+      "sum_chapters": 13
+    },
+    {
+      "id": 12220,
+      "lnovel_id": 2776,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1653404096,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -332,6 +340,49 @@
           "chapter_id": 116778,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12220,
+      "id": 12220,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 124821,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 124822,
+          "chapter_name": "第一话 如果知道世界要毁灭不就没法安心去死了吗",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 124823,
+          "chapter_name": "第二话 我们已经相当亲密了",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 124824,
+          "chapter_name": "第三话 简直是绝望啊",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 124825,
+          "chapter_name": "第四话 如果真的有英雄",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 124826,
+          "chapter_name": "第五话 开始处理战败后的事情吧",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 124827,
+          "chapter_name": "尾声",
+          "chapter_order": 70
         }
       ]
     }
