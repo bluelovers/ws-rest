@@ -3,20 +3,20 @@
   "name": "碧蓝航线 Episode of Belfast",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12009,
-  "last_update_chapter_id": 122232,
-  "last_update_time": 1643035723,
+  "last_update_volume_id": 12251,
+  "last_update_chapter_id": 125262,
+  "last_update_time": 1654702488,
   "cover": "http://xs.dmzj.com/img/webpic/3/bl0912l.jpg",
-  "hot_hits": 27100,
+  "hot_hits": 37181,
   "introduction": "　　大受欢迎的游戏『碧蓝航线』衍生作品！！\n　　海上出现异形敌人『塞壬』后，人类的立场有了翻天覆地的改变。为了对抗这未知的敌人，人类设立了军事联盟──『碧蓝航线』。虽然成功抵挡住塞壬的侵袭，却无法将之击退。在漫长的胶著状态中，各阵营的理念浮上台面，逐渐发展成阵营之间的争斗。\n　　战火之中，有一座离激战地区最远的军港。这里有一位银发美少女隶属于皇家阵营，同时从事女仆长的工作。她是皇家阵营最大的巡洋舰，爱丁堡级二号舰，名为贝尔法斯特。\n　　属于她的日常生活闹剧在此拉开序幕！！",
   "types": [
     "奇幻"
   ],
   "authors": "助供珠树",
   "first_letter": "B",
-  "subscribe_num": 3968,
+  "subscribe_num": 4701,
   "volume": [
     {
       "id": 11113,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1599907412,
-      "sum_chapters": 2
+      "sum_chapters": 6
     },
     {
       "id": 11857,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1634137102,
-      "sum_chapters": 2
+      "sum_chapters": 6
     },
     {
       "id": 12009,
@@ -40,7 +40,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1643034311,
-      "sum_chapters": 2
+      "sum_chapters": 6
+    },
+    {
+      "id": 12251,
+      "lnovel_id": 2935,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1654699558,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -210,6 +218,54 @@
           "chapter_id": 122232,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12251,
+      "id": 12251,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 125196,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125197,
+          "chapter_name": "第一章『学园祭会议』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125198,
+          "chapter_name": "第二章『幽灵女仆』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125199,
+          "chapter_name": "第三章『开幕时刻』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125200,
+          "chapter_name": "第四章『少女们的完美结局』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125201,
+          "chapter_name": "终章『衷心期望您的故事能幸福美满』",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125202,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125262,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

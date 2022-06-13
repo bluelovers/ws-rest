@@ -3,13 +3,13 @@
   "name": "枪之勇者重生录",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10567,
-  "last_update_chapter_id": 102565,
-  "last_update_time": 1580034285,
-  "cover": "https://xs.dmzj.com/img/webpic/5/qy0521l.jpg",
-  "hot_hits": 43031,
+  "last_update_volume_id": 12252,
+  "last_update_chapter_id": 125261,
+  "last_update_time": 1654702344,
+  "cover": "http://xs.dmzj.com/img/webpic/5/qy0521l.jpg",
+  "hot_hits": 92356,
   "introduction": "　　以枪之勇者的身分被召唤到异世界的北村元康，是一个只爱菲洛鸟的缺憾男。\n　　在战争当中受到濒死重伤的他，醒过来时发现自己处于跟刚被召唤来时完全相同的情况中。\n　　原来是他持有的枪具有「时间溯行」的力量。\n　　在保持高能力值的情况下，元康下定决心要再次战斗。\n　　这都是为了能见到菲洛鸟族里，他特别喜爱的菲洛脸上的笑容。\n　　「能做的就只有一件事，也就是为了这个世界而战！」\n　　保持强大的力量开始新游戏！？在异世界重新来过的奇幻文学，就此揭开序幕！！",
   "types": [
     "穿越",
@@ -19,8 +19,7 @@
   ],
   "authors": "アネコユサギ",
   "first_letter": "Q",
-  "subscribe_num": 4289,
-  "redis_update_time": 1580083676,
+  "subscribe_num": 7653,
   "volume": [
     {
       "id": 10124,
@@ -28,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1558536016,
-      "sum_chapters": 9
+      "sum_chapters": 6
     },
     {
       "id": 10567,
@@ -36,7 +35,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1580033664,
-      "sum_chapters": 9
+      "sum_chapters": 6
+    },
+    {
+      "id": 12252,
+      "lnovel_id": 2670,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1654699811,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -258,6 +265,99 @@
           "chapter_id": 102565,
           "chapter_name": "插画",
           "chapter_order": 220
+        }
+      ]
+    },
+    {
+      "volume_id": 12252,
+      "id": 12252,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 125204,
+          "chapter_name": "序幕 攻顶",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125205,
+          "chapter_name": "一话 打造马车",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125206,
+          "chapter_name": "二话 懒猪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125207,
+          "chapter_name": "三话 秘密通道",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125208,
+          "chapter_name": "四话 术业有专攻",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125209,
+          "chapter_name": "五话 低估",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125210,
+          "chapter_name": "六话 引导避难",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125211,
+          "chapter_name": "七话 矛盾重演",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 125212,
+          "chapter_name": "八话 状态异常",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 125213,
+          "chapter_name": "九话 不公平",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 125214,
+          "chapter_name": "十话 转蛋",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 125215,
+          "chapter_name": "十一话 换装熊猫",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 125216,
+          "chapter_name": "十二话 怠惰种子",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 125217,
+          "chapter_name": "十三话 观光胜地",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 125218,
+          "chapter_name": "十四话 主治医生的助手──龙的女儿",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 125219,
+          "chapter_name": "终章 大声喊出对菲洛鸟大人的爱",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 125261,
+          "chapter_name": "插画",
+          "chapter_order": 170
         }
       ]
     }

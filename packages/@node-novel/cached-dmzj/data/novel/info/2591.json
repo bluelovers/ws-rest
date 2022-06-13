@@ -2,22 +2,21 @@
   "id": 2591,
   "name": "交叉连结",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第三卷 与电脑神姬秋樱的拒绝互换身体游戏攻略",
+  "status": "已完结",
+  "last_update_volume_name": "第四卷 觉醒与灾厄的互换身体姊妹游戏攻略",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11234,
-  "last_update_chapter_id": 112272,
-  "last_update_time": 1605799508,
-  "cover": "https://xs.dmzj.com/img/webpic/14/jc1207l.jpg",
-  "hot_hits": 122325,
+  "last_update_volume_id": 12241,
+  "last_update_chapter_id": 125187,
+  "last_update_time": 1654438160,
+  "cover": "http://xs.dmzj.com/img/webpic/14/jc1207l.jpg",
+  "hot_hits": 142251,
   "introduction": "垂水夕凪这名少年个性阴沉又不喜与人为伍，\n  但在过去举办的「传说中的地下游戏」中，他是全世界唯一通关的人。\n  成为平凡的高中生后，他又因为某个原因，\n  被迫参加新的地下游戏「一百名高端玩家猎杀『公主』」\n  ──而且是以「公主」的身分。\n  不仅如此，原本在游戏中担任「公主」的电脑神姬──春风，\n  还跟夕凪交换了身体，前往现实世界。\n  接二连三发生不得了的状况，让夕凪的人生产生急剧的变化。\n  并且，夕凪得知游戏中的「公主」死亡等同于春风死亡后，\n  为了颠覆「已经注定的败北」，\n  他决定挑战不容许犯下任何一个失误的极致通关法！",
   "types": [
     "奇幻"
   ],
   "authors": "久追遥希",
   "first_letter": "J",
-  "subscribe_num": 10810,
-  "redis_update_time": 1607634613,
+  "subscribe_num": 11754,
   "volume": [
     {
       "id": 9824,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷 与电脑神姬春风的互换身体完全游戏攻略",
       "volume_order": 10,
       "addtime": 1544146478,
-      "sum_chapters": 68
+      "sum_chapters": 6
     },
     {
       "id": 10382,
@@ -33,7 +32,7 @@
       "volume_name": "第二卷 与电脑神姬铃夏的互换身体完全游戏攻略",
       "volume_order": 20,
       "addtime": 1570966621,
-      "sum_chapters": 68
+      "sum_chapters": 6
     },
     {
       "id": 11234,
@@ -41,7 +40,15 @@
       "volume_name": "第三卷 与电脑神姬秋樱的拒绝互换身体游戏攻略",
       "volume_order": 30,
       "addtime": 1605799037,
-      "sum_chapters": 68
+      "sum_chapters": 6
+    },
+    {
+      "id": 12241,
+      "lnovel_id": 2591,
+      "volume_name": "第四卷 觉醒与灾厄的互换身体姊妹游戏攻略",
+      "volume_order": 40,
+      "addtime": 1654352582,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -199,6 +206,54 @@
         },
         {
           "chapter_id": 112272,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12241,
+      "id": 12241,
+      "volume_name": "第四卷 觉醒与灾厄的互换身体姊妹游戏攻略",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 125075,
+          "chapter_name": "序章 两名少女与两句誓言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125076,
+          "chapter_name": "第一章 「变动游戏」导览",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125077,
+          "chapter_name": "第二章 Rule Of Casters",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125078,
+          "chapter_name": "第三章 Selector of Seventh Role",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125079,
+          "chapter_name": "最终章 E.x. Unlimited Conquest",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125080,
+          "chapter_name": "尾声 落幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125081,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125187,
           "chapter_name": "插画",
           "chapter_order": 80
         }
