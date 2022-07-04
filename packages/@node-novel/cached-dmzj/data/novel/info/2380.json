@@ -3,13 +3,13 @@
   "name": "杀戮的天使",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 UNTIL DEATH DO THEM PART",
+  "last_update_volume_name": "第三卷 ONCE IN A BLUE MOON",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 8960,
-  "last_update_chapter_id": 79470,
-  "last_update_time": 1504951370,
-  "cover": "https://xs.dmzj.com/img/webpic/19/xl0909l.jpg",
-  "hot_hits": 32428,
+  "last_update_volume_id": 12316,
+  "last_update_chapter_id": 125958,
+  "last_update_time": 1656771376,
+  "cover": "http://xs.dmzj.com/img/webpic/19/xl0909l.jpg",
+  "hot_hits": 46245,
   "introduction": "13岁的少女瑞依在大楼的最底层醒过来。\n她丧失了记忆，甚至不知道自己为何身在此处。\n这时全身包著绷带的杀人魔札克出现在她的面前──\n「我有个请求，拜托你，请你杀了我。」\n「帮助我一起从这里出去吧。到时我就会杀了你。」\n两人的奇妙羁绊在这份「疯狂的约定」下逐渐加深。\n这里究竟是什么地方？两人为什么被关在这里？等待他们的又是怎么样的命运？\n冒死逃出密闭大楼的行动就此开始……！",
   "types": [
     "侦探",
@@ -17,34 +17,34 @@
   ],
   "authors": "木尔チレン",
   "first_letter": "S",
-  "subscribe_num": 8655,
-  "redis_update_time": 1564344146,
+  "subscribe_num": 11904,
   "volume": [
-    {
-      "id": 8959,
-      "lnovel_id": 2380,
-      "volume_name": "第一卷",
-      "volume_order": 10,
-      "addtime": 1504950759,
-      "sum_chapters": 8
-    },
     {
       "id": 8960,
       "lnovel_id": 2380,
       "volume_name": "第一卷 UNTIL DEATH DO THEM PART",
       "volume_order": 20,
       "addtime": 1504950767,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 12315,
+      "lnovel_id": 2380,
+      "volume_name": "第二卷 BLESSING IN DISGUISE",
+      "volume_order": 30,
+      "addtime": 1656768150,
+      "sum_chapters": 15
+    },
+    {
+      "id": 12316,
+      "lnovel_id": 2380,
+      "volume_name": "第三卷 ONCE IN A BLUE MOON",
+      "volume_order": 40,
+      "addtime": 1656768291,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
-    {
-      "volume_id": 8959,
-      "id": 8959,
-      "volume_name": "第一卷",
-      "volume_order": 10,
-      "chapters": []
-    },
     {
       "volume_id": 8960,
       "id": 8960,
@@ -95,6 +95,117 @@
           "chapter_id": 79470,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12315,
+      "id": 12315,
+      "volume_name": "第二卷 BLESSING IN DISGUISE",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 125872,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125873,
+          "chapter_name": "SWEET GUILT",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125874,
+          "chapter_name": "TRAGEDY IN HER DAYDREAM",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125875,
+          "chapter_name": "ZACK'S KNIFE",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125876,
+          "chapter_name": "THE WITCH TRIAL",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125877,
+          "chapter_name": "EDDIE'S MEMORY",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125878,
+          "chapter_name": "HER MEMORY OF CATHY",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125957,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12316,
+      "id": 12316,
+      "volume_name": "第三卷 ONCE IN A BLUE MOON",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 125879,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125880,
+          "chapter_name": "CHILDISH GIMMICK",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125881,
+          "chapter_name": "RACHEL'S MEMORY",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125882,
+          "chapter_name": "UNTIL DEATH DO US PART",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125883,
+          "chapter_name": "ANGEL OF DEATH",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125884,
+          "chapter_name": "BLUE MOON",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125885,
+          "chapter_name": "DANNY 'S AND HIS MOTHER 'S MEMORY",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125886,
+          "chapter_name": "Episode. Danny",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 125887,
+          "chapter_name": "episode Danny’s mother",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 125888,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 125958,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

@@ -2,14 +2,14 @@
   "id": 93,
   "name": "德尔菲尼亚战记",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "外传3 珀拉的戴冠式",
+  "status": "已完结",
+  "last_update_volume_name": "外传4 国王的受难",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 11262,
-  "last_update_chapter_id": 115598,
-  "last_update_time": 1617517560,
+  "last_update_volume_id": 12290,
+  "last_update_chapter_id": 125745,
+  "last_update_time": 1656516463,
   "cover": "http://xs.dmzj.com/img/webpic/1/defnyzj6856l.jpg",
-  "hot_hits": 564502,
+  "hot_hits": 579509,
   "introduction": "被刺客追袭的飘泊战士渥尔，与从异世界而来的迷途少女莉，两个孤独的战士在刀锋之中偶然相遇了。德尔菲尼亚王国的未来。与阿贝尔德伦大陆的命运 因此而有剧烈的改变！ 被后世称为「狮子王」与「姬将军」的两人冒险故事从此展开……",
   "types": [
     "冒险",
@@ -18,7 +18,7 @@
   ],
   "authors": "茅田砂胡",
   "first_letter": "D",
-  "subscribe_num": 11445,
+  "subscribe_num": 11615,
   "volume": [
     {
       "id": 345,
@@ -194,6 +194,14 @@
       "volume_name": "外传3 珀拉的戴冠式",
       "volume_order": 220,
       "addtime": 1607605649,
+      "sum_chapters": 15
+    },
+    {
+      "id": 12290,
+      "lnovel_id": 93,
+      "volume_name": "外传4 国王的受难",
+      "volume_order": 230,
+      "addtime": 1655902913,
       "sum_chapters": 15
     }
   ],
@@ -1686,6 +1694,44 @@
           "chapter_id": 115598,
           "chapter_name": "后记",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 12290,
+      "id": 12290,
+      "volume_name": "外传4 国王的受难",
+      "volume_order": 230,
+      "chapters": [
+        {
+          "chapter_id": 125598,
+          "chapter_name": "第一章《公主诞生前的七天》",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125599,
+          "chapter_name": "第二章《鹰在翱翔》",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125600,
+          "chapter_name": "第三章《国王的女难》",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125601,
+          "chapter_name": "第四章 男人的修行",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125744,
+          "chapter_name": "第五章《暴风雨之后》",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125745,
+          "chapter_name": "后记",
+          "chapter_order": 60
         }
       ]
     }

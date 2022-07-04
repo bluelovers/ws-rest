@@ -3,13 +3,13 @@
   "name": "其实，我乃最强？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11441,
-  "last_update_chapter_id": 115172,
-  "last_update_time": 1616158571,
+  "last_update_volume_id": 12292,
+  "last_update_chapter_id": 125716,
+  "last_update_time": 1656514736,
   "cover": "http://xs.dmzj.com/img/webpic/14/wnzq0319l.jpg",
-  "hot_hits": 27047,
+  "hot_hits": 48563,
   "introduction": "家里蹲某日突然转生成了异世界的王子——刚这么想，就被认定为最弱遭遇生命危机！\n巨大的野兽向我被抛弃的地点袭来，而我可以使用的魔法只有一种。为了回避转生几天就死去的结局，我对魔法进行这样那样的尝试之后……不知为何巨大的野兽变成了美少女，还成为了我的从者。\n不幸蜂拥而至，幸运也终于降临，饱受折磨后之末我成为了贵族的养子。\n唯一能用的魔法万能过头了，理想的家里蹲生活我来了，但是……\n先行的漫画化也广受好评！主角成名故事！",
   "types": [
     "异界",
@@ -17,7 +17,7 @@
   ],
   "authors": "澄守彩",
   "first_letter": "Q",
-  "subscribe_num": 2999,
+  "subscribe_num": 3921,
   "volume": [
     {
       "id": 11441,
@@ -25,6 +25,22 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1616157403,
+      "sum_chapters": 15
+    },
+    {
+      "id": 12291,
+      "lnovel_id": 3023,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1655903863,
+      "sum_chapters": 15
+    },
+    {
+      "id": 12292,
+      "lnovel_id": 3023,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1655904113,
       "sum_chapters": 15
     }
   ],
@@ -77,6 +93,117 @@
         },
         {
           "chapter_id": 115172,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12291,
+      "id": 12291,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 125604,
+          "chapter_name": "第一章 沉稳的龙少女",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125605,
+          "chapter_name": "附赠幕间 龙人女仆观察记录（一）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125606,
+          "chapter_name": "第二章 入学前的麻烦事儿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125607,
+          "chapter_name": "附加幕间 龙人女仆观察记录（二）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125608,
+          "chapter_name": "第三章 白马尾是谁？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125609,
+          "chapter_name": "附加幕间 龙人女仆观察记录（三）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125610,
+          "chapter_name": "第四章 公子哥的末路",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125611,
+          "chapter_name": "附加尾声 圆桌小组观察记录",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 125612,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 125715,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 12292,
+      "id": 12292,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 125613,
+          "chapter_name": "第一章 名为妹妹的生物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125614,
+          "chapter_name": "附加幕间 名为妹妹的生物（HSITORY）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125615,
+          "chapter_name": "第二章 犯人与目标",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125616,
+          "chapter_name": "附加幕间 动真格的玩耍",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125617,
+          "chapter_name": "第三章 应该为妹妹做的事情",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125618,
+          "chapter_name": "附加幕间 打工战士，伊丽丝",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125619,
+          "chapter_name": "第四章 王都，动乱",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125620,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 125716,
           "chapter_name": "插画",
           "chapter_order": 90
         }

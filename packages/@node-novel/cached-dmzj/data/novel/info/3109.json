@@ -3,13 +3,13 @@
   "name": "青梅竹马就是失败flag，是真的吗？",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11700,
-  "last_update_chapter_id": 118518,
-  "last_update_time": 1627900499,
+  "last_update_volume_id": 12276,
+  "last_update_chapter_id": 125494,
+  "last_update_time": 1655392949,
   "cover": "http://xs.dmzj.com/img/webpic/16/qm0801l.jpg",
-  "hot_hits": 597,
+  "hot_hits": 28191,
   "introduction": "我的青梅竹马樱木萌萌花是金发混血的美少女。而且擅长做饭，很会照顾人，胸部也很大。我最喜欢那样的她。但是萌萌花只对我傲娇，这样的话即使告白也会被甩的吧……。但是我不会放弃的。今年一定要和萌萌花谈恋爱！下定决心的那一天，可爱的转校生来了。不知为何，萌萌花两眼泪汪汪……！？明明是两情相悦却空荡荡的学园爱情喜剧！",
   "types": [
     "校园",
@@ -18,7 +18,7 @@
   ],
   "authors": "猫又ぬこ",
   "first_letter": "Q",
-  "subscribe_num": 2363,
+  "subscribe_num": 4364,
   "volume": [
     {
       "id": 11700,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1627900050,
-      "sum_chapters": 11
+      "sum_chapters": 15
+    },
+    {
+      "id": 12276,
+      "lnovel_id": 3109,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1655386595,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -80,6 +88,54 @@
           "chapter_id": 118518,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12276,
+      "id": 12276,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 125440,
+          "chapter_name": "序幕 胖次决心之日",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125441,
+          "chapter_name": "第一幕 青梅竹马攻略之日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125442,
+          "chapter_name": "第二幕 变成青梅竹马之日",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125443,
+          "chapter_name": "第三幕 青梅竹马和电影之日",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125444,
+          "chapter_name": "第四幕 青梅竹马和电影拍摄之日",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125445,
+          "chapter_name": "终幕 暑假之日",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125446,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125494,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

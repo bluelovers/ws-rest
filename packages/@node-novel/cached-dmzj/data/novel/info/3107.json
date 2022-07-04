@@ -3,13 +3,13 @@
   "name": "古戒律的魔法骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12069,
-  "last_update_chapter_id": 123355,
-  "last_update_time": 1647434739,
+  "last_update_volume_id": 12286,
+  "last_update_chapter_id": 125578,
+  "last_update_time": 1655561178,
   "cover": "http://xs.dmzj.com/img/webpic/11/gmf0809l.jpg",
-  "hot_hits": 23394,
+  "hot_hits": 43388,
   "introduction": "「“骑士仅诉说真实”」「“其心点亮勇气之火”」「“其剑守护弱者”」「“其力量支撑善行”」「“其愤怒——能毁灭邪恶”」——传说时代被称为最强骑士的同时，又有着「野蛮人」之称的希德•布利兹。\n通过卡尔巴尼亚的年轻「王子」之手实现复活的男子，作为魔法骑士学校的教官赴任。\n继承了创立者骑士理念的四个教室，他被分配到了冠以自己名字的吊车尾班级…「你们啊，作为骑士不会感到羞耻吗——先把剑舍弃吧」最强的骑士是野蛮人——新「教官」系列开幕!",
   "types": [
     "校园",
@@ -18,7 +18,7 @@
   ],
   "authors": "羊太郎",
   "first_letter": "G",
-  "subscribe_num": 3499,
+  "subscribe_num": 4346,
   "volume": [
     {
       "id": 11717,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1628505081,
-      "sum_chapters": 23
+      "sum_chapters": 15
     },
     {
       "id": 12069,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1646311938,
-      "sum_chapters": 23
+      "sum_chapters": 15
+    },
+    {
+      "id": 12286,
+      "lnovel_id": 3107,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1655557169,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -151,6 +159,59 @@
           "chapter_id": 123355,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 12286,
+      "id": 12286,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 125558,
+          "chapter_name": "第一章 新的阴谋",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125559,
+          "chapter_name": "第二章 对抗意识",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125560,
+          "chapter_name": "第三章 妖精界的合宿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125561,
+          "chapter_name": "第四章 新的旋风",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125562,
+          "chapter_name": "第五章 变革的暗云",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125563,
+          "chapter_name": "第六章 荣耀所在",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125564,
+          "chapter_name": "终章 新的出发",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125565,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 125578,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

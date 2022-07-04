@@ -3,13 +3,13 @@
   "name": "冷淡的佐藤同学只对我撒娇",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12085,
-  "last_update_chapter_id": 123153,
-  "last_update_time": 1646395772,
+  "last_update_volume_id": 12274,
+  "last_update_chapter_id": 125498,
+  "last_update_time": 1655393547,
   "cover": "http://xs.dmzj.com/img/webpic/29/ld0227l.jpg",
-  "hot_hits": 72165,
+  "hot_hits": 101486,
   "introduction": "　　「佐藤同学是高岭之花，对任何人都很冷淡。不过，只有我知道她其实处处破绽。好比说她拍照技术超烂，却容易露出沾沾自喜的表情。而且萌萌地微笑的时候超级可爱的。」\n　　「押尾同学对任何人都很温柔。不过，只有我知道他其实也有调皮的一面。他熟悉社群网路、在时髦的咖啡厅工作。而且他露出淘气笑容时我都会脸红心跳。」──不可以告诉别人喔，我（人家）就是喜欢这样的她（他）。\n　　青涩又令人焦虑的初恋在两人心中萌芽。神圣＆糖度120％！两情相悦的甜蜜青春恋爱喜剧！",
   "types": [
     "爱情",
@@ -18,7 +18,7 @@
   ],
   "authors": "猿渡风见",
   "first_letter": "L",
-  "subscribe_num": 10675,
+  "subscribe_num": 12933,
   "volume": [
     {
       "id": 11392,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1614433897,
-      "sum_chapters": 7
+      "sum_chapters": 15
     },
     {
       "id": 11863,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1634223607,
-      "sum_chapters": 7
+      "sum_chapters": 15
     },
     {
       "id": 11988,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1641469444,
-      "sum_chapters": 7
+      "sum_chapters": 15
     },
     {
       "id": 12085,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1646393528,
-      "sum_chapters": 7
+      "sum_chapters": 15
+    },
+    {
+      "id": 12274,
+      "lnovel_id": 3007,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1655386053,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -278,6 +286,69 @@
           "chapter_id": 123153,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12274,
+      "id": 12274,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 125422,
+          "chapter_name": "序章 第16回SSF定期报告会",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125423,
+          "chapter_name": "第一张照片 入场",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125424,
+          "chapter_name": "第二张照片 三轮动物游乐园",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125425,
+          "chapter_name": "第三张照片 攻城战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125426,
+          "chapter_name": "第四张照片 男人的虚荣心",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125427,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125428,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125429,
+          "chapter_name": "特典 艺术之秋",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 125430,
+          "chapter_name": "特典 圆花的把柄",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 125431,
+          "chapter_name": "特典 土拨鼠事变",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 125498,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "圣剑学院的魔剑使",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第八卷",
+  "last_update_volume_name": "第九卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11993,
-  "last_update_chapter_id": 122013,
-  "last_update_time": 1641829927,
+  "last_update_volume_id": 12303,
+  "last_update_chapter_id": 125784,
+  "last_update_time": 1656589884,
   "cover": "http://xs.dmzj.com/img/webpic/29/smj0210l.jpg",
-  "hot_hits": 1276607,
+  "hot_hits": 1395528,
   "introduction": "外表是小孩，内心是魔王！？和姐姐们一起的剑与幻想的学院！\n最强的雷欧尼斯，为了准备近日要来临的决战而封印了自身的存在。\n但是，超过1000年后觉醒时，他竟然变回了10岁少年的模样！\n「为什么！？」「你为什么会被关在这里？已经没事了。姐姐会保护你」。\n雷欧尼斯被所属〈圣剑学院〉的美少女利瑟莉娅保护，对面目全副的世界感到愕然。\n未知的敌人〈Void〉、〈第〇七战术都市〉、形为武器的异能之力——〈圣剑〉。\n虽然对不熟悉的单词困惑，但他还是入学〈圣剑学院〉。\n在失去魔术的世界，最强魔王与美少女们编织的圣剑和魔剑的剑与幻想的学院就此开幕！",
   "types": [
     "校园",
@@ -17,7 +17,7 @@
   ],
   "authors": "志瑞佑",
   "first_letter": "S",
-  "subscribe_num": 36311,
+  "subscribe_num": 37989,
   "volume": [
     {
       "id": 10284,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1565534525,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 10381,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1570966243,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 10598,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1581327389,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 11710,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1628430724,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 11718,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1628593272,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 11727,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1628766325,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 11740,
@@ -73,7 +73,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1629030753,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 11993,
@@ -81,7 +81,23 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1641823994,
-      "sum_chapters": 12
+      "sum_chapters": 15
+    },
+    {
+      "id": 12302,
+      "lnovel_id": 2711,
+      "volume_name": "短篇",
+      "volume_order": 90,
+      "addtime": 1656516035,
+      "sum_chapters": 15
+    },
+    {
+      "id": 12303,
+      "lnovel_id": 2711,
+      "volume_name": "第九卷",
+      "volume_order": 100,
+      "addtime": 1656516067,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -681,6 +697,87 @@
           "chapter_id": 122013,
           "chapter_name": "插画",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 12302,
+      "id": 12302,
+      "volume_name": "短篇",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 125724,
+          "chapter_name": "2021人气投票短篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125725,
+          "chapter_name": "圣诞短篇",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 12303,
+      "id": 12303,
+      "volume_name": "第九卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 125726,
+          "chapter_name": "第一章 常暗女王",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125727,
+          "chapter_name": "第二章 虚无世界",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125728,
+          "chapter_name": "第三章 阴谋之影",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125729,
+          "chapter_name": "第四章 魔王的谒见",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125730,
+          "chapter_name": "第五章 圣剑的秘密",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125731,
+          "chapter_name": "第六章 邀请函",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125732,
+          "chapter_name": "第七章 天境学院",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125733,
+          "chapter_name": "第八章 姐妹",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 125734,
+          "chapter_name": "第九章 影之魔城",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 125735,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 125784,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

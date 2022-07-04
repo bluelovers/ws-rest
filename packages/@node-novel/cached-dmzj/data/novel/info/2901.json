@@ -3,20 +3,20 @@
   "name": "乐园杂音 Paradise NoiSe",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11922,
-  "last_update_chapter_id": 121261,
-  "last_update_time": 1638199822,
+  "last_update_volume_id": 12317,
+  "last_update_chapter_id": 125959,
+  "last_update_time": 1656771544,
   "cover": "http://xs.dmzj.com/img/webpic/8/lyzy0718l.jpg",
-  "hot_hits": 107355,
+  "hot_hits": 137517,
   "introduction": "把心血来潮穿着女装的演奏视频传到网上后，我作为神秘女高中生网络乐手（然而是男的）一跃成名。\n可这个秘密被音乐老师华园美沙绪发现，为了封口只得听凭她使唤……\n“性格别扭的天才钢琴手，凛子”\n“花道的公主鼓手，诗月”\n“不上学的座敷童子主唱，朱音”\n通过华园老师，我结识了三名少女，本该无色无味的高中生活也因此不断增添喧闹、烦恼与色彩。\n日常与恋爱、青春和乐队相伴的boy meets girls！",
   "types": [
     "校园"
   ],
   "authors": "杉井光",
   "first_letter": "L",
-  "subscribe_num": 9250,
+  "subscribe_num": 9959,
   "volume": [
     {
       "id": 10993,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1595156424,
-      "sum_chapters": 18
+      "sum_chapters": 15
     },
     {
       "id": 11640,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1626434412,
-      "sum_chapters": 18
+      "sum_chapters": 15
     },
     {
       "id": 11922,
@@ -40,7 +40,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1637413895,
-      "sum_chapters": 18
+      "sum_chapters": 15
+    },
+    {
+      "id": 12317,
+      "lnovel_id": 2901,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1656768478,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -230,6 +238,59 @@
           "chapter_id": 121261,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 12317,
+      "id": 12317,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 125889,
+          "chapter_name": "1 特醇薄荷与红色蝴蝶",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125890,
+          "chapter_name": "2 幕灯与黑色蝴蝶",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125891,
+          "chapter_name": "3 王与年迈的兽",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125892,
+          "chapter_name": "4 情人节的甘美血液",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125893,
+          "chapter_name": "5 指挥大师的条件",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125894,
+          "chapter_name": "6 镜中国度的地图",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125895,
+          "chapter_name": "7 春天到来，你将——",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125896,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 125959,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "让所有恋人都幸福的故事",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11950,
-  "last_update_chapter_id": 121419,
-  "last_update_time": 1639232584,
+  "last_update_volume_id": 12281,
+  "last_update_chapter_id": 125575,
+  "last_update_time": 1655559198,
   "cover": "http://xs.dmzj.com/img/webpic/29/laqy1211l.jpg",
-  "hot_hits": 2643,
+  "hot_hits": 13395,
   "introduction": "女主角“全员恋人”!超诚实的多人交往爱情喜剧!\n高中生逆水不动，被大小姐遥华和青梅竹马里纱同时告白。\n因过去的体验而抱有『要让所有女性幸福』这一信念的不动。\n苦恼的他得出的结论是──「和我──三个人一起交往吧! !」\n一场别开生面的三人恋人生活就这样拉开了帷幕。\n「稍微有点心动了吗……?」\n积极、尽力付出的里纱。\n「牵手，是要触摸我吗……?」\n害羞、没有经验的遥华。\n在多人交往这种不可思议的关系中，三个人慢慢地、却实实在在地心灵相通。\n新感觉·零失败女主角!\n全员恋人的超诚实爱情喜剧!",
   "types": [
     "校园",
@@ -17,7 +17,7 @@
   ],
   "authors": "天乃圣树",
   "first_letter": "R",
-  "subscribe_num": 623,
+  "subscribe_num": 1821,
   "volume": [
     {
       "id": 11950,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1639230764,
-      "sum_chapters": 18
+      "sum_chapters": 15
+    },
+    {
+      "id": 12281,
+      "lnovel_id": 3180,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1655556026,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -64,6 +72,54 @@
           "chapter_id": 121419,
           "chapter_name": "插画",
           "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 12281,
+      "id": 12281,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 125503,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 125504,
+          "chapter_name": "第一章 同居",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 125505,
+          "chapter_name": "第二章 招揽",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 125506,
+          "chapter_name": "第三章 庆典",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 125507,
+          "chapter_name": "第四章 完美",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 125508,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 125509,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 125575,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }
