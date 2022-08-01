@@ -3,13 +3,13 @@
   "name": "国王的求婚",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 极彩之魔女",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11941,
-  "last_update_chapter_id": 121330,
-  "last_update_time": 1638540325,
+  "last_update_volume_name": "短篇",
+  "last_update_chapter_name": "DragonMagazine2022年3月号 Sister’s Cafe",
+  "last_update_volume_id": 12347,
+  "last_update_chapter_id": 126824,
+  "last_update_time": 1658326737,
   "cover": "http://xs.dmzj.com/img/webpic/14/wh1202l.jpg",
-  "hot_hits": 20352,
+  "hot_hits": 76380,
   "introduction": "拥有支配世界魔女的身体和力量的少年，最强的初恋！\n久远崎彩祸。是不断拯救这个每三百个小时便会迎来一次灭亡危机世界的，最强的魔女，也是魔术师学园的学园长。\n「——我的世界，就托付给你了——」\n然后——玖珂无色继承了他那已经死去的初恋少女的身体还有力量。无色从彩祸的从者・乌丸黑衣那里得到了指示，要在不被任何人发现的情况下继续校园的生活……。然而，连面对班上的同学和老师都会害怕的他，甚至还要面对再会的妹妹来找自己商量喜欢哥哥该怎么办的这种问题，而他波澜的生活也就此开始！\n「麻烦安静点，我的手不听使唤了。不，应该是嘴巴么？」\n而且，因为一旦放松就会变回男性，所以与女性接吻是不可或缺的！？\n《约会大作战》的组合所带来的新世代最强初恋！",
   "types": [
     "校园",
@@ -18,7 +18,7 @@
   ],
   "authors": "橘公司",
   "first_letter": "G",
-  "subscribe_num": 3178,
+  "subscribe_num": 8423,
   "volume": [
     {
       "id": 11941,
@@ -26,7 +26,23 @@
       "volume_name": "第一卷 极彩之魔女",
       "volume_order": 10,
       "addtime": 1638539471,
-      "sum_chapters": 18
+      "sum_chapters": 42
+    },
+    {
+      "id": 12346,
+      "lnovel_id": 3175,
+      "volume_name": "第二卷 鸨羽的恶魔",
+      "volume_order": 20,
+      "addtime": 1657454544,
+      "sum_chapters": 42
+    },
+    {
+      "id": 12347,
+      "lnovel_id": 3175,
+      "volume_name": "短篇",
+      "volume_order": 30,
+      "addtime": 1657454612,
+      "sum_chapters": 42
     }
   ],
   "chapters": [
@@ -80,6 +96,87 @@
           "chapter_id": 121330,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12346,
+      "id": 12346,
+      "volume_name": "第二卷 鸨羽的恶魔",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 126198,
+          "chapter_name": "序章 主播克拉拉",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126199,
+          "chapter_name": "第一章【冲击】成为天降女主角",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126200,
+          "chapter_name": "第二章【速报】交到男朋友了！",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126201,
+          "chapter_name": "第三章【对决】魔女樣VS克拉拉、爱的三番胜负",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 126631,
+          "chapter_name": "第四章【必看】交流战开幕",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 126632,
+          "chapter_name": "第五章 【阅览注意】克拉拉的秘密，告诉给你",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 126633,
+          "chapter_name": "终章 背信者喰良(克拉拉)",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 126634,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 126736,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12347,
+      "id": 12347,
+      "volume_name": "短篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 126202,
+          "chapter_name": "约会大作战X国王的求婚联动短篇 彩祸crossover",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126822,
+          "chapter_name": "Garden Guidance庭园引导",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126823,
+          "chapter_name": "Dragon Magazine2022年1月号 Dormitory Panic",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126824,
+          "chapter_name": "DragonMagazine2022年3月号 Sister’s Cafe",
+          "chapter_order": 40
         }
       ]
     }
