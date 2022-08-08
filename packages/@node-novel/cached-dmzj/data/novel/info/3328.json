@@ -2,21 +2,21 @@
   "id": 3328,
   "name": "多少队友命丧你手",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第一卷 魔塔挑战者之孽",
+  "status": "已完结",
+  "last_update_volume_name": "第二卷 魔塔挑战者之痕",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12454,
-  "last_update_chapter_id": 127192,
-  "last_update_time": 1659015355,
+  "last_update_volume_id": 12468,
+  "last_update_chapter_id": 127437,
+  "last_update_time": 1659621522,
   "cover": "http://xs.dmzj.com/img/webpic/28/dys0728l.jpg",
-  "hot_hits": 5859,
+  "hot_hits": 12445,
   "introduction": "最棒的同伴、牵绊、友情，还有爱……他统统失去了。一切全都失去了。\n那一天，一个少年死了。\n曾经关心同伴，心地善良，还有些害羞的他已经不在了。一个眼眸中暗藏着灰黯光辉，如同狂战士一般的男人，形单影只地伫立着。\n少年名叫天赐。他与许多发小组成队伍，在攻略〈塔〉的过程中获得了魔之祝福。\n「自身死亡时，将在场同伴的“能力”以及——“其存在本身”吸收，回卷时间死而复活」的能力。\n无意识间「吃掉了」亲密的朋友，失意的他内心逐渐被磨灭。\n在饱受刮骨之痛的最后，他堕落为【鬼】。\n描绘〈塔〉征战者们的异常生活，以及他们罪与孽的黑奇幻故事，揭幕。",
   "types": [
     "奇幻"
   ],
   "authors": "有象利路",
   "first_letter": "D",
-  "subscribe_num": 699,
+  "subscribe_num": 1319,
   "volume": [
     {
       "id": 12454,
@@ -24,7 +24,15 @@
       "volume_name": "第一卷 魔塔挑战者之孽",
       "volume_order": 10,
       "addtime": 1659013318,
-      "sum_chapters": 42
+      "sum_chapters": 8
+    },
+    {
+      "id": 12468,
+      "lnovel_id": 3328,
+      "volume_name": "第二卷 魔塔挑战者之痕",
+      "volume_order": 20,
+      "addtime": 1659617983,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -78,6 +86,54 @@
           "chapter_id": 127192,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12468,
+      "id": 12468,
+      "volume_name": "第二卷 魔塔挑战者之痕",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 127353,
+          "chapter_name": "序章① 薄冰藏脚下",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 127354,
+          "chapter_name": "序章② 死亡的滋味",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 127355,
+          "chapter_name": "第一章 恰逢倒春寒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 127356,
+          "chapter_name": "第二章 相遇在雾里",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 127357,
+          "chapter_name": "第三章 一去难复返",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 127358,
+          "chapter_name": "终章 给你的微热",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 127359,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 127437,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

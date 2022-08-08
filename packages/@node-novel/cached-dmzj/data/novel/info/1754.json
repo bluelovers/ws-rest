@@ -1,15 +1,15 @@
 {
   "id": 1754,
-  "name": "东京食尸鬼(东京喰种)官方小说",
+  "name": "东京食尸鬼(东京喰种)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "第六章 吉田",
-  "last_update_volume_id": 6432,
-  "last_update_chapter_id": 45754,
-  "last_update_time": 1414759153,
-  "cover": "https://xs.dmzj.com/img/webpic/4/djssg878.jpg",
-  "hot_hits": 190708,
+  "last_update_volume_name": "第四卷 re[quest]",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12426,
+  "last_update_chapter_id": 126934,
+  "last_update_time": 1658504048,
+  "cover": "http://xs.dmzj.com/img/webpic/4/djssg878.jpg",
+  "hot_hits": 212567,
   "introduction": "作为“食尸鬼”集会所的咖啡店“安定区”今天也充满了纠纷与事件。店长.芳村察觉到的可疑人影——那既是狩猎，也是被狩猎的角色。决不可有交集的两个种族间，究竟会坠落到怎样的黑暗中。剪取「圣书」「便当」「写真」「上京」「枝折」等这些本篇没有描写到的日常。",
   "types": [
     "冒险",
@@ -18,54 +18,211 @@
   ],
   "authors": "十和田シン",
   "first_letter": "D",
-  "subscribe_num": 12221,
-  "redis_update_time": 1564438377,
+  "subscribe_num": 17008,
   "volume": [
     {
-      "id": 6432,
+      "id": 12338,
       "lnovel_id": 1754,
-      "volume_name": "第一卷",
+      "volume_name": "第一卷 日常",
       "volume_order": 10,
-      "addtime": 1414759153,
-      "sum_chapters": 30
+      "addtime": 1657189505,
+      "sum_chapters": 8
+    },
+    {
+      "id": 12339,
+      "lnovel_id": 1754,
+      "volume_name": "第二卷 空白",
+      "volume_order": 20,
+      "addtime": 1657189516,
+      "sum_chapters": 8
+    },
+    {
+      "id": 12381,
+      "lnovel_id": 1754,
+      "volume_name": "第三卷 往日",
+      "volume_order": 30,
+      "addtime": 1657882184,
+      "sum_chapters": 8
+    },
+    {
+      "id": 12426,
+      "lnovel_id": 1754,
+      "volume_name": "第四卷 re[quest]",
+      "volume_order": 40,
+      "addtime": 1658501750,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
     {
-      "volume_id": 6432,
-      "id": 6432,
-      "volume_name": "第一卷",
+      "volume_id": 12338,
+      "id": 12338,
+      "volume_name": "第一卷 日常",
       "volume_order": 10,
       "chapters": [
         {
-          "chapter_id": 45749,
-          "chapter_name": "第一章 圣经",
+          "chapter_id": 126133,
+          "chapter_name": "#001[圣经]",
           "chapter_order": 10
         },
         {
-          "chapter_id": 45750,
-          "chapter_name": "第二章 便当",
+          "chapter_id": 126134,
+          "chapter_name": "#002[便当]",
           "chapter_order": 20
         },
         {
-          "chapter_id": 45751,
-          "chapter_name": "第三章 写真",
+          "chapter_id": 126135,
+          "chapter_name": "#003[照片]",
           "chapter_order": 30
         },
         {
-          "chapter_id": 45752,
-          "chapter_name": "第四章 上京",
+          "chapter_id": 126136,
+          "chapter_name": "#004[上京]",
           "chapter_order": 40
         },
         {
-          "chapter_id": 45753,
-          "chapter_name": "第五章 枝折",
+          "chapter_id": 126137,
+          "chapter_name": "#005[书签]",
           "chapter_order": 50
         },
         {
-          "chapter_id": 45754,
-          "chapter_name": "第六章 吉田",
+          "chapter_id": 126138,
+          "chapter_name": "#??? [吉田]",
           "chapter_order": 60
+        },
+        {
+          "chapter_id": 126177,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12339,
+      "id": 12339,
+      "volume_name": "第二卷 空白",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 126139,
+          "chapter_name": "#001[阳炎]",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126140,
+          "chapter_name": "#002[刺绣]",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126141,
+          "chapter_name": "#003[摄影]",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126142,
+          "chapter_name": "#004[伤名]",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 126143,
+          "chapter_name": "#005[美乡]",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 126178,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 12381,
+      "id": 12381,
+      "volume_name": "第三卷 往日",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 126496,
+          "chapter_name": "#001[异族]",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126497,
+          "chapter_name": "#002[孤读]",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126498,
+          "chapter_name": "#003[祸端]",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126499,
+          "chapter_name": "#004[闲言]",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 126500,
+          "chapter_name": "#005[似色]",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 126501,
+          "chapter_name": "#006[魔猿]",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 126595,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12426,
+      "id": 12426,
+      "volume_name": "第四卷 re[quest]",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 126890,
+          "chapter_name": "#001[quinquies]",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126891,
+          "chapter_name": "#002[union]",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126892,
+          "chapter_name": "#003[effect]",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126893,
+          "chapter_name": "#004[sponse]",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 126894,
+          "chapter_name": "#005[tension]",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 126895,
+          "chapter_name": "#006[request]",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 126896,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 126934,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

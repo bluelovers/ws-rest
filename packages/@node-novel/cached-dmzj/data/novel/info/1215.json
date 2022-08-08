@@ -3,13 +3,13 @@
   "name": "我与她的游戏战争（我与她的战争游戏）",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9420,
-  "last_update_chapter_id": 85899,
-  "last_update_time": 1526009932,
-  "cover": "https://xs.dmzj.com/img/webpic/3/wytdyxzz5668l.jpg",
-  "hot_hits": 362354,
+  "last_update_volume_name": "第七卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 12351,
+  "last_update_chapter_id": 126239,
+  "last_update_time": 1657455571,
+  "cover": "http://xs.dmzj.com/img/webpic/3/wytdyxzz5668l.jpg",
+  "hot_hits": 415472,
   "introduction": "少年岸岭健吾转入了几年前还是女子的高中。\n尽管周围都是女孩，犹如深处后宫，但是，他却参加了\n以前从未涉足的社团活动，高中生活也因此变得跌宕起伏。\n他加入的社团是现代游戏社团，也就是游戏部。在漂亮的学生会\n会长和变态的老师这些可靠的同伴的支持下，岸岭发挥了不可\n思议的才能。\n平凡少年刺激的游戏人生就此拉开了序幕。",
   "types": [
     "校园",
@@ -18,8 +18,7 @@
   ],
   "authors": "师走透",
   "first_letter": "W",
-  "subscribe_num": 13930,
-  "redis_update_time": 1564967382,
+  "subscribe_num": 17745,
   "volume": [
     {
       "id": 4325,
@@ -27,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1331717407,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 4326,
@@ -35,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1331717407,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 4630,
@@ -43,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1344832658,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 8441,
@@ -51,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1484912439,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 9373,
@@ -59,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1524469326,
-      "sum_chapters": 10
+      "sum_chapters": 8
     },
     {
       "id": 9420,
@@ -67,7 +66,15 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1525958498,
-      "sum_chapters": 10
+      "sum_chapters": 8
+    },
+    {
+      "id": 12351,
+      "lnovel_id": 1215,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1657455465,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -406,6 +413,54 @@
           "chapter_id": 85899,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12351,
+      "id": 12351,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 126232,
+          "chapter_name": "EP‧1 奋斗吧！游戏测试员",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126233,
+          "chapter_name": "EP‧2 贵族女校的校规问题",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126234,
+          "chapter_name": "EP‧3 现代游戏社的考验",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126235,
+          "chapter_name": "EP‧4 尔虞我诈的心机游戏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 126236,
+          "chapter_name": "EP‧5 战地前篇",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 126237,
+          "chapter_name": "EP‧6 战地后篇",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 126238,
+          "chapter_name": "EP‧7 逆袭的岸岭",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 126239,
+          "chapter_name": "后记",
+          "chapter_order": 80
         }
       ]
     }

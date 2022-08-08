@@ -3,21 +3,20 @@
   "name": "东方香霖堂~curiosties of lotus asia~",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 3302,
-  "last_update_chapter_id": 18843,
-  "last_update_time": 1290580530,
-  "cover": "https://xs.dmzj.com/img/webpic/13/dfxlt.jpg",
-  "hot_hits": 117124,
+  "last_update_volume_name": "杂志连载",
+  "last_update_chapter_name": "第九回 价值观的熔炉",
+  "last_update_volume_id": 12470,
+  "last_update_chapter_id": 127373,
+  "last_update_time": 1659618481,
+  "cover": "http://xs.dmzj.com/img/webpic/13/dfxlt.jpg",
+  "hot_hits": 155378,
   "introduction": "  内容简介：幻想乡的历史，自我开始写作的那一刻诞生。\n纸价低贱，幻想乡纸多成患。\n  －森近霖之助",
   "types": [
     "搞笑"
   ],
   "authors": "ZUN",
   "first_letter": "D",
-  "subscribe_num": 3908,
-  "redis_update_time": 1565005337,
+  "subscribe_num": 6289,
   "volume": [
     {
       "id": 3302,
@@ -25,7 +24,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1290580530,
-      "sum_chapters": 10
+      "sum_chapters": 8
+    },
+    {
+      "id": 12470,
+      "lnovel_id": 933,
+      "volume_name": "杂志连载",
+      "volume_order": 20,
+      "addtime": 1659618336,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -174,6 +181,59 @@
           "chapter_id": 18843,
           "chapter_name": "后记",
           "chapter_order": 280
+        }
+      ]
+    },
+    {
+      "volume_id": 12470,
+      "id": 12470,
+      "volume_name": "杂志连载",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 127365,
+          "chapter_name": "第一回 孤独且孤高的旧道具店",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 127366,
+          "chapter_name": "第二话 尽晓神秘之人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 127367,
+          "chapter_name": "第三话 众多真相存在的世界",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 127368,
+          "chapter_name": "第四话 暖炉是个温暖的陷阱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 127369,
+          "chapter_name": "第五话 春天的自由人与有良心的噩梦",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 127370,
+          "chapter_name": "第六话 宇佐见堇子有三人！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 127371,
+          "chapter_name": "第七话 梦幻病的灵异",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 127372,
+          "chapter_name": "第八回 人类中心的畜生观",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 127373,
+          "chapter_name": "第九回 价值观的熔炉",
+          "chapter_order": 90
         }
       ]
     }

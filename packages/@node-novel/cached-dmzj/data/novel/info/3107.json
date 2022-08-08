@@ -3,13 +3,13 @@
   "name": "古戒律的魔法骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12286,
-  "last_update_chapter_id": 125578,
-  "last_update_time": 1655561178,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "第四章 新的奋起",
+  "last_update_volume_id": 12469,
+  "last_update_chapter_id": 127364,
+  "last_update_time": 1659618300,
   "cover": "http://xs.dmzj.com/img/webpic/11/gmf0809l.jpg",
-  "hot_hits": 43388,
+  "hot_hits": 46760,
   "introduction": "「“骑士仅诉说真实”」「“其心点亮勇气之火”」「“其剑守护弱者”」「“其力量支撑善行”」「“其愤怒——能毁灭邪恶”」——传说时代被称为最强骑士的同时，又有着「野蛮人」之称的希德•布利兹。\n通过卡尔巴尼亚的年轻「王子」之手实现复活的男子，作为魔法骑士学校的教官赴任。\n继承了创立者骑士理念的四个教室，他被分配到了冠以自己名字的吊车尾班级…「你们啊，作为骑士不会感到羞耻吗——先把剑舍弃吧」最强的骑士是野蛮人——新「教官」系列开幕!",
   "types": [
     "校园",
@@ -18,7 +18,7 @@
   ],
   "authors": "羊太郎",
   "first_letter": "G",
-  "subscribe_num": 4346,
+  "subscribe_num": 4472,
   "volume": [
     {
       "id": 11717,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1628505081,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12069,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1646311938,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12286,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1655557169,
-      "sum_chapters": 15
+      "sum_chapters": 8
+    },
+    {
+      "id": 12469,
+      "lnovel_id": 3107,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1659618215,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -212,6 +220,39 @@
           "chapter_id": 125578,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12469,
+      "id": 12469,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 127360,
+          "chapter_name": "序章 潜伏于冬日的黑暗",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 127361,
+          "chapter_name": "第一章 到来的春日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 127362,
+          "chapter_name": "第二章 风云急",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 127363,
+          "chapter_name": "第三章 傲慢的狼",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 127364,
+          "chapter_name": "第四章 新的奋起",
+          "chapter_order": 50
         }
       ]
     }

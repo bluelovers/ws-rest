@@ -2,14 +2,14 @@
   "id": 1661,
   "name": "排球少年！！",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第四卷 各自的暑假",
-  "last_update_chapter_name": "乌之家 最终怪「真面目。」",
-  "last_update_volume_id": 6962,
-  "last_update_chapter_id": 50706,
-  "last_update_time": 1434106931,
-  "cover": "https://xs.dmzj.com/img/webpic/7/68807pqsn.jpg",
-  "hot_hits": 28842,
+  "status": "已完结",
+  "last_update_volume_name": "第十卷 幕后的光景",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12448,
+  "last_update_chapter_id": 127191,
+  "last_update_time": 1659015194,
+  "cover": "http://xs.dmzj.com/img/webpic/7/68807pqsn.jpg",
+  "hot_hits": 34825,
   "introduction": "练习·料理·打杂！？IH预选赛前，乌野高中排球社实施了黄金周强化集训！为了在激战中胜出，日向等人努力进行特训&共同生活。漫画里没有表明的『另一种集训风貌』将在小说版解禁！",
   "types": [
     "校园",
@@ -17,8 +17,7 @@
   ],
   "authors": "星希代子",
   "first_letter": "P",
-  "subscribe_num": 771,
-  "redis_update_time": 1564452150,
+  "subscribe_num": 1835,
   "volume": [
     {
       "id": 6105,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷 乌野强化合宿",
       "volume_order": 10,
       "addtime": 1402755767,
-      "sum_chapters": 16
+      "sum_chapters": 8
     },
     {
       "id": 6180,
@@ -34,7 +33,7 @@
       "volume_name": "第二卷 IH前的『誓师大会』",
       "volume_order": 20,
       "addtime": 1405427147,
-      "sum_chapters": 16
+      "sum_chapters": 8
     },
     {
       "id": 6658,
@@ -42,7 +41,7 @@
       "volume_name": "第三卷 远征东京",
       "volume_order": 30,
       "addtime": 1422437217,
-      "sum_chapters": 16
+      "sum_chapters": 8
     },
     {
       "id": 6962,
@@ -50,7 +49,55 @@
       "volume_name": "第四卷 各自的暑假",
       "volume_order": 40,
       "addtime": 1434106907,
-      "sum_chapters": 16
+      "sum_chapters": 8
+    },
+    {
+      "id": 12348,
+      "lnovel_id": 1661,
+      "volume_name": "第五卷 我们的代表决定战开始之前",
+      "volume_order": 50,
+      "addtime": 1657454834,
+      "sum_chapters": 8
+    },
+    {
+      "id": 12369,
+      "lnovel_id": 1661,
+      "volume_name": "第六卷 奔驰吧!菜鸟们!!",
+      "volume_order": 60,
+      "addtime": 1657632925,
+      "sum_chapters": 8
+    },
+    {
+      "id": 12396,
+      "lnovel_id": 1661,
+      "volume_name": "第七卷 决战之秋",
+      "volume_order": 70,
+      "addtime": 1658058889,
+      "sum_chapters": 8
+    },
+    {
+      "id": 12422,
+      "lnovel_id": 1661,
+      "volume_name": "第八卷 旧的一年与新的一年",
+      "volume_order": 80,
+      "addtime": 1658414317,
+      "sum_chapters": 8
+    },
+    {
+      "id": 12433,
+      "lnovel_id": 1661,
+      "volume_name": "第九卷 春高全纪录",
+      "volume_order": 90,
+      "addtime": 1658661697,
+      "sum_chapters": 8
+    },
+    {
+      "id": 12448,
+      "lnovel_id": 1661,
+      "volume_name": "第十卷 幕后的光景",
+      "volume_order": 100,
+      "addtime": 1659011485,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -217,6 +264,279 @@
         {
           "chapter_id": 50706,
           "chapter_name": "乌之家 最终怪「真面目。」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 126318,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12348,
+      "id": 12348,
+      "volume_name": "第五卷 我们的代表决定战开始之前",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 126206,
+          "chapter_name": "第一次预选",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126207,
+          "chapter_name": "神色自若的另一方",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126208,
+          "chapter_name": "最强的『洗衣值日生』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126209,
+          "chapter_name": "火焰斗球高中生 斗球儿光太郎",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 126210,
+          "chapter_name": "女经理的心意",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 126211,
+          "chapter_name": "兄弟",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 126212,
+          "chapter_name": "人客来坐居酒屋",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 126213,
+          "chapter_name": "代表决定战",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 126319,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12369,
+      "id": 12369,
+      "volume_name": "第六卷 奔驰吧!菜鸟们!!",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 126386,
+          "chapter_name": "可靠的「新战力」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126387,
+          "chapter_name": "「铁壁」的新司令塔",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126388,
+          "chapter_name": "「玩耍场」的菜鸟经理",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126389,
+          "chapter_name": "「狂犬」与「幼犬」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 126390,
+          "chapter_name": "「王者」的下届主攻手实习生",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 126391,
+          "chapter_name": "未来的「猫咪」们",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 126416,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12396,
+      "id": 12396,
+      "volume_name": "第七卷 决战之秋",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 126625,
+          "chapter_name": "参观传说中的强校",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126626,
+          "chapter_name": "秋天的升学就业辅导面谈",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126627,
+          "chapter_name": "乌野的环境清洁周",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126628,
+          "chapter_name": "假日的游乐园",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 126629,
+          "chapter_name": "红叶的大王者",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 126630,
+          "chapter_name": "结实累累的商店街",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 126738,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12422,
+      "id": 12422,
+      "volume_name": "第八卷 旧的一年与新的一年",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 126853,
+          "chapter_name": "元旦的王者",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126854,
+          "chapter_name": "除夕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126855,
+          "chapter_name": "枭谷在年底的美梦",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126856,
+          "chapter_name": "圣夜的「铁壁」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 126857,
+          "chapter_name": "蛇with猫的新年参拜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 126858,
+          "chapter_name": "十二月的人客来坐居酒屋",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 126886,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12433,
+      "id": 12433,
+      "volume_name": "第九卷 春高全纪录",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 126994,
+          "chapter_name": "乌野太鼓，前往京城",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 126995,
+          "chapter_name": "高速车窗外的世界",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 126996,
+          "chapter_name": "东京迷宫攻略战",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 126997,
+          "chapter_name": "意外吵闹的皇居慢跑",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 126998,
+          "chapter_name": "第二天的「松鸦庄」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 126999,
+          "chapter_name": "「猫」和「枭」的前一天",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 127015,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12448,
+      "id": 12448,
+      "volume_name": "第十卷 幕后的光景",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 127107,
+          "chapter_name": "女球队经理们的最前线",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 127108,
+          "chapter_name": "猫与猫头鹰去买东西",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 127109,
+          "chapter_name": "「狐狸」的新年",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 127110,
+          "chapter_name": "第二件战斗服",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 127111,
+          "chapter_name": "从森林之都的角度来看春高正式比赛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 127112,
+          "chapter_name": "确实地做",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 127191,
+          "chapter_name": "插画",
           "chapter_order": 70
         }
       ]

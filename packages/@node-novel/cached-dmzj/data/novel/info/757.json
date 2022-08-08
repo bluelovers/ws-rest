@@ -3,21 +3,20 @@
   "name": "圆环少女Circletgirl",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第六卷 太阳破碎之日",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 10444,
-  "last_update_chapter_id": 100903,
-  "last_update_time": 1573813302,
-  "cover": "https://xs.dmzj.com/img/webpic/11/yhsn.jpg",
-  "hot_hits": 51349,
+  "last_update_volume_name": "第七卷 有如梦境，宛若黎明",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12436,
+  "last_update_chapter_id": 127083,
+  "last_update_time": 1658833705,
+  "cover": "http://xs.dmzj.com/img/webpic/11/yhsn.jpg",
+  "hot_hits": 55475,
   "introduction": "在几千个魔法世界之中，有一个被称之为“地狱”且极度遭到嫌恶的地方-----------------地球。其原因在于，只有在那里出生的人类，才拥有能将原属于自然要素之一的魔法现象消灭的恐怖能力。因犯罪而从原来的世界被流放到地球的少女魔导士鸦木梅洁尔，她所受的刑罚是必须在<地狱>里打倒100名的敌对魔导士。身为“円环大系”的使用者，将毅然面对这从未有人完成过的残酷使命。 　　灼热的魔法之战就此开幕！",
   "types": [
     "魔法"
   ],
   "authors": "长谷敏司",
   "first_letter": "Y",
-  "subscribe_num": 3087,
-  "redis_update_time": 1574306421,
+  "subscribe_num": 3755,
   "volume": [
     {
       "id": 2601,
@@ -65,6 +64,14 @@
       "volume_name": "第六卷 太阳破碎之日",
       "volume_order": 60,
       "addtime": 1573813198,
+      "sum_chapters": 8
+    },
+    {
+      "id": 12436,
+      "lnovel_id": 757,
+      "volume_name": "第七卷 有如梦境，宛若黎明",
+      "volume_order": 70,
+      "addtime": 1658831843,
       "sum_chapters": 8
     }
   ],
@@ -299,6 +306,69 @@
           "chapter_id": 100903,
           "chapter_name": "后记",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12436,
+      "id": 12436,
+      "volume_name": "第七卷 有如梦境，宛若黎明",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 127019,
+          "chapter_name": "-Intro-",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 127020,
+          "chapter_name": "幸福的刻印",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 127021,
+          "chapter_name": "连结爱的印记",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 127022,
+          "chapter_name": "-Interlude 1-",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 127023,
+          "chapter_name": "蔷薇花落秋风起",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 127024,
+          "chapter_name": "-Interlude 2-",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 127025,
+          "chapter_name": "以赤裸之心",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 127026,
+          "chapter_name": "-Outro-",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 127027,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 127028,
+          "chapter_name": "设定资料集",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 127083,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

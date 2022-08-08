@@ -2,21 +2,21 @@
   "id": 3016,
   "name": "Unnamed Memory 无名记忆",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第六卷 无名物语之终焉",
-  "last_update_chapter_name": "章外：塔之歌",
-  "last_update_volume_id": 12263,
-  "last_update_chapter_id": 125774,
-  "last_update_time": 1656517214,
+  "status": "已完结",
+  "last_update_volume_name": "番外 变质的旅途",
+  "last_update_chapter_name": "番外",
+  "last_update_volume_id": 12449,
+  "last_update_chapter_id": 127122,
+  "last_update_time": 1659011804,
   "cover": "http://xs.dmzj.com/img/webpic/23/um0309l.jpg",
-  "hot_hits": 137971,
+  "hot_hits": 157109,
   "introduction": "　　「我的愿望就是娶你为妻，生下我们的孩子。」\n　　「恕我拒绝！」\n　　魔女──为拥有漫长生命及莫大力量，并被称为灾厄的异端。强国法尔萨斯的王太子‧奥斯卡，从小便受到「无法留下子嗣」的诅咒。为了解开诅咒，他决定前去拜访被誉为世界最强的魔女──堤娜莎。奥斯卡成功克服「魔女之塔」的试炼而成为契约者，然而他的愿望竟是娶堤娜莎为妻……",
   "types": [
     "奇幻"
   ],
   "authors": "古宫九时",
   "first_letter": "U",
-  "subscribe_num": 10961,
+  "subscribe_num": 11519,
   "volume": [
     {
       "id": 11421,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷 苍月魔女与受诅咒之王",
       "volume_order": 10,
       "addtime": 1615275162,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 11908,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷 失去宝座的女王",
       "volume_order": 20,
       "addtime": 1636560598,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12259,
@@ -40,7 +40,7 @@
       "volume_name": "第三卷 立誓永恒的尽头",
       "volume_order": 30,
       "addtime": 1655125063,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12260,
@@ -48,7 +48,7 @@
       "volume_name": "第四卷 再度于白纸之上",
       "volume_order": 40,
       "addtime": 1655125191,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12261,
@@ -56,7 +56,7 @@
       "volume_name": "第五卷 通向祈祷的沉默",
       "volume_order": 50,
       "addtime": 1655125423,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12263,
@@ -64,7 +64,15 @@
       "volume_name": "第六卷 无名物语之终焉",
       "volume_order": 60,
       "addtime": 1655125749,
-      "sum_chapters": 15
+      "sum_chapters": 8
+    },
+    {
+      "id": 12449,
+      "lnovel_id": 3016,
+      "volume_name": "番外 变质的旅途",
+      "volume_order": 70,
+      "addtime": 1659011646,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -473,6 +481,64 @@
           "chapter_id": 125717,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 12449,
+      "id": 12449,
+      "volume_name": "番外 变质的旅途",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 127113,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 127114,
+          "chapter_name": "0.譬如这种平静的日子",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 127115,
+          "chapter_name": "1.伸来的手",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 127116,
+          "chapter_name": "2.滑落的手",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 127117,
+          "chapter_name": "3.不会再有的欠缺",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 127118,
+          "chapter_name": "4.宣告预兆的声音",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 127119,
+          "chapter_name": "5.献上热情",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 127120,
+          "chapter_name": "6.被发觉的转变",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 127121,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 127122,
+          "chapter_name": "番外",
+          "chapter_order": 100
         }
       ]
     }
