@@ -3,13 +3,13 @@
   "name": "转生成为魔剑",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12193,
-  "last_update_chapter_id": 124598,
-  "last_update_time": 1651850418,
+  "last_update_volume_id": 12525,
+  "last_update_chapter_id": 128147,
+  "last_update_time": 1661700664,
   "cover": "http://xs.dmzj.com/img/webpic/29/mj0802l.jpg",
-  "hot_hits": 366690,
+  "hot_hits": 401782,
   "introduction": "亲爹般的无机物和沉默寡言的猫耳少女，踏上了最少三年，最高无期的旅途。",
   "types": [
     "异界",
@@ -18,7 +18,7 @@
   ],
   "authors": "棚架ユウ",
   "first_letter": "Z",
-  "subscribe_num": 36000,
+  "subscribe_num": 37193,
   "volume": [
     {
       "id": 8873,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1501661665,
-      "sum_chapters": 15
+      "sum_chapters": 7
     },
     {
       "id": 10042,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1554730874,
-      "sum_chapters": 15
+      "sum_chapters": 7
     },
     {
       "id": 10447,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1573963554,
-      "sum_chapters": 15
+      "sum_chapters": 7
     },
     {
       "id": 12193,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1651848484,
-      "sum_chapters": 15
+      "sum_chapters": 7
+    },
+    {
+      "id": 12525,
+      "lnovel_id": 2361,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1661615779,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -273,6 +281,54 @@
           "chapter_id": 124598,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12525,
+      "id": 12525,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 128107,
+          "chapter_name": "第一章 赶往乌鲁木特",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 128108,
+          "chapter_name": "第二章 攻略地下城",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 128109,
+          "chapter_name": "第三章 新委托与新目的",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 128110,
+          "chapter_name": "第四章 暗路的前方",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 128111,
+          "chapter_name": "第五章 屈服之心",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 128112,
+          "chapter_name": "第六章 勇于对抗之心",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 128113,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 128147,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

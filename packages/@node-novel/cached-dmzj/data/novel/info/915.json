@@ -3,13 +3,13 @@
   "name": "匠千晓系列",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷 苏格兰游戏",
-  "last_update_chapter_name": "第五卷 苏格兰游戏 终章",
-  "last_update_volume_id": 3901,
-  "last_update_chapter_id": 23636,
-  "last_update_time": 1315879356,
-  "cover": "https://xs.dmzj.com/img/webpic/26/jietizy.jpg",
-  "hot_hits": 85939,
+  "last_update_volume_name": "第六卷 依存",
+  "last_update_chapter_name": "返校日",
+  "last_update_volume_id": 12528,
+  "last_update_chapter_id": 128168,
+  "last_update_time": 1661701085,
+  "cover": "http://xs.dmzj.com/img/webpic/26/jietizy.jpg",
+  "hot_hits": 105777,
   "introduction": "杀人者，必须解体？！\n　　凶手都是大笨蛋？！\n　　杀人之后不赶快逃走，还留在现场「不辞辛苦」地分解尸体……\n　　推理可以如此草根？！\n　　分尸可以如此搞笑？！\n　　分装于六个箱子中的男人；七颗头颅被依序调换的连续杀人；短短十六秒内被分尸电梯中的上班女郎；残破不堪的玩具小熊；支离破碎的色情杂志……\n　　九桩匪夷所思的分尸案，九次不可思议的感官冲击！",
   "types": [
     "侦探",
@@ -17,8 +17,7 @@
   ],
   "authors": "西泽保彦",
   "first_letter": "J",
-  "subscribe_num": 1880,
-  "redis_update_time": 1565002208,
+  "subscribe_num": 2936,
   "volume": [
     {
       "id": 3219,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷 解体诸因",
       "volume_order": 10,
       "addtime": 1287131497,
-      "sum_chapters": 10
+      "sum_chapters": 7
     },
     {
       "id": 3303,
@@ -34,7 +33,7 @@
       "volume_name": "第二卷 她死去的那一晚",
       "volume_order": 20,
       "addtime": 1290657662,
-      "sum_chapters": 10
+      "sum_chapters": 7
     },
     {
       "id": 3670,
@@ -42,7 +41,7 @@
       "volume_name": "第三卷 啤酒之家的冒险",
       "volume_order": 30,
       "addtime": 1306460031,
-      "sum_chapters": 10
+      "sum_chapters": 7
     },
     {
       "id": 3851,
@@ -50,7 +49,7 @@
       "volume_name": "第四卷 羔羊们的圣诞夜",
       "volume_order": 40,
       "addtime": 1313115313,
-      "sum_chapters": 10
+      "sum_chapters": 7
     },
     {
       "id": 3901,
@@ -58,7 +57,15 @@
       "volume_name": "第五卷 苏格兰游戏",
       "volume_order": 50,
       "addtime": 1315198812,
-      "sum_chapters": 10
+      "sum_chapters": 7
+    },
+    {
+      "id": 12528,
+      "lnovel_id": 915,
+      "volume_name": "第六卷 依存",
+      "volume_order": 60,
+      "addtime": 1661700909,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -369,6 +376,89 @@
           "chapter_id": 23636,
           "chapter_name": "终章",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12528,
+      "id": 12528,
+      "volume_name": "第六卷 依存",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 128154,
+          "chapter_name": "返校 1",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 128155,
+          "chapter_name": "第一章 情感的法则",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 128156,
+          "chapter_name": "返校 2",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 128157,
+          "chapter_name": "第二章 隐秘疗法",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 128158,
+          "chapter_name": "返校 3",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 128159,
+          "chapter_name": "第三章 精神分裂早期",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 128160,
+          "chapter_name": "返校 4",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 128161,
+          "chapter_name": "第四章 非特异性",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 128162,
+          "chapter_name": "返校 5",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 128163,
+          "chapter_name": "第五章 晚期戒断综合征",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 128164,
+          "chapter_name": "返校 6",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 128165,
+          "chapter_name": "第六章 精神失常",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 128166,
+          "chapter_name": "返校 7",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 128167,
+          "chapter_name": "第七章 宣告丧失监护权",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 128168,
+          "chapter_name": "返校日",
+          "chapter_order": 150
         }
       ]
     }
