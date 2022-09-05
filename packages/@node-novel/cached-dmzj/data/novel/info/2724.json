@@ -3,13 +3,13 @@
   "name": "莫名成为邪龙的五千岁草食龙～这个祭品都不听人说话～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10322,
-  "last_update_chapter_id": 99344,
-  "last_update_time": 1567857925,
-  "cover": "https://xs.dmzj.com/img/webpic/4/scl0907l.jpg",
-  "hot_hits": 0,
+  "last_update_volume_name": "第二卷 这眷属没救了，得想想办法",
+  "last_update_chapter_name": "第2章 白银的禁忌之子",
+  "last_update_volume_id": 12553,
+  "last_update_chapter_id": 128530,
+  "last_update_time": 1662302671,
+  "cover": "http://xs.dmzj.com/img/webpic/4/scl0907l.jpg",
+  "hot_hits": 63812,
   "introduction": "「邪龙大人，请您吃掉我吧。」\n「虽然你那么要求，但老夫也无法照办啊，老夫可是草食性的呀。」\n面对突然出现的少女，老龙只感到一阵困惑。少女说要以自己的灵魂作为代价，请求老夫协助歼灭魔王……但老夫只是一只人畜无害的草食龙啊!?而且，为了让这个祭品少女乖乖回到村里去，老夫随意扯了个谎，竟然让少女施展出根本就不存在的『邪龙魔力』──!?\n遭人误会为邪龙的无害草食龙，与一厢情愿少女的「讨伐魔王之旅」即将展开!?",
   "types": [
     "冒险",
@@ -17,8 +17,7 @@
   ],
   "authors": "榎本快晴",
   "first_letter": "M",
-  "subscribe_num": 3035,
-  "redis_update_time": 1568062394,
+  "subscribe_num": 9788,
   "volume": [
     {
       "id": 10322,
@@ -26,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1567857437,
-      "sum_chapters": 19
+      "sum_chapters": 13
+    },
+    {
+      "id": 12553,
+      "lnovel_id": 2724,
+      "volume_name": "第二卷 这眷属没救了，得想想办法",
+      "volume_order": 20,
+      "addtime": 1662302595,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -80,6 +87,29 @@
           "chapter_id": 99344,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12553,
+      "id": 12553,
+      "volume_name": "第二卷 这眷属没救了，得想想办法",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 128528,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 128529,
+          "chapter_name": "第1章 大魔导士的风洞",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 128530,
+          "chapter_name": "第2章 白银的禁忌之子",
+          "chapter_order": 30
         }
       ]
     }

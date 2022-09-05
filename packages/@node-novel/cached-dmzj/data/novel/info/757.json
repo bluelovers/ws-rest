@@ -3,20 +3,20 @@
   "name": "圆环少女Circletgirl",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第八卷 背叛的天平",
+  "last_update_volume_name": "第九卷 公馆沦陷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12490,
-  "last_update_chapter_id": 127671,
-  "last_update_time": 1660392520,
+  "last_update_volume_id": 12539,
+  "last_update_chapter_id": 128314,
+  "last_update_time": 1661872657,
   "cover": "http://xs.dmzj.com/img/webpic/11/yhsn.jpg",
-  "hot_hits": 56332,
+  "hot_hits": 58789,
   "introduction": "在几千个魔法世界之中，有一个被称之为“地狱”且极度遭到嫌恶的地方-----------------地球。其原因在于，只有在那里出生的人类，才拥有能将原属于自然要素之一的魔法现象消灭的恐怖能力。因犯罪而从原来的世界被流放到地球的少女魔导士鸦木梅洁尔，她所受的刑罚是必须在<地狱>里打倒100名的敌对魔导士。身为“円环大系”的使用者，将毅然面对这从未有人完成过的残酷使命。 　　灼热的魔法之战就此开幕！",
   "types": [
     "魔法"
   ],
   "authors": "长谷敏司",
   "first_letter": "Y",
-  "subscribe_num": 3943,
+  "subscribe_num": 4305,
   "volume": [
     {
       "id": 2601,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷 巴比伦再临",
       "volume_order": 10,
       "addtime": 1275561491,
-      "sum_chapters": 16
+      "sum_chapters": 13
     },
     {
       "id": 4569,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷 炼狱的虚神 上",
       "volume_order": 20,
       "addtime": 1342576925,
-      "sum_chapters": 16
+      "sum_chapters": 13
     },
     {
       "id": 5609,
@@ -40,7 +40,7 @@
       "volume_name": "第三卷 炼狱的虚神 下",
       "volume_order": 30,
       "addtime": 1383042717,
-      "sum_chapters": 16
+      "sum_chapters": 13
     },
     {
       "id": 6080,
@@ -48,7 +48,7 @@
       "volume_name": "第四卷 无依的制裁者",
       "volume_order": 40,
       "addtime": 1401797996,
-      "sum_chapters": 16
+      "sum_chapters": 13
     },
     {
       "id": 10443,
@@ -56,7 +56,7 @@
       "volume_name": "第五卷 魔导师的迷宫",
       "volume_order": 50,
       "addtime": 1573813077,
-      "sum_chapters": 16
+      "sum_chapters": 13
     },
     {
       "id": 10444,
@@ -64,7 +64,7 @@
       "volume_name": "第六卷 太阳破碎之日",
       "volume_order": 60,
       "addtime": 1573813198,
-      "sum_chapters": 16
+      "sum_chapters": 13
     },
     {
       "id": 12436,
@@ -72,7 +72,7 @@
       "volume_name": "第七卷 有如梦境，宛若黎明",
       "volume_order": 70,
       "addtime": 1658831843,
-      "sum_chapters": 16
+      "sum_chapters": 13
     },
     {
       "id": 12490,
@@ -80,7 +80,15 @@
       "volume_name": "第八卷 背叛的天平",
       "volume_order": 80,
       "addtime": 1660388744,
-      "sum_chapters": 16
+      "sum_chapters": 13
+    },
+    {
+      "id": 12539,
+      "lnovel_id": 757,
+      "volume_name": "第九卷 公馆沦陷",
+      "volume_order": 90,
+      "addtime": 1661870299,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -425,6 +433,49 @@
           "chapter_id": 127671,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12539,
+      "id": 12539,
+      "volume_name": "第九卷 公馆沦陷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 128268,
+          "chapter_name": "-Intro-",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 128269,
+          "chapter_name": "第一章 罪与罚",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 128270,
+          "chapter_name": "第二章 《沉默》不存于世",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 128271,
+          "chapter_name": "第三章 梦的尽头",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 128272,
+          "chapter_name": "-Outro-",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 128273,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 128314,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }
