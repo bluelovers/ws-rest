@@ -3,13 +3,13 @@
   "name": "女学生侦探系列",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 女学生侦探与古怪作家",
+  "last_update_volume_name": "第二卷 旧书大宅杀人事件",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12580,
-  "last_update_chapter_id": 128792,
-  "last_update_time": 1662809856,
+  "last_update_volume_id": 12596,
+  "last_update_chapter_id": 129018,
+  "last_update_time": 1663239496,
   "cover": "http://xs.dmzj.com/img/webpic/7/nxs0910l.jpg",
-  "hot_hits": 366,
+  "hot_hits": 1081,
   "introduction": "★niconico动画破170万人次点阅歌曲，首度推出系列原创小说！\n★热爱推理小说的高二女生 × 销量奇差的古怪推理作家，带你一起痛痛快快地解决案件！\n★从天上跌落的高中女生和神秘的血书「X」！侦探用解谜来打发时间？在挂满幽灵画房间中出现\n惨遭射杀的尸体！稀奇又离奇的事件就让这位会直接生咬咖啡豆的古怪美男子，厘清所有的真相吧！\n啊哈哈！\n老师，有事件！！\n\n「女学生侦探系列」是什么？\n本系列最初以歌曲形式发表在日本niconico动画网站，首支乐曲名为〈旧书大宅杀人事件〉。充满推理趣味及文字游戏的歌词，与富节奏感的和式摇滚乐风大受好评，在一年内超越50万人次点阅。而后陆续发表〈异国人偶杀人事件〉、〈黑白猜，男生女生配〉、〈能面岛神隐事件〉等歌曲，并推出小说。",
   "types": [
     "侦探",
@@ -17,7 +17,7 @@
   ],
   "authors": "てにをは",
   "first_letter": "N",
-  "subscribe_num": 171,
+  "subscribe_num": 379,
   "volume": [
     {
       "id": 12580,
@@ -25,6 +25,14 @@
       "volume_name": "第一卷 女学生侦探与古怪作家",
       "volume_order": 10,
       "addtime": 1662809429,
+      "sum_chapters": 10
+    },
+    {
+      "id": 12596,
+      "lnovel_id": 3374,
+      "volume_name": "第二卷 旧书大宅杀人事件",
+      "volume_order": 20,
+      "addtime": 1663237716,
       "sum_chapters": 10
     }
   ],
@@ -84,6 +92,54 @@
           "chapter_id": 128792,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 12596,
+      "id": 12596,
+      "volume_name": "第二卷 旧书大宅杀人事件",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 129005,
+          "chapter_name": "开场",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 129006,
+          "chapter_name": "第一章 目眩神迷的旧书大探险",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 129007,
+          "chapter_name": "第二章 有侦探的地方就有案件",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 129008,
+          "chapter_name": "第三章 啊哈哈",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 129009,
+          "chapter_name": "最终章 大团圆可能实现吗？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 129010,
+          "chapter_name": "收场",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 129011,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 129018,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

@@ -1,38 +1,101 @@
 {
   "id": 1908,
-  "name": "真幌站前番外地",
+  "name": "真幌站前系列",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "惜别的月",
-  "last_update_volume_id": 6974,
-  "last_update_chapter_id": 50823,
-  "last_update_time": 1434457726,
-  "cover": "https://xs.dmzj.com/img/webpic/17/zhzqfwd658.jpg",
-  "hot_hits": 6815,
+  "last_update_volume_name": "第三卷 真幌站前狂骚曲",
+  "last_update_chapter_name": "第八章",
+  "last_update_volume_id": 12603,
+  "last_update_chapter_id": 129074,
+  "last_update_time": 1663427617,
+  "cover": "http://xs.dmzj.com/img/webpic/17/zhzqfwd658.jpg",
+  "hot_hits": 7197,
   "introduction": "《真幌站前多田便利屋》的多田和行天回来了！他们仍然勤奋地（？）在委托人指定的地点打扫房间、照顾老人、清理庭院、整理遗物、帮忙带小孩和做菜。露露、海熙、星良一、冈大叔、田村由良等大家熟悉的愉快伙伴们也依旧健在。除了多田和行天的日常拌嘴以外，本作还收录配角们的短篇小品，例如曾根田奶奶年轻时的浪漫爱情剧「回忆的银幕」，以及冈家夫人以第一人称描写的「冈太太在观察」等。\n　　默默支持着多田便利屋的街坊邻居\n　　逗趣而温馨的一面表露无遗！",
   "types": [
     "其它"
   ],
   "authors": "三浦紫苑",
   "first_letter": "Z",
-  "subscribe_num": 312,
-  "redis_update_time": 1564362105,
+  "subscribe_num": 584,
   "volume": [
+    {
+      "id": 12583,
+      "lnovel_id": 1908,
+      "volume_name": "第一卷 真幌站前多田便利屋",
+      "volume_order": 1,
+      "addtime": 1662995054,
+      "sum_chapters": 10
+    },
     {
       "id": 6974,
       "lnovel_id": 1908,
-      "volume_name": "第一卷",
+      "volume_name": "第二卷 真幌站前番外地",
       "volume_order": 10,
       "addtime": 1434457725,
-      "sum_chapters": 8
+      "sum_chapters": 10
+    },
+    {
+      "id": 12603,
+      "lnovel_id": 1908,
+      "volume_name": "第三卷 真幌站前狂骚曲",
+      "volume_order": 20,
+      "addtime": 1663427514,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
     {
+      "volume_id": 12583,
+      "id": 12583,
+      "volume_name": "第一卷 真幌站前多田便利屋",
+      "volume_order": 1,
+      "chapters": [
+        {
+          "chapter_id": 128824,
+          "chapter_name": "零 曾根田家老太太的预言",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 128825,
+          "chapter_name": "壹 多田便利屋，生意兴隆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 128826,
+          "chapter_name": "贰 行天身上的谜团",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 128827,
+          "chapter_name": "叁 干活的车，满身伤痕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 128828,
+          "chapter_name": "肆 跑吧，便利屋",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 128829,
+          "chapter_name": "肆/伍 曾根田家的老太太，再次预言",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 128830,
+          "chapter_name": "伍 事实，就一个",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 128831,
+          "chapter_name": "陆 公车牌下，再相会",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
       "volume_id": 6974,
       "id": 6974,
-      "volume_name": "第一卷",
+      "volume_name": "第二卷 真幌站前番外地",
       "volume_order": 10,
       "chapters": [
         {
@@ -73,6 +136,54 @@
         {
           "chapter_id": 50823,
           "chapter_name": "惜别的月",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12603,
+      "id": 12603,
+      "volume_name": "第三卷 真幌站前狂骚曲",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 129067,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 129068,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 129069,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 129070,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 129071,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 129072,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 129073,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 129074,
+          "chapter_name": "第八章",
           "chapter_order": 80
         }
       ]
