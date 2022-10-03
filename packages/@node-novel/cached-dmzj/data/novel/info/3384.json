@@ -3,13 +3,13 @@
   "name": "点餐请洽侦探",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 散发解谜香气的咖啡厅",
+  "last_update_volume_name": "第四卷 弥漫解谜芬芳的茶会",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 12604,
-  "last_update_chapter_id": 129081,
-  "last_update_time": 1663429196,
+  "last_update_volume_id": 12622,
+  "last_update_chapter_id": 129200,
+  "last_update_time": 1663859136,
   "cover": "http://xs.dmzj.com/img/webpic/2/ztk0917l.gif",
-  "hot_hits": 287,
+  "hot_hits": 1445,
   "introduction": "女子大学生．小野寺美久无意间闯入一个奇妙的地方。\n那里有不大寻常的店长，还有简直和王子一样的美形青年，是一家名为「翡翠」的咖啡厅。\n美久只在童话故事里看过那样的男生，不禁有点心跳加速。\n没想到……美形王子竟然比自己还小，只是个高中生，而且嘴巴恶毒兼坏心肠，还是个「名侦探」……!?\n美久莫名其妙和这个能解开任何谜团的虐待狂「侦探」大人成为搭档，两人纷纷扰扰的日常就在散发解谜香气的咖啡厅揭开序幕──",
   "types": [
     "侦探",
@@ -17,7 +17,7 @@
   ],
   "authors": "近江泉美",
   "first_letter": "D",
-  "subscribe_num": 133,
+  "subscribe_num": 345,
   "volume": [
     {
       "id": 12604,
@@ -25,6 +25,30 @@
       "volume_name": "第一卷 散发解谜香气的咖啡厅",
       "volume_order": 10,
       "addtime": 1663429109,
+      "sum_chapters": 10
+    },
+    {
+      "id": 12613,
+      "lnovel_id": 3384,
+      "volume_name": "第二卷 砂糖、牛奶外加满满一匙推理解谜",
+      "volume_order": 20,
+      "addtime": 1663586837,
+      "sum_chapters": 10
+    },
+    {
+      "id": 12616,
+      "lnovel_id": 3384,
+      "volume_name": "第三卷 荡漾在玻璃杯中的琥珀色解谜",
+      "volume_order": 30,
+      "addtime": 1663679852,
+      "sum_chapters": 10
+    },
+    {
+      "id": 12622,
+      "lnovel_id": 3384,
+      "volume_name": "第四卷 弥漫解谜芬芳的茶会",
+      "volume_order": 40,
+      "addtime": 1663858972,
       "sum_chapters": 10
     }
   ],
@@ -67,6 +91,120 @@
         },
         {
           "chapter_id": 129081,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12613,
+      "id": 12613,
+      "volume_name": "第二卷 砂糖、牛奶外加满满一匙推理解谜",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 129135,
+          "chapter_name": "第一话 柠檬红茶",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 129136,
+          "chapter_name": "第二话 法式吐司",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 129137,
+          "chapter_name": "第三话 碳酸饮料／苏打",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 129138,
+          "chapter_name": "第四话 碳酸飮料／汽水",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 129139,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 129140,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 12616,
+      "id": 12616,
+      "volume_name": "第三卷 荡漾在玻璃杯中的琥珀色解谜",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 129155,
+          "chapter_name": "第一话 花草茶",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 129156,
+          "chapter_name": "第二话 饼干1/2",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 129157,
+          "chapter_name": "第三话 威士忌酒糖",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 129158,
+          "chapter_name": "第四话 爱尔兰咖啡",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 129159,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 12622,
+      "id": 12622,
+      "volume_name": "第四卷 弥漫解谜芬芳的茶会",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 129194,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 129195,
+          "chapter_name": "第一话 柑橘酱",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 129196,
+          "chapter_name": "第二话 石子点心",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 129197,
+          "chapter_name": "第三话 葡萄干蛋糕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 129198,
+          "chapter_name": "第四话 女王的甜塔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 129199,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 129200,
           "chapter_name": "后记",
           "chapter_order": 70
         }
