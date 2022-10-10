@@ -1,15 +1,15 @@
 {
   "id": 3151,
-  "name": "虚幻王权 Corpse Reviver",
+  "name": "虚幻王权",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 龙与苍蓝深海之间",
+  "last_update_volume_name": "第三卷 All Hell Breaks Loose",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12187,
-  "last_update_chapter_id": 124537,
-  "last_update_time": 1651765364,
+  "last_update_volume_id": 12682,
+  "last_update_chapter_id": 129807,
+  "last_update_time": 1665312143,
   "cover": "http://xs.dmzj.com/img/webpic/11/xw1001l.jpg",
-  "hot_hits": 5769,
+  "hot_hits": 12595,
   "introduction": "那一天，东京的上空出现了巨龙，随着他们的出现这个国家也开始了崩坏。\n因为魍兽这一怪物的出现，在世界各地引起了“大杀戮”，最终导致了日本人的灭绝。整个日本的领土也被各国的军队和犯罪集团占领，最终变为了无人地带。\n八寻是为数不多的日本人幸存者。他因为沐浴了龙血获得了不死的肉体，一个人在化为废墟的无人东京，做着靠将美术品运出的“回收商”的工作。直到某天，名为朱莉和罗兹的双胞胎以美术商的名义前来拜访。二人希望委托他，将神秘的拥有控制魍兽能力的“奇稻田”回收。\n在废墟的街道上相遇的少年和少女，新的龙与屠龙的故事，即将开幕！",
   "types": [
     "爱情",
@@ -18,15 +18,15 @@
   ],
   "authors": "三云岳斗",
   "first_letter": "X",
-  "subscribe_num": 2679,
+  "subscribe_num": 3320,
   "volume": [
     {
       "id": 11834,
       "lnovel_id": 3151,
-      "volume_name": "第一卷",
+      "volume_name": "第一卷 Corpse Reviver",
       "volume_order": 10,
       "addtime": 1633101421,
-      "sum_chapters": 15
+      "sum_chapters": 9
     },
     {
       "id": 12187,
@@ -34,14 +34,22 @@
       "volume_name": "第二卷 龙与苍蓝深海之间",
       "volume_order": 20,
       "addtime": 1651675166,
-      "sum_chapters": 15
+      "sum_chapters": 9
+    },
+    {
+      "id": 12682,
+      "lnovel_id": 3151,
+      "volume_name": "第三卷 All Hell Breaks Loose",
+      "volume_order": 30,
+      "addtime": 1665311370,
+      "sum_chapters": 9
     }
   ],
   "chapters": [
     {
       "volume_id": 11834,
       "id": 11834,
-      "volume_name": "第一卷",
+      "volume_name": "第一卷 Corpse Reviver",
       "volume_order": 10,
       "chapters": [
         {
@@ -151,6 +159,59 @@
           "chapter_id": 124537,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 12682,
+      "id": 12682,
+      "volume_name": "第三卷 All Hell Breaks Loose",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 129792,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 129793,
+          "chapter_name": "第一幕 探讨秘密",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 129794,
+          "chapter_name": "第二幕 诬陷",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 129795,
+          "chapter_name": "第三幕 过去的敌人",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 129796,
+          "chapter_name": "第四幕 污染",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 129797,
+          "chapter_name": "第五幕 第二次",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 129798,
+          "chapter_name": "终幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 129799,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 129807,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }
