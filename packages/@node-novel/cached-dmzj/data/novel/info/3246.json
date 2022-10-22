@@ -3,13 +3,13 @@
   "name": "VENOM 求爱性少女症候群",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12196,
-  "last_update_chapter_id": 124597,
-  "last_update_time": 1651850280,
+  "last_update_volume_id": 12712,
+  "last_update_chapter_id": 130174,
+  "last_update_time": 1666362470,
   "cover": "http://xs.dmzj.com/img/webpic/1/qa0506l.jpg",
-  "hot_hits": 1740,
+  "hot_hits": 4889,
   "introduction": "★かいりきベア的超人气歌曲化身为角色！\n★由烦恼少女们撰写的神秘青春故事即将开幕！\n没来由地觉得跟朋友见面很累人，没来由地觉得不想待在教室。\n原本应该只是稀松平常的事，对我而言却成了一大问题。\n毕竟发生那么奇怪的事，会让人很烦恼嘛……\n「求爱性少女症候群」，据说对心怀不满的十多岁女孩而言，那是会突然就让神秘超自然现象如同病症般发作的现象。\n原以为只是无聊的传闻，却在无法从生活中得到满足的我们面前化为现实──\nかいりきベア创作的超人气歌曲〈VENOM〉、〈Darling Dance〉、〈失败作少女〉在本人监修下成为了原创故事！",
   "types": [
     "爱情",
@@ -17,7 +17,7 @@
   ],
   "authors": "城崎",
   "first_letter": "V",
-  "subscribe_num": 351,
+  "subscribe_num": 1156,
   "volume": [
     {
       "id": 12196,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1651849572,
-      "sum_chapters": 15
+      "sum_chapters": 11
+    },
+    {
+      "id": 12712,
+      "lnovel_id": 3246,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1666359075,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -94,6 +102,69 @@
           "chapter_id": 124597,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 12712,
+      "id": 12712,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 130119,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 130120,
+          "chapter_name": "夸耀肤色的少女在那之后",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 130121,
+          "chapter_name": "后天性病弱少女的观察 一",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 130122,
+          "chapter_name": "夸耀肤色的少女的下一步",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 130123,
+          "chapter_name": "无法回家的少女在那之后",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 130124,
+          "chapter_name": "后天性病弱少女的观察 二",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 130125,
+          "chapter_name": "无法回家的少女的下一步",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 130126,
+          "chapter_name": "后天性病弱少女的下一步",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 130127,
+          "chapter_name": "尾声",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 130128,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 130174,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
