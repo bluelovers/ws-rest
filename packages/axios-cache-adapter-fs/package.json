@@ -13,13 +13,14 @@
     "request",
     "xhr"
   ],
-  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/axios-cache-adapter-fs#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluelovers/ws-rest.git"
+    "url": "git+https://github.com/bluelovers/ws-rest.git",
+    "directory": "packages/axios-cache-adapter-fs"
   },
   "license": "ISC",
   "author": "",
@@ -30,6 +31,10 @@
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",
     "test": "ts-node ./test/demo",
+    "test:jest": "jest --passWithNoTests",
+    "test:jest:snapshot": "yarn run test:jest -- -u",
+    "test:snapshot": "yarn run test -- -u",
+    "test:tsd": "ynpx tsd",
     "preversion": "yarn run test",
     "postpublish": "echo postpublish",
     "ncu": "npx yarn-tool ncu -u",

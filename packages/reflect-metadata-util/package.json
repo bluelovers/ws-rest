@@ -9,6 +9,15 @@
     "reflect",
     "util"
   ],
+  "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/reflect-metadata-util#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/ws-rest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/ws-rest.git",
+    "directory": "packages/reflect-metadata-util"
+  },
   "license": "ISC",
   "author": "",
   "main": "index.js",
@@ -16,6 +25,10 @@
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",
     "test": "ts-node ./test/demo",
+    "test:jest": "jest --passWithNoTests",
+    "test:jest:snapshot": "yarn run test:jest -- -u",
+    "test:snapshot": "yarn run test -- -u",
+    "test:tsd": "ynpx tsd",
     "preversion": "yarn run test",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort"

@@ -6,13 +6,14 @@
     "axios",
     "util"
   ],
-  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@bluelovers/axios-util#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluelovers/ws-rest.git"
+    "url": "git+https://github.com/bluelovers/ws-rest.git",
+    "directory": "packages/@bluelovers/axios-util"
   },
   "license": "ISC",
   "author": "",
@@ -21,7 +22,12 @@
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
     "test": "echo \"Error: no test specified\"",
+    "test:jest": "jest --passWithNoTests",
+    "test:jest:snapshot": "yarn run test:jest -- -u",
+    "test:snapshot": "yarn run test -- -u",
+    "test:tsd": "ynpx tsd",
     "npm:publish": "npm publish",
+    "preversion": "yarn run test",
     "prepublishOnly_": "yarn run ncu && yarn run sort-package-json",
     "postpublish": "echo postpublish",
     "ncu": "npx yarn-tool ncu -u",

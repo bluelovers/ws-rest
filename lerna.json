@@ -18,23 +18,37 @@
         "*.map",
         "*.spec.*",
         "*.test.*",
-        ".gitrepo"
+        ".gitrepo",
+        "**/test/temp/**",
+        "lerna.json",
+        "CHANGELOG.md",
+        ".gitignore",
+        "**/tests/**"
       ],
       "message": "chore(release): publish\n\n[skip ci]",
       "bump": "patch",
       "conventionalCommits": true,
-      "conventionalGraduate": true
+      "conventionalGraduate": true,
+      "noPrivate": true
     },
     "version": {
       "loglevel": "silly",
       "conventionalCommits": true,
-      "changelogPreset": "@bluelovers/conventional-changelog-bluelovers"
+      "changelogPreset": "@bluelovers/conventional-changelog-bluelovers",
+      "concurrency": 1,
+      "noPrivate": true
     },
     "run": {
+      "stream": true,
       "loglevel": "silly",
-      "stream": true
+      "concurrency": 1
     },
     "exec": {
+      "stream": true,
+      "concurrency": 1
+    },
+    "add": {
+      "concurrency": 1,
       "stream": true
     }
   },

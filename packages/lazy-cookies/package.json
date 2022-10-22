@@ -2,13 +2,14 @@
   "name": "lazy-cookies",
   "version": "1.0.38",
   "description": "",
-  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/lazy-cookies#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluelovers/ws-rest.git"
+    "url": "git+https://github.com/bluelovers/ws-rest.git",
+    "directory": "packages/lazy-cookies"
   },
   "license": "ISC",
   "author": "",
@@ -17,6 +18,11 @@
     "coverage": "npx nyc npm run test",
     "lint": "npx eslint **/*.ts",
     "test": "echo \"Error: no test specified\"",
+    "test:jest": "jest --passWithNoTests",
+    "test:jest:snapshot": "yarn run test:jest -- -u",
+    "test:snapshot": "yarn run test -- -u",
+    "test:tsd": "ynpx tsd",
+    "preversion": "yarn run test",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort"
   },

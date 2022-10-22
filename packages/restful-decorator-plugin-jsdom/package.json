@@ -2,13 +2,14 @@
   "name": "restful-decorator-plugin-jsdom",
   "version": "1.0.41",
   "description": "",
-  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/restful-decorator-plugin-jsdom#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluelovers/ws-rest.git"
+    "url": "git+https://github.com/bluelovers/ws-rest.git",
+    "directory": "packages/restful-decorator-plugin-jsdom"
   },
   "license": "ISC",
   "author": "",
@@ -19,7 +20,12 @@
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
     "test": "echo \"Warn: no test specified\"",
+    "test:jest": "jest --passWithNoTests",
+    "test:jest:snapshot": "yarn run test:jest -- -u",
+    "test:snapshot": "yarn run test -- -u",
+    "test:tsd": "ynpx tsd",
     "npm:publish": "npm publish",
+    "preversion": "yarn run test",
     "postpublish_": "git commit -m \"publish new version\" .",
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort",
@@ -41,7 +47,7 @@
     "jsdom-extra": "^3.0.7",
     "lazy-cookies": "^1.0.38",
     "restful-decorator": "^1.0.61",
-    "tough-cookie": "< 4 >= 3",
+    "tough-cookie": "<4 >=3",
     "tslib": "^2.3.1"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"

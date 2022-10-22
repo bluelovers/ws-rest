@@ -2,13 +2,14 @@
   "name": "@node-novel/cached-esjzone",
   "version": "1.0.91",
   "description": "cached esjzone fake api like data",
-  "homepage": "https://github.com/bluelovers/ws-rest#readme",
+  "homepage": "https://github.com/bluelovers/ws-rest/tree/master/packages/@node-novel/cached-esjzone#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/ws-rest/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluelovers/ws-rest.git"
+    "url": "git+https://github.com/bluelovers/ws-rest.git",
+    "directory": "packages/@node-novel/cached-esjzone"
   },
   "license": "ISC",
   "author": "",
@@ -17,6 +18,10 @@
     "coverage": "npx nyc yarn run test",
     "lint": "npx eslint **/*.ts",
     "test": "echo \"Error: no test specified\"",
+    "test:jest": "jest --passWithNoTests",
+    "test:jest:snapshot": "yarn run test:jest -- -u",
+    "test:snapshot": "yarn run test -- -u",
+    "test:tsd": "ynpx tsd",
     "prebuild": "yarn run build:fix",
     "build": "yarn run build:main",
     "build:cache": "ts-node ./script/build",
@@ -32,6 +37,9 @@
     "tsc:default": "tsc -p tsconfig.json",
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  },
   "devDependencies": {
     "@node-novel/site-cache-util": "^1.0.48",
     "axios-cache-adapter-util": "^1.0.57",
@@ -42,8 +50,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "0f35c47bb8e9551733530bf348c3ed022c04471f",
-  "dependencies": {
-    "tslib": "^2.3.1"
-  }
+  "gitHead": "0f35c47bb8e9551733530bf348c3ed022c04471f"
 }

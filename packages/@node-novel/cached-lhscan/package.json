@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluelovers/ws-rest.git"
+    "url": "git+https://github.com/bluelovers/ws-rest.git",
+    "directory": "packages/@node-novel/cached-lhscan"
   },
   "license": "ISC",
   "author": "bluelovers",
@@ -18,7 +19,10 @@
     "pretest": "yarn run build",
     "test": "echo \"Error: no test specified\"",
     "test:jest": "ynpx --quiet jest -- --coverage",
+    "test:jest:snapshot": "yarn run test:jest -- -u",
     "test:mocha": "ynpx --quiet -p ts-node -p mocha mocha -- --require ts-node/register \"!(node_modules)/**/*.{test,spec}.{ts,tsx}\"",
+    "test:snapshot": "yarn run test -- -u",
+    "test:tsd": "ynpx tsd",
     "build": "yarn run build:main && yarn run build:commit",
     "build:cache": "ts-node ./script/build",
     "build:commit": "ts-node ./script/build-commit",
@@ -31,14 +35,14 @@
     "ncu": "yarn-tool ncu -u",
     "sort-package-json": "yarn-tool sort"
   },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  },
   "peerDependencies": {
-    "lhscan-api": "^1.0.27"
+    "lhscan-api": "^1.0.28"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb",
-  "dependencies": {
-    "tslib": "^2.3.1"
-  }
+  "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"
 }
