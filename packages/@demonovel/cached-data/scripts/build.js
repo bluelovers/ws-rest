@@ -4,13 +4,13 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const index_1 = (0, tslib_1.__importDefault)(require("../lib/all/index"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
-const build_1 = (0, tslib_1.__importDefault)(require("../lib/all/build"));
+const index_1 = tslib_1.__importDefault(require("../lib/all/index"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
+const build_1 = tslib_1.__importDefault(require("../lib/all/build"));
 const path_1 = require("path");
 const __root_1 = require("../lib/__root");
 const convert_1 = require("../lib/util/convert");
-const cache_1 = (0, tslib_1.__importDefault)(require("../lib/all/cache"));
+const cache_1 = tslib_1.__importDefault(require("../lib/all/cache"));
 const fs_1 = require("../lib/util/fs");
 exports.default = (0, index_1.default)(false, {
     local: true,

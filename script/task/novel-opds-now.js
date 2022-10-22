@@ -5,8 +5,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const dotenv_1 = require("dotenv");
-const axios_1 = (0, tslib_1.__importDefault)(require("axios"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const axios_1 = tslib_1.__importDefault(require("axios"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 exports.default = (0, index_1.lazyRun)(async () => {
     await bluebird_1.default.resolve().tap(e => (0, dotenv_1.config)()).catch(e => null);

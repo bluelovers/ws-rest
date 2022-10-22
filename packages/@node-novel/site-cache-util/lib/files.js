@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.wrapProxy = exports.createPkgCachePath = exports.createPkgPath = void 0;
 const tslib_1 = require("tslib");
-const upath2_1 = (0, tslib_1.__importDefault)(require("upath2"));
-const util_1 = (0, tslib_1.__importDefault)(require("util"));
-const fs_extra_1 = (0, tslib_1.__importDefault)(require("fs-extra"));
+const upath2_1 = tslib_1.__importDefault(require("upath2"));
+const util_1 = tslib_1.__importDefault(require("util"));
+const fs_extra_1 = tslib_1.__importDefault(require("fs-extra"));
 function createPkgPath(__root) {
     if (!__root || !upath2_1.default.isAbsolute(__root)) {
         throw new RangeError(`__root should is absolute path, but got ${JSON.stringify(__root)}`);

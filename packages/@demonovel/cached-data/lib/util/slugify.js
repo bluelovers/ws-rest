@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.slugifyNovel = exports.slugifyNovel2 = exports.slugifyNovel3 = void 0;
 const tslib_1 = require("tslib");
 const zh_slugify_1 = require("@lazy-cjk/zh-slugify");
-const lib_1 = (0, tslib_1.__importDefault)(require("zero-width/lib"));
+const lib_1 = tslib_1.__importDefault(require("zero-width/lib"));
 const str_util_1 = require("str-util");
 function slugifyNovel3(title) {
     return (0, lib_1.default)((0, str_util_1.toHalfWidth)(title))

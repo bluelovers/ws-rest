@@ -5,12 +5,12 @@ const tslib_1 = require("tslib");
  * Created by user on 2019/11/24.
  */
 const fs_extra_1 = require("fs-extra");
-const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const files_1 = tslib_1.__importDefault(require("../util/files"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("../util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
-const orderBy_1 = (0, tslib_1.__importDefault)(require("lodash/orderBy"));
-const bluebird_2 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
+const orderBy_1 = tslib_1.__importDefault(require("lodash/orderBy"));
+const bluebird_2 = tslib_1.__importDefault(require("@bluelovers/fast-glob/bluebird"));
 const path_1 = require("path");
 const path_2 = require("path");
 const fs_1 = require("@node-novel/site-cache-util/lib/fs");

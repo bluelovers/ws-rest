@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.buildCachedTitle = void 0;
 const tslib_1 = require("tslib");
-const slugify_1 = (0, tslib_1.__importDefault)(require("../../util/slugify"));
+const slugify_1 = tslib_1.__importDefault(require("../../util/slugify"));
 const util_1 = require("../util");
 const array_hyper_unique_1 = require("array-hyper-unique");
 const util_2 = require("@novel-segment/util");

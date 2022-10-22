@@ -4,7 +4,7 @@ exports._getBookInfo = void 0;
 const tslib_1 = require("tslib");
 const util_1 = require("../util");
 const const_1 = require("./const");
-const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
+const moment_1 = tslib_1.__importDefault(require("moment"));
 const array_hyper_unique_1 = require("array-hyper-unique");
 const _matchDateString_1 = require("./_matchDateString");
 function _getBookInfo($, data) {

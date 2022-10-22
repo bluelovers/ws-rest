@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
-const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const files_1 = tslib_1.__importDefault(require("../util/files"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("@novel-segment/util");
-const sort_object_keys2_1 = (0, tslib_1.__importDefault)(require("sort-object-keys2"));
+const sort_object_keys2_1 = tslib_1.__importDefault(require("sort-object-keys2"));
 const array_hyper_unique_1 = require("array-hyper-unique");
 const fs_1 = require("@node-novel/site-cache-util/lib/fs");
 const index_1 = require("@node-novel/site-cache-util/lib/index");

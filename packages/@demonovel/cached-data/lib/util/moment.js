@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createMomentBySeconds = exports.createMomentByMilliseconds = exports._process = void 0;
 const tslib_1 = require("tslib");
-const moment_timezone_1 = (0, tslib_1.__importDefault)(require("moment-timezone"));
+const moment_timezone_1 = tslib_1.__importDefault(require("moment-timezone"));
 function _process(moment) {
     return moment
         .utcOffset(8);

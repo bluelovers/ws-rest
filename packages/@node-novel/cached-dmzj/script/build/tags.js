@@ -5,13 +5,13 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const util_1 = require("../util");
-const path_1 = (0, tslib_1.__importDefault)(require("path"));
-const fs_extra_1 = (0, tslib_1.__importDefault)(require("fs-extra"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
-const bluebird_2 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
+const path_1 = tslib_1.__importDefault(require("path"));
+const fs_extra_1 = tslib_1.__importDefault(require("fs-extra"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
+const bluebird_2 = tslib_1.__importDefault(require("@bluelovers/fast-glob/bluebird"));
 const array_hyper_unique_1 = require("array-hyper-unique");
 const util_2 = require("dmzj-api/lib/util");
-const sort_object_keys2_1 = (0, tslib_1.__importDefault)(require("sort-object-keys2"));
+const sort_object_keys2_1 = tslib_1.__importDefault(require("sort-object-keys2"));
 const util_3 = require("@novel-segment/util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 let _cache_map = {};

@@ -3,19 +3,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.LHScanClient = void 0;
 const tslib_1 = require("tslib");
 const decorators_1 = require("restful-decorator/lib/decorators");
-const lazy_url_1 = (0, tslib_1.__importDefault)(require("lazy-url"));
+const lazy_url_1 = tslib_1.__importDefault(require("lazy-url"));
 const types_1 = require("./types");
 const parse_1 = require("./site/parse");
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
-const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib"));
+const lib_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib"));
 const array_buffer_to_string_1 = require("@bluelovers/array-buffer-to-string");
 const dot_values2_1 = require("dot-values2");
-const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
-let LHScanClient = 
-/**
- * @link https://lhscan.net/app/manga/controllers/search.single.php?q=%E9%AA%91%E5%A3%AB%E9%AD%94
- */
-class LHScanClient extends lib_1.default {
+const moment_1 = tslib_1.__importDefault(require("moment"));
+let LHScanClient = class LHScanClient extends lib_1.default {
     constructor(...argv) {
         let [defaults = {}] = argv;
         if (defaults.baseURL) {
@@ -342,60 +338,60 @@ class LHScanClient extends lib_1.default {
         });
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('app/manga/controllers/search.single.php'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamData)('q')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [String]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamData)('q')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [String]),
+    tslib_1.__metadata("design:returntype", Object)
 ], LHScanClient.prototype, "_searchSingle", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('app/manga/controllers/cont.pop.php?action=pop&id={id}'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('id')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('id')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], LHScanClient.prototype, "mangaMetaPop", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('manga-{id_key}.html')
     // @ts-ignore
     ,
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('id_key')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [String]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('id_key')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [String]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], LHScanClient.prototype, "_manga", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('read-{id_key}-chapter-{chapter_id}.html'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], LHScanClient.prototype, "read", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('manga-list.html'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)({
         listType: 'pagination',
         sort: 'last_update',
     })),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], LHScanClient.prototype, "mangaList", null);
-LHScanClient = (0, tslib_1.__decorate)([
-    (0, decorators_1.BaseUrl)("https://loveheaven.net" /* LOVEHEAVEN */),
+LHScanClient = tslib_1.__decorate([
+    (0, decorators_1.BaseUrl)("https://loveheaven.net" /* EnumMirrorSites.LOVEHEAVEN */),
     (0, decorators_1.Headers)({
         'Accept': 'application/json',
-        Referer: "https://loveheaven.net" /* LOVEHEAVEN */,
+        Referer: "https://loveheaven.net" /* EnumMirrorSites.LOVEHEAVEN */,
     }),
     (0, decorators_1.RequestConfigs)({
         responseType: 'json',
@@ -410,7 +406,7 @@ LHScanClient = (0, tslib_1.__decorate)([
      * @link https://lhscan.net/app/manga/controllers/search.single.php?q=%E9%AA%91%E5%A3%AB%E9%AD%94
      */
     ,
-    (0, tslib_1.__metadata)("design:paramtypes", [Object])
+    tslib_1.__metadata("design:paramtypes", [Object])
 ], LHScanClient);
 exports.LHScanClient = LHScanClient;
 exports.default = LHScanClient;

@@ -2,6 +2,7 @@
  * Created by user on 2019/11/24.
  */
 /// <reference types="jquery" />
+/// <reference types="jquery" />
 export interface IESJzoneRecentUpdate {
     page: number;
     end: number;
@@ -65,7 +66,7 @@ export interface IESJzoneBookChaptersVolChapterExternal extends Omit<IESJzoneBoo
     "chapter_id"?: never;
     "novel_id"?: never;
 }
-export declare type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;
+export type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;
 export interface IESJzoneChapterBase {
     novel_id: string;
     chapter_id: string;

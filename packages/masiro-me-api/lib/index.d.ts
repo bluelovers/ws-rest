@@ -1,4 +1,5 @@
 /// <reference types="jquery" />
+/// <reference types="jquery" />
 import AbstractHttpClientWithJSDom from 'restful-decorator-plugin-jsdom/lib/index';
 import Bluebird from 'bluebird';
 import { Cookie } from 'tough-cookie';

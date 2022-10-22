@@ -4,7 +4,7 @@ exports.buildCachedByDate = void 0;
 const tslib_1 = require("tslib");
 const path_1 = require("path");
 const __root_1 = require("../../__root");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const moment_1 = require("../../util/moment");
 const fs_1 = require("../../util/fs");
 function buildCachedByDate(list) {

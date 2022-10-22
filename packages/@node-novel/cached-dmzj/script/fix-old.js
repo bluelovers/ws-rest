@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const path_1 = (0, tslib_1.__importDefault)(require("path"));
+const path_1 = tslib_1.__importDefault(require("path"));
 const util_1 = require("./util");
 const fs_extra_1 = require("fs-extra");
-const bluebird_cancellation_1 = (0, tslib_1.__importDefault)(require("bluebird-cancellation"));
+const bluebird_cancellation_1 = tslib_1.__importDefault(require("bluebird-cancellation"));
 const util_2 = require("dmzj-api/lib/util");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
-const files_1 = (0, tslib_1.__importDefault)(require("./util/files"));
+const bluebird_1 = tslib_1.__importDefault(require("@bluelovers/fast-glob/bluebird"));
+const files_1 = tslib_1.__importDefault(require("./util/files"));
 const lib_1 = require("@node-novel/site-cache-util/lib");
 exports.default = (0, lib_1.lazyRun)(async () => {
     const file = files_1.default.recentUpdate;

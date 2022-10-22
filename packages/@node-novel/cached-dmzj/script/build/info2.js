@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const fs_extra_1 = (0, tslib_1.__importStar)(require("fs-extra"));
-const path_1 = (0, tslib_1.__importDefault)(require("path"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const fs_extra_1 = tslib_1.__importStar(require("fs-extra"));
+const path_1 = tslib_1.__importDefault(require("path"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("../util");
 const lodash_1 = require("lodash");
-const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
+const files_1 = tslib_1.__importDefault(require("../util/files"));
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 exports.default = (0, index_1.lazyRun)(async () => {
     let json = await fs_extra_1.default.readJSON(path_1.default.join(util_1.__root, 'data/novel/info.pack.json'));

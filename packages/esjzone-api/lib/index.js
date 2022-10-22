@@ -2,14 +2,14 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ESJzoneClient = void 0;
 const tslib_1 = require("tslib");
-const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib"));
+const lib_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib"));
 const decorators_1 = require("restful-decorator/lib/decorators");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("./util");
-const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
-const uniqBy_1 = (0, tslib_1.__importDefault)(require("lodash/uniqBy"));
+const moment_1 = tslib_1.__importDefault(require("moment"));
+const uniqBy_1 = tslib_1.__importDefault(require("lodash/uniqBy"));
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
-const orderBy_1 = (0, tslib_1.__importDefault)(require("lodash/orderBy"));
+const orderBy_1 = tslib_1.__importDefault(require("lodash/orderBy"));
 const html_1 = require("restful-decorator-plugin-jsdom/lib/html");
 const jquery_1 = require("restful-decorator-plugin-jsdom/lib/jquery");
 const _getChapterData_1 = require("./util/_getChapterData");
@@ -366,63 +366,63 @@ let ESJzoneClient = class ESJzoneClient extends lib_1.default {
         return ret;
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('list/{page}.html'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('page', 1)),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Number, Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('page', 1)),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Number, Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], ESJzoneClient.prototype, "articleList", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('detail/{novel_id}.html'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('novel_id')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], ESJzoneClient.prototype, "bookInfo", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('forum/{novel_id}/{chapter_id}.html'),
     decorators_1.FormUrlencoded,
     (0, decorators_1.methodBuilder)({
         autoRequest: false,
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], ESJzoneClient.prototype, "_getDecodeChapter", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('inc/forum_pw.php'),
     decorators_1.FormUrlencoded,
     (0, decorators_1.RequestConfigs)({
         responseType: 'json',
     }),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", bluebird_1.default)
 ], ESJzoneClient.prototype, "_queryChapterByPassword", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('forum/{novel_id}/{chapter_id}.html'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, body_1.ParamMapPath)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+    tslib_1.__param(0, (0, body_1.ParamMapPath)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", bluebird_1.default)
 ], ESJzoneClient.prototype, "_getChapter", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('update'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", Object)
 ], ESJzoneClient.prototype, "recentUpdateDay", null);
-ESJzoneClient = (0, tslib_1.__decorate)([
+ESJzoneClient = tslib_1.__decorate([
     (0, decorators_1.BaseUrl)('https://www.esjzone.cc'),
     (0, decorators_1.Headers)({
         Referer: 'https://www.esjzone.cc',

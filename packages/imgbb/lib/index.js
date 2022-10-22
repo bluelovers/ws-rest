@@ -4,7 +4,7 @@ exports.ImgBB = void 0;
 const tslib_1 = require("tslib");
 const lib_1 = require("restful-decorator/lib");
 const decorators_1 = require("restful-decorator/lib/decorators");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const SymApiOptions = Symbol('options');
 let ImgBB = class ImgBB extends lib_1.AbstractHttpClient {
     constructor(options) {
@@ -31,7 +31,7 @@ let ImgBB = class ImgBB extends lib_1.AbstractHttpClient {
         return bluebird_1.default.resolve($returnValue);
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('1/upload'),
     decorators_1.FormUrlencoded,
     (0, decorators_1.HandleParamMetadata)((data) => {
@@ -55,13 +55,17 @@ let ImgBB = class ImgBB extends lib_1.AbstractHttpClient {
             return bluebird_1.default.reject(e.response.data);
         }
         return bluebird_1.default.reject(e);
-    }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    })
+    /**
+     * API v1 calls can be done using the POST or GET request methods but since GET request are limited by the maximum allowed length of an URL you should prefer the POST request method.
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], ImgBB.prototype, "upload", null);
-ImgBB = (0, tslib_1.__decorate)([
+ImgBB = tslib_1.__decorate([
     (0, decorators_1.BaseUrl)('https://api.imgbb.com/'),
     (0, decorators_1.Headers)({
         'Accept': 'application/json',
@@ -69,7 +73,7 @@ ImgBB = (0, tslib_1.__decorate)([
     (0, decorators_1.RequestConfigs)({
         responseType: 'json',
     }),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object])
+    tslib_1.__metadata("design:paramtypes", [Object])
 ], ImgBB);
 exports.ImgBB = ImgBB;
 exports.default = ImgBB;

@@ -5,12 +5,12 @@ const tslib_1 = require("tslib");
  * Created by user on 2019/11/24.
  */
 const fs_extra_1 = require("fs-extra");
-const files_1 = (0, tslib_1.__importStar)(require("../util/files"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const files_1 = tslib_1.__importStar(require("../util/files"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("../util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
-const path_1 = (0, tslib_1.__importDefault)(require("path"));
-const bluebird_2 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
+const path_1 = tslib_1.__importDefault(require("path"));
+const bluebird_2 = tslib_1.__importDefault(require("@bluelovers/fast-glob/bluebird"));
 const zero_width_1 = require("zero-width");
 exports.default = (0, index_1.lazyRun)(async () => {
     let recentUpdate = await (0, fs_extra_1.readJSON)(files_1.default.recentUpdate);

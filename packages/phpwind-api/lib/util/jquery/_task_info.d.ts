@@ -1,4 +1,6 @@
 /// <reference types="jquery" />
+/// <reference types="jquery" />
+/// <reference types="jquery" />
 import { IPHPWindTaskRowDoing } from '../../types';
 /**
  * Created by user on 2020/5/13.

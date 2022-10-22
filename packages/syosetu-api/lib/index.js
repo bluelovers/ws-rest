@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SyosetuClient = void 0;
 const tslib_1 = require("tslib");
-const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib"));
+const lib_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib"));
 const http_1 = require("restful-decorator/lib/decorators/http");
 const headers_1 = require("restful-decorator/lib/decorators/headers");
 const cache_1 = require("restful-decorator/lib/decorators/config/cache");
@@ -71,7 +71,7 @@ let SyosetuClient = class SyosetuClient extends lib_1.default {
         return this._getWebNovelRaw(argv);
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)(const_1.EnumSyosetuApiURL.novel),
     (0, config_1.RequestConfigs)({
         responseType: 'json',
@@ -92,12 +92,12 @@ let SyosetuClient = class SyosetuClient extends lib_1.default {
     }, {
         autoRequest: true,
     }),
-    (0, tslib_1.__param)(0, (0, body_1.ParamData)('ncode')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [String, Boolean]),
-    (0, tslib_1.__metadata)("design:returntype", Promise)
+    tslib_1.__param(0, (0, body_1.ParamData)('ncode')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [String, Boolean]),
+    tslib_1.__metadata("design:returntype", Promise)
 ], SyosetuClient.prototype, "ncodeInfoRaw", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, abstract_1.methodBuilder)(function (info) {
         const data = info.argv[0];
@@ -107,11 +107,11 @@ let SyosetuClient = class SyosetuClient extends lib_1.default {
     }, {
         autoRequest: true,
     }),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], SyosetuClient.prototype, "_getWebNovelRaw", null);
-SyosetuClient = (0, tslib_1.__decorate)([
+SyosetuClient = tslib_1.__decorate([
     (0, http_1.BaseUrl)('https://api.syosetu.com/'),
     (0, headers_1.Headers)({
         Referer: 'https://syosetu.com/',

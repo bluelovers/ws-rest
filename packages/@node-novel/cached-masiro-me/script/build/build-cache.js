@@ -7,10 +7,10 @@ const files_1 = require("../util/files");
 const fs_extra_1 = require("fs-extra");
 const fs_1 = require("@node-novel/site-cache-util/lib/fs");
 const path_1 = require("path");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("@bluelovers/fast-glob/bluebird"));
 const array_hyper_unique_1 = require("array-hyper-unique");
 const util_2 = require("@novel-segment/util");
-const sort_object_keys2_1 = (0, tslib_1.__importDefault)(require("sort-object-keys2"));
+const sort_object_keys2_1 = tslib_1.__importDefault(require("sort-object-keys2"));
 let _cache_map = {};
 exports.default = (0, index_1.lazyRun)(async () => {
     const { api, saveCache } = await (0, util_1.getApiClient)();

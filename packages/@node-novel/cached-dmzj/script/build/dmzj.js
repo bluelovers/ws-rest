@@ -2,11 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
-const path_1 = (0, tslib_1.__importDefault)(require("path"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const path_1 = tslib_1.__importDefault(require("path"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("../util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
-const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
+const files_1 = tslib_1.__importDefault(require("../util/files"));
 exports.default = (0, index_1.lazyRun)(async () => {
     var _a, _b;
     const { api, saveCache } = await (0, util_1.getDmzjClient)();

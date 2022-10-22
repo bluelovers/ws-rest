@@ -4,11 +4,11 @@ export declare function createPkgPath(__root: string): {
     resolve(paths_0: string, ...paths_1: string[]): string;
     relative(paths_0: string): string;
 };
-export declare type ICreatePkgPath = ReturnType<typeof createPkgPath>;
-export declare type ICreatePkgCachePathFunction<T extends ICreatePkgPath = ICreatePkgPath> = ((this: T, ...argv: any) => any);
-export declare type ICreatePkgCachePathFn = Record<string, ICreatePkgCachePathFunction>;
-export declare type ICreatePkgCachePathMap = Record<string, string | [string, ...string[]]>;
-export declare type ICreatePkgCachePath<T extends ICreatePkgCachePathMap, T2 extends Record<string, ICreatePkgCachePathFunction<ICreatePkgCachePath<T, T2>>>> = ICreatePkgPath & {
+export type ICreatePkgPath = ReturnType<typeof createPkgPath>;
+export type ICreatePkgCachePathFunction<T extends ICreatePkgPath = ICreatePkgPath> = ((this: T, ...argv: any) => any);
+export type ICreatePkgCachePathFn = Record<string, ICreatePkgCachePathFunction>;
+export type ICreatePkgCachePathMap = Record<string, string | [string, ...string[]]>;
+export type ICreatePkgCachePath<T extends ICreatePkgCachePathMap, T2 extends Record<string, ICreatePkgCachePathFunction<ICreatePkgCachePath<T, T2>>>> = ICreatePkgPath & {
     cacheFilePaths: {
         recentUpdate: string;
         recentUpdateDay: string;

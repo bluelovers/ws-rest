@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.unixMoment = exports.toMoment = exports.moment = void 0;
 const tslib_1 = require("tslib");
 // @ts-ignore
-(0, tslib_1.__exportStar)(require("moment"), exports);
-const moment_timezone_1 = (0, tslib_1.__importDefault)(require("moment-timezone"));
+tslib_1.__exportStar(require("moment"), exports);
+const moment_timezone_1 = tslib_1.__importDefault(require("moment-timezone"));
 exports.moment = moment_timezone_1.default;
 let defaultTimeZone = "Asia/Taipei";
 moment_timezone_1.default.tz.setDefault(defaultTimeZone);

@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.buildMasiro = void 0;
 const tslib_1 = require("tslib");
 const util_1 = require("./util");
-const cheerio_1 = (0, tslib_1.__importDefault)(require("cheerio"));
+const cheerio_1 = tslib_1.__importDefault(require("cheerio"));
 const moment_1 = require("../../util/moment");
 function buildMasiro(siteID, id, data) {
     if (data.subforums && data.subforums.length) {

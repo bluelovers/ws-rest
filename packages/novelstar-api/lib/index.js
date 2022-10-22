@@ -5,11 +5,11 @@ const tslib_1 = require("tslib");
 const http_1 = require("restful-decorator/lib/decorators/http");
 const headers_1 = require("restful-decorator/lib/decorators/headers");
 const cache_1 = require("restful-decorator/lib/decorators/config/cache");
-const index_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib/index"));
+const index_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib/index"));
 const method_1 = require("restful-decorator/lib/decorators/method");
 const abstract_1 = require("restful-decorator/lib/wrap/abstract");
 const body_1 = require("restful-decorator/lib/decorators/body");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const index_2 = require("restful-decorator/lib/decorators/config/index");
 const _checkLogin_1 = require("./util/_checkLogin");
@@ -73,7 +73,7 @@ let NovelStarClient = class NovelStarClient extends index_1.default {
         });
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('member/home/'),
     (0, index_2.RequestConfigs)({
         cache: {
@@ -86,21 +86,21 @@ let NovelStarClient = class NovelStarClient extends index_1.default {
     (0, abstract_1.methodBuilder)({
         disableFallbackReturnValue: true,
     }),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", bluebird_1.default)
 ], NovelStarClient.prototype, "checkLogin", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('books/'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, abstract_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, body_1.ParamQuery)('p', 1)),
-    (0, tslib_1.__param)(1, (0, body_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Number, Object]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__param(0, (0, body_1.ParamQuery)('p', 1)),
+    tslib_1.__param(1, (0, body_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Number, Object]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], NovelStarClient.prototype, "_recentUpdate", null);
-NovelStarClient = (0, tslib_1.__decorate)([
+NovelStarClient = tslib_1.__decorate([
     (0, http_1.BaseUrl)('https://www.novelstar.com.tw/'),
     (0, headers_1.Headers)({
         Referer: 'https://www.novelstar.com.tw/',

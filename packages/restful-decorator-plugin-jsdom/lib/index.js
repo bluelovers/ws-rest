@@ -4,16 +4,16 @@ exports.AbstractHttpClientWithJSDom = void 0;
 const tslib_1 = require("tslib");
 const lib_1 = require("restful-decorator/lib");
 const pack_1 = require("jsdom-extra/lib/pack");
-const lib_2 = (0, tslib_1.__importDefault)(require("@bluelovers/axios-util/lib"));
+const lib_2 = tslib_1.__importDefault(require("@bluelovers/axios-util/lib"));
 const tough_cookie_1 = require("tough-cookie");
 const jsdom_extra_1 = require("jsdom-extra");
 const buffer_1 = require("buffer");
 const utf8_1 = require("./util/utf8");
 const decorators_1 = require("restful-decorator/lib/decorators");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const jsdom_1 = require("./decorators/jsdom");
 const get_http_result_url_1 = require("get-http-result-url");
-const lazy_url_1 = (0, tslib_1.__importDefault)(require("lazy-url"));
+const lazy_url_1 = tslib_1.__importDefault(require("lazy-url"));
 let AbstractHttpClientWithJSDom = class AbstractHttpClientWithJSDom extends lib_1.AbstractHttpClient {
     constructor(...argv) {
         let [defaults] = argv;
@@ -101,19 +101,19 @@ let AbstractHttpClientWithJSDom = class AbstractHttpClientWithJSDom extends lib_
         };
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('/cdn-cgi/trace'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", Promise)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", Promise)
 ], AbstractHttpClientWithJSDom.prototype, "_plugin_cloudflare_trace", null);
-AbstractHttpClientWithJSDom = (0, tslib_1.__decorate)([
+AbstractHttpClientWithJSDom = tslib_1.__decorate([
     (0, decorators_1.RequestConfigs)({
         responseType: 'arraybuffer',
     }),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object])
+    tslib_1.__metadata("design:paramtypes", [Object])
 ], AbstractHttpClientWithJSDom);
 exports.AbstractHttpClientWithJSDom = AbstractHttpClientWithJSDom;
 exports.default = AbstractHttpClientWithJSDom;

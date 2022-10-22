@@ -4,6 +4,10 @@ exports.transformValue = exports.transformKey = exports._core = exports.LazyURLS
 const SymTransform = Symbol('transform');
 const SymOptions = Symbol('options');
 class LazyURLSearchParams extends URLSearchParams {
+    [SymTransform](value, options) {
+        options = options || this[SymOptions];
+        return transformValue(value, options);
+    }
     constructor(init, options) {
         if (!options) {
             if (init instanceof LazyURLSearchParams) {
@@ -18,10 +22,6 @@ class LazyURLSearchParams extends URLSearchParams {
         }
         super(_core(init, options));
         this[SymOptions] = options;
-    }
-    [SymTransform](value, options) {
-        options = options || this[SymOptions];
-        return transformValue(value, options);
     }
     /**
      * all null value will transform to ''

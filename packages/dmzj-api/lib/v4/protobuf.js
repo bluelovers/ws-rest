@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.protoLongToMilliseconds = exports.protoLongToNumber = exports.lookupTypeNovelDetailResponse = exports.lookupTypeNovelChapterResponse = exports.lookupTypeRoot = exports._lookupType = exports.EnumResponseTypeKey = void 0;
 const tslib_1 = require("tslib");
-const protobufjs_1 = (0, tslib_1.__importDefault)(require("protobufjs"));
-const dmzjproto_json_1 = (0, tslib_1.__importDefault)(require("./dmzjproto.json"));
+const protobufjs_1 = tslib_1.__importDefault(require("protobufjs"));
+const dmzjproto_json_1 = tslib_1.__importDefault(require("./dmzjproto.json"));
 var EnumResponseTypeKey;
 (function (EnumResponseTypeKey) {
     EnumResponseTypeKey["Root"] = "Root";
@@ -36,17 +36,17 @@ function _lookupType(path) {
 }
 exports._lookupType = _lookupType;
 function lookupTypeRoot() {
-    return _cacheGet("Root" /* Root */, () => {
+    return _cacheGet("Root" /* EnumResponseTypeKey.Root */, () => {
         return protobufjs_1.default.Root.fromJSON(dmzjproto_json_1.default);
     });
 }
 exports.lookupTypeRoot = lookupTypeRoot;
 function lookupTypeNovelChapterResponse() {
-    return _lookupType("NovelChapterResponse" /* NovelChapterResponse */);
+    return _lookupType("NovelChapterResponse" /* EnumResponseTypeKey.NovelChapterResponse */);
 }
 exports.lookupTypeNovelChapterResponse = lookupTypeNovelChapterResponse;
 function lookupTypeNovelDetailResponse() {
-    return _lookupType("NovelDetailResponse" /* NovelDetailResponse */);
+    return _lookupType("NovelDetailResponse" /* EnumResponseTypeKey.NovelDetailResponse */);
 }
 exports.lookupTypeNovelDetailResponse = lookupTypeNovelDetailResponse;
 function protoLongToNumber(long) {

@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.handleEntries = exports.newTitle = exports.newEntry = void 0;
 const tslib_1 = require("tslib");
 const util_1 = require("../../util");
-const sort_object_keys2_1 = (0, tslib_1.__importDefault)(require("sort-object-keys2"));
+const sort_object_keys2_1 = tslib_1.__importDefault(require("sort-object-keys2"));
 const convert_1 = require("../../util/convert");
 const array_hyper_unique_1 = require("array-hyper-unique");
 const chai_1 = require("chai");

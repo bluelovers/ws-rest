@@ -4,8 +4,8 @@ exports.getThreadsByFid = void 0;
 const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
 // @ts-ignore
-const deep_eql_1 = (0, tslib_1.__importDefault)(require("deep-eql"));
-const uniqBy_1 = (0, tslib_1.__importDefault)(require("lodash/uniqBy"));
+const deep_eql_1 = tslib_1.__importDefault(require("deep-eql"));
+const uniqBy_1 = tslib_1.__importDefault(require("lodash/uniqBy"));
 const util_1 = require("../util");
 function getThreadsByFid(api, threadOptions, extraOptions) {
     let cacheForum;

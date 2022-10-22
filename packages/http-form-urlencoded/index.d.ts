@@ -16,7 +16,7 @@ export interface IOptions {
     transform?: boolean;
     allowNull?: boolean;
 }
-export declare type IURLSearchParamsInit = any[][] | [any, any][] | Record<string, any> | string | URLSearchParams;
+export type IURLSearchParamsInit = any[][] | [any, any][] | Record<string, any> | string | URLSearchParams;
 export declare class LazyURLSearchParams extends URLSearchParams implements URLSearchParams {
     [SymOptions]: IOptions;
     [SymTransform](value: any, options?: IOptions): any;

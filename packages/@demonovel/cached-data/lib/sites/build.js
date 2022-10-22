@@ -3,10 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.build = exports.buildCore = void 0;
 const tslib_1 = require("tslib");
 const util_1 = require("./build/util");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
-const esjzone_1 = (0, tslib_1.__importDefault)(require("./build/esjzone"));
-const default_1 = (0, tslib_1.__importDefault)(require("./build/default"));
-const masiro_1 = (0, tslib_1.__importDefault)(require("./build/masiro"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
+const esjzone_1 = tslib_1.__importDefault(require("./build/esjzone"));
+const default_1 = tslib_1.__importDefault(require("./build/default"));
+const masiro_1 = tslib_1.__importDefault(require("./build/masiro"));
 const masiro_me_1 = require("./build/masiro_me");
 function buildCore(siteID, source) {
     let fn;

@@ -2,14 +2,14 @@ import type { ISitesKeys as ISitesKeys1, ISitesSourcePack as ISitesSourcePack1 }
 import type { ISitesKeys as ISitesKeys2, ISitesSourcePack as ISitesSourcePack2 } from './lib/demonovel/types';
 import { EnumSiteID, ICachedJSONRowPlus, IRecordCachedJSONRow } from '@demonovel/cached-data-types';
 export { EnumSiteID, ICachedJSONRowPlus, IRecordCachedJSONRow } from '@demonovel/cached-data-types';
-export declare type ISitesKeysAll = ISitesKeys1 | ISitesKeys2 | EnumSiteID;
+export type ISitesKeysAll = ISitesKeys1 | ISitesKeys2 | EnumSiteID;
 export interface ISitesSourcePackAll extends ISitesSourcePack1, ISitesSourcePack2 {
 }
-export declare type IArrayCachedJSONRow = (ICachedJSONRowPlus)[];
+export type IArrayCachedJSONRow = (ICachedJSONRowPlus)[];
 export interface IRecordSitesBuildAll extends Record<ISitesKeysAll, IRecordCachedJSONRow>, Record<string, IRecordCachedJSONRow>, Record<EnumSiteID, IRecordCachedJSONRow> {
 }
-export declare type IPresetTitlesRow = [string, string[]];
-export declare type IPresetTitles = IPresetTitlesRow[];
+export type IPresetTitlesRow = [string, string[]];
+export type IPresetTitles = IPresetTitlesRow[];
 export interface IPresetDate {
     [Date: string]: string[];
 }

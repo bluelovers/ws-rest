@@ -1,4 +1,5 @@
 /// <reference types="jquery" />
+/// <reference types="jquery" />
 import { IESJzoneChapter, IESJzoneChapterLocked, IESJzoneChapterOptions } from '../types';
 export declare function _handleChapterContentRoot($: JQueryStatic, argv: {
     novel_id: string | number;

@@ -2,19 +2,19 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DiscuzClient = void 0;
 const tslib_1 = require("tslib");
-const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib"));
+const lib_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib"));
 const decorators_1 = require("restful-decorator/lib/decorators");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("./util");
-const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
+const moment_1 = tslib_1.__importDefault(require("moment"));
 const types_1 = require("./types");
-const uniqBy_1 = (0, tslib_1.__importDefault)(require("lodash/uniqBy"));
-const html_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib/html"));
-const lazy_url_1 = (0, tslib_1.__importDefault)(require("lazy-url"));
+const uniqBy_1 = tslib_1.__importDefault(require("lodash/uniqBy"));
+const html_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib/html"));
+const lazy_url_1 = tslib_1.__importDefault(require("lazy-url"));
 const jquery_1 = require("./util/jquery");
 const lib_2 = require("@bluelovers/axios-util/lib");
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
-const crlf_normalize_1 = (0, tslib_1.__importDefault)(require("crlf-normalize"));
+const crlf_normalize_1 = tslib_1.__importDefault(require("crlf-normalize"));
 let DiscuzClient = class DiscuzClient extends lib_1.default {
     constructor(...argv) {
         let [defaults = {}] = argv;
@@ -547,7 +547,7 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
         return super._createJSDOM(html, config);
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('member.php?mod=logging&action=login&loginsubmit=yes&infloat=yes&lssubmit=yes'),
     decorators_1.FormUrlencoded,
     (0, decorators_1.RequestConfigs)({
@@ -558,25 +558,25 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
     (0, decorators_1.methodBuilder)({
         disableFallbackReturnValue: true,
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)({
         cookietime: 315360000,
     })),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], DiscuzClient.prototype, "loginByForm", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('forum.php?mod=forumdisplay&fid={fid}'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)({
         filter: 'dateline',
         orderby: 'dateline',
     })),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], DiscuzClient.prototype, "forum", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('home.php?mod=space&do=notice&view=system'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, decorators_1.RequestConfigs)({
@@ -585,11 +585,11 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
         },
     }),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", Object)
 ], DiscuzClient.prototype, "isLogin", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('home.php?mod=task'),
     (0, decorators_1.RequestConfigs)({
         cache: {
@@ -597,11 +597,11 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
         },
     }),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", Object)
 ], DiscuzClient.prototype, "taskListNew", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('home.php?mod=task&item=doing'),
     (0, decorators_1.RequestConfigs)({
         cache: {
@@ -609,11 +609,11 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
         },
     }),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", Object)
 ], DiscuzClient.prototype, "taskListDoing", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('home.php?mod=task&do=apply&id={task_id}'),
     (0, decorators_1.RequestConfigs)({
         cache: {
@@ -621,12 +621,12 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
         },
     }),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('task_id')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('task_id')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], DiscuzClient.prototype, "taskApply", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('home.php?mod=task&do=draw&id={task_id}'),
     (0, decorators_1.RequestConfigs)({
         cache: {
@@ -634,12 +634,12 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
         },
     }),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('task_id')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('task_id')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], DiscuzClient.prototype, "taskDraw", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('home.php?mod=task&do=delete&id={task_id}'),
     (0, decorators_1.RequestConfigs)({
         cache: {
@@ -647,12 +647,12 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
         },
     }),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('task_id')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('task_id')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], DiscuzClient.prototype, "taskDelete", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('home.php?mod=space&do=notice&view={view}'),
     (0, decorators_1.RequestConfigs)({
         cache: {
@@ -660,33 +660,33 @@ let DiscuzClient = class DiscuzClient extends lib_1.default {
         },
     }),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('view', 'system')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [String]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('view', 'system')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [String]),
+    tslib_1.__metadata("design:returntype", Object)
 ], DiscuzClient.prototype, "noticeView", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('forum.php?mod=viewthread&tid={tid}'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)({
         ordertype: 0,
     })),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], DiscuzClient.prototype, "thread", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('forum.php'),
     (0, jsdom_1.ReturnValueToJSDOM)({
         runScripts: 'dangerously',
     }),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", void 0)
 ], DiscuzClient.prototype, "jsInfo", null);
-DiscuzClient = (0, tslib_1.__decorate)([
+DiscuzClient = tslib_1.__decorate([
     (0, decorators_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
@@ -695,7 +695,7 @@ DiscuzClient = (0, tslib_1.__decorate)([
             }
         },
     }),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object])
+    tslib_1.__metadata("design:paramtypes", [Object])
 ], DiscuzClient);
 exports.DiscuzClient = DiscuzClient;
 exports.default = DiscuzClient;

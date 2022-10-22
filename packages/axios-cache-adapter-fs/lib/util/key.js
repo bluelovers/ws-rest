@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.axiosCacheAdapterKeyExtra = exports.defaultAxiosCacheAdapterKeyFixed = void 0;
 const tslib_1 = require("tslib");
-const md5_1 = (0, tslib_1.__importDefault)(require("md5"));
+const md5_1 = tslib_1.__importDefault(require("md5"));
 const axios_cache_adapter_1 = require("axios-cache-adapter");
 const lazy_url_1 = require("lazy-url");
 /**

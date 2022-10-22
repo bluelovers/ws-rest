@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.build = void 0;
 const tslib_1 = require("tslib");
-const build_1 = (0, tslib_1.__importDefault)(require("../demonovel/build"));
+const build_1 = tslib_1.__importDefault(require("../demonovel/build"));
 const build_2 = require("../sites/build");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 function build(source) {
     return bluebird_1.default.resolve(Object.keys(source))
         .reduce(async (a, siteID) => {

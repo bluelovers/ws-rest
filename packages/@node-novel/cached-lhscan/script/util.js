@@ -5,7 +5,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.trim = exports.getApiClient = exports.__root = exports.console = exports.consoleDebug = void 0;
 const tslib_1 = require("tslib");
-const index_1 = (0, tslib_1.__importDefault)(require("lhscan-api/lib/index"));
+const index_1 = tslib_1.__importDefault(require("lhscan-api/lib/index"));
 const lib_1 = require("@node-novel/site-cache-util/lib");
 Object.defineProperty(exports, "console", { enumerable: true, get: function () { return lib_1.console; } });
 Object.defineProperty(exports, "consoleDebug", { enumerable: true, get: function () { return lib_1.consoleDebug; } });

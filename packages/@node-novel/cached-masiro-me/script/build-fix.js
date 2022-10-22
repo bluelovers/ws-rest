@@ -8,7 +8,7 @@ const index_1 = require("@node-novel/site-cache-util/lib/index");
 const path_1 = require("path");
 const files_1 = require("./util/files");
 const fs_extra_1 = require("fs-extra");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("@bluelovers/fast-glob/bluebird"));
 const fs_1 = require("@node-novel/site-cache-util/lib/fs");
 const _sortBookFields_1 = require("masiro-me-api/lib/util/_sortBookFields");
 exports.default = (0, index_1.lazyRun)(async () => {

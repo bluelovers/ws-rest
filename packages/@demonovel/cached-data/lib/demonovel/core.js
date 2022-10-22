@@ -5,7 +5,7 @@ const tslib_1 = require("tslib");
 /**
  * Created by user on 2020/3/2.
  */
-const fetch_1 = (0, tslib_1.__importDefault)(require("../util/fetch"));
+const fetch_1 = tslib_1.__importDefault(require("../util/fetch"));
 const fs_1 = require("../util/fs");
 const types_1 = require("./types");
 function fetch() {

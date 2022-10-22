@@ -5,7 +5,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.expand = exports.parseRouterVars = void 0;
 const tslib_1 = require("tslib");
-const execall2_1 = (0, tslib_1.__importDefault)(require("execall2"));
+const execall2_1 = tslib_1.__importDefault(require("execall2"));
 // @ts-ignore
 const uri_template_lite_1 = require("uri-template-lite");
 /**

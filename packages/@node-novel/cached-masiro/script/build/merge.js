@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
-const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
+const files_1 = tslib_1.__importDefault(require("../util/files"));
+const bluebird_1 = tslib_1.__importDefault(require("@bluelovers/fast-glob/bluebird"));
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 exports.default = (0, index_1.lazyRun)(async () => {
     let data = await bluebird_1.default

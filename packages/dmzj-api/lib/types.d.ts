@@ -62,7 +62,7 @@ export declare const enum EnumWebSubscribeTypeID {
     ANIME = 3
 }
 export declare const DMZJ_NOVEL_TAGS: readonly ["侦探", "其它", "冒险", "励志", "历史", "后宫", "奇幻", "异界", "异能", "恐怖", "战争", "搞笑", "机战", "校园", "格斗", "治愈", "爱情", "百合", "神鬼", "科幻", "穿越", "都市", "魔法"];
-export declare type IDmzjNovelTags = Pick<typeof DMZJ_NOVEL_TAGS, number>[number];
+export type IDmzjNovelTags = Pick<typeof DMZJ_NOVEL_TAGS, number>[number];
 export interface IDmzjClientNovelRecentUpdateAll {
     from: number;
     to: number;

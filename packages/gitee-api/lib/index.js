@@ -4,30 +4,23 @@ exports.GiteeV5Client = exports.GITEE_SCOPES = void 0;
 const tslib_1 = require("tslib");
 const lib_1 = require("restful-decorator/lib");
 const decorators_1 = require("restful-decorator/lib/decorators");
-const lazy_url_1 = (0, tslib_1.__importDefault)(require("lazy-url"));
+const lazy_url_1 = tslib_1.__importDefault(require("lazy-url"));
 const lodash_1 = require("lodash");
 const headers_1 = require("restful-decorator/lib/decorators/headers");
 const error_1 = require("restful-decorator/lib/wrap/error");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("./util");
 const decorators_2 = require("./decorators");
 // @ts-ignore
-const deep_eql_1 = (0, tslib_1.__importDefault)(require("deep-eql"));
+const deep_eql_1 = tslib_1.__importDefault(require("deep-eql"));
 const SymApiOptions = Symbol('options');
 exports.GITEE_SCOPES = Object.freeze('user_info projects pull_requests issues notes keys hook groups gists enterprises'.split(' '));
-let GiteeV5Client = 
-/**
- * @see https://gitee.com/api/v5/oauth_doc
- * @link https://gitee.com/api/v5/swagger
- *
- * @todo 好一點的方法命名
- */
-class GiteeV5Client extends lib_1.AbstractHttpClient {
-    constructor(options) {
-        super(options.defaults, options);
-    }
+let GiteeV5Client = class GiteeV5Client extends lib_1.AbstractHttpClient {
     static allScope() {
         return exports.GITEE_SCOPES.slice();
+    }
+    constructor(options) {
+        super(options.defaults, options);
     }
     _init(defaults, options) {
         //let { scope = 'user_info issues notes', clientId, clientSecret, state = 'all' } = options || {};
@@ -43,7 +36,7 @@ class GiteeV5Client extends lib_1.AbstractHttpClient {
         return defaults;
     }
     setAccessToken(accessToken) {
-        this.$http.defaults.headers.Authorization = (0, headers_1._makeAuthorizationValue)(accessToken, "token" /* Token */);
+        this.$http.defaults.headers.Authorization = (0, headers_1._makeAuthorizationValue)(accessToken, "token" /* EnumAuthorizationType.Token */);
         return this;
     }
     requestAccessToken(code, redirect_uri, redirect_uri2) {
@@ -376,17 +369,17 @@ class GiteeV5Client extends lib_1.AbstractHttpClient {
         });
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('/oauth/token'),
     decorators_1.FormUrlencoded,
     (0, decorators_1.BodyData)({
         grant_type: 'authorization_code',
     }),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [String, Object, Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [String, Object, Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "requestAccessToken", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('/oauth/token'),
     decorators_1.FormUrlencoded,
     (0, decorators_1.BodyData)({
@@ -395,12 +388,12 @@ class GiteeV5Client extends lib_1.AbstractHttpClient {
     (0, decorators_1.methodBuilder)({
         returnData: true,
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamData)('refresh_token')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [String]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamData)('refresh_token')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [String]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "refreshAccessToken", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('/oauth/token'),
     decorators_1.FormUrlencoded,
     (0, decorators_1.BodyData)({
@@ -418,32 +411,36 @@ class GiteeV5Client extends lib_1.AbstractHttpClient {
     }, {
         returnData: true,
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "oauthTokenByPassword", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('/api/v5/repos/{owner}/{repo}/contents{/targetPath}'),
     (0, decorators_1.methodBuilder)({
         returnData: true,
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object, Boolean]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object, Boolean]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "repoContents", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('repos/{owner}/{repo}/git/blobs/{sha}'),
     (0, decorators_1.methodBuilder)({
         returnData: true,
-    }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object, Boolean]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    })
+    /**
+     * 获取文件Blob
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object, Boolean]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "repoContentsBlobs", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('repos/{owner}/{repo}/contents{targetPath}'),
     decorators_1.FormUrlencoded,
     (0, decorators_1.TransformRequest)(function base64(data) {
@@ -454,12 +451,12 @@ class GiteeV5Client extends lib_1.AbstractHttpClient {
     }),
     (0, decorators_1.methodBuilder)(),
     (0, decorators_2.CatchResponseDataError)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", bluebird_1.default)
 ], GiteeV5Client.prototype, "repoContentsCreate", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.PUT)('repos/{owner}/{repo}/contents/{targetPath}'),
     decorators_1.FormUrlencoded,
     (0, decorators_1.TransformRequest)(function base64(data) {
@@ -474,71 +471,91 @@ class GiteeV5Client extends lib_1.AbstractHttpClient {
     (0, decorators_1.CatchError)(function (e) {
         return bluebird_1.default.reject((0, error_1.mergeAxiosErrorWithResponseData)(e));
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", bluebird_1.default)
 ], GiteeV5Client.prototype, "repoContentsUpdate", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('user/keys'),
     (0, decorators_1.methodBuilder)({
         returnData: true,
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamData)('page')),
-    (0, tslib_1.__param)(1, (0, decorators_1.ParamData)('per_page')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Number, Number]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamData)('page')),
+    tslib_1.__param(1, (0, decorators_1.ParamData)('per_page')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Number, Number]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "userKeys", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('repos/{owner}/{repo}/comments'),
-    (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    (0, decorators_1.methodBuilder)()
+    /**
+     * 获取仓库的Commit评论
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "repoCommitCommentsAll", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('repos/{owner}/{repo}/commits/{ref}/comments'),
-    (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    (0, decorators_1.methodBuilder)()
+    /**
+     * 获取单个Commit的评论
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "repoCommitComments", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('repos/{owner}/{repo}/comments/{id}'),
-    (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    (0, decorators_1.methodBuilder)()
+    /**
+     * 获取仓库的某条Commit评论
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "repoCommitCommentByID", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('repos/{owner}/{repo}'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "repoInfo", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('repos/{owner}/{repo}/forks'),
-    (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    (0, decorators_1.methodBuilder)()
+    /**
+     * 查看仓库的Forks
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "repoForks", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('repos/{owner}/{repo}/forks'),
-    (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    (0, decorators_1.methodBuilder)()
+    /**
+     * Fork一个仓库 (原始 api)
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "_forkRepo", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('repos/{owner}/{repo}/collaborators/{username}'),
     (0, decorators_1.methodBuilder)(),
     (0, decorators_1.CatchError)(function (e) {
@@ -546,29 +563,37 @@ class GiteeV5Client extends lib_1.AbstractHttpClient {
             return false;
         }
         return bluebird_1.default.reject(e);
-    }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    })
+    /**
+     * 判断用户是否为仓库成员
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "isRepoCollaborators", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('search/issues'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "searchIssues", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('repos/{owner}/{repo}/compare/{base}...{head}'),
-    (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    (0, decorators_1.methodBuilder)()
+    /**
+     * 两个Commits之间对比的版本差异
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "compareCommits", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('repos/{owner}/{repo}/pulls'),
     (0, decorators_1.methodBuilder)(),
     (0, decorators_1.CatchError)(function (e) {
@@ -577,12 +602,12 @@ class GiteeV5Client extends lib_1.AbstractHttpClient {
         }
         return bluebird_1.default.reject(e);
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "pullRequestCreate", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('repos/{owner}/{repo}/branches/{branch}')
     // @ts-ignore
     ,
@@ -596,64 +621,80 @@ class GiteeV5Client extends lib_1.AbstractHttpClient {
     (0, decorators_1.methodBuilder)({
         autoRequest: false,
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)({
         branch: 'master',
     })),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "repoBranchInfo", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('repos/{owner}/{repo}/branches{/branch}'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "repoBranchList", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('repos/{owner}/{repo}/branches'),
     (0, decorators_1.methodBuilder)(),
-    (0, decorators_2.CatchResponseDataError)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    (0, decorators_2.CatchResponseDataError)()
+    /**
+     * 建立一個分支 (允許將 refs 設定為他人的 repo 下的 commit)
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "repoBranchCreate", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('repos/{owner}/{repo}/branches'),
     (0, decorators_1.methodBuilder)({
         autoRequest: false,
-    }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    })
+    /**
+     * 建立一個來自他人 repo 分支的分支
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object, Object]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], GiteeV5Client.prototype, "repoBranchCreateByOtherRepo", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('user'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "userInfo", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('users/{username}/repos'),
-    (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    (0, decorators_1.methodBuilder)()
+    /**
+     * 获取某个用户的公开仓库
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "usersUsernameRepos", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('users/{username}/repos'),
-    (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    (0, decorators_1.methodBuilder)()
+    /**
+     * 获取一个组织的仓库
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "orgsRepos", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('user/repos'),
     (0, decorators_1.methodBuilder)(),
     (0, decorators_1.HandleParamMetadata)((info) => {
@@ -664,13 +705,17 @@ class GiteeV5Client extends lib_1.AbstractHttpClient {
             }
         }
         return info;
-    }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapQuery)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    })
+    /**
+     * 列出授权用户的所有仓库
+     */
+    ,
+    tslib_1.__param(0, (0, decorators_1.ParamMapQuery)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "myRepoList", null);
-GiteeV5Client = (0, tslib_1.__decorate)([
+GiteeV5Client = tslib_1.__decorate([
     (0, decorators_1.BaseUrl)('https://gitee.com/api/v5/'),
     (0, decorators_1.Headers)({
         'Accept': 'application/json',
@@ -690,7 +735,7 @@ GiteeV5Client = (0, tslib_1.__decorate)([
      * @todo 好一點的方法命名
      */
     ,
-    (0, tslib_1.__metadata)("design:paramtypes", [Object])
+    tslib_1.__metadata("design:paramtypes", [Object])
 ], GiteeV5Client);
 exports.GiteeV5Client = GiteeV5Client;
 function _hasWindow() {

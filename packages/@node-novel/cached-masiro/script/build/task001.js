@@ -3,14 +3,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const util_1 = require("../util");
 const fs_extra_1 = require("fs-extra");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const moment_1 = require("@node-novel/site-cache-util/lib/moment");
-const files_1 = (0, tslib_1.__importStar)(require("../util/files"));
+const files_1 = tslib_1.__importStar(require("../util/files"));
 const lib_1 = require("@bluelovers/axios-util/lib");
 const fs_1 = require("@node-novel/site-cache-util/lib/fs");
 const util_2 = require("discuz-api/lib/util");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
-const getThreads_1 = (0, tslib_1.__importDefault)(require("../util/getThreads"));
+const getThreads_1 = tslib_1.__importDefault(require("../util/getThreads"));
 exports.default = (0, index_1.lazyRun)(async () => {
     const { api, saveCache } = await (0, util_1.getApiClient)();
     let listCache = await (0, fs_extra_1.readJSON)(files_1.default.task001)

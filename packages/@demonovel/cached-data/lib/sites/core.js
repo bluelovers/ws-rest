@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.fetchFile = exports.fetch = void 0;
 const tslib_1 = require("tslib");
-const fetch_1 = (0, tslib_1.__importDefault)(require("../util/fetch"));
+const fetch_1 = tslib_1.__importDefault(require("../util/fetch"));
 const fs_1 = require("../util/fs");
 const util_1 = require("./util");
 function fetch(siteID) {

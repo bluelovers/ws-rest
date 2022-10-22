@@ -5,8 +5,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LazyCookieJar = exports.LazyCookie = void 0;
 const tslib_1 = require("tslib");
-const tough_cookie_1 = (0, tslib_1.__importStar)(require("tough-cookie"));
-const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
+const tough_cookie_1 = tslib_1.__importStar(require("tough-cookie"));
+const moment_1 = tslib_1.__importDefault(require("moment"));
 class LazyCookie extends tough_cookie_1.default.Cookie {
     constructor(prop = {}, ...argv) {
         if (!prop.expires || prop.expires === -1) {

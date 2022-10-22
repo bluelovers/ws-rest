@@ -7,8 +7,8 @@ import { IPropertyKey } from 'reflect-metadata-util';
 import { IAxiosCacheAdapterOptions } from 'axios-cache-adapter';
 import { FollowResponse } from 'follow-redirects';
 import { ITSOverwrite } from 'ts-type/lib/type/record';
-export declare type IBluebird<T> = Bluebird<T>;
-export declare type IHttpheadersValues = string | number | boolean | string[];
+export type IBluebird<T> = Bluebird<T>;
+export type IHttpheadersValues = string | number | boolean | string[];
 export interface IHttpheaders extends Record<string | keyof IResponseHeaders, IHttpheadersValues> {
     Accepts?: 'application/json' | string | string[];
     Referer?: string;
@@ -19,9 +19,9 @@ export interface IHttpheaders extends Record<string | keyof IResponseHeaders, IH
 }
 export interface IAxiosDefaultsHeaders extends Partial<Record<'common' | 'delete' | 'get' | 'post' | 'put' | 'patch', IHttpheaders>> {
 }
-export declare type IUnpackAxiosResponse<T> = T extends PromiseLike<AxiosResponse<infer U>> ? U : T extends AxiosResponse<infer U> ? U : never;
-export declare type IBluebirdAxiosResponse<T = any> = IBluebird<AxiosResponse<T>>;
-export declare type IUnpackedPromiseLikeReturnType<T extends (...args: any) => any> = ITSUnpackedPromiseLike<ReturnType<T>>;
+export type IUnpackAxiosResponse<T> = T extends PromiseLike<AxiosResponse<infer U>> ? U : T extends AxiosResponse<infer U> ? U : never;
+export type IBluebirdAxiosResponse<T = any> = IBluebird<AxiosResponse<T>>;
+export type IUnpackedPromiseLikeReturnType<T extends (...args: any) => any> = ITSUnpackedPromiseLike<ReturnType<T>>;
 export interface IAxiosAdapterWarpper {
     (config: AxiosRequestConfig, returnValue: AxiosResponse<any>): AxiosPromise<any>;
 }

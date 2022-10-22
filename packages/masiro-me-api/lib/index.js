@@ -5,11 +5,11 @@ const tslib_1 = require("tslib");
 const http_1 = require("restful-decorator/lib/decorators/http");
 const headers_1 = require("restful-decorator/lib/decorators/headers");
 const cache_1 = require("restful-decorator/lib/decorators/config/cache");
-const index_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib/index"));
+const index_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib/index"));
 const method_1 = require("restful-decorator/lib/decorators/method");
 const abstract_1 = require("restful-decorator/lib/wrap/abstract");
 const body_1 = require("restful-decorator/lib/decorators/body");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const form_1 = require("restful-decorator/lib/decorators/form");
 const _checkLogin_1 = require("./util/_checkLogin");
@@ -110,7 +110,7 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
         });
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('admin/auth/login'),
     (0, index_2.RequestConfigs)({
         cache: {
@@ -123,11 +123,11 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     (0, abstract_1.methodBuilder)({
         disableFallbackReturnValue: true,
     }),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], MasiroMeClient.prototype, "loginByForm", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.POST)('admin/auth/login'),
     (0, headers_1.Headers)({
         Referer: 'https://masiro.me/admin/auth/login',
@@ -136,14 +136,14 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     (0, abstract_1.methodBuilder)({
         disableFallbackReturnValue: true,
     }),
-    (0, tslib_1.__param)(0, (0, body_1.ParamMapAuto)({
+    tslib_1.__param(0, (0, body_1.ParamMapAuto)({
         remember: 1,
     })),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], MasiroMeClient.prototype, "_loginByForm", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('/'),
     (0, index_2.RequestConfigs)({
         cache: {
@@ -156,43 +156,43 @@ let MasiroMeClient = class MasiroMeClient extends index_1.default {
     (0, abstract_1.methodBuilder)({
         disableFallbackReturnValue: true,
     }),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", bluebird_1.default)
 ], MasiroMeClient.prototype, "checkLogin", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('admin/novelView?novel_id={novel_id}'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, abstract_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, body_1.ParamPath)('novel_id')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+    tslib_1.__param(0, (0, body_1.ParamPath)('novel_id')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", bluebird_1.default)
 ], MasiroMeClient.prototype, "bookInfo", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('admin/novelReading?cid={chapter_id}'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, abstract_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, body_1.ParamPath)('chapter_id')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
-    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+    tslib_1.__param(0, (0, body_1.ParamPath)('chapter_id')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object, Object]),
+    tslib_1.__metadata("design:returntype", bluebird_1.default)
 ], MasiroMeClient.prototype, "getChapter", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('admin/loadMoreNovels?page={page}&order={order}'),
     (0, index_2.RequestConfigs)({
         responseType: 'json',
     }),
     (0, abstract_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, body_1.ParamPath)('page', 1)),
-    (0, tslib_1.__param)(1, (0, body_1.ParamMapAuto)({
+    tslib_1.__param(0, (0, body_1.ParamPath)('page', 1)),
+    tslib_1.__param(1, (0, body_1.ParamMapAuto)({
         order: 1,
     })),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Number, Object]),
-    (0, tslib_1.__metadata)("design:returntype", bluebird_1.default)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Number, Object]),
+    tslib_1.__metadata("design:returntype", bluebird_1.default)
 ], MasiroMeClient.prototype, "recentUpdate", null);
-MasiroMeClient = (0, tslib_1.__decorate)([
+MasiroMeClient = tslib_1.__decorate([
     (0, http_1.BaseUrl)('https://masiro.me'),
     (0, headers_1.Headers)({
         Referer: 'https://masiro.me/admin',

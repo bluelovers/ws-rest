@@ -2,12 +2,12 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sortDmzjNovelInfo = exports.sortDmzjNovelInfoChapters = exports.sortDmzjNovelInfoVolumes = exports.isDmzjNovelInfoFullWithChapters = exports.isDmzjNovelInfoFull = exports.trimUnsafe = exports.fixDmzjNovelInfo = exports.fixDmzjNovelTags = exports.buildVersion = exports.removeZeroWidth = void 0;
 const tslib_1 = require("tslib");
-const cloneDeep_1 = (0, tslib_1.__importDefault)(require("lodash/cloneDeep"));
+const cloneDeep_1 = tslib_1.__importDefault(require("lodash/cloneDeep"));
 const array_hyper_unique_1 = require("array-hyper-unique");
 const crlf_normalize_1 = require("crlf-normalize");
 const zero_width_1 = require("zero-width");
 Object.defineProperty(exports, "removeZeroWidth", { enumerable: true, get: function () { return zero_width_1.removeZeroWidth; } });
-const sort_object_keys2_1 = (0, tslib_1.__importDefault)(require("sort-object-keys2"));
+const sort_object_keys2_1 = tslib_1.__importDefault(require("sort-object-keys2"));
 function buildVersion() {
     return {
         channel: "Android",

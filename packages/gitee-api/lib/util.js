@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.valueToArray = exports.isForkFrom = exports.toBase64 = void 0;
 const tslib_1 = require("tslib");
 // @ts-ignore
-const is_base64_1 = (0, tslib_1.__importDefault)(require("is-base64"));
+const is_base64_1 = tslib_1.__importDefault(require("is-base64"));
 function toBase64(content) {
     if (typeof content !== 'string' || !(0, is_base64_1.default)(content)) {
         // @ts-ignore

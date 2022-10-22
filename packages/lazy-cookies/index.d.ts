@@ -13,7 +13,7 @@ export interface ILazyCookieProperties extends Omit<IToughCookieProperties, 'exp
     creation?: Date | moment.Moment;
     lastAccessed?: Date | moment.Moment;
 }
-export declare type ILazyCookiePropertiesInput = ITSPickExtra<ILazyCookieProperties, 'key'>;
+export type ILazyCookiePropertiesInput = ITSPickExtra<ILazyCookieProperties, 'key'>;
 export interface IToughCookieProperties {
     key?: string;
     value?: string;
@@ -30,10 +30,10 @@ export interface IToughCookieProperties {
     pathIsDefault?: boolean;
     lastAccessed?: Date;
 }
-export declare type ICookiesInstance = toughCookie.Cookie | LazyCookie;
-export declare type ICookiesValue = string | ILazyCookiePropertiesInput | ICookiesInstance;
-export declare type ICookiesValueRecord<T extends string> = Record<string | T, ICookiesValue>;
-export declare type ICookiesValueInput<T extends string> = ICookiesValueRecord<T> | ICookiesValue[];
+export type ICookiesInstance = toughCookie.Cookie | LazyCookie;
+export type ICookiesValue = string | ILazyCookiePropertiesInput | ICookiesInstance;
+export type ICookiesValueRecord<T extends string> = Record<string | T, ICookiesValue>;
+export type ICookiesValueInput<T extends string> = ICookiesValueRecord<T> | ICookiesValue[];
 export declare class LazyCookieJar extends toughCookie.CookieJar {
     enableLooseMode?: boolean;
     rejectPublicSuffixes?: boolean;

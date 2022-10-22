@@ -1,5 +1,5 @@
 import { ITSResolvable } from 'ts-type/lib/generic';
-export declare type INumberValue = number | string;
+export type INumberValue = number | string;
 export declare enum EnumWriting {
     /**
      * 連載中
@@ -37,7 +37,7 @@ export interface IWordsObject {
     min?: number;
     max?: number;
 }
-export declare type IWordsArray = number[];
+export type IWordsArray = number[];
 interface INovelStarRecentUpdateOptionsBase {
     theme?: INumberValue;
     category?: INumberValue;

@@ -5,8 +5,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.stringify = exports.parseFile = exports.parse = void 0;
 const tslib_1 = require("tslib");
-const crlf_normalize_1 = (0, tslib_1.__importStar)(require("crlf-normalize"));
-const index_1 = (0, tslib_1.__importDefault)(require("../../index"));
+const crlf_normalize_1 = tslib_1.__importStar(require("crlf-normalize"));
+const index_1 = tslib_1.__importDefault(require("../../index"));
 function parse(line) {
     line = line.trim();
     if (!line.startsWith('#') && line.length) {

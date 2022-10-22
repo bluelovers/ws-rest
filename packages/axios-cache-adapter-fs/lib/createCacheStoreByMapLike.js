@@ -6,35 +6,35 @@ const tslib_1 = require("tslib");
 class CacheStoreByMapLike {
     constructor(map) {
         _CacheStoreByMapLike_map.set(this, void 0);
-        (0, tslib_1.__classPrivateFieldSet)(this, _CacheStoreByMapLike_map, map, "f");
+        tslib_1.__classPrivateFieldSet(this, _CacheStoreByMapLike_map, map, "f");
     }
     async getItem(key) {
-        return (0, tslib_1.__classPrivateFieldGet)(this, _CacheStoreByMapLike_map, "f").get(key);
+        return tslib_1.__classPrivateFieldGet(this, _CacheStoreByMapLike_map, "f").get(key);
     }
     async setItem(key, value) {
-        await (0, tslib_1.__classPrivateFieldGet)(this, _CacheStoreByMapLike_map, "f").set(key, value);
-        return (0, tslib_1.__classPrivateFieldGet)(this, _CacheStoreByMapLike_map, "f").get(key);
+        await tslib_1.__classPrivateFieldGet(this, _CacheStoreByMapLike_map, "f").set(key, value);
+        return tslib_1.__classPrivateFieldGet(this, _CacheStoreByMapLike_map, "f").get(key);
     }
     async removeItem(key) {
-        await (0, tslib_1.__classPrivateFieldGet)(this, _CacheStoreByMapLike_map, "f").delete(key);
+        await tslib_1.__classPrivateFieldGet(this, _CacheStoreByMapLike_map, "f").delete(key);
         return;
     }
     async clear() {
-        await (0, tslib_1.__classPrivateFieldGet)(this, _CacheStoreByMapLike_map, "f").clear();
+        await tslib_1.__classPrivateFieldGet(this, _CacheStoreByMapLike_map, "f").clear();
         return;
     }
     async length() {
-        return (0, tslib_1.__classPrivateFieldGet)(this, _CacheStoreByMapLike_map, "f").size;
+        return tslib_1.__classPrivateFieldGet(this, _CacheStoreByMapLike_map, "f").size;
     }
     async iterate(fn) {
-        const entries = (0, tslib_1.__classPrivateFieldGet)(this, _CacheStoreByMapLike_map, "f").entries();
+        const entries = tslib_1.__classPrivateFieldGet(this, _CacheStoreByMapLike_map, "f").entries();
         for await (let [key, value] of entries) {
             await fn(value, key);
         }
         return entries;
     }
     get store() {
-        return Object.fromEntries((0, tslib_1.__classPrivateFieldGet)(this, _CacheStoreByMapLike_map, "f").entries());
+        return Object.fromEntries(tslib_1.__classPrivateFieldGet(this, _CacheStoreByMapLike_map, "f").entries());
     }
 }
 exports.CacheStoreByMapLike = CacheStoreByMapLike;

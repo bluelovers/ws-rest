@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports._getBookChapters = void 0;
 const tslib_1 = require("tslib");
 const trim_1 = require("./trim");
-const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
+const moment_1 = tslib_1.__importDefault(require("moment"));
 const _parseUrlInfo_1 = require("./_parseUrlInfo");
 function _getBookChapters($) {
     var _b;

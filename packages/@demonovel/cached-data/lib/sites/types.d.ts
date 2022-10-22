@@ -12,7 +12,7 @@ export declare const id_packs_map: {
     wenku8: string;
     masiro_me: string;
 };
-export declare type ISitesKeys = keyof typeof id_packs_map;
+export type ISitesKeys = keyof typeof id_packs_map;
 export interface ISitesSourceType {
     dmzj: IDmzjNovelInfoWithChapters;
     esjzone: IESJzoneRecentUpdateRowBook;
@@ -31,5 +31,5 @@ export declare const BASE_URL_GITHUB = "https://github.com/bluelovers/ws-rest/ra
 export interface IFetchParams {
     local?: boolean;
 }
-export declare type ICachedJSONRowInput = ITSRequireAtLeastOne<Partial<ICachedJSONRowPlus>, "id" | "title" | "novelID">;
-export declare type IEntryHandler = (siteID: any, id: string, data: any) => ICachedJSONRowPlus;
+export type ICachedJSONRowInput = ITSRequireAtLeastOne<Partial<ICachedJSONRowPlus>, "id" | "title" | "novelID">;
+export type IEntryHandler = (siteID: any, id: string, data: any) => ICachedJSONRowPlus;

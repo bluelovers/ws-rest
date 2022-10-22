@@ -43,8 +43,8 @@ export interface IMangaChapter {
 export interface IMangaReadData extends IMangaChapter {
     images: string[];
 }
-export declare type IMangaListOptionsSort = 'name' | 'views' | 'last_update';
-export declare type IMangaListOptionsSortType = 'ASC' | 'DESC';
+export type IMangaListOptionsSort = 'name' | 'views' | 'last_update';
+export type IMangaListOptionsSortType = 'ASC' | 'DESC';
 export declare enum EnumMangaListStatus {
     Complete = 1,
     OnGoing = 2,
@@ -78,6 +78,6 @@ export interface IMangaDataMetaPop extends Pick<IMangaData, 'title' | 'other_nam
 export interface IMangaListRowWithExtra extends IDataWithLastUpdate<IMangaListRow> {
     other_names?: string;
 }
-export declare type IDataWithLastUpdate<T extends Record<any, any>, U extends Record<any, any> = {}> = T & {
+export type IDataWithLastUpdate<T extends Record<any, any>, U extends Record<any, any> = {}> = T & {
     last_update?: number;
 } & U;

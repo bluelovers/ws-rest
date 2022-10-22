@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports._jqForumThreadTypes = exports._jqForumThreads = exports._jqForumStickThreads = exports._checkLoginUsername = exports._checkLoginByJQuery = void 0;
 const tslib_1 = require("tslib");
-const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
-const lazy_url_1 = (0, tslib_1.__importDefault)(require("lazy-url"));
+const moment_1 = tslib_1.__importDefault(require("moment"));
+const lazy_url_1 = tslib_1.__importDefault(require("lazy-url"));
 const util_1 = require("../util");
 /**
  * Created by user on 2019/12/17.

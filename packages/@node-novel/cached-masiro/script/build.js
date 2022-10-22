@@ -7,7 +7,7 @@ const tslib_1 = require("tslib");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 const main_1 = require("./util/main");
 const util_1 = require("./util");
-const bluebird_cancellation_1 = (0, tslib_1.__importDefault)(require("bluebird-cancellation"));
+const bluebird_cancellation_1 = tslib_1.__importDefault(require("bluebird-cancellation"));
 exports.default = (0, index_1.lazyRun)(async () => {
     let bool = await bluebird_cancellation_1.default.resolve((0, util_1.getApiClient)())
         .catch(e => {

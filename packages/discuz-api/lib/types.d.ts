@@ -1,8 +1,9 @@
 /// <reference types="jquery" />
+/// <reference types="jquery" />
 import { ITSPickExtra } from 'ts-type';
 import { ITSRequiredPick, ITSPartialPick } from 'ts-type/lib/type/record';
 import { IJSDOM } from 'jsdom-extra';
-export declare type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;
+export type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;
 export interface IDiscuzForumMini {
     fid: string;
     forum_name: string;
@@ -38,7 +39,7 @@ export interface IDiscuzForumThread {
     author: string;
     authorid: string;
 }
-export declare type ITSPickExtra2<T, PK extends keyof T, RK extends Exclude<keyof T, PK> = Exclude<keyof T, PK>> = ITSRequiredPick<T, RK> & ITSPartialPick<T, PK>;
+export type ITSPickExtra2<T, PK extends keyof T, RK extends Exclude<keyof T, PK> = Exclude<keyof T, PK>> = ITSRequiredPick<T, RK> & ITSPartialPick<T, PK>;
 export interface IDiscuzThread extends ITSPickExtra<IDiscuzForumThread, 'tid'> {
     thread_options?: IDzParamThreadOptions;
     pages: number;
@@ -84,8 +85,8 @@ export interface IDiscuzPost {
         exixts: boolean;
     };
 }
-export declare type IDzParamForumdisplayFilter = 'dateline' | 'lastpost' | string;
-export declare type IDzParamForumdisplayOrderby = 'dateline' | 'lastpost' | string;
+export type IDzParamForumdisplayFilter = 'dateline' | 'lastpost' | string;
+export type IDzParamForumdisplayOrderby = 'dateline' | 'lastpost' | string;
 export interface IDzParamForumdisplay {
     fid: number | string;
     filter?: IDzParamForumdisplayFilter;
@@ -116,7 +117,7 @@ export interface IDiscuzTaskList {
      */
     doing?: IDiscuzTaskRowDoing[];
 }
-export declare type IDzParamNoticeView = 'system' | 'app' | 'interactive' | 'mypost';
+export type IDzParamNoticeView = 'system' | 'app' | 'interactive' | 'mypost';
 export interface IDzWindow {
     STATICURL: string;
     STYLEID: string;
@@ -134,4 +135,4 @@ export interface IDzWindow {
     CSSPATH: string;
     DYNAMICURL: string;
 }
-export declare type IJSDOM_WITH<T> = IJSDOM & T;
+export type IJSDOM_WITH<T> = IJSDOM & T;

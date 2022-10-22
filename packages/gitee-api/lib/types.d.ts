@@ -2,14 +2,14 @@
  * Created by user on 2019/6/10.
  */
 /// <reference types="node" />
-export declare type IGrantType = 'authorization_code' | 'password' | 'client_credentials' | 'refresh_token';
+export type IGrantType = 'authorization_code' | 'password' | 'client_credentials' | 'refresh_token';
 import { ITSValueOrArray } from 'ts-type';
-export declare type IRepoLanguage = string | 'JavaScript' | 'TypeScript';
-export declare type IUserType = string | 'User';
-export declare type IIssuesState = 'open' | 'closed' | 'rejected';
-export declare type IBranchName<T extends string = string> = string | 'master' | 'dev' | T;
-export declare type ILicenseName = string | 'MIT';
-export declare type IDirection = 'asc' | 'desc';
+export type IRepoLanguage = string | 'JavaScript' | 'TypeScript';
+export type IUserType = string | 'User';
+export type IIssuesState = 'open' | 'closed' | 'rejected';
+export type IBranchName<T extends string = string> = string | 'master' | 'dev' | T;
+export type ILicenseName = string | 'MIT';
+export type IDirection = 'asc' | 'desc';
 export interface IError001 {
     error: string | 'invalid_grant' | 'invalid_client';
     error_description: string;
@@ -283,7 +283,7 @@ export interface IUserInfo extends ICommitUserInfo {
     "created_at": string;
     "updated_at": string;
 }
-export declare type IRepoList = IRepoInfo2[];
+export type IRepoList = IRepoInfo2[];
 export interface IOptionsPages {
     page?: number;
     per_page?: number;

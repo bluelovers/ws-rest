@@ -5,9 +5,9 @@ const tslib_1 = require("tslib");
 const axios_cache_adapter_1 = require("axios-cache-adapter");
 Object.defineProperty(exports, "setupCache", { enumerable: true, get: function () { return axios_cache_adapter_1.setupCache; } });
 const lodash_1 = require("lodash");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const createCacheStoreByMapLike_1 = require("axios-cache-adapter-util/lib/createCacheStoreByMapLike");
-const lru_cache2_1 = (0, tslib_1.__importDefault)(require("lru-cache2"));
+const lru_cache2_1 = tslib_1.__importDefault(require("lru-cache2"));
 const key_1 = require("axios-cache-adapter-util/lib/util/key");
 function setupCacheConfig(configInput) {
     var _a;

@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const workspaces_config_1 = require("workspaces-config");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
-const bluebird_2 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
-const upath2_1 = (0, tslib_1.__importDefault)(require("upath2"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
+const bluebird_2 = tslib_1.__importDefault(require("@bluelovers/fast-glob/bluebird"));
+const upath2_1 = tslib_1.__importDefault(require("upath2"));
 const fs_extra_1 = require("fs-extra");
 console.log((0, workspaces_config_1.parseStaticPackagesPaths)((0, workspaces_config_1.getConfig)()));
 bluebird_2.default

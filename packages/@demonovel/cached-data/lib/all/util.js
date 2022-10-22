@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.doTitle = void 0;
 const tslib_1 = require("tslib");
-const zhRegExp_1 = (0, tslib_1.__importDefault)(require("../util/zhRegExp"));
-const slugify_1 = (0, tslib_1.__importDefault)(require("../util/slugify"));
+const zhRegExp_1 = tslib_1.__importDefault(require("../util/zhRegExp"));
+const slugify_1 = tslib_1.__importDefault(require("../util/slugify"));
 const r1 = new zhRegExp_1.default(/の|と/ug);
 const reList02 = [
     {

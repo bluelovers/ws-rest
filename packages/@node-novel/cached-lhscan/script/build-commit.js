@@ -5,7 +5,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const diff_staged_1 = require("@git-lazy/diff-staged");
-const match_1 = (0, tslib_1.__importDefault)(require("@git-lazy/util/util/match"));
+const match_1 = tslib_1.__importDefault(require("@git-lazy/util/util/match"));
 const path_1 = require("path");
 const git_1 = require("@git-lazy/util/spawn/git");
 const util_1 = require("./util");

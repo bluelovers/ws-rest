@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.lazyRun = exports.lazyImport = exports.consoleDebug = exports.console = exports.path = void 0;
 const tslib_1 = require("tslib");
-const upath2_1 = (0, tslib_1.__importDefault)(require("upath2"));
+const upath2_1 = tslib_1.__importDefault(require("upath2"));
 exports.path = upath2_1.default;
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
-const ci_1 = (0, tslib_1.__importDefault)(require("./ci"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
+const ci_1 = tslib_1.__importDefault(require("./ci"));
 if ((0, ci_1.default)()) {
     process.env.FORCE_COLOR = process.env.FORCE_COLOR || '1';
 }
@@ -31,9 +31,10 @@ function lazyImport(name, _require) {
     debug_1.consoleDebug.debug(`lazyImport`, name);
     return bluebird_1.default.resolve()
         .then(e => {
+        var _a;
         let target = _require.resolve(name);
         debug_1.consoleDebug.debug(target);
-        return Promise.resolve().then(() => (0, tslib_1.__importStar)(require(target)));
+        return _a = target, Promise.resolve().then(() => tslib_1.__importStar(require(_a)));
     })
         .then(v => {
         (0, free_gc_1.freeGC)();

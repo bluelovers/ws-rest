@@ -5,7 +5,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.defaultFilter = exports.processExitHook = exports.exportCache = exports.importCache = void 0;
 const tslib_1 = require("tslib");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 function importCache(store, json, options) {
     const { importFilter = defaultFilter } = options || {};
     return bluebird_1.default

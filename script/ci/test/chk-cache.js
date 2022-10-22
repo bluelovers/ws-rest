@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("@bluelovers/fast-glob/bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("@bluelovers/fast-glob/bluebird"));
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 const project_root_1 = require("../../project-root");
-const bluebird_2 = (0, tslib_1.__importDefault)(require("bluebird"));
-const fs_extra_1 = (0, tslib_1.__importDefault)(require("fs-extra"));
-const filesize_1 = (0, tslib_1.__importDefault)(require("filesize"));
+const bluebird_2 = tslib_1.__importDefault(require("bluebird"));
+const fs_extra_1 = tslib_1.__importDefault(require("fs-extra"));
+const filesize_1 = tslib_1.__importDefault(require("filesize"));
 exports.default = (0, index_1.lazyRun)(async () => {
     let __root = project_root_1.__rootWs;
     index_1.console.log(`__root:`, __root);

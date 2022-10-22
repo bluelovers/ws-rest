@@ -13,7 +13,7 @@ const ci_1 = require("@node-novel/site-cache-util/lib/ci");
 const lib_1 = require("@node-novel/site-cache-util/lib");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 const main_1 = require("./util/main");
-const files_1 = (0, tslib_1.__importStar)(require("./util/files"));
+const files_1 = tslib_1.__importStar(require("./util/files"));
 exports.default = (0, index_1.lazyRun)(async () => {
     (0, git_1.crossSpawnSync)('git', [
         'add',

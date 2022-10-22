@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.fetchCache = void 0;
 const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
-const cross_fetch_1 = (0, tslib_1.__importDefault)(require("cross-fetch"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const cross_fetch_1 = tslib_1.__importDefault(require("cross-fetch"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 function fetchCache(url, file) {
     return bluebird_1.default.resolve()
         .then(e => {

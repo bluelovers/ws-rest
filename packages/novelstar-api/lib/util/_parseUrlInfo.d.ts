@@ -11,5 +11,5 @@ export declare function _parseUrlInfo<T extends IAllowedInput>(input: T): {
     value: string;
     _input: T | (T & string) | (T & import("lazy-url").LazyURL) | (T & URL) | (T & import("http-form-urlencoded").LazyURLSearchParams) | (T & URLSearchParams);
 };
-export declare type IReturnTypeParseUrlInfo = ReturnType<typeof _parseUrlInfo>;
+export type IReturnTypeParseUrlInfo = ReturnType<typeof _parseUrlInfo>;
 export declare function _buildURLByParseUrlInfo(input: ITSRequireAtLeastOne<IReturnTypeParseUrlInfo, Exclude<keyof IReturnTypeParseUrlInfo, 'value' | '_input'>>, baseURL?: string): string;

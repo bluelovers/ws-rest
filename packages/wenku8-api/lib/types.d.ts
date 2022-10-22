@@ -7,8 +7,8 @@ export interface IWenku8RecentUpdate {
     last_update_time: number;
     data: IWenku8RecentUpdateRow[];
 }
-export declare type IArticleToplistSortType = 'lastupdate' | 'postdate' | 'anime' | 'allvisit';
-export declare type IArticleSearchType = 'articlename' | 'author';
+export type IArticleToplistSortType = 'lastupdate' | 'postdate' | 'anime' | 'allvisit';
+export type IArticleSearchType = 'articlename' | 'author';
 export interface IWenku8RecentUpdateWithSortType extends IWenku8RecentUpdate {
     sort: IArticleToplistSortType;
 }
@@ -62,4 +62,4 @@ export interface IWenku8SearchList extends IWenku8RecentUpdate {
     searchtype: IArticleSearchType;
     searchkey: string;
 }
-export declare type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;
+export type IParametersSlice<T extends (...args: any) => any> = T extends (arg1: any, ...args: infer P) => any ? P : never;

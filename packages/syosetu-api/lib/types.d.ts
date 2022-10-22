@@ -1,12 +1,12 @@
 import { EnumSyosetuApiParamOrderBy, EnumSyosetuApiRawNovelNocgenre, EnumSyosetuApiRawNovelGenre } from './util/const';
 import { ITSOverwrite } from 'ts-type/lib/type/record';
-export declare type ISyosetuApiRaw001<T> = [
+export type ISyosetuApiRaw001<T> = [
     {
         allcount: number;
     },
     ...T[]
 ];
-export declare type ISyosetuApiParamOf = "-" | "t" | "n" | "u" | "w" | "s" | "bg" | "g" | "k" | "gf" | "gl" | "nt" | "e" | "ga" | "l" | "ti" | "i" | "ir" | "ibl" | "igl" | "izk" | "its" | "iti" | "p" | "gp" | "f" | "r" | "a" | "ah" | "sa" | "ka" | "nu" | "ua";
+export type ISyosetuApiParamOf = "-" | "t" | "n" | "u" | "w" | "s" | "bg" | "g" | "k" | "gf" | "gl" | "nt" | "e" | "ga" | "l" | "ti" | "i" | "ir" | "ibl" | "igl" | "izk" | "its" | "iti" | "p" | "gp" | "f" | "r" | "a" | "ah" | "sa" | "ka" | "nu" | "ua";
 export interface ISyosetuApiParams {
     /**
      * int(1～5)
@@ -48,7 +48,7 @@ export interface ISyosetuApiParams {
     order?: string | EnumSyosetuApiParamOrderBy;
     libtype?: number | 2;
 }
-export declare type IBool = 0 | 1;
+export type IBool = 0 | 1;
 export interface ISyosetuApiNcodeRawCore {
     /**
      * 小説名
@@ -175,7 +175,7 @@ export interface ISyosetuApiNcodeCore extends ISyosetuApiNcodeRawCore {
     novel18: boolean;
     url: string;
 }
-export declare type ISyosetuApiNcodeRawAll = ISyosetuApiNcodeRaw | ISyosetuApiNcode18Raw;
+export type ISyosetuApiNcodeRawAll = ISyosetuApiNcodeRaw | ISyosetuApiNcode18Raw;
 export interface ISyosetuApiNcode18Raw extends ISyosetuApiNcodeRawCore {
     /**
      * 掲載サイトを指定できます。ハイフン(-)記号で区切れば複数の掲載サイトを一括抽出できます。
@@ -202,7 +202,7 @@ export interface ISyosetuApiNcodeRaw extends ISyosetuApiNcodeRawCore {
      */
     isr15: IBool;
 }
-export declare type ISyosetuApiNcode<T extends ISyosetuApiNcodeRawCore = ISyosetuApiNcodeRawAll> = ITSOverwrite<T, {
+export type ISyosetuApiNcode<T extends ISyosetuApiNcodeRawCore = ISyosetuApiNcodeRawAll> = ITSOverwrite<T, {
     /**
      * microseconds
      */

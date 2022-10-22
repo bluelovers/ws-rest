@@ -9,12 +9,12 @@ const diff_staged_1 = require("@git-lazy/diff-staged");
 Object.defineProperty(exports, "gitDiffStagedDir", { enumerable: true, get: function () { return diff_staged_1.gitDiffStagedDir; } });
 Object.defineProperty(exports, "gitDiffStagedFile", { enumerable: true, get: function () { return diff_staged_1.gitDiffStagedFile; } });
 Object.defineProperty(exports, "gitDiffStaged", { enumerable: true, get: function () { return diff_staged_1.gitDiffStaged; } });
-const match_1 = (0, tslib_1.__importDefault)(require("@git-lazy/util/util/match"));
+const match_1 = tslib_1.__importDefault(require("@git-lazy/util/util/match"));
 exports.matchGlob = match_1.default;
 const git_1 = require("@git-lazy/util/spawn/git");
 Object.defineProperty(exports, "crossSpawnSync", { enumerable: true, get: function () { return git_1.crossSpawnSync; } });
 const path_1 = require("path");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const fs_extra_1 = require("fs-extra");
 const moment_1 = require("./moment");
 function filterGitDiffStagedFiles(options) {

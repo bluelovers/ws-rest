@@ -5,10 +5,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("../util");
 const array_hyper_unique_1 = require("array-hyper-unique");
-const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
+const files_1 = tslib_1.__importDefault(require("../util/files"));
 const fs_1 = require("@node-novel/site-cache-util/lib/fs");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 const lib_1 = require("@bluelovers/axios-util/lib");

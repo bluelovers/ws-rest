@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getAxiosErrorResponseData = exports.getResponseRedirects = exports.getResponseUrl = exports.isResponseFromAxiosCache = exports.isAxiosError = exports.isAxiosStatic = exports.dotValue = void 0;
 const tslib_1 = require("tslib");
-const get_value_1 = (0, tslib_1.__importDefault)(require("get-value"));
+const get_value_1 = tslib_1.__importDefault(require("get-value"));
 function dotValue(...argv) {
     return (0, get_value_1.default)(...argv);
 }

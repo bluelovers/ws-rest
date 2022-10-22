@@ -2,17 +2,17 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Wenku8Client = void 0;
 const tslib_1 = require("tslib");
-const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib"));
+const lib_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib"));
 const decorators_1 = require("restful-decorator/lib/decorators");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("./util");
 const zero_width_1 = require("zero-width");
 const gbk_1 = require("restful-decorator-plugin-jsdom/lib/util/gbk");
-const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
+const moment_1 = tslib_1.__importDefault(require("moment"));
 const urlEncodeGBK_1 = require("./util/urlEncodeGBK");
-const subobject_1 = (0, tslib_1.__importDefault)(require("restful-decorator/lib/helper/subobject"));
-const uniqBy_1 = (0, tslib_1.__importDefault)(require("lodash/uniqBy"));
-const html_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib/html"));
+const subobject_1 = tslib_1.__importDefault(require("restful-decorator/lib/helper/subobject"));
+const uniqBy_1 = tslib_1.__importDefault(require("lodash/uniqBy"));
+const html_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib/html"));
 /**
  * https://www.wenku8.net/index.php
  */
@@ -433,7 +433,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
         throw new Error('Not implemented');
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.POST)('login.php?do=submit&action=login'),
     decorators_1.FormUrlencoded,
     (0, decorators_1.CacheRequest)({
@@ -444,34 +444,34 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
     (0, decorators_1.methodBuilder)({
         disableFallbackReturnValue: true,
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)({
         action: 'login',
         usecookie: 315360000,
         submit: true,
     })),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], Wenku8Client.prototype, "loginByForm", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('modules/article/toplist.php'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamQuery)('page', 1)),
-    (0, tslib_1.__param)(1, (0, decorators_1.ParamQuery)('sort', 'lastupdate')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Number, String]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamQuery)('page', 1)),
+    tslib_1.__param(1, (0, decorators_1.ParamQuery)('sort', 'lastupdate')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Number, String]),
+    tslib_1.__metadata("design:returntype", Object)
 ], Wenku8Client.prototype, "articleToplist", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('modules/article/articlelist.php'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamQuery)('page', 1)),
-    (0, tslib_1.__param)(1, (0, decorators_1.ParamQuery)('fullflag')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Number, Number]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamQuery)('page', 1)),
+    tslib_1.__param(1, (0, decorators_1.ParamQuery)('fullflag')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Number, Number]),
+    tslib_1.__metadata("design:returntype", Object)
 ], Wenku8Client.prototype, "articleList", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('index.php'),
     (0, decorators_1.CacheRequest)({
         cache: {
@@ -479,34 +479,34 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
         },
     }),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", Object)
 ], Wenku8Client.prototype, "isLogin", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('modules/article/articleinfo.php?id={novel_id}&charset=gbk'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('novel_id')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], Wenku8Client.prototype, "bookInfo", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('novel/{cid}/{novel_id}/index.htm'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
-    (0, tslib_1.__param)(1, (0, decorators_1.ParamPath)('cid')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('novel_id')),
+    tslib_1.__param(1, (0, decorators_1.ParamPath)('cid')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object, Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], Wenku8Client.prototype, "bookChapters", null);
-(0, tslib_1.__decorate)([
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamPath)('novel_id')),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+tslib_1.__decorate([
+    tslib_1.__param(0, (0, decorators_1.ParamPath)('novel_id')),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", void 0)
 ], Wenku8Client.prototype, "bookInfoWithChapters", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('modules/article/search.php?searchtype={searchtype}&searchkey={searchkey}&page={page}'),
     (0, decorators_1.CacheRequest)({
         cache: {
@@ -516,29 +516,29 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
     (0, decorators_1.methodBuilder)({
         autoRequest: false,
     }),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)({
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)({
         searchtype: 'articlename',
         page: 1,
     })),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], Wenku8Client.prototype, "search", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('https://www.wenku8.net/novel/{cid}/{novel_id}/{chapter_id}.htm'),
     (0, decorators_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, decorators_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, decorators_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object, Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], Wenku8Client.prototype, "getChapter", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, decorators_1.GET)('/modules/article/tags.php'),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", void 0)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", void 0)
 ], Wenku8Client.prototype, "tags", null);
-Wenku8Client = (0, tslib_1.__decorate)([
+Wenku8Client = tslib_1.__decorate([
     (0, decorators_1.BaseUrl)('https://www.wenku8.net'),
     (0, decorators_1.Headers)({
         Referer: 'https://www.wenku8.net/index.php',

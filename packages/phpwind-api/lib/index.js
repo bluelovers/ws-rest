@@ -3,14 +3,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.PHPWindClient = void 0;
 const tslib_1 = require("tslib");
 const cache_1 = require("restful-decorator/lib/decorators/config/cache");
-const lib_1 = (0, tslib_1.__importDefault)(require("restful-decorator-plugin-jsdom/lib"));
+const lib_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib"));
 const method_1 = require("restful-decorator/lib/decorators/method");
 const form_1 = require("restful-decorator/lib/decorators/form");
 const abstract_1 = require("restful-decorator/lib/wrap/abstract");
 const body_1 = require("restful-decorator/lib/decorators/body");
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const _checkLogin_1 = require("./util/jquery/_checkLogin");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const _task_info_1 = require("./util/jquery/_task_info");
 const config_1 = require("restful-decorator/lib/decorators/config");
 /**
@@ -150,7 +150,7 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
             .mapSeries(task => task.task_drawable && this.taskDraw(task.task_id).tap((r) => cb === null || cb === void 0 ? void 0 : cb('taskDraw', r)));
     }
 };
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.POST)('login.php?submit=login'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     form_1.FormUrlencoded,
@@ -174,15 +174,15 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
     }, {
         disableFallbackReturnValue: true,
     }),
-    (0, tslib_1.__param)(0, (0, body_1.ParamMapAuto)({
+    tslib_1.__param(0, (0, body_1.ParamMapAuto)({
         cookietime: 315360000,
         lgt: 0,
     })),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], PHPWindClient.prototype, "loginByForm", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('message.php'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, config_1.RequestConfigs)({
@@ -191,11 +191,11 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
         },
     }),
     (0, abstract_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", Object)
 ], PHPWindClient.prototype, "isLogin", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('plugin.php?H_name-tasks.html'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, config_1.RequestConfigs)({
@@ -204,11 +204,11 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
         },
     }),
     (0, abstract_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", Object)
 ], PHPWindClient.prototype, "taskListNew", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('plugin.php?H_name-tasks-actions-newtasks.html'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
     (0, config_1.RequestConfigs)({
@@ -217,11 +217,11 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
         },
     }),
     (0, abstract_1.methodBuilder)(),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", []),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", []),
+    tslib_1.__metadata("design:returntype", Object)
 ], PHPWindClient.prototype, "taskListDoing", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('plugin.php?H_name=tasks&action=ajax&actions=job&cid={task_id}&nowtime={nowtime}&verify={verify}'),
     (0, config_1.RequestConfigs)({
         cache: {
@@ -229,13 +229,13 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
         },
     }),
     (0, abstract_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, body_1.ParamPath)('task_id')),
-    (0, tslib_1.__param)(1, (0, body_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, body_1.ParamPath)('task_id')),
+    tslib_1.__param(1, (0, body_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object, Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], PHPWindClient.prototype, "taskApply", null);
-(0, tslib_1.__decorate)([
+tslib_1.__decorate([
     (0, method_1.GET)('plugin.php?H_name=tasks&action=ajax&actions=job2&cid={task_id}&nowtime={nowtime}&verify={verify}'),
     (0, config_1.RequestConfigs)({
         cache: {
@@ -243,13 +243,13 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
         },
     }),
     (0, abstract_1.methodBuilder)(),
-    (0, tslib_1.__param)(0, (0, body_1.ParamPath)('task_id')),
-    (0, tslib_1.__param)(1, (0, body_1.ParamMapAuto)()),
-    (0, tslib_1.__metadata)("design:type", Function),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object, Object]),
-    (0, tslib_1.__metadata)("design:returntype", Object)
+    tslib_1.__param(0, (0, body_1.ParamPath)('task_id')),
+    tslib_1.__param(1, (0, body_1.ParamMapAuto)()),
+    tslib_1.__metadata("design:type", Function),
+    tslib_1.__metadata("design:paramtypes", [Object, Object]),
+    tslib_1.__metadata("design:returntype", Object)
 ], PHPWindClient.prototype, "taskDraw", null);
-PHPWindClient = (0, tslib_1.__decorate)([
+PHPWindClient = tslib_1.__decorate([
     (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
@@ -258,7 +258,7 @@ PHPWindClient = (0, tslib_1.__decorate)([
             }
         },
     }),
-    (0, tslib_1.__metadata)("design:paramtypes", [Object])
+    tslib_1.__metadata("design:paramtypes", [Object])
 ], PHPWindClient);
 exports.PHPWindClient = PHPWindClient;
 exports.default = PHPWindClient;

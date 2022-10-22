@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.outputJSONLazy = exports.outputJSONOptions = void 0;
 const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 exports.outputJSONOptions = {
     spaces: 2,
 };

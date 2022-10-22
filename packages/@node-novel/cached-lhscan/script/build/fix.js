@@ -4,7 +4,7 @@ const tslib_1 = require("tslib");
 const index_1 = require("@node-novel/site-cache-util/lib/index");
 const fs_extra_1 = require("fs-extra");
 const upath2_1 = require("upath2");
-const files_1 = (0, tslib_1.__importDefault)(require("../util/files"));
+const files_1 = tslib_1.__importDefault(require("../util/files"));
 const fs_1 = require("@node-novel/site-cache-util/lib/fs");
 exports.default = (0, index_1.lazyRun)(async () => {
     const file = (0, upath2_1.join)(files_1.default.dirDataRoot, 'list-cache.json');

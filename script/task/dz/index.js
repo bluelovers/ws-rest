@@ -4,9 +4,9 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const index_1 = (0, tslib_1.__importDefault)(require("discuz-api/lib/index"));
-const index_2 = (0, tslib_1.__importDefault)(require("phpwind-api/lib/index"));
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const index_1 = tslib_1.__importDefault(require("discuz-api/lib/index"));
+const index_2 = tslib_1.__importDefault(require("phpwind-api/lib/index"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const dotenv_1 = require("dotenv");
 const util_1 = require("@node-novel/cached-masiro/script/util");
 const index_3 = require("@node-novel/site-cache-util/lib/index");

@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports._getChapterData = void 0;
 const tslib_1 = require("tslib");
 const util_1 = require("../util");
-const moment_1 = (0, tslib_1.__importDefault)(require("moment"));
+const moment_1 = tslib_1.__importDefault(require("moment"));
 const _matchDateString_1 = require("./_matchDateString");
 function _getChapterData($) {
     let $meta = $('.container .single-post-meta .column');

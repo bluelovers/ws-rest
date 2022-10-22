@@ -5,7 +5,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports._handleInputUrl = exports.EnumParseInputUrl = void 0;
 const tslib_1 = require("tslib");
-const http_form_urlencoded_1 = (0, tslib_1.__importDefault)(require("http-form-urlencoded"));
+const http_form_urlencoded_1 = tslib_1.__importDefault(require("http-form-urlencoded"));
 const lazy_url_1 = require("lazy-url");
 var EnumParseInputUrl;
 (function (EnumParseInputUrl) {

@@ -1,5 +1,5 @@
 import 'reflect-metadata';
-export declare type IPropertyKey = string | symbol;
+export type IPropertyKey = string | symbol;
 /**
  * use for class, member, decorators
  */

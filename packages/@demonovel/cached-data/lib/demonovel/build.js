@@ -3,10 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.build = void 0;
 const tslib_1 = require("tslib");
 const cache_loader_1 = require("@node-novel/cache-loader");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const types_1 = require("./types");
-const class_1 = (0, tslib_1.__importDefault)(require("node-novel-info/class"));
-const lib_1 = (0, tslib_1.__importDefault)(require("dot-values2/lib"));
+const class_1 = tslib_1.__importDefault(require("node-novel-info/class"));
+const lib_1 = tslib_1.__importDefault(require("dot-values2/lib"));
 const util_1 = require("../util");
 const moment_1 = require("../util/moment");
 function build(source) {

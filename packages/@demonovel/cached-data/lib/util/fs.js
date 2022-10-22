@@ -6,7 +6,7 @@ const tslib_1 = require("tslib");
  * Created by user on 2020/3/2.
  */
 const fs_extra_1 = require("fs-extra");
-const bluebird_1 = (0, tslib_1.__importDefault)(require("bluebird"));
+const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 function readJSONWithFetch(file, fetch, force) {
     return bluebird_1.default.resolve()
         .then(async () => {
