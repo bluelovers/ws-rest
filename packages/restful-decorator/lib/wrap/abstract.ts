@@ -67,7 +67,7 @@ export const methodBuilder = createMethodBuilder<any, IAbstractHttpClientCache>(
 
 	const { bool, requestConfigNew } = _chkSettingUpdate<AxiosRequestConfig>({}, requestConfig);
 
-	if (thisArgv.$parent == null || thisArgv.$parent === thisArgv)
+	if (thisArgv['$parent'] == null || thisArgv['$parent'] === thisArgv)
 	{
 		thisArgv = subobject({}, thisArgv);
 	}
@@ -78,9 +78,9 @@ export const methodBuilder = createMethodBuilder<any, IAbstractHttpClientCache>(
 		thisArgv: thisArgv as any,
 	});
 
-	thisArgv.$pathData = _ret.pathData;
-	thisArgv.$url = _ret.url;
-	thisArgv.$requestConfig = _ret.requestConfig;
+	thisArgv['$pathData'] = _ret.pathData;
+	thisArgv['$url'] = _ret.url;
+	thisArgv['$requestConfig'] = _ret.requestConfig;
 
 	delete data.requestConfigNew;
 
@@ -90,7 +90,7 @@ export const methodBuilder = createMethodBuilder<any, IAbstractHttpClientCache>(
 		thisArgv,
 		paramMetadata,
 		argv,
-		router: thisArgv.$url,
+		router: thisArgv['$url'],
 		pathData: _ret.pathData,
 	};
 });

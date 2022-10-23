@@ -26,7 +26,7 @@ export default lazyRun(async () => {
 
 	//consoleDebug.info(`執行 discuz 模組`);
 
-	await Bluebird.resolve(process.env.MY_HASHED_JSON)
+	await Bluebird.resolve(process.env['MY_HASHED_JSON'])
 		.then<IMY_HASHED_JSON_ROW[]>((envValue) => {
 			return JSON.parse(Buffer.from(envValue, 'base64').toString()) || []
 		})

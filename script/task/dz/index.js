@@ -13,7 +13,7 @@ const index_3 = require("@node-novel/site-cache-util/lib/index");
 exports.default = (0, index_3.lazyRun)(async () => {
     await bluebird_1.default.resolve().tap(e => (0, dotenv_1.config)()).catch(e => null);
     //consoleDebug.info(`執行 discuz 模組`);
-    await bluebird_1.default.resolve(process.env.MY_HASHED_JSON)
+    await bluebird_1.default.resolve(process.env['MY_HASHED_JSON'])
         .then((envValue) => {
         return JSON.parse(Buffer.from(envValue, 'base64').toString()) || [];
     })

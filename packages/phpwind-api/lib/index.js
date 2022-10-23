@@ -72,8 +72,8 @@ let PHPWindClient = class PHPWindClient extends lib_1.default {
         if (typeof jsdom === 'string') {
             this._verifyhash = jsdom;
         }
-        else if ((_a = jsdom === null || jsdom === void 0 ? void 0 : jsdom.window) === null || _a === void 0 ? void 0 : _a.verifyhash) {
-            this._verifyhash = jsdom.window.verifyhash;
+        else if ((_a = jsdom === null || jsdom === void 0 ? void 0 : jsdom.window) === null || _a === void 0 ? void 0 : _a['verifyhash']) {
+            this._verifyhash = jsdom.window['verifyhash'];
         }
         return this._verifyhash;
     }

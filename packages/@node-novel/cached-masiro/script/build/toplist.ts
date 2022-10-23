@@ -10,7 +10,6 @@ import { getAxiosCacheAdapter } from 'restful-decorator/lib/decorators/config/ca
 import { IBaseCacheStore } from 'axios-cache-adapter-util';
 import Bluebird from 'bluebird';
 import { getApiClient, __root, console, consoleDebug } from '../util';
-import { ITSUnpackedPromiseLike } from 'ts-type';
 import { array_unique } from 'array-hyper-unique';
 // @ts-ignore
 import naturalCompare from "string-natural-compare";

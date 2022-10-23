@@ -169,9 +169,9 @@ export class PHPWindClient extends AbstractHttpClientWithJSDom
 		{
 			this._verifyhash = jsdom
 		}
-		else if (jsdom?.window?.verifyhash)
+		else if (jsdom?.window?.['verifyhash'])
 		{
-			this._verifyhash = jsdom.window.verifyhash
+			this._verifyhash = jsdom.window['verifyhash']
 		}
 
 		return this._verifyhash
