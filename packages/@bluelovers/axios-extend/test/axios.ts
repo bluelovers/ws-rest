@@ -4,7 +4,7 @@
 import Axios from 'axios';
 import extendAxios from '../lib';
 import { setupCache } from 'axios-cache-adapter'
-import { attach as RaxAttach, RetryConfig as IAxiosRetryConfig } from 'retry-axios';
+import { attach as RaxAttach, RetryConfig as IAxiosRetryConfig } from '@bluelovers/retry-axios';
 
 RaxAttach(Axios);
 	//.axios

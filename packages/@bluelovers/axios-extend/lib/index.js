@@ -4,8 +4,8 @@ exports.wrapAdapter = exports.mixinCacheConfig = exports.mixinDefaultConfig = ex
 const tslib_1 = require("tslib");
 const lodash_1 = require("lodash");
 const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
-const retry_axios_1 = require("retry-axios");
-const axios_cookiejar_support_1 = tslib_1.__importDefault(require("axios-cookiejar-support"));
+const retry_axios_1 = require("@bluelovers/retry-axios");
+const axios_cookiejar_support_1 = require("axios-cookiejar-support");
 const cache_1 = tslib_1.__importStar(require("./cache"));
 exports.setupCacheConfig = cache_1.default;
 Object.defineProperty(exports, "mixinCacheConfig", { enumerable: true, get: function () { return cache_1.mixinCacheConfig; } });
@@ -16,7 +16,7 @@ tslib_1.__exportStar(require("./types"), exports);
 // @ts-ignore
 const unset_value_1 = tslib_1.__importDefault(require("unset-value"));
 function extendAxios(axios, defaultOptions) {
-    axios = (0, axios_cookiejar_support_1.default)(axios);
+    axios = (0, axios_cookiejar_support_1.wrapper)(axios);
     (0, retry_axios_1.attach)(axios);
     if ((0, axios_util_1.isAxiosStatic)(axios)) {
         let old = axios.create;

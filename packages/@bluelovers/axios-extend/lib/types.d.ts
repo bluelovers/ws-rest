@@ -1,8 +1,8 @@
 import { AxiosAdapter, AxiosError, AxiosInstance, AxiosPromise, AxiosRequestConfig, AxiosResponse, AxiosStatic } from 'axios';
 import { IResponseHeaders } from 'typed-http-headers';
 import Bluebird from 'bluebird';
-import { ITSPartialPick, ITSUnpackedPromiseLike } from 'ts-type';
-import { RetryConfig as IAxiosRetryConfig } from 'retry-axios';
+import { ITSPartialPick, ITSAwaitedReturnType } from 'ts-type';
+import { RetryConfig as IAxiosRetryConfig } from '@bluelovers/retry-axios';
 import { IPropertyKey } from 'reflect-metadata-util';
 import { IAxiosCacheAdapterOptions } from 'axios-cache-adapter';
 import { FollowResponse } from 'follow-redirects';
@@ -21,7 +21,7 @@ export interface IAxiosDefaultsHeaders extends Partial<Record<'common' | 'delete
 }
 export type IUnpackAxiosResponse<T> = T extends PromiseLike<AxiosResponse<infer U>> ? U : T extends AxiosResponse<infer U> ? U : never;
 export type IBluebirdAxiosResponse<T = any> = IBluebird<AxiosResponse<T>>;
-export type IUnpackedPromiseLikeReturnType<T extends (...args: any) => any> = ITSUnpackedPromiseLike<ReturnType<T>>;
+export type IUnpackedPromiseLikeReturnType<T extends (...args: any) => any> = ITSAwaitedReturnType<T>;
 export interface IAxiosAdapterWarpper {
     (config: AxiosRequestConfig, returnValue: AxiosResponse<any>): AxiosPromise<any>;
 }

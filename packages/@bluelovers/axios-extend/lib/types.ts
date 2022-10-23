@@ -9,8 +9,8 @@ import {
 } from 'axios';
 import { IResponseHeaders } from 'typed-http-headers';
 import Bluebird from 'bluebird';
-import { ITSPartialPick, ITSUnpackedPromiseLike } from 'ts-type';
-import { RetryConfig as IAxiosRetryConfig } from 'retry-axios';
+import { ITSPartialPick, ITSAwaitedReturnType } from 'ts-type';
+import { RetryConfig as IAxiosRetryConfig } from '@bluelovers/retry-axios';
 import { IPropertyKey } from 'reflect-metadata-util';
 import { setupCache, IAxiosCacheAdapterOptions, ISetupCache } from 'axios-cache-adapter';
 import { FollowResponse } from 'follow-redirects';
@@ -40,7 +40,7 @@ export type IUnpackAxiosResponse<T> =
 			never
 	;
 export type IBluebirdAxiosResponse<T = any> = IBluebird<AxiosResponse<T>>;
-export type IUnpackedPromiseLikeReturnType<T extends (...args: any) => any> = ITSUnpackedPromiseLike<ReturnType<T>>;
+export type IUnpackedPromiseLikeReturnType<T extends (...args: any) => any> = ITSAwaitedReturnType<T>;
 
 export interface IAxiosAdapterWarpper
 {

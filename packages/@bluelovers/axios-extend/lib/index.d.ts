@@ -1,6 +1,6 @@
 import { AxiosAdapter, AxiosError, AxiosInstance, AxiosPromise, AxiosRequestConfig, AxiosResponse, AxiosStatic } from 'axios';
 import Bluebird from 'bluebird';
-import { RetryConfig as IAxiosRetryConfig } from 'retry-axios';
+import { RetryConfig as IAxiosRetryConfig } from '@bluelovers/retry-axios';
 import { IAxiosCacheAdapterOptions } from 'axios-cache-adapter';
 import setupCacheConfig, { mixinCacheConfig } from './cache';
 import { IAxiosAdapterWarpper } from './types';

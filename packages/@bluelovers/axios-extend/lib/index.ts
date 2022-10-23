@@ -9,8 +9,8 @@ import {
 } from 'axios';
 import { merge, defaultsDeep, cloneDeep } from 'lodash';
 import Bluebird from 'bluebird';
-import { attach as RaxAttach, RetryConfig as IAxiosRetryConfig } from 'retry-axios';
-import axiosCookieJarSupport from 'axios-cookiejar-support';
+import { attach as RaxAttach, RetryConfig as IAxiosRetryConfig } from '@bluelovers/retry-axios';
+import { wrapper as axiosCookieJarSupport } from 'axios-cookiejar-support';
 import { IAxiosCacheAdapterOptions } from 'axios-cache-adapter';
 import setupCacheConfig, { mixinCacheConfig } from './cache';
 import { IAxiosAdapterWarpper } from './types';
