@@ -4,7 +4,7 @@ import { lazyRun, path, console } from '@node-novel/site-cache-util/lib/index';
 import { __rootWs } from '../../project-root';
 import Bluebird from 'bluebird';
 import fs from 'fs-extra';
-import filesize from 'filesize';
+import { filesize } from 'filesize';
 
 export default lazyRun(async () => {
 
