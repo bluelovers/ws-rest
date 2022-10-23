@@ -8,7 +8,7 @@ import { getMetadataLazy, getPrototypeOfConstructor, IPropertyKey } from 'reflec
 import { getConfig, SymConfig } from './util';
 import { ICookiesValue, ICookiesValueInput, LazyCookieJar } from 'lazy-cookies';
 
-export function CookieJarSupport(value: AxiosRequestConfig["jar"] | CookieJar)
+export function CookieJarSupport(value: AxiosRequestConfig["jar"] | CookieJar | true)
 {
 	if (value === true)
 	{

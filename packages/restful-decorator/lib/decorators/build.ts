@@ -65,6 +65,7 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 					// @ts-ignore
 					.then(async function (returnValue){
 
+						// @ts-ignore
 						const ret = await method.apply(thisArgv, argv);
 
 						if (builderOptions.disableFallbackReturnValue || typeof ret !== 'undefined' && ret !== null)
@@ -79,6 +80,7 @@ export function methodBuilder<T extends object, R = {}>(handler?: IHandleDescrip
 			else
 			{
 				p = p
+					// @ts-ignore
 					.thenReturn(method.apply(thisArgv, argv))
 				;
 			}

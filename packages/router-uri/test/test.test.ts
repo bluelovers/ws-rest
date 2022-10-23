@@ -12,7 +12,7 @@
 /// <reference types="node" />
 
 import { chai, relative, expect, path, assert, util, mochaAsync, SymbolLogOutput } from './_local-dev';
-import routerToRfc6570, { rfc6570ToRouter } from '../index';
+import { routerToRfc6570, rfc6570ToRouter } from '../index';
 // @ts-ignore
 import { URI } from 'uri-template-lite';
 

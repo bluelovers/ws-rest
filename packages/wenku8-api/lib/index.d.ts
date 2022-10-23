@@ -32,7 +32,7 @@ export declare class Wenku8Client extends AbstractHttpClientWithJSDom {
     protected _handleArticleTopListAll<T extends (page: number, args: any) => any>(method: T, args: IParametersSlice<T>, from?: number, pageTo?: number, { throwError, delay, }?: {
         throwError?: boolean;
         delay?: number;
-    }): Bluebird<import("ts-type").ITSUnpackedPromiseLike<ReturnType<T>> & {
+    }): Bluebird<import("ts-type").ITSAwaitedLazy<ReturnType<T>> & {
         from: number;
         to: number;
     }>;
