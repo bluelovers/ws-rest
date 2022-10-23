@@ -44,7 +44,7 @@
   "dependencies": {
     "@bluelovers/axios-util": "^1.0.14",
     "@types/bluebird": "*",
-    "@types/follow-redirects": "^1.13.1",
+    "@types/follow-redirects": "^1.14.1",
     "axios-cache-adapter": "*",
     "axios-cache-adapter-util": "^1.0.57",
     "axios-cookiejar-support": "*",
@@ -53,17 +53,17 @@
     "lodash": "^4",
     "lru-cache2": "^6.0.7",
     "reflect-metadata-util": "^1.0.14",
-    "retry-axios": "^2.4.0",
-    "ts-type": "^1.2.39",
-    "tslib": "^2.3.1",
-    "typed-http-headers": "^1.0.7",
-    "unset-value": "^2.0.0"
+    "@bluelovers/retry-axios": "^3.0.0",
+    "ts-type": "^3.0.1",
+    "tslib": "^2.4.0",
+    "typed-http-headers": "^1.0.8",
+    "unset-value": "^2.0.1"
   },
   "devDependencies": {
     "restful-decorator": "^1.0.61"
   },
   "peerDependencies": {
-    "axios": "^0.21.1"
+    "axios": "<0.22 >0.21.1"
   },
   "publishConfig": {
     "access": "public"

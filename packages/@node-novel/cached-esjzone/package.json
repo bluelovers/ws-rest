@@ -23,7 +23,7 @@
     "test:snapshot": "yarn run test -- -u",
     "test:tsd": "ynpx tsd",
     "prebuild": "yarn run build:fix",
-    "build": "yarn run build:main",
+    "build_": "yarn run build:main",
     "build:cache": "ts-node ./script/build",
     "build:commit": "ts-node ./script/build-commit",
     "build:fix": "ts-node ./script/build/fix",
@@ -38,7 +38,7 @@
     "tsc:esm": "tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "tslib": "^2.3.1"
+    "tslib": "^2.4.0"
   },
   "devDependencies": {
     "@node-novel/site-cache-util": "^1.0.48",

@@ -38,18 +38,18 @@
   },
   "dependencies": {
     "@demonovel/cached-data-types": "^1.0.3",
-    "@lazy-cjk/zh-slugify": "^1.0.72",
-    "chai": "^4.3.4",
-    "regexp-cjk-with-plugin-enabled": "^1.0.2",
-    "tslib": "^2.3.1"
+    "@lazy-cjk/zh-slugify": "^1.0.83",
+    "chai": "^4.3.6",
+    "regexp-cjk-with-plugin-enabled": "^1.0.13",
+    "tslib": "^2.4.0"
   },
   "devDependencies": {
-    "@node-novel/cache-loader": "^1.0.35",
+    "@node-novel/cache-loader": "^1.0.36",
     "@node-novel/cached-dmzj": "^1.1.121",
     "@node-novel/cached-esjzone": "^1.0.91",
     "@node-novel/cached-masiro": "^1.0.85",
     "@node-novel/cached-wenku8": "^1.0.94",
-    "@types/chai": "^4.2.21",
+    "@types/chai": "^4.3.3",
     "discuz-api": "^1.0.49",
     "dmzj-api": "^1.1.51",
     "esjzone-api": "^1.0.56",
