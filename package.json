@@ -42,12 +42,12 @@
     "sort-package-json": "npx yarn-tool sort"
   },
   "dependencies": {
-    "execall2": "^2.0.11",
-    "tslib": "^2.3.1",
-    "uri-template-lite": "^20.5.0"
+    "execall2": "^2.0.22",
+    "tslib": "^2.4.0",
+    "uri-template-lite": "^22.9.0"
   },
   "devDependencies": {
-    "url-template": "^2.0.8"
+    "url-template": "^3.1.0"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"
 }
