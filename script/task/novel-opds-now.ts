@@ -12,7 +12,7 @@ export default lazyRun(async () =>
 	await Bluebird.resolve().tap(e => config()).catch(e => null);
 
 	await axios
-		.get(process.env.NOW_DEPLOY_HOOK)
+		.get(process.env['NOW_DEPLOY_HOOK'])
 		.then(response => {
 			console.dir(response.data)
 		})
