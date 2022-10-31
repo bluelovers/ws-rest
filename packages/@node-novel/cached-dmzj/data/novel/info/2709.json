@@ -3,20 +3,20 @@
   "name": "重组世界Rebuild World",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 上 旧领域连结者",
+  "last_update_volume_name": "第二卷 下 死后报复委托程式",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12265,
-  "last_update_chapter_id": 125411,
-  "last_update_time": 1655132307,
+  "last_update_volume_id": 12732,
+  "last_update_chapter_id": 130410,
+  "last_update_time": 1666960391,
   "cover": "http://xs.dmzj.com/img/webpic/6/re0810l.jpg",
-  "hot_hits": 76514,
+  "hot_hits": 79604,
   "introduction": "这是一个为了寻求旧文明的遗产，无数猎手（Hunter）聚集在数之不尽的遗迹中尽显绝技的世界。\n新人猎手阿基拉，为了能脱离贫民窟，为了能扬名立万，赌上性命闯入了旧世界的遗迹，但他却在那里邂逅了迷之美女「阿尔法」。\n随后，她委托阿基拉去秘密攻略一处遗迹，为此她愿意把自己的力量借给助阿基拉——！？\n从两人缔结下契约的这一刻起，阿基拉和阿尔法波澜万丈的猎手生涯也就此拉开了帷幕！",
   "types": [
     "冒险"
   ],
   "authors": "ナフセ",
   "first_letter": "C",
-  "subscribe_num": 13679,
+  "subscribe_num": 13885,
   "volume": [
     {
       "id": 10280,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1565435965,
-      "sum_chapters": 15
+      "sum_chapters": 7
     },
     {
       "id": 11953,
@@ -32,7 +32,7 @@
       "volume_name": "第一卷 下 逞强荒唐鲁莽",
       "volume_order": 20,
       "addtime": 1639321893,
-      "sum_chapters": 15
+      "sum_chapters": 7
     },
     {
       "id": 12265,
@@ -40,7 +40,15 @@
       "volume_name": "第二卷 上 旧领域连结者",
       "volume_order": 30,
       "addtime": 1655128113,
-      "sum_chapters": 15
+      "sum_chapters": 7
+    },
+    {
+      "id": 12732,
+      "lnovel_id": 2709,
+      "volume_name": "第二卷 下 死后报复委托程式",
+      "volume_order": 40,
+      "addtime": 1666956824,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -340,6 +348,124 @@
           "chapter_id": 125411,
           "chapter_name": "插画",
           "chapter_order": 210
+        }
+      ]
+    },
+    {
+      "volume_id": 12732,
+      "id": 12732,
+      "volume_name": "第二卷 下 死后报复委托程式",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 130317,
+          "chapter_name": "第50话 地下街的可疑人物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 130318,
+          "chapter_name": "第51话 逆转",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 130319,
+          "chapter_name": "第52话 各自的选择",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 130320,
+          "chapter_name": "第53话 战斗结束的经过",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 130321,
+          "chapter_name": "第54话 死后报复委托程式",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 130322,
+          "chapter_name": "第55话 力场装甲",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 130323,
+          "chapter_name": "第56话 搜敌手段",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 130324,
+          "chapter_name": "第57话 奢侈的互相厮杀",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 130325,
+          "chapter_name": "第58话 撤退时机",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 130326,
+          "chapter_name": "第59话 幸运或不幸的结局",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 130327,
+          "chapter_name": "第60话 战斗经历的收购价",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 130328,
+          "chapter_name": "第61话 护身符的功效",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 130329,
+          "chapter_name": "第62话 谢丽尔的焦虑",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 130330,
+          "chapter_name": "第63话 发包行善",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 130331,
+          "chapter_name": "第64话 重要之日，必经之日",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 130332,
+          "chapter_name": "第65话 确定一切不曾发生",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 130333,
+          "chapter_name": "第66话 真正的实力",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 130334,
+          "chapter_name": "第67话 失望",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 130335,
+          "chapter_name": "第68话 濒临交战",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 130336,
+          "chapter_name": "第69话 看世界的角度",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 130337,
+          "chapter_name": "闲谈 热三明治贩卖计画",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 130410,
+          "chapter_name": "插画",
+          "chapter_order": 220
         }
       ]
     }

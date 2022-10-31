@@ -3,13 +3,13 @@
   "name": "圣女魔力无所不能",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11971,
-  "last_update_chapter_id": 121753,
-  "last_update_time": 1640528543,
+  "last_update_volume_id": 12735,
+  "last_update_chapter_id": 130407,
+  "last_update_time": 1666959533,
   "cover": "http://xs.dmzj.com/img/webpic/27/sn0408l.jpg",
-  "hot_hits": 727558,
+  "hot_hits": 768519,
   "introduction": "工作狂加班回家竟然被异世界召唤成为圣女！？",
   "types": [
     "异界",
@@ -18,7 +18,7 @@
   ],
   "authors": "橘由华",
   "first_letter": "S",
-  "subscribe_num": 25565,
+  "subscribe_num": 26628,
   "volume": [
     {
       "id": 9347,
@@ -74,6 +74,14 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1640527914,
+      "sum_chapters": 7
+    },
+    {
+      "id": 12735,
+      "lnovel_id": 2466,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1666957696,
       "sum_chapters": 7
     }
   ],
@@ -516,6 +524,64 @@
           "chapter_id": 121753,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12735,
+      "id": 12735,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 130360,
+          "chapter_name": "第一幕 风干香肠",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 130361,
+          "chapter_name": "第二幕 温泉",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 130362,
+          "chapter_name": "第三幕 分室",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 130363,
+          "chapter_name": "幕后",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 130364,
+          "chapter_name": "第四幕 观剧",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 130365,
+          "chapter_name": "幕后",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 130366,
+          "chapter_name": "第五幕 告白",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 130367,
+          "chapter_name": "短篇故事集",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 130368,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 130407,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
