@@ -3,11 +3,11 @@
   "name": "魔物娘的医生",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12740,
-  "last_update_chapter_id": 130433,
-  "last_update_time": 1667115975,
+  "last_update_volume_id": 12752,
+  "last_update_chapter_id": 130600,
+  "last_update_time": 1667662296,
   "cover": "http://xs.dmzj.com/img/webpic/28/mwn1030l.jpg",
   "hot_hits": 0,
   "introduction": "医生格伦在魔族和人类共存的街道“林德·沃尔姆”和助手拉米亚族的莎妃一起经营着诊疗所。怪物少女们连日接到各种各样的诊断委托，评价非常好。有的时候会看穿斗技场的缇萨莉亚的症状而被求婚，还有的时候会把手伸进美人鱼的腮部进行触诊，缝合新鲜黄金周身体的关键部分…。格伦只是在认真地治疗。在这样的日常生活中，突然出现了瞄准Happy蛋的贼…？",
@@ -16,7 +16,7 @@
   ],
   "authors": "折口良乃",
   "first_letter": "M",
-  "subscribe_num": 533,
+  "subscribe_num": 1736,
   "volume": [
     {
       "id": 12740,
@@ -24,7 +24,31 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1667115817,
-      "sum_chapters": 7
+      "sum_chapters": 16
+    },
+    {
+      "id": 12741,
+      "lnovel_id": 3439,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1667225259,
+      "sum_chapters": 16
+    },
+    {
+      "id": 12748,
+      "lnovel_id": 3439,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1667561504,
+      "sum_chapters": 16
+    },
+    {
+      "id": 12752,
+      "lnovel_id": 3439,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1667661382,
+      "sum_chapters": 16
     }
   ],
   "chapters": [
@@ -68,6 +92,155 @@
           "chapter_id": 130433,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12741,
+      "id": 12741,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 130434,
+          "chapter_name": "案例1 扭伤的半人马",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 130435,
+          "chapter_name": "案例2 不会飞的哈比",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 130436,
+          "chapter_name": "案例3 享乐主义的阿拉克涅",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 130437,
+          "chapter_name": "案例4 巨神的袭击",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 130438,
+          "chapter_name": "尾声 镇上的医生和半人马公主",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 130439,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 130481,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12748,
+      "id": 12748,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 130540,
+          "chapter_name": "序章1 冬天的景象",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 130541,
+          "chapter_name": "序章2 水道纪念仪式",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 130542,
+          "chapter_name": "案例1 疲惫的斯卡蒂",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 130543,
+          "chapter_name": "案例2 自我贬低的独眼小姐",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 130544,
+          "chapter_name": "案例3 有不良嗜好的阿拉克涅",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 130545,
+          "chapter_name": "案例4 患有心脏疾病的龙",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 130546,
+          "chapter_name": "终章 林德沃姆的关键手术",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 130547,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 130548,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12752,
+      "id": 12752,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 130580,
+          "chapter_name": "序章 不定形之物",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 130581,
+          "chapter_name": "病例01 蜕皮的拉米亚",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 130582,
+          "chapter_name": "病例02 淤青的人马",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 130583,
+          "chapter_name": "病例03 打分的斯库拉(或者说休诊)",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 130584,
+          "chapter_name": "病例04 魔改造的肉身魔像",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 130585,
+          "chapter_name": "病例05 刚力的巨人",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 130586,
+          "chapter_name": "病例06 双影的人鱼",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 130587,
+          "chapter_name": "尾声 墓场街的分身",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 130600,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "黑之召唤士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 纯洁冰姬",
+  "last_update_volume_name": "第五卷 魔王苏醒",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12527,
-  "last_update_chapter_id": 128228,
-  "last_update_time": 1661703213,
+  "last_update_volume_id": 12751,
+  "last_update_chapter_id": 130601,
+  "last_update_time": 1667662608,
   "cover": "http://xs.dmzj.com/img/webpic/17/hzh0609l.jpg",
-  "hot_hits": 641030,
+  "hot_hits": 683126,
   "introduction": "　　男子在陌生的地方醒来，发现自己完全失去记忆，既不认得身处的地方，也忘了是什麽身分。他询问导引者，才知道自己获得转生至异世界的权利，并且以所有前世记忆为代价，换取了稀有技能，成功转生为召唤士『凯尔文』。甚至连这个世界的女神·玫璐妃娜也是他的从属——！？於是，冒险者生活就此展开。『古城恶灵骑士』丶『深窟恶魔』——面对陆续现身的强敌，男子不自禁地露出微笑，他的模样俨然是名战斗成瘾者！身穿黑色长袍的重度战斗成瘾者和伙伴一起往『英雄』之路迈进！痛快淋漓的战斗奇幻小说，隆重登场！",
   "types": [
     "异界",
@@ -18,7 +18,7 @@
   ],
   "authors": "迷井豆腐",
   "first_letter": "H",
-  "subscribe_num": 26729,
+  "subscribe_num": 28843,
   "volume": [
     {
       "id": 8732,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1496993155,
-      "sum_chapters": 7
+      "sum_chapters": 16
     },
     {
       "id": 9396,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 虚伪的英雄",
       "volume_order": 20,
       "addtime": 1525272153,
-      "sum_chapters": 7
+      "sum_chapters": 16
     },
     {
       "id": 10140,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 魔兽大军",
       "volume_order": 30,
       "addtime": 1559050166,
-      "sum_chapters": 7
+      "sum_chapters": 16
     },
     {
       "id": 12527,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷 纯洁冰姬",
       "volume_order": 40,
       "addtime": 1661700751,
-      "sum_chapters": 7
+      "sum_chapters": 16
+    },
+    {
+      "id": 12751,
+      "lnovel_id": 2336,
+      "volume_name": "第五卷 魔王苏醒",
+      "volume_order": 50,
+      "addtime": 1667661253,
+      "sum_chapters": 16
     }
   ],
   "chapters": [
@@ -283,6 +291,39 @@
           "chapter_id": 128228,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12751,
+      "id": 12751,
+      "volume_name": "第五卷 魔王苏醒",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 130576,
+          "chapter_name": "第一章 龙骑兵团",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 130577,
+          "chapter_name": "第二章 魔王讨伐同盟",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 130578,
+          "chapter_name": "第三章 降临",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 130579,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 130601,
+          "chapter_name": "插画",
+          "chapter_order": 50
         }
       ]
     }
