@@ -3,13 +3,13 @@
   "name": "我推是反派大小姐",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 10633,
-  "last_update_chapter_id": 103768,
-  "last_update_time": 1582708701,
-  "cover": "https://xs.dmzj.com/img/webpic/17/tey1021l.jpg",
-  "hot_hits": 166537,
+  "last_update_volume_id": 12760,
+  "last_update_chapter_id": 130762,
+  "last_update_time": 1668010327,
+  "cover": "http://xs.dmzj.com/img/webpic/17/tey1021l.jpg",
+  "hot_hits": 749292,
   "introduction": "「虽然我是乙女向游戏的女主角，但我不能喜欢反派大小姐吗？」\n就职于黑心企业的社畜OL大桥零转生成为了乙女向游戏「Revolution」的女主角。\n转生后的她想做的，不是与攻略对象们谈恋爱——而是一味地疼爱调戏反派大小姐克莱尔•弗朗索瓦。",
   "types": [
     "异界",
@@ -18,8 +18,7 @@
   ],
   "authors": "いのり。",
   "first_letter": "W",
-  "subscribe_num": 15124,
-  "redis_update_time": 1582849024,
+  "subscribe_num": 45194,
   "volume": [
     {
       "id": 10393,
@@ -27,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1571662994,
-      "sum_chapters": 9
+      "sum_chapters": 15
     },
     {
       "id": 10633,
@@ -35,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1582616463,
-      "sum_chapters": 9
+      "sum_chapters": 15
+    },
+    {
+      "id": 12760,
+      "lnovel_id": 2740,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1668007554,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -137,6 +144,89 @@
           "chapter_id": 103768,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 12760,
+      "id": 12760,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 130693,
+          "chapter_name": "第九章 新生活篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 130694,
+          "chapter_name": "第十章 帝国国学馆入学篇",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 130695,
+          "chapter_name": "幕间：笼中鸟的求偶之歌（菲莉妮•纳阿）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 130696,
+          "chapter_name": "第十一章 暗杀教皇篇",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 130697,
+          "chapter_name": "幕间•出轨【意外】（克蕾雅•弗朗索瓦）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 130698,
+          "chapter_name": "幕间•笑容（教皇克拉丽斯•雷佩特三世）",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 130699,
+          "chapter_name": "番外篇1 有得有失",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 130700,
+          "chapter_name": "番外篇2 婚礼",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 130701,
+          "chapter_name": "番外篇3 甜酒",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 130702,
+          "chapter_name": "番外篇4 生日",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 130703,
+          "chapter_name": "番外篇5 圣夜祭",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 130704,
+          "chapter_name": "番外篇6 这种痛苦并非神罚（莉莉•利利乌姆）",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 130705,
+          "chapter_name": "卷末新作短篇小说 穿越时空的（？）克蕾雅",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 130706,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 130762,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }

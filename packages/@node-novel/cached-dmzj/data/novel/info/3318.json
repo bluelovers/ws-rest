@@ -3,11 +3,11 @@
   "name": "关于被百合夹在中间的我，顺势脚踏两只船这件事",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "特典 在速食快餐店内",
-  "last_update_volume_id": 12407,
-  "last_update_chapter_id": 129733,
-  "last_update_time": 1665152282,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12759,
+  "last_update_chapter_id": 130665,
+  "last_update_time": 1667827901,
   "cover": "http://xs.dmzj.com/img/webpic/4/jbh0717l.jpg",
   "hot_hits": 17980,
   "introduction": "史上最渣！？但却是正儿八经的百合恋爱喜剧！\n这一学校有着俩位被称为[圣域]的美少女。像公主一般清纯可怜的百瀬由那与一不小心便会错看为王子的俊秀俏丽的合羽凛花。两人两小无猜，关系极好。然而，将这等珍奇的百合花园践踏扰乱的不守规矩之人出现了…………没错，就是我\n甚至并不仅止步于当个大灯泡，被两方给告白的本人间四叶，由于太过优柔寡断最终导致了与两人同时交往的情况。嗯？怎么会这样！？这对她俩当然是保密的。即使如此我还是想让两人都获得幸福。这样的话就只能隐藏到底了…………脚踏两只船！史上最渣！？但却是正儿八经的百合恋爱喜剧！",
@@ -17,7 +17,7 @@
   ],
   "authors": "としぞう",
   "first_letter": "G",
-  "subscribe_num": 2503,
+  "subscribe_num": 4075,
   "volume": [
     {
       "id": 12407,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1658061216,
-      "sum_chapters": 9
+      "sum_chapters": 15
+    },
+    {
+      "id": 12759,
+      "lnovel_id": 3318,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1667827008,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -88,6 +96,69 @@
         {
           "chapter_id": 129733,
           "chapter_name": "特典 在速食快餐店内",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 12759,
+      "id": 12759,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 130653,
+          "chapter_name": "序言「恋爱与愿望」",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 130654,
+          "chapter_name": "第一话「暑假前总归要面对的拦路虎」",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 130655,
+          "chapter_name": "第二话「轻浪浮薄的我的约会事」",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 130656,
+          "chapter_name": "第三话「悲报：这姐姐恐怕是当不成了」",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 130657,
+          "chapter_name": "第四话「我的救世主们」",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 130658,
+          "chapter_name": "闲话「樱与葵的○○○大作战」",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 130659,
+          "chapter_name": "第五话「四叶的温泉和好大作战」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 130660,
+          "chapter_name": "第六话「姐妹」",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 130661,
+          "chapter_name": "尾声「我们的将来」",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 130662,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 130665,
+          "chapter_name": "插画",
           "chapter_order": 110
         }
       ]
