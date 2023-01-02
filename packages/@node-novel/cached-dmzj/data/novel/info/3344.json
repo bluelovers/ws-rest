@@ -3,13 +3,13 @@
   "name": "魔导书学园的禁书少女",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 少年，一同书写禁忌吧",
+  "last_update_volume_name": "第二卷 少年，一同立下誓约吧",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12494,
-  "last_update_chapter_id": 127668,
-  "last_update_time": 1660392011,
+  "last_update_volume_id": 12792,
+  "last_update_chapter_id": 131266,
+  "last_update_time": 1669218872,
   "cover": "http://xs.dmzj.com/img/webpic/8/mdx0813l.jpg",
-  "hot_hits": 2328,
+  "hot_hits": 7153,
   "introduction": "这个世界的魔法师全都在自己的精神世界中持有“书”和“书架”，能够将上面所记载的故事转换成术式使用。\n魔法师们所就读的学园，通称『无限图书馆』。名叫莲的少年以历届最低分入学。\n他所持有的书中什么都没写，是世上唯一的“白纸”书持有者，无法使用像样的魔法，也因此沦为吊车尾。\n然而，他以某种方法压倒性战胜了历代最高得分的学生。一位自称安妮的神秘少女参观过他的战斗后看上了他。\n「有一手嘛，少年！你来成为我的伴侣吧」\n可是在同安妮共同行动的过程中，莲得知一件事。\n——她所拥有的书，是将世界引向毁灭的“禁书”。\n两位异端将改变世界，围绕禁书的学园奇幻剧，开幕！",
   "types": [
     "爱情",
@@ -18,7 +18,7 @@
   ],
   "authors": "绫里惠史",
   "first_letter": "M",
-  "subscribe_num": 413,
+  "subscribe_num": 1751,
   "volume": [
     {
       "id": 12494,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷 少年，一同书写禁忌吧",
       "volume_order": 10,
       "addtime": 1660391217,
-      "sum_chapters": 16
+      "sum_chapters": 8
+    },
+    {
+      "id": 12792,
+      "lnovel_id": 3344,
+      "volume_name": "第二卷 少年，一同立下誓约吧",
+      "volume_order": 20,
+      "addtime": 1669216600,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -133,6 +141,114 @@
         },
         {
           "chapter_id": 127668,
+          "chapter_name": "插画",
+          "chapter_order": 200
+        }
+      ]
+    },
+    {
+      "volume_id": 12792,
+      "id": 12792,
+      "volume_name": "第二卷 少年，一同立下誓约吧",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 131183,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 131184,
+          "chapter_name": "第一章 安宁与动荡",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 131185,
+          "chapter_name": "第二章 『魔导战争』开幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 131186,
+          "chapter_name": "第三章 一名战将",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 131187,
+          "chapter_name": "第四章 战斗的起点与同伴们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 131188,
+          "chapter_name": "第五章 第一座塔——快乐杀人魔",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 131189,
+          "chapter_name": "第六章 告白与爆炸",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 131190,
+          "chapter_name": "第七章 『安妮』",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 131191,
+          "chapter_name": "第八章 第二座塔——哥哥",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 131192,
+          "chapter_name": "第九章 寄生世家",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 131193,
+          "chapter_name": "第十章 朋友们的激战",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 131194,
+          "chapter_name": "十一章 你活着便是给我的救赎",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 131195,
+          "chapter_name": "十二章 第三座塔——过去",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 131196,
+          "chapter_name": "十三章 仇人与真相",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 131197,
+          "chapter_name": "十四章 『禁书少女』",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 131198,
+          "chapter_name": "十五章 搭档的死斗",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 131199,
+          "chapter_name": "十六章 不是孤身一人",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 131200,
+          "chapter_name": "终章",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 131201,
+          "chapter_name": "后记",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 131266,
           "chapter_name": "插画",
           "chapter_order": 200
         }

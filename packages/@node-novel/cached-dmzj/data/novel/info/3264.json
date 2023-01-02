@@ -3,13 +3,13 @@
   "name": "灰原君的青春二周目（NEW GAME+）",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12268,
-  "last_update_chapter_id": 125413,
-  "last_update_time": 1655132571,
+  "last_update_volume_id": 12868,
+  "last_update_chapter_id": 132070,
+  "last_update_time": 1672328063,
   "cover": "http://xs.dmzj.com/img/webpic/19/hy0613l.jpg",
-  "hot_hits": 12571,
+  "hot_hits": 14710,
   "introduction": "高中出道失败，经历了灰色的高中时代后成为大四学生的青年·灰原春希。即将成为社会人的他在某一天突然，时间回溯到7年前——高中入学的前夕。\n获得「重置」只有后悔的高中生活机会的夏希，活用过去的经验成功成为了班级最高等级的俊男美女六人团队中的一员。\n而且那里还有他曾经单恋过的美少女·阳花里的身影……！？\n无自觉的高水平青年在现实重新演绎第二次的青春，二周目（NEW GAME+）校园恋爱喜剧！",
   "types": [
     "校园",
@@ -18,7 +18,7 @@
   ],
   "authors": "雨宫和希",
   "first_letter": "H",
-  "subscribe_num": 1494,
+  "subscribe_num": 2215,
   "volume": [
     {
       "id": 12268,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1655129606,
-      "sum_chapters": 15
+      "sum_chapters": 8
+    },
+    {
+      "id": 12868,
+      "lnovel_id": 3264,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1672326743,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -75,6 +83,44 @@
           "chapter_id": 125413,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12868,
+      "id": 12868,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 132044,
+          "chapter_name": "序章 极其普通的，初恋",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 132045,
+          "chapter_name": "第一章 提升好感度",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 132046,
+          "chapter_name": "第二章 给淋雨的你撑起伞",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 132047,
+          "chapter_name": "第三章 愿望",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 132048,
+          "chapter_name": "终章 各自都跟往常一样",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 132070,
+          "chapter_name": "插画",
+          "chapter_order": 60
         }
       ]
     }

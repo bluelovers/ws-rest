@@ -2,21 +2,21 @@
   "id": 3439,
   "name": "魔物娘的医生",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第九卷",
+  "status": "已完结",
+  "last_update_volume_name": "第十卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12772,
-  "last_update_chapter_id": 130950,
-  "last_update_time": 1668265957,
+  "last_update_volume_id": 12797,
+  "last_update_chapter_id": 131290,
+  "last_update_time": 1669304344,
   "cover": "http://xs.dmzj.com/img/webpic/28/mwn1030l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 192,
   "introduction": "医生格伦在魔族和人类共存的街道“林德·沃尔姆”和助手拉米亚族的莎妃一起经营着诊疗所。怪物少女们连日接到各种各样的诊断委托，评价非常好。有的时候会看穿斗技场的缇萨莉亚的症状而被求婚，还有的时候会把手伸进美人鱼的腮部进行触诊，缝合新鲜黄金周身体的关键部分…。格伦只是在认真地治疗。在这样的日常生活中，突然出现了瞄准Happy蛋的贼…？",
   "types": [
     "奇幻"
   ],
   "authors": "折口良乃",
   "first_letter": "M",
-  "subscribe_num": 2829,
+  "subscribe_num": 4074,
   "volume": [
     {
       "id": 12740,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1667115817,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12741,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1667225259,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12748,
@@ -40,7 +40,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1667561504,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12752,
@@ -48,7 +48,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1667661382,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12758,
@@ -56,7 +56,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1667826774,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12761,
@@ -64,7 +64,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1668007662,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12762,
@@ -72,7 +72,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1668007813,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12763,
@@ -80,7 +80,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1668007965,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12770,
@@ -88,7 +88,7 @@
       "volume_name": "第零卷",
       "volume_order": 90,
       "addtime": 1668075295,
-      "sum_chapters": 15
+      "sum_chapters": 8
     },
     {
       "id": 12772,
@@ -96,7 +96,15 @@
       "volume_name": "第九卷",
       "volume_order": 100,
       "addtime": 1668250796,
-      "sum_chapters": 15
+      "sum_chapters": 8
+    },
+    {
+      "id": 12797,
+      "lnovel_id": 3439,
+      "volume_name": "第十卷",
+      "volume_order": 110,
+      "addtime": 1669303390,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -582,6 +590,49 @@
           "chapter_id": 130950,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12797,
+      "id": 12797,
+      "volume_name": "第十卷",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 131268,
+          "chapter_name": "序章 仲夏昼之梦",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 131269,
+          "chapter_name": "病例1 行踪不明的杜拉罕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 131270,
+          "chapter_name": "病例2 未亡人的拉米亚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 131271,
+          "chapter_name": "病例3 坏死的神",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 131272,
+          "chapter_name": "病例4 还没死的医生",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 131273,
+          "chapter_name": "尾声 即使有一天将到那里",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 131290,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }

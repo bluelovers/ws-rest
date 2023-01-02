@@ -3,13 +3,13 @@
   "name": "奥尔雷斯塔神殿物语",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 圣女维多利亚的考察",
+  "last_update_volume_name": "第二卷 圣女维多利亚的逡巡",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12737,
-  "last_update_chapter_id": 130406,
-  "last_update_time": 1666959354,
+  "last_update_volume_id": 12798,
+  "last_update_chapter_id": 131410,
+  "last_update_time": 1669726947,
   "cover": "http://xs.dmzj.com/img/webpic/0/snkc1028l.jpg",
-  "hot_hits": 0,
+  "hot_hits": 36,
   "introduction": "维多利亚，一个能看到灵魂的女孩，是管理和平的(神殿)的圣女之一。然而，她的能力被怀疑，被判处流刑。然后，来自边疆的骑士埃德拉斯出现在她面前。维多利亚与埃德拉斯一起前往他的家乡，并开始调查他出生的秘密，但这是一个涉及帝国王位继承权斗争的阴谋的开始。一封皇帝妻子留下的信，一位20年前被谋杀的王子--圣女揭开皇家宫廷神秘面纱的幻想推理剧！",
   "types": [
     "爱情",
@@ -18,7 +18,7 @@
   ],
   "authors": "春间タツキ",
   "first_letter": "A",
-  "subscribe_num": 155,
+  "subscribe_num": 792,
   "volume": [
     {
       "id": 12737,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷 圣女维多利亚的考察",
       "volume_order": 10,
       "addtime": 1666958384,
-      "sum_chapters": 7
+      "sum_chapters": 8
+    },
+    {
+      "id": 12798,
+      "lnovel_id": 3435,
+      "volume_name": "第二卷 圣女维多利亚的逡巡",
+      "volume_order": 20,
+      "addtime": 1669303578,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -88,6 +96,69 @@
         },
         {
           "chapter_id": 130406,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 12798,
+      "id": 12798,
+      "volume_name": "第二卷 圣女维多利亚的逡巡",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 131274,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 131275,
+          "chapter_name": "第一话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 131276,
+          "chapter_name": "第二话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 131277,
+          "chapter_name": "第三话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 131278,
+          "chapter_name": "第四话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 131279,
+          "chapter_name": "第五话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 131280,
+          "chapter_name": "第六话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 131281,
+          "chapter_name": "第七话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 131363,
+          "chapter_name": "第八话",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 131409,
+          "chapter_name": "最终话",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 131410,
           "chapter_name": "插画",
           "chapter_order": 110
         }
