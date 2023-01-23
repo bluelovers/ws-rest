@@ -3,13 +3,13 @@
   "name": "86- Eighty Six -",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "短篇",
-  "last_update_chapter_name": "联邦篇漫画第1卷短篇 你的事情",
-  "last_update_volume_id": 9276,
-  "last_update_chapter_id": 128049,
-  "last_update_time": 1661350009,
+  "last_update_volume_name": "第十一卷 Dies passionis",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12841,
+  "last_update_chapter_id": 131824,
+  "last_update_time": 1671340390,
   "cover": "http://xs.dmzj.com/img/webpic/5/860319l.jpg",
-  "hot_hits": 3740764,
+  "hot_hits": 3796490,
   "introduction": "圣玛格诺里亚共和国无日无夜不在遭受着由其邻国「帝国」的无人兵器《Legion》发起的侵略。不过万幸的是，共和国也成功研发出同型兵器以应对其攻势。勉勉强强地在没有人员伤亡的情况下，化解了邻国对自己的威胁。\n没错——明面上确实如此。\n但是，实际上伤亡者并非为零。在共和国85区之外存在着《不存在的“第86区”》里，被烙上「86」印记的少年少女们，驾驶着名为《有人驾驶的无人机》，日以继夜地战斗着。\n率领着年轻士兵昂首迈向黄泉的少年·辛，与从大后方通过某种特殊的通信手段指挥着他们作战、名为蕾娜的少女指挥管制官（Handler）\n发生在他们两人之间激烈又悲惨的战斗以及离别的故事，在此拉开帷幕——！",
   "types": [
     "战争",
@@ -17,7 +17,7 @@
   ],
   "authors": "安里アサト",
   "first_letter": "8",
-  "subscribe_num": 149697,
+  "subscribe_num": 157034,
   "volume": [
     {
       "id": 8561,
@@ -113,6 +113,14 @@
       "volume_name": "第十卷 Fragmental neoteny",
       "volume_order": 120,
       "addtime": 1660138946,
+      "sum_chapters": 7
+    },
+    {
+      "id": 12841,
+      "lnovel_id": 2301,
+      "volume_name": "第十一卷 Dies passionis",
+      "volume_order": 130,
+      "addtime": 1671338722,
       "sum_chapters": 7
     }
   ],
@@ -1075,6 +1083,94 @@
           "chapter_id": 127607,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 12841,
+      "id": 12841,
+      "volume_name": "第十一卷 Dies passionis",
+      "volume_order": 130,
+      "chapters": [
+        {
+          "chapter_id": 131788,
+          "chapter_name": "星历二一五○年 九月二十九日 D-2日",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 131789,
+          "chapter_name": "星历二一五○年 九月三十日 D-1日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 131790,
+          "chapter_name": "星历二一五○年 十月一日 D日（作战当日）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 131791,
+          "chapter_name": "星历二一五○年 十月二日 D+1日",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 131792,
+          "chapter_name": "共和历三五八年 「军团」战争开战时",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 131793,
+          "chapter_name": "星历二一五○年 十月四日 D+3日",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 131794,
+          "chapter_name": "共和历三六八年 八月二十七日「第一次大规模攻势」两天后 贝尔特艾德埃卡利特沦陷",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 131795,
+          "chapter_name": "星历二一五○年 十月十一日 D+10日",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 131796,
+          "chapter_name": "共和历三六八年 八月二十六日「大规模攻势」一天后 东部战线第一战区 「先锋」队舍沦陷后",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 131797,
+          "chapter_name": "星历二一五○年 十月十二日 D+11日",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 131798,
+          "chapter_name": "共和历三六八年 八月二十六日「大规模攻势」后不到一小时 贝尔特艾德埃卡利特",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 131799,
+          "chapter_name": "星历二一五○年 十月十二日 D+11日 第一曙暮时刻",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 131800,
+          "chapter_name": "星历二一五○年 十月十九日 D+18日",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 131801,
+          "chapter_name": "共和历三六八年 八月二十七日「大规模攻势」两天后 第一行政区",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 131802,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 131824,
+          "chapter_name": "插画",
+          "chapter_order": 160
         }
       ]
     }

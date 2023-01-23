@@ -2,14 +2,14 @@
   "id": 2306,
   "name": "青春歌舞伎",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第五卷",
-  "last_update_chapter_name": "第五幕",
-  "last_update_volume_id": 8820,
-  "last_update_chapter_id": 77279,
-  "last_update_time": 1499601810,
-  "cover": "https://xs.dmzj.com/img/webpic/11/gwu0415l.jpg",
-  "hot_hits": 1658,
+  "status": "已完结",
+  "last_update_volume_name": "第七卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12835,
+  "last_update_chapter_id": 131762,
+  "last_update_time": 1671200798,
+  "cover": "http://xs.dmzj.com/img/webpic/11/gwu0415l.jpg",
+  "hot_hits": 2786,
   "introduction": "　　高一的来栖黑悟（小黑）受祖父影响热爱歌舞伎，一心想在校内演出，学校却没有歌舞伎社团。\n　　「那就创社吧！」\n　　只要募集五人，就能达到成立同好会的目标，除了小黑和好友眼镜男「蜻蜓」外，候选名单有三：\n　　传说是梨园子弟的乐团主唱阿久津──其实是音痴。\n　　拥有庞大粉丝团的戏剧社招牌浅葱──其实是女生。\n　　自幼学习日本舞踊的天才少年丹羽──现在放弃了。\n　　坎坷不断的歌舞伎之路，真有可能成功吗？",
   "types": [
     "校园",
@@ -17,8 +17,7 @@
   ],
   "authors": "榎田ユウリ",
   "first_letter": "Q",
-  "subscribe_num": 846,
-  "redis_update_time": 1564294505,
+  "subscribe_num": 1130,
   "volume": [
     {
       "id": 8605,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1492270706,
-      "sum_chapters": 3
+      "sum_chapters": 7
     },
     {
       "id": 8606,
@@ -34,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1492270941,
-      "sum_chapters": 3
+      "sum_chapters": 7
     },
     {
       "id": 8607,
@@ -42,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1492271232,
-      "sum_chapters": 3
+      "sum_chapters": 7
     },
     {
       "id": 8678,
@@ -50,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1494862803,
-      "sum_chapters": 3
+      "sum_chapters": 7
     },
     {
       "id": 8820,
@@ -58,7 +57,23 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1499601573,
-      "sum_chapters": 3
+      "sum_chapters": 7
+    },
+    {
+      "id": 12834,
+      "lnovel_id": 2306,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1671194411,
+      "sum_chapters": 7
+    },
+    {
+      "id": 12835,
+      "lnovel_id": 2306,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1671194416,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -354,6 +369,102 @@
           "chapter_id": 77277,
           "chapter_name": "卷末附录 给还没看过歌舞伎的你",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 12834,
+      "id": 12834,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 131718,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 131719,
+          "chapter_name": "序幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 131720,
+          "chapter_name": "幕间",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 131721,
+          "chapter_name": "第二幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 131722,
+          "chapter_name": "幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 131723,
+          "chapter_name": "第三幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 131724,
+          "chapter_name": "第四幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 131725,
+          "chapter_name": "第五幕",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12835,
+      "id": 12835,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 131726,
+          "chapter_name": "从第五幕稍微往前推一点",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 131727,
+          "chapter_name": "幕间",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 131728,
+          "chapter_name": "第六幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 131729,
+          "chapter_name": "第七幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 131730,
+          "chapter_name": "幕间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 131731,
+          "chapter_name": "终幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 131732,
+          "chapter_name": "谢幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 131762,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

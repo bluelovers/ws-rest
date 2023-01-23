@@ -1,15 +1,15 @@
 {
   "id": 2534,
-  "name": "不是真正同伴的我被逐出了勇者队伍，因此决定在边境过上慢生活",
+  "name": "因为不是真正的伙伴而被逐出勇者队伍，流落到边境展开慢活人生",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第八卷",
+  "last_update_volume_name": "第九卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12123,
-  "last_update_chapter_id": 123710,
-  "last_update_time": 1648563040,
+  "last_update_volume_id": 12848,
+  "last_update_chapter_id": 131906,
+  "last_update_time": 1671720630,
   "cover": "http://xs.dmzj.com/img/webpic/13/bj0812l.jpg",
-  "hot_hits": 3541553,
+  "hot_hits": 3593456,
   "introduction": "自魔王的侵略使人类陷入危机时，从人类中诞生了勇者为起端。在这个世界里，所有人都有着自己的职责，主人公有着守护勇者的「引导者」之加护的力量，但因某个理由而被赶出了勇者队伍。",
   "types": [
     "异界",
@@ -18,8 +18,8 @@
     "后宫"
   ],
   "authors": "ざっぽん",
-  "first_letter": "B",
-  "subscribe_num": 96344,
+  "first_letter": "Y",
+  "subscribe_num": 98939,
   "volume": [
     {
       "id": 9624,
@@ -27,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1534062332,
-      "sum_chapters": 14
+      "sum_chapters": 7
     },
     {
       "id": 9686,
@@ -35,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1537181241,
-      "sum_chapters": 14
+      "sum_chapters": 7
     },
     {
       "id": 10230,
@@ -43,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1563101807,
-      "sum_chapters": 14
+      "sum_chapters": 7
     },
     {
       "id": 10262,
@@ -51,7 +51,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1564755782,
-      "sum_chapters": 14
+      "sum_chapters": 7
     },
     {
       "id": 10768,
@@ -59,7 +59,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1586597916,
-      "sum_chapters": 14
+      "sum_chapters": 7
     },
     {
       "id": 10803,
@@ -67,7 +67,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1587816740,
-      "sum_chapters": 14
+      "sum_chapters": 7
     },
     {
       "id": 11427,
@@ -75,7 +75,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1615556940,
-      "sum_chapters": 14
+      "sum_chapters": 7
     },
     {
       "id": 11750,
@@ -83,7 +83,7 @@
       "volume_name": "短篇",
       "volume_order": 80,
       "addtime": 1629476591,
-      "sum_chapters": 14
+      "sum_chapters": 7
     },
     {
       "id": 12123,
@@ -91,7 +91,15 @@
       "volume_name": "第八卷",
       "volume_order": 90,
       "addtime": 1648475528,
-      "sum_chapters": 14
+      "sum_chapters": 7
+    },
+    {
+      "id": 12848,
+      "lnovel_id": 2534,
+      "volume_name": "第九卷",
+      "volume_order": 100,
+      "addtime": 1671705906,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -629,6 +637,59 @@
           "chapter_id": 123710,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 12848,
+      "id": 12848,
+      "volume_name": "第九卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 131875,
+          "chapter_name": "序章 勇者不会迷惘",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 131876,
+          "chapter_name": "第一章 勇者应变对策",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 131877,
+          "chapter_name": "第二章 锁定坠入爱河的仙灵与贪婪的枢机卿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 131878,
+          "chapter_name": "第三章 偶尔也会有迷惘的时候",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 131879,
+          "chapter_name": "第四章 错乱，然后失控",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 131880,
+          "chapter_name": "第五章 勇者的挑战",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 131881,
+          "chapter_name": "尾声 终局，迈向下一段旅程",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 131882,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 131906,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

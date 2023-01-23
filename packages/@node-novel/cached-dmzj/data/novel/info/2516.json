@@ -3,13 +3,13 @@
   "name": "异世界悠闲农家",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第十卷",
+  "last_update_volume_name": "第十一卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12679,
-  "last_update_chapter_id": 129791,
-  "last_update_time": 1665236794,
+  "last_update_volume_id": 12895,
+  "last_update_chapter_id": 132412,
+  "last_update_time": 1673589073,
   "cover": "http://xs.dmzj.com/img/webpic/25/yx0709l.jpg",
-  "hot_hits": 833498,
+  "hot_hits": 833727,
   "introduction": "和病魔斗争但最终死去的火乐，被神大人所复活，回复年轻及转移在异世界。为了第二次人生，享受悠闲的农家生活。",
   "types": [
     "异界",
@@ -17,7 +17,7 @@
   ],
   "authors": "内藤骑之介",
   "first_letter": "Y",
-  "subscribe_num": 24962,
+  "subscribe_num": 27401,
   "volume": [
     {
       "id": 9554,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1531144930,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 10300,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1566472521,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 10611,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1581753197,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 10851,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1589362789,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 11112,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1599907259,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 11479,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1617800593,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 11765,
@@ -73,7 +73,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1629807122,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 11928,
@@ -81,7 +81,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1637853223,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 12081,
@@ -89,7 +89,7 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1646390799,
-      "sum_chapters": 9
+      "sum_chapters": 7
     },
     {
       "id": 12679,
@@ -97,7 +97,15 @@
       "volume_name": "第十卷",
       "volume_order": 100,
       "addtime": 1665235506,
-      "sum_chapters": 9
+      "sum_chapters": 7
+    },
+    {
+      "id": 12895,
+      "lnovel_id": 2516,
+      "volume_name": "第十一卷",
+      "volume_order": 110,
+      "addtime": 1673588663,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -551,6 +559,49 @@
         },
         {
           "chapter_id": 129791,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12895,
+      "id": 12895,
+      "volume_name": "第十一卷",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 132406,
+          "chapter_name": "序章 腐坏的身体",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 132407,
+          "chapter_name": "第一章 神敌",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 132408,
+          "chapter_name": "第二章 坠落之鸟",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 132409,
+          "chapter_name": "第三章 男孩们的婚事",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 132410,
+          "chapter_name": "终章 阿尔弗雷德的学园生活",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 132411,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 132412,
           "chapter_name": "插画",
           "chapter_order": 70
         }
