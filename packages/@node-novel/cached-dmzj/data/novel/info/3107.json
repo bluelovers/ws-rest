@@ -3,13 +3,13 @@
   "name": "古戒律的魔法骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12469,
-  "last_update_chapter_id": 128142,
-  "last_update_time": 1661699957,
+  "last_update_volume_name": "第五卷",
+  "last_update_chapter_name": "第三章 仅此一人的决战",
+  "last_update_volume_id": 12933,
+  "last_update_chapter_id": 132828,
+  "last_update_time": 1675090696,
   "cover": "http://xs.dmzj.com/img/webpic/11/gmf0809l.jpg",
-  "hot_hits": 53051,
+  "hot_hits": 56449,
   "introduction": "「“骑士仅诉说真实”」「“其心点亮勇气之火”」「“其剑守护弱者”」「“其力量支撑善行”」「“其愤怒——能毁灭邪恶”」——传说时代被称为最强骑士的同时，又有着「野蛮人」之称的希德•布利兹。\n通过卡尔巴尼亚的年轻「王子」之手实现复活的男子，作为魔法骑士学校的教官赴任。\n继承了创立者骑士理念的四个教室，他被分配到了冠以自己名字的吊车尾班级…「你们啊，作为骑士不会感到羞耻吗——先把剑舍弃吧」最强的骑士是野蛮人——新「教官」系列开幕!",
   "types": [
     "校园",
@@ -18,7 +18,7 @@
   ],
   "authors": "羊太郎",
   "first_letter": "G",
-  "subscribe_num": 4697,
+  "subscribe_num": 4939,
   "volume": [
     {
       "id": 11717,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1628505081,
-      "sum_chapters": 7
+      "sum_chapters": 23
     },
     {
       "id": 12069,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1646311938,
-      "sum_chapters": 7
+      "sum_chapters": 23
     },
     {
       "id": 12286,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1655557169,
-      "sum_chapters": 7
+      "sum_chapters": 23
     },
     {
       "id": 12469,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1659618215,
-      "sum_chapters": 7
+      "sum_chapters": 23
+    },
+    {
+      "id": 12933,
+      "lnovel_id": 3107,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1675090628,
+      "sum_chapters": 23
     }
   ],
   "chapters": [
@@ -278,6 +286,39 @@
           "chapter_id": 128142,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 12933,
+      "id": 12933,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 132824,
+          "chapter_name": "序章 古骑士们的往昔",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 132825,
+          "chapter_name": "第一章 宣告破灭之冬",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 132826,
+          "chapter_name": "幕间",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 132827,
+          "chapter_name": "第二章 无光世界的光辉",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 132828,
+          "chapter_name": "第三章 仅此一人的决战",
+          "chapter_order": 50
         }
       ]
     }

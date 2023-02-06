@@ -3,21 +3,20 @@
   "name": "死相学侦探",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 十三之咒",
+  "last_update_volume_name": "第二卷 四隅之魔",
   "last_update_chapter_name": "终章",
-  "last_update_volume_id": 9107,
-  "last_update_chapter_id": 81264,
-  "last_update_time": 1512292566,
-  "cover": "https://xs.dmzj.com/img/webpic/24/se1203l.jpg",
-  "hot_hits": 8966,
+  "last_update_volume_id": 12947,
+  "last_update_chapter_id": 132971,
+  "last_update_time": 1675609339,
+  "cover": "http://xs.dmzj.com/img/webpic/24/se1203l.jpg",
+  "hot_hits": 10775,
   "introduction": "融合本格推理与你内心的恐惧，开启侦探小说的全新可能性。\n弦矢俊一郎自幼即能看见依附在人类身上的不祥死亡阴影，外公将其能力称为「死视」。\n以这个能力作为卖点，他在神保町开了一家侦探事务所。第一位委托人是容貌媲美偶像明星的纱绫香──IT企业的青年老板对她一见钟情，却在婚礼前夕猝死，老家也接二连三发生怪事。\n纱绫香表情诡谲地描述事情经过时，在她露出的肌肤上，俊一郎看到令人不快的「东西」正蠢蠢欲动……",
   "types": [
     "侦探"
   ],
   "authors": "三津田信三",
   "first_letter": "S",
-  "subscribe_num": 1083,
-  "redis_update_time": 1564314424,
+  "subscribe_num": 1443,
   "volume": [
     {
       "id": 9107,
@@ -25,7 +24,15 @@
       "volume_name": "第一卷 十三之咒",
       "volume_order": 10,
       "addtime": 1512292454,
-      "sum_chapters": 9
+      "sum_chapters": 23
+    },
+    {
+      "id": 12947,
+      "lnovel_id": 2409,
+      "volume_name": "第二卷 四隅之魔",
+      "volume_order": 20,
+      "addtime": 1675609045,
+      "sum_chapters": 23
     }
   ],
   "chapters": [
@@ -147,6 +154,129 @@
         },
         {
           "chapter_id": 81264,
+          "chapter_name": "终章",
+          "chapter_order": 230
+        }
+      ]
+    },
+    {
+      "volume_id": 12947,
+      "id": 12947,
+      "volume_name": "第二卷 四隅之魔",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 132949,
+          "chapter_name": "一 百怪俱乐部",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 132950,
+          "chapter_name": "二 四隅之间",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 132951,
+          "chapter_name": "三 仪式的目的",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 132952,
+          "chapter_name": "四 地下室",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 132953,
+          "chapter_name": "五 暗黑游戏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 132954,
+          "chapter_name": "六 开端",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 132955,
+          "chapter_name": "七 百物语",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 132956,
+          "chapter_name": "八 第六人的真面目？",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 132957,
+          "chapter_name": "九 合理的解释",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 132958,
+          "chapter_name": "十 黑衣女子",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 132959,
+          "chapter_name": "十一 访客",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 132960,
+          "chapter_name": "十二 第二个人……",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 132961,
+          "chapter_name": "十三 委托人",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 132962,
+          "chapter_name": "十四 不同的死相",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 132963,
+          "chapter_name": "十五 恐怖的暗影",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 132964,
+          "chapter_name": "十六 黑色蕾丝",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 132965,
+          "chapter_name": "十七 四隅之魔",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 132966,
+          "chapter_name": "十八 第三个人……",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 132967,
+          "chapter_name": "十九 不明不白之死",
+          "chapter_order": 190
+        },
+        {
+          "chapter_id": 132968,
+          "chapter_name": "二十 消失的死相",
+          "chapter_order": 200
+        },
+        {
+          "chapter_id": 132969,
+          "chapter_name": "二十一 真相",
+          "chapter_order": 210
+        },
+        {
+          "chapter_id": 132970,
+          "chapter_name": "二十二 揭开黑色面纱",
+          "chapter_order": 220
+        },
+        {
+          "chapter_id": 132971,
           "chapter_name": "终章",
           "chapter_order": 230
         }

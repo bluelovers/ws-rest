@@ -3,20 +3,20 @@
   "name": "重组世界Rebuild World",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 下 死后报复委托程式",
+  "last_update_volume_name": "第三卷 上 地下遗迹",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12732,
-  "last_update_chapter_id": 130410,
-  "last_update_time": 1666960391,
+  "last_update_volume_id": 12935,
+  "last_update_chapter_id": 132869,
+  "last_update_time": 1675093029,
   "cover": "http://xs.dmzj.com/img/webpic/6/re0810l.jpg",
-  "hot_hits": 79604,
+  "hot_hits": 79629,
   "introduction": "这是一个为了寻求旧文明的遗产，无数猎手（Hunter）聚集在数之不尽的遗迹中尽显绝技的世界。\n新人猎手阿基拉，为了能脱离贫民窟，为了能扬名立万，赌上性命闯入了旧世界的遗迹，但他却在那里邂逅了迷之美女「阿尔法」。\n随后，她委托阿基拉去秘密攻略一处遗迹，为此她愿意把自己的力量借给助阿基拉——！？\n从两人缔结下契约的这一刻起，阿基拉和阿尔法波澜万丈的猎手生涯也就此拉开了帷幕！",
   "types": [
     "冒险"
   ],
   "authors": "ナフセ",
   "first_letter": "C",
-  "subscribe_num": 13885,
+  "subscribe_num": 14352,
   "volume": [
     {
       "id": 10280,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1565435965,
-      "sum_chapters": 7
+      "sum_chapters": 23
     },
     {
       "id": 11953,
@@ -32,7 +32,7 @@
       "volume_name": "第一卷 下 逞强荒唐鲁莽",
       "volume_order": 20,
       "addtime": 1639321893,
-      "sum_chapters": 7
+      "sum_chapters": 23
     },
     {
       "id": 12265,
@@ -40,7 +40,7 @@
       "volume_name": "第二卷 上 旧领域连结者",
       "volume_order": 30,
       "addtime": 1655128113,
-      "sum_chapters": 7
+      "sum_chapters": 23
     },
     {
       "id": 12732,
@@ -48,7 +48,15 @@
       "volume_name": "第二卷 下 死后报复委托程式",
       "volume_order": 40,
       "addtime": 1666956824,
-      "sum_chapters": 7
+      "sum_chapters": 23
+    },
+    {
+      "id": 12935,
+      "lnovel_id": 2709,
+      "volume_name": "第三卷 上 地下遗迹",
+      "volume_order": 50,
+      "addtime": 1675091008,
+      "sum_chapters": 23
     }
   ],
   "chapters": [
@@ -466,6 +474,99 @@
           "chapter_id": 130410,
           "chapter_name": "插画",
           "chapter_order": 220
+        }
+      ]
+    },
+    {
+      "volume_id": 12935,
+      "id": 12935,
+      "volume_name": "第三卷 上 地下遗迹",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 132837,
+          "chapter_name": "第70话 地下遗迹",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 132838,
+          "chapter_name": "第71话 变卖遗物的窍门",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 132839,
+          "chapter_name": "第72话 探索遗迹的伴手礼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 132840,
+          "chapter_name": "第73话 再度探索的成果",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 132841,
+          "chapter_name": "第74话 谢丽尔购物",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 132842,
+          "chapter_name": "第75话 克也与谢丽",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 132843,
+          "chapter_name": "第76话 回避冲突",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 132844,
+          "chapter_name": "第77话 谢丽尔一行人收集遗物",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 132845,
+          "chapter_name": "第78话 某人的阴谋",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 132846,
+          "chapter_name": "第79话 谢丽尔的灾难",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 132847,
+          "chapter_name": "第80话 情报的价值",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 132848,
+          "chapter_name": "第81话 出乎意料",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 132849,
+          "chapter_name": "第82话 遗迹的警备装置",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 132850,
+          "chapter_name": "第83话 心愿的代价",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 132851,
+          "chapter_name": "第84话 协助的理由与对象",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 132852,
+          "chapter_name": "第85话 试验未完",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 132869,
+          "chapter_name": "插画",
+          "chapter_order": 170
         }
       ]
     }

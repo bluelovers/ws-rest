@@ -3,13 +3,13 @@
   "name": "因想当冒险者而前往大都市的女儿已经升到了S级",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第九卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12475,
-  "last_update_chapter_id": 129189,
-  "last_update_time": 1663761575,
+  "last_update_volume_name": "第十卷",
+  "last_update_chapter_name": "第一三〇话",
+  "last_update_volume_id": 12927,
+  "last_update_chapter_id": 132772,
+  "last_update_time": 1675089561,
   "cover": "http://xs.dmzj.com/img/webpic/15/sjmxz0925l.jpg",
-  "hot_hits": 1021525,
+  "hot_hits": 1021538,
   "introduction": "在老家的农村过着如冒险者一般的生活的贝尔格里夫，将在森林里捡到的女儿安洁琳养大，送她前往大都市。\n收到久违的女儿即将回乡的消息，但却迟迟不见女儿回来，担心与日俱增。\n另一方面，已成为公会最高级别『S级』的安洁琳，想要回到最爱的父亲身边，但是……\n「到底要到什么时候才能让我去见父亲啊……！」",
   "types": [
     "冒险",
@@ -17,7 +17,7 @@
   ],
   "authors": "门司柿家",
   "first_letter": "Y",
-  "subscribe_num": 21315,
+  "subscribe_num": 21745,
   "volume": [
     {
       "id": 11140,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1601026933,
-      "sum_chapters": 10
+      "sum_chapters": 23
     },
     {
       "id": 11241,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1606222130,
-      "sum_chapters": 10
+      "sum_chapters": 23
     },
     {
       "id": 11242,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1606222808,
-      "sum_chapters": 10
+      "sum_chapters": 23
     },
     {
       "id": 11243,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1606223165,
-      "sum_chapters": 10
+      "sum_chapters": 23
     },
     {
       "id": 11260,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1607346575,
-      "sum_chapters": 10
+      "sum_chapters": 23
     },
     {
       "id": 11305,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1609758124,
-      "sum_chapters": 10
+      "sum_chapters": 23
     },
     {
       "id": 11570,
@@ -73,7 +73,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1622463404,
-      "sum_chapters": 10
+      "sum_chapters": 23
     },
     {
       "id": 12034,
@@ -81,7 +81,7 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1644240204,
-      "sum_chapters": 10
+      "sum_chapters": 23
     },
     {
       "id": 12475,
@@ -89,7 +89,15 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1659969745,
-      "sum_chapters": 10
+      "sum_chapters": 23
+    },
+    {
+      "id": 12927,
+      "lnovel_id": 2943,
+      "volume_name": "第十卷",
+      "volume_order": 100,
+      "addtime": 1675089456,
+      "sum_chapters": 23
     }
   ],
   "chapters": [
@@ -967,6 +975,44 @@
           "chapter_id": 129189,
           "chapter_name": "插画",
           "chapter_order": 180
+        }
+      ]
+    },
+    {
+      "volume_id": 12927,
+      "id": 12927,
+      "volume_name": "第十卷",
+      "volume_order": 100,
+      "chapters": [
+        {
+          "chapter_id": 132767,
+          "chapter_name": "第一二五话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 132768,
+          "chapter_name": "第一二六话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 132769,
+          "chapter_name": "第一二七话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 132770,
+          "chapter_name": "第一二八话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 132771,
+          "chapter_name": "第一二九话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 132772,
+          "chapter_name": "第一三〇话",
+          "chapter_order": 60
         }
       ]
     }
