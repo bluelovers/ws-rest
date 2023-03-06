@@ -3,12 +3,12 @@
   "name": "喷射人 JETMAN",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 爱上我吧！",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12851,
-  "last_update_chapter_id": 131904,
-  "last_update_time": 1671719707,
-  "cover": "http://xs.dmzj.com/img/webpic/23/je1222l.jpg",
+  "last_update_volume_name": "第三卷 在我的怀里沉睡吧！",
+  "last_update_chapter_name": "第七章 祝福",
+  "last_update_volume_id": 12986,
+  "last_update_chapter_id": 133537,
+  "last_update_time": 1677896576,
+  "cover": "https://xs.dmzj.com/img/webpic/23/je1222l.jpg",
   "hot_hits": 0,
   "introduction": "运用特殊的能源波照射人类的身体，让人体细胞飞跃性的进化出翅膀能在天空飞翔。本应诞生5名飞人的计划，在照射最初的一人——天堂龙之后，因遭到企图抹杀人类的拜拉姆攻击而受挫。剩余的能源波散落在地球各地上，四个不相识的普通人变成了飞人。\n计划的提案人小田切绫和龙找到了这四个人，试图说服他们以喷射人身份战斗…！？\n由TV系列编剧井上敏树执笔，雨宫庆太监督绘制的美丽插画，爱恨交织的成人英雄小说第1卷，期待已久的电子书！",
   "types": [
@@ -16,7 +16,7 @@
   ],
   "authors": "井上敏树",
   "first_letter": "P",
-  "subscribe_num": 129,
+  "subscribe_num": 307,
   "volume": [
     {
       "id": 12851,
@@ -24,7 +24,23 @@
       "volume_name": "第一卷 爱上我吧！",
       "volume_order": 10,
       "addtime": 1671719197,
-      "sum_chapters": 17
+      "sum_chapters": 14
+    },
+    {
+      "id": 12958,
+      "lnovel_id": 3490,
+      "volume_name": "第二卷 爆发的恋爱！",
+      "volume_order": 20,
+      "addtime": 1676527179,
+      "sum_chapters": 14
+    },
+    {
+      "id": 12986,
+      "lnovel_id": 3490,
+      "volume_name": "第三卷 在我的怀里沉睡吧！",
+      "volume_order": 30,
+      "addtime": 1677896474,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -73,6 +89,92 @@
           "chapter_id": 131904,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12958,
+      "id": 12958,
+      "volume_name": "第二卷 爆发的恋爱！",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 133169,
+          "chapter_name": "第三部 第一章 星祈",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 133170,
+          "chapter_name": "第二章 片恋",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 133171,
+          "chapter_name": "第三章 兽气",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 133172,
+          "chapter_name": "第四部 第一章 面具",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 133173,
+          "chapter_name": "第二章 冷魂",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 133174,
+          "chapter_name": "第三章 转身",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 133175,
+          "chapter_name": "第四章 魔叫",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 12986,
+      "id": 12986,
+      "volume_name": "第三卷 在我的怀里沉睡吧！",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 133531,
+          "chapter_name": "第五部 第一章 悲迹",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 133532,
+          "chapter_name": "第二章 腐伤",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 133533,
+          "chapter_name": "第三章 飞翔",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 133534,
+          "chapter_name": "第四章 泪兆",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 133535,
+          "chapter_name": "第五章 恶执",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 133536,
+          "chapter_name": "第六章 流命",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 133537,
+          "chapter_name": "第七章 祝福",
+          "chapter_order": 70
         }
       ]
     }

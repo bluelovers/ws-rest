@@ -3,21 +3,20 @@
   "name": "虚构推理",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 Sleeping Murder",
-  "last_update_chapter_name": "第六章 岩永琴子是个大学生",
-  "last_update_volume_id": 10966,
-  "last_update_chapter_id": 108153,
-  "last_update_time": 1593769137,
+  "last_update_volume_name": "短篇集2 岩永琴子的纯真",
+  "last_update_chapter_name": "第五话 斩杀雪女",
+  "last_update_volume_id": 12994,
+  "last_update_chapter_id": 133611,
+  "last_update_time": 1677899108,
   "cover": "https://xs.dmzj.com/img/webpic/26/xg0222l.jpg",
-  "hot_hits": 73868,
+  "hot_hits": 103461,
   "introduction": "虽然因为遭遇河童而分手，却仍对前任男友念念不忘的女性警官弓原紗季，与传说中穿着迷你裙并手持钢筋出现于夜里的亡灵·刚人七濑遭遇了。救助了她的，是正好人在那里的、拄着手杖且戴着贝雷帽的娇小少女·岩永琴子。琴子是为妖怪们仲裁及解决难题的人、并且竟然自称是紗季前男友·樱川九郎的现任女友。岩永与紗季以及后来会合的九郎三人为了消灭刚人七濑、开始了这一场充满欺瞒性质的虚构推理。",
   "types": [
     "侦探"
   ],
   "authors": "城平京",
   "first_letter": "X",
-  "subscribe_num": 25966,
-  "redis_update_time": 1593996547,
+  "subscribe_num": 32207,
   "volume": [
     {
       "id": 7657,
@@ -25,23 +24,31 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1459259084,
-      "sum_chapters": 2
+      "sum_chapters": 14
     },
     {
       "id": 10796,
       "lnovel_id": 2095,
-      "volume_name": "第二卷 岩永琴子的现身",
+      "volume_name": "短篇集 岩永琴子的现身",
       "volume_order": 20,
       "addtime": 1587649689,
-      "sum_chapters": 2
+      "sum_chapters": 14
     },
     {
       "id": 10966,
       "lnovel_id": 2095,
-      "volume_name": "第三卷 Sleeping Murder",
+      "volume_name": "第二卷 Sleeping Murder",
       "volume_order": 30,
       "addtime": 1593768457,
-      "sum_chapters": 2
+      "sum_chapters": 14
+    },
+    {
+      "id": 12994,
+      "lnovel_id": 2095,
+      "volume_name": "短篇集2 岩永琴子的纯真",
+      "volume_order": 40,
+      "addtime": 1677899025,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -96,7 +103,7 @@
     {
       "volume_id": 10796,
       "id": 10796,
-      "volume_name": "第二卷 岩永琴子的现身",
+      "volume_name": "短篇集 岩永琴子的现身",
       "volume_order": 20,
       "chapters": [
         {
@@ -134,7 +141,7 @@
     {
       "volume_id": 10966,
       "id": 10966,
-      "volume_name": "第三卷 Sleeping Murder",
+      "volume_name": "第二卷 Sleeping Murder",
       "volume_order": 30,
       "chapters": [
         {
@@ -176,6 +183,44 @@
           "chapter_id": 108153,
           "chapter_name": "第六章 岩永琴子是个大学生",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12994,
+      "id": 12994,
+      "volume_name": "短篇集2 岩永琴子的纯真",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 133606,
+          "chapter_name": "登场人物＆事件介绍",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 133607,
+          "chapter_name": "第一话 雪女的窘境",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 133608,
+          "chapter_name": "第二话 仔细想想也不是不恐怖的故事",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 133609,
+          "chapter_name": "第三话 死者的不确切留言",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 133610,
+          "chapter_name": "第四话 不瞄标靶地射靶",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 133611,
+          "chapter_name": "第五话 斩杀雪女",
+          "chapter_order": 60
         }
       ]
     }

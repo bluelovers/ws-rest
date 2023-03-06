@@ -3,20 +3,20 @@
   "name": "结与书",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "短篇",
-  "last_update_chapter_name": "悠人学长名字背后的故事",
-  "last_update_volume_id": 11732,
-  "last_update_chapter_id": 123041,
-  "last_update_time": 1646317366,
-  "cover": "http://xs.dmzj.com/img/webpic/18/wk0123l.jpg",
-  "hot_hits": 12294,
+  "last_update_volume_name": "外传二 七册《神曲》判罪的七位但丁",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 12977,
+  "last_update_chapter_id": 133408,
+  "last_update_time": 1677153070,
+  "cover": "https://xs.dmzj.com/img/webpic/18/wk0123l.jpg",
+  "hot_hits": 14262,
   "introduction": "书是深深爱着读者们。\n能听到书声的少年榎木结，在某个车站的借书角上遇到了一本儿童书，她迫切地说着“无论如何也要回到小花那里”。被恋人夜长姬（书）嫉妒，在解决学院王子·姬仓学长的委托时，终于找到了“小花”……结究竟能够实现书本们的愿望吗？还有除了标题作品，泉镜花的《外科室》之外的，“书的伙伴”！榎木结解决各种各样人和书问题的校园推理故事就此登场！",
   "types": [
     "侦探"
   ],
   "authors": "野村美月",
   "first_letter": "J",
-  "subscribe_num": 3315,
+  "subscribe_num": 3644,
   "volume": [
     {
       "id": 11332,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷 『外科室』的一途",
       "volume_order": 10,
       "addtime": 1611408015,
-      "sum_chapters": 7
+      "sum_chapters": 14
     },
     {
       "id": 11721,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷 『呼啸山庄』的继承人",
       "volume_order": 20,
       "addtime": 1628594166,
-      "sum_chapters": 7
+      "sum_chapters": 14
     },
     {
       "id": 11732,
@@ -40,7 +40,7 @@
       "volume_name": "短篇",
       "volume_order": 30,
       "addtime": 1628849887,
-      "sum_chapters": 7
+      "sum_chapters": 14
     },
     {
       "id": 11751,
@@ -48,7 +48,15 @@
       "volume_name": "外传一 『最后的书店』长长的落幕",
       "volume_order": 40,
       "addtime": 1629476666,
-      "sum_chapters": 7
+      "sum_chapters": 14
+    },
+    {
+      "id": 12977,
+      "lnovel_id": 2990,
+      "volume_name": "外传二 七册《神曲》判罪的七位但丁",
+      "volume_order": 50,
+      "addtime": 1677152526,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -216,6 +224,69 @@
           "chapter_id": 119308,
           "chapter_name": "后记",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 12977,
+      "id": 12977,
+      "volume_name": "外传二 七册《神曲》判罪的七位但丁",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 133398,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 133399,
+          "chapter_name": "第一个P 暴食",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 133400,
+          "chapter_name": "第二个P 色欲",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 133401,
+          "chapter_name": "第三个P 骄傲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 133402,
+          "chapter_name": "第四个P 贪婪",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 133403,
+          "chapter_name": "第五个P 懒惰",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 133404,
+          "chapter_name": "第六个P 嫉妒",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 133405,
+          "chapter_name": "第七个P 愤怒",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 133406,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 133407,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 133408,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }

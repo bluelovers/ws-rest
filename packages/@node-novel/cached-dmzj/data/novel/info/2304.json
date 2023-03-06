@@ -3,13 +3,13 @@
   "name": "狼与羊皮纸：狼与辛香料新说",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第七卷",
+  "last_update_volume_name": "第八卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12645,
-  "last_update_chapter_id": 129467,
-  "last_update_time": 1664461382,
-  "cover": "http://xs.dmzj.com/img/webpic/8/ypz0404l.jpg",
-  "hot_hits": 332900,
+  "last_update_volume_id": 12989,
+  "last_update_chapter_id": 133643,
+  "last_update_time": 1677903445,
+  "cover": "https://xs.dmzj.com/img/webpic/8/ypz0404l.jpg",
+  "hot_hits": 332912,
   "introduction": "　　立志成为圣职者的青年柯尔，离开恩人劳伦斯经营的温泉旅店『狼与香辛料』，开始了旅行。他受温菲尔王国的王子之邀，将协助矫正该国教会的不正行为。而柯尔的行李中，竟然藏着一个拥有狼耳和狼尾可爱少女，缪莉──？曾伴随着贤狼赫萝与旅行商人罗伦斯的流浪少年柯尔已经成长为青年，并和罗伦斯夫妇的女儿缪莉如兄妹般朝夕生活。可捣蛋的缪莉不但反对柯尔的旅行，更是偷偷钻进了他的行李中，企图离家出走。\n　　『狼』与『羊皮纸』。世界不知何时已经改变，两人的旅程于此刻开幕！",
   "types": [
     "爱情",
@@ -17,7 +17,7 @@
   ],
   "authors": "支仓冻砂",
   "first_letter": "L",
-  "subscribe_num": 64579,
+  "subscribe_num": 65356,
   "volume": [
     {
       "id": 8592,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1491321004,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 8770,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1498575847,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 9114,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1512642482,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 10637,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1582710453,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 11929,
@@ -57,7 +57,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1637853530,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 11930,
@@ -65,7 +65,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1637853674,
-      "sum_chapters": 10
+      "sum_chapters": 14
     },
     {
       "id": 12645,
@@ -73,7 +73,15 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1664460355,
-      "sum_chapters": 10
+      "sum_chapters": 14
+    },
+    {
+      "id": 12989,
+      "lnovel_id": 2304,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "addtime": 1677897879,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -450,6 +458,59 @@
           "chapter_id": 129467,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 12989,
+      "id": 12989,
+      "volume_name": "第八卷",
+      "volume_order": 80,
+      "chapters": [
+        {
+          "chapter_id": 133560,
+          "chapter_name": "序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 133561,
+          "chapter_name": "第一幕",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 133562,
+          "chapter_name": "第二幕",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 133563,
+          "chapter_name": "第三幕",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 133564,
+          "chapter_name": "第四幕",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 133565,
+          "chapter_name": "第五幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 133566,
+          "chapter_name": "终幕",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 133567,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 133643,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }
