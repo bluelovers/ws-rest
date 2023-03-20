@@ -3,21 +3,20 @@
   "name": "边境的老骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 巴尔特•罗恩与不死将军",
+  "last_update_volume_name": "第五卷 巴尔特·罗恩与始祖王的遗产",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11210,
-  "last_update_chapter_id": 111939,
-  "last_update_time": 1605105554,
+  "last_update_volume_id": 13015,
+  "last_update_chapter_id": 133874,
+  "last_update_time": 1679112790,
   "cover": "https://xs.dmzj.com/img/webpic/10/lq0530l.jpg",
-  "hot_hits": 324434,
+  "hot_hits": 374017,
   "introduction": "　　老骑士巴尔特察觉自己时日无多，为了享受珍奇景色与大啖美食，他向侍奉多年的领主之家递出了辞呈。\n　　带著长年形影相随的一匹马，开始一场随心所欲的旅行。\n　　而他不知道──\n　　这场旅行将拉开崭新冒险的序幕。",
   "types": [
     "冒险"
   ],
   "authors": "支援BIS",
   "first_letter": "B",
-  "subscribe_num": 16839,
-  "redis_update_time": 1607635439,
+  "subscribe_num": 18828,
   "volume": [
     {
       "id": 9462,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1527687268,
-      "sum_chapters": 68
+      "sum_chapters": 7
     },
     {
       "id": 9948,
@@ -33,7 +32,7 @@
       "volume_name": "第二卷 新生之森",
       "volume_order": 20,
       "addtime": 1549979091,
-      "sum_chapters": 68
+      "sum_chapters": 7
     },
     {
       "id": 10323,
@@ -41,7 +40,7 @@
       "volume_name": "第三卷 巴尔特•罗恩与王国太子",
       "volume_order": 30,
       "addtime": 1568035891,
-      "sum_chapters": 68
+      "sum_chapters": 7
     },
     {
       "id": 11210,
@@ -49,7 +48,15 @@
       "volume_name": "第四卷 巴尔特•罗恩与不死将军",
       "volume_order": 40,
       "addtime": 1605000411,
-      "sum_chapters": 68
+      "sum_chapters": 7
+    },
+    {
+      "id": 13015,
+      "lnovel_id": 2498,
+      "volume_name": "第五卷 巴尔特·罗恩与始祖王的遗产",
+      "volume_order": 50,
+      "addtime": 1679109432,
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -482,6 +489,94 @@
           "chapter_id": 111939,
           "chapter_name": "插画",
           "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 13015,
+      "id": 13015,
+      "volume_name": "第五卷 巴尔特·罗恩与始祖王的遗产",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 133841,
+          "chapter_name": "第九部 大障壁的彼端 第一章 扎根于大地者 摩兹斯百菇锅",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 133842,
+          "chapter_name": "第二章 哈道尔•索路厄鲁斯 柯尔柯露杜鲁肉铁板烧",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 133843,
+          "chapter_name": "第三章 帕鲁萨姆王宫防卫战 亚孜辣味锅",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 133844,
+          "chapter_name": "第四章 龙人岛 根茎类蔬菜丸子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 133845,
+          "chapter_name": "第五章 试炼洞窟 青卷菜的叶子粉",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 133846,
+          "chapter_name": "第十部 恶灵之王 第一章 冒牌货 刚兹套餐",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 133847,
+          "chapter_name": "第二章 私奔 炖山鸟肉与山芋",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 133848,
+          "chapter_name": "第三章 哥顿的爱情故事 酒渍奥丘多鲁肝",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 133849,
+          "chapter_name": "第四章 艾多娜的祈祷 双酱夹心面包",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 133850,
+          "chapter_name": "第五章 帕塔拉波沙 烤海鱼",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 133851,
+          "chapter_name": "外传 蕾莉亚的孩子们 第一章 副都 西鲁修炒蛋",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 133852,
+          "chapter_name": "第二章 诞生 鲜榨卡内朱果汁",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 133853,
+          "chapter_name": "最终部 无尽的旅途 第一章 饯别 生火腿搭蔬菜",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 133854,
+          "chapter_name": "第二章 云海 卡司喀鲁的细绳煮",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 133855,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 133874,
+          "chapter_name": "插画",
+          "chapter_order": 160
         }
       ]
     }
