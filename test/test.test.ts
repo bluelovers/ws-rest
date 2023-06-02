@@ -14,7 +14,7 @@
 import { chai, relative, expect, path, assert, util, mochaAsync, SymbolLogOutput } from './_local-dev';
 import { routerToRfc6570, rfc6570ToRouter } from '../index';
 // @ts-ignore
-import { URI } from 'uri-template-lite';
+import UriTemplate from 'uri-template-lite';
 
 // @ts-ignore
 describe(relative(__filename), () =>
@@ -87,7 +87,7 @@ describe(relative(__filename), () =>
 
 			let source = `/users/:user`;
 
-			let template = new URI.Template(routerToRfc6570(source));
+			let template = new UriTemplate(routerToRfc6570(source));
 
 			let actual = template.expand({
 				user: 'foo/bar'
@@ -98,7 +98,7 @@ describe(relative(__filename), () =>
 
 			expect(actual).to.be.deep.equal(expected);
 
-			let template2 = new URI.Template(routerToRfc6570(rfc6570ToRouter(routerToRfc6570(source))));
+			let template2 = new UriTemplate(routerToRfc6570(rfc6570ToRouter(routerToRfc6570(source))));
 
 			let actual2 = template.expand({
 				user: 'foo/bar'
@@ -116,7 +116,7 @@ describe(relative(__filename), () =>
 
 			let source = `/users/:u`;
 
-			let template = new URI.Template(routerToRfc6570(source));
+			let template = new UriTemplate(routerToRfc6570(source));
 
 			let actual = template.expand({
 				u: 'foo/bar'
@@ -127,7 +127,7 @@ describe(relative(__filename), () =>
 
 			expect(actual).to.be.deep.equal(expected);
 
-			let template2 = new URI.Template(routerToRfc6570(rfc6570ToRouter(routerToRfc6570(source))));
+			let template2 = new UriTemplate(routerToRfc6570(rfc6570ToRouter(routerToRfc6570(source))));
 
 			let actual2 = template.expand({
 				u: 'foo/bar'

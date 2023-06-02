@@ -34,17 +34,19 @@
     "lint": "npx eslint **/*.ts",
     "test": "npx mocha --debug --require ts-node/register !(node_modules)/**/*.{test,spec}.{ts,tsx}",
     "test:jest": "jest --passWithNoTests",
+    "test:jest:coverage": "yarn run test:jest -- --coverage",
     "test:jest:snapshot": "yarn run test:jest -- -u",
     "test:snapshot": "yarn run test -- -u",
     "test:tsd": "ynpx tsd",
     "preversion": "yarn run test",
     "ncu": "npx yarn-tool ncu -u",
-    "sort-package-json": "npx yarn-tool sort"
+    "sort-package-json": "npx yarn-tool sort",
+    "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
-    "execall2": "^2.0.22",
-    "tslib": "^2.4.0",
-    "uri-template-lite": "^22.9.0"
+    "execall2": "^2.0.23",
+    "tslib": "^2.5.2",
+    "uri-template-lite": "^23.4.0"
   },
   "devDependencies": {
     "url-template": "^3.1.0"
