@@ -57,7 +57,7 @@
     "prebuild:lockfile": "ynpx sync-lockfile",
     "build:all": "yarn-tool ws run build --concurrency 1",
     "build:since": "yarn run build:all -- --since",
-    "ci:test": "ts-node ./script/ci/test",
+    "ci:test": "tsx ./script/ci/test.ts",
     "ci:install": "yarn --frozen-lockfile && yarn global add lerna typescript ts-node cross-env",
     "ci:install:task:cache": "yarn add -W regexp-cjk cjk-conv @novel-segment/util @node-novel/sort node-novel-info",
     "ci:build": "yarn run ci:test && yarn run lerna:prepublish:ci",
