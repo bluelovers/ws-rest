@@ -4,7 +4,7 @@
 
 import execall from 'execall2';
 // @ts-ignore
-import { URI } from 'uri-template-lite';
+import UriTemplate from 'uri-template-lite';
 
 /**
  * @see uri-template-lite
@@ -46,7 +46,7 @@ export function expand<K extends keyof M = never, M = Record<string, unknown>>(u
 
 	return {
 		router: url,
-		url: new URI.Template(url).expand(data) as string,
+		url: new UriTemplate(url).expand(data) as string,
 		...ret,
 	}
 }

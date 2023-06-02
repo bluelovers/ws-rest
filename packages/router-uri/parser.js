@@ -7,7 +7,7 @@ exports.expand = exports.parseRouterVars = void 0;
 const tslib_1 = require("tslib");
 const execall2_1 = tslib_1.__importDefault(require("execall2"));
 // @ts-ignore
-const uri_template_lite_1 = require("uri-template-lite");
+const uri_template_lite_1 = tslib_1.__importDefault(require("uri-template-lite"));
 /**
  * @see uri-template-lite
  */
@@ -37,7 +37,7 @@ function expand(url, data) {
     });
     return {
         router: url,
-        url: new uri_template_lite_1.URI.Template(url).expand(data),
+        url: new uri_template_lite_1.default(url).expand(data),
         ...ret,
     };
 }
