@@ -11,7 +11,7 @@ const index_1 = require("@node-novel/site-cache-util/lib/index");
 exports.default = (0, index_1.lazyRun)(async () => {
     await bluebird_1.default.resolve().tap(e => (0, dotenv_1.config)()).catch(e => null);
     await axios_1.default
-        .get(process.env.NOW_DEPLOY_HOOK)
+        .get(process.env['NOW_DEPLOY_HOOK'])
         .then(response => {
         console.dir(response.data);
     });

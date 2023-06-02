@@ -27,25 +27,25 @@
       ],
       "message": "chore(release): publish\n\n[skip ci]",
       "bump": "patch",
+      "noPrivate": true,
       "conventionalCommits": true,
-      "conventionalGraduate": true,
-      "noPrivate": true
+      "conventionalGraduate": true
     },
     "version": {
-      "loglevel": "silly",
-      "conventionalCommits": true,
-      "changelogPreset": "@bluelovers/conventional-changelog-bluelovers",
       "concurrency": 1,
-      "noPrivate": true
+      "loglevel": "silly",
+      "noPrivate": true,
+      "conventionalCommits": true,
+      "changelogPreset": "@bluelovers/conventional-changelog-bluelovers"
     },
     "run": {
+      "concurrency": 1,
       "stream": true,
-      "loglevel": "silly",
-      "concurrency": 1
+      "loglevel": "silly"
     },
     "exec": {
-      "stream": true,
-      "concurrency": 1
+      "concurrency": 1,
+      "stream": true
     },
     "add": {
       "concurrency": 1,

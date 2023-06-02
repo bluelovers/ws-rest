@@ -15,9 +15,11 @@
   "author": "bluelovers",
   "main": "index.js",
   "scripts": {
+    "coverage": "yarn run test -- --coverage",
     "lint": "ynpx --quiet eslint -- **/*.ts",
     "test": "echo \"Error: no test specified\"",
     "test:jest": "ynpx --quiet jest -- --coverage --passWithNoTests",
+    "test:jest:coverage": "yarn run test:jest -- --coverage",
     "test:jest:snapshot": "yarn run test:jest -- -u",
     "test:mocha": "ynpx --quiet -p ts-node -p mocha mocha -- --require ts-node/register \"!(node_modules)/**/*.{test,spec}.{ts,tsx}\"",
     "test:snapshot": "yarn run test -- -u",
@@ -27,21 +29,22 @@
     "prepublishOnly:check-bin": "ynpx --quiet @yarn-tool/check-pkg-bin",
     "prepublishOnly:update": "yarn run ncu && yarn run sort-package-json",
     "ncu": "yarn-tool ncu -u",
-    "sort-package-json": "yarn-tool sort"
+    "sort-package-json": "yarn-tool sort",
+    "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
     "@demonovel/cached-data-types": "^1.0.3",
     "@node-novel/parse-input-url": "^1.0.16",
     "bluebird": "^3.7.2",
-    "crlf-normalize": "^1.0.16",
+    "crlf-normalize": "^1.0.19",
     "img-better-quality-url": "^1.0.13",
     "moment": "^2.29.4",
-    "regexp-cjk": "^3.3.107",
+    "regexp-cjk": "^3.3.110",
     "restful-decorator-plugin-jsdom": "^1.0.41",
-    "sort-object-keys2": "^3.0.4",
+    "sort-object-keys2": "^3.0.5",
     "ts-type": "^3.0.1",
     "ts-type-predicates": "^1.0.9",
-    "tslib": "^2.4.0",
-    "zero-width": "^1.0.24"
+    "tslib": "^2.5.2",
+    "zero-width": "^1.0.26"
   }
 }

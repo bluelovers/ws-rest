@@ -19,6 +19,7 @@
     "lint": "npx eslint **/*.ts",
     "test": "echo \"Error: no test specified\"",
     "test:jest": "jest --passWithNoTests",
+    "test:jest:coverage": "yarn run test:jest -- --coverage",
     "test:jest:snapshot": "yarn run test:jest -- -u",
     "test:snapshot": "yarn run test -- -u",
     "test:tsd": "ynpx tsd",
@@ -28,7 +29,8 @@
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort",
     "tsc:default": "tsc -p tsconfig.json",
-    "tsc:esm": "tsc -p tsconfig.esm.json"
+    "tsc:esm": "tsc -p tsconfig.esm.json",
+    "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
     "@bluelovers/array-buffer-to-string": "^1.0.36",
@@ -39,7 +41,7 @@
     "lazy-url": "^2.0.4",
     "restful-decorator": "^1.0.61",
     "restful-decorator-plugin-jsdom": "^1.0.41",
-    "tslib": "^2.4.0"
+    "tslib": "^2.5.2"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"
 }

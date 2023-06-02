@@ -32,28 +32,30 @@
     "lint": "npx eslint **/*.ts",
     "test": "ts-node ./test/demo",
     "test:jest": "jest --passWithNoTests",
+    "test:jest:coverage": "yarn run test:jest -- --coverage",
     "test:jest:snapshot": "yarn run test:jest -- -u",
     "test:snapshot": "yarn run test -- -u",
     "test:tsd": "ynpx tsd",
     "preversion": "yarn run test",
     "postpublish": "echo postpublish",
     "ncu": "npx yarn-tool ncu -u",
-    "sort-package-json": "npx yarn-tool sort"
+    "sort-package-json": "npx yarn-tool sort",
+    "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
     "free-gc": "^1.0.6",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.1.1",
     "lazy-url": "^2.0.4",
     "md5": "^2.3.0",
     "restful-decorator": "^1.0.61",
     "ts-type": "^3.0.1",
-    "tslib": "^2.4.0",
+    "tslib": "^2.5.2",
     "typed-http-headers": "^1.0.8"
   },
   "devDependencies": {
     "@types/md5": "^2.3.2",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.1.1",
     "lru-cache2": "^6.0.7"
   },
   "peerDependencies": {

@@ -34,16 +34,18 @@
     "lint": "npx eslint **/*.ts",
     "test": "ts-node ./test/demo",
     "test:jest": "jest --passWithNoTests",
+    "test:jest:coverage": "yarn run test:jest -- --coverage",
     "test:jest:snapshot": "yarn run test:jest -- -u",
     "test:snapshot": "yarn run test -- -u",
     "test:tsd": "ynpx tsd",
     "preversion": "yarn run test",
     "ncu": "npx yarn-tool ncu -u",
-    "sort-package-json": "npx yarn-tool sort"
+    "sort-package-json": "npx yarn-tool sort",
+    "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
     "ts-type": "^3.0.1",
-    "tslib": "^2.4.0"
+    "tslib": "^2.5.2"
   },
   "gitHead": "1686662cca11944ef3c5eb1b604986a5b99ec65e"
 }
