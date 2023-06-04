@@ -3,13 +3,13 @@
   "name": "Memories Off After Rain",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 折鹤",
+  "last_update_volume_name": "第三卷 卒业",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12566,
-  "last_update_chapter_id": 128670,
-  "last_update_time": 1662467764,
-  "cover": "http://xs.dmzj.com/img/webpic/8/mo0906l.jpg",
-  "hot_hits": 417,
+  "last_update_volume_id": 13169,
+  "last_update_chapter_id": 135607,
+  "last_update_time": 1685032021,
+  "cover": "https://xs.idmzj.com/img/webpic/8/mo0906l.jpg",
+  "hot_hits": 450,
   "introduction": "　　成为高三学生的三上智也他们澄空学园一行人修学旅行的目的地是：京都。而且，那也是他和恋人·桧月彩花所约定的地方。对于为她的形影所吸引的智也，现在的恋人·今坂唯笑做出了某个决定……修学旅行篇《折鹤》之外，还收载了描写白河萤·静流姐妹吵架以及被此卷入的伊波健的《健的忧郁》、彩花来到地上前去智也他们身边的《彩花的回归》两部短篇。MO五周年小说第一弹！",
   "types": [
     "校园",
@@ -17,7 +17,7 @@
   ],
   "authors": "日暮茶坊",
   "first_letter": "M",
-  "subscribe_num": 191,
+  "subscribe_num": 399,
   "volume": [
     {
       "id": 12566,
@@ -25,7 +25,23 @@
       "volume_name": "第一卷 折鹤",
       "volume_order": 10,
       "addtime": 1662466592,
-      "sum_chapters": 10
+      "sum_chapters": 15
+    },
+    {
+      "id": 13146,
+      "lnovel_id": 3368,
+      "volume_name": "第二卷 想演",
+      "volume_order": 20,
+      "addtime": 1684126636,
+      "sum_chapters": 15
+    },
+    {
+      "id": 13169,
+      "lnovel_id": 3368,
+      "volume_name": "第三卷 卒业",
+      "volume_order": 30,
+      "addtime": 1685031335,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -57,6 +73,72 @@
         },
         {
           "chapter_id": 128670,
+          "chapter_name": "插画",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 13146,
+      "id": 13146,
+      "volume_name": "第二卷 想演",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 135294,
+          "chapter_name": "想演",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 135295,
+          "chapter_name": "双海诗音的事件簿",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 135296,
+          "chapter_name": "舞方香菜的告白",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 135297,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 135298,
+          "chapter_name": "插图",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 13169,
+      "id": 13169,
+      "volume_name": "第三卷 卒业",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 135591,
+          "chapter_name": "卒业",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 135592,
+          "chapter_name": "伊吹美奈裳的礼物",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 135593,
+          "chapter_name": "卒业 朝凪庄恐怖事件",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 135594,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 135607,
           "chapter_name": "插画",
           "chapter_order": 50
         }

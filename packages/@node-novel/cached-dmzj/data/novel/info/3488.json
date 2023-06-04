@@ -3,12 +3,12 @@
   "name": "双星的天剑使",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "特典『骗子』",
-  "last_update_volume_id": 12843,
-  "last_update_chapter_id": 131948,
-  "last_update_time": 1671869251,
-  "cover": "http://xs.dmzj.com/img/webpic/27/tjs1218l.jpg",
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "特典『交涉』",
+  "last_update_volume_id": 13032,
+  "last_update_chapter_id": 134324,
+  "last_update_time": 1680836963,
+  "cover": "https://xs.idmzj.com/img/webpic/27/tjs1218l.jpg",
   "hot_hits": 0,
   "introduction": "不败的大英雄，转生到未来也是最强的英雄——！！\n守卫帝国北方边境的名门・张家的千金小姐张白玲，文武兼备、才貌双全，还是被百姓爱戴的美少女！\n「从你被救以来——这十年，我们一直在一起生活。我，会保护你的背后。」\n「……真是的，让人困扰的大小姐！」\n1000年前不败英雄的转生——将这样的我，张只影从死亡深渊中拯救出来的，正是她。\n自那以来，我们两人在张家像兄妹一样的锻炼武艺、生活。\n然而，时值乱世。与异族的战争开始了——\n「少将军的剑技，你看清了吗！？」「弓箭也百发百中！？」\n我活用前世的武艺才能，和白玲一起，在战争中大为活跃，无人可比。\n转生英雄和美少女们的战乱・刀剑幻想故事，开幕！",
   "types": [
@@ -18,7 +18,7 @@
   ],
   "authors": "七野りく",
   "first_letter": "S",
-  "subscribe_num": 853,
+  "subscribe_num": 4878,
   "volume": [
     {
       "id": 12843,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1671339562,
-      "sum_chapters": 17
+      "sum_chapters": 15
+    },
+    {
+      "id": 13032,
+      "lnovel_id": 3488,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1680063467,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -100,6 +108,79 @@
           "chapter_id": 131822,
           "chapter_name": "插画",
           "chapter_order": 222
+        }
+      ]
+    },
+    {
+      "volume_id": 13032,
+      "id": 13032,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 133989,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 133990,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 133991,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 133992,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 133993,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 133994,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 133995,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 133996,
+          "chapter_name": "插图",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 134320,
+          "chapter_name": "特典『对弈』",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 134321,
+          "chapter_name": "特典『说教』",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 134322,
+          "chapter_name": "特典『执念』",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 134323,
+          "chapter_name": "特典『秘密的』",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 134324,
+          "chapter_name": "特典『交涉』",
+          "chapter_order": 130
         }
       ]
     }

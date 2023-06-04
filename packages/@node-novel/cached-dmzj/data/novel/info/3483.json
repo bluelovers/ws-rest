@@ -3,11 +3,11 @@
   "name": "利里耶国骑士团与辛德瑞拉的弦音",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷 龙王的人偶",
-  "last_update_chapter_name": "第三章",
-  "last_update_volume_id": 13019,
-  "last_update_chapter_id": 133910,
-  "last_update_time": 1679565917,
+  "last_update_volume_name": "第六卷 看得见的神之代理人",
+  "last_update_chapter_name": "第四章",
+  "last_update_volume_id": 13105,
+  "last_update_chapter_id": 135674,
+  "last_update_time": 1685536444,
   "cover": "https://xs.idmzj.com/img/webpic/11/ll1213l.jpg",
   "hot_hits": 8,
   "introduction": "骑士组队，互相击碎头盔上的命石以一决胜负——取代“战争”的“战斗竞技会”决定各国命运已有三百年。尼娜虽然出生在优秀骑士辈出的村庄，却无法像周围的少女那样舞刀弄剑，一直被嘲笑是个“废物”。但是，发现尼娜射箭才能的利希特，劝说其加入骑士团…!?",
@@ -17,7 +17,7 @@
   ],
   "authors": "瑚池ことり",
   "first_letter": "L",
-  "subscribe_num": 1621,
+  "subscribe_num": 1868,
   "volume": [
     {
       "id": 12831,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1670861420,
-      "sum_chapters": 7
+      "sum_chapters": 15
     },
     {
       "id": 12850,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 繁星的觉悟",
       "volume_order": 20,
       "addtime": 1671718366,
-      "sum_chapters": 7
+      "sum_chapters": 15
     },
     {
       "id": 12897,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷 鸟儿留下的勋章",
       "volume_order": 30,
       "addtime": 1673688042,
-      "sum_chapters": 7
+      "sum_chapters": 15
     },
     {
       "id": 12966,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷 渴望羽翼的金之海",
       "volume_order": 40,
       "addtime": 1676813127,
-      "sum_chapters": 7
+      "sum_chapters": 15
     },
     {
       "id": 13019,
@@ -57,7 +57,15 @@
       "volume_name": "第五卷 龙王的人偶",
       "volume_order": 50,
       "addtime": 1679565667,
-      "sum_chapters": 7
+      "sum_chapters": 15
+    },
+    {
+      "id": 13105,
+      "lnovel_id": 3483,
+      "volume_name": "第六卷 看得见的神之代理人",
+      "volume_order": 60,
+      "addtime": 1682326438,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -268,6 +276,64 @@
           "chapter_id": 133910,
           "chapter_name": "第三章",
           "chapter_order": 40
+        },
+        {
+          "chapter_id": 134013,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 134369,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 134526,
+          "chapter_name": "第六章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 134527,
+          "chapter_name": "终章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 134528,
+          "chapter_name": "插图",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 13105,
+      "id": 13105,
+      "volume_name": "第六卷 看得见的神之代理人",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 134773,
+          "chapter_name": "前章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 134774,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 135672,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 135673,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 135674,
+          "chapter_name": "第四章",
+          "chapter_order": 50
         }
       ]
     }

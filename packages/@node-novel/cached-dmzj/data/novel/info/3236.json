@@ -3,13 +3,13 @@
   "name": "我的初恋对象与人接吻了",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "安达与岛村联动－不安定的完美",
-  "last_update_volume_id": 12155,
-  "last_update_chapter_id": 124941,
-  "last_update_time": 1653833379,
-  "cover": "http://xs.dmzj.com/img/webpic/4/cljw0417l.jpg",
-  "hot_hits": 20332,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 13069,
+  "last_update_chapter_id": 134478,
+  "last_update_time": 1681312044,
+  "cover": "https://xs.idmzj.com/img/webpic/4/cljw0417l.jpg",
+  "hot_hits": 43035,
   "introduction": "寄住在我家的，是隔壁班的女生。有一天突然和母亲两个人来到家里，我不明白她在想什么，可是她的脸真的很好看……令人不爽。我本想着互不干涉，但你晚上偶尔是去哪里？\n从以前开始，母亲和我所住的家和同居人就不断地变化。这次的家里有同一个学校的女生。她会给我做饭，一起分担家务，她还会担心晚上出去的我。但是，就算你问我晚上去哪儿了，我该如何回答呢。我只是去见认识的人而已。\n某一日突然开始同居的两位女高中生，平淡而又脆弱的故事。",
   "types": [
     "校园",
@@ -17,7 +17,7 @@
   ],
   "authors": "入间人间",
   "first_letter": "W",
-  "subscribe_num": 3027,
+  "subscribe_num": 6671,
   "volume": [
     {
       "id": 12155,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1650194765,
-      "sum_chapters": 13
+      "sum_chapters": 15
     },
     {
       "id": 12227,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1653660832,
-      "sum_chapters": 13
+      "sum_chapters": 15
+    },
+    {
+      "id": 13069,
+      "lnovel_id": 3236,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1681309411,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -150,6 +158,64 @@
           "chapter_id": 124934,
           "chapter_name": "插画",
           "chapter_order": 70
+        },
+        {
+          "chapter_id": 134438,
+          "chapter_name": "Melonbooks特典",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 134439,
+          "chapter_name": "Gamers特典",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 13069,
+      "id": 13069,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 134440,
+          "chapter_name": "无法闭上双眼，如同失去了眼睑一般",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 134441,
+          "chapter_name": "活着的实感",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 134442,
+          "chapter_name": "地平潮骚",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 134443,
+          "chapter_name": "向星祈愿",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 134444,
+          "chapter_name": "星悬高空",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 134445,
+          "chapter_name": "蓝，一望无垠",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 134446,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 134478,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

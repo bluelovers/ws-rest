@@ -3,12 +3,12 @@
   "name": "太宰治转生！",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 转世重生，我很抱歉",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13016,
-  "last_update_chapter_id": 133873,
-  "last_update_time": 1679112753,
-  "cover": "https://xs.dmzj.com/img/webpic/5/zs0318l.jpg",
+  "last_update_volume_name": "第二卷 我要芥川奖",
+  "last_update_chapter_name": "第九章 太宰看《摄影机不要停！》",
+  "last_update_volume_id": 13104,
+  "last_update_chapter_id": 135020,
+  "last_update_time": 1683360426,
+  "cover": "https://xs.idmzj.com/img/webpic/5/zs0318l.jpg",
   "hot_hits": 0,
   "introduction": "那位太宰治，偏偏轉生到了現代日本！\n活在當下的太宰對現代社會與人獻上猛烈的諷刺與讚歌！！",
   "types": [
@@ -17,7 +17,7 @@
   ],
   "authors": "佐藤友哉",
   "first_letter": "T",
-  "subscribe_num": 77,
+  "subscribe_num": 235,
   "volume": [
     {
       "id": 13016,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷 转世重生，我很抱歉",
       "volume_order": 10,
       "addtime": 1679112307,
-      "sum_chapters": 7
+      "sum_chapters": 15
+    },
+    {
+      "id": 13104,
+      "lnovel_id": 3534,
+      "volume_name": "第二卷 我要芥川奖",
+      "volume_order": 20,
+      "addtime": 1682326217,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -119,6 +127,59 @@
           "chapter_id": 133873,
           "chapter_name": "插画",
           "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 13104,
+      "id": 13104,
+      "volume_name": "第二卷 我要芥川奖",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 134766,
+          "chapter_name": "第一章 太宰开始玩推特",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 134767,
+          "chapter_name": "第二章 太宰和女高中生偶像过夜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 134768,
+          "chapter_name": "第三章 太宰发现石田三成的推特",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 134769,
+          "chapter_name": "第四章 太宰闯讲谈社",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 134770,
+          "chapter_name": "第五章 太宰等待颁奖",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 134771,
+          "chapter_name": "第六章 太宰对现代媒体无语至极",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 134772,
+          "chapter_name": "第七章 太宰殉情（转生后第二次）",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 135019,
+          "chapter_name": "第八章 太宰游荡歌舞伎町",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 135020,
+          "chapter_name": "第九章 太宰看《摄影机不要停！》",
+          "chapter_order": 90
         }
       ]
     }

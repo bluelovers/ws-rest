@@ -3,13 +3,13 @@
   "name": "Memories Off 2nd~Dear Friend~",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12517,
-  "last_update_chapter_id": 128041,
-  "last_update_time": 1661181523,
-  "cover": "http://xs.dmzj.com/img/webpic/13/mo0822l.jpg",
-  "hot_hits": 434,
+  "last_update_volume_name": "短篇 Prelude",
+  "last_update_chapter_name": "南燕 ～新家～",
+  "last_update_volume_id": 13088,
+  "last_update_chapter_id": 134610,
+  "last_update_time": 1681995609,
+  "cover": "https://xs.idmzj.com/img/webpic/13/mo0822l.jpg",
+  "hot_hits": 509,
   "introduction": "主人公·飞世巴是在澄空学园高等学校上学的高中三年级学生。作为剧团成员梦想将来成为演员的她，在某天，和一名少年相遇，为他所吸引。不知道那是她好友的男友就这么……巴知道了实情虽然准备放手，但渐渐沉重起来的那份思慕已经失去了控制。于是，她做出的回答是……",
   "types": [
     "爱情",
@@ -17,7 +17,7 @@
   ],
   "authors": "日暮茶坊",
   "first_letter": "M",
-  "subscribe_num": 188,
+  "subscribe_num": 270,
   "volume": [
     {
       "id": 12517,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1661180717,
-      "sum_chapters": 7
+      "sum_chapters": 15
+    },
+    {
+      "id": 13088,
+      "lnovel_id": 3351,
+      "volume_name": "短篇 Prelude",
+      "volume_order": 20,
+      "addtime": 1681995511,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -79,6 +87,44 @@
           "chapter_id": 128041,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 13088,
+      "id": 13088,
+      "volume_name": "短篇 Prelude",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 134605,
+          "chapter_name": "白河萤 ～窗边的回忆～",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 134606,
+          "chapter_name": "白河静流 ～喜欢年龄小的？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 134607,
+          "chapter_name": "寿寿奈鹰乃 ～Valentine Day～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 134608,
+          "chapter_name": "相摩希 ～兼职～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 134609,
+          "chapter_name": "飞世巴 ～为了谁～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 134610,
+          "chapter_name": "南燕 ～新家～",
+          "chapter_order": 60
         }
       ]
     }

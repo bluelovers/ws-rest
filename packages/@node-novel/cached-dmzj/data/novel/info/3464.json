@@ -3,12 +3,12 @@
   "name": "怪人的沙拉碗",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12796,
-  "last_update_chapter_id": 131264,
-  "last_update_time": 1669218547,
-  "cover": "http://xs.dmzj.com/img/webpic/8/slgr1123l.jpg",
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插图",
+  "last_update_volume_id": 13141,
+  "last_update_chapter_id": 135227,
+  "last_update_time": 1683883986,
+  "cover": "https://xs.idmzj.com/img/webpic/8/slgr1123l.jpg",
   "hot_hits": 5,
   "introduction": "　　贫穷侦探•镝矢惣助在跟踪途中，遇见了会使用魔术的异世界皇女莎拉。惣助受情势所逼，和莎拉展开了同居生活，不过莎拉很快地便习惯了现代日本的生活模式。另一方面，跟着莎拉传送到现代日本来的女骑士莉薇亚，则是以游民的身分，过起意外充满欢乐的日子。这两个异世界人积极勇敢地面对生命的态度，也日渐对惣助、鬼畜律师、分手业者、宗教家等生活在这块土地上的奇葩人士们造成影响──\n　　平坂读×カントク联手为这个时代打造的天下无双群像喜剧，堂堂登场！",
   "types": [
@@ -17,7 +17,7 @@
   ],
   "authors": "平坂读",
   "first_letter": "G",
-  "subscribe_num": 591,
+  "subscribe_num": 955,
   "volume": [
     {
       "id": 12796,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1669217903,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 13141,
+      "lnovel_id": 3464,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1683883205,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -109,6 +117,109 @@
           "chapter_id": 131264,
           "chapter_name": "插画",
           "chapter_order": 150
+        }
+      ]
+    },
+    {
+      "volume_id": 13141,
+      "id": 13141,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 135209,
+          "chapter_name": "前情提要",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 135210,
+          "chapter_name": "无家可归的女骑士，通体舒畅",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 135211,
+          "chapter_name": "公主与卡拉OK吃茶",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 135212,
+          "chapter_name": "无家可归的女骑士，排队",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 135213,
+          "chapter_name": "宗教家妹子和救世主妹子",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 135214,
+          "chapter_name": "公主和暖炉桌",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 135215,
+          "chapter_name": "宗教家妹子吃蚱蜢",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 135216,
+          "chapter_name": "认真思考帮异世界人取得户籍的方法",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 135217,
+          "chapter_name": "恋爱的恶女们",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 135218,
+          "chapter_name": "小白脸女骑士",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 135219,
+          "chapter_name": "公主与马",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 135220,
+          "chapter_name": "公主与父亲",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 135221,
+          "chapter_name": "公主与朋友",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 135222,
+          "chapter_name": "玩乐团的女骑士",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 135223,
+          "chapter_name": "公主与年龄",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 135224,
+          "chapter_name": "孤单一人的国中生",
+          "chapter_order": 160
+        },
+        {
+          "chapter_id": 135225,
+          "chapter_name": "后记",
+          "chapter_order": 170
+        },
+        {
+          "chapter_id": 135226,
+          "chapter_name": "特典 异世界的公主和音乐",
+          "chapter_order": 180
+        },
+        {
+          "chapter_id": 135227,
+          "chapter_name": "插图",
+          "chapter_order": 190
         }
       ]
     }
