@@ -31,10 +31,9 @@ function lazyImport(name, _require) {
     debug_1.consoleDebug.debug(`lazyImport`, name);
     return bluebird_1.default.resolve()
         .then(e => {
-        var _a;
         let target = _require.resolve(name);
         debug_1.consoleDebug.debug(target);
-        return _a = target, Promise.resolve().then(() => tslib_1.__importStar(require(_a)));
+        return Promise.resolve(`${target}`).then(s => tslib_1.__importStar(require(s)));
     })
         .then(v => {
         (0, free_gc_1.freeGC)();

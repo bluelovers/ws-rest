@@ -16,7 +16,7 @@ const html_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/l
 /**
  * https://www.wenku8.net/index.php
  */
-let Wenku8Client = class Wenku8Client extends lib_1.default {
+let Wenku8Client = exports.Wenku8Client = class Wenku8Client extends lib_1.default {
     _constructor() {
         this._setCookieSync({
             key: 'jieqiUserCharset',
@@ -538,7 +538,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", []),
     tslib_1.__metadata("design:returntype", void 0)
 ], Wenku8Client.prototype, "tags", null);
-Wenku8Client = tslib_1.__decorate([
+exports.Wenku8Client = Wenku8Client = tslib_1.__decorate([
     (0, decorators_1.BaseUrl)('https://www.wenku8.net'),
     (0, decorators_1.Headers)({
         Referer: 'https://www.wenku8.net/index.php',
@@ -552,6 +552,5 @@ Wenku8Client = tslib_1.__decorate([
         },
     })
 ], Wenku8Client);
-exports.Wenku8Client = Wenku8Client;
 exports.default = Wenku8Client;
 //# sourceMappingURL=index.js.map

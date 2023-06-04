@@ -20,7 +20,7 @@ const protobuf_1 = require("./v4/protobuf");
  */
 //@BaseUrl('http://v2.api.dmzj.com')
 //@BaseUrl('http://nnv3api.dmzj1.com')
-let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
+let DmzjClient = exports.DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
     constructor(defaults) {
         super(defaults);
         //consoleDebug.debug(`constructor`);
@@ -438,7 +438,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:returntype", Object)
 ], DmzjClient.prototype, "_novelRecentUpdate", null);
 tslib_1.__decorate([
-    (0, decorators_1.GET)('http://nnv4api.muwai.com/novel/detail/{novel_id}'),
+    (0, decorators_1.GET)('http://nnv4api.dmzj.com/novel/detail/{novel_id}'),
     (0, decorators_1.methodBuilder)(),
     tslib_1.__param(0, (0, decorators_1.ParamPath)('novel_id')),
     tslib_1.__metadata("design:type", Function),
@@ -446,7 +446,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:returntype", Object)
 ], DmzjClient.prototype, "_novelInfo", null);
 tslib_1.__decorate([
-    (0, decorators_1.GET)('http://nnv4api.muwai.com/novel/chapter/{novel_id}'),
+    (0, decorators_1.GET)('http://nnv4api.dmzj.com/novel/chapter/{novel_id}'),
     (0, decorators_1.methodBuilder)(),
     tslib_1.__param(0, (0, decorators_1.ParamPath)('novel_id')),
     tslib_1.__metadata("design:type", Function),
@@ -536,7 +536,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", [Object]),
     tslib_1.__metadata("design:returntype", Object)
 ], DmzjClient.prototype, "deviceBuilding", null);
-DmzjClient = tslib_1.__decorate([
+exports.DmzjClient = DmzjClient = tslib_1.__decorate([
     (0, decorators_1.BaseUrl)('https://nnv3api.muwai.com'),
     (0, decorators_1.Headers)({
         Referer: 'http://www.dmzj.com/',
@@ -569,6 +569,5 @@ DmzjClient = tslib_1.__decorate([
     }),
     tslib_1.__metadata("design:paramtypes", [Object])
 ], DmzjClient);
-exports.DmzjClient = DmzjClient;
 exports.default = DmzjClient;
 //# sourceMappingURL=index.js.map
