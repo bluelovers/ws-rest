@@ -443,7 +443,7 @@ export class DmzjClient extends AbstractHttpClient
 	 * 小说详情
 	 */
 	//@GET('novel/{novel_id}.json')
-	@GET('http://nnv4api.muwai.com/novel/detail/{novel_id}')
+	@GET('http://nnv4api.dmzj.com/novel/detail/{novel_id}')
 	@methodBuilder()
 	_novelInfo(@ParamPath('novel_id') novel_id: number | string): IBluebird<IDmzjNovelInfo>
 	{
@@ -499,7 +499,7 @@ export class DmzjClient extends AbstractHttpClient
 	/**
 	 * 小说卷列表
 	 */
-	@GET('http://nnv4api.muwai.com/novel/chapter/{novel_id}')
+	@GET('http://nnv4api.dmzj.com/novel/chapter/{novel_id}')
 	@methodBuilder()
 	novelChapter(@ParamPath('novel_id') novel_id: number | string): IBluebird<IDmzjNovelChapters[]>
 	{
