@@ -52,7 +52,7 @@ import { lookupTypeNovelChapterResponse, lookupTypeNovelDetailResponse } from '.
  */
 //@BaseUrl('http://v2.api.dmzj.com')
 //@BaseUrl('http://nnv3api.dmzj1.com')
-@BaseUrl('https://nnv3api.muwai.com')
+@BaseUrl('https://nnv3api.dmzj.com')
 @Headers({
 	Referer: 'http://www.dmzj.com/',
 })
