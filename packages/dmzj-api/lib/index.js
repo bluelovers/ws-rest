@@ -20,7 +20,7 @@ const protobuf_1 = require("./v4/protobuf");
  */
 //@BaseUrl('http://v2.api.dmzj.com')
 //@BaseUrl('http://nnv3api.dmzj1.com')
-let DmzjClient = exports.DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
+let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
     constructor(defaults) {
         super(defaults);
         //consoleDebug.debug(`constructor`);
@@ -536,8 +536,8 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", [Object]),
     tslib_1.__metadata("design:returntype", Object)
 ], DmzjClient.prototype, "deviceBuilding", null);
-exports.DmzjClient = DmzjClient = tslib_1.__decorate([
-    (0, decorators_1.BaseUrl)('https://nnv3api.muwai.com'),
+DmzjClient = tslib_1.__decorate([
+    (0, decorators_1.BaseUrl)('https://nnv3api.dmzj.com'),
     (0, decorators_1.Headers)({
         Referer: 'http://www.dmzj.com/',
     }),
@@ -569,5 +569,6 @@ exports.DmzjClient = DmzjClient = tslib_1.__decorate([
     }),
     tslib_1.__metadata("design:paramtypes", [Object])
 ], DmzjClient);
+exports.DmzjClient = DmzjClient;
 exports.default = DmzjClient;
 //# sourceMappingURL=index.js.map
