@@ -15,7 +15,7 @@ const jquery_1 = require("./util/jquery");
 const lib_2 = require("@bluelovers/axios-util/lib");
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const crlf_normalize_1 = tslib_1.__importDefault(require("crlf-normalize"));
-let DiscuzClient = class DiscuzClient extends lib_1.default {
+let DiscuzClient = exports.DiscuzClient = class DiscuzClient extends lib_1.default {
     constructor(...argv) {
         let [defaults = {}] = argv;
         if (!defaults.baseURL) {
@@ -686,7 +686,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", []),
     tslib_1.__metadata("design:returntype", void 0)
 ], DiscuzClient.prototype, "jsInfo", null);
-DiscuzClient = tslib_1.__decorate([
+exports.DiscuzClient = DiscuzClient = tslib_1.__decorate([
     (0, decorators_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
@@ -697,6 +697,5 @@ DiscuzClient = tslib_1.__decorate([
     }),
     tslib_1.__metadata("design:paramtypes", [Object])
 ], DiscuzClient);
-exports.DiscuzClient = DiscuzClient;
 exports.default = DiscuzClient;
 //# sourceMappingURL=index.js.map
