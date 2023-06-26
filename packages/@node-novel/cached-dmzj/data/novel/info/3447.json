@@ -3,12 +3,12 @@
   "name": "密室杀人游戏",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 将军抽车",
-  "last_update_chapter_name": "Q? 谁会杀了她？拯救她？",
-  "last_update_volume_id": 12755,
-  "last_update_chapter_id": 130618,
-  "last_update_time": 1667746620,
-  "cover": "http://xs.dmzj.com/img/webpic/22/fc1106l.jpg",
+  "last_update_volume_name": "第三卷 狂热分子",
+  "last_update_chapter_name": "A&Q 预约发送的出题记录",
+  "last_update_volume_id": 13182,
+  "last_update_chapter_id": 135762,
+  "last_update_time": 1685798266,
+  "cover": "https://xs.idmzj.com/img/webpic/22/fc1106l.jpg",
   "hot_hits": 0,
   "introduction": "头狂人、044APD、AXE、残虐君、伴道全教授——有着奇妙绰号五人在网上开展杀人推理游戏竞赛。对杀人方式、密室诡计、不在场证明等进行推理。\n与普通竞赛唯一不同的是，他们在网上进行的推理竞赛，是由出题人亲自实行以真实世界的杀人案为蓝本进行推理的……",
   "types": [
@@ -16,7 +16,7 @@
   ],
   "authors": "歌野晶午",
   "first_letter": "M",
-  "subscribe_num": 49,
+  "subscribe_num": 380,
   "volume": [
     {
       "id": 12755,
@@ -24,7 +24,23 @@
       "volume_name": "第一卷 将军抽车",
       "volume_order": 10,
       "addtime": 1667746361,
-      "sum_chapters": 16
+      "sum_chapters": 2
+    },
+    {
+      "id": 13170,
+      "lnovel_id": 3447,
+      "volume_name": "第二卷 2.0",
+      "volume_order": 20,
+      "addtime": 1685031420,
+      "sum_chapters": 2
+    },
+    {
+      "id": 13182,
+      "lnovel_id": 3447,
+      "volume_name": "第三卷 狂热分子",
+      "volume_order": 30,
+      "addtime": 1685798197,
+      "sum_chapters": 2
     }
   ],
   "chapters": [
@@ -113,6 +129,87 @@
           "chapter_id": 130618,
           "chapter_name": "Q? 谁会杀了她？拯救她？",
           "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 13170,
+      "id": 13170,
+      "volume_name": "第二卷 2.0",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 135595,
+          "chapter_name": "Web2.0",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 135596,
+          "chapter_name": "Q1 谁是下一个目标？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 135597,
+          "chapter_name": "Q2 密室并不存在",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 135598,
+          "chapter_name": "Q3 开膛手杰克三十分钟的孤独",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 135599,
+          "chapter_name": "Q4 真正的恶魔",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 135600,
+          "chapter_name": "Q5 三道门闩",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 135601,
+          "chapter_name": "Q6 永别了，密室",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 135602,
+          "chapter_name": "Q? 于是，门开了",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 13182,
+      "id": 13182,
+      "volume_name": "第三卷 狂热分子",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 135758,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 135759,
+          "chapter_name": "Q1 第六个侦探",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 135760,
+          "chapter_name": "Q2 看不见的男人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 135761,
+          "chapter_name": "Q3 然后，谁也不在了",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 135762,
+          "chapter_name": "A&Q 预约发送的出题记录",
+          "chapter_order": 50
         }
       ]
     }
