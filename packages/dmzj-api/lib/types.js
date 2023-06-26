@@ -5,22 +5,22 @@ const symbol_1 = require("restful-decorator/lib/helper/symbol");
 var EnumDmzjCode;
 (function (EnumDmzjCode) {
     EnumDmzjCode[EnumDmzjCode["\u6210\u529F"] = 0] = "\u6210\u529F";
-})(EnumDmzjCode = exports.EnumDmzjCode || (exports.EnumDmzjCode = {}));
+})(EnumDmzjCode || (exports.EnumDmzjCode = EnumDmzjCode = {}));
 var EnumDmzjMsg;
 (function (EnumDmzjMsg) {
     EnumDmzjMsg["\u6210\u529F"] = "\u6210\u529F";
-})(EnumDmzjMsg = exports.EnumDmzjMsg || (exports.EnumDmzjMsg = {}));
+})(EnumDmzjMsg || (exports.EnumDmzjMsg = EnumDmzjMsg = {}));
 var EnumDmzjAcgnStatus;
 (function (EnumDmzjAcgnStatus) {
     EnumDmzjAcgnStatus["\u5DF2\u5B8C\u7ED3"] = "\u5DF2\u5B8C\u7ED3";
     EnumDmzjAcgnStatus["\u8FDE\u8F7D\u4E2D"] = "\u8FDE\u8F7D\u4E2D";
-})(EnumDmzjAcgnStatus = exports.EnumDmzjAcgnStatus || (exports.EnumDmzjAcgnStatus = {}));
+})(EnumDmzjAcgnStatus || (exports.EnumDmzjAcgnStatus = EnumDmzjAcgnStatus = {}));
 var EnumDmzjAcgnStatusID;
 (function (EnumDmzjAcgnStatusID) {
     EnumDmzjAcgnStatusID[EnumDmzjAcgnStatusID["ALL"] = 0] = "ALL";
     EnumDmzjAcgnStatusID[EnumDmzjAcgnStatusID["NOT_DONE"] = 1] = "NOT_DONE";
     EnumDmzjAcgnStatusID[EnumDmzjAcgnStatusID["DONE"] = 2] = "DONE";
-})(EnumDmzjAcgnStatusID = exports.EnumDmzjAcgnStatusID || (exports.EnumDmzjAcgnStatusID = {}));
+})(EnumDmzjAcgnStatusID || (exports.EnumDmzjAcgnStatusID = EnumDmzjAcgnStatusID = {}));
 var EnumDmzjAcgnOrderID;
 (function (EnumDmzjAcgnOrderID) {
     /**
@@ -31,7 +31,7 @@ var EnumDmzjAcgnOrderID;
      * 1为更新时间从近到远
      */
     EnumDmzjAcgnOrderID[EnumDmzjAcgnOrderID["UPDATE"] = 1] = "UPDATE";
-})(EnumDmzjAcgnOrderID = exports.EnumDmzjAcgnOrderID || (exports.EnumDmzjAcgnOrderID = {}));
+})(EnumDmzjAcgnOrderID || (exports.EnumDmzjAcgnOrderID = EnumDmzjAcgnOrderID = {}));
 var EnumDmzjAcgnBigCatID;
 (function (EnumDmzjAcgnBigCatID) {
     /**
@@ -42,12 +42,12 @@ var EnumDmzjAcgnBigCatID;
      * 1为轻小说
      */
     EnumDmzjAcgnBigCatID[EnumDmzjAcgnBigCatID["NOVEL"] = 1] = "NOVEL";
-})(EnumDmzjAcgnBigCatID = exports.EnumDmzjAcgnBigCatID || (exports.EnumDmzjAcgnBigCatID = {}));
+})(EnumDmzjAcgnBigCatID || (exports.EnumDmzjAcgnBigCatID = EnumDmzjAcgnBigCatID = {}));
 var EnumNumberBoolean;
 (function (EnumNumberBoolean) {
     EnumNumberBoolean[EnumNumberBoolean["FALSE"] = 0] = "FALSE";
     EnumNumberBoolean[EnumNumberBoolean["TRUE"] = 1] = "TRUE";
-})(EnumNumberBoolean = exports.EnumNumberBoolean || (exports.EnumNumberBoolean = {}));
+})(EnumNumberBoolean || (exports.EnumNumberBoolean = EnumNumberBoolean = {}));
 var EnumWebSubscribeTypeID;
 (function (EnumWebSubscribeTypeID) {
     /**
@@ -62,7 +62,7 @@ var EnumWebSubscribeTypeID;
      * 動畫
      */
     EnumWebSubscribeTypeID[EnumWebSubscribeTypeID["ANIME"] = 3] = "ANIME";
-})(EnumWebSubscribeTypeID = exports.EnumWebSubscribeTypeID || (exports.EnumWebSubscribeTypeID = {}));
+})(EnumWebSubscribeTypeID || (exports.EnumWebSubscribeTypeID = EnumWebSubscribeTypeID = {}));
 exports.DMZJ_NOVEL_TAGS = [
     "侦探",
     "其它",

@@ -9,7 +9,7 @@ var EnumResponseTypeKey;
     EnumResponseTypeKey["Root"] = "Root";
     EnumResponseTypeKey["NovelChapterResponse"] = "NovelChapterResponse";
     EnumResponseTypeKey["NovelDetailResponse"] = "NovelDetailResponse";
-})(EnumResponseTypeKey = exports.EnumResponseTypeKey || (exports.EnumResponseTypeKey = {}));
+})(EnumResponseTypeKey || (exports.EnumResponseTypeKey = EnumResponseTypeKey = {}));
 const _cache = new Map();
 function _cacheGet(key, fn) {
     let value = _cache.get(key);
