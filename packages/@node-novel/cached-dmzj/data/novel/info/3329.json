@@ -3,13 +3,13 @@
   "name": "魔女与猎犬",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12443,
-  "last_update_chapter_id": 127082,
-  "last_update_time": 1658833551,
-  "cover": "http://xs.dmzj.com/img/webpic/9/ml0726l.jpg",
-  "hot_hits": 2677,
+  "last_update_volume_id": 13280,
+  "last_update_chapter_id": 136928,
+  "last_update_time": 1690032295,
+  "cover": "https://xs.idmzj.com/img/webpic/9/ml0726l.jpg",
+  "hot_hits": 4992,
   "introduction": "小国坎帕斯菲洛因农业和锻造业而繁荣，这片土地上的人们虽然贫穷，但是生活得安稳幸福。然而如今这个国家却面临着战火的威胁，以战争和魔法出名的王国艾美利亚独占了众多魔法师，凭借超常的力量持续扩张着领土。\n这样下去坎帕斯菲洛即将灭亡，此时领主巴德·格雷斯想出了一个起死回生的妙招，那就是收集分散在大陆各地的凶恶魔女，从而对抗王国艾美利亚。\n与此同时，坎帕斯菲洛的邻国——骑士之国罗威传来了囚禁“镜之魔女”的情报。魔女诱惑罗威国王，想要登上王妃之位，却在婚礼当天暴露真身，于是残忍杀害了在场者。领主巴德为了引渡“镜之魔女”，率领仆从前往罗威，其中一位少年名叫洛洛，通常被称为“黑犬”的他从小接受了各种暗杀术的培训，成为了坎帕斯菲洛的暗杀者……波澜壮阔的黑暗奇幻故事就此开演。",
   "types": [
     "奇幻",
@@ -17,7 +17,7 @@
   ],
   "authors": "カミツキレイニー",
   "first_letter": "M",
-  "subscribe_num": 367,
+  "subscribe_num": 1592,
   "volume": [
     {
       "id": 12443,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1658833201,
-      "sum_chapters": 42
+      "sum_chapters": 10
+    },
+    {
+      "id": 13280,
+      "lnovel_id": 3329,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1690031330,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -69,6 +77,54 @@
           "chapter_id": 127082,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 13280,
+      "id": 13280,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 136904,
+          "chapter_name": "序章 灼热的舞女",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 136905,
+          "chapter_name": "第一章 向北（前篇）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 136906,
+          "chapter_name": "第二章 向北（后篇）",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 136907,
+          "chapter_name": "第三章 雪之女王（前篇）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 136908,
+          "chapter_name": "第四章 雪之女王（后篇）",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 136909,
+          "chapter_name": "终章 雪原的姐弟",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 136910,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 136928,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }
