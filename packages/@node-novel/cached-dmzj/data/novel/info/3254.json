@@ -3,13 +3,13 @@
   "name": "日和的请求是绝对的",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12546,
-  "last_update_chapter_id": 128511,
-  "last_update_time": 1662219485,
-  "cover": "http://xs.dmzj.com/img/webpic/20/rh0524l.jpg",
-  "hot_hits": 3711,
+  "last_update_volume_id": 13320,
+  "last_update_chapter_id": 137502,
+  "last_update_time": 1691518308,
+  "cover": "https://xs.idmzj.com/img/webpic/20/rh0524l.jpg",
+  "hot_hits": 4439,
   "introduction": "山，海，坡的街道。我和日和——在<大概>是日本的尽头<一定>是世界的尽头的这个街道，相遇了。\n她温柔，可爱，还有点随波逐流拿不定主意。但是.......\n「我的愿望是——绝对的」\n无论是谁只要听到就绝对不能逆转的「请求」。\n她拥有的这种力量，对我的人生，对整个世界都进行着决定性的变革。然后到最后——日和请求的结果是——。\n「——但是，请全部忘掉吧」\n明明世界是如此容易崩坏，但是我们的恋情无论如何都不会结束——这是在无法终结的世界里，说不定，是最后的恋爱故事。",
   "types": [
     "爱情",
@@ -18,7 +18,7 @@
   ],
   "authors": "岬鹭宫",
   "first_letter": "R",
-  "subscribe_num": 1138,
+  "subscribe_num": 1614,
   "volume": [
     {
       "id": 12215,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1653403218,
-      "sum_chapters": 13
+      "sum_chapters": 6
     },
     {
       "id": 12545,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1662214657,
-      "sum_chapters": 13
+      "sum_chapters": 6
     },
     {
       "id": 12546,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1662214799,
-      "sum_chapters": 13
+      "sum_chapters": 6
+    },
+    {
+      "id": 13320,
+      "lnovel_id": 3254,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1691515994,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -197,6 +205,64 @@
           "chapter_id": 128511,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 13320,
+      "id": 13320,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 137416,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 137417,
+          "chapter_name": "第一话 午后课程",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 137418,
+          "chapter_name": "第二话 再生",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 137419,
+          "chapter_name": "第三话 我还不成熟",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 137420,
+          "chapter_name": "第四话 无法实现的愿望",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 137421,
+          "chapter_name": "幕间",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 137422,
+          "chapter_name": "第五话 最后一天",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 137423,
+          "chapter_name": "尾声",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 137424,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 137502,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
