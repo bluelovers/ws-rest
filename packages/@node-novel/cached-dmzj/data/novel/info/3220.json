@@ -3,11 +3,11 @@
   "name": "春夏秋冬代行者",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷 夏之舞 上",
+  "last_update_volume_name": "第四卷 夏之舞 下",
   "last_update_chapter_name": "插图",
-  "last_update_volume_id": 13190,
-  "last_update_chapter_id": 135877,
-  "last_update_time": 1686627388,
+  "last_update_volume_id": 13371,
+  "last_update_chapter_id": 137947,
+  "last_update_time": 1693557944,
   "cover": "https://xs.idmzj.com/img/webpic/23/cxqd0317l.jpg",
   "hot_hits": 3785,
   "introduction": "「春天——顺利地、降临，此处。」\n起初这个世界只有冬天这个季节，冬天无法忍受孤独于是削减自己生命创造了春天。随后又如大地所愿诞生了夏秋两季，于是形成了四季。后来人之子负责四季的轮回变化，完成这个使命的人被称为“四季的代行者”——\n现在有一名少女神，她胸怀使命地站了出来。她被四季之神赐予的季节是『春』。她被母亲赐予了名字「雏菊」。她就是这个国家十年前所失去的春天。雏菊克服了困难以现人神的身份归来。她必须要与掳走了春并带来长久屈辱的人战斗，与一名从者少女共同站出来。在她内心深处还藏在着对冬天的恋慕，正如那段神话一般。\n由晓佳奈为您献上现人神们的故事。身兼让季节在世界上出现使命，他们的故事在此开幕。",
@@ -17,7 +17,7 @@
   ],
   "authors": "晓佳奈",
   "first_letter": "C",
-  "subscribe_num": 1611,
+  "subscribe_num": 1693,
   "volume": [
     {
       "id": 12106,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 春之舞 上",
       "volume_order": 10,
       "addtime": 1647512765,
-      "sum_chapters": 2
+      "sum_chapters": 4
     },
     {
       "id": 13121,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷 春之舞 下",
       "volume_order": 20,
       "addtime": 1683126080,
-      "sum_chapters": 2
+      "sum_chapters": 4
     },
     {
       "id": 13190,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷 夏之舞 上",
       "volume_order": 30,
       "addtime": 1686626922,
-      "sum_chapters": 2
+      "sum_chapters": 4
+    },
+    {
+      "id": 13371,
+      "lnovel_id": 3220,
+      "volume_name": "第四卷 夏之舞 下",
+      "volume_order": 40,
+      "addtime": 1693556995,
+      "sum_chapters": 4
     }
   ],
   "chapters": [
@@ -229,6 +237,79 @@
         },
         {
           "chapter_id": 135877,
+          "chapter_name": "插图",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 13371,
+      "id": 13371,
+      "volume_name": "第四卷 夏之舞 下",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 137935,
+          "chapter_name": "序",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 137936,
+          "chapter_name": "第一章 夏日、黄昏与恋人的进行曲",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 137937,
+          "chapter_name": "第二章 樱与蝶的哀歌",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 137938,
+          "chapter_name": "第三章 支配者的间奏曲",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 137939,
+          "chapter_name": "第四章 春与冬的二重奏曲",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 137940,
+          "chapter_name": "第五章 狩猎的前奏曲",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 137941,
+          "chapter_name": "第六章 夜与狼的交响曲",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 137942,
+          "chapter_name": "第七章 神的摇篮曲",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 137943,
+          "chapter_name": "第八章 夏之恋的狂想曲",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 137944,
+          "chapter_name": "第九章 四季与黄昏的赞美诗",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 137946,
+          "chapter_name": "终章 夏之舞",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 137945,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 137947,
           "chapter_name": "插图",
           "chapter_order": 130
         }
