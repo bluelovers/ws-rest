@@ -3,20 +3,20 @@
   "name": "漫画家被陌生女高中生监禁的故事",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12326,
-  "last_update_chapter_id": 126017,
-  "last_update_time": 1656946489,
-  "cover": "http://xs.dmzj.com/img/webpic/14/nzjj0131l.jpg",
-  "hot_hits": 97808,
+  "last_update_volume_id": 13404,
+  "last_update_chapter_id": 138482,
+  "last_update_time": 1695395229,
+  "cover": "https://xs.idmzj.com/img/webpic/14/nzjj0131l.jpg",
+  "hot_hits": 102433,
   "introduction": "「这里是哪里？」\n醒来后眼前是陌生的天花板，周围没有任何灯光，脖子上的是――项圈和锁链！？\n突然，电灯亮起。站在那里的是手拿菜刀的女高中生。JK与漫画家，两人的监禁生活由此开幕！",
   "types": [
     "侦探"
   ],
   "authors": "穂积潜",
   "first_letter": "M",
-  "subscribe_num": 4863,
+  "subscribe_num": 5637,
   "volume": [
     {
       "id": 12027,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1643634804,
-      "sum_chapters": 42
+      "sum_chapters": 14
     },
     {
       "id": 12326,
@@ -32,7 +32,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1656945288,
-      "sum_chapters": 42
+      "sum_chapters": 14
+    },
+    {
+      "id": 13404,
+      "lnovel_id": 3202,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1695394074,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -384,6 +392,79 @@
           "chapter_id": 126017,
           "chapter_name": "插画",
           "chapter_order": 320
+        }
+      ]
+    },
+    {
+      "volume_id": 13404,
+      "id": 13404,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 138443,
+          "chapter_name": "序幕 冬",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 138444,
+          "chapter_name": "命运 1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 138445,
+          "chapter_name": "第1周",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 138446,
+          "chapter_name": "命运 2",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 138447,
+          "chapter_name": "第2周",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 138448,
+          "chapter_name": "命运 3",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 138449,
+          "chapter_name": "第3周",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 138450,
+          "chapter_name": "命运 4",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 138451,
+          "chapter_name": "第4周",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 138452,
+          "chapter_name": "命运 5",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 138453,
+          "chapter_name": "尾声 第一天 抑或曾经被陌生女高中生囚禁的漫画家",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 138454,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 138482,
+          "chapter_name": "插画",
+          "chapter_order": 130
         }
       ]
     }
