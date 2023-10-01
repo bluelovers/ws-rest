@@ -15,7 +15,7 @@ const jquery_1 = require("./util/jquery");
 const lib_2 = require("@bluelovers/axios-util/lib");
 const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
 const crlf_normalize_1 = tslib_1.__importDefault(require("crlf-normalize"));
-let DiscuzClient = exports.DiscuzClient = class DiscuzClient extends lib_1.default {
+let DiscuzClient = class DiscuzClient extends lib_1.default {
     constructor(...argv) {
         let [defaults = {}] = argv;
         if (!defaults.baseURL) {
@@ -547,6 +547,7 @@ let DiscuzClient = exports.DiscuzClient = class DiscuzClient extends lib_1.defau
         return super._createJSDOM(html, config);
     }
 };
+exports.DiscuzClient = DiscuzClient;
 tslib_1.__decorate([
     (0, decorators_1.POST)('member.php?mod=logging&action=login&loginsubmit=yes&infloat=yes&lssubmit=yes'),
     decorators_1.FormUrlencoded,

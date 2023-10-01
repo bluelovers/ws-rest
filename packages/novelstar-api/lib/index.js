@@ -16,7 +16,7 @@ const _checkLogin_1 = require("./util/_checkLogin");
 const _queryRecentUpdate_1 = require("./util/_queryRecentUpdate");
 const array_hyper_unique_1 = require("array-hyper-unique");
 const _getRecentUpdate_1 = require("./util/_getRecentUpdate");
-let NovelStarClient = exports.NovelStarClient = class NovelStarClient extends index_1.default {
+let NovelStarClient = class NovelStarClient extends index_1.default {
     checkLogin() {
         return (0, _checkLogin_1._checkLogin)(this.$returnValue.$);
     }
@@ -73,6 +73,7 @@ let NovelStarClient = exports.NovelStarClient = class NovelStarClient extends in
         });
     }
 };
+exports.NovelStarClient = NovelStarClient;
 tslib_1.__decorate([
     (0, method_1.GET)('member/home/'),
     (0, index_2.RequestConfigs)({

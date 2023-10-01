@@ -20,7 +20,7 @@ const protobuf_1 = require("./v4/protobuf");
  */
 //@BaseUrl('http://v2.api.dmzj.com')
 //@BaseUrl('http://nnv3api.dmzj1.com')
-let DmzjClient = exports.DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
+let DmzjClient = class DmzjClient extends lib_1.AbstractHttpClient {
     constructor(defaults) {
         super(defaults);
         //consoleDebug.debug(`constructor`);
@@ -365,6 +365,7 @@ let DmzjClient = exports.DmzjClient = class DmzjClient extends lib_1.AbstractHtt
         return;
     }
 };
+exports.DmzjClient = DmzjClient;
 tslib_1.__decorate([
     (0, decorators_1.POST)('https://user.dmzj.com/loginV2/m_confirm'),
     (0, decorators_1.methodBuilder)(),

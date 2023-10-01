@@ -28,7 +28,7 @@ const _handleChapterContent_1 = require("./util/_handleChapterContent");
 /**
  * https://www.wenku8.net/index.php
  */
-let ESJzoneClient = exports.ESJzoneClient = class ESJzoneClient extends lib_1.default {
+let ESJzoneClient = class ESJzoneClient extends lib_1.default {
     _handleArticleList(_this, retDataInit) {
         const jsdom = _this._responseDataToJSDOM(_this.$returnValue, this.$response);
         const $ = jsdom.$;
@@ -366,6 +366,7 @@ let ESJzoneClient = exports.ESJzoneClient = class ESJzoneClient extends lib_1.de
         return ret;
     }
 };
+exports.ESJzoneClient = ESJzoneClient;
 tslib_1.__decorate([
     (0, decorators_1.GET)('list/{page}.html'),
     (0, decorators_1.methodBuilder)(),

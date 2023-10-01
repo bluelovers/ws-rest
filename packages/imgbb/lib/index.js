@@ -6,7 +6,7 @@ const lib_1 = require("restful-decorator/lib");
 const decorators_1 = require("restful-decorator/lib/decorators");
 const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const SymApiOptions = Symbol('options');
-let ImgBB = exports.ImgBB = class ImgBB extends lib_1.AbstractHttpClient {
+let ImgBB = class ImgBB extends lib_1.AbstractHttpClient {
     constructor(options) {
         super(options.defaults, options);
     }
@@ -31,6 +31,7 @@ let ImgBB = exports.ImgBB = class ImgBB extends lib_1.AbstractHttpClient {
         return bluebird_1.default.resolve($returnValue);
     }
 };
+exports.ImgBB = ImgBB;
 tslib_1.__decorate([
     (0, decorators_1.POST)('1/upload'),
     decorators_1.FormUrlencoded,

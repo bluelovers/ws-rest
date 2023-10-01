@@ -27,7 +27,7 @@ const jsdom_1 = require("restful-decorator-plugin-jsdom/lib/decorators/jsdom");
  * @see https://github.com/59naga/naroujs
  * @see https://github.com/ErgoFriend/yomoujs
  */
-let SyosetuClient = exports.SyosetuClient = class SyosetuClient extends lib_1.default {
+let SyosetuClient = class SyosetuClient extends lib_1.default {
     _constructor() {
         this._setCookieSync({
             key: 'over18',
@@ -71,6 +71,7 @@ let SyosetuClient = exports.SyosetuClient = class SyosetuClient extends lib_1.de
         return this._getWebNovelRaw(argv);
     }
 };
+exports.SyosetuClient = SyosetuClient;
 tslib_1.__decorate([
     (0, method_1.GET)(const_1.EnumSyosetuApiURL.novel),
     (0, config_1.RequestConfigs)({

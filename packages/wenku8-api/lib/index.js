@@ -16,7 +16,7 @@ const html_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/l
 /**
  * https://www.wenku8.net/index.php
  */
-let Wenku8Client = exports.Wenku8Client = class Wenku8Client extends lib_1.default {
+let Wenku8Client = class Wenku8Client extends lib_1.default {
     _constructor() {
         this._setCookieSync({
             key: 'jieqiUserCharset',
@@ -434,6 +434,7 @@ let Wenku8Client = exports.Wenku8Client = class Wenku8Client extends lib_1.defau
         throw new Error('Not implemented');
     }
 };
+exports.Wenku8Client = Wenku8Client;
 tslib_1.__decorate([
     (0, decorators_1.POST)('login.php?do=submit&action=login'),
     decorators_1.FormUrlencoded,

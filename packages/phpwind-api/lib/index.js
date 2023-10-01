@@ -16,7 +16,7 @@ const config_1 = require("restful-decorator/lib/decorators/config");
 /**
  * Created by user on 2020/5/13.
  */
-let PHPWindClient = exports.PHPWindClient = class PHPWindClient extends lib_1.default {
+let PHPWindClient = class PHPWindClient extends lib_1.default {
     constructor(...argv) {
         let [defaults = {}] = argv;
         if (!defaults.baseURL) {
@@ -150,6 +150,7 @@ let PHPWindClient = exports.PHPWindClient = class PHPWindClient extends lib_1.de
             .mapSeries(task => task.task_drawable && this.taskDraw(task.task_id).tap((r) => cb === null || cb === void 0 ? void 0 : cb('taskDraw', r)));
     }
 };
+exports.PHPWindClient = PHPWindClient;
 tslib_1.__decorate([
     (0, method_1.POST)('login.php?submit=login'),
     (0, jsdom_1.ReturnValueToJSDOM)(),

@@ -20,7 +20,7 @@ const index_2 = require("restful-decorator/lib/decorators/config/index");
 const _getRecentUpdate_1 = require("./util/_getRecentUpdate");
 const array_hyper_unique_1 = require("array-hyper-unique");
 const _handleBookInfo_1 = require("./util/_handleBookInfo");
-let MasiroMeClient = exports.MasiroMeClient = class MasiroMeClient extends index_1.default {
+let MasiroMeClient = class MasiroMeClient extends index_1.default {
     loginByForm(inputData) {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
@@ -110,6 +110,7 @@ let MasiroMeClient = exports.MasiroMeClient = class MasiroMeClient extends index
         });
     }
 };
+exports.MasiroMeClient = MasiroMeClient;
 tslib_1.__decorate([
     (0, method_1.GET)('admin/auth/login'),
     (0, index_2.RequestConfigs)({
