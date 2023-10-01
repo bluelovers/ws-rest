@@ -11,12 +11,12 @@ var EnumWriting;
      * 完本
      */
     EnumWriting[EnumWriting["done"] = 99] = "done";
-})(EnumWriting = exports.EnumWriting || (exports.EnumWriting = {}));
+})(EnumWriting || (exports.EnumWriting = EnumWriting = {}));
 var EnumTimesUnit;
 (function (EnumTimesUnit) {
     EnumTimesUnit["days"] = "days";
     EnumTimesUnit["month"] = "month";
-})(EnumTimesUnit = exports.EnumTimesUnit || (exports.EnumTimesUnit = {}));
+})(EnumTimesUnit || (exports.EnumTimesUnit = EnumTimesUnit = {}));
 var EnumOrder;
 (function (EnumOrder) {
     EnumOrder["hot"] = "";
@@ -36,5 +36,5 @@ var EnumOrder;
      * 訂閱數
      */
     EnumOrder["orders"] = "orders";
-})(EnumOrder = exports.EnumOrder || (exports.EnumOrder = {}));
+})(EnumOrder || (exports.EnumOrder = EnumOrder = {}));
 //# sourceMappingURL=types.js.map

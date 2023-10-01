@@ -20,7 +20,7 @@ const index_2 = require("restful-decorator/lib/decorators/config/index");
 const _getRecentUpdate_1 = require("./util/_getRecentUpdate");
 const array_hyper_unique_1 = require("array-hyper-unique");
 const _handleBookInfo_1 = require("./util/_handleBookInfo");
-let MasiroMeClient = class MasiroMeClient extends index_1.default {
+let MasiroMeClient = exports.MasiroMeClient = class MasiroMeClient extends index_1.default {
     loginByForm(inputData) {
         const jsdom = this.$returnValue;
         const { $ } = jsdom;
@@ -192,7 +192,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", [Number, Object]),
     tslib_1.__metadata("design:returntype", bluebird_1.default)
 ], MasiroMeClient.prototype, "recentUpdate", null);
-MasiroMeClient = tslib_1.__decorate([
+exports.MasiroMeClient = MasiroMeClient = tslib_1.__decorate([
     (0, http_1.BaseUrl)('https://masiro.me'),
     (0, headers_1.Headers)({
         Referer: 'https://masiro.me/admin',
@@ -208,6 +208,5 @@ MasiroMeClient = tslib_1.__decorate([
         },
     })
 ], MasiroMeClient);
-exports.MasiroMeClient = MasiroMeClient;
 exports.default = MasiroMeClient;
 //# sourceMappingURL=index.js.map

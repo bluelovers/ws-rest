@@ -38,9 +38,7 @@
     "sort-package-json": "yarn-tool sort",
     "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
-  "dependencies": {
-    "tslib": "^2.5.2"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "lhscan-api": "^1.0.28"
   },

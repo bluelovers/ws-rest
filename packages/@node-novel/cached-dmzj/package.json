@@ -38,15 +38,11 @@
     "tsc:esm": "tsc -p tsconfig.esm.json",
     "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
-  "dependencies": {
-    "tslib": "^2.5.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@bluelovers/axios-util": "^1.0.14",
     "@node-novel/site-cache-util": "^1.0.48",
-    "axios-cache-adapter-util": "^1.0.57",
-    "dmzj-api": "^1.1.51",
-    "restful-decorator": "^1.0.61"
+    "dmzj-api": "^1.1.51"
   },
   "publishConfig": {
     "access": "public"

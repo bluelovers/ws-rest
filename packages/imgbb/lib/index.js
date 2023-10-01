@@ -6,7 +6,7 @@ const lib_1 = require("restful-decorator/lib");
 const decorators_1 = require("restful-decorator/lib/decorators");
 const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const SymApiOptions = Symbol('options');
-let ImgBB = class ImgBB extends lib_1.AbstractHttpClient {
+let ImgBB = exports.ImgBB = class ImgBB extends lib_1.AbstractHttpClient {
     constructor(options) {
         super(options.defaults, options);
     }
@@ -65,7 +65,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", [Object]),
     tslib_1.__metadata("design:returntype", Object)
 ], ImgBB.prototype, "upload", null);
-ImgBB = tslib_1.__decorate([
+exports.ImgBB = ImgBB = tslib_1.__decorate([
     (0, decorators_1.BaseUrl)('https://api.imgbb.com/'),
     (0, decorators_1.Headers)({
         'Accept': 'application/json',
@@ -75,6 +75,5 @@ ImgBB = tslib_1.__decorate([
     }),
     tslib_1.__metadata("design:paramtypes", [Object])
 ], ImgBB);
-exports.ImgBB = ImgBB;
 exports.default = ImgBB;
 //# sourceMappingURL=index.js.map

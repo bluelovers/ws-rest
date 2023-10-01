@@ -11,5 +11,5 @@ var EnumMirrorSites;
     EnumMirrorSites["LEVEL_PLUS"] = "https://www.level-plus.net/";
     EnumMirrorSites["WHITE_PLUS"] = "https://bbs.white-plus.net/";
     EnumMirrorSites["IMOUTOLOVE"] = "https://bbs.imoutolove.me/";
-})(EnumMirrorSites = exports.EnumMirrorSites || (exports.EnumMirrorSites = {}));
+})(EnumMirrorSites || (exports.EnumMirrorSites = EnumMirrorSites = {}));
 //# sourceMappingURL=mirror.js.map

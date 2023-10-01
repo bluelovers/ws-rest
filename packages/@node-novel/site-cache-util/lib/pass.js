@@ -1,5 +1,4 @@
 "use strict";
-var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.importPassword = void 0;
 const tslib_1 = require("tslib");
@@ -7,7 +6,7 @@ const index_1 = require("./index");
 const env_bool_1 = tslib_1.__importDefault(require("env-bool"));
 async function importPassword(options) {
     let target = index_1.path.resolve(options.__root, options.file);
-    return (_a = target, Promise.resolve().then(() => tslib_1.__importStar(require(_a)))).catch(e => {
+    return Promise.resolve(`${target}`).then(s => tslib_1.__importStar(require(s))).catch(e => {
         let { envPrefix } = options;
         if (envPrefix) {
             envPrefix = envPrefix.toUpperCase();

@@ -39,15 +39,10 @@
     "tsc:esm": "tsc -p tsconfig.esm.json",
     "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
-  "dependencies": {
-    "tslib": "^2.5.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@node-novel/site-cache-util": "^1.0.48",
-    "axios-cache-adapter-util": "^1.0.57",
-    "discuz-api": "^1.0.49",
-    "lazy-cookies": "^1.0.38",
-    "restful-decorator": "^1.0.61"
+    "discuz-api": "^1.0.49"
   },
   "publishConfig": {
     "access": "public"

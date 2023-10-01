@@ -30,6 +30,6 @@ export declare const cacheFilePaths: {
     passwordLocalFile: string;
     dirDataRoot: string;
     dirTempRoot: string;
-} & Record<"subforums" | "infoPack" | "topforums" | "dirFid", string>, __root: string;
+} & Record<"infoPack" | "subforums" | "topforums" | "dirFid", string>, __root: string;
 export declare const cacheFileInfoPath: ((id: string | number) => string) & ((id: string | number) => string);
 export default cacheFilePaths;

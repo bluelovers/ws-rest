@@ -5,7 +5,7 @@ var EnumSyosetuApiURL;
 (function (EnumSyosetuApiURL) {
     EnumSyosetuApiURL["novel"] = "novelapi/api/";
     EnumSyosetuApiURL["novel18"] = "novel18api/api/";
-})(EnumSyosetuApiURL = exports.EnumSyosetuApiURL || (exports.EnumSyosetuApiURL = {}));
+})(EnumSyosetuApiURL || (exports.EnumSyosetuApiURL = EnumSyosetuApiURL = {}));
 var EnumSyosetuApiParamOrderBy;
 (function (EnumSyosetuApiParamOrderBy) {
     /**
@@ -60,7 +60,7 @@ var EnumSyosetuApiParamOrderBy;
      * 更新が古い順
      **/
     EnumSyosetuApiParamOrderBy["old"] = "old";
-})(EnumSyosetuApiParamOrderBy = exports.EnumSyosetuApiParamOrderBy || (exports.EnumSyosetuApiParamOrderBy = {}));
+})(EnumSyosetuApiParamOrderBy || (exports.EnumSyosetuApiParamOrderBy = EnumSyosetuApiParamOrderBy = {}));
 /**
  * 掲載サイトを指定できます。ハイフン(-)記号で区切れば複数の掲載サイトを一括抽出できます。
  */
@@ -82,7 +82,7 @@ var EnumSyosetuApiRawNovelNocgenre;
      * ミッドナイトノベルズ(大人向け)
      */
     EnumSyosetuApiRawNovelNocgenre[EnumSyosetuApiRawNovelNocgenre["r18"] = 4] = "r18";
-})(EnumSyosetuApiRawNovelNocgenre = exports.EnumSyosetuApiRawNovelNocgenre || (exports.EnumSyosetuApiRawNovelNocgenre = {}));
+})(EnumSyosetuApiRawNovelNocgenre || (exports.EnumSyosetuApiRawNovelNocgenre = EnumSyosetuApiRawNovelNocgenre = {}));
 /**
  * ジャンル
  */
@@ -172,5 +172,5 @@ var EnumSyosetuApiRawNovelGenre;
      * ノンジャンル〔ノンジャンル〕
      */
     EnumSyosetuApiRawNovelGenre[EnumSyosetuApiRawNovelGenre["Genre9801"] = 9801] = "Genre9801";
-})(EnumSyosetuApiRawNovelGenre = exports.EnumSyosetuApiRawNovelGenre || (exports.EnumSyosetuApiRawNovelGenre = {}));
+})(EnumSyosetuApiRawNovelGenre || (exports.EnumSyosetuApiRawNovelGenre = EnumSyosetuApiRawNovelGenre = {}));
 //# sourceMappingURL=const.js.map

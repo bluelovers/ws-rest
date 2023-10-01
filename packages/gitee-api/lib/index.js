@@ -15,7 +15,7 @@ const decorators_2 = require("./decorators");
 const deep_eql_1 = tslib_1.__importDefault(require("deep-eql"));
 const SymApiOptions = Symbol('options');
 exports.GITEE_SCOPES = Object.freeze('user_info projects pull_requests issues notes keys hook groups gists enterprises'.split(' '));
-let GiteeV5Client = class GiteeV5Client extends lib_1.AbstractHttpClient {
+let GiteeV5Client = exports.GiteeV5Client = class GiteeV5Client extends lib_1.AbstractHttpClient {
     static allScope() {
         return exports.GITEE_SCOPES.slice();
     }
@@ -715,7 +715,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", [Object]),
     tslib_1.__metadata("design:returntype", Object)
 ], GiteeV5Client.prototype, "myRepoList", null);
-GiteeV5Client = tslib_1.__decorate([
+exports.GiteeV5Client = GiteeV5Client = tslib_1.__decorate([
     (0, decorators_1.BaseUrl)('https://gitee.com/api/v5/'),
     (0, decorators_1.Headers)({
         'Accept': 'application/json',
@@ -737,7 +737,6 @@ GiteeV5Client = tslib_1.__decorate([
     ,
     tslib_1.__metadata("design:paramtypes", [Object])
 ], GiteeV5Client);
-exports.GiteeV5Client = GiteeV5Client;
 function _hasWindow() {
     try {
         // @ts-ignore

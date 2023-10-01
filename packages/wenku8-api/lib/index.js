@@ -231,6 +231,7 @@ let Wenku8Client = exports.Wenku8Client = class Wenku8Client extends lib_1.defau
         }
         let _cr = _content.find('.hottext:eq(0)');
         if (_cr.length && /因版权问题|因版權問題/.test(_cr.text() || '')) {
+            console.log(_cr.text());
             data.copyright_remove = true;
         }
         data.cover = _content.find('img:eq(0)').prop('src');

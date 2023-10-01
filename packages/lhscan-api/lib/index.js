@@ -11,7 +11,7 @@ const lib_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/li
 const array_buffer_to_string_1 = require("@bluelovers/array-buffer-to-string");
 const dot_values2_1 = require("dot-values2");
 const moment_1 = tslib_1.__importDefault(require("moment"));
-let LHScanClient = class LHScanClient extends lib_1.default {
+let LHScanClient = exports.LHScanClient = class LHScanClient extends lib_1.default {
     constructor(...argv) {
         let [defaults = {}] = argv;
         if (defaults.baseURL) {
@@ -387,7 +387,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", [Object]),
     tslib_1.__metadata("design:returntype", void 0)
 ], LHScanClient.prototype, "mangaList", null);
-LHScanClient = tslib_1.__decorate([
+exports.LHScanClient = LHScanClient = tslib_1.__decorate([
     (0, decorators_1.BaseUrl)("https://loveheaven.net" /* EnumMirrorSites.LOVEHEAVEN */),
     (0, decorators_1.Headers)({
         'Accept': 'application/json',
@@ -408,6 +408,5 @@ LHScanClient = tslib_1.__decorate([
     ,
     tslib_1.__metadata("design:paramtypes", [Object])
 ], LHScanClient);
-exports.LHScanClient = LHScanClient;
 exports.default = LHScanClient;
 //# sourceMappingURL=index.js.map

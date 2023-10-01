@@ -9,5 +9,5 @@ var EnumMangaListStatus;
     EnumMangaListStatus[EnumMangaListStatus["Complete"] = 1] = "Complete";
     EnumMangaListStatus[EnumMangaListStatus["OnGoing"] = 2] = "OnGoing";
     EnumMangaListStatus[EnumMangaListStatus["Pause"] = 3] = "Pause";
-})(EnumMangaListStatus = exports.EnumMangaListStatus || (exports.EnumMangaListStatus = {}));
+})(EnumMangaListStatus || (exports.EnumMangaListStatus = EnumMangaListStatus = {}));
 //# sourceMappingURL=types.js.map

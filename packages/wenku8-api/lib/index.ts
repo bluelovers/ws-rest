@@ -441,6 +441,7 @@ export class Wenku8Client extends AbstractHttpClientWithJSDom
 
 		if (_cr.length && /因版权问题|因版權問題/.test(_cr.text() || ''))
 		{
+			console.log(_cr.text())
 			data.copyright_remove = true;
 		}
 

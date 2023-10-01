@@ -14,7 +14,7 @@ var EnumParseInputUrl;
     EnumParseInputUrl[EnumParseInputUrl["NUMBER"] = 2] = "NUMBER";
     EnumParseInputUrl[EnumParseInputUrl["URL"] = 3] = "URL";
     EnumParseInputUrl[EnumParseInputUrl["URLSEARCHPARAMS"] = 4] = "URLSEARCHPARAMS";
-})(EnumParseInputUrl = exports.EnumParseInputUrl || (exports.EnumParseInputUrl = {}));
+})(EnumParseInputUrl || (exports.EnumParseInputUrl = EnumParseInputUrl = {}));
 function _handleInputUrl(_input) {
     if (typeof _input === 'number' || typeof _input === 'string' && /^\d+$/.test(_input)) {
         let value = _input.toString();

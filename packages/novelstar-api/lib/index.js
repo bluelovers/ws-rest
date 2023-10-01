@@ -16,7 +16,7 @@ const _checkLogin_1 = require("./util/_checkLogin");
 const _queryRecentUpdate_1 = require("./util/_queryRecentUpdate");
 const array_hyper_unique_1 = require("array-hyper-unique");
 const _getRecentUpdate_1 = require("./util/_getRecentUpdate");
-let NovelStarClient = class NovelStarClient extends index_1.default {
+let NovelStarClient = exports.NovelStarClient = class NovelStarClient extends index_1.default {
     checkLogin() {
         return (0, _checkLogin_1._checkLogin)(this.$returnValue.$);
     }
@@ -100,7 +100,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", [Number, Object]),
     tslib_1.__metadata("design:returntype", void 0)
 ], NovelStarClient.prototype, "_recentUpdate", null);
-NovelStarClient = tslib_1.__decorate([
+exports.NovelStarClient = NovelStarClient = tslib_1.__decorate([
     (0, http_1.BaseUrl)('https://www.novelstar.com.tw/'),
     (0, headers_1.Headers)({
         Referer: 'https://www.novelstar.com.tw/',
@@ -116,6 +116,5 @@ NovelStarClient = tslib_1.__decorate([
         },
     })
 ], NovelStarClient);
-exports.NovelStarClient = NovelStarClient;
 exports.default = NovelStarClient;
 //# sourceMappingURL=index.js.map

@@ -16,7 +16,7 @@ const config_1 = require("restful-decorator/lib/decorators/config");
 /**
  * Created by user on 2020/5/13.
  */
-let PHPWindClient = class PHPWindClient extends lib_1.default {
+let PHPWindClient = exports.PHPWindClient = class PHPWindClient extends lib_1.default {
     constructor(...argv) {
         let [defaults = {}] = argv;
         if (!defaults.baseURL) {
@@ -249,7 +249,7 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", [Object, Object]),
     tslib_1.__metadata("design:returntype", Object)
 ], PHPWindClient.prototype, "taskDraw", null);
-PHPWindClient = tslib_1.__decorate([
+exports.PHPWindClient = PHPWindClient = tslib_1.__decorate([
     (0, cache_1.CacheRequest)({
         cache: {
             maxAge: 6 * 60 * 60 * 1000,
@@ -260,6 +260,5 @@ PHPWindClient = tslib_1.__decorate([
     }),
     tslib_1.__metadata("design:paramtypes", [Object])
 ], PHPWindClient);
-exports.PHPWindClient = PHPWindClient;
 exports.default = PHPWindClient;
 //# sourceMappingURL=index.js.map
