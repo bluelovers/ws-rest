@@ -1,6 +1,7 @@
 name: check update and publish
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master

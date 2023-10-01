@@ -1,6 +1,7 @@
 name: Discord notification
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master

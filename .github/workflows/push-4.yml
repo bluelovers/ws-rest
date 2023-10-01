@@ -1,6 +1,7 @@
 name: ci:build:4 masiro
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master

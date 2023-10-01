@@ -1,6 +1,7 @@
 name: ci:build:2 esjzone
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master

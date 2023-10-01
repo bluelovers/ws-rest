@@ -1,6 +1,7 @@
 name: ci:build:3 wenku8
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
