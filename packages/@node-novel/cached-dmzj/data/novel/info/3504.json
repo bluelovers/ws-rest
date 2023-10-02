@@ -17,7 +17,7 @@
   ],
   "authors": "ツカサ",
   "first_letter": "Y",
-  "subscribe_num": 1094,
+  "subscribe_num": 1151,
   "volume": [
     {
       "id": 12910,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1673947165,
-      "sum_chapters": 11
+      "sum_chapters": 14
     },
     {
       "id": 13420,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1696170948,
-      "sum_chapters": 11
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -96,6 +96,69 @@
         {
           "chapter_id": 132618,
           "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 13420,
+      "id": 13420,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 138651,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 138652,
+          "chapter_name": "第一章 向着夏天出发",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 138653,
+          "chapter_name": "第二章 战斗的季节",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 138654,
+          "chapter_name": "第三章 真正的声音",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 138655,
+          "chapter_name": "第四章 声音的去向",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 138656,
+          "chapter_name": "第五章 前往下一个季节",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 138657,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 138658,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 138659,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 138660,
+          "chapter_name": "特典 小小闺蜜",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 138661,
+          "chapter_name": "特典 空和汀",
           "chapter_order": 110
         }
       ]
