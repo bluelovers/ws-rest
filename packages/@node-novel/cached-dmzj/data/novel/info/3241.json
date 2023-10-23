@@ -3,11 +3,11 @@
   "name": "不起眼的我在你房间做的事班上无人知晓(路人的我在你房间里做的事班里没人知道)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13114,
-  "last_update_chapter_id": 134910,
-  "last_update_time": 1682690343,
+  "last_update_volume_id": 13449,
+  "last_update_chapter_id": 139125,
+  "last_update_time": 1697896925,
   "cover": "https://xs.idmzj.com/img/webpic/16/lr0426l.jpg",
   "hot_hits": 57719,
   "introduction": "阴角的远山佑希有一个不能说的秘密。那就是他与同学的高井柚实是「炮友」。原本只是肉体关系的两人，因为班上的人气人物上原麻里花向远山表达好感而开始动摇。",
@@ -17,7 +17,7 @@
   ],
   "authors": "ヤマモトタケシ",
   "first_letter": "L",
-  "subscribe_num": 4966,
+  "subscribe_num": 5781,
   "volume": [
     {
       "id": 12172,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1650982851,
-      "sum_chapters": 15
+      "sum_chapters": 14
     },
     {
       "id": 13114,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1682684011,
-      "sum_chapters": 15
+      "sum_chapters": 14
+    },
+    {
+      "id": 13449,
+      "lnovel_id": 3241,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1697892797,
+      "sum_chapters": 14
     }
   ],
   "chapters": [
@@ -205,6 +213,69 @@
           "chapter_id": 134910,
           "chapter_name": "插画",
           "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 13449,
+      "id": 13449,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 139065,
+          "chapter_name": "第一话 图书馆约会",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 139066,
+          "chapter_name": "第二话 校园开放日",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 139067,
+          "chapter_name": "第三话 前往南国的邀约",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 139068,
+          "chapter_name": "第四话 打工",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 139069,
+          "chapter_name": "第五话 初次体验",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 139070,
+          "chapter_name": "第六话 决断",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 139071,
+          "chapter_name": "第七话 无人岛",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 139072,
+          "chapter_name": "第八话 终结的开始",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 139073,
+          "chapter_name": "终章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 139074,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 139125,
+          "chapter_name": "插画",
+          "chapter_order": 110
         }
       ]
     }
