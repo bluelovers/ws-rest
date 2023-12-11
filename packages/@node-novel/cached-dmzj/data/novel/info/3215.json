@@ -3,13 +3,13 @@
   "name": "螺旋的Emperoider",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 Spin2.\"Gravelly Empire\"",
+  "last_update_volume_name": "第三卷 SPIN3.\"Haunted Empire\"",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12142,
-  "last_update_chapter_id": 123887,
-  "last_update_time": 1649686260,
-  "cover": "http://xs.dmzj.com/img/webpic/14/lx0303l.jpg",
-  "hot_hits": 3575,
+  "last_update_volume_id": 13533,
+  "last_update_chapter_id": 140187,
+  "last_update_time": 1701938470,
+  "cover": "https://xs.idmzj.com/img/webpic/14/lx0303l.jpg",
+  "hot_hits": 4191,
   "introduction": "那是称霸世界的未来与过去，希望与绝望，胜利与失败，所有一切的人的名字——\n我没觉得自己有那么厉害，只是有一点异于常人的特殊能力而已。同伴们一起竞争，磨炼自己的才能。但是，也许只有那家伙不一样—只有才牙虚宇介是个行事低调，却又强硬顽固、毫无根据的奇怪男子……",
   "types": [
     "校园",
@@ -17,7 +17,7 @@
   ],
   "authors": "上远野浩平",
   "first_letter": "L",
-  "subscribe_num": 560,
+  "subscribe_num": 669,
   "volume": [
     {
       "id": 12084,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 Spin1.\"Wormy Empire\"",
       "volume_order": 10,
       "addtime": 1646393088,
-      "sum_chapters": 12
+      "sum_chapters": 15
     },
     {
       "id": 12142,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷 Spin2.\"Gravelly Empire\"",
       "volume_order": 20,
       "addtime": 1649679216,
-      "sum_chapters": 12
+      "sum_chapters": 15
+    },
+    {
+      "id": 13533,
+      "lnovel_id": 3215,
+      "volume_name": "第三卷 SPIN3.\"Haunted Empire\"",
+      "volume_order": 30,
+      "addtime": 1701936885,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -153,6 +161,64 @@
         },
         {
           "chapter_id": 123887,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13533,
+      "id": 13533,
+      "volume_name": "第三卷 SPIN3.\"Haunted Empire\"",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 140150,
+          "chapter_name": "Introduction",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 140151,
+          "chapter_name": "第十三旋回『First Emperoider』",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 140152,
+          "chapter_name": "第十三・五旋回『地球被盯上了』",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 140153,
+          "chapter_name": "第十四旋回『Forest Flower』",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 140154,
+          "chapter_name": "第十五旋回『暗之森』",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 140155,
+          "chapter_name": "第十六旋回『虚空之眼』",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 140156,
+          "chapter_name": "第十七旋回『无底之渊』",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 140157,
+          "chapter_name": "第十八旋回『Second Emperoider』",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 140158,
+          "chapter_name": "turn to the next",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 140187,
           "chapter_name": "插画",
           "chapter_order": 100
         }

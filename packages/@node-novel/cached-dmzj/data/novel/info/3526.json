@@ -3,11 +3,11 @@
   "name": "异世界漫步",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 福力伦圣王国篇",
+  "last_update_volume_name": "第三卷 艾法魔导国·散步篇",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13301,
-  "last_update_chapter_id": 137217,
-  "last_update_time": 1690823118,
+  "last_update_volume_id": 13540,
+  "last_update_chapter_id": 140250,
+  "last_update_time": 1702131833,
   "cover": "https://xs.idmzj.com/img/webpic/20/mb0304l.jpg",
   "hot_hits": 0,
   "introduction": "　　被召唤到异世界的日本人，空，获得的技能是「漫步」。\n　　国王在看到「不管走多少路也不会累」这个寒酸的效果后，将他逐出了勇者小队。\n　　然而，当空开始在异世界行走时，却突然升级了！\n　　原来他的散步技能具有「每走一步就会获得1点经验值」的隐藏效果。\n　　鉴定、炼金术、生活魔法……\n　　空接连获得方便的技能，让异世界生活变得愈来愈舒适！\n　　于是，空与捡到的小精灵一起展开了悠闲的旅程。",
@@ -17,7 +17,7 @@
   ],
   "authors": "あるくひと",
   "first_letter": "Y",
-  "subscribe_num": 1355,
+  "subscribe_num": 1832,
   "volume": [
     {
       "id": 12995,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 艾雷吉亚王国篇",
       "volume_order": 10,
       "addtime": 1677901101,
-      "sum_chapters": 8
+      "sum_chapters": 15
     },
     {
       "id": 13301,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷 福力伦圣王国篇",
       "volume_order": 20,
       "addtime": 1690821292,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 13540,
+      "lnovel_id": 3526,
+      "volume_name": "第三卷 艾法魔导国·散步篇",
+      "volume_order": 30,
+      "addtime": 1702131039,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -195,6 +203,89 @@
           "chapter_id": 137217,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 13540,
+      "id": 13540,
+      "volume_name": "第三卷 艾法魔导国·散步篇",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 140224,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 140225,
+          "chapter_name": "闲话•1",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 140226,
+          "chapter_name": "第1章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 140227,
+          "chapter_name": "第2章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 140228,
+          "chapter_name": "第3章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 140229,
+          "chapter_name": "第4章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 140230,
+          "chapter_name": "闲话•2",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 140231,
+          "chapter_name": "第5章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 140232,
+          "chapter_name": "第6章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 140233,
+          "chapter_name": "闲话•3",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 140234,
+          "chapter_name": "第7章",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 140235,
+          "chapter_name": "第8章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 140236,
+          "chapter_name": "尾声",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 140237,
+          "chapter_name": "后记",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 140250,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }

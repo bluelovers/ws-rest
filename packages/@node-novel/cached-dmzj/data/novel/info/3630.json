@@ -3,11 +3,11 @@
   "name": "明日，裸足前来",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13396,
-  "last_update_chapter_id": 138335,
-  "last_update_time": 1694783420,
+  "last_update_volume_id": 13513,
+  "last_update_chapter_id": 139981,
+  "last_update_time": 1701085034,
   "cover": "https://xs.idmzj.com/img/webpic/19/lz0915l.jpg",
   "hot_hits": 0,
   "introduction": "毕业典礼这天，我回想着平凡的高中生活。\n成绩一言难尽，放弃梦想，跟女友的感情也无疾而终。\n而且她现在是举国皆知的音乐家，早已跟我是不同世界的人。\n可是这一天，前女友──二斗千华却留下遗书失踪了。\n我感到茫然不知所措……回过神便发现这天变成开学典礼，我穿越到过去的世界了。\n我在这个世界就能拯救二斗吗？……不对，光是这样还不够。\n这次我要和她站在对等的立场，与她并肩同行，连我自己的这三年都要全力改写！\n从毕业（结束）开始，青春重新来过的恋爱故事。",
@@ -18,7 +18,7 @@
   ],
   "authors": "岬鹭宫",
   "first_letter": "M",
-  "subscribe_num": 313,
+  "subscribe_num": 1044,
   "volume": [
     {
       "id": 13396,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1694782694,
-      "sum_chapters": 8
+      "sum_chapters": 15
+    },
+    {
+      "id": 13513,
+      "lnovel_id": 3630,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1701081290,
+      "sum_chapters": 15
     }
   ],
   "chapters": [
@@ -83,6 +91,64 @@
         },
         {
           "chapter_id": 138335,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13513,
+      "id": 13513,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 139882,
+          "chapter_name": "序章 prologue【黑板上的星星】",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 139883,
+          "chapter_name": "第一话 chapter1【OH ! My girlfriends】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 139884,
+          "chapter_name": "第二话 chapter2【梦想家入门】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 139885,
+          "chapter_name": "第三话 chapter3【Wet and watery blue】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 139886,
+          "chapter_name": "第四话 chapter4【If you really love me】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 139887,
+          "chapter_name": "第五话 chapter5【渐行渐远】",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 139888,
+          "chapter_name": "第六话 chapter6【Is it you ?】",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 139889,
+          "chapter_name": "尾声 epilogue",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 139890,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 139981,
           "chapter_name": "插画",
           "chapter_order": 100
         }
