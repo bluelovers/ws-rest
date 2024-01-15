@@ -3,11 +3,11 @@
   "name": "Bye-Bye，Earth",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 怀疑者与钥匙",
-  "last_update_chapter_name": "VI 对峙。踮起脚尖遥望——②",
-  "last_update_volume_id": 13462,
-  "last_update_chapter_id": 139184,
-  "last_update_time": 1698058093,
+  "last_update_volume_name": "第三卷 踮起脚尖遥望",
+  "last_update_chapter_name": "VIII 狂乱。NOWHERE④",
+  "last_update_volume_id": 13604,
+  "last_update_chapter_id": 141031,
+  "last_update_time": 1705146325,
   "cover": "https://xs.idmzj.com/img/webpic/24/bbb1023l.jpg",
   "hot_hits": 0,
   "introduction": "预定2024年TV动画化！\n在一个人类以各种动物形象生存的奇幻世界中，主人公贝尔却生来没有尾巴、角和燐骨，在这个世界一直被视作异类，贝尔为了寻找与她几乎同类的族人，而展开流浪大冒险，成为流浪剑士后，面临着多方的威胁和战斗……",
@@ -17,7 +17,7 @@
   ],
   "authors": "冲方丁",
   "first_letter": "B",
-  "subscribe_num": 78,
+  "subscribe_num": 247,
   "volume": [
     {
       "id": 13461,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 理由之少女",
       "volume_order": 10,
       "addtime": 1698057881,
-      "sum_chapters": 7
+      "sum_chapters": 10
     },
     {
       "id": 13462,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷 怀疑者与钥匙",
       "volume_order": 20,
       "addtime": 1698057887,
-      "sum_chapters": 7
+      "sum_chapters": 10
+    },
+    {
+      "id": 13604,
+      "lnovel_id": 3648,
+      "volume_name": "第三卷 踮起脚尖遥望",
+      "volume_order": 30,
+      "addtime": 1705146234,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -105,6 +113,49 @@
           "chapter_id": 139184,
           "chapter_name": "VI 对峙。踮起脚尖遥望——②",
           "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 13604,
+      "id": 13604,
+      "volume_name": "第三卷 踮起脚尖遥望",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 141025,
+          "chapter_name": "VII 对峙。踮起脚尖遥望（承前）①",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 141026,
+          "chapter_name": "VII 对峙。踮起脚尖遥望（承前）②",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 141027,
+          "chapter_name": "VII 对峙。踮起脚尖遥望（承前）③",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 141028,
+          "chapter_name": "VIII 狂乱。NOWHERE①",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 141029,
+          "chapter_name": "VIII 狂乱。NOWHERE②",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 141030,
+          "chapter_name": "VIII 狂乱。NOWHERE③",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 141031,
+          "chapter_name": "VIII 狂乱。NOWHERE④",
+          "chapter_order": 70
         }
       ]
     }
