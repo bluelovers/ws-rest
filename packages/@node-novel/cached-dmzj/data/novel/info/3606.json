@@ -3,11 +3,11 @@
   "name": "BLADE＆BASTAR",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 温暖的灰烬,昏暗的迷宫",
+  "last_update_volume_name": "第二卷 钢骨试炼场，死亡之红龙",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13308,
-  "last_update_chapter_id": 137311,
-  "last_update_time": 1691075890,
+  "last_update_volume_id": 13616,
+  "last_update_chapter_id": 141174,
+  "last_update_time": 1705672009,
   "cover": "https://xs.idmzj.com/img/webpic/27/bb0803l.jpg",
   "hot_hits": 0,
   "introduction": "在冒险的尽头，如果连灵魂都失去了怎么办？\n「那时，下一个冒险者会做得很好的──」\n无人涉足的「迷宫」深处，发现了不应存在的冒险者尸体──复活后失去了记忆的男人伊亚玛斯，过着单独潜入「迷宫」回收冒险者尸体的生活。无论「苏生」成功，抑或失败了化为灰烬，他都毫不在意地索取代价，其他冒险者对于这样的态度既鄙视又另眼相看。遇见瓦解的团队中唯一的幸存者──人称「厨余」的少女剑士，使他布满灰烬的日常生活开始产生变化！\n蜗牛くも×so-bin的黑暗系奇幻巨作登场!!",
@@ -17,7 +17,7 @@
   ],
   "authors": "蜗牛くも",
   "first_letter": "B",
-  "subscribe_num": 261,
+  "subscribe_num": 1081,
   "volume": [
     {
       "id": 13308,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷 温暖的灰烬,昏暗的迷宫",
       "volume_order": 10,
       "addtime": 1691074578,
-      "sum_chapters": 8
+      "sum_chapters": 11
+    },
+    {
+      "id": 13616,
+      "lnovel_id": 3606,
+      "volume_name": "第二卷 钢骨试炼场，死亡之红龙",
+      "volume_order": 20,
+      "addtime": 1705671434,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -79,6 +87,64 @@
           "chapter_id": 137311,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 13616,
+      "id": 13616,
+      "volume_name": "第二卷 钢骨试炼场，死亡之红龙",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 141165,
+          "chapter_name": "第一章 贝卡南",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 141166,
+          "chapter_name": "第二章 Edge of Town",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 141167,
+          "chapter_name": "第三章 Dragon Slayer",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 141168,
+          "chapter_name": "第四章 Adventures Inn",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 141169,
+          "chapter_name": "第五章 霍克温",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 141170,
+          "chapter_name": "第六章 Dungeon and……",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 141171,
+          "chapter_name": "第七章 Dragon",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 141172,
+          "chapter_name": "第八章 Contra Dextra Avenue",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 141173,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 141174,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
