@@ -3,12 +3,12 @@
   "name": "班上的原偶像，总之就是举止可疑",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12892,
-  "last_update_chapter_id": 132339,
-  "last_update_time": 1673268779,
-  "cover": "http://xs.dmzj.com/img/webpic/21/box0109l.jpg",
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "蜜瓜2022夏日祭特典 夏天的便利店",
+  "last_update_volume_id": 13618,
+  "last_update_chapter_id": 141194,
+  "last_update_time": 1705843400,
+  "cover": "https://xs.idmzj.com/img/webpic/21/box0109l.jpg",
   "hot_hits": 0,
   "introduction": "不平凡的她的，平凡的恋爱故事。\n一条卓也是个非常平凡、随处可见的普通男子高中生。\n他的班上有个完全不普通、原全民偶像团体C位的美少女三枝紫音。\n她总是处于班级的中心，就算引退了也如同偶像一般对谁都面带微笑地平等对待，是学校里最受欢迎的人。\n然而，当她出现在卓也打工的便利店里时，不知为何总是举止可疑而且样子很奇怪。\n这是自称平凡的主人公，与举止可疑的原全民偶像女主人公之间的，有些奇怪的恋爱喜剧（？）。",
   "types": [
@@ -17,7 +17,7 @@
   ],
   "authors": "こりんさん",
   "first_letter": "B",
-  "subscribe_num": 1211,
+  "subscribe_num": 2237,
   "volume": [
     {
       "id": 12892,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1673266985,
-      "sum_chapters": 20
+      "sum_chapters": 11
+    },
+    {
+      "id": 13618,
+      "lnovel_id": 3498,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1705843078,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -94,6 +102,54 @@
           "chapter_id": 132339,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 13618,
+      "id": 13618,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 141187,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 141188,
+          "chapter_name": "第一章 变化",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 141189,
+          "chapter_name": "第二章 松饼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 141190,
+          "chapter_name": "第三章 公园",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 141191,
+          "chapter_name": "第四章 泳池",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 141192,
+          "chapter_name": "第五章 三条",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 141193,
+          "chapter_name": "第六章 游乐园",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 141194,
+          "chapter_name": "蜜瓜2022夏日祭特典 夏天的便利店",
+          "chapter_order": 80
         }
       ]
     }
