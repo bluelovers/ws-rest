@@ -3,11 +3,11 @@
   "name": "怪人的沙拉碗",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "插图",
-  "last_update_volume_id": 13388,
-  "last_update_chapter_id": 138192,
-  "last_update_time": 1694506361,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 13634,
+  "last_update_chapter_id": 141418,
+  "last_update_time": 1706540452,
   "cover": "https://xs.idmzj.com/img/webpic/8/slgr1123l.jpg",
   "hot_hits": 5,
   "introduction": "　　贫穷侦探•镝矢惣助在跟踪途中，遇见了会使用魔术的异世界皇女莎拉。惣助受情势所逼，和莎拉展开了同居生活，不过莎拉很快地便习惯了现代日本的生活模式。另一方面，跟着莎拉传送到现代日本来的女骑士莉薇亚，则是以游民的身分，过起意外充满欢乐的日子。这两个异世界人积极勇敢地面对生命的态度，也日渐对惣助、鬼畜律师、分手业者、宗教家等生活在这块土地上的奇葩人士们造成影响──\n　　平坂读×カントク联手为这个时代打造的天下无双群像喜剧，堂堂登场！",
@@ -17,7 +17,7 @@
   ],
   "authors": "平坂读",
   "first_letter": "G",
-  "subscribe_num": 1221,
+  "subscribe_num": 1461,
   "volume": [
     {
       "id": 12796,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1669217903,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 13141,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1683883205,
-      "sum_chapters": 8
+      "sum_chapters": 10
     },
     {
       "id": 13388,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1694505830,
-      "sum_chapters": 8
+      "sum_chapters": 10
+    },
+    {
+      "id": 13634,
+      "lnovel_id": 3464,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1706539989,
+      "sum_chapters": 10
     }
   ],
   "chapters": [
@@ -321,6 +329,89 @@
           "chapter_id": 138192,
           "chapter_name": "插图",
           "chapter_order": 170
+        }
+      ]
+    },
+    {
+      "volume_id": 13634,
+      "id": 13634,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 141403,
+          "chapter_name": "前情提要III",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 141404,
+          "chapter_name": "被告人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 141405,
+          "chapter_name": "魔王末裔在国中亮相",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 141406,
+          "chapter_name": "赌徒女骑士",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 141407,
+          "chapter_name": "公主和不良少女",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 141408,
+          "chapter_name": "国中生和侦探与社团活动",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 141409,
+          "chapter_name": "一半是灰色的。",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 141410,
+          "chapter_name": "半灰色妹子和女骑士妹子",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 141411,
+          "chapter_name": "审判！",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 141412,
+          "chapter_name": "美浓和飞驒",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 141413,
+          "chapter_name": "铸下大错？",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 141415,
+          "chapter_name": "后记",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 141416,
+          "chapter_name": "特典 异世界的公主和朋友畅聊阿宅话题",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 141417,
+          "chapter_name": "特典 异世界人对于观看影片时加快播放速度的看法",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 141418,
+          "chapter_name": "插画",
+          "chapter_order": 150
         }
       ]
     }
