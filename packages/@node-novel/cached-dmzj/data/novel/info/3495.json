@@ -3,12 +3,12 @@
   "name": "欢迎光临自助洗衣店",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第二卷 灵魂互换之恋",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12885,
-  "last_update_chapter_id": 132230,
-  "last_update_time": 1673066723,
-  "cover": "http://xs.dmzj.com/img/webpic/20/zzx0107l.jpg",
+  "last_update_volume_name": "第三卷 椎心刺骨的旅程",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 13638,
+  "last_update_chapter_id": 141457,
+  "last_update_time": 1707048008,
+  "cover": "https://xs.idmzj.com/img/webpic/20/zzx0107l.jpg",
   "hot_hits": 0,
   "introduction": "★原著漫畫&改編日劇大受好評的暖心系BL，推出番外小說！\n★由漫畫版原作椿ゆず撰寫，糖分滿點的甜蜜故事♡\n「如果湊先生是高中生，你會跟我交往嗎？」\n湊和慎一同參加商店街的芋煮會。後來他們戴著碰巧拿到的幸運手環入睡，結果一醒來，竟到了不同的世界……！\n本作收錄湊和慎變成高中同學，以及慎變成湊的高中學弟的故事！\n解除了「年齡差距」這個限製，兩人的戀情會有什麽進展呢？",
   "types": [
@@ -16,7 +16,7 @@
   ],
   "authors": "椿ゆず",
   "first_letter": "H",
-  "subscribe_num": 33,
+  "subscribe_num": 267,
   "volume": [
     {
       "id": 12884,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷 梦幻泡影之吻",
       "volume_order": 10,
       "addtime": 1673065531,
-      "sum_chapters": 9
+      "sum_chapters": 16
     },
     {
       "id": 12885,
@@ -32,7 +32,15 @@
       "volume_name": "第二卷 灵魂互换之恋",
       "volume_order": 20,
       "addtime": 1673065541,
-      "sum_chapters": 9
+      "sum_chapters": 16
+    },
+    {
+      "id": 13638,
+      "lnovel_id": 3495,
+      "volume_name": "第三卷 椎心刺骨的旅程",
+      "volume_order": 30,
+      "addtime": 1707046731,
+      "sum_chapters": 16
     }
   ],
   "chapters": [
@@ -109,6 +117,39 @@
           "chapter_id": 132230,
           "chapter_name": "插画",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 13638,
+      "id": 13638,
+      "volume_name": "第三卷 椎心刺骨的旅程",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 141453,
+          "chapter_name": "第1章 无法消除的记忆",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 141454,
+          "chapter_name": "第2章 巴塞隆纳的雨水",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 141455,
+          "chapter_name": "第3章 情侣家家酒",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 141456,
+          "chapter_name": "第4章 认真的恋爱",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 141457,
+          "chapter_name": "后记",
+          "chapter_order": 50
         }
       ]
     }
