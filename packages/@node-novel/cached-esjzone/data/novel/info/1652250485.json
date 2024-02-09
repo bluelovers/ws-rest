@@ -1,0 +1,465 @@
+{
+  "id": "1652250485",
+  "name": "魔法学概论",
+  "authors": "UltimateLambda",
+  "cover": "https://s2.loli.net/2022/08/05/RCAhKbpdHqXracs.jpg",
+  "last_update_time": 1702656000,
+  "last_update_chapter_name": "编译器写作日记一",
+  "desc": "并非小说, 大概可能是随笔, 小品, 散文, 怪谈之混合罢. 虽然标题是魔法学概论, 但更近于魔术学 (TYPE-MOON) 概论. 应该会有许多程式语言写成的东西, 但这是不可避免的. 作者认为, 作为精确语言, 程式语言不仅可以用来表达计算, 也能够表达一般的思想. 程序, 是供人阅读的, 附带给机器运行.\n个人主页: https://alpha-beta-eta.github.io/",
+  "tags": [
+    "原創",
+    "SF",
+    "数学",
+    "逻辑",
+    "輕小說"
+  ],
+  "links": [
+    {
+      "name": "UltimateLambda",
+      "href": "https://www.esjzone.cc/tags/UltimateLambda/"
+    }
+  ],
+  "chapters": [
+    {
+      "volume_name": null,
+      "volume_order": 0,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "143727",
+          "chapter_name": "前言",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/143727.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "第一章 编程的基础",
+      "volume_order": 1,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "144055",
+          "chapter_name": "读取-求值-输出循环",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/144055.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "144061",
+          "chapter_name": "字面量",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/144061.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "144062",
+          "chapter_name": "变量",
+          "chapter_order": 2,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/144062.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "144063",
+          "chapter_name": "过程应用",
+          "chapter_order": 3,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/144063.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "144064",
+          "chapter_name": "表示过程的记号",
+          "chapter_order": 4,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/144064.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "144065",
+          "chapter_name": "定义",
+          "chapter_order": 5,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/144065.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "144208",
+          "chapter_name": "条件分支",
+          "chapter_order": 6,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/144208.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "157584",
+          "chapter_name": "and, or, not",
+          "chapter_order": 7,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/157584.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "144211",
+          "chapter_name": "递归定义",
+          "chapter_order": 8,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/144211.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "145270",
+          "chapter_name": "局部定义",
+          "chapter_order": 9,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/145270.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "149871",
+          "chapter_name": "高阶过程",
+          "chapter_order": 10,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/149871.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "149872",
+          "chapter_name": "计算行为",
+          "chapter_order": 11,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/149872.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "151247",
+          "chapter_name": "编程基础习题一",
+          "chapter_order": 12,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/151247.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "185815",
+          "chapter_name": "编程基础习题二",
+          "chapter_order": 13,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/185815.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "第二章 列表处理",
+      "volume_order": 2,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "149962",
+          "chapter_name": "序对",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/149962.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "151292",
+          "chapter_name": "列表",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/151292.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "151498",
+          "chapter_name": "利用图像表示序对结构",
+          "chapter_order": 2,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/151498.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "151508",
+          "chapter_name": "定义于列表上的函数",
+          "chapter_order": 3,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/151508.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "151524",
+          "chapter_name": "列表处理工具箱",
+          "chapter_order": 4,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/151524.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "151710",
+          "chapter_name": "列表处理工具箱续",
+          "chapter_order": 5,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/151710.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "151957",
+          "chapter_name": "列表处理习题一",
+          "chapter_order": 6,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/151957.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "155527",
+          "chapter_name": "列表处理习题二",
+          "chapter_order": 7,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/155527.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "157853",
+          "chapter_name": "列表处理习题三",
+          "chapter_order": 8,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/157853.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "177468",
+          "chapter_name": "列表处理习题四",
+          "chapter_order": 9,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/177468.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "第三章 状态和对象",
+      "volume_order": 3,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "158090",
+          "chapter_name": "赋值和变动",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/158090.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "158648",
+          "chapter_name": "闭包和对象",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/158648.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "158685",
+          "chapter_name": "消息传递",
+          "chapter_order": 2,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/158685.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "编程语言的邀请正式版",
+      "volume_order": 4,
+      "chapters": []
+    },
+    {
+      "volume_name": "1 句法",
+      "volume_order": 5,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "182809",
+          "chapter_name": "1.1 抽象句法树 1.2 BNF文法 1.3 解释器的风味",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/182809.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "2 绑定",
+      "volume_order": 6,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "182814",
+          "chapter_name": "2.1 环境",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/182814.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "182815",
+          "chapter_name": "2.2 一个带有绑定的语言",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/182815.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "182816",
+          "chapter_name": "2.3 一个带有过程的语言",
+          "chapter_order": 2,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/182816.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "183025",
+          "chapter_name": "2.4 de Bruijn索引",
+          "chapter_order": 3,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/183025.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "4 延续",
+      "volume_order": 7,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "177576",
+          "chapter_name": "4.1 延续和延续传递风格",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/177576.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "186993",
+          "chapter_name": "4.2 延续传递风格解释器",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/186993.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "编程语言的邀请遗弃版二",
+      "volume_order": 8,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "149761",
+          "chapter_name": "前言",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/149761.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "149763",
+          "chapter_name": "句法",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/149763.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "149764",
+          "chapter_name": "绑定",
+          "chapter_order": 2,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/149764.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "149765",
+          "chapter_name": "过程第一部分",
+          "chapter_order": 3,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/149765.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "149766",
+          "chapter_name": "过程第二部分",
+          "chapter_order": 4,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/149766.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "153926",
+          "chapter_name": "过程第三部分",
+          "chapter_order": 5,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/153926.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "153927",
+          "chapter_name": "过程第四部分",
+          "chapter_order": 6,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/153927.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "编程语言的邀请遗弃版一",
+      "volume_order": 9,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "157643",
+          "chapter_name": "编程语言的邀请12",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/157643.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "157588",
+          "chapter_name": "编程语言的邀请13",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/157588.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "157589",
+          "chapter_name": "编程语言的邀请14",
+          "chapter_order": 2,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/157589.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "157590",
+          "chapter_name": "编程语言的邀请15",
+          "chapter_order": 3,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/157590.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "157587",
+          "chapter_name": "编程语言的邀请18",
+          "chapter_order": 4,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/157587.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "157586",
+          "chapter_name": "编程语言的邀请19",
+          "chapter_order": 5,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/157586.html"
+        },
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "157585",
+          "chapter_name": "编程语言的邀请20",
+          "chapter_order": 6,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/157585.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "古典人工智能的邀请",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "157930",
+          "chapter_name": "古典人工智能的邀请0 模式匹配",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/157930.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "附余",
+      "volume_order": 11,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "153002",
+          "chapter_name": "编程语言书籍推荐",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/153002.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "编译器写作日记",
+      "volume_order": 12,
+      "chapters": [
+        {
+          "novel_id": "1652250485",
+          "chapter_id": "186970",
+          "chapter_name": "编译器写作日记一",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1652250485/186970.html"
+        }
+      ]
+    }
+  ]
+}
