@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Wenku8Client = void 0;
 const tslib_1 = require("tslib");
-const lib_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib"));
+const lib_1 = require("restful-decorator-plugin-jsdom/lib");
 const decorators_1 = require("restful-decorator/lib/decorators");
 const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("./util");
@@ -10,13 +10,13 @@ const zero_width_1 = require("zero-width");
 const gbk_1 = require("restful-decorator-plugin-jsdom/lib/util/gbk");
 const moment_1 = tslib_1.__importDefault(require("moment"));
 const urlEncodeGBK_1 = require("./util/urlEncodeGBK");
-const subobject_1 = tslib_1.__importDefault(require("restful-decorator/lib/helper/subobject"));
+const subobject_1 = require("restful-decorator/lib/helper/subobject");
 const uniqBy_1 = tslib_1.__importDefault(require("lodash/uniqBy"));
-const html_1 = tslib_1.__importDefault(require("restful-decorator-plugin-jsdom/lib/html"));
+const html_1 = require("restful-decorator-plugin-jsdom/lib/html");
 /**
  * https://www.wenku8.net/index.php
  */
-let Wenku8Client = class Wenku8Client extends lib_1.default {
+let Wenku8Client = class Wenku8Client extends lib_1.AbstractHttpClientWithJSDom {
     _constructor() {
         this._setCookieSync({
             key: 'jieqiUserCharset',
@@ -223,7 +223,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
         });
         let _content = $('#content > div > table:eq(1)');
         try {
-            (0, html_1.default)(_content.html(), (html) => {
+            (0, html_1.tryMinifyHTML)(_content.html(), (html) => {
                 _content.html(html);
             });
         }
@@ -352,7 +352,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
         return bluebird_1.default
             .resolve(this.$http($requestConfig))
             .then(v => {
-            return this._handleArticleList((0, subobject_1.default)({
+            return this._handleArticleList((0, subobject_1.subobject)({
                 $requestConfig,
                 $returnValue: v.data,
                 $response: v.request,
@@ -390,7 +390,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.default {
         $content.find('#contentdp').remove();
         $content.find('#contentdp').remove();
         $content.find('#contentdp').remove();
-        $content.html((0, html_1.default)($content.html()).replace(/^(&nbsp;){4}/gm, ''));
+        $content.html((0, html_1.tryMinifyHTML)($content.html()).replace(/^(&nbsp;){4}/gm, ''));
         let imgs = [];
         const { cb } = options;
         let html;
