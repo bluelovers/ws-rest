@@ -3,11 +3,11 @@
   "name": "内衣女孩任你摆布",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "特典『约会后的独白』",
-  "last_update_volume_id": 13431,
-  "last_update_chapter_id": 139080,
-  "last_update_time": 1697893311,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 13701,
+  "last_update_chapter_id": 142229,
+  "last_update_time": 1708964599,
   "cover": "https://xs.idmzj.com/img/webpic/22/nyn1006l.jpg",
   "hot_hits": 0,
   "introduction": "「如果你不嫌弃的话，能不能穿上我的内裤？」「……你说什么？」\n只能穿土气内衣的女高中生・水野澪，某天更衣时被同班同学浦岛惠太撞见。而惠太面对慌乱不已的澪，第一句话竟是──你愿意穿我的内裤吗！？\n澪以为自己碰到一个惊世骇俗的变态，于是四处逃窜，然而对她纠缠不休的惠太，真实身分居然是澪憧憬的内衣品牌设计师！根据惠太所述，除了澪以外，还有许多女生为内衣所苦恼……最后他甚至将金发模特儿美少女、人气偶像学妹也一并牵扯进来，好好地享受了──更正，解决了她们对内衣的烦恼！",
@@ -18,7 +18,7 @@
   ],
   "authors": "花间灯",
   "first_letter": "N",
-  "subscribe_num": 927,
+  "subscribe_num": 1765,
   "volume": [
     {
       "id": 13430,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1696583254,
-      "sum_chapters": 14
+      "sum_chapters": 8
     },
     {
       "id": 13431,
@@ -34,7 +34,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1696583260,
-      "sum_chapters": 14
+      "sum_chapters": 8
+    },
+    {
+      "id": 13701,
+      "lnovel_id": 3640,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1708963423,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -150,6 +158,64 @@
         {
           "chapter_id": 139080,
           "chapter_name": "特典『约会后的独白』",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13701,
+      "id": 13701,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 142179,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 142180,
+          "chapter_name": "第一章 弟弟有够烦",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 142181,
+          "chapter_name": "第二章 内衣设计师的海边合宿",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 142182,
+          "chapter_name": "第三章 最近，学妹的样子有点怪？",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 142183,
+          "chapter_name": "第四章 从健身房开始的减肥生活",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 142184,
+          "chapter_name": "第五章 女演员的学妹是我的前女友",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 142185,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 142186,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 142187,
+          "chapter_name": "特典『长谷川雪菜的决心』",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 142229,
+          "chapter_name": "插画",
           "chapter_order": 100
         }
       ]

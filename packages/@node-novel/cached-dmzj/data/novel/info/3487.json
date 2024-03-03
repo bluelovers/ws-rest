@@ -3,12 +3,12 @@
   "name": "从路人角色开始的探索英雄谭",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12838,
-  "last_update_chapter_id": 131759,
-  "last_update_time": 1671200045,
-  "cover": "http://xs.dmzj.com/img/webpic/4/yxt1216l.jpg",
+  "last_update_volume_id": 13713,
+  "last_update_chapter_id": 142346,
+  "last_update_time": 1709043888,
+  "cover": "https://xs.idmzj.com/img/webpic/4/yxt1216l.jpg",
   "hot_hits": 0,
   "introduction": "　　从不起眼的底层探索者迈向成功之路！\n　　能力值低到堪称路人角色的高中生•高木海斗是个平凡无奇的探索者，每天都在日本出现的迷宫中狩猎史莱姆，努力赚取零用钱的同时，也暗恋着身为班上女神的童年玩伴。有一天，在他面前出现了一只从未见过的金色史莱姆。海斗在困惑之余击败它后，居然得到了能召唤出神话级存在的从者卡片，此乃价值数亿的超稀有道具！！\n　　当他下定决心进行召唤之后，一名美得超乎人类想像的女武神就此现身──\n　　从路人探索者蜕变成大人物吧！现代奇幻战斗故事开幕！",
   "types": [
@@ -18,7 +18,7 @@
   ],
   "authors": "海翔",
   "first_letter": "C",
-  "subscribe_num": 576,
+  "subscribe_num": 1819,
   "volume": [
     {
       "id": 12838,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1671198926,
-      "sum_chapters": 10
+      "sum_chapters": 8
+    },
+    {
+      "id": 13713,
+      "lnovel_id": 3487,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1709043353,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -95,6 +103,54 @@
           "chapter_id": 131759,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 13713,
+      "id": 13713,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 142339,
+          "chapter_name": "第一章 小队",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 142340,
+          "chapter_name": "第二章 各自的志愿",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 142341,
+          "chapter_name": "第三章 重蹈覆辙的悲剧",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 142342,
+          "chapter_name": "第四章 青铜级",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 142343,
+          "chapter_name": "第五章 危机",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 142344,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 142345,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 142346,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

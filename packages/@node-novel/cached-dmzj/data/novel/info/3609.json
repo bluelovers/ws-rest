@@ -3,11 +3,11 @@
   "name": "君若星辰",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "尾声",
-  "last_update_volume_id": 13321,
-  "last_update_chapter_id": 137444,
-  "last_update_time": 1691516481,
+  "last_update_volume_name": "第二卷 织星",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 13676,
+  "last_update_chapter_id": 141945,
+  "last_update_time": 1708444751,
   "cover": "https://xs.idmzj.com/img/webpic/24/jrxc0809l.jpg",
   "hot_hits": 0,
   "introduction": "这份爱，未免太过悲哀。\n我们被正当性所束缚，被爱所诅咒，即便如此，我们依旧要活下去。\n本屋大赏受赏作《流浪之月》作者所带来的震撼人心的最高杰作。\n——我愿为了自己深爱的男人而误入歧途。\n在风光明媚的濑户内岛上出生长大的高中生晓海，和因为母亲自由奔放的恋爱而四处奔波，转学到岛上的棹。两人心中都有着孤独与残缺，他们相遇相爱、彼此错过，不断成长。致力于描绘生存之自由与束缚的作者所编织出的、多种形式的爱情故事。\n——伟光正的人只存在于幻想之中。而我们只能活成自己的模样。",
@@ -17,7 +17,7 @@
   ],
   "authors": "凪良ゆう",
   "first_letter": "J",
-  "subscribe_num": 72,
+  "subscribe_num": 251,
   "volume": [
     {
       "id": 13321,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1691516200,
-      "sum_chapters": 6
+      "sum_chapters": 8
+    },
+    {
+      "id": 13676,
+      "lnovel_id": 3609,
+      "volume_name": "第二卷 织星",
+      "volume_order": 20,
+      "addtime": 1708350914,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -134,6 +142,84 @@
           "chapter_id": 137444,
           "chapter_name": "尾声",
           "chapter_order": 200
+        }
+      ]
+    },
+    {
+      "volume_id": 13676,
+      "id": 13676,
+      "volume_name": "第二卷 织星",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 141886,
+          "chapter_name": "春日翱翔①",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 141887,
+          "chapter_name": "春日翱翔②",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 141888,
+          "chapter_name": "编织繁星①",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 141889,
+          "chapter_name": "编织繁星②",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 141890,
+          "chapter_name": "千帆过尽① 北原晓海 三十八岁 夏",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 141891,
+          "chapter_name": "② 北原草介 五十二岁 夏",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 141892,
+          "chapter_name": "③ 北原晓海 四十三岁 梅雨",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 141893,
+          "chapter_name": "④ 北原草介 五十七岁 夏",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 141894,
+          "chapter_name": "⑤ 北原晓海 四十七岁 冬",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 141895,
+          "chapter_name": "⑥ 北原草介 六十一岁 夏",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 141896,
+          "chapter_name": "⑦ 北原晓海 五十八岁 夏",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 141897,
+          "chapter_name": "⑧ 北原草介 七十二岁 夏",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 141898,
+          "chapter_name": "⑨ 北原晓海 五十八岁 夏",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 141945,
+          "chapter_name": "插画",
+          "chapter_order": 140
         }
       ]
     }
