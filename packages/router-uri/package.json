@@ -44,12 +44,12 @@
     "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
-    "execall2": "^2.0.23",
+    "execall2": "^2.0.25",
     "tslib": "^2.6.2",
     "uri-template-lite": "^23.4.0"
   },
   "devDependencies": {
-    "url-template": "^3.1.0"
+    "url-template": "^3.1.1"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"
 }
