@@ -3,11 +3,11 @@
   "name": "我和班上第二可爱的女生成为朋友",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13504,
-  "last_update_chapter_id": 139800,
-  "last_update_time": 1700479448,
+  "last_update_volume_id": 13729,
+  "last_update_chapter_id": 142606,
+  "last_update_time": 1709815371,
   "cover": "https://xs.idmzj.com/img/webpic/19/rzm0803l.jpg",
   "hot_hits": 0,
   "introduction": "连点头之交都没几个的我──前原真树交到了第一个朋友——朝凪海。\n男生们都说朝凪同学是「班上第二可爱」，而且很照顾天真烂漫的No.1美少女天海同学。\n这样的她只有在周五的放学后，会偷偷来我家玩。\n从平常能干的模样，实在难以想像私底下的她这么率直又爱撒娇。\n这是低调男与第二女主角之间的真实「朋友」恋爱喜剧。",
@@ -17,7 +17,7 @@
   ],
   "authors": "たかた",
   "first_letter": "W",
-  "subscribe_num": 2688,
+  "subscribe_num": 4490,
   "volume": [
     {
       "id": 13309,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1691074688,
-      "sum_chapters": 22
+      "sum_chapters": 8
     },
     {
       "id": 13504,
@@ -33,7 +33,23 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1700478400,
-      "sum_chapters": 22
+      "sum_chapters": 8
+    },
+    {
+      "id": 13728,
+      "lnovel_id": 3605,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1709811107,
+      "sum_chapters": 8
+    },
+    {
+      "id": 13729,
+      "lnovel_id": 3605,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1709811111,
+      "sum_chapters": 8
     }
   ],
   "chapters": [
@@ -143,6 +159,112 @@
         },
         {
           "chapter_id": 139800,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 13728,
+      "id": 13728,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 142549,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 142550,
+          "chapter_name": "1.和「情人」的年底年初",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 142551,
+          "chapter_name": "2.新学期与情人与朋友",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 142552,
+          "chapter_name": "3.满是第一次的日子",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 142553,
+          "chapter_name": "4.两人甜甜蜜蜜的时间",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 142554,
+          "chapter_name": "终章1 迈向新季节",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 142555,
+          "chapter_name": "终章2 梦想还未见过的初恋",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 142556,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 142605,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 13729,
+      "id": 13729,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 142557,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 142558,
+          "chapter_name": "第一章 命运的换班",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 142559,
+          "chapter_name": "第二章 名为荒江渚的少女",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 142560,
+          "chapter_name": "第三章 前哨战",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 142561,
+          "chapter_name": "第四章 夕与渚",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 142562,
+          "chapter_name": "第五章 来吧！正赛！",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 142563,
+          "chapter_name": "尾章 1 今后我们也要",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 142564,
+          "chapter_name": "尾章 2 第一次的心情",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 142606,
           "chapter_name": "插画",
           "chapter_order": 90
         }
