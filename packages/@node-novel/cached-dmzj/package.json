@@ -25,7 +25,7 @@
     "test:tsd": "ynpx tsd",
     "prebuild": "yarn run build:fix",
     "build": "yarn run build:cache",
-    "build:cache": "tsx ./script/build",
+    "build:cache": "tsx --security-revert=CVE-2023-46809 ./script/build",
     "build:commit": "tsx ./script/build-commit",
     "build:fix": "tsx ./script/fix-old",
     "postbuild": "yarn run build:fix && yarn run build:commit",
