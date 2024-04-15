@@ -3,11 +3,11 @@
   "name": "D crackers",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 I 接触-touch-",
+  "last_update_volume_name": "第二卷 II 祭典-ceremony-",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13690,
-  "last_update_chapter_id": 142178,
-  "last_update_time": 1708963127,
+  "last_update_volume_id": 13776,
+  "last_update_chapter_id": 143272,
+  "last_update_time": 1712602936,
   "cover": "https://xs.idmzj.com/img/webpic/19/d0226l.jpg",
   "hot_hits": 0,
   "introduction": "俗称·卡普塞尔的毒品，有着不可思议的传闻。有人说服下它，就能召唤出天使或是恶魔来帮你实现愿望。姬木梓回到了暌违7年的日本，等待她的是青梅竹马的物部景，与他服用卡普塞尔的事实。\n「我是以自己的意志站在这里的。」\n和记忆中相同的声音，然而拥有记忆中不同眼眸的景对梓低声道。\n「你不可以再扯上关系了。」\n卡普塞尔的真实作用，以及隐藏其中的关键词。王国、恶魔、还有冷酷无情的女王——当“钥匙”打开之时，在梓面前展现的世界是…？\n孤独的灵魂全力奔走，崭新的动作悬疑剧开幕。",
@@ -18,7 +18,7 @@
   ],
   "authors": "字野耕平",
   "first_letter": "D",
-  "subscribe_num": 50,
+  "subscribe_num": 189,
   "volume": [
     {
       "id": 13690,
@@ -26,7 +26,15 @@
       "volume_name": "第一卷 I 接触-touch-",
       "volume_order": 10,
       "addtime": 1708958935,
-      "sum_chapters": 8
+      "sum_chapters": 13
+    },
+    {
+      "id": 13776,
+      "lnovel_id": 3720,
+      "volume_name": "第二卷 II 祭典-ceremony-",
+      "volume_order": 20,
+      "addtime": 1712575146,
+      "sum_chapters": 13
     }
   ],
   "chapters": [
@@ -85,6 +93,54 @@
           "chapter_id": 142178,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13776,
+      "id": 13776,
+      "volume_name": "第二卷 II 祭典-ceremony-",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 143128,
+          "chapter_name": "I章 序幕",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 143129,
+          "chapter_name": "II章 胎动",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 143130,
+          "chapter_name": "III 前夜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 143131,
+          "chapter_name": "IV 交错",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 143132,
+          "chapter_name": "V 饕宴",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 143133,
+          "chapter_name": "VI 回归",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 143134,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 143272,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }
