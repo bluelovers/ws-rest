@@ -3,11 +3,11 @@
   "name": "异世界忠臣藏～复仇的雷迪亚四十七武士～",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13747,
-  "last_update_chapter_id": 142991,
-  "last_update_time": 1711554435,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 13824,
+  "last_update_chapter_id": 143528,
+  "last_update_time": 1714192935,
   "cover": "https://xs.idmzj.com/img/webpic/14/zc0209l.jpg",
   "hot_hits": 0,
   "introduction": "这是将成为传说的复仇。\n在被圣盐守护土地上的雷迪亚王国，由于国王被恶臣杀害，国家陷入了存亡危机。\n被誉为列国最强的雷迪亚骑士团，也因为分成存续派和复仇派而面临着分裂的危机——。\n就在这个时候，现代人寺坂喜一来到了这里。\n在获得美少女团长库拉诺丝的信赖后，他开始劝说复仇派女骑士安丝薇！\n「闭嘴，乳骑士！」「你才闭嘴，臀骑士！」\n「停下！过度的人身攻击就算在我那边的世界也是不被允许的！」\n……各位拜托了，和平相处好吗？\n再现忠臣藏！令人痛快的奇幻复仇剧，现在开始！！",
@@ -18,7 +18,7 @@
   ],
   "authors": "伊达康",
   "first_letter": "Y",
-  "subscribe_num": 294,
+  "subscribe_num": 361,
   "volume": [
     {
       "id": 13663,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1707497573,
-      "sum_chapters": 8
+      "sum_chapters": 19
     },
     {
       "id": 13746,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1711548187,
-      "sum_chapters": 8
+      "sum_chapters": 19
     },
     {
       "id": 13747,
@@ -42,7 +42,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1711548192,
-      "sum_chapters": 8
+      "sum_chapters": 19
+    },
+    {
+      "id": 13824,
+      "lnovel_id": 3707,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1714188339,
+      "sum_chapters": 19
     }
   ],
   "chapters": [
@@ -187,6 +195,49 @@
           "chapter_id": 142991,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 13824,
+      "id": 13824,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 143522,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 143523,
+          "chapter_name": "第一章 帝都红级输送计划",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 143524,
+          "chapter_name": "第二章 大雨诱拐注意报",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 143525,
+          "chapter_name": "第三章 大艾德搜查网",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 143526,
+          "chapter_name": "第四章 真相",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 143527,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 143528,
+          "chapter_name": "后记",
+          "chapter_order": 70
         }
       ]
     }
