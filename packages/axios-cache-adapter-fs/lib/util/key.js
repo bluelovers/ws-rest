@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.axiosCacheAdapterKeyExtra = exports.defaultAxiosCacheAdapterKeyFixed = void 0;
+exports.defaultAxiosCacheAdapterKeyFixed = defaultAxiosCacheAdapterKeyFixed;
+exports.axiosCacheAdapterKeyExtra = axiosCacheAdapterKeyExtra;
 const tslib_1 = require("tslib");
 const md5_1 = tslib_1.__importDefault(require("md5"));
 const axios_cache_adapter_1 = require("axios-cache-adapter");
@@ -16,11 +17,9 @@ function defaultAxiosCacheAdapterKeyFixed(req) {
     const key = url + (0, axios_cache_adapter_1.serializeQuery)(req);
     return req.data ? key + (0, md5_1.default)(req.data) : key;
 }
-exports.defaultAxiosCacheAdapterKeyFixed = defaultAxiosCacheAdapterKeyFixed;
 function axiosCacheAdapterKeyExtra(cb) {
     return (req) => {
         return defaultAxiosCacheAdapterKeyFixed(cb(req));
     };
 }
-exports.axiosCacheAdapterKeyExtra = axiosCacheAdapterKeyExtra;
 //# sourceMappingURL=key.js.map

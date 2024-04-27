@@ -1,4 +1,3 @@
-/// <reference types="jquery" />
 import { IDiscuzForumThread } from '../types';
 /**
  * Created by user on 2019/12/17.

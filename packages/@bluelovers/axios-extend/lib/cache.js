@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.mixinCacheConfig = exports.setupCacheConfig = exports.setupCache = void 0;
+exports.setupCache = void 0;
+exports.setupCacheConfig = setupCacheConfig;
+exports.mixinCacheConfig = mixinCacheConfig;
 const tslib_1 = require("tslib");
 const axios_cache_adapter_1 = require("axios-cache-adapter");
 Object.defineProperty(exports, "setupCache", { enumerable: true, get: function () { return axios_cache_adapter_1.setupCache; } });
@@ -32,7 +34,6 @@ function setupCacheConfig(configInput) {
         cache,
     };
 }
-exports.setupCacheConfig = setupCacheConfig;
 function mixinCacheConfig(config) {
     if (config.cache != null && typeof config.cache === 'object') {
         config.cache = (0, lodash_1.defaultsDeep)(config.cache, {
@@ -46,6 +47,5 @@ function mixinCacheConfig(config) {
     }
     return config;
 }
-exports.mixinCacheConfig = mixinCacheConfig;
 exports.default = setupCacheConfig;
 //# sourceMappingURL=cache.js.map

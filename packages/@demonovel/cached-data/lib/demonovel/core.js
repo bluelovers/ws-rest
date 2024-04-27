@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.fetchFile = exports.fetch = void 0;
+exports.fetch = fetch;
+exports.fetchFile = fetchFile;
 const tslib_1 = require("tslib");
 /**
  * Created by user on 2020/3/2.
@@ -11,10 +12,8 @@ const types_1 = require("./types");
 function fetch() {
     return (0, fetch_1.default)(types_1.url, types_1.file);
 }
-exports.fetch = fetch;
 function fetchFile(force) {
     return (0, fs_1.readJSONWithFetch)(types_1.file, fetch, force);
 }
-exports.fetchFile = fetchFile;
 exports.default = fetchFile;
 //# sourceMappingURL=core.js.map

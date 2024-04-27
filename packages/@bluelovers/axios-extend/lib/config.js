@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.mixinDefaultConfig = void 0;
+exports.mixinDefaultConfig = mixinDefaultConfig;
 const lodash_1 = require("lodash");
 const cache_1 = require("./cache");
 function mixinDefaultConfig(config, axios, ...defaultOptions) {
@@ -16,6 +16,5 @@ function mixinDefaultConfig(config, axios, ...defaultOptions) {
     }));
     return config;
 }
-exports.mixinDefaultConfig = mixinDefaultConfig;
 exports.default = mixinDefaultConfig;
 //# sourceMappingURL=config.js.map

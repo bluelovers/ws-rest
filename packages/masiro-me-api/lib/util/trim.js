@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.trimUnsafe = void 0;
+exports.trimUnsafe = trimUnsafe;
 const zero_width_1 = require("zero-width");
 const crlf_normalize_1 = require("crlf-normalize");
 function trimUnsafe(input) {
@@ -11,5 +11,4 @@ function trimUnsafe(input) {
         .replace(/[\t ]+/gu, ' ')
         .trim();
 }
-exports.trimUnsafe = trimUnsafe;
 //# sourceMappingURL=trim.js.map

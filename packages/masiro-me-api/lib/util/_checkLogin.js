@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._checkLogin = void 0;
+exports._checkLogin = _checkLogin;
 function _checkLogin($) {
     let username = $('.main-header .user .dropdown-toggle span:eq(0)')
         .text()
@@ -9,5 +9,4 @@ function _checkLogin($) {
         return username;
     }
 }
-exports._checkLogin = _checkLogin;
 //# sourceMappingURL=_checkLogin.js.map

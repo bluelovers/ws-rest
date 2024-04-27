@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.number2str = exports.encodeURIComponent = exports.encodeURI = void 0;
+exports.encodeURI = encodeURI;
+exports.encodeURIComponent = encodeURIComponent;
+exports.number2str = number2str;
 const GBKTable = new Array(65510);
 GBKTable[0x0000] = "00";
 GBKTable[0x0001] = "01";
@@ -24093,7 +24095,6 @@ function encodeURI(str) {
         return "";
     }
 }
-exports.encodeURI = encodeURI;
 function encodeURIComponent(str) {
     if (str != null) {
         let result = "";
@@ -24117,7 +24118,6 @@ function encodeURIComponent(str) {
         return "";
     }
 }
-exports.encodeURIComponent = encodeURIComponent;
 function number2str(d) {
     let value = GBKTable[d];
     if (value != null) {
@@ -24132,5 +24132,4 @@ function number2str(d) {
         return "%u" + d.toString(16).toUpperCase();
     }
 }
-exports.number2str = number2str;
 //# sourceMappingURL=urlEncodeGBK.js.map

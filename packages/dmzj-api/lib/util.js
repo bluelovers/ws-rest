@@ -1,6 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.sortDmzjNovelInfo = exports.sortDmzjNovelInfoChapters = exports.sortDmzjNovelInfoVolumes = exports.isDmzjNovelInfoFullWithChapters = exports.isDmzjNovelInfoFull = exports.trimUnsafe = exports.fixDmzjNovelInfo = exports.fixDmzjNovelTags = exports.buildVersion = exports.removeZeroWidth = void 0;
+exports.removeZeroWidth = void 0;
+exports.buildVersion = buildVersion;
+exports.fixDmzjNovelTags = fixDmzjNovelTags;
+exports.fixDmzjNovelInfo = fixDmzjNovelInfo;
+exports.trimUnsafe = trimUnsafe;
+exports.isDmzjNovelInfoFull = isDmzjNovelInfoFull;
+exports.isDmzjNovelInfoFullWithChapters = isDmzjNovelInfoFullWithChapters;
+exports.sortDmzjNovelInfoVolumes = sortDmzjNovelInfoVolumes;
+exports.sortDmzjNovelInfoChapters = sortDmzjNovelInfoChapters;
+exports.sortDmzjNovelInfo = sortDmzjNovelInfo;
 const tslib_1 = require("tslib");
 const cloneDeep_1 = tslib_1.__importDefault(require("lodash/cloneDeep"));
 const array_hyper_unique_1 = require("array-hyper-unique");
@@ -14,7 +23,6 @@ function buildVersion() {
         version: "2.7.003",
     };
 }
-exports.buildVersion = buildVersion;
 /**
  * 修正 dmzj 小說標籤
  */
@@ -27,7 +35,6 @@ function fixDmzjNovelTags(tags) {
         return a;
     }, []));
 }
-exports.fixDmzjNovelTags = fixDmzjNovelTags;
 /**
  * 修正 dmzj 上面一些錯誤的資料
  */
@@ -63,7 +70,6 @@ function fixDmzjNovelInfo(data) {
     }
     return sortDmzjNovelInfo(data);
 }
-exports.fixDmzjNovelInfo = fixDmzjNovelInfo;
 function trimUnsafe(input) {
     // @ts-ignore
     return (0, zero_width_1.removeZeroWidth)(input)
@@ -72,21 +78,18 @@ function trimUnsafe(input) {
         .replace(/\s+/gu, ' ')
         .trim();
 }
-exports.trimUnsafe = trimUnsafe;
 function isDmzjNovelInfoFull(data) {
     // @ts-ignore
     if (data.zone && data.volume) {
         return true;
     }
 }
-exports.isDmzjNovelInfoFull = isDmzjNovelInfoFull;
 function isDmzjNovelInfoFullWithChapters(data) {
     // @ts-ignore
     if (isDmzjNovelInfoFull(data) && data.chapters) {
         return true;
     }
 }
-exports.isDmzjNovelInfoFullWithChapters = isDmzjNovelInfoFullWithChapters;
 function sortDmzjNovelInfoVolumes(volumes) {
     volumes.forEach(volume => {
         (0, sort_object_keys2_1.default)(volume, {
@@ -103,7 +106,6 @@ function sortDmzjNovelInfoVolumes(volumes) {
     });
     return volumes;
 }
-exports.sortDmzjNovelInfoVolumes = sortDmzjNovelInfoVolumes;
 function sortDmzjNovelInfoChapters(chapters) {
     chapters.forEach(chapter => {
         var _a, _b;
@@ -130,7 +132,6 @@ function sortDmzjNovelInfoChapters(chapters) {
     });
     return chapters;
 }
-exports.sortDmzjNovelInfoChapters = sortDmzjNovelInfoChapters;
 function sortDmzjNovelInfo(data) {
     var _a, _b;
     (0, sort_object_keys2_1.default)(data, {
@@ -165,5 +166,4 @@ function sortDmzjNovelInfo(data) {
     }
     return data;
 }
-exports.sortDmzjNovelInfo = sortDmzjNovelInfo;
 //# sourceMappingURL=util.js.map

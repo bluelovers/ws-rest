@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.wrapAdapter = exports.mixinCacheConfig = exports.mixinDefaultConfig = exports.setupCacheConfig = exports.extendAxios = void 0;
+exports.mixinCacheConfig = exports.mixinDefaultConfig = exports.setupCacheConfig = void 0;
+exports.extendAxios = extendAxios;
+exports.wrapAdapter = wrapAdapter;
 const tslib_1 = require("tslib");
 const lodash_1 = require("lodash");
 const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
@@ -47,7 +49,6 @@ function extendAxios(axios, defaultOptions) {
         },
     };
 }
-exports.extendAxios = extendAxios;
 function wrapAdapter(fn, config) {
     const old = config.adapter;
     if (old) {
@@ -61,6 +62,5 @@ function wrapAdapter(fn, config) {
     }
     return bluebird_1.default.method(fn);
 }
-exports.wrapAdapter = wrapAdapter;
 exports.default = extendAxios;
 //# sourceMappingURL=index.js.map

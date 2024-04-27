@@ -3,7 +3,9 @@
  * Created by user on 2019/11/21.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getForumLastThreadSubject = exports.trimUnsafe = exports.removeZeroWidth = void 0;
+exports.removeZeroWidth = void 0;
+exports.trimUnsafe = trimUnsafe;
+exports._getForumLastThreadSubject = _getForumLastThreadSubject;
 // @ts-ignore
 const zero_width_1 = require("zero-width");
 Object.defineProperty(exports, "removeZeroWidth", { enumerable: true, get: function () { return zero_width_1.removeZeroWidth; } });
@@ -16,7 +18,6 @@ function trimUnsafe(input) {
         .replace(/[\t ]+/gu, ' ')
         .trim();
 }
-exports.trimUnsafe = trimUnsafe;
 function _getForumLastThreadSubject(forum) {
     let thread_subject = forum.last_thread_subject;
     let thread_subject_full = forum.last_thread_subject;
@@ -46,5 +47,4 @@ function _getForumLastThreadSubject(forum) {
         thread_subject_full,
     };
 }
-exports._getForumLastThreadSubject = _getForumLastThreadSubject;
 //# sourceMappingURL=util.js.map

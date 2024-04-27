@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { AbstractHttpClient } from 'restful-decorator/lib';
 import { AxiosRequestConfig } from 'restful-decorator/lib/types/axios';
 import { IBluebird } from 'restful-decorator/lib/index';

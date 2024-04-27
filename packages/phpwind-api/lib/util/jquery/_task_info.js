@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._parseTaskInfo = void 0;
+exports._parseTaskInfo = _parseTaskInfo;
 /**
  * Created by user on 2020/5/13.
  */
@@ -37,5 +37,4 @@ function _parseTaskInfo($, _tr) {
     };
     return obj;
 }
-exports._parseTaskInfo = _parseTaskInfo;
 //# sourceMappingURL=_task_info.js.map

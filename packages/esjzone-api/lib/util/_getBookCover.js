@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getBookCover = void 0;
+exports._getBookCover = _getBookCover;
 const _fixCoverUrl_1 = require("./_fixCoverUrl");
 function _getBookCover($) {
     let _cover;
@@ -15,5 +15,4 @@ function _getBookCover($) {
     });
     return _cover;
 }
-exports._getBookCover = _getBookCover;
 //# sourceMappingURL=_getBookCover.js.map

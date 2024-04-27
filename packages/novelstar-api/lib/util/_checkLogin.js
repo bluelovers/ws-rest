@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._checkLogin = void 0;
+exports._checkLogin = _checkLogin;
 function _checkLogin($) {
     let username = $('.member-info:eq(0) a.head-account-btn[href*="member/home"]')
         .text()
@@ -10,5 +10,4 @@ function _checkLogin($) {
     }
     return null;
 }
-exports._checkLogin = _checkLogin;
 //# sourceMappingURL=_checkLogin.js.map

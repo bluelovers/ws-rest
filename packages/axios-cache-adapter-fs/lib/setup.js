@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.setupCacheFile = void 0;
+exports.setupCacheFile = setupCacheFile;
 const fs_extra_1 = require("fs-extra");
 const index_1 = require("./index");
 const debug_1 = require("restful-decorator/lib/util/debug");
@@ -42,6 +42,5 @@ async function setupCacheFile(options) {
     }
     return saveCache;
 }
-exports.setupCacheFile = setupCacheFile;
 exports.default = setupCacheFile;
 //# sourceMappingURL=setup.js.map

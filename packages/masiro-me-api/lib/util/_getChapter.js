@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getChapter = void 0;
+exports._getChapter = _getChapter;
 const html_1 = require("restful-decorator-plugin-jsdom/lib/html");
 const jquery_1 = require("restful-decorator-plugin-jsdom/lib/jquery");
 const _getChapterData_1 = require("./_getChapterData");
@@ -42,5 +42,4 @@ function _getChapter($, chapter_id, options = {}) {
         ...(0, _getChapterData_1._getChapterData)($),
     };
 }
-exports._getChapter = _getChapter;
 //# sourceMappingURL=_getChapter.js.map

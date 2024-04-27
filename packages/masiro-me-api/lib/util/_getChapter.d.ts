@@ -1,6 +1,3 @@
-/// <reference types="jquery" />
-/// <reference types="jquery" />
-/// <reference types="jquery" />
 import { IMasiroMeChapter } from '../types';
 export declare function _getChapter($: JQueryStatic, chapter_id: string | number, options?: {
     rawHtml?: boolean;

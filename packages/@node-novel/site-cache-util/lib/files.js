@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.wrapProxy = exports.createPkgCachePath = exports.createPkgPath = void 0;
+exports.createPkgPath = createPkgPath;
+exports.createPkgCachePath = createPkgCachePath;
+exports.wrapProxy = wrapProxy;
 const tslib_1 = require("tslib");
 const upath2_1 = tslib_1.__importDefault(require("upath2"));
 const util_1 = tslib_1.__importDefault(require("util"));
@@ -29,7 +31,6 @@ function createPkgPath(__root) {
         },
     };
 }
-exports.createPkgPath = createPkgPath;
 function createPkgCachePath(root, options = {}) {
     const pkgData = createPkgPath(root);
     const { join, resolve } = pkgData;
@@ -80,7 +81,6 @@ function createPkgCachePath(root, options = {}) {
     data.fn = wrapProxy(data.fn);
     return wrapProxy(data);
 }
-exports.createPkgCachePath = createPkgCachePath;
 function wrapProxy(target) {
     return new Proxy(target, {
         get(target, p, receiver) {
@@ -97,5 +97,4 @@ function wrapProxy(target) {
         },
     });
 }
-exports.wrapProxy = wrapProxy;
 //# sourceMappingURL=files.js.map

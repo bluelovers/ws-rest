@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { IRepoInfo1, IRepoInfo2 } from './types';
 import { ITSValueOrArray } from 'ts-type';
 export declare function toBase64(content: string | Buffer): string;

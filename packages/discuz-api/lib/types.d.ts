@@ -1,5 +1,3 @@
-/// <reference types="jquery" />
-/// <reference types="jquery" />
 import { ITSPickExtra } from 'ts-type';
 import { ITSRequiredPick, ITSPartialPick } from 'ts-type/lib/type/record';
 import { IJSDOM } from 'jsdom-extra';

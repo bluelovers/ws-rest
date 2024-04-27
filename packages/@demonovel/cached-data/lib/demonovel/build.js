@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.build = void 0;
+exports.build = build;
 const tslib_1 = require("tslib");
 const cache_loader_1 = require("@node-novel/cache-loader");
 const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
@@ -76,6 +76,5 @@ function build(source) {
         }, {});
     });
 }
-exports.build = build;
 exports.default = build;
 //# sourceMappingURL=build.js.map

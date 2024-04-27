@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._parseSiteLink = void 0;
+exports._parseSiteLink = _parseSiteLink;
 const _parseUrlInfo_1 = require("./_parseUrlInfo");
 /**
  * @deprecated
@@ -11,5 +11,4 @@ function _parseSiteLink(chapter_link) {
         return _m;
     }
 }
-exports._parseSiteLink = _parseSiteLink;
 //# sourceMappingURL=_parseSiteLink.js.map

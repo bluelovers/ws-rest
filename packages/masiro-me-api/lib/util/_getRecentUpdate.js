@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getRecentUpdate = void 0;
+exports._getRecentUpdate = _getRecentUpdate;
 const trim_1 = require("./trim");
 const _handleBookInfo_1 = require("./_handleBookInfo");
 const _getImgSrc_1 = require("./_getImgSrc");
@@ -56,5 +56,4 @@ function _getRecentUpdate($, json, baseURL, extra) {
     });
     return data;
 }
-exports._getRecentUpdate = _getRecentUpdate;
 //# sourceMappingURL=_getRecentUpdate.js.map

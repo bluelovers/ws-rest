@@ -1,5 +1,3 @@
-/// <reference types="jquery" />
-/// <reference types="jquery" />
 import AbstractHttpClientWithJSDom, { IJSDOM } from 'restful-decorator-plugin-jsdom/lib';
 import { ISyosetuApiNcodeRaw, ISyosetuApiParams, ISyosetuApiNcode, ISyosetuApiNcodeRawAll, ISyosetuApiNcode18Raw } from './types';
 /**

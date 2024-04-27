@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getBookLinks = void 0;
+exports._getBookLinks = _getBookLinks;
 const util_1 = require("../util");
 function _getBookLinks($, links = []) {
     $('.book-detail')
@@ -23,5 +23,4 @@ function _getBookLinks($, links = []) {
     });
     return links;
 }
-exports._getBookLinks = _getBookLinks;
 //# sourceMappingURL=_getBookLinks.js.map

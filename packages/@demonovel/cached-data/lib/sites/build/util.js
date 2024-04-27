@@ -3,7 +3,9 @@
  * Created by user on 2020/3/3.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.handleEntries = exports.newTitle = exports.newEntry = void 0;
+exports.newEntry = newEntry;
+exports.newTitle = newTitle;
+exports.handleEntries = handleEntries;
 const tslib_1 = require("tslib");
 const util_1 = require("../../util");
 const sort_object_keys2_1 = tslib_1.__importDefault(require("sort-object-keys2"));
@@ -64,7 +66,6 @@ function newEntry(siteID, item) {
         useSource: true,
     });
 }
-exports.newEntry = newEntry;
 function newTitle(chapter_name, volume_name) {
     let c = '／';
     let a = [];
@@ -78,7 +79,6 @@ function newTitle(chapter_name, volume_name) {
         return a.join(c);
     }
 }
-exports.newTitle = newTitle;
 function handleEntries(siteID, source, handler) {
     let list = Object.entries(source[siteID])
         .reduce((a, [id, data]) => {
@@ -92,5 +92,4 @@ function handleEntries(siteID, source, handler) {
         .filter(Boolean);
     return (0, convert_1.toRecord)(list);
 }
-exports.handleEntries = handleEntries;
 //# sourceMappingURL=util.js.map

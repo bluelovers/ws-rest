@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getChapterData = void 0;
+exports._getChapterData = _getChapterData;
 const trim_1 = require("./trim");
 function _getChapterData($) {
     var _a, _b;
@@ -20,5 +20,4 @@ function _getChapterData($) {
     }
     return data !== null && data !== void 0 ? data : null;
 }
-exports._getChapterData = _getChapterData;
 //# sourceMappingURL=_getChapterData.js.map

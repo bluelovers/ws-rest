@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.fetchFile = exports.fetch = void 0;
+exports.fetch = fetch;
+exports.fetchFile = fetchFile;
 const tslib_1 = require("tslib");
 const types_1 = require("./types");
 const core_1 = tslib_1.__importStar(require("./core"));
@@ -21,7 +22,6 @@ function fetch(opts = {}) {
         return a;
     }, {});
 }
-exports.fetch = fetch;
 function fetchFile(force, opts) {
     return bluebird_1.default
         .resolve(Object.keys(types_1.id_packs_map))
@@ -37,6 +37,5 @@ function fetchFile(force, opts) {
         return a;
     }, {});
 }
-exports.fetchFile = fetchFile;
 exports.default = fetchFile;
 //# sourceMappingURL=fetch.js.map

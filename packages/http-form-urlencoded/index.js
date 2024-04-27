@@ -1,6 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.transformValue = exports.transformKey = exports._core = exports.LazyURLSearchParams = void 0;
+exports.LazyURLSearchParams = void 0;
+exports._core = _core;
+exports.transformKey = transformKey;
+exports.transformValue = transformValue;
 const SymTransform = Symbol('transform');
 const SymOptions = Symbol('options');
 class LazyURLSearchParams extends URLSearchParams {
@@ -90,11 +93,9 @@ function _core(init, options) {
     //console.dir(init);
     return init;
 }
-exports._core = _core;
 function transformKey(value) {
     return encodeURIComponent(value);
 }
-exports.transformKey = transformKey;
 function transformValue(value, options) {
     if (value == null) {
         if (options && options.allowNull) {
@@ -107,6 +108,5 @@ function transformValue(value, options) {
     }
     return value.toString();
 }
-exports.transformValue = transformValue;
 exports.default = LazyURLSearchParams;
 //# sourceMappingURL=index.js.map

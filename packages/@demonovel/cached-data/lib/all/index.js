@@ -3,6 +3,7 @@
  * Created by user on 2020/3/2.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = fetchFileAll;
 const tslib_1 = require("tslib");
 const demonovel_1 = tslib_1.__importDefault(require("../demonovel"));
 const sites_1 = tslib_1.__importDefault(require("../sites"));
@@ -19,5 +20,4 @@ function fetchFileAll(force, opts) {
         };
     });
 }
-exports.default = fetchFileAll;
 //# sourceMappingURL=index.js.map

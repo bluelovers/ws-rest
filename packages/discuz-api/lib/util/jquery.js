@@ -1,6 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._jqForumThreadTypes = exports._jqForumThreads = exports._jqForumStickThreads = exports._checkLoginUsername = exports._checkLoginByJQuery = void 0;
+exports._checkLoginByJQuery = _checkLoginByJQuery;
+exports._checkLoginUsername = _checkLoginUsername;
+exports._jqForumStickThreads = _jqForumStickThreads;
+exports._jqForumThreads = _jqForumThreads;
+exports._jqForumThreadTypes = _jqForumThreadTypes;
 const tslib_1 = require("tslib");
 const moment_1 = tslib_1.__importDefault(require("moment"));
 const lazy_url_1 = tslib_1.__importDefault(require("lazy-url"));
@@ -12,7 +16,6 @@ function _checkLoginByJQuery($) {
     return $('.vwmy a[href*="uid"], #loginstatusid, a#myprompt')
         .length > 1;
 }
-exports._checkLoginByJQuery = _checkLoginByJQuery;
 function _checkLoginUsername($) {
     if (_checkLoginByJQuery($)) {
         let user = $('.vwmy a[href*="uid"]').text()
@@ -23,11 +26,9 @@ function _checkLoginUsername($) {
     }
     return;
 }
-exports._checkLoginUsername = _checkLoginUsername;
 function _jqForumStickThreads($) {
     return _jqForumThreads($, '#threadlisttableid tbody[id^="stickthread_"]').threads;
 }
-exports._jqForumStickThreads = _jqForumStickThreads;
 function _jqForumThreads($, selector = '#threadlisttableid tbody[id^="normalthread_"]') {
     let last_thread_time;
     let last_thread_subject;
@@ -98,7 +99,6 @@ function _jqForumThreads($, selector = '#threadlisttableid tbody[id^="normalthre
         threads,
     };
 }
-exports._jqForumThreads = _jqForumThreads;
 function _jqForumThreadTypes($) {
     let thread_types = {};
     $('#thread_types a[href*="typeid="]')
@@ -112,5 +112,4 @@ function _jqForumThreadTypes($) {
     });
     return thread_types;
 }
-exports._jqForumThreadTypes = _jqForumThreadTypes;
 //# sourceMappingURL=jquery.js.map

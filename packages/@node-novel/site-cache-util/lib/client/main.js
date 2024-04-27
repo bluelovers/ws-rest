@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getApiClient = void 0;
+exports._getApiClient = _getApiClient;
 const tslib_1 = require("tslib");
 const __1 = require("..");
 const axios_util_1 = require("@bluelovers/axios-util");
@@ -121,5 +121,4 @@ async function _getApiClient(opts) {
         api, jar, saveCache,
     };
 }
-exports._getApiClient = _getApiClient;
 //# sourceMappingURL=main.js.map

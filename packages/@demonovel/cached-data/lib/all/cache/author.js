@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.buildCachedAuthors = void 0;
+exports.buildCachedAuthors = buildCachedAuthors;
 const tslib_1 = require("tslib");
 const slugify_1 = tslib_1.__importStar(require("../../util/slugify"));
 const util_1 = require("../util");
@@ -60,6 +60,5 @@ function buildCachedAuthors(list) {
     });
     return (0, fs_1.outputJSONWithIndent)((0, path_1.join)(__root_1.__rootCache, 'preset', `authors.json`), out);
 }
-exports.buildCachedAuthors = buildCachedAuthors;
 exports.default = buildCachedAuthors;
 //# sourceMappingURL=author.js.map

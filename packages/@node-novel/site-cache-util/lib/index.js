@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.lazyRun = exports.lazyImport = exports.consoleDebug = exports.console = exports.path = void 0;
+exports.consoleDebug = exports.console = exports.path = void 0;
+exports.lazyImport = lazyImport;
+exports.lazyRun = lazyRun;
 const tslib_1 = require("tslib");
 const upath2_1 = tslib_1.__importDefault(require("upath2"));
 exports.path = upath2_1.default;
@@ -40,7 +42,6 @@ function lazyImport(name, _require) {
         return v.default;
     });
 }
-exports.lazyImport = lazyImport;
 function lazyRun(cb, options) {
     let { pkgLabel } = options;
     let bool = upath2_1.default.isAbsolute(pkgLabel);
@@ -62,5 +63,4 @@ function lazyRun(cb, options) {
         (0, free_gc_1.freeGC)();
     });
 }
-exports.lazyRun = lazyRun;
 //# sourceMappingURL=index.js.map

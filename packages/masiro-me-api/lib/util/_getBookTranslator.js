@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getBookTranslator = void 0;
+exports._getBookTranslator = _getBookTranslator;
 const trim_1 = require("./trim");
 function _getBookTranslator($, translator = []) {
     $('.n-detail .n-translator a')
@@ -13,5 +13,4 @@ function _getBookTranslator($, translator = []) {
     });
     return translator;
 }
-exports._getBookTranslator = _getBookTranslator;
 //# sourceMappingURL=_getBookTranslator.js.map

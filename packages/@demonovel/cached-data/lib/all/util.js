@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.doTitle = void 0;
+exports.doTitle = doTitle;
 const tslib_1 = require("tslib");
 const zhRegExp_1 = tslib_1.__importDefault(require("../util/zhRegExp"));
 const slugify_1 = tslib_1.__importDefault(require("../util/slugify"));
@@ -163,5 +163,4 @@ function doTitle(title, list) {
     }
     return title_new;
 }
-exports.doTitle = doTitle;
 //# sourceMappingURL=util.js.map

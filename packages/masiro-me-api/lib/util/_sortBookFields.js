@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._sortBookFields = void 0;
+exports._sortBookFields = _sortBookFields;
 const tslib_1 = require("tslib");
 const sort_object_keys2_1 = tslib_1.__importDefault(require("sort-object-keys2"));
 function _sortBookFields(book) {
@@ -24,5 +24,4 @@ function _sortBookFields(book) {
         useSource: true,
     });
 }
-exports._sortBookFields = _sortBookFields;
 //# sourceMappingURL=_sortBookFields.js.map

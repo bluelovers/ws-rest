@@ -3,7 +3,7 @@
  * Created by user on 2020/3/3.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.buildMasiro = void 0;
+exports.buildMasiro = buildMasiro;
 const tslib_1 = require("tslib");
 const util_1 = require("./util");
 const cheerio_1 = tslib_1.__importDefault(require("cheerio"));
@@ -30,6 +30,5 @@ function buildMasiro(siteID, id, data) {
     }
     return (0, util_1.newEntry)(siteID, item);
 }
-exports.buildMasiro = buildMasiro;
 exports.default = buildMasiro;
 //# sourceMappingURL=masiro.js.map

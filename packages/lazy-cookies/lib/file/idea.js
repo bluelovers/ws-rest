@@ -3,7 +3,9 @@
  * Created by user on 2019/6/10.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.stringify = exports.parseFile = exports.parse = void 0;
+exports.parse = parse;
+exports.parseFile = parseFile;
+exports.stringify = stringify;
 const tslib_1 = require("tslib");
 const crlf_normalize_1 = tslib_1.__importStar(require("crlf-normalize"));
 const index_1 = tslib_1.__importDefault(require("../../index"));
@@ -23,7 +25,6 @@ function parse(line) {
         return cookies;
     }
 }
-exports.parse = parse;
 function parseFile(input) {
     if (typeof input !== 'string') {
         if (!input || !input.length) {
@@ -41,7 +42,6 @@ function parseFile(input) {
         return arr;
     }, []);
 }
-exports.parseFile = parseFile;
 function stringify(cookie, skipInvalid) {
     let { domain, path, key, value, expires } = cookie;
     if (domain == null || path == null || key == null) {
@@ -51,6 +51,5 @@ function stringify(cookie, skipInvalid) {
     }
     return [domain, path, key, value, new Date(expires).toUTCString()].join('\t');
 }
-exports.stringify = stringify;
 exports.default = parseFile;
 //# sourceMappingURL=idea.js.map

@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.build = exports.buildCore = void 0;
+exports.buildCore = buildCore;
+exports.build = build;
 const tslib_1 = require("tslib");
 const util_1 = require("./build/util");
 const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
@@ -27,7 +28,6 @@ function buildCore(siteID, source) {
     }
     return (0, util_1.handleEntries)(siteID, source, fn);
 }
-exports.buildCore = buildCore;
 function build(source) {
     return bluebird_1.default
         .resolve(Object.keys(source))
@@ -36,6 +36,5 @@ function build(source) {
         return a;
     }, {});
 }
-exports.build = build;
 exports.default = buildCore;
 //# sourceMappingURL=build.js.map

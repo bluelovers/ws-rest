@@ -1,12 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.toArray = exports.toRecord = exports._handle = void 0;
+exports._handle = _handle;
+exports.toRecord = toRecord;
+exports.toArray = toArray;
 function _handle(list) {
     return list.sort((a, b) => {
         return b.updated - a.updated;
     });
 }
-exports._handle = _handle;
 function toRecord(list) {
     list = _handle(list);
     let record = list
@@ -16,11 +17,9 @@ function toRecord(list) {
     }, {});
     return record;
 }
-exports.toRecord = toRecord;
 function toArray(record) {
     let list = Object.values(record);
     list = _handle(list);
     return list;
 }
-exports.toArray = toArray;
 //# sourceMappingURL=convert.js.map

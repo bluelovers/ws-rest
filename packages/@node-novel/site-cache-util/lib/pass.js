@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.importPassword = void 0;
+exports.importPassword = importPassword;
 const tslib_1 = require("tslib");
 const index_1 = require("./index");
 const env_bool_1 = tslib_1.__importDefault(require("env-bool"));
@@ -27,6 +27,5 @@ async function importPassword(options) {
         return {};
     });
 }
-exports.importPassword = importPassword;
 exports.default = importPassword;
 //# sourceMappingURL=pass.js.map

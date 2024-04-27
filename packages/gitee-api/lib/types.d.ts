@@ -1,7 +1,6 @@
 /**
  * Created by user on 2019/6/10.
  */
-/// <reference types="node" />
 export type IGrantType = 'authorization_code' | 'password' | 'client_credentials' | 'refresh_token';
 import { ITSValueOrArray } from 'ts-type';
 export type IRepoLanguage = string | 'JavaScript' | 'TypeScript';

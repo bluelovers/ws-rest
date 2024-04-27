@@ -3,7 +3,7 @@
  * Created by user on 2020/3/3.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.buildMasiroMe = void 0;
+exports.buildMasiroMe = buildMasiroMe;
 const util_1 = require("./util");
 let now = Date.now();
 function buildMasiroMe(siteID, id, data) {
@@ -16,6 +16,5 @@ function buildMasiroMe(siteID, id, data) {
     delete item.chapters;
     return (0, util_1.newEntry)(siteID, item);
 }
-exports.buildMasiroMe = buildMasiroMe;
 exports.default = buildMasiroMe;
 //# sourceMappingURL=masiro_me.js.map

@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import path from 'upath2';
 import { ITSResolvable } from 'ts-type';
 import Bluebird from 'bluebird';

@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._buildURLByParseUrlInfo = exports._parseUrlInfo = void 0;
+exports._parseUrlInfo = _parseUrlInfo;
+exports._buildURLByParseUrlInfo = _buildURLByParseUrlInfo;
 const parse_input_url_1 = require("@node-novel/parse-input-url");
 /**
  * 支援
@@ -45,7 +46,6 @@ function _parseUrlInfo(input) {
         _input: data._input,
     };
 }
-exports._parseUrlInfo = _parseUrlInfo;
 function _buildURLByParseUrlInfo(input, baseURL) {
     baseURL !== null && baseURL !== void 0 ? baseURL : (baseURL = 'https://www.novelstar.com.tw/');
     if (input.novel_id) {
@@ -58,5 +58,4 @@ function _buildURLByParseUrlInfo(input, baseURL) {
         return `${baseURL}/author/${input.user_id}.html`;
     }
 }
-exports._buildURLByParseUrlInfo = _buildURLByParseUrlInfo;
 //# sourceMappingURL=_parseUrlInfo.js.map

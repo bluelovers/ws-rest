@@ -3,7 +3,7 @@
  * Created by user on 2020/3/3.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.buildDefault = void 0;
+exports.buildDefault = buildDefault;
 const util_1 = require("./util");
 const moment_1 = require("../../util/moment");
 let now = Date.now();
@@ -24,6 +24,5 @@ function buildDefault(siteID, id, data) {
     }, 0);
     return (0, util_1.newEntry)(siteID, item);
 }
-exports.buildDefault = buildDefault;
 exports.default = buildDefault;
 //# sourceMappingURL=default.js.map

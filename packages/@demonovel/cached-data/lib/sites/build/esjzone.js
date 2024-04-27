@@ -3,7 +3,7 @@
  * Created by user on 2020/3/3.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.buildEsjzone = void 0;
+exports.buildEsjzone = buildEsjzone;
 const util_1 = require("./util");
 const moment_1 = require("../../util/moment");
 function buildEsjzone(siteID, id, data) {
@@ -31,6 +31,5 @@ function buildEsjzone(siteID, id, data) {
     }
     return (0, util_1.newEntry)(siteID, item);
 }
-exports.buildEsjzone = buildEsjzone;
 exports.default = buildEsjzone;
 //# sourceMappingURL=esjzone.js.map

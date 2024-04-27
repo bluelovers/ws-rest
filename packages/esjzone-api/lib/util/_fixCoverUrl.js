@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._fixCoverUrl = void 0;
+exports._fixCoverUrl = _fixCoverUrl;
 const lazy_url_1 = require("lazy-url");
 function _fixCoverUrl(cover) {
     if (!cover) {
@@ -13,5 +13,4 @@ function _fixCoverUrl(cover) {
     }
     return u.toRealString();
 }
-exports._fixCoverUrl = _fixCoverUrl;
 //# sourceMappingURL=_fixCoverUrl.js.map

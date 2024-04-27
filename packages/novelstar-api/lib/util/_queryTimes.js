@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._queryTimes = void 0;
+exports._queryTimes = _queryTimes;
 const types_1 = require("../types");
 const _parseInt_1 = require("./_parseInt");
 function _queryTimes(times, unit) {
@@ -20,5 +20,4 @@ function _queryTimes(times, unit) {
         return `${times} ${unit || types_1.EnumTimesUnit.days}`;
     }
 }
-exports._queryTimes = _queryTimes;
 //# sourceMappingURL=_queryTimes.js.map

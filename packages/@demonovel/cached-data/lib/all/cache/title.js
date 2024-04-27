@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.buildCachedTitle = void 0;
+exports.buildCachedTitle = buildCachedTitle;
 const tslib_1 = require("tslib");
 const slugify_1 = tslib_1.__importDefault(require("../../util/slugify"));
 const util_1 = require("../util");
@@ -52,6 +52,5 @@ function buildCachedTitle(list) {
     });
     return (0, fs_1.outputJSONWithIndent)((0, path_1.join)(__root_1.__rootCache, 'preset', `titles.json`), out);
 }
-exports.buildCachedTitle = buildCachedTitle;
 exports.default = buildCachedTitle;
 //# sourceMappingURL=title.js.map

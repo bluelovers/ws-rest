@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getBookChapters = void 0;
+exports._getBookChapters = _getBookChapters;
 const util_1 = require("../util");
 const _parseSiteLink_1 = require("./_parseSiteLink");
 function _getBookChapters($, _content, data) {
@@ -62,5 +62,4 @@ function _getBookChapters($, _content, data) {
     });
     return data;
 }
-exports._getBookChapters = _getBookChapters;
 //# sourceMappingURL=_getBookChapters.js.map

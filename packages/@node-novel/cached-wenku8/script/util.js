@@ -3,7 +3,9 @@
  * Created by user on 2019/7/7.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.trim = exports.getApiClient = exports.__root = exports.console = exports.consoleDebug = void 0;
+exports.__root = exports.console = exports.consoleDebug = void 0;
+exports.getApiClient = getApiClient;
+exports.trim = trim;
 const wenku8_api_1 = require("wenku8-api");
 const lib_1 = require("@node-novel/site-cache-util/lib");
 Object.defineProperty(exports, "console", { enumerable: true, get: function () { return lib_1.console; } });
@@ -28,7 +30,6 @@ async function getApiClient() {
         saveCache,
     };
 }
-exports.getApiClient = getApiClient;
 function trim(input) {
     return input
         .replace(/^\s+|\s+$/gu, '')
@@ -36,5 +37,4 @@ function trim(input) {
         .replace(/\s+/gu, ' ')
         .trim();
 }
-exports.trim = trim;
 //# sourceMappingURL=util.js.map

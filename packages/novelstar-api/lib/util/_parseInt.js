@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._parseInt = void 0;
+exports._parseInt = _parseInt;
 function _parseInt(n) {
     if (typeof n === 'string' || typeof n === 'undefined' || n === null) {
         // @ts-ignore
@@ -19,5 +19,4 @@ function _parseInt(n) {
     }
     throw new TypeError(`Invalid number: ${n}`);
 }
-exports._parseInt = _parseInt;
 //# sourceMappingURL=_parseInt.js.map

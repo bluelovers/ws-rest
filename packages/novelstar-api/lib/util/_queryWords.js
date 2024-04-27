@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._parseWords = exports._queryWords = void 0;
+exports._queryWords = _queryWords;
+exports._parseWords = _parseWords;
 const _parseInt_1 = require("./_parseInt");
 function _queryWords(min, max) {
     if (typeof min === 'string' && min.includes('-')) {
@@ -20,7 +21,6 @@ function _queryWords(min, max) {
         return `${min !== null && min !== void 0 ? min : 0}-${max !== null && max !== void 0 ? max : ''}`;
     }
 }
-exports._queryWords = _queryWords;
 function _parseWords(words) {
     if (words === '') {
         return;
@@ -43,5 +43,4 @@ function _parseWords(words) {
     }
     throw new TypeError(`Invalid query words: ${words}`);
 }
-exports._parseWords = _parseWords;
 //# sourceMappingURL=_queryWords.js.map

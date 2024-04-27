@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getThreadsByFid = void 0;
+exports.getThreadsByFid = getThreadsByFid;
 const tslib_1 = require("tslib");
 const fs_extra_1 = require("fs-extra");
 // @ts-ignore
@@ -95,6 +95,5 @@ function getThreadsByFid(api, threadOptions, extraOptions) {
         }
     });
 }
-exports.getThreadsByFid = getThreadsByFid;
 exports.default = getThreadsByFid;
 //# sourceMappingURL=getThreads.js.map

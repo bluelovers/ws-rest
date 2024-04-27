@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getRecentUpdate = void 0;
+exports._getRecentUpdate = _getRecentUpdate;
 const _parseUrlInfo_1 = require("./_parseUrlInfo");
 function _getRecentUpdate($, page, baseURL, extra) {
     let range = {};
@@ -48,5 +48,4 @@ function _getRecentUpdate($, page, baseURL, extra) {
         list,
     };
 }
-exports._getRecentUpdate = _getRecentUpdate;
 //# sourceMappingURL=_getRecentUpdate.js.map

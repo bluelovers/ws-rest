@@ -1,6 +1,3 @@
-/// <reference types="jquery" />
-/// <reference types="jquery" />
-/// <reference types="node" />
 import { AbstractHttpClientWithJSDom } from 'restful-decorator-plugin-jsdom/lib';
 import { IBluebird } from 'restful-decorator/lib/index';
 import Bluebird from 'bluebird';

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._handleBookInfo = void 0;
+exports._handleBookInfo = _handleBookInfo;
 const trim_1 = require("./trim");
 const asserts_1 = require("./asserts");
 const ts_type_predicates_1 = require("ts-type-predicates");
@@ -47,5 +47,4 @@ function _handleBookInfo(book) {
     }
     return (0, _sortBookFields_1._sortBookFields)(book);
 }
-exports._handleBookInfo = _handleBookInfo;
 //# sourceMappingURL=_handleBookInfo.js.map

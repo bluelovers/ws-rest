@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._queryRecentUpdate = void 0;
+exports._queryRecentUpdate = _queryRecentUpdate;
 const types_1 = require("../types");
 const _queryWords_1 = require("./_queryWords");
 const _queryTimes_1 = require("./_queryTimes");
@@ -19,5 +19,4 @@ function _queryRecentUpdate(page, extra) {
         extra,
     ];
 }
-exports._queryRecentUpdate = _queryRecentUpdate;
 //# sourceMappingURL=_queryRecentUpdate.js.map

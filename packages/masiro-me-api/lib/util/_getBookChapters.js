@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getBookChapters = void 0;
+exports._getBookChapters = _getBookChapters;
 const tslib_1 = require("tslib");
 const trim_1 = require("./trim");
 const moment_1 = tslib_1.__importDefault(require("moment"));
@@ -62,5 +62,4 @@ function _getBookChapters($) {
     }
     return root;
 }
-exports._getBookChapters = _getBookChapters;
 //# sourceMappingURL=_getBookChapters.js.map

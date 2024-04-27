@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.buildUrl = exports.buildLink = exports.parseUrlInfo = void 0;
+exports.parseUrlInfo = parseUrlInfo;
+exports.buildLink = buildLink;
+exports.buildUrl = buildUrl;
 const parse_input_url_1 = require("@node-novel/parse-input-url");
 const lazy_url_1 = require("lazy-url");
 const valid_1 = require("./valid");
@@ -48,14 +50,11 @@ function parseUrlInfo(input) {
         chapter_id,
     };
 }
-exports.parseUrlInfo = parseUrlInfo;
 function buildLink(data) {
     var _a, _b;
     return `${(_a = data.protocol) !== null && _a !== void 0 ? _a : 'http:'}//${data.novel_r18 ? 'novel18' : 'ncode'}.syosetu.com/${data.novel_id}/${(_b = data.chapter_id) !== null && _b !== void 0 ? _b : ''}`;
 }
-exports.buildLink = buildLink;
 function buildUrl(data) {
     return new lazy_url_1.LazyURL(buildLink(data));
 }
-exports.buildUrl = buildUrl;
 //# sourceMappingURL=parseUrl.js.map

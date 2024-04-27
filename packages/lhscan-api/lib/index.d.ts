@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { AbstractHttpClient } from 'restful-decorator/lib';
 import { IBluebird } from 'restful-decorator/lib/index';
 import LazyURL from 'lazy-url';

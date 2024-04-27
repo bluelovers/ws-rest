@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._checkChapterLock = void 0;
+exports._checkChapterLock = _checkChapterLock;
 const _getChapterDomContent_1 = require("./_getChapterDomContent");
 const _formData_1 = require("./_formData");
 function _checkChapterLock($) {
@@ -12,5 +12,4 @@ function _checkChapterLock($) {
         form: (0, _formData_1._formData)($),
     };
 }
-exports._checkChapterLock = _checkChapterLock;
 //# sourceMappingURL=_checkChapterLock.js.map

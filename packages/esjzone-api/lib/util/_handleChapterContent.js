@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._handleChapterContent = exports._handleChapterContentCore = exports._handleChapterContentRoot = void 0;
+exports._handleChapterContentRoot = _handleChapterContentRoot;
+exports._handleChapterContentCore = _handleChapterContentCore;
+exports._handleChapterContent = _handleChapterContent;
 const html_1 = require("restful-decorator-plugin-jsdom/lib/html");
 const _remove_ad_1 = require("./_remove_ad");
 const _getChapterDomContent_1 = require("./_getChapterDomContent");
@@ -13,7 +15,6 @@ function _handleChapterContentRoot($, argv, options) {
     (0, _remove_ad_1._remove_ad)($);
     return $content;
 }
-exports._handleChapterContentRoot = _handleChapterContentRoot;
 function _handleChapterContentCore($, argv, options) {
     options !== null && options !== void 0 ? options : (options = {});
     /*
@@ -109,7 +110,6 @@ function _handleChapterContentCore($, argv, options) {
         html,
     };
 }
-exports._handleChapterContentCore = _handleChapterContentCore;
 function _handleChapterContent($, argv, options) {
     let _check = (0, _checkChapterLock_1._checkChapterLock)($);
     let ret = {
@@ -120,5 +120,4 @@ function _handleChapterContent($, argv, options) {
     }
     return ret;
 }
-exports._handleChapterContent = _handleChapterContent;
 //# sourceMappingURL=_handleChapterContent.js.map

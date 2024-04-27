@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.buildCachedByDate = void 0;
+exports.buildCachedByDate = buildCachedByDate;
 const tslib_1 = require("tslib");
 const path_1 = require("path");
 const __root_1 = require("../../__root");
@@ -74,6 +74,5 @@ function buildCachedByDate(list) {
         (0, fs_1.outputJSONWithIndent)((0, path_1.join)(__root_1.__rootCache, 'preset', `date_undefined.json`), recordUndefined),
     ]);
 }
-exports.buildCachedByDate = buildCachedByDate;
 exports.default = buildCachedByDate;
 //# sourceMappingURL=byDate.js.map

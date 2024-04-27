@@ -1,4 +1,3 @@
-/// <reference types="bluebird" />
 /**
  * Created by user on 2020/1/20.
  */

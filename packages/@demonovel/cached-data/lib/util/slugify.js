@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.slugifyNovel = exports.slugifyNovel2 = exports.slugifyNovel3 = void 0;
+exports.slugifyNovel3 = slugifyNovel3;
+exports.slugifyNovel2 = slugifyNovel2;
+exports.slugifyNovel = slugifyNovel;
 const tslib_1 = require("tslib");
 const zh_slugify_1 = require("@lazy-cjk/zh-slugify");
 const lib_1 = tslib_1.__importDefault(require("zero-width/lib"));
@@ -9,11 +11,9 @@ function slugifyNovel3(title) {
     return (0, lib_1.default)((0, str_util_1.toHalfWidth)(title))
         .toLocaleLowerCase();
 }
-exports.slugifyNovel3 = slugifyNovel3;
 function slugifyNovel2(title) {
     return (0, zh_slugify_1.slugify)(slugifyNovel3(title), true);
 }
-exports.slugifyNovel2 = slugifyNovel2;
 function slugifyNovel(title) {
     title = slugifyNovel3(title);
     title = [
@@ -34,6 +34,5 @@ function slugifyNovel(title) {
     }, title);
     return (0, zh_slugify_1.slugify)(title, true);
 }
-exports.slugifyNovel = slugifyNovel;
 exports.default = slugifyNovel;
 //# sourceMappingURL=slugify.js.map

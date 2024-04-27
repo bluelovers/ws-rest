@@ -3,7 +3,8 @@
  * Created by user on 2019/11/21.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.trimUnsafe = exports.removeZeroWidth = void 0;
+exports.removeZeroWidth = void 0;
+exports.trimUnsafe = trimUnsafe;
 const zero_width_1 = require("zero-width");
 Object.defineProperty(exports, "removeZeroWidth", { enumerable: true, get: function () { return zero_width_1.removeZeroWidth; } });
 const crlf_normalize_1 = require("crlf-normalize");
@@ -15,5 +16,4 @@ function trimUnsafe(input) {
         .replace(/[\t ]+/gu, ' ')
         .trim();
 }
-exports.trimUnsafe = trimUnsafe;
 //# sourceMappingURL=util.js.map

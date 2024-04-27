@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._formData = void 0;
+exports._formData = _formData;
 function _formData($) {
     return {
         /**
@@ -15,5 +15,4 @@ function _formData($) {
         token: $(':hidden[name="token"]:eq(0)').val(),
     };
 }
-exports._formData = _formData;
 //# sourceMappingURL=_formData.js.map

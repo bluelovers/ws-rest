@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._parseSiteLink = void 0;
+exports._parseSiteLink = _parseSiteLink;
 function _parseSiteLink(chapter_link) {
     let _m = chapter_link
         .match(/esjzone\.cc\/forum\/(\d+)\/(\d+)\.html?/);
@@ -23,5 +23,4 @@ function _parseSiteLink(chapter_link) {
         };
     }
 }
-exports._parseSiteLink = _parseSiteLink;
 //# sourceMappingURL=_parseSiteLink.js.map

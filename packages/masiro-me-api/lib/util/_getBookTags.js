@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getBookTags = void 0;
+exports._getBookTags = _getBookTags;
 const trim_1 = require("./trim");
 function _getBookTags($, tags = []) {
     $('.n-detail .tags a .label')
@@ -13,5 +13,4 @@ function _getBookTags($, tags = []) {
     });
     return tags;
 }
-exports._getBookTags = _getBookTags;
 //# sourceMappingURL=_getBookTags.js.map

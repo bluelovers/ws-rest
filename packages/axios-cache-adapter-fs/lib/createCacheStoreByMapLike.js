@@ -1,7 +1,8 @@
 "use strict";
 var _CacheStoreByMapLike_map;
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.createCacheStoreByMapLike = exports.CacheStoreByMapLike = void 0;
+exports.CacheStoreByMapLike = void 0;
+exports.createCacheStoreByMapLike = createCacheStoreByMapLike;
 const tslib_1 = require("tslib");
 class CacheStoreByMapLike {
     constructor(map) {
@@ -42,5 +43,4 @@ _CacheStoreByMapLike_map = new WeakMap();
 function createCacheStoreByMapLike(map) {
     return new CacheStoreByMapLike(map);
 }
-exports.createCacheStoreByMapLike = createCacheStoreByMapLike;
 //# sourceMappingURL=createCacheStoreByMapLike.js.map

@@ -3,7 +3,9 @@
  * Created by user on 2019/12/13.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.reportDiffStagedNovels = exports.filterGitDiffStagedFiles = exports.crossSpawnSync = exports.matchGlob = exports.gitDiffStaged = exports.gitDiffStagedFile = exports.gitDiffStagedDir = void 0;
+exports.crossSpawnSync = exports.matchGlob = exports.gitDiffStaged = exports.gitDiffStagedFile = exports.gitDiffStagedDir = void 0;
+exports.filterGitDiffStagedFiles = filterGitDiffStagedFiles;
+exports.reportDiffStagedNovels = reportDiffStagedNovels;
 const tslib_1 = require("tslib");
 const diff_staged_1 = require("@git-lazy/diff-staged");
 Object.defineProperty(exports, "gitDiffStagedDir", { enumerable: true, get: function () { return diff_staged_1.gitDiffStagedDir; } });
@@ -28,7 +30,6 @@ function filterGitDiffStagedFiles(options) {
         return ls3;
     });
 }
-exports.filterGitDiffStagedFiles = filterGitDiffStagedFiles;
 function reportDiffStagedNovels(options) {
     return bluebird_1.default.resolve()
         .then(async () => {
@@ -54,5 +55,4 @@ function reportDiffStagedNovels(options) {
         return msg;
     });
 }
-exports.reportDiffStagedNovels = reportDiffStagedNovels;
 //# sourceMappingURL=git.js.map

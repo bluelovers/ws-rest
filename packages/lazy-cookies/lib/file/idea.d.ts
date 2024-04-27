@@ -1,7 +1,6 @@
 /**
  * Created by user on 2019/6/10.
  */
-/// <reference types="node" />
 import LazyCookie from '../../index';
 import toughCookie from 'tough-cookie';
 export declare function parse(line: string): LazyCookie;

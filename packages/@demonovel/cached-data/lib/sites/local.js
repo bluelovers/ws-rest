@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.fetchFile = exports.fetch = void 0;
+exports.fetch = fetch;
+exports.fetchFile = fetchFile;
 const tslib_1 = require("tslib");
 const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 const util_1 = require("./util");
@@ -15,10 +16,8 @@ function fetch(siteID) {
     }))
         .then(v => (0, fs_extra_1.readJSON)(file));
 }
-exports.fetch = fetch;
 function fetchFile(siteID, force) {
     return fetch(siteID);
 }
-exports.fetchFile = fetchFile;
 exports.default = fetchFile;
 //# sourceMappingURL=local.js.map

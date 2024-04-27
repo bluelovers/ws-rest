@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.build = void 0;
+exports.build = build;
 const tslib_1 = require("tslib");
 const build_1 = tslib_1.__importDefault(require("../demonovel/build"));
 const build_2 = require("../sites/build");
@@ -19,6 +19,5 @@ function build(source) {
         return a;
     }, {});
 }
-exports.build = build;
 exports.default = build;
 //# sourceMappingURL=build.js.map

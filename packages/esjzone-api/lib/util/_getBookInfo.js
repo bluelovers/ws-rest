@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._getBookInfo = void 0;
+exports._getBookInfo = _getBookInfo;
 const tslib_1 = require("tslib");
 const util_1 = require("../util");
 const const_1 = require("./const");
@@ -47,5 +47,4 @@ function _getBookInfo($, data) {
     }
     return data;
 }
-exports._getBookInfo = _getBookInfo;
 //# sourceMappingURL=_getBookInfo.js.map

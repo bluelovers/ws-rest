@@ -1,8 +1,6 @@
 /**
  * Created by user on 2019/11/24.
  */
-/// <reference types="jquery" />
-/// <reference types="jquery" />
 export interface IESJzoneRecentUpdate {
     page: number;
     end: number;

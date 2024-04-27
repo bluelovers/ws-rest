@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.buildCached = void 0;
+exports.buildCached = buildCached;
 const tslib_1 = require("tslib");
 const title_1 = tslib_1.__importDefault(require("./cache/title"));
 const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
@@ -15,6 +15,5 @@ async function buildCached(list) {
         (0, author_1.default)(list),
     ]);
 }
-exports.buildCached = buildCached;
 exports.default = buildCached;
 //# sourceMappingURL=cache.js.map

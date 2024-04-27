@@ -3,7 +3,7 @@
  * Created by user on 2019/12/16.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._p_2_br = void 0;
+exports._p_2_br = _p_2_br;
 function _p_2_br(target, $, add_lf) {
     let append = '';
     if (add_lf === true) {
@@ -26,5 +26,4 @@ function _p_2_br(target, $, add_lf) {
         _this.remove();
     });
 }
-exports._p_2_br = _p_2_br;
 //# sourceMappingURL=jquery.js.map

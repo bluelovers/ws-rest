@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._parseSiteLinkChapterFromPasswordReturn = exports._handleChapterFromPasswordReturnRaw = void 0;
+exports._handleChapterFromPasswordReturnRaw = _handleChapterFromPasswordReturnRaw;
+exports._parseSiteLinkChapterFromPasswordReturn = _parseSiteLinkChapterFromPasswordReturn;
 function _handleChapterFromPasswordReturnRaw(json) {
     var _a;
     if ((_a = json.html) === null || _a === void 0 ? void 0 : _a.length) {
@@ -8,7 +9,6 @@ function _handleChapterFromPasswordReturnRaw(json) {
     }
     return json;
 }
-exports._handleChapterFromPasswordReturnRaw = _handleChapterFromPasswordReturnRaw;
 function _parseSiteLinkChapterFromPasswordReturn(api, json, response) {
     let html = _handleChapterFromPasswordReturnRaw(json).html;
     let jsdom;
@@ -20,5 +20,4 @@ function _parseSiteLinkChapterFromPasswordReturn(api, json, response) {
         response,
     };
 }
-exports._parseSiteLinkChapterFromPasswordReturn = _parseSiteLinkChapterFromPasswordReturn;
 //# sourceMappingURL=_parseChapterFromPasswordReturn.js.map

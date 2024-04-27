@@ -3,7 +3,7 @@
  * Created by user on 2020/3/2.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._handleOptions = void 0;
+exports._handleOptions = _handleOptions;
 const types_1 = require("./types");
 const files_1 = require("../util/files");
 function _handleOptions(siteID) {
@@ -16,5 +16,4 @@ function _handleOptions(siteID) {
         file2,
     };
 }
-exports._handleOptions = _handleOptions;
 //# sourceMappingURL=util.js.map

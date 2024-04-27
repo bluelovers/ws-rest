@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ReturnValueToJSDOM = void 0;
+exports.ReturnValueToJSDOM = ReturnValueToJSDOM;
 const hook_1 = require("restful-decorator/lib/decorators/hook");
 function ReturnValueToJSDOM(options) {
     return function ReturnValueToJSDOM(target, propertyName, descriptor) {
@@ -9,5 +9,4 @@ function ReturnValueToJSDOM(options) {
         }, target, propertyName);
     };
 }
-exports.ReturnValueToJSDOM = ReturnValueToJSDOM;
 //# sourceMappingURL=jsdom.js.map

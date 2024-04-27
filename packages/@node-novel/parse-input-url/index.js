@@ -3,7 +3,8 @@
  * Created by user on 2020/4/9.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports._handleInputUrl = exports.EnumParseInputUrl = void 0;
+exports.EnumParseInputUrl = void 0;
+exports._handleInputUrl = _handleInputUrl;
 const tslib_1 = require("tslib");
 const http_form_urlencoded_1 = tslib_1.__importDefault(require("http-form-urlencoded"));
 const lazy_url_1 = require("lazy-url");
@@ -72,6 +73,5 @@ function _handleInputUrl(_input) {
         value,
     };
 }
-exports._handleInputUrl = _handleInputUrl;
 exports.default = _handleInputUrl;
 //# sourceMappingURL=index.js.map
