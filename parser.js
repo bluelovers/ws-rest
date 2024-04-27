@@ -3,7 +3,8 @@
  * Created by user on 2019/6/10.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.expand = exports.parseRouterVars = void 0;
+exports.parseRouterVars = parseRouterVars;
+exports.expand = expand;
 const tslib_1 = require("tslib");
 const execall2_1 = tslib_1.__importDefault(require("execall2"));
 // @ts-ignore
@@ -18,7 +19,6 @@ function parseRouterVars(url) {
         return row.sub[1];
     });
 }
-exports.parseRouterVars = parseRouterVars;
 function expand(url, data) {
     let ks = parseRouterVars(url);
     let ret = ks.reduce((a, k) => {
@@ -41,6 +41,5 @@ function expand(url, data) {
         ...ret,
     };
 }
-exports.expand = expand;
 exports.default = parseRouterVars;
 //# sourceMappingURL=parser.js.map
