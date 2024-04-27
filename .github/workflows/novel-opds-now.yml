@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
         with:
-          node-version: node
+          node-version: 21.7.3
       - name: install deps
         run: yarn run ci:install
       - name: run script
