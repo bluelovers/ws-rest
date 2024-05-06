@@ -4,10 +4,10 @@
   "zone": "日本",
   "status": "连载中",
   "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "卷首语",
+  "last_update_chapter_name": "转载信息",
   "last_update_volume_id": 13820,
-  "last_update_chapter_id": 143518,
-  "last_update_time": 1714175980,
+  "last_update_chapter_id": 143673,
+  "last_update_time": 1714577485,
   "cover": "https://xs.idmzj.com/img/webpic/1/ty0427l.jpg",
   "hot_hits": 0,
   "introduction": "寻死的吸血姬与最强杀手之间，会碰撞出怎样的火花。\n这个世界由故事构成。\n——这是一个寻找太阳的故事。",
@@ -17,7 +17,7 @@
   ],
   "authors": "漆原雪人",
   "first_letter": "T",
-  "subscribe_num": 30,
+  "subscribe_num": 295,
   "volume": [
     {
       "id": 13820,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1714175803,
-      "sum_chapters": 6
+      "sum_chapters": 7
     }
   ],
   "chapters": [
@@ -35,6 +35,11 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "chapters": [
+        {
+          "chapter_id": 143673,
+          "chapter_name": "转载信息",
+          "chapter_order": 1
+        },
         {
           "chapter_id": 143518,
           "chapter_name": "卷首语",
@@ -79,6 +84,11 @@
           "chapter_id": 143517,
           "chapter_name": "后记",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 143672,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }
