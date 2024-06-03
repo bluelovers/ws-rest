@@ -3,11 +3,11 @@
   "name": "怪物中毒",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插图",
-  "last_update_volume_id": 13379,
-  "last_update_chapter_id": 138062,
-  "last_update_time": 1693901828,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 13883,
+  "last_update_chapter_id": 144154,
+  "last_update_time": 1716995514,
   "cover": "https://xs.idmzj.com/img/webpic/14/230905mholic.jpg",
   "hot_hits": 0,
   "introduction": "　　人类变回野兽，解放理性，歌颂自由与匿名──只要饮下《怪物维生素》，不论是谁都能轻易变身兽人，随心所欲地在某处活动。那地方正是《假面舞会街》。在完全监视的社会中，国家唯一认证的《官方贫民窟》。\n　　在这样的街上，真正的怪物──吸血鬼少年‧零士，与他的伙伴人狼‧月一同担任城市的清道夫，执行『驱逐害兽』的任务。搜索肇逃人马、狩猎ＪＫ兔女郎、与显现的都市传说死斗。而与《配药魔女》的相遇，大幅地改变了零士等人的命运──\n　　发生在真假交错的街上，严禁过度摄取的药物过量动作剧！",
@@ -19,7 +19,7 @@
   ],
   "authors": "三河ごーすと",
   "first_letter": "G",
-  "subscribe_num": 252,
+  "subscribe_num": 894,
   "volume": [
     {
       "id": 13379,
@@ -27,7 +27,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1693901458,
-      "sum_chapters": 4
+      "sum_chapters": 11
+    },
+    {
+      "id": 13883,
+      "lnovel_id": 3626,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1716991969,
+      "sum_chapters": 11
     }
   ],
   "chapters": [
@@ -71,6 +79,54 @@
           "chapter_id": 138062,
           "chapter_name": "插图",
           "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 13883,
+      "id": 13883,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 144129,
+          "chapter_name": "4th chapter 死亡人偶 Disembodied figure①",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 144130,
+          "chapter_name": "4th chapter 死亡人偶 Disembodied figure②",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 144131,
+          "chapter_name": "4th chapter 死亡人偶 Disembodied figure③",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 144132,
+          "chapter_name": "5th chapter #感染 #Infection①",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 144133,
+          "chapter_name": "5th chapter #感染 #Infection②",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 144134,
+          "chapter_name": "6th chapter #爆炸 #Explosion",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 144135,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 144154,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }
