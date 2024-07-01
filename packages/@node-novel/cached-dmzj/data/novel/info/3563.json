@@ -3,11 +3,11 @@
   "name": "以死亡游戏为生。",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第三卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13815,
-  "last_update_chapter_id": 143488,
-  "last_update_time": 1713407719,
+  "last_update_volume_id": 13928,
+  "last_update_chapter_id": 144684,
+  "last_update_time": 1719675697,
   "cover": "https://xs.idmzj.com/img/webpic/27/230512swyx.jpg",
   "hot_hits": 0,
   "introduction": "醒来后，我发现自己身处一栋陌生洋馆中。身着女仆装，置卧于一张豪华的床上。走出卧室，行过走廊，推开餐厅的门扉，里面还有五个人。大家都一样，和我都穿着同样的女仆装，同样都是少女。\n〈游戏〉开始了。吹箭、圆盘锯、密室手铐，加之凶器数种。满满皆是诱人入其冥世之物，那便是〈幽灵之家〉。除了通过馆内设置的所有陷阱逃脱出去，我们再无其他存活方法。面对这绝望的现实，少女们的脸色糟糕了起来。——不过有一人，只有我要排除在外。要问为什么？那是因为——这不是我第一次参加了。\n玩家名称，幽鬼【ユウキ】。十七岁。由自己来说可能有些自夸，我是杀人游戏的专家。身着女仆装，企图从这死亡之馆逃脱，打扮成兔女郎和其他玩家互相厮杀，以做这类事所赚取的赏金为生之人。\n觉得不正常么？我也这样觉得。但，这个世界上就是有这样的人存在。前天还是相互鼓励的伙伴，今天就变成了敌人。一不留神就会被人从背后捅一刀，就算做尽万全之策，也可能会丧命于此。\n如这般，以死亡游戏为生的少女。",
@@ -17,7 +17,7 @@
   ],
   "authors": "鹈饲有志",
   "first_letter": "Y",
-  "subscribe_num": 1036,
+  "subscribe_num": 1298,
   "volume": [
     {
       "id": 13138,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1683881235,
-      "sum_chapters": 8
+      "sum_chapters": 1
     },
     {
       "id": 13815,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1713406765,
-      "sum_chapters": 8
+      "sum_chapters": 1
+    },
+    {
+      "id": 13928,
+      "lnovel_id": 3563,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1719593172,
+      "sum_chapters": 1
     }
   ],
   "chapters": [
@@ -125,6 +133,64 @@
           "chapter_id": 143488,
           "chapter_name": "插画",
           "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 13928,
+      "id": 13928,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 144653,
+          "chapter_name": "0.ONE FINE DAY（第40次）",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 144654,
+          "chapter_name": "1.CLOUDY BEACH（第44次）──第一天",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 144655,
+          "chapter_name": "2.CLOUDY BEACH（第44次）──第二天",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 144656,
+          "chapter_name": "3.CLOUDY BEACH（第44次）──第三天",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 144657,
+          "chapter_name": "4.CLOUDY BEACH（第44次）──第四天～第八天",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 144658,
+          "chapter_name": "5.LEAVE THE FRONTLINE",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 144659,
+          "chapter_name": "解说",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 144660,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 144661,
+          "chapter_name": "电子书特典〈幽鬼、蓝里与大叔，聊了很多。〉",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 144684,
+          "chapter_name": "插画",
+          "chapter_order": 100
         }
       ]
     }
