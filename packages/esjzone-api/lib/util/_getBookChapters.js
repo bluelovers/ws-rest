@@ -6,7 +6,7 @@ const _parseSiteLink_1 = require("./_parseSiteLink");
 function _getBookChapters($, _content, data) {
     let volume_order = 0;
     let chapter_order = 0;
-    let body = _content.find('#chapterList').find('p.non, a[href]');
+    let body = _content.find('#chapterList').find('p.non, summary, a[href]');
     data.chapters[volume_order] = {
         volume_name: null,
         volume_order,
@@ -15,7 +15,7 @@ function _getBookChapters($, _content, data) {
     body
         .each((i, elem) => {
         let _this = $(elem);
-        if (_this.is('.non')) {
+        if (_this.is('.non') || _this.is('summary')) {
             let volume_name = (0, util_1.trimUnsafe)(_this.text());
             if (volume_name) {
                 if (chapter_order || data.chapters[volume_order].volume_name != null) {

@@ -10,7 +10,7 @@ export function _getBookChapters($: JQueryStatic,
 	let volume_order = 0;
 	let chapter_order = 0;
 
-	let body = _content.find('#chapterList').find('p.non, a[href]');
+	let body = _content.find('#chapterList').find('p.non, summary, a[href]');
 
 	data.chapters[volume_order] = {
 		volume_name: null,
@@ -23,7 +23,7 @@ export function _getBookChapters($: JQueryStatic,
 		{
 			let _this = $(elem);
 
-			if (_this.is('.non'))
+			if (_this.is('.non') || _this.is('summary'))
 			{
 				let volume_name = trimUnsafe(_this.text());
 
