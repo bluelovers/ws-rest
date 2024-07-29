@@ -3,11 +3,11 @@
   "name": "异世界一击无双姐姐",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "web版",
-  "last_update_chapter_name": "01：最好不要对我出手",
-  "last_update_volume_id": 13971,
-  "last_update_chapter_id": 145152,
-  "last_update_time": 1721481431,
+  "last_update_volume_name": "第一章 从现实到异世界",
+  "last_update_chapter_name": "02：你叫姐姐了吧",
+  "last_update_volume_id": 13980,
+  "last_update_chapter_id": 145241,
+  "last_update_time": 1722178101,
   "cover": "https://xs.idmzj.com/img/webpic/26/ws0720l.jpg",
   "hot_hits": 0,
   "introduction": "军场朝阳（いくさばあさひ）因现实世界的事故而进入异世界。如果只是这样的话也算是寻常的异世界转生吧（？）但有一个不同，他有一个极度弟控的姐姐。军场真夜……文中称为真夜姐。\n这个姐姐竟然为了追随弟弟的脚步而寻短见而昏倒，来到了同一个异世界。并且拥有了这个世界最强的能力。拥有开挂级能力的姐姐和深受姐姐溺爱的平庸能力的弟弟……就这样，军场姐弟的异世界故事开始了。",
@@ -21,28 +21,59 @@
   ],
   "authors": "近卫",
   "first_letter": "Y",
-  "subscribe_num": 125,
+  "subscribe_num": 300,
   "volume": [
     {
       "id": 13971,
       "lnovel_id": 3811,
-      "volume_name": "web版",
+      "volume_name": "序章",
       "volume_order": 10,
       "addtime": 1721481404,
-      "sum_chapters": 2
+      "sum_chapters": 1
+    },
+    {
+      "id": 13980,
+      "lnovel_id": 3811,
+      "volume_name": "第一章 从现实到异世界",
+      "volume_order": 20,
+      "addtime": 1721917462,
+      "sum_chapters": 1
     }
   ],
   "chapters": [
     {
       "volume_id": 13971,
       "id": 13971,
-      "volume_name": "web版",
+      "volume_name": "序章",
       "volume_order": 10,
       "chapters": [
         {
-          "chapter_id": 145152,
+          "chapter_id": 145155,
           "chapter_name": "01：最好不要对我出手",
           "chapter_order": 10
+        },
+        {
+          "chapter_id": 145156,
+          "chapter_name": "02：想让姐姐来来回回舔个够",
+          "chapter_order": 20
+        }
+      ]
+    },
+    {
+      "volume_id": 13980,
+      "id": 13980,
+      "volume_name": "第一章 从现实到异世界",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 145205,
+          "chapter_name": "01：像RPG游戏中的城市",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 145241,
+          "chapter_name": "02：你叫姐姐了吧",
+          "chapter_order": 20
         }
       ]
     }
