@@ -3,11 +3,11 @@
   "name": "黄金经验值",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 特定灾害生物「魔王」进击多人游戏",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13732,
-  "last_update_chapter_id": 142602,
-  "last_update_time": 1709814918,
+  "last_update_volume_name": "第三卷 特定灾害生物「魔王」迷宫升级大改造",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 13989,
+  "last_update_chapter_id": 145297,
+  "last_update_time": 1722696574,
   "cover": "https://xs.idmzj.com/img/webpic/26/hj1231l.jpg",
   "hot_hits": 0,
   "introduction": "蕾亚专注于培养精神力状态，结果得到了隐藏技能「使役」。\n那是能够将成为眷属的角色所获得的经验值，全部集中到自己身上的超强技能。\n连副本头目等级的怪物都能以多样的精神魔法使其屈服、陆续增加手下眷属的蕾亚，凭借不断增加的经验值强化自己和下属！\n她打造起自己专属的最强军团，最后终于被判定为这个世界的「特定灾害生物」……？",
@@ -17,7 +17,7 @@
   ],
   "authors": "原纯",
   "first_letter": "H",
-  "subscribe_num": 807,
+  "subscribe_num": 925,
   "volume": [
     {
       "id": 13592,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷 特定灾害生物「魔王」降临竞速通关",
       "volume_order": 10,
       "addtime": 1704014192,
-      "sum_chapters": 8
+      "sum_chapters": 3
     },
     {
       "id": 13732,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷 特定灾害生物「魔王」进击多人游戏",
       "volume_order": 20,
       "addtime": 1709812337,
-      "sum_chapters": 8
+      "sum_chapters": 3
+    },
+    {
+      "id": 13989,
+      "lnovel_id": 3686,
+      "volume_name": "第三卷 特定灾害生物「魔王」迷宫升级大改造",
+      "volume_order": 30,
+      "addtime": 1722696429,
+      "sum_chapters": 3
     }
   ],
   "chapters": [
@@ -179,6 +187,79 @@
         {
           "chapter_id": 142602,
           "chapter_name": "插画",
+          "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 13989,
+      "id": 13989,
+      "volume_name": "第三卷 特定灾害生物「魔王」迷宫升级大改造",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 145285,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 145286,
+          "chapter_name": "第一章 新的早晨来临",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 145287,
+          "chapter_name": "第二章 邪道之人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 145288,
+          "chapter_name": "第三章 转换地下城",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 145289,
+          "chapter_name": "第四章 立刻就被滥用的新服务",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 145290,
+          "chapter_name": "第五章 报连相完成",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 145291,
+          "chapter_name": "第六章 双重召唤",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 145292,
+          "chapter_name": "第七章 伪造身分",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 145293,
+          "chapter_name": "第八章 死灵复活",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 145294,
+          "chapter_name": "第九章 STAND BY ME",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 145295,
+          "chapter_name": "第十章 骷髅是什么的骨头？",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 145296,
+          "chapter_name": "终章",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 145297,
+          "chapter_name": "后记",
           "chapter_order": 130
         }
       ]

@@ -3,11 +3,11 @@
   "name": "双生恋情密不可分",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13907,
-  "last_update_chapter_id": 144483,
-  "last_update_time": 1718639313,
+  "last_update_volume_name": "第二卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 13992,
+  "last_update_chapter_id": 145321,
+  "last_update_time": 1722697006,
   "cover": "https://xs.idmzj.com/img/webpic/7/ss0617l.jpg",
   "hot_hits": 0,
   "introduction": "在我六岁时，我们家搬到了神宫寺家隔壁。\n自那之后一直到高一的现在，两家双亲相处融洽，\n我和他们家的双胞胎姊妹也是宛如家人般一起长大的挚友。\n有着中性的外貌，内心却十分少女的姊姊──琉实；外表可爱、本性地雷的次文化宅妹妹──那织；以及被性格呈现对比的两姊妹夹在中间，对此也不觉厌恶的我──白崎纯。\n虽然内心怀抱着不知何时萌芽的恋慕，却也没有确定关系，三人持续来往──\n「要不要和我交往看看？就当作试用期如何？」\n──琉实说出的这句话，将我们导向了微妙的三角关系。\n双胞胎的错综复杂初恋爱情喜剧，开幕！",
@@ -17,7 +17,7 @@
   ],
   "authors": "高村资本",
   "first_letter": "S",
-  "subscribe_num": 274,
+  "subscribe_num": 559,
   "volume": [
     {
       "id": 13907,
@@ -25,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1718636944,
-      "sum_chapters": 19
+      "sum_chapters": 3
+    },
+    {
+      "id": 13992,
+      "lnovel_id": 3782,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1722696901,
+      "sum_chapters": 3
     }
   ],
   "chapters": [
@@ -84,6 +92,59 @@
           "chapter_id": 144483,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13992,
+      "id": 13992,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 145313,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 145314,
+          "chapter_name": "第一章 怎么样，白崎同学？你不觉得这个提议很不赖吗？",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 145315,
+          "chapter_name": "第二章 我们结婚吧。我要当这个家的女儿过活。",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 145316,
+          "chapter_name": "第三章 我偶尔也会吃吃草的！",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 145317,
+          "chapter_name": "第四章 好哇，解散吧，解散！从今天起你我就是陌生人，你给我回去。",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 145318,
+          "chapter_name": "第五章 像以前那样，吻我吧。",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 145319,
+          "chapter_name": "尾声",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 145320,
+          "chapter_name": "〈神宫寺那织的独白〉",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 145321,
+          "chapter_name": "后记",
+          "chapter_order": 90
         }
       ]
     }
