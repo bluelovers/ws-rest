@@ -3,11 +3,11 @@
   "name": "与幼小的你一起，将声音传到远方",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "特典 空和汀",
-  "last_update_volume_id": 13420,
-  "last_update_chapter_id": 138661,
-  "last_update_time": 1696171372,
+  "last_update_volume_name": "第三卷",
+  "last_update_chapter_name": "后记",
+  "last_update_volume_id": 14068,
+  "last_update_chapter_id": 146011,
+  "last_update_time": 1725193237,
   "cover": "https://xs.idmzj.com/img/webpic/26/yxdn0117l.jpg",
   "hot_hits": 0,
   "introduction": "曾在超人气乐队“Eternal Red”里担任主唱，失去曾经的歌声，而停止了活动的少年——藤波奏太\n转学到遥远的地方，想要作为一名高中生好好生活，但是在他的面前，出现了小学生的少女・空，对他说——\n「请教我成为声优的课程！」\n被空的热情所压倒，奏太开始帮助她进行发声训练。\n不久，空周围的少女们也加入了课程。\n故事就这样展开，原音乐人和声优志愿的小学生们的奇妙师徒关系。\n接着，突然冒出某个个人制作动画的试音……！？\n——这是，打算放弃梦想的少年和，追逐梦想的少女们的故事。",
@@ -17,7 +17,7 @@
   ],
   "authors": "ツカサ",
   "first_letter": "Y",
-  "subscribe_num": 1151,
+  "subscribe_num": 1726,
   "volume": [
     {
       "id": 12910,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1673947165,
-      "sum_chapters": 14
+      "sum_chapters": 6
     },
     {
       "id": 13420,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1696170948,
-      "sum_chapters": 14
+      "sum_chapters": 6
+    },
+    {
+      "id": 14068,
+      "lnovel_id": 3504,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1725193154,
+      "sum_chapters": 6
     }
   ],
   "chapters": [
@@ -160,6 +168,49 @@
           "chapter_id": 138661,
           "chapter_name": "特典 空和汀",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 14068,
+      "id": 14068,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 146005,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 146006,
+          "chapter_name": "第一章 声优养成所",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 146007,
+          "chapter_name": "第二章 幼小的恋爱",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 146008,
+          "chapter_name": "第三章 虽然没有正确答案",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 146009,
+          "chapter_name": "第四章 致幼小的你",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 146010,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 146011,
+          "chapter_name": "后记",
+          "chapter_order": 70
         }
       ]
     }

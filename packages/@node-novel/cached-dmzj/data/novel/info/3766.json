@@ -3,11 +3,11 @@
   "name": "贵族千金，只与我亲近",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷",
+  "last_update_volume_name": "第二卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 13873,
-  "last_update_chapter_id": 144013,
-  "last_update_time": 1716130035,
+  "last_update_volume_id": 14058,
+  "last_update_chapter_id": 145948,
+  "last_update_time": 1724772299,
   "cover": "https://xs.idmzj.com/img/webpic/6/gzqj05109l.jpg",
   "hot_hits": 0,
   "introduction": "转生后等待着我的，是与贵族们的学园生活。虽然出生在富裕傲慢的贵族家庭，但我始终注意着作为现代人应有的行为举止。这样的举动让贵族千金们对我产生了深深的信赖——",
@@ -17,7 +17,7 @@
   ],
   "authors": "夏乃实",
   "first_letter": "G",
-  "subscribe_num": 139,
+  "subscribe_num": 1401,
   "volume": [
     {
       "id": 13873,
@@ -25,6 +25,14 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1716129103,
+      "sum_chapters": 6
+    },
+    {
+      "id": 14058,
+      "lnovel_id": 3766,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "addtime": 1724761601,
       "sum_chapters": 6
     }
   ],
@@ -94,6 +102,54 @@
           "chapter_id": 144013,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 14058,
+      "id": 14058,
+      "volume_name": "第二卷",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 145896,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 145897,
+          "chapter_name": "第一章 各自的想法",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 145898,
+          "chapter_name": "第二章 进展",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 145899,
+          "chapter_name": "第三章 会谈日 其一",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 145900,
+          "chapter_name": "第四章 会谈日 其二",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 145901,
+          "chapter_name": "第五章 秘密的交谈",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 145902,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 145948,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }
