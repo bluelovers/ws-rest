@@ -3,11 +3,11 @@
   "name": "汝为吾之骑士",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三章",
-  "last_update_chapter_name": "第三章",
-  "last_update_volume_id": 14095,
-  "last_update_chapter_id": 146217,
-  "last_update_time": 1743567795,
+  "last_update_volume_name": "尾声",
+  "last_update_chapter_name": "尾声",
+  "last_update_volume_id": 14097,
+  "last_update_chapter_id": 146219,
+  "last_update_time": 1747757879,
   "cover": "https://xs.muwai.com/img/webpic/28/202410080002.jpg",
   "hot_hits": 0,
   "introduction": "能使用超自然现象的战争道具『情报师』。平凡的情报师西玛·林都被委托保护没落贵族的女儿霍莉从巴尔加帝国逃命。但那只是巨大阴谋的开始—— 在两人的残酷的逃亡之路追杀他们的不仅仅是帝国军队，甚至遭受了号称帝国最强的『六帝剑』的袭击。仅仅一个没落贵族就能出动如此大的兵力。从霍莉隐藏的身份也许能找出答案。 压倒性的强敌，层层深入的阴谋，复活过去的因缘。让人屈膝的绝望。但——那又如何？ 仅仅是交易关系的两人在交换了最后的誓言时，所有的绝望全都烟消云散！ 称不上是骑士的异端骑士物语。就此开幕！！",
@@ -17,7 +17,7 @@
   ],
   "authors": "畑 リンタロウ",
   "first_letter": "R",
-  "subscribe_num": 1937,
+  "subscribe_num": 2210,
   "volume": [
     {
       "id": 14081,
@@ -25,7 +25,7 @@
       "volume_name": "序幕",
       "volume_order": 10,
       "addtime": 1728366177,
-      "sum_chapters": 1
+      "sum_chapters": 4
     },
     {
       "id": 14082,
@@ -33,7 +33,7 @@
       "volume_name": "第一章",
       "volume_order": 20,
       "addtime": 1729566398,
-      "sum_chapters": 1
+      "sum_chapters": 4
     },
     {
       "id": 14084,
@@ -41,7 +41,7 @@
       "volume_name": "第二章",
       "volume_order": 30,
       "addtime": 1737811856,
-      "sum_chapters": 1
+      "sum_chapters": 4
     },
     {
       "id": 14095,
@@ -49,7 +49,23 @@
       "volume_name": "第三章",
       "volume_order": 40,
       "addtime": 1743567764,
-      "sum_chapters": 1
+      "sum_chapters": 4
+    },
+    {
+      "id": 14096,
+      "lnovel_id": 3855,
+      "volume_name": "第四章",
+      "volume_order": 50,
+      "addtime": 1747757753,
+      "sum_chapters": 4
+    },
+    {
+      "id": 14097,
+      "lnovel_id": 3855,
+      "volume_name": "尾声",
+      "volume_order": 60,
+      "addtime": 1747757826,
+      "sum_chapters": 4
     }
   ],
   "chapters": [
@@ -101,6 +117,32 @@
         {
           "chapter_id": 146217,
           "chapter_name": "第三章",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 14096,
+      "id": 14096,
+      "volume_name": "第四章",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 146218,
+          "chapter_name": "第四章",
+          "chapter_order": 10
+        }
+      ]
+    },
+    {
+      "volume_id": 14097,
+      "id": 14097,
+      "volume_name": "尾声",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 146219,
+          "chapter_name": "尾声",
           "chapter_order": 10
         }
       ]
