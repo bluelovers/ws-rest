@@ -28,7 +28,11 @@ export default lazyRun(async () => {
 
 			let info = await readJSON(_file).catch(e => null) as IWenku8RecentUpdateRowBookWithChapters;
 
-			if (info == null) return;
+			if (info == null)
+			{
+				task001[id] = null;
+				return
+			};
 
 			let _changed = false;
 
