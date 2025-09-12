@@ -44,20 +44,23 @@ export default lazyRun(async () => {
 
 			let _file = cacheFileInfoPath(id);
 
-			let info = await readJSON(_file) as IWenku8RecentUpdateRowBookWithChapters;
-
-			if (info.copyright_remove)
-			{
-				copyrightRemove[id] = name;
-			}
-
 			idVolumes[id] = 0;
 
-			id_chapters[id] = info.chapters.reduce((len, vol) => {
-				idVolumes[id]++;
-				return len += vol.chapters.length;
-			}, 0)
+			let info = await readJSON(_file).catch(e => null as any) as IWenku8RecentUpdateRowBookWithChapters;
 
+			if (info)
+			{
+				if (info.copyright_remove)
+				{
+					copyrightRemove[id] = name;
+				}
+
+				id_chapters[id] = info.chapters.reduce((len, vol) =>
+				{
+					idVolumes[id]++;
+					return len += vol.chapters.length;
+				}, 0)
+			}
 		})
 		.then(data => data.sort((a, b) => {
 			return b.last_update_time - a.last_update_time;

@@ -18,11 +18,11 @@ export default lazyRun(async () => {
 
 	api.cookiesRemoveTrack();
 
-	let listCache = await readJSON(file1)
-		.catch(e => ({} as Record<string, number>))
+	let listCache: Record<string, number> = await readJSON(file1)
+		.catch(e => ({}))
 	;
 
-	let novelList = await (readJSON(file) as PromiseLike<IWenku8RecentUpdateCache>)
+	let novelList = await readJSON(file) as IWenku8RecentUpdateCache
 	;
 
 	let _cache = {} as Record<'copyright_remove', Record<string, string>>;
