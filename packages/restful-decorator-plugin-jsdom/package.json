@@ -35,7 +35,7 @@
     "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
-    "@bluelovers/array-buffer-to-string": "^1.0.36",
+    "@bluelovers/array-buffer-to-string": "^1.0.37",
     "@bluelovers/axios-util": "^1.0.14",
     "@jsdom-extra/html-util": "^1.0.4",
     "@types/jquery": "*",
@@ -44,13 +44,13 @@
     "buffer": "^6.0.3",
     "get-http-result-url": "^1.0.16",
     "html-encoding-sniffer": "^4.0.0",
-    "iconv-html-sniffer": "^1.0.30",
-    "iconv-jschardet": "^2.0.32",
+    "iconv-html-sniffer": "^1.0.31",
+    "iconv-jschardet": "^2.0.33",
     "jsdom-extra": "^3.0.7",
     "lazy-cookies": "^1.0.38",
     "restful-decorator": "^2.0.0",
     "tough-cookie": "<4 >=3",
-    "tslib": "^2.6.2"
+    "tslib": "^2.8.1"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"
 }

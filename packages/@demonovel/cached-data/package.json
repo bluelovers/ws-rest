@@ -40,10 +40,10 @@
   },
   "dependencies": {
     "@demonovel/cached-data-types": "^1.0.3",
-    "@lazy-cjk/zh-slugify": "^1.0.89",
+    "@lazy-cjk/zh-slugify": "^1.0.92",
     "chai": "<5 >=4.4.1",
-    "regexp-cjk-with-plugin-enabled": "^1.0.19",
-    "tslib": "^2.6.2"
+    "regexp-cjk-with-plugin-enabled": "^1.0.22",
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@node-novel/cache-loader": "^1.0.39",

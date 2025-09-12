@@ -30,17 +30,17 @@
     "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
-    "array-hyper-unique": "^2.1.4",
+    "array-hyper-unique": "^2.1.6",
     "axios-cache-adapter-util": "^1.0.57",
     "bluebird": "^3.7.2",
     "crlf-normalize": "^1.0.20",
     "lazy-cookies": "^1.0.38",
     "lodash": "^4.17.21",
-    "protobufjs": "^7.2.6",
+    "protobufjs": "^7.4.0",
     "restful-decorator": "^2.0.0",
-    "sort-object-keys2": "^3.0.5",
+    "sort-object-keys2": "^3.0.7",
     "ts-type": "^3.0.1",
-    "tslib": "^2.6.2",
+    "tslib": "^2.8.1",
     "zero-width": "^1.0.29"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"

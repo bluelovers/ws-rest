@@ -33,15 +33,15 @@
     "tsc:showConfig": "ynpx get-current-tsconfig -p"
   },
   "dependencies": {
-    "@bluelovers/array-buffer-to-string": "^1.0.36",
-    "array-hyper-unique": "^2.1.4",
+    "@bluelovers/array-buffer-to-string": "^1.0.37",
+    "array-hyper-unique": "^2.1.6",
     "bluebird": "^3.7.2",
     "dot-values2": "^2.0.7",
     "jsdom-extra": "^3.0.7",
     "lazy-url": "^2.0.5",
     "restful-decorator": "^2.0.0",
     "restful-decorator-plugin-jsdom": "^1.0.41",
-    "tslib": "^2.6.2"
+    "tslib": "^2.8.1"
   },
   "gitHead": "07a0344f1db068fd821683a22d0a4952441c9ccb"
 }
