@@ -43,6 +43,7 @@ import { tryMinifyHTML } from 'restful-decorator-plugin-jsdom/lib/html';
 @BaseUrl('https://www.wenku8.net')
 @Headers({
 	Referer: 'https://www.wenku8.net/index.php',
+	'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
 })
 @CacheRequest({
 	cache: {
@@ -350,7 +351,7 @@ export class Wenku8Client extends AbstractHttpClientWithJSDom
 		let jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
 
 		return !!jsdom
-			.$('a[href="https://www.wenku8.net/logout.php"]')
+			.$('a[href="https://www.wenku8.net/logout.php"], a[href*="/logout.php"]')
 			.length as any
 	}
 
