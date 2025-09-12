@@ -13,7 +13,7 @@ import {
 	AxiosStatic,
 } from 'axios';
 import { dotValue } from '@bluelovers/axios-util';
-import { existsSync, readJSON } from 'fs-extra';
+import { existsSync, outputFile, readJSON } from 'fs-extra';
 import { deserializeCookieJar } from 'restful-decorator-plugin-jsdom/lib/cookies';
 import isCi from '../ci';
 import importPassword from '../pass';
@@ -136,6 +136,8 @@ export async function _getApiClient<T extends AbstractHttpClient>(opts: {
 					__root,
 					envPrefix: opts.envPrefix,
 				});
+
+				console.log(`DISABLE_LOGIN`, DISABLE_LOGIN)
 
 				if (!localPassword)
 				{

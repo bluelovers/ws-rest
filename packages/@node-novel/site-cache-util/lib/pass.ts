@@ -13,6 +13,8 @@ export async function importPassword<T extends IPasswordLocal>(options: {
 {
 	let target = path.resolve(options.__root, options.file);
 
+	console.log(target)
+
 return import(target)
 	.catch(e => {
 		let { envPrefix } = options;
