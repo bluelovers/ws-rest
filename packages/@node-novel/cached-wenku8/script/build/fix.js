@@ -22,8 +22,11 @@ exports.default = (0, index_1.lazyRun)(async () => {
         let { last_update_time, id, cid, last_update_chapter_name } = row;
         let _file = (0, files_1.cacheFileInfoPath)(id);
         let info = await (0, fs_extra_1.readJSON)(_file).catch(e => null);
-        if (info == null)
+        if (info == null) {
+            task001[id] = null;
             return;
+        }
+        ;
         let _changed = false;
         if (!info.last_update_time && !info.copyright_remove) {
             info.copyright_remove = true;

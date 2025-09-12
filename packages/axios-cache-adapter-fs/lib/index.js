@@ -3,7 +3,10 @@
  * Created by user on 2019/6/11.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.defaultFilter = exports.processExitHook = exports.exportCache = exports.importCache = void 0;
+exports.importCache = importCache;
+exports.exportCache = exportCache;
+exports.processExitHook = processExitHook;
+exports.defaultFilter = defaultFilter;
 const tslib_1 = require("tslib");
 const bluebird_1 = tslib_1.__importDefault(require("bluebird"));
 function importCache(store, json, options) {
@@ -21,7 +24,6 @@ function importCache(store, json, options) {
     })
         .thenReturn(store);
 }
-exports.importCache = importCache;
 function exportCache(store, options) {
     if (typeof options === 'function') {
         options = {
@@ -52,7 +54,6 @@ function exportCache(store, options) {
     })
         .then(r => exportCb(json));
 }
-exports.exportCache = exportCache;
 /**
  * hook fn to process exit, return a fn for cancel
  * when process exit, can't take too many async , so if can try use sync
@@ -65,12 +66,10 @@ function processExitHook(fn) {
         process.off('exit', fn);
     };
 }
-exports.processExitHook = processExitHook;
 function defaultFilter(k, v) {
     const { status } = v.data;
     return status != 500 && status != 302 && status != 400;
 }
-exports.defaultFilter = defaultFilter;
 exports.default = {
     importCache,
     exportCache,

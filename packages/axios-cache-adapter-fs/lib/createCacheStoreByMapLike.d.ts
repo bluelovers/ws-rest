@@ -8,7 +8,7 @@ export declare class CacheStoreByMapLike<R extends Map<any, ICacheStoreJsonItem<
     removeItem(key: string): Promise<void>;
     clear(): Promise<void>;
     length(): Promise<number>;
-    iterate(fn: (value: object | string | T, key: string) => ITSResolvable<any>): Promise<IterableIterator<[any, ICacheStoreJsonItem<T>]>>;
+    iterate(fn: (value: object | string | T, key: string) => ITSResolvable<any>): Promise<MapIterator<[any, ICacheStoreJsonItem<T>]>>;
     get store(): ICacheStoreJson<T>;
 }
 export declare function createCacheStoreByMapLike<R extends Map<any, ICacheStoreJsonItem<T>>, T extends ICacheStoreJsonRow = ICacheStoreJsonRow>(map: R): CacheStoreByMapLike<R, ICacheStoreJsonRow>;

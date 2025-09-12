@@ -1,7 +1,7 @@
 export declare function createPkgPath(__root: string): {
     readonly __root: string;
-    join(paths_0: string, ...paths_1: string[]): string;
-    resolve(paths_0: string, ...paths_1: string[]): string;
+    join(paths_0: string, ...paths: string[]): string;
+    resolve(paths_0: string, ...paths: string[]): string;
     relative(paths_0: string): string;
 };
 export type ICreatePkgPath = ReturnType<typeof createPkgPath>;

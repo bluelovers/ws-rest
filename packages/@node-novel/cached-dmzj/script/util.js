@@ -3,7 +3,7 @@
  * Created by user on 2019/7/7.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getDmzjClient = exports.__root = exports.console = exports.consoleDebug = void 0;
+exports.__root = exports.console = exports.consoleDebug = void 0;
 exports.getApiClient = getApiClient;
 exports.getDmzjClient = getApiClient;
 exports.trim = trim;

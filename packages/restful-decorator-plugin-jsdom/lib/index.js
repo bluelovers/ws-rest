@@ -101,6 +101,7 @@ let AbstractHttpClientWithJSDom = class AbstractHttpClientWithJSDom extends lib_
         };
     }
 };
+exports.AbstractHttpClientWithJSDom = AbstractHttpClientWithJSDom;
 tslib_1.__decorate([
     (0, decorators_1.GET)('/cdn-cgi/trace'),
     (0, jsdom_1.ReturnValueToJSDOM)(),
@@ -109,12 +110,11 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:paramtypes", []),
     tslib_1.__metadata("design:returntype", Promise)
 ], AbstractHttpClientWithJSDom.prototype, "_plugin_cloudflare_trace", null);
-AbstractHttpClientWithJSDom = tslib_1.__decorate([
+exports.AbstractHttpClientWithJSDom = AbstractHttpClientWithJSDom = tslib_1.__decorate([
     (0, decorators_1.RequestConfigs)({
         responseType: 'arraybuffer',
     }),
     tslib_1.__metadata("design:paramtypes", [Object])
 ], AbstractHttpClientWithJSDom);
-exports.AbstractHttpClientWithJSDom = AbstractHttpClientWithJSDom;
 exports.default = AbstractHttpClientWithJSDom;
 //# sourceMappingURL=index.js.map

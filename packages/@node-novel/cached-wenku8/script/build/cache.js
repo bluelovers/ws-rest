@@ -31,15 +31,17 @@ exports.default = (0, index_1.lazyRun)(async () => {
         authors.push(row.authors);
         idTitles[id] = name;
         let _file = (0, files_1.cacheFileInfoPath)(id);
-        let info = await (0, fs_extra_1.readJSON)(_file);
-        if (info.copyright_remove) {
-            copyrightRemove[id] = name;
-        }
         idVolumes[id] = 0;
-        id_chapters[id] = info.chapters.reduce((len, vol) => {
-            idVolumes[id]++;
-            return len += vol.chapters.length;
-        }, 0);
+        let info = await (0, fs_extra_1.readJSON)(_file).catch(e => null);
+        if (info) {
+            if (info.copyright_remove) {
+                copyrightRemove[id] = name;
+            }
+            id_chapters[id] = info.chapters.reduce((len, vol) => {
+                idVolumes[id]++;
+                return len += vol.chapters.length;
+            }, 0);
+        }
     })
         .then(data => data.sort((a, b) => {
         return b.last_update_time - a.last_update_time;

@@ -81,6 +81,7 @@ async function _getApiClient(opts) {
                     __root,
                     envPrefix: opts.envPrefix,
                 });
+                __1.console.log(`DISABLE_LOGIN`, DISABLE_LOGIN);
                 if (!localPassword) {
                     __1.consoleDebug.red.info(`帳密不存在`);
                 }

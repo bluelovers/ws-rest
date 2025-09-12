@@ -181,7 +181,7 @@ let Wenku8Client = class Wenku8Client extends lib_1.AbstractHttpClientWithJSDom 
     isLogin() {
         let jsdom = this._responseDataToJSDOM(this.$returnValue, this.$response);
         return !!jsdom
-            .$('a[href="https://www.wenku8.net/logout.php"]')
+            .$('a[href="https://www.wenku8.net/logout.php"], a[href*="/logout.php"]')
             .length;
     }
     //@GET('book/{novel_id}.htm')
@@ -544,6 +544,7 @@ exports.Wenku8Client = Wenku8Client = tslib_1.__decorate([
     (0, decorators_1.BaseUrl)('https://www.wenku8.net'),
     (0, decorators_1.Headers)({
         Referer: 'https://www.wenku8.net/index.php',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
     }),
     (0, decorators_1.CacheRequest)({
         cache: {

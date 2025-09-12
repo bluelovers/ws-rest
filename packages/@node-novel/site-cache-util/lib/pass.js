@@ -6,6 +6,7 @@ const index_1 = require("./index");
 const env_bool_1 = tslib_1.__importDefault(require("env-bool"));
 async function importPassword(options) {
     let target = index_1.path.resolve(options.__root, options.file);
+    index_1.console.log(target);
     return Promise.resolve(`${target}`).then(s => tslib_1.__importStar(require(s))).catch(e => {
         let { envPrefix } = options;
         if (envPrefix) {

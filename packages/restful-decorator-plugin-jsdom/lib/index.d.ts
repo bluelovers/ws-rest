@@ -1,5 +1,3 @@
-/// <reference types="jsdom" />
-/// <reference types="node" />
 import { AbstractHttpClient } from 'restful-decorator/lib';
 import { IConstructorOptions as IJSDOMConstructorOptions, VirtualConsole } from 'jsdom-extra/lib/pack';
 import { IJSDOM } from 'jsdom-extra';
@@ -34,17 +32,17 @@ export declare abstract class AbstractHttpClientWithJSDom extends AbstractHttpCl
              * '1587972669.851'
              */
             ts: string;
-            visit_scheme: 'https' | string;
+            visit_scheme: "https" | string;
             /**
              * 'axios/0.18.1'
              */
             uag: string;
-            colo: 'LAX' | string;
-            http: 'http/1.1' | string;
-            loc: 'TW' | string;
-            tls: 'TLSv1.3' | string;
-            sni: 'plaintext' | string;
-            warp: 'off' | 'on' | string;
+            colo: "LAX" | string;
+            http: "http/1.1" | string;
+            loc: "TW" | string;
+            tls: "TLSv1.3" | string;
+            sni: "plaintext" | string;
+            warp: "off" | "on" | string;
         };
     }>;
 }
