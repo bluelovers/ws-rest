@@ -36,6 +36,7 @@ exports.default = (0, index_1.lazyRun)(async () => {
         if (last_update_time != info.last_update_time) {
             info.last_update_time = last_update_time;
             _changed = true;
+            task001[id] = null;
         }
         else {
             task001[id] = last_update_time;

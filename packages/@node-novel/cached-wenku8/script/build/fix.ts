@@ -48,6 +48,8 @@ export default lazyRun(async () => {
 			{
 				info.last_update_time = last_update_time;
 				_changed = true;
+
+				task001[id] = null;
 			}
 			else
 			{
