@@ -33,20 +33,21 @@ exports.default = (0, index_1.lazyRun)(async () => {
         util_1.consoleDebug.info(`發現`, list.length, `個小說待處理`);
     })
         .mapSeries(async (v, index, length) => {
+        util_1.consoleDebug.gray.debug(_do, taskList[v.id], v.id, v.name, moment_1.moment.unix(v.last_update_time));
         if (_do && !taskList[v.id]) {
             (0, free_gc_1.freeGC)();
             let fromCache;
             util_1.consoleDebug.debug(`novelInfoWithChapters`, v.id, v.name);
             let info = await api.novelInfoWithChapters(v.id)
                 .catch((e) => {
-                _do = false;
+                //_do = false;
                 util_1.consoleDebug.error(v.id, v.name, e.message);
                 util_1.console.dir(e.request);
                 util_1.console.dir(e.config);
                 return null;
             })
                 .tap(function (data) {
-                if ((0, axios_util_1.isResponseFromAxiosCache)(data[symbol_1.SymSelf].$response) || (0, axios_util_1.isResponseFromAxiosCache)(this.$response)) {
+                if (data && (0, axios_util_1.isResponseFromAxiosCache)(data[symbol_1.SymSelf].$response) || (0, axios_util_1.isResponseFromAxiosCache)(this.$response)) {
                     fromCache = true;
                 }
             });
@@ -75,11 +76,19 @@ exports.default = (0, index_1.lazyRun)(async () => {
                 }
             }
             else {
-                _do = false;
+                if ((info && info.id != v.id)) {
+                    _do = false;
+                    util_1.consoleDebug.error(`fromCache`, fromCache, info.id, `!=`, v.id, v.name);
+                }
+                else {
+                    util_1.consoleDebug.gray.warn(`fromCache`, fromCache, `info doesn't exist`, v.id, v.name);
+                }
             }
         }
     })
-        .catch(e => null)
+        .catch(e => {
+        util_1.consoleDebug.error(_do, e.message);
+    })
         .tap(v => {
         util_1.consoleDebug.info(`結束抓取小說資料`);
     });

@@ -16,7 +16,7 @@ import { __root, console, consoleDebug, getDmzjClient, trim } from '../util';
 import path from "upath2";
 import { outputJSON, readJSON } from 'fs-extra';
 import Bluebird from 'bluebird';
-import { IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
+import { IDmzjClientNovelRecentUpdateAll, IDmzjNovelInfo, IDmzjNovelInfoWithChapters } from 'dmzj-api/lib/types';
 import { moment, toMoment, unixMoment } from '@node-novel/site-cache-util/lib/moment';
 import { SymSelf } from 'restful-decorator/lib/helper/symbol';
 import { isResponseFromAxiosCache } from '@bluelovers/axios-util';
@@ -31,8 +31,8 @@ export default lazyRun(async () => {
 	const file = cacheFilePaths.recentUpdate;
 	const file2 = cacheFilePaths.task001;
 
-	let novelList = await (readJSON(file)
-		.catch(e => null) as ReturnType<typeof api.novelRecentUpdateAll>)
+	let novelList: IDmzjClientNovelRecentUpdateAll = await readJSON(file)
+		.catch(e => null as any)
 	;
 
 	const taskList: Record<number, number> = await (readJSON(file2)
@@ -54,6 +54,7 @@ export default lazyRun(async () => {
 		})
 		.mapSeries(async (v, index, length) =>
 		{
+			consoleDebug.gray.debug(_do, taskList[v.id], v.id, v.name, moment.unix(v.last_update_time))
 
 			if (_do && !taskList[v.id])
 			{
@@ -67,7 +68,7 @@ export default lazyRun(async () => {
 					.catch((e: AxiosError) =>
 					{
 
-						_do = false;
+						//_do = false;
 
 						consoleDebug.error(v.id, v.name, e.message);
 
@@ -78,7 +79,7 @@ export default lazyRun(async () => {
 					})
 					.tap(function (this: DmzjClient, data)
 					{
-						if (isResponseFromAxiosCache(data[SymSelf].$response) || isResponseFromAxiosCache(this.$response))
+						if (data && isResponseFromAxiosCache(data[SymSelf].$response) || isResponseFromAxiosCache(this.$response))
 						{
 							fromCache = true;
 						}
@@ -122,12 +123,23 @@ export default lazyRun(async () => {
 				}
 				else
 				{
-					_do = false;
+					if ((info && info.id != v.id))
+					{
+						_do = false;
+
+						consoleDebug.error(`fromCache`, fromCache, info.id, `!=`, v.id, v.name);
+					}
+					else
+					{
+						consoleDebug.gray.warn(`fromCache`, fromCache, `info doesn't exist`, v.id, v.name);
+					}
 				}
 			}
 
 		})
-		.catch(e => null)
+		.catch(e => {
+			consoleDebug.error(_do, e.message);
+		})
 		.tap(v =>
 		{
 			consoleDebug.info(`結束抓取小說資料`);
