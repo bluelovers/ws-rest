@@ -2,14 +2,14 @@
   "id": 3106,
   "name": "位于恋爱光谱极端的我们(经验丰富的你和经验为零的我交往的故事)",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "status": "已完结",
+  "last_update_volume_name": "第六卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12727,
-  "last_update_chapter_id": 130289,
-  "last_update_time": 1666699670,
-  "cover": "http://xs.dmzj.com/img/webpic/14/jyff0731l.jpg",
-  "hot_hits": 104807,
+  "last_update_volume_id": 13034,
+  "last_update_chapter_id": 134022,
+  "last_update_time": 1680073797,
+  "cover": "https://xs.muwai.com/img/webpic/14/jyff0731l.jpg",
+  "hot_hits": 104846,
   "introduction": "「我，我喜欢你!」「诶？你是铃木!?」。\n阴气十足的高中生·加岛龙斗，以惩罚游戏为契机向学校最上位&憧憬的白河月爱告白。\n两人以意料之外的「那、反正我现在单身」为由开始交往，龙斗偷听到月爱被足球部的阳角帅哥告白，月爱把刚刚交往的龙斗理所当然地带进了自己的房间。\n交往的朋友也好，玩的游戏也好，一切都不一样的两个人，每天都被这种反差所惊讶，开始互相接受，然后开始心灵相通。\n读了一定会有美妙心情的爱情故事开始了!",
   "types": [
     "校园",
@@ -17,7 +17,7 @@
   ],
   "authors": "长冈真纪子",
   "first_letter": "J",
-  "subscribe_num": 9594,
+  "subscribe_num": 14686,
   "volume": [
     {
       "id": 11697,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1627737051,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 11823,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1632153695,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 11876,
@@ -41,7 +41,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1634914631,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 12709,
@@ -49,7 +49,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1666100292,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 12727,
@@ -57,7 +57,15 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1666698250,
-      "sum_chapters": 7
+      "sum_chapters": 5
+    },
+    {
+      "id": 13034,
+      "lnovel_id": 3106,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1680067484,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -433,6 +441,59 @@
           "chapter_id": 130289,
           "chapter_name": "插画",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 13034,
+      "id": 13034,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 134014,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 134015,
+          "chapter_name": "第一章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 134016,
+          "chapter_name": "第二章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 134017,
+          "chapter_name": "第三章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 134018,
+          "chapter_name": "第四章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 134019,
+          "chapter_name": "第五章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 134020,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 134021,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 134022,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

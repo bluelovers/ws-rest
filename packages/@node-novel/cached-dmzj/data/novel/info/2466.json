@@ -3,13 +3,13 @@
   "name": "圣女魔力无所不能",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第八卷",
+  "last_update_volume_name": "第九卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12735,
-  "last_update_chapter_id": 130407,
-  "last_update_time": 1666959533,
-  "cover": "http://xs.dmzj.com/img/webpic/27/sn0408l.jpg",
-  "hot_hits": 768519,
+  "last_update_volume_id": 13433,
+  "last_update_chapter_id": 138834,
+  "last_update_time": 1696585818,
+  "cover": "https://xs.muwai.com/img/webpic/27/sn0408l.jpg",
+  "hot_hits": 768524,
   "introduction": "工作狂加班回家竟然被异世界召唤成为圣女！？",
   "types": [
     "异界",
@@ -18,7 +18,7 @@
   ],
   "authors": "橘由华",
   "first_letter": "S",
-  "subscribe_num": 26628,
+  "subscribe_num": 27402,
   "volume": [
     {
       "id": 9347,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1523169052,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 9605,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1533208588,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 10137,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1558962953,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 10651,
@@ -50,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1583390968,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 11423,
@@ -58,7 +58,7 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1615388275,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 11598,
@@ -66,7 +66,7 @@
       "volume_name": "第六卷",
       "volume_order": 60,
       "addtime": 1624709911,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 11971,
@@ -74,7 +74,7 @@
       "volume_name": "第七卷",
       "volume_order": 70,
       "addtime": 1640527914,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 12735,
@@ -82,7 +82,15 @@
       "volume_name": "第八卷",
       "volume_order": 80,
       "addtime": 1666957696,
-      "sum_chapters": 7
+      "sum_chapters": 5
+    },
+    {
+      "id": 13433,
+      "lnovel_id": 2466,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "addtime": 1696584084,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -580,6 +588,64 @@
         },
         {
           "chapter_id": 130407,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13433,
+      "id": 13433,
+      "volume_name": "第九卷",
+      "volume_order": 90,
+      "chapters": [
+        {
+          "chapter_id": 138804,
+          "chapter_name": "第一幕 订婚",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 138805,
+          "chapter_name": "第二幕 来自外国的消息",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 138806,
+          "chapter_name": "幕后",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 138807,
+          "chapter_name": "第三幕 旅程",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 138808,
+          "chapter_name": "第四幕 出境禁令",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 138809,
+          "chapter_name": "第五幕 搜查？",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 138810,
+          "chapter_name": "幕后",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 138811,
+          "chapter_name": "情境式广播剧脚本",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 138812,
+          "chapter_name": "后记",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 138834,
           "chapter_name": "插画",
           "chapter_order": 100
         }

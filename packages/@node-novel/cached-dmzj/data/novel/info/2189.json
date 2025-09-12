@@ -3,13 +3,13 @@
   "name": "忍者与龙究竟谁比较强",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 9195,
-  "last_update_chapter_id": 82540,
-  "last_update_time": 1517222124,
-  "cover": "https://xs.dmzj.com/img/webpic/8/rzyl0903l.jpg",
-  "hot_hits": 133920,
+  "last_update_volume_name": "第四卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 13871,
+  "last_update_chapter_id": 144015,
+  "last_update_time": 1716130318,
+  "cover": "https://xs.muwai.com/img/webpic/8/rzyl0903l.jpg",
+  "hot_hits": 138539,
   "introduction": "　　由于操控魔法的龙人出现，使得大陆上的人类濒临灭亡。\n　　有一天，守护某村落的剑圣女·梅儿希奥妮结识了来自日本的『忍者』备人。\n　　备人施展超乎常理的剑技与形同魔法的奇妙祕术——忍法，\n　　轻易击溃了一群强大的猪人与妖人。\n　　梅儿看上他的本事，便将他延揽至村中，可是……\n　　「我说啊，亏妳胸前挂着重物还能战斗呢。」\n　　「好、好过分！色狼！我不帮你拿行李了！」\n　　（假装）沉默寡言（内心却爱耍嘴皮子）的忍者\n　　与清纯秀丽（却少了根筋）的银发巨乳女骑士，\n　　虽然两人个性格格不入，但相处起来似乎还不坏……？\n\n　　在此为您献上忍者与龙一决雌雄的人类爱情抗争剧！",
   "types": [
     "魔法",
@@ -19,8 +19,7 @@
   ],
   "authors": "伊达康",
   "first_letter": "R",
-  "subscribe_num": 8929,
-  "redis_update_time": 1564355562,
+  "subscribe_num": 9445,
   "volume": [
     {
       "id": 8100,
@@ -28,7 +27,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1472918982,
-      "sum_chapters": 8
+      "sum_chapters": 5
     },
     {
       "id": 8238,
@@ -36,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1477834463,
-      "sum_chapters": 8
+      "sum_chapters": 5
     },
     {
       "id": 9195,
@@ -44,7 +43,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1517221875,
-      "sum_chapters": 8
+      "sum_chapters": 5
+    },
+    {
+      "id": 13871,
+      "lnovel_id": 2189,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1716124187,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -188,6 +195,54 @@
         {
           "chapter_id": 82540,
           "chapter_name": "后记",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 13871,
+      "id": 13871,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 143978,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 143979,
+          "chapter_name": "第一章 前往那托亚市",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 143980,
+          "chapter_name": "第二章 军团＆骑兵团＆自卫队",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 143981,
+          "chapter_name": "第三章 夫妇对决，三次定胜负",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 143982,
+          "chapter_name": "第四章 以正面对决攻其不备",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 143983,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 143984,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 144015,
+          "chapter_name": "插画",
           "chapter_order": 80
         }
       ]

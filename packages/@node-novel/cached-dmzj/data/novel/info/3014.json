@@ -3,20 +3,20 @@
   "name": "罗梅莉亚战记",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 11604,
-  "last_update_chapter_id": 117357,
-  "last_update_time": 1625051976,
-  "cover": "http://xs.dmzj.com/img/webpic/21/lmy0305l.jpg",
-  "hot_hits": 21826,
+  "last_update_volume_name": "短篇",
+  "last_update_chapter_name": "罗梅莉亚的眼睛和双胞胎的心",
+  "last_update_volume_id": 13364,
+  "last_update_chapter_id": 137883,
+  "last_update_time": 1693380329,
+  "cover": "https://xs.muwai.com/img/webpic/21/lmy0305l.jpg",
+  "hot_hits": 26470,
   "introduction": "「罗梅，不，罗梅莉亚伯爵千金。我和你已没法再继续下去了，我要解除跟你的婚约，一回国便分手吧。」\n当亨利王子夙愿以偿打倒了魔王塞尔吉斯，喜悦尚未平息的时候，他突然这么跟我说道。\n但王子他们不知道。我拥有名为『恩宠』的奇迹之力……",
   "types": [
     "冒险"
   ],
   "authors": "有山リョウ",
   "first_letter": "L",
-  "subscribe_num": 2851,
+  "subscribe_num": 4522,
   "volume": [
     {
       "id": 11410,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1614950931,
-      "sum_chapters": 15
+      "sum_chapters": 5
     },
     {
       "id": 11604,
@@ -32,7 +32,39 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1624969203,
-      "sum_chapters": 15
+      "sum_chapters": 5
+    },
+    {
+      "id": 13361,
+      "lnovel_id": 3014,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1693379687,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13362,
+      "lnovel_id": 3014,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1693379885,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13363,
+      "lnovel_id": 3014,
+      "volume_name": "外传",
+      "volume_order": 50,
+      "addtime": 1693380126,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13364,
+      "lnovel_id": 3014,
+      "volume_name": "短篇",
+      "volume_order": 60,
+      "addtime": 1693380310,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -124,6 +156,143 @@
           "chapter_id": 117357,
           "chapter_name": "插画",
           "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 13361,
+      "id": 13361,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 137863,
+          "chapter_name": "第一章～参加联合军，攻略难攻不陷的要塞～",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 137864,
+          "chapter_name": "第二章～用秘策攻击要塞～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 137865,
+          "chapter_name": "第三章～诸龙的谋略～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 137866,
+          "chapter_name": "第四章～魔王军的援军来了～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 137867,
+          "chapter_name": "第五章～罗梅莉亚的微笑～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 137868,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 137869,
+          "chapter_name": "插图",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 13362,
+      "id": 13362,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 137870,
+          "chapter_name": "第一章～虽被迫入绝境，化穷地为好机～",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 137871,
+          "chapter_name": "第二章～矮躯之龙～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 137872,
+          "chapter_name": "第三章～招待王族，举行茶会～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 137873,
+          "chapter_name": "第四章～意料之外的敌人来了～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 137874,
+          "chapter_name": "第五章～发动最后的计策～",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 137875,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 137876,
+          "chapter_name": "插图",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 13363,
+      "id": 13363,
+      "volume_name": "外传",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 137877,
+          "chapter_name": "第一章～为了巩固地基，开始建造港口～",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 137878,
+          "chapter_name": "第二章～为了得到协助，开船前往墨卡岛～",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 137879,
+          "chapter_name": "第三章～达成谈判，构筑合作关系～",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 137880,
+          "chapter_name": "第四章～罗梅莉亚的翅膀～",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 137881,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 137882,
+          "chapter_name": "插图",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 13364,
+      "id": 13364,
+      "volume_name": "短篇",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 137883,
+          "chapter_name": "罗梅莉亚的眼睛和双胞胎的心",
+          "chapter_order": 10
         }
       ]
     }

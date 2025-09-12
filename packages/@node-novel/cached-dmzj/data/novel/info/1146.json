@@ -3,21 +3,20 @@
   "name": "少年检阅官",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "",
-  "last_update_chapter_name": "",
-  "last_update_volume_id": 0,
-  "last_update_chapter_id": 0,
-  "last_update_time": 1323139429,
-  "cover": "https://xs.dmzj.com/img/webpic/12/snjyg.jpg",
-  "hot_hits": 12557,
+  "last_update_volume_name": "第二卷 少女音乐盒",
+  "last_update_chapter_name": "终响 改变世界的故事",
+  "last_update_volume_id": 13178,
+  "last_update_chapter_id": 135704,
+  "last_update_time": 1685537795,
+  "cover": "https://xs.muwai.com/img/webpic/12/snjyg.jpg",
+  "hot_hits": 13742,
   "introduction": "那是一个所有书籍都被禁止的年代，人们把战争、谋杀……都归咎到书本上，只要发现藏书，便会被政府官员一把火烧个精光！\n完全没有犯罪的乌托邦似乎终于降临了，没想到平静的小镇却突然传出一连串离奇的杀人事件，而凶手，据说是一个名为「侦探」的神秘黑衣人！\n种种怪异的传说引起了「少年检阅官」榎野的注意，他是专门负责搜查私藏书的官员，从小就被培养出过人的智慧和超凡的行动力，但他却觉得自己只是一个失去了心的机械人，总感到莫名的恐惧与孤独。\n或许正因为如此，当榎野巧遇四处旅行的克里斯时，他在心中立刻下了一个决定，而那个决定也意外地改变了两个少年的生命……",
   "types": [
     "侦探"
   ],
   "authors": "北山猛邦",
   "first_letter": "S",
-  "subscribe_num": 537,
-  "redis_update_time": 1564941994,
+  "subscribe_num": 940,
   "volume": [
     {
       "id": 4100,
@@ -25,7 +24,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1323139429,
-      "sum_chapters": 10
+      "sum_chapters": 5
+    },
+    {
+      "id": 13178,
+      "lnovel_id": 1146,
+      "volume_name": "第二卷 少女音乐盒",
+      "volume_order": 20,
+      "addtime": 1685537705,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -84,6 +91,44 @@
           "chapter_id": 25365,
           "chapter_name": "终奏 为了短暂的别离",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13178,
+      "id": 13178,
+      "volume_name": "第二卷 少女音乐盒",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 135699,
+          "chapter_name": "序章 在月光海岸将你……",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 135700,
+          "chapter_name": "第一章 我们回归之处",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 135701,
+          "chapter_name": "第二章 另一名少年检阅官",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 135702,
+          "chapter_name": "第三章 少女音乐盒",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 135703,
+          "chapter_name": "第四章 王国最后的密室",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 135704,
+          "chapter_name": "终响 改变世界的故事",
+          "chapter_order": 60
         }
       ]
     }

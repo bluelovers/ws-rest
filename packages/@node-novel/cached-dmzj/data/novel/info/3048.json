@@ -2,14 +2,14 @@
   "id": 3048,
   "name": "如果救下了准备跳楼的女高中生会怎样？",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第三卷",
+  "status": "已完结",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12713,
-  "last_update_chapter_id": 130172,
-  "last_update_time": 1666362143,
-  "cover": "http://xs.dmzj.com/img/webpic/4/rgjx0422l.jpg",
-  "hot_hits": 139722,
+  "last_update_volume_id": 13113,
+  "last_update_chapter_id": 134911,
+  "last_update_time": 1682690500,
+  "cover": "https://xs.muwai.com/img/webpic/4/rgjx0422l.jpg",
+  "hot_hits": 139800,
   "introduction": "暂无简介",
   "types": [
     "爱情",
@@ -17,7 +17,7 @@
   ],
   "authors": "岸马きらく",
   "first_letter": "R",
-  "subscribe_num": 14566,
+  "subscribe_num": 17711,
   "volume": [
     {
       "id": 11506,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1619094544,
-      "sum_chapters": 11
+      "sum_chapters": 5
     },
     {
       "id": 12457,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1659105002,
-      "sum_chapters": 11
+      "sum_chapters": 5
     },
     {
       "id": 12713,
@@ -41,7 +41,15 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1666359295,
-      "sum_chapters": 11
+      "sum_chapters": 5
+    },
+    {
+      "id": 13113,
+      "lnovel_id": 3048,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1682683516,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -231,6 +239,59 @@
           "chapter_id": 130172,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13113,
+      "id": 13113,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 134830,
+          "chapter_name": "序章 结城的原生家庭",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 134831,
+          "chapter_name": "第一话 结城的儿时玩伴",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 134832,
+          "chapter_name": "第二话 小鸟和结城的弟弟",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 134833,
+          "chapter_name": "第三话 雄斗与佑介",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 134834,
+          "chapter_name": "第四话 佑介与雄斗2",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 134835,
+          "chapter_name": "第五话 大坂的决断",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 134836,
+          "chapter_name": "尾声 在意外之后～",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 134837,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 134911,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

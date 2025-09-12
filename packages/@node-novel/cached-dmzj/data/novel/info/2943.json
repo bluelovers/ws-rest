@@ -1,23 +1,24 @@
 {
   "id": 2943,
-  "name": "因想当冒险者而前往大都市的女儿已经升到了S级",
+  "name": "想当冒险者的女儿到大都市当了等级S的冒险者（因想当冒险者而前往大都市的女儿已经升到了S级）",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第十卷",
-  "last_update_chapter_name": "第一三〇话",
-  "last_update_volume_id": 12927,
-  "last_update_chapter_id": 132772,
-  "last_update_time": 1675089561,
-  "cover": "http://xs.dmzj.com/img/webpic/15/sjmxz0925l.jpg",
+  "last_update_volume_name": "第十一卷 父亲与女儿",
+  "last_update_chapter_name": "第一四六话",
+  "last_update_volume_id": 13339,
+  "last_update_chapter_id": 140573,
+  "last_update_time": 1702886174,
+  "cover": "https://xs.muwai.com/img/webpic/15/sjmxz0925l.jpg",
   "hot_hits": 1021538,
   "introduction": "在老家的农村过着如冒险者一般的生活的贝尔格里夫，将在森林里捡到的女儿安洁琳养大，送她前往大都市。\n收到久违的女儿即将回乡的消息，但却迟迟不见女儿回来，担心与日俱增。\n另一方面，已成为公会最高级别『S级』的安洁琳，想要回到最爱的父亲身边，但是……\n「到底要到什么时候才能让我去见父亲啊……！」",
   "types": [
     "冒险",
-    "奇幻"
+    "奇幻",
+    "格斗"
   ],
   "authors": "门司柿家",
-  "first_letter": "Y",
-  "subscribe_num": 21745,
+  "first_letter": "X",
+  "subscribe_num": 25137,
   "volume": [
     {
       "id": 11140,
@@ -25,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1601026933,
-      "sum_chapters": 23
+      "sum_chapters": 5
     },
     {
       "id": 11241,
@@ -33,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1606222130,
-      "sum_chapters": 23
+      "sum_chapters": 5
     },
     {
       "id": 11242,
@@ -41,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1606222808,
-      "sum_chapters": 23
+      "sum_chapters": 5
     },
     {
       "id": 11243,
@@ -49,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1606223165,
-      "sum_chapters": 23
+      "sum_chapters": 5
     },
     {
       "id": 11260,
@@ -57,31 +58,31 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1607346575,
-      "sum_chapters": 23
+      "sum_chapters": 5
     },
     {
       "id": 11305,
       "lnovel_id": 2943,
-      "volume_name": "第六卷",
+      "volume_name": "第六卷 故乡的女儿",
       "volume_order": 60,
       "addtime": 1609758124,
-      "sum_chapters": 23
+      "sum_chapters": 5
     },
     {
       "id": 11570,
       "lnovel_id": 2943,
-      "volume_name": "第七卷",
+      "volume_name": "第七卷 旅行的女儿",
       "volume_order": 70,
       "addtime": 1622463404,
-      "sum_chapters": 23
+      "sum_chapters": 5
     },
     {
       "id": 12034,
       "lnovel_id": 2943,
-      "volume_name": "第八卷",
+      "volume_name": "第八卷 思考的女儿",
       "volume_order": 80,
       "addtime": 1644240204,
-      "sum_chapters": 23
+      "sum_chapters": 5
     },
     {
       "id": 12475,
@@ -89,15 +90,23 @@
       "volume_name": "第九卷",
       "volume_order": 90,
       "addtime": 1659969745,
-      "sum_chapters": 23
+      "sum_chapters": 5
     },
     {
       "id": 12927,
       "lnovel_id": 2943,
-      "volume_name": "第十卷",
+      "volume_name": "第十卷 开心的女儿",
       "volume_order": 100,
       "addtime": 1675089456,
-      "sum_chapters": 23
+      "sum_chapters": 5
+    },
+    {
+      "id": 13339,
+      "lnovel_id": 2943,
+      "volume_name": "第十一卷 父亲与女儿",
+      "volume_order": 110,
+      "addtime": 1692349317,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -599,7 +608,7 @@
     {
       "volume_id": 11305,
       "id": 11305,
-      "volume_name": "第六卷",
+      "volume_name": "第六卷 故乡的女儿",
       "volume_order": 60,
       "chapters": [
         {
@@ -692,7 +701,7 @@
     {
       "volume_id": 11570,
       "id": 11570,
-      "volume_name": "第七卷",
+      "volume_name": "第七卷 旅行的女儿",
       "volume_order": 70,
       "chapters": [
         {
@@ -790,7 +799,7 @@
     {
       "volume_id": 12034,
       "id": 12034,
-      "volume_name": "第八卷",
+      "volume_name": "第八卷 思考的女儿",
       "volume_order": 80,
       "chapters": [
         {
@@ -957,6 +966,11 @@
           "chapter_order": 140
         },
         {
+          "chapter_id": 136616,
+          "chapter_name": "番外篇 足迹",
+          "chapter_order": 145
+        },
+        {
           "chapter_id": 129160,
           "chapter_name": "特典 关于精灵族领地的对话",
           "chapter_order": 150
@@ -981,7 +995,7 @@
     {
       "volume_id": 12927,
       "id": 12927,
-      "volume_name": "第十卷",
+      "volume_name": "第十卷 开心的女儿",
       "volume_order": 100,
       "chapters": [
         {
@@ -1013,6 +1027,114 @@
           "chapter_id": 132772,
           "chapter_name": "第一三〇话",
           "chapter_order": 60
+        },
+        {
+          "chapter_id": 133888,
+          "chapter_name": "第一三一话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 133889,
+          "chapter_name": "第一三二话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 133890,
+          "chapter_name": "第一三三话",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 134169,
+          "chapter_name": "第一三四话",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 134574,
+          "chapter_name": "第一三五话",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 135228,
+          "chapter_name": "第一三六话",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 135864,
+          "chapter_name": "番外篇 独一无二的平凡夜晚",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 136576,
+          "chapter_name": "特典 某个冬日",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 136577,
+          "chapter_name": "后记",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 136617,
+          "chapter_name": "插图",
+          "chapter_order": 160
+        }
+      ]
+    },
+    {
+      "volume_id": 13339,
+      "id": 13339,
+      "volume_name": "第十一卷 父亲与女儿",
+      "volume_order": 110,
+      "chapters": [
+        {
+          "chapter_id": 137663,
+          "chapter_name": "第一三七话",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 137664,
+          "chapter_name": "第一三八话",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 137665,
+          "chapter_name": "第一三九话",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 137718,
+          "chapter_name": "第一四〇话",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 138113,
+          "chapter_name": "第一四一话",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 138564,
+          "chapter_name": "第一四二话",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 140570,
+          "chapter_name": "第一四三话",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 140571,
+          "chapter_name": "第一四四话",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 140572,
+          "chapter_name": "第一四五话",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 140573,
+          "chapter_name": "第一四六话",
+          "chapter_order": 100
         }
       ]
     }

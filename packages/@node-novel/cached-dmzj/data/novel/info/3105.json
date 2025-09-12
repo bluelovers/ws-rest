@@ -1,23 +1,23 @@
 {
   "id": 3105,
-  "name": "含羞草的告白",
+  "name": "银荆的告白(含羞草的告白)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷",
+  "last_update_volume_name": "第四卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12033,
-  "last_update_chapter_id": 122538,
-  "last_update_time": 1644052062,
-  "cover": "http://xs.dmzj.com/img/webpic/16/hxc0730l.jpg",
-  "hot_hits": 19124,
+  "last_update_volume_id": 13645,
+  "last_update_chapter_id": 141602,
+  "last_update_time": 1707121119,
+  "cover": "https://xs.muwai.com/img/webpic/16/hxc0730l.jpg",
+  "hot_hits": 39489,
   "introduction": "因这份告白，世界随之改变。\n在某个乡下都市居住的平凡高中生·纸木咲马，有一位完美的童年玩伴。\n咲马的青梅竹马——槻木汐，不仅有着与其说是帅气更像是美少年一样的充满魅力的外貌。在此之上还是运动万能、成绩也常年居于年级首位。\n拥有着极高的人望，特别在女生当中更是人气居高不下——。\n作为儿时的玩伴，二人的关系曾比任何人都要好。然而却随着升入高中而逐渐疏远。因过去的心理创伤与对汐的自卑感，咲马的性格变得扭曲。\n而那天晚上，咲马在公园里看到了令人难以置信的一幕。\n那是穿着水手服哭泣的槻木汐。",
   "types": [
     "校园",
     "爱情"
   ],
   "authors": "八目迷",
-  "first_letter": "H",
-  "subscribe_num": 3274,
+  "first_letter": "Y",
+  "subscribe_num": 11043,
   "volume": [
     {
       "id": 11692,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1627652905,
-      "sum_chapters": 17
+      "sum_chapters": 5
     },
     {
       "id": 12033,
@@ -33,7 +33,23 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1644051157,
-      "sum_chapters": 17
+      "sum_chapters": 5
+    },
+    {
+      "id": 13042,
+      "lnovel_id": 3105,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "addtime": 1680158641,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13645,
+      "lnovel_id": 3105,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1707060824,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -100,6 +116,72 @@
           "chapter_id": 122538,
           "chapter_name": "插画",
           "chapter_order": 40
+        }
+      ]
+    },
+    {
+      "volume_id": 13042,
+      "id": 13042,
+      "volume_name": "第三卷",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 134084,
+          "chapter_name": "间章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 134158,
+          "chapter_name": "第五章 VS.",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 134159,
+          "chapter_name": "第六章 有纱·暴走",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 134160,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 134231,
+          "chapter_name": "插画",
+          "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 13645,
+      "id": 13645,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 141535,
+          "chapter_name": "第七章 那些美好的日子",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 141536,
+          "chapter_name": "第八章 冰雪消融的月份",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 141537,
+          "chapter_name": "间章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 141538,
+          "chapter_name": "后记",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 141602,
+          "chapter_name": "插画",
+          "chapter_order": 50
         }
       ]
     }

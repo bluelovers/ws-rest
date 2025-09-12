@@ -1,22 +1,23 @@
 {
   "id": 3061,
-  "name": "记忆缝线YOUR FORMA",
+  "name": "记忆缝线YOUR FORMA(Your Forma 电索官慧周与机械搭档)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "短篇",
-  "last_update_chapter_name": "漫画联动特典 噩梦大游行",
-  "last_update_volume_id": 11759,
-  "last_update_chapter_id": 125754,
-  "last_update_time": 1656516800,
-  "cover": "http://xs.dmzj.com/img/webpic/17/ym0517l.jpg",
-  "hot_hits": 28842,
+  "last_update_volume_name": "第四卷 电索官埃缇卡与圣彼得堡的恶梦",
+  "last_update_chapter_name": "插图",
+  "last_update_volume_id": 13241,
+  "last_update_chapter_id": 136449,
+  "last_update_time": 1688373339,
+  "cover": "https://xs.muwai.com/img/webpic/17/ym0517l.jpg",
+  "hot_hits": 30881,
   "introduction": "★第27届电击小说大赏《大赏》获奖作品★\n由最强的凹凸搭档奉上的SF犯罪剧堂堂开幕！！\n大脑的缝合之线——通称。从流行性病毒脑炎中拯救人们的医疗技术进化成了日常生活中不可缺少的信息终端。\n缝线将一切都记录起来。看到的、听到的、甚至是感情都为之记录。电索官•慧周的工作就是潜入这些记录，寻找解决重大事件的线索。\n慧周的同事因电索能力不匹配而被烧灼大脑入院，取代他的新搭档竟是人型Amicus哈罗德。\n因过去的心灵创伤而讨厌Amicus的慧周和不管怎样都想缩短距离的哈罗德。稀有的凹凸搭档，将挑战袭击世界的电子犯罪！",
   "types": [
-    "科幻"
+    "科幻",
+    "侦探"
   ],
   "authors": "菊石まれほ",
   "first_letter": "J",
-  "subscribe_num": 5775,
+  "subscribe_num": 6480,
   "volume": [
     {
       "id": 11546,
@@ -24,7 +25,7 @@
       "volume_name": "第一卷 电索官埃缇卡与机械装置搭档",
       "volume_order": 10,
       "addtime": 1621254309,
-      "sum_chapters": 15
+      "sum_chapters": 5
     },
     {
       "id": 11759,
@@ -32,7 +33,7 @@
       "volume_name": "短篇",
       "volume_order": 20,
       "addtime": 1629721176,
-      "sum_chapters": 15
+      "sum_chapters": 5
     },
     {
       "id": 11760,
@@ -40,7 +41,7 @@
       "volume_name": "第二卷 电索官慧周与女王的三胞胎",
       "volume_order": 30,
       "addtime": 1629721198,
-      "sum_chapters": 15
+      "sum_chapters": 5
     },
     {
       "id": 12137,
@@ -48,7 +49,15 @@
       "volume_name": "第三卷 电索官慧周与群众之梦",
       "volume_order": 40,
       "addtime": 1649245280,
-      "sum_chapters": 15
+      "sum_chapters": 5
+    },
+    {
+      "id": 13241,
+      "lnovel_id": 3061,
+      "volume_name": "第四卷 电索官埃缇卡与圣彼得堡的恶梦",
+      "volume_order": 50,
+      "addtime": 1688372661,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -286,6 +295,59 @@
           "chapter_id": 125500,
           "chapter_name": "Animate特典 小小的福尔摩斯",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13241,
+      "id": 13241,
+      "volume_name": "第四卷 电索官埃缇卡与圣彼得堡的恶梦",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 136441,
+          "chapter_name": "序章 赎罪",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 136442,
+          "chapter_name": "第一章 恶梦的脚步声",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 136443,
+          "chapter_name": "第二章 重演",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 136444,
+          "chapter_name": "幕间 I wanna go home with you.",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 136445,
+          "chapter_name": "第三章 登上山丘的羊儿们",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 136446,
+          "chapter_name": "第四章 地下室的黎明",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 136447,
+          "chapter_name": "终章 萌芽",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 136448,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 136449,
+          "chapter_name": "插图",
+          "chapter_order": 90
         }
       ]
     }

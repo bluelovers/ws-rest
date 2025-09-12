@@ -3,13 +3,13 @@
   "name": "口吐宝石的少女",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "web版第三卷",
-  "last_update_chapter_name": "Ⅲ-1",
-  "last_update_volume_id": 9647,
-  "last_update_chapter_id": 89245,
-  "last_update_time": 1535256958,
-  "cover": "https://xs.dmzj.com/img/webpic/17/ktbs1209l.jpg",
-  "hot_hits": 120639,
+  "last_update_volume_name": "第四卷 她与他的思念",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 13743,
+  "last_update_chapter_id": 142737,
+  "last_update_time": 1711036927,
+  "cover": "https://xs.muwai.com/img/webpic/17/ktbs1209l.jpg",
+  "hot_hits": 130095,
   "introduction": "　　为了可爱的人们献上这抹光辉.\n\n　　位于大陆东部的静谧小镇——利亚菲尔特市。\n　　在这个小镇的一角，有一个只有两名店员的小小宝石店——“斯普特尼克宝石店”。\n\n　　店员库琉的言行有些幼稚，多愁善感，是一名有着栗色长发的女孩子。\n　　然而店长斯普特尼克常常口出恶言，不过外貌倒是颇受好评，是个有点坏坏的青年。\n\n　　这样的两个人经营的宝石店，每天都度过着祥和热闹的时光。\n　　但是，库琉拥有着某种不可思议的体质——“口吐宝石”的体质。这是他们二人之间的秘密。\n\n　　因为这种体质，他们的日常中会出现绑架犯、警察局、魔法少女、魔女协会……\n　　总之就是会被卷入不可思议的事件……\n\n　　深受宝石宠爱的少女的甜蜜淡雅的梦幻故事，在此开演。",
   "types": [
     "冒险",
@@ -17,196 +17,79 @@
   ],
   "authors": "なみあと",
   "first_letter": "K",
-  "subscribe_num": 15333,
-  "redis_update_time": 1564354247,
+  "subscribe_num": 16428,
   "volume": [
-    {
-      "id": 8348,
-      "lnovel_id": 2244,
-      "volume_name": "第一卷 其他版本",
-      "volume_order": 10,
-      "addtime": 1481281016,
-      "sum_chapters": 8
-    },
-    {
-      "id": 8587,
-      "lnovel_id": 2244,
-      "volume_name": "第二卷 其他版本",
-      "volume_order": 20,
-      "addtime": 1491147680,
-      "sum_chapters": 8
-    },
-    {
-      "id": 8968,
-      "lnovel_id": 2244,
-      "volume_name": "第三卷 其他版本",
-      "volume_order": 30,
-      "addtime": 1505564689,
-      "sum_chapters": 8
-    },
     {
       "id": 9632,
       "lnovel_id": 2244,
       "volume_name": "web版第一卷",
-      "volume_order": 50,
+      "volume_order": 1,
       "addtime": 1534513284,
-      "sum_chapters": 8
+      "sum_chapters": 5
     },
     {
       "id": 9633,
       "lnovel_id": 2244,
       "volume_name": "web版第二卷",
-      "volume_order": 60,
+      "volume_order": 2,
       "addtime": 1534513727,
-      "sum_chapters": 8
+      "sum_chapters": 5
     },
     {
       "id": 9647,
       "lnovel_id": 2244,
       "volume_name": "web版第三卷",
-      "volume_order": 80,
+      "volume_order": 3,
       "addtime": 1535256877,
-      "sum_chapters": 8
+      "sum_chapters": 5
     },
     {
       "id": 9368,
       "lnovel_id": 2244,
       "volume_name": "第一卷",
-      "volume_order": 88,
+      "volume_order": 4,
       "addtime": 1523978021,
-      "sum_chapters": 8
+      "sum_chapters": 5
+    },
+    {
+      "id": 8348,
+      "lnovel_id": 2244,
+      "volume_name": "第一卷 小小宝石店的神奇日常",
+      "volume_order": 10,
+      "addtime": 1481281016,
+      "sum_chapters": 5
+    },
+    {
+      "id": 8587,
+      "lnovel_id": 2244,
+      "volume_name": "第二卷 过去的回忆和首次的冒险",
+      "volume_order": 20,
+      "addtime": 1491147680,
+      "sum_chapters": 5
+    },
+    {
+      "id": 8968,
+      "lnovel_id": 2244,
+      "volume_name": "第三卷 潜伏于重逢小镇的黑影",
+      "volume_order": 30,
+      "addtime": 1505564689,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13743,
+      "lnovel_id": 2244,
+      "volume_name": "第四卷 她与他的思念",
+      "volume_order": 40,
+      "addtime": 1711036549,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
     {
-      "volume_id": 8348,
-      "id": 8348,
-      "volume_name": "第一卷 其他版本",
-      "volume_order": 10,
-      "chapters": [
-        {
-          "chapter_id": 69649,
-          "chapter_name": "序章",
-          "chapter_order": 10
-        },
-        {
-          "chapter_id": 69650,
-          "chapter_name": "口吐宝石的少女",
-          "chapter_order": 20
-        },
-        {
-          "chapter_id": 69881,
-          "chapter_name": "魔女协会",
-          "chapter_order": 30
-        },
-        {
-          "chapter_id": 69882,
-          "chapter_name": "终章",
-          "chapter_order": 40
-        },
-        {
-          "chapter_id": 69883,
-          "chapter_name": "后记",
-          "chapter_order": 50
-        },
-        {
-          "chapter_id": 69884,
-          "chapter_name": "插画",
-          "chapter_order": 60
-        }
-      ]
-    },
-    {
-      "volume_id": 8587,
-      "id": 8587,
-      "volume_name": "第二卷 其他版本",
-      "volume_order": 20,
-      "chapters": [
-        {
-          "chapter_id": 73544,
-          "chapter_name": "转载信息",
-          "chapter_order": 4
-        },
-        {
-          "chapter_id": 73543,
-          "chapter_name": "序章",
-          "chapter_order": 10
-        },
-        {
-          "chapter_id": 73546,
-          "chapter_name": "第一章 首次出差（前篇）",
-          "chapter_order": 20
-        },
-        {
-          "chapter_id": 73547,
-          "chapter_name": "第二章 魔法使的回忆",
-          "chapter_order": 30
-        },
-        {
-          "chapter_id": 73739,
-          "chapter_name": "第三章 首次出差（后篇）",
-          "chapter_order": 40
-        },
-        {
-          "chapter_id": 73740,
-          "chapter_name": "终章",
-          "chapter_order": 50
-        },
-        {
-          "chapter_id": 73741,
-          "chapter_name": "后记",
-          "chapter_order": 60
-        },
-        {
-          "chapter_id": 73743,
-          "chapter_name": "插画",
-          "chapter_order": 70
-        }
-      ]
-    },
-    {
-      "volume_id": 8968,
-      "id": 8968,
-      "volume_name": "第三卷 其他版本",
-      "volume_order": 30,
-      "chapters": [
-        {
-          "chapter_id": 79614,
-          "chapter_name": "转载信息",
-          "chapter_order": 10
-        },
-        {
-          "chapter_id": 79615,
-          "chapter_name": "序章",
-          "chapter_order": 20
-        },
-        {
-          "chapter_id": 80229,
-          "chapter_name": "宝石商会",
-          "chapter_order": 30
-        },
-        {
-          "chapter_id": 80230,
-          "chapter_name": "终章",
-          "chapter_order": 40
-        },
-        {
-          "chapter_id": 80231,
-          "chapter_name": "后记",
-          "chapter_order": 50
-        },
-        {
-          "chapter_id": 80450,
-          "chapter_name": "插画",
-          "chapter_order": 60
-        }
-      ]
-    },
-    {
       "volume_id": 9632,
       "id": 9632,
       "volume_name": "web版第一卷",
-      "volume_order": 50,
+      "volume_order": 1,
       "chapters": [
         {
           "chapter_id": 89011,
@@ -264,7 +147,7 @@
       "volume_id": 9633,
       "id": 9633,
       "volume_name": "web版第二卷",
-      "volume_order": 60,
+      "volume_order": 2,
       "chapters": [
         {
           "chapter_id": 89021,
@@ -402,7 +285,7 @@
       "volume_id": 9647,
       "id": 9647,
       "volume_name": "web版第三卷",
-      "volume_order": 80,
+      "volume_order": 3,
       "chapters": [
         {
           "chapter_id": 89244,
@@ -420,7 +303,7 @@
       "volume_id": 9368,
       "id": 9368,
       "volume_name": "第一卷",
-      "volume_order": 88,
+      "volume_order": 4,
       "chapters": [
         {
           "chapter_id": 89109,
@@ -456,6 +339,178 @@
           "chapter_id": 85065,
           "chapter_name": "插画",
           "chapter_order": 77
+        }
+      ]
+    },
+    {
+      "volume_id": 8348,
+      "id": 8348,
+      "volume_name": "第一卷 小小宝石店的神奇日常",
+      "volume_order": 10,
+      "chapters": [
+        {
+          "chapter_id": 69649,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 69650,
+          "chapter_name": "口吐宝石的少女",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 69881,
+          "chapter_name": "魔女协会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 69882,
+          "chapter_name": "终章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 69883,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 69884,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 8587,
+      "id": 8587,
+      "volume_name": "第二卷 过去的回忆和首次的冒险",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 73544,
+          "chapter_name": "转载信息",
+          "chapter_order": 4
+        },
+        {
+          "chapter_id": 73543,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 73546,
+          "chapter_name": "第一章 首次出差（前篇）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 73547,
+          "chapter_name": "第二章 魔法使的回忆",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 73739,
+          "chapter_name": "第三章 首次出差（后篇）",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 73740,
+          "chapter_name": "终章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 73741,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 73743,
+          "chapter_name": "插画",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 8968,
+      "id": 8968,
+      "volume_name": "第三卷 潜伏于重逢小镇的黑影",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 79614,
+          "chapter_name": "转载信息",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 79615,
+          "chapter_name": "序章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 80229,
+          "chapter_name": "宝石商会",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 80230,
+          "chapter_name": "终章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 80231,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 80450,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 13743,
+      "id": 13743,
+      "volume_name": "第四卷 她与他的思念",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 142729,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 142730,
+          "chapter_name": "第一章 “她”的思念",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 142731,
+          "chapter_name": "第二章 “他”的思念",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 142732,
+          "chapter_name": "第三章 两人的思念",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 142733,
+          "chapter_name": "尾声",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 142734,
+          "chapter_name": "她与他的思念 宝石店的四季",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 142735,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 142737,
+          "chapter_name": "插画",
+          "chapter_order": 80
         }
       ]
     }

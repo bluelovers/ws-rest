@@ -3,21 +3,20 @@
   "name": "超人计划",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 7155,
-  "last_update_chapter_id": 52461,
-  "last_update_time": 1440153927,
-  "cover": "https://xs.dmzj.com/img/webpic/18/chaorenjihua89645.jpg",
-  "hot_hits": 10383,
+  "last_update_volume_name": "第二卷 超人计划infinity",
+  "last_update_chapter_name": "最终话 开心的事情",
+  "last_update_volume_id": 13942,
+  "last_update_chapter_id": 144819,
+  "last_update_time": 1719932247,
+  "cover": "https://xs.muwai.com/img/webpic/18/chaorenjihua89645.jpg",
+  "hot_hits": 12504,
   "introduction": "新人作家正在烦恼。在极其严峻的事实面前呆然不动，向着废人的道路直线奔跑的自己这样下去真的好吗？……不，一点也不好！要改变被空虚感和无名怨愤所支配的自己，没错！只能是成为“超人”了！「绝对不能气馁啊！」我握着温柔鼓励我的脑内女友的手，向着超人的道路前进！『欢迎加入NHK！』的作者泷本龙彦所写的在现实与虚构的夹缝中前所未闻的超绝故事！",
   "types": [
     "其它"
   ],
   "authors": "泷本龙彦",
   "first_letter": "C",
-  "subscribe_num": 355,
-  "redis_update_time": 1564362862,
+  "subscribe_num": 700,
   "volume": [
     {
       "id": 7155,
@@ -25,7 +24,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1440153927,
-      "sum_chapters": 8
+      "sum_chapters": 5
+    },
+    {
+      "id": 13942,
+      "lnovel_id": 1965,
+      "volume_name": "第二卷 超人计划infinity",
+      "volume_order": 20,
+      "addtime": 1719932071,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -99,6 +106,94 @@
           "chapter_id": 52461,
           "chapter_name": "后记",
           "chapter_order": 130
+        }
+      ]
+    },
+    {
+      "volume_id": 13942,
+      "id": 13942,
+      "volume_name": "第二卷 超人计划infinity",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 144804,
+          "chapter_name": "第一章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 144805,
+          "chapter_name": "第二章",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 144806,
+          "chapter_name": "第三章",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 144807,
+          "chapter_name": "第四章",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 144808,
+          "chapter_name": "第五章",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 144809,
+          "chapter_name": "第六章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 144810,
+          "chapter_name": "第七章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 144811,
+          "chapter_name": "第八章",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 144812,
+          "chapter_name": "第九章",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 144813,
+          "chapter_name": "第十章 富裕的吸引力",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 144814,
+          "chapter_name": "第十一章 在Blue Note约会",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 144815,
+          "chapter_name": "第十二章 塔",
+          "chapter_order": 120
+        },
+        {
+          "chapter_id": 144816,
+          "chapter_name": "第十三章 在六本木生活",
+          "chapter_order": 130
+        },
+        {
+          "chapter_id": 144817,
+          "chapter_name": "第十四章 结婚与卡巴拉十字",
+          "chapter_order": 140
+        },
+        {
+          "chapter_id": 144818,
+          "chapter_name": "第十五章 伦敦和川崎",
+          "chapter_order": 150
+        },
+        {
+          "chapter_id": 144819,
+          "chapter_name": "最终话 开心的事情",
+          "chapter_order": 160
         }
       ]
     }

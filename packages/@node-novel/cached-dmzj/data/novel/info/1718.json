@@ -3,13 +3,13 @@
   "name": "战国ぼっち（战国BOCHI）",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第一卷 attack of the Hojo army",
-  "last_update_chapter_name": "第十章 反击",
-  "last_update_volume_id": 6313,
-  "last_update_chapter_id": 44572,
-  "last_update_time": 1409663149,
-  "cover": "https://xs.dmzj.com/img/webpic/10/zhanguo789646.jpg",
-  "hot_hits": 34353,
+  "last_update_volume_name": "第二卷 Revenge of the super battle ship",
+  "last_update_chapter_name": "第一章 再会",
+  "last_update_volume_id": 13244,
+  "last_update_chapter_id": 136489,
+  "last_update_time": 1688457107,
+  "cover": "https://xs.muwai.com/img/webpic/10/zhanguo789646.jpg",
+  "hot_hits": 35314,
   "introduction": "“穷途末路了！现在这里已经全部塌陷，不管怎么看都像是牢狱一样……”<br>\n说因格外喜爱战国时代而被周围人称作“历史宅”的高中生.高杉一太郎是“孤零零”的再适合不过了！<br>\n假日的一天，“孤零零”的他在群马县北部的城基散步时突然被一片光芒包围——回过神来已经是战国时代了！而且，所在的小山城正被北条家大军压境！<br>\n艰难的守城战加上己方军师的暗杀事件等等……莫可奈何的事件接踵而来。<br>\n背叛者，是谁？“孤零零”能从北条家美女和大军中守住城池吗？",
   "types": [
     "历史",
@@ -18,8 +18,7 @@
   ],
   "authors": "泷津孝",
   "first_letter": "Z",
-  "subscribe_num": 508,
-  "redis_update_time": 1564442299,
+  "subscribe_num": 934,
   "volume": [
     {
       "id": 6313,
@@ -27,7 +26,15 @@
       "volume_name": "第一卷 attack of the Hojo army",
       "volume_order": 10,
       "addtime": 1409663149,
-      "sum_chapters": 30
+      "sum_chapters": 5
+    },
+    {
+      "id": 13244,
+      "lnovel_id": 1718,
+      "volume_name": "第二卷 Revenge of the super battle ship",
+      "volume_order": 20,
+      "addtime": 1688457085,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -76,6 +83,39 @@
           "chapter_id": 44572,
           "chapter_name": "第十章 反击",
           "chapter_order": 80
+        },
+        {
+          "chapter_id": 136485,
+          "chapter_name": "第十一章 真实",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 136486,
+          "chapter_name": "第十二章 夺回",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 136487,
+          "chapter_name": "第十三章 分别",
+          "chapter_order": 110
+        },
+        {
+          "chapter_id": 136488,
+          "chapter_name": "终章 接下来……？",
+          "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 13244,
+      "id": 13244,
+      "volume_name": "第二卷 Revenge of the super battle ship",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 136489,
+          "chapter_name": "第一章 再会",
+          "chapter_order": 10
         }
       ]
     }

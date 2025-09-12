@@ -3,13 +3,13 @@
   "name": "物语系列 Monster Season",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷 扇物语",
+  "last_update_volume_name": "第六卷 死物语 下",
   "last_update_chapter_name": "后记",
-  "last_update_volume_id": 11656,
-  "last_update_chapter_id": 118014,
-  "last_update_time": 1626782327,
-  "cover": "http://xs.dmzj.com/img/webpic/9/rwy1120l.jpg",
-  "hot_hits": 95170,
+  "last_update_volume_id": 13651,
+  "last_update_chapter_id": 141614,
+  "last_update_time": 1707295135,
+  "cover": "https://xs.muwai.com/img/webpic/9/rwy1120l.jpg",
+  "hot_hits": 106645,
   "introduction": "描述阿良良木历大学四年的故事。前接《物语系列 Off Season》内容。",
   "types": [
     "校园",
@@ -18,7 +18,7 @@
   ],
   "authors": "西尾维新",
   "first_letter": "W",
-  "subscribe_num": 22522,
+  "subscribe_num": 26386,
   "volume": [
     {
       "id": 9083,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 忍物语",
       "volume_order": 10,
       "addtime": 1511188466,
-      "sum_chapters": 9
+      "sum_chapters": 5
     },
     {
       "id": 11064,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 宵物语",
       "volume_order": 20,
       "addtime": 1598027428,
-      "sum_chapters": 9
+      "sum_chapters": 5
     },
     {
       "id": 11065,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 余物语",
       "volume_order": 30,
       "addtime": 1598027828,
-      "sum_chapters": 9
+      "sum_chapters": 5
     },
     {
       "id": 11656,
@@ -50,7 +50,31 @@
       "volume_name": "第四卷 扇物语",
       "volume_order": 40,
       "addtime": 1626782255,
-      "sum_chapters": 9
+      "sum_chapters": 5
+    },
+    {
+      "id": 13476,
+      "lnovel_id": 2403,
+      "volume_name": "第五卷 死物语 上",
+      "volume_order": 41,
+      "addtime": 1698805089,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13651,
+      "lnovel_id": 2403,
+      "volume_name": "第六卷 死物语 下",
+      "volume_order": 42,
+      "addtime": 1707295011,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13325,
+      "lnovel_id": 2403,
+      "volume_name": "第七卷 战物语",
+      "volume_order": 50,
+      "addtime": 1691852008,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -193,6 +217,125 @@
           "chapter_id": 118014,
           "chapter_name": "后记",
           "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 13476,
+      "id": 13476,
+      "volume_name": "第五卷 死物语 上",
+      "volume_order": 41,
+      "chapters": [
+        {
+          "chapter_id": 139347,
+          "chapter_name": "第八话 忍·suicide 001-004",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 139348,
+          "chapter_name": "005-008",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 139349,
+          "chapter_name": "009-012",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 139350,
+          "chapter_name": "013-016",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 139351,
+          "chapter_name": "017-019",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 139352,
+          "chapter_name": "后记",
+          "chapter_order": 60
+        }
+      ]
+    },
+    {
+      "volume_id": 13651,
+      "id": 13651,
+      "volume_name": "第六卷 死物语 下",
+      "volume_order": 42,
+      "chapters": [
+        {
+          "chapter_id": 141608,
+          "chapter_name": "最终话 抚子·around 001-004",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 141609,
+          "chapter_name": "005-008",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 141610,
+          "chapter_name": "009-012",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 141611,
+          "chapter_name": "013-016",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 141612,
+          "chapter_name": "017-020",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 141613,
+          "chapter_name": "021-023",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 141614,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        }
+      ]
+    },
+    {
+      "volume_id": 13325,
+      "id": 13325,
+      "volume_name": "第七卷 战物语",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 137521,
+          "chapter_name": "第婚话 黑仪蜜月 001-005",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 137522,
+          "chapter_name": "006-010",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 137523,
+          "chapter_name": "011-015",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 137524,
+          "chapter_name": "016-020",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 137525,
+          "chapter_name": "021-025",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 137526,
+          "chapter_name": "后记",
+          "chapter_order": 60
         }
       ]
     }

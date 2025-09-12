@@ -2,14 +2,14 @@
   "id": 3117,
   "name": "深泥丘奇谈",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第二卷 恐是恐怖电影的恐",
-  "last_update_chapter_name": "后记",
-  "last_update_volume_id": 11744,
-  "last_update_chapter_id": 118952,
-  "last_update_time": 1629118072,
-  "cover": "http://xs.dmzj.com/img/webpic/10/sn0812l.jpg",
-  "hot_hits": 331,
+  "status": "已完结",
+  "last_update_volume_name": "第三卷 续续",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 13510,
+  "last_update_chapter_id": 139984,
+  "last_update_time": 1701085289,
+  "cover": "https://xs.muwai.com/img/webpic/10/sn0812l.jpg",
+  "hot_hits": 1210,
   "introduction": "　　唧唧唧、叩叩叩、叽咿咿、咚咚唔……\n　　深夜的医院里，不断传来各种奇怪的声音。\n　　我是一个推理作家，打从我因为莫名的晕眩，来到住家附近的「深泥丘医院」看病，就遇上了一连串难以理解的怪事：\n　　无论脑神经科、消化器官科，还是牙科，看诊的竟然都是名字相同、长相更一模一样的「石仓医生」！\n　　而护士咲谷小姐也仿佛有分身般地神出鬼没，到处都可以看到她的身影。\n　　更诡异的是，墙壁上居然出现了人脸，铁轨上的火车则变身成可怕的大虫，甚至有黑色大蛇缠住我的身体，害我差点窒息！\n　　但当我向妻子和其他人提起时，大家却说这在深泥丘是很稀松平常的事，反而用奇怪的眼神看着我。\n　　这到底是我的幻觉、我内心恐惧的投射，或者……\n　　当最重视逻辑的推理头脑，碰上了无法解释的现象，究竟该选择质疑还是相信？\n　　以「杀人馆」系列享誉文坛的绫辻行人，以全新风格写出人心的反复与矛盾，错综迷离的氛围，也让读者更难以预料最终的结局！",
   "types": [
     "侦探",
@@ -17,7 +17,7 @@
   ],
   "authors": "绫辻行人",
   "first_letter": "S",
-  "subscribe_num": 339,
+  "subscribe_num": 765,
   "volume": [
     {
       "id": 11731,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1628767461,
-      "sum_chapters": 10
+      "sum_chapters": 5
     },
     {
       "id": 11744,
@@ -33,7 +33,15 @@
       "volume_name": "第二卷 恐是恐怖电影的恐",
       "volume_order": 20,
       "addtime": 1629117853,
-      "sum_chapters": 10
+      "sum_chapters": 5
+    },
+    {
+      "id": 13510,
+      "lnovel_id": 3117,
+      "volume_name": "第三卷 续续",
+      "volume_order": 30,
+      "addtime": 1701079145,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -154,6 +162,69 @@
         {
           "chapter_id": 118952,
           "chapter_name": "后记",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 13510,
+      "id": 13510,
+      "volume_name": "第三卷 续续",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 139855,
+          "chapter_name": "克流感",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 139856,
+          "chapter_name": "遗忘与追忆",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 139857,
+          "chapter_name": "无法减少的谜",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 139858,
+          "chapter_name": "死后的梦",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 139859,
+          "chapter_name": "闭关奇谈",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 139860,
+          "chapter_name": "海鸣声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 139861,
+          "chapter_name": "夜泳",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 139862,
+          "chapter_name": "猫密室",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 139863,
+          "chapter_name": "猫镇",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 139864,
+          "chapter_name": "后记",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 139984,
+          "chapter_name": "插画",
           "chapter_order": 110
         }
       ]

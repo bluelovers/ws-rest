@@ -1,22 +1,24 @@
 {
   "id": 2901,
-  "name": "乐园杂音 Paradise NoiSe",
+  "name": "乐园NOISE(乐园杂音 Paradise NoiSe)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第五卷",
+  "last_update_volume_name": "第六卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12651,
-  "last_update_chapter_id": 129762,
-  "last_update_time": 1665154294,
-  "cover": "http://xs.dmzj.com/img/webpic/8/lyzy0718l.jpg",
-  "hot_hits": 152981,
-  "introduction": "把心血来潮穿着女装的演奏视频传到网上后，我作为神秘女高中生网络乐手（然而是男的）一跃成名。\n可这个秘密被音乐老师华园美沙绪发现，为了封口只得听凭她使唤……\n“性格别扭的天才钢琴手，凛子”\n“花道的公主鼓手，诗月”\n“不上学的座敷童子主唱，朱音”\n通过华园老师，我结识了三名少女，本该无色无味的高中生活也因此不断增添喧闹、烦恼与色彩。\n日常与恋爱、青春和乐队相伴的boy meets girls！",
+  "last_update_volume_id": 13252,
+  "last_update_chapter_id": 137011,
+  "last_update_time": 1690213655,
+  "cover": "https://xs.muwai.com/img/webpic/8/lyzy0718l.jpg",
+  "hot_hits": 152999,
+  "introduction": "　　因为一时冲动穿上女装把演奏影片上传到网路上的我，以神秘的女高中生网路音乐家身分一举成名。本来想说没有露脸应该不会有问题，没想到被高中的音乐老师．华园美沙绪老师发现了真实身分，陷入被抓住弱点肆意使唤的窘境……\n　　我本该平淡无味的高中生活，因为透过华园老师认识的三位少女——个性扭曲的天才钢琴家凛子、花道的千金小姐鼓手诗月、拒绝上学的座敷童子主唱朱音——逐渐变得嘈杂而充满烦恼。\n　　埋首于恋爱、青春、乐团中的Boy Meets Girls！",
   "types": [
-    "校园"
+    "校园",
+    "搞笑",
+    "后宫"
   ],
   "authors": "杉井光",
   "first_letter": "L",
-  "subscribe_num": 10633,
+  "subscribe_num": 12961,
   "volume": [
     {
       "id": 10993,
@@ -24,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1595156424,
-      "sum_chapters": 9
+      "sum_chapters": 5
     },
     {
       "id": 11640,
@@ -32,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1626434412,
-      "sum_chapters": 9
+      "sum_chapters": 5
     },
     {
       "id": 11922,
@@ -40,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1637413895,
-      "sum_chapters": 9
+      "sum_chapters": 5
     },
     {
       "id": 12317,
@@ -48,7 +50,7 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1656768478,
-      "sum_chapters": 9
+      "sum_chapters": 5
     },
     {
       "id": 12651,
@@ -56,7 +58,15 @@
       "volume_name": "第五卷",
       "volume_order": 50,
       "addtime": 1664627483,
-      "sum_chapters": 9
+      "sum_chapters": 5
+    },
+    {
+      "id": 13252,
+      "lnovel_id": 2901,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1688973391,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -367,6 +377,59 @@
           "chapter_id": 129762,
           "chapter_name": "插画",
           "chapter_order": 120
+        }
+      ]
+    },
+    {
+      "volume_id": 13252,
+      "id": 13252,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 136599,
+          "chapter_name": "1 把蔷薇的种子填进火箭",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 136619,
+          "chapter_name": "2 教学楼背后的制作人",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 136735,
+          "chapter_name": "3 钢琴家的秉性",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 136952,
+          "chapter_name": "4 钟为女王而沉默",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 136953,
+          "chapter_name": "5 距离冥王星有多远？",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 136954,
+          "chapter_name": "6 神秘又美妙的音乐之日",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 136955,
+          "chapter_name": "7 献给乐园外出生的孩子们",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 136956,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 137011,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

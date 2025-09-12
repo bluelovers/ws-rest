@@ -1,14 +1,14 @@
 {
   "id": 3151,
-  "name": "虚幻王权",
+  "name": "虚位王权(虚幻王权)",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第四卷 Where Angels Fear To Tread",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12878,
-  "last_update_chapter_id": 132162,
-  "last_update_time": 1672732272,
-  "cover": "http://xs.dmzj.com/img/webpic/11/xw1001l.jpg",
+  "status": "已完结",
+  "last_update_volume_name": "短篇",
+  "last_update_chapter_name": "沙滩上的画廊",
+  "last_update_volume_id": 13841,
+  "last_update_chapter_id": 143674,
+  "last_update_time": 1714578172,
+  "cover": "https://xs.muwai.com/img/webpic/11/xw1001l.jpg",
   "hot_hits": 12606,
   "introduction": "那一天，东京的上空出现了巨龙，随着他们的出现这个国家也开始了崩坏。\n因为魍兽这一怪物的出现，在世界各地引起了“大杀戮”，最终导致了日本人的灭绝。整个日本的领土也被各国的军队和犯罪集团占领，最终变为了无人地带。\n八寻是为数不多的日本人幸存者。他因为沐浴了龙血获得了不死的肉体，一个人在化为废墟的无人东京，做着靠将美术品运出的“回收商”的工作。直到某天，名为朱莉和罗兹的双胞胎以美术商的名义前来拜访。二人希望委托他，将神秘的拥有控制魍兽能力的“奇稻田”回收。\n在废墟的街道上相遇的少年和少女，新的龙与屠龙的故事，即将开幕！",
   "types": [
@@ -18,7 +18,7 @@
   ],
   "authors": "三云岳斗",
   "first_letter": "X",
-  "subscribe_num": 4026,
+  "subscribe_num": 5020,
   "volume": [
     {
       "id": 11834,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷 Corpse Reviver",
       "volume_order": 10,
       "addtime": 1633101421,
-      "sum_chapters": 9
+      "sum_chapters": 5
     },
     {
       "id": 12187,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷 龙与苍蓝深海之间",
       "volume_order": 20,
       "addtime": 1651675166,
-      "sum_chapters": 9
+      "sum_chapters": 5
     },
     {
       "id": 12682,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷 All Hell Breaks Loose",
       "volume_order": 30,
       "addtime": 1665311370,
-      "sum_chapters": 9
+      "sum_chapters": 5
     },
     {
       "id": 12878,
@@ -50,7 +50,31 @@
       "volume_name": "第四卷 Where Angels Fear To Tread",
       "volume_order": 40,
       "addtime": 1672730868,
-      "sum_chapters": 9
+      "sum_chapters": 5
+    },
+    {
+      "id": 13206,
+      "lnovel_id": 3151,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1686991544,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13719,
+      "lnovel_id": 3151,
+      "volume_name": "第六卷 乐园的尽头",
+      "volume_order": 60,
+      "addtime": 1709474424,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13841,
+      "lnovel_id": 3151,
+      "volume_name": "短篇",
+      "volume_order": 70,
+      "addtime": 1714578157,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -278,6 +302,120 @@
           "chapter_id": 132162,
           "chapter_name": "插画",
           "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13206,
+      "id": 13206,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 136061,
+          "chapter_name": "序幕 Prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 136062,
+          "chapter_name": "第一幕 终点",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 136063,
+          "chapter_name": "第二幕 叛乱",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 136064,
+          "chapter_name": "第三幕 死亡之地",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 136065,
+          "chapter_name": "第四幕 虚幻布局",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 136066,
+          "chapter_name": "第五幕 结束和开始",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 136067,
+          "chapter_name": "终幕 Epilogue",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 136068,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 136093,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 13719,
+      "id": 13719,
+      "volume_name": "第六卷 乐园的尽头",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 142428,
+          "chapter_name": "序章 prologue",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 142429,
+          "chapter_name": "第一幕 阳光下的小岛",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 142430,
+          "chapter_name": "第二幕 无名天使的翅膀",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 142431,
+          "chapter_name": "第三幕 另类不死者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 142432,
+          "chapter_name": "第四幕 启示录",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 142433,
+          "chapter_name": "终幕",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 142434,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 142453,
+          "chapter_name": "插画",
+          "chapter_order": 80
+        }
+      ]
+    },
+    {
+      "volume_id": 13841,
+      "id": 13841,
+      "volume_name": "短篇",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 143674,
+          "chapter_name": "沙滩上的画廊",
+          "chapter_order": 10
         }
       ]
     }

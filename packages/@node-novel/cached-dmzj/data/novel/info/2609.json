@@ -3,13 +3,13 @@
   "name": "Babel",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 剑之王与逐渐崩解的语言",
+  "last_update_volume_name": "第三卷 挣脱鸟笼的妖姬",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 9892,
-  "last_update_chapter_id": 92895,
-  "last_update_time": 1547200867,
-  "cover": "https://xs.dmzj.com/img/webpic/2/ba0111l.jpg",
-  "hot_hits": 15209,
+  "last_update_volume_id": 14013,
+  "last_update_chapter_id": 145583,
+  "last_update_time": 1723655650,
+  "cover": "https://xs.muwai.com/img/webpic/2/ba0111l.jpg",
+  "hot_hits": 20897,
   "introduction": "　　「你不觉得小说和连续剧中的剧情很奇怪吗？到了异世界居然语言也能通。」\n　　平凡无奇的女大学生水濑雫呆站在沙漠。\n　　捡起了怪异书本的她回过神来就到了「异世界」。\n　　唯一的幸运之处是「语言相通」。\n　　雫以教研究魔法文字的魔法士埃利克原本世界的语言作为报酬，\n　　与他一同踏上了寻找归乡之路的旅程。\n　　然而，大陆上因为两种怪病──\n　　孩童的语言障碍与原因不明的连绵细雨所带来的疾病，陷入极度混乱……",
   "types": [
     "异界",
@@ -17,8 +17,7 @@
   ],
   "authors": "古宫九时",
   "first_letter": "B",
-  "subscribe_num": 1936,
-  "redis_update_time": 1564329114,
+  "subscribe_num": 2523,
   "volume": [
     {
       "id": 9891,
@@ -26,7 +25,7 @@
       "volume_name": "第一卷 异世界禁咒与翠绿少女",
       "volume_order": 10,
       "addtime": 1547200031,
-      "sum_chapters": 8
+      "sum_chapters": 5
     },
     {
       "id": 9892,
@@ -34,7 +33,15 @@
       "volume_name": "第二卷 剑之王与逐渐崩解的语言",
       "volume_order": 20,
       "addtime": 1547200502,
-      "sum_chapters": 8
+      "sum_chapters": 5
+    },
+    {
+      "id": 14013,
+      "lnovel_id": 2609,
+      "volume_name": "第三卷 挣脱鸟笼的妖姬",
+      "volume_order": 30,
+      "addtime": 1723647940,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -231,6 +238,49 @@
           "chapter_id": 92895,
           "chapter_name": "插画",
           "chapter_order": 180
+        }
+      ]
+    },
+    {
+      "volume_id": 14013,
+      "id": 14013,
+      "volume_name": "第三卷 挣脱鸟笼的妖姬",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 145566,
+          "chapter_name": "1 无法孵化的愿望",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 145567,
+          "chapter_name": "2 阴影下的花蕾",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 145568,
+          "chapter_name": "3 铁锁的鸟笼",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 145569,
+          "chapter_name": "4 温柔的指尖",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 145570,
+          "chapter_name": "后记",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 145571,
+          "chapter_name": "麻烦事",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 145583,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }

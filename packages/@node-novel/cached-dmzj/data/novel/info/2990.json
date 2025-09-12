@@ -3,12 +3,12 @@
   "name": "结与书",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "外传二 七册《神曲》判罪的七位但丁",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12977,
-  "last_update_chapter_id": 133408,
-  "last_update_time": 1677153070,
-  "cover": "https://xs.dmzj.com/img/webpic/18/wk0123l.jpg",
+  "last_update_volume_name": "第三卷 《夜长姬与耳男》的无邪嬉戏",
+  "last_update_chapter_name": "Melonbooks特典 “文学少女”姑姑决定成为玛利亚",
+  "last_update_volume_id": 13212,
+  "last_update_chapter_id": 145495,
+  "last_update_time": 1723307509,
+  "cover": "https://xs.muwai.com/img/webpic/18/wk0123l.jpg",
   "hot_hits": 14262,
   "introduction": "书是深深爱着读者们。\n能听到书声的少年榎木结，在某个车站的借书角上遇到了一本儿童书，她迫切地说着“无论如何也要回到小花那里”。被恋人夜长姬（书）嫉妒，在解决学院王子·姬仓学长的委托时，终于找到了“小花”……结究竟能够实现书本们的愿望吗？还有除了标题作品，泉镜花的《外科室》之外的，“书的伙伴”！榎木结解决各种各样人和书问题的校园推理故事就此登场！",
   "types": [
@@ -16,7 +16,7 @@
   ],
   "authors": "野村美月",
   "first_letter": "J",
-  "subscribe_num": 3644,
+  "subscribe_num": 4215,
   "volume": [
     {
       "id": 11332,
@@ -24,7 +24,7 @@
       "volume_name": "第一卷 『外科室』的一途",
       "volume_order": 10,
       "addtime": 1611408015,
-      "sum_chapters": 14
+      "sum_chapters": 5
     },
     {
       "id": 11721,
@@ -32,7 +32,7 @@
       "volume_name": "第二卷 『呼啸山庄』的继承人",
       "volume_order": 20,
       "addtime": 1628594166,
-      "sum_chapters": 14
+      "sum_chapters": 5
     },
     {
       "id": 11732,
@@ -40,7 +40,7 @@
       "volume_name": "短篇",
       "volume_order": 30,
       "addtime": 1628849887,
-      "sum_chapters": 14
+      "sum_chapters": 5
     },
     {
       "id": 11751,
@@ -48,7 +48,7 @@
       "volume_name": "外传一 『最后的书店』长长的落幕",
       "volume_order": 40,
       "addtime": 1629476666,
-      "sum_chapters": 14
+      "sum_chapters": 5
     },
     {
       "id": 12977,
@@ -56,7 +56,15 @@
       "volume_name": "外传二 七册《神曲》判罪的七位但丁",
       "volume_order": 50,
       "addtime": 1677152526,
-      "sum_chapters": 14
+      "sum_chapters": 5
+    },
+    {
+      "id": 13212,
+      "lnovel_id": 2990,
+      "volume_name": "第三卷 《夜长姬与耳男》的无邪嬉戏",
+      "volume_order": 60,
+      "addtime": 1687242955,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -287,6 +295,64 @@
           "chapter_id": 133408,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 13212,
+      "id": 13212,
+      "volume_name": "第三卷 《夜长姬与耳男》的无邪嬉戏",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 136124,
+          "chapter_name": "第一话 《波莉安娜》今天也很快乐",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 136167,
+          "chapter_name": "第二话 《好色一代男》不惧暗夜",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 136168,
+          "chapter_name": "第三话 相信你的命运——《里尔克诗集》如此吟诵",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 143009,
+          "chapter_name": "第四话《夜长姬与耳男》的无邪嬉戏",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 143010,
+          "chapter_name": "终章之后",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 143031,
+          "chapter_name": "插画",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 145492,
+          "chapter_name": "赠品书封短篇 我们的结婚纪念日",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 145493,
+          "chapter_name": "Animate特典 萤的困惑之事",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 145494,
+          "chapter_name": "Animate特典 萤的困惑之事",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 145495,
+          "chapter_name": "Melonbooks特典 “文学少女”姑姑决定成为玛利亚",
+          "chapter_order": 100
         }
       ]
     }

@@ -3,13 +3,13 @@
   "name": "CHAOS;CHILD 某情弱的记录",
   "zone": "日本",
   "status": "已完结",
-  "last_update_volume_name": "第一卷",
-  "last_update_chapter_name": "插图",
-  "last_update_volume_id": 7773,
-  "last_update_chapter_id": 60373,
-  "last_update_time": 1462103593,
-  "cover": "https://xs.dmzj.com/img/webpic/22/chaoschild8656l.jpg",
-  "hot_hits": 24980,
+  "last_update_volume_name": "短篇",
+  "last_update_chapter_name": "初次的外出",
+  "last_update_volume_id": 13347,
+  "last_update_chapter_id": 137716,
+  "last_update_time": 1692605027,
+  "cover": "https://xs.muwai.com/img/webpic/22/chaoschild8656l.jpg",
+  "hot_hits": 29175,
   "introduction": "被称为『新世代的疯狂』的猎奇连续杀人事件过去六年后。又连续有人『重蹈覆辙』，在与六年前同样的日子里死亡。一个人吃了自己的手，一个人破开了自己的肚子，一个人的脖子被绞断……隶属高中新闻部的宫代拓留一开始只是怀着好奇心追逐这个事件——但是，随着调查的深入，他发现危险渐渐朝自己逼近……大人气ADV『CHAOS;CHILD』首本官方小说登场！",
   "types": [
     "校园",
@@ -17,8 +17,7 @@
   ],
   "authors": "藤井三打",
   "first_letter": "C",
-  "subscribe_num": 1275,
-  "redis_update_time": 1564356903,
+  "subscribe_num": 1955,
   "volume": [
     {
       "id": 7773,
@@ -26,7 +25,15 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1462102044,
-      "sum_chapters": 8
+      "sum_chapters": 5
+    },
+    {
+      "id": 13347,
+      "lnovel_id": 2129,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "addtime": 1692605009,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -105,6 +112,19 @@
           "chapter_id": 60373,
           "chapter_name": "插图",
           "chapter_order": 140
+        }
+      ]
+    },
+    {
+      "volume_id": 13347,
+      "id": 13347,
+      "volume_name": "短篇",
+      "volume_order": 20,
+      "chapters": [
+        {
+          "chapter_id": 137716,
+          "chapter_name": "初次的外出",
+          "chapter_order": 10
         }
       ]
     }

@@ -3,12 +3,12 @@
   "name": "我推是反派大小姐",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
+  "last_update_volume_name": "第五卷",
   "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12912,
-  "last_update_chapter_id": 132661,
-  "last_update_time": 1674145095,
-  "cover": "http://xs.dmzj.com/img/webpic/17/tey1021l.jpg",
+  "last_update_volume_id": 13315,
+  "last_update_chapter_id": 137510,
+  "last_update_time": 1691520152,
+  "cover": "https://xs.muwai.com/img/webpic/17/tey1021l.jpg",
   "hot_hits": 749358,
   "introduction": "「虽然我是乙女向游戏的女主角，但我不能喜欢反派大小姐吗？」\n就职于黑心企业的社畜OL大桥零转生成为了乙女向游戏「Revolution」的女主角。\n转生后的她想做的，不是与攻略对象们谈恋爱——而是一味地疼爱调戏反派大小姐克莱尔•弗朗索瓦。",
   "types": [
@@ -18,7 +18,7 @@
   ],
   "authors": "いのり。",
   "first_letter": "W",
-  "subscribe_num": 48320,
+  "subscribe_num": 56655,
   "volume": [
     {
       "id": 10393,
@@ -26,7 +26,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1571662994,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 10633,
@@ -34,7 +34,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1582616463,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 12760,
@@ -42,7 +42,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1668007554,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 12912,
@@ -50,7 +50,15 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1674143552,
-      "sum_chapters": 7
+      "sum_chapters": 5
+    },
+    {
+      "id": 13315,
+      "lnovel_id": 2740,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1691513765,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -286,6 +294,59 @@
         },
         {
           "chapter_id": 132661,
+          "chapter_name": "插画",
+          "chapter_order": 90
+        }
+      ]
+    },
+    {
+      "volume_id": 13315,
+      "id": 13315,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 137346,
+          "chapter_name": "第十六章 袭击帝都篇",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 137347,
+          "chapter_name": "插曲 彻头彻尾的激进派（朵菈西亚·纳阿）",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 137348,
+          "chapter_name": "第十七章 世界的真相篇",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 137349,
+          "chapter_name": "最终章 人类的未来篇①",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 137350,
+          "chapter_name": "最终章 人类的未来篇②",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 137351,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 137352,
+          "chapter_name": "卷末新作短篇小说「或许有可能的未知一日」",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 137353,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 137510,
           "chapter_name": "插画",
           "chapter_order": 90
         }

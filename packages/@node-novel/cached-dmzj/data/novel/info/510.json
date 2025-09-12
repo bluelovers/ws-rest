@@ -3,21 +3,20 @@
   "name": "旋风管家",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第二卷 小凪是使魔！？放手一搏吧☆征服世界",
-  "last_update_chapter_name": "Epilogue（尾声）",
-  "last_update_volume_id": 1919,
-  "last_update_chapter_id": 11285,
-  "last_update_time": 1274918767,
-  "cover": "https://xs.dmzj.com/img/webpic/0/0542T.jpg",
-  "hot_hits": 76622,
+  "last_update_volume_name": "SS 超级文选大战！",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 13600,
+  "last_update_chapter_id": 141019,
+  "last_update_time": 1704553657,
+  "cover": "https://xs.muwai.com/img/webpic/0/0542T.jpg",
+  "hot_hits": 77710,
   "introduction": "故事讲述了公立高中一年级生的绫崎飒，因其父母性格懒散，使得他不得不每天都打工养家。",
   "types": [
     "搞笑"
   ],
   "authors": "筑地俊彦",
   "first_letter": "X",
-  "subscribe_num": 1846,
-  "redis_update_time": 1565026886,
+  "subscribe_num": 2890,
   "volume": [
     {
       "id": 1918,
@@ -25,7 +24,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1274918766,
-      "sum_chapters": 10
+      "sum_chapters": 5
     },
     {
       "id": 1919,
@@ -33,7 +32,15 @@
       "volume_name": "第二卷 小凪是使魔！？放手一搏吧☆征服世界",
       "volume_order": 20,
       "addtime": 1274918766,
-      "sum_chapters": 10
+      "sum_chapters": 5
+    },
+    {
+      "id": 13600,
+      "lnovel_id": 510,
+      "volume_name": "SS 超级文选大战！",
+      "volume_order": 30,
+      "addtime": 1704547838,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -110,6 +117,49 @@
           "chapter_id": 11285,
           "chapter_name": "Epilogue（尾声）",
           "chapter_order": 50
+        }
+      ]
+    },
+    {
+      "volume_id": 13600,
+      "id": 13600,
+      "volume_name": "SS 超级文选大战！",
+      "volume_order": 30,
+      "chapters": [
+        {
+          "chapter_id": 140963,
+          "chapter_name": "第零话 在游戏开始前",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 140964,
+          "chapter_name": "第一话【第一次遇见的女性对象，好像对我一直在说假O骑士什么的，是我的错觉吗？】",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 140965,
+          "chapter_name": "第二话【执事杀手模型地狱】",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 140966,
+          "chapter_name": "第三话【贵嶋沙希的惊愕】",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 140967,
+          "chapter_name": "第四话【积O气冥界波，对于哈O斯的军队来说不过是巴西O拉——，要小心哟，迷路的伊澄与黄泉之国】",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 140968,
+          "chapter_name": "作者们的后记",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 141019,
+          "chapter_name": "插画",
+          "chapter_order": 70
         }
       ]
     }

@@ -1,30 +1,33 @@
 {
   "id": 3078,
-  "name": "才女的近侍",
+  "name": "才女的侍从(才女的近侍)",
   "zone": "日本",
   "status": "连载中",
-  "last_update_volume_name": "第四卷",
-  "last_update_chapter_name": "第三章 青梅竹马调查队",
-  "last_update_volume_id": 12725,
-  "last_update_chapter_id": 130253,
-  "last_update_time": 1666698103,
-  "cover": "http://xs.dmzj.com/img/webpic/6/cn0627l.jpg",
-  "hot_hits": 174479,
-  "introduction": "「我想要你……」\n这是我与假装自己完美无缺的千金大小姐——由照顾她开始的甜甜恋爱喜剧！！\n男高中生·友成伊月，被卷入绑架案之后，便成为了日本第一财阀千金·此花雏子的近侍。虽然雏子表面上色才兼备，但实际上却是一个没有任何能活能力的懒惰女孩儿。\n但是因为家庭原因，雏子不得不在学校里饰演「完美千金」。想要守护她的伊月，便开始不惜余力地照顾起了她。而雏子也开始粘着伊月对他撒娇——\n「现在……我讨厌伊月不在我身边」\n这是一段我与反差萌大小姐超越主从关系的恋爱故事。",
+  "last_update_volume_name": "第七卷",
+  "last_update_chapter_name": "插画",
+  "last_update_volume_id": 13667,
+  "last_update_chapter_id": 141939,
+  "last_update_time": 1708443735,
+  "cover": "https://xs.muwai.com/img/webpic/6/cn0627l.jpg",
+  "hot_hits": 174511,
+  "introduction": "　　与爱撒娇又懒散的千金小姐共同谱出青春爱情喜剧！！\n　　男高中生友成伊月因为卷入绑架案，最后竟成为日本最大财阀的千金‧此花雏子的侍从。表面上才貌双全的雏子，真面目是完全没有生活能力的懒散女。但因为家庭因素，她不得不在学院扮演「完美千金」。想要守护她的伊月将她照顾得无微不至，而她也开始尽全力撒娇──\n　　「我现在……不能没有伊月在我身边了。」\n　　这是与有著可爱反差感的千金小姐跨越主仆界线的爱情故事。",
   "types": [
-    "爱情"
+    "爱情",
+    "校园",
+    "搞笑",
+    "后宫"
   ],
   "authors": "坂石游作",
   "first_letter": "C",
-  "subscribe_num": 13946,
+  "subscribe_num": 19221,
   "volume": [
     {
       "id": 11601,
       "lnovel_id": 3078,
-      "volume_name": "第一卷 我要在满是高岭之花的贵族学校，悄悄照顾学校第一的千金大小姐（没有任何生活能力）",
+      "volume_name": "第一卷 在满是高岭之花的贵族学校暗中照顾（毫无生活自理能力的）学院第一大小姐",
       "volume_order": 10,
       "addtime": 1624799385,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 12003,
@@ -32,7 +35,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1642680808,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 12264,
@@ -40,7 +43,7 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1655125856,
-      "sum_chapters": 7
+      "sum_chapters": 5
     },
     {
       "id": 12725,
@@ -48,14 +51,38 @@
       "volume_name": "第四卷",
       "volume_order": 40,
       "addtime": 1666698057,
-      "sum_chapters": 7
+      "sum_chapters": 5
+    },
+    {
+      "id": 13221,
+      "lnovel_id": 3078,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1687766371,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13589,
+      "lnovel_id": 3078,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "addtime": 1704012744,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13667,
+      "lnovel_id": 3078,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "addtime": 1707920866,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
     {
       "volume_id": 11601,
       "id": 11601,
-      "volume_name": "第一卷 我要在满是高岭之花的贵族学校，悄悄照顾学校第一的千金大小姐（没有任何生活能力）",
+      "volume_name": "第一卷 在满是高岭之花的贵族学校暗中照顾（毫无生活自理能力的）学院第一大小姐",
       "volume_order": 10,
       "chapters": [
         {
@@ -213,24 +240,233 @@
       "volume_order": 40,
       "chapters": [
         {
-          "chapter_id": 130250,
-          "chapter_name": "序幕",
+          "chapter_id": 136235,
+          "chapter_name": "序章",
           "chapter_order": 10
         },
         {
-          "chapter_id": 130251,
-          "chapter_name": "第一章 轻井泽与大小姐们",
+          "chapter_id": 136236,
+          "chapter_name": "一章 轻井泽与千金小姐",
           "chapter_order": 20
         },
         {
-          "chapter_id": 130252,
-          "chapter_name": "第二章 讲习期间的小小风波",
+          "chapter_id": 136237,
+          "chapter_name": "二章 夏季讲习的小小炸弹",
           "chapter_order": 30
         },
         {
-          "chapter_id": 130253,
-          "chapter_name": "第三章 青梅竹马调查队",
+          "chapter_id": 136238,
+          "chapter_name": "三章 青梅竹马调查队",
           "chapter_order": 40
+        },
+        {
+          "chapter_id": 136239,
+          "chapter_name": "四章 海滩、大小姐、青梅竹马",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 136240,
+          "chapter_name": "五章 长达十年的误会",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 136241,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 136242,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 136243,
+          "chapter_name": "特典 雏子与轻井泽泡澡乐",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 136244,
+          "chapter_name": "特典 千金小姐与高难度沙滩排球",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 136245,
+          "chapter_name": "插图",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 13221,
+      "id": 13221,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 136246,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 136247,
+          "chapter_name": "一章 与千金小姐共学庶民生活",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 136248,
+          "chapter_name": "二章 能够读心的男人",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 136249,
+          "chapter_name": "三章 与庶民共享恋爱入门指南",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 136250,
+          "chapter_name": "四章 为迎来好的转变",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 136251,
+          "chapter_name": "终章",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 136252,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 136253,
+          "chapter_name": "特典 雏子与成人电影",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 136254,
+          "chapter_name": "特典 大小姐与旗袍",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 136289,
+          "chapter_name": "插图",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13589,
+      "id": 13589,
+      "volume_name": "第六卷",
+      "volume_order": 60,
+      "chapters": [
+        {
+          "chapter_id": 140838,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 140839,
+          "chapter_name": "一章 茶会同盟",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 140840,
+          "chapter_name": "二章 住之江千佳",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 140841,
+          "chapter_name": "三章 挑战者",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 140842,
+          "chapter_name": "四章 经营大赛",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 140843,
+          "chapter_name": "五章 谈判",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 140844,
+          "chapter_name": "终章",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 140845,
+          "chapter_name": "后记",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 140846,
+          "chapter_name": "特典 说不定能与天王寺同学开创的未来",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 140847,
+          "chapter_name": "特典 大小姐与网路",
+          "chapter_order": 100
+        },
+        {
+          "chapter_id": 140896,
+          "chapter_name": "插画",
+          "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 13667,
+      "id": 13667,
+      "volume_name": "第七卷",
+      "volume_order": 70,
+      "chapters": [
+        {
+          "chapter_id": 141798,
+          "chapter_name": "序章",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 141799,
+          "chapter_name": "第一章:友成伊月的目标",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 141800,
+          "chapter_name": "第二章:经营者的左膀右臂",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 141801,
+          "chapter_name": "第三章:回响中",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 141802,
+          "chapter_name": "第四章:幕后黑手",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 141803,
+          "chapter_name": "尾声",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 141804,
+          "chapter_name": "后记",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 141805,
+          "chapter_name": "电子书版特典《成香的进步》",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 141939,
+          "chapter_name": "插画",
+          "chapter_order": 90
         }
       ]
     }

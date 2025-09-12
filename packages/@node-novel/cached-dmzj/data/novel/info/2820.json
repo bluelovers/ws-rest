@@ -2,14 +2,14 @@
   "id": 2820,
   "name": "新世纪福音战士ANIMA",
   "zone": "日本",
-  "status": "连载中",
-  "last_update_volume_name": "第三卷",
-  "last_update_chapter_name": "插画",
-  "last_update_volume_id": 12138,
-  "last_update_chapter_id": 123845,
-  "last_update_time": 1649429484,
-  "cover": "http://xs.dmzj.com/img/webpic/22/xsj0318l.jpg",
-  "hot_hits": 39941,
+  "status": "已完结",
+  "last_update_volume_name": "第五卷",
+  "last_update_chapter_name": "插图",
+  "last_update_volume_id": 13370,
+  "last_update_chapter_id": 137934,
+  "last_update_time": 1693556926,
+  "cover": "https://xs.muwai.com/img/webpic/22/xsj0318l.jpg",
+  "hot_hits": 45962,
   "introduction": "★故事设定于「人类补完计画」未发生的三年后的世界……\n★《新世纪福音战士》机械设定山下 いくと亲自执笔，全新故事、机体充满魅力！\n这是「人类补完计画」遭到碇真嗣阻止的世界……\n昔日的特务机关NERV重新编组为「NERV JPN」，\n在总司令──葛城美里的领导下，已经十七岁的适任者防备使徒卷土重来。\n但是，扛起全球使徒侦测歼灭网的「四个」绫波零之一──\nNo.卡特尔突然失控。\n真嗣试图阻止她，却连同初号机被伽玛射线雷射轰穿而消失……\n从电视动画第二十四集产生分歧的另一个《新世纪福音战士》可能性的故事，\n经过十年后在此复苏。",
   "types": [
     "科幻",
@@ -17,7 +17,7 @@
   ],
   "authors": "山下いくと",
   "first_letter": "X",
-  "subscribe_num": 4823,
+  "subscribe_num": 6401,
   "volume": [
     {
       "id": 10690,
@@ -25,7 +25,7 @@
       "volume_name": "第一卷",
       "volume_order": 10,
       "addtime": 1584532149,
-      "sum_chapters": 11
+      "sum_chapters": 5
     },
     {
       "id": 10702,
@@ -33,7 +33,7 @@
       "volume_name": "第二卷",
       "volume_order": 20,
       "addtime": 1584872480,
-      "sum_chapters": 11
+      "sum_chapters": 5
     },
     {
       "id": 12138,
@@ -41,7 +41,23 @@
       "volume_name": "第三卷",
       "volume_order": 30,
       "addtime": 1649423779,
-      "sum_chapters": 11
+      "sum_chapters": 5
+    },
+    {
+      "id": 13044,
+      "lnovel_id": 2820,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "addtime": 1680533944,
+      "sum_chapters": 5
+    },
+    {
+      "id": 13370,
+      "lnovel_id": 2820,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "addtime": 1693556143,
+      "sum_chapters": 5
     }
   ],
   "chapters": [
@@ -231,6 +247,122 @@
           "chapter_id": 123845,
           "chapter_name": "插画",
           "chapter_order": 110
+        }
+      ]
+    },
+    {
+      "volume_id": 13044,
+      "id": 13044,
+      "volume_name": "第四卷",
+      "volume_order": 40,
+      "chapters": [
+        {
+          "chapter_id": 134103,
+          "chapter_name": "＃1 轨道荒天",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 134104,
+          "chapter_name": "＃2 漂流大地",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 134105,
+          "chapter_name": "＃3 在新旧世界的夹缝间",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 134106,
+          "chapter_name": "＃4 多重幻想",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 134107,
+          "chapter_name": "＃5 透镜",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 134108,
+          "chapter_name": "＃6 焦点收敛",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 134109,
+          "chapter_name": "＃7 冲突轨道",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 134110,
+          "chapter_name": "＃8 新岛诞生",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 134111,
+          "chapter_name": "＃9 各自归还",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 134226,
+          "chapter_name": "插画",
+          "chapter_order": 100
+        }
+      ]
+    },
+    {
+      "volume_id": 13370,
+      "id": 13370,
+      "volume_name": "第五卷",
+      "volume_order": 50,
+      "chapters": [
+        {
+          "chapter_id": 137925,
+          "chapter_name": "1 美丽且痛苦的世界",
+          "chapter_order": 10
+        },
+        {
+          "chapter_id": 137926,
+          "chapter_name": "2 最终号机",
+          "chapter_order": 20
+        },
+        {
+          "chapter_id": 137927,
+          "chapter_name": "3 真嗣的枪",
+          "chapter_order": 30
+        },
+        {
+          "chapter_id": 137928,
+          "chapter_name": "4 小光的阿尔玛洛斯",
+          "chapter_order": 40
+        },
+        {
+          "chapter_id": 137929,
+          "chapter_name": "5 世界树",
+          "chapter_order": 50
+        },
+        {
+          "chapter_id": 137930,
+          "chapter_name": "6 天空流转",
+          "chapter_order": 60
+        },
+        {
+          "chapter_id": 137931,
+          "chapter_name": "7 瓶中船的归还",
+          "chapter_order": 70
+        },
+        {
+          "chapter_id": 137932,
+          "chapter_name": "8 大洋割断",
+          "chapter_order": 80
+        },
+        {
+          "chapter_id": 137933,
+          "chapter_name": "9 圣母无原罪始胎",
+          "chapter_order": 90
+        },
+        {
+          "chapter_id": 137934,
+          "chapter_name": "插图",
+          "chapter_order": 100
         }
       ]
     }
