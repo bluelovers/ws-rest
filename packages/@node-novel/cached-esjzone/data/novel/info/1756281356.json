@@ -1,0 +1,249 @@
+{
+  "id": "1756281356",
+  "name": "【非小說】一些python程式碼（來自AI）",
+  "titles": [
+    "文字編輯用 python 腳本與工具程式（略涉EPUB編輯）"
+  ],
+  "authors": "原創？",
+  "cover": "https://p.sda1.dev/26/a2ec7e39a1b1a4911c51c242fd9c5a30/TyPVzfWm46.gif",
+  "last_update_time": 1757606400,
+  "last_update_chapter_name": "1个通过python实现json转为txt，并对章节进行划分的例子————BY：Zhengs",
+  "desc": "為編輯純文字檔需求個人委託【ChatGPT】編寫一些 python程式碼（腳本）用在處理純文字檔 〔*.txt,*.htm ,*.html〕效果還不錯，分享程式碼給同好用看看\n歡迎試用後回饋改善建議\n註１：AI 產出程式碼不算原創，歡迎魔改註２：附帶自己慣用的工具程式介紹與心得　　　關於工具程式使用，可能時時回顧前文增修註３：開放投稿，歡迎在論壇區發帖分享程式碼　　　也歡迎介紹其他好用的工具程式　　　我會整合進目錄（章節列表）　　　在回覆區發言格式及排版受限，請發在論壇區",
+  "tags": [
+    "原創",
+    "非小說",
+    "程式碼",
+    "腳本",
+    "純文字編輯",
+    "輕小說"
+  ],
+  "links": [
+    {
+      "name": "原創？",
+      "href": "https://www.esjzone.cc/tags/%E5%8E%9F%E5%89%B5%EF%BC%9F/"
+    }
+  ],
+  "chapters": [
+    {
+      "volume_name": "楔子：",
+      "volume_order": 0,
+      "chapters": [
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "402595",
+          "chapter_name": "在個人桌機建立 python 運作環境",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/402595.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "410618",
+          "chapter_name": "Python_環境健檢(套件增強)",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/410618.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "＊＊＊＊＊＊",
+      "volume_order": 1,
+      "chapters": []
+    },
+    {
+      "volume_name": "應用：",
+      "volume_order": 2,
+      "chapters": [
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "409165",
+          "chapter_name": "應用01：WebP圖片集轉EPUB電子書",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/409165.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "＊＊＊＊＊＊",
+      "volume_order": 3,
+      "chapters": []
+    },
+    {
+      "volume_name": "工具：",
+      "volume_order": 4,
+      "chapters": [
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "403232",
+          "chapter_name": "工具00：命令提示字元～類似舊式MS-DOS系統介面～",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/403232.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "402800",
+          "chapter_name": "工具01：PSPad～可多重開檔並列編輯的文書編輯程式～",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/402800.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "403199",
+          "chapter_name": "工具02：ConvertZ～簡繁內碼轉換工具～",
+          "chapter_order": 2,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/403199.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "403438",
+          "chapter_name": "工具03：ReNamer～批次修改檔案名稱～",
+          "chapter_order": 3,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/403438.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "403851",
+          "chapter_name": "工具04：Excel～【批次多樣化更名清單】製作～",
+          "chapter_order": 4,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/403851.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "404302",
+          "chapter_name": "工具05：Word～搜尋取代專家～",
+          "chapter_order": 5,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/404302.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "404853",
+          "chapter_name": "工具06：AeroMerge～TXT檔合併～",
+          "chapter_order": 6,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/404853.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "工具07：SigilPortable～EPUB電子書編輯～",
+      "volume_order": 5,
+      "chapters": [
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "405322",
+          "chapter_name": "07-01：工作介面及封面圖片設定介紹",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/405322.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "405941",
+          "chapter_name": "07-02：EPUB電子書頁面滙入步驟圖解",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/405941.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "＊＊＊＊＊＊",
+      "volume_order": 6,
+      "chapters": []
+    },
+    {
+      "volume_name": "腳本：",
+      "volume_order": 7,
+      "chapters": []
+    },
+    {
+      "volume_name": "腳本01：空白列處理",
+      "volume_order": 8,
+      "chapters": [
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "403394",
+          "chapter_name": "01-01：批次空白列合併(for小說)",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/403394.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "403726",
+          "chapter_name": "01-02：批次空白列合併",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/403726.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "403785",
+          "chapter_name": "01-03：批次空白列移除",
+          "chapter_order": 2,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/403785.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "403856",
+          "chapter_name": "腳本02：目標資料夾內含檔名輸出工具",
+          "chapter_order": 3,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/403856.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "403860",
+          "chapter_name": "腳本03：批次資料夾或檔案多樣化更名",
+          "chapter_order": 4,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/403860.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "404912",
+          "chapter_name": "腳本04：批次結合純文字檔(完整段落)",
+          "chapter_order": 5,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/404912.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "407032",
+          "chapter_name": "腳本05：批次txt→html（滙入EPUB電子書的前置作業）",
+          "chapter_order": 6,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/407032.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "腳本06：插入字串",
+      "volume_order": 9,
+      "chapters": [
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "408597",
+          "chapter_name": "06-01：批次頁首或頁尾插入分隔字元",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/408597.html"
+        },
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "408861",
+          "chapter_name": "06-02：單檔章節間插入分隔線",
+          "chapter_order": 1,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/408861.html"
+        }
+      ]
+    },
+    {
+      "volume_name": "＊＊＊＊＊＊",
+      "volume_order": 10,
+      "chapters": []
+    },
+    {
+      "volume_name": "番外：同好投稿區",
+      "volume_order": 11,
+      "chapters": [
+        {
+          "novel_id": "1756281356",
+          "chapter_id": "402868",
+          "chapter_name": "1个通过python实现json转为txt，并对章节进行划分的例子————BY：Zhengs",
+          "chapter_order": 0,
+          "chapter_link": "https://www.esjzone.cc/forum/1756281356/402868.html"
+        }
+      ]
+    }
+  ]
+}
