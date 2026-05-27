@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/bluelovers/ws-rest/compare/router-uri-convert@1.0.29...router-uri-convert@2.0.1) (2026-05-27)
+
+
+### BREAKING CHANGES
+
+* **router-uri:** add ignoreUnSupport option to rfc6570ToRouter for graceful handling of unsupported syntax
+* **parser:** support full RFC 6570 syntax in parseRouterVars and expandRfc6570
+* **router:** include all data keys in RFC 6570 URI expansion
+
+
+
+### 🐛　Bug Fixes
+
+* **router:** include all data keys in RFC 6570 URI expansion ([bc95ea7](https://github.com/bluelovers/ws-rest/commit/bc95ea751d83cef8d37a520f658c2ba1ae2b3c78))
+* **router-uri:** add ignoreUnSupport option to rfc6570ToRouter for graceful handling of unsupported syntax ([3e80e3d](https://github.com/bluelovers/ws-rest/commit/3e80e3d302d92f5e74d1989a6b731abf1ffda2d8))
+
+
+### ✨　Features
+
+* **parser:** add matchRfc6570 and matchRouter functions for URI template matching ([32db8c3](https://github.com/bluelovers/ws-rest/commit/32db8c32f9baca9f553b7c6411290dd86fba223b))
+* **parser:** support full RFC 6570 syntax in parseRouterVars and expandRfc6570 ([351c38c](https://github.com/bluelovers/ws-rest/commit/351c38ce9d8c9a5b140416eb9b87b2ee0518964c))
+
+
+### 📚　Documentation
+
+* **router-uri-convert:** add RFC 6570 syntax support documentation and comprehensive test coverage ([5545903](https://github.com/bluelovers/ws-rest/commit/55459035718a0d80a39e8393bd488994c5243cd3))
+* **router-uri-convert:** add comprehensive documentation and test coverage ([79827f8](https://github.com/bluelovers/ws-rest/commit/79827f8026ec7e9c4d511f030276b5738d2154da))
+
+
+### 🚨　Tests
+
+* **router-uri:** add comprehensive tests for ignoreUnSupport option with mixed URL patterns ([b63f6d8](https://github.com/bluelovers/ws-rest/commit/b63f6d8dadccb5b5bf8d3f3f6ea9002820468d15))
+
+
+
 ## 1.0.29 (2026-05-27)
 
 
