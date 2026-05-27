@@ -10,10 +10,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.parseRouterVars = parseRouterVars;
 exports.expandRfc6570 = expandRfc6570;
 exports.expand = expandRfc6570;
+exports.expandRouter = expandRouter;
+exports.matchRfc6570 = matchRfc6570;
+exports.match = matchRfc6570;
+exports.matchRouter = matchRouter;
 const tslib_1 = require("tslib");
 const execall2_1 = tslib_1.__importDefault(require("execall2"));
 // @ts-ignore
 const uri_template_lite_1 = tslib_1.__importDefault(require("uri-template-lite"));
+const _1 = tslib_1.__importDefault(require("."));
 /**
  * URI 模板變數擴展正則表達式
  * URI template variable expansion regex pattern
@@ -23,31 +28,66 @@ const uri_template_lite_1 = tslib_1.__importDefault(require("uri-template-lite")
  *
  * @see uri-template-lite
  */
-const expandRe = /\{([#&+.\/;?]?)((?:[\w%.]+(\*|:\d+)?,?)+)\}/g;
+const expandRe = /\{([#&+.\/;?]?)((?:[-\w%.]+(\*|:\d+)?,?)+)\}/g;
 /**
  * 解析路由 URL 中的變數名稱
  * Parse variable names from router URL
  *
- * 從 URL 中提取所有變數名稱，用於後續的模板擴展
- * Extracts all variable names from URL for subsequent template expansion
+ * 從 URL 中提取所有變數名稱，支援 RFC 6570 完整語法：
+ * - 所有運算子：+ # . / ; ? &
+ * - 多重變數：{x,y} → ["x", "y"]
+ * - 長度修飾符：{var:3} → ["var"]
+ * - Explode 修飾符：{keys*} → ["keys"]
+ *
+ * Extracts all variable names from URL, supports full RFC 6570 syntax
  *
  * @param url - 包含變數的路由 URL 字串 / Router URL string containing variables
  * @returns 提取的變數名稱陣列 / Array of extracted variable names
  *
  * @example
  * ```typescript
- * parseRouterVars('/users/:user/repos/:repo');
+ * parseRouterVars('/users/{+user}/repos/{+repo}');
  * // 返回: ['user', 'repo']
  * // Returns: ['user', 'repo']
- * ```
  *
- * @todo FIXME: 修正支援更多語法，目前只支援最簡譯的
+ * parseRouterVars('{?x,y}');
+ * // 返回: ['x', 'y']
+ * // Returns: ['x', 'y']
+ *
+ * parseRouterVars('{var:3}');
+ * // 返回: ['var']
+ * // Returns: ['var']
+ * ```
  */
 function parseRouterVars(url) {
-    return (0, execall2_1.default)(expandRe, url)
-        .map((row) => {
-        return row.sub[1];
-    });
+    const result = [];
+    const matches = (0, execall2_1.default)(expandRe, url);
+    for (const match of matches) {
+        /** 變數字串（可能包含逗號分隔的多個變數）/ Variable string (may contain comma-separated multiple vars) */
+        const varsStr = match.sub[1];
+        if (!varsStr) {
+            continue;
+        }
+        /**
+         * 依逗號分割變數列表，並移除修飾符
+         * Split variable list by comma and remove modifiers
+         */
+        const parts = varsStr.split(',');
+        for (const part of parts) {
+            if (!part) {
+                continue;
+            }
+            /**
+             * 移除修飾符：*（Explode）或 :N（長度限制）
+             * Remove modifiers: * (Explode) or :N (prefix length)
+             */
+            const cleanName = part.replace(/\*$/, '').replace(/:\d+$/, '');
+            if (cleanName) {
+                result.push(cleanName);
+            }
+        }
+    }
+    return result;
 }
 /**
  * 擴展 URI 模板並分離路徑與資料參數
@@ -72,7 +112,8 @@ function parseRouterVars(url) {
  */
 function expandRfc6570(url, data) {
     let ks = parseRouterVars(url);
-    let ret = ks.reduce((a, k) => {
+    const ks_all = Array.from(new Set([...ks, ...Object.keys(data)]));
+    let ret = ks_all.reduce((a, k) => {
         if (ks.includes(k)) {
             // @ts-ignore
             a.paths[k] = data[k];
@@ -91,6 +132,70 @@ function expandRfc6570(url, data) {
         url: new uri_template_lite_1.default(url).expand(data),
         ...ret,
     };
+}
+function expandRouter(url, data) {
+    return expandRfc6570((0, _1.default)(url), data);
+}
+/**
+ * 匹配 URI 與 RFC 6570 模板
+ * Match URI against RFC 6570 template
+ *
+ * 使用 uri-template-lite 的 Template.match 功能，將 URI 與模板進行匹配，
+ * 並返回匹配到的變數值（已解碼）。
+ *
+ * Uses uri-template-lite's Template.match to match a URI against a template
+ * and return the decoded matched variable values.
+ *
+ * @param template - RFC 6570 URI 模板 / RFC 6570 URI template
+ * @param uri - 要匹配的 URI / URI to match
+ * @returns 匹配到的變數物件，鍵為變數名稱、值為解碼後的字串；
+ *          若無匹配則回傳 undefined。
+ *          Object with matched variables (keys are variable names,
+ *          values are decoded strings); or undefined when no match.
+ *
+ * @example
+ * ```typescript
+ * matchRfc6570('/users/{+user}', '/users/foo/bar');
+ * // → { user: 'foo/bar' }
+ *
+ * matchRfc6570('/users/{+user}', '/other/route');
+ * // → undefined
+ *
+ * matchRfc6570('/search{?q}', '/search?q=hello');
+ * // → { q: 'hello' }
+ * ```
+ */
+function matchRfc6570(template, uri) {
+    const result = new uri_template_lite_1.default(template).match(uri);
+    /**
+     * uri-template-lite 在不匹配時回傳 null，統一轉換為 undefined 以符合慣例
+     * uri-template-lite returns null on no match; normalize to undefined
+     */
+    return result !== null && result !== void 0 ? result : undefined;
+}
+/**
+ * 以 Router 語法模板匹配 URI
+ * Match URI against Router-format template
+ *
+ * 將 Router 語法（:varname）轉換為 RFC 6570 格式後再進行匹配。
+ * Converts Router syntax (:varname) to RFC 6570 before matching.
+ *
+ * @param template - Router 格式的 URI 模板 / Router-format URI template
+ * @param uri - 要匹配的 URI / URI to match
+ * @returns 匹配到的變數物件，若不匹配則回傳 undefined /
+ *          Object with matched variables, or undefined when no match
+ *
+ * @example
+ * ```typescript
+ * matchRouter('/users/:user', '/users/foo/bar');
+ * // → { user: 'foo/bar' }
+ *
+ * matchRouter('/users/:user', '/other/route');
+ * // → undefined
+ * ```
+ */
+function matchRouter(template, uri) {
+    return matchRfc6570((0, _1.default)(template), uri);
 }
 exports.default = parseRouterVars;
 //# sourceMappingURL=parser.js.map

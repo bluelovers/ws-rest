@@ -6,6 +6,15 @@
  * Provides conversion between Router syntax and RFC 6570 URI Template syntax
  */
 /**
+ * RFC 6570 轉 Router 的選項介面
+ * RFC 6570 to Router conversion options interface
+ *
+ * @property ignoreUnSupport - 若為 true，遇到不支援的語法時保留原內容不轉換，而非拋出錯誤 / If true, keep original content as-is when encountering unsupported syntax instead of throwing
+ */
+export interface IRfc6570ToRouterOptions {
+    ignoreUnSupport?: boolean;
+}
+/**
  * 將路由語法轉換為 RFC 6570 相容格式
  * Convert router syntax to RFC 6570 compatible format
  *
@@ -27,11 +36,13 @@ export declare function routerToRfc6570(url: string): string;
  * Replaces {varname} back to :varname format
  *
  * @param url - RFC 6570 格式的 URI 模板字串 / RFC 6570 format URI template string
+ * @param opts - 轉換選項 / Conversion options
+ * @param opts.ignoreUnSupport - 若為 true，遇到不支援的語法時保留原內容不轉換，而非拋出錯誤 / If true, keep original content as-is when encountering unsupported syntax instead of throwing
  * @returns 路由格式的 URL 字串 / Router format URL string
  *
- * @throws TypeError 當包含不支援的規則時拋出錯誤 / Throws TypeError when unsupported rules are present
+ * @throws TypeError 當包含不支援的規則且 opts.ignoreUnSupport 不為 true 時拋出錯誤 / Throws TypeError when unsupported rules are present and opts.ignoreUnSupport is not true
  */
-export declare function rfc6570ToRouter(url: string): string;
+export declare function rfc6570ToRouter(url: string, opts?: IRfc6570ToRouterOptions): string;
 /**
  * 檢查變數名稱是否包含不支援的規則
  * Check if variable name contains unsupported rules

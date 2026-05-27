@@ -130,6 +130,58 @@ expandRfc6570('http://{domain}/~{user}/foo{?query,number}', {
 // }
 ```
 
+> **已知上游限制**：底層依賴 `uri-template-lite`，存在數項已知行為差異（如 Reserved Expansion 雙重編碼、boolean 處理、無效模板不拋錯等）。詳見 [`docs/known-upstream-limitations.md`](docs/known-upstream-limitations.md)。
+>
+> **Known upstream limitations**: The underlying `uri-template-lite` library has several known behavioral differences (e.g., double-encoding in Reserved Expansion, boolean handling, non-throwing for invalid templates, etc.). See [`docs/known-upstream-limitations.md`](docs/known-upstream-limitations.md).
+
+---
+
+### `matchRfc6570(template: string, uri: string): Record<string, string> | undefined`
+
+將 URI 與 RFC 6570 模板進行匹配，提取變數值（已解碼）。
+
+Matches a URI against an RFC 6570 template and extracts decoded variable values.
+
+```ts
+import { matchRfc6570 } from 'router-uri-convert/parser';
+
+// 基礎匹配 / Basic matching
+matchRfc6570('/users/{+user}', '/users/foo/bar');
+// → { user: 'foo/bar' }
+
+// 多變數匹配 / Multi-variable matching
+matchRfc6570('/api{/version}/users{?page,limit}', '/api/v1/users?page=1&limit=10');
+// → { version: 'v1', page: '1', limit: '10' }
+
+// 不匹配 → undefined / No match → undefined
+matchRfc6570('/users/{+user}', '/other/path');
+// → undefined
+```
+
+> **已知上游限制**：match 層亦有已知限制（explode list\* 回傳錯誤陣列、query 多變數 round-trip 不對稱性）。詳見 [`docs/known-upstream-limitations.md`](docs/known-upstream-limitations.md)。
+>
+> **Known upstream limitations**: The match layer also has known limitations (wrong array for explode list\*, query multi-variable round-trip asymmetry). See [`docs/known-upstream-limitations.md`](docs/known-upstream-limitations.md).
+
+### `matchRouter(template: string, uri: string): Record<string, string> | undefined`
+
+將 URI 與 Router 格式模板（`:varname`）進行匹配。
+
+Matches a URI against a Router-format template (`:varname`).
+
+```ts
+import { matchRouter } from 'router-uri-convert/parser';
+
+// 基礎匹配 / Basic matching
+matchRouter('/users/:user', '/users/foo/bar');
+// → { user: 'foo/bar' }
+
+// 不匹配 → undefined / No match → undefined
+matchRouter('/users/:user', '/other/path');
+// → undefined
+```
+
+> **注意**：`matchRouter` 內部先呼叫 `routerToRfc6570` 轉換為 RFC 6570 格式後再進行匹配，因此支援與 `routerToRfc6570` 相同的變數語法（`:varname` → `{+varname}`）。
+
 ---
 
 ## 使用範例
@@ -160,6 +212,34 @@ import { expandRfc6570 } from 'router-uri-convert/parser';
 const result = expandRfc6570('/users/{+user}', { user: 'foo/bar' });
 // → { router: '/users/{+user}', url: '/users/foo/bar', ... }
 ```
+
+### 配合 matchRfc6570 進行 round-trip
+
+```ts
+import { expandRfc6570, matchRfc6570 } from 'router-uri-convert/parser';
+
+// 先展開 / Expand first
+const expanded = expandRfc6570('/users/{+user}', { user: 'foo/bar' });
+// expanded.url → '/users/foo/bar'
+
+// 再匹配還原 / Then match back
+const matched = matchRfc6570('/users/{+user}', expanded.url);
+// matched → { user: 'foo/bar' }
+```
+
+---
+
+## 匯出路徑
+
+| 函數 | 匯出路徑 |
+|------|---------|
+| `routerToRfc6570` | `router-uri-convert` |
+| `rfc6570ToRouter` | `router-uri-convert` |
+| `_notSupport` | `router-uri-convert` |
+| `expandRfc6570` | `router-uri-convert/parser` |
+| `matchRfc6570` | `router-uri-convert/parser` |
+| `matchRouter` | `router-uri-convert/parser` |
+| `parseRouterVars` | `router-uri-convert/parser` |
 
 ---
 
@@ -203,6 +283,23 @@ pnpm run test:snapshot
 ```
 
 內部使用 `vitest` + snapshot testing。新增功能時請確保 `pnpm run test:snapshot` 通過。
+
+指定單一測試檔：
+
+```sh
+pnpm run test:snapshot test/match-syntax.test.ts
+pnpm run test:snapshot test/expand-syntax.test.ts
+pnpm run test:snapshot test/uritemplate-test.test.ts
+```
+
+---
+
+## 參考文件
+
+| 文件 | 說明 |
+|------|------|
+| [`docs/rfc-6570-syntax-support.md`](docs/rfc-6570-syntax-support.md) | RFC 6570 語法完整支援度參照表 |
+| [`docs/known-upstream-limitations.md`](docs/known-upstream-limitations.md) | `uri-template-lite` 已知上游限制與行為差異 |
 
 ---
 

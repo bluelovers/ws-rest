@@ -34,17 +34,50 @@ function routerToRfc6570(url) {
  * Replaces {varname} back to :varname format
  *
  * @param url - RFC 6570 格式的 URI 模板字串 / RFC 6570 format URI template string
+ * @param opts - 轉換選項 / Conversion options
+ * @param opts.ignoreUnSupport - 若為 true，遇到不支援的語法時保留原內容不轉換，而非拋出錯誤 / If true, keep original content as-is when encountering unsupported syntax instead of throwing
  * @returns 路由格式的 URL 字串 / Router format URL string
  *
- * @throws TypeError 當包含不支援的規則時拋出錯誤 / Throws TypeError when unsupported rules are present
+ * @throws TypeError 當包含不支援的規則且 opts.ignoreUnSupport 不為 true 時拋出錯誤 / Throws TypeError when unsupported rules are present and opts.ignoreUnSupport is not true
  */
-function rfc6570ToRouter(url) {
+function rfc6570ToRouter(url, opts) {
     return url
         .replace(/\{([^{}:"']+)\}/g, (s, w) => {
-        _notSupport(w, true);
+        if (!_isSupportedRouterVar(w)) {
+            if (!(opts === null || opts === void 0 ? void 0 : opts.ignoreUnSupport)) {
+                throw new TypeError(`only can convert base rule, but got {${w}}`);
+            }
+            return s;
+        }
         w = w.replace(/^\+(\w+)$/, '$1');
         return `:${w}`;
     });
+}
+/**
+ * 檢查變數內容是否可轉換為路由格式
+ * Check if variable content can be converted to router format
+ *
+ * 路由僅支援單一變數名稱（可選的 + 運算子純量），不支援：
+ *   - 運算子（? # / ; & .）
+ *   - 多變數（逗號分隔）
+ *   - 修飾詞（*  explode, :N  prefix-length）
+ *
+ * Router only supports a single variable name (optionally with + operator).
+ * Does NOT support:
+ *   - Operators (? # / ; & .)
+ *   - Multi-variables (comma-separated)
+ *   - Modifiers (* explode, :N prefix-length)
+ *
+ * @param w - 變數內容（不含大括號）/ Variable content (without braces)
+ * @returns 是否可轉換為路由格式 / Whether convertible to router format
+ */
+function _isSupportedRouterVar(w) {
+    // 去除開頭的 + 運算子（支援 round-trip）
+    // Strip leading + operator (supported for round-trip)
+    const stripped = w.replace(/^\+/, '');
+    // 必須是純單字元變數名稱（不含逗號、運算子、修飾詞）
+    // Must be a simple word-only variable name (no commas, operators, or modifiers)
+    return /^\w+$/.test(stripped);
 }
 /**
  * 檢查變數名稱是否包含不支援的規則

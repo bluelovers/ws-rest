@@ -158,4 +158,72 @@ export function expandRouter<M extends IExpandDataInput = IExpandDataInput, K ex
 	return expandRfc6570<M, K>(routerToRfc6570(url), data)
 }
 
+/**
+ * 匹配 URI 與 RFC 6570 模板
+ * Match URI against RFC 6570 template
+ *
+ * 使用 uri-template-lite 的 Template.match 功能，將 URI 與模板進行匹配，
+ * 並返回匹配到的變數值（已解碼）。
+ *
+ * Uses uri-template-lite's Template.match to match a URI against a template
+ * and return the decoded matched variable values.
+ *
+ * @param template - RFC 6570 URI 模板 / RFC 6570 URI template
+ * @param uri - 要匹配的 URI / URI to match
+ * @returns 匹配到的變數物件，鍵為變數名稱、值為解碼後的字串；
+ *          若無匹配則回傳 undefined。
+ *          Object with matched variables (keys are variable names,
+ *          values are decoded strings); or undefined when no match.
+ *
+ * @example
+ * ```typescript
+ * matchRfc6570('/users/{+user}', '/users/foo/bar');
+ * // → { user: 'foo/bar' }
+ *
+ * matchRfc6570('/users/{+user}', '/other/route');
+ * // → undefined
+ *
+ * matchRfc6570('/search{?q}', '/search?q=hello');
+ * // → { q: 'hello' }
+ * ```
+ */
+export function matchRfc6570(template: string, uri: string): Record<string, string> | undefined
+{
+	const result = new UriTemplate(template).match(uri);
+
+	/**
+	 * uri-template-lite 在不匹配時回傳 null，統一轉換為 undefined 以符合慣例
+	 * uri-template-lite returns null on no match; normalize to undefined
+	 */
+	return result ?? undefined;
+}
+
+export { matchRfc6570 as match }
+
+/**
+ * 以 Router 語法模板匹配 URI
+ * Match URI against Router-format template
+ *
+ * 將 Router 語法（:varname）轉換為 RFC 6570 格式後再進行匹配。
+ * Converts Router syntax (:varname) to RFC 6570 before matching.
+ *
+ * @param template - Router 格式的 URI 模板 / Router-format URI template
+ * @param uri - 要匹配的 URI / URI to match
+ * @returns 匹配到的變數物件，若不匹配則回傳 undefined /
+ *          Object with matched variables, or undefined when no match
+ *
+ * @example
+ * ```typescript
+ * matchRouter('/users/:user', '/users/foo/bar');
+ * // → { user: 'foo/bar' }
+ *
+ * matchRouter('/users/:user', '/other/route');
+ * // → undefined
+ * ```
+ */
+export function matchRouter(template: string, uri: string): Record<string, string> | undefined
+{
+	return matchRfc6570(routerToRfc6570(template), uri);
+}
+
 export default parseRouterVars

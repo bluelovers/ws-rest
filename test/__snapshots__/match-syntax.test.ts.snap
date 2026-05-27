@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`known upstream limitations (snapshot) > explode list* with path operator returns array as single string 1`] = `
+{
+  "result": {
+    "list": [
+      "a/b",
+    ],
+  },
+  "template": "{/list*}",
+  "uri": "/a/b",
+}
+`;
+
+exports[`known upstream limitations (snapshot) > explode list* with query operator returns array as single string 1`] = `
+{
+  "result": {
+    "list": [
+      "a&list=b",
+    ],
+  },
+  "template": "{?list*}",
+  "uri": "?list=a&list=b",
+}
+`;
+
+exports[`known upstream limitations (snapshot) > round-trip: missing query param fails match 1`] = `
+{
+  "data": {
+    "page": 1,
+    "version": "v1",
+  },
+  "matchResult": undefined,
+  "template": "/api{/version}/users{?page,limit}",
+  "url": "/api/v1/users?page=1",
+}
+`;
