@@ -2,7 +2,9 @@
 
 exports[`uritemplate-test > should expand Level 1 Examples 1`] = `
 {
-  "data": {},
+  "data": {
+    "hello": "Hello World!",
+  },
   "paths": {
     "var": "value",
   },
@@ -25,7 +27,9 @@ exports[`uritemplate-test > should expand Level 1 Examples 2`] = `
 
 exports[`uritemplate-test > should expand Level 1 Examples 3`] = `
 {
-  "data": {},
+  "data": {
+    "hello": "Hello World!",
+  },
   "paths": {
     "var": "value",
   },
@@ -48,7 +52,9 @@ exports[`uritemplate-test > should expand Level 1 Examples 4`] = `
 
 exports[`uritemplate-test > should expand Level 1 Examples 5`] = `
 {
-  "data": {},
+  "data": {
+    "var": "value",
+  },
   "paths": {
     "hello": "Hello World!",
   },
@@ -71,7 +77,10 @@ exports[`uritemplate-test > should expand Level 1 Examples 6`] = `
 
 exports[`uritemplate-test > should expand Level 2 Examples 1`] = `
 {
-  "data": {},
+  "data": {
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+  },
   "paths": {
     "var": "value",
   },
@@ -94,7 +103,10 @@ exports[`uritemplate-test > should expand Level 2 Examples 2`] = `
 
 exports[`uritemplate-test > should expand Level 2 Examples 3`] = `
 {
-  "data": {},
+  "data": {
+    "path": "/foo/bar",
+    "var": "value",
+  },
   "paths": {
     "hello": "Hello World!",
   },
@@ -117,7 +129,10 @@ exports[`uritemplate-test > should expand Level 2 Examples 4`] = `
 
 exports[`uritemplate-test > should expand Level 2 Examples 5`] = `
 {
-  "data": {},
+  "data": {
+    "hello": "Hello World!",
+    "var": "value",
+  },
   "paths": {
     "path": "/foo/bar",
   },
@@ -140,7 +155,10 @@ exports[`uritemplate-test > should expand Level 2 Examples 6`] = `
 
 exports[`uritemplate-test > should expand Level 2 Examples 7`] = `
 {
-  "data": {},
+  "data": {
+    "hello": "Hello World!",
+    "var": "value",
+  },
   "paths": {
     "path": "/foo/bar",
   },
@@ -163,22 +181,2213 @@ exports[`uritemplate-test > should expand Level 2 Examples 8`] = `
 
 exports[`uritemplate-test > should expand Level 3 Examples 1`] = `
 {
-  "data": {},
+  "data": {
+    "empty": "",
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "var": "value",
+  },
   "paths": {
-    "x,y": undefined,
+    "x": "1024",
+    "y": "768",
   },
   "router": "map?{x,y}",
   "url": "map?1024,768",
 }
 `;
 
+exports[`uritemplate-test > should expand Level 3 Examples 2`] = `
+{
+  "input": "map?{x,y}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+    "y",
+  ],
+  "paths": {
+    "x": "1024",
+    "y": "768",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 3`] = `
+{
+  "data": {
+    "empty": "",
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "hello": "Hello World!",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{x,hello,y}",
+  "url": "1024,Hello%20World%21,768",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 4`] = `
+{
+  "input": "{x,hello,y}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+    "hello",
+    "y",
+  ],
+  "paths": {
+    "hello": "Hello World!",
+    "x": "1024",
+    "y": "768",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 5`] = `
+{
+  "data": {
+    "empty": "",
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "hello": "Hello World!",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{+x,hello,y}",
+  "url": "1024,Hello%20World!,768",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 6`] = `
+{
+  "input": "{+x,hello,y}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+    "hello",
+    "y",
+  ],
+  "paths": {
+    "hello": "Hello World!",
+    "x": "1024",
+    "y": "768",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 7`] = `
+{
+  "data": {
+    "empty": "",
+    "hello": "Hello World!",
+    "var": "value",
+    "y": "768",
+  },
+  "paths": {
+    "path": "/foo/bar",
+    "x": "1024",
+  },
+  "router": "{+path,x}/here",
+  "url": "/foo/bar,1024/here",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 8`] = `
+{
+  "input": "{+path,x}/here",
+  "inputDataKeys": ArrayContaining [
+    "path",
+    "x",
+  ],
+  "paths": {
+    "path": "/foo/bar",
+    "x": "1024",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 9`] = `
+{
+  "data": {
+    "empty": "",
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "hello": "Hello World!",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{#x,hello,y}",
+  "url": "#1024,Hello%20World!,768",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 10`] = `
+{
+  "input": "{#x,hello,y}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+    "hello",
+    "y",
+  ],
+  "paths": {
+    "hello": "Hello World!",
+    "x": "1024",
+    "y": "768",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 11`] = `
+{
+  "data": {
+    "empty": "",
+    "hello": "Hello World!",
+    "var": "value",
+    "y": "768",
+  },
+  "paths": {
+    "path": "/foo/bar",
+    "x": "1024",
+  },
+  "router": "{#path,x}/here",
+  "url": "#/foo/bar,1024/here",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 12`] = `
+{
+  "input": "{#path,x}/here",
+  "inputDataKeys": ArrayContaining [
+    "path",
+    "x",
+  ],
+  "paths": {
+    "path": "/foo/bar",
+    "x": "1024",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 13`] = `
+{
+  "data": {
+    "empty": "",
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "X{.var}",
+  "url": "X.value",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 14`] = `
+{
+  "input": "X{.var}",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 15`] = `
+{
+  "data": {
+    "empty": "",
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "X{.x,y}",
+  "url": "X.1024.768",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 16`] = `
+{
+  "input": "X{.x,y}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+    "y",
+  ],
+  "paths": {
+    "x": "1024",
+    "y": "768",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 17`] = `
+{
+  "data": {
+    "empty": "",
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{/var}",
+  "url": "/value",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 18`] = `
+{
+  "input": "{/var}",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 19`] = `
+{
+  "data": {
+    "empty": "",
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+    "x": "1024",
+  },
+  "router": "{/var,x}/here",
+  "url": "/value/1024/here",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 20`] = `
+{
+  "input": "{/var,x}/here",
+  "inputDataKeys": ArrayContaining [
+    "var",
+    "x",
+  ],
+  "paths": {
+    "var": "value",
+    "x": "1024",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 21`] = `
+{
+  "data": {
+    "empty": "",
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{;x,y}",
+  "url": ";x=1024;y=768",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 22`] = `
+{
+  "input": "{;x,y}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+    "y",
+  ],
+  "paths": {
+    "x": "1024",
+    "y": "768",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 23`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "empty": "",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{;x,y,empty}",
+  "url": ";x=1024;y=768;empty",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 24`] = `
+{
+  "input": "{;x,y,empty}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+    "y",
+    "empty",
+  ],
+  "paths": {
+    "empty": "",
+    "x": "1024",
+    "y": "768",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 25`] = `
+{
+  "data": {
+    "empty": "",
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{?x,y}",
+  "url": "?x=1024&y=768",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 26`] = `
+{
+  "input": "{?x,y}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+    "y",
+  ],
+  "paths": {
+    "x": "1024",
+    "y": "768",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 27`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "empty": "",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{?x,y,empty}",
+  "url": "?x=1024&y=768&empty=",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 28`] = `
+{
+  "input": "{?x,y,empty}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+    "y",
+    "empty",
+  ],
+  "paths": {
+    "empty": "",
+    "x": "1024",
+    "y": "768",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 29`] = `
+{
+  "data": {
+    "empty": "",
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "var": "value",
+    "y": "768",
+  },
+  "paths": {
+    "x": "1024",
+  },
+  "router": "?fixed=yes{&x}",
+  "url": "?fixed=yes&x=1024",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 30`] = `
+{
+  "input": "?fixed=yes{&x}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+  ],
+  "paths": {
+    "x": "1024",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 31`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "empty": "",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{&x,y,empty}",
+  "url": "&x=1024&y=768&empty=",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 32`] = `
+{
+  "input": "{&x,y,empty}",
+  "inputDataKeys": ArrayContaining [
+    "x",
+    "y",
+    "empty",
+  ],
+  "paths": {
+    "empty": "",
+    "x": "1024",
+    "y": "768",
+  },
+}
+`;
+
 exports[`uritemplate-test > should expand Level 4 Examples 1`] = `
 {
-  "data": {},
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+  },
   "paths": {
-    "var:3": undefined,
+    "var": "value",
   },
   "router": "{var:3}",
   "url": "val",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 2`] = `
+{
+  "input": "{var:3}",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 3`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{var:30}",
+  "url": "value",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 4`] = `
+{
+  "input": "{var:30}",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 5`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{list}",
+  "url": "red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 6`] = `
+{
+  "input": "{list}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 7`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{list*}",
+  "url": "red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 8`] = `
+{
+  "input": "{list*}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 9`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{keys}",
+  "url": toBeOneOf<Array [
+  "comma,%2C,dot,.,semi,%3B",
+  "comma,%2C,semi,%3B,dot,.",
+  "dot,.,comma,%2C,semi,%3B",
+  "dot,.,semi,%3B,comma,%2C",
+  "semi,%3B,comma,%2C,dot,.",
+  "semi,%3B,dot,.,comma,%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 10`] = `
+{
+  "input": "{keys}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 11`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{keys*}",
+  "url": toBeOneOf<Array [
+  "comma=%2C,dot=.,semi=%3B",
+  "comma=%2C,semi=%3B,dot=.",
+  "dot=.,comma=%2C,semi=%3B",
+  "dot=.,semi=%3B,comma=%2C",
+  "semi=%3B,comma=%2C,dot=.",
+  "semi=%3B,dot=.,comma=%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 12`] = `
+{
+  "input": "{keys*}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 13`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "var": "value",
+  },
+  "paths": {
+    "path": "/foo/bar",
+  },
+  "router": "{+path:6}/here",
+  "url": "/foo/b/here",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 14`] = `
+{
+  "input": "{+path:6}/here",
+  "inputDataKeys": ArrayContaining [
+    "path",
+  ],
+  "paths": {
+    "path": "/foo/bar",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 15`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{+list}",
+  "url": "red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 16`] = `
+{
+  "input": "{+list}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 17`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{+list*}",
+  "url": "red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 18`] = `
+{
+  "input": "{+list*}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 19`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{+keys}",
+  "url": toBeOneOf<Array [
+  "comma,,,dot,.,semi,;",
+  "comma,,,semi,;,dot,.",
+  "dot,.,comma,,,semi,;",
+  "dot,.,semi,;,comma,,",
+  "semi,;,comma,,,dot,.",
+  "semi,;,dot,.,comma,,",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 20`] = `
+{
+  "input": "{+keys}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 21`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{+keys*}",
+  "url": toBeOneOf<Array [
+  "comma=,,dot=.,semi=;",
+  "comma=,,semi=;,dot=.",
+  "dot=.,comma=,,semi=;",
+  "dot=.,semi=;,comma=,",
+  "semi=;,comma=,,dot=.",
+  "semi=;,dot=.,comma=,",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 22`] = `
+{
+  "input": "{+keys*}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 23`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "var": "value",
+  },
+  "paths": {
+    "path": "/foo/bar",
+  },
+  "router": "{#path:6}/here",
+  "url": "#/foo/b/here",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 24`] = `
+{
+  "input": "{#path:6}/here",
+  "inputDataKeys": ArrayContaining [
+    "path",
+  ],
+  "paths": {
+    "path": "/foo/bar",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 25`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{#list}",
+  "url": "#red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 26`] = `
+{
+  "input": "{#list}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 27`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{#list*}",
+  "url": "#red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 28`] = `
+{
+  "input": "{#list*}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 29`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{#keys}",
+  "url": toBeOneOf<Array [
+  "#comma,,,dot,.,semi,;",
+  "#comma,,,semi,;,dot,.",
+  "#dot,.,comma,,,semi,;",
+  "#dot,.,semi,;,comma,,",
+  "#semi,;,comma,,,dot,.",
+  "#semi,;,dot,.,comma,,",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 30`] = `
+{
+  "input": "{#keys}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 31`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{#keys*}",
+  "url": toBeOneOf<Array [
+  "#comma=,,dot=.,semi=;",
+  "#comma=,,semi=;,dot=.",
+  "#dot=.,comma=,,semi=;",
+  "#dot=.,semi=;,comma=,",
+  "#semi=;,comma=,,dot=.",
+  "#semi=;,dot=.,comma=,",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 32`] = `
+{
+  "input": "{#keys*}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 33`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "X{.var:3}",
+  "url": "X.val",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 34`] = `
+{
+  "input": "X{.var:3}",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 35`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "X{.list}",
+  "url": "X.red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 36`] = `
+{
+  "input": "X{.list}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 37`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "X{.list*}",
+  "url": "X.red.green.blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 38`] = `
+{
+  "input": "X{.list*}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 39`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "X{.keys}",
+  "url": toBeOneOf<Array [
+  "X.comma,%2C,dot,.,semi,%3B",
+  "X.comma,%2C,semi,%3B,dot,.",
+  "X.dot,.,comma,%2C,semi,%3B",
+  "X.dot,.,semi,%3B,comma,%2C",
+  "X.semi,%3B,comma,%2C,dot,.",
+  "X.semi,%3B,dot,.,comma,%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 40`] = `
+{
+  "input": "X{.keys}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 41`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{/var:1,var}",
+  "url": "/v/value",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 42`] = `
+{
+  "input": "{/var:1,var}",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 43`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{/list}",
+  "url": "/red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 44`] = `
+{
+  "input": "{/list}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 45`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{/list*}",
+  "url": "/red/green/blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 46`] = `
+{
+  "input": "{/list*}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 47`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+  },
+  "router": "{/list*,path:4}",
+  "url": "/red/green/blue/%2Ffoo",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 48`] = `
+{
+  "input": "{/list*,path:4}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+    "path",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 49`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{/keys}",
+  "url": toBeOneOf<Array [
+  "/comma,%2C,dot,.,semi,%3B",
+  "/comma,%2C,semi,%3B,dot,.",
+  "/dot,.,comma,%2C,semi,%3B",
+  "/dot,.,semi,%3B,comma,%2C",
+  "/semi,%3B,comma,%2C,dot,.",
+  "/semi,%3B,dot,.,comma,%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 50`] = `
+{
+  "input": "{/keys}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 51`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{/keys*}",
+  "url": toBeOneOf<Array [
+  "/comma=%2C/dot=./semi=%3B",
+  "/comma=%2C/semi=%3B/dot=.",
+  "/dot=./comma=%2C/semi=%3B",
+  "/dot=./semi=%3B/comma=%2C",
+  "/semi=%3B/comma=%2C/dot=.",
+  "/semi=%3B/dot=./comma=%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 52`] = `
+{
+  "input": "{/keys*}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 53`] = `
+{
+  "data": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "hello": "Hello World!",
+  },
+  "router": "{;hello:5}",
+  "url": ";hello=Hello",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 54`] = `
+{
+  "input": "{;hello:5}",
+  "inputDataKeys": ArrayContaining [
+    "hello",
+  ],
+  "paths": {
+    "hello": "Hello World!",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 55`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{;list}",
+  "url": ";list=red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 56`] = `
+{
+  "input": "{;list}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 57`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{;list*}",
+  "url": ";list=red;list=green;list=blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 58`] = `
+{
+  "input": "{;list*}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 59`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{;keys}",
+  "url": toBeOneOf<Array [
+  ";keys=comma,%2C,dot,.,semi,%3B",
+  ";keys=comma,%2C,semi,%3B,dot,.",
+  ";keys=dot,.,comma,%2C,semi,%3B",
+  ";keys=dot,.,semi,%3B,comma,%2C",
+  ";keys=semi,%3B,comma,%2C,dot,.",
+  ";keys=semi,%3B,dot,.,comma,%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 60`] = `
+{
+  "input": "{;keys}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 61`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{;keys*}",
+  "url": toBeOneOf<Array [
+  ";comma=%2C;dot=.;semi=%3B",
+  ";comma=%2C;semi=%3B;dot=.",
+  ";dot=.;comma=%2C;semi=%3B",
+  ";dot=.;semi=%3B;comma=%2C",
+  ";semi=%3B;comma=%2C;dot=.",
+  ";semi=%3B;dot=.;comma=%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 62`] = `
+{
+  "input": "{;keys*}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 63`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{?var:3}",
+  "url": "?var=val",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 64`] = `
+{
+  "input": "{?var:3}",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 65`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{?list}",
+  "url": "?list=red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 66`] = `
+{
+  "input": "{?list}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 67`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{?list*}",
+  "url": "?list=red&list=green&list=blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 68`] = `
+{
+  "input": "{?list*}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 69`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{?keys}",
+  "url": toBeOneOf<Array [
+  "?keys=comma,%2C,dot,.,semi,%3B",
+  "?keys=comma,%2C,semi,%3B,dot,.",
+  "?keys=dot,.,comma,%2C,semi,%3B",
+  "?keys=dot,.,semi,%3B,comma,%2C",
+  "?keys=semi,%3B,comma,%2C,dot,.",
+  "?keys=semi,%3B,dot,.,comma,%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 70`] = `
+{
+  "input": "{?keys}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 71`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{?keys*}",
+  "url": toBeOneOf<Array [
+  "?comma=%2C&dot=.&semi=%3B",
+  "?comma=%2C&semi=%3B&dot=.",
+  "?dot=.&comma=%2C&semi=%3B",
+  "?dot=.&semi=%3B&comma=%2C",
+  "?semi=%3B&comma=%2C&dot=.",
+  "?semi=%3B&dot=.&comma=%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 72`] = `
+{
+  "input": "{?keys*}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 73`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{&var:3}",
+  "url": "&var=val",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 74`] = `
+{
+  "input": "{&var:3}",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 75`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{&list}",
+  "url": "&list=red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 76`] = `
+{
+  "input": "{&list}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 77`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{&list*}",
+  "url": "&list=red&list=green&list=blue",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 78`] = `
+{
+  "input": "{&list*}",
+  "inputDataKeys": ArrayContaining [
+    "list",
+  ],
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 79`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{&keys}",
+  "url": toBeOneOf<Array [
+  "&keys=comma,%2C,dot,.,semi,%3B",
+  "&keys=comma,%2C,semi,%3B,dot,.",
+  "&keys=dot,.,comma,%2C,semi,%3B",
+  "&keys=dot,.,semi,%3B,comma,%2C",
+  "&keys=semi,%3B,comma,%2C,dot,.",
+  "&keys=semi,%3B,dot,.,comma,%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 80`] = `
+{
+  "input": "{&keys}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 81`] = `
+{
+  "data": {
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{&keys*}",
+  "url": toBeOneOf<Array [
+  "&comma=%2C&dot=.&semi=%3B",
+  "&comma=%2C&semi=%3B&dot=.",
+  "&dot=.&comma=%2C&semi=%3B",
+  "&dot=.&semi=%3B&comma=%2C",
+  "&semi=%3B&comma=%2C&dot=.",
+  "&semi=%3B&dot=.&comma=%2C",
+]>,
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 82`] = `
+{
+  "input": "{&keys*}",
+  "inputDataKeys": ArrayContaining [
+    "keys",
+  ],
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
 }
 `;

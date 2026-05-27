@@ -21,35 +21,80 @@ export type IExpandDataInput = Record<string, unknown>;
  *
  * @see uri-template-lite
  */
-const expandRe = /\{([#&+.\/;?]?)((?:[\w%.]+(\*|:\d+)?,?)+)\}/g;
+const expandRe = /\{([#&+.\/;?]?)((?:[-\w%.]+(\*|:\d+)?,?)+)\}/g;
 
 /**
  * 解析路由 URL 中的變數名稱
  * Parse variable names from router URL
  *
- * 從 URL 中提取所有變數名稱，用於後續的模板擴展
- * Extracts all variable names from URL for subsequent template expansion
+ * 從 URL 中提取所有變數名稱，支援 RFC 6570 完整語法：
+ * - 所有運算子：+ # . / ; ? &
+ * - 多重變數：{x,y} → ["x", "y"]
+ * - 長度修飾符：{var:3} → ["var"]
+ * - Explode 修飾符：{keys*} → ["keys"]
+ *
+ * Extracts all variable names from URL, supports full RFC 6570 syntax
  *
  * @param url - 包含變數的路由 URL 字串 / Router URL string containing variables
  * @returns 提取的變數名稱陣列 / Array of extracted variable names
  *
  * @example
  * ```typescript
- * parseRouterVars('/users/:user/repos/:repo');
+ * parseRouterVars('/users/{+user}/repos/{+repo}');
  * // 返回: ['user', 'repo']
  * // Returns: ['user', 'repo']
- * ```
  *
- * @todo FIXME: 修正支援更多語法，目前只支援最簡譯的
+ * parseRouterVars('{?x,y}');
+ * // 返回: ['x', 'y']
+ * // Returns: ['x', 'y']
+ *
+ * parseRouterVars('{var:3}');
+ * // 返回: ['var']
+ * // Returns: ['var']
+ * ```
  */
-export function parseRouterVars(url: string)
+export function parseRouterVars(url: string): string[]
 {
-	return execall(expandRe, url)
-		.map((row) =>
+	const result: string[] = [];
+	const matches = execall(expandRe, url);
+
+	for (const match of matches)
+	{
+		/** 變數字串（可能包含逗號分隔的多個變數）/ Variable string (may contain comma-separated multiple vars) */
+		const varsStr: string = match.sub[1];
+
+		if (!varsStr)
 		{
-			return row.sub[1];
-		})
-	;
+			continue;
+		}
+
+		/**
+		 * 依逗號分割變數列表，並移除修飾符
+		 * Split variable list by comma and remove modifiers
+		 */
+		const parts = varsStr.split(',');
+
+		for (const part of parts)
+		{
+			if (!part)
+			{
+				continue;
+			}
+
+			/**
+			 * 移除修飾符：*（Explode）或 :N（長度限制）
+			 * Remove modifiers: * (Explode) or :N (prefix length)
+			 */
+			const cleanName = part.replace(/\*$/, '').replace(/:\d+$/, '');
+
+			if (cleanName)
+			{
+				result.push(cleanName);
+			}
+		}
+	}
+
+	return result;
 }
 
 /**

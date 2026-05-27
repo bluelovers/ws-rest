@@ -2,7 +2,9 @@
 
 exports[`expandRfc6570 > rfc6570 > '/users/{+user}' â†’ expanded: '/users/foo/bar' 1`] = `
 {
-  "data": {},
+  "data": {
+    "extraParam": "extraValue",
+  },
   "paths": {
     "user": "foo/bar",
   },
@@ -16,7 +18,8 @@ exports[`expandRfc6570 > rfc6570 > 'http://{domain}/~{user}/foo{?query,nuâ€¦' â†
   "data": {},
   "paths": {
     "domain": "example.com",
-    "query,number": undefined,
+    "number": undefined,
+    "query": "mycelium",
     "user": "fred",
   },
   "router": "http://{domain}/~{user}/foo{?query,number}",
@@ -29,7 +32,8 @@ exports[`expandRfc6570 > rfc6570 > 'http://{domain}/~{user}/foo{?query,nuâ€¦' â†
   "data": {},
   "paths": {
     "domain": "example.com",
-    "query,number": undefined,
+    "number": 3,
+    "query": "mycelium",
     "user": "fred",
   },
   "router": "http://{domain}/~{user}/foo{?query,number}",
@@ -39,7 +43,9 @@ exports[`expandRfc6570 > rfc6570 > 'http://{domain}/~{user}/foo{?query,nuâ€¦' â†
 
 exports[`expandRfc6570 > router > '/users/:user' <=> '/users/{+user}' â†’ expanded: '/users/foo/bar' 1`] = `
 {
-  "data": {},
+  "data": {
+    "extraParam": "extraValue",
+  },
   "paths": {
     "user": "foo/bar",
   },

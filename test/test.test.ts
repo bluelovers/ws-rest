@@ -15,7 +15,7 @@ import { rfc6570ToRouter, routerToRfc6570 } from '../index';
 import { expandRfc6570 } from '../parser';
 // @ts-ignore
 import UriTemplate from 'uri-template-lite';
-import { fixturesRouter, ITestData } from './fixtures/data';
+import { fixturesRouter, fixturesRfc6570Only, ITestData } from './fixtures/data';
 import { _reProcessCheckRfc6570, _rfc6570ToRouterToRfc6570, _testExpandRfc6570 } from './lib/test';
 
 describe('router-uri', () =>
@@ -84,9 +84,20 @@ describe('expandRfc6570', () =>
 
 	});
 
+	/**
+	 * 純 RFC 6570 擴展測試（無 round-trip）
+	 * RFC 6570 expansion-only tests (no round-trip)
+	 *
+	 * 這些 fixture 使用 Router URI（:varname）無法表達的 RFC 6570 語法，
+	 * 因此不參與 round-trip 轉換測試，僅驗證 expandRfc6570 的展開正確性。
+	 *
+	 * These fixtures use RFC 6570 syntax that has no Router URI (:varname) equivalent,
+	 * so they do not participate in round-trip conversion tests.
+	 * They only verify the correctness of expandRfc6570 expansion.
+	 */
 	describe('rfc6570', () =>
 	{
-		test.each(fixturesRouter.map(({
+		test.each(fixturesRfc6570Only.map(({
 			input,
 			...testData
 		}) => {
