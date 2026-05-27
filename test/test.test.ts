@@ -60,7 +60,106 @@ describe('router-uri', () =>
 
 			expect(actual2).toMatchSnapshot(expected);
 
+	});
+
+});
+
+/**
+ * rfc6570ToRouter ignoreUnSupport 選項測試
+ * rfc6570ToRouter ignoreUnSupport option tests
+ *
+ * 驗證不同值（true / false / null / undefined / 1 / 0）
+ * 對不支援語法及雙向 round-trip 的影響
+ */
+describe('rfc6570ToRouter - ignoreUnSupport option', () =>
+{
+	/**
+	 * 不支援語法 + ignoreUnSupport 為 falsy → 拋出 TypeError
+	 * Unsupported syntax + ignoreUnSupport is falsy → throws TypeError
+	 */
+	describe('throws for unsupported syntax when ignoreUnSupport is falsy', () =>
+	{
+		test.each([
+			['no opts', undefined as any],
+			['opts = null', null],
+			['ignoreUnSupport = false', { ignoreUnSupport: false }],
+			['ignoreUnSupport = undefined', { ignoreUnSupport: undefined as any }],
+			['ignoreUnSupport = 0', { ignoreUnSupport: 0 as any }],
+		])('%s', (_, opts) =>
+		{
+			expect(() => rfc6570ToRouter('/api/{?query,number}', opts)).toThrowErrorMatchingSnapshot();
 		});
+	});
+
+	/**
+	 * 不支援語法 + ignoreUnSupport 為 truthy → 保留原樣
+	 * Unsupported syntax + ignoreUnSupport is truthy → keep unchanged
+	 */
+	describe('keeps unsupported syntax unchanged when ignoreUnSupport is truthy', () =>
+	{
+		test.each([
+			['ignoreUnSupport = true', { ignoreUnSupport: true }],
+			['ignoreUnSupport = 1', { ignoreUnSupport: 1 as any }],
+		])('%s', (_, opts) =>
+		{
+			expect(rfc6570ToRouter('/api/{?query,number}', opts)).toBe('/api/{?query,number}');
+		});
+	});
+
+	/**
+	 * 支援語法始終正常轉換，不受 ignoreUnSupport 值影響
+	 * Supported syntax always converts correctly regardless of ignoreUnSupport
+	 */
+	describe('converts supported syntax regardless of ignoreUnSupport', () =>
+	{
+		test.each([
+			['no opts', undefined as any],
+			['opts = null', null],
+			['ignoreUnSupport = false', { ignoreUnSupport: false }],
+			['ignoreUnSupport = true', { ignoreUnSupport: true }],
+			['ignoreUnSupport = 0', { ignoreUnSupport: 0 as any }],
+			['ignoreUnSupport = 1', { ignoreUnSupport: 1 as any }],
+			['ignoreUnSupport = undefined', { ignoreUnSupport: undefined as any }],
+		])('%s', (_, opts) =>
+		{
+			expect(rfc6570ToRouter('/api/{+user}', opts)).toBe('/api/:user');
+		});
+	});
+
+	/**
+	 * 雙向 round-trip 驗證
+	 * Bidirectional round-trip verification
+	 */
+	describe('bi-directional round-trip', () =>
+	{
+		/**
+		 * 支援語法在所有 ignoreUnSupport 值下都能完整 round-trip
+		 * Supported syntax round-trips correctly with all ignoreUnSupport values
+		 */
+		test.each([
+			['no opts', undefined as any],
+			['opts = null', null],
+			['ignoreUnSupport = false', { ignoreUnSupport: false }],
+			['ignoreUnSupport = true', { ignoreUnSupport: true }],
+			['ignoreUnSupport = 0', { ignoreUnSupport: 0 as any }],
+			['ignoreUnSupport = 1', { ignoreUnSupport: 1 as any }],
+			['ignoreUnSupport = undefined', { ignoreUnSupport: undefined as any }],
+		])('supported syntax with %s', (_, opts) =>
+		{
+			const router = rfc6570ToRouter('/api/{+user}', opts);
+			expect(routerToRfc6570(router)).toBe('/api/{+user}');
+		});
+
+		/**
+		 * 不支援語法在 ignoreUnSupport: true 時保留原樣通過 round-trip
+		 * Unsupported syntax survives round-trip when ignoreUnSupport: true
+		 */
+		test('unsupported syntax with ignoreUnSupport: true survives round-trip', () =>
+		{
+			const router = rfc6570ToRouter('/api/{?query,number}', { ignoreUnSupport: true });
+			expect(routerToRfc6570(router)).toBe('/api/{?query,number}');
+		});
+	});
 
 });
 

@@ -1,18 +1,5 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`expandRfc6570 > rfc6570 > '/users/{+user}' → expanded: '/users/foo/bar' 1`] = `
-{
-  "data": {
-    "extraParam": "extraValue",
-  },
-  "paths": {
-    "user": "foo/bar",
-  },
-  "router": "/users/{+user}",
-  "url": "/users/foo/bar",
-}
-`;
-
 exports[`expandRfc6570 > rfc6570 > 'http://{domain}/~{user}/foo{?query,nu…' → expanded: 'http://example.com/~fred/foo?query=my…' 1`] = `
 {
   "data": {},
@@ -53,6 +40,16 @@ exports[`expandRfc6570 > router > '/users/:user' <=> '/users/{+user}' → expand
   "url": "/users/foo/bar",
 }
 `;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > no opts 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > opts = null 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
 
 exports[`router-uri > /users/:user <=> /users/{+user} 1`] = `
 {

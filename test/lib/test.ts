@@ -26,12 +26,12 @@ function _routerToRfc6570ToRouter(sourceRouter: string)
 	return rfc6570ToRouter(routerToRfc6570(sourceRouter));
 }
 
-export function _rfc6570ToRouterToRfc6570(sourceRfc6570: string)
+export function _rfc6570ToRouterToRfc6570(sourceRfc6570: string, opts?: { ignoreUnSupport?: boolean })
 {
-	return routerToRfc6570(rfc6570ToRouter(sourceRfc6570));
+	return routerToRfc6570(rfc6570ToRouter(sourceRfc6570, opts));
 }
 
-export function _reProcessCheckRfc6570(actualRfc6570: string, sourceRouter: string, expectedRfc6570: string)
+export function _reProcessCheckRfc6570(actualRfc6570: string, sourceRouter: string, expectedRfc6570: string, opts?: { ignoreUnSupport?: boolean })
 {
 	expect({
 		actualRfc6570,
@@ -41,13 +41,13 @@ export function _reProcessCheckRfc6570(actualRfc6570: string, sourceRouter: stri
 		actualRfc6570: expectedRfc6570,
 	});
 
-	let result = rfc6570ToRouter(actualRfc6570);
+	let result = rfc6570ToRouter(actualRfc6570, opts);
 	expect(result).toStrictEqual(sourceRouter);
 
 	result = routerToRfc6570(result);
 	expect(result).toStrictEqual(expectedRfc6570);
 
-	result = rfc6570ToRouter(result);
+	result = rfc6570ToRouter(result, opts);
 	expect(result).toStrictEqual(sourceRouter);
 }
 

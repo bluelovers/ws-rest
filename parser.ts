@@ -9,6 +9,7 @@
 import execall from 'execall2';
 // @ts-ignore
 import UriTemplate from 'uri-template-lite';
+import routerToRfc6570 from '.';
 
 export type IExpandDataInput = Record<string, unknown>;
 
@@ -118,7 +119,7 @@ export function parseRouterVars(url: string): string[]
  *
  * @todo FIXME: 修正 {@link parseRouterVars} 支援更多語法
  */
-export function expandRfc6570<K extends keyof M = never, M extends IExpandDataInput = IExpandDataInput>(url: string, data: M)
+export function expandRfc6570<M extends IExpandDataInput = IExpandDataInput, K extends keyof M = keyof M>(url: string, data: M)
 {
 	let ks = parseRouterVars(url);
 
@@ -151,5 +152,10 @@ export function expandRfc6570<K extends keyof M = never, M extends IExpandDataIn
 }
 
 export { expandRfc6570 as expand }
+
+export function expandRouter<M extends IExpandDataInput = IExpandDataInput, K extends keyof M = keyof M>(url: string, data: M)
+{
+	return expandRfc6570<M, K>(routerToRfc6570(url), data)
+}
 
 export default parseRouterVars
