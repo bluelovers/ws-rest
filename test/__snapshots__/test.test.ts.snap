@@ -41,15 +41,135 @@ exports[`expandRfc6570 > router > '/users/:user' <=> '/users/{+user}' → expand
 }
 `;
 
-exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+path} + {?query} + query-string > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
 
-exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+path} + {?query} + query-string > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
 
-exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+path} + {?query} + query-string > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
 
-exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > no opts 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+path} + {?query} + query-string > no opts 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
 
-exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > opts = null 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+path} + {?query} + query-string > opts = null 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+user} + {?query,number} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+user} + {?query,number} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+user} + {?query,number} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+user} + {?query,number} > no opts 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+user} + {?query,number} > opts = null 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+user} + {?query} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+user} + {?query} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+user} + {?query} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+user} + {?query} > no opts 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > mixed URLs > throws TypeError when ignoreUnSupport is falsy > {+user} + {?query} > opts = null 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > dot prefix {.email} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {.email}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > dot prefix {.email} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {.email}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > dot prefix {.email} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {.email}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > dot prefix {.email} > no opts 1`] = `[TypeError: only can convert base rule, but got {.email}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > dot prefix {.email} > opts = null 1`] = `[TypeError: only can convert base rule, but got {.email}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > explode modifier {/list*} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {/list*}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > explode modifier {/list*} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {/list*}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > explode modifier {/list*} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {/list*}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > explode modifier {/list*} > no opts 1`] = `[TypeError: only can convert base rule, but got {/list*}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > explode modifier {/list*} > opts = null 1`] = `[TypeError: only can convert base rule, but got {/list*}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > form continuation {&foo} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {&foo}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > form continuation {&foo} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {&foo}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > form continuation {&foo} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {&foo}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > form continuation {&foo} > no opts 1`] = `[TypeError: only can convert base rule, but got {&foo}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > form continuation {&foo} > opts = null 1`] = `[TypeError: only can convert base rule, but got {&foo}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > fragment operator {#frag} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {#frag}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > fragment operator {#frag} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {#frag}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > fragment operator {#frag} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {#frag}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > fragment operator {#frag} > no opts 1`] = `[TypeError: only can convert base rule, but got {#frag}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > fragment operator {#frag} > opts = null 1`] = `[TypeError: only can convert base rule, but got {#frag}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > matrix operator {;x} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {;x}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > matrix operator {;x} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {;x}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > matrix operator {;x} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {;x}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > matrix operator {;x} > no opts 1`] = `[TypeError: only can convert base rule, but got {;x}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > matrix operator {;x} > opts = null 1`] = `[TypeError: only can convert base rule, but got {;x}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > multi-variable query {?query,number} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > multi-variable query {?query,number} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > multi-variable query {?query,number} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > multi-variable query {?query,number} > no opts 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > multi-variable query {?query,number} > opts = null 1`] = `[TypeError: only can convert base rule, but got {?query,number}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > multi-variable simple {x,y} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {x,y}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > multi-variable simple {x,y} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {x,y}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > multi-variable simple {x,y} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {x,y}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > multi-variable simple {x,y} > no opts 1`] = `[TypeError: only can convert base rule, but got {x,y}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > multi-variable simple {x,y} > opts = null 1`] = `[TypeError: only can convert base rule, but got {x,y}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > path segment {/path} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {/path}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > path segment {/path} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {/path}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > path segment {/path} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {/path}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > path segment {/path} > no opts 1`] = `[TypeError: only can convert base rule, but got {/path}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > path segment {/path} > opts = null 1`] = `[TypeError: only can convert base rule, but got {/path}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > query operator {?query} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > query operator {?query} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > query operator {?query} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > query operator {?query} > no opts 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > query operator {?query} > opts = null 1`] = `[TypeError: only can convert base rule, but got {?query}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > reserved explode {+path*} > ignoreUnSupport = 0 1`] = `[TypeError: only can convert base rule, but got {+path*}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > reserved explode {+path*} > ignoreUnSupport = false 1`] = `[TypeError: only can convert base rule, but got {+path*}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > reserved explode {+path*} > ignoreUnSupport = undefined 1`] = `[TypeError: only can convert base rule, but got {+path*}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > reserved explode {+path*} > no opts 1`] = `[TypeError: only can convert base rule, but got {+path*}]`;
+
+exports[`rfc6570ToRouter - ignoreUnSupport option > throws for unsupported syntax when ignoreUnSupport is falsy > reserved explode {+path*} > opts = null 1`] = `[TypeError: only can convert base rule, but got {+path*}]`;
 
 exports[`router-uri > /users/:user <=> /users/{+user} 1`] = `
 {
