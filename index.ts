@@ -7,6 +7,17 @@
  */
 
 /**
+ * RFC 6570 轉 Router 的選項介面
+ * RFC 6570 to Router conversion options interface
+ *
+ * @property ignoreUnSupport - 若為 true，遇到不支援的語法時保留原內容不轉換，而非拋出錯誤 / If true, keep original content as-is when encountering unsupported syntax instead of throwing
+ */
+export interface IRfc6570ToRouterOptions
+{
+	ignoreUnSupport?: boolean;
+}
+
+/**
  * 將路由語法轉換為 RFC 6570 相容格式
  * Convert router syntax to RFC 6570 compatible format
  *
@@ -38,7 +49,7 @@ export function routerToRfc6570(url: string)
  *
  * @throws TypeError 當包含不支援的規則且 opts.ignoreUnSupport 不為 true 時拋出錯誤 / Throws TypeError when unsupported rules are present and opts.ignoreUnSupport is not true
  */
-export function rfc6570ToRouter(url: string, opts?: { ignoreUnSupport?: boolean })
+export function rfc6570ToRouter(url: string, opts?: IRfc6570ToRouterOptions)
 {
 	return url
 		.replace(/\{([^{}:"']+)\}/g, (s, w: string) =>

@@ -1,7 +1,7 @@
 import { ITestData } from '../fixtures/data';
 import { expect } from 'vitest';
 import { expandRfc6570 } from '../../parser';
-import { rfc6570ToRouter, routerToRfc6570 } from '../../index';
+import { rfc6570ToRouter, routerToRfc6570, IRfc6570ToRouterOptions } from '../../index';
 
 export function _testExpandRfc6570(actualRfc6570: string,
 	rfc6570: string,
@@ -26,12 +26,12 @@ function _routerToRfc6570ToRouter(sourceRouter: string)
 	return rfc6570ToRouter(routerToRfc6570(sourceRouter));
 }
 
-export function _rfc6570ToRouterToRfc6570(sourceRfc6570: string, opts?: { ignoreUnSupport?: boolean })
+export function _rfc6570ToRouterToRfc6570(sourceRfc6570: string, opts?: IRfc6570ToRouterOptions)
 {
 	return routerToRfc6570(rfc6570ToRouter(sourceRfc6570, opts));
 }
 
-export function _reProcessCheckRfc6570(actualRfc6570: string, sourceRouter: string, expectedRfc6570: string, opts?: { ignoreUnSupport?: boolean })
+export function _reProcessCheckRfc6570(actualRfc6570: string, sourceRouter: string, expectedRfc6570: string, opts?: IRfc6570ToRouterOptions)
 {
 	expect({
 		actualRfc6570,

@@ -1,6 +1,2238 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`uritemplate-test > should expand Level 1 Examples 1`] = `
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [0] {/id*} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "lang": "en",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "page": "5",
+    "q": "URI Templates",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "id": "person",
+  },
+  "router": "{/id*}",
+  "url": "/person",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [1] {/id*}{?fields,first_name,last.name,token} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "lang": "en",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "page": "5",
+    "q": "URI Templates",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "id": "person",
+    "last.name": "Doe",
+    "token": "12345",
+  },
+  "router": "{/id*}{?fields,first_name,last.name,token}",
+  "url": "/person?fields=id,name,picture&first_name=John&last.name=Doe&token=12345",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [2] /search.{format}{?q,geocode,lang,locale,page,result_type} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "group_id": "12345",
+    "id": "person",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "lang": "en",
+    "locale": undefined,
+    "page": "5",
+    "q": "URI Templates",
+    "result_type": undefined,
+  },
+  "router": "/search.{format}{?q,geocode,lang,locale,page,result_type}",
+  "url": "/search.json?q=URI%20Templates&geocode=37.76,-122.427&lang=en&page=5",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [3] /test{/Some%20Thing} 1`] = `
+{
+  "data": {
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "id": "person",
+    "lang": "en",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "page": "5",
+    "q": "URI Templates",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "Some%20Thing": "foo",
+  },
+  "router": "/test{/Some%20Thing}",
+  "url": "/test/foo",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [4] /set{?number} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "id": "person",
+    "lang": "en",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "page": "5",
+    "q": "URI Templates",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "number": 6,
+  },
+  "router": "/set{?number}",
+  "url": "/set?number=6",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [5] /loc{?long,lat} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "id": "person",
+    "lang": "en",
+    "last.name": "Doe",
+    "number": 6,
+    "page": "5",
+    "q": "URI Templates",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "lat": -122.427,
+    "long": 37.76,
+  },
+  "router": "/loc{?long,lat}",
+  "url": "/loc?long=37.76&lat=-122.427",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [6] /base{/group_id,first_name}/pages{/page,lang}{?format,q} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "id": "person",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "first_name": "John",
+    "format": "json",
+    "group_id": "12345",
+    "lang": "en",
+    "page": "5",
+    "q": "URI Templates",
+  },
+  "router": "/base{/group_id,first_name}/pages{/page,lang}{?format,q}",
+  "url": "/base/12345/John/pages/5/en?format=json&q=URI%20Templates",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [7] /sparql{?query} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "id": "person",
+    "lang": "en",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "page": "5",
+    "q": "URI Templates",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+  },
+  "router": "/sparql{?query}",
+  "url": "/sparql?query=PREFIX%20dc%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%20SELECT%20%3Fbook%20%3Fwho%20WHERE%20%7B%20%3Fbook%20dc%3Acreator%20%3Fwho%20%7D",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [8] /go{?uri} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "id": "person",
+    "lang": "en",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "page": "5",
+    "q": "URI Templates",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "word": "drücken",
+  },
+  "paths": {
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+  },
+  "router": "/go{?uri}",
+  "url": "/go?uri=http%3A%2F%2Fexample.org%2F%3Furi%3Dhttp%253A%252F%252Fexample.org%252F",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [9] /service{?word} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "id": "person",
+    "lang": "en",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "page": "5",
+    "q": "URI Templates",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+  },
+  "paths": {
+    "word": "drücken",
+  },
+  "router": "/service{?word}",
+  "url": "/service?word=dr%C3%BCcken",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [10] /lookup{?Stra%C3%9Fe} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "id": "person",
+    "lang": "en",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "page": "5",
+    "q": "URI Templates",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "Stra%C3%9Fe": "Grüner Weg",
+  },
+  "router": "/lookup{?Stra%C3%9Fe}",
+  "url": "/lookup?Stra%C3%9Fe=Gr%C3%BCner%20Weg",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [11] {random} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "id": "person",
+    "lang": "en",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "page": "5",
+    "q": "URI Templates",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+  },
+  "router": "{random}",
+  "url": "%C5%A1%C3%B6%C3%A4%C5%B8%C5%93%C3%B1%C3%AA%E2%82%AC%C2%A3%C2%A5%E2%80%A1%C3%91%C3%92%C3%93%C3%94%C3%95%C3%96%C3%97%C3%98%C3%99%C3%9A%C3%A0%C3%A1%C3%A2%C3%A3%C3%A4%C3%A5%C3%A6%C3%A7%C3%BF",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 1 > [12] {?assoc_special_chars*} 1`] = `
+{
+  "data": {
+    "Some%20Thing": "foo",
+    "Stra%C3%9Fe": "Grüner Weg",
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "first_name": "John",
+    "format": "json",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "group_id": "12345",
+    "id": "person",
+    "lang": "en",
+    "last.name": "Doe",
+    "lat": -122.427,
+    "long": 37.76,
+    "number": 6,
+    "page": "5",
+    "q": "URI Templates",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "random": "šöäŸœñê€£¥‡ÑÒÓÔÕÖ×ØÙÚàáâãäåæçÿ",
+    "token": "12345",
+    "uri": "http://example.org/?uri=http%3A%2F%2Fexample.org%2F",
+    "word": "drücken",
+  },
+  "paths": {
+    "assoc_special_chars": {
+      "šöäŸœñê€£¥‡ÑÒÓÔÕ": "Ö×ØÙÚàáâãäåæçÿ",
+    },
+  },
+  "router": "{?assoc_special_chars*}",
+  "url": "?%C5%A1%C3%B6%C3%A4%C5%B8%C5%93%C3%B1%C3%AA%E2%82%AC%C2%A3%C2%A5%E2%80%A1%C3%91%C3%92%C3%93%C3%94%C3%95=%C3%96%C3%97%C3%98%C3%99%C3%9A%C3%A0%C3%A1%C3%A2%C3%A3%C3%A4%C3%A5%C3%A6%C3%A7%C3%BF",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 2 > [0] {/id*} 1`] = `
+{
+  "data": {
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "format": "atom",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "lang": "en",
+    "page": "10",
+    "q": "URI Templates",
+    "start": "5",
+    "token": "12345",
+  },
+  "paths": {
+    "id": [
+      "person",
+      "albums",
+    ],
+  },
+  "router": "{/id*}",
+  "url": "/person/albums",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 2 > [1] {/id*}{?fields,token} 1`] = `
+{
+  "data": {
+    "format": "atom",
+    "geocode": [
+      "37.76",
+      "-122.427",
+    ],
+    "lang": "en",
+    "page": "10",
+    "q": "URI Templates",
+    "start": "5",
+  },
+  "paths": {
+    "fields": [
+      "id",
+      "name",
+      "picture",
+    ],
+    "id": [
+      "person",
+      "albums",
+    ],
+    "token": "12345",
+  },
+  "router": "{/id*}{?fields,token}",
+  "url": "/person/albums?fields=id,name,picture&token=12345",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 3: Empty Variables > [0] {/empty_list} 1`] = `
+{
+  "data": {
+    "empty_assoc": {},
+  },
+  "paths": {
+    "empty_list": [],
+  },
+  "router": "{/empty_list}",
+  "url": "",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 3: Empty Variables > [1] {/empty_list*} 1`] = `
+{
+  "data": {
+    "empty_assoc": {},
+  },
+  "paths": {
+    "empty_list": [],
+  },
+  "router": "{/empty_list*}",
+  "url": "",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 3: Empty Variables > [2] {?empty_list} 1`] = `
+{
+  "data": {
+    "empty_assoc": {},
+  },
+  "paths": {
+    "empty_list": [],
+  },
+  "router": "{?empty_list}",
+  "url": "",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 3: Empty Variables > [3] {?empty_list*} 1`] = `
+{
+  "data": {
+    "empty_assoc": {},
+  },
+  "paths": {
+    "empty_list": [],
+  },
+  "router": "{?empty_list*}",
+  "url": "",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 3: Empty Variables > [4] {?empty_assoc} 1`] = `
+{
+  "data": {
+    "empty_list": [],
+  },
+  "paths": {
+    "empty_assoc": {},
+  },
+  "router": "{?empty_assoc}",
+  "url": "",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 3: Empty Variables > [5] {?empty_assoc*} 1`] = `
+{
+  "data": {
+    "empty_list": [],
+  },
+  "paths": {
+    "empty_assoc": {},
+  },
+  "router": "{?empty_assoc*}",
+  "url": "",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 4: Numeric Keys > [0] {42} 1`] = `
+{
+  "data": {
+    "1337": [
+      "leet",
+      "as",
+      "it",
+      "can",
+      "be",
+    ],
+    "german": {
+      "11": "elf",
+      "12": "zwölf",
+    },
+  },
+  "paths": {
+    "42": "The Answer to the Ultimate Question of Life, the Universe, and Everything",
+  },
+  "router": "{42}",
+  "url": "The%20Answer%20to%20the%20Ultimate%20Question%20of%20Life%2C%20the%20Universe%2C%20and%20Everything",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 4: Numeric Keys > [1] {?42} 1`] = `
+{
+  "data": {
+    "1337": [
+      "leet",
+      "as",
+      "it",
+      "can",
+      "be",
+    ],
+    "german": {
+      "11": "elf",
+      "12": "zwölf",
+    },
+  },
+  "paths": {
+    "42": "The Answer to the Ultimate Question of Life, the Universe, and Everything",
+  },
+  "router": "{?42}",
+  "url": "?42=The%20Answer%20to%20the%20Ultimate%20Question%20of%20Life%2C%20the%20Universe%2C%20and%20Everything",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 4: Numeric Keys > [2] {1337} 1`] = `
+{
+  "data": {
+    "42": "The Answer to the Ultimate Question of Life, the Universe, and Everything",
+    "german": {
+      "11": "elf",
+      "12": "zwölf",
+    },
+  },
+  "paths": {
+    "1337": [
+      "leet",
+      "as",
+      "it",
+      "can",
+      "be",
+    ],
+  },
+  "router": "{1337}",
+  "url": "leet,as,it,can,be",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 4: Numeric Keys > [3] {?1337*} 1`] = `
+{
+  "data": {
+    "42": "The Answer to the Ultimate Question of Life, the Universe, and Everything",
+    "german": {
+      "11": "elf",
+      "12": "zwölf",
+    },
+  },
+  "paths": {
+    "1337": [
+      "leet",
+      "as",
+      "it",
+      "can",
+      "be",
+    ],
+  },
+  "router": "{?1337*}",
+  "url": "?1337=leet&1337=as&1337=it&1337=can&1337=be",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 4: Numeric Keys > [4] {?german*} 1`] = `
+{
+  "data": {
+    "1337": [
+      "leet",
+      "as",
+      "it",
+      "can",
+      "be",
+    ],
+    "42": "The Answer to the Ultimate Question of Life, the Universe, and Everything",
+  },
+  "paths": {
+    "german": {
+      "11": "elf",
+      "12": "zwölf",
+    },
+  },
+  "router": "{?german*}",
+  "url": "?11=elf&12=zw%C3%B6lf",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 5: Explode Combinations > [0] {?id,token,keys*} 1`] = `
+{
+  "data": {
+    "tab": "overview",
+  },
+  "paths": {
+    "id": "admin",
+    "keys": {
+      "key1": "val1",
+      "key2": "val2",
+    },
+    "token": "12345",
+  },
+  "router": "{?id,token,keys*}",
+  "url": "?id=admin&token=12345&key1=val1&key2=val2",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 5: Explode Combinations > [1] {/id}{?token,keys*} 1`] = `
+{
+  "data": {
+    "tab": "overview",
+  },
+  "paths": {
+    "id": "admin",
+    "keys": {
+      "key1": "val1",
+      "key2": "val2",
+    },
+    "token": "12345",
+  },
+  "router": "{/id}{?token,keys*}",
+  "url": "/admin?token=12345&key1=val1&key2=val2",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 5: Explode Combinations > [2] {?id,token}{&keys*} 1`] = `
+{
+  "data": {
+    "tab": "overview",
+  },
+  "paths": {
+    "id": "admin",
+    "keys": {
+      "key1": "val1",
+      "key2": "val2",
+    },
+    "token": "12345",
+  },
+  "router": "{?id,token}{&keys*}",
+  "url": "?id=admin&token=12345&key1=val1&key2=val2",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 5: Explode Combinations > [3] /user{/id}{?token,tab}{&keys*} 1`] = `
+{
+  "data": {},
+  "paths": {
+    "id": "admin",
+    "keys": {
+      "key1": "val1",
+      "key2": "val2",
+    },
+    "tab": "overview",
+    "token": "12345",
+  },
+  "router": "/user{/id}{?token,tab}{&keys*}",
+  "url": "/user/admin?token=12345&tab=overview&key1=val1&key2=val2",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [0] {+id} 1`] = `
+{
+  "data": {
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+    "not_pct": "%foo",
+  },
+  "paths": {
+    "id": "admin%2F",
+  },
+  "router": "{+id}",
+  "url": "admin%252F",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [1] {#id} 1`] = `
+{
+  "data": {
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+    "not_pct": "%foo",
+  },
+  "paths": {
+    "id": "admin%2F",
+  },
+  "router": "{#id}",
+  "url": "#admin%252F",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [2] {id} 1`] = `
+{
+  "data": {
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+    "not_pct": "%foo",
+  },
+  "paths": {
+    "id": "admin%2F",
+  },
+  "router": "{id}",
+  "url": "admin%252F",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [3] {+not_pct} 1`] = `
+{
+  "data": {
+    "id": "admin%2F",
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+  },
+  "paths": {
+    "not_pct": "%foo",
+  },
+  "router": "{+not_pct}",
+  "url": "%25foo",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [4] {#not_pct} 1`] = `
+{
+  "data": {
+    "id": "admin%2F",
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+  },
+  "paths": {
+    "not_pct": "%foo",
+  },
+  "router": "{#not_pct}",
+  "url": "#%25foo",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [5] {not_pct} 1`] = `
+{
+  "data": {
+    "id": "admin%2F",
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+  },
+  "paths": {
+    "not_pct": "%foo",
+  },
+  "router": "{not_pct}",
+  "url": "%25foo",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [6] {+list} 1`] = `
+{
+  "data": {
+    "id": "admin%2F",
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+    "not_pct": "%foo",
+  },
+  "paths": {
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+  },
+  "router": "{+list}",
+  "url": "red%2525,%252Fgreen,blue%20",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [7] {#list} 1`] = `
+{
+  "data": {
+    "id": "admin%2F",
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+    "not_pct": "%foo",
+  },
+  "paths": {
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+  },
+  "router": "{#list}",
+  "url": "#red%2525,%252Fgreen,blue%20",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [8] {list} 1`] = `
+{
+  "data": {
+    "id": "admin%2F",
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+    "not_pct": "%foo",
+  },
+  "paths": {
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+  },
+  "router": "{list}",
+  "url": "red%2525,%252Fgreen,blue%20",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [9] {+keys} 1`] = `
+{
+  "data": {
+    "id": "admin%2F",
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+    "not_pct": "%foo",
+  },
+  "paths": {
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+  },
+  "router": "{+keys}",
+  "url": "key1,val1%252F,key2,val2%252F",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [10] {#keys} 1`] = `
+{
+  "data": {
+    "id": "admin%2F",
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+    "not_pct": "%foo",
+  },
+  "paths": {
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+  },
+  "router": "{#keys}",
+  "url": "#key1,val1%252F,key2,val2%252F",
+}
+`;
+
+exports[`uritemplate-test > extended-tests.json > Additional Examples 6: Reserved Expansion > [11] {keys} 1`] = `
+{
+  "data": {
+    "id": "admin%2F",
+    "list": [
+      "red%25",
+      "%2Fgreen",
+      "blue ",
+    ],
+    "not_pct": "%foo",
+  },
+  "paths": {
+    "keys": {
+      "key1": "val1%2F",
+      "key2": "val2%2F",
+    },
+  },
+  "router": "{keys}",
+  "url": "key1,val1%252F,key2,val2%252F",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [0] {/id* 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{/id*",
+  "url": "{/id*",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [1] /id*} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "/id*}",
+  "url": "/id*}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [2] {/?id} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{/?id}",
+  "url": "{/?id}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [3] {var:prefix} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{var:prefix}",
+  "url": "{var:prefix}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [4] {hello:2*} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{hello:2*}",
+  "url": "{hello:2*}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [5] {??hello} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{??hello}",
+  "url": "{??hello}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [6] {!hello} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{!hello}",
+  "url": "{!hello}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [7] {with space} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{with space}",
+  "url": "{with space}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [8] { leading_space} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{ leading_space}",
+  "url": "{ leading_space}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [9] {trailing_space } 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{trailing_space }",
+  "url": "{trailing_space }",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [10] {=path} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{=path}",
+  "url": "{=path}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [11] {$var} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{$var}",
+  "url": "{$var}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [12] {|var*} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{|var*}",
+  "url": "{|var*}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [13] {*keys?} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{*keys?}",
+  "url": "{*keys?}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [14] {?empty=default,var} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{?empty=default,var}",
+  "url": "{?empty=default,var}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [15] {var}{-prefix|/-/|var} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{var}{-prefix|/-/|var}",
+  "url": "value{-prefix|/-/|var}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [16] ?q={searchTerms}&amp;c={example:color?} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {
+    "searchTerms": "uri templates",
+  },
+  "router": "?q={searchTerms}&amp;c={example:color?}",
+  "url": "?q=uri%20templates&amp;c={example:color?}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [17] x{?empty|foo=none} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "x{?empty|foo=none}",
+  "url": "x{?empty|foo=none}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [18] /h{#hello+} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "/h{#hello+}",
+  "url": "/h{#hello+}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [19] /h#{hello+} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "/h#{hello+}",
+  "url": "/h#{hello+}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [20] {keys:1} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{keys:1}",
+  "url": "semi=%3B,dot=.,comma=%2C",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [21] {+keys:1} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{+keys:1}",
+  "url": "semi=;,dot=.,comma=,",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [22] {;keys:1*} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "{;keys:1*}",
+  "url": "{;keys:1*}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [23] ?{-join|&|var,list} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "?{-join|&|var,list}",
+  "url": "?{-join|&|var,list}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [24] /people/{~thing} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "/people/{~thing}",
+  "url": "/people/{~thing}",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [25] /{default-graph-uri} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+  },
+  "router": "/{default-graph-uri}",
+  "url": "/http%3A%2F%2Fwww.example%2Fbook%2F,http%3A%2F%2Fwww.example%2Fpapers%2F",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [26] /sparql{?query,default-graph-uri} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+  },
+  "router": "/sparql{?query,default-graph-uri}",
+  "url": "/sparql?query=PREFIX%20dc%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%20SELECT%20%3Fbook%20%3Fwho%20WHERE%20%7B%20%3Fbook%20dc%3Acreator%20%3Fwho%20%7D&default-graph-uri=http%3A%2F%2Fwww.example%2Fbook%2F,http%3A%2F%2Fwww.example%2Fpapers%2F",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [27] /sparql{?query){&default-graph-uri*} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+  },
+  "router": "/sparql{?query){&default-graph-uri*}",
+  "url": "/sparql{?query)&default-graph-uri=http%3A%2F%2Fwww.example%2Fbook%2F&default-graph-uri=http%3A%2F%2Fwww.example%2Fpapers%2F",
+}
+`;
+
+exports[`uritemplate-test > negative-tests.json > Failure Tests > [28] /resolution{?x, y} 1`] = `
+{
+  "data": {
+    " leading_space": "Hi!",
+    "default-graph-uri": [
+      "http://www.example/book/",
+      "http://www.example/papers/",
+    ],
+    "empty": "",
+    "example": "red",
+    "hello": "Hello World!",
+    "id": "thing",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "query": "PREFIX dc: <http://purl.org/dc/elements/1.1/> SELECT ?book ?who WHERE { ?book dc:creator ?who }",
+    "searchTerms": "uri templates",
+    "trailing_space ": "Bye!",
+    "var": "value",
+    "with space": "fail",
+    "x": "1024",
+    "y": "768",
+    "~thing": "some-user",
+  },
+  "paths": {},
+  "router": "/resolution{?x, y}",
+  "url": "/resolution{?x, y}",
+}
+`;
+
+exports[`uritemplate-test > spec-examples.json > Level 1 Examples > [0] {var} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -13,19 +2245,7 @@ exports[`uritemplate-test > should expand Level 1 Examples 1`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 1 Examples 2`] = `
-{
-  "input": "{var}",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 1 Examples 3`] = `
+exports[`uritemplate-test > spec-examples.json > Level 1 Examples > [1] '{var}' 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -38,19 +2258,7 @@ exports[`uritemplate-test > should expand Level 1 Examples 3`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 1 Examples 4`] = `
-{
-  "input": "'{var}'",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 1 Examples 5`] = `
+exports[`uritemplate-test > spec-examples.json > Level 1 Examples > [2] {hello} 1`] = `
 {
   "data": {
     "var": "value",
@@ -63,19 +2271,7 @@ exports[`uritemplate-test > should expand Level 1 Examples 5`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 1 Examples 6`] = `
-{
-  "input": "{hello}",
-  "inputDataKeys": ArrayContaining [
-    "hello",
-  ],
-  "paths": {
-    "hello": "Hello World!",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 2 Examples 1`] = `
+exports[`uritemplate-test > spec-examples.json > Level 2 Examples > [0] {+var} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -89,19 +2285,7 @@ exports[`uritemplate-test > should expand Level 2 Examples 1`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 2 Examples 2`] = `
-{
-  "input": "{+var}",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 2 Examples 3`] = `
+exports[`uritemplate-test > spec-examples.json > Level 2 Examples > [1] {+hello} 1`] = `
 {
   "data": {
     "path": "/foo/bar",
@@ -115,19 +2299,7 @@ exports[`uritemplate-test > should expand Level 2 Examples 3`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 2 Examples 4`] = `
-{
-  "input": "{+hello}",
-  "inputDataKeys": ArrayContaining [
-    "hello",
-  ],
-  "paths": {
-    "hello": "Hello World!",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 2 Examples 5`] = `
+exports[`uritemplate-test > spec-examples.json > Level 2 Examples > [2] {+path}/here 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -141,19 +2313,7 @@ exports[`uritemplate-test > should expand Level 2 Examples 5`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 2 Examples 6`] = `
-{
-  "input": "{+path}/here",
-  "inputDataKeys": ArrayContaining [
-    "path",
-  ],
-  "paths": {
-    "path": "/foo/bar",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 2 Examples 7`] = `
+exports[`uritemplate-test > spec-examples.json > Level 2 Examples > [3] here?ref={+path} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -167,19 +2327,7 @@ exports[`uritemplate-test > should expand Level 2 Examples 7`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 2 Examples 8`] = `
-{
-  "input": "here?ref={+path}",
-  "inputDataKeys": ArrayContaining [
-    "path",
-  ],
-  "paths": {
-    "path": "/foo/bar",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 1`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [0] map?{x,y} 1`] = `
 {
   "data": {
     "empty": "",
@@ -196,21 +2344,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 1`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 2`] = `
-{
-  "input": "map?{x,y}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-    "y",
-  ],
-  "paths": {
-    "x": "1024",
-    "y": "768",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 3`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [1] {x,hello,y} 1`] = `
 {
   "data": {
     "empty": "",
@@ -227,23 +2361,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 3`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 4`] = `
-{
-  "input": "{x,hello,y}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-    "hello",
-    "y",
-  ],
-  "paths": {
-    "hello": "Hello World!",
-    "x": "1024",
-    "y": "768",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 5`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [2] {+x,hello,y} 1`] = `
 {
   "data": {
     "empty": "",
@@ -260,23 +2378,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 5`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 6`] = `
-{
-  "input": "{+x,hello,y}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-    "hello",
-    "y",
-  ],
-  "paths": {
-    "hello": "Hello World!",
-    "x": "1024",
-    "y": "768",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 7`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [3] {+path,x}/here 1`] = `
 {
   "data": {
     "empty": "",
@@ -293,21 +2395,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 7`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 8`] = `
-{
-  "input": "{+path,x}/here",
-  "inputDataKeys": ArrayContaining [
-    "path",
-    "x",
-  ],
-  "paths": {
-    "path": "/foo/bar",
-    "x": "1024",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 9`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [4] {#x,hello,y} 1`] = `
 {
   "data": {
     "empty": "",
@@ -324,23 +2412,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 9`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 10`] = `
-{
-  "input": "{#x,hello,y}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-    "hello",
-    "y",
-  ],
-  "paths": {
-    "hello": "Hello World!",
-    "x": "1024",
-    "y": "768",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 11`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [5] {#path,x}/here 1`] = `
 {
   "data": {
     "empty": "",
@@ -357,21 +2429,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 11`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 12`] = `
-{
-  "input": "{#path,x}/here",
-  "inputDataKeys": ArrayContaining [
-    "path",
-    "x",
-  ],
-  "paths": {
-    "path": "/foo/bar",
-    "x": "1024",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 13`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [6] X{.var} 1`] = `
 {
   "data": {
     "empty": "",
@@ -388,19 +2446,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 13`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 14`] = `
-{
-  "input": "X{.var}",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 15`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [7] X{.x,y} 1`] = `
 {
   "data": {
     "empty": "",
@@ -417,21 +2463,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 15`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 16`] = `
-{
-  "input": "X{.x,y}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-    "y",
-  ],
-  "paths": {
-    "x": "1024",
-    "y": "768",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 17`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [8] {/var} 1`] = `
 {
   "data": {
     "empty": "",
@@ -448,19 +2480,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 17`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 18`] = `
-{
-  "input": "{/var}",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 19`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [9] {/var,x}/here 1`] = `
 {
   "data": {
     "empty": "",
@@ -477,21 +2497,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 19`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 20`] = `
-{
-  "input": "{/var,x}/here",
-  "inputDataKeys": ArrayContaining [
-    "var",
-    "x",
-  ],
-  "paths": {
-    "var": "value",
-    "x": "1024",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 21`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [10] {;x,y} 1`] = `
 {
   "data": {
     "empty": "",
@@ -508,21 +2514,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 21`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 22`] = `
-{
-  "input": "{;x,y}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-    "y",
-  ],
-  "paths": {
-    "x": "1024",
-    "y": "768",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 23`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [11] {;x,y,empty} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -539,23 +2531,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 23`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 24`] = `
-{
-  "input": "{;x,y,empty}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-    "y",
-    "empty",
-  ],
-  "paths": {
-    "empty": "",
-    "x": "1024",
-    "y": "768",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 25`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [12] {?x,y} 1`] = `
 {
   "data": {
     "empty": "",
@@ -572,21 +2548,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 25`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 26`] = `
-{
-  "input": "{?x,y}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-    "y",
-  ],
-  "paths": {
-    "x": "1024",
-    "y": "768",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 27`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [13] {?x,y,empty} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -603,23 +2565,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 27`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 28`] = `
-{
-  "input": "{?x,y,empty}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-    "y",
-    "empty",
-  ],
-  "paths": {
-    "empty": "",
-    "x": "1024",
-    "y": "768",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 29`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [14] ?fixed=yes{&x} 1`] = `
 {
   "data": {
     "empty": "",
@@ -636,19 +2582,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 29`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 30`] = `
-{
-  "input": "?fixed=yes{&x}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-  ],
-  "paths": {
-    "x": "1024",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 3 Examples 31`] = `
+exports[`uritemplate-test > spec-examples.json > Level 3 Examples > [15] {&x,y,empty} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -665,23 +2599,7 @@ exports[`uritemplate-test > should expand Level 3 Examples 31`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 3 Examples 32`] = `
-{
-  "input": "{&x,y,empty}",
-  "inputDataKeys": ArrayContaining [
-    "x",
-    "y",
-    "empty",
-  ],
-  "paths": {
-    "empty": "",
-    "x": "1024",
-    "y": "768",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 1`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [0] {var:3} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -705,19 +2623,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 1`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 2`] = `
-{
-  "input": "{var:3}",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 3`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [1] {var:30} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -741,19 +2647,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 3`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 4`] = `
-{
-  "input": "{var:30}",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 5`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [2] {list} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -777,23 +2671,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 5`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 6`] = `
-{
-  "input": "{list}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 7`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [3] {list*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -817,23 +2695,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 7`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 8`] = `
-{
-  "input": "{list*}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 9`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [4] {keys} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -853,34 +2715,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 9`] = `
     },
   },
   "router": "{keys}",
-  "url": toBeOneOf<Array [
-  "comma,%2C,dot,.,semi,%3B",
-  "comma,%2C,semi,%3B,dot,.",
-  "dot,.,comma,%2C,semi,%3B",
-  "dot,.,semi,%3B,comma,%2C",
-  "semi,%3B,comma,%2C,dot,.",
-  "semi,%3B,dot,.,comma,%2C",
-]>,
+  "url": "semi,%3B,dot,.,comma,%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 10`] = `
-{
-  "input": "{keys}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 11`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [5] {keys*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -900,34 +2739,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 11`] = `
     },
   },
   "router": "{keys*}",
-  "url": toBeOneOf<Array [
-  "comma=%2C,dot=.,semi=%3B",
-  "comma=%2C,semi=%3B,dot=.",
-  "dot=.,comma=%2C,semi=%3B",
-  "dot=.,semi=%3B,comma=%2C",
-  "semi=%3B,comma=%2C,dot=.",
-  "semi=%3B,dot=.,comma=%2C",
-]>,
+  "url": "semi=%3B,dot=.,comma=%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 12`] = `
-{
-  "input": "{keys*}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 13`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [6] {+path:6}/here 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -951,19 +2767,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 13`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 14`] = `
-{
-  "input": "{+path:6}/here",
-  "inputDataKeys": ArrayContaining [
-    "path",
-  ],
-  "paths": {
-    "path": "/foo/bar",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 15`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [7] {+list} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -987,23 +2791,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 15`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 16`] = `
-{
-  "input": "{+list}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 17`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [8] {+list*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1027,23 +2815,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 17`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 18`] = `
-{
-  "input": "{+list*}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 19`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [9] {+keys} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1063,34 +2835,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 19`] = `
     },
   },
   "router": "{+keys}",
-  "url": toBeOneOf<Array [
-  "comma,,,dot,.,semi,;",
-  "comma,,,semi,;,dot,.",
-  "dot,.,comma,,,semi,;",
-  "dot,.,semi,;,comma,,",
-  "semi,;,comma,,,dot,.",
-  "semi,;,dot,.,comma,,",
-]>,
+  "url": "semi,;,dot,.,comma,,",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 20`] = `
-{
-  "input": "{+keys}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 21`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [10] {+keys*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1110,34 +2859,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 21`] = `
     },
   },
   "router": "{+keys*}",
-  "url": toBeOneOf<Array [
-  "comma=,,dot=.,semi=;",
-  "comma=,,semi=;,dot=.",
-  "dot=.,comma=,,semi=;",
-  "dot=.,semi=;,comma=,",
-  "semi=;,comma=,,dot=.",
-  "semi=;,dot=.,comma=,",
-]>,
+  "url": "semi=;,dot=.,comma=,",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 22`] = `
-{
-  "input": "{+keys*}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 23`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [11] {#path:6}/here 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1161,19 +2887,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 23`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 24`] = `
-{
-  "input": "{#path:6}/here",
-  "inputDataKeys": ArrayContaining [
-    "path",
-  ],
-  "paths": {
-    "path": "/foo/bar",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 25`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [12] {#list} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1197,23 +2911,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 25`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 26`] = `
-{
-  "input": "{#list}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 27`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [13] {#list*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1237,23 +2935,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 27`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 28`] = `
-{
-  "input": "{#list*}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 29`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [14] {#keys} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1273,34 +2955,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 29`] = `
     },
   },
   "router": "{#keys}",
-  "url": toBeOneOf<Array [
-  "#comma,,,dot,.,semi,;",
-  "#comma,,,semi,;,dot,.",
-  "#dot,.,comma,,,semi,;",
-  "#dot,.,semi,;,comma,,",
-  "#semi,;,comma,,,dot,.",
-  "#semi,;,dot,.,comma,,",
-]>,
+  "url": "#semi,;,dot,.,comma,,",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 30`] = `
-{
-  "input": "{#keys}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 31`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [15] {#keys*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1320,34 +2979,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 31`] = `
     },
   },
   "router": "{#keys*}",
-  "url": toBeOneOf<Array [
-  "#comma=,,dot=.,semi=;",
-  "#comma=,,semi=;,dot=.",
-  "#dot=.,comma=,,semi=;",
-  "#dot=.,semi=;,comma=,",
-  "#semi=;,comma=,,dot=.",
-  "#semi=;,dot=.,comma=,",
-]>,
+  "url": "#semi=;,dot=.,comma=,",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 32`] = `
-{
-  "input": "{#keys*}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 33`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [16] X{.var:3} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1371,19 +3007,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 33`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 34`] = `
-{
-  "input": "X{.var:3}",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 35`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [17] X{.list} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1407,23 +3031,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 35`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 36`] = `
-{
-  "input": "X{.list}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 37`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [18] X{.list*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1447,23 +3055,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 37`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 38`] = `
-{
-  "input": "X{.list*}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 39`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [19] X{.keys} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1483,34 +3075,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 39`] = `
     },
   },
   "router": "X{.keys}",
-  "url": toBeOneOf<Array [
-  "X.comma,%2C,dot,.,semi,%3B",
-  "X.comma,%2C,semi,%3B,dot,.",
-  "X.dot,.,comma,%2C,semi,%3B",
-  "X.dot,.,semi,%3B,comma,%2C",
-  "X.semi,%3B,comma,%2C,dot,.",
-  "X.semi,%3B,dot,.,comma,%2C",
-]>,
+  "url": "X.semi,%3B,dot,.,comma,%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 40`] = `
-{
-  "input": "X{.keys}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 41`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [20] {/var:1,var} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1534,19 +3103,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 41`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 42`] = `
-{
-  "input": "{/var:1,var}",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 43`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [21] {/list} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1570,23 +3127,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 43`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 44`] = `
-{
-  "input": "{/list}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 45`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [22] {/list*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1610,23 +3151,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 45`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 46`] = `
-{
-  "input": "{/list*}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 47`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [23] {/list*,path:4} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1650,25 +3175,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 47`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 48`] = `
-{
-  "input": "{/list*,path:4}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-    "path",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-    "path": "/foo/bar",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 49`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [24] {/keys} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1688,34 +3195,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 49`] = `
     },
   },
   "router": "{/keys}",
-  "url": toBeOneOf<Array [
-  "/comma,%2C,dot,.,semi,%3B",
-  "/comma,%2C,semi,%3B,dot,.",
-  "/dot,.,comma,%2C,semi,%3B",
-  "/dot,.,semi,%3B,comma,%2C",
-  "/semi,%3B,comma,%2C,dot,.",
-  "/semi,%3B,dot,.,comma,%2C",
-]>,
+  "url": "/semi,%3B,dot,.,comma,%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 50`] = `
-{
-  "input": "{/keys}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 51`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [25] {/keys*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1735,34 +3219,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 51`] = `
     },
   },
   "router": "{/keys*}",
-  "url": toBeOneOf<Array [
-  "/comma=%2C/dot=./semi=%3B",
-  "/comma=%2C/semi=%3B/dot=.",
-  "/dot=./comma=%2C/semi=%3B",
-  "/dot=./semi=%3B/comma=%2C",
-  "/semi=%3B/comma=%2C/dot=.",
-  "/semi=%3B/dot=./comma=%2C",
-]>,
+  "url": "/semi=%3B/dot=./comma=%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 52`] = `
-{
-  "input": "{/keys*}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 53`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [26] {;hello:5} 1`] = `
 {
   "data": {
     "keys": {
@@ -1786,19 +3247,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 53`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 54`] = `
-{
-  "input": "{;hello:5}",
-  "inputDataKeys": ArrayContaining [
-    "hello",
-  ],
-  "paths": {
-    "hello": "Hello World!",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 55`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [27] {;list} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1822,23 +3271,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 55`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 56`] = `
-{
-  "input": "{;list}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 57`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [28] {;list*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1862,23 +3295,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 57`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 58`] = `
-{
-  "input": "{;list*}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 59`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [29] {;keys} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1898,34 +3315,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 59`] = `
     },
   },
   "router": "{;keys}",
-  "url": toBeOneOf<Array [
-  ";keys=comma,%2C,dot,.,semi,%3B",
-  ";keys=comma,%2C,semi,%3B,dot,.",
-  ";keys=dot,.,comma,%2C,semi,%3B",
-  ";keys=dot,.,semi,%3B,comma,%2C",
-  ";keys=semi,%3B,comma,%2C,dot,.",
-  ";keys=semi,%3B,dot,.,comma,%2C",
-]>,
+  "url": ";keys=semi,%3B,dot,.,comma,%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 60`] = `
-{
-  "input": "{;keys}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 61`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [30] {;keys*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1945,34 +3339,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 61`] = `
     },
   },
   "router": "{;keys*}",
-  "url": toBeOneOf<Array [
-  ";comma=%2C;dot=.;semi=%3B",
-  ";comma=%2C;semi=%3B;dot=.",
-  ";dot=.;comma=%2C;semi=%3B",
-  ";dot=.;semi=%3B;comma=%2C",
-  ";semi=%3B;comma=%2C;dot=.",
-  ";semi=%3B;dot=.;comma=%2C",
-]>,
+  "url": ";semi=%3B;dot=.;comma=%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 62`] = `
-{
-  "input": "{;keys*}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 63`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [31] {?var:3} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -1996,19 +3367,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 63`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 64`] = `
-{
-  "input": "{?var:3}",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 65`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [32] {?list} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -2032,23 +3391,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 65`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 66`] = `
-{
-  "input": "{?list}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 67`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [33] {?list*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -2072,23 +3415,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 67`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 68`] = `
-{
-  "input": "{?list*}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 69`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [34] {?keys} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -2108,34 +3435,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 69`] = `
     },
   },
   "router": "{?keys}",
-  "url": toBeOneOf<Array [
-  "?keys=comma,%2C,dot,.,semi,%3B",
-  "?keys=comma,%2C,semi,%3B,dot,.",
-  "?keys=dot,.,comma,%2C,semi,%3B",
-  "?keys=dot,.,semi,%3B,comma,%2C",
-  "?keys=semi,%3B,comma,%2C,dot,.",
-  "?keys=semi,%3B,dot,.,comma,%2C",
-]>,
+  "url": "?keys=semi,%3B,dot,.,comma,%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 70`] = `
-{
-  "input": "{?keys}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 71`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [35] {?keys*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -2155,34 +3459,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 71`] = `
     },
   },
   "router": "{?keys*}",
-  "url": toBeOneOf<Array [
-  "?comma=%2C&dot=.&semi=%3B",
-  "?comma=%2C&semi=%3B&dot=.",
-  "?dot=.&comma=%2C&semi=%3B",
-  "?dot=.&semi=%3B&comma=%2C",
-  "?semi=%3B&comma=%2C&dot=.",
-  "?semi=%3B&dot=.&comma=%2C",
-]>,
+  "url": "?semi=%3B&dot=.&comma=%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 72`] = `
-{
-  "input": "{?keys*}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 73`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [36] {&var:3} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -2206,19 +3487,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 73`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 74`] = `
-{
-  "input": "{&var:3}",
-  "inputDataKeys": ArrayContaining [
-    "var",
-  ],
-  "paths": {
-    "var": "value",
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 75`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [37] {&list} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -2242,23 +3511,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 75`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 76`] = `
-{
-  "input": "{&list}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 77`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [38] {&list*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -2282,23 +3535,7 @@ exports[`uritemplate-test > should expand Level 4 Examples 77`] = `
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 78`] = `
-{
-  "input": "{&list*}",
-  "inputDataKeys": ArrayContaining [
-    "list",
-  ],
-  "paths": {
-    "list": [
-      "red",
-      "green",
-      "blue",
-    ],
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 79`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [39] {&keys} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -2318,34 +3555,11 @@ exports[`uritemplate-test > should expand Level 4 Examples 79`] = `
     },
   },
   "router": "{&keys}",
-  "url": toBeOneOf<Array [
-  "&keys=comma,%2C,dot,.,semi,%3B",
-  "&keys=comma,%2C,semi,%3B,dot,.",
-  "&keys=dot,.,comma,%2C,semi,%3B",
-  "&keys=dot,.,semi,%3B,comma,%2C",
-  "&keys=semi,%3B,comma,%2C,dot,.",
-  "&keys=semi,%3B,dot,.,comma,%2C",
-]>,
+  "url": "&keys=semi,%3B,dot,.,comma,%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 80`] = `
-{
-  "input": "{&keys}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
-  "paths": {
-    "keys": {
-      "comma": ",",
-      "dot": ".",
-      "semi": ";",
-    },
-  },
-}
-`;
-
-exports[`uritemplate-test > should expand Level 4 Examples 81`] = `
+exports[`uritemplate-test > spec-examples.json > Level 4 Examples > [40] {&keys*} 1`] = `
 {
   "data": {
     "hello": "Hello World!",
@@ -2365,23 +3579,1045 @@ exports[`uritemplate-test > should expand Level 4 Examples 81`] = `
     },
   },
   "router": "{&keys*}",
-  "url": toBeOneOf<Array [
-  "&comma=%2C&dot=.&semi=%3B",
-  "&comma=%2C&semi=%3B&dot=.",
-  "&dot=.&comma=%2C&semi=%3B",
-  "&dot=.&semi=%3B&comma=%2C",
-  "&semi=%3B&comma=%2C&dot=.",
-  "&semi=%3B&dot=.&comma=%2C",
-]>,
+  "url": "&semi=%3B&dot=.&comma=%2C",
 }
 `;
 
-exports[`uritemplate-test > should expand Level 4 Examples 82`] = `
+exports[`uritemplate-test > spec-examples-by-section.json > 2.1 Literals > [0] '{count}' 1`] = `
 {
-  "input": "{&keys*}",
-  "inputDataKeys": ArrayContaining [
-    "keys",
-  ],
+  "data": {},
+  "paths": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+  },
+  "router": "'{count}'",
+  "url": "'one,two,three'",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.1 Variable Expansion > [0] {count} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+  },
+  "router": "{count}",
+  "url": "one,two,three",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.1 Variable Expansion > [1] {count*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+  },
+  "router": "{count*}",
+  "url": "one,two,three",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.1 Variable Expansion > [2] {/count} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+  },
+  "router": "{/count}",
+  "url": "/one,two,three",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.1 Variable Expansion > [3] {/count*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+  },
+  "router": "{/count*}",
+  "url": "/one/two/three",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.1 Variable Expansion > [4] {;count} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+  },
+  "router": "{;count}",
+  "url": ";count=one,two,three",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.1 Variable Expansion > [5] {;count*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+  },
+  "router": "{;count*}",
+  "url": ";count=one;count=two;count=three",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.1 Variable Expansion > [6] {?count} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+  },
+  "router": "{?count}",
+  "url": "?count=one,two,three",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.1 Variable Expansion > [7] {?count*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+  },
+  "router": "{?count*}",
+  "url": "?count=one&count=two&count=three",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.1 Variable Expansion > [8] {&count*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+  },
+  "router": "{&count*}",
+  "url": "&count=one&count=two&count=three",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [0] {var} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{var}",
+  "url": "value",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [1] {hello} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "hello": "Hello World!",
+  },
+  "router": "{hello}",
+  "url": "Hello%20World%21",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [2] {half} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "half": "50%",
+  },
+  "router": "{half}",
+  "url": "50%25",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [3] O{empty}X 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "empty": "",
+  },
+  "router": "O{empty}X",
+  "url": "OX",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [4] O{undef}X 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "undef": null,
+  },
+  "router": "O{undef}X",
+  "url": "OX",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [5] {x,y} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{x,y}",
+  "url": "1024,768",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [6] {x,hello,y} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "hello": "Hello World!",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{x,hello,y}",
+  "url": "1024,Hello%20World%21,768",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [7] ?{x,empty} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "y": "768",
+  },
+  "paths": {
+    "empty": "",
+    "x": "1024",
+  },
+  "router": "?{x,empty}",
+  "url": "?1024,",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [8] ?{x,undef} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "y": "768",
+  },
+  "paths": {
+    "undef": null,
+    "x": "1024",
+  },
+  "router": "?{x,undef}",
+  "url": "?1024",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [9] ?{undef,y} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+  },
+  "paths": {
+    "undef": null,
+    "y": "768",
+  },
+  "router": "?{undef,y}",
+  "url": "?768",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [10] {var:3} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{var:3}",
+  "url": "val",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [11] {var:30} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{var:30}",
+  "url": "value",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [12] {list} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{list}",
+  "url": "red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [13] {list*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{list*}",
+  "url": "red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [14] {keys} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
   "paths": {
     "keys": {
       "comma": ",",
@@ -2389,5 +4625,3964 @@ exports[`uritemplate-test > should expand Level 4 Examples 82`] = `
       "semi": ";",
     },
   },
+  "router": "{keys}",
+  "url": "semi,%3B,dot,.,comma,%2C",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.2 Simple String Expansion > [15] {keys*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{keys*}",
+  "url": "semi=%3B,dot=.,comma=%2C",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [0] {+var} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{+var}",
+  "url": "value",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [1] {/var,empty} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "empty": "",
+    "var": "value",
+  },
+  "router": "{/var,empty}",
+  "url": "/value/",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [2] {/var,undef} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "undef": null,
+    "var": "value",
+  },
+  "router": "{/var,undef}",
+  "url": "/value",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [3] {+hello} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "hello": "Hello World!",
+  },
+  "router": "{+hello}",
+  "url": "Hello%20World!",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [4] {+half} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "half": "50%",
+  },
+  "router": "{+half}",
+  "url": "50%25",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [5] {base}index 1`] = `
+{
+  "data": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "base": "http://example.com/home/",
+  },
+  "router": "{base}index",
+  "url": "http%3A%2F%2Fexample.com%2Fhome%2Findex",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [6] {+base}index 1`] = `
+{
+  "data": {
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "base": "http://example.com/home/",
+  },
+  "router": "{+base}index",
+  "url": "http://example.com/home/index",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [7] O{+empty}X 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "empty": "",
+  },
+  "router": "O{+empty}X",
+  "url": "OX",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [8] O{+undef}X 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "undef": null,
+  },
+  "router": "O{+undef}X",
+  "url": "OX",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [9] {+path}/here 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "path": "/foo/bar",
+  },
+  "router": "{+path}/here",
+  "url": "/foo/bar/here",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [10] {+path:6}/here 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "path": "/foo/bar",
+  },
+  "router": "{+path:6}/here",
+  "url": "/foo/b/here",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [11] here?ref={+path} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "path": "/foo/bar",
+  },
+  "router": "here?ref={+path}",
+  "url": "here?ref=/foo/bar",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [12] up{+path}{var}/here 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "path": "/foo/bar",
+    "var": "value",
+  },
+  "router": "up{+path}{var}/here",
+  "url": "up/foo/barvalue/here",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [13] {+x,hello,y} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "hello": "Hello World!",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{+x,hello,y}",
+  "url": "1024,Hello%20World!,768",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [14] {+path,x}/here 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "y": "768",
+  },
+  "paths": {
+    "path": "/foo/bar",
+    "x": "1024",
+  },
+  "router": "{+path,x}/here",
+  "url": "/foo/bar,1024/here",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [15] {+list} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{+list}",
+  "url": "red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [16] {+list*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{+list*}",
+  "url": "red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [17] {+keys} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{+keys}",
+  "url": "semi,;,dot,.,comma,,",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.3 Reserved Expansion > [18] {+keys*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{+keys*}",
+  "url": "semi=;,dot=.,comma=,",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [0] {#var} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{#var}",
+  "url": "#value",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [1] {#hello} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "hello": "Hello World!",
+  },
+  "router": "{#hello}",
+  "url": "#Hello%20World!",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [2] {#half} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "half": "50%",
+  },
+  "router": "{#half}",
+  "url": "#50%25",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [3] foo{#empty} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "empty": "",
+  },
+  "router": "foo{#empty}",
+  "url": "foo#",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [4] foo{#undef} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "undef": null,
+  },
+  "router": "foo{#undef}",
+  "url": "foo",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [5] {#x,hello,y} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "hello": "Hello World!",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{#x,hello,y}",
+  "url": "#1024,Hello%20World!,768",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [6] {#path,x}/here 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "y": "768",
+  },
+  "paths": {
+    "path": "/foo/bar",
+    "x": "1024",
+  },
+  "router": "{#path,x}/here",
+  "url": "#/foo/bar,1024/here",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [7] {#path:6}/here 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "path": "/foo/bar",
+  },
+  "router": "{#path:6}/here",
+  "url": "#/foo/b/here",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [8] {#list} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{#list}",
+  "url": "#red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [9] {#list*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{#list*}",
+  "url": "#red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.4 Fragment Expansion > [10] {#keys} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{#keys}",
+  "url": "#semi,;,dot,.,comma,,",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [0] {.who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "who": "fred",
+  },
+  "router": "{.who}",
+  "url": ".fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [1] {.who,who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "who": "fred",
+  },
+  "router": "{.who,who}",
+  "url": ".fred.fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [2] {.half,who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "half": "50%",
+    "who": "fred",
+  },
+  "router": "{.half,who}",
+  "url": ".50%25.fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [3] www{.dom*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "dom": [
+      "example",
+      "com",
+    ],
+  },
+  "router": "www{.dom*}",
+  "url": "www.example.com",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [4] X{.var} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "X{.var}",
+  "url": "X.value",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [5] X{.var:3} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "X{.var:3}",
+  "url": "X.val",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [6] X{.empty} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "empty": "",
+  },
+  "router": "X{.empty}",
+  "url": "X.",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [7] X{.undef} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "undef": null,
+  },
+  "router": "X{.undef}",
+  "url": "X",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [8] X{.list} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "X{.list}",
+  "url": "X.red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [9] X{.list*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "X{.list*}",
+  "url": "X.red.green.blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [10] {#keys} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{#keys}",
+  "url": "#semi,;,dot,.,comma,,",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [11] {#keys*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{#keys*}",
+  "url": "#semi=;,dot=.,comma=,",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [12] X{.empty_keys} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "empty_keys": {},
+  },
+  "router": "X{.empty_keys}",
+  "url": "X",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.5 Label Expansion with Dot-Prefix > [13] X{.empty_keys*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "empty_keys": {},
+  },
+  "router": "X{.empty_keys*}",
+  "url": "X",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [0] {/who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "who": "fred",
+  },
+  "router": "{/who}",
+  "url": "/fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [1] {/who,who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "who": "fred",
+  },
+  "router": "{/who,who}",
+  "url": "/fred/fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [2] {/half,who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "half": "50%",
+    "who": "fred",
+  },
+  "router": "{/half,who}",
+  "url": "/50%25/fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [3] {/who,dub} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "dub": "me/too",
+    "who": "fred",
+  },
+  "router": "{/who,dub}",
+  "url": "/fred/me%2Ftoo",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [4] {/var} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{/var}",
+  "url": "/value",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [5] {/var,empty} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "empty": "",
+    "var": "value",
+  },
+  "router": "{/var,empty}",
+  "url": "/value/",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [6] {/var,undef} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "undef": null,
+    "var": "value",
+  },
+  "router": "{/var,undef}",
+  "url": "/value",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [7] {/var,x}/here 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+    "x": "1024",
+  },
+  "router": "{/var,x}/here",
+  "url": "/value/1024/here",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [8] {/var:1,var} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{/var:1,var}",
+  "url": "/v/value",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [9] {/list} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{/list}",
+  "url": "/red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [10] {/list*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{/list*}",
+  "url": "/red/green/blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [11] {/list*,path:4} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+  },
+  "router": "{/list*,path:4}",
+  "url": "/red/green/blue/%2Ffoo",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [12] {/keys} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{/keys}",
+  "url": "/semi,%3B,dot,.,comma,%2C",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.6 Path Segment Expansion > [13] {/keys*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{/keys*}",
+  "url": "/semi=%3B/dot=./comma=%2C",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [0] {;who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "who": "fred",
+  },
+  "router": "{;who}",
+  "url": ";who=fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [1] {;half} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "half": "50%",
+  },
+  "router": "{;half}",
+  "url": ";half=50%25",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [2] {;empty} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "empty": "",
+  },
+  "router": "{;empty}",
+  "url": ";empty",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [3] {;hello:5} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "hello": "Hello World!",
+  },
+  "router": "{;hello:5}",
+  "url": ";hello=Hello",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [4] {;v,empty,who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "empty": "",
+    "v": "6",
+    "who": "fred",
+  },
+  "router": "{;v,empty,who}",
+  "url": ";v=6;empty;who=fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [5] {;v,bar,who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "bar": undefined,
+    "v": "6",
+    "who": "fred",
+  },
+  "router": "{;v,bar,who}",
+  "url": ";v=6;who=fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [6] {;x,y} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{;x,y}",
+  "url": ";x=1024;y=768",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [7] {;x,y,empty} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "empty": "",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{;x,y,empty}",
+  "url": ";x=1024;y=768;empty",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [8] {;x,y,undef} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "undef": null,
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{;x,y,undef}",
+  "url": ";x=1024;y=768",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [9] {;list} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{;list}",
+  "url": ";list=red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [10] {;list*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{;list*}",
+  "url": ";list=red;list=green;list=blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [11] {;keys} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{;keys}",
+  "url": ";keys=semi,%3B,dot,.,comma,%2C",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.7 Path-Style Parameter Expansion > [12] {;keys*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{;keys*}",
+  "url": ";semi=%3B;dot=.;comma=%2C",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.8 Form-Style Query Expansion > [0] {?who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "who": "fred",
+  },
+  "router": "{?who}",
+  "url": "?who=fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.8 Form-Style Query Expansion > [1] {?half} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "half": "50%",
+  },
+  "router": "{?half}",
+  "url": "?half=50%25",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.8 Form-Style Query Expansion > [2] {?x,y} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{?x,y}",
+  "url": "?x=1024&y=768",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.8 Form-Style Query Expansion > [3] {?x,y,empty} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "empty": "",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{?x,y,empty}",
+  "url": "?x=1024&y=768&empty=",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.8 Form-Style Query Expansion > [4] {?x,y,undef} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "undef": null,
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{?x,y,undef}",
+  "url": "?x=1024&y=768",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.8 Form-Style Query Expansion > [5] {?var:3} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{?var:3}",
+  "url": "?var=val",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.8 Form-Style Query Expansion > [6] {?list} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{?list}",
+  "url": "?list=red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.8 Form-Style Query Expansion > [7] {?list*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{?list*}",
+  "url": "?list=red&list=green&list=blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.8 Form-Style Query Expansion > [8] {?keys} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{?keys}",
+  "url": "?keys=semi,%3B,dot,.,comma,%2C",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.8 Form-Style Query Expansion > [9] {?keys*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{?keys*}",
+  "url": "?semi=%3B&dot=.&comma=%2C",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.9 Form-Style Query Continuation > [0] {&who} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "who": "fred",
+  },
+  "router": "{&who}",
+  "url": "&who=fred",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.9 Form-Style Query Continuation > [1] {&half} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "half": "50%",
+  },
+  "router": "{&half}",
+  "url": "&half=50%25",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.9 Form-Style Query Continuation > [2] ?fixed=yes{&x} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "y": "768",
+  },
+  "paths": {
+    "x": "1024",
+  },
+  "router": "?fixed=yes{&x}",
+  "url": "?fixed=yes&x=1024",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.9 Form-Style Query Continuation > [3] {&var:3} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "var": "value",
+  },
+  "router": "{&var:3}",
+  "url": "&var=val",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.9 Form-Style Query Continuation > [4] {&x,y,empty} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "empty": "",
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{&x,y,empty}",
+  "url": "&x=1024&y=768&empty=",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.9 Form-Style Query Continuation > [5] {&x,y,undef} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+  },
+  "paths": {
+    "undef": null,
+    "x": "1024",
+    "y": "768",
+  },
+  "router": "{&x,y,undef}",
+  "url": "&x=1024&y=768",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.9 Form-Style Query Continuation > [6] {&list} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{&list}",
+  "url": "&list=red,green,blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.9 Form-Style Query Continuation > [7] {&list*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+  },
+  "router": "{&list*}",
+  "url": "&list=red&list=green&list=blue",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.9 Form-Style Query Continuation > [8] {&keys} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{&keys}",
+  "url": "&keys=semi,%3B,dot,.,comma,%2C",
+}
+`;
+
+exports[`uritemplate-test > spec-examples-by-section.json > 3.2.9 Form-Style Query Continuation > [9] {&keys*} 1`] = `
+{
+  "data": {
+    "base": "http://example.com/home/",
+    "count": [
+      "one",
+      "two",
+      "three",
+    ],
+    "dom": [
+      "example",
+      "com",
+    ],
+    "dub": "me/too",
+    "empty": "",
+    "empty_keys": {},
+    "half": "50%",
+    "hello": "Hello World!",
+    "list": [
+      "red",
+      "green",
+      "blue",
+    ],
+    "path": "/foo/bar",
+    "undef": null,
+    "v": "6",
+    "var": "value",
+    "who": "fred",
+    "x": "1024",
+    "y": "768",
+  },
+  "paths": {
+    "keys": {
+      "comma": ",",
+      "dot": ".",
+      "semi": ";",
+    },
+  },
+  "router": "{&keys*}",
+  "url": "&semi=%3B&dot=.&comma=%2C",
 }
 `;
