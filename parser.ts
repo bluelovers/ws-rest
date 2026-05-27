@@ -77,7 +77,9 @@ export function expandRfc6570<K extends keyof M = never, M extends IExpandDataIn
 {
 	let ks = parseRouterVars(url);
 
-	let ret = ks.reduce((a, k) =>
+	const ks_all = Array.from(new Set([...ks, ...Object.keys(data)]));
+
+	let ret = ks_all.reduce((a, k) =>
 	{
 		if (ks.includes(k))
 		{

@@ -43,7 +43,7 @@
     "test:jest": "vitest run --no-watch",
     "test:jest:coverage": "node --run test:jest -- --coverage",
     "test:jest:snapshot": "pnpm run test:jest -- -u",
-    "test:snapshot": "pnpm run test -- -u",
+    "test:snapshot": "pnpm run pretest && vitest run -u --no-watch",
     "test:tsd": "ynpx tsd",
     "npm:publish": "npm publish",
     "npm:publish:bump": "node --run version:bump && npm publish",
