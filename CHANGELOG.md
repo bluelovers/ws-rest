@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/bluelovers/ws-rest/compare/router-uri-convert@2.0.1...router-uri-convert@2.0.2) (2026-05-27)
+
+**Note:** Version bump only for package router-uri-convert
+
+
+
+
+
 ## [2.0.1](https://github.com/bluelovers/ws-rest/compare/router-uri-convert@1.0.29...router-uri-convert@2.0.1) (2026-05-27)
 
 

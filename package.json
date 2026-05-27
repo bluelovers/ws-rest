@@ -1,6 +1,6 @@
 {
   "name": "router-uri-convert",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "convert uri-template replace :varname with {+varname} to make it RFC 6570 compatible",
   "keywords": [
     "endpoint",
@@ -33,10 +33,15 @@
     "parser.d.ts",
     "parser.js.map",
     "parser.js",
+    "docs/*",
+    "CHANGELOG.md",
     "index.d.ts",
     "index.js.map",
     "index.js"
   ],
+  "directories": {
+    "docs": "docs"
+  },
   "scripts": {
     "pretest": "tsc",
     "test": "node --run test:jest --",
