@@ -1,0 +1,59 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`expandRfc6570 > rfc6570 > '/users/{+user}' → expanded: '/users/foo/bar' 1`] = `
+{
+  "data": {},
+  "paths": {
+    "user": "foo/bar",
+  },
+  "router": "/users/{+user}",
+  "url": "/users/foo/bar",
+}
+`;
+
+exports[`expandRfc6570 > rfc6570 > 'http://{domain}/~{user}/foo{?query,nu…' → expanded: 'http://example.com/~fred/foo?query=my…' 1`] = `
+{
+  "data": {},
+  "paths": {
+    "domain": "example.com",
+    "query,number": undefined,
+    "user": "fred",
+  },
+  "router": "http://{domain}/~{user}/foo{?query,number}",
+  "url": "http://example.com/~fred/foo?query=mycelium",
+}
+`;
+
+exports[`expandRfc6570 > rfc6570 > 'http://{domain}/~{user}/foo{?query,nu…' → expanded: 'http://example.com/~fred/foo?query=my…' 2`] = `
+{
+  "data": {},
+  "paths": {
+    "domain": "example.com",
+    "query,number": undefined,
+    "user": "fred",
+  },
+  "router": "http://{domain}/~{user}/foo{?query,number}",
+  "url": "http://example.com/~fred/foo?query=mycelium&number=3",
+}
+`;
+
+exports[`expandRfc6570 > router > '/users/:user' <=> '/users/{+user}' → expanded: '/users/foo/bar' 1`] = `
+{
+  "data": {},
+  "paths": {
+    "user": "foo/bar",
+  },
+  "router": "/users/{+user}",
+  "url": "/users/foo/bar",
+}
+`;
+
+exports[`router-uri > /users/:user <=> /users/{+user} 1`] = `
+{
+  "actualRfc6570": "/users/{+user}",
+  "expectedRfc6570": "/users/{+user}",
+  "sourceRouter": "/users/:user",
+}
+`;
+
+exports[`router-uri > test uri-template-lite > /users/foo/bar 1`] = `"/users/foo/bar"`;

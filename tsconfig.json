@@ -1,0 +1,15 @@
+{
+  "extends": "@bluelovers/tsconfig/esm/mapfile.json",
+  "compilerOptions": {
+    "importHelpers": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext"
+  },
+  "include": [
+    "parser.ts",
+    "index.ts"
+  ],
+  "exclude": [
+    "test"
+  ]
+}

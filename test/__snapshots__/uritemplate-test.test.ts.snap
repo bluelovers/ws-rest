@@ -1,0 +1,184 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`uritemplate-test > should expand Level 1 Examples 1`] = `
+{
+  "data": {},
+  "paths": {
+    "var": "value",
+  },
+  "router": "{var}",
+  "url": "value",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 1 Examples 2`] = `
+{
+  "input": "{var}",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 1 Examples 3`] = `
+{
+  "data": {},
+  "paths": {
+    "var": "value",
+  },
+  "router": "'{var}'",
+  "url": "'value'",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 1 Examples 4`] = `
+{
+  "input": "'{var}'",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 1 Examples 5`] = `
+{
+  "data": {},
+  "paths": {
+    "hello": "Hello World!",
+  },
+  "router": "{hello}",
+  "url": "Hello%20World%21",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 1 Examples 6`] = `
+{
+  "input": "{hello}",
+  "inputDataKeys": ArrayContaining [
+    "hello",
+  ],
+  "paths": {
+    "hello": "Hello World!",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 2 Examples 1`] = `
+{
+  "data": {},
+  "paths": {
+    "var": "value",
+  },
+  "router": "{+var}",
+  "url": "value",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 2 Examples 2`] = `
+{
+  "input": "{+var}",
+  "inputDataKeys": ArrayContaining [
+    "var",
+  ],
+  "paths": {
+    "var": "value",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 2 Examples 3`] = `
+{
+  "data": {},
+  "paths": {
+    "hello": "Hello World!",
+  },
+  "router": "{+hello}",
+  "url": "Hello%20World!",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 2 Examples 4`] = `
+{
+  "input": "{+hello}",
+  "inputDataKeys": ArrayContaining [
+    "hello",
+  ],
+  "paths": {
+    "hello": "Hello World!",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 2 Examples 5`] = `
+{
+  "data": {},
+  "paths": {
+    "path": "/foo/bar",
+  },
+  "router": "{+path}/here",
+  "url": "/foo/bar/here",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 2 Examples 6`] = `
+{
+  "input": "{+path}/here",
+  "inputDataKeys": ArrayContaining [
+    "path",
+  ],
+  "paths": {
+    "path": "/foo/bar",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 2 Examples 7`] = `
+{
+  "data": {},
+  "paths": {
+    "path": "/foo/bar",
+  },
+  "router": "here?ref={+path}",
+  "url": "here?ref=/foo/bar",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 2 Examples 8`] = `
+{
+  "input": "here?ref={+path}",
+  "inputDataKeys": ArrayContaining [
+    "path",
+  ],
+  "paths": {
+    "path": "/foo/bar",
+  },
+}
+`;
+
+exports[`uritemplate-test > should expand Level 3 Examples 1`] = `
+{
+  "data": {},
+  "paths": {
+    "x,y": undefined,
+  },
+  "router": "map?{x,y}",
+  "url": "map?1024,768",
+}
+`;
+
+exports[`uritemplate-test > should expand Level 4 Examples 1`] = `
+{
+  "data": {},
+  "paths": {
+    "var:3": undefined,
+  },
+  "router": "{var:3}",
+  "url": "val",
+}
+`;

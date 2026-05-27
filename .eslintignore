@@ -21,3 +21,12 @@ coverage
 *.test.ts
 
 bin/**/*
+
+*.tsbuildinfo
+
+/_*/
+/.pnp
+/.next/
+/out/
+/build
+/.*/

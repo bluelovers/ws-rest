@@ -1,67 +1,27 @@
 /**
- * Created by User on 2019/6/9.
+ * 路由轉換功能測試
+ * Router transformation function tests
+ *
+ * 測試 routerToRfc6570 與 rfc6570ToRouter 函式的正確性
+ * Tests the correctness of routerToRfc6570 and rfc6570ToRouter functions
  */
 
 // @ts-ignore
-/// <reference types="mocha" />
-// @ts-ignore
-/// <reference types="benchmark" />
-// @ts-ignore
-/// <reference types="chai" />
-// @ts-ignore
 /// <reference types="node" />
+/// <reference types="vitest" />
 
-import { chai, relative, expect, path, assert, util, mochaAsync, SymbolLogOutput } from './_local-dev';
-import { routerToRfc6570, rfc6570ToRouter } from '../index';
+import { describe, expect, test } from 'vitest';
+import { rfc6570ToRouter, routerToRfc6570 } from '../index';
+import { expandRfc6570 } from '../parser';
 // @ts-ignore
 import UriTemplate from 'uri-template-lite';
+import { fixturesRouter, ITestData } from './fixtures/data';
+import { _reProcessCheckRfc6570, _rfc6570ToRouterToRfc6570, _testExpandRfc6570 } from './lib/test';
 
-// @ts-ignore
-describe(relative(__filename), () =>
+describe('router-uri', () =>
 {
-	// @ts-ignore
-	let currentTest: Mocha.Test;
 
-	// @ts-ignore
-	beforeEach(function ()
-	{
-		// @ts-ignore
-		currentTest = this.currentTest;
-
-		delete currentTest[SymbolLogOutput];
-
-		//console.log('it:before', currentTest.title);
-		//console.log('it:before', currentTest.fullTitle());
-	});
-
-	// @ts-ignore
-	afterEach(function ()
-	{
-		let out = currentTest[SymbolLogOutput];
-		let t = typeof out;
-
-		if (t === 'string')
-		{
-			console.log(`----------`);
-			console.dir(out);
-			console.log(`----------`);
-		}
-		else if (t === 'function')
-		{
-			out(currentTest)
-		}
-		else if (out != null)
-		{
-			console.dir(out);
-		}
-
-	});
-
-	// @ts-ignore
-	describe(`suite`, () =>
-	{
-		// @ts-ignore
-		it(`/users/:user <=> /users/{+user}`, function ()
+		test(`/users/:user <=> /users/{+user}`, function ()
 		{
 			//console.log('it:inner', currentTest.title);
 			//console.log('it:inner', currentTest.fullTitle());
@@ -71,16 +31,10 @@ describe(relative(__filename), () =>
 			let actual = routerToRfc6570(source);
 			let expected = `/users/{+user}`;
 
-			currentTest[SymbolLogOutput] = `${source} <=> ${expected}`;
-
-			expect(actual).to.be.deep.equal(expected);
-
-			expect(rfc6570ToRouter(actual)).to.be.deep.equal(source);
-
+			_reProcessCheckRfc6570(actual, source, expected);
 		});
 
-		// @ts-ignore
-		it(`test uri-template-lite`, function ()
+		test(`test uri-template-lite`, function ()
 		{
 			//console.log('it:inner', currentTest.title);
 			//console.log('it:inner', currentTest.fullTitle());
@@ -96,46 +50,55 @@ describe(relative(__filename), () =>
 
 			//currentTest[SymbolLogOutput] = `${source} <=> ${expected}`;
 
-			expect(actual).to.be.deep.equal(expected);
+			expect(actual).toStrictEqual(expected);
 
-			let template2 = new UriTemplate(routerToRfc6570(rfc6570ToRouter(routerToRfc6570(source))));
+			let template2 = new UriTemplate(_rfc6570ToRouterToRfc6570(routerToRfc6570(source)));
 
-			let actual2 = template.expand({
+			let actual2 = template2.expand({
 				user: 'foo/bar'
 			});
 
-			expect(actual2).to.be.deep.equal(expected);
+			expect(actual2).toMatchSnapshot(expected);
 
 		});
 
-		// @ts-ignore
-		it(`test uri-template-lite`, function ()
+});
+
+describe('expandRfc6570', () =>
+{
+
+	describe('router', () =>
+	{
+		test.each(fixturesRouter.map(({
+			input,
+			...testData
+		}) => {
+			return {
+				input: input ?? testData.expectedRouter ?? rfc6570ToRouter(testData.expectedRfc6570),
+				...testData,
+			} satisfies ITestData;
+		}))('$input <=> $expectedRfc6570 → expanded: $expectedExpandedUrl', function (testData)
 		{
-			//console.log('it:inner', currentTest.title);
-			//console.log('it:inner', currentTest.fullTitle());
-
-			let source = `/users/:u`;
-
-			let template = new UriTemplate(routerToRfc6570(source));
-
-			let actual = template.expand({
-				u: 'foo/bar'
-			});
-			let expected = `/users/foo/bar`;
-
-			//currentTest[SymbolLogOutput] = `${source} <=> ${expected}`;
-
-			expect(actual).to.be.deep.equal(expected);
-
-			let template2 = new UriTemplate(routerToRfc6570(rfc6570ToRouter(routerToRfc6570(source))));
-
-			let actual2 = template.expand({
-				u: 'foo/bar'
-			});
-
-			expect(actual2).to.be.deep.equal(expected);
-
+			_testExpandRfc6570(routerToRfc6570(testData.input) , testData.expectedRfc6570, testData);
 		});
 
 	});
+
+	describe('rfc6570', () =>
+	{
+		test.each(fixturesRouter.map(({
+			input,
+			...testData
+		}) => {
+			return {
+				input: testData.expectedRfc6570 ?? routerToRfc6570(testData.expectedRouter!),
+				...testData,
+			} satisfies ITestData;
+		}))('$input → expanded: $expectedExpandedUrl', function (testData)
+		{
+			_testExpandRfc6570(testData.input , testData.expectedRfc6570, testData);
+		});
+
+	});
+
 });
