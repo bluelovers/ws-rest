@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`modifiers > * explode modifier > explodes assoc with Label: {.keys*} (upstream uses "," instead of "." as pair separator) 1`] = `".k1=v1,k2=v2"`;
+
+exports[`modifiers > :N prefix-length modifier > truncates array to N elements: {list:2} (upstream ignores :N for arrays) 1`] = `"a,b,c"`;
