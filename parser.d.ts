@@ -5,6 +5,8 @@
  * 提供解析路由變數與擴展 URI 模板的功能
  * Provides functionality for parsing router variables and expanding URI templates
  */
+import UriTemplate from 'uri-template-lite';
+import { ITSValueOrArrayMaybeReadonly } from 'ts-type';
 export type IExpandDataInput = Record<string, unknown>;
 /**
  * 解析路由 URL 中的變數名稱
@@ -100,7 +102,7 @@ export declare function expandRouter<M extends IExpandDataInput = IExpandDataInp
  * // → { q: 'hello' }
  * ```
  */
-export declare function matchRfc6570(template: string, uri: string): Record<string, string> | undefined;
+export declare function matchRfc6570<T extends Record<string, string>>(template: ITSValueOrArrayMaybeReadonly<string>, uri: string): T | undefined;
 export { matchRfc6570 as match };
 /**
  * 以 Router 語法模板匹配 URI
@@ -123,5 +125,10 @@ export { matchRfc6570 as match };
  * // → undefined
  * ```
  */
-export declare function matchRouter(template: string, uri: string): Record<string, string> | undefined;
+export declare function matchRouter<T extends Record<string, string>>(template: ITSValueOrArrayMaybeReadonly<string>, uri: string): T | undefined;
+/**
+ * @internal
+ */
+export declare function _createUriTemplate(template: ITSValueOrArrayMaybeReadonly<string>): UriTemplate;
+export declare function _handleInput(template: ITSValueOrArrayMaybeReadonly<string>): string;
 export default parseRouterVars;

@@ -10,6 +10,7 @@ import execall from 'execall2';
 // @ts-ignore
 import UriTemplate from 'uri-template-lite';
 import routerToRfc6570 from '.';
+import { ITSValueOrArrayMaybeReadonly } from 'ts-type';
 
 export type IExpandDataInput = Record<string, unknown>;
 
@@ -146,7 +147,7 @@ export function expandRfc6570<M extends IExpandDataInput = IExpandDataInput, K e
 
 	return {
 		router: url,
-		url: new UriTemplate(url).expand(data) as string,
+		url: _createUriTemplate(url).expand(data) as string,
 		...ret,
 	}
 }
@@ -187,9 +188,9 @@ export function expandRouter<M extends IExpandDataInput = IExpandDataInput, K ex
  * // → { q: 'hello' }
  * ```
  */
-export function matchRfc6570(template: string, uri: string): Record<string, string> | undefined
+export function matchRfc6570<T extends Record<string, string>>(template: ITSValueOrArrayMaybeReadonly<string>, uri: string): T | undefined
 {
-	const result = new UriTemplate(template).match(uri);
+	const result = _createUriTemplate(template).match(uri) as T;
 
 	/**
 	 * uri-template-lite 在不匹配時回傳 null，統一轉換為 undefined 以符合慣例
@@ -221,9 +222,27 @@ export { matchRfc6570 as match }
  * // → undefined
  * ```
  */
-export function matchRouter(template: string, uri: string): Record<string, string> | undefined
+export function matchRouter<T extends Record<string, string>>(template: ITSValueOrArrayMaybeReadonly<string>, uri: string): T | undefined
 {
-	return matchRfc6570(routerToRfc6570(template), uri);
+	return matchRfc6570(routerToRfc6570(_handleInput(template)), uri) as T;
+}
+
+/**
+ * @internal
+ */
+export function _createUriTemplate(template: ITSValueOrArrayMaybeReadonly<string>)
+{
+	return new UriTemplate(_handleInput(template));
+}
+
+export function _handleInput(template: ITSValueOrArrayMaybeReadonly<string>): string
+{
+	if (typeof template !== 'string' && template)
+	{
+		template = template.join('');
+	}
+
+	return template as string;
 }
 
 export default parseRouterVars

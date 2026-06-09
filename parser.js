@@ -14,6 +14,8 @@ exports.expandRouter = expandRouter;
 exports.matchRfc6570 = matchRfc6570;
 exports.match = matchRfc6570;
 exports.matchRouter = matchRouter;
+exports._createUriTemplate = _createUriTemplate;
+exports._handleInput = _handleInput;
 const tslib_1 = require("tslib");
 const execall2_1 = tslib_1.__importDefault(require("execall2"));
 // @ts-ignore
@@ -129,7 +131,7 @@ function expandRfc6570(url, data) {
     });
     return {
         router: url,
-        url: new uri_template_lite_1.default(url).expand(data),
+        url: _createUriTemplate(url).expand(data),
         ...ret,
     };
 }
@@ -166,7 +168,7 @@ function expandRouter(url, data) {
  * ```
  */
 function matchRfc6570(template, uri) {
-    const result = new uri_template_lite_1.default(template).match(uri);
+    const result = _createUriTemplate(template).match(uri);
     /**
      * uri-template-lite 在不匹配時回傳 null，統一轉換為 undefined 以符合慣例
      * uri-template-lite returns null on no match; normalize to undefined
@@ -195,7 +197,19 @@ function matchRfc6570(template, uri) {
  * ```
  */
 function matchRouter(template, uri) {
-    return matchRfc6570((0, _1.default)(template), uri);
+    return matchRfc6570((0, _1.default)(_handleInput(template)), uri);
+}
+/**
+ * @internal
+ */
+function _createUriTemplate(template) {
+    return new uri_template_lite_1.default(_handleInput(template));
+}
+function _handleInput(template) {
+    if (typeof template !== 'string' && template) {
+        template = template.join('');
+    }
+    return template;
 }
 exports.default = parseRouterVars;
 //# sourceMappingURL=parser.js.map
